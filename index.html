@@ -569,7 +569,7 @@ p{text-align:justify;text-justify:inter-word}
       <div class="s"><span class="n">2.</span><span class="lbl">Seminario 2 · VMFPD —</span> Manipulación visceral para los trastornos pélvicos femeninos</div>
     </div>
     <h2 style="color:#fff;font-size:clamp(1.35rem,3.2vw,1.95rem);margin:38px 0 0;line-height:1.25;font-weight:700">Domina la esfera urogenital <span style="color:#0CBFC2">con el referente</span></h2>
-    <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:30px"><a class="cta" style="margin-top:0" href="#urogenital-info">Inscribirme</a><a href="#formaciones" style="display:inline-block;background:transparent;color:#0CBFC2;border:2px solid rgba(12,191,194,.6);font-weight:700;padding:15px 30px;border-radius:40px;text-decoration:none">Ver la formación completa</a><a href="Temario-UGM-walam.pdf" target="_blank" rel="noopener" style="display:inline-block;background:transparent;color:#0CBFC2;border:2px solid rgba(12,191,194,.6);font-weight:700;padding:15px 30px;border-radius:40px;text-decoration:none">📄 Conoce el curso</a></div>
+    <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:30px"><a class="cta" style="margin-top:0" href="#urogenital-info">Inscribirme</a><a href="Temario-UGM-walam.pdf" target="_blank" rel="noopener" style="display:inline-block;background:transparent;color:#0CBFC2;border:2px solid rgba(12,191,194,.6);font-weight:700;padding:15px 30px;border-radius:40px;text-decoration:none">📄 Conoce el curso</a></div>
     <div style="display:flex;flex-wrap:wrap;gap:10px 26px;justify-content:center;margin-top:40px;padding-top:26px;border-top:1px solid rgba(255,255,255,.18)"><span style="display:inline-flex;align-items:center;gap:8px;font-size:.9rem;color:rgba(255,255,255,.82)"><i style="width:7px;height:7px;border-radius:50%;background:#0CBFC2;display:inline-block;flex:none"></i> Barcelona · Presencial</span><span style="display:inline-flex;align-items:center;gap:8px;font-size:.9rem;color:rgba(255,255,255,.82)"><i style="width:7px;height:7px;border-radius:50%;background:#0CBFC2;display:inline-block;flex:none"></i> Traducción al castellano</span><span style="display:inline-flex;align-items:center;gap:8px;font-size:.9rem;color:rgba(255,255,255,.82)"><i style="width:7px;height:7px;border-radius:50%;background:#0CBFC2;display:inline-block;flex:none"></i> Certificado de asistencia</span><span style="display:inline-flex;align-items:center;gap:8px;font-size:.9rem;color:rgba(255,255,255,.82)"><i style="width:7px;height:7px;border-radius:50%;background:#0CBFC2;display:inline-block;flex:none"></i> Formación completa · 2 seminarios</span></div>
   </div>
 </section>
@@ -890,4 +890,18 @@ p{text-align:justify;text-justify:inter-word}
  requestAnimationFrame(frame);
 })();
 </script>
-</body></html>
+<script>
+(function(){
+  var DIRECT='https://walam-bcn.github.io/formacion-olivier-bazin/';
+  var embedded=(window.self!==window.top);
+  document.addEventListener('click',function(e){
+    var t=e.target; var a=t.closest?t.closest('a[href^="#"]'):null;
+    if(!a)return;
+    var hash=a.getAttribute('href');
+    if(!hash||hash.length<2)return;
+    if(embedded){ e.preventDefault(); window.open(DIRECT+hash,'_blank','noopener'); return; }
+    var el=document.querySelector(hash);
+    if(el){ e.preventDefault(); el.scrollIntoView({behavior:'smooth',block:'start'}); }
+  },false);
+})();
+</script></body></html>
