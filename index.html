@@ -237,9 +237,9 @@ h1,h2,h3,h4{font-weight:700;line-height:1.16;letter-spacing:-.01em}
 
 /* ===== MEJORA MÓVIL/TABLET ===== */
 html,body{overflow-x:hidden;max-width:100%}
-*{min-width:0}
-img,video,iframe,svg{max-width:100%;height:auto}
+img,video,iframe{max-width:100%}
 @media(max-width:600px){
+  *{min-width:0}
   .wrap{padding-left:18px;padding-right:18px;grid-template-columns:1fr!important;gap:26px!important}
   section{padding:42px 0}
   .medals{grid-template-columns:1fr!important;gap:12px}
@@ -667,7 +667,7 @@ p{text-align:justify;text-justify:inter-word}
 </div></section>
 
 <!-- INFO PRÁCTICA + PRECIO Urogenital (sustituye banda Profundiza) -->
-<section style="background:#1D3F40;padding:0 0 56px;margin-top:-26px" id="urogenital-detalle">
+<section style="background:#1D3F40;padding:42px 0 56px;margin-top:-26px" id="urogenital-detalle">
   <style>
     .uinfo{max-width:1000px;margin:0 auto;padding:0 24px}
     .uinfo-eyebrow{display:block;text-align:center;font-size:.72rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:#0CBFC2;margin-bottom:8px}
