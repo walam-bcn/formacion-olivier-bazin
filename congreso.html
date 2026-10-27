@@ -131,7 +131,15 @@ h2{font-size:clamp(1.8rem,4vw,2.7rem)}
 .mode button{font-family:inherit;border:0;background:none;padding:11px 26px;border-radius:40px;font-weight:600;font-size:.95rem;color:var(--mut);cursor:pointer;display:flex;align-items:center;gap:8px;transition:.2s}
 .mode button svg{width:18px;height:18px}
 .mode button[aria-pressed="true"]{background:var(--pet);color:var(--wh)}
-.plans{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;align-items:stretch}
+.plans{display:grid;grid-template-columns:repeat(2,minmax(0,420px));justify-content:center;gap:28px;align-items:stretch}
+.plan.wk{border-color:var(--tq)}
+.tiers{list-style:none;margin:4px 0 0!important;gap:0!important;flex:none!important;border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.tiers .tier{display:flex;justify-content:space-between;align-items:center;padding:12px 16px;border-bottom:1px solid var(--line);font-size:.92rem;font-weight:500}
+.tiers .tier:last-child{border-bottom:0;background:var(--tq-l)}
+.tp{display:flex;align-items:baseline;gap:8px;white-space:nowrap}
+.tp b{font-size:1.25rem;font-weight:800;color:var(--pet)}
+.tp s{font-size:.8rem;color:var(--mut)}
+.tp em{font-style:normal;font-size:.72rem;font-weight:700;color:var(--pet);background:var(--tq);padding:2px 7px;border-radius:10px}
 .plan{background:var(--wh);border:2px solid var(--line);border-radius:24px;padding:32px 28px;display:flex;flex-direction:column;position:relative;transition:.2s}
 .plan.feat{border-color:var(--tq);box-shadow:0 20px 50px rgba(12,191,194,.2);transform:translateY(-8px)}
 .plan .badge{position:absolute;top:-14px;left:50%;transform:translateX(-50%);background:var(--tq);color:var(--pet);font-size:.74rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;padding:6px 14px;border-radius:20px;white-space:nowrap}
@@ -593,17 +601,14 @@ const CONGRESO = {
       presencial: [640, 720, 800], streaming: [350, 400, 450],
       includes: { presencial: ["Todas las ponencias y mesas redondas", "Pausas café y comida", "Documentación y certificado"],
                   streaming:  ["Emisión en directo de todas las ponencias", "Grabaciones durante {replay} días", "Certificado online", "Acceso personal: 1 usuario, 1 dispositivo"] },
-      excludes: ["Talleres precongreso"] },
-    { id: "pack", name: "Congreso + talleres", desc: "La experiencia completa: congreso y talleres prácticos.", featured: true,
-      presencial: [1190, 1270, 1350], streaming: [null, null, null],
-      includes: { presencial: ["Todo lo de la entrada Congreso", "Acceso a 2 talleres precongreso a elegir", "Plaza reservada en grupos reducidos"],
-                  streaming:  ["Los talleres son prácticos y solo presenciales"] },
-      excludes: [] },
-    { id: "talleres", name: "Solo talleres", desc: "Si solo te interesa la parte práctica.",
-      presencial: [300, 300, 300], streaming: [null, null, null], unit: "/ taller",
-      includes: { presencial: ["Taller práctico de 4 horas", "Grupo reducido", "Certificado del taller"],
-                  streaming:  ["Los talleres son prácticos y solo presenciales"] },
-      excludes: ["Acceso al congreso"] }
+      excludes: ["Talleres precongreso (se compran aparte)"] }
+  ],
+
+  // Talleres: se compran APARTE de la entrada al congreso. Mismo precio en todas las fases.
+  workshopPrice: 300,            // precio de un taller de 4 horas
+  workshopBundles: [             // packs de varios talleres
+    { n: 2, price: 570 },        // −5 %
+    { n: 4, price: 1080, label: "Los 4 talleres" }   // −10 %
   ],
 
   // Tarifas especiales
@@ -721,7 +726,7 @@ const CONGRESO = {
   faqs: [
     ["¿A quién va dirigido el congreso?", "A fisioterapeutas, osteópatas, matronas, ginecólogos, urólogos y otros profesionales sanitarios que trabajan con la salud pélvica, así como a estudiantes de estas disciplinas."],
     ["¿Cómo funcionan las fases de precio?", "Hay tres tarifas: Early Bird (hasta dos meses antes del congreso), Reducida (hasta un mes antes) y General (el último mes). Se aplica el precio vigente en el momento del pago."],
-    ["¿Puedo comprar solo los talleres?", "Sí. Los talleres pueden comprarse sueltos o en el pack Congreso + talleres, que sale más económico. Son presenciales y con plazas limitadas."],
+    ["¿Los talleres están incluidos en la entrada?", "No, se compran aparte. Cada taller de 4 horas cuesta 300 €; comprando 2 o los 4 talleres hay descuento. Puedes comprarlos con o sin entrada al congreso. Son presenciales, no se graban y tienen plazas limitadas."],
     ["¿Qué incluye la entrada en streaming?", "Emisión en directo de todas las ponencias y mesas redondas, la posibilidad de enviar preguntas y acceso a las grabaciones durante un tiempo limitado. Los talleres prácticos no se emiten."],
     ["¿Puedo quedarme con las grabaciones?", "Sí. Con el pack de grabaciones tienes acceso a todas las ponencias grabadas durante más tiempo, para revisarlas cuando quieras. Puedes añadirlo a tu entrada o comprarlo suelto después del congreso."],
     ["¿Cómo presento un abstract?", "Consulta la sección Abstracts: allí están las áreas temáticas, las normas y las fechas de envío. Al menos un autor debe estar inscrito en el congreso."],
@@ -739,7 +744,7 @@ const CONGRESO = {
 /* ============================================================ */
 const $ = (s, el = document) => el.querySelector(s);
 const C = CONGRESO;
-const eur = n => n.toLocaleString("es-ES") + " €";
+const eur = n => n.toLocaleString("es-ES", { useGrouping: "always" }) + "\u00a0€";
 const waLink = msg => "https://wa.me/" + C.whatsapp + "?text=" + encodeURIComponent(msg);
 const DAY = 864e5;
 
@@ -807,7 +812,27 @@ function renderPlans() {
       <ul>${inc}${exc}</ul>
       <a class="btn ${pl.featured ? "btn-tq" : "btn-dk"}" href="${waLink(msg)}" target="_blank" rel="noopener" ${avail ? "" : 'aria-disabled="true" tabindex="-1"'}>${avail ? "Reservar plaza" : "No disponible online"}</a>
     </article>`;
+  }).join("") + renderWorkshopCard();
+}
+function renderWorkshopCard() {
+  const P = C.workshopPrice;
+  const rows = [{ n: 1, price: P }, ...C.workshopBundles].map(b => {
+    const full = b.n * P, pct = Math.round((1 - b.price / full) * 100);
+    return `<li class="tier"><span>${b.label ? b.label : b.n === 1 ? "1 taller" : b.n + " talleres"}</span>
+      <span class="tp">${pct > 0 ? `<s>${eur(full)}</s>` : ""}<b>${eur(b.price)}</b>${pct > 0 ? `<em>−${pct} %</em>` : ""}</span></li>`;
   }).join("");
+  const msg = "Hola, quiero reservar talleres del congreso de salud pélvica. ¿Me enviáis los datos bancarios para hacer la transferencia?";
+  return `<article class="plan wk">
+    <span class="badge">Se compran aparte</span>
+    <h3>Talleres precongreso</h3><p class="desc">Prácticos, de 4 horas, en grupo reducido. Puedes añadirlos a tu entrada o comprarlos sin entrada.</p>
+    <ul class="tiers">${rows}</ul>
+    <ul>
+      <li>${icon("i-check")}Solo presenciales; no se graban</li>
+      <li>${icon("i-check")}Certificado de cada taller</li>
+      <li>${icon("i-check")}Plazas limitadas por orden de pago</li>
+    </ul>
+    <a class="btn btn-tq" href="${waLink(msg)}" target="_blank" rel="noopener">Reservar talleres</a>
+  </article>`;
 }
 document.querySelectorAll("[data-mode]").forEach(b => b.addEventListener("click", () => {
   mode = b.dataset.mode;
@@ -826,6 +851,8 @@ renderPlans();
       h += `<tr><td>${pl.name}${pl.unit ? " " + pl.unit : ""}</td>${pl[m].map((v, i) => `<td class="${i === active ? "on" : ""}">${v == null ? "—" : eur(v)}</td>`).join("")}</tr>`;
     }
   }
+  h += `<tr class="grp"><td colspan="${C.phases.length + 1}">Talleres (aparte, solo presenciales)</td></tr>`;
+  h += [{ n: 1, price: C.workshopPrice }, ...C.workshopBundles].map(b => `<tr><td>${b.n === 1 ? "1 taller" : b.n + " talleres"}</td><td colspan="${C.phases.length}">${eur(b.price)}</td></tr>`).join("");
   const st = C.plans[0].streaming, gen = C.plans[0].presencial[C.phases.length - 1];
   h += `<tr class="grp"><td colspan="${C.phases.length + 1}">Tarifas especiales</td></tr>`;
   h += `<tr><td>Estudiantes y residentes · streaming (con acreditación)</td>${st.map((v, i) => `<td class="${i === active ? "on" : ""}">${eur(v - C.studentDiscount)}</td>`).join("")}</tr>`;
