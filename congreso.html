@@ -189,6 +189,18 @@ h2{font-size:clamp(1.8rem,4vw,2.7rem)}
 .rec .btn{margin-top:10px;padding:10px 20px;font-size:.88rem}
 @media(max-width:760px){.rec{grid-template-columns:1fr;text-align:left}.rec .pr{text-align:left}}
 
+/* Payment */
+.pay{margin-top:40px;background:var(--wh);border:2px solid var(--line);border-radius:24px;padding:34px}
+.pay-head h3{font-size:1.35rem;margin-bottom:6px}
+.pay-head p{color:var(--mut);font-size:.95rem}
+.steps{list-style:none;counter-reset:st;display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin:26px 0}
+.steps li{counter-increment:st;background:var(--tq-l);border-radius:16px;padding:20px 20px 20px 62px;position:relative;font-size:.9rem;color:var(--mut);line-height:1.5}
+.steps li::before{content:counter(st);position:absolute;left:18px;top:18px;width:32px;height:32px;border-radius:50%;background:var(--pet);color:var(--wh);display:grid;place-items:center;font-weight:700}
+.steps b{display:block;color:var(--pet);font-size:1rem;margin-bottom:2px}
+.pay-warn{display:flex;gap:14px;align-items:flex-start;background:rgba(12,191,194,.1);border-left:4px solid var(--tq);border-radius:12px;padding:16px 18px;font-size:.9rem}
+.pay-warn svg{flex:none;width:22px;height:22px;stroke:var(--pet);margin-top:2px}
+@media(max-width:800px){.steps{grid-template-columns:1fr}.pay{padding:24px}}
+
 /* Venue */
 .venue .cols{display:grid;grid-template-columns:1fr 1fr;gap:28px}
 .vbox{border-radius:22px;padding:34px;background:var(--pet);color:var(--wh);position:relative;overflow:hidden}
@@ -245,6 +257,7 @@ footer nav{display:flex;gap:18px;flex-wrap:wrap}
   <symbol id="i-layers" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 2 10 5-10 5L2 7z"/><path d="m2 17 10 5 10-5M2 12l10 5 10-5"/></symbol>
   <symbol id="i-users" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="7" r="4"/><path d="M1 21v-2a4 4 0 0 1 4-4h8a4 4 0 0 1 4 4v2M16 3.1a4 4 0 0 1 0 7.8M23 21v-2a4 4 0 0 0-3-3.9"/></symbol>
   <symbol id="i-play" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="3"/><path d="m10 9 5 3-5 3z"/></symbol>
+  <symbol id="i-alert" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 8v4M12 16h.01"/></symbol>
   <symbol id="i-book" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V2H6.5A2.5 2.5 0 0 0 4 4.5z"/><path d="M4 19.5A2.5 2.5 0 0 0 6.5 22H20v-5"/></symbol>
 </svg>
 
@@ -260,7 +273,7 @@ footer nav{display:flex;gap:18px;flex-wrap:wrap}
       <a href="#sede">Sede</a>
       <a href="#faq">FAQ</a>
     </nav>
-    <a class="btn btn-tq" href="#entradas">Comprar entrada</a>
+    <a class="btn btn-tq" href="#entradas">Reservar plaza</a>
     <button class="menu-t" aria-label="Abrir menú" aria-controls="nav" aria-expanded="false">&#9776;</button>
   </div>
 </header>
@@ -380,6 +393,19 @@ footer nav{display:flex;gap:18px;flex-wrap:wrap}
     <div class="rec reveal" id="rec"></div>
 
     <div class="disc" id="discounts"></div>
+    <div class="pay reveal">
+      <div class="pay-head">
+        <span class="eyebrow">Forma de pago</span>
+        <h3>Pago por transferencia bancaria</h3>
+        <p>No aceptamos tarjeta. Así evitamos las comisiones de las plataformas de pago y podemos mantener los precios.</p>
+      </div>
+      <ol class="steps">
+        <li><b>Reserva</b>Pulsa «Reservar plaza» y te enviamos por WhatsApp los datos bancarios y el importe exacto.</li>
+        <li><b>Transfiere en euros</b>El importe debe llegar íntegro en euros (€). Indica en el concepto tu nombre y «Congreso».</li>
+        <li><b>Envía el justificante</b>Mándanos el comprobante y te confirmamos la plaza.</li>
+      </ol>
+      <div class="pay-warn"><svg><use href="#i-alert"/></svg><p><b>Las comisiones bancarias corren a cargo del participante.</b> Si pagas desde fuera de la zona SEPA o en otra moneda, elige la opción de gastos <b>«OUR»</b> en tu banco para que recibamos el importe completo en euros. Si llega una cantidad inferior, se pedirá la diferencia para confirmar la plaza.</p></div>
+    </div>
     <p class="fine" data-f="pricesNote"></p>
 
     <div class="cmp reveal">
@@ -446,7 +472,7 @@ footer nav{display:flex;gap:18px;flex-wrap:wrap}
     <h2>Reserva tu plaza al mejor precio</h2>
     <p id="cta-p">Las plazas presenciales y de talleres son limitadas.</p>
     <div class="btn-row">
-      <a class="btn btn-tq" href="#entradas">Comprar entrada</a>
+      <a class="btn btn-tq" href="#entradas">Reservar plaza</a>
       <a class="btn btn-gh" href="#" data-wa="Hola, quiero que me aviséis cuando se publique el programa del congreso de salud pélvica.">Avísame del programa</a>
     </div>
   </div>
@@ -552,7 +578,7 @@ const CONGRESO = {
     rules: ["Máximo 300 palabras, en español o inglés", "Estructura: introducción, objetivos, método, resultados y conclusiones", "Formato comunicación oral o póster", "Al menos un autor debe estar inscrito en el congreso"]
   },
 
-  pricesNote: "Precios provisionales, IVA incluido. La fase se aplica según la fecha de pago.",
+  pricesNote: "Precios provisionales, IVA incluido. Pago únicamente por transferencia bancaria en euros. La tarifa se aplica según la fecha de la transferencia.",
 
   workshops: [
     { title: "Taller 1 · Por anunciar", when: "Día previo · mañana", desc: "Contenido y docente pendientes de confirmar.", speaker: "Por anunciar", seats: 20 },
@@ -626,6 +652,8 @@ const CONGRESO = {
     ["¿Puedo quedarme con las grabaciones?", "Sí. Con el pack de grabaciones tienes acceso a todas las ponencias grabadas durante más tiempo, para revisarlas cuando quieras. Puedes añadirlo a tu entrada o comprarlo suelto después del congreso."],
     ["¿Cómo presento un abstract?", "Consulta la sección Abstracts: allí están las áreas temáticas, las normas y las fechas de envío. Al menos un autor debe estar inscrito en el congreso."],
     ["¿Habrá certificado?", "Sí, todas las modalidades incluyen certificado de asistencia."],
+    ["¿Cómo se paga la inscripción?", "Solo por transferencia bancaria en euros; no se acepta tarjeta. Los gastos y comisiones bancarias corren a cargo del participante: desde fuera de la zona SEPA elige la opción «OUR» para que el importe llegue completo. La plaza se confirma al recibir el pago."],
+    ["¿Qué fecha cuenta para la tarifa Early Bird?", "La fecha de la transferencia. Envíanos el justificante el mismo día para asegurar la tarifa."],
     ["¿Cuál es la política de cancelación?", "Puedes consultarla en nuestra <a href=\"Politica-cancelacion.pdf\">política de cancelación</a>."]
   ]
 };
@@ -693,13 +721,13 @@ function renderPlans() {
     const save = avail && next > cur ? `Ahorras ${eur(next - cur)} con la tarifa ${C.phases[active].name}` : "";
     const inc = pl.includes[mode].map(t => `<li>${icon("i-check")}${t.replace("{replay}", C.replayDays)}</li>`).join("");
     const exc = avail ? pl.excludes.map(t => `<li class="no">${icon("i-x")}${t}</li>`).join("") : "";
-    const msg = `Hola, quiero comprar la entrada "${pl.name}" (${mode}) del congreso de salud pélvica, tarifa ${C.phases[active].name}.`;
+    const msg = `Hola, quiero reservar la entrada "${pl.name}" (${mode}) del congreso de salud pélvica, tarifa ${C.phases[active].name}. ¿Me enviáis los datos bancarios para hacer la transferencia?`;
     return `<article class="plan${pl.featured ? " feat" : ""}">
       ${pl.featured ? '<span class="badge">Más completa</span>' : ""}
       <h3>${pl.name}</h3><p class="desc">${pl.desc}</p>
       <div class="price">${priceHtml}</div><div class="save">${save}</div>
       <ul>${inc}${exc}</ul>
-      <a class="btn ${pl.featured ? "btn-tq" : "btn-dk"}" href="${waLink(msg)}" target="_blank" rel="noopener" ${avail ? "" : 'aria-disabled="true" tabindex="-1"'}>${avail ? "Comprar entrada" : "No disponible online"}</a>
+      <a class="btn ${pl.featured ? "btn-tq" : "btn-dk"}" href="${waLink(msg)}" target="_blank" rel="noopener" ${avail ? "" : 'aria-disabled="true" tabindex="-1"'}>${avail ? "Reservar plaza" : "No disponible online"}</a>
     </article>`;
   }).join("");
 }
@@ -731,7 +759,7 @@ renderPlans();
   const R = C.recordings;
   $("#rec").innerHTML = `<div class="ic"><svg><use href="#i-play"/></svg></div>
     <div><h3>Pack de grabaciones</h3><p>Guarda todas las ponencias del congreso y vuelve a verlas cuando quieras durante ${R.access}. Añádelo a cualquier entrada, presencial o streaming, o cómpralo suelto después del congreso por ${eur(R.standalone)}.</p></div>
-    <div class="pr"><small>Con tu entrada</small><b>+${eur(R.addon)}</b><a class="btn btn-tq" target="_blank" rel="noopener" href="${waLink("Hola, quiero añadir el pack de grabaciones del congreso de salud pélvica a mi entrada.")}">Añadir</a></div>`;
+    <div class="pr"><small>Con tu entrada</small><b>+${eur(R.addon)}</b><a class="btn btn-tq" target="_blank" rel="noopener" href="${waLink("Hola, quiero añadir el pack de grabaciones del congreso de salud pélvica a mi entrada. ¿Me enviáis los datos para la transferencia?")}">Añadir</a></div>`;
 }
 
 /* Abstracts */
