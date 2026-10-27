@@ -150,9 +150,15 @@ h2{font-size:clamp(1.8rem,4vw,2.7rem)}
 .plan .btn[aria-disabled="true"]{opacity:.4;pointer-events:none}
 @media(max-width:900px){.plans{grid-template-columns:1fr;max-width:460px;margin:0 auto}.plan.feat{transform:none}}
 @media(max-width:560px){.phases{grid-template-columns:1fr;gap:18px}.phase::before{display:none}.mode button{padding:10px 16px;font-size:.88rem}}
-.disc{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px;margin-top:40px}
+.disc{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:40px}
+@media(max-width:700px){.disc{grid-template-columns:1fr}}
 .disc div{background:var(--wh);border:1px dashed var(--tq);border-radius:16px;padding:18px 20px;font-size:.9rem}
 .disc b{display:block;font-weight:600;margin-bottom:2px}
+.cond{grid-column:1/-1;background:var(--wh);border:1px solid var(--line);border-radius:16px;padding:14px 20px;font-size:.88rem}
+.cond summary{cursor:pointer;font-weight:600}
+.cond ul{margin:10px 0 4px 18px;color:var(--mut);display:flex;flex-direction:column;gap:6px}
+.cond-s{grid-column:1/-1;display:flex;gap:10px;align-items:flex-start;font-size:.85rem;color:var(--mut);margin:0}
+.cond-s svg{flex:none;width:18px;height:18px;stroke:var(--tq);margin-top:2px}
 .fine{font-size:.8rem;color:var(--mut);text-align:center;margin-top:26px}
 .cmp{margin-top:56px;overflow-x:auto;-webkit-overflow-scrolling:touch}
 .cmp table{width:100%;min-width:620px;border-collapse:collapse;background:var(--wh);border-radius:18px;overflow:hidden;font-size:.9rem}
@@ -476,6 +482,7 @@ footer nav{display:flex;gap:18px;flex-wrap:wrap}
           <li>Preguntas a los ponentes por chat</li>
           <li data-f="replayLi"></li>
           <li>Certificado de asistencia online</li>
+          <li>Acceso personal e intransferible (1 usuario, 1 dispositivo)</li>
         </ul>
       </div>
     </div>
@@ -585,7 +592,7 @@ const CONGRESO = {
     { id: "congreso", name: "Congreso · 4 días", desc: "Acceso a las cuatro jornadas del congreso.",
       presencial: [640, 720, 800], streaming: [350, 400, 450],
       includes: { presencial: ["Todas las ponencias y mesas redondas", "Pausas café y comida", "Documentación y certificado"],
-                  streaming:  ["Emisión en directo de todas las ponencias", "Grabaciones durante {replay} días", "Certificado online"] },
+                  streaming:  ["Emisión en directo de todas las ponencias", "Grabaciones durante {replay} días", "Certificado online", "Acceso personal: 1 usuario, 1 dispositivo"] },
       excludes: ["Talleres precongreso"] },
     { id: "pack", name: "Congreso + talleres", desc: "La experiencia completa: congreso y talleres prácticos.", featured: true,
       presencial: [780, 880, 980], streaming: [null, null, null],
@@ -599,11 +606,20 @@ const CONGRESO = {
       excludes: ["Acceso al congreso"] }
   ],
 
+  // Tarifas especiales
+  studentDiscount: 50,       // € de descuento sobre el precio STREAMING vigente (solo streaming)
+  alumniPct: 5,              // % de descuento alumnos WA LAM, SOLO sobre la tarifa General
   discounts: [
-    ["Estudiantes y residentes", "−20 % presentando acreditación."],
-    ["Alumnos WA LAM", "Precio especial para alumnos de nuestras formaciones."],
-    ["Grupos", "A partir de 4 inscripciones, consúltanos."]
+    ["Estudiantes y residentes · solo streaming", "−{student} € sobre la entrada en streaming. No aplicable a la modalidad presencial. Requiere acreditación verificada antes del pago (ver condiciones)."],
+    ["Alumnos WA LAM", "−{alumni} % sobre la tarifa General. No aplicable a Early Bird ni a Reducida, ni acumulable con otras tarifas."]
   ],
+  studentRules: [
+    "Estudiantes: certificado de matrícula oficial del curso académico en vigor (grado o máster sanitario), a tu nombre.",
+    "Residentes: certificado de la unidad docente o del tutor, con año de residencia y fecha de finalización.",
+    "DNI o pasaporte; el nombre debe coincidir con el del certificado.",
+    "Enviar la documentación antes de pagar: se valida y entonces se envían los datos bancarios. Sin validación no se aplica el descuento."
+  ],
+  streamingRules: "Acceso personal e intransferible: un usuario, un dispositivo a la vez. Está prohibido proyectar o compartir la emisión con otras personas; el acceso se anulará sin reembolso si se detecta un uso compartido.",
   // Pack de grabaciones: para guardar las ponencias más allá del congreso.
   recordings: {
     access: "12 meses",                      // tiempo de acceso a la videoteca
@@ -711,6 +727,8 @@ const CONGRESO = {
     ["¿Cómo presento un abstract?", "Consulta la sección Abstracts: allí están las áreas temáticas, las normas y las fechas de envío. Al menos un autor debe estar inscrito en el congreso."],
     ["¿Quién evalúa los abstracts?", "El comité médico y científico del congreso, formado por especialistas de distintas disciplinas. La evaluación es anónima."],
     ["¿Qué diferencia hay entre entidades avaladoras y patrocinadores?", "Las entidades avaladoras son sociedades científicas, colegios y asociaciones que respaldan la calidad científica del congreso. Los patrocinadores son empresas que colaboran económicamente."],
+    ["¿Hay descuento para estudiantes y residentes?", "Sí, pero solo en la modalidad streaming y con acreditación verificada antes del pago (certificado de matrícula o de residencia y DNI). En la modalidad presencial no hay tarifa de estudiante."],
+    ["¿Puedo compartir el streaming?", "No. El acceso es personal e intransferible: un usuario y un dispositivo a la vez. No se permite proyectarlo ni verlo en grupo; si se detecta un uso compartido, el acceso se anula sin reembolso."],
     ["¿Habrá certificado?", "Sí, todas las modalidades incluyen certificado de asistencia."],
     ["¿Cómo se paga la inscripción?", "Solo por transferencia bancaria en euros; no se acepta tarjeta. Los gastos y comisiones bancarias corren a cargo del participante: desde fuera de la zona SEPA elige la opción «OUR» para que el importe llegue completo. La plaza se confirma al recibir el pago."],
     ["¿Qué fecha cuenta para la tarifa Early Bird?", "La fecha de la transferencia. Envíanos el justificante el mismo día para asegurar la tarifa."],
@@ -808,6 +826,10 @@ renderPlans();
       h += `<tr><td>${pl.name}${pl.unit ? " " + pl.unit : ""}</td>${pl[m].map((v, i) => `<td class="${i === active ? "on" : ""}">${v == null ? "—" : eur(v)}</td>`).join("")}</tr>`;
     }
   }
+  const st = C.plans[0].streaming, gen = C.plans[0].presencial[C.phases.length - 1];
+  h += `<tr class="grp"><td colspan="${C.phases.length + 1}">Tarifas especiales</td></tr>`;
+  h += `<tr><td>Estudiantes y residentes · streaming (con acreditación)</td>${st.map((v, i) => `<td class="${i === active ? "on" : ""}">${eur(v - C.studentDiscount)}</td>`).join("")}</tr>`;
+  h += `<tr><td>Alumnos WA LAM · Congreso presencial</td>${C.phases.map((p, i) => `<td class="${i === active ? "on" : ""}">${i === C.phases.length - 1 ? eur(Math.round(gen * (1 - C.alumniPct / 100))) : "—"}</td>`).join("")}</tr>`;
   h += `<tr class="grp"><td colspan="${C.phases.length + 1}">Extras</td></tr>`;
   h += `<tr><td>Pack de grabaciones (con entrada)</td><td colspan="${C.phases.length}">+${eur(C.recordings.addon)}</td></tr>`;
   h += `<tr><td>Pack de grabaciones (sin entrada, tras el congreso)</td><td colspan="${C.phases.length}">${eur(C.recordings.standalone)}</td></tr>`;
@@ -834,7 +856,9 @@ renderPlans();
   else { b.href = waLink("Hola, quiero enviar un abstract al congreso de salud pélvica."); b.target = "_blank"; b.rel = "noopener"; }
 }
 
-$("#discounts").innerHTML = C.discounts.map(([t, d]) => `<div><b>${t}</b>${d}</div>`).join("");
+$("#discounts").innerHTML = C.discounts.map(([t, d]) => `<div><b>${t}</b>${d.replace("{student}", C.studentDiscount).replace("{alumni}", C.alumniPct)}</div>`).join("")
+  + `<details class="cond"><summary>Condiciones de la tarifa de estudiantes y residentes</summary><ul>${C.studentRules.map(r => `<li>${r}</li>`).join("")}</ul></details>`
+  + `<p class="cond-s">${icon("i-alert")}${C.streamingRules}</p>`;
 $("#stats").innerHTML = C.stats.map(([n, t]) => `<div><b>${n}</b><span>${t}</span></div>`).join("");
 $("#areas").innerHTML = C.areas.map(([ic, t, d]) => `<div class="area"><svg><use href="#${ic}"/></svg><h4>${t}</h4><p>${d}</p></div>`).join("");
 
