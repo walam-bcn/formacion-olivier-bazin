@@ -353,7 +353,7 @@ footer nav{display:flex;gap:18px;flex-wrap:wrap}
     <div class="center reveal">
       <span class="eyebrow">Antes del congreso</span>
       <h2>Talleres precongreso</h2>
-      <p class="lead">Sesiones prácticas en grupos reducidos para llevar a la camilla lo que se verá en el congreso. Plazas limitadas por taller.</p>
+      <p class="lead">Sesiones prácticas de 3–4 horas en grupos reducidos para llevar a la camilla lo que se verá en el congreso. Son presenciales, no se graban y tienen plazas limitadas.</p>
     </div>
     <div class="cards" id="workshops"></div>
   </div>
@@ -595,13 +595,13 @@ const CONGRESO = {
                   streaming:  ["Emisión en directo de todas las ponencias", "Grabaciones durante {replay} días", "Certificado online", "Acceso personal: 1 usuario, 1 dispositivo"] },
       excludes: ["Talleres precongreso"] },
     { id: "pack", name: "Congreso + talleres", desc: "La experiencia completa: congreso y talleres prácticos.", featured: true,
-      presencial: [780, 880, 980], streaming: [null, null, null],
+      presencial: [1090, 1200, 1320], streaming: [null, null, null],
       includes: { presencial: ["Todo lo de la entrada Congreso", "Acceso a 2 talleres precongreso a elegir", "Plaza reservada en grupos reducidos"],
                   streaming:  ["Los talleres son prácticos y solo presenciales"] },
       excludes: [] },
     { id: "talleres", name: "Solo talleres", desc: "Si solo te interesa la parte práctica.",
-      presencial: [120, 140, 160], streaming: [null, null, null], unit: "/ taller",
-      includes: { presencial: ["Taller práctico de medio día", "Grupo reducido", "Certificado del taller"],
+      presencial: [250, 275, 300], streaming: [null, null, null], unit: "/ taller",
+      includes: { presencial: ["Taller práctico de 3–4 horas", "Grupo reducido", "Certificado del taller"],
                   streaming:  ["Los talleres son prácticos y solo presenciales"] },
       excludes: ["Acceso al congreso"] }
   ],
