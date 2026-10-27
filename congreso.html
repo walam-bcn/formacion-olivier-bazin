@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Congreso de Salud Pélvica · WA LAM</title>
+<meta name="description" content="Congreso de salud pélvica organizado por WA LAM: talleres precongreso, programa científico, ponentes y entradas presenciales y en streaming.">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+<style>
+:root{--pet:#1D3F40;--pet-d:#132C2D;--pet-l:#27575A;--tq:#0CBFC2;--tq-l:#F2F1EE;--wh:#FFFFFF;--tx:#1D3F40;--mut:#5B7576;--line:#D6E6E6}
+*{margin:0;padding:0;box-sizing:border-box}
+[hidden]{display:none!important}
+html{scroll-behavior:smooth;background:var(--pet)}
+body{font-family:'Poppins',system-ui,sans-serif;color:var(--tx);background:var(--wh);font-weight:300;line-height:1.65;overflow-x:hidden}
+img{max-width:100%;display:block}
+a{color:inherit}
+.wrap{max-width:1180px;margin:0 auto;padding:0 24px}
+section{padding:84px 0;scroll-margin-top:70px}
+h1,h2,h3,h4{font-weight:700;line-height:1.15;letter-spacing:-.015em}
+h2{font-size:clamp(1.8rem,4vw,2.7rem)}
+.eyebrow{display:inline-block;font-weight:700;font-size:.82rem;letter-spacing:.16em;text-transform:uppercase;color:var(--tq);margin-bottom:12px}
+.lead{font-size:clamp(1rem,1.7vw,1.15rem);color:var(--mut);max-width:62ch}
+.center{text-align:center}.center .lead{margin:16px auto 0}
+.btn{display:inline-flex;align-items:center;gap:8px;text-decoration:none;font-weight:600;font-size:.95rem;padding:14px 28px;border-radius:40px;transition:.2s;cursor:pointer;border:2px solid transparent;font-family:inherit}
+.btn-tq{background:var(--tq);color:var(--pet);border-color:var(--tq)}.btn-tq:hover{background:#0aa9ac;border-color:#0aa9ac}
+.btn-gh{background:transparent;color:var(--wh);border-color:rgba(255,255,255,.55)}.btn-gh:hover{border-color:var(--tq);color:var(--tq)}
+.btn-dk{background:var(--pet);color:var(--wh);border-color:var(--pet)}.btn-dk:hover{background:var(--pet-l)}
+.tbd{display:inline-block;font-size:.72rem;font-weight:600;letter-spacing:.06em;text-transform:uppercase;background:rgba(12,191,194,.14);color:var(--tq);padding:4px 10px;border-radius:20px}
+
+/* Header */
+.top{position:sticky;top:0;z-index:50;background:rgba(29,63,64,.96);backdrop-filter:blur(8px);border-bottom:1px solid rgba(255,255,255,.08)}
+.top .wrap{display:flex;align-items:center;justify-content:space-between;height:66px;gap:20px}
+.top img{height:30px;width:auto}
+.top nav{display:flex;gap:24px;font-size:.86rem;font-weight:500}
+.top nav a{color:rgba(255,255,255,.82);text-decoration:none}.top nav a:hover{color:var(--tq)}
+.top .btn{padding:10px 20px;font-size:.86rem}
+.menu-t{display:none;background:none;border:0;color:#fff;font-size:1.6rem;cursor:pointer}
+@media(max-width:900px){.top nav{display:none;position:absolute;top:66px;left:0;right:0;background:var(--pet);flex-direction:column;padding:18px 24px 24px;gap:16px;border-bottom:1px solid rgba(255,255,255,.1)}.top nav.open{display:flex}.menu-t{display:block}.top .btn{display:none}}
+
+/* Hero */
+.hero{position:relative;background:radial-gradient(1200px 600px at 85% -10%,rgba(12,191,194,.35),transparent 60%),radial-gradient(900px 500px at -10% 110%,rgba(12,191,194,.18),transparent 60%),var(--pet);color:var(--wh);padding:96px 0 110px;overflow:hidden}
+.hero::after{content:"";position:absolute;right:-180px;top:50%;transform:translateY(-50%);width:620px;height:620px;border-radius:50%;border:70px solid rgba(12,191,194,.08);pointer-events:none}
+.hero .wrap{position:relative;z-index:1}
+.hero h1{font-size:clamp(2.3rem,6.4vw,4.6rem);max-width:15ch;margin:6px 0 20px;font-weight:800;letter-spacing:-.03em}
+.hero h1 span{color:var(--tq)}
+.hero .sub{font-size:clamp(1.05rem,2vw,1.3rem);color:rgba(255,255,255,.82);max-width:56ch}
+.meta{display:flex;flex-wrap:wrap;gap:12px;margin:30px 0}
+.chip{display:inline-flex;align-items:center;gap:8px;border:1px solid rgba(255,255,255,.22);border-radius:40px;padding:9px 18px;font-size:.9rem;font-weight:500;background:rgba(255,255,255,.04)}
+.chip svg{width:17px;height:17px;stroke:var(--tq)}
+.hero .btn-row{display:flex;flex-wrap:wrap;gap:14px;margin-top:8px}
+.count{display:flex;gap:12px;margin-top:44px;flex-wrap:wrap}
+.count div{min-width:84px;text-align:center;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);border-radius:16px;padding:14px 10px}
+.count b{display:block;font-size:2rem;font-weight:700;color:var(--wh);line-height:1}
+.count span{font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:rgba(255,255,255,.6)}
+.eb-band{background:var(--tq);color:var(--pet);text-align:center;padding:14px 20px;font-weight:600;font-size:.95rem}
+.eb-band a{font-weight:700}
+
+/* Stats */
+.stats{padding:0;margin-top:-50px;position:relative;z-index:2}
+.stats .grid{display:grid;grid-template-columns:repeat(4,1fr);background:var(--wh);border-radius:22px;box-shadow:0 20px 50px rgba(29,63,64,.14);overflow:hidden}
+.stats .grid div{padding:28px 20px;text-align:center;border-right:1px solid var(--line)}
+.stats .grid div:last-child{border-right:0}
+.stats b{display:block;font-size:clamp(1.8rem,3.6vw,2.6rem);font-weight:800;color:var(--pet);line-height:1.1}
+.stats span{font-size:.86rem;color:var(--mut)}
+@media(max-width:700px){.stats .grid{grid-template-columns:repeat(2,1fr)}.stats .grid div:nth-child(2){border-right:0}.stats .grid div:nth-child(-n+2){border-bottom:1px solid var(--line)}}
+
+/* About */
+.about .cols{display:grid;grid-template-columns:1.1fr 1fr;gap:56px;align-items:center}
+.areas{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.area{border:1px solid var(--line);border-radius:16px;padding:20px;transition:.2s}
+.area:hover{border-color:var(--tq);transform:translateY(-2px)}
+.area svg{width:28px;height:28px;stroke:var(--tq);margin-bottom:10px}
+.area h4{font-size:1rem;margin-bottom:4px}
+.area p{font-size:.86rem;color:var(--mut);line-height:1.5}
+@media(max-width:860px){.about .cols{grid-template-columns:1fr}}
+
+/* Workshops */
+.talleres{background:var(--tq-l)}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:22px;margin-top:44px}
+.tcard{background:var(--wh);border-radius:20px;padding:28px;display:flex;flex-direction:column;gap:12px;box-shadow:0 8px 26px rgba(29,63,64,.07);border-top:5px solid var(--tq)}
+.tcard .when{font-size:.8rem;font-weight:600;color:var(--tq);letter-spacing:.06em;text-transform:uppercase}
+.tcard h3{font-size:1.2rem}
+.tcard p{font-size:.92rem;color:var(--mut);flex:1}
+.tcard .foot{display:flex;justify-content:space-between;align-items:center;font-size:.85rem;border-top:1px solid var(--line);padding-top:14px;gap:10px}
+.tcard .foot b{font-weight:600}
+
+/* Program */
+.tabs{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin:36px 0 30px}
+.tab{font-family:inherit;border:2px solid var(--line);background:var(--wh);color:var(--pet);padding:12px 22px;border-radius:40px;font-weight:600;cursor:pointer;font-size:.92rem;transition:.2s}
+.tab small{display:block;font-weight:400;font-size:.75rem;color:var(--mut)}
+.tab[aria-selected="true"]{background:var(--pet);border-color:var(--pet);color:var(--wh)}
+.tab[aria-selected="true"] small{color:rgba(255,255,255,.7)}
+.sched{max-width:900px;margin:0 auto}
+.slot{display:grid;grid-template-columns:120px 1fr;gap:24px;padding:22px 0;border-bottom:1px solid var(--line)}
+.slot .t{font-weight:700;color:var(--pet);font-variant-numeric:tabular-nums}
+.slot .k{display:inline-block;font-size:.7rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--tq);margin-bottom:4px}
+.slot h4{font-size:1.06rem;font-weight:600}
+.slot p{font-size:.9rem;color:var(--mut)}
+.slot.break{background:var(--tq-l);border-radius:14px;padding:14px 18px;border:0;margin:8px 0}
+.slot.break h4{font-weight:500;font-size:.95rem}
+@media(max-width:600px){.slot{grid-template-columns:1fr;gap:4px}}
+.dl-row{text-align:center;margin-top:34px}
+
+/* Speakers */
+.speakers{background:var(--pet);color:var(--wh)}
+.speakers .lead{color:rgba(255,255,255,.72)}
+.sgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:26px;margin-top:46px}
+.sp{text-align:center}
+@media(max-width:560px){.sgrid{grid-template-columns:1fr 1fr;gap:20px}.sp h4{font-size:.95rem}}
+.sp .ph{aspect-ratio:1;border-radius:50%;background:linear-gradient(140deg,var(--pet-l),var(--pet-d));border:3px solid rgba(12,191,194,.5);display:grid;place-items:center;overflow:hidden;margin:0 auto 16px;max-width:190px}
+.sp .ph img{width:100%;height:100%;object-fit:cover}
+.sp .ph svg{width:46%;height:46%;stroke:rgba(255,255,255,.3)}
+.sp h4{font-size:1.06rem}
+.sp p{font-size:.85rem;color:rgba(255,255,255,.65)}
+.sp .flag{font-size:.78rem;color:var(--tq);font-weight:600;margin-top:4px}
+
+/* Tickets */
+.tickets{background:linear-gradient(180deg,var(--wh),var(--tq-l))}
+.phases{display:grid;grid-template-columns:repeat(3,1fr);gap:0;max-width:880px;margin:40px auto 34px;position:relative}
+.phase{text-align:center;padding:0 10px;position:relative}
+.phase::before{content:"";position:absolute;top:17px;left:0;right:0;height:3px;background:var(--line);z-index:0}
+.phase:first-child::before{left:50%}.phase:last-child::before{right:50%}
+.phase .dot{position:relative;z-index:1;width:36px;height:36px;border-radius:50%;background:var(--wh);border:3px solid var(--line);margin:0 auto 10px;display:grid;place-items:center;font-weight:700;font-size:.85rem;color:var(--mut)}
+.phase h4{font-size:.98rem}
+.phase p{font-size:.8rem;color:var(--mut)}
+.phase.on .dot{background:var(--tq);border-color:var(--tq);color:var(--pet);box-shadow:0 0 0 6px rgba(12,191,194,.2)}
+.phase.past{opacity:.45}.phase.past .dot{background:var(--line)}
+.phase.on h4::after{content:" · activa";color:var(--tq)}
+.mode{display:flex;justify-content:center;margin-bottom:34px}
+.mode .sw{display:inline-flex;background:var(--wh);border:2px solid var(--line);border-radius:50px;padding:5px}
+.mode button{font-family:inherit;border:0;background:none;padding:11px 26px;border-radius:40px;font-weight:600;font-size:.95rem;color:var(--mut);cursor:pointer;display:flex;align-items:center;gap:8px;transition:.2s}
+.mode button svg{width:18px;height:18px}
+.mode button[aria-pressed="true"]{background:var(--pet);color:var(--wh)}
+.plans{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;align-items:stretch}
+.plan{background:var(--wh);border:2px solid var(--line);border-radius:24px;padding:32px 28px;display:flex;flex-direction:column;position:relative;transition:.2s}
+.plan.feat{border-color:var(--tq);box-shadow:0 20px 50px rgba(12,191,194,.2);transform:translateY(-8px)}
+.plan .badge{position:absolute;top:-14px;left:50%;transform:translateX(-50%);background:var(--tq);color:var(--pet);font-size:.74rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;padding:6px 14px;border-radius:20px;white-space:nowrap}
+.plan h3{font-size:1.3rem}
+.plan .desc{font-size:.88rem;color:var(--mut);margin:6px 0 20px;min-height:2.8em}
+.price{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+.price b{font-size:3rem;font-weight:800;line-height:1;color:var(--pet);letter-spacing:-.03em}
+.price s{color:var(--mut);font-size:1.05rem}
+.price .na{font-size:1.1rem;font-weight:600;color:var(--mut)}
+.save{font-size:.8rem;font-weight:600;color:#0a8f91;margin-top:6px;min-height:1.3em}
+.plan ul{list-style:none;margin:22px 0 26px;display:flex;flex-direction:column;gap:10px;flex:1}
+.plan li{display:flex;gap:10px;font-size:.9rem;line-height:1.45}
+.plan li svg{flex:none;width:18px;height:18px;stroke:var(--tq);margin-top:2px}
+.plan li.no{color:#9fb1b2}.plan li.no svg{stroke:#c3d2d2}
+.plan .btn{justify-content:center}
+.plan .btn[aria-disabled="true"]{opacity:.4;pointer-events:none}
+@media(max-width:900px){.plans{grid-template-columns:1fr;max-width:460px;margin:0 auto}.plan.feat{transform:none}}
+@media(max-width:560px){.phases{grid-template-columns:1fr;gap:18px}.phase::before{display:none}.mode button{padding:10px 16px;font-size:.88rem}}
+.disc{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px;margin-top:40px}
+.disc div{background:var(--wh);border:1px dashed var(--tq);border-radius:16px;padding:18px 20px;font-size:.9rem}
+.disc b{display:block;font-weight:600;margin-bottom:2px}
+.fine{font-size:.8rem;color:var(--mut);text-align:center;margin-top:26px}
+.cmp{margin-top:56px;overflow-x:auto;-webkit-overflow-scrolling:touch}
+.cmp table{width:100%;min-width:620px;border-collapse:collapse;background:var(--wh);border-radius:18px;overflow:hidden;font-size:.9rem}
+.cmp th,.cmp td{padding:14px 16px;text-align:center;border-bottom:1px solid var(--line)}
+.cmp th{background:var(--pet);color:var(--wh);font-weight:600;font-size:.85rem}
+.cmp td:first-child,.cmp th:first-child{text-align:left}
+.cmp tr.grp td{background:var(--tq-l);font-weight:600;text-align:left}
+.cmp td.on{background:rgba(12,191,194,.12);font-weight:700}
+.cmp h3{text-align:center;font-size:1.25rem;margin-bottom:18px}
+
+/* Venue */
+.venue .cols{display:grid;grid-template-columns:1fr 1fr;gap:28px}
+.vbox{border-radius:22px;padding:34px;background:var(--pet);color:var(--wh);position:relative;overflow:hidden}
+.vbox.alt{background:var(--tq);color:var(--pet)}
+.vbox svg.big{width:44px;height:44px;stroke:currentColor;margin-bottom:16px;opacity:.9}
+.vbox h3{font-size:1.45rem;margin-bottom:10px}
+.vbox p{opacity:.85}
+.vbox ul{margin:16px 0 0 18px;opacity:.9;font-size:.93rem}
+@media(max-width:800px){.venue .cols{grid-template-columns:1fr}}
+
+/* Sponsors */
+.spons{background:var(--tq-l);padding:64px 0}
+.slogos{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:18px;margin-top:30px}
+.slogos div{height:90px;border-radius:14px;border:2px dashed #b9d9d9;display:grid;place-items:center;color:#8fb0b1;font-size:.82rem;font-weight:500}
+
+/* FAQ */
+.faq{max-width:820px;margin:40px auto 0}
+.faq details{border-bottom:1px solid var(--line);padding:6px 0}
+.faq summary{cursor:pointer;list-style:none;padding:16px 40px 16px 0;font-weight:600;font-size:1.02rem;position:relative}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";position:absolute;right:6px;top:50%;transform:translateY(-50%);font-size:1.6rem;color:var(--tq);font-weight:400;transition:.2s}
+.faq details[open] summary::after{transform:translateY(-50%) rotate(45deg)}
+.faq details p{padding:0 0 18px;color:var(--mut);font-size:.95rem}
+
+/* CTA + footer */
+.cta{background:var(--pet);color:var(--wh);text-align:center;padding:80px 0}
+.cta h2{max-width:22ch;margin:0 auto 14px}
+.cta p{color:rgba(255,255,255,.75);max-width:56ch;margin:0 auto 28px}
+.cta .btn-row{display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
+footer{background:var(--pet-d);color:rgba(255,255,255,.65);padding:44px 0;font-size:.86rem}
+footer .wrap{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:20px}
+footer img{height:28px;width:auto}
+footer a{color:rgba(255,255,255,.8);text-decoration:none}footer a:hover{color:var(--tq)}
+footer nav{display:flex;gap:18px;flex-wrap:wrap}
+
+.wa{position:fixed;right:20px;bottom:20px;z-index:60;width:56px;height:56px;border-radius:50%;background:#25D366;display:grid;place-items:center;box-shadow:0 8px 24px rgba(0,0,0,.25)}
+.wa svg{width:30px;height:30px;fill:#fff}
+.reveal{opacity:0;transform:translateY(18px);transition:opacity .6s ease,transform .6s ease}
+.reveal.in{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-cal" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></symbol>
+  <symbol id="i-live" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="5" width="20" height="13" rx="2"/><path d="M8 22h8M12 18v4"/><circle cx="12" cy="11.5" r="2.5"/></symbol>
+  <symbol id="i-hand" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 11V6a2 2 0 0 0-4 0v5M14 10V4a2 2 0 0 0-4 0v6M10 10.5V6a2 2 0 0 0-4 0v8"/><path d="M18 8a2 2 0 1 1 4 0v6a8 8 0 0 1-8 8h-2c-2.8 0-4.5-.9-6-2.4l-3.6-3.6a2 2 0 0 1 2.8-2.8L7 15"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></symbol>
+  <symbol id="i-x" viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18M6 6l12 12"/></symbol>
+  <symbol id="i-user" viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></symbol>
+  <symbol id="i-heart" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1 1.1L12 21l7.8-7.5 1-1.1a5.5 5.5 0 0 0 0-7.8z"/></symbol>
+  <symbol id="i-layers" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 2 10 5-10 5L2 7z"/><path d="m2 17 10 5 10-5M2 12l10 5 10-5"/></symbol>
+  <symbol id="i-users" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="7" r="4"/><path d="M1 21v-2a4 4 0 0 1 4-4h8a4 4 0 0 1 4 4v2M16 3.1a4 4 0 0 1 0 7.8M23 21v-2a4 4 0 0 0-3-3.9"/></symbol>
+  <symbol id="i-book" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V2H6.5A2.5 2.5 0 0 0 4 4.5z"/><path d="M4 19.5A2.5 2.5 0 0 0 6.5 22H20v-5"/></symbol>
+</svg>
+
+<header class="top">
+  <div class="wrap">
+    <a href="#inicio" aria-label="WA LAM · inicio"><img src="logo-walam.png" alt="WA LAM"></a>
+    <nav id="nav">
+      <a href="#talleres">Talleres</a>
+      <a href="#programa">Programa</a>
+      <a href="#ponentes">Ponentes</a>
+      <a href="#entradas">Entradas</a>
+      <a href="#sede">Sede</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+    <a class="btn btn-tq" href="#entradas">Comprar entrada</a>
+    <button class="menu-t" aria-label="Abrir menú" aria-controls="nav" aria-expanded="false">&#9776;</button>
+  </div>
+</header>
+
+<div class="eb-band" id="eb-band" hidden></div>
+
+<section class="hero" id="inicio">
+  <div class="wrap">
+    <span class="eyebrow" data-f="edition"></span>
+    <h1 data-f="title"></h1>
+    <p class="sub" data-f="tagline"></p>
+    <div class="meta">
+      <span class="chip"><svg><use href="#i-cal"/></svg><span data-f="dateLabel"></span></span>
+      <span class="chip"><svg><use href="#i-pin"/></svg><span data-f="city"></span></span>
+      <span class="chip"><svg><use href="#i-live"/></svg>Presencial y streaming</span>
+      <span class="chip"><svg><use href="#i-hand"/></svg>Talleres precongreso</span>
+    </div>
+    <div class="btn-row">
+      <a class="btn btn-tq" href="#entradas">Ver entradas</a>
+      <a class="btn btn-gh" href="#programa">Ver programa</a>
+    </div>
+    <div class="count" id="count" hidden>
+      <div><b id="c-d">0</b><span>días</span></div>
+      <div><b id="c-h">0</b><span>horas</span></div>
+      <div><b id="c-m">0</b><span>min</span></div>
+      <div><b id="c-s">0</b><span>seg</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="stats">
+  <div class="wrap"><div class="grid" id="stats"></div></div>
+</section>
+
+<section class="about">
+  <div class="wrap cols">
+    <div class="reveal">
+      <span class="eyebrow">El encuentro</span>
+      <h2>Una mirada multidisciplinar a la salud pélvica</h2>
+      <p class="lead" style="margin-top:16px" data-f="intro"></p>
+      <div style="margin-top:26px"><a class="btn btn-dk" href="#programa">Descubre el programa</a></div>
+    </div>
+    <div class="areas reveal" id="areas"></div>
+  </div>
+</section>
+
+<section class="talleres" id="talleres">
+  <div class="wrap">
+    <div class="center reveal">
+      <span class="eyebrow">Antes del congreso</span>
+      <h2>Talleres precongreso</h2>
+      <p class="lead">Sesiones prácticas en grupos reducidos para llevar a la camilla lo que se verá en el congreso. Plazas limitadas por taller.</p>
+    </div>
+    <div class="cards" id="workshops"></div>
+  </div>
+</section>
+
+<section id="programa">
+  <div class="wrap">
+    <div class="center reveal">
+      <span class="eyebrow">Programa científico</span>
+      <h2>Programa y ponencias</h2>
+      <p class="lead">Iremos publicando el temario completo y las ponencias a medida que se confirmen.</p>
+    </div>
+    <div class="tabs" role="tablist" id="tabs"></div>
+    <div class="sched" id="sched" role="tabpanel"></div>
+    <div class="dl-row" id="dl-row"></div>
+  </div>
+</section>
+
+<section class="speakers" id="ponentes">
+  <div class="wrap">
+    <div class="center reveal">
+      <span class="eyebrow">Ponentes</span>
+      <h2>Referentes nacionales e internacionales</h2>
+      <p class="lead">Profesionales de distintas disciplinas que trabajan cada día con la salud pélvica.</p>
+    </div>
+    <div class="sgrid" id="speakers"></div>
+  </div>
+</section>
+
+<section class="tickets" id="entradas">
+  <div class="wrap">
+    <div class="center reveal">
+      <span class="eyebrow">Inscripción</span>
+      <h2>Entradas</h2>
+      <p class="lead">Cuanto antes te inscribas, menos pagas. Elige si vienes en persona o lo sigues en streaming y la opción que mejor te encaje.</p>
+    </div>
+
+    <div class="phases" id="phases"></div>
+
+    <div class="mode">
+      <div class="sw" role="group" aria-label="Modalidad">
+        <button type="button" data-mode="presencial" aria-pressed="true"><svg><use href="#i-pin" stroke="currentColor"/></svg>Presencial</button>
+        <button type="button" data-mode="streaming" aria-pressed="false"><svg><use href="#i-live" stroke="currentColor"/></svg>Streaming</button>
+      </div>
+    </div>
+
+    <div class="plans" id="plans"></div>
+
+    <div class="disc" id="discounts"></div>
+    <p class="fine" data-f="pricesNote"></p>
+
+    <div class="cmp reveal">
+      <h3>Todas las tarifas</h3>
+      <table id="cmp"></table>
+    </div>
+  </div>
+</section>
+
+<section class="venue" id="sede">
+  <div class="wrap">
+    <div class="center reveal" style="margin-bottom:40px">
+      <span class="eyebrow">Cómo asistir</span>
+      <h2>Dos formas de vivirlo</h2>
+    </div>
+    <div class="cols">
+      <div class="vbox reveal">
+        <svg class="big"><use href="#i-pin"/></svg>
+        <h3>Presencial · <span data-f="city"></span></h3>
+        <p data-f="venue"></p>
+        <ul>
+          <li>Acceso a todas las ponencias y mesas redondas</li>
+          <li>Networking, pausas café y comida</li>
+          <li>Opción de añadir talleres prácticos</li>
+          <li>Certificado de asistencia</li>
+        </ul>
+      </div>
+      <div class="vbox alt reveal">
+        <svg class="big"><use href="#i-live"/></svg>
+        <h3>Streaming en directo</h3>
+        <p>Sigue el congreso desde donde estés, con la misma calidad de contenido.</p>
+        <ul>
+          <li>Emisión en directo de todas las ponencias</li>
+          <li>Preguntas a los ponentes por chat</li>
+          <li data-f="replayLi"></li>
+          <li>Certificado de asistencia online</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="spons">
+  <div class="wrap center">
+    <span class="eyebrow">Colaboradores</span>
+    <h2 style="font-size:clamp(1.5rem,3vw,2rem)">Patrocinadores y entidades colaboradoras</h2>
+    <div class="slogos" id="sponsors"></div>
+    <p class="fine">¿Quieres colaborar con el congreso? <a href="#" data-wa="Hola, me gustaría información para patrocinar o colaborar con el congreso de salud pélvica.">Escríbenos</a>.</p>
+  </div>
+</section>
+
+<section id="faq">
+  <div class="wrap">
+    <div class="center reveal">
+      <span class="eyebrow">Dudas</span>
+      <h2>Preguntas frecuentes</h2>
+    </div>
+    <div class="faq" id="faqs"></div>
+  </div>
+</section>
+
+<section class="cta">
+  <div class="wrap">
+    <h2>Reserva tu plaza al mejor precio</h2>
+    <p id="cta-p">Las plazas presenciales y de talleres son limitadas.</p>
+    <div class="btn-row">
+      <a class="btn btn-tq" href="#entradas">Comprar entrada</a>
+      <a class="btn btn-gh" href="#" data-wa="Hola, quiero que me aviséis cuando se publique el programa del congreso de salud pélvica.">Avísame del programa</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <img src="logo-walam.png" alt="WA LAM">
+    <nav>
+      <a href="index.html">Formaciones</a>
+      <a href="Politica-cancelacion.pdf">Política de cancelación</a>
+      <a href="Normas-conducta-confidencialidad.pdf">Normas de conducta</a>
+      <a href="#" data-wa="Hola, tengo una consulta sobre el congreso de salud pélvica.">Contacto</a>
+    </nav>
+    <span>© <span id="yr"></span> WA LAM</span>
+  </div>
+</footer>
+
+<a class="wa" href="#" data-wa="Hola, tengo una consulta sobre el congreso de salud pélvica." aria-label="Escríbenos por WhatsApp"><svg viewBox="0 0 24 24"><path d="M17.5 14.4c-.3-.1-1.8-.9-2-1s-.5-.1-.7.1-.8 1-.9 1.2-.3.2-.6.1a8.2 8.2 0 0 1-2.4-1.5 9 9 0 0 1-1.7-2.1c-.2-.3 0-.5.1-.6l.4-.5.3-.5v-.5l-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6a1.1 1.1 0 0 0-.8.4 3.3 3.3 0 0 0-1 2.5 5.8 5.8 0 0 0 1.2 3.1 13.3 13.3 0 0 0 5.1 4.5c1.9.8 2.6.9 3.6.7a3 3 0 0 0 2-1.4 2.4 2.4 0 0 0 .2-1.4c-.1-.1-.3-.2-.6-.3zM12 21.8a9.9 9.9 0 0 1-5-1.4l-.4-.2-3.7 1 1-3.6-.2-.4a9.8 9.8 0 1 1 8.3 4.6zm8.4-18.2A11.8 11.8 0 0 0 1.7 17.8L0 24l6.3-1.7a11.8 11.8 0 0 0 5.7 1.5A11.8 11.8 0 0 0 20.4 3.6z"/></svg></a>
+
+<script>
+/* ============================================================
+   CONFIGURACIÓN DEL CONGRESO
+   Todo lo que se muestra en la página sale de aquí.
+   Para actualizar fechas, precios, talleres, programa o ponentes
+   basta con editar este bloque.
+   ============================================================ */
+const CONGRESO = {
+  edition: "1ª edición · Congreso WA LAM",
+  title: "Congreso de <span>Salud Pélvica</span>",          // ← título oficial pendiente
+  tagline: "Fisioterapia, osteopatía, ginecología, urología y obstetricia: un mismo encuentro para entender y tratar la pelvis de forma global.",
+  intro: "Un congreso pensado para profesionales que tratan a diario disfunciones del suelo pélvico, dolor pélvico, embarazo y posparto, menopausia o salud urogenital. Ponencias científicas, mesas redondas y talleres prácticos con referentes de cada especialidad.",
+  city: "Barcelona",
+  venue: "Sede por confirmar. Publicaremos la dirección, cómo llegar y hoteles recomendados en cuanto esté cerrada.",
+  // Fecha de inicio del congreso (AAAA-MM-DD). Déjala vacía ("") mientras no esté confirmada.
+  // Las fases de precio se calculan solas a partir de esta fecha.
+  startDate: "",
+  dateLabel: "Fechas por confirmar",       // texto que se ve, p. ej. "14 y 15 de noviembre de 2027"
+  replayDays: 90,                           // días de acceso a las grabaciones para streaming
+  whatsapp: "34675716409",
+  programPdf: "",                           // p. ej. "Programa-Congreso.pdf" cuando exista
+
+  stats: [
+    ["2", "días de congreso"],
+    ["+15", "ponentes"],
+    ["4", "talleres prácticos"],
+    ["2", "modalidades: presencial y online"]
+  ],
+
+  areas: [
+    ["i-heart",  "Suelo pélvico",       "Disfunciones, incontinencia y prolapso."],
+    ["i-users",  "Embarazo y posparto", "Preparación, parto y recuperación."],
+    ["i-layers", "Dolor pélvico",       "Dolor crónico, sensibilización central y fascia."],
+    ["i-book",   "Menopausia",          "Síndrome genitourinario y cambios hormonales."]
+  ],
+
+  // Fases de precio: hasta X días antes del inicio del congreso.
+  phases: [
+    { id: "early",    name: "Early Bird",  daysBefore: 60 },   // hasta 2 meses antes
+    { id: "reducida", name: "Reducida",    daysBefore: 30 },   // hasta 1 mes antes
+    { id: "general",  name: "General",     daysBefore: 0  }    // último mes
+  ],
+
+  // Precios por fase [early, reducida, general]. null = no disponible en esa modalidad.
+  // ⚠ PRECIOS PROVISIONALES: sustituir por los definitivos.
+  plans: [
+    { id: "congreso", name: "Congreso", desc: "Acceso a las dos jornadas del congreso.",
+      presencial: [190, 230, 270], streaming: [110, 140, 170],
+      includes: { presencial: ["Todas las ponencias y mesas redondas", "Pausas café y comida", "Documentación y certificado"],
+                  streaming:  ["Emisión en directo de todas las ponencias", "Grabaciones durante {replay} días", "Certificado online"] },
+      excludes: ["Talleres precongreso"] },
+    { id: "pack", name: "Congreso + talleres", desc: "La experiencia completa: congreso y talleres prácticos.", featured: true,
+      presencial: [320, 370, 420], streaming: [null, null, null],
+      includes: { presencial: ["Todo lo de la entrada Congreso", "Acceso a 2 talleres precongreso a elegir", "Plaza reservada en grupos reducidos"],
+                  streaming:  ["Los talleres son prácticos y solo presenciales"] },
+      excludes: [] },
+    { id: "talleres", name: "Solo talleres", desc: "Si solo te interesa la parte práctica.",
+      presencial: [80, 95, 110], streaming: [null, null, null], unit: "/ taller",
+      includes: { presencial: ["Taller práctico de medio día", "Grupo reducido", "Certificado del taller"],
+                  streaming:  ["Los talleres son prácticos y solo presenciales"] },
+      excludes: ["Acceso al congreso"] }
+  ],
+
+  discounts: [
+    ["Estudiantes y residentes", "−20 % presentando acreditación."],
+    ["Alumnos WA LAM", "Precio especial para alumnos de nuestras formaciones."],
+    ["Grupos", "A partir de 4 inscripciones, consúltanos."]
+  ],
+  pricesNote: "Precios provisionales, IVA incluido. La fase se aplica según la fecha de pago.",
+
+  workshops: [
+    { title: "Taller 1 · Por anunciar", when: "Día previo · mañana", desc: "Contenido y docente pendientes de confirmar.", speaker: "Por anunciar", seats: 20 },
+    { title: "Taller 2 · Por anunciar", when: "Día previo · mañana", desc: "Contenido y docente pendientes de confirmar.", speaker: "Por anunciar", seats: 20 },
+    { title: "Taller 3 · Por anunciar", when: "Día previo · tarde",  desc: "Contenido y docente pendientes de confirmar.", speaker: "Por anunciar", seats: 20 },
+    { title: "Taller 4 · Por anunciar", when: "Día previo · tarde",  desc: "Contenido y docente pendientes de confirmar.", speaker: "Por anunciar", seats: 20 }
+  ],
+
+  // Programa: un bloque por día. type: "talk" | "round" | "break" | "workshop"
+  program: [
+    { day: "Día 0", label: "Talleres", slots: [
+      { t: "09:30 – 13:30", type: "workshop", title: "Talleres precongreso (turno de mañana)", who: "Ver talleres" },
+      { t: "13:30 – 15:00", type: "break",    title: "Comida libre" },
+      { t: "15:00 – 19:00", type: "workshop", title: "Talleres precongreso (turno de tarde)", who: "Ver talleres" }
+    ]},
+    { day: "Día 1", label: "Congreso", slots: [
+      { t: "08:30", type: "break", title: "Acreditaciones y bienvenida" },
+      { t: "09:15", type: "talk",  title: "Inauguración del congreso" },
+      { t: "09:30", type: "talk",  title: "Ponencia por anunciar", who: "Ponente por confirmar" },
+      { t: "10:15", type: "talk",  title: "Ponencia por anunciar", who: "Ponente por confirmar" },
+      { t: "11:00", type: "break", title: "Pausa café" },
+      { t: "11:30", type: "round", title: "Mesa redonda por anunciar", who: "Moderación por confirmar" },
+      { t: "13:30", type: "break", title: "Comida" },
+      { t: "15:00", type: "talk",  title: "Ponencia por anunciar", who: "Ponente por confirmar" },
+      { t: "16:00", type: "talk",  title: "Ponencia por anunciar", who: "Ponente por confirmar" }
+    ]},
+    { day: "Día 2", label: "Congreso", slots: [
+      { t: "09:00", type: "talk",  title: "Ponencia por anunciar", who: "Ponente por confirmar" },
+      { t: "10:00", type: "talk",  title: "Ponencia por anunciar", who: "Ponente por confirmar" },
+      { t: "11:00", type: "break", title: "Pausa café" },
+      { t: "11:30", type: "round", title: "Mesa redonda por anunciar", who: "Moderación por confirmar" },
+      { t: "13:30", type: "talk",  title: "Conclusiones y clausura" }
+    ]}
+  ],
+
+  // Ponentes: añade { name, role, country, photo: "archivo.jpg" }
+  speakers: [
+    { name: "Por anunciar", role: "Especialidad" }, { name: "Por anunciar", role: "Especialidad" },
+    { name: "Por anunciar", role: "Especialidad" }, { name: "Por anunciar", role: "Especialidad" },
+    { name: "Por anunciar", role: "Especialidad" }, { name: "Por anunciar", role: "Especialidad" },
+    { name: "Por anunciar", role: "Especialidad" }, { name: "Por anunciar", role: "Especialidad" }
+  ],
+
+  sponsors: 6,   // nº de huecos de patrocinador mientras no haya logos
+
+  faqs: [
+    ["¿A quién va dirigido el congreso?", "A fisioterapeutas, osteópatas, matronas, ginecólogos, urólogos y otros profesionales sanitarios que trabajan con la salud pélvica, así como a estudiantes de estas disciplinas."],
+    ["¿Cómo funcionan las fases de precio?", "Hay tres tarifas: Early Bird (hasta dos meses antes del congreso), Reducida (hasta un mes antes) y General (el último mes). Se aplica el precio vigente en el momento del pago."],
+    ["¿Puedo comprar solo los talleres?", "Sí. Los talleres pueden comprarse sueltos o en el pack Congreso + talleres, que sale más económico. Son presenciales y con plazas limitadas."],
+    ["¿Qué incluye la entrada en streaming?", "Emisión en directo de todas las ponencias y mesas redondas, la posibilidad de enviar preguntas y acceso a las grabaciones durante un tiempo limitado. Los talleres prácticos no se emiten."],
+    ["¿Habrá certificado?", "Sí, todas las modalidades incluyen certificado de asistencia."],
+    ["¿Cuál es la política de cancelación?", "Puedes consultarla en nuestra <a href=\"Politica-cancelacion.pdf\">política de cancelación</a>."]
+  ]
+};
+
+/* ============================================================ */
+const $ = (s, el = document) => el.querySelector(s);
+const C = CONGRESO;
+const eur = n => n.toLocaleString("es-ES") + " €";
+const waLink = msg => "https://wa.me/" + C.whatsapp + "?text=" + encodeURIComponent(msg);
+const DAY = 864e5;
+
+document.querySelectorAll("[data-f]").forEach(el => {
+  const k = el.dataset.f;
+  if (k === "replayLi") el.textContent = "Acceso a las grabaciones durante " + C.replayDays + " días";
+  else if (C[k] != null) el.innerHTML = C[k];
+});
+document.querySelectorAll("[data-wa]").forEach(a => { a.href = waLink(a.dataset.wa); a.target = "_blank"; a.rel = "noopener"; });
+$("#yr").textContent = new Date().getFullYear();
+
+/* Fases */
+const start = C.startDate ? new Date(C.startDate + "T09:00:00") : null;
+const now = new Date();
+const phaseEnd = p => start ? new Date(start - p.daysBefore * DAY) : null;
+let active = 0;
+if (start) { active = C.phases.findIndex(p => now < phaseEnd(p)); if (active < 0) active = C.phases.length - 1; }
+const fmt = d => d.toLocaleDateString("es-ES", { day: "numeric", month: "long", year: "numeric" });
+
+$("#phases").innerHTML = C.phases.map((p, i) => {
+  const end = phaseEnd(p);
+  const when = p.daysBefore === 0 ? "Último mes" : (end ? "Hasta el " + fmt(end) : "Hasta " + (p.daysBefore === 60 ? "2 meses" : "1 mes") + " antes");
+  return `<div class="phase ${i === active ? "on" : i < active ? "past" : ""}"><div class="dot">${i + 1}</div><h4>${p.name}</h4><p>${when}</p></div>`;
+}).join("");
+
+if (start && active < C.phases.length - 1) {
+  const end = phaseEnd(C.phases[active]);
+  const band = $("#eb-band");
+  band.innerHTML = `Tarifa <b>${C.phases[active].name}</b> disponible hasta el ${fmt(end)} · <a href="#entradas">Reserva ahora</a>`;
+  band.hidden = false;
+  $("#cta-p").textContent = `La tarifa ${C.phases[active].name} termina el ${fmt(end)}. Las plazas presenciales y de talleres son limitadas.`;
+}
+
+/* Cuenta atrás */
+if (start && start > now) {
+  $("#count").hidden = false;
+  const tick = () => {
+    let s = Math.max(0, Math.floor((start - new Date()) / 1000));
+    $("#c-d").textContent = Math.floor(s / 86400); s %= 86400;
+    $("#c-h").textContent = Math.floor(s / 3600); s %= 3600;
+    $("#c-m").textContent = Math.floor(s / 60);
+    $("#c-s").textContent = s % 60;
+  };
+  tick(); setInterval(tick, 1000);
+}
+
+/* Planes */
+let mode = "presencial";
+const icon = (id) => `<svg><use href="#${id}"/></svg>`;
+function renderPlans() {
+  $("#plans").innerHTML = C.plans.map(pl => {
+    const prices = pl[mode], cur = prices[active], next = prices[C.phases.length - 1];
+    const avail = cur != null;
+    const priceHtml = avail
+      ? `<b>${eur(cur)}</b>${pl.unit ? `<span style="color:var(--mut)">${pl.unit}</span>` : ""}${next > cur ? `<s>${eur(next)}</s>` : ""}`
+      : `<span class="na">Solo presencial</span>`;
+    const save = avail && next > cur ? `Ahorras ${eur(next - cur)} con la tarifa ${C.phases[active].name}` : "";
+    const inc = pl.includes[mode].map(t => `<li>${icon("i-check")}${t.replace("{replay}", C.replayDays)}</li>`).join("");
+    const exc = avail ? pl.excludes.map(t => `<li class="no">${icon("i-x")}${t}</li>`).join("") : "";
+    const msg = `Hola, quiero comprar la entrada "${pl.name}" (${mode}) del congreso de salud pélvica, tarifa ${C.phases[active].name}.`;
+    return `<article class="plan${pl.featured ? " feat" : ""}">
+      ${pl.featured ? '<span class="badge">Más completa</span>' : ""}
+      <h3>${pl.name}</h3><p class="desc">${pl.desc}</p>
+      <div class="price">${priceHtml}</div><div class="save">${save}</div>
+      <ul>${inc}${exc}</ul>
+      <a class="btn ${pl.featured ? "btn-tq" : "btn-dk"}" href="${waLink(msg)}" target="_blank" rel="noopener" ${avail ? "" : 'aria-disabled="true" tabindex="-1"'}>${avail ? "Comprar entrada" : "No disponible online"}</a>
+    </article>`;
+  }).join("");
+}
+document.querySelectorAll("[data-mode]").forEach(b => b.addEventListener("click", () => {
+  mode = b.dataset.mode;
+  document.querySelectorAll("[data-mode]").forEach(x => x.setAttribute("aria-pressed", x === b));
+  renderPlans();
+}));
+renderPlans();
+
+/* Tabla comparativa */
+{
+  let h = `<thead><tr><th>Entrada</th>${C.phases.map((p, i) => `<th>${p.name}${i === active ? " ✓" : ""}</th>`).join("")}</tr></thead><tbody>`;
+  for (const m of ["presencial", "streaming"]) {
+    h += `<tr class="grp"><td colspan="${C.phases.length + 1}">${m === "presencial" ? "Presencial" : "Streaming"}</td></tr>`;
+    for (const pl of C.plans) {
+      if (pl[m].every(v => v == null)) continue;
+      h += `<tr><td>${pl.name}${pl.unit ? " " + pl.unit : ""}</td>${pl[m].map((v, i) => `<td class="${i === active ? "on" : ""}">${v == null ? "—" : eur(v)}</td>`).join("")}</tr>`;
+    }
+  }
+  $("#cmp").innerHTML = h + "</tbody>";
+}
+
+$("#discounts").innerHTML = C.discounts.map(([t, d]) => `<div><b>${t}</b>${d}</div>`).join("");
+$("#stats").innerHTML = C.stats.map(([n, t]) => `<div><b>${n}</b><span>${t}</span></div>`).join("");
+$("#areas").innerHTML = C.areas.map(([ic, t, d]) => `<div class="area"><svg><use href="#${ic}"/></svg><h4>${t}</h4><p>${d}</p></div>`).join("");
+
+$("#workshops").innerHTML = C.workshops.map(w => `<article class="tcard reveal">
+  <span class="when">${w.when}</span><h3>${w.title}</h3><p>${w.desc}</p>
+  <div class="foot"><span>Docente: <b>${w.speaker}</b></span><span class="tbd">${w.seats} plazas</span></div>
+</article>`).join("");
+
+/* Programa */
+const tabs = $("#tabs");
+tabs.innerHTML = C.program.map((d, i) => `<button class="tab" role="tab" aria-selected="${i === 1 ? "true" : "false"}" data-i="${i}">${d.day}<small>${d.label}</small></button>`).join("");
+const kind = { talk: "Ponencia", round: "Mesa redonda", workshop: "Talleres" };
+function renderDay(i) {
+  $("#sched").innerHTML = C.program[i].slots.map(s => s.type === "break"
+    ? `<div class="slot break"><span class="t">${s.t}</span><h4>${s.title}</h4></div>`
+    : `<div class="slot"><span class="t">${s.t}</span><div><span class="k">${kind[s.type] || ""}</span><h4>${s.title}</h4>${s.who ? `<p>${s.who}</p>` : ""}</div></div>`).join("");
+  tabs.querySelectorAll(".tab").forEach(t => t.setAttribute("aria-selected", t.dataset.i == i));
+}
+tabs.addEventListener("click", e => { const t = e.target.closest(".tab"); if (t) renderDay(+t.dataset.i); });
+renderDay(1);
+$("#dl-row").innerHTML = C.programPdf
+  ? `<a class="btn btn-dk" href="${C.programPdf}" download>Descargar programa completo (PDF)</a>`
+  : `<span class="tbd">Programa completo próximamente</span>`;
+
+$("#speakers").innerHTML = C.speakers.map(s => `<div class="sp reveal">
+  <div class="ph">${s.photo ? `<img src="${s.photo}" alt="${s.name}" loading="lazy">` : `<svg><use href="#i-user"/></svg>`}</div>
+  <h4>${s.name}</h4><p>${s.role || ""}</p>${s.country ? `<div class="flag">${s.country}</div>` : ""}
+</div>`).join("");
+
+$("#sponsors").innerHTML = Array.from({ length: C.sponsors }, () => "<div>Tu logo aquí</div>").join("");
+$("#faqs").innerHTML = C.faqs.map(([q, a]) => `<details><summary>${q}</summary><p>${a}</p></details>`).join("");
+
+/* Menú móvil */
+const mt = $(".menu-t"), nav = $("#nav");
+mt.addEventListener("click", () => { const o = nav.classList.toggle("open"); mt.setAttribute("aria-expanded", o); });
+nav.addEventListener("click", e => { if (e.target.tagName === "A") { nav.classList.remove("open"); mt.setAttribute("aria-expanded", false); } });
+
+/* Animación al hacer scroll */
+const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target); } }), { threshold: .12 });
+document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+</script>
+</body>
+</html>
