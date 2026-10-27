@@ -163,6 +163,32 @@ h2{font-size:clamp(1.8rem,4vw,2.7rem)}
 .cmp td.on{background:rgba(12,191,194,.12);font-weight:700}
 .cmp h3{text-align:center;font-size:1.25rem;margin-bottom:18px}
 
+/* Abstracts */
+.abs{background:var(--tq-l)}
+.abs-dates{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;max-width:900px;margin:40px auto}
+.abs-dates div{background:var(--wh);border-radius:18px;padding:22px;text-align:center;box-shadow:0 8px 24px rgba(29,63,64,.06)}
+.abs-dates span{display:block;font-size:.75rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--tq);margin-bottom:6px}
+.abs-dates b{font-size:1.15rem;font-weight:700}
+.abs-cols{display:grid;grid-template-columns:1fr 1fr;gap:22px;max-width:900px;margin:0 auto}
+.abs-box{background:var(--wh);border-radius:20px;padding:28px}
+.abs-box h3{font-size:1.15rem;margin-bottom:14px}
+.abs-box ul{list-style:none;display:flex;flex-direction:column;gap:10px}
+.abs-box li{display:flex;gap:10px;font-size:.93rem;line-height:1.45}
+.abs-box li svg{flex:none;width:18px;height:18px;stroke:var(--tq);margin-top:2px}
+@media(max-width:700px){.abs-dates,.abs-cols{grid-template-columns:1fr}}
+
+/* Recordings pack */
+.rec{margin-top:40px;background:var(--pet);color:var(--wh);border-radius:24px;padding:30px 34px;display:grid;grid-template-columns:auto 1fr auto;gap:26px;align-items:center}
+.rec .ic{width:64px;height:64px;border-radius:18px;background:rgba(12,191,194,.16);display:grid;place-items:center}
+.rec .ic svg{width:32px;height:32px;stroke:var(--tq)}
+.rec h3{font-size:1.25rem;margin-bottom:4px}
+.rec p{color:rgba(255,255,255,.75);font-size:.92rem}
+.rec .pr{text-align:right;white-space:nowrap}
+.rec .pr b{display:block;font-size:2rem;font-weight:800;color:var(--tq);line-height:1.1}
+.rec .pr small{color:rgba(255,255,255,.65);font-size:.8rem}
+.rec .btn{margin-top:10px;padding:10px 20px;font-size:.88rem}
+@media(max-width:760px){.rec{grid-template-columns:1fr;text-align:left}.rec .pr{text-align:left}}
+
 /* Venue */
 .venue .cols{display:grid;grid-template-columns:1fr 1fr;gap:28px}
 .vbox{border-radius:22px;padding:34px;background:var(--pet);color:var(--wh);position:relative;overflow:hidden}
@@ -218,6 +244,7 @@ footer nav{display:flex;gap:18px;flex-wrap:wrap}
   <symbol id="i-heart" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1 1.1L12 21l7.8-7.5 1-1.1a5.5 5.5 0 0 0 0-7.8z"/></symbol>
   <symbol id="i-layers" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 2 10 5-10 5L2 7z"/><path d="m2 17 10 5 10-5M2 12l10 5 10-5"/></symbol>
   <symbol id="i-users" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="7" r="4"/><path d="M1 21v-2a4 4 0 0 1 4-4h8a4 4 0 0 1 4 4v2M16 3.1a4 4 0 0 1 0 7.8M23 21v-2a4 4 0 0 0-3-3.9"/></symbol>
+  <symbol id="i-play" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="3"/><path d="m10 9 5 3-5 3z"/></symbol>
   <symbol id="i-book" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V2H6.5A2.5 2.5 0 0 0 4 4.5z"/><path d="M4 19.5A2.5 2.5 0 0 0 6.5 22H20v-5"/></symbol>
 </svg>
 
@@ -228,6 +255,7 @@ footer nav{display:flex;gap:18px;flex-wrap:wrap}
       <a href="#talleres">Talleres</a>
       <a href="#programa">Programa</a>
       <a href="#ponentes">Ponentes</a>
+      <a href="#abstracts">Abstracts</a>
       <a href="#entradas">Entradas</a>
       <a href="#sede">Sede</a>
       <a href="#faq">FAQ</a>
@@ -314,6 +342,22 @@ footer nav{display:flex;gap:18px;flex-wrap:wrap}
   </div>
 </section>
 
+<section class="abs" id="abstracts">
+  <div class="wrap">
+    <div class="center reveal">
+      <span class="eyebrow">Convocatoria científica</span>
+      <h2>Envío de abstracts</h2>
+      <p class="lead">Presenta tu investigación o tu caso clínico. Las mejores comunicaciones se presentarán como comunicación oral en el congreso y el resto en formato póster.</p>
+    </div>
+    <div class="abs-dates reveal" id="abs-dates"></div>
+    <div class="abs-cols">
+      <div class="abs-box reveal"><h3>Áreas temáticas</h3><ul id="abs-topics"></ul></div>
+      <div class="abs-box reveal"><h3>Normas de envío</h3><ul id="abs-rules"></ul></div>
+    </div>
+    <div class="center" style="margin-top:34px"><a class="btn btn-dk" id="abs-btn" href="#">Enviar abstract</a></div>
+  </div>
+</section>
+
 <section class="tickets" id="entradas">
   <div class="wrap">
     <div class="center reveal">
@@ -332,6 +376,8 @@ footer nav{display:flex;gap:18px;flex-wrap:wrap}
     </div>
 
     <div class="plans" id="plans"></div>
+
+    <div class="rec reveal" id="rec"></div>
 
     <div class="disc" id="discounts"></div>
     <p class="fine" data-f="pricesNote"></p>
@@ -444,7 +490,7 @@ const CONGRESO = {
   programPdf: "",                           // p. ej. "Programa-Congreso.pdf" cuando exista
 
   stats: [
-    ["2", "días de congreso"],
+    ["4", "días de congreso"],
     ["+15", "ponentes"],
     ["4", "talleres prácticos"],
     ["2", "modalidades: presencial y online"]
@@ -467,18 +513,18 @@ const CONGRESO = {
   // Precios por fase [early, reducida, general]. null = no disponible en esa modalidad.
   // ⚠ PRECIOS PROVISIONALES: sustituir por los definitivos.
   plans: [
-    { id: "congreso", name: "Congreso", desc: "Acceso a las dos jornadas del congreso.",
-      presencial: [190, 230, 270], streaming: [110, 140, 170],
+    { id: "congreso", name: "Congreso · 4 días", desc: "Acceso a las cuatro jornadas del congreso.",
+      presencial: [640, 720, 800], streaming: [350, 400, 450],
       includes: { presencial: ["Todas las ponencias y mesas redondas", "Pausas café y comida", "Documentación y certificado"],
                   streaming:  ["Emisión en directo de todas las ponencias", "Grabaciones durante {replay} días", "Certificado online"] },
       excludes: ["Talleres precongreso"] },
     { id: "pack", name: "Congreso + talleres", desc: "La experiencia completa: congreso y talleres prácticos.", featured: true,
-      presencial: [320, 370, 420], streaming: [null, null, null],
+      presencial: [780, 880, 980], streaming: [null, null, null],
       includes: { presencial: ["Todo lo de la entrada Congreso", "Acceso a 2 talleres precongreso a elegir", "Plaza reservada en grupos reducidos"],
                   streaming:  ["Los talleres son prácticos y solo presenciales"] },
       excludes: [] },
     { id: "talleres", name: "Solo talleres", desc: "Si solo te interesa la parte práctica.",
-      presencial: [80, 95, 110], streaming: [null, null, null], unit: "/ taller",
+      presencial: [120, 140, 160], streaming: [null, null, null], unit: "/ taller",
       includes: { presencial: ["Taller práctico de medio día", "Grupo reducido", "Certificado del taller"],
                   streaming:  ["Los talleres son prácticos y solo presenciales"] },
       excludes: ["Acceso al congreso"] }
@@ -489,6 +535,23 @@ const CONGRESO = {
     ["Alumnos WA LAM", "Precio especial para alumnos de nuestras formaciones."],
     ["Grupos", "A partir de 4 inscripciones, consúltanos."]
   ],
+  // Pack de grabaciones: para guardar las ponencias más allá del congreso.
+  recordings: {
+    access: "12 meses",                      // tiempo de acceso a la videoteca
+    addon: 150,                              // precio añadido a cualquier entrada
+    standalone: 290                          // precio sin entrada (a la venta tras el congreso)
+  },
+
+  // Abstracts / comunicaciones científicas
+  abstracts: {
+    open: "Por confirmar",                   // apertura del envío
+    deadline: "Por confirmar",               // fecha límite de envío
+    notice: "Por confirmar",                 // comunicación de aceptación
+    email: "",                               // correo de envío, p. ej. "abstracts@walambcn.com"
+    topics: ["Suelo pélvico femenino y masculino", "Embarazo, parto y posparto", "Dolor pélvico crónico", "Menopausia y salud urogenital", "Abordaje visceral y osteopático", "Casos clínicos"],
+    rules: ["Máximo 300 palabras, en español o inglés", "Estructura: introducción, objetivos, método, resultados y conclusiones", "Formato comunicación oral o póster", "Al menos un autor debe estar inscrito en el congreso"]
+  },
+
   pricesNote: "Precios provisionales, IVA incluido. La fase se aplica según la fecha de pago.",
 
   workshops: [
@@ -514,14 +577,34 @@ const CONGRESO = {
       { t: "11:30", type: "round", title: "Mesa redonda por anunciar", who: "Moderación por confirmar" },
       { t: "13:30", type: "break", title: "Comida" },
       { t: "15:00", type: "talk",  title: "Ponencia por anunciar", who: "Ponente por confirmar" },
-      { t: "16:00", type: "talk",  title: "Ponencia por anunciar", who: "Ponente por confirmar" }
+      { t: "16:00", type: "abstract", title: "Comunicaciones orales y pósters (abstracts)", who: "Selección del comité científico" }
     ]},
     { day: "Día 2", label: "Congreso", slots: [
-      { t: "09:00", type: "talk",  title: "Ponencia por anunciar", who: "Ponente por confirmar" },
-      { t: "10:00", type: "talk",  title: "Ponencia por anunciar", who: "Ponente por confirmar" },
+      { t: "09:30", type: "talk",  title: "Ponencia por anunciar", who: "Ponente por confirmar" },
+      { t: "10:15", type: "talk",  title: "Ponencia por anunciar", who: "Ponente por confirmar" },
       { t: "11:00", type: "break", title: "Pausa café" },
       { t: "11:30", type: "round", title: "Mesa redonda por anunciar", who: "Moderación por confirmar" },
-      { t: "13:30", type: "talk",  title: "Conclusiones y clausura" }
+      { t: "13:30", type: "break", title: "Comida" },
+      { t: "15:00", type: "talk",  title: "Ponencia por anunciar", who: "Ponente por confirmar" },
+      { t: "16:00", type: "abstract", title: "Comunicaciones orales y pósters (abstracts)", who: "Selección del comité científico" }
+    ]},
+    { day: "Día 3", label: "Congreso", slots: [
+      { t: "09:30", type: "talk",  title: "Ponencia por anunciar", who: "Ponente por confirmar" },
+      { t: "10:15", type: "talk",  title: "Ponencia por anunciar", who: "Ponente por confirmar" },
+      { t: "11:00", type: "break", title: "Pausa café" },
+      { t: "11:30", type: "round", title: "Mesa redonda por anunciar", who: "Moderación por confirmar" },
+      { t: "13:30", type: "break", title: "Comida" },
+      { t: "15:00", type: "talk",  title: "Ponencia por anunciar", who: "Ponente por confirmar" },
+      { t: "16:00", type: "abstract", title: "Comunicaciones orales y pósters (abstracts)", who: "Selección del comité científico" }
+    ]},
+    { day: "Día 4", label: "Congreso", slots: [
+      { t: "09:30", type: "talk",  title: "Ponencia por anunciar", who: "Ponente por confirmar" },
+      { t: "10:15", type: "talk",  title: "Ponencia por anunciar", who: "Ponente por confirmar" },
+      { t: "11:00", type: "break", title: "Pausa café" },
+      { t: "11:30", type: "round", title: "Mesa redonda por anunciar", who: "Moderación por confirmar" },
+      { t: "13:30", type: "break", title: "Comida" },
+      { t: "15:00", type: "abstract", title: "Comunicaciones orales (abstracts)", who: "Selección del comité científico" },
+      { t: "16:30", type: "talk",  title: "Conclusiones, premios y clausura" }
     ]}
   ],
 
@@ -540,6 +623,8 @@ const CONGRESO = {
     ["¿Cómo funcionan las fases de precio?", "Hay tres tarifas: Early Bird (hasta dos meses antes del congreso), Reducida (hasta un mes antes) y General (el último mes). Se aplica el precio vigente en el momento del pago."],
     ["¿Puedo comprar solo los talleres?", "Sí. Los talleres pueden comprarse sueltos o en el pack Congreso + talleres, que sale más económico. Son presenciales y con plazas limitadas."],
     ["¿Qué incluye la entrada en streaming?", "Emisión en directo de todas las ponencias y mesas redondas, la posibilidad de enviar preguntas y acceso a las grabaciones durante un tiempo limitado. Los talleres prácticos no se emiten."],
+    ["¿Puedo quedarme con las grabaciones?", "Sí. Con el pack de grabaciones tienes acceso a todas las ponencias grabadas durante más tiempo, para revisarlas cuando quieras. Puedes añadirlo a tu entrada o comprarlo suelto después del congreso."],
+    ["¿Cómo presento un abstract?", "Consulta la sección Abstracts: allí están las áreas temáticas, las normas y las fechas de envío. Al menos un autor debe estar inscrito en el congreso."],
     ["¿Habrá certificado?", "Sí, todas las modalidades incluyen certificado de asistencia."],
     ["¿Cuál es la política de cancelación?", "Puedes consultarla en nuestra <a href=\"Politica-cancelacion.pdf\">política de cancelación</a>."]
   ]
@@ -635,7 +720,30 @@ renderPlans();
       h += `<tr><td>${pl.name}${pl.unit ? " " + pl.unit : ""}</td>${pl[m].map((v, i) => `<td class="${i === active ? "on" : ""}">${v == null ? "—" : eur(v)}</td>`).join("")}</tr>`;
     }
   }
+  h += `<tr class="grp"><td colspan="${C.phases.length + 1}">Extras</td></tr>`;
+  h += `<tr><td>Pack de grabaciones (con entrada)</td><td colspan="${C.phases.length}">+${eur(C.recordings.addon)}</td></tr>`;
+  h += `<tr><td>Pack de grabaciones (sin entrada, tras el congreso)</td><td colspan="${C.phases.length}">${eur(C.recordings.standalone)}</td></tr>`;
   $("#cmp").innerHTML = h + "</tbody>";
+}
+
+/* Pack grabaciones */
+{
+  const R = C.recordings;
+  $("#rec").innerHTML = `<div class="ic"><svg><use href="#i-play"/></svg></div>
+    <div><h3>Pack de grabaciones</h3><p>Guarda todas las ponencias del congreso y vuelve a verlas cuando quieras durante ${R.access}. Añádelo a cualquier entrada, presencial o streaming, o cómpralo suelto después del congreso por ${eur(R.standalone)}.</p></div>
+    <div class="pr"><small>Con tu entrada</small><b>+${eur(R.addon)}</b><a class="btn btn-tq" target="_blank" rel="noopener" href="${waLink("Hola, quiero añadir el pack de grabaciones del congreso de salud pélvica a mi entrada.")}">Añadir</a></div>`;
+}
+
+/* Abstracts */
+{
+  const A = C.abstracts;
+  $("#abs-dates").innerHTML = [["Apertura", A.open], ["Fecha límite", A.deadline], ["Aceptación", A.notice]].map(([k, v]) => `<div><span>${k}</span><b>${v}</b></div>`).join("");
+  const li = t => `<li>${icon("i-check")}${t}</li>`;
+  $("#abs-topics").innerHTML = A.topics.map(li).join("");
+  $("#abs-rules").innerHTML = A.rules.map(li).join("");
+  const b = $("#abs-btn");
+  if (A.email) b.href = "mailto:" + A.email + "?subject=" + encodeURIComponent("Envío de abstract · Congreso de Salud Pélvica");
+  else { b.href = waLink("Hola, quiero enviar un abstract al congreso de salud pélvica."); b.target = "_blank"; b.rel = "noopener"; }
 }
 
 $("#discounts").innerHTML = C.discounts.map(([t, d]) => `<div><b>${t}</b>${d}</div>`).join("");
@@ -650,7 +758,7 @@ $("#workshops").innerHTML = C.workshops.map(w => `<article class="tcard reveal">
 /* Programa */
 const tabs = $("#tabs");
 tabs.innerHTML = C.program.map((d, i) => `<button class="tab" role="tab" aria-selected="${i === 1 ? "true" : "false"}" data-i="${i}">${d.day}<small>${d.label}</small></button>`).join("");
-const kind = { talk: "Ponencia", round: "Mesa redonda", workshop: "Talleres" };
+const kind = { talk: "Ponencia", round: "Mesa redonda", workshop: "Talleres", abstract: "Abstracts" };
 function renderDay(i) {
   $("#sched").innerHTML = C.program[i].slots.map(s => s.type === "break"
     ? `<div class="slot break"><span class="t">${s.t}</span><h4>${s.title}</h4></div>`
