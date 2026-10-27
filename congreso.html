@@ -189,6 +189,26 @@ h2{font-size:clamp(1.8rem,4vw,2.7rem)}
 .rec .btn{margin-top:10px;padding:10px 20px;font-size:.88rem}
 @media(max-width:760px){.rec{grid-template-columns:1fr;text-align:left}.rec .pr{text-align:left}}
 
+/* Committee */
+.cgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:20px;margin-top:44px}
+.cm{display:flex;gap:16px;align-items:center;border:1px solid var(--line);border-radius:18px;padding:18px}
+.cm .ph{flex:none;width:64px;height:64px;border-radius:50%;background:var(--tq-l);display:grid;place-items:center;overflow:hidden}
+.cm .ph img{width:100%;height:100%;object-fit:cover}
+.cm .ph svg{width:55%;height:55%;stroke:#9fb9ba}
+.cm h4{font-size:1rem}
+.cm p{font-size:.84rem;color:var(--mut);line-height:1.4}
+.cm .rol{font-size:.72rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--tq)}
+.cm.chair{border-color:var(--tq);background:linear-gradient(120deg,rgba(12,191,194,.08),transparent)}
+
+/* Endorsements */
+.avales{padding:70px 0;border-top:1px solid var(--line)}
+.alogos{display:flex;flex-wrap:wrap;justify-content:center;gap:20px;margin-top:34px}
+.alogos>div{flex:0 1 220px}
+.alogos div{min-height:120px;border-radius:16px;background:var(--wh);border:1px solid var(--line);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;padding:16px;font-size:.85rem;font-weight:500;color:var(--pet)}
+.alogos img{max-height:60px;width:auto;object-fit:contain}
+.alogos .empty{border:2px dashed #b9d9d9;color:#8fb0b1;background:transparent}
+.alogos svg{width:28px;height:28px;stroke:#9fc5c6}
+
 /* Payment */
 .pay{margin-top:40px;background:var(--wh);border:2px solid var(--line);border-radius:24px;padding:34px}
 .pay-head h3{font-size:1.35rem;margin-bottom:6px}
@@ -258,6 +278,7 @@ footer nav{display:flex;gap:18px;flex-wrap:wrap}
   <symbol id="i-users" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="7" r="4"/><path d="M1 21v-2a4 4 0 0 1 4-4h8a4 4 0 0 1 4 4v2M16 3.1a4 4 0 0 1 0 7.8M23 21v-2a4 4 0 0 0-3-3.9"/></symbol>
   <symbol id="i-play" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="3"/><path d="m10 9 5 3-5 3z"/></symbol>
   <symbol id="i-alert" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 8v4M12 16h.01"/></symbol>
+  <symbol id="i-shield" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></symbol>
   <symbol id="i-book" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V2H6.5A2.5 2.5 0 0 0 4 4.5z"/><path d="M4 19.5A2.5 2.5 0 0 0 6.5 22H20v-5"/></symbol>
 </svg>
 
@@ -269,6 +290,7 @@ footer nav{display:flex;gap:18px;flex-wrap:wrap}
       <a href="#programa">Programa</a>
       <a href="#ponentes">Ponentes</a>
       <a href="#abstracts">Abstracts</a>
+      <a href="#comite">Comité</a>
       <a href="#entradas">Entradas</a>
       <a href="#sede">Sede</a>
       <a href="#faq">FAQ</a>
@@ -371,6 +393,18 @@ footer nav{display:flex;gap:18px;flex-wrap:wrap}
   </div>
 </section>
 
+<section class="comite" id="comite">
+  <div class="wrap">
+    <div class="center reveal">
+      <span class="eyebrow">Comité médico y científico</span>
+      <h2>Quién evalúa los trabajos</h2>
+      <p class="lead">El comité revisa y puntúa todos los abstracts recibidos, selecciona las comunicaciones orales y los pósters y concede los premios a los mejores trabajos.</p>
+    </div>
+    <div class="cgrid" id="committee"></div>
+    <p class="fine" id="comite-note">Evaluación anónima: los miembros del comité no conocen la autoría de los trabajos que puntúan.</p>
+  </div>
+</section>
+
 <section class="tickets" id="entradas">
   <div class="wrap">
     <div class="center reveal">
@@ -448,10 +482,19 @@ footer nav{display:flex;gap:18px;flex-wrap:wrap}
   </div>
 </section>
 
+<section class="avales" id="avales">
+  <div class="wrap center">
+    <span class="eyebrow">Avales</span>
+    <h2 style="font-size:clamp(1.5rem,3vw,2rem)">Entidades que avalan el congreso</h2>
+    <p class="lead">Sociedades científicas, colegios profesionales y asociaciones que respaldan el interés científico y la calidad del programa.</p>
+    <div class="alogos" id="endorsements"></div>
+  </div>
+</section>
+
 <section class="spons">
   <div class="wrap center">
-    <span class="eyebrow">Colaboradores</span>
-    <h2 style="font-size:clamp(1.5rem,3vw,2rem)">Patrocinadores y entidades colaboradoras</h2>
+    <span class="eyebrow">Patrocinio</span>
+    <h2 style="font-size:clamp(1.5rem,3vw,2rem)">Patrocinadores</h2>
     <div class="slogos" id="sponsors"></div>
     <p class="fine">¿Quieres colaborar con el congreso? <a href="#" data-wa="Hola, me gustaría información para patrocinar o colaborar con el congreso de salud pélvica.">Escríbenos</a>.</p>
   </div>
@@ -603,7 +646,7 @@ const CONGRESO = {
       { t: "11:30", type: "round", title: "Mesa redonda por anunciar", who: "Moderación por confirmar" },
       { t: "13:30", type: "break", title: "Comida" },
       { t: "15:00", type: "talk",  title: "Ponencia por anunciar", who: "Ponente por confirmar" },
-      { t: "16:00", type: "abstract", title: "Comunicaciones orales y pósters (abstracts)", who: "Selección del comité científico" }
+      { t: "16:00", type: "abstract", title: "Comunicaciones orales y pósters (abstracts)", who: "Selección del comité médico y científico" }
     ]},
     { day: "Día 2", label: "Congreso", slots: [
       { t: "09:30", type: "talk",  title: "Ponencia por anunciar", who: "Ponente por confirmar" },
@@ -612,7 +655,7 @@ const CONGRESO = {
       { t: "11:30", type: "round", title: "Mesa redonda por anunciar", who: "Moderación por confirmar" },
       { t: "13:30", type: "break", title: "Comida" },
       { t: "15:00", type: "talk",  title: "Ponencia por anunciar", who: "Ponente por confirmar" },
-      { t: "16:00", type: "abstract", title: "Comunicaciones orales y pósters (abstracts)", who: "Selección del comité científico" }
+      { t: "16:00", type: "abstract", title: "Comunicaciones orales y pósters (abstracts)", who: "Selección del comité médico y científico" }
     ]},
     { day: "Día 3", label: "Congreso", slots: [
       { t: "09:30", type: "talk",  title: "Ponencia por anunciar", who: "Ponente por confirmar" },
@@ -621,7 +664,7 @@ const CONGRESO = {
       { t: "11:30", type: "round", title: "Mesa redonda por anunciar", who: "Moderación por confirmar" },
       { t: "13:30", type: "break", title: "Comida" },
       { t: "15:00", type: "talk",  title: "Ponencia por anunciar", who: "Ponente por confirmar" },
-      { t: "16:00", type: "abstract", title: "Comunicaciones orales y pósters (abstracts)", who: "Selección del comité científico" }
+      { t: "16:00", type: "abstract", title: "Comunicaciones orales y pósters (abstracts)", who: "Selección del comité médico y científico" }
     ]},
     { day: "Día 4", label: "Congreso", slots: [
       { t: "09:30", type: "talk",  title: "Ponencia por anunciar", who: "Ponente por confirmar" },
@@ -629,7 +672,7 @@ const CONGRESO = {
       { t: "11:00", type: "break", title: "Pausa café" },
       { t: "11:30", type: "round", title: "Mesa redonda por anunciar", who: "Moderación por confirmar" },
       { t: "13:30", type: "break", title: "Comida" },
-      { t: "15:00", type: "abstract", title: "Comunicaciones orales (abstracts)", who: "Selección del comité científico" },
+      { t: "15:00", type: "abstract", title: "Comunicaciones orales (abstracts)", who: "Selección del comité médico y científico" },
       { t: "16:30", type: "talk",  title: "Conclusiones, premios y clausura" }
     ]}
   ],
@@ -644,6 +687,21 @@ const CONGRESO = {
 
   sponsors: 6,   // nº de huecos de patrocinador mientras no haya logos
 
+  // Entidades que AVALAN el congreso (sociedades, colegios, asociaciones). No son patrocinadores.
+  // Añade { name: "Nombre", logo: "archivo.png" } — mientras la lista esté vacía se ven huecos.
+  endorsements: [],
+  endorsementSlots: 4,
+
+  // Comité médico y científico (evalúa los abstracts). chair: true para la presidencia.
+  committee: [
+    { name: "Por anunciar", role: "Presidencia del comité", specialty: "Especialidad", chair: true },
+    { name: "Por anunciar", role: "Vocal", specialty: "Ginecología" },
+    { name: "Por anunciar", role: "Vocal", specialty: "Urología" },
+    { name: "Por anunciar", role: "Vocal", specialty: "Fisioterapia de suelo pélvico" },
+    { name: "Por anunciar", role: "Vocal", specialty: "Osteopatía" },
+    { name: "Por anunciar", role: "Vocal", specialty: "Matrona" }
+  ],
+
   faqs: [
     ["¿A quién va dirigido el congreso?", "A fisioterapeutas, osteópatas, matronas, ginecólogos, urólogos y otros profesionales sanitarios que trabajan con la salud pélvica, así como a estudiantes de estas disciplinas."],
     ["¿Cómo funcionan las fases de precio?", "Hay tres tarifas: Early Bird (hasta dos meses antes del congreso), Reducida (hasta un mes antes) y General (el último mes). Se aplica el precio vigente en el momento del pago."],
@@ -651,6 +709,8 @@ const CONGRESO = {
     ["¿Qué incluye la entrada en streaming?", "Emisión en directo de todas las ponencias y mesas redondas, la posibilidad de enviar preguntas y acceso a las grabaciones durante un tiempo limitado. Los talleres prácticos no se emiten."],
     ["¿Puedo quedarme con las grabaciones?", "Sí. Con el pack de grabaciones tienes acceso a todas las ponencias grabadas durante más tiempo, para revisarlas cuando quieras. Puedes añadirlo a tu entrada o comprarlo suelto después del congreso."],
     ["¿Cómo presento un abstract?", "Consulta la sección Abstracts: allí están las áreas temáticas, las normas y las fechas de envío. Al menos un autor debe estar inscrito en el congreso."],
+    ["¿Quién evalúa los abstracts?", "El comité médico y científico del congreso, formado por especialistas de distintas disciplinas. La evaluación es anónima."],
+    ["¿Qué diferencia hay entre entidades avaladoras y patrocinadores?", "Las entidades avaladoras son sociedades científicas, colegios y asociaciones que respaldan la calidad científica del congreso. Los patrocinadores son empresas que colaboran económicamente."],
     ["¿Habrá certificado?", "Sí, todas las modalidades incluyen certificado de asistencia."],
     ["¿Cómo se paga la inscripción?", "Solo por transferencia bancaria en euros; no se acepta tarjeta. Los gastos y comisiones bancarias corren a cargo del participante: desde fuera de la zona SEPA elige la opción «OUR» para que el importe llegue completo. La plaza se confirma al recibir el pago."],
     ["¿Qué fecha cuenta para la tarifa Early Bird?", "La fecha de la transferencia. Envíanos el justificante el mismo día para asegurar la tarifa."],
@@ -804,6 +864,13 @@ $("#speakers").innerHTML = C.speakers.map(s => `<div class="sp reveal">
   <h4>${s.name}</h4><p>${s.role || ""}</p>${s.country ? `<div class="flag">${s.country}</div>` : ""}
 </div>`).join("");
 
+$("#committee").innerHTML = C.committee.map(m => `<div class="cm${m.chair ? " chair" : ""}">
+  <div class="ph">${m.photo ? `<img src="${m.photo}" alt="${m.name}" loading="lazy">` : `<svg><use href="#i-user"/></svg>`}</div>
+  <div><span class="rol">${m.role}</span><h4>${m.name}</h4><p>${m.specialty || ""}</p></div>
+</div>`).join("");
+$("#endorsements").innerHTML = C.endorsements.length
+  ? C.endorsements.map(e => `<div>${e.logo ? `<img src="${e.logo}" alt="${e.name}">` : ""}<span>${e.name}</span></div>`).join("")
+  : Array.from({ length: C.endorsementSlots }, () => `<div class="empty"><svg><use href="#i-shield"/></svg>Entidad avaladora</div>`).join("");
 $("#sponsors").innerHTML = Array.from({ length: C.sponsors }, () => "<div>Tu logo aquí</div>").join("");
 $("#faqs").innerHTML = C.faqs.map(([q, a]) => `<details><summary>${q}</summary><p>${a}</p></details>`).join("");
 
