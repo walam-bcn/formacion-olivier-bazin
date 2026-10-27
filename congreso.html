@@ -567,8 +567,8 @@ const CONGRESO = {
   venue: "Sede por confirmar. Publicaremos la dirección, cómo llegar y hoteles recomendados en cuanto esté cerrada.",
   // Fecha de inicio del congreso (AAAA-MM-DD). Déjala vacía ("") mientras no esté confirmada.
   // Las fases de precio se calculan solas a partir de esta fecha.
-  startDate: "",
-  dateLabel: "Fechas por confirmar",       // texto que se ve, p. ej. "14 y 15 de noviembre de 2027"
+  startDate: "2028-02-17",
+  dateLabel: "17–20 de febrero de 2028",       // texto que se ve, p. ej. "14 y 15 de noviembre de 2027"
   replayDays: 90,                           // días de acceso a las grabaciones para streaming
   whatsapp: "34675716409",
   programPdf: "",                           // p. ej. "Programa-Congreso.pdf" cuando exista
@@ -645,20 +645,20 @@ const CONGRESO = {
   pricesNote: "Precios provisionales, IVA incluido. Pago únicamente por transferencia bancaria en euros. La tarifa se aplica según la fecha de la transferencia.",
 
   workshops: [
-    { title: "Taller 1 · Por anunciar", when: "Día previo · 9:00–13:00", desc: "Contenido y docente pendientes de confirmar.", speaker: "Por anunciar", seats: 20 },
-    { title: "Taller 2 · Por anunciar", when: "Día previo · 9:00–13:00", desc: "Contenido y docente pendientes de confirmar.", speaker: "Por anunciar", seats: 20 },
-    { title: "Taller 3 · Por anunciar", when: "Día previo · 15:00–19:00",  desc: "Contenido y docente pendientes de confirmar.", speaker: "Por anunciar", seats: 20 },
-    { title: "Taller 4 · Por anunciar", when: "Día previo · 15:00–19:00",  desc: "Contenido y docente pendientes de confirmar.", speaker: "Por anunciar", seats: 20 }
+    { title: "Taller 1 · Por anunciar", when: "Precongreso · 9:00–13:00", desc: "Contenido y docente pendientes de confirmar.", speaker: "Por anunciar", seats: 20 },
+    { title: "Taller 2 · Por anunciar", when: "Precongreso · 9:00–13:00", desc: "Contenido y docente pendientes de confirmar.", speaker: "Por anunciar", seats: 20 },
+    { title: "Taller 3 · Por anunciar", when: "Precongreso · 15:00–19:00",  desc: "Contenido y docente pendientes de confirmar.", speaker: "Por anunciar", seats: 20 },
+    { title: "Taller 4 · Por anunciar", when: "Precongreso · 15:00–19:00",  desc: "Contenido y docente pendientes de confirmar.", speaker: "Por anunciar", seats: 20 }
   ],
 
   // Programa: un bloque por día. type: "talk" | "round" | "break" | "workshop"
   program: [
-    { day: "Día 0", label: "Talleres", slots: [
+    { day: "Talleres", label: "Antes del congreso", slots: [
       { t: "09:00 – 13:00", type: "workshop", title: "Talleres precongreso (turno de mañana)", who: "Ver talleres" },
       { t: "13:00 – 15:00", type: "break",    title: "Comida libre" },
       { t: "15:00 – 19:00", type: "workshop", title: "Talleres precongreso (turno de tarde)", who: "Ver talleres" }
     ]},
-    { day: "Día 1", label: "Congreso", slots: [
+    { day: "Día 1", label: "Jueves 17 feb", slots: [
       { t: "08:30", type: "break", title: "Acreditaciones y bienvenida" },
       { t: "09:15", type: "talk",  title: "Inauguración del congreso" },
       { t: "09:30", type: "talk",  title: "Ponencia por anunciar", who: "Ponente por confirmar" },
@@ -669,7 +669,7 @@ const CONGRESO = {
       { t: "15:00", type: "talk",  title: "Ponencia por anunciar", who: "Ponente por confirmar" },
       { t: "16:00", type: "abstract", title: "Comunicaciones orales y pósters (abstracts)", who: "Selección del comité médico y científico" }
     ]},
-    { day: "Día 2", label: "Congreso", slots: [
+    { day: "Día 2", label: "Viernes 18 feb", slots: [
       { t: "09:30", type: "talk",  title: "Ponencia por anunciar", who: "Ponente por confirmar" },
       { t: "10:15", type: "talk",  title: "Ponencia por anunciar", who: "Ponente por confirmar" },
       { t: "11:00", type: "break", title: "Pausa café" },
@@ -678,7 +678,7 @@ const CONGRESO = {
       { t: "15:00", type: "talk",  title: "Ponencia por anunciar", who: "Ponente por confirmar" },
       { t: "16:00", type: "abstract", title: "Comunicaciones orales y pósters (abstracts)", who: "Selección del comité médico y científico" }
     ]},
-    { day: "Día 3", label: "Congreso", slots: [
+    { day: "Día 3", label: "Sábado 19 feb", slots: [
       { t: "09:30", type: "talk",  title: "Ponencia por anunciar", who: "Ponente por confirmar" },
       { t: "10:15", type: "talk",  title: "Ponencia por anunciar", who: "Ponente por confirmar" },
       { t: "11:00", type: "break", title: "Pausa café" },
@@ -687,7 +687,7 @@ const CONGRESO = {
       { t: "15:00", type: "talk",  title: "Ponencia por anunciar", who: "Ponente por confirmar" },
       { t: "16:00", type: "abstract", title: "Comunicaciones orales y pósters (abstracts)", who: "Selección del comité médico y científico" }
     ]},
-    { day: "Día 4", label: "Congreso", slots: [
+    { day: "Día 4", label: "Domingo 20 feb", slots: [
       { t: "09:30", type: "talk",  title: "Ponencia por anunciar", who: "Ponente por confirmar" },
       { t: "10:15", type: "talk",  title: "Ponencia por anunciar", who: "Ponente por confirmar" },
       { t: "11:00", type: "break", title: "Pausa café" },
