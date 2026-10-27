@@ -613,10 +613,10 @@ const CONGRESO = {
 
   // Tarifas especiales
   studentDiscount: 50,       // € de descuento sobre el precio STREAMING vigente (solo streaming)
-  alumniPct: 5,              // % de descuento alumnos WA LAM, SOLO sobre la tarifa General
+  alumniPhase: 1,            // alumnos WA LAM: pagan como máximo la tarifa de esta fase (1 = Reducida)
   discounts: [
     ["Estudiantes y residentes · solo streaming", "−{student} € sobre la entrada en streaming. No aplicable a la modalidad presencial. Requiere acreditación verificada antes del pago (ver condiciones)."],
-    ["Alumnos WA LAM", "−{alumni} % sobre la tarifa General. No aplicable a Early Bird ni a Reducida, ni acumulable con otras tarifas."]
+    ["Alumnos WA LAM", "Mantienes la tarifa Reducida hasta el final, aunque ya esté en vigor la General. Se comprueba con nuestra lista de alumnos. No acumulable con otras tarifas."]
   ],
   studentRules: [
     "Estudiantes: certificado de matrícula oficial del curso académico en vigor (grado o máster sanitario), a tu nombre.",
@@ -853,10 +853,12 @@ renderPlans();
   }
   h += `<tr class="grp"><td colspan="${C.phases.length + 1}">Talleres (aparte, solo presenciales)</td></tr>`;
   h += [{ n: 1, price: C.workshopPrice }, ...C.workshopBundles].map(b => `<tr><td>${b.n === 1 ? "1 taller" : b.n + " talleres"}</td><td colspan="${C.phases.length}">${eur(b.price)}</td></tr>`).join("");
-  const st = C.plans[0].streaming, gen = C.plans[0].presencial[C.phases.length - 1];
+  const st = C.plans[0].streaming;
   h += `<tr class="grp"><td colspan="${C.phases.length + 1}">Tarifas especiales</td></tr>`;
   h += `<tr><td>Estudiantes y residentes · streaming (con acreditación)</td>${st.map((v, i) => `<td class="${i === active ? "on" : ""}">${eur(v - C.studentDiscount)}</td>`).join("")}</tr>`;
-  h += `<tr><td>Alumnos WA LAM · Congreso presencial</td>${C.phases.map((p, i) => `<td class="${i === active ? "on" : ""}">${i === C.phases.length - 1 ? eur(Math.round(gen * (1 - C.alumniPct / 100))) : "—"}</td>`).join("")}</tr>`;
+  const cap = (arr, i) => eur(Math.min(arr[i], arr[C.alumniPhase]));
+  h += `<tr><td>Alumnos WA LAM · presencial</td>${C.phases.map((p, i) => `<td class="${i === active ? "on" : ""}">${cap(C.plans[0].presencial, i)}</td>`).join("")}</tr>`;
+  h += `<tr><td>Alumnos WA LAM · streaming</td>${C.phases.map((p, i) => `<td class="${i === active ? "on" : ""}">${cap(st, i)}</td>`).join("")}</tr>`;
   h += `<tr class="grp"><td colspan="${C.phases.length + 1}">Extras</td></tr>`;
   h += `<tr><td>Pack de grabaciones (con entrada)</td><td colspan="${C.phases.length}">+${eur(C.recordings.addon)}</td></tr>`;
   h += `<tr><td>Pack de grabaciones (sin entrada, tras el congreso)</td><td colspan="${C.phases.length}">${eur(C.recordings.standalone)}</td></tr>`;
@@ -883,7 +885,7 @@ renderPlans();
   else { b.href = waLink("Hola, quiero enviar un abstract al congreso de salud pélvica."); b.target = "_blank"; b.rel = "noopener"; }
 }
 
-$("#discounts").innerHTML = C.discounts.map(([t, d]) => `<div><b>${t}</b>${d.replace("{student}", C.studentDiscount).replace("{alumni}", C.alumniPct)}</div>`).join("")
+$("#discounts").innerHTML = C.discounts.map(([t, d]) => `<div><b>${t}</b>${d.replace("{student}", C.studentDiscount)}</div>`).join("")
   + `<details class="cond"><summary>Condiciones de la tarifa de estudiantes y residentes</summary><ul>${C.studentRules.map(r => `<li>${r}</li>`).join("")}</ul></details>`
   + `<p class="cond-s">${icon("i-alert")}${C.streamingRules}</p>`;
 $("#stats").innerHTML = C.stats.map(([n, t]) => `<div><b>${n}</b><span>${t}</span></div>`).join("");
