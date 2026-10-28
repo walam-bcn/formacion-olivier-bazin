@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Congreso de Salud Pélvica · WA LAM</title>
-<meta name="description" content="Congreso de salud pélvica organizado por WA LAM: talleres precongreso, programa científico, ponentes y entradas presenciales y en streaming.">
+<meta name="description" content="Congreso de salud pélvica organizado por WA LAM: talleres prácticos, programa científico, ponentes y entradas presenciales y en streaming.">
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
 <style>
 :root{--pet:#1D3F40;--pet-d:#132C2D;--pet-l:#27575A;--tq:#0CBFC2;--tq-l:#F2F1EE;--wh:#FFFFFF;--tx:#1D3F40;--mut:#5B7576;--line:#D6E6E6}
@@ -325,7 +325,7 @@ footer nav{display:flex;gap:18px;flex-wrap:wrap}
       <span class="chip"><svg><use href="#i-cal"/></svg><span data-f="dateLabel"></span></span>
       <span class="chip"><svg><use href="#i-pin"/></svg><span data-f="city"></span></span>
       <span class="chip"><svg><use href="#i-live"/></svg>Presencial y streaming</span>
-      <span class="chip"><svg><use href="#i-hand"/></svg>Talleres precongreso</span>
+      <span class="chip"><svg><use href="#i-hand"/></svg>6 talleres prácticos</span>
     </div>
     <div class="btn-row">
       <a class="btn btn-tq" href="#entradas">Ver entradas</a>
@@ -359,9 +359,9 @@ footer nav{display:flex;gap:18px;flex-wrap:wrap}
 <section class="talleres" id="talleres">
   <div class="wrap">
     <div class="center reveal">
-      <span class="eyebrow">Antes del congreso</span>
-      <h2>Talleres precongreso</h2>
-      <p class="lead">Sesiones prácticas de 4 horas en grupos reducidos para llevar a la camilla lo que se verá en el congreso. Son presenciales, no se graban y tienen plazas limitadas.</p>
+      <span class="eyebrow">Durante el congreso</span>
+      <h2>Talleres prácticos</h2>
+      <p class="lead">Seis talleres prácticos de 4 horas en grupos reducidos, en salas paralelas durante los días del congreso. Eliges cuáles hacer; son presenciales, no se graban y tienen plazas limitadas.</p>
     </div>
     <div class="cards" id="workshops"></div>
   </div>
@@ -372,7 +372,7 @@ footer nav{display:flex;gap:18px;flex-wrap:wrap}
     <div class="center reveal">
       <span class="eyebrow">Programa científico</span>
       <h2>Programa y ponencias</h2>
-      <p class="lead">Iremos publicando el temario completo y las ponencias a medida que se confirmen.</p>
+      <p class="lead">Iremos publicando el temario completo y las ponencias a medida que se confirmen. Los talleres prácticos se realizan en salas paralelas dentro de este horario.</p>
     </div>
     <div class="tabs" role="tablist" id="tabs"></div>
     <div class="sched" id="sched" role="tabpanel"></div>
@@ -576,7 +576,7 @@ const CONGRESO = {
   stats: [
     ["4", "días de congreso"],
     ["+15", "ponentes"],
-    ["4", "talleres prácticos"],
+    ["6", "talleres prácticos de 4 h"],
     ["2", "modalidades: presencial y online"]
   ],
 
@@ -589,7 +589,7 @@ const CONGRESO = {
 
   // Fases de precio: hasta X días antes del inicio del congreso.
   phases: [
-    { id: "early",    name: "Early Bird",  daysBefore: 60 },   // hasta 2 meses antes
+    { id: "early",    name: "Early Bird",  until: "2027-12-31" },   // fecha fija (incluida)
     { id: "reducida", name: "Reducida",    daysBefore: 30 },   // hasta 1 mes antes
     { id: "general",  name: "General",     daysBefore: 0  }    // último mes
   ],
@@ -601,7 +601,7 @@ const CONGRESO = {
       presencial: [640, 720, 800], streaming: [350, 400, 450],
       includes: { presencial: ["Todas las ponencias y mesas redondas", "Pausas café y comida", "Documentación y certificado"],
                   streaming:  ["Emisión en directo de todas las ponencias", "Grabaciones durante {replay} días", "Certificado online", "Acceso personal: 1 usuario, 1 dispositivo"] },
-      excludes: ["Talleres precongreso (se compran aparte)"] }
+      excludes: ["Talleres prácticos (se compran aparte)"] }
   ],
 
   // Talleres: se compran APARTE de la entrada al congreso. Mismo precio en todas las fases.
@@ -645,19 +645,16 @@ const CONGRESO = {
   pricesNote: "Precios provisionales, IVA incluido. Pago únicamente por transferencia bancaria en euros. La tarifa se aplica según la fecha de la transferencia.",
 
   workshops: [
-    { title: "Taller 1 · Por anunciar", when: "Precongreso · 9:00–13:00", desc: "Contenido y docente pendientes de confirmar.", speaker: "Por anunciar", seats: 20 },
-    { title: "Taller 2 · Por anunciar", when: "Precongreso · 9:00–13:00", desc: "Contenido y docente pendientes de confirmar.", speaker: "Por anunciar", seats: 20 },
-    { title: "Taller 3 · Por anunciar", when: "Precongreso · 15:00–19:00",  desc: "Contenido y docente pendientes de confirmar.", speaker: "Por anunciar", seats: 20 },
-    { title: "Taller 4 · Por anunciar", when: "Precongreso · 15:00–19:00",  desc: "Contenido y docente pendientes de confirmar.", speaker: "Por anunciar", seats: 20 }
+    { title: "Taller 1 · Por anunciar", when: "Durante el congreso · 4 horas", desc: "Contenido y docente pendientes de confirmar.", speaker: "Por anunciar", seats: 20 },
+    { title: "Taller 2 · Por anunciar", when: "Durante el congreso · 4 horas", desc: "Contenido y docente pendientes de confirmar.", speaker: "Por anunciar", seats: 20 },
+    { title: "Taller 3 · Por anunciar", when: "Durante el congreso · 4 horas", desc: "Contenido y docente pendientes de confirmar.", speaker: "Por anunciar", seats: 20 },
+    { title: "Taller 4 · Por anunciar", when: "Durante el congreso · 4 horas", desc: "Contenido y docente pendientes de confirmar.", speaker: "Por anunciar", seats: 20 },
+    { title: "Taller 5 · Por anunciar", when: "Durante el congreso · 4 horas", desc: "Contenido y docente pendientes de confirmar.", speaker: "Por anunciar", seats: 20 },
+    { title: "Taller 6 · Por anunciar", when: "Durante el congreso · 4 horas", desc: "Contenido y docente pendientes de confirmar.", speaker: "Por anunciar", seats: 20 }
   ],
 
   // Programa: un bloque por día. type: "talk" | "round" | "break" | "workshop"
   program: [
-    { day: "Talleres", label: "Antes del congreso", slots: [
-      { t: "09:00 – 13:00", type: "workshop", title: "Talleres precongreso (turno de mañana)", who: "Ver talleres" },
-      { t: "13:00 – 15:00", type: "break",    title: "Comida libre" },
-      { t: "15:00 – 19:00", type: "workshop", title: "Talleres precongreso (turno de tarde)", who: "Ver talleres" }
-    ]},
     { day: "Día 1", label: "Jueves 17 feb", slots: [
       { t: "08:30", type: "break", title: "Acreditaciones y bienvenida" },
       { t: "09:15", type: "talk",  title: "Inauguración del congreso" },
@@ -725,7 +722,7 @@ const CONGRESO = {
 
   faqs: [
     ["¿A quién va dirigido el congreso?", "A fisioterapeutas, osteópatas, matronas, ginecólogos, urólogos y otros profesionales sanitarios que trabajan con la salud pélvica, así como a estudiantes de estas disciplinas."],
-    ["¿Cómo funcionan las fases de precio?", "Hay tres tarifas: Early Bird (hasta dos meses antes del congreso), Reducida (hasta un mes antes) y General (el último mes). Se aplica el precio vigente en el momento del pago."],
+    ["¿Cómo funcionan las fases de precio?", "Hay tres tarifas: Early Bird (hasta el 31 de diciembre de 2027), Reducida (hasta un mes antes del congreso) y General (el último mes). Se aplica el precio vigente en el momento del pago."],
     ["¿Los talleres están incluidos en la entrada?", "No, se compran aparte. Cada taller de 4 horas cuesta 300 €; comprando 2 o los 4 talleres hay descuento. Puedes comprarlos con o sin entrada al congreso. Son presenciales, no se graban y tienen plazas limitadas."],
     ["¿Qué incluye la entrada en streaming?", "Emisión en directo de todas las ponencias y mesas redondas, la posibilidad de enviar preguntas y acceso a las grabaciones durante un tiempo limitado. Los talleres prácticos no se emiten."],
     ["¿Puedo quedarme con las grabaciones?", "Sí. Con el pack de grabaciones tienes acceso a todas las ponencias grabadas durante más tiempo, para revisarlas cuando quieras. Puedes añadirlo a tu entrada o comprarlo suelto después del congreso."],
@@ -759,14 +756,14 @@ $("#yr").textContent = new Date().getFullYear();
 /* Fases */
 const start = C.startDate ? new Date(C.startDate + "T09:00:00") : null;
 const now = new Date();
-const phaseEnd = p => start ? new Date(start - p.daysBefore * DAY) : null;
+const phaseEnd = p => p.until ? new Date(p.until + "T23:59:59") : start ? new Date(start - p.daysBefore * DAY) : null;
 let active = 0;
 if (start) { active = C.phases.findIndex(p => now < phaseEnd(p)); if (active < 0) active = C.phases.length - 1; }
 const fmt = d => d.toLocaleDateString("es-ES", { day: "numeric", month: "long", year: "numeric" });
 
 $("#phases").innerHTML = C.phases.map((p, i) => {
   const end = phaseEnd(p);
-  const when = p.daysBefore === 0 ? "Último mes" : (end ? "Hasta el " + fmt(end) : "Hasta " + (p.daysBefore === 60 ? "2 meses" : "1 mes") + " antes");
+  const when = p.daysBefore === 0 ? "Último mes" : (end ? "Hasta el " + fmt(end) : "Hasta 1 mes antes");
   return `<div class="phase ${i === active ? "on" : i < active ? "past" : ""}"><div class="dot">${i + 1}</div><h4>${p.name}</h4><p>${when}</p></div>`;
 }).join("");
 
@@ -824,7 +821,7 @@ function renderWorkshopCard() {
   const msg = "Hola, quiero reservar talleres del congreso de salud pélvica. ¿Me enviáis los datos bancarios para hacer la transferencia?";
   return `<article class="plan wk">
     <span class="badge">Se compran aparte</span>
-    <h3>Talleres precongreso</h3><p class="desc">Prácticos, de 4 horas, en grupo reducido. Puedes añadirlos a tu entrada o comprarlos sin entrada.</p>
+    <h3>Talleres prácticos</h3><p class="desc">Prácticos, de 4 horas, en grupo reducido. Puedes añadirlos a tu entrada o comprarlos sin entrada.</p>
     <ul class="tiers">${rows}</ul>
     <ul>
       <li>${icon("i-check")}Solo presenciales; no se graban</li>
@@ -898,7 +895,7 @@ $("#workshops").innerHTML = C.workshops.map(w => `<article class="tcard reveal">
 
 /* Programa */
 const tabs = $("#tabs");
-tabs.innerHTML = C.program.map((d, i) => `<button class="tab" role="tab" aria-selected="${i === 1 ? "true" : "false"}" data-i="${i}">${d.day}<small>${d.label}</small></button>`).join("");
+tabs.innerHTML = C.program.map((d, i) => `<button class="tab" role="tab" aria-selected="${i === 0 ? "true" : "false"}" data-i="${i}">${d.day}<small>${d.label}</small></button>`).join("");
 const kind = { talk: "Ponencia", round: "Mesa redonda", workshop: "Talleres", abstract: "Abstracts" };
 function renderDay(i) {
   $("#sched").innerHTML = C.program[i].slots.map(s => s.type === "break"
@@ -907,7 +904,7 @@ function renderDay(i) {
   tabs.querySelectorAll(".tab").forEach(t => t.setAttribute("aria-selected", t.dataset.i == i));
 }
 tabs.addEventListener("click", e => { const t = e.target.closest(".tab"); if (t) renderDay(+t.dataset.i); });
-renderDay(1);
+renderDay(0);
 $("#dl-row").innerHTML = C.programPdf
   ? `<a class="btn btn-dk" href="${C.programPdf}" download>Descargar programa completo (PDF)</a>`
   : `<span class="tbd">Programa completo próximamente</span>`;
