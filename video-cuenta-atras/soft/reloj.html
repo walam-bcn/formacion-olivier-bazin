@@ -13,11 +13,14 @@
 <script src="common.js"></script>
 <script>
 // Clean, modern version on the full hourglass photo. No particles, no script fonts.
+const DURQ = +(new URLSearchParams(location.search).get('dur') || 12);
+T.numDur = 1;
+if (DURQ >= 30) Object.assign(T, { nums: [2.7, 4.9, 7.1], numDur: 2.0, es: 9.3, en: 12.4, date: 15.6, out: 28.3, end: 30 });
 const img = new Image(); img.src = '../fotos/reloj-rosa.jpg';
 const WHITE = '#ffffff', SH = 'rgba(20,24,60,0.35)';
 
 function photo(t) {
-  const k = eSine(lin(t, 0, 12));
+  const k = eSine(lin(t, 0, T.end));
   const sc = Math.max(W / img.width, H / img.height) * mix(1.10, 1.02, k);
   const w = img.width * sc, h = img.height * sc;
   let x = CX - w * 0.5, y = CY - h * 0.5 + mix(24, -24, k);
@@ -48,7 +51,7 @@ function line(text, y, font, size, t, start, dur, opts = {}) {
 }
 function number(t) {
   T.nums.forEach((s, i) => {
-    const lt = t - s; if (lt < -0.05 || lt > 1.05) return;
+    const lt = (t - s) / T.numDur; if (lt < -0.05 || lt > 1.05) return;
     const kin = eSine(lin(lt, 0, 0.4)), kout = eSine(lin(lt, 0.65, 1));
     const a = kin * (1 - kout); if (a <= 0.001) return;
     ctx.save(); ctx.globalAlpha = a;

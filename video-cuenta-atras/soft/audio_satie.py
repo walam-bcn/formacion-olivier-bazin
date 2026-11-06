@@ -7,7 +7,8 @@ English 7.2 s, date 8.9 s, breathe out from 10.9 s.
 import sys, wave
 import numpy as np
 
-SR, DUR = 48000, 12.0
+SR = 48000
+DUR = float(sys.argv[2]) if len(sys.argv) > 2 else 12.0
 N = int(SR * DUR)
 L = np.zeros(N); R = np.zeros(N)
 rng = np.random.default_rng(1)
@@ -84,15 +85,24 @@ def bar_acc(i, root, chord):
     for j, n in enumerate(chord):
         piano(t + Q + j * 0.012, n, 0.3, BAR * 1.2)
 G = ('G2', ['B3', 'D4', 'F#4']); D = ('D2', ['A3', 'C#4', 'F#4'])
-for i, (r, c) in enumerate([G, D, G, D, G, D]):
-    bar_acc(i, r, c)
-# melody (bars 3-6 of this excerpt = bars 5-8 of the score)
-m = [(2, 1, 'F#5'), (2, 2, 'A5'),
-     (3, 0, 'G5'), (3, 1, 'F#5'), (3, 2, 'C#5'),
-     (4, 0, 'B4'), (4, 1, 'C#5'), (4, 2, 'D5'),
-     (5, 0, 'A4')]
+if DUR < 20:
+    for i, (r, c) in enumerate([G, D, G, D, G, D]):
+        bar_acc(i, r, c)
+    m = [(2, 1, 'F#5'), (2, 2, 'A5'), (3, 0, 'G5'), (3, 1, 'F#5'), (3, 2, 'C#5'),
+         (4, 0, 'B4'), (4, 1, 'C#5'), (4, 2, 'D5'), (5, 0, 'A4')]
+else:
+    # full four-bar introduction, then the first phrase; the long F# rests over the sway
+    for i in range(12):
+        bar_acc(i, *(G if i % 2 == 0 else D))
+    m = [(4, 1, 'F#5'), (4, 2, 'A5'), (5, 0, 'G5'), (5, 1, 'F#5'), (5, 2, 'C#5'),
+         (6, 0, 'B4'), (6, 1, 'C#5'), (6, 2, 'D5'), (7, 0, 'A4'), (8, 0, 'F#4')]
+    # closing: a last open G chord with the high F# ringing out
+    t = T0 + 12 * BAR
+    piano(t, 'G2', 0.45, 4); piano(t, 'D3', 0.3, 4)
+    for j, n in enumerate(['B3', 'D4', 'F#4']): piano(t + Q + j * 0.02, n, 0.28, 3.5)
+    piano(t + Q, 'F#5', 0.45, 3.5, pan=0.1)
 for b, beat, n in m:
-    piano(T0 + b * BAR + beat * Q, n, 0.58 if n != 'A4' else 0.5, 5.0, pan=0.1)
+    piano(T0 + b * BAR + beat * Q, n, 0.58 if n not in ('A4', 'F#4') else 0.5, 9.0 if n == 'F#4' else 5.0, pan=0.1)
 
 # ---------------- space: pre-delay + long stereo hall ----------------
 def hall(x, seed, decay=1.25, pre=0.025):
@@ -115,7 +125,7 @@ mix = np.fft.irfft(F, N, axis=0)
 mix = np.tanh(mix / np.max(np.abs(mix)) * 1.1)
 mix /= np.max(np.abs(mix)) / 0.88
 t = np.arange(N) / SR
-mix *= (np.clip(t / 0.08, 0, 1) * np.clip((12 - t) / 1.1, 0, 1))[:, None]
+mix *= (np.clip(t / 0.08, 0, 1) * np.clip((DUR - t) / 1.1, 0, 1))[:, None]
 with wave.open(sys.argv[1], 'wb') as w:
     w.setnchannels(2); w.setsampwidth(2); w.setframerate(SR)
     w.writeframes((mix * 32767).astype('<i2').tobytes())

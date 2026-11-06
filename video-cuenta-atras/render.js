@@ -4,8 +4,10 @@ const { chromium } = require('playwright');
 const { spawn } = require('child_process');
 const path = require('path');
 
-const FPS = 30, DUR = 12;
+const FPS = 30;
 const argv = process.argv.slice(2);
+let DUR = 12;
+const di = argv.indexOf('--dur'); if (di >= 0) { DUR = +argv[di + 1]; argv.splice(di, 2); }
 let scene = 'scene.html';
 const si = argv.indexOf('--scene'); if (si >= 0) { scene = argv[si + 1]; argv.splice(si, 2); }
 const pos = argv.filter(a => !a.startsWith('--'));

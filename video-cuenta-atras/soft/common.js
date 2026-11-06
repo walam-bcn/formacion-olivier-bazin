@@ -84,7 +84,7 @@ const grain = (() => {
 })();
 function finish(t, fadeColor = '255,255,255') {
   ctx.save(); ctx.globalCompositeOperation = 'overlay'; ctx.drawImage(grain, 0, 0, W, H); ctx.restore();
-  const fi = 1 - lin(t, 0, 1.0), fo = lin(t, 11.3, 12);
+  const fi = 1 - lin(t, 0, 1.0), fo = lin(t, T.end - 0.7, T.end);
   const a = Math.max(fi, fo);
   if (a > 0) { ctx.fillStyle = `rgba(${fadeColor},${a})`; ctx.fillRect(0, 0, W, H); }
 }
