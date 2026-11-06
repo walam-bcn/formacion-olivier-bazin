@@ -5,6 +5,8 @@
   @font-face { font-family: "IDXLight"; src: url("../fonts/InterDisplay-ExtraLight.otf"); }
   @font-face { font-family: "IDThin"; src: url("../fonts/InterDisplay-Thin.otf"); }
   @font-face { font-family: "InterL"; src: url("../fonts/Inter-Light.otf"); }
+  @font-face { font-family: "IDSemi"; src: url("../fonts/InterDisplay-SemiBold.otf"); }
+  @font-face { font-family: "IDMed"; src: url("../fonts/InterDisplay-Medium.otf"); }
   html, body { margin: 0; background: #000; overflow: hidden; } canvas { display: block; }
 </style></head>
 <body><canvas id="c" width="1080" height="1920"></canvas>
@@ -37,7 +39,7 @@ function line(text, y, font, size, t, start, dur, opts = {}) {
   const b = (1 - k) * 12; if (b > 0.3) ctx.filter = `blur(${b.toFixed(1)}px)`;
   ctx.font = `${size}px ${font}`; ctx.textAlign = 'center'; ctx.textBaseline = 'alphabetic';
   if (opts.track) ctx.letterSpacing = `${Math.round(size * opts.track * (1 + 0.4 * (1 - k)))}px`;
-  ctx.shadowColor = SH; ctx.shadowBlur = 24;
+  ctx.shadowColor = opts.strong ? 'rgba(10,14,45,0.6)' : SH; ctx.shadowBlur = opts.strong ? 30 : 24;
   ctx.fillStyle = opts.color || WHITE;
   // letterSpacing adds trailing space after the last glyph; shift to stay centred
   const shift = opts.track ? size * opts.track * (1 + 0.4 * (1 - k)) / 2 : 0;
@@ -63,14 +65,14 @@ window.render = function (t) {
   photo(t); grade();
   number(t);
   const out = 1 - lin(t, T.out, T.out + 0.8);
-  line('14 · 11', 250, 'InterL', 40, t, T.date, 1.4, { track: 0.5, out });
+  line('14 · 11', 250, 'IDMed', 44, t, T.date, 1.4, { track: 0.5, out });
   line('Empieza la', 430, 'IDXLight', 118, t, T.es, 1.3, { out, track: -0.01 });
   line('cuenta atrás', 560, 'IDXLight', 118, t, T.es + 0.35, 1.3, { out, track: -0.01 });
   // hairline divider
   const lk = eIO(lin(t, T.en - 0.3, T.en + 0.9)) * out;
   if (lk > 0) { ctx.fillStyle = 'rgba(255,255,255,0.7)'; ctx.fillRect(CX - 60 * lk, 628, 120 * lk, 1.5); }
-  line('THE COUNTDOWN BEGINS', 704, 'InterL', 36, t, T.en, 1.4, { track: 0.42, out });
+  line('THE COUNTDOWN BEGINS', 712, 'IDSemi', 48, t, T.en, 1.4, { track: 0.2, out, strong: true });
   finish(t, '255,247,250');
 };
-window.ready = (async () => { await img.decode(); return loadFonts(['IDLight', 'IDXLight', 'IDThin', 'InterL']); })();
+window.ready = (async () => { await img.decode(); return loadFonts(['IDLight', 'IDXLight', 'IDThin', 'InterL', 'IDSemi', 'IDMed']); })();
 </script></body></html>
