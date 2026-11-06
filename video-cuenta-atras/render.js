@@ -1,23 +1,27 @@
 // Renders scene.html frame by frame and pipes JPEG frames into ffmpeg.
-// Usage: node render.js <out.mp4> [audio.wav] [--stills]
+// Usage: node render.js [--scene file.html] <out.mp4> [audio.wav] [--stills]
 const { chromium } = require('playwright');
 const { spawn } = require('child_process');
 const path = require('path');
 
 const FPS = 30, DUR = 12;
-const out = process.argv[2] || 'cuenta-atras.mp4';
-const audio = process.argv[3] && !process.argv[3].startsWith('--') ? process.argv[3] : null;
+const argv = process.argv.slice(2);
+let scene = 'scene.html';
+const si = argv.indexOf('--scene'); if (si >= 0) { scene = argv[si + 1]; argv.splice(si, 2); }
+const pos = argv.filter(a => !a.startsWith('--'));
+const out = pos[0] || 'cuenta-atras.mp4';
+const audio = pos[1] || null;
 const stills = process.argv.includes('--stills');
 
 (async () => {
   const browser = await chromium.launch({ args: ['--allow-file-access-from-files'] });
   const page = await browser.newPage({ viewport: { width: 1080, height: 1920 }, deviceScaleFactor: 1 });
-  await page.goto('file://' + path.resolve(__dirname, 'scene.html'));
+  await page.goto('file://' + path.resolve(scene));
   await page.evaluate(() => window.ready);
   const canvas = await page.$('#c');
 
   if (stills) {
-    for (const t of [0.8, 1.8, 2.3, 3.5, 5.05, 5.6, 6.8, 8.2, 9.8, 11.4]) {
+    for (const t of [0.8, 2.0, 3.0, 5.6, 8.0, 10.2, 11.5]) {
       await page.evaluate(t => window.render(t), t);
       await canvas.screenshot({ path: `${out}-${t.toFixed(2)}.jpg`, type: 'jpeg', quality: 80 });
     }

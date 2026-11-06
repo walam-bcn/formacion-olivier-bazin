@@ -1,0 +1,77 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+  @font-face { font-family: "Corm"; src: url("../fonts/Cormorant.ttf"); font-weight: 300 700; }
+  @font-face { font-family: "CormI"; src: url("../fonts/CormorantItalic.ttf"); font-weight: 300 700; }
+  @font-face { font-family: "Vibes"; src: url("../fonts/GreatVibes.ttf"); }
+  html, body { margin: 0; background: #000; overflow: hidden; } canvas { display: block; }
+</style></head>
+<body><canvas id="c" width="1080" height="1920"></canvas>
+<script src="common.js"></script>
+<script>
+// Real-photo version: slow Ken Burns on a photograph + soft light + the same text.
+// URL params: img=<path>  fx,fy=focus point 0..1 (default .5,.5)  ty=text centre y (px)
+const q = new URLSearchParams(location.search);
+const FX = +(q.get('fx') || 0.5), FY = +(q.get('fy') || 0.5);
+const TY = +(q.get('ty') || 640);
+const img = new Image(); img.src = q.get('img');
+const motes = []; { const r = rng(4); for (let i = 0; i < 60; i++) motes.push({ x: r() * W, y: r() * H, s: r(), p: r() * 6.28 }); }
+
+function photo(t) {
+  const k = eSine(lin(t, 0, 12));
+  const sc0 = Math.max(W / img.width, H / img.height);
+  const sc = sc0 * mix(1.14, 1.02, k);
+  const w = img.width * sc, h = img.height * sc;
+  // keep the focus point near centre, drifting gently upward
+  let x = CX - w * FX, y = CY - h * FY + mix(30, -30, k);
+  x = Math.min(0, Math.max(W - w, x)); y = Math.min(0, Math.max(H - h, y));
+  ctx.drawImage(img, x, y, w, h);
+}
+function grade(t) {
+  // gentle darkening behind the text for legibility + warm/rose dawn tint
+  const g = ctx.createLinearGradient(0, TY - 700, 0, TY + 900);
+  g.addColorStop(0, 'rgba(10,16,40,0)'); g.addColorStop(0.45, 'rgba(10,16,40,0.38)');
+  g.addColorStop(0.75, 'rgba(10,16,40,0.18)'); g.addColorStop(1, 'rgba(10,16,40,0)');
+  ctx.fillStyle = g; ctx.fillRect(0, 0, W, H);
+  ctx.save(); ctx.globalCompositeOperation = 'soft-light';
+  const tint = ctx.createLinearGradient(0, 0, 0, H);
+  tint.addColorStop(0, 'rgba(255,170,200,0.35)'); tint.addColorStop(1, 'rgba(120,150,255,0.25)');
+  ctx.fillStyle = tint; ctx.fillRect(0, 0, W, H); ctx.restore();
+  // breathing light leak
+  const a = 0.18 + 0.1 * Math.sin(t * 0.9);
+  const lg = ctx.createRadialGradient(W * 0.15, H * 0.2, 0, W * 0.15, H * 0.2, 900);
+  lg.addColorStop(0, `rgba(255,214,190,${a})`); lg.addColorStop(1, 'rgba(255,214,190,0)');
+  ctx.save(); ctx.globalCompositeOperation = 'screen'; ctx.fillStyle = lg; ctx.fillRect(0, 0, W, H); ctx.restore();
+}
+function drawMotes(t) {
+  ctx.save(); ctx.globalCompositeOperation = 'lighter';
+  for (const d of motes) {
+    const y = ((d.y - t * (12 + d.s * 22)) % H + H) % H, x = d.x + Math.sin(t * 0.5 + d.p) * 20;
+    const a = 0.25 * (0.5 + 0.5 * Math.sin(t * 1.5 + d.p * 3)), r = 3 + d.s * 7;
+    const g = ctx.createRadialGradient(x, y, 0, x, y, r * 3);
+    g.addColorStop(0, `rgba(255,240,220,${a})`); g.addColorStop(1, 'rgba(255,240,220,0)');
+    ctx.fillStyle = g; ctx.fillRect(x - r * 3, y - r * 3, r * 6, r * 6);
+  }
+  ctx.restore();
+}
+
+let S1, SEN;
+const WHITE = '#fffaf3', GOLD = '#f6e2bd', SH = 'rgba(0,0,30,0.45)';
+window.render = function (t) {
+  reset();
+  photo(t); grade(t); drawMotes(t);
+  const out = 1 - lin(t, T.out, T.out + 0.8);
+  softNumber(t, 'CormI', 640, WHITE, TY + 120, { glow: 'rgba(255,230,210,0.8)' });
+  if (!S1) { S1 = fitFont('cuenta atrás', 'Corm', 820, 190, 300); SEN = fitFont('The countdown begins', 'Vibes', 800, 140); }
+  const y0 = TY - 120;
+  const o = { fadeOut: out, weight: 300, glow: SH };
+  revealWords('Empieza la', CX, y0, 'Corm', S1, WHITE, t, T.es, 0.25, 1.2, o);
+  revealWords('cuenta atrás', CX, y0 + S1 * 0.95, 'Corm', S1, WHITE, t, T.es + 0.45, 0.25, 1.2, o);
+  revealWords('The countdown begins', CX, y0 + S1 * 0.95 + 210, 'Vibes', SEN, GOLD, t, T.en, 0.35, 1.4, { fadeOut: out, glow: SH });
+  ctx.save(); ctx.shadowColor = SH; ctx.shadowBlur = 20;
+  dateMark(t, y0 + S1 * 0.95 + 360, 'CormI', 64, WHITE, { fadeOut: out });
+  ctx.restore();
+  finish(t, '255,247,240');
+};
+window.ready = (async () => { await img.decode(); return loadFonts(['Corm', 'CormI', 'Vibes']); })();
+</script></body></html>

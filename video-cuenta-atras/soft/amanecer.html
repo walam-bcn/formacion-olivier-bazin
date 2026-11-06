@@ -1,0 +1,86 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+  @font-face { font-family: "Corm"; src: url("../fonts/Cormorant.ttf"); font-weight: 300 700; }
+  @font-face { font-family: "CormI"; src: url("../fonts/CormorantItalic.ttf"); font-weight: 300 700; }
+  @font-face { font-family: "Vibes"; src: url("../fonts/GreatVibes.ttf"); }
+  html, body { margin: 0; background: #fde9d4; overflow: hidden; } canvas { display: block; }
+</style></head>
+<body><canvas id="c" width="1080" height="1920"></canvas>
+<script src="common.js"></script>
+<script>
+// "Amanecer": a pastel dawn, sun slowly rising, golden dust floating up.
+const dust = []; { const r = rng(21); for (let i = 0; i < 90; i++) dust.push({ x: r() * W, y: r() * H, s: r(), p: r() * 6.28 }); }
+const clouds = []; { const r = rng(8); for (let i = 0; i < 9; i++) clouds.push({ x: r() * W, y: 380 + r() * 900, w: 300 + r() * 500, h: 40 + r() * 50, v: 6 + r() * 14, a: .25 + r() * .3 }); }
+const PLUM = '#4b3352';
+
+function sky(t) {
+  const k = eSine(lin(t, 0, 12));
+  const g = ctx.createLinearGradient(0, 0, 0, H);
+  g.addColorStop(0, `rgb(${mix(170, 196, k)},${mix(160, 178, k)},${mix(214, 222, k)})`);
+  g.addColorStop(0.45, `rgb(${mix(236, 246, k)},${mix(190, 202, k)},${mix(200, 196, k)})`);
+  g.addColorStop(0.8, `rgb(252,${mix(214, 226, k)},${mix(190, 196, k)})`);
+  g.addColorStop(1, '#fff1e2');
+  ctx.fillStyle = g; ctx.fillRect(0, 0, W, H);
+}
+function sun(t) {
+  const y = mix(1800, 1560, eSine(lin(t, 0, 12)));
+  const pulse = 1 + 0.03 * Math.sin(t * 1.6);
+  let g = ctx.createRadialGradient(CX, y, 0, CX, y, 900 * pulse);
+  g.addColorStop(0, 'rgba(255,240,210,0.95)'); g.addColorStop(0.18, 'rgba(255,214,170,0.6)');
+  g.addColorStop(0.5, 'rgba(255,190,170,0.18)'); g.addColorStop(1, 'rgba(255,190,170,0)');
+  ctx.fillStyle = g; ctx.fillRect(0, 0, W, H);
+  ctx.save(); ctx.filter = 'blur(6px)';
+  ctx.fillStyle = 'rgba(255,248,232,0.95)'; ctx.beginPath(); ctx.arc(CX, y, 120, 0, Math.PI * 2); ctx.fill();
+  ctx.restore();
+}
+function drawClouds(t) {
+  ctx.save(); ctx.filter = 'blur(28px)';
+  for (const c of clouds) {
+    const x = ((c.x + t * c.v) % (W + c.w)) - c.w / 2;
+    ctx.fillStyle = `rgba(255,236,236,${c.a})`;
+    ctx.beginPath(); ctx.ellipse(x, c.y, c.w / 2, c.h, 0, 0, Math.PI * 2); ctx.fill();
+  }
+  ctx.restore();
+}
+function hills(t) {
+  // two soft layered silhouettes at the bottom
+  const layers = [[1560, 'rgba(214,160,170,0.55)', 0.004, 60], [1660, 'rgba(176,128,150,0.6)', 0.006, 45], [1780, 'rgba(130,96,128,0.7)', 0.003, 70]];
+  layers.forEach(([base, col, f, amp], i) => {
+    ctx.fillStyle = col; ctx.beginPath(); ctx.moveTo(0, H);
+    for (let x = 0; x <= W; x += 20) ctx.lineTo(x, base + Math.sin(x * f + i * 2) * amp + Math.sin(x * f * 2.7 + i) * amp * 0.4);
+    ctx.lineTo(W, H); ctx.fill();
+  });
+}
+function drawDust(t) {
+  ctx.save(); ctx.globalCompositeOperation = 'lighter';
+  for (const d of dust) {
+    const y = ((d.y - t * (18 + d.s * 30)) % H + H) % H;
+    const x = d.x + Math.sin(t * 0.6 + d.p) * 22;
+    const tw = 0.5 + 0.5 * Math.sin(t * 2 + d.p * 3);
+    const r = 2 + d.s * 5;
+    const g = ctx.createRadialGradient(x, y, 0, x, y, r * 3);
+    g.addColorStop(0, `rgba(255,230,180,${0.55 * tw})`); g.addColorStop(1, 'rgba(255,230,180,0)');
+    ctx.fillStyle = g; ctx.fillRect(x - r * 3, y - r * 3, r * 6, r * 6);
+  }
+  ctx.restore();
+}
+
+let S1, SEN;
+window.render = function (t) {
+  reset();
+  sky(t); sun(t); drawClouds(t); hills(t); drawDust(t);
+  const out = 1 - lin(t, T.out, T.out + 0.8);
+  softNumber(t, 'CormI', 660, 'rgba(255,255,255,0.95)', CY - 40, { glow: 'rgba(255,200,170,0.9)' });
+  if (!S1) { S1 = fitFont('cuenta atrás', 'Corm', 820, 190, 300); SEN = fitFont('The countdown begins', 'Vibes', 820, 140); }
+  revealWords('Empieza la', CX, CY - 170, 'Corm', S1, PLUM, t, T.es, 0.25, 1.2, { fadeOut: out, weight: 300 });
+  revealWords('cuenta atrás', CX, CY - 170 + S1 * 0.95, 'Corm', S1, PLUM, t, T.es + 0.45, 0.25, 1.2, { fadeOut: out, weight: 300 });
+  // thin line
+  const lk = eIO(lin(t, T.es + 1.2, T.es + 2.4)) * out;
+  ctx.fillStyle = 'rgba(75,51,82,0.5)'; ctx.fillRect(CX - 140 * lk, CY + 120, 280 * lk, 1.5);
+  revealWords('The countdown begins', CX, CY + 290, 'Vibes', SEN, '#7a4e6e', t, T.en, 0.35, 1.4, { fadeOut: out });
+  dateMark(t, CY + 450, 'CormI', 66, PLUM, { fadeOut: out });
+  finish(t, '255,241,226');
+};
+window.ready = loadFonts(['Corm', 'CormI', 'Vibes']);
+</script></body></html>
