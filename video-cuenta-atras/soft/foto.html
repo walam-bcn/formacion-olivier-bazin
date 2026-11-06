@@ -14,6 +14,8 @@
 const q = new URLSearchParams(location.search);
 const FX = +(q.get('fx') || 0.5), FY = +(q.get('fy') || 0.5);
 const TY = +(q.get('ty') || 640);
+const NY = +(q.get('ny') || TY + 120);
+const DY = q.get('dy') ? +q.get('dy') : null;
 const img = new Image(); img.src = q.get('img');
 const motes = []; { const r = rng(4); for (let i = 0; i < 60; i++) motes.push({ x: r() * W, y: r() * H, s: r(), p: r() * 6.28 }); }
 
@@ -61,7 +63,7 @@ window.render = function (t) {
   reset();
   photo(t); grade(t); drawMotes(t);
   const out = 1 - lin(t, T.out, T.out + 0.8);
-  softNumber(t, 'CormI', 640, WHITE, TY + 120, { glow: 'rgba(255,230,210,0.8)' });
+  softNumber(t, 'CormI', 640, WHITE, NY, { glow: 'rgba(255,230,210,0.8)' });
   if (!S1) { S1 = fitFont('cuenta atrás', 'Corm', 820, 190, 300); SEN = fitFont('The countdown begins', 'Vibes', 800, 140); }
   const y0 = TY - 120;
   const o = { fadeOut: out, weight: 300, glow: SH };
@@ -69,7 +71,7 @@ window.render = function (t) {
   revealWords('cuenta atrás', CX, y0 + S1 * 0.95, 'Corm', S1, WHITE, t, T.es + 0.45, 0.25, 1.2, o);
   revealWords('The countdown begins', CX, y0 + S1 * 0.95 + 210, 'Vibes', SEN, GOLD, t, T.en, 0.35, 1.4, { fadeOut: out, glow: SH });
   ctx.save(); ctx.shadowColor = SH; ctx.shadowBlur = 20;
-  dateMark(t, y0 + S1 * 0.95 + 360, 'CormI', 64, WHITE, { fadeOut: out });
+  dateMark(t, DY ?? (y0 + S1 * 0.95 + 360), 'CormI', DY ? 72 : 64, WHITE, { fadeOut: out });
   ctx.restore();
   finish(t, '255,247,240');
 };

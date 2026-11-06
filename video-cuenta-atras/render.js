@@ -16,7 +16,8 @@ const stills = process.argv.includes('--stills');
 (async () => {
   const browser = await chromium.launch({ args: ['--allow-file-access-from-files'] });
   const page = await browser.newPage({ viewport: { width: 1080, height: 1920 }, deviceScaleFactor: 1 });
-  await page.goto('file://' + path.resolve(scene));
+  const [sf, qs] = scene.split('?');
+  await page.goto('file://' + path.resolve(sf) + (qs ? '?' + qs : ''));
   await page.evaluate(() => window.ready);
   const canvas = await page.$('#c');
 
