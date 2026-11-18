@@ -162,8 +162,8 @@ SEO = {
         "kws": ["osteopatía Barcelona", "osteópata Sant Gervasi", "osteopatía visceral Barcelona", "osteopatía craneal Barcelona", "osteópata zona alta Barcelona"],
         "ca": "osteòpata Sarrià Sant Gervasi",
         "title": "Osteópata en Sarrià–Sant Gervasi, Barcelona | WA LAM",
-        "desc": "Osteopatía estructural, visceral y craneal en Sarrià–Sant Gervasi (Barcelona). Valoración individual, tratamiento manual y ejercicio. Reserva online.",
-        "quick": "La osteopatía es una terapia manual que valora la movilidad de articulaciones, músculos, fascias y vísceras. En dolor lumbar crónico, la manipulación vertebral obtiene efectos similares a otros tratamientos recomendados, por lo que en WA LAM la combinamos con ejercicio dentro de un plan activo.",
+        "desc": "Osteopatía estructural, visceral y craneal en Sarrià–Sant Gervasi (Barcelona). Valoración individual, tratamiento manual y ejercicio. Reserva por WhatsApp.",
+        "quick": "Sesión individual de 1 hora (70 €) en Sarrià–Sant Gervasi, Barcelona, con Rosa María Rodríguez Valls, osteópata D.O. Se emplea como complemento en el dolor lumbar y cervical, las cefaleas tensionales y las limitaciones de movilidad, combinando técnicas estructurales, viscerales y craneales según la valoración.",
         "entity": ("MedicalTherapy", "Osteopatía"),
     },
     "osteopatia-visceral-barcelona": {
@@ -172,7 +172,7 @@ SEO = {
         "ca": "osteopatia visceral Barcelona",
         "title": "Osteopatía visceral en Barcelona · Sarrià | WA LAM",
         "desc": "Osteopatía visceral en Sarrià–Sant Gervasi, Barcelona: abdomen, diafragma, pelvis y cicatrices. Rosa María Rodríguez Valls, formada en el Barral Institute.",
-        "quick": "La osteopatía visceral aplica técnicas manuales suaves sobre el abdomen, el diafragma, la pelvis y las fascias de los órganos. En WA LAM la realiza Rosa María Rodríguez Valls, osteópata D.O. formada en el Barral Institute, como terapia complementaria: su evidencia científica es todavía limitada.",
+        "quick": "En WA LAM (Sarrià–Sant Gervasi, Barcelona) se aplica en sesiones de 1 hora (70 €) como complemento en molestias digestivas funcionales, dolor lumbar o pélvico de origen visceral y tensiones tras cirugías abdominales. Atiende Rosa María Rodríguez Valls, osteópata D.O. formada en el Barral Institute.",
         "entity": ("MedicalTherapy", "Osteopatía visceral"),
     },
     "osteopatia-craneosacral-barcelona": {
@@ -181,7 +181,7 @@ SEO = {
         "ca": "teràpia craniosacral Barcelona",
         "title": "Terapia craneosacral en Barcelona · Sarrià | WA LAM",
         "desc": "Osteopatía y terapia craneosacral en Sarrià–Sant Gervasi, Barcelona: contacto muy suave en cráneo, columna y sacro. Formación del Upledger Institute.",
-        "quick": "La terapia craneosacral usa contactos manuales muy suaves en cráneo, columna y sacro. Un metaanálisis de 10 ensayos (2020) encontró una reducción moderada del dolor crónico frente a tratamiento habitual y técnica simulada. En WA LAM la realiza Rosa María Rodríguez Valls, formada en el Upledger Institute.",
+        "quick": "En WA LAM (Sarrià–Sant Gervasi, Barcelona) se aplica en sesiones de 1 hora (70 €) como complemento en cefaleas tensionales, tensión cervical y mandibular, dolor persistente y estados de estrés. Atiende Rosa María Rodríguez Valls, osteópata D.O. formada en el Upledger Institute.",
         "entity": ("MedicalTherapy", "Terapia craneosacral"),
     },
     "manipulaciones-neuroviscerales": {
@@ -190,7 +190,7 @@ SEO = {
         "ca": "manipulacions neuroviscerals",
         "title": "Manipulaciones neuroviscerales en Barcelona | WA LAM",
         "desc": "Manipulaciones neuroviscerales en Sarrià–Sant Gervasi: osteopatía sobre los nervios del tórax, el abdomen y la pelvis. Formación Barral y Olivier Bazin.",
-        "quick": "Las manipulaciones neuroviscerales son técnicas osteopáticas que actúan sobre los nervios conectados con las vísceras (vago, frénicos, intercostales, cadena simpática). En WA LAM las aplica Rosa María Rodríguez Valls, que organiza en Barcelona la formación de Olivier Bazin.",
+        "quick": "En WA LAM (Sarrià–Sant Gervasi, Barcelona) se aplican en sesiones de 1 hora (70 €) como complemento en molestias funcionales digestivas y pélvicas con componente nervioso. Rosa María Rodríguez Valls organiza en Barcelona la formación en manipulaciones neuroviscerales de Olivier Bazin.",
         "entity": ("MedicalTherapy", "Manipulaciones neuroviscerales"),
     },
     "suelo-pelvico-dolor-pelvico": {

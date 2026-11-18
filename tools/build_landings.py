@@ -444,7 +444,7 @@ def hero(p):
     if g and p["group"] != "home":
         crumbs = f'<div class="crumbs"><a href="{url("")}">{tr("Inicio")}</a> › <a href="{url(g["hub"])}">{g["nav"]}</a> › {html.escape(plain(p["nav"]))}</div>'
     b1 = p.get("cta1", (tr("Escríbenos por WhatsApp"), wa(p["wa"])))
-    b2 = p.get("cta2", (tr("Reservar primera visita"), SITE["booking"]))
+    b2 = p.get("cta2", (tr("Reservar primera visita"), wa(tr("Hola, me gustaría reservar una primera visita."))))
     if not b2[1].startswith(("http", "#", "[[")):
         b2 = (b2[0], url(b2[1]))
     facts = "".join(f"<li>{fmt(f)}</li>" for f in p["facts"])
@@ -505,7 +505,7 @@ def steps(s):
 
 def pro(f, p):
     rows = "".join(f"<li><span>{fmt(a)}</span><b>{fmt(b)}</b></li>" for a, b in f["rows"])
-    btn = f.get("btn", (tr("Reservar"), SITE["booking"]))
+    btn = f.get("btn", (tr("Reservar por WhatsApp"), wa(p["wa"])))
     who = p.get("pro_who", "")
     cv = f'<p style="margin-top:14px"><b>{tr("Quién te atiende")}:</b> {fmt(who)}<br><a class="inl" href="{SITE["cv_url"]}">{tr("Ver currículum")}</a></p>' if who else ""
     return f"""<section class="pro" id="ficha"><div class="wrap"><div class="pcard">
@@ -540,7 +540,7 @@ def related(slugs, h2=None):
 
 def ctaband(p):
     c = p["cta"]
-    b2 = c.get("b2", (tr("Reservar online"), SITE["booking"]))
+    b2 = c.get("b2", (tr("Llamar al 675 716 409"), "tel:+34675716409"))
     return f"""<section class="ctaband"><div class="wrap"><h2>{fmt(c['h2'])}</h2><p>{fmt(c['p'])}</p>
 <div class="btn-row"><a class="btn btn-dk" href="{wa(p['wa'])}" target="_blank" rel="noopener">{tr("Escríbenos por WhatsApp")}</a><a class="btn btn-gh" href="{b2[1]}">{b2[0]}</a></div></div></section>"""
 
@@ -600,12 +600,12 @@ def local(p):
     what = plain(p["nav"])
     return f"""<section class="localsec" id="donde-estamos"><div class="wrap">{sec_head(tr("Dónde estamos"), f"{what} · {tr('cerca de ti, en Sarrià–Sant Gervasi')}")}
 <div class="grid g2"><div class="card"><span class="k">{tr("Consulta presencial")}</span><h3>WA LAM · {html.escape(SITE['street'])}, {SITE['postal']} Barcelona</h3>
-<p>{tr("Atendemos a pacientes de todo el distrito de Sarrià–Sant Gervasi")} ({html.escape(barrios)}) {tr("y de toda Barcelona.")}</p>
+
 <ul><li>{tr("Dirección")}: {html.escape(SITE['street'])}, {SITE['postal']} Barcelona</li><li>{tr("Horario")}: {tr(SITE['hours'])}</li><li>{tr("Cómo llegar")}: <span class="pend">{tr("FGC / bus más cercanos")}</span></li><li>{tr("Teléfono y WhatsApp")}: +34 675 716 409</li></ul></div>
 <div class="card"><span class="k">{tr("Reserva")}</span><h3>{tr("Quién te atiende")}</h3>
 <p>{fmt(p.get("pro_who", "").rstrip("."))}. <a class="inl" href="{SITE['cv_url']}">{tr("Ver currículum")}</a></p>
-<p>{tr("Puedes reservar online o escribirnos por WhatsApp. Si no sabes qué servicio te conviene, cuéntanos tu caso y te orientamos antes de reservar.")}</p>
-<div class="btn-row"><a class="btn btn-tq" href="{wa(p['wa'])}" target="_blank" rel="noopener">WhatsApp</a><a class="btn btn-gh" href="{SITE['booking']}">{tr("Reservar online")}</a></div></div></div></div></section>"""
+<p>{tr("La reserva se realiza por WhatsApp y el pago, mediante Bizum. Si no sabes qué servicio te conviene, cuéntanos tu caso y te orientamos antes de reservar.")}</p>
+<div class="btn-row"><a class="btn btn-tq" href="{wa(p['wa'])}" target="_blank" rel="noopener">WhatsApp</a><a class="btn btn-gh" href="tel:+34675716409">{tr("Llamar")}</a></div></div></div></div></section>"""
 
 
 def page(p):
@@ -711,7 +711,7 @@ def guide():
 <tr><th>Encabezado H1</th><td>{html.escape(plain(x['h1']))}</td></tr>
 <tr><th>Enlaces internos que salen</th><td>{html.escape(', '.join(lab(t) for t in _links_out(x)))}</td></tr>
 <tr><th>Enlaces que recibe</th><td>{html.escape(', '.join([lab(t) for t in inl[sl]] + [unquote(b) for b in BLOG.get(sl, [])]))}</td></tr>
-<tr><th>Botón principal</th><td>{html.escape(btn)}{' + Reservar online' if x['group'] != 'academia' else ''}</td></tr>
+<tr><th>Botón principal</th><td>{html.escape(btn)}{' + Llamar' if x['group'] != 'academia' else ''}</td></tr>
 <tr><th>Datos estructurados</th><td>{types}. JSON listo en <code>landings/schema/{sl}.json</code>. FAQPage solo si las preguntas se ven en la página.</td></tr>
 <tr><th>Cambios en Wix</th><td>{'Editar la página existente (no cambiar la URL).' if sl in EXISTING else 'Crear página hija de ' + ('Tratamientos' if x['group'] in ('motivo', 'servicio') else 'Academia') + ' con esa URL.'} Pegar título y descripción (Configuración SEO), H1 y texto como elementos nativos de Wix, marcado estructurado en SEO › Avanzado, imagen para redes og/{sl}.png.{' En la página de reserva ' + html.escape(unquote(BOOKING[sl])) + ': cambiar el título SEO a «Reservar…» y enlazar a esta página.' if sl in BOOKING else ''}</td></tr>
 <tr><th>Verificar tras publicar</th><td>Móvil · Inspección de URL e indexación en Search Console · canonical = URL de arriba · aparece en sitemap.xml · Rich Results Test · enlaces internos funcionan</td></tr></table></details>""")

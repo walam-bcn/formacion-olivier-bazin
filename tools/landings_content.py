@@ -1078,8 +1078,8 @@ PAGES.append({
     "h1": "Osteopatía en Sarrià–Sant Gervasi",
     "sub": "Osteopatía estructural, visceral, craneosacral y neurovisceral · Barcelona",
     "lead": "La osteopatía es una terapia manual que valora cómo se relacionan las articulaciones, los músculos, las fascias, las vísceras y el sistema nervioso. Su objetivo es mejorar la movilidad, la función y la capacidad de adaptación del cuerpo, siempre a partir de una valoración individual y sin promesas de curación.",
-    "facts": ["Osteópata: [[nombre, titulación]]", "Sesión de [[duración]] · [[precio]]", "Estructural, visceral y craneal",
-              "Valoración en cada sesión", "Reserva online o por WhatsApp"],
+    "facts": ["Atiende: [[nombre, titulación]]", "Sesión de [[duración]] · [[precio]]", "Estructural, visceral y craneal",
+              "Valoración en cada sesión", "Reserva por WhatsApp"],
     "wa": "Hola, me gustaría reservar una sesión de osteopatía.",
     "blocks": [
         {"type": "mirror", "eyebrow": "¿Cuándo consultar?", "h2": "Motivos frecuentes de consulta",
@@ -1088,6 +1088,7 @@ PAGES.append({
                 "¿Sientes molestias abdominales o pélvicas asociadas a cicatrices o tensión?",
                 "¿Tienes dolores de cabeza tensionales?",
                 "¿Te has recuperado de una lesión, pero la zona sigue rígida?"]},
+        {"type": "explain", "eyebrow": "Origen", "h2": "Qué es la osteopatía", "paras": ["La osteopatía fue fundada en 1874 por el médico estadounidense Andrew Taylor Still, que en 1892 abrió en Kirksville (Misuri) la primera escuela de osteopatía. Su principio central es la relación entre la estructura del cuerpo y su función: la movilidad de articulaciones, músculos, fascias y vísceras influye en el funcionamiento del organismo.", "Con el tiempo se desarrollaron tres grandes enfoques: el estructural, centrado en el sistema musculoesquelético; el visceral, sistematizado por Jean-Pierre Barral; y el craneal, iniciado por William Garner Sutherland y desarrollado después por John Upledger."]},
         {"type": "cards", "eyebrow": "Modalidades", "h2": "Tres enfoques dentro de una misma sesión",
          "intro": "Según tu valoración, la sesión combina las técnicas que tu caso necesita. Cada enfoque tiene su propia página con más detalle.",
          "items": [{"k": "Estructural", "h": "Osteopatía estructural", "p": "Trabajo sobre articulaciones, músculos y fascias para mejorar la movilidad y aliviar la tensión. Es la base de la consulta para el dolor de espalda, cuello, hombro o cadera."},
@@ -1141,7 +1142,8 @@ PAGES.append({
          "close": "Si tienes dolor abdominal intenso, fiebre, sangrado o pérdida de peso sin causa, consulta primero con tu médico."},
         {"type": "explain", "eyebrow": "Qué es", "h2": "Una terapia manual sobre las vísceras y sus fascias",
          "paras": [
-             "Las vísceras están unidas a la pared del cuerpo y entre sí por ligamentos, fascias y el diafragma, que se mueve con cada respiración. La osteopatía visceral, desarrollada por Jean-Pierre Barral, valora con la palpación esas zonas de tensión o de restricción y aplica técnicas suaves de movilización y de inducción.",
+             "La osteopatía visceral fue desarrollada por el osteópata y fisioterapeuta francés Jean-Pierre Barral (Grenoble, 1944). Trabajando en el hospital de enfermedades pulmonares de Grenoble, se interesó por la movilidad de los órganos y, junto a Pierre Mercier, sistematizó un método de valoración y tratamiento manual que publicaron en 1983 en «Manipulations viscérales». Hoy se enseña en todo el mundo a través del Barral Institute.",
+             "Las vísceras están unidas a la pared del cuerpo y entre sí por ligamentos, fascias y el diafragma, que se mueve con cada respiración. El método de Barral distingue la movilidad de los órganos, ligada a la respiración y al movimiento del cuerpo, y valora con la palpación las zonas de restricción para aplicar técnicas suaves de movilización y de inducción.",
              "Se diferencia de las [manipulaciones neuroviscerales](manipulaciones-neuroviscerales), que actúan sobre los nervios que conectan con los órganos. En la práctica, ambas pueden combinarse en una misma sesión de [osteopatía](osteopatia-sarria-sant-gervasi).",
          ]},
         {"type": "steps", "eyebrow": "La sesión", "h2": "Cómo es una sesión de osteopatía visceral",
@@ -1183,7 +1185,8 @@ PAGES.append({
                 "¿Atraviesas una etapa de estrés y te cuesta relajar el cuerpo?"]},
         {"type": "explain", "eyebrow": "Qué es", "h2": "Una terapia manual de contacto muy suave",
          "paras": [
-             "La terapia craneosacral nació dentro de la osteopatía y fue desarrollada como método por John Upledger. Se aplica con la persona tumbada y vestida, mediante contactos ligeros en el cráneo, la nuca, la columna y el sacro.",
+             "La osteopatía craneal tiene su origen en William Garner Sutherland, que en la década de 1930 propuso que las suturas del cráneo conservan cierta movilidad durante toda la vida. En 1970, el médico osteópata John E. Upledger observó durante una intervención quirúrgica un movimiento rítmico de las membranas que rodean la médula espinal; entre 1975 y 1983 dirigió en la Universidad Estatal de Míchigan un equipo de investigación sobre este sistema y desarrolló la terapia craneosacral. En 1985 fundó el Upledger Institute, que la enseña en todo el mundo.",
+             "Se aplica con la persona tumbada y vestida, mediante contactos muy ligeros en el cráneo, la nuca, la columna y el sacro.",
              "Su modelo tradicional habla de un «ritmo craneosacral»; la ciencia no ha confirmado que se pueda palpar de forma fiable. Por eso la explicamos desde lo que sí se puede observar: es una técnica suave y bien tolerada que muchas personas usan para reducir la tensión y el dolor.",
          ]},
         ficha("Ficha del servicio", "Osteopatía craneosacral", "Sesión individual de terapia craneosacral, sola o combinada con otras técnicas de osteopatía.", ROWS_SERVICIO),
@@ -1412,7 +1415,7 @@ PAGES.append({
     "sub": "Consulta en Sarrià–Sant Gervasi, Barcelona",
     "lead": "Dejar de fumar es una de las decisiones con más impacto en tu salud. En WA LAM ofrecemos la [acupuntura](acupuntura-medicina-tradicional-china) como **apoyo** dentro de tu proceso, no como sustituto de los tratamientos con más eficacia demostrada. Te explicamos con claridad qué puedes esperar.",
     "facts": ["Profesional: [[nombre, titulación]]", "Sesión de [[duración]] · [[precio]]", "Nº de sesiones orientativo: [[pendiente]]",
-              "Compatible con el tratamiento de tu médico", "Reserva online o por WhatsApp"],
+              "Compatible con el tratamiento de tu médico", "Reserva por WhatsApp"],
     "wa": "Hola, quiero dejar de fumar y me gustaría información sobre la consulta de acupuntura.",
     "blocks": [
         {"type": "mirror", "eyebrow": "¿Te reconoces?", "h2": "Cuando has decidido dejarlo",
@@ -1424,7 +1427,7 @@ PAGES.append({
          "items": [("Valoración", "Hablamos de tu consumo, de tus intentos previos, de tu motivación y de tu salud general, y revisamos contraindicaciones. [[Confirmar duración]]."),
                    ("Sesiones de acupuntura", "Agujas finas y estériles de un solo uso, en reposo. [[Confirmar frecuencia y número orientativo de sesiones]]."),
                    ("Plan de apoyo", "Pautas para los momentos de más deseo de fumar y recomendación de consultar con tu médico sobre los tratamientos farmacológicos disponibles.")],
-         "note": "Para reservar: elige la consulta en la reserva online o escríbenos por WhatsApp y te proponemos día y hora."},
+         "note": "Para reservar, escríbenos por WhatsApp y te proponemos día y hora. El pago se realiza mediante Bizum."},
         {"type": "evidence", "h2": "Qué dice la evidencia, sin promesas",
          "intro": "No te prometemos que la acupuntura te haga dejar de fumar. Esto es lo que dicen las revisiones Cochrane.",
          "items": [("Revisión Cochrane (2014)", "La acupuntura muestra un posible efecto a corto plazo frente a la acupuntura simulada, pero **no hay evidencia consistente de un beneficio mantenido** a los seis meses o más. Fue menos eficaz que la terapia sustitutiva de nicotina. Los autores la consideran segura si se aplica correctamente."),
@@ -1573,7 +1576,7 @@ PAGES.append({
     "nav": "Drenaje linfático manual",
     "card": "Sesiones de drenaje linfático manual: postoperatorio, embarazo y apoyo en el linfedema con autorización médica.",
     "title": "Drenaje linfático manual en Sarrià–Sant Gervasi | WA LAM",
-    "desc": "Drenaje linfático manual en Sarrià–Sant Gervasi, Barcelona: técnica suave para la retención de líquidos, el postoperatorio y el embarazo. Reserva online.",
+    "desc": "Drenaje linfático manual en Sarrià–Sant Gervasi, Barcelona: técnica suave para la retención de líquidos, el postoperatorio y el embarazo. Reserva por WhatsApp.",
     "about": "Drenaje linfático manual",
     "eyebrow": "Servicio · Drenaje linfático",
     "h1": "Drenaje linfático manual en Sarrià–Sant Gervasi",
@@ -1778,7 +1781,7 @@ PAGES.append({
     "sub": "Un tiempo para tu cuerpo · Barcelona",
     "lead": "El masaje puede ayudar a aliviar la tensión muscular, mejorar la sensación de bienestar y favorecer el descanso. Elige la modalidad que mejor se adapta a lo que necesitas hoy.",
     "facts": ["Sesión de 1 hora · 70 €", "Masaje descontracturante o relajante",
-              "Tarjetas regalo: [[sí/no]]", "Reserva online o por WhatsApp"],
+              "Tarjetas regalo: [[sí/no]]", "Reserva por WhatsApp"],
     "wa": "Hola, me gustaría reservar un masaje.",
     "blocks": [
         {"type": "cards", "eyebrow": "Modalidades", "h2": "Elige tu masaje",
@@ -1793,7 +1796,7 @@ PAGES.append({
         ("¿Puedo recibir un masaje si estoy embarazada?", "[[Confirmar si se ofrece masaje prenatal y desde qué semana]]."),
     ],
     "related": ["drenaje-linfatico-postoperatorio", "reflexologia-sarria-sant-gervasi", "osteopatia-sarria-sant-gervasi"],
-    "cta": {"h2": "Reserva tu masaje", "p": "Elige modalidad y horario online, o escríbenos por WhatsApp."},
+    "cta": {"h2": "Reserva tu masaje", "p": "Escríbenos por WhatsApp y te proponemos día y hora."},
 })
 
 PAGES.append({
@@ -1807,7 +1810,7 @@ PAGES.append({
     "h1": "Reflexología podal en Sarrià–Sant Gervasi",
     "sub": "Sesión de reflexología podal · Barcelona",
     "lead": "La reflexología podal es una técnica de masaje y presión en los pies. En WA LAM la ofrecemos como una sesión de bienestar y relajación, sin fines diagnósticos ni curativos. Te explicamos qué puedes esperar y qué dice la evidencia.",
-    "facts": ["Profesional: [[nombre, formación]]", "Sesión de 1 hora", "Precio: 70 €", "Ambiente tranquilo y sin prisas", "Reserva online o por WhatsApp"],
+    "facts": ["Profesional: [[nombre, formación]]", "Sesión de 1 hora", "Precio: 70 €", "Ambiente tranquilo y sin prisas", "Reserva por WhatsApp"],
     "wa": "Hola, me gustaría reservar una sesión de reflexología.",
     "blocks": [
         {"type": "cards", "eyebrow": "Cuándo la proponemos", "h2": "Una sesión de relajación que combinamos con otros tratamientos",
@@ -2096,7 +2099,7 @@ PRO = {
     "acompanamiento-fertilidad": f"{ROSA}",
     "salud-mujer-menopausia": f"{ROSA}",
     "prevencion-longevidad": f"{ROSA}, osteópata D.O. y máster en medicina integrativa",
-    "osteopatia-sarria-sant-gervasi": f"{ROSA}, osteópata D.O. (IIOA)",
+    "osteopatia-sarria-sant-gervasi": f"{ROSA}, osteópata D.O.",
     "osteopatia-visceral-barcelona": f"{ROSA}, osteópata D.O., formación en manipulación visceral (Barral Institute)",
     "osteopatia-craneosacral-barcelona": f"{ROSA}, osteópata D.O., formación en terapia craneosacral (Upledger Institute)",
     "manipulaciones-neuroviscerales": f"{ROSA}, osteópata D.O., formación en manipulación neural y visceral (Barral Institute)",
