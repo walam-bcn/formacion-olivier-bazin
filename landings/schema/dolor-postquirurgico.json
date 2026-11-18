@@ -234,6 +234,12 @@
           "name": "Efficacy and safety of transcutaneous electrical nerve stimulation (TENS) for acute and chronic pain in adults: a systematic review and meta-analysis of 381 studies (the meta-TENS study)",
           "url": "https://doi.org/10.1136/bmjopen-2021-051073",
           "sameAs": "https://doi.org/10.1136/bmjopen-2021-051073"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "The Efficacy of Acupuncture in Post-Operative Pain Management: A Systematic Review and Meta-Analysis",
+          "url": "https://doi.org/10.1371/journal.pone.0150367",
+          "sameAs": "https://doi.org/10.1371/journal.pone.0150367"
         }
       ]
     },

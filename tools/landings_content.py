@@ -423,7 +423,8 @@ PAGES.append({
          "items": [{"k": "Terapia manual", "h": "Osteopatía", "p": "Para mejorar movilidad, función y percepción corporal, incluyendo el abordaje visceral y craneal cuando está indicado."},
                    {"k": "Movimiento", "h": "Ejercicio adaptado", "p": "Recuperar fuerza y confianza en el movimiento con un programa progresivo y adaptado."},
                    {"k": "Sistema nervioso", "h": "Mindfulness (MBSR)", "p": "Entrenamiento estructurado de la atención y la regulación. Recomendado como tratamiento inicial del dolor lumbar crónico en la guía del American College of Physicians."},
-                   {"k": "Hábitos", "h": "Sueño, inflamación y PNIE", "p": "Revisar descanso, alimentación y estrés, que influyen en la sensibilidad al dolor."}]},
+                   {"k": "Hábitos", "h": "Sueño, inflamación y PNIE", "p": "Revisar descanso, alimentación y estrés, que influyen en la sensibilidad al dolor."},
+                   {"k": "Medicina tradicional china", "h": "[Acupuntura](acupuntura-medicina-tradicional-china)", "p": "Recomendada como tratamiento inicial del dolor lumbar crónico por el American College of Physicians y con eficacia superior a la simulada en el dolor crónico."}]},
         {"type": "cards", "eyebrow": "Tipos de dolor", "h2": "Dolor crónico, neuropático, musculoesquelético, postquirúrgico y oncológico", "intro": "Cada tipo de dolor tiene su propia página, con su abordaje y la evidencia que lo sustenta.", "items": [{"k": "Columna", "h": "[Lumbalgia y cervicalgia crónicas](lumbalgia-cervicalgia-cronica)", "p": "Dolor de espalda y cuello persistente, hernia discal y artrosis facetaria."}, {"k": "Articular y miofascial", "h": "[Dolor articular y miofascial](dolor-articular-miofascial)", "p": "Artrosis, tendinopatías, fibromialgia y síndromes miofasciales."}, {"k": "Musculoesquelético", "h": "[Dolor musculoesquelético](dolor-musculoesqueletico)", "p": "Contracturas, sobrecargas, roturas fibrilares, esguinces y lesiones deportivas."}, {"k": "Neuropático", "h": "[Dolor neuropático](dolor-neuropatico)", "p": "Ciática, neuralgias, dolor postherpético y neuropatía."}, {"k": "Cefaleas", "h": "[Cefaleas y migraña](cefaleas-migrana)", "p": "Migraña, cefalea tensional y cefalea cervicogénica."}, {"k": "Pélvico", "h": "[Dolor pélvico crónico](suelo-pelvico-dolor-pelvico)", "p": "Dolor pélvico persistente y dismenorrea, con abordaje externo."}, {"k": "Postquirúrgico", "h": "[Dolor postquirúrgico](dolor-postquirurgico)", "p": "Recuperación tras cirugía traumatológica, estética, abdominal u oncológica."}, {"k": "Oncológico", "h": "[Dolor oncológico](dolor-oncologico)", "p": "Acompañamiento con autorización médica firmada."}]},
         {"type": "evidence", "h2": "Qué dice la evidencia",
          "intro": "Tomamos decisiones clínicas a partir de guías de práctica clínica, revisiones sistemáticas y metaanálisis. Estas son las fuentes principales en las que se basa nuestro abordaje del dolor lumbar crónico, el cuadro mejor estudiado.",
@@ -449,6 +450,9 @@ PAGES.append({
 R["fransen"] = _r("Fransen M, McConnell S, Harmer AR, Van der Esch M, Simic M, Bennell KL, 2015. «Exercise for osteoarthritis of the knee». Cochrane Database of Systematic Reviews.", "10.1002/14651858.CD004376.pub3")
 R["ju_neuro"] = _r("Ju ZY, Wang K, Cui HS, et al., 2017. «Acupuncture for neuropathic pain in adults». Cochrane Database of Systematic Reviews.", "10.1002/14651858.CD012057.pub2")
 R["linde_mig"] = _r("Linde K, Allais G, Brinkhaus B, et al., 2016. «Acupuncture for the prevention of episodic migraine». Cochrane Database of Systematic Reviews.", "10.1002/14651858.CD001218.pub3")
+
+R["avis"] = _r("Avis NE, Coeytaux RR, Isom S, Prevette K, Morgan T, 2016. «Acupuncture in Menopause (AIM) study: a pragmatic, randomized controlled trial». Menopause.", "10.1097/GME.0000000000000597")
+R["wu_postop"] = _r("Wu MS, Chen KH, Chen IF, et al., 2016. «The Efficacy of Acupuncture in Post-Operative Pain Management: A Systematic Review and Meta-Analysis». PLoS One.", "10.1371/journal.pone.0150367")
 
 PAIN_NOTE = "El acompañamiento de WA LAM es complementario: el diagnóstico y el tratamiento médico del dolor corresponden a tu médico."
 
@@ -553,7 +557,7 @@ PAGES.append({
          "paras": ["Los trastornos musculoesqueléticos son la principal causa de necesidad de rehabilitación en el mundo, según el análisis del Global Burden of Disease publicado en The Lancet en 2020.",
                    "El dolor muscular agudo suele mejorar en días o semanas. Cuando persiste o se repite, intervienen la recuperación incompleta de la lesión, la pérdida de fuerza y movilidad, la sobrecarga mantenida, el estrés y la calidad del descanso."]},
         {"type": "explain", "eyebrow": "Calidad de vida", "h2": "Cómo afecta a la vida diaria",
-         "paras": ["El dolor muscular limita el trabajo, el deporte y las actividades cotidianas, altera el sueño y, cuando se repite, genera miedo al movimiento. Una recuperación bien orientada ayuda a volver a la actividad con seguridad y a prevenir recaídas.",
+         "paras": ["El dolor muscular limita el trabajo, el deporte y las actividades cotidianas, altera el sueño y, cuando se repite, genera miedo al movimiento. Una recuperación bien orientada, en la que también puede intervenir la [acupuntura](acupuntura-medicina-tradicional-china), ayuda a volver a la actividad con seguridad y a prevenir recaídas.",
                    "Si el dolor afecta a una articulación o es generalizado, consulta también [dolor articular y miofascial](dolor-articular-miofascial)."]},
         {"type": "evidence", "h2": "Estudios de referencia",
          "items": [("Global Burden of Disease (The Lancet)", "2.410 millones de personas en el mundo podrían beneficiarse de la rehabilitación, y los trastornos musculoesqueléticos son el grupo de enfermedades que más contribuye a esa necesidad (Cieza et al., 2020)."),
@@ -672,7 +676,7 @@ PAGES.append({
                    "Por eso el abordaje del dolor oncológico requiere una mirada global de la persona, que tenga en cuenta tanto el dolor como su repercusión física, emocional y social."]},
         {"type": "explain", "eyebrow": "Nuestro acompañamiento", "h2": "Siempre con autorización médica",
          "paras": ["Para iniciar el acompañamiento es imprescindible un documento firmado por tu médico que autorice el tratamiento. Sin esa autorización no tratamos a ningún paciente oncológico.",
-                   "El acompañamiento se adapta a la fase de tu tratamiento, a tu estado general y a tus prioridades: aliviar el dolor, mejorar el descanso y recuperar bienestar y calidad de vida. En ningún caso sustituye el tratamiento oncológico."]},
+                   "El acompañamiento se adapta a la fase de tu tratamiento, a tu estado general y a tus prioridades: aliviar el dolor, mejorar el descanso y recuperar bienestar y calidad de vida. Puede incluir [acupuntura](acupuntura-medicina-tradicional-china), recomendada por la guía SIO–ASCO para algunos tipos de dolor oncológico. En ningún caso sustituye el tratamiento oncológico."]},
         {"type": "evidence", "h2": "Estudios de referencia",
          "items": [("Revisión sistemática (J Pain Symptom Manage)", "En 117 estudios y más de 63.000 pacientes, el dolor estuvo presente en el 55 % de las personas durante el tratamiento oncológico, en el 39 % tras finalizarlo y en el 66 % en la enfermedad avanzada; el 38 % refería un dolor moderado o intenso (van den Beuken-van Everdingen et al., 2016)."),
                    ("Metaanálisis (Pain)", "La neuropatía periférica inducida por quimioterapia afectó al 68 % de los pacientes en el primer mes, al 60 % a los tres meses y al 30 % a los seis meses o más (Seretny et al., 2014)."),
@@ -710,12 +714,13 @@ PAGES.append({
                    "Su causa principal es la lesión de pequeños nervios durante la cirugía, que da lugar a un dolor de características neuropáticas. Otros factores de riesgo son el dolor previo a la operación, un dolor agudo postoperatorio intenso y factores emocionales como la ansiedad o el estrés."]},
         {"type": "explain", "eyebrow": "Calidad de vida", "h2": "Cómo afecta a la recuperación",
          "paras": ["El dolor persistente limita la movilidad, retrasa la vuelta a la actividad y al trabajo, altera el sueño y afecta al estado de ánimo. El edema, la rigidez de la cicatriz y el miedo al movimiento pueden mantener el círculo del dolor.",
-                   "Un acompañamiento precoz y progresivo, siempre según las indicaciones del cirujano, ayuda a recuperar la función y a evitar que el dolor se cronifique. En el caso de cirugías oncológicas, solo atendemos con autorización médica firmada."]},
+                   "Un acompañamiento precoz y progresivo, siempre según las indicaciones del cirujano, ayuda a recuperar la función y a evitar que el dolor se cronifique; la [acupuntura](acupuntura-medicina-tradicional-china) puede formar parte de él. En el caso de cirugías oncológicas, solo atendemos con autorización médica firmada."]},
         {"type": "evidence", "h2": "Estudios de referencia",
          "items": [("Revisión (The Lancet)", "El dolor persistente aparece en el 10–50 % de las personas tras cirugías frecuentes y es intenso en el 2–10 %. La lesión nerviosa durante la intervención es su causa más importante, y la intensidad del dolor agudo postoperatorio se relaciona con el riesgo de cronificación (Kehlet, Jensen y Woolf, 2006)."),
                    ("Metaanálisis (BMJ Open)", "La estimulación eléctrica transcutánea (TENS) redujo la intensidad del dolor agudo y crónico frente a placebo en 381 estudios (Johnson et al., 2022)."),
+                   ("Metaanálisis (PLoS One)", "En un metaanálisis de ensayos aleatorizados, algunas modalidades de acupuntura mejoraron el dolor el primer día tras la cirugía y redujeron el consumo de opioides (Wu et al., PLoS One, 2016)."),
                    ("Nuestro criterio", "Seguimos siempre las indicaciones del cirujano. El acompañamiento es complementario y no sustituye el control postoperatorio.")],
-         "refs": [R["kehlet"], R["tens"]]},
+         "refs": [R["kehlet"], R["tens"], R["wu_postop"]]},
     ],
     "faq": [("¿Es normal tener dolor meses después de operarme?", "Es más frecuente de lo que se cree: entre un 10 % y un 50 % de las personas mantienen dolor tras cirugías habituales. Conviene valorarlo para evitar que se cronifique."),
             ("¿Cuándo puedo empezar después de la operación?", "Depende de la intervención y de lo que indique tu cirujano."),
@@ -910,12 +915,14 @@ PAGES.append({
                    {"k": "Hábitos", "h": "Sueño, nutrición y PNIE", "p": "Revisión de descanso, alimentación y estrés con pautas realistas."},
                    {"k": "Cuerpo", "h": "Osteopatía", "p": "Para dolor articular, tensión pélvica o diafragmática como complemento."},
                    {"k": "Embarazo", "h": "Drenaje linfático en el embarazo", "p": "Si estás embarazada, una sesión adaptada para la pesadez y la hinchazón: [drenaje linfático durante el embarazo](drenaje-linfatico-embarazo)."},
-                   {"k": "Grupo", "h": "Yoga, qigong y mindfulness", "p": "Prácticas de movimiento y regulación en la Academia."}]},
+                   {"k": "Grupo", "h": "Yoga, qigong y mindfulness", "p": "Prácticas de movimiento y regulación en la Academia."},
+                   {"k": "Acupuntura", "h": "[Acupuntura](acupuntura-medicina-tradicional-china)", "p": "Como apoyo para los sofocos, el descanso y el bienestar en esta etapa."}]},
         {"type": "evidence", "h2": "En qué nos basamos",
          "items": [("Posicionamiento (NAMS 2022)", "La North American Menopause Society establece que la terapia hormonal es el tratamiento más eficaz para los síntomas vasomotores y el síndrome genitourinario de la menopausia, y que en mujeres sanas menores de 60 años o en los 10 primeros años tras la menopausia sus beneficios suelen superar a los riesgos. Esa decisión corresponde a tu ginecóloga."),
                    ("Metaanálisis (BJSM)", "Hacer ejercicio de fuerza se asocia a un 10–17 % menos de mortalidad, enfermedad cardiovascular, cáncer y diabetes, con el mayor beneficio en torno a 30–60 minutos semanales. Por eso la fuerza es prioritaria en esta etapa."),
+                   ("Ensayo clínico (Menopause)", "En un ensayo pragmático con 209 mujeres, la acupuntura redujo un 36,7 % la frecuencia de los sofocos a los seis meses, frente a un aumento del 6 % en el grupo control. El estudio no tenía grupo de acupuntura simulada, por lo que parte del efecto puede deberse a las expectativas (Avis et al., Menopause, 2016)."),
                    ("Nuestro papel", "Complementamos el seguimiento ginecológico con ejercicio de fuerza, sueño, alimentación, suelo pélvico y gestión del estrés.")],
-         "refs": [R["nams"], R["momma"]]},
+         "refs": [R["nams"], R["momma"], R["avis"]]},
     ],
     "faq": [
         ("¿Recetáis terapia hormonal?", "No. Esa decisión corresponde a tu ginecóloga. En WA LAM te acompañamos en los aspectos de hábitos, movimiento y bienestar."),
