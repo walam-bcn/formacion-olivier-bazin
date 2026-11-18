@@ -277,6 +277,14 @@
             "@type": "Answer",
             "text": "En un embarazo sin complicaciones, no. Si tienes hipertensión, preeclampsia, antecedentes de trombosis o un embarazo de riesgo, te pediremos antes la valoración de tu matrona o tu ginecóloga."
           }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Y después del parto?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí, también te acompañamos en el posparto, para la retención de líquidos y la recuperación tras el parto."
+          }
         }
       ]
     }

@@ -299,7 +299,7 @@
           "name": "¿Cuánto cuesta?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "La sesión de 1 hora cuesta 70 € y el bono, 700 €."
+            "text": "La sesión de 1 hora cuesta 70 € y el bono de 10 sesiones más 1 de regalo, 700 €."
           }
         }
       ]

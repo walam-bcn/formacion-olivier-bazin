@@ -218,7 +218,7 @@ SEO = {
         "ca": "drenatge limfàtic limfedema Barcelona",
         "title": "Drenaje linfático para linfedema en Barcelona | WA LAM",
         "desc": "Pack de drenaje linfático manual para el linfedema en Sarrià–Sant Gervasi, Barcelona, en colaboración con médicos especialistas en linfedema.",
-        "quick": "El tratamiento del linfedema siempre se coordina con un médico especialista en linfedema. En WA LAM colaboramos con médicos especialistas y hacemos la parte manual, antes o después de la cirugía, con un pack de drenaje linfático manual, ejercicios de drenaje, alimentación y acupuntura como complemento. Sesión de 1 hora, 70 €; bono, 700 €.",
+        "quick": "El tratamiento del linfedema siempre se coordina con un médico especialista en linfedema. En WA LAM colaboramos con médicos especialistas y hacemos la parte manual, antes o después de la cirugía, con un pack de drenaje linfático manual, ejercicios de drenaje, alimentación y acupuntura como complemento. Sesión de 1 hora, 70 €; bono de 10 sesiones más 1 de regalo, 700 €.",
         "entity": ("MedicalCondition", "Linfedema"),
     },
     "masajes-sarria-sant-gervasi": {

@@ -151,7 +151,6 @@ ASK = [
     "Si WA LAM está inscrito como centro sanitario en Cataluña, el número de registro (es una señal de confianza muy fuerte).",
     "Longevidad: duración de la primera visita, qué incluye (mediciones, informe) y periodicidad del seguimiento.",
     "Salud cognitiva: qué servicios concretos describimos (neurorregulación, estimulación transcraneal) y con qué aparato o método.",
-    "Drenaje: cuántas sesiones incluye el bono de 700 € y si atiendes en el posparto.",
     "El enlace o documento de la revisión de Monarka: no he encontrado esa clínica en búsquedas públicas.",
     "Acceso o capturas de la ficha de Google Business Profile.",
     "Confirmar qué incluyen los cuidados postoperatorios además del drenaje, y qué cirugías atendéis.",

@@ -277,6 +277,14 @@
             "@type": "Answer",
             "text": "En un embaràs sense complicacions, no. Si tens hipertensió, preeclàmpsia, antecedents de trombosi o un embaràs de risc, et demanarem abans la valoració de la teva llevadora o la teva ginecòloga."
           }
+        },
+        {
+          "@type": "Question",
+          "name": "I després del part?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí, també t'acompanyem en el postpart, per a la retenció de líquids i la recuperació després del part."
+          }
         }
       ]
     }
