@@ -264,6 +264,22 @@
       "mainEntity": [
         {
           "@type": "Question",
+          "name": "¿Es una consulta diferente de la de PNIE?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. La consulta de nutrición se centra en la alimentación y la salud intestinal; la de PNIE aborda de forma más amplia la relación entre el sistema nervioso, las hormonas y la inmunidad. Ambas pueden combinarse en un programa re:trace."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuánto cuesta?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "La primera visita dura 75 minutos y cuesta 70 €; las visitas de seguimiento, 40 minutos y 60 €."
+          }
+        },
+        {
+          "@type": "Question",
           "name": "¿Me vais a quitar muchos alimentos?",
           "acceptedAnswer": {
             "@type": "Answer",
