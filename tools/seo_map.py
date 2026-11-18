@@ -141,7 +141,7 @@ SEO = {
     },
     "perdida-de-peso-sarria-sant-gervasi": {
         "kw": "perder peso Sarrià Sant Gervasi",
-        "kws": ["pérdida de peso Barcelona", "acupuntura para adelgazar Barcelona", "nutricionista perder peso Sant Gervasi", "adelgazar sin dietas estrictas"],
+        "kws": ["pérdida de peso Barcelona", "acupuntura para adelgazar Barcelona", "plan de alimentación para perder peso Sant Gervasi", "adelgazar sin dietas estrictas"],
         "ca": "perdre pes Sarrià Sant Gervasi",
         "title": "Pérdida de peso en Sarrià–Sant Gervasi | WA LAM",
         "desc": "Pérdida de peso en Sarrià–Sant Gervasi, Barcelona: cambios alimentarios individualizados y acupuntura en un mismo plan. Sin dietas estrictas.",
@@ -185,8 +185,8 @@ SEO = {
         "entity": ("MedicalTherapy", "Psiconeuroinmunología clínica"),
     },
     "nutricion-salud-intestinal": {
-        "kw": "nutricionista digestivo Barcelona",
-        "kws": ["nutrición salud intestinal", "dieta FODMAP Barcelona", "dietista colon irritable", "nutrición microbiota"],
+        "kw": "nutrición digestiva Barcelona",
+        "kws": ["nutrición salud intestinal", "dieta FODMAP Barcelona", "alimentación colon irritable", "nutrición microbiota"],
         "ca": "nutricionista digestiu Barcelona",
         "title": "Nutrición y salud intestinal en Barcelona | WA LAM",
         "desc": "Consulta de nutrición digestiva en Barcelona: hinchazón, colon irritable, dieta FODMAP guiada y microbiota, sin restricciones innecesarias.",
