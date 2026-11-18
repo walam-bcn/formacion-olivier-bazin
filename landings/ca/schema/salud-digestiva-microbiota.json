@@ -117,13 +117,18 @@
         },
         {
           "@type": "MedicalTherapy",
-          "name": "Drenatge limfàtic manual postoperatori",
-          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/drenatge-limfatic-postoperatori"
+          "name": "Drenatge limfàtic manual a Sarrià–Sant Gervasi",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/drenatge-limfatic-manual"
         },
         {
           "@type": "MedicalTherapy",
-          "name": "Limfedema: drenatge, alimentació i acupuntura",
-          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/limfedema-barcelona"
+          "name": "Drenatge limfàtic manual durant l'embaràs",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/drenatge-limfatic-embaras"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Drenatge limfàtic manual postoperatori",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/drenatge-limfatic-postoperatori"
         },
         {
           "@type": "MedicalTherapy",
@@ -250,7 +255,7 @@
           "name": "Feu estudi de microbiota?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí. L'estudi de microbiota intestinal el valorem a la primera visita i el recomanem quan pot canviar el pla. Els resultats s'integren a l'informe de valoració, com expliquem a longevitat i prevenció. Si es planteja un estudi de paràsits, comprovem abans què inclou el perfil escollit per no duplicar proves."
+            "text": "Sí. L'estudi de microbiota intestinal, que es deriva a un laboratori especialitzat, el valorem a la primera visita i el recomanem quan pot canviar el pla. Els resultats s'integren a l'informe de valoració, com expliquem a longevitat i prevenció. Si es planteja un estudi de paràsits, comprovem abans què inclou el perfil escollit per no duplicar proves."
           }
         },
         {

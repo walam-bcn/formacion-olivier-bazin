@@ -117,13 +117,18 @@
         },
         {
           "@type": "MedicalTherapy",
-          "name": "Drenatge limfàtic manual postoperatori",
-          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/drenatge-limfatic-postoperatori"
+          "name": "Drenatge limfàtic manual a Sarrià–Sant Gervasi",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/drenatge-limfatic-manual"
         },
         {
           "@type": "MedicalTherapy",
-          "name": "Limfedema: drenatge, alimentació i acupuntura",
-          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/limfedema-barcelona"
+          "name": "Drenatge limfàtic manual durant l'embaràs",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/drenatge-limfatic-embaras"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Drenatge limfàtic manual postoperatori",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/drenatge-limfatic-postoperatori"
         },
         {
           "@type": "MedicalTherapy",
@@ -258,22 +263,6 @@
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Depèn de la cirurgia i del que indiqui el teu cirurgià. Escriu-nos amb aquesta informació i t'orientem abans de reservar."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Puc fer drenatge si estic embarassada?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Sí, amb el vistiplau de la teva llevadora o ginecòloga. L'utilitzem per a la retenció de líquids abans i després del part."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "I si tinc o he tingut càncer?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Et podem acompanyar amb drenatge limfàtic manual sempre que el teu equip d'oncologia ho autoritzi i en coordinació amb ell."
           }
         },
         {

@@ -117,13 +117,18 @@
         },
         {
           "@type": "MedicalTherapy",
-          "name": "Drenatge limfàtic manual postoperatori",
-          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/drenatge-limfatic-postoperatori"
+          "name": "Drenatge limfàtic manual a Sarrià–Sant Gervasi",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/drenatge-limfatic-manual"
         },
         {
           "@type": "MedicalTherapy",
-          "name": "Limfedema: drenatge, alimentació i acupuntura",
-          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/limfedema-barcelona"
+          "name": "Drenatge limfàtic manual durant l'embaràs",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/drenatge-limfatic-embaras"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Drenatge limfàtic manual postoperatori",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/drenatge-limfatic-postoperatori"
         },
         {
           "@type": "MedicalTherapy",
@@ -140,7 +145,7 @@
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/limfedema-barcelona#breadcrumb",
+      "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/drenatge-limfatic-manual#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -157,17 +162,17 @@
         {
           "@type": "ListItem",
           "position": 3,
-          "name": "Limfedema: drenatge, alimentació i acupuntura",
-          "item": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/limfedema-barcelona"
+          "name": "Drenatge limfàtic manual a Sarrià–Sant Gervasi",
+          "item": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/drenatge-limfatic-manual"
         }
       ]
     },
     {
       "@type": "MedicalWebPage",
-      "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/limfedema-barcelona#webpage",
-      "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/limfedema-barcelona",
-      "name": "Limfedema a Barcelona: drenatge limfàtic i pack | WA LAM",
-      "description": "Pack per al limfedema a Sarrià–Sant Gervasi, Barcelona: drenatge limfàtic manual, alimentació i acupuntura, coordinats amb el teu equip d'oncologia.",
+      "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/drenatge-limfatic-manual#webpage",
+      "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/drenatge-limfatic-manual",
+      "name": "Drenatge limfàtic manual a Sarrià–Sant Gervasi | WA LAM",
+      "description": "Drenatge limfàtic manual a Sarrià–Sant Gervasi, Barcelona: retenció de líquids, postoperatori i embaràs. Pacients oncològics amb autorització mèdica.",
       "inLanguage": "ca-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -175,15 +180,15 @@
         "url": "https://www.walambcn.com"
       },
       "breadcrumb": {
-        "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/limfedema-barcelona#breadcrumb"
+        "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/drenatge-limfatic-manual#breadcrumb"
       },
       "publisher": {
         "@id": "https://www.walambcn.com/#clinica"
       },
       "lastReviewed": "2026-11-18",
       "dateModified": "2026-11-18",
-      "keywords": "limfedema Barcelona, tractament limfedema Barcelona, drenatge limfàtic limfedema, limfedema braç càncer de mama, limfedema Sant Gervasi",
-      "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/linfedema-drenaje-alimentacion-acupuntura.png",
+      "keywords": "drenatge limfàtic manual Barcelona, drenatge limfàtic Sarrià Sant Gervasi, drenatge limfàtic retenció de líquids, drenatge limfàtic Sant Gervasi, drenatge limfàtic limfedema Barcelona",
+      "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/drenaje-linfatico-manual.png",
       "speakable": {
         "@type": "SpeakableSpecification",
         "cssSelector": [
@@ -203,18 +208,8 @@
         }
       },
       "about": {
-        "@type": "MedicalCondition",
-        "name": "Limfedema",
-        "possibleTreatment": [
-          {
-            "@type": "MedicalTherapy",
-            "name": "Drenatge limfàtic manual postoperatori"
-          },
-          {
-            "@type": "MedicalTherapy",
-            "name": "Acupuntura i medicina tradicional xinesa"
-          }
-        ]
+        "@type": "MedicalTherapy",
+        "name": "Drenatge limfàtic manual"
       },
       "citation": [
         {
@@ -222,20 +217,14 @@
           "name": "Manual lymphatic drainage for lymphedema following breast cancer treatment",
           "url": "https://doi.org/10.1002/14651858.CD003475.pub2",
           "sameAs": "https://doi.org/10.1002/14651858.CD003475.pub2"
-        },
-        {
-          "@type": "ScholarlyArticle",
-          "name": "The Effect of Acupuncture in Breast Cancer-Related Lymphedema (BCRL): A Systematic Review and Meta-Analysis",
-          "url": "https://doi.org/10.1177/1534735419866910",
-          "sameAs": "https://doi.org/10.1177/1534735419866910"
         }
       ]
     },
     {
       "@type": "Service",
-      "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/limfedema-barcelona#servicio",
-      "name": "Limfedema: drenatge limfàtic, alimentació i acupuntura",
-      "serviceType": "Limfedema: drenatge, alimentació i acupuntura",
+      "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/drenatge-limfatic-manual#servicio",
+      "name": "Drenatge limfàtic manual a Sarrià–Sant Gervasi",
+      "serviceType": "Drenatge limfàtic manual a Sarrià–Sant Gervasi",
       "provider": {
         "@id": "https://www.walambcn.com/#clinica"
       },
@@ -269,35 +258,35 @@
           "name": "Barcelona"
         }
       ],
-      "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/limfedema-barcelona",
-      "description": "Pack per al limfedema a Sarrià–Sant Gervasi, Barcelona: drenatge limfàtic manual, alimentació i acupuntura, coordinats amb el teu equip d'oncologia."
+      "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/drenatge-limfatic-manual",
+      "description": "Drenatge limfàtic manual a Sarrià–Sant Gervasi, Barcelona: retenció de líquids, postoperatori i embaràs. Pacients oncològics amb autorització mèdica."
     },
     {
       "@type": "FAQPage",
-      "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/limfedema-barcelona#faq",
+      "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/drenatge-limfatic-manual#faq",
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Substitueix la teràpia descongestiva de l'hospital?",
+          "name": "És el mateix que la pressoteràpia?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. La complementa. Si estàs en tractament en una unitat de limfedema, ens hi coordinem."
+            "text": "No. La pressoteràpia aplica compressió amb un aparell pneumàtic; el drenatge limfàtic manual és una tècnica feta amb les mans."
           }
         },
         {
           "@type": "Question",
-          "name": "Es pot fer acupuntura si tinc limfedema?",
+          "name": "Atenteu pacients amb càncer?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí, com a complement, però evitem punxar el braç o la cama afectats llevat d'indicació expressa del teu equip mèdic, tal com recomanen les guies."
+            "text": "Sí, però sempre amb l'autorització del seu metge i en coordinació amb el seu equip assistencial."
           }
         },
         {
           "@type": "Question",
-          "name": "Necessito autorització mèdica?",
+          "name": "Quantes sessions necessito?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí. Sense l'autorització del teu oncòleg o metge rehabilitador no tractem cap pacient oncològic, ni amb drenatge, ni amb reflexologia, ni amb massatge."
+            "text": "Depèn del motiu. Si tens limfedema diagnosticat, el nombre de sessions es decideix després de valorar el teu cas amb el teu equip mèdic."
           }
         }
       ]

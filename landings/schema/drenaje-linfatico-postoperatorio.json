@@ -117,13 +117,18 @@
         },
         {
           "@type": "MedicalTherapy",
-          "name": "Drenaje linfático manual postoperatorio",
-          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/drenaje-linfatico-postoperatorio"
+          "name": "Drenaje linfático manual en Sarrià–Sant Gervasi",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/drenaje-linfatico-manual"
         },
         {
           "@type": "MedicalTherapy",
-          "name": "Linfedema: drenaje, alimentación y acupuntura",
-          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/linfedema-barcelona"
+          "name": "Drenaje linfático manual durante el embarazo",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/drenaje-linfatico-embarazo"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Drenaje linfático manual postoperatorio",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/drenaje-linfatico-postoperatorio"
         },
         {
           "@type": "MedicalTherapy",
@@ -258,22 +263,6 @@
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Depende de la cirugía y de lo que indique tu cirujano. Escríbenos con esa información y te orientamos antes de reservar."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "¿Puedo hacer drenaje si estoy embarazada?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Sí, con el visto bueno de tu matrona o ginecóloga. Lo usamos para la retención de líquidos antes y después del parto."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "¿Y si tengo o he tenido cáncer?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Podemos acompañarte con drenaje linfático manual siempre que tu equipo de oncología lo autorice y en coordinación con él."
           }
         },
         {

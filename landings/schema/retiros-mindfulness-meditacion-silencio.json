@@ -117,13 +117,18 @@
         },
         {
           "@type": "MedicalTherapy",
-          "name": "Drenaje linfático manual postoperatorio",
-          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/drenaje-linfatico-postoperatorio"
+          "name": "Drenaje linfático manual en Sarrià–Sant Gervasi",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/drenaje-linfatico-manual"
         },
         {
           "@type": "MedicalTherapy",
-          "name": "Linfedema: drenaje, alimentación y acupuntura",
-          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/linfedema-barcelona"
+          "name": "Drenaje linfático manual durante el embarazo",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/drenaje-linfatico-embarazo"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Drenaje linfático manual postoperatorio",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/drenaje-linfatico-postoperatorio"
         },
         {
           "@type": "MedicalTherapy",

@@ -117,13 +117,18 @@
         },
         {
           "@type": "MedicalTherapy",
-          "name": "Drenaje linfático manual postoperatorio",
-          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/drenaje-linfatico-postoperatorio"
+          "name": "Drenaje linfático manual en Sarrià–Sant Gervasi",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/drenaje-linfatico-manual"
         },
         {
           "@type": "MedicalTherapy",
-          "name": "Linfedema: drenaje, alimentación y acupuntura",
-          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/linfedema-barcelona"
+          "name": "Drenaje linfático manual durante el embarazo",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/drenaje-linfatico-embarazo"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Drenaje linfático manual postoperatorio",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/drenaje-linfatico-postoperatorio"
         },
         {
           "@type": "MedicalTherapy",
@@ -140,7 +145,7 @@
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/linfedema-barcelona#breadcrumb",
+      "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/drenaje-linfatico-embarazo#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -157,17 +162,17 @@
         {
           "@type": "ListItem",
           "position": 3,
-          "name": "Linfedema: drenaje, alimentación y acupuntura",
-          "item": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/linfedema-barcelona"
+          "name": "Drenaje linfático manual durante el embarazo",
+          "item": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/drenaje-linfatico-embarazo"
         }
       ]
     },
     {
       "@type": "MedicalWebPage",
-      "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/linfedema-barcelona#webpage",
-      "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/linfedema-barcelona",
-      "name": "Linfedema en Barcelona: drenaje linfático y pack | WA LAM",
-      "description": "Pack para el linfedema en Sarrià–Sant Gervasi, Barcelona: drenaje linfático manual, alimentación y acupuntura, coordinados con tu equipo de oncología.",
+      "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/drenaje-linfatico-embarazo#webpage",
+      "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/drenaje-linfatico-embarazo",
+      "name": "Drenaje linfático en el embarazo en Barcelona | WA LAM",
+      "description": "Drenaje linfático manual durante el embarazo en Sarrià–Sant Gervasi, Barcelona: sesión adaptada para la pesadez y la hinchazón gradual de piernas y tobillos.",
       "inLanguage": "es-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -175,15 +180,15 @@
         "url": "https://www.walambcn.com"
       },
       "breadcrumb": {
-        "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/linfedema-barcelona#breadcrumb"
+        "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/drenaje-linfatico-embarazo#breadcrumb"
       },
       "publisher": {
         "@id": "https://www.walambcn.com/#clinica"
       },
       "lastReviewed": "2026-11-18",
       "dateModified": "2026-11-18",
-      "keywords": "linfedema Barcelona, tratamiento linfedema Barcelona, drenaje linfático linfedema, linfedema brazo cáncer de mama, linfedema Sant Gervasi",
-      "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/linfedema-drenaje-alimentacion-acupuntura.png",
+      "keywords": "drenaje linfático embarazo Barcelona, drenaje linfático embarazadas, piernas hinchadas embarazo, drenaje linfático embarazo Sant Gervasi, retención de líquidos embarazo",
+      "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/drenaje-linfatico-embarazo.png",
       "speakable": {
         "@type": "SpeakableSpecification",
         "cssSelector": [
@@ -203,39 +208,15 @@
         }
       },
       "about": {
-        "@type": "MedicalCondition",
-        "name": "Linfedema",
-        "possibleTreatment": [
-          {
-            "@type": "MedicalTherapy",
-            "name": "Drenaje linfático manual postoperatorio"
-          },
-          {
-            "@type": "MedicalTherapy",
-            "name": "Acupuntura y medicina tradicional china"
-          }
-        ]
-      },
-      "citation": [
-        {
-          "@type": "ScholarlyArticle",
-          "name": "Manual lymphatic drainage for lymphedema following breast cancer treatment",
-          "url": "https://doi.org/10.1002/14651858.CD003475.pub2",
-          "sameAs": "https://doi.org/10.1002/14651858.CD003475.pub2"
-        },
-        {
-          "@type": "ScholarlyArticle",
-          "name": "The Effect of Acupuncture in Breast Cancer-Related Lymphedema (BCRL): A Systematic Review and Meta-Analysis",
-          "url": "https://doi.org/10.1177/1534735419866910",
-          "sameAs": "https://doi.org/10.1177/1534735419866910"
-        }
-      ]
+        "@type": "MedicalTherapy",
+        "name": "Drenaje linfático manual en el embarazo"
+      }
     },
     {
       "@type": "Service",
-      "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/linfedema-barcelona#servicio",
-      "name": "Linfedema: drenaje linfático, alimentación y acupuntura",
-      "serviceType": "Linfedema: drenaje, alimentación y acupuntura",
+      "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/drenaje-linfatico-embarazo#servicio",
+      "name": "Drenaje linfático manual durante el embarazo en Barcelona",
+      "serviceType": "Drenaje linfático manual durante el embarazo",
       "provider": {
         "@id": "https://www.walambcn.com/#clinica"
       },
@@ -269,38 +250,13 @@
           "name": "Barcelona"
         }
       ],
-      "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/linfedema-barcelona",
-      "description": "Pack para el linfedema en Sarrià–Sant Gervasi, Barcelona: drenaje linfático manual, alimentación y acupuntura, coordinados con tu equipo de oncología."
+      "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/drenaje-linfatico-embarazo",
+      "description": "Drenaje linfático manual durante el embarazo en Sarrià–Sant Gervasi, Barcelona: sesión adaptada para la pesadez y la hinchazón gradual de piernas y tobillos."
     },
     {
       "@type": "FAQPage",
-      "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/linfedema-barcelona#faq",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "¿Sustituye a la terapia descongestiva del hospital?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "No. La complementa. Si estás en tratamiento en una unidad de linfedema, nos coordinamos con ella."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "¿Se puede hacer acupuntura si tengo linfedema?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Sí, como complemento, pero evitamos pinchar el brazo o la pierna afectados salvo indicación expresa de tu equipo médico, tal como recomiendan las guías."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "¿Necesito autorización médica?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Sí. Sin la autorización de tu oncólogo o médico rehabilitador no tratamos a ningún paciente oncológico, ni con drenaje, ni con reflexología, ni con masaje."
-          }
-        }
-      ]
+      "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/drenaje-linfatico-embarazo#faq",
+      "mainEntity": []
     }
   ]
 }

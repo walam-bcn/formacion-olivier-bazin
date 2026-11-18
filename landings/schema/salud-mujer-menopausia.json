@@ -117,13 +117,18 @@
         },
         {
           "@type": "MedicalTherapy",
-          "name": "Drenaje linfático manual postoperatorio",
-          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/drenaje-linfatico-postoperatorio"
+          "name": "Drenaje linfático manual en Sarrià–Sant Gervasi",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/drenaje-linfatico-manual"
         },
         {
           "@type": "MedicalTherapy",
-          "name": "Linfedema: drenaje, alimentación y acupuntura",
-          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/linfedema-barcelona"
+          "name": "Drenaje linfático manual durante el embarazo",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/drenaje-linfatico-embarazo"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Drenaje linfático manual postoperatorio",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/drenaje-linfatico-postoperatorio"
         },
         {
           "@type": "MedicalTherapy",
@@ -241,6 +246,14 @@
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "No. Esa decisión corresponde a tu ginecóloga. Nosotras podemos acompañarte en los aspectos de hábitos, movimiento y bienestar, coordinándonos con ella si lo deseas."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Valoráis la microbiota vaginal?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ante molestias o infecciones de repetición, valoramos en la primera visita si conviene un estudio dirigido o una consulta con tu ginecóloga. Si conviene un estudio, te derivamos a un centro especializado. Lo explicamos en longevidad y prevención."
           }
         },
         {
