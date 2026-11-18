@@ -485,6 +485,17 @@ def cards(c, cls="cards"):
     return f'<section class="{cls}"><div class="wrap">{sec_head(c["eyebrow"], c["h2"], c.get("intro"))}<div class="{g}">{"".join(items)}</div></div></section>'
 
 
+def pack(b):
+    its = b["items"]; h = (len(its) + 1) // 2
+    col = lambda xs: "<ul>" + "".join(f"<li>{fmt(x)}</li>" for x in xs) + "</ul>"
+    extra = "".join(f'<p style="margin-top:14px;font-size:.92rem"><b>{fmt(k)}:</b> {fmt(v)}</p>' for k, v in b.get("notes", []))
+    btn = f'<div class="btn-row"><a class="btn btn-tq" href="{wa(b["wa"])}" target="_blank" rel="noopener">{tr("Solicitar información")}</a></div>'
+    return (f'<section class="cards"><div class="wrap">{sec_head(b["eyebrow"], b["h2"], b.get("intro"))}'
+            f'<div class="grid g2"><div class="card"><span class="k">{tr("Incluye")}</span>{col(its[:h])}</div>'
+            f'<div class="card"><span class="k">{tr("Incluye")}</span>{col(its[h:])}</div></div>'
+            f'<div style="max-width:820px;margin:0 auto;text-align:center">{extra}</div>{btn}</div></section>')
+
+
 def steps(s):
     its = "".join(f'<div class="step"><div class="num">{i+1}</div><h3>{fmt(h)}</h3><p>{fmt(t)}</p></div>' for i, (h, t) in enumerate(s["items"]))
     cls = "sgrid s4" if len(s["items"]) == 4 else "sgrid"
@@ -602,7 +613,7 @@ def page(p):
     body, items = [], []
     for blk in p["blocks"]:
         t = blk["type"]
-        h = {"mirror": mirror, "explain": explain, "cards": cards, "steps": steps, "evidence": evidence, "hubcards": hubcards}.get(t)
+        h = {"mirror": mirror, "explain": explain, "cards": cards, "steps": steps, "evidence": evidence, "hubcards": hubcards, "pack": pack}.get(t)
         if t == "pro":
             out = pro(blk, p); sid = "ficha"; label = tr("Ficha y reserva")
         else:

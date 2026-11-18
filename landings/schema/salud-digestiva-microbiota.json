@@ -67,6 +67,11 @@
       "availableService": [
         {
           "@type": "MedicalTherapy",
+          "name": "Programas re:trace",
+          "url": "https://www.walambcn.com/programas-re-trace"
+        },
+        {
+          "@type": "MedicalTherapy",
           "name": "Osteopatía en Sarrià–Sant Gervasi",
           "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/osteopatia-sarria-sant-gervasi"
         },

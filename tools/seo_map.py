@@ -6,12 +6,21 @@ y entidad médica para los datos estructurados."""
 SEO = {
     "medicina-integrativa-barcelona": {
         "kw": "medicina integrativa Barcelona",
-        "kws": ["salud de precisión Barcelona", "neurolongevidad Barcelona", "centro de medicina integrativa Sarrià", "medicina integrativa Sant Gervasi", "método RE:TRACE"],
+        "kws": ["salud de precisión Barcelona", "neurolongevidad Barcelona", "centro de medicina integrativa Sarrià", "medicina integrativa Sant Gervasi", "método re:trace"],
         "ca": "medicina integrativa Barcelona",
         "title": "Medicina integrativa y salud de precisión en Barcelona | WA LAM",
-        "desc": "WA LAM une medicina integrativa, salud de precisión y neurolongevidad en Sarrià–Sant Gervasi (Barcelona). Método RE:TRACE. Primera visita: 90 €.",
-        "quick": "WA LAM es un centro de medicina integrativa, salud de precisión y neurolongevidad en Sarrià–Sant Gervasi (Barcelona), fundado en 2004. Su método propio, RE:TRACE (Research, Evidence, Trajectory, Regulation, Awareness, Clinical Integration, Evolution), diseña estrategias clínicas personalizadas que se ajustan a la evolución de cada persona. Empieza con una primera visita de 60 minutos (90 €) y continúa con el programa RE:TRACE Premium de 12 semanas u otras modalidades intensivas, con presupuesto individual.",
+        "desc": "WA LAM une medicina integrativa, salud de precisión y neurolongevidad en Sarrià–Sant Gervasi (Barcelona). Método re:trace. Primera visita: 90 €.",
+        "quick": "WA LAM es un centro de medicina integrativa, salud de precisión y neurolongevidad en Sarrià–Sant Gervasi (Barcelona), fundado en 2004. Su método propio, re:trace (Research, Evidence, Trajectory, Regulation, Awareness, Clinical Integration, Evolution), diseña estrategias clínicas personalizadas que se ajustan a la evolución de cada persona. Empieza con una primera visita de 60 minutos (90 €) y continúa con el programa re:trace Premium de 12 semanas u otras modalidades intensivas, con presupuesto individual.",
         "entity": None,
+    },
+    "programas-re-trace": {
+        "kw": "programa de longevidad Barcelona",
+        "kws": ["programa medicina integrativa Barcelona", "retiro de longevidad", "evaluación de longevidad Barcelona", "programa salud de precisión", "re:trace"],
+        "ca": "programa de longevitat Barcelona",
+        "title": "Programas re:trace de longevidad en Barcelona | WA LAM",
+        "desc": "Programas re:trace: Premium Barcelona (12 semanas, 6.000 €), Immersive Weekends, Private Experience y Exclusive Retreats. Evaluación avanzada de salud y longevidad.",
+        "quick": "re:trace es el método de WA LAM (Barcelona) y se ofrece en cuatro programas: Premium Barcelona (6.000 €, 12 semanas, 24 sesiones individuales), Immersive Weekends (7.500 €, tres fines de semana intensivos), Private Experience (6.000 € más gastos, 6 días de intervención privada) y Exclusive Retreats (3.000 € por persona más gastos, 6–7 días, máximo 10 participantes). Todos comparten un protocolo de evaluación avanzada de 16 áreas; los costes de laboratorio se abonan por separado.",
+        "entity": ("Service", "Programa de medicina integrativa y longevidad"),
     },
     "en-que-podemos-ayudarte": {
         "kw": "medicina integrativa enfermedades crónicas Barcelona",
@@ -303,6 +312,7 @@ H = "tratamientos-sarrià-sant-gervasi-barcelona"
 A = "academia-vida-saludable-barcelona"
 URLS = {
     "medicina-integrativa-barcelona": "",
+    "programas-re-trace": "programas-re-trace",
     "en-que-podemos-ayudarte": f"{H}/en-que-podemos-ayudarte",
     "dolor-persistente-cronico": f"{H}/dolor-persistente-cronico",
     "estres-ansiedad": f"{H}/estres-ansiedad",
@@ -385,7 +395,7 @@ BLOG = {
 # Segmento final en catalán (Wix Multilingual, prefijo /ca/)
 CA_SLUG = {
     "dolor-persistente-cronico": "dolor-persistent-cronic", "estres-ansiedad": "estres-ansietat", "sueno-insomnio": "son-insomni",
-    "salud-digestiva-microbiota": "salut-digestiva-microbiota", "en-que-podemos-ayudarte": "en-que-et-podem-ajudar", "acompanamiento-fertilidad": "acompanyament-fertilitat",
+    "salud-digestiva-microbiota": "salut-digestiva-microbiota", "en-que-podemos-ayudarte": "en-que-et-podem-ajudar", "programas-re-trace": "programes-re-trace", "acompanamiento-fertilidad": "acompanyament-fertilitat",
     "salud-mujer-menopausia": "salut-dona-menopausa", "prevencion-longevidad": "longevitat-prevencio-barcelona", "neurolongevidad-salud-cognitiva": "salut-cognitiva-sarria-sant-gervasi-barcelona",
     "osteopatia-sarria-sant-gervasi": "osteopatia-sarria-sant-gervasi", "osteopatia-visceral-barcelona": "osteopatia-visceral-barcelona", "osteopatia-craneosacral-barcelona": "osteopatia-craniosacral-barcelona", "manipulaciones-neuroviscerales": "manipulacions-neuroviscerals", "suelo-pelvico-dolor-pelvico": "sol-pelvia-dolor-pelvia",
     "perdida-de-peso-sarria-sant-gervasi": "perdua-de-pes", "dejar-de-fumar-acupuntura": "acupuntura-deixar-de-fumar",

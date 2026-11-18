@@ -67,6 +67,11 @@
       "availableService": [
         {
           "@type": "MedicalTherapy",
+          "name": "Programes re:trace",
+          "url": "https://www.walambcn.com/ca/programes-re-trace"
+        },
+        {
+          "@type": "MedicalTherapy",
           "name": "Osteopatia a Sarrià–Sant Gervasi",
           "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/osteopatia-sarria-sant-gervasi"
         },
@@ -283,7 +288,7 @@
           "name": "Quant costa?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "La primera visita dura 60 minuts i costa 90 €. Després de la valoració et proposem un programa personalitzat amb el seu pressupost individual, segons la seva durada i les teràpies que inclogui."
+            "text": "La primera visita dura 60 minuts i costa 90 €. Després et recomanem el programa re:trace més adequat: de 3.000 € a 7.500 €, segons el format, amb els costos de laboratori a part."
           }
         },
         {

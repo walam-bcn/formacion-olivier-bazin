@@ -67,6 +67,11 @@
       "availableService": [
         {
           "@type": "MedicalTherapy",
+          "name": "Programes re:trace",
+          "url": "https://www.walambcn.com/ca/programes-re-trace"
+        },
+        {
+          "@type": "MedicalTherapy",
           "name": "Osteopatia a Sarrià–Sant Gervasi",
           "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/osteopatia-sarria-sant-gervasi"
         },
@@ -160,7 +165,7 @@
       "@id": "https://www.walambcn.com/ca#webpage",
       "url": "https://www.walambcn.com/ca",
       "name": "Medicina integrativa i salut de precisió a Barcelona | WA LAM",
-      "description": "WA LAM uneix medicina integrativa, salut de precisió i neurolongevitat a Sarrià–Sant Gervasi (Barcelona). Mètode RE:TRACE. Primera visita: 90 €.",
+      "description": "WA LAM uneix medicina integrativa, salut de precisió i neurolongevitat a Sarrià–Sant Gervasi (Barcelona). Mètode re:trace. Primera visita: 90 €.",
       "inLanguage": "ca-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -175,7 +180,7 @@
       },
       "lastReviewed": "2026-11-18",
       "dateModified": "2026-11-18",
-      "keywords": "medicina integrativa Barcelona, salut de precisió Barcelona, neurolongevitat Barcelona, centre de medicina integrativa Sarrià, medicina integrativa Sant Gervasi, mètode RE:TRACE",
+      "keywords": "medicina integrativa Barcelona, salut de precisió Barcelona, neurolongevitat Barcelona, centre de medicina integrativa Sarrià, medicina integrativa Sant Gervasi, mètode re:trace",
       "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/medicina-integrativa-barcelona.png",
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -243,7 +248,7 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Què és RE:TRACE?",
+          "name": "Què és re:trace?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "És el mètode clínic propi de WA LAM. Les seves sigles resumeixen els seus set principis: Research, Evidence, Trajectory, Regulation, Awareness, Clinical Integration i Evolution. Parteix d'una valoració clínica completa i dissenya una estratègia personalitzada que s'ajusta a cada revisió segons la teva evolució."
@@ -270,12 +275,12 @@
           "name": "Quant costa?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "La primera visita dura 60 minuts i costa 90 €. Després de la valoració et proposem la modalitat RE:TRACE més adequada, amb un pressupost personalitzat. Si prefereixes sessions soltes: osteopatia, massatge, reflexologia i drenatge limfàtic, 70 € (1 hora); acupuntura, 50 € (1 hora)."
+            "text": "La primera visita dura 60 minuts i costa 90 €. Els programes re:trace van de 3.000 € a 7.500 €, segons el format; els costos de laboratori s'abonen per separat. Si prefereixes sessions soltes: osteopatia, massatge, reflexologia i drenatge limfàtic, 70 € (1 hora); acupuntura, 50 € (1 hora)."
           }
         },
         {
           "@type": "Question",
-          "name": "Quant dura un programa RE:TRACE?",
+          "name": "Quant dura un programa re:trace?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "El programa base dura 12 setmanes, el temps mínim que necessiten els canvis en l'alimentació, la microbiota i els hàbits per consolidar-se, i es pot allargar segons la teva evolució."
