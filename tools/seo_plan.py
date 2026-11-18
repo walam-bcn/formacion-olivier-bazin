@@ -147,6 +147,7 @@ MEASURE = [
 GOAL = {"academia": "Inscripciones", "servicio": "Reservas y clics a WhatsApp", "motivo": "Clics a WhatsApp y primeras visitas", "home": "Clics a WhatsApp y visitas a Tratamientos"}
 
 ASK = [
+    "Wix: renombrar en el menú «Método Integrativo» como «Método re:trace» y sustituir su contenido por el de la página Programas re:trace, manteniendo la URL. En Medicina Integrativa, añadir el botón «Conoce el método re:trace».",
     "Exportación de Search Console (Rendimiento › Consultas y Páginas, últimos 16 meses, en CSV) para saber qué búsquedas ya muestran WA LAM.",
     "El nombre exacto del centro de tu título de osteopatía D.O. y de la universidad de tu máster en medicina integrativa.",
     "Corregir en /curriculum la línea «Fisioterapeuta. Uni. EUG», porque no terminaste la carrera y es una profesión regulada.",

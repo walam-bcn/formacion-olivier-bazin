@@ -312,7 +312,7 @@ H = "tratamientos-sarrià-sant-gervasi-barcelona"
 A = "academia-vida-saludable-barcelona"
 URLS = {
     "medicina-integrativa-barcelona": "",
-    "programas-re-trace": "programas-re-trace",
+    "programas-re-trace": "metodo-integrativo-sarrià-sant-gervasi-barcelona",
     "en-que-podemos-ayudarte": f"{H}/en-que-podemos-ayudarte",
     "dolor-persistente-cronico": f"{H}/dolor-persistente-cronico",
     "estres-ansiedad": f"{H}/estres-ansiedad",
@@ -348,7 +348,7 @@ URLS = {
     "healthy-lifestyle-academy": A,
 }
 # Estado de cada URL: reutiliza (ya existe en el sitemap) o nueva
-EXISTING = {"neurolongevidad-salud-cognitiva", "medicina-integrativa-barcelona", "nutricion-salud-intestinal", "curso-mindfulness-mbsr-barcelona",
+EXISTING = {"programas-re-trace", "neurolongevidad-salud-cognitiva", "medicina-integrativa-barcelona", "nutricion-salud-intestinal", "curso-mindfulness-mbsr-barcelona",
             "retiros-mindfulness-meditacion-silencio", "vacaciones-con-sentido", "tratamientos", "healthy-lifestyle-academy"}
 # Redirecciones 301 propuestas
 REDIRECTS = [(f"/{H}/medicina-integrativa-barcelona", "/", "Evita que compita con la portada por «medicina integrativa Barcelona». Su contenido de prevención pasa a la página de Longevidad y prevención.")]

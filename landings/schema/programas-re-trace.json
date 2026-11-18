@@ -68,7 +68,7 @@
         {
           "@type": "MedicalTherapy",
           "name": "Programas re:trace",
-          "url": "https://www.walambcn.com/programas-re-trace"
+          "url": "https://www.walambcn.com/metodo-integrativo-sarri%C3%A0-sant-gervasi-barcelona"
         },
         {
           "@type": "MedicalTherapy",
@@ -150,7 +150,7 @@
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://www.walambcn.com/programas-re-trace#breadcrumb",
+      "@id": "https://www.walambcn.com/metodo-integrativo-sarri%C3%A0-sant-gervasi-barcelona#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -168,14 +168,14 @@
           "@type": "ListItem",
           "position": 3,
           "name": "Programas re:trace",
-          "item": "https://www.walambcn.com/programas-re-trace"
+          "item": "https://www.walambcn.com/metodo-integrativo-sarri%C3%A0-sant-gervasi-barcelona"
         }
       ]
     },
     {
       "@type": "MedicalWebPage",
-      "@id": "https://www.walambcn.com/programas-re-trace#webpage",
-      "url": "https://www.walambcn.com/programas-re-trace",
+      "@id": "https://www.walambcn.com/metodo-integrativo-sarri%C3%A0-sant-gervasi-barcelona#webpage",
+      "url": "https://www.walambcn.com/metodo-integrativo-sarri%C3%A0-sant-gervasi-barcelona",
       "name": "Programas re:trace de longevidad en Barcelona | WA LAM",
       "description": "Programas re:trace: Premium Barcelona (12 semanas, 6.000 €), Immersive Weekends, Private Experience y Exclusive Retreats. Evaluación avanzada de salud y longevidad.",
       "inLanguage": "es-ES",
@@ -185,7 +185,7 @@
         "url": "https://www.walambcn.com"
       },
       "breadcrumb": {
-        "@id": "https://www.walambcn.com/programas-re-trace#breadcrumb"
+        "@id": "https://www.walambcn.com/metodo-integrativo-sarri%C3%A0-sant-gervasi-barcelona#breadcrumb"
       },
       "publisher": {
         "@id": "https://www.walambcn.com/#clinica"
@@ -219,7 +219,7 @@
     },
     {
       "@type": "Service",
-      "@id": "https://www.walambcn.com/programas-re-trace#servicio",
+      "@id": "https://www.walambcn.com/metodo-integrativo-sarri%C3%A0-sant-gervasi-barcelona#servicio",
       "name": "Programas re:trace",
       "serviceType": "Programas re:trace",
       "provider": {
@@ -255,12 +255,12 @@
           "name": "Barcelona"
         }
       ],
-      "url": "https://www.walambcn.com/programas-re-trace",
+      "url": "https://www.walambcn.com/metodo-integrativo-sarri%C3%A0-sant-gervasi-barcelona",
       "description": "Programas re:trace: Premium Barcelona (12 semanas, 6.000 €), Immersive Weekends, Private Experience y Exclusive Retreats. Evaluación avanzada de salud y longevidad."
     },
     {
       "@type": "FAQPage",
-      "@id": "https://www.walambcn.com/programas-re-trace#faq",
+      "@id": "https://www.walambcn.com/metodo-integrativo-sarri%C3%A0-sant-gervasi-barcelona#faq",
       "mainEntity": [
         {
           "@type": "Question",
