@@ -261,7 +261,16 @@
     {
       "@type": "FAQPage",
       "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/masajes-sarria-sant-gervasi#faq",
-      "mainEntity": []
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Tenéis tarjetas regalo?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. Escríbenos por WhatsApp y te preparamos una tarjeta regalo."
+          }
+        }
+      ]
     }
   ]
 }

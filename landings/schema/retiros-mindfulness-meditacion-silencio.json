@@ -264,6 +264,14 @@
             "@type": "Answer",
             "text": "Depende de cada edición; lo detallamos en su ficha: alojamiento, comidas, sesiones y traslados si los hay."
           }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Hay política de cancelación?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. Las condiciones de cancelación se indican en la ficha de cada retiro, en la página de retiros de la Healthy Lifestyle Academy."
+          }
         }
       ]
     }

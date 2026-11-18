@@ -177,7 +177,7 @@
       "@id": "https://www.walambcn.com/ca/academia-vida-saludable-barcelona/formacio-mindfulness#webpage",
       "url": "https://www.walambcn.com/ca/academia-vida-saludable-barcelona/formacio-mindfulness",
       "name": "Curs de Mindfulness MBSR de 8 setmanes a Barcelona",
-      "description": "Curs MBSR de 8 setmanes a Barcelona: programa oficial de reducció de l'estrès basat en mindfulness. Propera edició, horaris, preu i inscripció.",
+      "description": "Curs MBSR de 8 setmanes de WA LAM, en línia o presencial a Barcelona: programa oficial de reducció de l'estrès basat en mindfulness.",
       "inLanguage": "ca-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -240,7 +240,7 @@
       "@type": "Course",
       "@id": "https://www.walambcn.com/ca/academia-vida-saludable-barcelona/formacio-mindfulness#curso",
       "name": "Curs de mindfulness MBSR de 8 setmanes a Barcelona",
-      "description": "Curs MBSR de 8 setmanes a Barcelona: programa oficial de reducció de l'estrès basat en mindfulness. Propera edició, horaris, preu i inscripció.",
+      "description": "Curs MBSR de 8 setmanes de WA LAM, en línia o presencial a Barcelona: programa oficial de reducció de l'estrès basat en mindfulness.",
       "provider": {
         "@type": "Organization",
         "name": "WA LAM · Healthy Lifestyle Academy",
@@ -275,6 +275,14 @@
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "No. La relaxació pot aparèixer, però no n'és l'objectiu. L'MBSR entrena l'atenció i la manera de relacionar-te amb l'experiència, inclosa la incòmoda."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hi ha edicions en línia?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. El curs pot ser en línia o presencial, tot i que habitualment s'imparteix en línia."
           }
         }
       ]

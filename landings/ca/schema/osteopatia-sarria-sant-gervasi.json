@@ -314,6 +314,14 @@
         },
         {
           "@type": "Question",
+          "name": "Puc venir si estic embarassada?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. Atenem dones embarassades i adaptem el tractament a cada etapa. Més informació a osteopatia en l'embaràs i el postpart."
+          }
+        },
+        {
+          "@type": "Question",
           "name": "Necessito prescripció mèdica?",
           "acceptedAnswer": {
             "@type": "Answer",

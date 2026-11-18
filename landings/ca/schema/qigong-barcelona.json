@@ -176,8 +176,8 @@
       "@type": "WebPage",
       "@id": "https://www.walambcn.com/ca/academia-vida-saludable-barcelona/qigong#webpage",
       "url": "https://www.walambcn.com/ca/academia-vida-saludable-barcelona/qigong",
-      "name": "Classes de Qigong a Barcelona · Particular i grup",
-      "description": "Classes de qigong a Barcelona (Sarrià–Sant Gervasi), particulars i en grup: exercici suau per a l'equilibri, la mobilitat i l'estrès.",
+      "name": "Classes de qigong a Barcelona · Particulars i en línia | WA LAM",
+      "description": "Classes de qigong particulars a Barcelona (Sarrià–Sant Gervasi) o en línia amb la membresia: exercici suau per a l'equilibri, la mobilitat i l'estrès.",
       "inLanguage": "ca-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -214,7 +214,7 @@
       "@type": "Course",
       "@id": "https://www.walambcn.com/ca/academia-vida-saludable-barcelona/qigong#curso",
       "name": "Qigong a Barcelona",
-      "description": "Classes de qigong a Barcelona (Sarrià–Sant Gervasi), particulars i en grup: exercici suau per a l'equilibri, la mobilitat i l'estrès.",
+      "description": "Classes de qigong particulars a Barcelona (Sarrià–Sant Gervasi) o en línia amb la membresia: exercici suau per a l'equilibri, la mobilitat i l'estrès.",
       "provider": {
         "@type": "Organization",
         "name": "WA LAM · Healthy Lifestyle Academy",

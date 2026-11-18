@@ -301,6 +301,14 @@
             "@type": "Answer",
             "text": "Al Carrer del Bisbe Sivilla, 44, 08022 Barcelona, al districte de Sarrià–Sant Gervasi."
           }
+        },
+        {
+          "@type": "Question",
+          "name": "Treballeu amb mútues?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. WA LAM no treballa amb mútues ni amb companyies d'assegurances."
+          }
         }
       ]
     }

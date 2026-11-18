@@ -285,6 +285,14 @@
             "@type": "Answer",
             "text": "No. Trabajamos con cambios progresivos y adaptados a ti, sin eliminar grupos de alimentos sin una indicación clara."
           }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cómo es el seguimiento?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cada semana controlamos el peso y ajustamos las pautas nutricionales. Las sesiones de acupuntura son dos por semana, y la duración total depende de tus objetivos."
+          }
         }
       ]
     }

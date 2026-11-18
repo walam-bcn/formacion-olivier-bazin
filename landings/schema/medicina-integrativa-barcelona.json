@@ -301,6 +301,14 @@
             "@type": "Answer",
             "text": "En Carrer del Bisbe Sivilla, 44, 08022 Barcelona, en el distrito de Sarrià–Sant Gervasi."
           }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Trabajáis con mutuas?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. WA LAM no trabaja con mutuas ni con compañías de seguros."
+          }
         }
       ]
     }

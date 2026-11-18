@@ -278,6 +278,14 @@
       "mainEntity": [
         {
           "@type": "Question",
+          "name": "¿Cuántas sesiones necesitaré?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Generalmente entre 3 y 5 sesiones. Lo valoramos según tu caso."
+          }
+        },
+        {
+          "@type": "Question",
           "name": "¿La acupuntura sustituye a los parches o a la medicación?",
           "acceptedAnswer": {
             "@type": "Answer",

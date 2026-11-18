@@ -314,6 +314,14 @@
         },
         {
           "@type": "Question",
+          "name": "¿Puedo venir si estoy embarazada?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. Atendemos a mujeres embarazadas, adaptando el tratamiento a cada etapa. Más información en osteopatía en el embarazo y el posparto."
+          }
+        },
+        {
+          "@type": "Question",
           "name": "¿Necesito prescripción médica?",
           "acceptedAnswer": {
             "@type": "Answer",

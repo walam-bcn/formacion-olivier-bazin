@@ -285,6 +285,14 @@
             "@type": "Answer",
             "text": "No. Treballem amb canvis progressius i adaptats a tu, sense eliminar grups d'aliments sense una indicació clara."
           }
+        },
+        {
+          "@type": "Question",
+          "name": "Com és el seguiment?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cada setmana controlem el pes i ajustem les pautes nutricionals. Les sessions d'acupuntura són dues per setmana, i la durada total depèn dels teus objectius."
+          }
         }
       ]
     }

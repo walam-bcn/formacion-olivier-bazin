@@ -250,6 +250,14 @@
             "@type": "Answer",
             "text": "No hi ha proves que ho faci. Un assaig clínic amb 848 dones publicat a JAMA no va trobar diferències en la taxa de nascuts vius en comparació amb l'acupuntura simulada. Algunes persones la trien per benestar i per gestionar l'estrès; t'ho expliquem perquè decideixis amb informació."
           }
+        },
+        {
+          "@type": "Question",
+          "name": "Podem venir en parella?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. Atenem tant de manera individual com en parella."
+          }
         }
       ]
     }

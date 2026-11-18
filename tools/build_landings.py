@@ -601,7 +601,7 @@ def local(p):
     return f"""<section class="localsec" id="donde-estamos"><div class="wrap">{sec_head(tr("Dónde estamos"), f"{what} · {tr('cerca de ti, en Sarrià–Sant Gervasi')}")}
 <div class="grid g2"><div class="card"><span class="k">{tr("Consulta presencial")}</span><h3>WA LAM · {html.escape(SITE['street'])}, {SITE['postal']} Barcelona</h3>
 
-<ul><li>{tr("Dirección")}: {html.escape(SITE['street'])}, {SITE['postal']} Barcelona</li><li>{tr("Horario")}: {tr(SITE['hours'])}</li><li>{tr("Cómo llegar")}: <span class="pend">{tr("FGC / bus más cercanos")}</span></li><li>{tr("Teléfono y WhatsApp")}: +34 675 716 409</li></ul></div>
+<ul><li>{tr("Dirección")}: {html.escape(SITE['street'])}, {SITE['postal']} Barcelona</li><li>{tr("Horario")}: {tr(SITE['hours'])}</li><li>{tr("Teléfono y WhatsApp")}: +34 675 716 409</li></ul></div>
 <div class="card"><span class="k">{tr("Reserva")}</span><h3>{tr("Quién te atiende")}</h3>
 <p>{fmt(p.get("pro_who", "").rstrip("."))}. <a class="inl" href="{SITE['cv_url']}">{tr("Ver currículum")}</a></p>
 <p>{tr("La reserva se realiza por WhatsApp y el pago, mediante Bizum. Si no sabes qué servicio te conviene, cuéntanos tu caso y te orientamos antes de reservar.")}</p>

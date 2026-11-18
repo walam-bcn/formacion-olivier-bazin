@@ -261,7 +261,16 @@
     {
       "@type": "FAQPage",
       "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/massatges-sarria-sant-gervasi#faq",
-      "mainEntity": []
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Teniu targetes regal?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. Escriu-nos per WhatsApp i et prepararem una targeta regal."
+          }
+        }
+      ]
     }
   ]
 }

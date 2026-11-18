@@ -250,6 +250,14 @@
             "@type": "Answer",
             "text": "No hay pruebas de que lo haga. Un ensayo clínico con 848 mujeres publicado en JAMA no encontró diferencias en la tasa de nacidos vivos frente a la acupuntura simulada. Algunas personas la eligen por bienestar y para gestionar el estrés; te lo explicamos para que decidas con información."
           }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Podemos venir en pareja?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. Atendemos tanto de forma individual como en pareja."
+          }
         }
       ]
     }

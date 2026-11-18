@@ -167,7 +167,7 @@
         {
           "@type": "ListItem",
           "position": 3,
-          "name": "Ioga particular i en grups reduïts",
+          "name": "Ioga particular i en línia",
           "item": "https://www.walambcn.com/ca/academia-vida-saludable-barcelona/ioga"
         }
       ]
@@ -176,8 +176,8 @@
       "@type": "WebPage",
       "@id": "https://www.walambcn.com/ca/academia-vida-saludable-barcelona/ioga#webpage",
       "url": "https://www.walambcn.com/ca/academia-vida-saludable-barcelona/ioga",
-      "name": "Ioga particular i en grups reduïts a Barcelona",
-      "description": "Classes de ioga particulars i en grups reduïts a Sarrià–Sant Gervasi, Barcelona: ioga terapèutic adaptat. Horaris, preus i reserva.",
+      "name": "Ioga particular i en línia a Barcelona | WA LAM",
+      "description": "Classes de ioga particulars a Sarrià–Sant Gervasi (Barcelona) o en línia amb la membresia de WA LAM: ioga terapèutic adaptat.",
       "inLanguage": "ca-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -192,7 +192,7 @@
       },
       "lastReviewed": "2026-11-18",
       "dateModified": "2026-11-18",
-      "keywords": "ioga particular Barcelona, classes de ioga Sarrià Sant Gervasi, ioga grups reduïts Barcelona, ioga terapèutic Barcelona, ioga mal d'esquena",
+      "keywords": "ioga particular Barcelona, classes de ioga Sarrià Sant Gervasi, ioga en línia, ioga terapèutic Barcelona, ioga mal d'esquena",
       "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/yoga-particular-grupos-reducidos.png",
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -213,8 +213,8 @@
     {
       "@type": "Course",
       "@id": "https://www.walambcn.com/ca/academia-vida-saludable-barcelona/ioga#curso",
-      "name": "Ioga particular i en grups reduïts",
-      "description": "Classes de ioga particulars i en grups reduïts a Sarrià–Sant Gervasi, Barcelona: ioga terapèutic adaptat. Horaris, preus i reserva.",
+      "name": "Ioga particular i en línia",
+      "description": "Classes de ioga particulars a Sarrià–Sant Gervasi (Barcelona) o en línia amb la membresia de WA LAM: ioga terapèutic adaptat.",
       "provider": {
         "@type": "Organization",
         "name": "WA LAM · Healthy Lifestyle Academy",
@@ -241,6 +241,14 @@
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "En molts casos sí, amb adaptacions. Si el dolor és recent o intens, et recomanem una valoració prèvia."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Què necessito?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Roba còmoda."
           }
         }
       ]

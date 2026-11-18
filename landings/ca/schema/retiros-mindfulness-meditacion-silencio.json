@@ -264,6 +264,14 @@
             "@type": "Answer",
             "text": "Depèn de cada edició; ho detallem a la seva fitxa: allotjament, àpats, sessions i trasllats, si n'hi ha."
           }
+        },
+        {
+          "@type": "Question",
+          "name": "Hi ha política de cancel·lació?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. Les condicions de cancel·lació s'indiquen a la fitxa de cada retir, a la pàgina de retirs de la Healthy Lifestyle Academy."
+          }
         }
       ]
     }

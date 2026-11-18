@@ -278,6 +278,14 @@
       "mainEntity": [
         {
           "@type": "Question",
+          "name": "Quantes sessions necessitaré?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Generalment entre 3 i 5 sessions. Ho valorem segons el teu cas."
+          }
+        },
+        {
+          "@type": "Question",
           "name": "L'acupuntura substitueix els pegats o la medicació?",
           "acceptedAnswer": {
             "@type": "Answer",
