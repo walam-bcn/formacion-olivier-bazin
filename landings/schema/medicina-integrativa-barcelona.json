@@ -270,7 +270,7 @@
           "name": "¿Cuánto cuesta?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "La primera visita dura 60 minutos y cuesta 90 €. Tras la valoración te proponemos un programa RE:TRACE con un presupuesto personalizado, según su duración y las terapias que incluya. Si prefieres sesiones sueltas: osteopatía, masaje, reflexología y drenaje linfático, 70 € (1 hora); acupuntura, 50 € (1 hora)."
+            "text": "La primera visita dura 60 minutos y cuesta 90 €. Tras la valoración te proponemos la modalidad RE:TRACE más adecuada, con un presupuesto personalizado. Si prefieres sesiones sueltas: osteopatía, masaje, reflexología y drenaje linfático, 70 € (1 hora); acupuntura, 50 € (1 hora)."
           }
         },
         {
@@ -278,7 +278,7 @@
           "name": "¿Cuánto dura un programa RE:TRACE?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Como mínimo tres meses, que es el tiempo que necesitan los cambios en la alimentación, la microbiota y los hábitos para consolidarse, y hasta doce meses según tu evolución."
+            "text": "El programa base dura 12 semanas, el tiempo mínimo que necesitan los cambios en la alimentación, la microbiota y los hábitos para consolidarse, y puede prolongarse según tu evolución."
           }
         },
         {
