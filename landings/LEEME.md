@@ -16,7 +16,6 @@ Vista previa de todas las páginas: `landings/index.html` (o https://walam-bcn.g
 | Motivo de consulta | /salud-mujer-menopausia | 3 |
 | Motivo de consulta | /prevencion-longevidad | 3 |
 | Servicio | /osteopatia-sarria-sant-gervasi | 1 |
-| Servicio | /fisioterapia-sarria-sant-gervasi | 1 |
 | Servicio | /perdida-de-peso-sarria-sant-gervasi | 1 |
 | Motivo de consulta | /sueno-insomnio | 1 |
 | Servicio | /dejar-de-fumar-acupuntura | 2 |

@@ -6,7 +6,7 @@ y entidad médica para los datos estructurados."""
 SEO = {
     "medicina-integrativa-barcelona": {
         "kw": "medicina integrativa Barcelona",
-        "kws": ["centro de salud integrativa Barcelona", "clínica integrativa Sarrià", "osteopatía y fisioterapia Sant Gervasi", "medicina integrativa Sant Gervasi"],
+        "kws": ["centro de salud integrativa Barcelona", "clínica integrativa Sarrià", "osteopatía Sant Gervasi", "medicina integrativa Sant Gervasi"],
         "ca": "medicina integrativa Barcelona",
         "title": "Medicina integrativa y longevidad en Barcelona | WA LAM",
         "desc": "Centro de medicina integrativa, prevención y longevidad en Sarrià–Sant Gervasi, Barcelona: primera visita, plan por fases y seguimiento.",
@@ -121,15 +121,6 @@ SEO = {
         "quick": "En WA LAM acompañamos el dolor pélvico, el dolor menstrual, las molestias urinarias y el dolor perineal con osteopatía urogenital de abordaje externo, en coordinación con ginecología, urología y fisioterapia de suelo pélvico, que es el tratamiento de primera línea para la incontinencia.",
         "entity": ("MedicalCondition", "Dolor pélvico"),
     },
-    "fisioterapia-sarria-sant-gervasi": {
-        "kw": "fisioterapeuta Sarrià Sant Gervasi",
-        "kws": ["fisioterapia Barcelona", "fisioterapia Sant Gervasi", "fisioterapia postoperatoria Barcelona", "ejercicio terapéutico", "fisio zona alta Barcelona"],
-        "ca": "fisioterapeuta Sarrià Sant Gervasi",
-        "title": "Fisioterapeuta en Sarrià–Sant Gervasi, Barcelona",
-        "desc": "Fisioterapia en Sarrià–Sant Gervasi (Barcelona): valoración, tratamiento, ejercicio terapéutico y readaptación tras lesión o cirugía. Reserva online.",
-        "quick": "La fisioterapia recupera movimiento, fuerza y función tras una lesión, una cirugía o un periodo de dolor. El ejercicio terapéutico es su herramienta con más evidencia: según la revisión Cochrane de 2021, probablemente reduce el dolor lumbar crónico frente a no tratar o a la atención habitual.",
-        "entity": ("PhysicalTherapy", "Fisioterapia"),
-    },
     "perdida-de-peso-sarria-sant-gervasi": {
         "kw": "perder peso Sarrià Sant Gervasi",
         "kws": ["pérdida de peso Barcelona", "acupuntura para adelgazar Barcelona", "nutricionista perder peso Sant Gervasi", "adelgazar sin dietas estrictas"],
@@ -227,7 +218,7 @@ SEO = {
         "ca": "massatges Sarrià Sant Gervasi",
         "title": "Masajes en Sarrià–Sant Gervasi, Barcelona | WA LAM",
         "desc": "Masaje descontracturante y relajante en Sarrià–Sant Gervasi, Barcelona. Modalidades, duración, precio y reserva online en WA LAM.",
-        "quick": "En WA LAM ofrecemos masaje descontracturante y relajante en Sarrià–Sant Gervasi. Si tienes dolor persistente, una lesión reciente o te acaban de operar, te recomendamos empezar por una valoración de fisioterapia, osteopatía o drenaje linfático postoperatorio.",
+        "quick": "En WA LAM ofrecemos masaje descontracturante y relajante en Sarrià–Sant Gervasi. Si tienes dolor persistente, una lesión reciente o te acaban de operar, te recomendamos empezar por una valoración de osteopatía o drenaje linfático postoperatorio.",
         "entity": ("MedicalTherapy", "Masaje terapéutico"),
     },
     "reflexologia-sarria-sant-gervasi": {
@@ -316,7 +307,6 @@ URLS = {
     "osteopatia-craneosacral-barcelona": f"{H}/osteopatia-craneosacral-barcelona",
     "manipulaciones-neuroviscerales": f"{H}/manipulaciones-neuroviscerales",
     "suelo-pelvico-dolor-pelvico": f"{H}/suelo-pelvico-dolor-pelvico",
-    "fisioterapia-sarria-sant-gervasi": f"{H}/fisioterapia-sarria-sant-gervasi",
     "perdida-de-peso-sarria-sant-gervasi": f"{H}/perdida-de-peso",
     "dejar-de-fumar-acupuntura": f"{H}/acupuntura-dejar-de-fumar",
     "acupuntura-medicina-tradicional-china": f"{H}/acupuntura-medicina-tradicional-china",
@@ -345,7 +335,6 @@ REDIRECTS = [(f"/{H}/medicina-integrativa-barcelona", "/", "Evita que compita co
 # Páginas de reserva (Wix Bookings) y eventos que ya existen y compiten o complementan
 BOOKING = {
     "osteopatia-sarria-sant-gervasi": "/service-page/osteopatía-alivio-y-prevención-del-dolor",
-    "fisioterapia-sarria-sant-gervasi": "/service-page/fisioterapia-recuperación-y-bienestar-físico",
     "manipulaciones-neuroviscerales": "/service-page/manipulaciones-neuroviscerales",
     "suelo-pelvico-dolor-pelvico": "/service-page/manipulaciones-urogenitales",
     "osteopatia-visceral-barcelona": "/service-page/osteopatía-alivio-y-prevención-del-dolor",
@@ -382,14 +371,13 @@ BLOG = {
     "retiros-mindfulness-meditacion-silencio": ["/post/comoseleccionarelretirodemeditacion"],
     "curso-mindfulness-mbsr-barcelona": ["/post/transforma-el-estrés-en-oportunidad-crecimiento-personal-a-través-de-la-meditación-mindfulness"],
     "prevencion-longevidad": ["/post/tienes-el-colesterol-alto", "/post/inflamación-sistémica"],
-    "fisioterapia-sarria-sant-gervasi": ["/post/cuéntame-qué-te-duele-y-te-sugeriré-un-deporte-adecuado"],
 }
 # Segmento final en catalán (Wix Multilingual, prefijo /ca/)
 CA_SLUG = {
     "dolor-persistente-cronico": "dolor-persistent-cronic", "estres-ansiedad": "estres-ansietat", "sueno-insomnio": "son-insomni",
     "salud-digestiva-microbiota": "salut-digestiva-microbiota", "acompanamiento-fertilidad": "acompanyament-fertilitat",
     "salud-mujer-menopausia": "salut-dona-menopausa", "prevencion-longevidad": "longevitat-prevencio-barcelona", "neurolongevidad-salud-cognitiva": "salut-cognitiva-sarria-sant-gervasi-barcelona",
-    "osteopatia-sarria-sant-gervasi": "osteopatia-sarria-sant-gervasi", "fisioterapia-sarria-sant-gervasi": "fisioterapia-sarria-sant-gervasi", "osteopatia-visceral-barcelona": "osteopatia-visceral-barcelona", "osteopatia-craneosacral-barcelona": "osteopatia-craniosacral-barcelona", "manipulaciones-neuroviscerales": "manipulacions-neuroviscerals", "suelo-pelvico-dolor-pelvico": "sol-pelvia-dolor-pelvia",
+    "osteopatia-sarria-sant-gervasi": "osteopatia-sarria-sant-gervasi", "osteopatia-visceral-barcelona": "osteopatia-visceral-barcelona", "osteopatia-craneosacral-barcelona": "osteopatia-craniosacral-barcelona", "manipulaciones-neuroviscerales": "manipulacions-neuroviscerals", "suelo-pelvico-dolor-pelvico": "sol-pelvia-dolor-pelvia",
     "perdida-de-peso-sarria-sant-gervasi": "perdua-de-pes", "dejar-de-fumar-acupuntura": "acupuntura-deixar-de-fumar",
     "acupuntura-medicina-tradicional-china": "acupuntura-medicina-tradicional-xinesa", "pni-pnie-barcelona": "pni-pnie-barcelona",
     "nutricion-salud-intestinal": "nutricio-barcelona", "drenaje-linfatico-postoperatorio": "drenatge-limfatic-postoperatori", "drenaje-linfatico-manual": "drenatge-limfatic-manual", "drenaje-linfatico-embarazo": "drenatge-limfatic-embaras",

@@ -87,11 +87,6 @@
         },
         {
           "@type": "MedicalTherapy",
-          "name": "Fisioterapia en Sarrià–Sant Gervasi",
-          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/fisioterapia-sarria-sant-gervasi"
-        },
-        {
-          "@type": "MedicalTherapy",
           "name": "Pérdida de peso en Sarrià–Sant Gervasi",
           "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/perdida-de-peso"
         },
@@ -180,7 +175,7 @@
       },
       "lastReviewed": "2026-11-18",
       "dateModified": "2026-11-18",
-      "keywords": "medicina integrativa Barcelona, centro de salud integrativa Barcelona, clínica integrativa Sarrià, osteopatía y fisioterapia Sant Gervasi, medicina integrativa Sant Gervasi",
+      "keywords": "medicina integrativa Barcelona, centro de salud integrativa Barcelona, clínica integrativa Sarrià, osteopatía Sant Gervasi, medicina integrativa Sant Gervasi",
       "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/medicina-integrativa-barcelona.png",
       "speakable": {
         "@type": "SpeakableSpecification",
