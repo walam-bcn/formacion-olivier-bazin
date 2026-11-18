@@ -2242,6 +2242,9 @@ PAGES.append({
     "blocks": [
         {"type": "explain", "eyebrow": "Qué son", "h2": "Unas vacaciones que cuidan tu salud",
          "paras": ["Cada convocatoria se celebra en un lugar emblemático, elegido por su naturaleza y su patrimonio cultural. La semana combina conferencias de salud integrativa, práctica corporal diaria y excursiones guiadas, con tiempo libre para descansar. Es también una forma de vivir el método [re:trace](programas-re-trace) fuera de la consulta."]},
+        {"type": "cards", "eyebrow": "Objetivos", "h2": "Para qué sirve esta semana",
+         "items": [{"h": "Entender tu salud hormonal y digestiva"}, {"h": "Mejorar el descanso y la energía"},
+                   {"h": "Regular el sistema nervioso"}, {"h": "Ganar perspectiva sobre tu momento vital"}]},
         {"type": "cards", "eyebrow": "Conferencias", "h2": "Qué se aprende",
          "items": [{"h": "Salud intestinal y digestión"}, {"h": "Eje intestino-cerebro e inflamación"}, {"h": "Ritmos circadianos y sueño"},
                    {"h": "Hormonas, perimenopausia y menopausia"}, {"h": "Estrés y regulación del sistema nervioso"}, {"h": "Longevidad y salud cognitiva"}]},
