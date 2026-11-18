@@ -264,10 +264,10 @@
         },
         {
           "@type": "Question",
-          "name": "Feu proves genètiques?",
+          "name": "Quines proves inclou la valoració?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí, a través d'un laboratori especialitzat, quan poden aportar informació útil per al teu pla."
+            "text": "Segons el teu cas: analítica general i metabòlica, marcadors cardiovasculars, panells hormonals, proves genètiques, estudi de microbiota, epigenètica, valoració cognitiva, composició corporal i valoració del son i de l'estrès. Tot s'integra en un informe final amb el teu pla d'acció."
           }
         },
         {
