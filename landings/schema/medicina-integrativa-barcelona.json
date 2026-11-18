@@ -159,8 +159,8 @@
       "@type": "MedicalWebPage",
       "@id": "https://www.walambcn.com#webpage",
       "url": "https://www.walambcn.com",
-      "name": "Medicina integrativa y longevidad en Barcelona | WA LAM",
-      "description": "Centro de medicina integrativa, prevención y longevidad en Sarrià–Sant Gervasi, Barcelona: primera visita, plan por fases y seguimiento.",
+      "name": "Medicina integrativa y salud de precisión en Barcelona | WA LAM",
+      "description": "WA LAM une medicina integrativa, salud de precisión y neurolongevidad en Sarrià–Sant Gervasi (Barcelona). Método RE:TRACE. Primera visita: 90 €.",
       "inLanguage": "es-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -175,7 +175,7 @@
       },
       "lastReviewed": "2026-11-18",
       "dateModified": "2026-11-18",
-      "keywords": "medicina integrativa Barcelona, centro de salud integrativa Barcelona, clínica integrativa Sarrià, osteopatía Sant Gervasi, medicina integrativa Sant Gervasi",
+      "keywords": "medicina integrativa Barcelona, salud de precisión Barcelona, neurolongevidad Barcelona, centro de medicina integrativa Sarrià, medicina integrativa Sant Gervasi, método RE:TRACE",
       "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/medicina-integrativa-barcelona.png",
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -213,9 +213,21 @@
         },
         {
           "@type": "ScholarlyArticle",
+          "name": "Sleep Disturbance, Sleep Duration, and Inflammation: A Systematic Review and Meta-Analysis of Cohort Studies and Experimental Sleep Deprivation",
+          "url": "https://doi.org/10.1016/j.biopsych.2015.05.014",
+          "sameAs": "https://doi.org/10.1016/j.biopsych.2015.05.014"
+        },
+        {
+          "@type": "ScholarlyArticle",
           "name": "Muscle-strengthening activities are associated with lower risk and mortality in major non-communicable diseases: a systematic review and meta-analysis of cohort studies",
           "url": "https://doi.org/10.1136/bjsports-2021-105061",
           "sameAs": "https://doi.org/10.1136/bjsports-2021-105061"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Dementia prevention, intervention, and care: 2024 report of the Lancet standing Commission",
+          "url": "https://doi.org/10.1016/S0140-6736(24)01296-0",
+          "sameAs": "https://doi.org/10.1016/S0140-6736(24)01296-0"
         },
         {
           "@type": "ScholarlyArticle",
@@ -231,18 +243,26 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "¿Qué es la medicina integrativa?",
+          "name": "¿Qué es RE:TRACE?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Es un enfoque que combina la medicina convencional con terapias y hábitos de vida que cuentan con respaldo científico, poniendo a la persona en el centro. En WA LAM no sustituimos a tu médico: complementamos su seguimiento."
+            "text": "Es el método clínico propio de WA LAM. Sus siglas resumen sus siete principios: Research, Evidence, Trajectory, Regulation, Awareness, Clinical Integration y Evolution. Parte de una valoración clínica completa y diseña una estrategia personalizada que se ajusta en cada revisión según tu evolución."
           }
         },
         {
           "@type": "Question",
-          "name": "No sé qué tratamiento necesito. ¿Por dónde empiezo?",
+          "name": "¿Qué es la medicina integrativa?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Empieza por el motivo de consulta que más se parece a lo que te ocurre, o escríbenos por WhatsApp. Te orientaremos hacia el profesional adecuado antes de reservar."
+            "text": "Es un enfoque que combina la medicina convencional con terapias complementarias y cambios en el estilo de vida que disponen de respaldo científico, centrado en la persona. No sustituye a tu médico: complementa su seguimiento."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué significa salud de precisión?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Adaptar las decisiones clínicas a las características de cada persona: su historia, sus analíticas, su microbiota o su perfil genético. Solo solicitamos pruebas complementarias cuando pueden modificar el plan."
           }
         },
         {
@@ -250,7 +270,15 @@
           "name": "¿Cuánto cuesta?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "La primera visita cuesta 90 €. Las sesiones de osteopatía, masaje, reflexología y drenaje linfático duran una hora y cuestan 70 €; la sesión de acupuntura dura una hora y cuesta 50 €."
+            "text": "La primera visita dura 60 minutos y cuesta 90 €; las visitas de seguimiento, 70 €. Las sesiones de osteopatía, masaje, reflexología y drenaje linfático duran una hora y cuestan 70 €; la sesión de acupuntura dura una hora y cuesta 50 €."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Dónde estáis?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "En Carrer del Bisbe Sivilla, 44, 08022 Barcelona, en el distrito de Sarrià–Sant Gervasi."
           }
         }
       ]

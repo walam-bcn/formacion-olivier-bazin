@@ -6,11 +6,11 @@ y entidad médica para los datos estructurados."""
 SEO = {
     "medicina-integrativa-barcelona": {
         "kw": "medicina integrativa Barcelona",
-        "kws": ["centro de salud integrativa Barcelona", "clínica integrativa Sarrià", "osteopatía Sant Gervasi", "medicina integrativa Sant Gervasi"],
+        "kws": ["salud de precisión Barcelona", "neurolongevidad Barcelona", "centro de medicina integrativa Sarrià", "medicina integrativa Sant Gervasi", "método RE:TRACE"],
         "ca": "medicina integrativa Barcelona",
-        "title": "Medicina integrativa y longevidad en Barcelona | WA LAM",
-        "desc": "Centro de medicina integrativa, prevención y longevidad en Sarrià–Sant Gervasi, Barcelona: primera visita, plan por fases y seguimiento.",
-        "quick": "WA LAM es un centro de medicina integrativa, prevención y longevidad en Sarrià–Sant Gervasi (Barcelona). Cada recorrido empieza con una primera visita, sigue con un plan por fases y se acompaña con un seguimiento, en coordinación con tu médico. Trabajamos dolor persistente, estrés, sueño, salud digestiva y salud cognitiva.",
+        "title": "Medicina integrativa y salud de precisión en Barcelona | WA LAM",
+        "desc": "WA LAM une medicina integrativa, salud de precisión y neurolongevidad en Sarrià–Sant Gervasi (Barcelona). Método RE:TRACE. Primera visita: 90 €.",
+        "quick": "WA LAM es un centro de medicina integrativa, salud de precisión y neurolongevidad en Sarrià–Sant Gervasi (Barcelona), fundado en 2004. Su método propio, RE:TRACE (Research, Evidence, Trajectory, Regulation, Awareness, Clinical Integration, Evolution), diseña estrategias clínicas personalizadas que se ajustan a la evolución de cada persona, en coordinación con su médico. La primera visita dura 60 minutos y cuesta 90 €.",
         "entity": None,
     },
     "dolor-persistente-cronico": {
