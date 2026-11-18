@@ -147,10 +147,7 @@ ASK = [
     "Exportación de Search Console (Rendimiento › Consultas y Páginas, últimos 16 meses, en CSV) para saber qué búsquedas ya muestran WA LAM.",
     "El nombre exacto del centro de tu título de osteopatía D.O. y de la universidad de tu máster en medicina integrativa.",
     "Corregir en /curriculum la línea «Fisioterapeuta. Uni. EUG», porque no terminaste la carrera y es una profesión regulada.",
-    "Nombre y número de colegiada de la fisioterapeuta.",
-    "Si WA LAM está inscrito como centro sanitario en Cataluña, el número de registro (es una señal de confianza muy fuerte).",
-    "Longevidad: duración de la primera visita, qué incluye (mediciones, informe) y periodicidad del seguimiento.",
-    "Salud cognitiva: qué servicios concretos describimos (neurorregulación, estimulación transcraneal) y con qué aparato o método.",
+    "Confirmar si en WA LAM trabaja una fisioterapeuta colegiada (otra persona del equipo). Si no, hay que retirar la página de Fisioterapia.",
     "El enlace o documento de la revisión de Monarka: no he encontrado esa clínica en búsquedas públicas.",
     "Acceso o capturas de la ficha de Google Business Profile.",
     "Confirmar qué incluyen los cuidados postoperatorios además del drenaje, y qué cirugías atendéis.",
@@ -160,7 +157,7 @@ ASK = [
 
 # Servicios que WA LAM ya ofrece y tienen poca visibilidad (detectados en su web) y prestaciones nuevas posibles
 VISIBILITY = [
-    ("Ya existe", "Neurorregulación (60 min, 75 €) y estimulación eléctrica transcraneal (120 €)", "Integrados en Neurolongevidad y salud cognitiva. Revisar sus textos de reserva: hoy prometen efectos (ictus, depresión, adicciones) que la evidencia no respalda.", "pendiente de confirmar"),
+    ("Ya existe", "Neurorregulación (60 min, 75 €) y estimulación eléctrica transcraneal (120 €)", "Descritos en Neurolongevidad y salud cognitiva como «próximamente». Mientras no tengas el aparato, desactiva sus páginas de reserva en Wix: hoy prometen efectos que la evidencia no respalda y se pueden reservar servicios que no se ofrecen.", "preparado"),
     ("Ya existe", "Paseos matutinos de marcha nórdica", "Enlazar desde Longevidad (pilar de movimiento) y desde Academia. Ya tiene página y evento.", "pendiente de confirmar"),
     ("Ya existe", "Clases de cocina saludable y alimentación antiinflamatoria", "Enlazar desde Longevidad y Salud digestiva. Ya tiene página y eventos.", "pendiente de confirmar"),
     ("Ya existe", "Técnicas de respiración (pranayama)", "Encaja en Estrés y ansiedad y en Sueño e insomnio como recurso práctico.", "pendiente de confirmar"),

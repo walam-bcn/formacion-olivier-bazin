@@ -177,7 +177,7 @@
       "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/salud-cognitiva-sarri%C3%A0-sant-gervasi-barcelona#webpage",
       "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/salud-cognitiva-sarri%C3%A0-sant-gervasi-barcelona",
       "name": "Neurolongevidad y salud cognitiva en Barcelona | WA LAM",
-      "description": "Neurolongevidad y salud cognitiva en Sarrià–Sant Gervasi: hábitos que protegen el cerebro, estrés, sueño y servicios de neurorregulación.",
+      "description": "Neurolongevidad y salud cognitiva en Sarrià–Sant Gervasi: hábitos que protegen el cerebro, estrés, sueño y qué dice la evidencia sobre la neurorregulación.",
       "inLanguage": "es-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -235,6 +235,18 @@
           "name": "Quantitative Review Finds No Evidence of Cognitive Effects in Healthy Populations From Single-session Transcranial Direct Current Stimulation (tDCS)",
           "url": "https://doi.org/10.1016/j.brs.2015.01.400",
           "sameAs": "https://doi.org/10.1016/j.brs.2015.01.400"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Evidence-Based Guidelines and Secondary Meta-Analysis for the Use of Transcranial Direct Current Stimulation in Neurological and Psychiatric Disorders",
+          "url": "https://doi.org/10.1093/ijnp/pyaa051",
+          "sameAs": "https://doi.org/10.1093/ijnp/pyaa051"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Efficacy and safety of transcutaneous electrical nerve stimulation (TENS) for acute and chronic pain in adults: a systematic review and meta-analysis of 381 studies (the meta-TENS study)",
+          "url": "https://doi.org/10.1136/bmjopen-2021-051073",
+          "sameAs": "https://doi.org/10.1136/bmjopen-2021-051073"
         }
       ]
     },
@@ -248,6 +260,22 @@
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "No. Si los olvidos son frecuentes o progresivos, el diagnóstico corresponde a tu médico o a un neurólogo. Podemos acompañarte en los hábitos y en la regulación del estrés y del sueño."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué es la neurorregulación?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Es una forma de estimulación eléctrica de baja intensidad que se aplica sobre la piel con electrodos, sin agujas. Todavía no la ofrecemos; cuando la incorporemos, lo anunciaremos en esta página."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Ofrecéis estimulación transcraneal?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Todavía no. Si la incorporamos, se aplicará solo cuando haya una indicación respaldada por la evidencia y en coordinación con tu médico. En personas sanas no ha demostrado mejorar la memoria ni la atención."
           }
         },
         {

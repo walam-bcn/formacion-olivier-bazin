@@ -282,6 +282,22 @@
             "@type": "Answer",
             "text": "Solo cuando hay una indicación clara y evidencia que lo respalde. No forman parte del plan por defecto."
           }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuánto cuesta?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "La primera visita cuesta 90 €. Después, cada sesión del tratamiento tiene su precio: osteopatía, masaje, reflexología o drenaje linfático, 70 € (1 hora); acupuntura, 50 € (1 hora)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuánto dura el seguimiento?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Depende de tu plan. Tras la primera visita te proponemos un tratamiento personalizado, organizado en dos o tres fases, y te explicamos cuántas sesiones prevemos."
+          }
         }
       ]
     }

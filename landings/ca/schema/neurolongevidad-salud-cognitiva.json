@@ -177,7 +177,7 @@
       "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/salut-cognitiva-sarria-sant-gervasi-barcelona#webpage",
       "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/salut-cognitiva-sarria-sant-gervasi-barcelona",
       "name": "Neurolongevitat i salut cognitiva a Barcelona | WA LAM",
-      "description": "Neurolongevitat i salut cognitiva a Sarrià–Sant Gervasi: hàbits que protegeixen el cervell, estrès, son i serveis de neuroregulació.",
+      "description": "Neurolongevitat i salut cognitiva a Sarrià–Sant Gervasi: hàbits que protegeixen el cervell, estrès, son i què diu l'evidència sobre la neuroregulació.",
       "inLanguage": "ca-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -235,6 +235,18 @@
           "name": "Quantitative Review Finds No Evidence of Cognitive Effects in Healthy Populations From Single-session Transcranial Direct Current Stimulation (tDCS)",
           "url": "https://doi.org/10.1016/j.brs.2015.01.400",
           "sameAs": "https://doi.org/10.1016/j.brs.2015.01.400"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Evidence-Based Guidelines and Secondary Meta-Analysis for the Use of Transcranial Direct Current Stimulation in Neurological and Psychiatric Disorders",
+          "url": "https://doi.org/10.1093/ijnp/pyaa051",
+          "sameAs": "https://doi.org/10.1093/ijnp/pyaa051"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Efficacy and safety of transcutaneous electrical nerve stimulation (TENS) for acute and chronic pain in adults: a systematic review and meta-analysis of 381 studies (the meta-TENS study)",
+          "url": "https://doi.org/10.1136/bmjopen-2021-051073",
+          "sameAs": "https://doi.org/10.1136/bmjopen-2021-051073"
         }
       ]
     },
@@ -248,6 +260,22 @@
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "No. Si els oblits són freqüents o progressius, el diagnòstic correspon al teu metge o a un neuròleg. Et podem acompanyar en els hàbits i en la regulació de l'estrès i del son."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Què és la neuroregulació?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "És una forma d'estimulació elèctrica de baixa intensitat que s'aplica sobre la pell amb elèctrodes, sense agulles. Encara no l'oferim; quan la incorporem, ho anunciarem en aquesta pàgina."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Oferiu estimulació transcranial?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Encara no. Si la incorporem, s'aplicarà només quan hi hagi una indicació avalada per l'evidència i en coordinació amb el teu metge. En persones sanes no ha demostrat millorar la memòria ni l'atenció."
           }
         },
         {

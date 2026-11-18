@@ -47,6 +47,8 @@ R = {
     "horvath": _r("Horvath JC, Forte JD, Carter O, 2015. «Quantitative Review Finds No Evidence of Cognitive Effects in Healthy Populations From Single-session Transcranial Direct Current Stimulation (tDCS)». Brain Stimulation.", "10.1016/j.brs.2015.01.400"),
     "ezzo": _r("Ezzo J, Manheimer E, McNeely ML, et al., 2015. «Manual lymphatic drainage for lymphedema following breast cancer treatment». Cochrane Database of Systematic Reviews.", "10.1002/14651858.CD003475.pub2"),
     "chien": _r("Chien TJ, Liu CY, Fang CJ, 2019. «The Effect of Acupuncture in Breast Cancer-Related Lymphedema (BCRL): A Systematic Review and Meta-Analysis». Integrative Cancer Therapies.", "10.1177/1534735419866910"),
+    "tens": _r("Johnson MI, Paley CA, Jones G, Mulvey MR, Wittkopf PG, 2022. «Efficacy and safety of transcutaneous electrical nerve stimulation (TENS) for acute and chronic pain in adults: a systematic review and meta-analysis of 381 studies (the meta-TENS study)». BMJ Open.", "10.1136/bmjopen-2021-051073"),
+    "fregni": _r("Fregni F, El-Hagrassy MM, Pacheco-Barrios K, et al., 2021. «Evidence-Based Guidelines and Secondary Meta-Analysis for the Use of Transcranial Direct Current Stimulation in Neurological and Psychiatric Disorders». International Journal of Neuropsychopharmacology.", "10.1093/ijnp/pyaa051"),
     "haller": _r("Haller H, Lauche R, Sundberg T, Dobos G, Cramer H, 2020. «Craniosacral therapy for chronic pain: a systematic review and meta-analysis of randomized controlled trials». BMC Musculoskeletal Disorders.", "10.1186/s12891-019-3017-y"),
     "sio_asco": _r("Mao JJ, Ismaila N, Bao T, et al., 2022. «Integrative Medicine for Pain Management in Oncology: Society for Integrative Oncology–ASCO Guideline». Journal of Clinical Oncology.", "10.1200/JCO.22.01357"),
     "klaus": _r("Klaus LC, et al., 2024. «Reflexology in oncological treatment – a systematic review». BMC Complementary Medicine and Therapies.", "10.1186/s12906-023-04220-4"),
@@ -105,7 +107,7 @@ PAGES.append({
          "paras": [
              "Muchas personas llegan a WA LAM después de haber probado varias cosas por separado. El dolor de espalda se trató como un problema mecánico, la digestión como un problema digestivo y el cansancio como una cuestión de voluntad. Sin embargo, el sueño, el estrés, la inflamación, la respiración, el movimiento y la historia de cada persona se influyen entre sí.",
              "La medicina integrativa no sustituye a la medicina convencional: la complementa. En WA LAM los tratamientos los realiza Rosa María Rodríguez Valls, osteópata D.O. y máster en medicina integrativa, junto a una fisioterapeuta colegiada, y nos coordinamos con tu médico cuando el caso lo requiere. Nuestro objetivo no es prometer resultados, sino comprender qué está manteniendo el problema y diseñar contigo un plan realista.",
-             "Trabajamos en red con médicos de todas las especialidades: cardiología, urología, ginecología, oncología, medicina estética y otras. Para nosotras lo más importante es la salud del paciente, y el trabajo conjunto con su médico es la forma más rigurosa de cuidarla.",
+             "WA LAM trabaja en coordinación con médicos de distintas especialidades, entre ellas cardiología, urología, ginecología, oncología y medicina estética. La prioridad de WA LAM es la seguridad y la salud del paciente, y la colaboración interdisciplinar con su médico es el marco más riguroso para garantizarlas.",
          ],
          "quote": "Cada proceso necesita una mirada individualizada. El objetivo no es exigirte más, sino ayudarte a recuperar equilibrio."},
         {"type": "evidence", "eyebrow": "Criterio clínico", "h2": "Por qué trabajamos así: la evidencia que nos guía",
@@ -124,14 +126,15 @@ PAGES.append({
         {"type": "hubcards", "groups": ["motivo", "servicio", "academia"]},
         {"type": "steps", "eyebrow": "Cómo trabajamos", "h2": "Tu recorrido en WA LAM",
          "items": [("Antes de la visita", "Rellenas el formulario de primera cita y nos envías tus analíticas y pruebas recientes."),
-                   ("Primera visita", "Revisamos tu historia, tus pruebas, tus hábitos (sueño, alimentación, digestión, actividad, estrés) y lo que quieres conseguir. [[Confirmar duración.]]"),
-                   ("Valoración y plan", "Te explicamos lo que observamos y proponemos un plan en dos o tres fases, con recomendaciones por escrito. Si algo no nos corresponde, te derivamos."),
+                   ("Primera visita", "Revisamos tu historia, tus pruebas, tus hábitos (sueño, alimentación, digestión, actividad, estrés) y lo que quieres conseguir. La primera visita cuesta 90 €."),
+                   ("Valoración y plan", "Te explicamos los hallazgos de la valoración y proponemos un plan en dos o tres fases, con recomendaciones por escrito. Si algún aspecto requiere otra valoración profesional, realizamos la derivación correspondiente."),
                    ("Seguimiento", "Revisamos la evolución, resolvemos dudas entre sesiones y, al terminar, te damos pautas de mantenimiento.")],
          "note": "Si buscas cuidar tu salud a largo plazo, empieza por la consulta de [longevidad y prevención](prevencion-longevidad)."},
     ],
     "faq": [
         ("¿Qué es la medicina integrativa?", "Es un enfoque que combina la medicina convencional con terapias y hábitos de vida que cuentan con respaldo científico, poniendo a la persona en el centro. En WA LAM no sustituimos a tu médico: complementamos su seguimiento."),
         ("No sé qué tratamiento necesito. ¿Por dónde empiezo?", "Empieza por el motivo de consulta que más se parece a lo que te ocurre, o escríbenos por WhatsApp. Te orientaremos hacia el profesional adecuado antes de reservar."),
+        ("¿Cuánto cuesta?", "La primera visita cuesta 90 €. Las sesiones de osteopatía, masaje, reflexología y drenaje linfático duran una hora y cuestan 70 €; la sesión de acupuntura dura una hora y cuesta 50 €."),
         ("¿Dónde estáis?", "En el distrito de Sarrià–Sant Gervasi, en Barcelona. [[Dirección exacta y cómo llegar]]."),
         ("¿Trabajáis con mutuas?", "[[Indicar si se trabaja con mutuas o seguros y cuáles]]."),
     ],
@@ -172,7 +175,7 @@ PAGES.append({
          "items": [("Tu historia de dolor", "Cuándo empezó, cómo ha evolucionado, qué lo alivia y qué lo empeora, pruebas y tratamientos previos, y cómo afecta a tu vida."),
                    ("Cuerpo y sistema nervioso", "Movilidad, fuerza, tejidos, respiración y diafragma, junto con sueño, estrés y señales de sensibilización."),
                    ("Un plan por fases", "Te explicamos lo que observamos y proponemos un plan combinado: terapia manual, ejercicio, educación en dolor y, si encaja, mindfulness.")],
-         "note": "Si detectamos señales que requieren estudio médico, te lo diremos y te orientaremos antes de empezar cualquier tratamiento."},
+         "note": "Si identificamos signos que requieren un estudio médico, te derivamos al especialista correspondiente antes de iniciar cualquier tratamiento."},
         {"type": "cards", "eyebrow": "Con qué podemos acompañarte", "h2": "Enfoques que combinamos según tu caso",
          "items": [{"k": "Terapia manual", "h": "Osteopatía", "p": "Para mejorar movilidad, función y percepción corporal, incluyendo el abordaje visceral y craneal cuando está indicado."},
                    {"k": "Movimiento", "h": "Fisioterapia y ejercicio", "p": "Recuperar fuerza y confianza en el movimiento con un programa progresivo y adaptado."},
@@ -242,7 +245,7 @@ PAGES.append({
          "refs": [R["segerstrom"], R["goyal"], R["hoge"]]},
     ],
     "faq": [
-        ("¿Esto sustituye a la terapia psicológica?", "No. Trabajamos la dimensión corporal y fisiológica del estrés. Si tu situación necesita psicoterapia o tratamiento médico, te lo diremos y nos coordinaremos cuando sea posible."),
+        ("¿Esto sustituye a la terapia psicológica?", "No. Trabajamos la dimensión corporal y fisiológica del estrés. Si tu situación requiere psicoterapia o tratamiento médico, te derivamos al profesional correspondiente y, cuando es posible, coordinamos el abordaje."),
         ("¿Qué diferencia hay entre la consulta individual y el MBSR?", "La consulta individual se adapta a tu situación concreta. El MBSR es un programa grupal estructurado de 8 semanas con fechas e inscripción propias. Muchas personas combinan ambos."),
         ("¿La osteopatía ayuda con el estrés?", "Puede ayudar a aliviar la tensión física asociada y a mejorar la percepción corporal, pero no actúa sobre las causas del estrés. Por eso la proponemos como complemento."),
         ("Tengo crisis de ansiedad. ¿Puedo venir?", "Sí, pero si las crisis son frecuentes o intensas es importante que también te valore un profesional de salud mental. Escríbenos y lo hablamos."),
@@ -412,7 +415,7 @@ PAGES.append({
     "sub": "Medicina integrativa para vivir más años con salud · Sarrià–Sant Gervasi",
     "lead": "La longevidad saludable no consiste en frenar el reloj, sino en conservar fuerza, movilidad, buen descanso, salud metabólica y digestiva, claridad mental y vínculos durante el mayor tiempo posible. En WA LAM te proponemos un **recorrido claro**: una primera visita, una valoración de tus hábitos y pruebas, un plan por fases y un seguimiento para que los cambios se mantengan.",
     "facts_title": "Tu recorrido",
-    "facts": ["**1.** Antes de la visita: formulario y analíticas", "**2.** Primera visita: [[duración por confirmar; en «Sobre mí» figura «unos 60 minutos»]]",
+    "facts": ["**1.** Antes de la visita: formulario y analíticas", "**2.** Primera visita: 90 €",
               "**3.** Valoración y plan por fases", "**4.** Seguimiento y pautas de mantenimiento", "Atiende: Rosa María Rodríguez Valls, osteópata D.O. y máster en medicina integrativa"],
     "cta2": ("Ver el recorrido", "#tu-recorrido-en-wa-lam"),
     "wa": "Hola, me interesa la consulta de longevidad y prevención. ¿Cómo es la primera visita?",
@@ -431,12 +434,12 @@ PAGES.append({
              "En WA LAM no vendemos tratamientos «antiaging», sueros ni suplementos sin indicación. Te ayudamos a ver dónde estás en cada pilar, a priorizar y a construir un plan que encaje en tu vida.",
          ]},
         {"type": "steps", "eyebrow": "Tu recorrido en WA LAM", "h2": "Tu recorrido en WA LAM",
-         "intro": "Así es el proceso, adaptado a lo que hacemos en WA LAM. [[Confirmar duración, contenido exacto de la visita y periodicidad del seguimiento.]]",
+         "intro": "Así es el proceso, adaptado a lo que hacemos en WA LAM.",
          "items": [("Antes de la visita", "Rellenas el [formulario de primera cita](https://www.walambcn.com/primera-cita) con tu historia médica, medicación, sueño, alimentación, digestión, actividad física y nivel de estrés, y nos envías tus analíticas y pruebas recientes."),
-                   ("Primera visita", "Una consulta de [[duración: en «Sobre mí» figura unos 60 minutos]] en la que revisamos tu historia, tus pruebas y tus hábitos, y escuchamos qué quieres conseguir. [[Confirmar si se incluyen mediciones (composición corporal, fuerza de prensión, tensión arterial…).]]"),
+                   ("Primera visita", "En la primera visita (90 €) revisamos tu historia, tus pruebas y tus hábitos, y escuchamos qué quieres conseguir. Con esa información preparamos tu tratamiento personalizado."),
                    ("Valoración y plan", "Si puede cambiar el plan, proponemos pruebas complementarias, como el estudio de microbiota intestinal o pruebas genéticas, y sus resultados se integran en tu informe de valoración. Organizamos el plan en dos o tres fases, y al terminar cada consulta recibes por escrito las recomendaciones de la fase que empezamos."),
-                   ("Seguimiento", "Revisamos la evolución [[periodicidad por confirmar]], puedes escribirnos por correo con tus dudas entre sesiones y, al terminar, recibes unas pautas de mantenimiento para consolidar lo conseguido.")],
-         "note": "La consulta no sustituye a tu médico de cabecera ni a las revisiones que te correspondan. Colaboramos con médicos de todas las especialidades y, si detectamos algo que requiere valoración médica, te derivamos y nos coordinamos con ellos."},
+                   ("Seguimiento", "Revisamos la evolución en las sesiones de tu tratamiento, puedes escribirnos por correo con tus dudas entre sesiones y, al terminar, recibes unas pautas de mantenimiento para consolidar lo conseguido.")],
+         "note": "Esta consulta no sustituye el seguimiento de tu médico de atención primaria ni los controles que te correspondan. Cuando consideramos que un hallazgo requiere una valoración médica complementaria, realizamos la derivación al especialista correspondiente y coordinamos el plan terapéutico con tu médico."},
         {"type": "cards", "eyebrow": "Pruebas complementarias", "h2": "Estudio de microbiota intestinal y pruebas genéticas",
          "intro": "No todas las personas necesitan pruebas. En la primera visita valoramos si alguna puede aportar información útil para tu plan y, si es así, sus resultados se integran en tu informe de valoración junto con tu historia, tus analíticas y tus hábitos.",
          "items": [{"k": "Prueba que ya realizamos", "h": "Estudio de microbiota intestinal", "p": "Analiza una muestra de heces para describir la composición de las bacterias intestinales y, según el perfil elegido, marcadores de digestión, inflamación o permeabilidad intestinal. En el informe lo relacionamos con tus síntomas digestivos, tu alimentación y tu nivel de estrés para orientar cambios concretos. Es una prueba complementaria: describe la microbiota, pero no diagnostica enfermedades. La prueba se deriva a un laboratorio especializado, que ofrece varios perfiles; normalmente solicitamos el más completo. Más información en [salud digestiva y microbiota](salud-digestiva-microbiota)."},
@@ -455,7 +458,7 @@ PAGES.append({
                    {"k": "Etapa vital", "h": "Salud de la mujer", "p": "Perimenopausia y menopausia: [salud de la mujer y menopausia](salud-mujer-menopausia)."},
                    {"k": "Peso y metabolismo", "h": "Pérdida de peso", "p": "Si el peso forma parte de tu objetivo, en la consulta de [pérdida de peso](perdida-de-peso-sarria-sant-gervasi) trabajo con cambios alimentarios y acupuntura."}]},
         ficha("Ficha del servicio", "Consulta de longevidad y prevención", "Primera visita con un recorrido definido. Es el punto de partida para un plan de salud a largo plazo.",
-              [("Duración primera visita", "[[confirmar]]"), ("Incluye", "[[confirmar: valoración, revisión de pruebas, informe…]]"), ("Seguimiento", "[[confirmar periodicidad]]"), ("Precio", "[[€]]"), ("Modalidad", "Presencial en Sarrià–Sant Gervasi [[y online, si se ofrece]]")]),
+              [("Primera visita", "90 €"), ("Incluye", "Revisión de tu historia, tus pruebas y tus hábitos, y propuesta de tratamiento personalizado"), ("Después", "Tratamiento personalizado por fases; cada sesión según la terapia: osteopatía, masaje, reflexología o drenaje 70 € · acupuntura 50 €"), ("Modalidad", "Presencial en Sarrià–Sant Gervasi")]),
         {"type": "evidence", "h2": "Longevidad basada en datos, no en modas",
          "items": [("Metaanálisis (BMJ)", "En 36.383 adultos con actividad medida por acelerómetro, **cualquier nivel de actividad física**, incluso de intensidad ligera, se asoció a menor mortalidad. El mayor tiempo sentado se asoció a un riesgo claramente más alto."),
                    ("Metaanálisis (BJSM)", "El ejercicio de fuerza se asocia a un 10–17 % menos de mortalidad y enfermedad crónica. Combinado con ejercicio aeróbico, la reducción de la mortalidad por todas las causas llega aproximadamente al 40 %."),
@@ -470,7 +473,8 @@ PAGES.append({
         ("¿Pedís pruebas adicionales?", "Solo cuando pueden cambiar el plan. La más habitual es el estudio de microbiota intestinal; según tu caso, valoramos otras pruebas o una consulta con el especialista."),
         ("¿Hacéis pruebas genéticas?", "Sí, a través de un laboratorio especializado, cuando pueden aportar información útil para tu plan."),
         ("¿Recomendáis suplementos?", "Solo cuando hay una indicación clara y evidencia que lo respalde. No forman parte del plan por defecto."),
-        ("¿Cuánto dura el seguimiento?", "[[Pendiente de confirmar.]] El plan suele organizarse en dos o tres fases."),
+        ("¿Cuánto cuesta?", "La primera visita cuesta 90 €. Después, cada sesión del tratamiento tiene su precio: osteopatía, masaje, reflexología o drenaje linfático, 70 € (1 hora); acupuntura, 50 € (1 hora)."),
+        ("¿Cuánto dura el seguimiento?", "Depende de tu plan. Tras la primera visita te proponemos un tratamiento personalizado, organizado en dos o tres fases, y te explicamos cuántas sesiones prevemos."),
     ],
     "related": ["neurolongevidad-salud-cognitiva", "estres-ansiedad", "sueno-insomnio", "salud-digestiva-microbiota"],
     "cta": {"h2": "Empieza tu recorrido de longevidad", "p": "Escríbenos por WhatsApp o reserva tu primera visita en Sarrià–Sant Gervasi."},
@@ -481,13 +485,13 @@ PAGES.append({
     "nav": "Neurolongevidad y salud cognitiva",
     "card": "Cuidar la memoria, la atención y la regulación del sistema nervioso a lo largo de los años.",
     "title": "Neurolongevidad y salud cognitiva en Barcelona | WA LAM",
-    "desc": "Neurolongevidad y salud cognitiva en Sarrià–Sant Gervasi, Barcelona: hábitos que protegen el cerebro, regulación del estrés y servicios de neurorregulación.",
+    "desc": "Neurolongevidad y salud cognitiva en Sarrià–Sant Gervasi, Barcelona: hábitos que protegen el cerebro, regulación del estrés y del sueño, y qué dice la evidencia sobre la neurorregulación y la estimulación transcraneal.",
     "about": "Salud cognitiva",
     "eyebrow": "Motivo de consulta",
     "h1": "Neurolongevidad y salud cognitiva",
     "sub": "Cuidar el cerebro a lo largo de la vida · Sarrià–Sant Gervasi",
     "lead": "La salud cognitiva no depende solo de la edad. El sueño, el estrés sostenido, la actividad física, la salud cardiovascular y metabólica, la audición, los vínculos y la estimulación mental influyen en cómo envejece el cerebro. Esta consulta forma parte de nuestro recorrido de [longevidad y prevención](prevencion-longevidad).",
-    "facts": ["Valoración de hábitos que protegen el cerebro", "Regulación del estrés y del sueño", "[[Confirmar: neurorregulación (60 min) y estimulación eléctrica transcraneal]]",
+    "facts": ["Valoración de hábitos que protegen el cerebro", "Regulación del estrés y del sueño", "Primera visita: 90 €", "Próximamente: neurorregulación y estimulación transcraneal",
               "Curso MBSR de 8 semanas", "Atiende: Rosa María Rodríguez Valls"],
     "wa": "Hola, me interesa la consulta de salud cognitiva y neurolongevidad.",
     "blocks": [
@@ -504,21 +508,24 @@ PAGES.append({
              "En la consulta revisamos esos factores contigo y diseñamos un plan dentro de tu recorrido de longevidad, con apoyo para el [estrés](estres-ansiedad) y el [sueño](sueno-insomnio).",
          ]},
         {"type": "cards", "eyebrow": "Qué ofrecemos", "h2": "Servicios de salud cognitiva en WA LAM",
-         "intro": "[[Confirmar qué servicios concretos podemos describir en esta página y cómo se presentan.]]",
+         "intro": "La neurorregulación y la estimulación transcraneal todavía no están disponibles en WA LAM. Te explicamos qué son y qué dice la evidencia; cuando las incorporemos, lo anunciaremos aquí con su indicación y su precio.",
          "items": [{"k": "Consulta", "h": "Valoración de hábitos", "p": "Sueño, estrés, actividad física, alimentación, salud cardiovascular y vínculos, dentro del recorrido de longevidad."},
-                   {"k": "[[Confirmar]]", "h": "Neurorregulación", "p": "[[Confirmar el método o aparato que se utiliza y cómo se describe. En la web figura como sesión de 60 minutos.]]"},
-                   {"k": "[[Confirmar]]", "h": "Estimulación eléctrica transcraneal", "p": "[[Confirmar si se mantiene, quién la aplica y con qué indicación.]]"},
+                   {"k": "Próximamente", "h": "Neurorregulación", "p": "Estimulación eléctrica de baja intensidad aplicada sobre la piel con electrodos, sin agujas y sin atravesar el cráneo. Pertenece a la misma familia que la TENS, la técnica de este tipo más estudiada: un metaanálisis de 381 estudios mostró que reduce la intensidad del dolor durante el tratamiento o justo después, frente a placebo. Para otros usos, como el estrés o el sueño, la evidencia es todavía escasa."},
+                   {"k": "Próximamente", "h": "Estimulación eléctrica transcraneal", "p": "La estimulación transcraneal por corriente continua (tDCS) aplica una corriente muy débil a través de electrodos colocados sobre el cuero cabelludo para modificar la actividad de zonas concretas del cerebro. Las guías la consideran eficaz en la depresión y probablemente eficaz en algunos tipos de dolor, con efectos modestos. Si la incorporamos, se aplicará solo con indicación y en coordinación con tu médico."},
                    {"k": "Programa", "h": "MBSR · 8 semanas", "p": "Entrenamiento de la atención y de la regulación del estrés: el [curso MBSR](curso-mindfulness-mbsr-barcelona)."}]},
         {"type": "evidence", "h2": "Lo que ofrecemos y lo que se sabe",
          "items": [("Comisión The Lancet (2024)", "Cerca de la mitad de los casos de demencia se asocian a 14 factores de riesgo modificables. Actuar sobre ellos es la estrategia preventiva con más respaldo."),
                    ("Ensayo clínico (The Lancet)", "En el ensayo FINGER, una intervención multidominio de dos años mejoró ligeramente la función cognitiva en personas de 60 a 77 años con riesgo, frente a consejos de salud generales."),
                    ("Revisión cuantitativa (Brain Stimulation)", "En adultos sanos, una sesión de estimulación transcraneal por corriente continua (tDCS) no mostró efectos fiables sobre la cognición en 59 análisis. Por eso no la presentamos como un método para «mejorar el cerebro»."),
+                   ("Guía y metaanálisis (Int J Neuropsychopharmacol)", "Según las guías basadas en la evidencia de 2021, la tDCS es eficaz en la depresión (nivel A) y probablemente eficaz en el dolor neuropático, la fibromialgia y la migraña (nivel B). Los efectos son modestos y su duración, limitada."),
+                   ("Metaanálisis (BMJ Open)", "En 381 estudios, la estimulación eléctrica transcutánea (TENS) redujo la intensidad del dolor durante el tratamiento o justo después, frente a placebo, con certeza moderada. Los efectos adversos fueron leves."),
                    ("Nuestro criterio", "Las técnicas de estimulación las describimos con prudencia y solo como complemento de los hábitos que sí han demostrado proteger la salud cognitiva.")],
-         "refs": [R["lancet_dem"], R["finger"], R["horvath"]]},
+         "refs": [R["lancet_dem"], R["finger"], R["horvath"], R["fregni"], R["tens"]]},
     ],
     "faq": [
         ("¿Hacéis diagnóstico de deterioro cognitivo?", "No. Si los olvidos son frecuentes o progresivos, el diagnóstico corresponde a tu médico o a un neurólogo. Podemos acompañarte en los hábitos y en la regulación del estrés y del sueño."),
-        ("¿Qué es la neurorregulación?", "[[Pendiente de confirmar la descripción del servicio.]]"),
+        ("¿Qué es la neurorregulación?", "Es una forma de estimulación eléctrica de baja intensidad que se aplica sobre la piel con electrodos, sin agujas. Todavía no la ofrecemos; cuando la incorporemos, lo anunciaremos en esta página."),
+        ("¿Ofrecéis estimulación transcraneal?", "Todavía no. Si la incorporamos, se aplicará solo cuando haya una indicación respaldada por la evidencia y en coordinación con tu médico. En personas sanas no ha demostrado mejorar la memoria ni la atención."),
         ("¿A partir de qué edad tiene sentido cuidarse?", "Los factores de riesgo actúan a lo largo de toda la vida, y la mediana edad es una etapa clave para la prevención."),
     ],
     "related": ["prevencion-longevidad", "sueno-insomnio", "estres-ansiedad", "curso-mindfulness-mbsr-barcelona"],
@@ -810,7 +817,7 @@ PAGES.append({
     "sub": "Cambios alimentarios y acupuntura en WA LAM",
     "lead": "En la consulta de pérdida de peso de WA LAM incorporo la **acupuntura** junto a **cambios alimentarios** individualizados, progresivos y sostenibles: las dos herramientas forman parte del mismo plan desde la primera visita. Puedes leer más sobre la [acupuntura en WA LAM](acupuntura-medicina-tradicional-china). El objetivo no es una dieta temporal, sino un cambio de hábitos que puedas mantener.",
     "facts": ["**Cambios alimentarios** individualizados", "**Acupuntura** como complemento", "Profesional: [[nombre, titulación]]",
-              "Primera consulta: [[pendiente de confirmar]]", "Seguimiento: [[pendiente de confirmar]]"],
+              "Primera visita: 90 €", "Sesión de acupuntura: 1 h · 50 €"],
     "wa": "Hola, me gustaría información sobre el programa de pérdida de peso con alimentación y acupuntura.",
     "blocks": [
         {"type": "mirror", "eyebrow": "¿Te reconoces?", "h2": "Cuando perder peso se ha convertido en una lucha",
@@ -826,11 +833,11 @@ PAGES.append({
              "Antes de empezar revisamos tu historia clínica y tus analíticas si las tienes. Si detectamos algo que requiere valoración médica (por ejemplo, un problema endocrino o un trastorno de la conducta alimentaria), te derivaremos.",
          ]},
         {"type": "steps", "eyebrow": "El proceso", "h2": "Cómo es el programa",
-         "items": [("Primera consulta", "[[Pendiente de confirmar: duración, qué se valora (historia, hábitos, mediciones) y si incluye la primera sesión de acupuntura]]."),
+         "items": [("Primera visita", "En la primera visita (90 €) revisamos tu historia, tus hábitos, tu alimentación y tus objetivos, y preparamos tu tratamiento personalizado."),
                    ("Plan alimentario y acupuntura", "Pautas alimentarias individualizadas y sesiones de acupuntura. [[Pendiente de confirmar: frecuencia de las sesiones]]."),
                    ("Seguimiento", "[[Pendiente de confirmar: cada cuánto son las revisiones, qué se mide y cuánto dura el programa]].")]},
         ficha("Ficha del servicio", "Pérdida de peso: alimentación y acupuntura", "Programa individual que combina cambios alimentarios y acupuntura.",
-              [("Profesional", "[[Nombre y titulación]]"), ("Primera consulta", "[[duración · precio]]"), ("Sesiones de seguimiento", "[[duración · precio]]"), ("Bonos", "[[si los hay]]")]),
+              [("Profesional", "[[Nombre y titulación]]"), ("Primera visita", "90 €"), ("Sesión de acupuntura", "1 h · 50 €"), ("Bonos", "[[si los hay]]")]),
     ],
     "faq": [
         ("¿Cuánto peso voy a perder?", "No podemos prometerte una cifra: depende de cada persona. Buscamos una pérdida progresiva que puedas mantener en el tiempo."),
@@ -887,7 +894,7 @@ PAGES.append({
     "faq": [
         ("¿Cuándo se considera que tengo insomnio crónico?", "Cuando te cuesta dormirte o mantener el sueño al menos tres noches por semana durante tres meses, y eso afecta a tu día."),
         ("¿Tengo que dejar las pastillas para dormir?", "No sin hablarlo con tu médico. Cualquier cambio en la medicación debe hacerse con su supervisión."),
-        ("¿Ofrecéis terapia cognitivo-conductual para el insomnio?", "[[Pendiente de confirmar]]. Si no la ofrecemos nosotras, te orientaremos hacia un profesional que la realice."),
+        ("¿Ofrecéis terapia cognitivo-conductual para el insomnio?", "[[Pendiente de confirmar]]. Si no la ofrecemos en WA LAM, te derivamos a un profesional que la realice."),
         ("¿Cuándo debo ir a una unidad del sueño?", "Si roncas fuerte con pausas en la respiración, tienes mucha somnolencia durante el día o sientes necesidad de mover las piernas por la noche, consulta con tu médico o con una unidad del sueño."),
     ],
     "related": ["estres-ansiedad", "curso-mindfulness-mbsr-barcelona", "salud-mujer-menopausia"],
@@ -959,7 +966,7 @@ PAGES.append({
                 "¿Tienes dolor de hombro de larga evolución?"]},
         {"type": "steps", "eyebrow": "La sesión", "h2": "Cómo es una consulta de acupuntura",
          "items": [("Valoración", "Historia clínica, revisión de pruebas y exploración. Descartamos contraindicaciones (anticoagulación, embarazo, marcapasos si se usa electroestimulación)."),
-                   ("Tratamiento", "Inserción de agujas finas y estériles en puntos seleccionados, durante [[minutos]] en reposo."),
+                   ("Tratamiento", "Inserción de agujas finas y estériles en puntos seleccionados, mientras permaneces en reposo."),
                    ("Pautas", "Recomendaciones complementarias y plan de sesiones según tu evolución.")]},
         {"type": "evidence", "h2": "Qué dice la evidencia",
          "items": [("Metaanálisis de datos individuales", "Con datos de 39 ensayos y 20.827 pacientes, la acupuntura fue superior tanto a no recibir acupuntura como a la acupuntura simulada en dolor musculoesquelético crónico, artrosis, cefalea crónica y dolor de hombro, y sus efectos se mantuvieron en el tiempo. La diferencia frente a la simulada es menor (tamaño del efecto de aproximadamente 0,2)."),
@@ -1088,7 +1095,7 @@ PAGES.append({
         {"type": "explain", "eyebrow": "Linfedema", "h2": "Si tienes linfedema",
          "paras": [
              "El tratamiento de referencia del linfedema es la **terapia descongestiva compleja**: valoración y medición del miembro afectado, drenaje linfático manual, compresión con vendaje multicapa y después prendas a medida, ejercicio terapéutico, cuidado de la piel y revisiones periódicas. En Barcelona la ofrecen unidades especializadas de hospitales y centros de fisioterapia.",
-             "En WA LAM colaboramos con médicos especialistas en linfedema: ellos valoran, miden e indican la compresión, y nosotras hacemos la parte manual, antes o después de la cirugía. Sin autorización médica no tratamos a ningún paciente oncológico. Tenemos un [pack de drenaje linfático para linfedema](drenaje-linfatico-linfedema).",
+             "En WA LAM colaboramos con médicos especialistas en linfedema: el especialista realiza la valoración, las mediciones y la indicación de la compresión, y WA LAM se encarga del tratamiento manual, antes o después de la cirugía. Sin autorización médica no tratamos a ningún paciente oncológico. Tenemos un [pack de drenaje linfático para linfedema](drenaje-linfatico-linfedema).",
              "El ejercicio forma parte del tratamiento del linfedema: te pautamos ejercicios de drenaje para hacer en casa entre sesiones.",
              "La acupuntura puede ofrecerse como complemento para el bienestar general, sin pinchar nunca el brazo o la pierna afectados. Los estudios no han demostrado que la acupuntura ni la reflexología reduzcan el volumen del linfedema, por lo que no las presentamos con ese fin.",
          ]},
@@ -1226,7 +1233,7 @@ PAGES.append({
         {"type": "explain", "eyebrow": "Cómo trabajamos", "h2": "Un tratamiento coordinado con tu médico especialista",
          "paras": [
              "El tratamiento del linfedema combina varias medidas: valoración y medición del miembro afectado, drenaje linfático manual, compresión con vendaje o prendas a medida, ejercicio, cuidado de la piel y revisiones. Por eso siempre se coordina con un médico especialista en linfedema.",
-             "En WA LAM colaboramos con médicos especialistas en linfedema. Ellos valoran, miden e indican la compresión y, si procede, la cirugía; nosotras hacemos la parte manual que ellos no pueden hacer, antes o después de la operación, y te pautamos los ejercicios de drenaje para casa.",
+             "En WA LAM colaboramos con médicos especialistas en linfedema. El especialista realiza la valoración, las mediciones y la indicación de la compresión y, si procede, de la cirugía; WA LAM se encarga del drenaje linfático manual, antes o después de la intervención, y de la pauta de ejercicios de drenaje para realizar en casa.",
              "Si eres paciente oncológica, necesitamos la autorización de tu médico: sin autorización médica no tratamos a ningún paciente oncológico.",
          ]},
         {"type": "cards", "eyebrow": "El pack", "h2": "Qué incluye el pack para linfedema",
@@ -1269,15 +1276,14 @@ PAGES.append({
     "h1": "Masajes en Sarrià–Sant Gervasi",
     "sub": "Un tiempo para tu cuerpo · Barcelona",
     "lead": "El masaje puede ayudar a aliviar la tensión muscular, mejorar la sensación de bienestar y favorecer el descanso. Elige la modalidad que mejor se adapta a lo que necesitas hoy.",
-    "facts": ["[[Modalidad 1]] · [[duración]] · [[precio]]", "[[Modalidad 2]] · [[duración]] · [[precio]]", "[[Modalidad 3]] · [[duración]] · [[precio]]",
+    "facts": ["Sesión de 1 hora · 70 €", "Masaje descontracturante o relajante",
               "Tarjetas regalo: [[sí/no]]", "Reserva online o por WhatsApp"],
     "wa": "Hola, me gustaría reservar un masaje.",
     "blocks": [
         {"type": "cards", "eyebrow": "Modalidades", "h2": "Elige tu masaje",
-         "intro": "[[Sustituir por las modalidades reales con su duración, precio y enlace de reserva]].",
-         "items": [{"k": "[[duración]] · [[precio]]", "h": "Masaje descontracturante", "p": "Trabajo más profundo sobre zonas de tensión muscular de espalda, cuello y hombros."},
-                   {"k": "[[duración]] · [[precio]]", "h": "Masaje relajante", "p": "Ritmo lento y presión suave para favorecer la calma y el descanso."},
-                   {"k": "[[duración]] · [[precio]]", "h": "[[Otra modalidad]]", "p": "[[Descripción]]."}]},
+         "intro": "Todas las sesiones duran una hora y cuestan 70 €.",
+         "items": [{"k": "1 h · 70 €", "h": "Masaje descontracturante", "p": "Trabajo más profundo sobre zonas de tensión muscular de espalda, cuello y hombros."},
+                   {"k": "1 h · 70 €", "h": "Masaje relajante", "p": "Ritmo lento y presión suave para favorecer la calma y el descanso."}]},
         {"type": "explain", "eyebrow": "Antes de reservar", "h2": "Cuándo no es un masaje lo que necesitas",
          "paras": ["Si tienes dolor persistente, una lesión reciente o acabas de operarte, te recomendamos empezar por una valoración de fisioterapia, osteopatía o drenaje linfático postoperatorio, para que el tratamiento sea el adecuado."]},
     ],
@@ -1300,7 +1306,7 @@ PAGES.append({
     "h1": "Reflexología podal en Sarrià–Sant Gervasi",
     "sub": "Sesión de reflexología podal · Barcelona",
     "lead": "La reflexología podal es una técnica de masaje y presión en los pies. En WA LAM la ofrecemos como una sesión de bienestar y relajación, sin fines diagnósticos ni curativos. Te explicamos qué puedes esperar y qué dice la evidencia.",
-    "facts": ["Profesional: [[nombre, formación]]", "Sesión de [[duración]]", "Precio: [[€]]", "Ambiente tranquilo y sin prisas", "Reserva online o por WhatsApp"],
+    "facts": ["Profesional: [[nombre, formación]]", "Sesión de 1 hora", "Precio: 70 €", "Ambiente tranquilo y sin prisas", "Reserva online o por WhatsApp"],
     "wa": "Hola, me gustaría reservar una sesión de reflexología.",
     "blocks": [
         {"type": "cards", "eyebrow": "Cuándo la proponemos", "h2": "Una sesión de relajación que combinamos con otros tratamientos",
@@ -1491,7 +1497,7 @@ PAGES.append({
     "sub": "Próximas fechas y programa de cada retiro",
     "lead": "En WA LAM organizamos retiros de mindfulness, una práctica de meditación que, durante nuestros retiros, habitualmente hacemos en silencio. Consulta las próximas fechas y el programa de cada retiro.",
     "facts_title": "Próximos retiros",
-    "facts": ["**[[Nombre del retiro]]** · [[fechas]] · [[destino]]", "**[[Nombre del retiro]]** · [[fechas]] · [[destino]]",
+    "facts": ["**Próximas fechas**: por anunciar", "Escríbenos y te avisamos cuando abramos la inscripción",
               "En cada edición indicamos cuándo se practica en silencio", "Plazas limitadas", "No se necesita experiencia previa"],
     "cta2": ("Ver próximas fechas", "#retiros-programados"),
     "wa": "Hola, me gustaría información sobre los próximos retiros de mindfulness.",
@@ -1501,12 +1507,10 @@ PAGES.append({
                    "Es también un **retiro de meditación**: la meditación mindfulness ocupa la mayor parte del día y se alterna con explicaciones, preguntas y tiempo de descanso.",
                    "Y es, en buena parte, un **retiro de silencio**. Durante las prácticas, y habitualmente en otros momentos del día, mantenemos el silencio. No tiene un sentido espiritual: el silencio reduce los estímulos y facilita la atención sostenida y el descanso. En la ficha de cada edición indicamos con exactitud cuándo se practica en silencio."]},
         {"type": "cards", "eyebrow": "Próximas ediciones", "h2": "Retiros programados",
-         "intro": "[[Crear una ficha por edición cuando haya fechas y programa, y enlazar cada tarjeta a su ficha.]]",
-         "items": [{"k": "[[fechas]] · [[destino]]", "h": "[[Nombre del retiro]]", "p": "[[Foco, duración y qué incluye]].", "li": ["Silencio: [[cuándo se practica en silencio]]", "Programa: [[enlace]]"]},
-                   {"k": "[[fechas]] · [[destino]]", "h": "[[Nombre del retiro]]", "p": "[[Foco, duración y qué incluye]].", "li": ["Silencio: [[cuándo se practica en silencio]]", "Programa: [[enlace]]"]},
-                   {"k": "[[fechas]] · [[destino]]", "h": "[[Nombre del retiro]]", "p": "[[Foco, duración y qué incluye]].", "li": ["Silencio: [[cuándo se practica en silencio]]", "Programa: [[enlace]]"]}]},
+         "intro": "Estamos preparando las próximas ediciones. Escríbenos por WhatsApp y te avisaremos en cuanto abramos la inscripción.",
+         "items": [{"k": "Fechas por anunciar", "h": "Próxima edición", "p": "Cuando publiquemos la edición, aquí encontrarás las fechas, el lugar, el programa y qué incluye el precio.", "li": ["En cada edición indicamos cuándo se practica en silencio", "Plazas limitadas", "Aviso por WhatsApp al abrir la inscripción"]}]},
         {"type": "steps", "eyebrow": "Un día de retiro", "h2": "Estructura orientativa",
-         "intro": "[[Ajustar a cada edición.]]",
+         "intro": "La estructura concreta se detalla en el programa de cada edición.",
          "items": [("Mañana", "Meditación sentada y movimiento consciente, habitualmente en silencio."),
                    ("Mediodía", "Comida, a menudo también en silencio, y tiempo de descanso."),
                    ("Tarde", "Meditación caminando, prácticas guiadas y un espacio para preguntas al equipo.")]},
@@ -1641,6 +1645,33 @@ for _i, _p in enumerate(PAGES):
                 _b["rows"] = [r for r in _b["rows"] if "colegiad" not in r[0]]
     _p["pro_who"] = _w
     PAGES[_i] = _p
+
+# Precios confirmados por Rosa (nov. 2026)
+_H70 = {"Sesión de [[duración]] · [[precio]]": "Sesión de 1 hora · 70 €", "[[min]]": "60 min", "[[€]]": "70 €", "[[Duración]]": "Una hora", "[[duración]]": "1 hora", "[[precio]]": "70 €"}
+_H50 = {"Sesión de [[duración]] · [[precio]]": "Sesión de 1 hora · 50 €", "[[min]]": "60 min", "[[€]]": "50 €", "[[Duración]]": "Una hora", "[[duración]]": "1 hora", "[[precio]]": "50 €"}
+PRICES = {s_: _H70 for s_ in ("osteopatia-sarria-sant-gervasi", "osteopatia-visceral-barcelona", "osteopatia-craneosacral-barcelona",
+                              "manipulaciones-neuroviscerales", "suelo-pelvico-dolor-pelvico", "reflexologia-sarria-sant-gervasi", "masajes-sarria-sant-gervasi")}
+PRICES.update({"acupuntura-medicina-tradicional-china": _H50, "dejar-de-fumar-acupuntura": _H50,
+               "pni-pnie-barcelona": {"Primera consulta de [[duración]] · [[precio]]": "Primera visita: 90 €", "[[min]]": "Primera visita", "[[€]]": "90 €"}})
+
+
+def _price(o, m):
+    if isinstance(o, str):
+        for k_, v_ in m.items():
+            o = o.replace(k_, v_)
+        return o
+    if isinstance(o, list):
+        return [_price(x, m) for x in o]
+    if isinstance(o, tuple):
+        return tuple(_price(x, m) for x in o)
+    if isinstance(o, dict):
+        return {k: (v if k in ("slug", "type", "group", "related", "refs") else _price(v, m)) for k, v in o.items()}
+    return o
+
+
+for _i, _p in enumerate(PAGES):
+    if _p["slug"] in PRICES:
+        PAGES[_i] = _price(_p, PRICES[_p["slug"]])
 
 # Enlaces de vuelta a Longevidad desde los recorridos que la componen
 for _p in PAGES:

@@ -249,6 +249,14 @@
             "@type": "Answer",
             "text": "Empieza por el motivo de consulta que más se parece a lo que te ocurre, o escríbenos por WhatsApp. Te orientaremos hacia el profesional adecuado antes de reservar."
           }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuánto cuesta?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "La primera visita cuesta 90 €. Las sesiones de osteopatía, masaje, reflexología y drenaje linfático duran una hora y cuestan 70 €; la sesión de acupuntura dura una hora y cuesta 50 €."
+          }
         }
       ]
     }

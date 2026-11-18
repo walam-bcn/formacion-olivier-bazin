@@ -249,6 +249,14 @@
             "@type": "Answer",
             "text": "Comença pel motiu de consulta que més s'assembla al que et passa, o escriu-nos per WhatsApp. T'orientarem cap al professional adequat abans de reservar."
           }
+        },
+        {
+          "@type": "Question",
+          "name": "Quant costa?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "La primera visita costa 90 €. Les sessions d'osteopatia, massatge, reflexologia i drenatge limfàtic duren una hora i costen 70 €; la sessió d'acupuntura dura una hora i costa 50 €."
+          }
         }
       ]
     }

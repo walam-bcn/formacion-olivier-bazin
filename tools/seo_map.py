@@ -72,7 +72,7 @@ SEO = {
         "kws": ["neurolongevidad", "prevención deterioro cognitivo", "neurorregulación Barcelona", "memoria y estrés", "cuidar el cerebro"],
         "ca": "salut cognitiva Barcelona",
         "title": "Neurolongevidad y salud cognitiva en Barcelona | WA LAM",
-        "desc": "Neurolongevidad y salud cognitiva en Sarrià–Sant Gervasi: hábitos que protegen el cerebro, estrés, sueño y servicios de neurorregulación.",
+        "desc": "Neurolongevidad y salud cognitiva en Sarrià–Sant Gervasi: hábitos que protegen el cerebro, estrés, sueño y qué dice la evidencia sobre la neurorregulación.",
         "quick": "Cerca de la mitad de los casos de demencia se asocian a 14 factores de riesgo modificables, según la Comisión de The Lancet de 2024. La consulta de salud cognitiva de WA LAM revisa esos hábitos (sueño, estrés, actividad física, salud cardiovascular, vínculos) dentro del recorrido de longevidad.",
         "entity": ("MedicalCondition", "Deterioro cognitivo: prevención"),
     },
