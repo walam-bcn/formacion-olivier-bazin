@@ -250,6 +250,14 @@
             "@type": "Answer",
             "text": "No. Els vols i l'assegurança de viatge van a càrrec de cada participant, que els reserva pel seu compte."
           }
+        },
+        {
+          "@type": "Question",
+          "name": "Quant costa?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "El preu varia segons la destinació de cada edició i s'indica a la convocatòria."
+          }
         }
       ]
     }

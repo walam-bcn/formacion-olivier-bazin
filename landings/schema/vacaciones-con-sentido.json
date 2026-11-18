@@ -250,6 +250,14 @@
             "@type": "Answer",
             "text": "No. Los vuelos y el seguro de viaje corren a cargo de cada participante, que los reserva por su cuenta."
           }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuánto cuesta?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "El precio varía según el destino de cada edición y se indica en la convocatoria."
+          }
         }
       ]
     }
