@@ -176,8 +176,8 @@
       "@type": "WebPage",
       "@id": "https://www.walambcn.com/ca/academia-vida-saludable-barcelona/vacances-amb-sentit#webpage",
       "url": "https://www.walambcn.com/ca/academia-vida-saludable-barcelona/vacances-amb-sentit",
-      "name": "Vacances amb sentit a Bali · Recés de salut",
-      "description": "Vacances amb sentit a Bali: 6 dies guiats per l'equip de WA LAM per descansar, dormir millor i aprendre hàbits de salut. Dates i programa.",
+      "name": "Vacances amb sentit · Recessos de salut de 7 dies | WA LAM",
+      "description": "Vacances amb sentit de WA LAM: recessos de 7 dies en llocs emblemàtics de la natura, amb conferències de salut integrativa i pràctica diària.",
       "inLanguage": "ca-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -192,7 +192,7 @@
       },
       "lastReviewed": "2026-11-18",
       "dateModified": "2026-11-18",
-      "keywords": "vacances amb sentit Bali, recés de salut Bali, viatge de benestar Bali, vacances de salut integrativa, recés 6 dies",
+      "keywords": "vacances amb sentit, recés de salut 7 dies, vacances de salut integrativa, recés de benestar a la natura, conferències de salut integrativa",
       "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/vacaciones-con-sentido.png",
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -214,7 +214,7 @@
       "@type": "Course",
       "@id": "https://www.walambcn.com/ca/academia-vida-saludable-barcelona/vacances-amb-sentit#curso",
       "name": "Vacances amb sentit",
-      "description": "Vacances amb sentit a Bali: 6 dies guiats per l'equip de WA LAM per descansar, dormir millor i aprendre hàbits de salut. Dates i programa.",
+      "description": "Vacances amb sentit de WA LAM: recessos de 7 dies en llocs emblemàtics de la natura, amb conferències de salut integrativa i pràctica diària.",
       "provider": {
         "@type": "Organization",
         "name": "WA LAM · Healthy Lifestyle Academy",
@@ -227,6 +227,14 @@
       "@type": "FAQPage",
       "@id": "https://www.walambcn.com/ca/academia-vida-saludable-barcelona/vacances-amb-sentit#faq",
       "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "On se celebren?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "En un lloc diferent a cada edició, sempre en un entorn natural. Ho anunciem a cada convocatòria."
+          }
+        },
         {
           "@type": "Question",
           "name": "Cal experiència en ioga o meditació?",

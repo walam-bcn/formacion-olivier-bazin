@@ -6,11 +6,11 @@ y entidad médica para los datos estructurados."""
 SEO = {
     "medicina-integrativa-barcelona": {
         "kw": "medicina integrativa Barcelona",
-        "kws": ["salud de precisión Barcelona", "neurolongevidad Barcelona", "centro de medicina integrativa Sarrià", "medicina integrativa Sant Gervasi", "método re:trace"],
+        "kws": ["longevidad Barcelona", "neurolongevidad Barcelona", "salud de precisión Barcelona", "centro de medicina integrativa Sarrià", "medicina integrativa Sant Gervasi", "método re:trace"],
         "ca": "medicina integrativa Barcelona",
-        "title": "Medicina integrativa y salud de precisión en Barcelona | WA LAM",
-        "desc": "WA LAM une medicina integrativa, salud de precisión y neurolongevidad en Sarrià–Sant Gervasi (Barcelona). Método re:trace. Primera visita: 90 €.",
-        "quick": "WA LAM es un centro de medicina integrativa, salud de precisión y neurolongevidad en Sarrià–Sant Gervasi (Barcelona), fundado en 2004. Su método propio, re:trace (Research, Evidence, Trajectory, Regulation, Awareness, Clinical Integration, Evolution), diseña estrategias clínicas personalizadas que se ajustan a la evolución de cada persona. Empieza con una primera visita de 60 minutos (90 €) y continúa con el programa re:trace Premium de 12 semanas u otras modalidades intensivas, con presupuesto individual.",
+        "title": "Medicina integrativa, longevidad y neurolongevidad en Barcelona | WA LAM",
+        "desc": "WA LAM une medicina integrativa, longevidad y neurolongevidad en Sarrià–Sant Gervasi (Barcelona). Método re:trace. Primera visita: 90 €.",
+        "quick": "WA LAM es un centro de medicina integrativa, longevidad y neurolongevidad en Sarrià–Sant Gervasi (Barcelona), fundado en 2004. Su método propio, re:trace (Research, Evidence, Trajectory, Regulation, Awareness, Clinical Integration, Evolution), diseña estrategias clínicas personalizadas que se ajustan a la evolución de cada persona. Empieza con una primera visita de 60 minutos (90 €) y continúa con el programa re:trace Premium de 12 semanas u otras modalidades intensivas, con presupuesto individual.",
         "entity": None,
     },
     "programas-re-trace": {
@@ -345,15 +345,16 @@ SEO = {
         "quick": "El qigong es un ejercicio de baja intensidad con movimientos lentos, control postural y respiración. Es accesible a casi cualquier edad. La revisión Cochrane sobre caídas muestra que el ejercicio de equilibrio reduce un 23 % la tasa de caídas en mayores, y que el taichí podría reducirlas.",
         "entity": None,
     },
-    "formacion-medicina-tradicional-china": {
-        "kw": "formación medicina tradicional china Barcelona",
-        "kws": ["curso MTC Barcelona", "curso acupuntura Barcelona", "estudiar medicina tradicional china"],
-        "ca": "formació medicina tradicional xinesa Barcelona",
-        "title": "Formación en Medicina Tradicional China · Barcelona",
-        "desc": "Formación en medicina tradicional china en Barcelona con enfoque crítico y clínico: programa, calendario, profesorado y matrícula.",
-        "quick": "Nuestra formación en medicina tradicional china estudia su marco histórico, sus técnicas (acupuntura, moxibustión, dietética y qigong) y la evidencia clínica actual sobre cada una, con prácticas supervisadas e integración con la medicina convencional.",
+    "formacion-re-trace": {
+        "kw": "formación medicina integrativa Barcelona",
+        "kws": ["formación re:trace", "formación longevidad profesionales", "curso medicina integrativa", "formación neurolongevidad"],
+        "ca": "formació medicina integrativa Barcelona",
+        "title": "Formación en el método re:trace · Medicina integrativa | WA LAM",
+        "desc": "Formación de nueve meses en el método re:trace para profesionales de la salud: medicina integrativa, longevidad y neurolongevidad aplicadas a la práctica clínica.",
+        "quick": "La formación en el método re:trace de la Healthy Lifestyle Academy de WA LAM (Barcelona) dura nueve meses y se dirige a profesionales de la salud. Enseña a aplicar en consulta los siete principios del método, de la anamnesis integrativa al seguimiento.",
         "entity": None,
     },
+
     "retiros-mindfulness-meditacion-silencio": {
         "kw": "retiro de mindfulness",
         "kws": ["retiro de meditación", "retiro de silencio", "retiro de meditación en silencio", "retiro mindfulness Cataluña"],
@@ -364,12 +365,12 @@ SEO = {
         "entity": None,
     },
     "vacaciones-con-sentido": {
-        "kw": "vacaciones con sentido Bali",
-        "kws": ["retiro de salud Bali", "viaje de bienestar Bali", "vacaciones de salud integrativa", "retiro 6 días"],
-        "ca": "vacances amb sentit Bali",
-        "title": "Vacaciones con sentido en Bali · Retiro de salud",
-        "desc": "Vacaciones con sentido en Bali: 6 días guiados por el equipo de WA LAM para descansar, dormir mejor y aprender hábitos de salud. Fechas y programa.",
-        "quick": "Vacaciones con sentido es un viaje de 6 días guiado por el equipo de WA LAM: mindfulness, yoga, qigong, sueño, alimentación y un plan personal de hábitos. La próxima edición es en Bali.",
+        "kw": "vacaciones con sentido",
+        "kws": ["retiro de salud 7 días", "vacaciones de salud integrativa", "retiro de bienestar en la naturaleza", "conferencias de salud integrativa"],
+        "ca": "vacances amb sentit",
+        "title": "Vacaciones con sentido · Retiros de salud de 7 días | WA LAM",
+        "desc": "Vacaciones con sentido de WA LAM: retiros de 7 días en lugares emblemáticos de la naturaleza, con conferencias de salud integrativa y práctica diaria.",
+        "quick": "Vacaciones con sentido es la propuesta de viajes de salud de la Healthy Lifestyle Academy de WA LAM (Barcelona): una semana con conferencias sobre microbiota, inflamación, sueño, estrés, salud hormonal y longevidad, y práctica diaria de yoga, qigong y mindfulness. El destino cambia en cada edición.",
         "entity": None,
     },
 }
@@ -425,7 +426,7 @@ URLS = {
     "curso-mindfulness-mbsr-barcelona": f"{A}/formación-mindfulness",
     "yoga-particular-grupos-reducidos": f"{A}/yoga",
     "qigong-barcelona": f"{A}/qigong",
-    "formacion-medicina-tradicional-china": f"{A}/formacion-medicina-tradicional-china",
+    "formacion-re-trace": f"{A}/formacion-re-trace",
     "retiros-mindfulness-meditacion-silencio": f"{A}/retiros",
     "vacaciones-con-sentido": f"{A}/vacaciones-con-sentido",
     "tratamientos": H,
@@ -487,6 +488,6 @@ CA_SLUG = {
     "nutricion-salud-intestinal": "nutricio-barcelona", "drenaje-linfatico-postoperatorio": "drenatge-limfatic-postoperatori", "drenaje-linfatico-manual": "drenatge-limfatic-manual", "drenaje-linfatico-embarazo": "drenatge-limfatic-embaras",
     "masajes-sarria-sant-gervasi": "massatges-sarria-sant-gervasi", "drenaje-linfatico-linfedema": "drenatge-limfatic-limfedema", "reflexologia-sarria-sant-gervasi": "reflexologia-podal",
     "curso-mindfulness-mbsr-barcelona": "formacio-mindfulness", "yoga-particular-grupos-reducidos": "ioga", "qigong-barcelona": "qigong",
-    "formacion-medicina-tradicional-china": "formacio-medicina-tradicional-xinesa", "retiros-mindfulness-meditacion-silencio": "recessos",
+    "formacion-re-trace": "formacio-re-trace", "retiros-mindfulness-meditacion-silencio": "recessos",
     "vacaciones-con-sentido": "vacances-amb-sentit",
 }

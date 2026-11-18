@@ -164,8 +164,8 @@
       "@type": "MedicalWebPage",
       "@id": "https://www.walambcn.com/ca#webpage",
       "url": "https://www.walambcn.com/ca",
-      "name": "Medicina integrativa i salut de precisió a Barcelona | WA LAM",
-      "description": "WA LAM uneix medicina integrativa, salut de precisió i neurolongevitat a Sarrià–Sant Gervasi (Barcelona). Mètode re:trace. Primera visita: 90 €.",
+      "name": "Medicina integrativa, longevitat i neurolongevitat a Barcelona | WA LAM",
+      "description": "WA LAM uneix medicina integrativa, longevitat i neurolongevitat a Sarrià–Sant Gervasi (Barcelona). Mètode re:trace. Primera visita: 90 €.",
       "inLanguage": "ca-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -180,7 +180,7 @@
       },
       "lastReviewed": "2026-11-18",
       "dateModified": "2026-11-18",
-      "keywords": "medicina integrativa Barcelona, salut de precisió Barcelona, neurolongevitat Barcelona, centre de medicina integrativa Sarrià, medicina integrativa Sant Gervasi, mètode re:trace",
+      "keywords": "medicina integrativa Barcelona, longevitat Barcelona, neurolongevitat Barcelona, salut de precisió Barcelona, centre de medicina integrativa Sarrià, medicina integrativa Sant Gervasi, mètode re:trace",
       "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/medicina-integrativa-barcelona.png",
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -248,18 +248,26 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Què és re:trace?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "És el mètode clínic propi de WA LAM. Les seves sigles resumeixen els seus set principis: Research, Evidence, Trajectory, Regulation, Awareness, Clinical Integration i Evolution. Parteix d'una valoració clínica completa i dissenya una estratègia personalitzada que s'ajusta a cada revisió segons la teva evolució."
-          }
-        },
-        {
-          "@type": "Question",
           "name": "Què és la medicina integrativa?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "És un enfocament que combina la medicina convencional amb teràpies complementàries i canvis en l'estil de vida que disposen d'aval científic, centrat en la persona. No substitueix el teu metge: complementa el seu seguiment."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "En què es diferencien la longevitat i la neurolongevitat?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "La longevitat busca allargar els anys viscuts amb bona salut en tot l'organisme; la neurolongevitat se centra en la salut del cervell: memòria, atenció i equilibri emocional."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Què és re:trace?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "És el mètode clínic propi de WA LAM. Les seves sigles resumeixen els seus set principis: Research, Evidence, Trajectory, Regulation, Awareness, Clinical Integration i Evolution. Parteix d'una valoració clínica completa i dissenya una estratègia personalitzada que s'ajusta a cada revisió segons la teva evolució."
           }
         },
         {

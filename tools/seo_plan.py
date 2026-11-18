@@ -103,11 +103,11 @@ RESEARCH = {
         "Rankings de Psicología y Mente, Centre de Mindfulness de Barcelona (Gràcia), Mindfulme, esMindfulness, Quirónsalud Teknon y UNED."),
     "yoga-particular-grupos-reducidos": ("Clases de yoga adaptadas cerca.", ["yoga particular Barcelona", "yoga Sarrià"], ["ioga particular Barcelona"], "No observado en esta ronda."),
     "qigong-barcelona": ("Clases de qigong.", ["qigong Barcelona"], ["qigong Barcelona"], "No observado en esta ronda."),
-    "formacion-medicina-tradicional-china": ("Estudiar MTC.", ["formación MTC Barcelona"], ["formació MTC Barcelona"], "No observado en esta ronda."),
+    "formacion-re-trace": ("Formarse en medicina integrativa.", ["formación medicina integrativa Barcelona"], ["formació medicina integrativa Barcelona"], "No observado en esta ronda."),
     "retiros-mindfulness-meditacion-silencio": ("Encontrar un retiro de mindfulness o meditación, a menudo en silencio.",
         ["retiro de mindfulness", "retiro de meditación en silencio Cataluña", "retiro de silencio"], ["recés de mindfulness", "recés de meditació en silenci"],
         "Plataformas de retiros (retreat.guru, BookRetreats, Inspyria) y organizadores locales (Espai Sati)."),
-    "vacaciones-con-sentido": ("Un viaje de salud con aprendizaje.", ["retiro de salud Bali", "vacaciones con sentido"], ["recés de salut Bali"], "No observado en esta ronda."),
+    "vacaciones-con-sentido": ("Un viaje de salud con aprendizaje.", ["retiro de salud 7 días", "vacaciones con sentido"], ["recés de salut"], "No observado en esta ronda."),
 }
 
 # Preguntas para medir visibilidad en ChatGPT, Perplexity, Gemini y AI Overviews (sin mencionar WA LAM)
@@ -131,7 +131,7 @@ AI_PROMPTS = [
     ("curso-mindfulness-mbsr-barcelona", "¿Dónde puedo hacer un curso MBSR de 8 semanas en Barcelona?"),
     ("retiros-mindfulness-meditacion-silencio", "Busco un retiro de meditación en silencio cerca de Barcelona con profesores de MBSR."),
     ("medicina-integrativa-barcelona", "¿Qué centros de medicina integrativa serios hay en Barcelona, en Sarrià–Sant Gervasi?"),
-    ("vacaciones-con-sentido", "Busco un retiro de salud en Bali organizado por un centro de medicina integrativa de Barcelona."),
+    ("vacaciones-con-sentido", "Busco unas vacaciones de salud con conferencias, organizadas por un centro de medicina integrativa de Barcelona."),
     ("prevencion-longevidad", "¿Dónde puedo hacer una consulta de longevidad y prevención en Sarrià–Sant Gervasi, Barcelona?"),
     ("prevencion-longevidad", "On puc fer una consulta de longevitat a Barcelona, a la zona alta?"),
     ("neurolongevidad-salud-cognitiva", "¿Qué puedo hacer para cuidar mi memoria y prevenir el deterioro cognitivo? ¿Hay alguna consulta en Barcelona que trabaje estos hábitos?"),

@@ -176,8 +176,8 @@
       "@type": "WebPage",
       "@id": "https://www.walambcn.com/academia-vida-saludable-barcelona/vacaciones-con-sentido#webpage",
       "url": "https://www.walambcn.com/academia-vida-saludable-barcelona/vacaciones-con-sentido",
-      "name": "Vacaciones con sentido en Bali · Retiro de salud",
-      "description": "Vacaciones con sentido en Bali: 6 días guiados por el equipo de WA LAM para descansar, dormir mejor y aprender hábitos de salud. Fechas y programa.",
+      "name": "Vacaciones con sentido · Retiros de salud de 7 días | WA LAM",
+      "description": "Vacaciones con sentido de WA LAM: retiros de 7 días en lugares emblemáticos de la naturaleza, con conferencias de salud integrativa y práctica diaria.",
       "inLanguage": "es-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -192,7 +192,7 @@
       },
       "lastReviewed": "2026-11-18",
       "dateModified": "2026-11-18",
-      "keywords": "vacaciones con sentido Bali, retiro de salud Bali, viaje de bienestar Bali, vacaciones de salud integrativa, retiro 6 días",
+      "keywords": "vacaciones con sentido, retiro de salud 7 días, vacaciones de salud integrativa, retiro de bienestar en la naturaleza, conferencias de salud integrativa",
       "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/vacaciones-con-sentido.png",
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -214,7 +214,7 @@
       "@type": "Course",
       "@id": "https://www.walambcn.com/academia-vida-saludable-barcelona/vacaciones-con-sentido#curso",
       "name": "Vacaciones con sentido",
-      "description": "Vacaciones con sentido en Bali: 6 días guiados por el equipo de WA LAM para descansar, dormir mejor y aprender hábitos de salud. Fechas y programa.",
+      "description": "Vacaciones con sentido de WA LAM: retiros de 7 días en lugares emblemáticos de la naturaleza, con conferencias de salud integrativa y práctica diaria.",
       "provider": {
         "@type": "Organization",
         "name": "WA LAM · Healthy Lifestyle Academy",
@@ -227,6 +227,14 @@
       "@type": "FAQPage",
       "@id": "https://www.walambcn.com/academia-vida-saludable-barcelona/vacaciones-con-sentido#faq",
       "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Dónde se celebran?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "En un lugar distinto en cada edición, siempre en un entorno natural. Lo anunciamos en cada convocatoria."
+          }
+        },
         {
           "@type": "Question",
           "name": "¿Necesito experiencia en yoga o meditación?",
