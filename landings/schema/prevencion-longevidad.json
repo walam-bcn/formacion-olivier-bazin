@@ -182,7 +182,7 @@
       },
       "lastReviewed": "2026-11-18",
       "dateModified": "2026-11-18",
-      "keywords": "longevidad Barcelona, medicina preventiva Barcelona, longevidad Sarrià Sant Gervasi, consulta de longevidad, envejecimiento saludable Barcelona, medicina integrativa y longevidad",
+      "keywords": "longevidad Barcelona, medicina preventiva Barcelona, longevidad Sarrià Sant Gervasi, consulta de longevidad, estudio de microbiota intestinal Barcelona, test genético longevidad, medicina integrativa y longevidad",
       "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/prevencion-longevidad.png",
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -247,6 +247,14 @@
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Tus analíticas y pruebas médicas recientes. Antes de la visita te pediremos que rellenes el formulario de primera cita."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Pedís pruebas adicionales?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Solo cuando pueden cambiar el plan. La más habitual es el estudio de microbiota intestinal; según tu caso, valoramos otras pruebas o una consulta con el especialista."
           }
         },
         {

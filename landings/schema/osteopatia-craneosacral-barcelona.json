@@ -273,6 +273,14 @@
             "@type": "Answer",
             "text": "Tienen el mismo origen. La osteopatía craneal forma parte de la osteopatía; la terapia craneosacral es el método que desarrolló John Upledger a partir de ella."
           }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Se puede hacer en niños o embarazadas?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. Atendemos a niños, con el consentimiento y la presencia de su madre, padre o tutor, y a embarazadas, adaptando la técnica y en coordinación con su matrona o ginecóloga."
+          }
         }
       ]
     }

@@ -60,7 +60,7 @@ SEO = {
     },
     "prevencion-longevidad": {
         "kw": "longevidad Barcelona",
-        "kws": ["medicina preventiva Barcelona", "longevidad Sarrià Sant Gervasi", "consulta de longevidad", "envejecimiento saludable Barcelona", "medicina integrativa y longevidad"],
+        "kws": ["medicina preventiva Barcelona", "longevidad Sarrià Sant Gervasi", "consulta de longevidad", "estudio de microbiota intestinal Barcelona", "test genético longevidad", "medicina integrativa y longevidad"],
         "ca": "longevitat Barcelona",
         "title": "Longevidad y prevención en Barcelona | WA LAM",
         "desc": "Consulta de longevidad y prevención en Sarrià–Sant Gervasi, Barcelona: primera visita, valoración, plan por fases y seguimiento. Basada en evidencia.",

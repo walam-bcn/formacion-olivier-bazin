@@ -273,6 +273,14 @@
             "@type": "Answer",
             "text": "Tenen el mateix origen. L'osteopatia cranial forma part de l'osteopatia; la teràpia craniosacral és el mètode que va desenvolupar John Upledger a partir d'aquesta."
           }
+        },
+        {
+          "@type": "Question",
+          "name": "Es pot fer en infants o embarassades?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. Atenem infants, amb el consentiment i la presència de la mare, el pare o el tutor, i embarassades, adaptant la tècnica i en coordinació amb la llevadora o la ginecòloga."
+          }
         }
       ]
     }

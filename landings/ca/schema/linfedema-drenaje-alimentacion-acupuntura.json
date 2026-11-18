@@ -297,7 +297,7 @@
           "name": "Necessito autorització mèdica?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí. Abans de començar et demanarem l'autorització del teu oncòleg o metge rehabilitador."
+            "text": "Sí. Sense l'autorització del teu oncòleg o metge rehabilitador no tractem cap pacient oncològic, ni amb drenatge, ni amb reflexologia, ni amb massatge."
           }
         }
       ]

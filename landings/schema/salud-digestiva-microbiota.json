@@ -247,6 +247,14 @@
       "mainEntity": [
         {
           "@type": "Question",
+          "name": "¿Hacéis estudio de microbiota?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. El estudio de microbiota intestinal lo valoramos en la primera visita y lo recomendamos cuando puede cambiar el plan. Sus resultados se integran en el informe de valoración, como explicamos en longevidad y prevención. Si se plantea un estudio de parásitos, comprobamos antes qué incluye el perfil elegido para no duplicar pruebas."
+          }
+        },
+        {
+          "@type": "Question",
           "name": "¿Tendré que hacer una dieta muy estricta?",
           "acceptedAnswer": {
             "@type": "Answer",

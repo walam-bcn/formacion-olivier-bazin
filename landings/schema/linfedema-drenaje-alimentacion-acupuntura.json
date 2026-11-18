@@ -297,7 +297,7 @@
           "name": "¿Necesito autorización médica?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí. Antes de empezar te pediremos la autorización de tu oncólogo o médico rehabilitador."
+            "text": "Sí. Sin la autorización de tu oncólogo o médico rehabilitador no tratamos a ningún paciente oncológico, ni con drenaje, ni con reflexología, ni con masaje."
           }
         }
       ]

@@ -219,10 +219,26 @@
       "mainEntity": [
         {
           "@type": "Question",
+          "name": "¿Hacéis tratamiento interno?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Nuestro abordaje es siempre externo. Si necesitas un tratamiento intracavitario, te orientamos hacia una fisioterapeuta especializada en suelo pélvico."
+          }
+        },
+        {
+          "@type": "Question",
           "name": "¿Necesito un diagnóstico médico antes?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Es recomendable, sobre todo si el dolor es reciente, intenso o se acompaña de sangrado o fiebre."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Atendéis a hombres?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No atendemos el dolor pélvico masculino. Te orientaremos hacia un urólogo o una fisioterapeuta especializada."
           }
         }
       ]

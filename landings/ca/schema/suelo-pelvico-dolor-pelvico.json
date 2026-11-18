@@ -219,10 +219,26 @@
       "mainEntity": [
         {
           "@type": "Question",
+          "name": "Feu tractament intern?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. El nostre abordatge és sempre extern. Si necessites un tractament intracavitari, t'orientem cap a una fisioterapeuta especialitzada en sòl pelvià."
+          }
+        },
+        {
+          "@type": "Question",
           "name": "Necessito un diagnòstic mèdic abans?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "És recomanable, sobretot si el dolor és recent, intens o va acompanyat de sagnat o febre."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ateneu homes?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No atenem el dolor pèlvic masculí. T'orientarem cap a un uròleg o una fisioterapeuta especialitzada."
           }
         }
       ]

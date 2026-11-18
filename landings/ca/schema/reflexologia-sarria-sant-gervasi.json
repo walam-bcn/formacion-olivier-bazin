@@ -276,6 +276,14 @@
         },
         {
           "@type": "Question",
+          "name": "Puc rebre reflexologia si estic en tractament oncològic?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí, sempre amb l'autorització del teu metge. La guia SIO–ASCO contempla la reflexologia com a suport per al dolor durant el tractament del càncer. A WA LAM no tractem cap pacient oncològic sense autorització mèdica, ni amb reflexologia, ni amb drenatge, ni amb massatge."
+          }
+        },
+        {
+          "@type": "Question",
           "name": "Hi ha alguna contraindicació?",
           "acceptedAnswer": {
             "@type": "Answer",

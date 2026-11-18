@@ -247,6 +247,14 @@
       "mainEntity": [
         {
           "@type": "Question",
+          "name": "Feu estudi de microbiota?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. L'estudi de microbiota intestinal el valorem a la primera visita i el recomanem quan pot canviar el pla. Els resultats s'integren a l'informe de valoració, com expliquem a longevitat i prevenció. Si es planteja un estudi de paràsits, comprovem abans què inclou el perfil escollit per no duplicar proves."
+          }
+        },
+        {
+          "@type": "Question",
           "name": "Hauré de fer una dieta molt estricta?",
           "acceptedAnswer": {
             "@type": "Answer",

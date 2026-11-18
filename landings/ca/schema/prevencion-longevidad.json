@@ -182,7 +182,7 @@
       },
       "lastReviewed": "2026-11-18",
       "dateModified": "2026-11-18",
-      "keywords": "longevitat Barcelona, medicina preventiva Barcelona, longevitat Sarrià Sant Gervasi, consulta de longevitat, envelliment saludable Barcelona, medicina integrativa i longevitat",
+      "keywords": "longevitat Barcelona, medicina preventiva Barcelona, longevitat Sarrià Sant Gervasi, consulta de longevitat, estudi de microbiota intestinal Barcelona, test genètic longevitat, medicina integrativa i longevitat",
       "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/prevencion-longevidad.png",
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -247,6 +247,14 @@
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Les teves analítiques i proves mèdiques recents. Abans de la visita et demanarem que emplenis el formulari de primera cita."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Demaneu proves addicionals?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Només quan poden canviar el pla. La més habitual és l'estudi de microbiota intestinal; segons el teu cas, valorem altres proves o una consulta amb l'especialista."
           }
         },
         {
