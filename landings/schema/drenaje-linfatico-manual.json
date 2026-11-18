@@ -132,6 +132,11 @@
         },
         {
           "@type": "MedicalTherapy",
+          "name": "Drenaje linfático para linfedema",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/drenaje-linfatico-linfedema"
+        },
+        {
+          "@type": "MedicalTherapy",
           "name": "Masajes en Sarrià–Sant Gervasi",
           "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/masajes-sarria-sant-gervasi"
         },
@@ -286,7 +291,15 @@
           "name": "¿Cuántas sesiones necesito?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Depende del motivo. Si tienes linfedema diagnosticado, el número de sesiones se decide tras valorar tu caso con tu equipo médico."
+            "text": "Depende del motivo. Si tienes linfedema diagnosticado, el número de sesiones se ajusta a lo que indique tu médico especialista."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuánto cuesta?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "La sesión de 1 hora cuesta 70 € y el bono, 700 €."
           }
         }
       ]

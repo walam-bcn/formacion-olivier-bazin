@@ -132,6 +132,11 @@
         },
         {
           "@type": "MedicalTherapy",
+          "name": "Drenaje linfático para linfedema",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/drenaje-linfatico-linfedema"
+        },
+        {
+          "@type": "MedicalTherapy",
           "name": "Masajes en Sarrià–Sant Gervasi",
           "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/masajes-sarria-sant-gervasi"
         },
@@ -256,7 +261,24 @@
     {
       "@type": "FAQPage",
       "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/drenaje-linfatico-embarazo#faq",
-      "mainEntity": []
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Desde qué semana puedo hacer drenaje?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Desde el inicio del embarazo, adaptando la sesión a cada trimestre."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Necesito autorización médica?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "En un embarazo sin complicaciones, no. Si tienes hipertensión, preeclampsia, antecedentes de trombosis o un embarazo de riesgo, te pediremos antes la valoración de tu matrona o tu ginecóloga."
+          }
+        }
+      ]
     }
   ]
 }
