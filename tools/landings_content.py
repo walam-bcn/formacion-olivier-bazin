@@ -1256,7 +1256,7 @@ PAGES.append({
          "refs": [R["ezzo"], R["chien"]]},
     ],
     "faq": [
-        ("¿Sustituye al tratamiento de mi médico?", "No. Trabajamos en coordinación con tu médico especialista en linfedema: él valora, mide e indica la compresión, y nosotras hacemos la parte manual."),
+        ("¿Sustituye al tratamiento de mi médico?", "No. El tratamiento se realiza en coordinación con tu médico especialista en linfedema: el especialista se encarga de la valoración, las mediciones y la indicación de la compresión, y WA LAM del drenaje linfático manual."),
         ("¿Se puede hacer acupuntura si tengo linfedema?", "Sí, como complemento, pero sin pinchar nunca el brazo o la pierna afectados."),
         ("¿Necesito autorización médica?", "Sí. Sin la autorización de tu médico no tratamos a ningún paciente oncológico, ni con drenaje, ni con reflexología, ni con masaje."),
         ("¿Cuánto cuesta?", "La sesión de 1 hora cuesta 70 € y el bono de 10 sesiones más 1 de regalo, 700 €."),
