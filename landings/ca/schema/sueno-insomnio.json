@@ -176,8 +176,8 @@
       "@type": "MedicalWebPage",
       "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/son-insomni#webpage",
       "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/son-insomni",
-      "name": "Insomni i problemes de son a Sarrià–Sant Gervasi",
-      "description": "Insomni i problemes per dormir a Sarrià–Sant Gervasi, Barcelona: valoració del son, hàbits i regulació de l'estrès segons les guies clíniques.",
+      "name": "Insomni i medicina del son a Sarrià–Sant Gervasi",
+      "description": "Insomni, son no reparador i ritme circadiari a Sarrià–Sant Gervasi, Barcelona. El son com a pilar de la salut cerebral i la longevitat.",
       "inLanguage": "ca-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -192,7 +192,7 @@
       },
       "lastReviewed": "2026-11-18",
       "dateModified": "2026-11-18",
-      "keywords": "insomni Sarrià Sant Gervasi, problemes per dormir Sant Gervasi, tractament insomni Barcelona, teràpia cognitivoconductual insomni, em desperto de matinada, insomni i estrès",
+      "keywords": "insomni Barcelona, problemes per dormir Sant Gervasi, tractament insomni Barcelona, son no reparador, ritme circadiari, son i alzheimer, sistema glimfàtic",
       "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/sueno-insomnio.png",
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -215,7 +215,12 @@
       "about": {
         "@type": "MedicalCondition",
         "name": "Insomni",
-        "possibleTreatment": []
+        "possibleTreatment": [
+          {
+            "@type": "MedicalTherapy",
+            "name": "Osteopatia craniosacral"
+          }
+        ]
       },
       "citation": [
         {
@@ -232,15 +237,33 @@
         },
         {
           "@type": "ScholarlyArticle",
+          "name": "Sleep Drives Metabolite Clearance from the Adult Brain",
+          "url": "https://doi.org/10.1126/science.1241224",
+          "sameAs": "https://doi.org/10.1126/science.1241224"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Brain clearance is reduced during sleep and anesthesia",
+          "url": "https://doi.org/10.1038/s41593-024-01638-y",
+          "sameAs": "https://doi.org/10.1038/s41593-024-01638-y"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Association of sleep duration in middle and old age with incidence of dementia",
+          "url": "https://doi.org/10.1038/s41467-021-22354-2",
+          "sameAs": "https://doi.org/10.1038/s41467-021-22354-2"
+        },
+        {
+          "@type": "ScholarlyArticle",
           "name": "Sleep Disturbance, Sleep Duration, and Inflammation: A Systematic Review and Meta-Analysis of Cohort Studies and Experimental Sleep Deprivation",
           "url": "https://doi.org/10.1016/j.biopsych.2015.05.014",
           "sameAs": "https://doi.org/10.1016/j.biopsych.2015.05.014"
         },
         {
           "@type": "ScholarlyArticle",
-          "name": "Meditation Programs for Psychological Stress and Well-being: A Systematic Review and Meta-analysis",
-          "url": "https://doi.org/10.1001/jamainternmed.2013.13018",
-          "sameAs": "https://doi.org/10.1001/jamainternmed.2013.13018"
+          "name": "The Glymphatic-Lymphatic Continuum: Opportunities for Osteopathic Manipulative Medicine",
+          "url": "https://doi.org/10.7556/jaoa.2016.033",
+          "sameAs": "https://doi.org/10.7556/jaoa.2016.033"
         }
       ]
     },
@@ -258,6 +281,22 @@
         },
         {
           "@type": "Question",
+          "name": "Dormo vuit hores i em llevo esgotada. Per què?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pot ser degut a un son fragmentat, a un ritme circadiari desajustat, a l'estrès, a canvis hormonals o a un trastorn com l'apnea. A la primera visita revisem aquests factors i, si cal, et derivem a una unitat del son."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Dormir malament durant anys augmenta el risc d'alzheimer?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Els estudis observen una associació entre dormir poc a la mitjana edat i un risc més alt de demència, però no demostren una relació causal. Tenir cura del son és, en qualsevol cas, una de les mesures preventives més raonables."
+          }
+        },
+        {
+          "@type": "Question",
           "name": "He de deixar les pastilles per dormir?",
           "acceptedAnswer": {
             "@type": "Answer",
@@ -266,10 +305,18 @@
         },
         {
           "@type": "Question",
+          "name": "Oferiu teràpia cognitivoconductual per a l'insomni?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "La TCC-I és el tractament de primera elecció. Si necessites un programa complet de TCC-I, et derivem a un psicòleg especialitzat en son."
+          }
+        },
+        {
+          "@type": "Question",
           "name": "Quan he d'anar a una unitat del son?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Si ronques fort amb pauses en la respiració, tens molta somnolència durant el dia o sents la necessitat de moure les cames a la nit, consulta el teu metge o una unitat del son."
+            "text": "Si ronques fort amb pauses en la respiració, tens molta somnolència durant el dia o sents la necessitat de moure les cames a la nit."
           }
         }
       ]

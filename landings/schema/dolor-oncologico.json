@@ -150,7 +150,7 @@
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/dolor-articular-miofascial#breadcrumb",
+      "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/dolor-oncologico#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -167,17 +167,17 @@
         {
           "@type": "ListItem",
           "position": 3,
-          "name": "Dolor articular y miofascial",
-          "item": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/dolor-articular-miofascial"
+          "name": "Dolor oncológico",
+          "item": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/dolor-oncologico"
         }
       ]
     },
     {
       "@type": "MedicalWebPage",
-      "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/dolor-articular-miofascial#webpage",
-      "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/dolor-articular-miofascial",
-      "name": "Dolor articular y miofascial en Barcelona | WA LAM",
-      "description": "Artrosis de rodilla, cadera y hombro, tendinopatías, fibromialgia y dolor miofascial en Sarrià–Sant Gervasi, Barcelona. Técnicas manuales y ejercicio.",
+      "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/dolor-oncologico#webpage",
+      "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/dolor-oncologico",
+      "name": "Dolor oncológico · Acompañamiento integrativo | WA LAM",
+      "description": "Acompañamiento integrativo del dolor oncológico en Sarrià–Sant Gervasi: osteopatía craneosacral, técnicas manuales y acupuntura, con autorización médica firmada.",
       "inLanguage": "es-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -185,15 +185,15 @@
         "url": "https://www.walambcn.com"
       },
       "breadcrumb": {
-        "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/dolor-articular-miofascial#breadcrumb"
+        "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/dolor-oncologico#breadcrumb"
       },
       "publisher": {
         "@id": "https://www.walambcn.com/#clinica"
       },
       "lastReviewed": "2026-11-18",
       "dateModified": "2026-11-18",
-      "keywords": "dolor articular Barcelona, artrosis de rodilla tratamiento Barcelona, dolor miofascial, tendinopatía Sarrià, fibromialgia tratamiento integrativo, dolor de hombro crónico",
-      "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/dolor-articular-miofascial.png",
+      "keywords": "dolor oncológico tratamiento integrativo Barcelona, osteopatía pacientes oncológicos, acupuntura cáncer dolor, dolor tras tratamiento del cáncer, oncología integrativa Barcelona",
+      "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/dolor-oncologico.png",
       "speakable": {
         "@type": "SpeakableSpecification",
         "cssSelector": [
@@ -214,11 +214,15 @@
       },
       "about": {
         "@type": "MedicalCondition",
-        "name": "Artrosis",
+        "name": "Dolor oncológico",
         "possibleTreatment": [
           {
             "@type": "MedicalTherapy",
-            "name": "Osteopatía"
+            "name": "Osteopatía craneosacral"
+          },
+          {
+            "@type": "MedicalTherapy",
+            "name": "Drenaje linfático para linfedema"
           },
           {
             "@type": "MedicalTherapy",
@@ -229,44 +233,44 @@
       "citation": [
         {
           "@type": "ScholarlyArticle",
-          "name": "Exercise for osteoarthritis of the knee",
-          "url": "https://doi.org/10.1002/14651858.CD004376.pub3",
-          "sameAs": "https://doi.org/10.1002/14651858.CD004376.pub3"
+          "name": "Integrative Medicine for Pain Management in Oncology: Society for Integrative Oncology–ASCO Guideline",
+          "url": "https://doi.org/10.1200/JCO.22.01357",
+          "sameAs": "https://doi.org/10.1200/JCO.22.01357"
         },
         {
           "@type": "ScholarlyArticle",
-          "name": "Acupuncture for Chronic Pain: Update of an Individual Patient Data Meta-Analysis",
-          "url": "https://doi.org/10.1016/j.jpain.2017.11.005",
-          "sameAs": "https://doi.org/10.1016/j.jpain.2017.11.005"
+          "name": "Craniosacral therapy for chronic pain: a systematic review and meta-analysis of randomized controlled trials",
+          "url": "https://doi.org/10.1186/s12891-019-3017-y",
+          "sameAs": "https://doi.org/10.1186/s12891-019-3017-y"
         }
       ]
     },
     {
       "@type": "FAQPage",
-      "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/dolor-articular-miofascial#faq",
+      "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/dolor-oncologico#faq",
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "¿Puedo hacer ejercicio si tengo artrosis?",
+          "name": "¿Qué necesito para empezar?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí. El ejercicio adaptado es uno de los tratamientos más eficaces en la artrosis. Lo ajustamos a tu articulación, tu nivel y tu dolor."
+            "text": "Un documento firmado por tu médico que autorice el tratamiento. Sin esa autorización no podemos atenderte."
           }
         },
         {
           "@type": "Question",
-          "name": "¿Atendéis el dolor deportivo?",
+          "name": "¿Puedo venir durante la quimioterapia o la radioterapia?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí: tendinopatías, sobrecargas y dolor muscular relacionado con el deporte, con un plan de vuelta progresiva a la actividad."
+            "text": "Depende de tu situación y de lo que indique tu médico. Adaptamos las técnicas a cada fase del tratamiento."
           }
         },
         {
           "@type": "Question",
-          "name": "¿Y la fibromialgia?",
+          "name": "¿Sustituye a mi tratamiento oncológico?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí, con un abordaje que combina actividad física gradual, regulación del sueño y del estrés, técnicas manuales y nutrición antiinflamatoria."
+            "text": "No. Es un acompañamiento complementario para aliviar el dolor y mejorar el bienestar."
           }
         }
       ]
