@@ -12,14 +12,43 @@ from urllib.parse import quote
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "tools"))
 from landings_content import PAGES, GROUPS, SITE, R  # noqa: E402
-from seo_map import SEO, BARRIOS  # noqa: E402
+from seo_map import SEO, BARRIOS, URLS, CA_SLUG  # noqa: E402
+from urllib.parse import quote as _q
 
+SITE.setdefault("cv_url", "https://www.walambcn.com/curriculum")
 SITE.setdefault("og_base", "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/")
 SITE.setdefault("updated", "2026-11-18")
 SITE.setdefault("updated_txt", "18 de noviembre de 2026")
 # Rellenar cuando se confirme: activa reviewedBy en los datos estructurados
 SITE.setdefault("reviewer", None)  # p. ej. {"name": "Nombre Apellido", "title": "Fisioterapeuta y osteópata", "license": "Col. nº 0000"}
 PREVIEW = "--preview" in sys.argv
+LANG = "ca" if "--ca" in sys.argv else "es"
+CA = {}
+if LANG == "ca":
+    CA = json.loads((ROOT / "tools" / "i18n_ca.json").read_text(encoding="utf-8"))
+
+
+def tr(t):
+    if LANG != "ca":
+        return t
+    return CA.get(t, t)
+
+
+SKIP_KEYS = {"slug", "type", "group", "related", "refs", "wave", "doi"}
+
+
+def tr_deep(o, key=None):
+    if key in SKIP_KEYS:
+        return o
+    if isinstance(o, str):
+        return tr(o)
+    if isinstance(o, list):
+        return [tr_deep(x) for x in o]
+    if isinstance(o, tuple):
+        return tuple(tr_deep(x) for x in o)
+    if isinstance(o, dict):
+        return {k: tr_deep(v, k) for k, v in o.items()}
+    return o
 
 LOGO = (ROOT / "tools" / "logo.b64").read_text().strip()
 OUT = ROOT / "landings"
@@ -48,13 +77,37 @@ def plain(s):
 def url(slug):
     if PREVIEW:
         if slug in ("", "tratamientos", "healthy-lifestyle-academy"):
-            return "./"
+            return "index.html" if LANG == "ca" else "./"
         return f"{slug}.html"
-    return f"{SITE['base']}/{slug}" if slug else SITE["base"]
+    return canon(slug)
+
+
+def wixpath(slug):
+    path = URLS.get(slug, slug)
+    if LANG == "ca" and slug in URLS:
+        parts = path.split("/") if path else []
+        if slug in CA_SLUG:
+            parts[-1] = CA_SLUG[slug]
+        CA_HUB = {"tratamientos-sarrià-sant-gervasi-barcelona": "tractaments-sarria-sant-gervasi-barcelona",
+                  "academia-vida-saludable-barcelona": "academia-vida-saludable-barcelona"}
+        if parts:
+            parts[0] = CA_HUB.get(parts[0], parts[0])
+        path = "ca" + ("/" + "/".join(parts) if parts else "")
+    return path
+
+
+def canon_lang(slug, lang):
+    global LANG
+    old, LANG = LANG, lang
+    try:
+        return canon(slug)
+    finally:
+        LANG = old
 
 
 def canon(slug):
-    return f"{SITE['base']}/{slug}"
+    path = wixpath(slug)
+    return f"{SITE['base']}/{_q(path, safe='/')}" if path else SITE["base"]
 
 
 def slugify(t):
@@ -278,15 +331,15 @@ def head(p):
     can = canon(p["slug"]) if p["slug"] != "index" else SITE["base"]
     og = SITE["og_base"] + p["slug"] + ".png"
     robots = "noindex,nofollow" if p["slug"] in ("index", "guia-seo") else "index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1"
-    return f"""<!DOCTYPE html><html lang="es-ES"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+    return f"""<!DOCTYPE html><html lang="{"ca-ES" if LANG == "ca" else "es-ES"}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{html.escape(title)}</title>
 <meta name="description" content="{html.escape(desc)}">
 <meta name="robots" content="{robots}">
 <link rel="canonical" href="{can}">
-<link rel="alternate" hreflang="es-ES" href="{can}"><link rel="alternate" hreflang="x-default" href="{can}">
+<link rel="alternate" hreflang="es-ES" href="{canon_lang(p['slug'], 'es')}"><link rel="alternate" hreflang="ca-ES" href="{canon_lang(p['slug'], 'ca')}"><link rel="alternate" hreflang="x-default" href="{canon_lang(p['slug'], 'es')}">
 <meta name="geo.region" content="ES-CT"><meta name="geo.placename" content="Barcelona, Sarrià-Sant Gervasi">
 <meta name="author" content="WA LAM · Salud integrativa"><meta name="theme-color" content="#1D3F40">
-<meta property="og:type" content="website"><meta property="og:locale" content="es_ES"><meta property="og:site_name" content="WA LAM">
+<meta property="og:type" content="website"><meta property="og:locale" content="{"ca_ES" if LANG == "ca" else "es_ES"}"><meta property="og:site_name" content="WA LAM">
 <meta property="og:title" content="{html.escape(title)}"><meta property="og:description" content="{html.escape(desc)}">
 <meta property="og:url" content="{can}"><meta property="og:image" content="{og}"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="{html.escape(plain(p.get('h1') or title))} · WA LAM">
@@ -315,9 +368,9 @@ def schema(p):
     org = {"@type": ["MedicalClinic", "MedicalBusiness"], "@id": clinic_id, "name": "WA LAM · Salud integrativa",
            "url": SITE["base"], "telephone": "+34675716409", "email": SITE["email"],
            "image": SITE["og_base"] + "medicina-integrativa-barcelona.png", "priceRange": "€€",
-           "address": {"@type": "PostalAddress", "addressLocality": "Barcelona", "addressRegion": "Cataluña",
-                       "addressCountry": "ES", "streetAddress": SITE.get("street", "")} if SITE.get("street") else
-                      {"@type": "PostalAddress", "addressLocality": "Barcelona", "addressRegion": "Cataluña", "addressCountry": "ES"},
+           "address": {"@type": "PostalAddress", "streetAddress": "Carrer del Bisbe Sivilla, 44, local", "postalCode": SITE["postal"],
+                       "addressLocality": "Barcelona", "addressRegion": "Cataluña", "addressCountry": "ES"},
+           "openingHours": SITE["opening"], "founder": {"@type": "Person", "name": "Rosa", "url": SITE["cv_url"]}, "foundingDate": "2004",
            "areaServed": [{"@type": "Place", "name": f"{b}, Barcelona"} for b in BARRIOS] + [{"@type": "City", "name": "Barcelona"}],
            "medicalSpecialty": ["Physiotherapy", "Musculoskeletal"],
            "availableService": [{"@type": "MedicalTherapy", "name": plain(x["nav"]), "url": canon(x["slug"])} for x in PAGES if x["group"] == "servicio"],
@@ -330,7 +383,7 @@ def schema(p):
     graph = [org, {"@type": "BreadcrumbList", "@id": canon(p["slug"]) + "#breadcrumb", "itemListElement": crumbs}]
     webpage = {"@type": "MedicalWebPage" if p["group"] in ("motivo", "servicio", "home") else "WebPage",
                "@id": canon(p["slug"]) + "#webpage", "url": canon(p["slug"]), "name": plain(S.get("title", p["title"])),
-               "description": plain(S.get("desc", p["desc"])), "inLanguage": "es-ES",
+               "description": plain(S.get("desc", p["desc"])), "inLanguage": "ca-ES" if LANG == "ca" else "es-ES",
                "isPartOf": {"@type": "WebSite", "name": "WA LAM", "url": SITE["base"]},
                "breadcrumb": {"@id": canon(p["slug"]) + "#breadcrumb"}, "publisher": {"@id": clinic_id},
                "lastReviewed": SITE["updated"], "dateModified": SITE["updated"],
@@ -370,22 +423,34 @@ def schema(p):
 def nav(p):
     links = "".join(f'<a href="{url(GROUPS[g]["hub"])}">{GROUPS[g]["nav"]}</a>' for g in ("motivo", "servicio", "academia"))
     return f"""<header class="topnav"><div class="wrap"><a href="{url('')}"><img src="{LOGO}" alt="WA LAM" style="height:30px;display:block"></a>
-<nav>{links}<a href="#contacto">Contacto</a></nav></div></header>"""
+<nav>{links}<a href="#contacto">{tr("Contacto")}</a>{langlink(p)}</nav></div></header>"""
+
+
+def langlink(p):
+    slug = p.get("slug", "")
+    if slug in ("guia-seo",):
+        return ""
+    target = "es" if LANG == "ca" else "ca"
+    if PREVIEW:
+        href = (f"../{slug}.html" if LANG == "ca" else f"ca/{slug}.html")
+    else:
+        href = canon_lang(slug, target) if slug != "index" else (SITE["base"] + ("/ca" if target == "ca" else ""))
+    return f'<a href="{href}" hreflang="{target}" style="font-weight:700;color:var(--tq)">{"Castellano" if LANG == "ca" else "Català"}</a>'
 
 
 def hero(p):
     g = GROUPS.get(p["group"])
     crumbs = ""
     if g:
-        crumbs = f'<div class="crumbs"><a href="{url("")}">Inicio</a> › <a href="{url(g["hub"])}">{g["nav"]}</a> › {html.escape(plain(p["nav"]))}</div>'
-    b1 = p.get("cta1", ("Escríbenos por WhatsApp", wa(p["wa"])))
-    b2 = p.get("cta2", ("Reservar primera visita", SITE["booking"]))
+        crumbs = f'<div class="crumbs"><a href="{url("")}">{tr("Inicio")}</a> › <a href="{url(g["hub"])}">{g["nav"]}</a> › {html.escape(plain(p["nav"]))}</div>'
+    b1 = p.get("cta1", (tr("Escríbenos por WhatsApp"), wa(p["wa"])))
+    b2 = p.get("cta2", (tr("Reservar primera visita"), SITE["booking"]))
     facts = "".join(f"<li>{fmt(f)}</li>" for f in p["facts"])
     return f"""<section class="hero"><div class="wrap">
 <div>{crumbs}<span class="eyebrow">{fmt(p['eyebrow'])}</span><h1>{fmt(p['h1'])}</h1>
 <div class="hs">{fmt(p['sub'])}</div><p class="lead">{fmt(p['lead'])}</p>
 <div class="btn-row"><a class="btn btn-tq" href="{b1[1]}" target="_blank" rel="noopener">{b1[0]}</a><a class="btn btn-gh" href="{b2[1]}">{b2[0]}</a></div></div>
-<aside class="hcard"><span class="k">{fmt(p.get('facts_title', 'En WA LAM'))}</span><ul>{facts}</ul></aside>
+<aside class="hcard"><span class="k">{fmt(p.get('facts_title', tr('En WA LAM')))}</span><ul>{facts}</ul></aside>
 </div></section>"""
 
 
@@ -427,9 +492,11 @@ def steps(s):
 
 def pro(f, p):
     rows = "".join(f"<li><span>{fmt(a)}</span><b>{fmt(b)}</b></li>" for a, b in f["rows"])
-    btn = f.get("btn", ("Reservar", SITE["booking"]))
+    btn = f.get("btn", (tr("Reservar"), SITE["booking"]))
+    who = p.get("pro_who", "")
+    cv = f'<p style="margin-top:14px"><b>{tr("Quién te atiende")}:</b> {fmt(who)}<br><a class="inl" href="{SITE["cv_url"]}">{tr("Ver currículum")}</a></p>' if who else ""
     return f"""<section class="pro" id="ficha"><div class="wrap"><div class="pcard">
-<div class="l"><span class="k">{fmt(f['k'])}</span><h3>{fmt(f['h'])}</h3><p>{fmt(f['p'])}</p></div>
+<div class="l"><span class="k">{fmt(f['k'])}</span><h3>{fmt(f['h'])}</h3><p>{fmt(f['p'])}</p>{cv}</div>
 <div class="r"><ul class="rows">{rows}</ul><a class="btn btn-tq" href="{btn[1]}" target="_blank" rel="noopener">{btn[0]}</a></div>
 </div></div></section>"""
 
@@ -440,58 +507,63 @@ def evidence(e):
     if e.get("refs"):
         refs = '<div class="refs">' + "".join(
             f'<p>{fmt(r["t"])} DOI: <a href="https://doi.org/{r["doi"]}" target="_blank" rel="noopener">{r["doi"]}</a></p>' for r in e["refs"]) + "</div>"
-    return f'<section class="evid"><div class="wrap">{sec_head(e.get("eyebrow", "Con honestidad"), e["h2"], e.get("intro"))}<div class="ev">{its}</div>{refs}</div></section>'
+    return f'<section class="evid"><div class="wrap">{sec_head(e.get("eyebrow", tr("Con honestidad")), e["h2"], e.get("intro"))}<div class="ev">{its}</div>{refs}</div></section>'
 
 
 def faq(items):
     d = "".join(f"<details><summary>{fmt(q)}</summary><p>{fmt(a)}</p></details>" for q, a in items)
-    return f'<section class="faq" id="preguntas-frecuentes"><div class="wrap">{sec_head("Preguntas frecuentes", "Lo que suelen preguntarnos")}<div class="list">{d}</div></div></section>'
+    return f'<section class="faq" id="preguntas-frecuentes"><div class="wrap">{sec_head(tr("Preguntas frecuentes"), tr("Lo que suelen preguntarnos"))}<div class="list">{d}</div></div></section>'
 
 
-def related(slugs, h2="También puede interesarte"):
+def related(slugs, h2=None):
+    h2 = h2 or tr("También puede interesarte")
     cs = []
     for s in slugs:
         r = BYSLUG[s]
-        cs.append(f'<a class="card" href="{url(s)}"><span class="k">{GROUPS[r["group"]]["label"]}</span><h3>{fmt(r["nav"])}</h3><p>{fmt(r["card"])}</p><span class="go">Ver página →</span></a>')
+        cs.append(f'<a class="card" href="{url(s)}"><span class="k">{GROUPS[r["group"]]["label"]}</span><h3>{fmt(r["nav"])}</h3><p>{fmt(r["card"])}</p><span class="go">{tr("Ver página →")}</span></a>')
     g = "grid g2" if len(cs) in (2, 4) else "grid"
-    return f'<section class="rel"><div class="wrap">{sec_head("Páginas relacionadas", h2)}<div class="{g}">{"".join(cs)}</div></div></section>'
+    return f'<section class="rel"><div class="wrap">{sec_head(tr("Páginas relacionadas"), h2)}<div class="{g}">{"".join(cs)}</div></div></section>'
 
 
 def ctaband(p):
     c = p["cta"]
-    b2 = c.get("b2", ("Reservar online", SITE["booking"]))
+    b2 = c.get("b2", (tr("Reservar online"), SITE["booking"]))
     return f"""<section class="ctaband"><div class="wrap"><h2>{fmt(c['h2'])}</h2><p>{fmt(c['p'])}</p>
-<div class="btn-row"><a class="btn btn-dk" href="{wa(p['wa'])}" target="_blank" rel="noopener">Escríbenos por WhatsApp</a><a class="btn btn-gh" href="{b2[1]}">{b2[0]}</a></div></div></section>"""
+<div class="btn-row"><a class="btn btn-dk" href="{wa(p['wa'])}" target="_blank" rel="noopener">{tr("Escríbenos por WhatsApp")}</a><a class="btn btn-gh" href="{b2[1]}">{b2[0]}</a></div></div></section>"""
 
 
 def contact(p):
     return f"""<section class="cont" id="contacto"><div class="wrap">
-<span class="eyebrow" style="justify-content:center">¿Tienes dudas?</span><h2>Estamos aquí para orientarte</h2>
-<p>Cuéntanos brevemente qué te ocurre o qué te interesa y te diremos con sinceridad si podemos ayudarte y con qué profesional.</p>
+<span class="eyebrow" style="justify-content:center">{tr("¿Tienes dudas?")}</span><h2>{tr("Estamos aquí para orientarte")}</h2>
+<p>{tr("Cuéntanos brevemente qué te ocurre o qué te interesa y te diremos con sinceridad si podemos ayudarte y con qué profesional.")}</p>
 <div class="datos"><span>📍 {fmt(SITE['address_short'])}</span><span>📧 {SITE['email']}</span><span>📞 +34 675 716 409</span></div>
-<a class="btn btn-tq" href="{wa(p['wa'])}" target="_blank" rel="noopener">Escríbenos por WhatsApp</a>
+<a class="btn btn-tq" href="{wa(p['wa'])}" target="_blank" rel="noopener">{tr("Escríbenos por WhatsApp")}</a>
 </div></section>
-<footer class="foot"><div class="wrap">WA LAM · Salud integrativa en Barcelona · Sarrià–Sant Gervasi · <a href="{url('')}">walambcn.com</a></div></footer>"""
+<footer class="foot"><div class="wrap">WA LAM · {tr("Salud integrativa en Barcelona")} · Sarrià–Sant Gervasi · <a href="{url('')}">walambcn.com</a></div></footer>"""
 
 
-NOTE = ('<section class="note"><div class="wrap"><p>La información de esta página es orientativa y no sustituye la valoración '
-        'ni el seguimiento de tu médico. Si tus síntomas son intensos, cambian de forma brusca o se acompañan de fiebre, pérdida de peso '
-        'sin causa aparente, sangrado o pérdida de fuerza, consulta con tu médico o con urgencias.</p></div></section>')
+NOTE_ES = ('La información de esta página es orientativa y no sustituye la valoración '
+           'ni el seguimiento de tu médico. Si tus síntomas son intensos, cambian de forma brusca o se acompañan de fiebre, pérdida de peso '
+           'sin causa aparente, sangrado o pérdida de fuerza, consulta con tu médico o con urgencias.')
+
+
+def note():
+    return f'<section class="note"><div class="wrap"><p>{tr(NOTE_ES)}</p></div></section>'
 
 
 def byline(p):
     n = len(page_refs(p))
-    rv = SITE.get("reviewer")
-    who = f'{html.escape(rv["name"])}, {html.escape(rv.get("title", ""))} ({html.escape(rv.get("license", ""))})' if rv else '<span class="pend">profesional sanitario/a, titulación y nº de colegiado/a</span>'
-    refs = f' · <a href="#{slugify(evid_title(p))}">{n} referencias científicas</a>' if n else ""
-    return (f'<div class="byline"><div class="wrap"><span>✔ Contenido revisado por {who}</span>'
-            f'<span>Actualizado: <time datetime="{SITE["updated"]}">{SITE["updated_txt"]}</time>{refs}</span></div></div>')
+    who = fmt(SITE["reviewer_md"])
+    cv = f' · <a href="{SITE["cv_url"]}">{tr("Ver currículum")}</a>'
+    refs = f' · <a href="#{slugify(evid_title(p))}">{n} {tr("referencias científicas")}</a>' if n else ""
+    return (f'<div class="byline"><div class="wrap"><span>✔ {tr("Contenido revisado por")} {who}{cv}</span>'
+            f'<span>{tr("Actualizado")}: <time datetime="{SITE["updated"]}">{tr(SITE["updated_txt"])}</time>{refs}</span></div></div>')
 
 
 def evid_title(p):
     for b in p["blocks"]:
         if b["type"] == "evidence":
-            return b["h2"]
+            return b.get("_id") or b["h2"]
     return ""
 
 
@@ -499,7 +571,7 @@ def quick(p):
     q = seo(p).get("quick")
     if not q:
         return ""
-    return (f'<section class="quick" id="en-resumen"><div class="wrap"><div class="qbox"><span class="k">En resumen</span>'
+    return (f'<section class="quick" id="en-resumen"><div class="wrap"><div class="qbox"><span class="k">{tr("En resumen")}</span>'
             f'<h2>{fmt(seo(p).get("q_title", p["nav"]))}</h2><p>{fmt(q)}</p></div></div></section>')
 
 
@@ -507,21 +579,20 @@ def toc(items):
     if len(items) < 3:
         return ""
     lis = "".join(f'<a href="#{i}">{html.escape(t)}</a>' for i, t in items)
-    return f'<nav class="toc" aria-label="En esta página"><div class="wrap"><span class="k">En esta página</span><div class="chips">{lis}</div></div></nav>'
+    return f'<nav class="toc" aria-label="{tr('En esta página')}"><div class="wrap"><span class="k">{tr('En esta página')}</span><div class="chips">{lis}</div></div></nav>'
 
 
 def local(p):
-    S = seo(p)
-    kw = S.get("kw", plain(p["nav"]))
-    barrios = ", ".join(BARRIOS[:-1]) + " y " + BARRIOS[-1]
-    return f"""<section class="localsec" id="donde-estamos"><div class="wrap">{sec_head("Dónde estamos", f"{plain(p['nav'])} cerca de ti, en Sarrià–Sant Gervasi")}
-<div class="grid g2"><div class="card"><span class="k">Consulta presencial</span><h3>WA LAM · Sarrià–Sant Gervasi, Barcelona</h3>
-<p>Atendemos a pacientes de todo el distrito de Sarrià–Sant Gervasi —{html.escape(barrios)}— y de toda Barcelona.</p>
-<ul><li>Dirección: <span class="pend">calle y número</span></li><li>Cómo llegar: <span class="pend">FGC / metro / bus más cercanos</span></li><li>Horario: <span class="pend">días y horas</span></li><li>Teléfono y WhatsApp: +34 675 716 409</li></ul></div>
-<div class="card"><span class="k">Reserva</span><h3>Pide cita para {html.escape(plain(p['nav']).lower() if p['group'] == 'servicio' else 'tu primera visita')}</h3>
-<p>Puedes reservar online o escribirnos por WhatsApp. Si no sabes qué profesional te conviene, cuéntanos tu caso y te orientamos antes de reservar.</p>
-<div class="btn-row"><a class="btn btn-tq" href="{wa(p['wa'])}" target="_blank" rel="noopener">WhatsApp</a><a class="btn btn-gh" href="{SITE['booking']}">Reservar online</a></div>
-<p style="margin-top:14px;font-size:.85rem"><span class="pend">Insertar mapa de Google de la ficha de Google Business Profile</span></p></div></div></div></section>"""
+    barrios = ", ".join(BARRIOS[:-1]) + f" {tr('y')} " + BARRIOS[-1]
+    what = plain(p["nav"])
+    return f"""<section class="localsec" id="donde-estamos"><div class="wrap">{sec_head(tr("Dónde estamos"), f"{what} · {tr('cerca de ti, en Sarrià–Sant Gervasi')}")}
+<div class="grid g2"><div class="card"><span class="k">{tr("Consulta presencial")}</span><h3>WA LAM · {html.escape(SITE['street'])}, {SITE['postal']} Barcelona</h3>
+<p>{tr("Atendemos a pacientes de todo el distrito de Sarrià–Sant Gervasi")} ({html.escape(barrios)}) {tr("y de toda Barcelona.")}</p>
+<ul><li>{tr("Dirección")}: {html.escape(SITE['street'])}, {SITE['postal']} Barcelona</li><li>{tr("Horario")}: {tr(SITE['hours'])}</li><li>{tr("Cómo llegar")}: <span class="pend">{tr("FGC / bus más cercanos")}</span></li><li>{tr("Teléfono y WhatsApp")}: +34 675 716 409</li></ul></div>
+<div class="card"><span class="k">{tr("Reserva")}</span><h3>{tr("Quién te atiende")}</h3>
+<p>{fmt(p.get("pro_who", ""))}. <a class="inl" href="{SITE['cv_url']}">{tr("Ver currículum")}</a></p>
+<p>{tr("Puedes reservar online o escribirnos por WhatsApp. Si no sabes qué servicio te conviene, cuéntanos tu caso y te orientamos antes de reservar.")}</p>
+<div class="btn-row"><a class="btn btn-tq" href="{wa(p['wa'])}" target="_blank" rel="noopener">WhatsApp</a><a class="btn btn-gh" href="{SITE['booking']}">{tr("Reservar online")}</a></div></div></div></div></section>"""
 
 
 def page(p):
@@ -531,22 +602,22 @@ def page(p):
         t = blk["type"]
         h = {"mirror": mirror, "explain": explain, "cards": cards, "steps": steps, "evidence": evidence, "hubcards": hubcards}.get(t)
         if t == "pro":
-            out = pro(blk, p); sid = "ficha"; label = "Ficha y reserva"
+            out = pro(blk, p); sid = "ficha"; label = tr("Ficha y reserva")
         else:
-            out = h(blk); sid = slugify(blk.get("h2", t)); label = plain(blk.get("eyebrow", blk.get("h2", "")))
+            out = h(blk); sid = blk.get("_id") or slugify(blk.get("h2", t)); label = plain(blk.get("eyebrow", blk.get("h2", "")))
             if t != "hubcards":
                 out = out.replace('<section class="', f'<section id="{sid}" class="', 1)
         if t != "hubcards":
-            items.append((sid, label if t != "evidence" else "Evidencia científica"))
+            items.append((sid, label if t != "evidence" else tr("Evidencia científica")))
         body.append(out)
     if p["group"] in ("motivo", "servicio"):
-        body.append(local(p)); items.append(("donde-estamos", "Dónde estamos"))
+        body.append(local(p)); items.append(("donde-estamos", tr("Dónde estamos")))
     if p.get("faq"):
-        body.append(faq(p["faq"])); items.append(("preguntas-frecuentes", "Preguntas frecuentes"))
+        body.append(faq(p["faq"])); items.append(("preguntas-frecuentes", tr("Preguntas frecuentes")))
     parts += [quick(p), toc(items)] + body
     if p.get("related"): parts.append(related(p["related"]))
     parts.append(ctaband(p))
-    if p["group"] in ("motivo", "servicio"): parts.append(NOTE)
+    if p["group"] in ("motivo", "servicio"): parts.append(note())
     parts.append(contact(p))
     parts.append(JS + "</body></html>")
     return "\n".join(x for x in parts if x)
@@ -557,67 +628,149 @@ def hubcards(b):
     for g in b["groups"]:
         G = GROUPS[g]
         cs = "".join(
-            f'<a class="card" href="{url(x["slug"])}"><span class="k">{G["label"]}</span><h3>{fmt(x["nav"])}</h3><p>{fmt(x["card"])}</p><span class="go">Ver página →</span></a>'
+            f'<a class="card" href="{url(x["slug"])}"><span class="k">{G["label"]}</span><h3>{fmt(x["nav"])}</h3><p>{fmt(x["card"])}</p><span class="go">{tr("Ver página →")}</span></a>'
             for x in PAGES if x["group"] == g)
         out.append(f'<section class="rel" id="{ {"motivo": "motivos", "servicio": "servicios", "academia": "academia"}[g]}"><div class="wrap">{sec_head(G["eyebrow"], G["title"], G["intro"])}<div class="grid">{cs}</div></div></section>')
     return "\n".join(out)
 
 
+def _pending(p):
+    out = []
+    for m in re.findall(r"\[\[(.+?)\]\]", json.dumps(p, ensure_ascii=False)):
+        if m not in out:
+            out.append(m)
+    return out
+
+
+def _links_out(p):
+    found = re.findall(r"\]\(([a-z0-9\-]+)\)", json.dumps(p, ensure_ascii=False))
+    return list(dict.fromkeys(found + p.get("related", [])))
+
+
+def _wixurl(slug, lang="es"):
+    return canon_lang(slug, lang).replace(SITE["base"], "") or "/"
+
+
 def guide():
-    rows = []
+    from seo_plan import RESEARCH, AI_PROMPTS, OFFPAGE, MEASURE, GOAL, ASK, OBS_NOTE
+    from seo_map import EXISTING, REDIRECTS, BOOKING, BLOG
+    from urllib.parse import unquote
+    inl = {x["slug"]: [] for x in PAGES}
     for x in PAGES:
-        S = SEO[x["slug"]]
-        rows.append(f"""<tr><td><b>{fmt(x['nav'])}</b><br><code>/{x['slug']}</code></td><td>{html.escape(S['title'])}<br><small>{len(S['title'])} caracteres</small></td>
-<td>{html.escape(S['desc'])}<br><small>{len(S['desc'])} caracteres</small></td><td><b>{html.escape(S['kw'])}</b><br><small>{html.escape(', '.join(S['kws']))}</small></td><td>{html.escape(S['ca'])}</td></tr>""")
-    gp = {"slug": "guia-seo", "group": "home", "title": "Guía SEO · WA LAM", "desc": "", "h1": "Guía SEO"}
-    done = ["Una página por intención de búsqueda (motivo de consulta, servicio, curso), sin páginas duplicadas que compitan entre sí.",
-            "Title de 60 caracteres o menos y meta description de 160 o menos, con la palabra clave y Sarrià–Sant Gervasi o Barcelona.",
-            "Un único H1 por página con la palabra clave, y H2 con las búsquedas secundarias y preguntas reales.",
-            "Bloque «En resumen» al inicio: una respuesta de 40 a 60 palabras pensada para los fragmentos destacados de Google y las respuestas de ChatGPT, Perplexity y AI Overviews.",
-            "E-E-A-T sanitario (YMYL): firma de revisión clínica con fecha, referencias científicas con DOI verificado y lenguaje prudente sin promesas.",
-            "Datos estructurados completos: MedicalClinic, MedicalWebPage (con lastReviewed, about, citation y audience), Service o Course, BreadcrumbList, FAQPage y Speakable.",
-            "SEO local: bloque «Dónde estamos» con los barrios del distrito, datos de contacto y llamada a la reserva en cada página de consulta presencial.",
-            "Enlazado interno: enlaces dentro del texto con texto ancla descriptivo, páginas relacionadas y migas de pan.",
-            "Índice «En esta página» con anclas, que Google puede mostrar como enlaces directos en los resultados.",
-            "Etiquetas para redes y WhatsApp (Open Graph y Twitter) con una imagen propia por página (carpeta og/).",
-            "Canonical, hreflang es-ES, robots con max-snippet y max-image-preview, geo y preconnect de fuentes.",
-            "Versión móvil verificada: sin desplazamiento horizontal y con botones a ancho completo."]
-    todo = [("Wix: crear cada página con su URL", "Crea la página en Wix con exactamente la URL de la tabla (Configuración SEO › URL). No cambies las URL una vez publicadas."),
-            ("Wix: title y description", "Copia el title y la meta description de la tabla en Configuración SEO de cada página."),
-            ("Wix: texto nativo, no solo iframe", "Google no atribuye a tu página el texto de un iframe. Pega al menos el H1, el bloque «En resumen», los primeros párrafos y las preguntas frecuentes como texto de Wix. El iframe puede quedarse para el diseño."),
-            ("Wix: datos estructurados", "En Configuración SEO › Avanzado › Marcado estructurado, pega el JSON de la carpeta schema/ correspondiente a cada página."),
-            ("Completar los datos pendientes", "Nombre, titulación y nº de colegiado/a del profesional que revisa cada página, dirección, horario y precios. Es lo que más pesa en el E-E-A-T de una web de salud."),
-            ("Google Business Profile", "Categoría principal «Centro de medicina integrativa» o «Osteópata», con categorías secundarias para fisioterapia y acupuntura; servicios con el mismo nombre que las páginas, fotos reales, horario y enlace a cada página. El mismo nombre, dirección y teléfono (NAP) en la web y en todos los directorios."),
-            ("Reseñas", "Pide reseñas en Google después de cada alta, de forma ética: sin incentivos y respondiendo a todas. Las reseñas que mencionan el servicio y el barrio ayudan al posicionamiento local."),
-            ("Directorios que hoy ocupan las primeras posiciones", "En las búsquedas revisadas aparecen sobre todo Doctoralia, Topdoctors y portales de aseguradoras. Crear o completar el perfil de cada profesional en Doctoralia y Topdoctors, enlazando a la web, es la vía más rápida para aparecer en la primera página mientras crece la web."),
-            ("Versión en catalán", "En Barcelona una parte importante de las búsquedas se hacen en catalán (osteòpata Sarrià, insomni, deixar de fumar). Con Wix Multilingual, traducir las páginas de la primera tanda y enlazarlas con hreflang ca-ES."),
-            ("Magazín (blog) como clúster", "Publicar artículos que respondan preguntas concretas y enlacen a la página de servicio: «¿Por qué me despierto a las 4 de la mañana?» → Sueño e insomnio; «Dolor lumbar con pruebas normales» → Dolor persistente; «¿Funciona la acupuntura para dejar de fumar?» → Dejar de fumar; «Hinchazón y estrés» → Salud digestiva; «Qué es el MBSR» → Curso MBSR."),
-            ("Search Console y Keyword Planner", "Dar de alta el dominio en Google Search Console y enviar el sitemap de Wix. Para el volumen de búsquedas, usar Google Keyword Planner con ubicación Barcelona e idiomas español y catalán, y revisar cada mes qué consultas traen impresiones a cada página."),
-            ("Medir", "Objetivo por página: impresiones y clics en Search Console, posición media de la palabra clave principal y reservas o WhatsApp recibidos desde la página.")]
-    body = f"""<section class="hero"><div class="wrap" style="grid-template-columns:1fr"><div><span class="eyebrow">Guía SEO</span><h1>Plan SEO de las landing pages</h1>
-<p class="lead">Qué está hecho en cada página, qué palabra clave trabaja y qué falta hacer en Wix y fuera de la web. Ninguna agencia puede garantizar el primer puesto, pero este es el trabajo que lo hace posible.</p></div></div></section>
-<section style="background:#fff"><div class="wrap">{sec_head("Hecho en las páginas", "SEO técnico y de contenido incluido")}<div class="card" style="max-width:900px;margin:0 auto"><ul>{''.join(f'<li>{html.escape(d)}</li>' for d in done)}</ul></div></div></section>
-<section style="background:var(--piedra)"><div class="wrap">{sec_head("Mapa de palabras clave", "Title, description y búsquedas de cada página", "Volumen de búsqueda: no disponible. Hay que consultarlo en Google Keyword Planner (ubicación Barcelona, español y catalán, últimos 12 meses) antes de priorizar.")}
-<div class="tbl"><table><thead><tr><th>Página / URL</th><th>Title</th><th>Meta description</th><th>Palabra clave y secundarias</th><th>Catalán</th></tr></thead><tbody>{''.join(rows)}</tbody></table></div></div></section>
-<section class="steps dark"><div class="wrap">{sec_head("Lo que falta", "Pasos para posicionar, en orden")}<div class="sgrid">{''.join(f'<div class="step"><div class="num">{i+1}</div><h3>{html.escape(a)}</h3><p>{html.escape(b)}</p></div>' for i, (a, b) in enumerate(todo))}</div></div></section>"""
-    css = "<style>.tbl{overflow-x:auto;background:#fff;border-radius:16px}.tbl table{border-collapse:collapse;width:100%;min-width:900px;font-size:.82rem}.tbl th{background:#1D3F40;color:#fff;text-align:left;padding:10px}.tbl td{padding:10px;border-bottom:1px solid rgba(29,63,64,.1);vertical-align:top}.tbl small{opacity:.7}code{font-size:.75rem;color:#0a8f91}</style>"
-    gp["wa"] = "Hola, tengo una consulta sobre la web de WA LAM."
+        for t in _links_out(x):
+            if t in inl and x["slug"] not in inl[t]:
+                inl[t].append(x["slug"])
+    st = lambda k: f'<span class="st st-{k}">{k}</span>'
+    def lab(slug):
+        return html.escape(plain(BYSLUG[slug]["nav"])) if slug in BYSLUG else slug
+    # 1 investigación
+    r1 = "".join(f"<tr><td><b>{lab(x['slug'])}</b></td><td>{html.escape(RESEARCH[x['slug']][0])}</td><td>{'<br>'.join(html.escape(t) for t in RESEARCH[x['slug']][1])}</td><td>{'<br>'.join(html.escape(t) for t in RESEARCH[x['slug']][2])}</td><td><span class='tag2'>OBS</span> {html.escape(RESEARCH[x['slug']][3])}</td><td><span class='tag2'>VOL</span> no disponible</td></tr>" for x in PAGES)
+    # 2 mapa
+    def hub(x):
+        return "Tratamientos" if x["group"] in ("motivo", "servicio") else ("Healthy Lifestyle Academy" if x["group"] == "academia" else "Menú principal")
+    r2 = []
+    for x in PAGES:
+        sl = x["slug"]; S = SEO[sl]
+        src = [hub(x)] + [lab(t) for t in inl[sl]] + [f"Magazín: {html.escape(unquote(b))}" for b in BLOG.get(sl, [])] + ([f"Página de reserva {html.escape(unquote(BOOKING[sl]))} (añadir enlace)"] if sl in BOOKING else [])
+        dst = [lab(t) for t in x.get("related", [])] + ["Botón: " + ("Inscripción" if x["group"] == "academia" else "WhatsApp / Reservar")]
+        r2.append(f"<tr><td><b>{html.escape(S['kw'])}</b><br><small>{html.escape(S['ca'])}</small></td><td><b>{lab(sl)}</b><br><code>{html.escape(unquote(_wixurl(sl)))}</code><br>{'<span class=tag2>REUTILIZA</span>' if sl in EXISTING else '<span class=tag2>NUEVA</span>'}<br><small>CA: <code>{html.escape(unquote(_wixurl(sl, 'ca')))}</code></small></td><td>{'<br>'.join(src)}</td><td>{'<br>'.join(dst)}</td></tr>")
+    red = "".join(f"<li><code>{html.escape(a)}</code> → <code>{html.escape(b)}</code>: {html.escape(c)}</li>" for a, b, c in REDIRECTS)
+    # 3 contenido propio
+    r3 = []
+    for x in PAGES:
+        pend = _pending(x)
+        has_steps = any(b["type"] == "steps" for b in x["blocks"])
+        r3.append(f"<tr><td><b>{lab(x['slug'])}</b></td><td>{fmt(x.get('pro_who', ''))}</td><td>{'Sí' if has_steps else 'En la ficha'}</td><td>{html.escape(SITE['street'])} (presencial) {'· formato de cada edición' if x['group'] == 'academia' else ''}</td><td>{'Inscripción' if x['group'] == 'academia' else 'WhatsApp y reserva online'}</td><td>{'Sí: «Qué dice la evidencia» separado de «Lo que ofrecemos»' if any(b['type'] == 'evidence' for b in x['blocks']) else 'Sin bloque de evidencia (servicio de bienestar o formación)'}</td><td><b>{len(pend)}</b><br><small>{html.escape(' · '.join(pend[:6]))}{' …' if len(pend) > 6 else ''}</small></td></tr>")
+    # 4 fichas Wix
+    cards = []
+    for x in PAGES:
+        sl = x["slug"]; S = SEO[sl]
+        types = {"home": "Datos de empresa de Wix (LocalBusiness) completados + WebSite. No duplicar con un segundo MedicalClinic.",
+                 "motivo": "MedicalWebPage (con about: MedicalCondition), BreadcrumbList, FAQPage",
+                 "servicio": "MedicalWebPage, Service, BreadcrumbList, FAQPage",
+                 "academia": "Course, BreadcrumbList, FAQPage; Event en cada edición (ya lo genera Wix Eventos)"}[x["group"]]
+        btn = plain(x.get("cta1", (tr("Escríbenos por WhatsApp"), ""))[0])
+        cards.append(f"""<details class="wix"><summary><b>{lab(sl)}</b> <code>{html.escape(unquote(_wixurl(sl)))}</code></summary>
+<table class="kv"><tr><th>URL (ES)</th><td><code>{html.escape(unquote(_wixurl(sl)))}</code> {'(ya existe)' if sl in EXISTING else '(crear)'}</td></tr>
+<tr><th>URL (CA)</th><td><code>{html.escape(unquote(_wixurl(sl, 'ca')))}</code> (Wix Multilingual)</td></tr>
+<tr><th>Título SEO</th><td>{html.escape(S['title'])} <small>({len(S['title'])} car.)</small></td></tr>
+<tr><th>Metadescripción</th><td>{html.escape(S['desc'])} <small>({len(S['desc'])} car.)</small></td></tr>
+<tr><th>Encabezado H1</th><td>{html.escape(plain(x['h1']))}</td></tr>
+<tr><th>Enlaces internos que salen</th><td>{html.escape(', '.join(lab(t) for t in _links_out(x)))}</td></tr>
+<tr><th>Enlaces que recibe</th><td>{html.escape(', '.join([lab(t) for t in inl[sl]] + [unquote(b) for b in BLOG.get(sl, [])]))}</td></tr>
+<tr><th>Botón principal</th><td>{html.escape(btn)}{' + Reservar online' if x['group'] != 'academia' else ''}</td></tr>
+<tr><th>Datos estructurados</th><td>{types}. JSON listo en <code>landings/schema/{sl}.json</code>. FAQPage solo si las preguntas se ven en la página.</td></tr>
+<tr><th>Cambios en Wix</th><td>{'Editar la página existente (no cambiar la URL).' if sl in EXISTING else 'Crear página hija de ' + ('Tratamientos' if x['group'] in ('motivo', 'servicio') else 'Academia') + ' con esa URL.'} Pegar título y descripción (Configuración SEO), H1 y texto como elementos nativos de Wix, marcado estructurado en SEO › Avanzado, imagen para redes og/{sl}.png.{' En la página de reserva ' + html.escape(unquote(BOOKING[sl])) + ': cambiar el título SEO a «Reservar…» y enlazar a esta página.' if sl in BOOKING else ''}</td></tr>
+<tr><th>Verificar tras publicar</th><td>Móvil · Inspección de URL e indexación en Search Console · canonical = URL de arriba · aparece en sitemap.xml · Rich Results Test · enlaces internos funcionan</td></tr></table></details>""")
+    # 5 fuera de la web
+    r5 = "".join(f"<tr><td><b>{html.escape(a)}</b></td><td>{html.escape(b)}</td><td>{st(c)}</td></tr>" for a, b, c in OFFPAGE)
+    r5b = "".join(f"<tr><td>{html.escape(q)}</td><td>{lab(sl)}<br><code>{html.escape(unquote(_wixurl(sl)))}</code></td></tr>" for sl, q in AI_PROMPTS)
+    # 6 medición
+    r6 = "".join(f"<tr><td><b>{html.escape(a)}</b></td><td>{html.escape(b)}</td><td>{html.escape(c)}</td><td>{st(d)}</td></tr>" for a, b, c, d in MEASURE)
+    r6b = "".join(f"<tr><td>{lab(x['slug'])}</td><td>{GOAL[x['group']]}</td><td>Impresiones, clics, CTR y posición de «{html.escape(SEO[x['slug']]['kw'])}»</td></tr>" for x in PAGES)
+    ask = "".join(f"<li>{html.escape(a)}</li>" for a in ASK)
+    states = {"verificado": sum(1 for *_, c in OFFPAGE if c == "verificado") + sum(1 for *_, d in MEASURE if d == "verificado"),
+              "preparado": len(PAGES), "pendiente": sum(1 for *_, c in OFFPAGE if c == "pendiente") + sum(1 for *_, d in MEASURE if d == "pendiente")}
+    gp = {"slug": "guia-seo", "group": "home", "title": "Plan SEO WA LAM", "desc": "", "h1": "Plan SEO", "wa": "Hola, tengo una consulta sobre la web de WA LAM."}
+    T = lambda h: f'<div class="tbl"><table>{h}</table></div>'
+    body = f"""<section class="hero"><div class="wrap" style="grid-template-columns:1fr"><div><span class="eyebrow">Plan SEO y visibilidad en IA</span><h1>Plan SEO de WA LAM</h1>
+<p class="lead">{len(PAGES)} páginas en castellano y catalán. Investigación, mapa de URL, contenido propio, fichas para Wix, trabajo fuera de la web y medición. Ninguna acción garantiza el primer puesto; este plan reúne lo que más influye.</p>
+<div class="btn-row"><span class="st st-preparado">preparado: {len(PAGES)} páginas</span><span class="st st-verificado">verificado: {states['verificado']} comprobaciones</span><span class="st st-pendiente">pendiente: {states['pendiente']} tareas</span></div></div></div></section>
+<nav class="toc"><div class="wrap"><span class="k">Fases</span><div class="chips"><a href="#f1">1 · Investigación</a><a href="#f2">2 · Mapa de URL</a><a href="#f3">3 · Contenido propio</a><a href="#f4">4 · Fichas Wix</a><a href="#f5">5 · Fuera de la web e IA</a><a href="#f6">6 · Medición</a><a href="#pido">Lo que te pido</a></div></div></nav>
+<section id="f1" style="background:#fff"><div class="wrap">{sec_head("Fase 1", "Investigación de búsquedas", OBS_NOTE + " Los volúmenes (VOL) no están disponibles sin Keyword Planner o Search Console.")}
+{T('<thead><tr><th>Página</th><th>Qué quiere encontrar</th><th>Términos en castellano</th><th>Términos en catalán</th><th>Resultados observados</th><th>Volumen</th></tr></thead><tbody>' + r1 + '</tbody>')}</div></section>
+<section id="f2" style="background:var(--piedra)"><div class="wrap">{sec_head("Fase 2", "Una URL principal por intención", "Se reutiliza la estructura que ya existe en Wix (Tratamientos y Academia). Acupuntura explica el servicio general; Pérdida de peso explica tu consulta con cambios alimentarios y acupuntura; Retiros reúne mindfulness, meditación y silencio en una sola página.")}
+{T('<thead><tr><th>Búsqueda objetivo</th><th>URL</th><th>Recibe enlaces de</th><th>Lleva al visitante a</th></tr></thead><tbody>' + ''.join(r2) + '</tbody>')}
+<div class="card" style="margin-top:20px"><h3>Redirecciones 301</h3><ul>{red}</ul><p>Si alguna URL existente cambia, crear la redirección en Wix › Configuración SEO › Redirecciones URL antes de borrar nada.</p></div></div></section>
+<section id="f3" style="background:#fff"><div class="wrap">{sec_head("Fase 3", "Información propia de WA LAM", "Quién atiende sale de tu currículum publicado y se enlaza en cada página. Los apellidos y números de colegiada quedan marcados hasta que los confirmes.")}
+{T('<thead><tr><th>Página</th><th>Quién atiende</th><th>Primera visita / programa</th><th>Dónde</th><th>Cómo reservar</th><th>Oferta frente a eficacia</th><th>Datos por confirmar</th></tr></thead><tbody>' + ''.join(r3) + '</tbody>')}</div></section>
+<section id="f4" style="background:var(--piedra)"><div class="wrap">{sec_head("Fase 4", "Ficha técnica de Wix por página", "Pulsa cada página para ver su ficha.")}{''.join(cards)}</div></section>
+<section id="f5" style="background:#fff"><div class="wrap">{sec_head("Fase 5", "Visibilidad fuera de las páginas")}
+{T('<thead><tr><th>Tarea</th><th>Detalle</th><th>Estado</th></tr></thead><tbody>' + r5 + '</tbody>')}
+<h3 style="color:var(--pet);margin:30px 0 10px">Preguntas para medir la presencia en respuestas de IA (sin mencionar WA LAM)</h3>
+{T('<thead><tr><th>Pregunta</th><th>Página que debería citarse</th></tr></thead><tbody>' + r5b + '</tbody>')}</div></section>
+<section id="f6" style="background:var(--piedra)"><div class="wrap">{sec_head("Fase 6", "Plan de medición")}
+{T('<thead><tr><th>Qué</th><th>Cómo</th><th>Cuándo / qué hace falta</th><th>Estado</th></tr></thead><tbody>' + r6 + '</tbody>')}
+<h3 style="color:var(--pet);margin:30px 0 10px">Objetivo por página</h3>
+{T('<thead><tr><th>Página</th><th>Objetivo</th><th>Search Console</th></tr></thead><tbody>' + r6b + '</tbody>')}</div></section>
+<section id="pido" style="background:#fff"><div class="wrap">{sec_head("Para seguir", "Lo que te pido")}<div class="card" style="max-width:900px;margin:0 auto"><ol style="padding-left:20px">{ask}</ol></div></div></section>"""
+    css = """<style>.tbl{overflow-x:auto;background:#fff;border-radius:16px;border:1px solid rgba(29,63,64,.1)}.tbl table{border-collapse:collapse;width:100%;min-width:980px;font-size:.8rem}
+.tbl th{background:#1D3F40;color:#fff;text-align:left;padding:10px;position:sticky;top:0}.tbl td{padding:10px;border-bottom:1px solid rgba(29,63,64,.1);vertical-align:top}
+.tbl small,.kv small{opacity:.7}code{font-size:.74rem;color:#0a8f91;word-break:break-all}.tag2{display:inline-block;font-size:.62rem;font-weight:800;letter-spacing:.05em;background:rgba(12,191,194,.18);border-radius:6px;padding:2px 6px;margin:2px 0}
+.st{display:inline-block;font-size:.75rem;font-weight:700;border-radius:999px;padding:5px 12px}.st-verificado{background:#0CBFC2;color:#1D3F40}.st-preparado{background:#fff;color:#1D3F40;border:1px solid #0CBFC2}.st-pendiente{background:#F2F1EE;color:#1D3F40;border:1px dashed #1D3F40}
+details.wix{background:#fff;border:1px solid rgba(29,63,64,.12);border-radius:14px;margin-bottom:10px;padding:0 18px}details.wix summary{cursor:pointer;padding:14px 0;color:#1D3F40}
+.kv{width:100%;border-collapse:collapse;font-size:.84rem;margin-bottom:14px}.kv th{width:190px;text-align:left;vertical-align:top;padding:8px;color:#1D3F40;background:#F2F1EE}.kv td{padding:8px;border-bottom:1px solid rgba(29,63,64,.08)}
+@media(max-width:640px){.kv th{width:110px}}</style>"""
     return head(gp).replace("</head>", css + "</head>") + nav(gp) + body + contact(gp) + JS + "</body></html>"
 
 
 def main():
-    out = OUT
+    global BYSLUG
+    for p in PAGES:
+        for b in p["blocks"]:
+            b["_id"] = slugify(b.get("h2", b["type"]))
+    if LANG == "ca":
+        PAGES[:] = [tr_deep(p) for p in PAGES]
+        for k in list(GROUPS):
+            GROUPS[k] = tr_deep(GROUPS[k])
+        for k in list(SEO):
+            SEO[k] = tr_deep(SEO[k])
+        SITE["reviewer_md"] = tr(SITE["reviewer_md"])
+        BYSLUG = {p["slug"]: p for p in PAGES}
+    out = OUT / "ca" if LANG == "ca" else OUT
     if PREVIEW:
-        out = Path(sys.argv[sys.argv.index("--preview") + 1]); out.mkdir(parents=True, exist_ok=True)
+        out = Path(sys.argv[sys.argv.index("--preview") + 1]) / ("ca" if LANG == "ca" else "")
+    out.mkdir(parents=True, exist_ok=True)
     for p in PAGES:
         (out / f"{p['slug']}.html").write_text(page(p), encoding="utf-8")
-    (out / "guia-seo.html").write_text(guide(), encoding="utf-8")
+    if LANG == "es":
+        (out / "guia-seo.html").write_text(guide(), encoding="utf-8")
     if not PREVIEW:
-        sd = OUT / "schema"; sd.mkdir(exist_ok=True)
+        sd = out / "schema"; sd.mkdir(exist_ok=True)
         for p in PAGES:
             (sd / f"{p['slug']}.json").write_text(json.dumps(schema(p), ensure_ascii=False, indent=2), encoding="utf-8")
         import csv
-        with open(OUT / "seo-wix.csv", "w", newline="", encoding="utf-8") as f:
+        with open(out / ("seo-wix-ca.csv" if LANG == "ca" else "seo-wix.csv"), "w", newline="", encoding="utf-8") as f:
             w = csv.writer(f); w.writerow(["url", "title", "meta_description", "h1", "palabra_clave", "secundarias", "catalan"])
             for p in PAGES:
                 S = SEO[p["slug"]]; w.writerow(["/" + p["slug"], S["title"], S["desc"], plain(p["h1"]), S["kw"], "; ".join(S["kws"]), S["ca"]])
@@ -632,7 +785,7 @@ def main():
     idx = {"slug": "index", "group": "home", "title": "WA LAM · Landing pages", "desc": "Índice de revisión.", "h1": "", "faq": []}
     doc = head(idx) + nav(idx) + f"""<section class="hero"><div class="wrap" style="grid-template-columns:1fr"><div>
 <span class="eyebrow">Revisión</span><h1>Landing pages WA LAM</h1><p class="lead">{len(PAGES)} páginas. Pulsa cualquiera para verla. Lo resaltado así: <span class="pend">dato pendiente</span> hay que completarlo antes de publicar.</p>
-<div class="btn-row"><a class="btn btn-tq" href="guia-seo.html" target="_self">Ver la guía SEO</a></div></div></div></section>
+<div class="btn-row"><a class="btn btn-tq" href="{"../" if LANG == "ca" else ""}guia-seo.html" target="_self">{"Pla SEO (castellà)" if LANG == "ca" else "Ver el plan SEO"}</a></div></div></div></section>
 <section style="background:#fff"><div class="wrap">{''.join(rows)}</div></section>""" + contact(dict(idx, wa="Hola, tengo una consulta sobre WA LAM.")) + JS + "</body></html>"
     (out / "index.html").write_text(doc, encoding="utf-8")
     print(f"{len(PAGES)} páginas + index.html + guia-seo.html en {out}")

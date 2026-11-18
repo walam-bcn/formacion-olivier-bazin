@@ -1,6 +1,6 @@
 # Landing pages WA LAM
 
-24 páginas con el mismo estilo que la landing de formación de Olivier Bazin: Poppins, verde petróleo `#1D3F40`, turquesa `#0CBFC2`, blanco y piedra `#F2F1EE`, con fondo de partículas en las secciones verdes.
+24 páginas (castellano y catalán, carpeta `ca/`) con el mismo estilo que la landing de formación de Olivier Bazin: Poppins, verde petróleo `#1D3F40`, turquesa `#0CBFC2`, blanco y piedra `#F2F1EE`, con fondo de partículas en las secciones verdes.
 
 Vista previa de todas las páginas: `landings/index.html` (o https://walam-bcn.github.io/formacion-olivier-bazin/landings/ una vez publicada en GitHub Pages).
 
@@ -41,7 +41,8 @@ Archivos para Wix: `seo-wix.csv` (URL, title, description, H1 y palabras clave),
 
 1. **Completar los datos resaltados** (recuadro turquesa discontinuo): nombre, titulación y número de colegiado del profesional, duración, precio, fechas, horarios y enlaces de inscripción. No los hemos inventado. En una web de salud, el nombre y la colegiación del profesional son lo que más pesa para Google (E-E-A-T) y para el paciente.
 2. **Revisar las URL y el enlace de reserva** en `tools/landings_content.py` → `SITE`. Ahora se usan `https://www.walambcn.com/<slug>` y `https://www.walambcn.com/book-online` (la URL por defecto de Wix Bookings).
-3. Volver a generar: `python3 tools/build_landings.py` (imágenes para redes: `node tools/make_og.js`).
+3. Volver a generar: `python3 tools/build_landings.py` y `python3 tools/build_landings.py --ca` (traducciones en `tools/i18n_ca.json`; imágenes para redes: `node tools/make_og.js`).
+4. Plan SEO completo (investigación, mapa de URL, fichas de Wix, fuera de la web, medición): `landings/guia-seo.html`.
 
 ## SEO: aviso importante
 

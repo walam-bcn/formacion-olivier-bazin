@@ -1,0 +1,194 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": [
+        "MedicalClinic",
+        "MedicalBusiness"
+      ],
+      "@id": "https://www.walambcn.com/#clinica",
+      "name": "WA LAM · Salud integrativa",
+      "url": "https://www.walambcn.com",
+      "telephone": "+34675716409",
+      "email": "contacto@walambcn.com",
+      "image": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/medicina-integrativa-barcelona.png",
+      "priceRange": "€€",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Carrer del Bisbe Sivilla, 44, local",
+        "postalCode": "08022",
+        "addressLocality": "Barcelona",
+        "addressRegion": "Cataluña",
+        "addressCountry": "ES"
+      },
+      "openingHours": [
+        "Mo-Fr 09:00-21:00"
+      ],
+      "founder": {
+        "@type": "Person",
+        "name": "Rosa",
+        "url": "https://www.walambcn.com/curriculum"
+      },
+      "foundingDate": "2004",
+      "areaServed": [
+        {
+          "@type": "Place",
+          "name": "Sarrià, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Sant Gervasi–Galvany, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Sant Gervasi–la Bonanova, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "les Tres Torres, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "el Putxet i el Farró, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Vallvidrera, el Tibidabo i les Planes, Barcelona"
+        },
+        {
+          "@type": "City",
+          "name": "Barcelona"
+        }
+      ],
+      "medicalSpecialty": [
+        "Physiotherapy",
+        "Musculoskeletal"
+      ],
+      "availableService": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Osteopatia a Sarrià–Sant Gervasi",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/osteopatia-sarria-sant-gervasi"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Fisioteràpia a Sarrià–Sant Gervasi",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/fisioterapia-sarria-sant-gervasi"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Pèrdua de pes a Sarrià–Sant Gervasi",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/perdua-de-pes"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Acupuntura com a suport per deixar de fumar",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/acupuntura-deixar-de-fumar"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Acupuntura i medicina tradicional xinesa",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/acupuntura-medicina-tradicional-xinesa"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "PNI i PNIE a Barcelona",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/pni-pnie-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Nutrició i salut intestinal",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/nutricio-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Cures postoperatòries i drenatge limfàtic manual",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/cures-postoperatories-drenatge-limfatic"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Massatges a Sarrià–Sant Gervasi",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/massatges-sarria-sant-gervasi"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Reflexologia a Sarrià–Sant Gervasi",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/reflexologia-podal"
+        }
+      ],
+      "sameAs": []
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.walambcn.com/ca/academia-vida-saludable-barcelona/formacio-medicina-tradicional-xinesa#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Inicio",
+          "item": "https://www.walambcn.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Academia",
+          "item": "https://www.walambcn.com/ca/academia-vida-saludable-barcelona"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Formació en medicina tradicional xinesa",
+          "item": "https://www.walambcn.com/ca/academia-vida-saludable-barcelona/formacio-medicina-tradicional-xinesa"
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.walambcn.com/ca/academia-vida-saludable-barcelona/formacio-medicina-tradicional-xinesa#webpage",
+      "url": "https://www.walambcn.com/ca/academia-vida-saludable-barcelona/formacio-medicina-tradicional-xinesa",
+      "name": "Formació en Medicina Tradicional Xinesa · Barcelona",
+      "description": "Formació en medicina tradicional xinesa a Barcelona amb enfocament crític i clínic: programa, calendari, professorat i matrícula.",
+      "inLanguage": "ca-ES",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "WA LAM",
+        "url": "https://www.walambcn.com"
+      },
+      "breadcrumb": {
+        "@id": "https://www.walambcn.com/ca/academia-vida-saludable-barcelona/formacio-medicina-tradicional-xinesa#breadcrumb"
+      },
+      "publisher": {
+        "@id": "https://www.walambcn.com/#clinica"
+      },
+      "lastReviewed": "2026-11-18",
+      "dateModified": "2026-11-18",
+      "keywords": "formació medicina tradicional xinesa Barcelona, curs MTC Barcelona, curs acupuntura Barcelona, estudiar medicina tradicional xinesa",
+      "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/formacion-medicina-tradicional-china.png",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".quick p",
+          "h1"
+        ]
+      }
+    },
+    {
+      "@type": "Course",
+      "@id": "https://www.walambcn.com/ca/academia-vida-saludable-barcelona/formacio-medicina-tradicional-xinesa#curso",
+      "name": "Formació en medicina tradicional xinesa",
+      "description": "Formació en medicina tradicional xinesa a Barcelona amb enfocament crític i clínic: programa, calendari, professorat i matrícula.",
+      "provider": {
+        "@type": "Organization",
+        "name": "WA LAM · Healthy Lifestyle Academy",
+        "url": "https://www.walambcn.com"
+      },
+      "inLanguage": "es",
+      "url": "https://www.walambcn.com/ca/academia-vida-saludable-barcelona/formacio-medicina-tradicional-xinesa"
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.walambcn.com/ca/academia-vida-saludable-barcelona/formacio-medicina-tradicional-xinesa#faq",
+      "mainEntity": []
+    }
+  ]
+}

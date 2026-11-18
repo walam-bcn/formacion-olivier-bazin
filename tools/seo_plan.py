@@ -1,0 +1,133 @@
+# -*- coding: utf-8 -*-
+"""Investigación, plan fuera de la web y medición. Fecha de observación: 18-11-2026.
+
+Tipos de dato:
+  OBS  = resultado observado en un buscador web NO geolocalizado (no es la página de resultados de Google en Barcelona)
+  VOL  = dato de volumen (no disponible: requiere Keyword Planner o Search Console)
+  EST  = estimación o criterio propio
+"""
+
+OBS_NOTE = ("Resultados observados el 18-11-2026 con un buscador web no geolocalizado. Sirven para ver qué tipo de páginas "
+            "compiten (directorios, clínicas, artículos), no son la posición real en Google desde Sarrià–Sant Gervasi.")
+
+# intención, búsquedas ES / CA, resultados observados
+RESEARCH = {
+    "medicina-integrativa-barcelona": ("Encontrar un centro de salud integrativa serio y saber si atiende su caso.",
+        ["medicina integrativa Barcelona", "centro medicina integrativa Sant Gervasi"], ["medicina integrativa Barcelona", "centre de medicina integrativa"],
+        "Directorios (Masquemedicos, Doctoralia, Topdoctors) y centros del Eixample. WA LAM no aparece en la búsqueda de marca «WA LAM Barcelona»."),
+    "dolor-persistente-cronico": ("Saber si su dolor de larga evolución se puede valorar y tratar sin solo fármacos.",
+        ["tratamiento dolor crónico Barcelona", "dolor lumbar crónico Sarrià", "fisioterapia dolor crónico"], ["dolor crònic Barcelona", "tractament dolor lumbar"],
+        "Topdoctors y Doctoralia (listados), Unidad del Dolor de Teknon y una clínica del dolor en Balmes 271 (Sarrià–Sant Gervasi)."),
+    "estres-ansiedad": ("Encontrar ayuda corporal y práctica para el estrés y la ansiedad.",
+        ["tratamiento estrés Barcelona", "acupuntura ansiedad Barcelona", "gestión del estrés Sant Gervasi"], ["estrès i ansietat Barcelona", "acupuntura ansietat"],
+        "No observado en esta ronda. Revisar en Search Console."),
+    "sueno-insomnio": ("Resolver problemas para dormir o despertares nocturnos.",
+        ["insomnio Sarrià", "problemas para dormir Sant Gervasi", "tratamiento insomnio Barcelona"], ["insomni Sarrià", "tractament insomni Sant Gervasi"],
+        "Doctoralia y Topdoctors, un consultorio de trastornos del sueño en Passeig de Sant Gervasi 55 y la Unitat del Son de Quirónsalud (página en catalán)."),
+    "salud-digestiva-microbiota": ("Entender y aliviar hinchazón, colon irritable o digestiones alteradas.",
+        ["hinchazón abdominal tratamiento Barcelona", "colon irritable Barcelona", "microbiota Barcelona"], ["inflor abdominal", "còlon irritable Barcelona"],
+        "No observado en esta ronda. El Magazín ya tiene artículos de microbiota que pueden enlazar aquí."),
+    "acompanamiento-fertilidad": ("Cuidarse durante la búsqueda de embarazo o un tratamiento de reproducción.",
+        ["acompañamiento fertilidad Barcelona", "acupuntura fertilidad Barcelona"], ["acompanyament fertilitat", "acupuntura fertilitat"], "No observado en esta ronda."),
+    "salud-mujer-menopausia": ("Gestionar síntomas de la perimenopausia y la menopausia.",
+        ["menopausia tratamiento natural Barcelona", "perimenopausia Barcelona"], ["menopausa Barcelona"], "No observado en esta ronda."),
+    "prevencion-longevidad": ("Anticiparse y cuidar la salud a largo plazo con un plan claro.",
+        ["medicina preventiva Barcelona", "longevidad Barcelona"], ["medicina preventiva Barcelona", "longevitat"], "No observado en esta ronda."),
+    "osteopatia-sarria-sant-gervasi": ("Reservar con un osteópata cerca de casa.",
+        ["osteópata Sarrià Sant Gervasi", "osteopatía visceral Barcelona", "osteópata Sant Gervasi"], ["osteòpata Sarrià Sant Gervasi", "osteòpata Sant Gervasi"],
+        "Perfiles de Doctoralia, Fresha y Treatwell, y clínicas locales (OsteoSarrià, Clínica Heilsa, Espai Salut Sant Gervasi)."),
+    "fisioterapia-sarria-sant-gervasi": ("Reservar fisioterapia cerca de casa.",
+        ["fisioterapeuta Sant Gervasi", "fisioterapia Sarrià"], ["fisioterapeuta Sant Gervasi"],
+        "Masquemedicos, perfiles de Doctoralia, Fresha y Healthplan Spain."),
+    "perdida-de-peso-sarria-sant-gervasi": ("Perder peso con ayuda profesional, incluida la acupuntura.",
+        ["acupuntura para perder peso Barcelona", "perder peso Sarrià Sant Gervasi"], ["acupuntura per perdre pes Barcelona", "perdre pes Sant Gervasi"],
+        "Cronoshare, perfiles de Doctoralia, Masquemedicos y artículos divulgativos (Vitónica) que cuestionan la eficacia."),
+    "dejar-de-fumar-acupuntura": ("Encontrar apoyo para dejar de fumar con acupuntura.",
+        ["acupuntura para dejar de fumar Barcelona"], ["acupuntura per deixar de fumar Barcelona"],
+        "Sanitas, Cronoshare, la revisión Cochrane en castellano y artículos de revistas de enfermería."),
+    "acupuntura-medicina-tradicional-china": ("Conocer y reservar acupuntura en la zona.",
+        ["acupuntura Barcelona", "acupuntura Sarrià Sant Gervasi"], ["acupuntura Barcelona", "acupuntura Sant Gervasi"], "No observado en esta ronda."),
+    "pni-pnie-barcelona": ("Encontrar una consulta de PNI.",
+        ["PNI Barcelona", "psiconeuroinmunología Barcelona"], ["PNI Barcelona", "psiconeuroimmunologia"],
+        "Perfiles de Doctoralia (PNI en Barcelona, no en Sant Gervasi) y directorios de psicología."),
+    "nutricion-salud-intestinal": ("Pautas de alimentación para problemas digestivos.",
+        ["nutrición digestiva Barcelona", "dieta FODMAP Barcelona"], ["nutrició digestiva Barcelona"], "No observado en esta ronda."),
+    "cuidados-postoperatorios-drenaje-linfatico": ("Saber cuándo empezar el drenaje tras una cirugía y reservar.",
+        ["drenaje linfático postoperatorio Sarrià", "cuidados postoperatorios Barcelona"], ["drenatge limfàtic postoperatori Sarrià"],
+        "Fresha, Treatwell y Topdoctors (listados), y artículos del blog de Doctoralia."),
+    "masajes-sarria-sant-gervasi": ("Reservar un masaje cerca.", ["masaje Sarrià", "masaje descontracturante Sant Gervasi"], ["massatge Sarrià"], "No observado en esta ronda."),
+    "reflexologia-sarria-sant-gervasi": ("Reservar una sesión de reflexología.", ["reflexología podal Barcelona"], ["reflexologia podal Barcelona"], "No observado en esta ronda."),
+    "curso-mindfulness-mbsr-barcelona": ("Inscribirse en un curso MBSR de 8 semanas.",
+        ["curso MBSR Barcelona", "curso mindfulness Barcelona"], ["curs MBSR Barcelona", "curs mindfulness Barcelona"],
+        "Rankings de Psicología y Mente, Centre de Mindfulness de Barcelona (Gràcia), Mindfulme, esMindfulness, Quirónsalud Teknon y UNED."),
+    "yoga-particular-grupos-reducidos": ("Clases de yoga adaptadas cerca.", ["yoga particular Barcelona", "yoga Sarrià"], ["ioga particular Barcelona"], "No observado en esta ronda."),
+    "qigong-barcelona": ("Clases de qigong.", ["qigong Barcelona"], ["qigong Barcelona"], "No observado en esta ronda."),
+    "formacion-medicina-tradicional-china": ("Estudiar MTC.", ["formación MTC Barcelona"], ["formació MTC Barcelona"], "No observado en esta ronda."),
+    "retiros-mindfulness-meditacion-silencio": ("Encontrar un retiro de mindfulness o meditación, a menudo en silencio.",
+        ["retiro de mindfulness", "retiro de meditación en silencio Cataluña", "retiro de silencio"], ["recés de mindfulness", "recés de meditació en silenci"],
+        "Plataformas de retiros (retreat.guru, BookRetreats, Inspyria) y organizadores locales (Espai Sati)."),
+    "vacaciones-con-sentido": ("Un viaje de salud con aprendizaje.", ["retiro de salud Bali", "vacaciones con sentido"], ["recés de salut Bali"], "No observado en esta ronda."),
+}
+
+# Preguntas para medir visibilidad en ChatGPT, Perplexity, Gemini y AI Overviews (sin mencionar WA LAM)
+AI_PROMPTS = [
+    ("osteopatia-sarria-sant-gervasi", "¿Qué osteópata me recomiendas en Sarrià–Sant Gervasi, Barcelona, que haga osteopatía visceral?"),
+    ("osteopatia-sarria-sant-gervasi", "Recomana'm un osteòpata a Sant Gervasi, Barcelona."),
+    ("dolor-persistente-cronico", "Tengo dolor lumbar crónico en Barcelona y las pruebas salen bien. ¿Dónde pueden valorarlo de forma integrativa?"),
+    ("estres-ansiedad", "¿Dónde puedo hacer acupuntura para la ansiedad en la zona alta de Barcelona?"),
+    ("sueno-insomnio", "¿Qué opciones hay en Sant Gervasi para tratar el insomnio sin fármacos?"),
+    ("sueno-insomnio", "On puc tractar l'insomni a Sarrià–Sant Gervasi?"),
+    ("perdida-de-peso-sarria-sant-gervasi", "¿Funciona la acupuntura para perder peso? ¿Dónde la ofrecen en Barcelona junto con cambios en la alimentación?"),
+    ("dejar-de-fumar-acupuntura", "¿Sirve la acupuntura para dejar de fumar? ¿Hay algún centro en Barcelona que la ofrezca con información honesta?"),
+    ("cuidados-postoperatorios-drenaje-linfatico", "¿Dónde hacen drenaje linfático postoperatorio en Sarrià, Barcelona?"),
+    ("pni-pnie-barcelona", "¿Qué es la PNI y dónde hay una consulta de PNI en Sant Gervasi?"),
+    ("salud-digestiva-microbiota", "Tengo hinchazón y colon irritable. ¿Hay algún centro integrativo en Barcelona que trabaje el eje intestino-cerebro?"),
+    ("curso-mindfulness-mbsr-barcelona", "¿Dónde puedo hacer un curso MBSR de 8 semanas en Barcelona?"),
+    ("retiros-mindfulness-meditacion-silencio", "Busco un retiro de meditación en silencio cerca de Barcelona organizado por profesionales sanitarios."),
+    ("medicina-integrativa-barcelona", "¿Qué centros de medicina integrativa serios hay en Barcelona, en Sarrià–Sant Gervasi?"),
+    ("vacaciones-con-sentido", "Busco un retiro de salud en Bali guiado por profesionales sanitarios de Barcelona."),
+]
+
+# Fuera de la web: (tarea, detalle, estado)  estado: preparado | verificado | pendiente
+OFFPAGE = [
+    ("Datos de contacto en la web", "Contacto y datos de empresa de Wix coinciden: C/ Bisbe Sivilla 44, local, 08022 Barcelona · +34 675 716 409 · contacto@walambcn.com · L–V 9–21 h.", "verificado"),
+    ("Enlaces a redes en el pie de la web", "Apuntan a Facebook, Instagram y LinkedIn de Wix Studio (plantilla), no a los perfiles de WA LAM. Sustituirlos por los perfiles reales en el editor de Wix.", "pendiente"),
+    ("Google Business Profile", "No tengo acceso a la ficha. Revisar: nombre exacto «WA LAM», categoría principal (p. ej. «Centro de medicina alternativa» u «Osteópata») y secundarias (acupuntor, fisioterapeuta, centro de meditación), dirección idéntica a la web, horario, servicios con los mismos nombres que las páginas, enlace de cada servicio a su URL, fotos reales del centro y de Rosa, y respuestas a todas las reseñas.", "pendiente"),
+    ("Mapa en la web", "La web no enlaza a Google Maps. Añadir el mapa de la ficha de Google en Contacto y el enlace en el pie.", "pendiente"),
+    ("Directorios sanitarios", "En las búsquedas observadas dominan Doctoralia, Topdoctors, Fresha y Treatwell. Crear o completar el perfil de Rosa en Doctoralia (y Topdoctors si encaja), con el mismo nombre, dirección y teléfono y enlace a la página de cada servicio.", "pendiente"),
+    ("Currículum público", "La página /curriculum incluye, en «Otras formaciones», reiki, terapia de vidas pasadas, astrología, numerología y chamanismo. En una web de salud (YMYL) esto resta credibilidad ante Google, ante las IA y ante pacientes que buscan un enfoque clínico. Recomendación: retirar ese bloque o moverlo fuera del currículum enlazado desde las páginas de tratamiento.", "pendiente"),
+    ("Páginas de reserva con lenguaje no clínico", "Varias páginas de reserva de Wix usan títulos como «sanación», «reprogramación celular» o «energía». Revisar sus títulos y descripciones SEO o desindexar las que no quieras posicionar.", "pendiente"),
+    ("Cifras de «Sobre mí»", "La página muestra «+61.000 clientes» y «más de 2.000 pacientes al año». Revisar que sean coherentes y defendibles.", "pendiente"),
+    ("Acceso de Google y de las IA", "robots.txt permite todos los rastreadores (User-agent: * Allow: /). Googlebot, OAI-SearchBot, GPTBot y PerplexityBot reciben la página completa (HTTP 200, texto en el HTML) en la portada, Tratamientos y Retiros.", "verificado"),
+    ("Sitemap", "https://www.walambcn.com/sitemap.xml existe, lo genera Wix e incluye páginas, reservas, eventos y Magazín. Las páginas nuevas aparecerán al publicarse; comprobarlo después.", "verificado"),
+]
+
+# Medición: (qué, cómo, cuándo/qué hace falta, estado)
+MEASURE = [
+    ("Títulos, descripciones, H1 únicos y enlaces internos", "Revisión automática de los HTML generados", "Antes de publicar", "verificado"),
+    ("Datos estructurados válidos", "JSON-LD validado como JSON en los HTML; validar además en el Rich Results Test de Google con la URL publicada", "Antes (JSON) y después (Google)", "preparado"),
+    ("Versión móvil", "Sin desplazamiento horizontal a 390 px en los HTML generados; repetir en Wix publicado", "Antes y después", "preparado"),
+    ("Indexación de cada URL", "Search Console › Inspección de URL › Solicitar indexación", "Web en directo + acceso a Search Console", "pendiente"),
+    ("Canonical correcta", "Ver código fuente de la página publicada: la canonical debe ser la URL de la tabla (sin parámetros)", "Web en directo", "pendiente"),
+    ("Redirección 301", f"/tratamientos-sarrià-sant-gervasi-barcelona/medicina-integrativa-barcelona → / (Wix › SEO › Redirecciones URL)", "Web en directo", "pendiente"),
+    ("Impresiones y clics por página", "Search Console › Rendimiento › filtro por página", "Search Console (28 días tras publicar)", "pendiente"),
+    ("Consultas de marca y sin marca", "Search Console › Rendimiento › consultas que contienen / no contienen «wa lam» o «walam»", "Search Console", "pendiente"),
+    ("Clics a WhatsApp", "Evento de clic en enlaces wa.me (Wix Analytics o Google Analytics 4 / Tag Manager)", "Analítica configurada", "pendiente"),
+    ("Reservas e inscripciones por página", "Wix Bookings y Eventos: origen de la reserva; en GA4, conversión «reserva» con la página de entrada", "Analítica configurada", "pendiente"),
+    ("Presencia en respuestas de IA", "Hacer cada mes las preguntas de la lista en ChatGPT, Perplexity, Gemini y Google (AI Overviews). Anotar si aparece WA LAM y qué URL cita", "Web en directo (mensual)", "pendiente"),
+    ("Posición en Google desde la zona", "Búsqueda en modo incógnito desde Sant Gervasi o con una herramienta de seguimiento local", "Web en directo", "pendiente"),
+]
+
+# Objetivo principal por página (para medir)
+GOAL = {"academia": "Inscripciones", "servicio": "Reservas y clics a WhatsApp", "motivo": "Clics a WhatsApp y primeras visitas", "home": "Clics a WhatsApp y visitas a Tratamientos"}
+
+ASK = [
+    "Exportación de Search Console (Rendimiento › Consultas y Páginas, últimos 16 meses, en CSV) para saber qué búsquedas ya muestran WA LAM.",
+    "Tus apellidos y número de colegiada (Col·legi de Fisioterapeutes de Catalunya), y si quieres que figure alguna otra colegiación.",
+    "Nombre y número de colegiada de la fisioterapeuta.",
+    "Nombre de la psicóloga y coach, y si quieres una página propia para su consulta.",
+    "Acceso o capturas de la ficha de Google Business Profile.",
+    "Confirmar qué incluyen los cuidados postoperatorios además del drenaje, y qué cirugías atendéis.",
+    "Confirmar la primera consulta y el seguimiento de Pérdida de peso, y si ofreces TCC-I para el insomnio.",
+    "Decidir qué hacer con «Otras formaciones» del currículum y con las páginas de reserva de lenguaje no clínico.",
+]

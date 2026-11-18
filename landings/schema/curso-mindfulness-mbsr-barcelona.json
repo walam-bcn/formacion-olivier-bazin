@@ -15,10 +15,21 @@
       "priceRange": "€€",
       "address": {
         "@type": "PostalAddress",
+        "streetAddress": "Carrer del Bisbe Sivilla, 44, local",
+        "postalCode": "08022",
         "addressLocality": "Barcelona",
         "addressRegion": "Cataluña",
         "addressCountry": "ES"
       },
+      "openingHours": [
+        "Mo-Fr 09:00-21:00"
+      ],
+      "founder": {
+        "@type": "Person",
+        "name": "Rosa",
+        "url": "https://www.walambcn.com/curriculum"
+      },
+      "foundingDate": "2004",
       "areaServed": [
         {
           "@type": "Place",
@@ -57,59 +68,59 @@
         {
           "@type": "MedicalTherapy",
           "name": "Osteopatía en Sarrià–Sant Gervasi",
-          "url": "https://www.walambcn.com/osteopatia-sarria-sant-gervasi"
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/osteopatia-sarria-sant-gervasi"
         },
         {
           "@type": "MedicalTherapy",
           "name": "Fisioterapia en Sarrià–Sant Gervasi",
-          "url": "https://www.walambcn.com/fisioterapia-sarria-sant-gervasi"
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/fisioterapia-sarria-sant-gervasi"
         },
         {
           "@type": "MedicalTherapy",
           "name": "Pérdida de peso en Sarrià–Sant Gervasi",
-          "url": "https://www.walambcn.com/perdida-de-peso-sarria-sant-gervasi"
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/perdida-de-peso"
         },
         {
           "@type": "MedicalTherapy",
           "name": "Acupuntura como apoyo para dejar de fumar",
-          "url": "https://www.walambcn.com/dejar-de-fumar-acupuntura"
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/acupuntura-dejar-de-fumar"
         },
         {
           "@type": "MedicalTherapy",
           "name": "Acupuntura y medicina tradicional china",
-          "url": "https://www.walambcn.com/acupuntura-medicina-tradicional-china"
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/acupuntura-medicina-tradicional-china"
         },
         {
           "@type": "MedicalTherapy",
           "name": "PNI y PNIE en Barcelona",
-          "url": "https://www.walambcn.com/pni-pnie-barcelona"
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/pni-pnie-barcelona"
         },
         {
           "@type": "MedicalTherapy",
           "name": "Nutrición y salud intestinal",
-          "url": "https://www.walambcn.com/nutricion-salud-intestinal"
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/nutricion-barcelona"
         },
         {
           "@type": "MedicalTherapy",
-          "name": "Drenaje linfático manual postoperatorio",
-          "url": "https://www.walambcn.com/drenaje-linfatico-postoperatorio"
+          "name": "Cuidados postoperatorios y drenaje linfático manual",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/cuidados-postoperatorios-drenaje-linfatico"
         },
         {
           "@type": "MedicalTherapy",
           "name": "Masajes en Sarrià–Sant Gervasi",
-          "url": "https://www.walambcn.com/masajes-sarria-sant-gervasi"
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/masajes-sarria-sant-gervasi"
         },
         {
           "@type": "MedicalTherapy",
           "name": "Reflexología en Sarrià–Sant Gervasi",
-          "url": "https://www.walambcn.com/reflexologia-sarria-sant-gervasi"
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/reflexologia-podal"
         }
       ],
       "sameAs": []
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://www.walambcn.com/curso-mindfulness-mbsr-barcelona#breadcrumb",
+      "@id": "https://www.walambcn.com/academia-vida-saludable-barcelona/formaci%C3%B3n-mindfulness#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -121,20 +132,20 @@
           "@type": "ListItem",
           "position": 2,
           "name": "Academia",
-          "item": "https://www.walambcn.com/healthy-lifestyle-academy"
+          "item": "https://www.walambcn.com/academia-vida-saludable-barcelona"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Curso de mindfulness MBSR de 8 semanas en Barcelona",
-          "item": "https://www.walambcn.com/curso-mindfulness-mbsr-barcelona"
+          "item": "https://www.walambcn.com/academia-vida-saludable-barcelona/formaci%C3%B3n-mindfulness"
         }
       ]
     },
     {
       "@type": "WebPage",
-      "@id": "https://www.walambcn.com/curso-mindfulness-mbsr-barcelona#webpage",
-      "url": "https://www.walambcn.com/curso-mindfulness-mbsr-barcelona",
+      "@id": "https://www.walambcn.com/academia-vida-saludable-barcelona/formaci%C3%B3n-mindfulness#webpage",
+      "url": "https://www.walambcn.com/academia-vida-saludable-barcelona/formaci%C3%B3n-mindfulness",
       "name": "Curso de Mindfulness MBSR 8 semanas en Barcelona",
       "description": "Curso MBSR de 8 semanas en Barcelona: programa oficial de reducción del estrés basado en mindfulness. Próxima edición, horarios, precio e inscripción.",
       "inLanguage": "es-ES",
@@ -144,7 +155,7 @@
         "url": "https://www.walambcn.com"
       },
       "breadcrumb": {
-        "@id": "https://www.walambcn.com/curso-mindfulness-mbsr-barcelona#breadcrumb"
+        "@id": "https://www.walambcn.com/academia-vida-saludable-barcelona/formaci%C3%B3n-mindfulness#breadcrumb"
       },
       "publisher": {
         "@id": "https://www.walambcn.com/#clinica"
@@ -189,7 +200,7 @@
     },
     {
       "@type": "Course",
-      "@id": "https://www.walambcn.com/curso-mindfulness-mbsr-barcelona#curso",
+      "@id": "https://www.walambcn.com/academia-vida-saludable-barcelona/formaci%C3%B3n-mindfulness#curso",
       "name": "Curso de mindfulness MBSR de 8 semanas en Barcelona",
       "description": "Curso MBSR de 8 semanas en Barcelona: programa oficial de reducción del estrés basado en mindfulness. Próxima edición, horarios, precio e inscripción.",
       "provider": {
@@ -198,11 +209,11 @@
         "url": "https://www.walambcn.com"
       },
       "inLanguage": "es",
-      "url": "https://www.walambcn.com/curso-mindfulness-mbsr-barcelona"
+      "url": "https://www.walambcn.com/academia-vida-saludable-barcelona/formaci%C3%B3n-mindfulness"
     },
     {
       "@type": "FAQPage",
-      "@id": "https://www.walambcn.com/curso-mindfulness-mbsr-barcelona#faq",
+      "@id": "https://www.walambcn.com/academia-vida-saludable-barcelona/formaci%C3%B3n-mindfulness#faq",
       "mainEntity": [
         {
           "@type": "Question",

@@ -1,0 +1,245 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": [
+        "MedicalClinic",
+        "MedicalBusiness"
+      ],
+      "@id": "https://www.walambcn.com/#clinica",
+      "name": "WA LAM · Salud integrativa",
+      "url": "https://www.walambcn.com",
+      "telephone": "+34675716409",
+      "email": "contacto@walambcn.com",
+      "image": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/medicina-integrativa-barcelona.png",
+      "priceRange": "€€",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Carrer del Bisbe Sivilla, 44, local",
+        "postalCode": "08022",
+        "addressLocality": "Barcelona",
+        "addressRegion": "Cataluña",
+        "addressCountry": "ES"
+      },
+      "openingHours": [
+        "Mo-Fr 09:00-21:00"
+      ],
+      "founder": {
+        "@type": "Person",
+        "name": "Rosa",
+        "url": "https://www.walambcn.com/curriculum"
+      },
+      "foundingDate": "2004",
+      "areaServed": [
+        {
+          "@type": "Place",
+          "name": "Sarrià, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Sant Gervasi–Galvany, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Sant Gervasi–la Bonanova, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "les Tres Torres, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "el Putxet i el Farró, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Vallvidrera, el Tibidabo i les Planes, Barcelona"
+        },
+        {
+          "@type": "City",
+          "name": "Barcelona"
+        }
+      ],
+      "medicalSpecialty": [
+        "Physiotherapy",
+        "Musculoskeletal"
+      ],
+      "availableService": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Osteopatia a Sarrià–Sant Gervasi",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/osteopatia-sarria-sant-gervasi"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Fisioteràpia a Sarrià–Sant Gervasi",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/fisioterapia-sarria-sant-gervasi"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Pèrdua de pes a Sarrià–Sant Gervasi",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/perdua-de-pes"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Acupuntura com a suport per deixar de fumar",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/acupuntura-deixar-de-fumar"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Acupuntura i medicina tradicional xinesa",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/acupuntura-medicina-tradicional-xinesa"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "PNI i PNIE a Barcelona",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/pni-pnie-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Nutrició i salut intestinal",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/nutricio-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Cures postoperatòries i drenatge limfàtic manual",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/cures-postoperatories-drenatge-limfatic"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Massatges a Sarrià–Sant Gervasi",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/massatges-sarria-sant-gervasi"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Reflexologia a Sarrià–Sant Gervasi",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/reflexologia-podal"
+        }
+      ],
+      "sameAs": []
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.walambcn.com/ca/academia-vida-saludable-barcelona/formacio-mindfulness#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Inicio",
+          "item": "https://www.walambcn.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Academia",
+          "item": "https://www.walambcn.com/ca/academia-vida-saludable-barcelona"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Curs de mindfulness MBSR de 8 setmanes a Barcelona",
+          "item": "https://www.walambcn.com/ca/academia-vida-saludable-barcelona/formacio-mindfulness"
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.walambcn.com/ca/academia-vida-saludable-barcelona/formacio-mindfulness#webpage",
+      "url": "https://www.walambcn.com/ca/academia-vida-saludable-barcelona/formacio-mindfulness",
+      "name": "Curs de Mindfulness MBSR de 8 setmanes a Barcelona",
+      "description": "Curs MBSR de 8 setmanes a Barcelona: programa oficial de reducció de l'estrès basat en mindfulness. Propera edició, horaris, preu i inscripció.",
+      "inLanguage": "ca-ES",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "WA LAM",
+        "url": "https://www.walambcn.com"
+      },
+      "breadcrumb": {
+        "@id": "https://www.walambcn.com/ca/academia-vida-saludable-barcelona/formacio-mindfulness#breadcrumb"
+      },
+      "publisher": {
+        "@id": "https://www.walambcn.com/#clinica"
+      },
+      "lastReviewed": "2026-11-18",
+      "dateModified": "2026-11-18",
+      "keywords": "curs MBSR Barcelona, curs mindfulness Barcelona, MBSR 8 setmanes, mindfulness reducció de l'estrès, curs mindfulness presencial Barcelona",
+      "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/curso-mindfulness-mbsr-barcelona.png",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".quick p",
+          "h1"
+        ]
+      },
+      "citation": [
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Mindfulness-Based Stress Reduction vs Escitalopram for the Treatment of Adults With Anxiety Disorders: A Randomized Clinical Trial",
+          "url": "https://doi.org/10.1001/jamapsychiatry.2022.3679",
+          "sameAs": "https://doi.org/10.1001/jamapsychiatry.2022.3679"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Meditation Programs for Psychological Stress and Well-being: A Systematic Review and Meta-analysis",
+          "url": "https://doi.org/10.1001/jamainternmed.2013.13018",
+          "sameAs": "https://doi.org/10.1001/jamainternmed.2013.13018"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Effect of Mindfulness-Based Stress Reduction vs Cognitive Behavioral Therapy or Usual Care on Back Pain and Functional Limitations in Adults With Chronic Low Back Pain: A Randomized Clinical Trial",
+          "url": "https://doi.org/10.1001/jama.2016.2323",
+          "sameAs": "https://doi.org/10.1001/jama.2016.2323"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Noninvasive Treatments for Acute, Subacute, and Chronic Low Back Pain: A Clinical Practice Guideline From the American College of Physicians",
+          "url": "https://doi.org/10.7326/M16-2367",
+          "sameAs": "https://doi.org/10.7326/M16-2367"
+        }
+      ]
+    },
+    {
+      "@type": "Course",
+      "@id": "https://www.walambcn.com/ca/academia-vida-saludable-barcelona/formacio-mindfulness#curso",
+      "name": "Curs de mindfulness MBSR de 8 setmanes a Barcelona",
+      "description": "Curs MBSR de 8 setmanes a Barcelona: programa oficial de reducció de l'estrès basat en mindfulness. Propera edició, horaris, preu i inscripció.",
+      "provider": {
+        "@type": "Organization",
+        "name": "WA LAM · Healthy Lifestyle Academy",
+        "url": "https://www.walambcn.com"
+      },
+      "inLanguage": "es",
+      "url": "https://www.walambcn.com/ca/academia-vida-saludable-barcelona/formacio-mindfulness"
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.walambcn.com/ca/academia-vida-saludable-barcelona/formacio-mindfulness#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Necessito experiència prèvia en meditació?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. El programa està dissenyat per a persones sense experiència."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quant de temps cal practicar a casa?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Entre 30 i 45 minuts al dia, amb àudios guiats. És una part essencial del programa."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "És el mateix que una classe de relaxació?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. La relaxació pot aparèixer, però no n'és l'objectiu. L'MBSR entrena l'atenció i la manera de relacionar-te amb l'experiència, inclosa la incòmoda."
+          }
+        }
+      ]
+    }
+  ]
+}

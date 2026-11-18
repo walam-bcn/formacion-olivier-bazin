@@ -139,13 +139,14 @@ SEO = {
         "quick": "La consulta de nutrición intestinal adapta la alimentación a tus síntomas digestivos con cambios progresivos. En el colon irritable, la dieta baja en FODMAP es la intervención dietética más respaldada, siempre guiada y con reintroducción para no restringir más de lo necesario.",
         "entity": ("MedicalTherapy", "Nutrición clínica"),
     },
-    "drenaje-linfatico-postoperatorio": {
+    "cuidados-postoperatorios-drenaje-linfatico": {
         "kw": "drenaje linfático postoperatorio Barcelona",
+        "kw2": "cuidados postoperatorios Sarrià",
         "kws": ["drenaje linfático manual Barcelona", "drenaje después de liposucción", "drenaje postoperatorio Sarrià", "cuándo empezar drenaje linfático"],
         "ca": "drenatge limfàtic postoperatori Barcelona",
-        "title": "Drenaje linfático postoperatorio en Barcelona",
-        "desc": "Drenaje linfático manual postoperatorio en Sarrià–Sant Gervasi, Barcelona: qué cirugías atendemos, cuándo empezar y quién te trata. Consulta tu caso.",
-        "quick": "El drenaje linfático manual es una técnica suave y lenta que se usa tras algunas cirugías para mejorar el confort y el edema. El momento de empezar depende de la intervención y de las indicaciones de tu cirujano; escríbenos con esa información antes de reservar.",
+        "title": "Cuidados postoperatorios y drenaje linfático | WA LAM",
+        "desc": "Cuidados postoperatorios y drenaje linfático manual en Sarrià–Sant Gervasi, Barcelona: qué cirugías atendemos, cuándo empezar y cómo reservar.",
+        "quick": "En WA LAM ofrecemos cuidados postoperatorios y drenaje linfático manual. El drenaje es una técnica suave y lenta que se usa tras algunas cirugías para mejorar el confort y el edema. El momento de empezar depende de la intervención y de las indicaciones de tu cirujano; escríbenos con esa información antes de reservar.",
         "entity": ("MedicalTherapy", "Drenaje linfático manual"),
     },
     "masajes-sarria-sant-gervasi": {
@@ -224,3 +225,87 @@ SEO = {
 
 # Barrios del distrito (SEO local)
 BARRIOS = ["Sarrià", "Sant Gervasi–Galvany", "Sant Gervasi–la Bonanova", "les Tres Torres", "el Putxet i el Farró", "Vallvidrera, el Tibidabo i les Planes"]
+
+# URL principal en Wix por intención (se reutiliza la estructura existente)
+H = "tratamientos-sarrià-sant-gervasi-barcelona"
+A = "academia-vida-saludable-barcelona"
+URLS = {
+    "medicina-integrativa-barcelona": "",
+    "dolor-persistente-cronico": f"{H}/dolor-persistente-cronico",
+    "estres-ansiedad": f"{H}/estres-ansiedad",
+    "sueno-insomnio": f"{H}/sueno-insomnio",
+    "salud-digestiva-microbiota": f"{H}/salud-digestiva-microbiota",
+    "acompanamiento-fertilidad": f"{H}/acompanamiento-fertilidad",
+    "salud-mujer-menopausia": f"{H}/salud-mujer-menopausia",
+    "prevencion-longevidad": f"{H}/prevencion-longevidad",
+    "osteopatia-sarria-sant-gervasi": f"{H}/osteopatia-sarria-sant-gervasi",
+    "fisioterapia-sarria-sant-gervasi": f"{H}/fisioterapia-sarria-sant-gervasi",
+    "perdida-de-peso-sarria-sant-gervasi": f"{H}/perdida-de-peso",
+    "dejar-de-fumar-acupuntura": f"{H}/acupuntura-dejar-de-fumar",
+    "acupuntura-medicina-tradicional-china": f"{H}/acupuntura-medicina-tradicional-china",
+    "pni-pnie-barcelona": f"{H}/pni-pnie-barcelona",
+    "nutricion-salud-intestinal": f"{H}/nutricion-barcelona",
+    "cuidados-postoperatorios-drenaje-linfatico": f"{H}/cuidados-postoperatorios-drenaje-linfatico",
+    "masajes-sarria-sant-gervasi": f"{H}/masajes-sarria-sant-gervasi",
+    "reflexologia-sarria-sant-gervasi": f"{H}/reflexologia-podal",
+    "curso-mindfulness-mbsr-barcelona": f"{A}/formación-mindfulness",
+    "yoga-particular-grupos-reducidos": f"{A}/yoga",
+    "qigong-barcelona": f"{A}/qigong",
+    "formacion-medicina-tradicional-china": f"{A}/formacion-medicina-tradicional-china",
+    "retiros-mindfulness-meditacion-silencio": f"{A}/retiros",
+    "vacaciones-con-sentido": f"{A}/vacaciones-con-sentido",
+    "tratamientos": H,
+    "healthy-lifestyle-academy": A,
+}
+# Estado de cada URL: reutiliza (ya existe en el sitemap) o nueva
+EXISTING = {"medicina-integrativa-barcelona", "nutricion-salud-intestinal", "curso-mindfulness-mbsr-barcelona",
+            "retiros-mindfulness-meditacion-silencio", "vacaciones-con-sentido", "tratamientos", "healthy-lifestyle-academy"}
+# Redirecciones 301 propuestas
+REDIRECTS = [(f"/{H}/medicina-integrativa-barcelona", "/", "Evita que compita con la portada por «medicina integrativa Barcelona». Su contenido de prevención pasa a /prevencion-longevidad.")]
+# Páginas de reserva (Wix Bookings) y eventos que ya existen y compiten o complementan
+BOOKING = {
+    "osteopatia-sarria-sant-gervasi": "/service-page/osteopatía-alivio-y-prevención-del-dolor",
+    "fisioterapia-sarria-sant-gervasi": "/service-page/fisioterapia-recuperación-y-bienestar-físico",
+    "acupuntura-medicina-tradicional-china": "/service-page/acupuntura-y-mtc-equilibrio-y-sanación-a-través-de-la-acupuntura",
+    "perdida-de-peso-sarria-sant-gervasi": "/service-page/acupuntura-y-mtc-equilibrio-y-sanación-a-través-de-la-acupuntura",
+    "dejar-de-fumar-acupuntura": "/service-page/acupuntura-y-mtc-equilibrio-y-sanación-a-través-de-la-acupuntura",
+    "cuidados-postoperatorios-drenaje-linfatico": "/service-page/drenaje-linfático-desintoxicación-y-bienestar",
+    "pni-pnie-barcelona": "/service-page/pni-psico-neuro-endocrinología-integrando-mente-cuerpo-y-salud",
+    "nutricion-salud-intestinal": "/service-page/nutrición-salud-intestinal-optimiza-tu-salud-a-través-de-la-alimentación",
+    "reflexologia-sarria-sant-gervasi": "/service-page/reflexología-podal-equilibrio-y-bienestar-desde-los-pies",
+    "qigong-barcelona": "/service-page/qi-gong-energía-y-equilibrio-para-tu-vida",
+    "yoga-particular-grupos-reducidos": "/service-page/yoga-terapéutico-sanación-y-bienestar-a-través-del-yoga",
+    "curso-mindfulness-mbsr-barcelona": "/event-details/curso-de-8-semanas-mbsr-online",
+    "estres-ansiedad": "/service-page/mindfulness-encuentra-la-paz-en-el-presente",
+    "masajes-sarria-sant-gervasi": "/service-page/quiromasaje-relajación-y-alivio-a-tu-medida",
+    "retiros-mindfulness-meditacion-silencio": "/event-details/retiro-mindfulness-en-silencio-5-dias",
+    "vacaciones-con-sentido": "/event-details/vacaciones-con-sentido-sincronia-interior-en-bali-verano-2026",
+    "medicina-integrativa-barcelona": "/primera-cita",
+}
+# Artículos del Magazín que ya existen y deben enlazar a cada página
+BLOG = {
+    "salud-digestiva-microbiota": ["/post/eje-intestino-cerebro", "/post/microbiota-intestinal-y-salud", "/post/síndrome-del-intestino-permeable"],
+    "pni-pnie-barcelona": ["/post/inflamación-silenciosa", "/post/microbiota-intestinal-y-sistema-inmune"],
+    "nutricion-salud-intestinal": ["/post/probióticos-y-prebióticos", "/post/alimentos-ultra-procesados-y-microbiota", "/post/la-dieta-mediterránea-como-aliada-de-la-microbiota"],
+    "dolor-persistente-cronico": ["/post/meditación-mindfulness-para-el-síndrome-de-fibromialgia", "/post/buitirato-también-calma-el-dolor"],
+    "estres-ansiedad": ["/post/la-meditación-mindfulness-ayuda-a-modular-el-estrés-y-la-alimentación", "/post/reducirelruidomental"],
+    "sueno-insomnio": ["/post/duermes-bien-qué-tipo-de-durmiente-eres"],
+    "retiros-mindfulness-meditacion-silencio": ["/post/comoseleccionarelretirodemeditacion"],
+    "curso-mindfulness-mbsr-barcelona": ["/post/transforma-el-estrés-en-oportunidad-crecimiento-personal-a-través-de-la-meditación-mindfulness"],
+    "prevencion-longevidad": ["/post/tienes-el-colesterol-alto", "/post/inflamación-sistémica"],
+    "fisioterapia-sarria-sant-gervasi": ["/post/cuéntame-qué-te-duele-y-te-sugeriré-un-deporte-adecuado"],
+}
+# Segmento final en catalán (Wix Multilingual, prefijo /ca/)
+CA_SLUG = {
+    "dolor-persistente-cronico": "dolor-persistent-cronic", "estres-ansiedad": "estres-ansietat", "sueno-insomnio": "son-insomni",
+    "salud-digestiva-microbiota": "salut-digestiva-microbiota", "acompanamiento-fertilidad": "acompanyament-fertilitat",
+    "salud-mujer-menopausia": "salut-dona-menopausa", "prevencion-longevidad": "prevencio-longevitat",
+    "osteopatia-sarria-sant-gervasi": "osteopatia-sarria-sant-gervasi", "fisioterapia-sarria-sant-gervasi": "fisioterapia-sarria-sant-gervasi",
+    "perdida-de-peso-sarria-sant-gervasi": "perdua-de-pes", "dejar-de-fumar-acupuntura": "acupuntura-deixar-de-fumar",
+    "acupuntura-medicina-tradicional-china": "acupuntura-medicina-tradicional-xinesa", "pni-pnie-barcelona": "pni-pnie-barcelona",
+    "nutricion-salud-intestinal": "nutricio-barcelona", "cuidados-postoperatorios-drenaje-linfatico": "cures-postoperatories-drenatge-limfatic",
+    "masajes-sarria-sant-gervasi": "massatges-sarria-sant-gervasi", "reflexologia-sarria-sant-gervasi": "reflexologia-podal",
+    "curso-mindfulness-mbsr-barcelona": "formacio-mindfulness", "yoga-particular-grupos-reducidos": "ioga", "qigong-barcelona": "qigong",
+    "formacion-medicina-tradicional-china": "formacio-medicina-tradicional-xinesa", "retiros-mindfulness-meditacion-silencio": "recessos",
+    "vacaciones-con-sentido": "vacances-amb-sentit",
+}

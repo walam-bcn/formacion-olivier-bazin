@@ -192,7 +192,7 @@ PAGES.append({
     "h1": "Estrés y gestión de la ansiedad",
     "sub": "Regulación del sistema nervioso · Sarrià–Sant Gervasi",
     "lead": "El estrés es una respuesta adaptativa: nos prepara para actuar. El problema aparece cuando se mantiene demasiado tiempo y el sistema nervioso deja de volver a la calma. En WA LAM te ayudamos a entender qué está sosteniendo esa alerta y a entrenar recursos concretos para recuperar equilibrio.",
-    "facts": ["Valoración del **estrés en el cuerpo**", "Respiración y regulación del sistema nervioso", "Terapia manual cuando hay tensión física",
+    "facts": ["Valoración del **estrés en el cuerpo**", "Respiración y regulación del sistema nervioso", "Acupuntura para el estrés y la ansiedad",
               "Programa **MBSR** de 8 semanas", "Derivación a psicología o psiquiatría si es necesario"],
     "wa": "Hola, estoy pasando una etapa de mucho estrés/ansiedad y me gustaría saber cómo podéis ayudarme.",
     "blocks": [
@@ -208,12 +208,13 @@ PAGES.append({
          "paras": [
              "Ante una amenaza, el eje hipotálamo-hipófisis-adrenal y el sistema nervioso simpático se activan: aumenta el cortisol, se acelera el corazón, la respiración se vuelve más alta y los músculos se preparan. Es una respuesta útil durante un tiempo limitado.",
              "Cuando la carga se prolonga, esa activación puede mantenerse y afectar al **sueño**, la **digestión**, la **tensión muscular**, la sensibilidad al dolor y el estado de ánimo. No es una falta de voluntad: el estrés sostenido puede desbordar la capacidad de regulación del sistema nervioso.",
-             "Nuestro trabajo consiste en ayudarte a identificar qué mantiene esa alerta y a entrenar, paso a paso, recursos que el cuerpo pueda usar: respiración, atención, movimiento, descanso y, cuando hay tensión física, terapia manual. Si el estrés te está quitando el sueño, consulta también nuestra página de [sueño e insomnio](sueno-insomnio); si quieres un programa estructurado, el [curso MBSR de 8 semanas](curso-mindfulness-mbsr-barcelona) es la opción con más evidencia.",
+             "Nuestro trabajo consiste en ayudarte a identificar qué mantiene esa alerta y a entrenar, paso a paso, recursos que el cuerpo pueda usar: respiración, atención, movimiento, descanso y, cuando hay tensión física, terapia manual. Si el estrés te está quitando el sueño, consulta también nuestra página de [sueño e insomnio](sueno-insomnio); si quieres un programa estructurado, el [curso MBSR de 8 semanas](curso-mindfulness-mbsr-barcelona) es la opción con más evidencia. Muchas personas lo combinan con sesiones de [acupuntura](acupuntura-medicina-tradicional-china) para el estrés y la ansiedad.",
          ]},
         {"type": "cards", "eyebrow": "Cómo te acompañamos", "h2": "Un acompañamiento con recursos concretos",
          "items": [{"k": "Primera consulta", "h": "Valoración integrativa", "p": "Revisamos síntomas físicos, sueño, digestión, hábitos y carga actual para entender cómo se expresa el estrés en tu cuerpo."},
                    {"k": "Sesiones individuales", "h": "Regulación y respiración", "p": "Ejercicios de respiración lenta y atención corporal que puedas aplicar en tu día a día. [[Confirmar profesional y formato]]."},
                    {"k": "Terapia manual", "h": "Cuando el estrés se queda en el cuerpo", "p": "Osteopatía para tensión cervical, diafragmática o mandibular asociada al estrés, como complemento al trabajo de regulación."},
+                   {"k": "Acupuntura", "h": "Acupuntura para el estrés y la ansiedad", "p": "Una consulta de [acupuntura](acupuntura-medicina-tradicional-china) específica para el estrés y la ansiedad, que en WA LAM solemos combinar con el trabajo de regulación y respiración. Si prefieres no recibir acupuntura, la combinamos con una sesión de [reflexología podal](reflexologia-sarria-sant-gervasi) como alternativa de relajación. La evidencia sobre la acupuntura en ansiedad es todavía preliminar y así te lo explicamos."},
                    {"k": "Programa grupal", "h": "MBSR · 8 semanas", "p": "El programa de reducción del estrés basado en mindfulness, con inscripción propia y la base científica más amplia en este campo."}]},
         {"type": "evidence", "h2": "Lo que podemos y no podemos ofrecer",
          "intro": "Estas son las fuentes científicas en las que se apoya nuestro trabajo, y también sus límites.",
@@ -229,7 +230,7 @@ PAGES.append({
         ("¿La osteopatía ayuda con el estrés?", "Puede ayudar a aliviar la tensión física asociada y a mejorar la percepción corporal, pero no actúa sobre las causas del estrés. Por eso la proponemos como complemento."),
         ("Tengo crisis de ansiedad. ¿Puedo venir?", "Sí, pero si las crisis son frecuentes o intensas es importante que también te valore un profesional de salud mental. Escríbenos y lo hablamos."),
     ],
-    "related": ["sueno-insomnio", "curso-mindfulness-mbsr-barcelona", "osteopatia-sarria-sant-gervasi", "salud-digestiva-microbiota"],
+    "related": ["sueno-insomnio", "curso-mindfulness-mbsr-barcelona", "acupuntura-medicina-tradicional-china", "osteopatia-sarria-sant-gervasi"],
     "cta": {"h2": "Empecemos por entender qué te está pasando", "p": "Escríbenos por WhatsApp. Sin compromiso, te orientamos sobre la opción más adecuada."},
 })
 
@@ -313,7 +314,7 @@ PAGES.append({
          ]},
         {"type": "cards", "eyebrow": "Qué incluye", "h2": "Un acompañamiento a tu medida",
          "items": [{"k": "Hábitos", "h": "Nutrición y estilo de vida", "p": "Pautas basadas en evidencia sobre alimentación, peso, actividad física, sueño y tóxicos."},
-                   {"k": "Cuerpo", "h": "Acupuntura y terapia manual", "p": "Como apoyo al bienestar y a la gestión del estrés durante el proceso, no como tratamiento de la infertilidad."},
+                   {"k": "Cuerpo", "h": "Acupuntura y terapia manual", "p": "Acupuntura, [reflexología podal](reflexologia-sarria-sant-gervasi) o terapia manual como apoyo al bienestar y a la gestión del estrés durante el proceso, no como tratamiento de la infertilidad."},
                    {"k": "Sistema nervioso", "h": "Gestión del estrés", "p": "Recursos de respiración y mindfulness para atravesar la espera y los momentos difíciles."}]},
         {"type": "evidence", "h2": "Lo que dice la evidencia, sin rodeos",
          "items": [("Ensayo clínico (JAMA)", "En el ensayo aleatorizado más amplio sobre acupuntura en fecundación in vitro (848 mujeres, 16 centros), la tasa de nacidos vivos fue prácticamente igual con acupuntura real (18,3 %) que con acupuntura simulada (17,8 %). **La acupuntura no mejora la tasa de nacidos vivos en FIV** y así te lo explicamos."),
@@ -522,7 +523,7 @@ PAGES.append({
         ("¿Trabajáis suelo pélvico?", "[[Confirmar si se ofrece fisioterapia de suelo pélvico]]."),
         ("¿Tras una operación, cuándo puedo empezar?", "Depende de la cirugía y de las indicaciones de tu cirujano. Escríbenos con el informe y te orientamos."),
     ],
-    "related": ["osteopatia-sarria-sant-gervasi", "dolor-persistente-cronico", "drenaje-linfatico-postoperatorio", "prevencion-longevidad"],
+    "related": ["osteopatia-sarria-sant-gervasi", "dolor-persistente-cronico", "cuidados-postoperatorios-drenaje-linfatico", "prevencion-longevidad"],
     "cta": {"h2": "Reserva tu sesión de fisioterapia", "p": "Recupera movimiento y confianza con un plan claro y adaptado a ti."},
 })
 
@@ -693,7 +694,7 @@ PAGES.append({
          "items": [("Metaanálisis de datos individuales", "Con datos de 39 ensayos y 20.827 pacientes, la acupuntura fue superior tanto a no recibir acupuntura como a la acupuntura simulada en dolor musculoesquelético crónico, artrosis, cefalea crónica y dolor de hombro, y sus efectos se mantuvieron en el tiempo. La diferencia frente a la simulada es menor (tamaño del efecto de aproximadamente 0,2)."),
                    ("Guía clínica (ACP)", "La guía del American College of Physicians incluye la acupuntura entre los tratamientos iniciales recomendados para el dolor lumbar crónico."),
                    ("Ensayo clínico (JAMA)", "En fecundación in vitro, la acupuntura no mejoró la tasa de nacidos vivos frente a la acupuntura simulada (848 mujeres). No la ofrecemos con ese fin."),
-                   ("Otras consultas", "Ofrecemos también acupuntura dentro de la consulta de [pérdida de peso](perdida-de-peso-sarria-sant-gervasi) y como apoyo para [dejar de fumar](dejar-de-fumar-acupuntura), cada una con su propia página."),
+                   ("Otras consultas", "Ofrecemos también acupuntura dentro de la consulta de [pérdida de peso](perdida-de-peso-sarria-sant-gervasi), como apoyo para [dejar de fumar](dejar-de-fumar-acupuntura) y para el [estrés y la ansiedad](estres-ansiedad), donde suele combinarse con el trabajo de regulación del sistema nervioso."),
                    ("Marco tradicional", "Los conceptos de la medicina tradicional china (como los meridianos) son un modelo histórico de interpretación, no estructuras anatómicas demostradas. Nuestra indicación clínica se apoya en los ensayos, no en ese modelo.")],
          "refs": [R["vickers"], R["qaseem"], R["smith"]]},
         ficha("Ficha del servicio", "Acupuntura", "Consulta individual de acupuntura y medicina tradicional china.", ROWS_SERVICIO),
@@ -705,7 +706,7 @@ PAGES.append({
         ("¿Y para dejar de fumar?", "Sí, como apoyo, en una consulta específica. Te explicamos qué dice la evidencia en la página de [acupuntura para dejar de fumar](dejar-de-fumar-acupuntura)."),
         ("¿Quiero aprender MTC, dónde miro?", "La formación en medicina tradicional china tiene su propia página en la Healthy Lifestyle Academy."),
     ],
-    "related": ["perdida-de-peso-sarria-sant-gervasi", "dejar-de-fumar-acupuntura", "dolor-persistente-cronico", "formacion-medicina-tradicional-china"],
+    "related": ["perdida-de-peso-sarria-sant-gervasi", "dejar-de-fumar-acupuntura", "estres-ansiedad", "dolor-persistente-cronico"],
     "cta": {"h2": "Reserva tu consulta de acupuntura", "p": "Si tienes dudas sobre si es adecuada para tu caso, escríbenos antes de reservar."},
 })
 
@@ -789,19 +790,19 @@ PAGES.append({
 })
 
 PAGES.append({
-    "slug": "drenaje-linfatico-postoperatorio", "group": "servicio", "wave": 1,
-    "nav": "Drenaje linfático manual postoperatorio",
-    "card": "Para recuperarte después de una cirugía: cuándo empezar, qué cirugías atendemos y quién te trata.",
-    "title": "Drenaje linfático manual postoperatorio en Barcelona · Sarrià–Sant Gervasi | WA LAM",
-    "desc": "Drenaje linfático manual postoperatorio en Sarrià–Sant Gervasi (Barcelona): tipos de cirugía que atendemos, cuándo empezar, profesional responsable y cómo reservar.",
-    "about": "Drenaje linfático manual",
+    "slug": "cuidados-postoperatorios-drenaje-linfatico", "group": "servicio", "wave": 1,
+    "nav": "Cuidados postoperatorios y drenaje linfático manual",
+    "card": "Recuperación después de una cirugía: drenaje linfático manual y otros cuidados postoperatorios, cuándo empezar y quién te trata.",
+    "title": "Cuidados postoperatorios y drenaje linfático en Barcelona | WA LAM",
+    "desc": "Cuidados postoperatorios y drenaje linfático manual en Sarrià–Sant Gervasi (Barcelona): cirugías que atendemos, cuándo empezar y cómo reservar.",
+    "about": "Cuidados postoperatorios y drenaje linfático manual",
     "eyebrow": "Servicio · Postoperatorio",
-    "h1": "Drenaje linfático manual postoperatorio",
+    "h1": "Cuidados postoperatorios y drenaje linfático manual",
     "sub": "Recuperación tras cirugía · Sarrià–Sant Gervasi",
-    "lead": "[[Confirmar si además del drenaje ofrecemos otros cuidados postoperatorios (cicatriz, movilidad, fisioterapia…). Si es así, la página pasará a titularse «Cuidados postoperatorios y drenaje linfático manual».]] Después de una cirugía es habitual que aparezcan inflamación, edema y sensación de tirantez. El drenaje linfático manual es una técnica suave que puede ayudar a reducir el edema y mejorar el confort durante la recuperación, siempre siguiendo las indicaciones de tu cirujano.",
+    "lead": "Después de una cirugía es habitual que aparezcan inflamación, edema y sensación de tirantez. En WA LAM te acompañamos en esa fase con **drenaje linfático manual** y otros **cuidados postoperatorios** adaptados a tu cirugía, siempre siguiendo las indicaciones de tu cirujano.",
     "facts": ["Profesional: [[nombre, titulación]]", "Sesión de [[duración]] · [[precio]]", "Coordinado con las pautas de tu cirujano",
               "Cuidado de cicatrices", "Te ayudamos a decidir cuándo empezar"],
-    "wa": "Hola, me han operado (o me van a operar) y me gustaría información sobre el drenaje linfático postoperatorio.",
+    "wa": "Hola, me han operado (o me van a operar) y me gustaría información sobre los cuidados postoperatorios y el drenaje linfático.",
     "blocks": [
         {"type": "mirror", "eyebrow": "¿Te reconoces?", "h2": "Cuando acabas de operarte",
          "qs": ["¿Te han operado hace poco y notas mucha inflamación o hinchazón?",
@@ -813,11 +814,20 @@ PAGES.append({
          "items": [{"k": "Cirugía estética", "h": "Liposucción, abdominoplastia y otras", "p": "Para reducir edema y mejorar el confort en las semanas posteriores."},
                    {"k": "Cirugía mamaria", "h": "Aumento, reducción o reconstrucción", "p": "Drenaje adaptado y cuidado de la zona según indicación médica."},
                    {"k": "Cirugía traumatológica", "h": "Rodilla, tobillo, hombro…", "p": "Como complemento a la fisioterapia para controlar la inflamación."}]},
+        {"type": "cards", "eyebrow": "Qué incluye", "h2": "Cuidados postoperatorios que ofrecemos",
+         "intro": "[[Confirmar la lista de cuidados además del drenaje (por ejemplo, cuidado de la cicatriz, movilización, pautas de ejercicio, vendaje) antes de publicar.]]",
+         "items": [{"k": "Edema", "h": "Drenaje linfático manual", "p": "Técnica suave y lenta para mejorar el confort y el edema en las semanas posteriores a la cirugía."},
+                   {"k": "Cicatriz", "h": "[[Cuidado de la cicatriz]]", "p": "[[Describir qué se hace y a partir de cuándo.]]"},
+                   {"k": "Movilidad", "h": "[[Recuperación de la movilidad]]", "p": "[[Describir qué se hace y a partir de cuándo.]]"}]},
         {"type": "steps", "eyebrow": "Antes de empezar", "h2": "¿Es el momento adecuado?",
          "items": [("Consulta tu caso", "Escríbenos con el tipo de cirugía, la fecha y las indicaciones de tu cirujano."),
                    ("Valoramos el momento", "Te confirmamos si es buen momento para empezar o si conviene esperar."),
                    ("Plan de sesiones", "Proponemos frecuencia y número aproximado de sesiones según tu evolución.")],
          "note": "Si tienes fiebre, dolor intenso, enrojecimiento o calor en la zona, o hinchazón repentina en una pierna, contacta con tu cirujano o con urgencias antes de cualquier drenaje."},
+        {"type": "evidence", "h2": "Lo que ofrecemos y lo que se sabe",
+         "items": [("Lo que ofrecemos", "Drenaje linfático manual y cuidados postoperatorios adaptados a tu cirugía y a las pautas de tu cirujano."),
+                   ("Lo que se sabe", "Tras la cirugía estética, el drenaje linfático manual es una práctica habitual y bien tolerada, pero los estudios disponibles son pequeños y de calidad limitada. La evidencia más sólida sobre el drenaje procede del linfedema asociado al cáncer, donde se usa junto a la compresión."),
+                   ("Nuestro criterio", "Por eso no prometemos resultados concretos: valoramos tu evolución sesión a sesión y te derivamos a tu cirujano ante cualquier signo de alarma.")]},
         ficha("Ficha del servicio", "Drenaje linfático manual postoperatorio", "Sesión individual de drenaje linfático manual adaptada a tu cirugía y fase de recuperación.",
               ROWS_SERVICIO + [("Bonos", "[[Indicar si hay bonos postoperatorios]]")]),
     ],
@@ -858,7 +868,7 @@ PAGES.append({
         ("¿Tenéis tarjetas regalo?", "[[Confirmar]]."),
         ("¿Puedo recibir un masaje si estoy embarazada?", "[[Confirmar si se ofrece masaje prenatal y desde qué semana]]."),
     ],
-    "related": ["drenaje-linfatico-postoperatorio", "reflexologia-sarria-sant-gervasi", "osteopatia-sarria-sant-gervasi"],
+    "related": ["cuidados-postoperatorios-drenaje-linfatico", "reflexologia-sarria-sant-gervasi", "osteopatia-sarria-sant-gervasi"],
     "cta": {"h2": "Reserva tu masaje", "p": "Elige modalidad y horario online, o escríbenos por WhatsApp."},
 })
 
@@ -876,6 +886,10 @@ PAGES.append({
     "facts": ["Profesional: [[nombre, formación]]", "Sesión de [[duración]]", "Precio: [[€]]", "Ambiente tranquilo y sin prisas", "Reserva online o por WhatsApp"],
     "wa": "Hola, me gustaría reservar una sesión de reflexología.",
     "blocks": [
+        {"type": "cards", "eyebrow": "Cuándo la proponemos", "h2": "Una sesión de relajación que combinamos con otros tratamientos",
+         "items": [{"k": "Estrés y ansiedad", "h": "Alternativa a la acupuntura", "p": "En la consulta de [estrés y ansiedad](estres-ansiedad), cuando prefieres no recibir acupuntura, la combinamos con el trabajo de respiración y regulación."},
+                   {"k": "Fertilidad", "h": "Bienestar durante el proceso", "p": "Durante el [acompañamiento en fertilidad](acompanamiento-fertilidad), como momento de descanso y gestión del estrés. No es un tratamiento de la infertilidad."},
+                   {"k": "Sesión independiente", "h": "Relajación", "p": "Como sesión de masaje y relajación por sí misma, cuando necesitas un tiempo de pausa."}]},
         {"type": "steps", "eyebrow": "La sesión", "h2": "Cómo es una sesión de reflexología",
          "items": [("Bienvenida", "Breve entrevista sobre cómo te encuentras y cualquier condición de salud a tener en cuenta."),
                    ("Sesión", "Presión y masaje en distintas zonas de los pies, en posición cómoda y relajada."),
@@ -887,7 +901,7 @@ PAGES.append({
     ],
     "faq": [("¿La reflexología sustituye a un tratamiento médico?", "No. La ofrecemos como una técnica de bienestar y relajación."),
             ("¿Hay alguna contraindicación?", "Avísanos si tienes heridas, infecciones o problemas circulatorios en los pies, o si estás embarazada.")],
-    "related": ["masajes-sarria-sant-gervasi", "estres-ansiedad"],
+    "related": ["estres-ansiedad", "acompanamiento-fertilidad", "masajes-sarria-sant-gervasi"],
     "cta": {"h2": "Reserva tu sesión de reflexología", "p": "Un momento de pausa en Sarrià–Sant Gervasi."},
 })
 
@@ -1129,3 +1143,69 @@ PAGES.append({
     "related": ["retiros-mindfulness-meditacion-silencio", "curso-mindfulness-mbsr-barcelona", "prevencion-longevidad"],
     "cta": {"h2": "Reserva tu plaza en Bali", "p": "Plazas limitadas. Escríbenos y te enviamos el programa completo.", "b2": ("Reservar plaza", "[[enlace-reserva-bali]]")},
 })
+
+
+# ---------------------------------------------------------------- QUIÉN ATIENDE
+# Credenciales tomadas del currículum publicado en walambcn.com/curriculum.
+# Faltan apellidos y nº de colegiada: se muestran como pendientes.
+SITE.update({
+    "booking": "https://www.walambcn.com/reserva-sarri%C3%A0-sant-gervasi-barcelona",
+    "street": "C/ Bisbe Sivilla, 44, local",
+    "postal": "08022",
+    "address_short": "C/ Bisbe Sivilla, 44 · 08022 Barcelona (Sarrià–Sant Gervasi)",
+    "hours": "De lunes a viernes, de 9 a 21 h. Sábados, domingos y urgencias, solo con cita previa.",
+    "opening": ["Mo-Fr 09:00-21:00"],
+    "reviewer_md": "Rosa [[apellidos]], fisioterapeuta y osteópata · [[nº de colegiada]]",
+})
+
+ROSA = "Rosa [[apellidos]]"
+PRO = {
+    "medicina-integrativa-barcelona": f"{ROSA}, fundadora y directora de WA LAM desde 2004",
+    "dolor-persistente-cronico": f"{ROSA}, fisioterapeuta y osteópata",
+    "estres-ansiedad": f"{ROSA}, profesora de mindfulness y MBSR",
+    "sueno-insomnio": f"{ROSA}",
+    "salud-digestiva-microbiota": f"{ROSA}, máster en PNI",
+    "acompanamiento-fertilidad": f"{ROSA}",
+    "salud-mujer-menopausia": f"{ROSA}",
+    "prevencion-longevidad": f"{ROSA}",
+    "osteopatia-sarria-sant-gervasi": f"{ROSA}, fisioterapeuta y osteópata (IIOA)",
+    "fisioterapia-sarria-sant-gervasi": "[[Nombre de la fisioterapeuta]], fisioterapeuta · [[nº de colegiada]]",
+    "perdida-de-peso-sarria-sant-gervasi": f"{ROSA}, posgrado en acupuntura para la obesidad",
+    "dejar-de-fumar-acupuntura": f"{ROSA}, acupuntura",
+    "acupuntura-medicina-tradicional-china": f"{ROSA}, acupuntura y MTC",
+    "pni-pnie-barcelona": f"{ROSA}, máster en PNI (Xevi Verdaguer)",
+    "nutricion-salud-intestinal": f"{ROSA} · [[confirmar titulación en nutrición]]",
+    "cuidados-postoperatorios-drenaje-linfatico": f"{ROSA}, fisioterapeuta, formada en drenaje linfático manual",
+    "masajes-sarria-sant-gervasi": f"{ROSA}",
+    "reflexologia-sarria-sant-gervasi": f"{ROSA}",
+    "curso-mindfulness-mbsr-barcelona": f"{ROSA}, formación de profesores MBSR (Nirakara, TAI) y máster en Mindfulness (Universidad de Zaragoza)",
+    "yoga-particular-grupos-reducidos": f"{ROSA}, profesora de Hatha yoga (550 h)",
+    "qigong-barcelona": f"{ROSA}, posgrado en ejercicios para la salud: Qi Gong (Universidad de Extremadura)",
+    "formacion-medicina-tradicional-china": "[[Profesorado]]",
+    "retiros-mindfulness-meditacion-silencio": f"{ROSA}, profesora de mindfulness y MBSR",
+    "vacaciones-con-sentido": f"{ROSA} y [[equipo]]",
+}
+_TOKENS = ["[[nombre, titulación]]", "[[Nombre y titulación]]", "[[nombre, formación]]", "[[profesional responsable]]",
+           "[[nombre, nº colegiado/a]]", "[[nombre, acreditación MBSR]]", "[[Profesional/es responsable/s]]",
+           "[[Profesional responsable de la primera valoración de dolor]]", "[[nombre]]", "[[profesionales]]"]
+
+
+def _fix(o, who):
+    if isinstance(o, str):
+        for t in _TOKENS:
+            o = o.replace(t, who)
+        return o.replace("[[Nº colegiado/a]]", "[[nº de colegiada]]")
+    if isinstance(o, list):
+        return [_fix(x, who) for x in o]
+    if isinstance(o, tuple):
+        return tuple(_fix(x, who) for x in o)
+    if isinstance(o, dict):
+        return {k: (v if k in ("slug", "type", "group", "related", "refs") else _fix(v, who)) for k, v in o.items()}
+    return o
+
+
+for _i, _p in enumerate(PAGES):
+    _w = PRO.get(_p["slug"], ROSA)
+    _p = _fix(_p, _w)
+    _p["pro_who"] = _w
+    PAGES[_i] = _p
