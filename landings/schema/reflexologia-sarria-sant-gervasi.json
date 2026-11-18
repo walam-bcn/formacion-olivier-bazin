@@ -72,6 +72,21 @@
         },
         {
           "@type": "MedicalTherapy",
+          "name": "Osteopatía visceral en Barcelona",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/osteopatia-visceral-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Osteopatía craneosacral en Barcelona",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/osteopatia-craneosacral-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Manipulaciones neuroviscerales",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/manipulaciones-neuroviscerales"
+        },
+        {
+          "@type": "MedicalTherapy",
           "name": "Fisioterapia en Sarrià–Sant Gervasi",
           "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/fisioterapia-sarria-sant-gervasi"
         },
@@ -117,7 +132,7 @@
         },
         {
           "@type": "MedicalTherapy",
-          "name": "Reflexología en Sarrià–Sant Gervasi",
+          "name": "Reflexología podal en Sarrià–Sant Gervasi",
           "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/reflexologia-podal"
         }
       ],
@@ -142,7 +157,7 @@
         {
           "@type": "ListItem",
           "position": 3,
-          "name": "Reflexología en Sarrià–Sant Gervasi",
+          "name": "Reflexología podal en Sarrià–Sant Gervasi",
           "item": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/reflexologia-podal"
         }
       ]
@@ -190,13 +205,27 @@
       "about": {
         "@type": "MedicalTherapy",
         "name": "Reflexología"
-      }
+      },
+      "citation": [
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Integrative Medicine for Pain Management in Oncology: Society for Integrative Oncology–ASCO Guideline",
+          "url": "https://doi.org/10.1200/JCO.22.01357",
+          "sameAs": "https://doi.org/10.1200/JCO.22.01357"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Reflexology in oncological treatment – a systematic review",
+          "url": "https://doi.org/10.1186/s12906-023-04220-4",
+          "sameAs": "https://doi.org/10.1186/s12906-023-04220-4"
+        }
+      ]
     },
     {
       "@type": "Service",
       "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/reflexologia-podal#servicio",
-      "name": "Reflexología en Sarrià–Sant Gervasi",
-      "serviceType": "Reflexología en Sarrià–Sant Gervasi",
+      "name": "Reflexología podal en Sarrià–Sant Gervasi",
+      "serviceType": "Reflexología podal en Sarrià–Sant Gervasi",
       "provider": {
         "@id": "https://www.walambcn.com/#clinica"
       },
@@ -242,7 +271,7 @@
           "name": "¿La reflexología sustituye a un tratamiento médico?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. La ofrecemos como una técnica de bienestar y relajación."
+            "text": "No. La ofrecemos como una técnica de bienestar y relajación, complementaria a tu tratamiento."
           }
         },
         {

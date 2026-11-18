@@ -711,7 +711,7 @@ def guide():
     r6 = "".join(f"<tr><td><b>{html.escape(a)}</b></td><td>{html.escape(b)}</td><td>{html.escape(c)}</td><td>{st(d)}</td></tr>" for a, b, c, d in MEASURE)
     r6b = "".join(f"<tr><td>{lab(x['slug'])}</td><td>{GOAL[x['group']]}</td><td>Impresiones, clics, CTR y posición de «{html.escape(SEO[x['slug']]['kw'])}»</td></tr>" for x in PAGES)
     ask = "".join(f"<li>{html.escape(a)}</li>" for a in ASK)
-    rv = "".join(f"<tr><td><span class='tag2'>{html.escape(a)}</span></td><td><b>{html.escape(b)}</b></td><td>{html.escape(c)}</td><td><span class='st st-pendiente'>{html.escape(d)}</span></td></tr>" for a, b, c, d in VISIBILITY)
+    rv = "".join(f"<tr><td><span class='tag2'>{html.escape(a)}</span></td><td><b>{html.escape(b)}</b></td><td>{html.escape(c)}</td><td><span class='st st-{d.split()[0]}'>{html.escape(d)}</span></td></tr>" for a, b, c, d in VISIBILITY)
     states = {"verificado": sum(1 for *_, c in OFFPAGE if c == "verificado") + sum(1 for *_, d in MEASURE if d == "verificado"),
               "preparado": len(PAGES), "pendiente": sum(1 for *_, c in OFFPAGE if c == "pendiente") + sum(1 for *_, d in MEASURE if d == "pendiente")}
     gp = {"slug": "guia-seo", "group": "home", "title": "Plan SEO WA LAM", "desc": "", "h1": "Plan SEO", "wa": "Hola, tengo una consulta sobre la web de WA LAM."}

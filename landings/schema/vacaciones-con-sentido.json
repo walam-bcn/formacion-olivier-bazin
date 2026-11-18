@@ -72,6 +72,21 @@
         },
         {
           "@type": "MedicalTherapy",
+          "name": "Osteopatía visceral en Barcelona",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/osteopatia-visceral-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Osteopatía craneosacral en Barcelona",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/osteopatia-craneosacral-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Manipulaciones neuroviscerales",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/manipulaciones-neuroviscerales"
+        },
+        {
+          "@type": "MedicalTherapy",
           "name": "Fisioterapia en Sarrià–Sant Gervasi",
           "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/fisioterapia-sarria-sant-gervasi"
         },
@@ -117,7 +132,7 @@
         },
         {
           "@type": "MedicalTherapy",
-          "name": "Reflexología en Sarrià–Sant Gervasi",
+          "name": "Reflexología podal en Sarrià–Sant Gervasi",
           "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/reflexologia-podal"
         }
       ],
