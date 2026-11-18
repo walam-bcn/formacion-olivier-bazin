@@ -104,7 +104,7 @@ PAGES.append({
     "blocks": [
         {"type": "explain", "eyebrow": "Retrace the origins", "h2": "Rastrear los orígenes, transformar la trayectoria",
          "paras": [
-             "En la salud, y especialmente en los problemas crónicos, casi nunca existe una única causa. **Rastrear los orígenes** significa reconstruir cómo se ha formado tu estado actual: antecedentes y trayectoria clínica; estrés, trauma y sistema nervioso; estructura, movimiento y dolor; sueño y ritmos circadianos; alimentación, microbiota y metabolismo; entorno, hábitos y exposoma; y capacidad de regulación y adaptación.",
+             "En la salud, y especialmente en los problemas crónicos, casi nunca existe una única causa. **Rastrear los orígenes** significa volver sobre tu historia clínica, corporal y vital para identificar los factores que han configurado tu estado actual: antecedentes y trayectoria clínica; estrés, trauma y sistema nervioso; estructura, movimiento y dolor; sueño y ritmos circadianos; alimentación, microbiota y metabolismo; entorno, hábitos y exposoma; y capacidad de regulación y adaptación.",
              "No afirmamos haber encontrado «la causa»: comprendemos qué factores, conexiones y adaptaciones han contribuido a la situación actual. No borramos la historia ni prometemos empezar de cero; favorecemos una nueva trayectoria fisiológica y vital.",
              "Ese análisis se apoya en la **salud de precisión**: cada decisión clínica se adapta a tus biomarcadores, tu microbiota, tu perfil genético, tu contexto y tus objetivos, en coordinación con tu médico. La dirección clínica corresponde a Rosa María Rodríguez Valls, osteópata D.O. y máster en medicina integrativa, con más de treinta años de experiencia clínica.",
          ],
