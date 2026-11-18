@@ -28,7 +28,7 @@ SEO = {
         "ca": "medicina integrativa malalties cròniques Barcelona",
         "title": "En qué podemos ayudarte · Medicina integrativa | WA LAM",
         "desc": "Acidez, colon irritable, SIBO, migraña, fibromialgia, lumbalgia, menopausia, hipotiroidismo, insomnio o sobrepeso: acompañamiento integrativo en Sarrià–Sant Gervasi.",
-        "quick": "En WA LAM (Sarrià–Sant Gervasi, Barcelona) se consulta sobre todo por trastornos digestivos (acidez, reflujo, colon irritable, SIBO), dolor musculoesquelético (lumbalgia, cervicalgia, fibromialgia), procesos inflamatorios y alergias, sobrepeso y riesgo metabólico, fatiga e insomnio, salud de la mujer (menopausia, ovario poliquístico) y alteraciones tiroideas. El acompañamiento es complementario al seguimiento médico.",
+        "quick": "Las consultas más frecuentes abarcan siete áreas clínicas: trastornos digestivos funcionales (reflujo gastroesofágico, síndrome del intestino irritable, sobrecrecimiento bacteriano intestinal), dolor musculoesquelético y vertebral, procesos inflamatorios e inmunoalérgicos, riesgo metabólico y cardiovascular, alteraciones del sueño y fatiga persistente, salud ginecológica y menopausia, y patología tiroidea. Cada caso se aborda mediante una valoración integral y un plan terapéutico individualizado.",
         "entity": None,
     },
     "lumbalgia-cervicalgia-cronica": {
