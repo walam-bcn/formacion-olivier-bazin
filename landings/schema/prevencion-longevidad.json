@@ -245,6 +245,54 @@
       "mainEntity": [
         {
           "@type": "Question",
+          "name": "¿Qué es la medicina de longevidad?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Es un enfoque preventivo que busca prolongar los años vividos con buena salud. Valora de forma global los factores que determinan cómo envejecemos (metabolismo, inflamación, sueño, actividad física, alimentación, estrés y salud cognitiva) y diseña un plan individual para actuar sobre ellos antes de que aparezca la enfermedad."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Está basada en la evidencia científica?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí, en lo que tiene respaldo: la actividad física, el ejercicio de fuerza, el sueño, la alimentación de calidad y el control de los factores de riesgo cardiovascular y metabólico. Las herramientas emergentes, como los relojes epigenéticos, se interpretan con cautela."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Es seguro?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "El plan se basa en cambios de hábitos y en terapias de bajo riesgo, adaptados a tu historia clínica y a tu medicación. No incluye tratamientos «antiaging» sin respaldo científico."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuándo se notan los resultados?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "La energía y el descanso suelen mejorar en las primeras semanas. Los cambios en los marcadores analíticos y en la composición corporal requieren, como mínimo, las 12 semanas del programa."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Quién puede beneficiarse?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cualquier persona adulta que quiera anticiparse: quienes tienen antecedentes familiares, notan pérdida de energía o de fuerza, atraviesan la perimenopausia o quieren mejorar su salud metabólica y cognitiva."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Dónde se realiza la consulta?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "En el centro WA LAM, en la calle Bisbe Sivilla, 44, en Sarrià–Sant Gervasi (Barcelona)."
+          }
+        },
+        {
+          "@type": "Question",
           "name": "¿Necesito tener algún problema de salud para venir?",
           "acceptedAnswer": {
             "@type": "Answer",

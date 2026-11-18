@@ -245,6 +245,54 @@
       "mainEntity": [
         {
           "@type": "Question",
+          "name": "Què és la medicina de longevitat?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "És un enfocament preventiu que busca allargar els anys viscuts amb bona salut. Valora de manera global els factors que determinen com envellim (metabolisme, inflamació, son, activitat física, alimentació, estrès i salut cognitiva) i dissenya un pla individual per actuar-hi abans que aparegui la malaltia."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Està basada en l'evidència científica?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí, en allò que té suport: l'activitat física, l'exercici de força, el son, l'alimentació de qualitat i el control dels factors de risc cardiovascular i metabòlic. Les eines emergents, com els rellotges epigenètics, s'interpreten amb cautela."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "És segur?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "El pla es basa en canvis d'hàbits i en teràpies de baix risc, adaptats a la teva història clínica i a la teva medicació. No inclou tractaments «antiaging» sense suport científic."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quan es noten els resultats?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "L'energia i el descans solen millorar les primeres setmanes. Els canvis en els marcadors analítics i en la composició corporal requereixen, com a mínim, les 12 setmanes del programa."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Qui se'n pot beneficiar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Qualsevol persona adulta que vulgui anticipar-se: qui té antecedents familiars, nota pèrdua d'energia o de força, travessa la perimenopausa o vol millorar la seva salut metabòlica i cognitiva."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "On es fa la consulta?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Al centre WA LAM, al carrer del Bisbe Sivilla, 44, a Sarrià–Sant Gervasi (Barcelona)."
+          }
+        },
+        {
+          "@type": "Question",
           "name": "Cal que tingui algun problema de salut per venir?",
           "acceptedAnswer": {
             "@type": "Answer",
