@@ -26,7 +26,7 @@
       ],
       "founder": {
         "@type": "Person",
-        "name": "Rosa",
+        "name": "Rosa María Rodríguez Valls",
         "url": "https://www.walambcn.com/curriculum"
       },
       "foundingDate": "2004",
@@ -107,6 +107,11 @@
         },
         {
           "@type": "MedicalTherapy",
+          "name": "Limfedema: drenatge, alimentació i acupuntura",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/limfedema-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
           "name": "Massatges a Sarrià–Sant Gervasi",
           "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/massatges-sarria-sant-gervasi"
         },
@@ -173,6 +178,14 @@
       },
       "audience": {
         "@type": "Patient"
+      },
+      "reviewedBy": {
+        "@type": "Person",
+        "name": "Rosa María Rodríguez Valls",
+        "jobTitle": "Osteópata D.O. y máster en medicina integrativa",
+        "worksFor": {
+          "@id": "https://www.walambcn.com/#clinica"
+        }
       },
       "about": {
         "@type": "MedicalCondition",
@@ -249,6 +262,14 @@
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Depèn de cada cas. Després de la primera valoració et proposem un pla amb objectius i moments de revisió, perquè sàpigues en tot moment com avancem."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Qui m'atendrà?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Rosa María Rodríguez Valls, osteòpata D.O. Segons el teu cas, el pla pot incloure altres professionals de l'equip."
           }
         }
       ]

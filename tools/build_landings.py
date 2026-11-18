@@ -370,7 +370,7 @@ def schema(p):
            "image": SITE["og_base"] + "medicina-integrativa-barcelona.png", "priceRange": "€€",
            "address": {"@type": "PostalAddress", "streetAddress": "Carrer del Bisbe Sivilla, 44, local", "postalCode": SITE["postal"],
                        "addressLocality": "Barcelona", "addressRegion": "Cataluña", "addressCountry": "ES"},
-           "openingHours": SITE["opening"], "founder": {"@type": "Person", "name": "Rosa", "url": SITE["cv_url"]}, "foundingDate": "2004",
+           "openingHours": SITE["opening"], "founder": {"@type": "Person", "name": SITE.get("owner", "Rosa"), "url": SITE["cv_url"]}, "foundingDate": "2004",
            "areaServed": [{"@type": "Place", "name": f"{b}, Barcelona"} for b in BARRIOS] + [{"@type": "City", "name": "Barcelona"}],
            "medicalSpecialty": ["Physiotherapy", "Musculoskeletal"],
            "availableService": [{"@type": "MedicalTherapy", "name": plain(x["nav"]), "url": canon(x["slug"])} for x in PAGES if x["group"] == "servicio"],
@@ -725,7 +725,7 @@ def guide():
 <section id="f2" style="background:var(--piedra)"><div class="wrap">{sec_head("Fase 2", "Una URL principal por intención", "Se reutiliza la estructura que ya existe en Wix (Tratamientos y Academia). Acupuntura explica el servicio general; Pérdida de peso explica tu consulta con cambios alimentarios y acupuntura; Retiros reúne mindfulness, meditación y silencio en una sola página.")}
 {T('<thead><tr><th>Búsqueda objetivo</th><th>URL</th><th>Recibe enlaces de</th><th>Lleva al visitante a</th></tr></thead><tbody>' + ''.join(r2) + '</tbody>')}
 <div class="card" style="margin-top:20px"><h3>Redirecciones 301</h3><ul>{red}</ul><p>Si alguna URL existente cambia, crear la redirección en Wix › Configuración SEO › Redirecciones URL antes de borrar nada.</p></div></div></section>
-<section id="f3" style="background:#fff"><div class="wrap">{sec_head("Fase 3", "Información propia de WA LAM", "Quién atiende sale de tu currículum publicado y se enlaza en cada página. Los apellidos y números de colegiada quedan marcados hasta que los confirmes.")}
+<section id="f3" style="background:#fff"><div class="wrap">{sec_head("Fase 3", "Información propia de WA LAM", "Quién atiende sale de tu currículum publicado y de tus confirmaciones: Rosa María Rodríguez Valls, osteópata D.O. y máster en medicina integrativa, con el detalle de formación en cada página y enlace al currículum. Solo la fisioterapeuta queda pendiente de nombre y colegiación.")}
 {T('<thead><tr><th>Página</th><th>Quién atiende</th><th>Primera visita / programa</th><th>Dónde</th><th>Cómo reservar</th><th>Oferta frente a eficacia</th><th>Datos por confirmar</th></tr></thead><tbody>' + ''.join(r3) + '</tbody>')}</div></section>
 <section id="f4" style="background:var(--piedra)"><div class="wrap">{sec_head("Fase 4", "Ficha técnica de Wix por página", "Pulsa cada página para ver su ficha.")}{''.join(cards)}</div></section>
 <section id="f5" style="background:#fff"><div class="wrap">{sec_head("Fase 5", "Visibilidad fuera de las páginas")}

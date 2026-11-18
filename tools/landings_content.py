@@ -45,6 +45,8 @@ R = {
     "lancet_dem": _r("Livingston G, Huntley J, Liu KY, et al., 2024. «Dementia prevention, intervention, and care: 2024 report of the Lancet standing Commission». The Lancet.", "10.1016/S0140-6736(24)01296-0"),
     "finger": _r("Ngandu T, et al., 2015. «A 2 year multidomain intervention of diet, exercise, cognitive training, and vascular risk monitoring versus control to prevent cognitive decline in at-risk elderly people (FINGER): a randomised controlled trial». The Lancet.", "10.1016/S0140-6736(15)60461-5"),
     "horvath": _r("Horvath JC, Forte JD, Carter O, 2015. «Quantitative Review Finds No Evidence of Cognitive Effects in Healthy Populations From Single-session Transcranial Direct Current Stimulation (tDCS)». Brain Stimulation.", "10.1016/j.brs.2015.01.400"),
+    "ezzo": _r("Ezzo J, Manheimer E, McNeely ML, et al., 2015. «Manual lymphatic drainage for lymphedema following breast cancer treatment». Cochrane Database of Systematic Reviews.", "10.1002/14651858.CD003475.pub2"),
+    "chien": _r("Chien TJ, Liu CY, Fang CJ, 2019. «The Effect of Acupuncture in Breast Cancer-Related Lymphedema (BCRL): A Systematic Review and Meta-Analysis». Integrative Cancer Therapies.", "10.1177/1534735419866910"),
 }
 
 GROUPS = {
@@ -99,7 +101,7 @@ PAGES.append({
         {"type": "explain", "eyebrow": "Nuestro enfoque", "h2": "Una mirada clínica que no separa el cuerpo del sistema nervioso",
          "paras": [
              "Muchas personas llegan a WA LAM después de haber probado varias cosas por separado. El dolor de espalda se trató como un problema mecánico, la digestión como un problema digestivo y el cansancio como una cuestión de voluntad. Sin embargo, el sueño, el estrés, la inflamación, la respiración, el movimiento y la historia de cada persona se influyen entre sí.",
-             "La medicina integrativa no sustituye a la medicina convencional: la complementa. En WA LAM los tratamientos los realiza Rosa, osteópata D.O. y máster en medicina integrativa, junto a una fisioterapeuta colegiada, y nos coordinamos con tu médico cuando el caso lo requiere. Nuestro objetivo no es prometer resultados, sino comprender qué está manteniendo el problema y diseñar contigo un plan realista.",
+             "La medicina integrativa no sustituye a la medicina convencional: la complementa. En WA LAM los tratamientos los realiza Rosa María Rodríguez Valls, osteópata D.O. y máster en medicina integrativa, junto a una fisioterapeuta colegiada, y nos coordinamos con tu médico cuando el caso lo requiere. Nuestro objetivo no es prometer resultados, sino comprender qué está manteniendo el problema y diseñar contigo un plan realista.",
          ],
          "quote": "Cada proceso necesita una mirada individualizada. El objetivo no es exigirte más, sino ayudarte a recuperar equilibrio."},
         {"type": "evidence", "eyebrow": "Criterio clínico", "h2": "Por qué trabajamos así: la evidencia que nos guía",
@@ -405,7 +407,7 @@ PAGES.append({
     "lead": "La longevidad saludable no consiste en frenar el reloj, sino en conservar fuerza, movilidad, buen descanso, salud metabólica y digestiva, claridad mental y vínculos durante el mayor tiempo posible. En WA LAM te proponemos un **recorrido claro**: una primera visita, una valoración de tus hábitos y pruebas, un plan por fases y un seguimiento para que los cambios se mantengan.",
     "facts_title": "Tu recorrido",
     "facts": ["**1.** Antes de la visita: formulario y analíticas", "**2.** Primera visita: [[duración por confirmar; en «Sobre mí» figura «unos 60 minutos»]]",
-              "**3.** Valoración y plan por fases", "**4.** Seguimiento y pautas de mantenimiento", "Atiende: Rosa [[apellidos]], osteópata D.O. y máster en medicina integrativa"],
+              "**3.** Valoración y plan por fases", "**4.** Seguimiento y pautas de mantenimiento", "Atiende: Rosa María Rodríguez Valls, osteópata D.O. y máster en medicina integrativa"],
     "cta2": ("Ver el recorrido", "#tu-recorrido-en-wa-lam"),
     "wa": "Hola, me interesa la consulta de longevidad y prevención. ¿Cómo es la primera visita?",
     "blocks": [
@@ -470,7 +472,7 @@ PAGES.append({
     "sub": "Cuidar el cerebro a lo largo de la vida · Sarrià–Sant Gervasi",
     "lead": "La salud cognitiva no depende solo de la edad. El sueño, el estrés sostenido, la actividad física, la salud cardiovascular y metabólica, la audición, los vínculos y la estimulación mental influyen en cómo envejece el cerebro. Esta consulta forma parte de nuestro recorrido de [longevidad y prevención](prevencion-longevidad).",
     "facts": ["Valoración de hábitos que protegen el cerebro", "Regulación del estrés y del sueño", "[[Confirmar: neurorregulación (60 min) y estimulación eléctrica transcraneal]]",
-              "Curso MBSR de 8 semanas", "Atiende: Rosa [[apellidos]]"],
+              "Curso MBSR de 8 semanas", "Atiende: Rosa María Rodríguez Valls"],
     "wa": "Hola, me interesa la consulta de salud cognitiva y neurolongevidad.",
     "blocks": [
         {"type": "mirror", "eyebrow": "¿Te reconoces?", "h2": "Cuando notas que tu mente no responde como antes",
@@ -895,7 +897,7 @@ PAGES.append({
         {"type": "cards", "eyebrow": "Otros casos", "h2": "Drenaje en el embarazo y en el apoyo oncológico",
          "intro": "Además del postoperatorio, ofrecemos drenaje linfático manual en estas situaciones, siempre coordinado con tu equipo médico.",
          "items": [{"k": "Embarazo y posparto", "h": "Retención de líquidos antes y después del parto", "p": "Para la pesadez y la retención de líquidos del embarazo y del posparto, con el visto bueno de tu matrona o ginecóloga. Si hay hipertensión, preeclampsia, sospecha de trombosis o un embarazo de riesgo, no se realiza sin autorización médica."},
-                   {"k": "Apoyo oncológico", "h": "Personas con cáncer o tras su tratamiento", "p": "Drenaje linfático manual como apoyo en el linfedema y la retención de líquidos, siempre con la autorización y en coordinación con tu equipo de oncología. [[Confirmar formación específica en linfedema.]]"}]},
+                   {"k": "Apoyo oncológico", "h": "Personas con cáncer o tras su tratamiento", "p": "Drenaje linfático manual como apoyo en el linfedema y la retención de líquidos, siempre con la autorización y en coordinación con tu equipo de oncología. Para el linfedema tenemos un [pack de drenaje, alimentación y acupuntura](linfedema-drenaje-alimentacion-acupuntura). [[Confirmar formación específica en linfedema.]]"}]},
         {"type": "cards", "eyebrow": "Qué incluye", "h2": "Drenaje y otros cuidados postoperatorios",
          "intro": "El drenaje linfático manual es el servicio principal. [[Confirmar qué otros cuidados postoperatorios ofrecemos (por ejemplo, cuidado de la cicatriz o recuperación de la movilidad); si no se ofrecen, retirar esas tarjetas.]]",
          "items": [{"k": "Servicio principal", "h": "Drenaje linfático manual", "p": "Técnica suave y lenta para mejorar el confort y el edema en las semanas posteriores a la cirugía."},
@@ -921,8 +923,64 @@ PAGES.append({
         ("¿Es lo mismo que un masaje?", "No. El drenaje linfático manual es una técnica específica, muy suave y lenta, distinta del masaje. Por eso tiene su propia página."),
         ("¿Tengo que llevar la faja?", "Sigue las indicaciones de tu cirujano sobre prendas de compresión. Normalmente la retiras durante la sesión y te la vuelves a poner al terminar."),
     ],
-    "related": ["fisioterapia-sarria-sant-gervasi", "masajes-sarria-sant-gervasi"],
+    "related": ["linfedema-drenaje-alimentacion-acupuntura", "fisioterapia-sarria-sant-gervasi", "masajes-sarria-sant-gervasi"],
     "cta": {"h2": "Consúltanos antes de empezar", "p": "Cuéntanos tu cirugía y su fecha. Te diremos si es buen momento y cómo organizar las sesiones."},
+})
+
+PAGES.append({
+    "slug": "linfedema-drenaje-alimentacion-acupuntura", "group": "servicio", "wave": 2,
+    "nav": "Linfedema: drenaje, alimentación y acupuntura",
+    "card": "Un pack para el linfedema que combina drenaje linfático manual, pautas de alimentación y acupuntura, coordinado con tu equipo médico.",
+    "title": "Linfedema en Barcelona: drenaje linfático y pack | WA LAM",
+    "desc": "Pack para el linfedema en Sarrià–Sant Gervasi, Barcelona: drenaje linfático manual, alimentación y acupuntura, coordinados con tu equipo de oncología.",
+    "about": "Linfedema",
+    "eyebrow": "Servicio · Linfedema",
+    "h1": "Linfedema: drenaje linfático, alimentación y acupuntura",
+    "sub": "Un pack coordinado con tu equipo médico · Sarrià–Sant Gervasi",
+    "lead": "El linfedema es una acumulación crónica de linfa que hincha un brazo, una pierna u otra zona, a menudo tras la cirugía o la radioterapia de un cáncer. En WA LAM lo acompañamos con un pack de tres herramientas: el **drenaje linfático manual**, que es la técnica central, **pautas de alimentación** para cuidar el peso y la inflamación, y **acupuntura** como complemento. Siempre con la autorización y en coordinación con tu equipo de oncología o de rehabilitación.",
+    "facts": ["**Drenaje linfático manual**: la base del pack", "**Alimentación**: peso e inflamación", "**Acupuntura** como complemento",
+              "Coordinado con oncología y rehabilitación", "Atiende: Rosa María Rodríguez Valls · [[confirmar formación específica en linfedema]]"],
+    "wa": "Hola, tengo linfedema y me gustaría información sobre el pack de drenaje, alimentación y acupuntura.",
+    "blocks": [
+        {"type": "mirror", "eyebrow": "¿Te reconoces?", "h2": "Cuando la hinchazón no se va",
+         "qs": ["¿Te operaron de un cáncer y notas el brazo o la pierna más hinchados o pesados?",
+                "¿Sientes tirantez, pesadez o que la ropa o los anillos te aprietan más de un lado?",
+                "¿Te han diagnosticado linfedema y buscas un acompañamiento continuado?",
+                "¿Quieres saber qué puedes hacer tú, además de las sesiones, para mantener el resultado?"],
+         "close": "Si aparece enrojecimiento, calor, fiebre o dolor en la zona, consulta con tu médico antes de cualquier tratamiento: puede ser una infección."},
+        {"type": "explain", "eyebrow": "Cómo se trata el linfedema", "h2": "El tratamiento de referencia y dónde encaja WA LAM",
+         "paras": [
+             "En los hospitales y unidades especializadas, el tratamiento de referencia es la **terapia descongestiva compleja**: drenaje linfático manual, compresión (vendaje multicapa y después prendas de compresión), ejercicio y cuidado de la piel, en una fase intensiva y otra de mantenimiento. Algunos centros añaden presoterapia o vendaje neuromuscular, y en casos seleccionados se recurre a la microcirugía linfática.",
+             "Nuestro pack no sustituye ese tratamiento: lo complementa. El drenaje linfático manual es su pieza central; la alimentación ayuda a controlar el peso, que es un factor que empeora el linfedema; y la acupuntura se ofrece como apoyo, con prudencia y sin pinchar la zona afectada salvo indicación expresa de tu equipo médico.",
+             "La compresión y las prendas a medida las indica tu médico rehabilitador. [[Confirmar si en WA LAM se ofrece vendaje multicapa, presoterapia o medición de perímetros.]]",
+         ]},
+        {"type": "cards", "eyebrow": "El pack", "h2": "Tres herramientas, un mismo plan",
+         "items": [{"k": "La base", "h": "Drenaje linfático manual", "p": "Técnica suave y rítmica que ayuda a movilizar la linfa. Es la herramienta principal del pack y se adapta a la zona y a la fase del linfedema. Más información sobre el [drenaje linfático](drenaje-linfatico-postoperatorio)."},
+                   {"k": "Alimentación", "h": "Peso e inflamación", "p": "Revisamos tu alimentación para ayudarte a mantener un peso saludable, porque el exceso de peso empeora el linfedema. [[Confirmar el contenido de las pautas de alimentación.]]"},
+                   {"k": "Complemento", "h": "Acupuntura", "p": "Como apoyo al bienestar, sin pinchar el brazo o la pierna afectados salvo indicación médica. Más información sobre la [acupuntura en WA LAM](acupuntura-medicina-tradicional-china)."}]},
+        {"type": "steps", "eyebrow": "El recorrido", "h2": "Cómo funciona el pack",
+         "intro": "[[Confirmar número de sesiones, frecuencia y precio del pack.]]",
+         "items": [("Valoración", "Revisamos tu historia oncológica, la autorización de tu equipo médico, el estado de la piel y la zona afectada. [[Confirmar si se miden perímetros.]]"),
+                   ("Fase de tratamiento", "Sesiones de drenaje linfático manual combinadas con las pautas de alimentación y, si encaja, acupuntura."),
+                   ("Mantenimiento", "Pautas de autocuidado y revisiones periódicas para conservar el resultado, en coordinación con tu médico rehabilitador.")],
+         "note": "No empezamos el drenaje si hay infección activa, trombosis o una recidiva del cáncer sin control médico."},
+        ficha("Ficha del servicio", "Pack de linfedema", "Drenaje linfático manual, alimentación y acupuntura en un mismo plan, coordinado con tu equipo médico.",
+              [("Incluye", "Drenaje linfático manual · Alimentación · Acupuntura"), ("Sesiones", "[[confirmar]]"), ("Precio del pack", "[[€]]"), ("Requisito", "Autorización de tu equipo médico")]),
+        {"type": "evidence", "h2": "Lo que ofrecemos y lo que se sabe",
+         "items": [("Revisión Cochrane (2015)", "El drenaje linfático manual es seguro y, añadido al vendaje de compresión, aporta una reducción adicional del volumen del linfedema tras el cáncer de mama, sobre todo en los casos leves o moderados. Los ensayos son pequeños."),
+                   ("Ensayo clínico (Cancer, 2007)", "En un ensayo aleatorizado con mujeres con linfedema tras cáncer de mama, la pérdida de peso mediante cambios en la alimentación redujo el volumen del brazo afectado. Es un ensayo pequeño. [[DOI pendiente de verificar.]]"),
+                   ("Metaanálisis (Integr Cancer Ther, 2019)", "La acupuntura fue segura en los ensayos revisados, pero no redujo de forma significativa el perímetro del brazo. Por eso la ofrecemos como complemento y no como tratamiento del linfedema."),
+                   ("Consenso internacional", "La Sociedad Internacional de Linfología considera la terapia descongestiva compleja el tratamiento conservador de referencia y señala la obesidad como factor que complica el linfedema.")],
+         "refs": [R["ezzo"], R["chien"]]},
+    ],
+    "faq": [
+        ("¿Sustituye a la terapia descongestiva del hospital?", "No. La complementa. Si estás en tratamiento en una unidad de linfedema, nos coordinamos con ella."),
+        ("¿Se puede hacer acupuntura si tengo linfedema?", "Sí, como complemento, pero evitamos pinchar el brazo o la pierna afectados salvo indicación expresa de tu equipo médico, tal como recomiendan las guías."),
+        ("¿Necesito autorización médica?", "Sí. Antes de empezar te pediremos la autorización de tu oncólogo o médico rehabilitador."),
+        ("¿Cuántas sesiones incluye el pack?", "[[Pendiente de confirmar.]]"),
+    ],
+    "related": ["drenaje-linfatico-postoperatorio", "acupuntura-medicina-tradicional-china", "prevencion-longevidad"],
+    "cta": {"h2": "Hablemos de tu linfedema", "p": "Escríbenos y te explicamos cómo funciona el pack y qué necesitamos de tu equipo médico."},
 })
 
 PAGES.append({
@@ -1231,7 +1289,7 @@ PAGES.append({
 
 # ---------------------------------------------------------------- QUIÉN ATIENDE
 # Credenciales tomadas del currículum publicado en walambcn.com/curriculum.
-# Faltan los apellidos: se muestran como pendientes.
+# Nombre completo (mejor para E-E-A-T). Para usar iniciales, cambiar ROSA y SITE["owner"].
 SITE.update({
     "booking": "https://www.walambcn.com/reserva-sarri%C3%A0-sant-gervasi-barcelona",
     "street": "C/ Bisbe Sivilla, 44, local",
@@ -1239,15 +1297,17 @@ SITE.update({
     "address_short": "C/ Bisbe Sivilla, 44 · 08022 Barcelona (Sarrià–Sant Gervasi)",
     "hours": "De lunes a viernes, de 9 a 21 h. Sábados, domingos y urgencias, solo con cita previa.",
     "opening": ["Mo-Fr 09:00-21:00"],
-    "reviewer_md": "Rosa [[apellidos]], osteópata D.O. · máster en medicina integrativa",
+    "reviewer_md": "Rosa María Rodríguez Valls, osteópata D.O. · máster en medicina integrativa",
+    "owner": "Rosa María Rodríguez Valls",
+    "reviewer": {"name": "Rosa María Rodríguez Valls", "title": "Osteópata D.O. y máster en medicina integrativa"},
 })
 
-ROSA = "Rosa [[apellidos]]"
+ROSA = "Rosa María Rodríguez Valls"
 PRO = {
     "medicina-integrativa-barcelona": f"{ROSA}, osteópata D.O. y máster en medicina integrativa, fundadora de WA LAM (2004)",
     "neurolongevidad-salud-cognitiva": f"{ROSA}, máster en medicina integrativa y profesora de MBSR",
     "dolor-persistente-cronico": f"{ROSA}, osteópata D.O.",
-    "estres-ansiedad": f"{ROSA}, profesora de mindfulness y MBSR",
+    "estres-ansiedad": f"{ROSA}, profesora de MBSR: dos másteres en mindfulness para la salud (Universidad de Zaragoza y Universidad Complutense de Madrid), formación de formadores de profesores de MBSR con Nirakara (nivel 2) y formación de profesora de mindfulness de 200 horas",
     "sueno-insomnio": f"{ROSA}",
     "salud-digestiva-microbiota": f"{ROSA}, máster en PNI",
     "acompanamiento-fertilidad": f"{ROSA}",
@@ -1263,11 +1323,11 @@ PRO = {
     "drenaje-linfatico-postoperatorio": f"{ROSA}, formada en drenaje linfático manual",
     "masajes-sarria-sant-gervasi": f"{ROSA}",
     "reflexologia-sarria-sant-gervasi": f"{ROSA}",
-    "curso-mindfulness-mbsr-barcelona": f"{ROSA}, formación de profesores MBSR (Nirakara, TAI) y máster en Mindfulness (Universidad de Zaragoza)",
+    "curso-mindfulness-mbsr-barcelona": f"{ROSA}, profesora de MBSR: dos másteres en mindfulness para la salud (Universidad de Zaragoza y Universidad Complutense de Madrid), formación de formadores de profesores de MBSR con Nirakara (nivel 2) y formación de profesora de mindfulness de 200 horas",
     "yoga-particular-grupos-reducidos": f"{ROSA}, profesora de Hatha yoga (550 h)",
-    "qigong-barcelona": f"{ROSA}, posgrado en ejercicios para la salud: Qi Gong (Universidad de Extremadura)",
+    "qigong-barcelona": f"{ROSA}, máster en ejercicios para la salud basados en Qigong (Universidad de Extremadura, Badajoz)",
     "formacion-medicina-tradicional-china": "[[Profesorado]]",
-    "retiros-mindfulness-meditacion-silencio": f"{ROSA}, profesora de mindfulness y MBSR",
+    "retiros-mindfulness-meditacion-silencio": f"{ROSA}, profesora de MBSR: dos másteres en mindfulness para la salud (Universidad de Zaragoza y Universidad Complutense de Madrid), formación de formadores de profesores de MBSR con Nirakara (nivel 2) y formación de profesora de mindfulness de 200 horas",
     "vacaciones-con-sentido": f"{ROSA} y [[equipo]]",
 }
 _TOKENS = ["[[nombre, titulación]]", "[[Nombre y titulación]]", "[[nombre, formación]]", "[[profesional responsable]]",

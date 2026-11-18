@@ -26,7 +26,7 @@
       ],
       "founder": {
         "@type": "Person",
-        "name": "Rosa",
+        "name": "Rosa María Rodríguez Valls",
         "url": "https://www.walambcn.com/curriculum"
       },
       "foundingDate": "2004",
@@ -107,6 +107,11 @@
         },
         {
           "@type": "MedicalTherapy",
+          "name": "Linfedema: drenaje, alimentación y acupuntura",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/linfedema-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
           "name": "Masajes en Sarrià–Sant Gervasi",
           "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/masajes-sarria-sant-gervasi"
         },
@@ -170,6 +175,14 @@
           ".quick p",
           "h1"
         ]
+      },
+      "reviewedBy": {
+        "@type": "Person",
+        "name": "Rosa María Rodríguez Valls",
+        "jobTitle": "Osteópata D.O. y máster en medicina integrativa",
+        "worksFor": {
+          "@id": "https://www.walambcn.com/#clinica"
+        }
       }
     },
     {

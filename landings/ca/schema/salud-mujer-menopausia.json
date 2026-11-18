@@ -26,7 +26,7 @@
       ],
       "founder": {
         "@type": "Person",
-        "name": "Rosa",
+        "name": "Rosa María Rodríguez Valls",
         "url": "https://www.walambcn.com/curriculum"
       },
       "foundingDate": "2004",
@@ -107,6 +107,11 @@
         },
         {
           "@type": "MedicalTherapy",
+          "name": "Limfedema: drenatge, alimentació i acupuntura",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/limfedema-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
           "name": "Massatges a Sarrià–Sant Gervasi",
           "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/massatges-sarria-sant-gervasi"
         },
@@ -174,6 +179,14 @@
       "audience": {
         "@type": "Patient"
       },
+      "reviewedBy": {
+        "@type": "Person",
+        "name": "Rosa María Rodríguez Valls",
+        "jobTitle": "Osteópata D.O. y máster en medicina integrativa",
+        "worksFor": {
+          "@id": "https://www.walambcn.com/#clinica"
+        }
+      },
       "about": {
         "@type": "MedicalCondition",
         "name": "Menopausa",
@@ -221,6 +234,14 @@
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Sol començar entre els 40 i els 50 anys, amb canvis en el cicle i símptomes que poden aparèixer anys abans de l'última regla."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Qui atén aquestes consultes?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Rosa María Rodríguez Valls."
           }
         }
       ]
