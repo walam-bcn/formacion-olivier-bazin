@@ -249,6 +249,14 @@
       "mainEntity": [
         {
           "@type": "Question",
+          "name": "Quines disciplines intervenen en l'abordatge del dolor?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "L'osteopatia i l'acupuntura, integrades en un pla individual. Quan cal un programa de fisioteràpia, fem la derivació a un fisioterapeuta col·legiat."
+          }
+        },
+        {
+          "@type": "Question",
           "name": "És normal tenir dolor mesos després d'operar-me?",
           "acceptedAnswer": {
             "@type": "Answer",

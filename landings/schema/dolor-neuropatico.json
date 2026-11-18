@@ -238,6 +238,14 @@
       "mainEntity": [
         {
           "@type": "Question",
+          "name": "¿Qué disciplinas intervienen en el abordaje del dolor?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "La osteopatía y la acupuntura, integradas en un plan individual. Cuando se requiere un programa de fisioterapia, realizamos la derivación a un fisioterapeuta colegiado."
+          }
+        },
+        {
+          "@type": "Question",
           "name": "¿Sustituye a mi tratamiento médico?",
           "acceptedAnswer": {
             "@type": "Answer",
