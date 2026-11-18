@@ -172,7 +172,7 @@
       "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/salud-mujer-menopausia#webpage",
       "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/salud-mujer-menopausia",
       "name": "Menopausia y perimenopausia en Barcelona | WA LAM",
-      "description": "Perimenopausia y menopausia con enfoque integrativo en Barcelona: sueño, fuerza, suelo pélvico, digestión y estrés, en coordinación con ginecología.",
+      "description": "Perimenopausia y menopausia con enfoque integrativo en Barcelona: sueño, fuerza, suelo pélvico, digestión y estrés, como complemento del seguimiento ginecológico.",
       "inLanguage": "es-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -241,7 +241,7 @@
           "name": "¿Recetáis terapia hormonal?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. Esa decisión corresponde a tu ginecóloga. Nosotras podemos acompañarte en los aspectos de hábitos, movimiento y bienestar, coordinándonos con ella si lo deseas."
+            "text": "No. Esa decisión corresponde a tu ginecóloga. En WA LAM te acompañamos en los aspectos de hábitos, movimiento y bienestar."
           }
         },
         {

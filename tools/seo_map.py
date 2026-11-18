@@ -10,7 +10,16 @@ SEO = {
         "ca": "medicina integrativa Barcelona",
         "title": "Medicina integrativa y salud de precisión en Barcelona | WA LAM",
         "desc": "WA LAM une medicina integrativa, salud de precisión y neurolongevidad en Sarrià–Sant Gervasi (Barcelona). Método RE:TRACE. Primera visita: 90 €.",
-        "quick": "WA LAM es un centro de medicina integrativa, salud de precisión y neurolongevidad en Sarrià–Sant Gervasi (Barcelona), fundado en 2004. Su método propio, RE:TRACE (Research, Evidence, Trajectory, Regulation, Awareness, Clinical Integration, Evolution), diseña estrategias clínicas personalizadas que se ajustan a la evolución de cada persona, en coordinación con su médico. La primera visita dura 60 minutos y cuesta 90 €.",
+        "quick": "WA LAM es un centro de medicina integrativa, salud de precisión y neurolongevidad en Sarrià–Sant Gervasi (Barcelona), fundado en 2004. Su método propio, RE:TRACE (Research, Evidence, Trajectory, Regulation, Awareness, Clinical Integration, Evolution), diseña estrategias clínicas personalizadas que se ajustan a la evolución de cada persona. Empieza con una primera visita de 60 minutos (90 €) y continúa con un programa personalizado de tres a doce meses, con presupuesto individual.",
+        "entity": None,
+    },
+    "en-que-podemos-ayudarte": {
+        "kw": "medicina integrativa enfermedades crónicas Barcelona",
+        "kws": ["acidez y reflujo Barcelona", "colon irritable tratamiento Barcelona", "SIBO Barcelona", "fibromialgia tratamiento integrativo", "hipotiroidismo medicina integrativa", "migraña tratamiento integrativo"],
+        "ca": "medicina integrativa malalties cròniques Barcelona",
+        "title": "En qué podemos ayudarte · Medicina integrativa | WA LAM",
+        "desc": "Acidez, colon irritable, SIBO, migraña, fibromialgia, lumbalgia, menopausia, hipotiroidismo, insomnio o sobrepeso: acompañamiento integrativo en Sarrià–Sant Gervasi.",
+        "quick": "En WA LAM (Sarrià–Sant Gervasi, Barcelona) se consulta sobre todo por trastornos digestivos (acidez, reflujo, colon irritable, SIBO), dolor musculoesquelético (lumbalgia, cervicalgia, fibromialgia), procesos inflamatorios y alergias, sobrepeso y riesgo metabólico, fatiga e insomnio, salud de la mujer (menopausia, ovario poliquístico) y alteraciones tiroideas. El acompañamiento es complementario al seguimiento médico.",
         "entity": None,
     },
     "dolor-persistente-cronico": {
@@ -45,7 +54,7 @@ SEO = {
         "kws": ["fertilidad y estrés", "acupuntura y FIV evidencia", "hábitos para la fertilidad", "apoyo reproducción asistida"],
         "ca": "acompanyament fertilitat Barcelona",
         "title": "Acompañamiento integrativo en fertilidad | WA LAM",
-        "desc": "Acompañamiento en fertilidad coordinado con tu ginecóloga o clínica de reproducción: hábitos, estrés y bienestar, con información basada en evidencia.",
+        "desc": "Acompañamiento integrativo en fertilidad, complementario al seguimiento ginecológico o de reproducción: hábitos, estrés y bienestar, basado en evidencia.",
         "quick": "El acompañamiento integrativo en fertilidad cuida los factores modificables —peso, tabaco, alcohol, sueño, actividad física y estrés— como complemento del seguimiento ginecológico. La acupuntura no ha demostrado mejorar la tasa de nacidos vivos en FIV, según un ensayo publicado en JAMA.",
         "entity": ("MedicalCondition", "Infertilidad"),
     },
@@ -54,7 +63,7 @@ SEO = {
         "kws": ["perimenopausia síntomas", "menopausia insomnio", "ejercicio de fuerza menopausia", "suelo pélvico menopausia"],
         "ca": "menopausa Barcelona",
         "title": "Menopausia y perimenopausia en Barcelona | WA LAM",
-        "desc": "Perimenopausia y menopausia con enfoque integrativo en Barcelona: sueño, fuerza, suelo pélvico, digestión y estrés, en coordinación con ginecología.",
+        "desc": "Perimenopausia y menopausia con enfoque integrativo en Barcelona: sueño, fuerza, suelo pélvico, digestión y estrés, como complemento del seguimiento ginecológico.",
         "quick": "La perimenopausia suele empezar entre los 40 y los 50 años y afecta al sueño, la temperatura, el ánimo, el músculo, el hueso y el suelo pélvico. La terapia hormonal la indica la ginecóloga; el ejercicio de fuerza, el sueño y la alimentación son complementos con evidencia.",
         "entity": ("MedicalCondition", "Menopausia"),
     },
@@ -117,8 +126,8 @@ SEO = {
         "kws": ["osteopatía suelo pélvico Barcelona", "osteopatía urogenital", "dismenorrea osteopatía", "dolor pélvico Sant Gervasi", "neuralgia del pudendo Barcelona"],
         "ca": "dolor pèlvic Barcelona",
         "title": "Dolor pélvico y suelo pélvico en Barcelona | WA LAM",
-        "desc": "Dolor pélvico y suelo pélvico en Sarrià–Sant Gervasi: osteopatía urogenital de abordaje externo, coordinada con ginecología, urología y fisioterapia.",
-        "quick": "En WA LAM acompañamos el dolor pélvico, el dolor menstrual, las molestias urinarias y el dolor perineal con osteopatía urogenital de abordaje externo, en coordinación con ginecología, urología y fisioterapia de suelo pélvico, que es el tratamiento de primera línea para la incontinencia.",
+        "desc": "Dolor pélvico y suelo pélvico en Sarrià–Sant Gervasi: osteopatía urogenital de abordaje externo, complementaria al seguimiento médico.",
+        "quick": "En WA LAM acompañamos el dolor pélvico, el dolor menstrual, las molestias urinarias y el dolor perineal con osteopatía urogenital de abordaje externo, como complemento del seguimiento médico y de la fisioterapia de suelo pélvico, que es el tratamiento de primera línea para la incontinencia.",
         "entity": ("MedicalCondition", "Dolor pélvico"),
     },
     "perdida-de-peso-sarria-sant-gervasi": {
@@ -294,6 +303,7 @@ H = "tratamientos-sarrià-sant-gervasi-barcelona"
 A = "academia-vida-saludable-barcelona"
 URLS = {
     "medicina-integrativa-barcelona": "",
+    "en-que-podemos-ayudarte": f"{H}/en-que-podemos-ayudarte",
     "dolor-persistente-cronico": f"{H}/dolor-persistente-cronico",
     "estres-ansiedad": f"{H}/estres-ansiedad",
     "sueno-insomnio": f"{H}/sueno-insomnio",
@@ -375,7 +385,7 @@ BLOG = {
 # Segmento final en catalán (Wix Multilingual, prefijo /ca/)
 CA_SLUG = {
     "dolor-persistente-cronico": "dolor-persistent-cronic", "estres-ansiedad": "estres-ansietat", "sueno-insomnio": "son-insomni",
-    "salud-digestiva-microbiota": "salut-digestiva-microbiota", "acompanamiento-fertilidad": "acompanyament-fertilitat",
+    "salud-digestiva-microbiota": "salut-digestiva-microbiota", "en-que-podemos-ayudarte": "en-que-et-podem-ajudar", "acompanamiento-fertilidad": "acompanyament-fertilitat",
     "salud-mujer-menopausia": "salut-dona-menopausa", "prevencion-longevidad": "longevitat-prevencio-barcelona", "neurolongevidad-salud-cognitiva": "salut-cognitiva-sarria-sant-gervasi-barcelona",
     "osteopatia-sarria-sant-gervasi": "osteopatia-sarria-sant-gervasi", "osteopatia-visceral-barcelona": "osteopatia-visceral-barcelona", "osteopatia-craneosacral-barcelona": "osteopatia-craniosacral-barcelona", "manipulaciones-neuroviscerales": "manipulacions-neuroviscerals", "suelo-pelvico-dolor-pelvico": "sol-pelvia-dolor-pelvia",
     "perdida-de-peso-sarria-sant-gervasi": "perdua-de-pes", "dejar-de-fumar-acupuntura": "acupuntura-deixar-de-fumar",

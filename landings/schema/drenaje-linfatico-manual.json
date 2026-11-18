@@ -278,7 +278,7 @@
           "name": "¿Atendéis a pacientes con cáncer?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí, pero siempre con la autorización de su médico y en coordinación con su equipo asistencial."
+            "text": "Sí, pero siempre con la autorización de su médico."
           }
         },
         {

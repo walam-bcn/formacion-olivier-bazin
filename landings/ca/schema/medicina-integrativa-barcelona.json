@@ -270,7 +270,15 @@
           "name": "Quant costa?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "La primera visita dura 60 minuts i costa 90 €; les visites de seguiment, 70 €. Les sessions d'osteopatia, massatge, reflexologia i drenatge limfàtic duren una hora i costen 70 €; la sessió d'acupuntura dura una hora i costa 50 €."
+            "text": "La primera visita dura 60 minuts i costa 90 €. Després de la valoració et proposem un programa RE:TRACE amb un pressupost personalitzat, segons la seva durada i les teràpies que inclogui. Si prefereixes sessions soltes: osteopatia, massatge, reflexologia i drenatge limfàtic, 70 € (1 hora); acupuntura, 50 € (1 hora)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quant dura un programa RE:TRACE?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Com a mínim tres mesos, que és el temps que necessiten els canvis en l'alimentació, la microbiota i els hàbits per consolidar-se, i fins a dotze mesos segons la teva evolució."
           }
         },
         {

@@ -278,7 +278,7 @@
           "name": "Atenteu pacients amb càncer?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí, però sempre amb l'autorització del seu metge i en coordinació amb el seu equip assistencial."
+            "text": "Sí, però sempre amb l'autorització del seu metge."
           }
         },
         {

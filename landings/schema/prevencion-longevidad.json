@@ -283,15 +283,15 @@
           "name": "¿Cuánto cuesta?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "La primera visita cuesta 90 €. Después, cada sesión del tratamiento tiene su precio: osteopatía, masaje, reflexología o drenaje linfático, 70 € (1 hora); acupuntura, 50 € (1 hora)."
+            "text": "La primera visita dura 60 minutos y cuesta 90 €. Tras la valoración te proponemos un programa personalizado con su presupuesto individual, según su duración y las terapias que incluya."
           }
         },
         {
           "@type": "Question",
-          "name": "¿Cuánto dura el seguimiento?",
+          "name": "¿Cuánto dura el programa?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Depende de tu plan. Tras la primera visita te proponemos un tratamiento personalizado, organizado en dos o tres fases, y te explicamos cuántas sesiones prevemos."
+            "text": "Como mínimo tres meses, el tiempo que necesitan los cambios en la alimentación, la microbiota y los hábitos para consolidarse, y hasta doce meses según tu evolución."
           }
         }
       ]
