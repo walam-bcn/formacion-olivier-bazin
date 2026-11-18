@@ -1,0 +1,235 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": [
+        "MedicalClinic",
+        "MedicalBusiness"
+      ],
+      "@id": "https://www.walambcn.com/#clinica",
+      "name": "WA LAM · Salud integrativa",
+      "url": "https://www.walambcn.com",
+      "telephone": "+34675716409",
+      "email": "contacto@walambcn.com",
+      "image": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/medicina-integrativa-barcelona.png",
+      "priceRange": "€€",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Barcelona",
+        "addressRegion": "Cataluña",
+        "addressCountry": "ES"
+      },
+      "areaServed": [
+        {
+          "@type": "Place",
+          "name": "Sarrià, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Sant Gervasi–Galvany, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Sant Gervasi–la Bonanova, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "les Tres Torres, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "el Putxet i el Farró, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Vallvidrera, el Tibidabo i les Planes, Barcelona"
+        },
+        {
+          "@type": "City",
+          "name": "Barcelona"
+        }
+      ],
+      "medicalSpecialty": [
+        "Physiotherapy",
+        "Musculoskeletal"
+      ],
+      "availableService": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Osteopatía en Sarrià–Sant Gervasi",
+          "url": "https://www.walambcn.com/osteopatia-sarria-sant-gervasi"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Fisioterapia en Sarrià–Sant Gervasi",
+          "url": "https://www.walambcn.com/fisioterapia-sarria-sant-gervasi"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Pérdida de peso en Sarrià–Sant Gervasi",
+          "url": "https://www.walambcn.com/perdida-de-peso-sarria-sant-gervasi"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Acupuntura como apoyo para dejar de fumar",
+          "url": "https://www.walambcn.com/dejar-de-fumar-acupuntura"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Acupuntura y medicina tradicional china",
+          "url": "https://www.walambcn.com/acupuntura-medicina-tradicional-china"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "PNI y PNIE en Barcelona",
+          "url": "https://www.walambcn.com/pni-pnie-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Nutrición y salud intestinal",
+          "url": "https://www.walambcn.com/nutricion-salud-intestinal"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Drenaje linfático manual postoperatorio",
+          "url": "https://www.walambcn.com/drenaje-linfatico-postoperatorio"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Masajes en Sarrià–Sant Gervasi",
+          "url": "https://www.walambcn.com/masajes-sarria-sant-gervasi"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Reflexología en Sarrià–Sant Gervasi",
+          "url": "https://www.walambcn.com/reflexologia-sarria-sant-gervasi"
+        }
+      ],
+      "sameAs": []
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.walambcn.com/reflexologia-sarria-sant-gervasi#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Inicio",
+          "item": "https://www.walambcn.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Servicios y terapias",
+          "item": "https://www.walambcn.com/tratamientos"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Reflexología en Sarrià–Sant Gervasi",
+          "item": "https://www.walambcn.com/reflexologia-sarria-sant-gervasi"
+        }
+      ]
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.walambcn.com/reflexologia-sarria-sant-gervasi#webpage",
+      "url": "https://www.walambcn.com/reflexologia-sarria-sant-gervasi",
+      "name": "Reflexología podal en Sarrià–Sant Gervasi | WA LAM",
+      "description": "Sesión de reflexología podal en Sarrià–Sant Gervasi, Barcelona: masaje de relajación en los pies. Duración, precio, reserva y qué dice la evidencia.",
+      "inLanguage": "es-ES",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "WA LAM",
+        "url": "https://www.walambcn.com"
+      },
+      "breadcrumb": {
+        "@id": "https://www.walambcn.com/reflexologia-sarria-sant-gervasi#breadcrumb"
+      },
+      "publisher": {
+        "@id": "https://www.walambcn.com/#clinica"
+      },
+      "lastReviewed": "2026-11-18",
+      "dateModified": "2026-11-18",
+      "keywords": "reflexología podal Barcelona, reflexología Sarrià Sant Gervasi, reflexología Sant Gervasi",
+      "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/reflexologia-sarria-sant-gervasi.png",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".quick p",
+          "h1"
+        ]
+      },
+      "audience": {
+        "@type": "Patient"
+      },
+      "about": {
+        "@type": "MedicalTherapy",
+        "name": "Reflexología"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.walambcn.com/reflexologia-sarria-sant-gervasi#servicio",
+      "name": "Reflexología en Sarrià–Sant Gervasi",
+      "serviceType": "Reflexología en Sarrià–Sant Gervasi",
+      "provider": {
+        "@id": "https://www.walambcn.com/#clinica"
+      },
+      "areaServed": [
+        {
+          "@type": "Place",
+          "name": "Sarrià, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Sant Gervasi–Galvany, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Sant Gervasi–la Bonanova, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "les Tres Torres, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "el Putxet i el Farró, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Vallvidrera, el Tibidabo i les Planes, Barcelona"
+        },
+        {
+          "@type": "City",
+          "name": "Barcelona"
+        }
+      ],
+      "url": "https://www.walambcn.com/reflexologia-sarria-sant-gervasi",
+      "description": "Sesión de reflexología podal en Sarrià–Sant Gervasi, Barcelona: masaje de relajación en los pies. Duración, precio, reserva y qué dice la evidencia."
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.walambcn.com/reflexologia-sarria-sant-gervasi#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿La reflexología sustituye a un tratamiento médico?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. La ofrecemos como una técnica de bienestar y relajación."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Hay alguna contraindicación?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Avísanos si tienes heridas, infecciones o problemas circulatorios en los pies, o si estás embarazada."
+          }
+        }
+      ]
+    }
+  ]
+}

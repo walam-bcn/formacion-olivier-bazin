@@ -1,0 +1,207 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": [
+        "MedicalClinic",
+        "MedicalBusiness"
+      ],
+      "@id": "https://www.walambcn.com/#clinica",
+      "name": "WA LAM · Salud integrativa",
+      "url": "https://www.walambcn.com",
+      "telephone": "+34675716409",
+      "email": "contacto@walambcn.com",
+      "image": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/medicina-integrativa-barcelona.png",
+      "priceRange": "€€",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Barcelona",
+        "addressRegion": "Cataluña",
+        "addressCountry": "ES"
+      },
+      "areaServed": [
+        {
+          "@type": "Place",
+          "name": "Sarrià, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Sant Gervasi–Galvany, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Sant Gervasi–la Bonanova, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "les Tres Torres, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "el Putxet i el Farró, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Vallvidrera, el Tibidabo i les Planes, Barcelona"
+        },
+        {
+          "@type": "City",
+          "name": "Barcelona"
+        }
+      ],
+      "medicalSpecialty": [
+        "Physiotherapy",
+        "Musculoskeletal"
+      ],
+      "availableService": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Osteopatía en Sarrià–Sant Gervasi",
+          "url": "https://www.walambcn.com/osteopatia-sarria-sant-gervasi"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Fisioterapia en Sarrià–Sant Gervasi",
+          "url": "https://www.walambcn.com/fisioterapia-sarria-sant-gervasi"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Pérdida de peso en Sarrià–Sant Gervasi",
+          "url": "https://www.walambcn.com/perdida-de-peso-sarria-sant-gervasi"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Acupuntura como apoyo para dejar de fumar",
+          "url": "https://www.walambcn.com/dejar-de-fumar-acupuntura"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Acupuntura y medicina tradicional china",
+          "url": "https://www.walambcn.com/acupuntura-medicina-tradicional-china"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "PNI y PNIE en Barcelona",
+          "url": "https://www.walambcn.com/pni-pnie-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Nutrición y salud intestinal",
+          "url": "https://www.walambcn.com/nutricion-salud-intestinal"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Drenaje linfático manual postoperatorio",
+          "url": "https://www.walambcn.com/drenaje-linfatico-postoperatorio"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Masajes en Sarrià–Sant Gervasi",
+          "url": "https://www.walambcn.com/masajes-sarria-sant-gervasi"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Reflexología en Sarrià–Sant Gervasi",
+          "url": "https://www.walambcn.com/reflexologia-sarria-sant-gervasi"
+        }
+      ],
+      "sameAs": []
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.walambcn.com/medicina-integrativa-barcelona#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Inicio",
+          "item": "https://www.walambcn.com"
+        }
+      ]
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.walambcn.com/medicina-integrativa-barcelona#webpage",
+      "url": "https://www.walambcn.com/medicina-integrativa-barcelona",
+      "name": "Medicina integrativa en Barcelona · Sarrià | WA LAM",
+      "description": "Centro de salud integrativa en Sarrià–Sant Gervasi, Barcelona: dolor persistente, estrés, salud digestiva, osteopatía, fisioterapia, PNIE y MBSR.",
+      "inLanguage": "es-ES",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "WA LAM",
+        "url": "https://www.walambcn.com"
+      },
+      "breadcrumb": {
+        "@id": "https://www.walambcn.com/medicina-integrativa-barcelona#breadcrumb"
+      },
+      "publisher": {
+        "@id": "https://www.walambcn.com/#clinica"
+      },
+      "lastReviewed": "2026-11-18",
+      "dateModified": "2026-11-18",
+      "keywords": "medicina integrativa Barcelona, centro de salud integrativa Barcelona, clínica integrativa Sarrià, osteopatía y fisioterapia Sant Gervasi, medicina integrativa Sant Gervasi",
+      "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/medicina-integrativa-barcelona.png",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".quick p",
+          "h1"
+        ]
+      },
+      "citation": [
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Noninvasive Treatments for Acute, Subacute, and Chronic Low Back Pain: A Clinical Practice Guideline From the American College of Physicians",
+          "url": "https://doi.org/10.7326/M16-2367",
+          "sameAs": "https://doi.org/10.7326/M16-2367"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Mindfulness-Based Stress Reduction vs Escitalopram for the Treatment of Adults With Anxiety Disorders: A Randomized Clinical Trial",
+          "url": "https://doi.org/10.1001/jamapsychiatry.2022.3679",
+          "sameAs": "https://doi.org/10.1001/jamapsychiatry.2022.3679"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Psychological Stress and the Human Immune System: A Meta-Analytic Study of 30 Years of Inquiry",
+          "url": "https://doi.org/10.1037/0033-2909.130.4.601",
+          "sameAs": "https://doi.org/10.1037/0033-2909.130.4.601"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Muscle-strengthening activities are associated with lower risk and mortality in major non-communicable diseases: a systematic review and meta-analysis of cohort studies",
+          "url": "https://doi.org/10.1136/bjsports-2021-105061",
+          "sameAs": "https://doi.org/10.1136/bjsports-2021-105061"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Reliability of Diagnosis and Clinical Efficacy of Cranial Osteopathy: A Systematic Review",
+          "url": "https://doi.org/10.1371/journal.pone.0167823",
+          "sameAs": "https://doi.org/10.1371/journal.pone.0167823"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.walambcn.com/medicina-integrativa-barcelona#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Qué es la medicina integrativa?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Es un enfoque que combina la medicina convencional con terapias y hábitos de vida que cuentan con respaldo científico, poniendo a la persona en el centro. En WA LAM no sustituimos a tu médico: complementamos su seguimiento."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "No sé qué tratamiento necesito. ¿Por dónde empiezo?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Empieza por el motivo de consulta que más se parece a lo que te ocurre, o escríbenos por WhatsApp. Te orientaremos hacia el profesional adecuado antes de reservar."
+          }
+        }
+      ]
+    }
+  ]
+}

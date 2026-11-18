@@ -11,7 +11,15 @@ from urllib.parse import quote
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "tools"))
-from landings_content import PAGES, GROUPS, SITE  # noqa: E402
+from landings_content import PAGES, GROUPS, SITE, R  # noqa: E402
+from seo_map import SEO, BARRIOS  # noqa: E402
+
+SITE.setdefault("og_base", "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/")
+SITE.setdefault("updated", "2026-11-18")
+SITE.setdefault("updated_txt", "18 de noviembre de 2026")
+# Rellenar cuando se confirme: activa reviewedBy en los datos estructurados
+SITE.setdefault("reviewer", None)  # p. ej. {"name": "Nombre Apellido", "title": "Fisioterapeuta y osteópata", "license": "Col. nº 0000"}
+PREVIEW = "--preview" in sys.argv
 
 LOGO = (ROOT / "tools" / "logo.b64").read_text().strip()
 OUT = ROOT / "landings"
@@ -19,9 +27,13 @@ OUT.mkdir(exist_ok=True)
 BYSLUG = {p["slug"]: p for p in PAGES}
 
 
+LINK_RE = re.compile(r"(?<!\[)\[([^\[\]]+)\]\(([A-Za-z0-9#:/._\-]+)\)")
+
+
 def fmt(s):
-    """Escapa y convierte **negrita**, *turquesa* y [[pendiente]]."""
+    """Escapa y convierte **negrita**, *turquesa*, [texto](slug) y [[pendiente]]."""
     s = html.escape(s, quote=False)
+    s = LINK_RE.sub(lambda m: f'<a class="inl" href="{m.group(2) if m.group(2).startswith(("http", "#")) else url(m.group(2))}">{m.group(1)}</a>', s)
     s = re.sub(r"\[\[(.+?)\]\]", r'<span class="pend">\1</span>', s)
     s = re.sub(r"\*\*(.+?)\*\*", r"<b>\1</b>", s)
     s = re.sub(r"(?<![\w*])\*(?!\s)(.+?)(?<!\s)\*(?![\w*])", r'<span class="tq">\1</span>', s)
@@ -29,11 +41,26 @@ def fmt(s):
 
 
 def plain(s):
+    s = LINK_RE.sub(lambda m: m.group(1), s)
     return re.sub(r"\[\[|\]\]|\*", "", s)
 
 
 def url(slug):
+    if PREVIEW:
+        if slug in ("", "tratamientos", "healthy-lifestyle-academy"):
+            return "./"
+        return f"{slug}.html"
+    return f"{SITE['base']}/{slug}" if slug else SITE["base"]
+
+
+def canon(slug):
     return f"{SITE['base']}/{slug}"
+
+
+def slugify(t):
+    import unicodedata
+    t = unicodedata.normalize("NFKD", plain(t)).encode("ascii", "ignore").decode().lower()
+    return re.sub(r"[^a-z0-9]+", "-", t).strip("-")[:48]
 
 
 def wa(text):
@@ -168,6 +195,23 @@ p{text-align:justify;text-justify:inter-word}
 .hubgrp{margin-bottom:44px}
 .hubgrp h2{color:var(--pet);font-size:1.5rem;margin:6px 0 18px}
 .tag{display:inline-block;font-size:.66rem;font-weight:800;letter-spacing:.06em;text-transform:uppercase;background:var(--tq);color:#1D3F40;border-radius:999px;padding:3px 9px;margin-left:6px;vertical-align:middle}
+/* SEO: firma, resumen, índice, local */
+.byline{background:#163536;color:rgba(255,255,255,.85);font-size:.8rem;padding:10px 0}
+.byline .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:6px 20px}
+.byline a{color:var(--tq)}
+.quick{background:#fff;padding:40px 0 10px}
+.qbox{max-width:900px;margin:0 auto;border:1px solid rgba(12,191,194,.45);border-left:5px solid var(--tq);border-radius:0 18px 18px 0;padding:22px 26px;background:linear-gradient(90deg,rgba(12,191,194,.08),#fff)}
+.qbox h2{color:var(--pet);font-size:1.25rem;margin:6px 0 8px}
+.qbox p{font-size:1rem;text-align:left}
+.toc{background:#fff;padding:18px 0 6px}
+.toc .wrap{max-width:900px}
+.toc .chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px}
+.toc a{font-size:.8rem;font-weight:500;color:var(--pet);text-decoration:none;background:var(--piedra);border:1px solid rgba(29,63,64,.12);border-radius:999px;padding:6px 13px}
+.toc a:hover{border-color:var(--tq);color:#0a8f91}
+a.inl{color:#0a8f91;font-weight:600;text-decoration:underline;text-underline-offset:3px}
+.dark a.inl,.hero a.inl{color:var(--tq)}
+.localsec{background:#fff}
+.localsec .card:hover{transform:none}
 /* partículas */
 .hero,.steps,.cont{position:relative}
 .fxcanvas{position:absolute;inset:0;width:100%;height:100%;z-index:0;pointer-events:none;opacity:.55}
@@ -215,56 +259,117 @@ JS = """
  document.addEventListener('click',function(e){var a=e.target.closest?e.target.closest('a'):null;if(!a)return;
    var h=a.getAttribute('href')||'';
    if(h.charAt(0)==='#'&&h.length>1){var el=document.querySelector(h);if(el){e.preventDefault();el.scrollIntoView({behavior:'smooth',block:'start'});}return;}
-   if(embedded&&!a.target){a.target='_top';}
+   if(embedded&&!a.target&&/^https?:/.test(h)){a.target='_top';}
  },false);
 })();
 </script>
 """
 
 
+def seo(p):
+    return SEO.get(p["slug"], {})
+
+
 def head(p):
-    title = plain(p["title"])
-    desc = plain(p["desc"])
+    S = seo(p)
+    title = plain(S.get("title", p["title"]))
+    desc = plain(S.get("desc", p["desc"]))
     ld = schema(p)
-    return f"""<!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+    can = canon(p["slug"]) if p["slug"] != "index" else SITE["base"]
+    og = SITE["og_base"] + p["slug"] + ".png"
+    robots = "noindex,nofollow" if p["slug"] in ("index", "guia-seo") else "index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+    return f"""<!DOCTYPE html><html lang="es-ES"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{html.escape(title)}</title>
 <meta name="description" content="{html.escape(desc)}">
-<link rel="canonical" href="{url(p['slug']) if p['slug'] != 'index' else SITE['base']}">
-<meta property="og:title" content="{html.escape(title)}"><meta property="og:description" content="{html.escape(desc)}"><meta property="og:type" content="website"><meta property="og:locale" content="es_ES">
+<meta name="robots" content="{robots}">
+<link rel="canonical" href="{can}">
+<link rel="alternate" hreflang="es-ES" href="{can}"><link rel="alternate" hreflang="x-default" href="{can}">
+<meta name="geo.region" content="ES-CT"><meta name="geo.placename" content="Barcelona, Sarrià-Sant Gervasi">
+<meta name="author" content="WA LAM · Salud integrativa"><meta name="theme-color" content="#1D3F40">
+<meta property="og:type" content="website"><meta property="og:locale" content="es_ES"><meta property="og:site_name" content="WA LAM">
+<meta property="og:title" content="{html.escape(title)}"><meta property="og:description" content="{html.escape(desc)}">
+<meta property="og:url" content="{can}"><meta property="og:image" content="{og}"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="{html.escape(plain(p.get('h1') or title))} · WA LAM">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{html.escape(title)}"><meta name="twitter:description" content="{html.escape(desc)}"><meta name="twitter:image" content="{og}">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
 <style>{CSS}</style>
 <script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>
 </head><body>"""
 
 
+def page_refs(p):
+    out, seen = [], set()
+    for b in p.get("blocks", []):
+        for r in b.get("refs", []):
+            if r["doi"] not in seen:
+                seen.add(r["doi"]); out.append(r)
+    return out
+
+
 def schema(p):
-    org = {"@type": "MedicalClinic", "name": "WA LAM · Salud integrativa", "url": SITE["base"],
-           "telephone": "+34 675 716 409", "email": SITE["email"],
-           "address": {"@type": "PostalAddress", "addressLocality": "Barcelona",
-                       "addressRegion": "Barcelona", "addressCountry": "ES",
-                       "streetAddress": SITE["address"]},
-           "areaServed": ["Sarrià-Sant Gervasi", "Barcelona"]}
-    graph = []
+    if p["slug"] in ("index", "guia-seo"):
+        return {"@context": "https://schema.org", "@type": "WebPage", "name": plain(p.get("title", ""))}
+    S = seo(p)
+    clinic_id = SITE["base"] + "/#clinica"
+    org = {"@type": ["MedicalClinic", "MedicalBusiness"], "@id": clinic_id, "name": "WA LAM · Salud integrativa",
+           "url": SITE["base"], "telephone": "+34675716409", "email": SITE["email"],
+           "image": SITE["og_base"] + "medicina-integrativa-barcelona.png", "priceRange": "€€",
+           "address": {"@type": "PostalAddress", "addressLocality": "Barcelona", "addressRegion": "Cataluña",
+                       "addressCountry": "ES", "streetAddress": SITE.get("street", "")} if SITE.get("street") else
+                      {"@type": "PostalAddress", "addressLocality": "Barcelona", "addressRegion": "Cataluña", "addressCountry": "ES"},
+           "areaServed": [{"@type": "Place", "name": f"{b}, Barcelona"} for b in BARRIOS] + [{"@type": "City", "name": "Barcelona"}],
+           "medicalSpecialty": ["Physiotherapy", "Musculoskeletal"],
+           "availableService": [{"@type": "MedicalTherapy", "name": plain(x["nav"]), "url": canon(x["slug"])} for x in PAGES if x["group"] == "servicio"],
+           "sameAs": SITE.get("same_as", [])}
+    g = GROUPS.get(p["group"], {})
+    crumbs = [{"@type": "ListItem", "position": 1, "name": "Inicio", "item": SITE["base"]}]
+    if p["group"] != "home":
+        crumbs.append({"@type": "ListItem", "position": 2, "name": g["nav"], "item": canon(g["hub"])})
+        crumbs.append({"@type": "ListItem", "position": 3, "name": plain(p["nav"]), "item": canon(p["slug"])})
+    graph = [org, {"@type": "BreadcrumbList", "@id": canon(p["slug"]) + "#breadcrumb", "itemListElement": crumbs}]
+    webpage = {"@type": "MedicalWebPage" if p["group"] in ("motivo", "servicio", "home") else "WebPage",
+               "@id": canon(p["slug"]) + "#webpage", "url": canon(p["slug"]), "name": plain(S.get("title", p["title"])),
+               "description": plain(S.get("desc", p["desc"])), "inLanguage": "es-ES",
+               "isPartOf": {"@type": "WebSite", "name": "WA LAM", "url": SITE["base"]},
+               "breadcrumb": {"@id": canon(p["slug"]) + "#breadcrumb"}, "publisher": {"@id": clinic_id},
+               "lastReviewed": SITE["updated"], "dateModified": SITE["updated"],
+               "keywords": ", ".join([S.get("kw", "")] + S.get("kws", [])),
+               "primaryImageOfPage": SITE["og_base"] + p["slug"] + ".png",
+               "speakable": {"@type": "SpeakableSpecification", "cssSelector": [".quick p", "h1"]}}
+    if p["group"] in ("motivo", "servicio"):
+        webpage["audience"] = {"@type": "Patient"}
+    if SITE.get("reviewer"):
+        rv = SITE["reviewer"]
+        webpage["reviewedBy"] = {"@type": "Person", "name": rv["name"], "jobTitle": rv.get("title", ""), "worksFor": {"@id": clinic_id}}
+    if S.get("entity"):
+        t, n = S["entity"]
+        webpage["about"] = {"@type": t, "name": n}
+        if t == "MedicalCondition":
+            webpage["about"]["possibleTreatment"] = [{"@type": "MedicalTherapy", "name": plain(BYSLUG[r]["nav"])} for r in p.get("related", []) if BYSLUG[r]["group"] == "servicio"]
+    refs = page_refs(p)
+    if refs:
+        webpage["citation"] = [{"@type": "ScholarlyArticle", "name": r["t"].split("«")[-1].split("»")[0] if "«" in r["t"] else r["t"],
+                                "url": "https://doi.org/" + r["doi"], "sameAs": "https://doi.org/" + r["doi"]} for r in refs]
+    graph.append(webpage)
+    if p["group"] == "servicio":
+        graph.append({"@type": "Service", "@id": canon(p["slug"]) + "#servicio", "name": plain(p["h1"]), "serviceType": plain(p["nav"]),
+                      "provider": {"@id": clinic_id}, "areaServed": org["areaServed"], "url": canon(p["slug"]),
+                      "description": plain(S.get("desc", p["desc"]))})
     if p["group"] == "academia":
-        graph.append({"@type": "Course", "name": plain(p["h1"]), "description": plain(p["desc"]),
+        graph.append({"@type": "Course", "@id": canon(p["slug"]) + "#curso", "name": plain(p["h1"]), "description": plain(S.get("desc", p["desc"])),
                       "provider": {"@type": "Organization", "name": "WA LAM · Healthy Lifestyle Academy", "url": SITE["base"]},
-                      "inLanguage": "es"})
-    elif p["group"] == "home":
-        graph.append(org)
-    else:
-        graph.append({"@type": "MedicalWebPage", "name": plain(p["h1"]), "description": plain(p["desc"]),
-                      "url": url(p["slug"]), "inLanguage": "es", "about": plain(p.get("about", p["h1"])),
-                      "publisher": org})
+                      "inLanguage": "es", "url": canon(p["slug"])})
     if p.get("faq"):
-        graph.append({"@type": "FAQPage", "mainEntity": [
+        graph.append({"@type": "FAQPage", "@id": canon(p["slug"]) + "#faq", "mainEntity": [
             {"@type": "Question", "name": plain(q), "acceptedAnswer": {"@type": "Answer", "text": plain(a)}}
-            for q, a in p["faq"]]})
+            for q, a in p["faq"] if "[[" not in a]})
     return {"@context": "https://schema.org", "@graph": graph}
 
 
 def nav(p):
     links = "".join(f'<a href="{url(GROUPS[g]["hub"])}">{GROUPS[g]["nav"]}</a>' for g in ("motivo", "servicio", "academia"))
-    return f"""<header class="topnav"><div class="wrap"><a href="{SITE['base']}"><img src="{LOGO}" alt="WA LAM" style="height:30px;display:block"></a>
+    return f"""<header class="topnav"><div class="wrap"><a href="{url('')}"><img src="{LOGO}" alt="WA LAM" style="height:30px;display:block"></a>
 <nav>{links}<a href="#contacto">Contacto</a></nav></div></header>"""
 
 
@@ -272,7 +377,7 @@ def hero(p):
     g = GROUPS.get(p["group"])
     crumbs = ""
     if g:
-        crumbs = f'<div class="crumbs"><a href="{SITE["base"]}">Inicio</a> › <a href="{url(g["hub"])}">{g["nav"]}</a> › {html.escape(plain(p["nav"]))}</div>'
+        crumbs = f'<div class="crumbs"><a href="{url("")}">Inicio</a> › <a href="{url(g["hub"])}">{g["nav"]}</a> › {html.escape(plain(p["nav"]))}</div>'
     b1 = p.get("cta1", ("Escríbenos por WhatsApp", wa(p["wa"])))
     b2 = p.get("cta2", ("Reservar primera visita", SITE["booking"]))
     facts = "".join(f"<li>{fmt(f)}</li>" for f in p["facts"])
@@ -340,7 +445,7 @@ def evidence(e):
 
 def faq(items):
     d = "".join(f"<details><summary>{fmt(q)}</summary><p>{fmt(a)}</p></details>" for q, a in items)
-    return f'<section class="faq"><div class="wrap">{sec_head("Preguntas frecuentes", "Lo que suelen preguntarnos")}<div class="list">{d}</div></div></section>'
+    return f'<section class="faq" id="preguntas-frecuentes"><div class="wrap">{sec_head("Preguntas frecuentes", "Lo que suelen preguntarnos")}<div class="list">{d}</div></div></section>'
 
 
 def related(slugs, h2="También puede interesarte"):
@@ -366,7 +471,7 @@ def contact(p):
 <div class="datos"><span>📍 {fmt(SITE['address_short'])}</span><span>📧 {SITE['email']}</span><span>📞 +34 675 716 409</span></div>
 <a class="btn btn-tq" href="{wa(p['wa'])}" target="_blank" rel="noopener">Escríbenos por WhatsApp</a>
 </div></section>
-<footer class="foot"><div class="wrap">WA LAM · Salud integrativa en Barcelona · Sarrià–Sant Gervasi · <a href="{SITE['base']}">walambcn.com</a></div></footer>"""
+<footer class="foot"><div class="wrap">WA LAM · Salud integrativa en Barcelona · Sarrià–Sant Gervasi · <a href="{url('')}">walambcn.com</a></div></footer>"""
 
 
 NOTE = ('<section class="note"><div class="wrap"><p>La información de esta página es orientativa y no sustituye la valoración '
@@ -374,24 +479,77 @@ NOTE = ('<section class="note"><div class="wrap"><p>La información de esta pág
         'sin causa aparente, sangrado o pérdida de fuerza, consulta con tu médico o con urgencias.</p></div></section>')
 
 
+def byline(p):
+    n = len(page_refs(p))
+    rv = SITE.get("reviewer")
+    who = f'{html.escape(rv["name"])}, {html.escape(rv.get("title", ""))} ({html.escape(rv.get("license", ""))})' if rv else '<span class="pend">profesional sanitario/a, titulación y nº de colegiado/a</span>'
+    refs = f' · <a href="#{slugify(evid_title(p))}">{n} referencias científicas</a>' if n else ""
+    return (f'<div class="byline"><div class="wrap"><span>✔ Contenido revisado por {who}</span>'
+            f'<span>Actualizado: <time datetime="{SITE["updated"]}">{SITE["updated_txt"]}</time>{refs}</span></div></div>')
+
+
+def evid_title(p):
+    for b in p["blocks"]:
+        if b["type"] == "evidence":
+            return b["h2"]
+    return ""
+
+
+def quick(p):
+    q = seo(p).get("quick")
+    if not q:
+        return ""
+    return (f'<section class="quick" id="en-resumen"><div class="wrap"><div class="qbox"><span class="k">En resumen</span>'
+            f'<h2>{fmt(seo(p).get("q_title", p["nav"]))}</h2><p>{fmt(q)}</p></div></div></section>')
+
+
+def toc(items):
+    if len(items) < 3:
+        return ""
+    lis = "".join(f'<a href="#{i}">{html.escape(t)}</a>' for i, t in items)
+    return f'<nav class="toc" aria-label="En esta página"><div class="wrap"><span class="k">En esta página</span><div class="chips">{lis}</div></div></nav>'
+
+
+def local(p):
+    S = seo(p)
+    kw = S.get("kw", plain(p["nav"]))
+    barrios = ", ".join(BARRIOS[:-1]) + " y " + BARRIOS[-1]
+    return f"""<section class="localsec" id="donde-estamos"><div class="wrap">{sec_head("Dónde estamos", f"{plain(p['nav'])} cerca de ti, en Sarrià–Sant Gervasi")}
+<div class="grid g2"><div class="card"><span class="k">Consulta presencial</span><h3>WA LAM · Sarrià–Sant Gervasi, Barcelona</h3>
+<p>Atendemos a pacientes de todo el distrito de Sarrià–Sant Gervasi —{html.escape(barrios)}— y de toda Barcelona.</p>
+<ul><li>Dirección: <span class="pend">calle y número</span></li><li>Cómo llegar: <span class="pend">FGC / metro / bus más cercanos</span></li><li>Horario: <span class="pend">días y horas</span></li><li>Teléfono y WhatsApp: +34 675 716 409</li></ul></div>
+<div class="card"><span class="k">Reserva</span><h3>Pide cita para {html.escape(plain(p['nav']).lower() if p['group'] == 'servicio' else 'tu primera visita')}</h3>
+<p>Puedes reservar online o escribirnos por WhatsApp. Si no sabes qué profesional te conviene, cuéntanos tu caso y te orientamos antes de reservar.</p>
+<div class="btn-row"><a class="btn btn-tq" href="{wa(p['wa'])}" target="_blank" rel="noopener">WhatsApp</a><a class="btn btn-gh" href="{SITE['booking']}">Reservar online</a></div>
+<p style="margin-top:14px;font-size:.85rem"><span class="pend">Insertar mapa de Google de la ficha de Google Business Profile</span></p></div></div></div></section>"""
+
+
 def page(p):
-    parts = [head(p), nav(p), hero(p)]
+    parts = [head(p), nav(p), hero(p), byline(p) if p["group"] != "home" or True else ""]
+    body, items = [], []
     for blk in p["blocks"]:
         t = blk["type"]
-        if t == "mirror": parts.append(mirror(blk))
-        elif t == "explain": parts.append(explain(blk))
-        elif t == "cards": parts.append(cards(blk))
-        elif t == "steps": parts.append(steps(blk))
-        elif t == "pro": parts.append(pro(blk, p))
-        elif t == "evidence": parts.append(evidence(blk))
-        elif t == "hubcards": parts.append(hubcards(blk))
-    if p.get("faq"): parts.append(faq(p["faq"]))
+        h = {"mirror": mirror, "explain": explain, "cards": cards, "steps": steps, "evidence": evidence, "hubcards": hubcards}.get(t)
+        if t == "pro":
+            out = pro(blk, p); sid = "ficha"; label = "Ficha y reserva"
+        else:
+            out = h(blk); sid = slugify(blk.get("h2", t)); label = plain(blk.get("eyebrow", blk.get("h2", "")))
+            if t != "hubcards":
+                out = out.replace('<section class="', f'<section id="{sid}" class="', 1)
+        if t != "hubcards":
+            items.append((sid, label if t != "evidence" else "Evidencia científica"))
+        body.append(out)
+    if p["group"] in ("motivo", "servicio"):
+        body.append(local(p)); items.append(("donde-estamos", "Dónde estamos"))
+    if p.get("faq"):
+        body.append(faq(p["faq"])); items.append(("preguntas-frecuentes", "Preguntas frecuentes"))
+    parts += [quick(p), toc(items)] + body
     if p.get("related"): parts.append(related(p["related"]))
     parts.append(ctaband(p))
     if p["group"] in ("motivo", "servicio"): parts.append(NOTE)
     parts.append(contact(p))
     parts.append(JS + "</body></html>")
-    return "\n".join(parts)
+    return "\n".join(x for x in parts if x)
 
 
 def hubcards(b):
@@ -401,14 +559,68 @@ def hubcards(b):
         cs = "".join(
             f'<a class="card" href="{url(x["slug"])}"><span class="k">{G["label"]}</span><h3>{fmt(x["nav"])}</h3><p>{fmt(x["card"])}</p><span class="go">Ver página →</span></a>'
             for x in PAGES if x["group"] == g)
-        out.append(f'<section class="rel" id="{G["hub"]}"><div class="wrap">{sec_head(G["eyebrow"], G["title"], G["intro"])}<div class="grid">{cs}</div></div></section>')
+        out.append(f'<section class="rel" id="{ {"motivo": "motivos", "servicio": "servicios", "academia": "academia"}[g]}"><div class="wrap">{sec_head(G["eyebrow"], G["title"], G["intro"])}<div class="grid">{cs}</div></div></section>')
     return "\n".join(out)
 
 
+def guide():
+    rows = []
+    for x in PAGES:
+        S = SEO[x["slug"]]
+        rows.append(f"""<tr><td><b>{fmt(x['nav'])}</b><br><code>/{x['slug']}</code></td><td>{html.escape(S['title'])}<br><small>{len(S['title'])} caracteres</small></td>
+<td>{html.escape(S['desc'])}<br><small>{len(S['desc'])} caracteres</small></td><td><b>{html.escape(S['kw'])}</b><br><small>{html.escape(', '.join(S['kws']))}</small></td><td>{html.escape(S['ca'])}</td></tr>""")
+    gp = {"slug": "guia-seo", "group": "home", "title": "Guía SEO · WA LAM", "desc": "", "h1": "Guía SEO"}
+    done = ["Una página por intención de búsqueda (motivo de consulta, servicio, curso), sin páginas duplicadas que compitan entre sí.",
+            "Title de 60 caracteres o menos y meta description de 160 o menos, con la palabra clave y Sarrià–Sant Gervasi o Barcelona.",
+            "Un único H1 por página con la palabra clave, y H2 con las búsquedas secundarias y preguntas reales.",
+            "Bloque «En resumen» al inicio: una respuesta de 40 a 60 palabras pensada para los fragmentos destacados de Google y las respuestas de ChatGPT, Perplexity y AI Overviews.",
+            "E-E-A-T sanitario (YMYL): firma de revisión clínica con fecha, referencias científicas con DOI verificado y lenguaje prudente sin promesas.",
+            "Datos estructurados completos: MedicalClinic, MedicalWebPage (con lastReviewed, about, citation y audience), Service o Course, BreadcrumbList, FAQPage y Speakable.",
+            "SEO local: bloque «Dónde estamos» con los barrios del distrito, datos de contacto y llamada a la reserva en cada página de consulta presencial.",
+            "Enlazado interno: enlaces dentro del texto con texto ancla descriptivo, páginas relacionadas y migas de pan.",
+            "Índice «En esta página» con anclas, que Google puede mostrar como enlaces directos en los resultados.",
+            "Etiquetas para redes y WhatsApp (Open Graph y Twitter) con una imagen propia por página (carpeta og/).",
+            "Canonical, hreflang es-ES, robots con max-snippet y max-image-preview, geo y preconnect de fuentes.",
+            "Versión móvil verificada: sin desplazamiento horizontal y con botones a ancho completo."]
+    todo = [("Wix: crear cada página con su URL", "Crea la página en Wix con exactamente la URL de la tabla (Configuración SEO › URL). No cambies las URL una vez publicadas."),
+            ("Wix: title y description", "Copia el title y la meta description de la tabla en Configuración SEO de cada página."),
+            ("Wix: texto nativo, no solo iframe", "Google no atribuye a tu página el texto de un iframe. Pega al menos el H1, el bloque «En resumen», los primeros párrafos y las preguntas frecuentes como texto de Wix. El iframe puede quedarse para el diseño."),
+            ("Wix: datos estructurados", "En Configuración SEO › Avanzado › Marcado estructurado, pega el JSON de la carpeta schema/ correspondiente a cada página."),
+            ("Completar los datos pendientes", "Nombre, titulación y nº de colegiado/a del profesional que revisa cada página, dirección, horario y precios. Es lo que más pesa en el E-E-A-T de una web de salud."),
+            ("Google Business Profile", "Categoría principal «Centro de medicina integrativa» o «Osteópata», con categorías secundarias para fisioterapia y acupuntura; servicios con el mismo nombre que las páginas, fotos reales, horario y enlace a cada página. El mismo nombre, dirección y teléfono (NAP) en la web y en todos los directorios."),
+            ("Reseñas", "Pide reseñas en Google después de cada alta, de forma ética: sin incentivos y respondiendo a todas. Las reseñas que mencionan el servicio y el barrio ayudan al posicionamiento local."),
+            ("Directorios que hoy ocupan las primeras posiciones", "En las búsquedas revisadas aparecen sobre todo Doctoralia, Topdoctors y portales de aseguradoras. Crear o completar el perfil de cada profesional en Doctoralia y Topdoctors, enlazando a la web, es la vía más rápida para aparecer en la primera página mientras crece la web."),
+            ("Versión en catalán", "En Barcelona una parte importante de las búsquedas se hacen en catalán (osteòpata Sarrià, insomni, deixar de fumar). Con Wix Multilingual, traducir las páginas de la primera tanda y enlazarlas con hreflang ca-ES."),
+            ("Magazín (blog) como clúster", "Publicar artículos que respondan preguntas concretas y enlacen a la página de servicio: «¿Por qué me despierto a las 4 de la mañana?» → Sueño e insomnio; «Dolor lumbar con pruebas normales» → Dolor persistente; «¿Funciona la acupuntura para dejar de fumar?» → Dejar de fumar; «Hinchazón y estrés» → Salud digestiva; «Qué es el MBSR» → Curso MBSR."),
+            ("Search Console y Keyword Planner", "Dar de alta el dominio en Google Search Console y enviar el sitemap de Wix. Para el volumen de búsquedas, usar Google Keyword Planner con ubicación Barcelona e idiomas español y catalán, y revisar cada mes qué consultas traen impresiones a cada página."),
+            ("Medir", "Objetivo por página: impresiones y clics en Search Console, posición media de la palabra clave principal y reservas o WhatsApp recibidos desde la página.")]
+    body = f"""<section class="hero"><div class="wrap" style="grid-template-columns:1fr"><div><span class="eyebrow">Guía SEO</span><h1>Plan SEO de las landing pages</h1>
+<p class="lead">Qué está hecho en cada página, qué palabra clave trabaja y qué falta hacer en Wix y fuera de la web. Ninguna agencia puede garantizar el primer puesto, pero este es el trabajo que lo hace posible.</p></div></div></section>
+<section style="background:#fff"><div class="wrap">{sec_head("Hecho en las páginas", "SEO técnico y de contenido incluido")}<div class="card" style="max-width:900px;margin:0 auto"><ul>{''.join(f'<li>{html.escape(d)}</li>' for d in done)}</ul></div></div></section>
+<section style="background:var(--piedra)"><div class="wrap">{sec_head("Mapa de palabras clave", "Title, description y búsquedas de cada página", "Volumen de búsqueda: no disponible. Hay que consultarlo en Google Keyword Planner (ubicación Barcelona, español y catalán, últimos 12 meses) antes de priorizar.")}
+<div class="tbl"><table><thead><tr><th>Página / URL</th><th>Title</th><th>Meta description</th><th>Palabra clave y secundarias</th><th>Catalán</th></tr></thead><tbody>{''.join(rows)}</tbody></table></div></div></section>
+<section class="steps dark"><div class="wrap">{sec_head("Lo que falta", "Pasos para posicionar, en orden")}<div class="sgrid">{''.join(f'<div class="step"><div class="num">{i+1}</div><h3>{html.escape(a)}</h3><p>{html.escape(b)}</p></div>' for i, (a, b) in enumerate(todo))}</div></div></section>"""
+    css = "<style>.tbl{overflow-x:auto;background:#fff;border-radius:16px}.tbl table{border-collapse:collapse;width:100%;min-width:900px;font-size:.82rem}.tbl th{background:#1D3F40;color:#fff;text-align:left;padding:10px}.tbl td{padding:10px;border-bottom:1px solid rgba(29,63,64,.1);vertical-align:top}.tbl small{opacity:.7}code{font-size:.75rem;color:#0a8f91}</style>"
+    gp["wa"] = "Hola, tengo una consulta sobre la web de WA LAM."
+    return head(gp).replace("</head>", css + "</head>") + nav(gp) + body + contact(gp) + JS + "</body></html>"
+
+
 def main():
+    out = OUT
+    if PREVIEW:
+        out = Path(sys.argv[sys.argv.index("--preview") + 1]); out.mkdir(parents=True, exist_ok=True)
     for p in PAGES:
-        (OUT / f"{p['slug']}.html").write_text(page(p), encoding="utf-8")
-    # índice de revisión para WA LAM (no es para publicar)
+        (out / f"{p['slug']}.html").write_text(page(p), encoding="utf-8")
+    (out / "guia-seo.html").write_text(guide(), encoding="utf-8")
+    if not PREVIEW:
+        sd = OUT / "schema"; sd.mkdir(exist_ok=True)
+        for p in PAGES:
+            (sd / f"{p['slug']}.json").write_text(json.dumps(schema(p), ensure_ascii=False, indent=2), encoding="utf-8")
+        import csv
+        with open(OUT / "seo-wix.csv", "w", newline="", encoding="utf-8") as f:
+            w = csv.writer(f); w.writerow(["url", "title", "meta_description", "h1", "palabra_clave", "secundarias", "catalan"])
+            for p in PAGES:
+                S = SEO[p["slug"]]; w.writerow(["/" + p["slug"], S["title"], S["desc"], plain(p["h1"]), S["kw"], "; ".join(S["kws"]), S["ca"]])
     rows = []
     for g in ("home", "motivo", "servicio", "academia"):
         G = GROUPS[g]
@@ -416,13 +628,14 @@ def main():
             f'<a class="card" href="{x["slug"]}.html" target="_self"><span class="k">/{x["slug"]}</span><h3>{fmt(x["nav"])}'
             f'{"<span class=tag>1ª tanda</span>" if x.get("wave") == 1 else ""}</h3><p>{fmt(x["card"])}</p></a>'
             for x in PAGES if x["group"] == g)
-        rows.append(f'<div class="hubgrp"><span class="k">{G["label"]}</span><h2>{G["title"]}</h2><div class="grid">{cs}</div></div>')
-    idx = {"slug": "index", "group": "home", "title": "WA LAM · Landing pages (revisión)", "desc": "Índice interno de revisión.", "h1": "", "faq": []}
+        rows.append(f'<div class="hubgrp" id="{ {"home": "portada", "motivo": "motivos", "servicio": "servicios", "academia": "academia"}[g]}"><span class="k">{G["label"]}</span><h2>{G["title"]}</h2><div class="grid">{cs}</div></div>')
+    idx = {"slug": "index", "group": "home", "title": "WA LAM · Landing pages", "desc": "Índice de revisión.", "h1": "", "faq": []}
     doc = head(idx) + nav(idx) + f"""<section class="hero"><div class="wrap" style="grid-template-columns:1fr"><div>
-<span class="eyebrow">Revisión interna</span><h1>Landing pages WA LAM</h1><p class="lead">{len(PAGES)} páginas con el estilo de la landing de formación. Lo resaltado así: <span class="pend">dato pendiente</span> hay que completarlo antes de publicar.</p></div></div></section>
-<section style="background:#fff"><div class="wrap">{''.join(rows)}</div></section>""" + JS + "</body></html>"
-    (OUT / "index.html").write_text(doc, encoding="utf-8")
-    print(f"{len(PAGES)} páginas + index.html en {OUT}")
+<span class="eyebrow">Revisión</span><h1>Landing pages WA LAM</h1><p class="lead">{len(PAGES)} páginas. Pulsa cualquiera para verla. Lo resaltado así: <span class="pend">dato pendiente</span> hay que completarlo antes de publicar.</p>
+<div class="btn-row"><a class="btn btn-tq" href="guia-seo.html" target="_self">Ver la guía SEO</a></div></div></div></section>
+<section style="background:#fff"><div class="wrap">{''.join(rows)}</div></section>""" + contact(dict(idx, wa="Hola, tengo una consulta sobre WA LAM.")) + JS + "</body></html>"
+    (out / "index.html").write_text(doc, encoding="utf-8")
+    print(f"{len(PAGES)} páginas + index.html + guia-seo.html en {out}")
 
 
 if __name__ == "__main__":

@@ -1,0 +1,200 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": [
+        "MedicalClinic",
+        "MedicalBusiness"
+      ],
+      "@id": "https://www.walambcn.com/#clinica",
+      "name": "WA LAM · Salud integrativa",
+      "url": "https://www.walambcn.com",
+      "telephone": "+34675716409",
+      "email": "contacto@walambcn.com",
+      "image": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/medicina-integrativa-barcelona.png",
+      "priceRange": "€€",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Barcelona",
+        "addressRegion": "Cataluña",
+        "addressCountry": "ES"
+      },
+      "areaServed": [
+        {
+          "@type": "Place",
+          "name": "Sarrià, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Sant Gervasi–Galvany, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Sant Gervasi–la Bonanova, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "les Tres Torres, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "el Putxet i el Farró, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Vallvidrera, el Tibidabo i les Planes, Barcelona"
+        },
+        {
+          "@type": "City",
+          "name": "Barcelona"
+        }
+      ],
+      "medicalSpecialty": [
+        "Physiotherapy",
+        "Musculoskeletal"
+      ],
+      "availableService": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Osteopatía en Sarrià–Sant Gervasi",
+          "url": "https://www.walambcn.com/osteopatia-sarria-sant-gervasi"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Fisioterapia en Sarrià–Sant Gervasi",
+          "url": "https://www.walambcn.com/fisioterapia-sarria-sant-gervasi"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Pérdida de peso en Sarrià–Sant Gervasi",
+          "url": "https://www.walambcn.com/perdida-de-peso-sarria-sant-gervasi"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Acupuntura como apoyo para dejar de fumar",
+          "url": "https://www.walambcn.com/dejar-de-fumar-acupuntura"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Acupuntura y medicina tradicional china",
+          "url": "https://www.walambcn.com/acupuntura-medicina-tradicional-china"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "PNI y PNIE en Barcelona",
+          "url": "https://www.walambcn.com/pni-pnie-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Nutrición y salud intestinal",
+          "url": "https://www.walambcn.com/nutricion-salud-intestinal"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Drenaje linfático manual postoperatorio",
+          "url": "https://www.walambcn.com/drenaje-linfatico-postoperatorio"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Masajes en Sarrià–Sant Gervasi",
+          "url": "https://www.walambcn.com/masajes-sarria-sant-gervasi"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Reflexología en Sarrià–Sant Gervasi",
+          "url": "https://www.walambcn.com/reflexologia-sarria-sant-gervasi"
+        }
+      ],
+      "sameAs": []
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.walambcn.com/yoga-particular-grupos-reducidos#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Inicio",
+          "item": "https://www.walambcn.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Academia",
+          "item": "https://www.walambcn.com/healthy-lifestyle-academy"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Yoga particular y en grupos reducidos",
+          "item": "https://www.walambcn.com/yoga-particular-grupos-reducidos"
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.walambcn.com/yoga-particular-grupos-reducidos#webpage",
+      "url": "https://www.walambcn.com/yoga-particular-grupos-reducidos",
+      "name": "Yoga particular y en grupos reducidos en Barcelona",
+      "description": "Clases de yoga particulares y en grupos reducidos en Sarrià–Sant Gervasi, Barcelona: yoga terapéutico adaptado. Horarios, precios y reserva.",
+      "inLanguage": "es-ES",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "WA LAM",
+        "url": "https://www.walambcn.com"
+      },
+      "breadcrumb": {
+        "@id": "https://www.walambcn.com/yoga-particular-grupos-reducidos#breadcrumb"
+      },
+      "publisher": {
+        "@id": "https://www.walambcn.com/#clinica"
+      },
+      "lastReviewed": "2026-11-18",
+      "dateModified": "2026-11-18",
+      "keywords": "yoga particular Barcelona, clases de yoga Sarrià Sant Gervasi, yoga grupos reducidos Barcelona, yoga terapéutico Barcelona, yoga dolor de espalda",
+      "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/yoga-particular-grupos-reducidos.png",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".quick p",
+          "h1"
+        ]
+      }
+    },
+    {
+      "@type": "Course",
+      "@id": "https://www.walambcn.com/yoga-particular-grupos-reducidos#curso",
+      "name": "Yoga particular y en grupos reducidos",
+      "description": "Clases de yoga particulares y en grupos reducidos en Sarrià–Sant Gervasi, Barcelona: yoga terapéutico adaptado. Horarios, precios y reserva.",
+      "provider": {
+        "@type": "Organization",
+        "name": "WA LAM · Healthy Lifestyle Academy",
+        "url": "https://www.walambcn.com"
+      },
+      "inLanguage": "es",
+      "url": "https://www.walambcn.com/yoga-particular-grupos-reducidos"
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.walambcn.com/yoga-particular-grupos-reducidos#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Necesito experiencia?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Adaptamos la práctica a tu nivel."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Puedo hacer yoga si tengo dolor de espalda?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "En muchos casos sí, con adaptaciones. Si el dolor es reciente o intenso, te recomendamos una valoración previa."
+          }
+        }
+      ]
+    }
+  ]
+}

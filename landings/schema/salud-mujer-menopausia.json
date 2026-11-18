@@ -1,0 +1,218 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": [
+        "MedicalClinic",
+        "MedicalBusiness"
+      ],
+      "@id": "https://www.walambcn.com/#clinica",
+      "name": "WA LAM · Salud integrativa",
+      "url": "https://www.walambcn.com",
+      "telephone": "+34675716409",
+      "email": "contacto@walambcn.com",
+      "image": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/medicina-integrativa-barcelona.png",
+      "priceRange": "€€",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Barcelona",
+        "addressRegion": "Cataluña",
+        "addressCountry": "ES"
+      },
+      "areaServed": [
+        {
+          "@type": "Place",
+          "name": "Sarrià, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Sant Gervasi–Galvany, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Sant Gervasi–la Bonanova, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "les Tres Torres, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "el Putxet i el Farró, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Vallvidrera, el Tibidabo i les Planes, Barcelona"
+        },
+        {
+          "@type": "City",
+          "name": "Barcelona"
+        }
+      ],
+      "medicalSpecialty": [
+        "Physiotherapy",
+        "Musculoskeletal"
+      ],
+      "availableService": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Osteopatía en Sarrià–Sant Gervasi",
+          "url": "https://www.walambcn.com/osteopatia-sarria-sant-gervasi"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Fisioterapia en Sarrià–Sant Gervasi",
+          "url": "https://www.walambcn.com/fisioterapia-sarria-sant-gervasi"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Pérdida de peso en Sarrià–Sant Gervasi",
+          "url": "https://www.walambcn.com/perdida-de-peso-sarria-sant-gervasi"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Acupuntura como apoyo para dejar de fumar",
+          "url": "https://www.walambcn.com/dejar-de-fumar-acupuntura"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Acupuntura y medicina tradicional china",
+          "url": "https://www.walambcn.com/acupuntura-medicina-tradicional-china"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "PNI y PNIE en Barcelona",
+          "url": "https://www.walambcn.com/pni-pnie-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Nutrición y salud intestinal",
+          "url": "https://www.walambcn.com/nutricion-salud-intestinal"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Drenaje linfático manual postoperatorio",
+          "url": "https://www.walambcn.com/drenaje-linfatico-postoperatorio"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Masajes en Sarrià–Sant Gervasi",
+          "url": "https://www.walambcn.com/masajes-sarria-sant-gervasi"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Reflexología en Sarrià–Sant Gervasi",
+          "url": "https://www.walambcn.com/reflexologia-sarria-sant-gervasi"
+        }
+      ],
+      "sameAs": []
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.walambcn.com/salud-mujer-menopausia#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Inicio",
+          "item": "https://www.walambcn.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "¿En qué podemos ayudarte?",
+          "item": "https://www.walambcn.com/tratamientos"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Salud de la mujer y menopausia",
+          "item": "https://www.walambcn.com/salud-mujer-menopausia"
+        }
+      ]
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.walambcn.com/salud-mujer-menopausia#webpage",
+      "url": "https://www.walambcn.com/salud-mujer-menopausia",
+      "name": "Menopausia y perimenopausia en Barcelona | WA LAM",
+      "description": "Perimenopausia y menopausia con enfoque integrativo en Barcelona: sueño, fuerza, suelo pélvico, digestión y estrés, en coordinación con ginecología.",
+      "inLanguage": "es-ES",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "WA LAM",
+        "url": "https://www.walambcn.com"
+      },
+      "breadcrumb": {
+        "@id": "https://www.walambcn.com/salud-mujer-menopausia#breadcrumb"
+      },
+      "publisher": {
+        "@id": "https://www.walambcn.com/#clinica"
+      },
+      "lastReviewed": "2026-11-18",
+      "dateModified": "2026-11-18",
+      "keywords": "menopausia tratamiento integrativo Barcelona, perimenopausia síntomas, menopausia insomnio, ejercicio de fuerza menopausia, suelo pélvico menopausia",
+      "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/salud-mujer-menopausia.png",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".quick p",
+          "h1"
+        ]
+      },
+      "audience": {
+        "@type": "Patient"
+      },
+      "about": {
+        "@type": "MedicalCondition",
+        "name": "Menopausia",
+        "possibleTreatment": [
+          {
+            "@type": "MedicalTherapy",
+            "name": "Fisioterapia en Sarrià–Sant Gervasi"
+          },
+          {
+            "@type": "MedicalTherapy",
+            "name": "PNI y PNIE en Barcelona"
+          }
+        ]
+      },
+      "citation": [
+        {
+          "@type": "ScholarlyArticle",
+          "name": "The 2022 hormone therapy position statement of The North American Menopause Society",
+          "url": "https://doi.org/10.1097/GME.0000000000002028",
+          "sameAs": "https://doi.org/10.1097/GME.0000000000002028"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Muscle-strengthening activities are associated with lower risk and mortality in major non-communicable diseases: a systematic review and meta-analysis of cohort studies",
+          "url": "https://doi.org/10.1136/bjsports-2021-105061",
+          "sameAs": "https://doi.org/10.1136/bjsports-2021-105061"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.walambcn.com/salud-mujer-menopausia#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Recetáis terapia hormonal?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Esa decisión corresponde a tu ginecóloga. Nosotras podemos acompañarte en los aspectos de hábitos, movimiento y bienestar, coordinándonos con ella si lo deseas."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuándo empieza la perimenopausia?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Suele empezar entre los 40 y los 50 años, con cambios en el ciclo y síntomas que pueden aparecer años antes de la última regla."
+          }
+        }
+      ]
+    }
+  ]
+}

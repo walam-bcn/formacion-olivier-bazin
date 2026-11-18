@@ -1,40 +1,47 @@
 # Landing pages WA LAM
 
-21 páginas con el mismo estilo que la landing de formación de Olivier Bazin: Poppins, verde petróleo `#1D3F40`, turquesa `#0CBFC2`, blanco y piedra `#F2F1EE`, con fondo de partículas en las secciones verdes.
+24 páginas con el mismo estilo que la landing de formación de Olivier Bazin: Poppins, verde petróleo `#1D3F40`, turquesa `#0CBFC2`, blanco y piedra `#F2F1EE`, con fondo de partículas en las secciones verdes.
 
 Vista previa de todas las páginas: `landings/index.html` (o https://walam-bcn.github.io/formacion-olivier-bazin/landings/ una vez publicada en GitHub Pages).
 
-## Páginas
+## Páginas (24)
 
-| Bloque | Página (URL propuesta en Wix) | Tanda |
+| Bloque | URL propuesta en Wix | Tanda |
 |---|---|---|
 | Portada | /medicina-integrativa-barcelona | 1 |
-| ¿En qué podemos ayudarte? | /dolor-persistente-cronico | 1 |
-| | /estres-ansiedad | 1 |
-| | /salud-digestiva-microbiota | 2 |
-| | /acompanamiento-fertilidad | 2 |
-| | /salud-mujer-menopausia | 3 |
-| | /prevencion-longevidad | 3 |
-| Servicios y terapias | /osteopatia-sarria-sant-gervasi | 1 |
-| | /fisioterapia-sarria-sant-gervasi | 1 |
-| | /drenaje-linfatico-postoperatorio | 1 |
-| | /acupuntura-medicina-tradicional-china | 2 |
-| | /pni-pnie-barcelona | 2 |
-| | /masajes-sarria-sant-gervasi | 2 |
-| | /reflexologia-sarria-sant-gervasi | 2 |
-| | /nutricion-salud-intestinal | 3 |
+| Motivo de consulta | /dolor-persistente-cronico | 1 |
+| Motivo de consulta | /estres-ansiedad | 1 |
+| Motivo de consulta | /salud-digestiva-microbiota | 2 |
+| Motivo de consulta | /acompanamiento-fertilidad | 2 |
+| Motivo de consulta | /salud-mujer-menopausia | 3 |
+| Motivo de consulta | /prevencion-longevidad | 3 |
+| Servicio | /osteopatia-sarria-sant-gervasi | 1 |
+| Servicio | /fisioterapia-sarria-sant-gervasi | 1 |
+| Servicio | /perdida-de-peso-sarria-sant-gervasi | 1 |
+| Motivo de consulta | /sueno-insomnio | 1 |
+| Servicio | /dejar-de-fumar-acupuntura | 2 |
+| Servicio | /acupuntura-medicina-tradicional-china | 2 |
+| Servicio | /pni-pnie-barcelona | 2 |
+| Servicio | /nutricion-salud-intestinal | 3 |
+| Servicio | /drenaje-linfatico-postoperatorio | 1 |
+| Servicio | /masajes-sarria-sant-gervasi | 2 |
+| Servicio | /reflexologia-sarria-sant-gervasi | 2 |
 | Healthy Lifestyle Academy | /curso-mindfulness-mbsr-barcelona | 1 |
-| | /vacaciones-con-sentido (incluye la edición Bali) | 1 |
-| | /yoga-particular-grupos-reducidos | 2 |
-| | /qigong-barcelona | 2 |
-| | /retiros-mindfulness-yoga-qigong | 2 |
-| | /formacion-medicina-tradicional-china | 3 |
+| Healthy Lifestyle Academy | /yoga-particular-grupos-reducidos | 2 |
+| Healthy Lifestyle Academy | /qigong-barcelona | 2 |
+| Healthy Lifestyle Academy | /formacion-medicina-tradicional-china | 3 |
+| Healthy Lifestyle Academy | /retiros-mindfulness-meditacion-silencio | 2 |
+| Healthy Lifestyle Academy | /vacaciones-con-sentido | 1 |
+
+Vista previa sin código: https://claude.ai/artifact/SJpd32PmKkjCpQEKCxrwej (privada). Guía SEO completa: `landings/guia-seo.html`.
+
+Archivos para Wix: `seo-wix.csv` (URL, title, description, H1 y palabras clave), `schema/*.json` (datos estructurados por página) y `og/*.png` (imagen para redes de cada página).
 
 ## Antes de publicar
 
 1. **Completar los datos resaltados** (recuadro turquesa discontinuo): nombre, titulación y número de colegiado del profesional, duración, precio, fechas, horarios y enlaces de inscripción. No los hemos inventado. En una web de salud, el nombre y la colegiación del profesional son lo que más pesa para Google (E-E-A-T) y para el paciente.
 2. **Revisar las URL y el enlace de reserva** en `tools/landings_content.py` → `SITE`. Ahora se usan `https://www.walambcn.com/<slug>` y `https://www.walambcn.com/book-online` (la URL por defecto de Wix Bookings).
-3. Volver a generar: `python3 tools/build_landings.py`.
+3. Volver a generar: `python3 tools/build_landings.py` (imágenes para redes: `node tools/make_og.js`).
 
 ## SEO: aviso importante
 

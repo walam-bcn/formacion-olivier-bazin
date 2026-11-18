@@ -1,0 +1,208 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": [
+        "MedicalClinic",
+        "MedicalBusiness"
+      ],
+      "@id": "https://www.walambcn.com/#clinica",
+      "name": "WA LAM · Salud integrativa",
+      "url": "https://www.walambcn.com",
+      "telephone": "+34675716409",
+      "email": "contacto@walambcn.com",
+      "image": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/medicina-integrativa-barcelona.png",
+      "priceRange": "€€",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Barcelona",
+        "addressRegion": "Cataluña",
+        "addressCountry": "ES"
+      },
+      "areaServed": [
+        {
+          "@type": "Place",
+          "name": "Sarrià, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Sant Gervasi–Galvany, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Sant Gervasi–la Bonanova, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "les Tres Torres, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "el Putxet i el Farró, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Vallvidrera, el Tibidabo i les Planes, Barcelona"
+        },
+        {
+          "@type": "City",
+          "name": "Barcelona"
+        }
+      ],
+      "medicalSpecialty": [
+        "Physiotherapy",
+        "Musculoskeletal"
+      ],
+      "availableService": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Osteopatía en Sarrià–Sant Gervasi",
+          "url": "https://www.walambcn.com/osteopatia-sarria-sant-gervasi"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Fisioterapia en Sarrià–Sant Gervasi",
+          "url": "https://www.walambcn.com/fisioterapia-sarria-sant-gervasi"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Pérdida de peso en Sarrià–Sant Gervasi",
+          "url": "https://www.walambcn.com/perdida-de-peso-sarria-sant-gervasi"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Acupuntura como apoyo para dejar de fumar",
+          "url": "https://www.walambcn.com/dejar-de-fumar-acupuntura"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Acupuntura y medicina tradicional china",
+          "url": "https://www.walambcn.com/acupuntura-medicina-tradicional-china"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "PNI y PNIE en Barcelona",
+          "url": "https://www.walambcn.com/pni-pnie-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Nutrición y salud intestinal",
+          "url": "https://www.walambcn.com/nutricion-salud-intestinal"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Drenaje linfático manual postoperatorio",
+          "url": "https://www.walambcn.com/drenaje-linfatico-postoperatorio"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Masajes en Sarrià–Sant Gervasi",
+          "url": "https://www.walambcn.com/masajes-sarria-sant-gervasi"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Reflexología en Sarrià–Sant Gervasi",
+          "url": "https://www.walambcn.com/reflexologia-sarria-sant-gervasi"
+        }
+      ],
+      "sameAs": []
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.walambcn.com/acompanamiento-fertilidad#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Inicio",
+          "item": "https://www.walambcn.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "¿En qué podemos ayudarte?",
+          "item": "https://www.walambcn.com/tratamientos"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Acompañamiento en fertilidad",
+          "item": "https://www.walambcn.com/acompanamiento-fertilidad"
+        }
+      ]
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.walambcn.com/acompanamiento-fertilidad#webpage",
+      "url": "https://www.walambcn.com/acompanamiento-fertilidad",
+      "name": "Acompañamiento integrativo en fertilidad | WA LAM",
+      "description": "Acompañamiento en fertilidad coordinado con tu ginecóloga o clínica de reproducción: hábitos, estrés y bienestar, con información basada en evidencia.",
+      "inLanguage": "es-ES",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "WA LAM",
+        "url": "https://www.walambcn.com"
+      },
+      "breadcrumb": {
+        "@id": "https://www.walambcn.com/acompanamiento-fertilidad#breadcrumb"
+      },
+      "publisher": {
+        "@id": "https://www.walambcn.com/#clinica"
+      },
+      "lastReviewed": "2026-11-18",
+      "dateModified": "2026-11-18",
+      "keywords": "acompañamiento integrativo fertilidad Barcelona, fertilidad y estrés, acupuntura y FIV evidencia, hábitos para la fertilidad, apoyo reproducción asistida",
+      "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/acompanamiento-fertilidad.png",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".quick p",
+          "h1"
+        ]
+      },
+      "audience": {
+        "@type": "Patient"
+      },
+      "about": {
+        "@type": "MedicalCondition",
+        "name": "Infertilidad",
+        "possibleTreatment": [
+          {
+            "@type": "MedicalTherapy",
+            "name": "Acupuntura y medicina tradicional china"
+          }
+        ]
+      },
+      "citation": [
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Effect of Acupuncture vs Sham Acupuncture on Live Births Among Women Undergoing In Vitro Fertilization: A Randomized Clinical Trial",
+          "url": "https://doi.org/10.1001/jama.2018.5336",
+          "sameAs": "https://doi.org/10.1001/jama.2018.5336"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.walambcn.com/acompanamiento-fertilidad#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Esto sustituye a un tratamiento de fertilidad?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Es un acompañamiento complementario. Las decisiones diagnósticas y de tratamiento corresponden a tu ginecóloga o a tu clínica de reproducción."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿La acupuntura mejora las probabilidades de embarazo?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No hay pruebas de que lo haga. Un ensayo clínico con 848 mujeres publicado en JAMA no encontró diferencias en la tasa de nacidos vivos frente a la acupuntura simulada. Algunas personas la eligen por bienestar y para gestionar el estrés; te lo explicamos para que decidas con información."
+          }
+        }
+      ]
+    }
+  ]
+}

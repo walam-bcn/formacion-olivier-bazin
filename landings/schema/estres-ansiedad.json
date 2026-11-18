@@ -1,0 +1,236 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": [
+        "MedicalClinic",
+        "MedicalBusiness"
+      ],
+      "@id": "https://www.walambcn.com/#clinica",
+      "name": "WA LAM · Salud integrativa",
+      "url": "https://www.walambcn.com",
+      "telephone": "+34675716409",
+      "email": "contacto@walambcn.com",
+      "image": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/medicina-integrativa-barcelona.png",
+      "priceRange": "€€",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Barcelona",
+        "addressRegion": "Cataluña",
+        "addressCountry": "ES"
+      },
+      "areaServed": [
+        {
+          "@type": "Place",
+          "name": "Sarrià, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Sant Gervasi–Galvany, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Sant Gervasi–la Bonanova, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "les Tres Torres, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "el Putxet i el Farró, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Vallvidrera, el Tibidabo i les Planes, Barcelona"
+        },
+        {
+          "@type": "City",
+          "name": "Barcelona"
+        }
+      ],
+      "medicalSpecialty": [
+        "Physiotherapy",
+        "Musculoskeletal"
+      ],
+      "availableService": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Osteopatía en Sarrià–Sant Gervasi",
+          "url": "https://www.walambcn.com/osteopatia-sarria-sant-gervasi"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Fisioterapia en Sarrià–Sant Gervasi",
+          "url": "https://www.walambcn.com/fisioterapia-sarria-sant-gervasi"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Pérdida de peso en Sarrià–Sant Gervasi",
+          "url": "https://www.walambcn.com/perdida-de-peso-sarria-sant-gervasi"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Acupuntura como apoyo para dejar de fumar",
+          "url": "https://www.walambcn.com/dejar-de-fumar-acupuntura"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Acupuntura y medicina tradicional china",
+          "url": "https://www.walambcn.com/acupuntura-medicina-tradicional-china"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "PNI y PNIE en Barcelona",
+          "url": "https://www.walambcn.com/pni-pnie-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Nutrición y salud intestinal",
+          "url": "https://www.walambcn.com/nutricion-salud-intestinal"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Drenaje linfático manual postoperatorio",
+          "url": "https://www.walambcn.com/drenaje-linfatico-postoperatorio"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Masajes en Sarrià–Sant Gervasi",
+          "url": "https://www.walambcn.com/masajes-sarria-sant-gervasi"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Reflexología en Sarrià–Sant Gervasi",
+          "url": "https://www.walambcn.com/reflexologia-sarria-sant-gervasi"
+        }
+      ],
+      "sameAs": []
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.walambcn.com/estres-ansiedad#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Inicio",
+          "item": "https://www.walambcn.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "¿En qué podemos ayudarte?",
+          "item": "https://www.walambcn.com/tratamientos"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Estrés y gestión de la ansiedad",
+          "item": "https://www.walambcn.com/estres-ansiedad"
+        }
+      ]
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.walambcn.com/estres-ansiedad#webpage",
+      "url": "https://www.walambcn.com/estres-ansiedad",
+      "name": "Estrés y ansiedad: tratamiento integrativo en Barcelona",
+      "description": "Acompañamiento clínico del estrés y la ansiedad en Sarrià–Sant Gervasi: regulación del sistema nervioso, respiración, terapia manual y MBSR.",
+      "inLanguage": "es-ES",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "WA LAM",
+        "url": "https://www.walambcn.com"
+      },
+      "breadcrumb": {
+        "@id": "https://www.walambcn.com/estres-ansiedad#breadcrumb"
+      },
+      "publisher": {
+        "@id": "https://www.walambcn.com/#clinica"
+      },
+      "lastReviewed": "2026-11-18",
+      "dateModified": "2026-11-18",
+      "keywords": "tratamiento estrés y ansiedad Barcelona, gestión del estrés Barcelona, ansiedad síntomas físicos, regulación del sistema nervioso, estrés crónico, mindfulness para la ansiedad",
+      "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/estres-ansiedad.png",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".quick p",
+          "h1"
+        ]
+      },
+      "audience": {
+        "@type": "Patient"
+      },
+      "about": {
+        "@type": "MedicalCondition",
+        "name": "Estrés crónico y ansiedad",
+        "possibleTreatment": [
+          {
+            "@type": "MedicalTherapy",
+            "name": "Osteopatía en Sarrià–Sant Gervasi"
+          }
+        ]
+      },
+      "citation": [
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Psychological Stress and the Human Immune System: A Meta-Analytic Study of 30 Years of Inquiry",
+          "url": "https://doi.org/10.1037/0033-2909.130.4.601",
+          "sameAs": "https://doi.org/10.1037/0033-2909.130.4.601"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Meditation Programs for Psychological Stress and Well-being: A Systematic Review and Meta-analysis",
+          "url": "https://doi.org/10.1001/jamainternmed.2013.13018",
+          "sameAs": "https://doi.org/10.1001/jamainternmed.2013.13018"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Mindfulness-Based Stress Reduction vs Escitalopram for the Treatment of Adults With Anxiety Disorders: A Randomized Clinical Trial",
+          "url": "https://doi.org/10.1001/jamapsychiatry.2022.3679",
+          "sameAs": "https://doi.org/10.1001/jamapsychiatry.2022.3679"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.walambcn.com/estres-ansiedad#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Esto sustituye a la terapia psicológica?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Trabajamos la dimensión corporal y fisiológica del estrés. Si tu situación necesita psicoterapia o tratamiento médico, te lo diremos y nos coordinaremos cuando sea posible."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué diferencia hay entre la consulta individual y el MBSR?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "La consulta individual se adapta a tu situación concreta. El MBSR es un programa grupal estructurado de 8 semanas con fechas e inscripción propias. Muchas personas combinan ambos."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿La osteopatía ayuda con el estrés?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Puede ayudar a aliviar la tensión física asociada y a mejorar la percepción corporal, pero no actúa sobre las causas del estrés. Por eso la proponemos como complemento."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Tengo crisis de ansiedad. ¿Puedo venir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí, pero si las crisis son frecuentes o intensas es importante que también te valore un profesional de salud mental. Escríbenos y lo hablamos."
+          }
+        }
+      ]
+    }
+  ]
+}

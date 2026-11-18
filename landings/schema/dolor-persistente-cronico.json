@@ -1,0 +1,246 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": [
+        "MedicalClinic",
+        "MedicalBusiness"
+      ],
+      "@id": "https://www.walambcn.com/#clinica",
+      "name": "WA LAM · Salud integrativa",
+      "url": "https://www.walambcn.com",
+      "telephone": "+34675716409",
+      "email": "contacto@walambcn.com",
+      "image": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/medicina-integrativa-barcelona.png",
+      "priceRange": "€€",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Barcelona",
+        "addressRegion": "Cataluña",
+        "addressCountry": "ES"
+      },
+      "areaServed": [
+        {
+          "@type": "Place",
+          "name": "Sarrià, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Sant Gervasi–Galvany, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Sant Gervasi–la Bonanova, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "les Tres Torres, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "el Putxet i el Farró, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Vallvidrera, el Tibidabo i les Planes, Barcelona"
+        },
+        {
+          "@type": "City",
+          "name": "Barcelona"
+        }
+      ],
+      "medicalSpecialty": [
+        "Physiotherapy",
+        "Musculoskeletal"
+      ],
+      "availableService": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Osteopatía en Sarrià–Sant Gervasi",
+          "url": "https://www.walambcn.com/osteopatia-sarria-sant-gervasi"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Fisioterapia en Sarrià–Sant Gervasi",
+          "url": "https://www.walambcn.com/fisioterapia-sarria-sant-gervasi"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Pérdida de peso en Sarrià–Sant Gervasi",
+          "url": "https://www.walambcn.com/perdida-de-peso-sarria-sant-gervasi"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Acupuntura como apoyo para dejar de fumar",
+          "url": "https://www.walambcn.com/dejar-de-fumar-acupuntura"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Acupuntura y medicina tradicional china",
+          "url": "https://www.walambcn.com/acupuntura-medicina-tradicional-china"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "PNI y PNIE en Barcelona",
+          "url": "https://www.walambcn.com/pni-pnie-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Nutrición y salud intestinal",
+          "url": "https://www.walambcn.com/nutricion-salud-intestinal"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Drenaje linfático manual postoperatorio",
+          "url": "https://www.walambcn.com/drenaje-linfatico-postoperatorio"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Masajes en Sarrià–Sant Gervasi",
+          "url": "https://www.walambcn.com/masajes-sarria-sant-gervasi"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Reflexología en Sarrià–Sant Gervasi",
+          "url": "https://www.walambcn.com/reflexologia-sarria-sant-gervasi"
+        }
+      ],
+      "sameAs": []
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.walambcn.com/dolor-persistente-cronico#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Inicio",
+          "item": "https://www.walambcn.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "¿En qué podemos ayudarte?",
+          "item": "https://www.walambcn.com/tratamientos"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Dolor persistente y crónico",
+          "item": "https://www.walambcn.com/dolor-persistente-cronico"
+        }
+      ]
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.walambcn.com/dolor-persistente-cronico#webpage",
+      "url": "https://www.walambcn.com/dolor-persistente-cronico",
+      "name": "Dolor crónico y persistente en Barcelona | WA LAM",
+      "description": "Valoración integrativa del dolor crónico en Sarrià–Sant Gervasi, Barcelona: ejercicio terapéutico, osteopatía, MBSR y hábitos, según guías clínicas.",
+      "inLanguage": "es-ES",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "WA LAM",
+        "url": "https://www.walambcn.com"
+      },
+      "breadcrumb": {
+        "@id": "https://www.walambcn.com/dolor-persistente-cronico#breadcrumb"
+      },
+      "publisher": {
+        "@id": "https://www.walambcn.com/#clinica"
+      },
+      "lastReviewed": "2026-11-18",
+      "dateModified": "2026-11-18",
+      "keywords": "dolor crónico Barcelona, tratamiento dolor crónico Barcelona, dolor persistente, dolor lumbar crónico tratamiento, unidad de dolor integrativa Barcelona, sensibilización central",
+      "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/dolor-persistente-cronico.png",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".quick p",
+          "h1"
+        ]
+      },
+      "audience": {
+        "@type": "Patient"
+      },
+      "about": {
+        "@type": "MedicalCondition",
+        "name": "Dolor crónico",
+        "possibleTreatment": [
+          {
+            "@type": "MedicalTherapy",
+            "name": "Osteopatía en Sarrià–Sant Gervasi"
+          },
+          {
+            "@type": "MedicalTherapy",
+            "name": "Fisioterapia en Sarrià–Sant Gervasi"
+          }
+        ]
+      },
+      "citation": [
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Noninvasive Treatments for Acute, Subacute, and Chronic Low Back Pain: A Clinical Practice Guideline From the American College of Physicians",
+          "url": "https://doi.org/10.7326/M16-2367",
+          "sameAs": "https://doi.org/10.7326/M16-2367"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Exercise therapy for chronic low back pain",
+          "url": "https://doi.org/10.1002/14651858.CD009790.pub2",
+          "sameAs": "https://doi.org/10.1002/14651858.CD009790.pub2"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Effect of Mindfulness-Based Stress Reduction vs Cognitive Behavioral Therapy or Usual Care on Back Pain and Functional Limitations in Adults With Chronic Low Back Pain: A Randomized Clinical Trial",
+          "url": "https://doi.org/10.1001/jama.2016.2323",
+          "sameAs": "https://doi.org/10.1001/jama.2016.2323"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Benefits and harms of spinal manipulative therapy for the treatment of chronic low back pain: systematic review and meta-analysis of randomised controlled trials",
+          "url": "https://doi.org/10.1136/bmj.l689",
+          "sameAs": "https://doi.org/10.1136/bmj.l689"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.walambcn.com/dolor-persistente-cronico#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Qué se considera dolor crónico o persistente?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "En general, el dolor que dura más de tres meses o que persiste más allá del tiempo habitual de curación de un tejido. Puede ser continuo o aparecer por episodios."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mis pruebas están bien, pero me sigue doliendo. ¿Es normal?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Es más frecuente de lo que parece. Las pruebas de imagen muestran estructuras, pero no miden la sensibilidad del sistema nervioso. Que no aparezca una lesión no quiere decir que tu dolor no sea real."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Necesito informe médico para venir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No es imprescindible, pero si tienes pruebas o informes, tráelos a la primera consulta. Nos ayudan a valorar mejor tu caso."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuántas sesiones voy a necesitar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Depende de cada caso. Tras la primera valoración te proponemos un plan con objetivos y momentos de revisión, para que sepas en todo momento cómo avanzamos."
+          }
+        }
+      ]
+    }
+  ]
+}

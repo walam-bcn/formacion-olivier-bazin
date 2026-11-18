@@ -1,0 +1,279 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": [
+        "MedicalClinic",
+        "MedicalBusiness"
+      ],
+      "@id": "https://www.walambcn.com/#clinica",
+      "name": "WA LAM · Salud integrativa",
+      "url": "https://www.walambcn.com",
+      "telephone": "+34675716409",
+      "email": "contacto@walambcn.com",
+      "image": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/medicina-integrativa-barcelona.png",
+      "priceRange": "€€",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Barcelona",
+        "addressRegion": "Cataluña",
+        "addressCountry": "ES"
+      },
+      "areaServed": [
+        {
+          "@type": "Place",
+          "name": "Sarrià, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Sant Gervasi–Galvany, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Sant Gervasi–la Bonanova, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "les Tres Torres, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "el Putxet i el Farró, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Vallvidrera, el Tibidabo i les Planes, Barcelona"
+        },
+        {
+          "@type": "City",
+          "name": "Barcelona"
+        }
+      ],
+      "medicalSpecialty": [
+        "Physiotherapy",
+        "Musculoskeletal"
+      ],
+      "availableService": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Osteopatía en Sarrià–Sant Gervasi",
+          "url": "https://www.walambcn.com/osteopatia-sarria-sant-gervasi"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Fisioterapia en Sarrià–Sant Gervasi",
+          "url": "https://www.walambcn.com/fisioterapia-sarria-sant-gervasi"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Pérdida de peso en Sarrià–Sant Gervasi",
+          "url": "https://www.walambcn.com/perdida-de-peso-sarria-sant-gervasi"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Acupuntura como apoyo para dejar de fumar",
+          "url": "https://www.walambcn.com/dejar-de-fumar-acupuntura"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Acupuntura y medicina tradicional china",
+          "url": "https://www.walambcn.com/acupuntura-medicina-tradicional-china"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "PNI y PNIE en Barcelona",
+          "url": "https://www.walambcn.com/pni-pnie-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Nutrición y salud intestinal",
+          "url": "https://www.walambcn.com/nutricion-salud-intestinal"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Drenaje linfático manual postoperatorio",
+          "url": "https://www.walambcn.com/drenaje-linfatico-postoperatorio"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Masajes en Sarrià–Sant Gervasi",
+          "url": "https://www.walambcn.com/masajes-sarria-sant-gervasi"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Reflexología en Sarrià–Sant Gervasi",
+          "url": "https://www.walambcn.com/reflexologia-sarria-sant-gervasi"
+        }
+      ],
+      "sameAs": []
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.walambcn.com/acupuntura-medicina-tradicional-china#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Inicio",
+          "item": "https://www.walambcn.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Servicios y terapias",
+          "item": "https://www.walambcn.com/tratamientos"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Acupuntura y medicina tradicional china",
+          "item": "https://www.walambcn.com/acupuntura-medicina-tradicional-china"
+        }
+      ]
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.walambcn.com/acupuntura-medicina-tradicional-china#webpage",
+      "url": "https://www.walambcn.com/acupuntura-medicina-tradicional-china",
+      "name": "Acupuntura en Barcelona · Sarrià–Sant Gervasi | WA LAM",
+      "description": "Acupuntura en Sarrià–Sant Gervasi, Barcelona, con criterio clínico: dolor crónico, cefalea y migraña. Indicaciones según la evidencia científica.",
+      "inLanguage": "es-ES",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "WA LAM",
+        "url": "https://www.walambcn.com"
+      },
+      "breadcrumb": {
+        "@id": "https://www.walambcn.com/acupuntura-medicina-tradicional-china#breadcrumb"
+      },
+      "publisher": {
+        "@id": "https://www.walambcn.com/#clinica"
+      },
+      "lastReviewed": "2026-11-18",
+      "dateModified": "2026-11-18",
+      "keywords": "acupuntura Barcelona, acupuntura Sarrià Sant Gervasi, acupuntura dolor crónico, acupuntura migraña, acupuntura evidencia científica",
+      "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/acupuntura-medicina-tradicional-china.png",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".quick p",
+          "h1"
+        ]
+      },
+      "audience": {
+        "@type": "Patient"
+      },
+      "about": {
+        "@type": "MedicalTherapy",
+        "name": "Acupuntura"
+      },
+      "citation": [
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Acupuncture for Chronic Pain: Update of an Individual Patient Data Meta-Analysis",
+          "url": "https://doi.org/10.1016/j.jpain.2017.11.005",
+          "sameAs": "https://doi.org/10.1016/j.jpain.2017.11.005"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Noninvasive Treatments for Acute, Subacute, and Chronic Low Back Pain: A Clinical Practice Guideline From the American College of Physicians",
+          "url": "https://doi.org/10.7326/M16-2367",
+          "sameAs": "https://doi.org/10.7326/M16-2367"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Effect of Acupuncture vs Sham Acupuncture on Live Births Among Women Undergoing In Vitro Fertilization: A Randomized Clinical Trial",
+          "url": "https://doi.org/10.1001/jama.2018.5336",
+          "sameAs": "https://doi.org/10.1001/jama.2018.5336"
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.walambcn.com/acupuntura-medicina-tradicional-china#servicio",
+      "name": "Acupuntura y medicina tradicional china",
+      "serviceType": "Acupuntura y medicina tradicional china",
+      "provider": {
+        "@id": "https://www.walambcn.com/#clinica"
+      },
+      "areaServed": [
+        {
+          "@type": "Place",
+          "name": "Sarrià, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Sant Gervasi–Galvany, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Sant Gervasi–la Bonanova, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "les Tres Torres, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "el Putxet i el Farró, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Vallvidrera, el Tibidabo i les Planes, Barcelona"
+        },
+        {
+          "@type": "City",
+          "name": "Barcelona"
+        }
+      ],
+      "url": "https://www.walambcn.com/acupuntura-medicina-tradicional-china",
+      "description": "Acupuntura en Sarrià–Sant Gervasi, Barcelona, con criterio clínico: dolor crónico, cefalea y migraña. Indicaciones según la evidencia científica."
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.walambcn.com/acupuntura-medicina-tradicional-china#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Duele la acupuntura?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Las agujas son muy finas. Lo habitual es notar un pinchazo leve o una sensación de pesadez u hormigueo en la zona."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Es segura?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Realizada por un profesional formado y con agujas estériles de un solo uso, los efectos adversos graves son muy poco frecuentes. Avísanos si tomas anticoagulantes o estás embarazada."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Usáis la acupuntura para perder peso?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí: la incorporamos en la consulta de pérdida de peso, junto a cambios alimentarios."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Y para dejar de fumar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí, como apoyo, en una consulta específica. Te explicamos qué dice la evidencia en la página de acupuntura para dejar de fumar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Quiero aprender MTC, dónde miro?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "La formación en medicina tradicional china tiene su propia página en la Healthy Lifestyle Academy."
+          }
+        }
+      ]
+    }
+  ]
+}

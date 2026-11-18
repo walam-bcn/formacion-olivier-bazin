@@ -1,0 +1,229 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": [
+        "MedicalClinic",
+        "MedicalBusiness"
+      ],
+      "@id": "https://www.walambcn.com/#clinica",
+      "name": "WA LAM · Salud integrativa",
+      "url": "https://www.walambcn.com",
+      "telephone": "+34675716409",
+      "email": "contacto@walambcn.com",
+      "image": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/medicina-integrativa-barcelona.png",
+      "priceRange": "€€",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Barcelona",
+        "addressRegion": "Cataluña",
+        "addressCountry": "ES"
+      },
+      "areaServed": [
+        {
+          "@type": "Place",
+          "name": "Sarrià, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Sant Gervasi–Galvany, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Sant Gervasi–la Bonanova, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "les Tres Torres, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "el Putxet i el Farró, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Vallvidrera, el Tibidabo i les Planes, Barcelona"
+        },
+        {
+          "@type": "City",
+          "name": "Barcelona"
+        }
+      ],
+      "medicalSpecialty": [
+        "Physiotherapy",
+        "Musculoskeletal"
+      ],
+      "availableService": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Osteopatía en Sarrià–Sant Gervasi",
+          "url": "https://www.walambcn.com/osteopatia-sarria-sant-gervasi"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Fisioterapia en Sarrià–Sant Gervasi",
+          "url": "https://www.walambcn.com/fisioterapia-sarria-sant-gervasi"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Pérdida de peso en Sarrià–Sant Gervasi",
+          "url": "https://www.walambcn.com/perdida-de-peso-sarria-sant-gervasi"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Acupuntura como apoyo para dejar de fumar",
+          "url": "https://www.walambcn.com/dejar-de-fumar-acupuntura"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Acupuntura y medicina tradicional china",
+          "url": "https://www.walambcn.com/acupuntura-medicina-tradicional-china"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "PNI y PNIE en Barcelona",
+          "url": "https://www.walambcn.com/pni-pnie-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Nutrición y salud intestinal",
+          "url": "https://www.walambcn.com/nutricion-salud-intestinal"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Drenaje linfático manual postoperatorio",
+          "url": "https://www.walambcn.com/drenaje-linfatico-postoperatorio"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Masajes en Sarrià–Sant Gervasi",
+          "url": "https://www.walambcn.com/masajes-sarria-sant-gervasi"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Reflexología en Sarrià–Sant Gervasi",
+          "url": "https://www.walambcn.com/reflexologia-sarria-sant-gervasi"
+        }
+      ],
+      "sameAs": []
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.walambcn.com/sueno-insomnio#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Inicio",
+          "item": "https://www.walambcn.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "¿En qué podemos ayudarte?",
+          "item": "https://www.walambcn.com/tratamientos"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Sueño e insomnio",
+          "item": "https://www.walambcn.com/sueno-insomnio"
+        }
+      ]
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.walambcn.com/sueno-insomnio#webpage",
+      "url": "https://www.walambcn.com/sueno-insomnio",
+      "name": "Insomnio y problemas de sueño en Sarrià–Sant Gervasi",
+      "description": "Insomnio y problemas para dormir en Sarrià–Sant Gervasi, Barcelona: valoración del sueño, hábitos y regulación del estrés según las guías clínicas.",
+      "inLanguage": "es-ES",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "WA LAM",
+        "url": "https://www.walambcn.com"
+      },
+      "breadcrumb": {
+        "@id": "https://www.walambcn.com/sueno-insomnio#breadcrumb"
+      },
+      "publisher": {
+        "@id": "https://www.walambcn.com/#clinica"
+      },
+      "lastReviewed": "2026-11-18",
+      "dateModified": "2026-11-18",
+      "keywords": "insomnio Sarrià Sant Gervasi, problemas para dormir Sant Gervasi, tratamiento insomnio Barcelona, terapia cognitivo-conductual insomnio, me despierto de madrugada, insomnio y estrés",
+      "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/sueno-insomnio.png",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".quick p",
+          "h1"
+        ]
+      },
+      "audience": {
+        "@type": "Patient"
+      },
+      "about": {
+        "@type": "MedicalCondition",
+        "name": "Insomnio",
+        "possibleTreatment": []
+      },
+      "citation": [
+        {
+          "@type": "ScholarlyArticle",
+          "name": "The European Insomnia Guideline: An update on the diagnosis and treatment of insomnia 2023",
+          "url": "https://doi.org/10.1111/jsr.14035",
+          "sameAs": "https://doi.org/10.1111/jsr.14035"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Management of Chronic Insomnia Disorder in Adults: A Clinical Practice Guideline From the American College of Physicians",
+          "url": "https://doi.org/10.7326/M15-2175",
+          "sameAs": "https://doi.org/10.7326/M15-2175"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Sleep Disturbance, Sleep Duration, and Inflammation: A Systematic Review and Meta-Analysis of Cohort Studies and Experimental Sleep Deprivation",
+          "url": "https://doi.org/10.1016/j.biopsych.2015.05.014",
+          "sameAs": "https://doi.org/10.1016/j.biopsych.2015.05.014"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Meditation Programs for Psychological Stress and Well-being: A Systematic Review and Meta-analysis",
+          "url": "https://doi.org/10.1001/jamainternmed.2013.13018",
+          "sameAs": "https://doi.org/10.1001/jamainternmed.2013.13018"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.walambcn.com/sueno-insomnio#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Cuándo se considera que tengo insomnio crónico?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cuando te cuesta dormirte o mantener el sueño al menos tres noches por semana durante tres meses, y eso afecta a tu día."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Tengo que dejar las pastillas para dormir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No sin hablarlo con tu médico. Cualquier cambio en la medicación debe hacerse con su supervisión."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuándo debo ir a una unidad del sueño?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Si roncas fuerte con pausas en la respiración, tienes mucha somnolencia durante el día o sientes necesidad de mover las piernas por la noche, consulta con tu médico o con una unidad del sueño."
+          }
+        }
+      ]
+    }
+  ]
+}
