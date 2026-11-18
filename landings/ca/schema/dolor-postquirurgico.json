@@ -177,7 +177,7 @@
       "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/dolor-postquirurgic#webpage",
       "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/dolor-postquirurgic",
       "name": "Dolor postquirúrgic a Barcelona · Recuperació | WA LAM",
-      "description": "Dolor postquirúrgic a Sarrià–Sant Gervasi: recuperació després d'una cirurgia de genoll, maluc, columna, estètica o abdominal, amb tècniques manuals i drenatge limfàtic.",
+      "description": "Dolor postquirúrgic persistent a Sarrià–Sant Gervasi: per què el dolor es manté després d'una cirurgia i com afecta la recuperació i la qualitat de vida.",
       "inLanguage": "ca-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -225,15 +225,15 @@
       "citation": [
         {
           "@type": "ScholarlyArticle",
-          "name": "Efficacy and safety of transcutaneous electrical nerve stimulation (TENS) for acute and chronic pain in adults: a systematic review and meta-analysis of 381 studies (the meta-TENS study)",
-          "url": "https://doi.org/10.1136/bmjopen-2021-051073",
-          "sameAs": "https://doi.org/10.1136/bmjopen-2021-051073"
+          "name": "Persistent postsurgical pain: risk factors and prevention",
+          "url": "https://doi.org/10.1016/S0140-6736(06)68700-X",
+          "sameAs": "https://doi.org/10.1016/S0140-6736(06)68700-X"
         },
         {
           "@type": "ScholarlyArticle",
-          "name": "Manual lymphatic drainage for lymphedema following breast cancer treatment",
-          "url": "https://doi.org/10.1002/14651858.CD003475.pub2",
-          "sameAs": "https://doi.org/10.1002/14651858.CD003475.pub2"
+          "name": "Efficacy and safety of transcutaneous electrical nerve stimulation (TENS) for acute and chronic pain in adults: a systematic review and meta-analysis of 381 studies (the meta-TENS study)",
+          "url": "https://doi.org/10.1136/bmjopen-2021-051073",
+          "sameAs": "https://doi.org/10.1136/bmjopen-2021-051073"
         }
       ]
     },
@@ -243,18 +243,18 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Quan puc començar després de l'operació?",
+          "name": "És normal tenir dolor mesos després d'operar-me?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Depèn de la intervenció i del que indiqui el teu cirurgià. El drenatge limfàtic sol poder iniciar-se les primeres setmanes; les tècniques sobre la cicatriu, quan aquesta s'ha tancat."
+            "text": "És més freqüent del que es creu: entre un 10 % i un 50 % de les persones mantenen dolor després de cirurgies habituals. Convé valorar-ho per evitar que es cronifiqui."
           }
         },
         {
           "@type": "Question",
-          "name": "Ateneu cirurgies estètiques?",
+          "name": "Quan puc començar després de l'operació?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí: liposucció, abdominoplàstia, lifting i altres cirurgies estètiques, amb drenatge limfàtic i tècniques manuals."
+            "text": "Depèn de la intervenció i del que indiqui el teu cirurgià."
           }
         },
         {

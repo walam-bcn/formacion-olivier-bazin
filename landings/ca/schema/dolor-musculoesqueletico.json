@@ -150,7 +150,7 @@
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/dolor-musculoesqueletico#breadcrumb",
+      "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/dolor-musculoesqueletic#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -168,16 +168,16 @@
           "@type": "ListItem",
           "position": 3,
           "name": "Dolor musculoesquelètic",
-          "item": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/dolor-musculoesqueletico"
+          "item": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/dolor-musculoesqueletic"
         }
       ]
     },
     {
       "@type": "MedicalWebPage",
-      "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/dolor-musculoesqueletico#webpage",
-      "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/dolor-musculoesqueletico",
+      "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/dolor-musculoesqueletic#webpage",
+      "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/dolor-musculoesqueletic",
       "name": "Dolor musculoesquelètic a Barcelona | WA LAM",
-      "description": "Artrosi de genoll, maluc i espatlla, tendinopaties, fibromiàlgia i dolor miofascial a Sarrià–Sant Gervasi, Barcelona. Tècniques manuals i exercici.",
+      "description": "Dolor musculoesquelètic a Sarrià–Sant Gervasi: contractures, sobrecàrregues, trencaments fibril·lars, esquinços, torticoli i lesions esportives.",
       "inLanguage": "ca-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -185,14 +185,14 @@
         "url": "https://www.walambcn.com"
       },
       "breadcrumb": {
-        "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/dolor-musculoesqueletico#breadcrumb"
+        "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/dolor-musculoesqueletic#breadcrumb"
       },
       "publisher": {
         "@id": "https://www.walambcn.com/#clinica"
       },
       "lastReviewed": "2026-11-18",
       "dateModified": "2026-11-18",
-      "keywords": "dolor musculoesquelètic Barcelona, artrosi de genoll tractament Barcelona, dolor miofascial, tendinopatia Sarrià, fibromiàlgia tractament integratiu, dolor d'espatlla crònic",
+      "keywords": "dolor muscular Barcelona, contractura muscular tractament, trencament fibril·lar recuperació, esquinç recuperació Barcelona, lesió esportiva Sarrià, sobrecàrrega muscular",
       "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/dolor-musculoesqueletico.png",
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -214,24 +214,20 @@
       },
       "about": {
         "@type": "MedicalCondition",
-        "name": "Artrosi",
+        "name": "Dolor musculoesquelètic",
         "possibleTreatment": [
           {
             "@type": "MedicalTherapy",
             "name": "Osteopatia"
-          },
-          {
-            "@type": "MedicalTherapy",
-            "name": "Acupuntura i medicina tradicional xinesa"
           }
         ]
       },
       "citation": [
         {
           "@type": "ScholarlyArticle",
-          "name": "Exercise for osteoarthritis of the knee",
-          "url": "https://doi.org/10.1002/14651858.CD004376.pub3",
-          "sameAs": "https://doi.org/10.1002/14651858.CD004376.pub3"
+          "name": "Global estimates of the need for rehabilitation based on the Global Burden of Disease study 2019: a systematic analysis for the Global Burden of Disease Study 2019",
+          "url": "https://doi.org/10.1016/S0140-6736(20)32340-0",
+          "sameAs": "https://doi.org/10.1016/S0140-6736(20)32340-0"
         },
         {
           "@type": "ScholarlyArticle",
@@ -243,30 +239,30 @@
     },
     {
       "@type": "FAQPage",
-      "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/dolor-musculoesqueletico#faq",
+      "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/dolor-musculoesqueletic#faq",
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Puc fer exercici si tinc artrosi?",
+          "name": "Quan he de consultar per un dolor muscular?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí. L'exercici adaptat és un dels tractaments més eficaços en l'artrosi. L'ajustem a la teva articulació, al teu nivell i al teu dolor."
+            "text": "Si el dolor dura més d'unes quantes setmanes, es repeteix o t'impedeix fer la teva activitat habitual."
           }
         },
         {
           "@type": "Question",
-          "name": "Ateneu el dolor esportiu?",
+          "name": "Ateneu lesions esportives?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí: tendinopaties, sobrecàrregues i dolor muscular relacionat amb l'esport, amb un pla de retorn progressiu a l'activitat."
+            "text": "Sí: sobrecàrregues, contractures, trencaments fibril·lars i esquinços, amb un retorn progressiu a l'activitat."
           }
         },
         {
           "@type": "Question",
-          "name": "I la fibromiàlgia?",
+          "name": "En què es diferencia del dolor articular i miofascial?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí, amb un abordatge que combina activitat física gradual, regulació del son i de l'estrès, tècniques manuals i nutrició antiinflamatòria."
+            "text": "El dolor musculoesquelètic se centra en el múscul i les lesions agudes o per sobrecàrrega; el dolor articular i miofascial inclou l'artrosi, les tendinopaties, la fibromiàlgia i les síndromes miofascials."
           }
         }
       ]

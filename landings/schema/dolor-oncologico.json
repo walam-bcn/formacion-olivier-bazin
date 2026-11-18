@@ -177,7 +177,7 @@
       "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/dolor-oncologico#webpage",
       "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/dolor-oncologico",
       "name": "Dolor oncológico · Acompañamiento integrativo | WA LAM",
-      "description": "Acompañamiento integrativo del dolor oncológico en Sarrià–Sant Gervasi: osteopatía craneosacral, técnicas manuales y acupuntura, con autorización médica firmada.",
+      "description": "Dolor oncológico en Sarrià–Sant Gervasi: dolor durante y después del tratamiento del cáncer y su impacto en la calidad de vida. Acompañamiento con autorización médica.",
       "inLanguage": "es-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -192,7 +192,7 @@
       },
       "lastReviewed": "2026-11-18",
       "dateModified": "2026-11-18",
-      "keywords": "dolor oncológico tratamiento integrativo Barcelona, osteopatía pacientes oncológicos, acupuntura cáncer dolor, dolor tras tratamiento del cáncer, oncología integrativa Barcelona",
+      "keywords": "dolor oncológico tratamiento integrativo Barcelona, dolor tras tratamiento del cáncer, neuropatía por quimioterapia, dolor después del cáncer de mama, oncología integrativa Barcelona",
       "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/dolor-oncologico.png",
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -218,30 +218,28 @@
         "possibleTreatment": [
           {
             "@type": "MedicalTherapy",
-            "name": "Osteopatía craneosacral"
-          },
-          {
-            "@type": "MedicalTherapy",
             "name": "Drenaje linfático para linfedema"
-          },
-          {
-            "@type": "MedicalTherapy",
-            "name": "Acupuntura y medicina tradicional china"
           }
         ]
       },
       "citation": [
         {
           "@type": "ScholarlyArticle",
-          "name": "Integrative Medicine for Pain Management in Oncology: Society for Integrative Oncology–ASCO Guideline",
-          "url": "https://doi.org/10.1200/JCO.22.01357",
-          "sameAs": "https://doi.org/10.1200/JCO.22.01357"
+          "name": "Update on Prevalence of Pain in Patients With Cancer: Systematic Review and Meta-Analysis",
+          "url": "https://doi.org/10.1016/j.jpainsymman.2015.12.340",
+          "sameAs": "https://doi.org/10.1016/j.jpainsymman.2015.12.340"
         },
         {
           "@type": "ScholarlyArticle",
-          "name": "Craniosacral therapy for chronic pain: a systematic review and meta-analysis of randomized controlled trials",
-          "url": "https://doi.org/10.1186/s12891-019-3017-y",
-          "sameAs": "https://doi.org/10.1186/s12891-019-3017-y"
+          "name": "Incidence, prevalence, and predictors of chemotherapy-induced peripheral neuropathy: A systematic review and meta-analysis",
+          "url": "https://doi.org/10.1016/j.pain.2014.09.020",
+          "sameAs": "https://doi.org/10.1016/j.pain.2014.09.020"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Integrative Medicine for Pain Management in Oncology: Society for Integrative Oncology–ASCO Guideline",
+          "url": "https://doi.org/10.1200/JCO.22.01357",
+          "sameAs": "https://doi.org/10.1200/JCO.22.01357"
         }
       ]
     },
@@ -262,7 +260,15 @@
           "name": "¿Puedo venir durante la quimioterapia o la radioterapia?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Depende de tu situación y de lo que indique tu médico. Adaptamos las técnicas a cada fase del tratamiento."
+            "text": "Depende de tu situación y de lo que indique tu médico. El acompañamiento se adapta a cada fase del tratamiento."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Y si el tratamiento ya ha terminado pero el dolor continúa?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Es frecuente: cerca de cuatro de cada diez personas mantienen dolor después del tratamiento. También podemos acompañarte en esa etapa, con autorización médica."
           }
         },
         {
@@ -270,7 +276,7 @@
           "name": "¿Sustituye a mi tratamiento oncológico?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. Es un acompañamiento complementario para aliviar el dolor y mejorar el bienestar."
+            "text": "No. Es un acompañamiento complementario para aliviar el dolor y mejorar la calidad de vida."
           }
         }
       ]

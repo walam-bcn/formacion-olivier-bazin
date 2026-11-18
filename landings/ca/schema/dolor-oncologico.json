@@ -177,7 +177,7 @@
       "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/dolor-oncologic#webpage",
       "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/dolor-oncologic",
       "name": "Dolor oncològic · Acompanyament integratiu | WA LAM",
-      "description": "Acompanyament integratiu del dolor oncològic a Sarrià–Sant Gervasi: osteopatia craniosacral, tècniques manuals i acupuntura, amb autorització mèdica signada.",
+      "description": "Dolor oncològic a Sarrià–Sant Gervasi: dolor durant el tractament del càncer i després, i el seu impacte en la qualitat de vida. Acompanyament amb autorització mèdica.",
       "inLanguage": "ca-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -192,7 +192,7 @@
       },
       "lastReviewed": "2026-11-18",
       "dateModified": "2026-11-18",
-      "keywords": "dolor oncològic tractament integratiu Barcelona, osteopatia pacients oncològics, acupuntura càncer dolor, dolor després del tractament del càncer, oncologia integrativa Barcelona",
+      "keywords": "dolor oncològic tractament integratiu Barcelona, dolor després del tractament del càncer, neuropatia per quimioteràpia, dolor després del càncer de mama, oncologia integrativa Barcelona",
       "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/dolor-oncologico.png",
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -218,30 +218,28 @@
         "possibleTreatment": [
           {
             "@type": "MedicalTherapy",
-            "name": "Osteopatia craniosacral"
-          },
-          {
-            "@type": "MedicalTherapy",
             "name": "Drenatge limfàtic per al limfedema"
-          },
-          {
-            "@type": "MedicalTherapy",
-            "name": "Acupuntura i medicina tradicional xinesa"
           }
         ]
       },
       "citation": [
         {
           "@type": "ScholarlyArticle",
-          "name": "Integrative Medicine for Pain Management in Oncology: Society for Integrative Oncology–ASCO Guideline",
-          "url": "https://doi.org/10.1200/JCO.22.01357",
-          "sameAs": "https://doi.org/10.1200/JCO.22.01357"
+          "name": "Update on Prevalence of Pain in Patients With Cancer: Systematic Review and Meta-Analysis",
+          "url": "https://doi.org/10.1016/j.jpainsymman.2015.12.340",
+          "sameAs": "https://doi.org/10.1016/j.jpainsymman.2015.12.340"
         },
         {
           "@type": "ScholarlyArticle",
-          "name": "Craniosacral therapy for chronic pain: a systematic review and meta-analysis of randomized controlled trials",
-          "url": "https://doi.org/10.1186/s12891-019-3017-y",
-          "sameAs": "https://doi.org/10.1186/s12891-019-3017-y"
+          "name": "Incidence, prevalence, and predictors of chemotherapy-induced peripheral neuropathy: A systematic review and meta-analysis",
+          "url": "https://doi.org/10.1016/j.pain.2014.09.020",
+          "sameAs": "https://doi.org/10.1016/j.pain.2014.09.020"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Integrative Medicine for Pain Management in Oncology: Society for Integrative Oncology–ASCO Guideline",
+          "url": "https://doi.org/10.1200/JCO.22.01357",
+          "sameAs": "https://doi.org/10.1200/JCO.22.01357"
         }
       ]
     },
@@ -262,7 +260,15 @@
           "name": "Puc venir durant la quimioteràpia o la radioteràpia?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Depèn de la teva situació i del que indiqui el teu metge. Adaptem les tècniques a cada fase del tractament."
+            "text": "Depèn de la teva situació i del que indiqui el teu metge. L'acompanyament s'adapta a cada fase del tractament."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "I si el tractament ja ha acabat però el dolor continua?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "És freqüent: prop de quatre de cada deu persones mantenen dolor després del tractament. També et podem acompanyar en aquesta etapa, amb autorització mèdica."
           }
         },
         {
@@ -270,7 +276,7 @@
           "name": "Substitueix el meu tractament oncològic?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. És un acompanyament complementari per alleujar el dolor i millorar el benestar."
+            "text": "No. És un acompanyament complementari per alleujar el dolor i millorar la qualitat de vida."
           }
         }
       ]

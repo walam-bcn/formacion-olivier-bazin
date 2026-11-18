@@ -177,7 +177,7 @@
       "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/dolor-musculoesqueletico#webpage",
       "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/dolor-musculoesqueletico",
       "name": "Dolor musculoesquelético en Barcelona | WA LAM",
-      "description": "Artrosis de rodilla, cadera y hombro, tendinopatías, fibromialgia y dolor miofascial en Sarrià–Sant Gervasi, Barcelona. Técnicas manuales y ejercicio.",
+      "description": "Dolor musculoesquelético en Sarrià–Sant Gervasi: contracturas, sobrecargas, roturas fibrilares, esguinces, tortícolis y lesiones deportivas.",
       "inLanguage": "es-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -192,7 +192,7 @@
       },
       "lastReviewed": "2026-11-18",
       "dateModified": "2026-11-18",
-      "keywords": "dolor musculoesquelético Barcelona, artrosis de rodilla tratamiento Barcelona, dolor miofascial, tendinopatía Sarrià, fibromialgia tratamiento integrativo, dolor de hombro crónico",
+      "keywords": "dolor muscular Barcelona, contractura muscular tratamiento, rotura fibrilar recuperación, esguince recuperación Barcelona, lesión deportiva Sarrià, sobrecarga muscular",
       "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/dolor-musculoesqueletico.png",
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -214,24 +214,20 @@
       },
       "about": {
         "@type": "MedicalCondition",
-        "name": "Artrosis",
+        "name": "Dolor musculoesquelético",
         "possibleTreatment": [
           {
             "@type": "MedicalTherapy",
             "name": "Osteopatía"
-          },
-          {
-            "@type": "MedicalTherapy",
-            "name": "Acupuntura y medicina tradicional china"
           }
         ]
       },
       "citation": [
         {
           "@type": "ScholarlyArticle",
-          "name": "Exercise for osteoarthritis of the knee",
-          "url": "https://doi.org/10.1002/14651858.CD004376.pub3",
-          "sameAs": "https://doi.org/10.1002/14651858.CD004376.pub3"
+          "name": "Global estimates of the need for rehabilitation based on the Global Burden of Disease study 2019: a systematic analysis for the Global Burden of Disease Study 2019",
+          "url": "https://doi.org/10.1016/S0140-6736(20)32340-0",
+          "sameAs": "https://doi.org/10.1016/S0140-6736(20)32340-0"
         },
         {
           "@type": "ScholarlyArticle",
@@ -247,26 +243,26 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "¿Puedo hacer ejercicio si tengo artrosis?",
+          "name": "¿Cuándo debo consultar por un dolor muscular?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí. El ejercicio adaptado es uno de los tratamientos más eficaces en la artrosis. Lo ajustamos a tu articulación, tu nivel y tu dolor."
+            "text": "Si el dolor dura más de unas semanas, se repite o te impide hacer tu actividad habitual."
           }
         },
         {
           "@type": "Question",
-          "name": "¿Atendéis el dolor deportivo?",
+          "name": "¿Atendéis lesiones deportivas?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí: tendinopatías, sobrecargas y dolor muscular relacionado con el deporte, con un plan de vuelta progresiva a la actividad."
+            "text": "Sí: sobrecargas, contracturas, roturas fibrilares y esguinces, con una vuelta progresiva a la actividad."
           }
         },
         {
           "@type": "Question",
-          "name": "¿Y la fibromialgia?",
+          "name": "¿En qué se diferencia del dolor articular y miofascial?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí, con un abordaje que combina actividad física gradual, regulación del sueño y del estrés, técnicas manuales y nutrición antiinflamatoria."
+            "text": "El dolor musculoesquelético se centra en el músculo y las lesiones agudas o por sobrecarga; el dolor articular y miofascial incluye la artrosis, las tendinopatías, la fibromialgia y los síndromes miofasciales."
           }
         }
       ]
