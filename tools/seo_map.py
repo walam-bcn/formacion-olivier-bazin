@@ -187,7 +187,7 @@ SEO = {
     "nutricion-salud-intestinal": {
         "kw": "nutrición digestiva Barcelona",
         "kws": ["nutrición salud intestinal", "dieta FODMAP Barcelona", "alimentación colon irritable", "nutrición microbiota"],
-        "ca": "nutricionista digestiu Barcelona",
+        "ca": "nutrició digestiva Barcelona",
         "title": "Nutrición y salud intestinal en Barcelona | WA LAM",
         "desc": "Consulta de nutrición digestiva en Barcelona: hinchazón, colon irritable, dieta FODMAP guiada y microbiota, sin restricciones innecesarias.",
         "quick": "La consulta de nutrición intestinal adapta la alimentación a tus síntomas digestivos con cambios progresivos. En el colon irritable, la dieta baja en FODMAP es la intervención dietética más respaldada, siempre guiada y con reintroducción para no restringir más de lo necesario.",
