@@ -215,16 +215,7 @@
       "about": {
         "@type": "MedicalCondition",
         "name": "Dolor crònic",
-        "possibleTreatment": [
-          {
-            "@type": "MedicalTherapy",
-            "name": "Osteopatia"
-          },
-          {
-            "@type": "MedicalTherapy",
-            "name": "Acupuntura i medicina tradicional xinesa"
-          }
-        ]
+        "possibleTreatment": []
       },
       "citation": [
         {
