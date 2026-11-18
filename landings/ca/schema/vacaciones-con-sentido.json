@@ -234,6 +234,14 @@
             "@type": "Answer",
             "text": "No. Les pràctiques s'adapten a tots els nivells."
           }
+        },
+        {
+          "@type": "Question",
+          "name": "Els vols hi estan inclosos?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Els vols i l'assegurança de viatge van a càrrec de cada participant, que els reserva pel seu compte."
+          }
         }
       ]
     }

@@ -234,6 +234,14 @@
             "@type": "Answer",
             "text": "No. Las prácticas se adaptan a todos los niveles."
           }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Están incluidos los vuelos?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Los vuelos y el seguro de viaje corren a cargo de cada participante, que los reserva por su cuenta."
+          }
         }
       ]
     }
