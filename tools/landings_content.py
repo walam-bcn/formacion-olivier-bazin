@@ -138,7 +138,8 @@ PAGES.append({
                    {"k": "05", "h": "Fatiga, estado de ánimo y sueño", "p": "Fatiga persistente, agotamiento, estado de ánimo bajo, insomnio y otros trastornos del sueño.", "li": ["[Estrés y ansiedad](estres-ansiedad)", "[Sueño e insomnio](sueno-insomnio)"]},
                    {"k": "06", "h": "Salud de la mujer", "p": "Menopausia y sofocos, síndrome de ovario poliquístico, candidiasis y cistitis de repetición, dolor pélvico y fertilidad.", "li": ["[Salud de la mujer y menopausia](salud-mujer-menopausia)", "[Fertilidad](acompanamiento-fertilidad)", "[Suelo pélvico](suelo-pelvico-dolor-pelvico)"]},
                    {"k": "07", "h": "Salud endocrina", "p": "Hipotiroidismo leve, tiroiditis de Hashimoto en fases iniciales y otros desequilibrios hormonales, como complemento del tratamiento endocrinológico.", "li": ["[PNI / PNIE](pni-pnie-barcelona)", "[Salud de la mujer](salud-mujer-menopausia)"]}]},
-        {"type": "hubcards", "groups": ["servicio", "academia"]},
+        {"type": "cards", "eyebrow": "Tratamientos", "h2": "Tratamientos que puedes reservar", "intro": "Cada tratamiento puede reservarse de forma individual o integrarse en un programa re:trace.", "items": [{"k": "Método propio", "h": "[Programas re:trace](programas-re-trace)", "p": "Programas de 6 días a 12 semanas que integran todas las áreas del método."}, {"k": "Medicina integrativa", "h": "[Medicina integrativa y PNIE](pni-pnie-barcelona)", "p": "Primera visita, valoración de precisión y plan personalizado."}, {"k": "Nutrición", "h": "[Nutrición y salud intestinal](nutricion-salud-intestinal)", "p": "Alimentación antiinflamatoria y salud de la microbiota."}, {"k": "Técnicas manuales", "h": "[Osteopatía](osteopatia-sarria-sant-gervasi)", "p": "Valoración y tratamiento osteopático individual."}, {"k": "Medicina tradicional china", "h": "[Acupuntura](acupuntura-medicina-tradicional-china)", "p": "Acupuntura y medicina tradicional china."}, {"k": "Sistema linfático", "h": "[Drenaje linfático manual](drenaje-linfatico-manual)", "p": "Retención de líquidos, postoperatorio, embarazo y linfedema."}, {"k": "Terapia manual", "h": "[Masajes](masajes-sarria-sant-gervasi) y [reflexología](reflexologia-sarria-sant-gervasi)", "p": "Sesiones de masaje terapéutico y reflexología podal."}]},
+        {"type": "hubcards", "groups": ["academia"]},
         {"type": "evidence", "eyebrow": "Fundamento científico", "h2": "La evidencia que sustenta el método",
          "intro": "Una selección de la literatura que orienta las decisiones clínicas de re:trace. Cada página de servicio incluye sus propias referencias.",
          "items": [("Dolor lumbar crónico", "La guía del American College of Physicians recomienda como primera línea las intervenciones no farmacológicas: ejercicio, rehabilitación multidisciplinar, acupuntura y reducción del estrés basada en mindfulness (Qaseem et al., Ann Intern Med, 2017)."),
@@ -648,7 +649,7 @@ PAGES.append({
 
 PAGES.append({
     "slug": "prevencion-longevidad", "group": "motivo", "wave": 1,
-    "nav": "Longevidad y prevención en Barcelona",
+    "nav": "Longevidad y prevención",
     "card": "Un recorrido claro para cuidar tu salud a largo plazo: primera visita, valoración, plan por fases y seguimiento.",
     "title": "Longevidad y prevención en Barcelona · Sarrià–Sant Gervasi | WA LAM",
     "desc": "Longevidad y prevención en Sarrià–Sant Gervasi, Barcelona: primera visita, valoración de hábitos y pruebas, plan por fases y seguimiento.",
@@ -774,7 +775,7 @@ PAGES.append({
 
 PAGES.append({
     "slug": "osteopatia-sarria-sant-gervasi", "group": "servicio", "wave": 1,
-    "nav": "Osteopatía en Sarrià–Sant Gervasi",
+    "nav": "Osteopatía",
     "card": "Osteopatía estructural, visceral y craneal con valoración individual.",
     "title": "Osteopatía en Sarrià–Sant Gervasi, Barcelona · Estructural, visceral y craneal | WA LAM",
     "desc": "Osteópata en Sarrià–Sant Gervasi (Barcelona). Osteopatía estructural, visceral y craneal para dolor, tensión, movilidad y regulación. Reserva tu sesión en WA LAM.",
@@ -825,7 +826,7 @@ PAGES.append({
 
 PAGES.append({
     "slug": "osteopatia-visceral-barcelona", "group": "servicio", "wave": 1,
-    "nav": "Osteopatía visceral en Barcelona",
+    "nav": "Osteopatía visceral",
     "card": "Osteopatía visceral: abdomen, diafragma, pelvis y cicatrices, con formación del Barral Institute.",
     "title": "Osteopatía visceral en Barcelona · Sarrià–Sant Gervasi | WA LAM",
     "desc": "Osteopatía visceral en Sarrià–Sant Gervasi, Barcelona: técnicas suaves sobre abdomen, diafragma, pelvis y cicatrices. Formación del Barral Institute.",
@@ -868,7 +869,7 @@ PAGES.append({
 
 PAGES.append({
     "slug": "osteopatia-craneosacral-barcelona", "group": "servicio", "wave": 1,
-    "nav": "Osteopatía craneosacral en Barcelona",
+    "nav": "Osteopatía craneosacral",
     "card": "Terapia craneosacral: técnicas muy suaves en cráneo, columna y sacro, con formación del Upledger Institute.",
     "title": "Osteopatía craneosacral en Barcelona · Sarrià | WA LAM",
     "desc": "Osteopatía y terapia craneosacral en Sarrià–Sant Gervasi, Barcelona: técnicas muy suaves en cráneo, columna y sacro. Formación del Upledger Institute.",
@@ -1000,7 +1001,7 @@ PAGES.append({
 
 PAGES.append({
     "slug": "perdida-de-peso-sarria-sant-gervasi", "group": "servicio", "wave": 1,
-    "nav": "Pérdida de peso en Sarrià–Sant Gervasi",
+    "nav": "Pérdida de peso",
     "card": "Cambios alimentarios y acupuntura para perder peso de forma progresiva y sostenible.",
     "title": "Pérdida de peso en Sarrià–Sant Gervasi | WA LAM",
     "desc": "Pérdida de peso en Sarrià–Sant Gervasi, Barcelona: cambios alimentarios individualizados y acupuntura en WA LAM.",
@@ -1096,7 +1097,7 @@ PAGES.append({
 
 PAGES.append({
     "slug": "dejar-de-fumar-acupuntura", "group": "servicio", "wave": 2,
-    "nav": "Acupuntura como apoyo para dejar de fumar",
+    "nav": "Dejar de fumar con acupuntura",
     "card": "Una consulta de acupuntura como apoyo en tu proceso para dejar el tabaco, sin promesas.",
     "title": "Acupuntura para dejar de fumar en Barcelona | WA LAM",
     "desc": "Acupuntura como apoyo para dejar de fumar en Sarrià–Sant Gervasi, Barcelona: cómo es la consulta, cómo reservar y qué dice la evidencia.",
@@ -1183,7 +1184,7 @@ PAGES.append({
 
 PAGES.append({
     "slug": "pni-pnie-barcelona", "group": "servicio", "wave": 2,
-    "nav": "PNI y PNIE en Barcelona",
+    "nav": "PNI y PNIE",
     "card": "Psiconeuroinmunología (endocrinología): estrés, sueño, digestión, inflamación y hábitos en una misma consulta.",
     "title": "PNI y PNIE en Barcelona · Psiconeuroinmunología | WA LAM",
     "desc": "Consulta de PNI y PNIE (psiconeuroinmunoendocrinología) en Sarrià–Sant Gervasi, Barcelona: estrés, inflamación, digestión, sueño y hábitos con un enfoque integrativo.",
@@ -1264,7 +1265,7 @@ PAGES.append({
 
 PAGES.append({
     "slug": "drenaje-linfatico-manual", "group": "servicio", "wave": 1,
-    "nav": "Drenaje linfático manual en Sarrià–Sant Gervasi",
+    "nav": "Drenaje linfático manual",
     "card": "Sesiones de drenaje linfático manual: postoperatorio, embarazo y apoyo en el linfedema con autorización médica.",
     "title": "Drenaje linfático manual en Sarrià–Sant Gervasi | WA LAM",
     "desc": "Drenaje linfático manual en Sarrià–Sant Gervasi, Barcelona: técnica suave para la retención de líquidos, el postoperatorio y el embarazo. Reserva online.",
@@ -1312,7 +1313,7 @@ PAGES.append({
 
 PAGES.append({
     "slug": "drenaje-linfatico-embarazo", "group": "servicio", "wave": 2,
-    "nav": "Drenaje linfático manual durante el embarazo",
+    "nav": "Drenaje linfático en el embarazo",
     "card": "Una sesión adaptada al embarazo para el confort ante la pesadez o la hinchazón gradual.",
     "title": "Drenaje linfático en el embarazo en Barcelona | WA LAM",
     "desc": "Drenaje linfático manual durante el embarazo en Sarrià–Sant Gervasi, Barcelona: sesión adaptada para la pesadez y la hinchazón gradual de piernas y tobillos.",
@@ -1462,7 +1463,7 @@ PAGES.append({
 
 PAGES.append({
     "slug": "masajes-sarria-sant-gervasi", "group": "servicio", "wave": 2,
-    "nav": "Masajes en Sarrià–Sant Gervasi",
+    "nav": "Masajes",
     "card": "Modalidades de masaje disponibles, duración y cómo reservar cada una.",
     "title": "Masajes en Sarrià–Sant Gervasi, Barcelona | WA LAM",
     "desc": "Masajes en Sarrià–Sant Gervasi (Barcelona): modalidades disponibles, duración, precio y reserva en WA LAM.",
@@ -1492,7 +1493,7 @@ PAGES.append({
 
 PAGES.append({
     "slug": "reflexologia-sarria-sant-gervasi", "group": "servicio", "wave": 2,
-    "nav": "Reflexología podal en Sarrià–Sant Gervasi",
+    "nav": "Reflexología podal",
     "card": "Sesión independiente de reflexología podal: duración, precio y reserva.",
     "title": "Reflexología podal en Sarrià–Sant Gervasi, Barcelona | WA LAM",
     "desc": "Reflexología podal en Sarrià–Sant Gervasi (Barcelona): qué es, cómo es la sesión, duración, precio y reserva en WA LAM.",
@@ -1529,7 +1530,7 @@ PAGES.append({
 # ---------------------------------------------------------------- ACADEMIA
 PAGES.append({
     "slug": "curso-mindfulness-mbsr-barcelona", "group": "academia", "wave": 1,
-    "nav": "Curso de mindfulness MBSR de 8 semanas en Barcelona",
+    "nav": "Curso de mindfulness MBSR de 8 semanas",
     "card": "Programa MBSR de reducción del estrés: próxima edición, horarios, formato e inscripción.",
     "title": "Curso de Mindfulness MBSR de 8 semanas en Barcelona | WA LAM",
     "desc": "Curso MBSR (Mindfulness-Based Stress Reduction) de 8 semanas en Barcelona: programa, próxima edición, horarios, formato, precio e inscripción en WA LAM.",
@@ -1618,7 +1619,7 @@ PAGES.append({
 
 PAGES.append({
     "slug": "qigong-barcelona", "group": "academia", "wave": 2,
-    "nav": "Qigong en Barcelona",
+    "nav": "Qigong",
     "card": "Clases particulares y en grupo de qigong: movimiento suave, respiración y equilibrio.",
     "title": "Qigong en Barcelona · Clases particulares y en grupo | WA LAM",
     "desc": "Clases de qigong en Barcelona (Sarrià–Sant Gervasi), particulares y en grupo: movimiento suave, respiración, equilibrio y calma. Horarios y reserva.",

@@ -72,17 +72,17 @@
         },
         {
           "@type": "MedicalTherapy",
-          "name": "Osteopatia a Sarrià–Sant Gervasi",
+          "name": "Osteopatia",
           "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/osteopatia-sarria-sant-gervasi"
         },
         {
           "@type": "MedicalTherapy",
-          "name": "Osteopatia visceral a Barcelona",
+          "name": "Osteopatia visceral",
           "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/osteopatia-visceral-barcelona"
         },
         {
           "@type": "MedicalTherapy",
-          "name": "Osteopatia craniosacral a Barcelona",
+          "name": "Osteopatia craniosacral",
           "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/osteopatia-craniosacral-barcelona"
         },
         {
@@ -92,12 +92,12 @@
         },
         {
           "@type": "MedicalTherapy",
-          "name": "Pèrdua de pes a Sarrià–Sant Gervasi",
+          "name": "Pèrdua de pes",
           "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/perdua-de-pes"
         },
         {
           "@type": "MedicalTherapy",
-          "name": "Acupuntura com a suport per deixar de fumar",
+          "name": "Deixar de fumar amb acupuntura",
           "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/acupuntura-deixar-de-fumar"
         },
         {
@@ -107,7 +107,7 @@
         },
         {
           "@type": "MedicalTherapy",
-          "name": "PNI i PNIE a Barcelona",
+          "name": "PNI i PNIE",
           "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/pni-pnie-barcelona"
         },
         {
@@ -117,12 +117,12 @@
         },
         {
           "@type": "MedicalTherapy",
-          "name": "Drenatge limfàtic manual a Sarrià–Sant Gervasi",
+          "name": "Drenatge limfàtic manual",
           "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/drenatge-limfatic-manual"
         },
         {
           "@type": "MedicalTherapy",
-          "name": "Drenatge limfàtic manual durant l'embaràs",
+          "name": "Drenatge limfàtic en l'embaràs",
           "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/drenatge-limfatic-embaras"
         },
         {
@@ -137,12 +137,12 @@
         },
         {
           "@type": "MedicalTherapy",
-          "name": "Massatges a Sarrià–Sant Gervasi",
+          "name": "Massatges",
           "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/massatges-sarria-sant-gervasi"
         },
         {
           "@type": "MedicalTherapy",
-          "name": "Reflexologia podal a Sarrià–Sant Gervasi",
+          "name": "Reflexologia podal",
           "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/reflexologia-podal"
         }
       ],
@@ -167,7 +167,7 @@
         {
           "@type": "ListItem",
           "position": 3,
-          "name": "Reflexologia podal a Sarrià–Sant Gervasi",
+          "name": "Reflexologia podal",
           "item": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/reflexologia-podal"
         }
       ]
@@ -235,7 +235,7 @@
       "@type": "Service",
       "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/reflexologia-podal#servicio",
       "name": "Reflexologia podal a Sarrià–Sant Gervasi",
-      "serviceType": "Reflexologia podal a Sarrià–Sant Gervasi",
+      "serviceType": "Reflexologia podal",
       "provider": {
         "@id": "https://www.walambcn.com/#clinica"
       },
