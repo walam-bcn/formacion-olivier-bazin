@@ -132,6 +132,11 @@
         },
         {
           "@type": "MedicalTherapy",
+          "name": "Drenatge limfàtic per al limfedema",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/drenatge-limfatic-limfedema"
+        },
+        {
+          "@type": "MedicalTherapy",
           "name": "Massatges a Sarrià–Sant Gervasi",
           "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/massatges-sarria-sant-gervasi"
         },
@@ -260,6 +265,14 @@
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Només quan poden canviar el pla. La més habitual és l'estudi de microbiota intestinal; segons el teu cas, valorem altres proves o una consulta amb l'especialista."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Feu proves genètiques?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí, a través d'un laboratori especialitzat, quan poden aportar informació útil per al teu pla."
           }
         },
         {

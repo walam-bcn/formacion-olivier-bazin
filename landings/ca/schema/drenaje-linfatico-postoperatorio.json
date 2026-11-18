@@ -132,6 +132,11 @@
         },
         {
           "@type": "MedicalTherapy",
+          "name": "Drenatge limfàtic per al limfedema",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/drenatge-limfatic-limfedema"
+        },
+        {
+          "@type": "MedicalTherapy",
           "name": "Massatges a Sarrià–Sant Gervasi",
           "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/massatges-sarria-sant-gervasi"
         },
@@ -263,6 +268,14 @@
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Depèn de la cirurgia i del que indiqui el teu cirurgià. Escriu-nos amb aquesta informació i t'orientem abans de reservar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quantes sessions solen caldre?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Varia segons la intervenció, l'evolució i les indicacions del teu cirurgià. Ho revisem sessió a sessió. La sessió d'1 hora costa 70 € i el bo, 700 €."
           }
         },
         {

@@ -132,6 +132,11 @@
         },
         {
           "@type": "MedicalTherapy",
+          "name": "Drenatge limfàtic per al limfedema",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/drenatge-limfatic-limfedema"
+        },
+        {
+          "@type": "MedicalTherapy",
           "name": "Massatges a Sarrià–Sant Gervasi",
           "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/massatges-sarria-sant-gervasi"
         },
@@ -256,7 +261,24 @@
     {
       "@type": "FAQPage",
       "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/drenatge-limfatic-embaras#faq",
-      "mainEntity": []
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "A partir de quina setmana puc fer drenatge?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Des de l'inici de l'embaràs, adaptant la sessió a cada trimestre."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Necessito autorització mèdica?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "En un embaràs sense complicacions, no. Si tens hipertensió, preeclàmpsia, antecedents de trombosi o un embaràs de risc, et demanarem abans la valoració de la teva llevadora o la teva ginecòloga."
+          }
+        }
+      ]
     }
   ]
 }
