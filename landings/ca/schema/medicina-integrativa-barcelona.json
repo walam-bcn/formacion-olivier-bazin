@@ -102,8 +102,8 @@
         },
         {
           "@type": "MedicalTherapy",
-          "name": "Cures postoperatòries i drenatge limfàtic manual",
-          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/cures-postoperatories-drenatge-limfatic"
+          "name": "Drenatge limfàtic manual postoperatori",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/drenatge-limfatic-postoperatori"
         },
         {
           "@type": "MedicalTherapy",
@@ -134,8 +134,8 @@
       "@type": "MedicalWebPage",
       "@id": "https://www.walambcn.com/ca#webpage",
       "url": "https://www.walambcn.com/ca",
-      "name": "Medicina integrativa a Barcelona · Sarrià | WA LAM",
-      "description": "Centre de salut integrativa a Sarrià–Sant Gervasi, Barcelona: dolor persistent, estrès, salut digestiva, osteopatia, fisioteràpia, PNIE i MBSR.",
+      "name": "Medicina integrativa i longevitat a Barcelona | WA LAM",
+      "description": "Centre de medicina integrativa, prevenció i longevitat a Sarrià–Sant Gervasi, Barcelona: primera visita, pla per fases i seguiment.",
       "inLanguage": "ca-ES",
       "isPartOf": {
         "@type": "WebSite",

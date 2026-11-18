@@ -102,8 +102,8 @@
         },
         {
           "@type": "MedicalTherapy",
-          "name": "Cuidados postoperatorios y drenaje linfático manual",
-          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/cuidados-postoperatorios-drenaje-linfatico"
+          "name": "Drenaje linfático manual postoperatorio",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/drenaje-linfatico-postoperatorio"
         },
         {
           "@type": "MedicalTherapy",
@@ -120,7 +120,7 @@
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/cuidados-postoperatorios-drenaje-linfatico#breadcrumb",
+      "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/drenaje-linfatico-postoperatorio#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -137,17 +137,17 @@
         {
           "@type": "ListItem",
           "position": 3,
-          "name": "Cuidados postoperatorios y drenaje linfático manual",
-          "item": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/cuidados-postoperatorios-drenaje-linfatico"
+          "name": "Drenaje linfático manual postoperatorio",
+          "item": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/drenaje-linfatico-postoperatorio"
         }
       ]
     },
     {
       "@type": "MedicalWebPage",
-      "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/cuidados-postoperatorios-drenaje-linfatico#webpage",
-      "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/cuidados-postoperatorios-drenaje-linfatico",
-      "name": "Cuidados postoperatorios y drenaje linfático | WA LAM",
-      "description": "Cuidados postoperatorios y drenaje linfático manual en Sarrià–Sant Gervasi, Barcelona: qué cirugías atendemos, cuándo empezar y cómo reservar.",
+      "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/drenaje-linfatico-postoperatorio#webpage",
+      "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/drenaje-linfatico-postoperatorio",
+      "name": "Drenaje linfático postoperatorio en Barcelona | WA LAM",
+      "description": "Drenaje linfático manual postoperatorio en Sarrià–Sant Gervasi, Barcelona: qué cirugías atendemos, cuándo empezar, quién te atiende y cómo reservar.",
       "inLanguage": "es-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -155,15 +155,15 @@
         "url": "https://www.walambcn.com"
       },
       "breadcrumb": {
-        "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/cuidados-postoperatorios-drenaje-linfatico#breadcrumb"
+        "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/drenaje-linfatico-postoperatorio#breadcrumb"
       },
       "publisher": {
         "@id": "https://www.walambcn.com/#clinica"
       },
       "lastReviewed": "2026-11-18",
       "dateModified": "2026-11-18",
-      "keywords": "drenaje linfático postoperatorio Barcelona, drenaje linfático manual Barcelona, drenaje después de liposucción, drenaje postoperatorio Sarrià, cuándo empezar drenaje linfático",
-      "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/cuidados-postoperatorios-drenaje-linfatico.png",
+      "keywords": "drenaje linfático postoperatorio Barcelona, drenaje linfático manual Barcelona, drenaje después de liposucción, drenaje tras blefaroplastia o lifting, drenaje linfático embarazo Barcelona, drenaje postoperatorio rodilla",
+      "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/drenaje-linfatico-postoperatorio.png",
       "speakable": {
         "@type": "SpeakableSpecification",
         "cssSelector": [
@@ -181,9 +181,9 @@
     },
     {
       "@type": "Service",
-      "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/cuidados-postoperatorios-drenaje-linfatico#servicio",
-      "name": "Cuidados postoperatorios y drenaje linfático manual",
-      "serviceType": "Cuidados postoperatorios y drenaje linfático manual",
+      "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/drenaje-linfatico-postoperatorio#servicio",
+      "name": "Drenaje linfático manual postoperatorio",
+      "serviceType": "Drenaje linfático manual postoperatorio",
       "provider": {
         "@id": "https://www.walambcn.com/#clinica"
       },
@@ -217,12 +217,12 @@
           "name": "Barcelona"
         }
       ],
-      "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/cuidados-postoperatorios-drenaje-linfatico",
-      "description": "Cuidados postoperatorios y drenaje linfático manual en Sarrià–Sant Gervasi, Barcelona: qué cirugías atendemos, cuándo empezar y cómo reservar."
+      "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/drenaje-linfatico-postoperatorio",
+      "description": "Drenaje linfático manual postoperatorio en Sarrià–Sant Gervasi, Barcelona: qué cirugías atendemos, cuándo empezar, quién te atiende y cómo reservar."
     },
     {
       "@type": "FAQPage",
-      "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/cuidados-postoperatorios-drenaje-linfatico#faq",
+      "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/drenaje-linfatico-postoperatorio#faq",
       "mainEntity": [
         {
           "@type": "Question",
@@ -230,6 +230,22 @@
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Depende de la cirugía y de lo que indique tu cirujano. Escríbenos con esa información y te orientamos antes de reservar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Puedo hacer drenaje si estoy embarazada?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí, con el visto bueno de tu matrona o ginecóloga. Lo usamos para la retención de líquidos antes y después del parto."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Y si tengo o he tenido cáncer?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Podemos acompañarte con drenaje linfático manual siempre que tu equipo de oncología lo autorice y en coordinación con él."
           }
         },
         {

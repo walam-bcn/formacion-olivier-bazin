@@ -102,8 +102,8 @@
         },
         {
           "@type": "MedicalTherapy",
-          "name": "Cuidados postoperatorios y drenaje linfático manual",
-          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/cuidados-postoperatorios-drenaje-linfatico"
+          "name": "Drenaje linfático manual postoperatorio",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/drenaje-linfatico-postoperatorio"
         },
         {
           "@type": "MedicalTherapy",
@@ -147,7 +147,7 @@
       "@id": "https://www.walambcn.com/academia-vida-saludable-barcelona/vacaciones-con-sentido#webpage",
       "url": "https://www.walambcn.com/academia-vida-saludable-barcelona/vacaciones-con-sentido",
       "name": "Vacaciones con sentido en Bali · Retiro de salud",
-      "description": "Vacaciones con sentido en Bali: 6 días guiados por profesionales sanitarios para descansar, dormir mejor y aprender hábitos de salud. Fechas y programa.",
+      "description": "Vacaciones con sentido en Bali: 6 días guiados por el equipo de WA LAM para descansar, dormir mejor y aprender hábitos de salud. Fechas y programa.",
       "inLanguage": "es-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -176,7 +176,7 @@
       "@type": "Course",
       "@id": "https://www.walambcn.com/academia-vida-saludable-barcelona/vacaciones-con-sentido#curso",
       "name": "Vacaciones con sentido",
-      "description": "Vacaciones con sentido en Bali: 6 días guiados por profesionales sanitarios para descansar, dormir mejor y aprender hábitos de salud. Fechas y programa.",
+      "description": "Vacaciones con sentido en Bali: 6 días guiados por el equipo de WA LAM para descansar, dormir mejor y aprender hábitos de salud. Fechas y programa.",
       "provider": {
         "@type": "Organization",
         "name": "WA LAM · Healthy Lifestyle Academy",

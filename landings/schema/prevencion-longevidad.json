@@ -102,8 +102,8 @@
         },
         {
           "@type": "MedicalTherapy",
-          "name": "Cuidados postoperatorios y drenaje linfático manual",
-          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/cuidados-postoperatorios-drenaje-linfatico"
+          "name": "Drenaje linfático manual postoperatorio",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/drenaje-linfatico-postoperatorio"
         },
         {
           "@type": "MedicalTherapy",
@@ -120,7 +120,7 @@
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/prevencion-longevidad#breadcrumb",
+      "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/longevidad-prevencion-barcelona#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -137,17 +137,17 @@
         {
           "@type": "ListItem",
           "position": 3,
-          "name": "Prevención y longevidad",
-          "item": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/prevencion-longevidad"
+          "name": "Longevidad y prevención en Barcelona",
+          "item": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/longevidad-prevencion-barcelona"
         }
       ]
     },
     {
       "@type": "MedicalWebPage",
-      "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/prevencion-longevidad#webpage",
-      "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/prevencion-longevidad",
-      "name": "Prevención y longevidad saludable en Barcelona",
-      "description": "Valoración de prevención y longevidad en Sarrià–Sant Gervasi: fuerza, actividad física, sueño, metabolismo y estrés. Basada en evidencia, sin antiaging.",
+      "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/longevidad-prevencion-barcelona#webpage",
+      "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/longevidad-prevencion-barcelona",
+      "name": "Longevidad y prevención en Barcelona | WA LAM",
+      "description": "Consulta de longevidad y prevención en Sarrià–Sant Gervasi, Barcelona: primera visita, valoración, plan por fases y seguimiento. Basada en evidencia.",
       "inLanguage": "es-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -155,14 +155,14 @@
         "url": "https://www.walambcn.com"
       },
       "breadcrumb": {
-        "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/prevencion-longevidad#breadcrumb"
+        "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/longevidad-prevencion-barcelona#breadcrumb"
       },
       "publisher": {
         "@id": "https://www.walambcn.com/#clinica"
       },
       "lastReviewed": "2026-11-18",
       "dateModified": "2026-11-18",
-      "keywords": "longevidad saludable Barcelona, medicina preventiva Barcelona, envejecimiento saludable, ejercicio de fuerza y mortalidad, chequeo de hábitos de salud",
+      "keywords": "longevidad Barcelona, medicina preventiva Barcelona, longevidad Sarrià Sant Gervasi, consulta de longevidad, envejecimiento saludable Barcelona, medicina integrativa y longevidad",
       "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/prevencion-longevidad.png",
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -192,19 +192,33 @@
           "name": "Sleep Disturbance, Sleep Duration, and Inflammation: A Systematic Review and Meta-Analysis of Cohort Studies and Experimental Sleep Deprivation",
           "url": "https://doi.org/10.1016/j.biopsych.2015.05.014",
           "sameAs": "https://doi.org/10.1016/j.biopsych.2015.05.014"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Dementia prevention, intervention, and care: 2024 report of the Lancet standing Commission",
+          "url": "https://doi.org/10.1016/S0140-6736(24)01296-0",
+          "sameAs": "https://doi.org/10.1016/S0140-6736(24)01296-0"
         }
       ]
     },
     {
       "@type": "FAQPage",
-      "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/prevencion-longevidad#faq",
+      "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/longevidad-prevencion-barcelona#faq",
       "mainEntity": [
         {
           "@type": "Question",
           "name": "¿Necesito tener algún problema de salud para venir?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. Esta valoración está pensada precisamente para personas que quieren anticiparse."
+            "text": "No. La consulta está pensada precisamente para personas que quieren anticiparse."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué tengo que traer a la primera visita?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tus analíticas y pruebas médicas recientes. Antes de la visita te pediremos que rellenes el formulario de primera cita."
           }
         },
         {

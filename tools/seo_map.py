@@ -8,9 +8,9 @@ SEO = {
         "kw": "medicina integrativa Barcelona",
         "kws": ["centro de salud integrativa Barcelona", "clínica integrativa Sarrià", "osteopatía y fisioterapia Sant Gervasi", "medicina integrativa Sant Gervasi"],
         "ca": "medicina integrativa Barcelona",
-        "title": "Medicina integrativa en Barcelona · Sarrià | WA LAM",
-        "desc": "Centro de salud integrativa en Sarrià–Sant Gervasi, Barcelona: dolor persistente, estrés, salud digestiva, osteopatía, fisioterapia, PNIE y MBSR.",
-        "quick": "La medicina integrativa combina la medicina convencional con terapias y hábitos de vida respaldados por la evidencia científica, con un plan individual. En WA LAM, en Sarrià–Sant Gervasi (Barcelona), la aplicamos a dolor persistente, estrés, salud digestiva y prevención, coordinándonos con tu médico.",
+        "title": "Medicina integrativa y longevidad en Barcelona | WA LAM",
+        "desc": "Centro de medicina integrativa, prevención y longevidad en Sarrià–Sant Gervasi, Barcelona: primera visita, plan por fases y seguimiento.",
+        "quick": "WA LAM es un centro de medicina integrativa, prevención y longevidad en Sarrià–Sant Gervasi (Barcelona). Cada recorrido empieza con una primera visita, sigue con un plan por fases y se acompaña con un seguimiento, en coordinación con tu médico. Trabajamos dolor persistente, estrés, sueño, salud digestiva y salud cognitiva.",
         "entity": None,
     },
     "dolor-persistente-cronico": {
@@ -59,13 +59,22 @@ SEO = {
         "entity": ("MedicalCondition", "Menopausia"),
     },
     "prevencion-longevidad": {
-        "kw": "longevidad saludable Barcelona",
-        "kws": ["medicina preventiva Barcelona", "envejecimiento saludable", "ejercicio de fuerza y mortalidad", "chequeo de hábitos de salud"],
-        "ca": "longevitat saludable Barcelona",
-        "title": "Prevención y longevidad saludable en Barcelona",
-        "desc": "Valoración de prevención y longevidad en Sarrià–Sant Gervasi: fuerza, actividad física, sueño, metabolismo y estrés. Basada en evidencia, sin antiaging.",
-        "quick": "La longevidad saludable se apoya en factores con evidencia sólida: actividad física, fuerza muscular, sueño, alimentación, no fumar y gestión del estrés. El ejercicio de fuerza se asocia a un 10–17 % menos de mortalidad, y combinado con ejercicio aeróbico, a cerca de un 40 % menos.",
+        "kw": "longevidad Barcelona",
+        "kws": ["medicina preventiva Barcelona", "longevidad Sarrià Sant Gervasi", "consulta de longevidad", "envejecimiento saludable Barcelona", "medicina integrativa y longevidad"],
+        "ca": "longevitat Barcelona",
+        "title": "Longevidad y prevención en Barcelona | WA LAM",
+        "desc": "Consulta de longevidad y prevención en Sarrià–Sant Gervasi, Barcelona: primera visita, valoración, plan por fases y seguimiento. Basada en evidencia.",
+        "quick": "La consulta de longevidad y prevención de WA LAM sigue un recorrido claro: formulario y analíticas antes de la visita, una primera visita para revisar historia, pruebas y hábitos, un plan por fases con recomendaciones por escrito y un seguimiento con pautas de mantenimiento.",
         "entity": None,
+    },
+    "neurolongevidad-salud-cognitiva": {
+        "kw": "salud cognitiva Barcelona",
+        "kws": ["neurolongevidad", "prevención deterioro cognitivo", "neurorregulación Barcelona", "memoria y estrés", "cuidar el cerebro"],
+        "ca": "salut cognitiva Barcelona",
+        "title": "Neurolongevidad y salud cognitiva en Barcelona | WA LAM",
+        "desc": "Neurolongevidad y salud cognitiva en Sarrià–Sant Gervasi: hábitos que protegen el cerebro, estrés, sueño y servicios de neurorregulación.",
+        "quick": "Cerca de la mitad de los casos de demencia se asocian a 14 factores de riesgo modificables, según la Comisión de The Lancet de 2024. La consulta de salud cognitiva de WA LAM revisa esos hábitos (sueño, estrés, actividad física, salud cardiovascular, vínculos) dentro del recorrido de longevidad.",
+        "entity": ("MedicalCondition", "Deterioro cognitivo: prevención"),
     },
     "osteopatia-sarria-sant-gervasi": {
         "kw": "osteópata Sarrià Sant Gervasi",
@@ -139,14 +148,14 @@ SEO = {
         "quick": "La consulta de nutrición intestinal adapta la alimentación a tus síntomas digestivos con cambios progresivos. En el colon irritable, la dieta baja en FODMAP es la intervención dietética más respaldada, siempre guiada y con reintroducción para no restringir más de lo necesario.",
         "entity": ("MedicalTherapy", "Nutrición clínica"),
     },
-    "cuidados-postoperatorios-drenaje-linfatico": {
+    "drenaje-linfatico-postoperatorio": {
         "kw": "drenaje linfático postoperatorio Barcelona",
         "kw2": "cuidados postoperatorios Sarrià",
-        "kws": ["drenaje linfático manual Barcelona", "drenaje después de liposucción", "drenaje postoperatorio Sarrià", "cuándo empezar drenaje linfático"],
+        "kws": ["drenaje linfático manual Barcelona", "drenaje después de liposucción", "drenaje tras blefaroplastia o lifting", "drenaje linfático embarazo Barcelona", "drenaje postoperatorio rodilla"],
         "ca": "drenatge limfàtic postoperatori Barcelona",
-        "title": "Cuidados postoperatorios y drenaje linfático | WA LAM",
-        "desc": "Cuidados postoperatorios y drenaje linfático manual en Sarrià–Sant Gervasi, Barcelona: qué cirugías atendemos, cuándo empezar y cómo reservar.",
-        "quick": "En WA LAM ofrecemos cuidados postoperatorios y drenaje linfático manual. El drenaje es una técnica suave y lenta que se usa tras algunas cirugías para mejorar el confort y el edema. El momento de empezar depende de la intervención y de las indicaciones de tu cirujano; escríbenos con esa información antes de reservar.",
+        "title": "Drenaje linfático postoperatorio en Barcelona | WA LAM",
+        "desc": "Drenaje linfático manual postoperatorio en Sarrià–Sant Gervasi, Barcelona: qué cirugías atendemos, cuándo empezar, quién te atiende y cómo reservar.",
+        "quick": "El drenaje linfático manual es una técnica suave y lenta que se usa tras algunas cirugías para mejorar el confort y el edema. El momento de empezar depende de la intervención y de las indicaciones de tu cirujano; escríbenos con esa información antes de reservar.",
         "entity": ("MedicalTherapy", "Drenaje linfático manual"),
     },
     "masajes-sarria-sant-gervasi": {
@@ -217,8 +226,8 @@ SEO = {
         "kws": ["retiro de salud Bali", "viaje de bienestar Bali", "vacaciones de salud integrativa", "retiro 6 días"],
         "ca": "vacances amb sentit Bali",
         "title": "Vacaciones con sentido en Bali · Retiro de salud",
-        "desc": "Vacaciones con sentido en Bali: 6 días guiados por profesionales sanitarios para descansar, dormir mejor y aprender hábitos de salud. Fechas y programa.",
-        "quick": "Vacaciones con sentido es un viaje de 6 días guiado por profesionales sanitarios de WA LAM: mindfulness, yoga, qigong, sueño, alimentación y un plan personal de hábitos. La próxima edición es en Bali.",
+        "desc": "Vacaciones con sentido en Bali: 6 días guiados por el equipo de WA LAM para descansar, dormir mejor y aprender hábitos de salud. Fechas y programa.",
+        "quick": "Vacaciones con sentido es un viaje de 6 días guiado por el equipo de WA LAM: mindfulness, yoga, qigong, sueño, alimentación y un plan personal de hábitos. La próxima edición es en Bali.",
         "entity": None,
     },
 }
@@ -237,7 +246,8 @@ URLS = {
     "salud-digestiva-microbiota": f"{H}/salud-digestiva-microbiota",
     "acompanamiento-fertilidad": f"{H}/acompanamiento-fertilidad",
     "salud-mujer-menopausia": f"{H}/salud-mujer-menopausia",
-    "prevencion-longevidad": f"{H}/prevencion-longevidad",
+    "prevencion-longevidad": f"{H}/longevidad-prevencion-barcelona",
+    "neurolongevidad-salud-cognitiva": f"{H}/salud-cognitiva-sarrià-sant-gervasi-barcelona",
     "osteopatia-sarria-sant-gervasi": f"{H}/osteopatia-sarria-sant-gervasi",
     "fisioterapia-sarria-sant-gervasi": f"{H}/fisioterapia-sarria-sant-gervasi",
     "perdida-de-peso-sarria-sant-gervasi": f"{H}/perdida-de-peso",
@@ -245,7 +255,7 @@ URLS = {
     "acupuntura-medicina-tradicional-china": f"{H}/acupuntura-medicina-tradicional-china",
     "pni-pnie-barcelona": f"{H}/pni-pnie-barcelona",
     "nutricion-salud-intestinal": f"{H}/nutricion-barcelona",
-    "cuidados-postoperatorios-drenaje-linfatico": f"{H}/cuidados-postoperatorios-drenaje-linfatico",
+    "drenaje-linfatico-postoperatorio": f"{H}/drenaje-linfatico-postoperatorio",
     "masajes-sarria-sant-gervasi": f"{H}/masajes-sarria-sant-gervasi",
     "reflexologia-sarria-sant-gervasi": f"{H}/reflexologia-podal",
     "curso-mindfulness-mbsr-barcelona": f"{A}/formación-mindfulness",
@@ -258,10 +268,10 @@ URLS = {
     "healthy-lifestyle-academy": A,
 }
 # Estado de cada URL: reutiliza (ya existe en el sitemap) o nueva
-EXISTING = {"medicina-integrativa-barcelona", "nutricion-salud-intestinal", "curso-mindfulness-mbsr-barcelona",
+EXISTING = {"neurolongevidad-salud-cognitiva", "medicina-integrativa-barcelona", "nutricion-salud-intestinal", "curso-mindfulness-mbsr-barcelona",
             "retiros-mindfulness-meditacion-silencio", "vacaciones-con-sentido", "tratamientos", "healthy-lifestyle-academy"}
 # Redirecciones 301 propuestas
-REDIRECTS = [(f"/{H}/medicina-integrativa-barcelona", "/", "Evita que compita con la portada por «medicina integrativa Barcelona». Su contenido de prevención pasa a /prevencion-longevidad.")]
+REDIRECTS = [(f"/{H}/medicina-integrativa-barcelona", "/", "Evita que compita con la portada por «medicina integrativa Barcelona». Su contenido de prevención pasa a la página de Longevidad y prevención.")]
 # Páginas de reserva (Wix Bookings) y eventos que ya existen y compiten o complementan
 BOOKING = {
     "osteopatia-sarria-sant-gervasi": "/service-page/osteopatía-alivio-y-prevención-del-dolor",
@@ -269,7 +279,7 @@ BOOKING = {
     "acupuntura-medicina-tradicional-china": "/service-page/acupuntura-y-mtc-equilibrio-y-sanación-a-través-de-la-acupuntura",
     "perdida-de-peso-sarria-sant-gervasi": "/service-page/acupuntura-y-mtc-equilibrio-y-sanación-a-través-de-la-acupuntura",
     "dejar-de-fumar-acupuntura": "/service-page/acupuntura-y-mtc-equilibrio-y-sanación-a-través-de-la-acupuntura",
-    "cuidados-postoperatorios-drenaje-linfatico": "/service-page/drenaje-linfático-desintoxicación-y-bienestar",
+    "drenaje-linfatico-postoperatorio": "/service-page/drenaje-linfático-desintoxicación-y-bienestar",
     "pni-pnie-barcelona": "/service-page/pni-psico-neuro-endocrinología-integrando-mente-cuerpo-y-salud",
     "nutricion-salud-intestinal": "/service-page/nutrición-salud-intestinal-optimiza-tu-salud-a-través-de-la-alimentación",
     "reflexologia-sarria-sant-gervasi": "/service-page/reflexología-podal-equilibrio-y-bienestar-desde-los-pies",
@@ -281,6 +291,8 @@ BOOKING = {
     "retiros-mindfulness-meditacion-silencio": "/event-details/retiro-mindfulness-en-silencio-5-dias",
     "vacaciones-con-sentido": "/event-details/vacaciones-con-sentido-sincronia-interior-en-bali-verano-2026",
     "medicina-integrativa-barcelona": "/primera-cita",
+    "prevencion-longevidad": "/primera-cita",
+    "neurolongevidad-salud-cognitiva": "/service-page/neuroregulación-equilibrio-y-bienestar-para-tu-sistema-nervioso",
 }
 # Artículos del Magazín que ya existen y deben enlazar a cada página
 BLOG = {
@@ -299,11 +311,11 @@ BLOG = {
 CA_SLUG = {
     "dolor-persistente-cronico": "dolor-persistent-cronic", "estres-ansiedad": "estres-ansietat", "sueno-insomnio": "son-insomni",
     "salud-digestiva-microbiota": "salut-digestiva-microbiota", "acompanamiento-fertilidad": "acompanyament-fertilitat",
-    "salud-mujer-menopausia": "salut-dona-menopausa", "prevencion-longevidad": "prevencio-longevitat",
+    "salud-mujer-menopausia": "salut-dona-menopausa", "prevencion-longevidad": "longevitat-prevencio-barcelona", "neurolongevidad-salud-cognitiva": "salut-cognitiva-sarria-sant-gervasi-barcelona",
     "osteopatia-sarria-sant-gervasi": "osteopatia-sarria-sant-gervasi", "fisioterapia-sarria-sant-gervasi": "fisioterapia-sarria-sant-gervasi",
     "perdida-de-peso-sarria-sant-gervasi": "perdua-de-pes", "dejar-de-fumar-acupuntura": "acupuntura-deixar-de-fumar",
     "acupuntura-medicina-tradicional-china": "acupuntura-medicina-tradicional-xinesa", "pni-pnie-barcelona": "pni-pnie-barcelona",
-    "nutricion-salud-intestinal": "nutricio-barcelona", "cuidados-postoperatorios-drenaje-linfatico": "cures-postoperatories-drenatge-limfatic",
+    "nutricion-salud-intestinal": "nutricio-barcelona", "drenaje-linfatico-postoperatorio": "drenatge-limfatic-postoperatori",
     "masajes-sarria-sant-gervasi": "massatges-sarria-sant-gervasi", "reflexologia-sarria-sant-gervasi": "reflexologia-podal",
     "curso-mindfulness-mbsr-barcelona": "formacio-mindfulness", "yoga-particular-grupos-reducidos": "ioga", "qigong-barcelona": "qigong",
     "formacion-medicina-tradicional-china": "formacio-medicina-tradicional-xinesa", "retiros-mindfulness-meditacion-silencio": "recessos",

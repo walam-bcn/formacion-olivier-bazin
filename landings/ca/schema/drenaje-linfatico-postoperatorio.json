@@ -102,8 +102,8 @@
         },
         {
           "@type": "MedicalTherapy",
-          "name": "Cures postoperatòries i drenatge limfàtic manual",
-          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/cures-postoperatories-drenatge-limfatic"
+          "name": "Drenatge limfàtic manual postoperatori",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/drenatge-limfatic-postoperatori"
         },
         {
           "@type": "MedicalTherapy",
@@ -120,7 +120,7 @@
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/cures-postoperatories-drenatge-limfatic#breadcrumb",
+      "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/drenatge-limfatic-postoperatori#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -137,17 +137,17 @@
         {
           "@type": "ListItem",
           "position": 3,
-          "name": "Cures postoperatòries i drenatge limfàtic manual",
-          "item": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/cures-postoperatories-drenatge-limfatic"
+          "name": "Drenatge limfàtic manual postoperatori",
+          "item": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/drenatge-limfatic-postoperatori"
         }
       ]
     },
     {
       "@type": "MedicalWebPage",
-      "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/cures-postoperatories-drenatge-limfatic#webpage",
-      "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/cures-postoperatories-drenatge-limfatic",
-      "name": "Cures postoperatòries i drenatge limfàtic | WA LAM",
-      "description": "Cures postoperatòries i drenatge limfàtic manual a Sarrià–Sant Gervasi, Barcelona: quines cirurgies atenem, quan començar i com reservar.",
+      "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/drenatge-limfatic-postoperatori#webpage",
+      "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/drenatge-limfatic-postoperatori",
+      "name": "Drenatge limfàtic postoperatori a Barcelona | WA LAM",
+      "description": "Drenatge limfàtic manual postoperatori a Sarrià–Sant Gervasi, Barcelona: quines cirurgies atenem, quan començar, qui t'atén i com reservar.",
       "inLanguage": "ca-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -155,15 +155,15 @@
         "url": "https://www.walambcn.com"
       },
       "breadcrumb": {
-        "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/cures-postoperatories-drenatge-limfatic#breadcrumb"
+        "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/drenatge-limfatic-postoperatori#breadcrumb"
       },
       "publisher": {
         "@id": "https://www.walambcn.com/#clinica"
       },
       "lastReviewed": "2026-11-18",
       "dateModified": "2026-11-18",
-      "keywords": "drenatge limfàtic postoperatori Barcelona, drenatge limfàtic manual Barcelona, drenatge després de liposucció, drenatge postoperatori Sarrià, quan començar el drenatge limfàtic",
-      "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/cuidados-postoperatorios-drenaje-linfatico.png",
+      "keywords": "drenatge limfàtic postoperatori Barcelona, drenatge limfàtic manual Barcelona, drenatge després de liposucció, drenatge després de blefaroplàstia o lífting, drenatge limfàtic embaràs Barcelona, drenatge postoperatori genoll",
+      "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/drenaje-linfatico-postoperatorio.png",
       "speakable": {
         "@type": "SpeakableSpecification",
         "cssSelector": [
@@ -181,9 +181,9 @@
     },
     {
       "@type": "Service",
-      "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/cures-postoperatories-drenatge-limfatic#servicio",
-      "name": "Cures postoperatòries i drenatge limfàtic manual",
-      "serviceType": "Cures postoperatòries i drenatge limfàtic manual",
+      "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/drenatge-limfatic-postoperatori#servicio",
+      "name": "Drenatge limfàtic manual postoperatori",
+      "serviceType": "Drenatge limfàtic manual postoperatori",
       "provider": {
         "@id": "https://www.walambcn.com/#clinica"
       },
@@ -217,12 +217,12 @@
           "name": "Barcelona"
         }
       ],
-      "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/cures-postoperatories-drenatge-limfatic",
-      "description": "Cures postoperatòries i drenatge limfàtic manual a Sarrià–Sant Gervasi, Barcelona: quines cirurgies atenem, quan començar i com reservar."
+      "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/drenatge-limfatic-postoperatori",
+      "description": "Drenatge limfàtic manual postoperatori a Sarrià–Sant Gervasi, Barcelona: quines cirurgies atenem, quan començar, qui t'atén i com reservar."
     },
     {
       "@type": "FAQPage",
-      "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/cures-postoperatories-drenatge-limfatic#faq",
+      "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/drenatge-limfatic-postoperatori#faq",
       "mainEntity": [
         {
           "@type": "Question",
@@ -230,6 +230,22 @@
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Depèn de la cirurgia i del que indiqui el teu cirurgià. Escriu-nos amb aquesta informació i t'orientem abans de reservar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Puc fer drenatge si estic embarassada?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí, amb el vistiplau de la teva llevadora o ginecòloga. L'utilitzem per a la retenció de líquids abans i després del part."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "I si tinc o he tingut càncer?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Et podem acompanyar amb drenatge limfàtic manual sempre que el teu equip d'oncologia ho autoritzi i en coordinació amb ell."
           }
         },
         {

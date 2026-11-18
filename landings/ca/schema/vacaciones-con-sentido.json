@@ -102,8 +102,8 @@
         },
         {
           "@type": "MedicalTherapy",
-          "name": "Cures postoperatòries i drenatge limfàtic manual",
-          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/cures-postoperatories-drenatge-limfatic"
+          "name": "Drenatge limfàtic manual postoperatori",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/drenatge-limfatic-postoperatori"
         },
         {
           "@type": "MedicalTherapy",
@@ -131,7 +131,7 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "Academia",
+          "name": "Acadèmia",
           "item": "https://www.walambcn.com/ca/academia-vida-saludable-barcelona"
         },
         {
@@ -147,7 +147,7 @@
       "@id": "https://www.walambcn.com/ca/academia-vida-saludable-barcelona/vacances-amb-sentit#webpage",
       "url": "https://www.walambcn.com/ca/academia-vida-saludable-barcelona/vacances-amb-sentit",
       "name": "Vacances amb sentit a Bali · Recés de salut",
-      "description": "Vacances amb sentit a Bali: 6 dies guiats per professionals sanitaris per descansar, dormir millor i aprendre hàbits de salut. Dates i programa.",
+      "description": "Vacances amb sentit a Bali: 6 dies guiats per l'equip de WA LAM per descansar, dormir millor i aprendre hàbits de salut. Dates i programa.",
       "inLanguage": "ca-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -176,7 +176,7 @@
       "@type": "Course",
       "@id": "https://www.walambcn.com/ca/academia-vida-saludable-barcelona/vacances-amb-sentit#curso",
       "name": "Vacances amb sentit",
-      "description": "Vacances amb sentit a Bali: 6 dies guiats per professionals sanitaris per descansar, dormir millor i aprendre hàbits de salut. Dates i programa.",
+      "description": "Vacances amb sentit a Bali: 6 dies guiats per l'equip de WA LAM per descansar, dormir millor i aprendre hàbits de salut. Dates i programa.",
       "provider": {
         "@type": "Organization",
         "name": "WA LAM · Healthy Lifestyle Academy",

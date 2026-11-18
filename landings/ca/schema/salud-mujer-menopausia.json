@@ -102,8 +102,8 @@
         },
         {
           "@type": "MedicalTherapy",
-          "name": "Cures postoperatòries i drenatge limfàtic manual",
-          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/cures-postoperatories-drenatge-limfatic"
+          "name": "Drenatge limfàtic manual postoperatori",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/drenatge-limfatic-postoperatori"
         },
         {
           "@type": "MedicalTherapy",
@@ -176,7 +176,7 @@
       },
       "about": {
         "@type": "MedicalCondition",
-        "name": "Menopausia",
+        "name": "Menopausa",
         "possibleTreatment": [
           {
             "@type": "MedicalTherapy",

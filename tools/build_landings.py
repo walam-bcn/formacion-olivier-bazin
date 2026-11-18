@@ -441,10 +441,12 @@ def langlink(p):
 def hero(p):
     g = GROUPS.get(p["group"])
     crumbs = ""
-    if g:
+    if g and p["group"] != "home":
         crumbs = f'<div class="crumbs"><a href="{url("")}">{tr("Inicio")}</a> › <a href="{url(g["hub"])}">{g["nav"]}</a> › {html.escape(plain(p["nav"]))}</div>'
     b1 = p.get("cta1", (tr("Escríbenos por WhatsApp"), wa(p["wa"])))
     b2 = p.get("cta2", (tr("Reservar primera visita"), SITE["booking"]))
+    if not b2[1].startswith(("http", "#", "[[")):
+        b2 = (b2[0], url(b2[1]))
     facts = "".join(f"<li>{fmt(f)}</li>" for f in p["facts"])
     return f"""<section class="hero"><div class="wrap">
 <div>{crumbs}<span class="eyebrow">{fmt(p['eyebrow'])}</span><h1>{fmt(p['h1'])}</h1>
@@ -590,7 +592,7 @@ def local(p):
 <p>{tr("Atendemos a pacientes de todo el distrito de Sarrià–Sant Gervasi")} ({html.escape(barrios)}) {tr("y de toda Barcelona.")}</p>
 <ul><li>{tr("Dirección")}: {html.escape(SITE['street'])}, {SITE['postal']} Barcelona</li><li>{tr("Horario")}: {tr(SITE['hours'])}</li><li>{tr("Cómo llegar")}: <span class="pend">{tr("FGC / bus más cercanos")}</span></li><li>{tr("Teléfono y WhatsApp")}: +34 675 716 409</li></ul></div>
 <div class="card"><span class="k">{tr("Reserva")}</span><h3>{tr("Quién te atiende")}</h3>
-<p>{fmt(p.get("pro_who", ""))}. <a class="inl" href="{SITE['cv_url']}">{tr("Ver currículum")}</a></p>
+<p>{fmt(p.get("pro_who", "").rstrip("."))}. <a class="inl" href="{SITE['cv_url']}">{tr("Ver currículum")}</a></p>
 <p>{tr("Puedes reservar online o escribirnos por WhatsApp. Si no sabes qué servicio te conviene, cuéntanos tu caso y te orientamos antes de reservar.")}</p>
 <div class="btn-row"><a class="btn btn-tq" href="{wa(p['wa'])}" target="_blank" rel="noopener">WhatsApp</a><a class="btn btn-gh" href="{SITE['booking']}">{tr("Reservar online")}</a></div></div></div></div></section>"""
 
@@ -652,7 +654,7 @@ def _wixurl(slug, lang="es"):
 
 
 def guide():
-    from seo_plan import RESEARCH, AI_PROMPTS, OFFPAGE, MEASURE, GOAL, ASK, OBS_NOTE
+    from seo_plan import RESEARCH, AI_PROMPTS, OFFPAGE, MEASURE, GOAL, ASK, OBS_NOTE, VISIBILITY
     from seo_map import EXISTING, REDIRECTS, BOOKING, BLOG
     from urllib.parse import unquote
     inl = {x["slug"]: [] for x in PAGES}
@@ -709,6 +711,7 @@ def guide():
     r6 = "".join(f"<tr><td><b>{html.escape(a)}</b></td><td>{html.escape(b)}</td><td>{html.escape(c)}</td><td>{st(d)}</td></tr>" for a, b, c, d in MEASURE)
     r6b = "".join(f"<tr><td>{lab(x['slug'])}</td><td>{GOAL[x['group']]}</td><td>Impresiones, clics, CTR y posición de «{html.escape(SEO[x['slug']]['kw'])}»</td></tr>" for x in PAGES)
     ask = "".join(f"<li>{html.escape(a)}</li>" for a in ASK)
+    rv = "".join(f"<tr><td><span class='tag2'>{html.escape(a)}</span></td><td><b>{html.escape(b)}</b></td><td>{html.escape(c)}</td><td><span class='st st-pendiente'>{html.escape(d)}</span></td></tr>" for a, b, c, d in VISIBILITY)
     states = {"verificado": sum(1 for *_, c in OFFPAGE if c == "verificado") + sum(1 for *_, d in MEASURE if d == "verificado"),
               "preparado": len(PAGES), "pendiente": sum(1 for *_, c in OFFPAGE if c == "pendiente") + sum(1 for *_, d in MEASURE if d == "pendiente")}
     gp = {"slug": "guia-seo", "group": "home", "title": "Plan SEO WA LAM", "desc": "", "h1": "Plan SEO", "wa": "Hola, tengo una consulta sobre la web de WA LAM."}
@@ -716,7 +719,7 @@ def guide():
     body = f"""<section class="hero"><div class="wrap" style="grid-template-columns:1fr"><div><span class="eyebrow">Plan SEO y visibilidad en IA</span><h1>Plan SEO de WA LAM</h1>
 <p class="lead">{len(PAGES)} páginas en castellano y catalán. Investigación, mapa de URL, contenido propio, fichas para Wix, trabajo fuera de la web y medición. Ninguna acción garantiza el primer puesto; este plan reúne lo que más influye.</p>
 <div class="btn-row"><span class="st st-preparado">preparado: {len(PAGES)} páginas</span><span class="st st-verificado">verificado: {states['verificado']} comprobaciones</span><span class="st st-pendiente">pendiente: {states['pendiente']} tareas</span></div></div></div></section>
-<nav class="toc"><div class="wrap"><span class="k">Fases</span><div class="chips"><a href="#f1">1 · Investigación</a><a href="#f2">2 · Mapa de URL</a><a href="#f3">3 · Contenido propio</a><a href="#f4">4 · Fichas Wix</a><a href="#f5">5 · Fuera de la web e IA</a><a href="#f6">6 · Medición</a><a href="#pido">Lo que te pido</a></div></div></nav>
+<nav class="toc"><div class="wrap"><span class="k">Fases</span><div class="chips"><a href="#f1">1 · Investigación</a><a href="#f2">2 · Mapa de URL</a><a href="#f3">3 · Contenido propio</a><a href="#f4">4 · Fichas Wix</a><a href="#f5">5 · Fuera de la web e IA</a><a href="#f6">6 · Medición</a><a href="#visibilidad">Servicios ocultos</a><a href="#pido">Lo que te pido</a></div></div></nav>
 <section id="f1" style="background:#fff"><div class="wrap">{sec_head("Fase 1", "Investigación de búsquedas", OBS_NOTE + " Los volúmenes (VOL) no están disponibles sin Keyword Planner o Search Console.")}
 {T('<thead><tr><th>Página</th><th>Qué quiere encontrar</th><th>Términos en castellano</th><th>Términos en catalán</th><th>Resultados observados</th><th>Volumen</th></tr></thead><tbody>' + r1 + '</tbody>')}</div></section>
 <section id="f2" style="background:var(--piedra)"><div class="wrap">{sec_head("Fase 2", "Una URL principal por intención", "Se reutiliza la estructura que ya existe en Wix (Tratamientos y Academia). Acupuntura explica el servicio general; Pérdida de peso explica tu consulta con cambios alimentarios y acupuntura; Retiros reúne mindfulness, meditación y silencio en una sola página.")}
@@ -733,7 +736,9 @@ def guide():
 {T('<thead><tr><th>Qué</th><th>Cómo</th><th>Cuándo / qué hace falta</th><th>Estado</th></tr></thead><tbody>' + r6 + '</tbody>')}
 <h3 style="color:var(--pet);margin:30px 0 10px">Objetivo por página</h3>
 {T('<thead><tr><th>Página</th><th>Objetivo</th><th>Search Console</th></tr></thead><tbody>' + r6b + '</tbody>')}</div></section>
-<section id="pido" style="background:#fff"><div class="wrap">{sec_head("Para seguir", "Lo que te pido")}<div class="card" style="max-width:900px;margin:0 auto"><ol style="padding-left:20px">{ask}</ol></div></div></section>"""
+<section id="visibilidad" style="background:#fff"><div class="wrap">{sec_head("Servicios ocultos", "Lo que ya ofreces y casi no se ve", "Detectado en tu web (páginas de reserva, eventos y Academia). Las prestaciones nuevas son ideas observadas en otras consultas de longevidad de Barcelona; solo se publican si las confirmas.")}
+{T('<thead><tr><th>Tipo</th><th>Servicio</th><th>Propuesta</th><th>Estado</th></tr></thead><tbody>' + rv + '</tbody>')}</div></section>
+<section id="pido" style="background:var(--piedra)"><div class="wrap">{sec_head("Para seguir", "Lo que te pido")}<div class="card" style="max-width:900px;margin:0 auto"><ol style="padding-left:20px">{ask}</ol></div></div></section>"""
     css = """<style>.tbl{overflow-x:auto;background:#fff;border-radius:16px;border:1px solid rgba(29,63,64,.1)}.tbl table{border-collapse:collapse;width:100%;min-width:980px;font-size:.8rem}
 .tbl th{background:#1D3F40;color:#fff;text-align:left;padding:10px;position:sticky;top:0}.tbl td{padding:10px;border-bottom:1px solid rgba(29,63,64,.1);vertical-align:top}
 .tbl small,.kv small{opacity:.7}code{font-size:.74rem;color:#0a8f91;word-break:break-all}.tag2{display:inline-block;font-size:.62rem;font-weight:800;letter-spacing:.05em;background:rgba(12,191,194,.18);border-radius:6px;padding:2px 6px;margin:2px 0}

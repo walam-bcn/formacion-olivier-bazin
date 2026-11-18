@@ -42,6 +42,9 @@ R = {
     "lindson": _r("Lindson N, Theodoulou A, Ordóñez-Mena JM, et al., 2023. «Pharmacological and electronic cigarette interventions for smoking cessation in adults: component network meta-analyses». Cochrane Database of Systematic Reviews.", "10.1002/14651858.CD015226.pub2"),
     "qaseem_ins": _r("Qaseem A, Kansagara D, Forciea MA, Cooke M, Denberg TD, 2016. «Management of Chronic Insomnia Disorder in Adults: A Clinical Practice Guideline From the American College of Physicians». Annals of Internal Medicine.", "10.7326/M15-2175"),
     "riemann": _r("Riemann D, et al., 2023. «The European Insomnia Guideline: An update on the diagnosis and treatment of insomnia 2023». Journal of Sleep Research.", "10.1111/jsr.14035"),
+    "lancet_dem": _r("Livingston G, Huntley J, Liu KY, et al., 2024. «Dementia prevention, intervention, and care: 2024 report of the Lancet standing Commission». The Lancet.", "10.1016/S0140-6736(24)01296-0"),
+    "finger": _r("Ngandu T, et al., 2015. «A 2 year multidomain intervention of diet, exercise, cognitive training, and vascular risk monitoring versus control to prevent cognitive decline in at-risk elderly people (FINGER): a randomised controlled trial». The Lancet.", "10.1016/S0140-6736(15)60461-5"),
+    "horvath": _r("Horvath JC, Forte JD, Carter O, 2015. «Quantitative Review Finds No Evidence of Cognitive Effects in Healthy Populations From Single-session Transcranial Direct Current Stimulation (tDCS)». Brain Stimulation.", "10.1016/j.brs.2015.01.400"),
 }
 
 GROUPS = {
@@ -78,24 +81,25 @@ PAGES = []
 # ---------------------------------------------------------------- PORTADA
 PAGES.append({
     "slug": "medicina-integrativa-barcelona", "group": "home", "wave": 1,
-    "nav": "Medicina integrativa en Barcelona",
+    "nav": "Medicina integrativa, prevención y longevidad",
     "card": "Página principal: quiénes somos, motivos de consulta, servicios y Academia.",
     "title": "Medicina integrativa en Barcelona · Sarrià–Sant Gervasi | WA LAM",
     "desc": "WA LAM es un espacio de salud integrativa en Sarrià–Sant Gervasi (Barcelona): dolor persistente, estrés, salud digestiva, osteopatía, fisioterapia, PNIE y Healthy Lifestyle Academy.",
-    "eyebrow": "Salud integrativa · Barcelona",
-    "h1": "Medicina integrativa en Barcelona",
-    "sub": "Sarrià–Sant Gervasi · Medicina basada en la evidencia",
-    "lead": "En WA LAM acompañamos a personas con dolor que persiste, estrés sostenido, molestias digestivas y otras situaciones que no se explican mirando una sola parte del cuerpo. Valoramos cada caso de forma individual y coordinamos terapia manual, movimiento, PNIE, mindfulness y hábitos de vida con rigor clínico.",
+    "eyebrow": "Centro de salud integrativa · Sarrià–Sant Gervasi",
+    "h1": "Medicina integrativa, prevención y longevidad en Barcelona",
+    "sub": "Una primera visita, un plan por fases y un seguimiento real",
+    "lead": "En WA LAM, en Sarrià–Sant Gervasi, te ayudamos a cuidar tu salud a largo plazo y a resolver problemas que no se explican mirando una sola parte del cuerpo: dolor que persiste, estrés sostenido, mal descanso o molestias digestivas. Cada recorrido empieza con una primera visita, sigue con un plan por fases y se acompaña con un seguimiento.",
     "facts_title": "Por dónde empezar",
-    "facts": ["**Dolor persistente** y crónico", "**Estrés** y gestión de la ansiedad", "**Salud digestiva** y microbiota",
-              "Osteopatía, fisioterapia, acupuntura y PNIE", "**Healthy Lifestyle Academy**: MBSR, yoga, qigong y retiros"],
-    "cta2": ("Ver en qué podemos ayudarte", "#motivos"),
+    "facts": ["**[Longevidad y prevención](prevencion-longevidad)**: tu recorrido de salud a largo plazo", "**[Neurolongevidad y salud cognitiva](neurolongevidad-salud-cognitiva)**",
+              "**[Dolor persistente](dolor-persistente-cronico)**, **[estrés](estres-ansiedad)** y **[sueño](sueno-insomnio)**",
+              "Osteopatía, acupuntura, PNIE y fisioterapia", "**Healthy Lifestyle Academy**: MBSR, yoga, qigong y retiros"],
+    "cta2": ("Longevidad y prevención", "prevencion-longevidad"),
     "wa": "Hola, me gustaría información sobre WA LAM y cómo podéis ayudarme.",
     "blocks": [
         {"type": "explain", "eyebrow": "Nuestro enfoque", "h2": "Una mirada clínica que no separa el cuerpo del sistema nervioso",
          "paras": [
              "Muchas personas llegan a WA LAM después de haber probado varias cosas por separado. El dolor de espalda se trató como un problema mecánico, la digestión como un problema digestivo y el cansancio como una cuestión de voluntad. Sin embargo, el sueño, el estrés, la inflamación, la respiración, el movimiento y la historia de cada persona se influyen entre sí.",
-             "La medicina integrativa no sustituye a la medicina convencional: la complementa. En WA LAM trabajamos con **profesionales sanitarios titulados** y nos coordinamos con tu médico cuando el caso lo requiere. Nuestro objetivo no es prometer resultados, sino comprender qué está manteniendo el problema y diseñar contigo un plan realista.",
+             "La medicina integrativa no sustituye a la medicina convencional: la complementa. En WA LAM los tratamientos los realiza Rosa, osteópata D.O. y máster en medicina integrativa, junto a una fisioterapeuta colegiada, y nos coordinamos con tu médico cuando el caso lo requiere. Nuestro objetivo no es prometer resultados, sino comprender qué está manteniendo el problema y diseñar contigo un plan realista.",
          ],
          "quote": "Cada proceso necesita una mirada individualizada. El objetivo no es exigirte más, sino ayudarte a recuperar equilibrio."},
         {"type": "evidence", "eyebrow": "Criterio clínico", "h2": "Por qué trabajamos así: la evidencia que nos guía",
@@ -106,11 +110,18 @@ PAGES.append({
                    ("Metaanálisis (BJSM)", "El ejercicio de fuerza se asocia a un 10–17 % menos de mortalidad y enfermedad crónica."),
                    ("Honestidad", "Cuando una técnica tiene poca evidencia, como la osteopatía craneal o la reflexología, lo decimos y la ofrecemos solo como complemento.")],
          "refs": [R["qaseem"], R["hoge"], R["segerstrom"], R["momma"], R["guillaud_c"]]},
+        {"type": "cards", "eyebrow": "Destacado", "h2": "Longevidad, prevención y salud cognitiva",
+         "intro": "Nuestra propuesta central: cuidar hoy los hábitos que más influyen en cómo vivirás dentro de diez, veinte o treinta años.",
+         "items": [{"k": "Recorrido", "h": "[Longevidad y prevención](prevencion-longevidad)", "p": "Primera visita, valoración, plan por fases y seguimiento, con los pilares que más pesan: fuerza, sueño, estrés, digestión y metabolismo."},
+                   {"k": "Cerebro", "h": "[Neurolongevidad y salud cognitiva](neurolongevidad-salud-cognitiva)", "p": "Hábitos que protegen la memoria y la atención, y regulación del estrés y del sueño."},
+                   {"k": "Programa", "h": "[Curso MBSR de 8 semanas](curso-mindfulness-mbsr-barcelona)", "p": "El programa de mindfulness con más respaldo científico para el estrés."}]},
         {"type": "hubcards", "groups": ["motivo", "servicio", "academia"]},
-        {"type": "steps", "eyebrow": "Cómo trabajamos", "h2": "Tu primera visita en WA LAM",
-         "items": [("Escuchamos tu historia", "Revisamos síntomas, pruebas previas, tratamientos realizados, sueño, estrés, digestión y lo que esperas de la consulta."),
-                   ("Valoramos y explicamos", "Hacemos una valoración adaptada a tu caso y te explicamos con claridad qué creemos que está ocurriendo y qué no sabemos todavía."),
-                   ("Diseñamos un plan contigo", "Te proponemos el profesional o la combinación de enfoques más adecuada, con objetivos y revisiones. Si algo no nos corresponde, te derivamos.")]},
+        {"type": "steps", "eyebrow": "Cómo trabajamos", "h2": "Tu recorrido en WA LAM",
+         "items": [("Antes de la visita", "Rellenas el formulario de primera cita y nos envías tus analíticas y pruebas recientes."),
+                   ("Primera visita", "Revisamos tu historia, tus pruebas, tus hábitos (sueño, alimentación, digestión, actividad, estrés) y lo que quieres conseguir. [[Confirmar duración.]]"),
+                   ("Valoración y plan", "Te explicamos lo que observamos y proponemos un plan en dos o tres fases, con recomendaciones por escrito. Si algo no nos corresponde, te derivamos."),
+                   ("Seguimiento", "Revisamos la evolución, resolvemos dudas entre sesiones y, al terminar, te damos pautas de mantenimiento.")],
+         "note": "Si buscas cuidar tu salud a largo plazo, empieza por la consulta de [longevidad y prevención](prevencion-longevidad)."},
     ],
     "faq": [
         ("¿Qué es la medicina integrativa?", "Es un enfoque que combina la medicina convencional con terapias y hábitos de vida que cuentan con respaldo científico, poniendo a la persona en el centro. En WA LAM no sustituimos a tu médico: complementamos su seguimiento."),
@@ -382,53 +393,120 @@ PAGES.append({
 })
 
 PAGES.append({
-    "slug": "prevencion-longevidad", "group": "motivo", "wave": 3,
-    "nav": "Prevención y longevidad",
-    "card": "Una valoración para cuidar fuerza, sueño, metabolismo y estrés antes de que aparezcan los problemas.",
-    "title": "Prevención y longevidad saludable en Barcelona | WA LAM",
-    "desc": "Valoración de prevención y longevidad saludable en Sarrià–Sant Gervasi: fuerza, movilidad, sueño, metabolismo, estrés y hábitos sostenibles. Sin promesas antiaging.",
-    "about": "Envejecimiento saludable",
-    "eyebrow": "Motivo de consulta",
-    "h1": "Prevención y longevidad saludable",
-    "sub": "Más años con calidad de vida · Barcelona",
-    "lead": "La longevidad saludable no consiste en frenar el reloj, sino en conservar fuerza, movilidad, buen descanso, salud metabólica, vínculos y propósito durante el mayor tiempo posible. Te proponemos una valoración inicial con un recorrido claro para cuidar lo que más pesa en tu salud futura.",
-    "facts": ["**Primera valoración** con recorrido definido", "Fuerza, movilidad y equilibrio", "Sueño y gestión del estrés",
-              "Alimentación y salud metabólica", "Plan de seguimiento anual"],
-    "wa": "Hola, me interesa la valoración de prevención y longevidad.",
+    "slug": "prevencion-longevidad", "group": "motivo", "wave": 1,
+    "nav": "Longevidad y prevención en Barcelona",
+    "card": "Un recorrido claro para cuidar tu salud a largo plazo: primera visita, valoración, plan por fases y seguimiento.",
+    "title": "Longevidad y prevención en Barcelona · Sarrià–Sant Gervasi | WA LAM",
+    "desc": "Longevidad y prevención en Sarrià–Sant Gervasi, Barcelona: primera visita, valoración de hábitos y pruebas, plan por fases y seguimiento.",
+    "about": "Envejecimiento saludable y prevención",
+    "eyebrow": "Longevidad y prevención",
+    "h1": "Longevidad y prevención en Barcelona",
+    "sub": "Medicina integrativa para vivir más años con salud · Sarrià–Sant Gervasi",
+    "lead": "La longevidad saludable no consiste en frenar el reloj, sino en conservar fuerza, movilidad, buen descanso, salud metabólica y digestiva, claridad mental y vínculos durante el mayor tiempo posible. En WA LAM te proponemos un **recorrido claro**: una primera visita, una valoración de tus hábitos y pruebas, un plan por fases y un seguimiento para que los cambios se mantengan.",
+    "facts_title": "Tu recorrido",
+    "facts": ["**1.** Antes de la visita: formulario y analíticas", "**2.** Primera visita: [[duración por confirmar; en «Sobre mí» figura «unos 60 minutos»]]",
+              "**3.** Valoración y plan por fases", "**4.** Seguimiento y pautas de mantenimiento", "Atiende: Rosa [[apellidos]], osteópata D.O. y máster en medicina integrativa"],
+    "cta2": ("Ver el recorrido", "#tu-recorrido-en-wa-lam"),
+    "wa": "Hola, me interesa la consulta de longevidad y prevención. ¿Cómo es la primera visita?",
     "blocks": [
         {"type": "mirror", "eyebrow": "¿Te reconoces?", "h2": "Cuando quieres cuidarte antes de que algo falle",
-         "qs": ["¿Te encuentras bien, pero notas que pierdes fuerza o energía con los años?",
+         "qs": ["¿Te encuentras bien, pero notas que pierdes fuerza, energía o capacidad de recuperación con los años?",
                 "¿Quieres saber qué hábitos te conviene priorizar y en qué orden?",
-                "¿Te abruma la cantidad de información sobre longevidad y no sabes qué es fiable?",
-                "¿Tienes antecedentes familiares y quieres anticiparte?"]},
+                "¿Te abruma la información sobre longevidad y no sabes qué es fiable?",
+                "¿Tienes antecedentes familiares y quieres anticiparte?",
+                "¿Te preocupa mantener la memoria y la claridad mental en el futuro?",
+                "¿Duermes peor, digieres peor o te notas más tensa que hace unos años?"]},
         {"type": "explain", "eyebrow": "Qué es (y qué no es) longevidad", "h2": "Salud duradera, no antiaging milagroso",
          "paras": [
-             "Los factores con más respaldo científico para envejecer con salud son conocidos: **actividad física y fuerza**, sueño suficiente y regular, alimentación de calidad, no fumar, moderar el alcohol, gestionar el estrés y mantener relaciones sociales. No son glamurosos, pero funcionan cuando se sostienen.",
-             "Nuestra valoración te ayuda a ver dónde estás en cada uno de esos pilares, a priorizar y a construir un plan que encaje en tu vida. No vendemos suplementos milagro ni pruebas innecesarias.",
+             "Los factores con más respaldo científico para envejecer con salud son conocidos: **actividad física y fuerza**, sueño suficiente y regular, alimentación de calidad, salud digestiva, gestión del estrés, no fumar, moderar el alcohol y mantener relaciones sociales. No son glamurosos, pero funcionan cuando se sostienen en el tiempo.",
+             "La prevención también protege el cerebro: según la Comisión de The Lancet de 2024, cerca de la mitad de los casos de demencia se asocian a 14 factores de riesgo modificables. Por eso la [neurolongevidad y salud cognitiva](neurolongevidad-salud-cognitiva) forma parte de este recorrido.",
+             "En WA LAM no vendemos tratamientos «antiaging», sueros ni suplementos sin indicación. Te ayudamos a ver dónde estás en cada pilar, a priorizar y a construir un plan que encaje en tu vida.",
          ]},
-        {"type": "steps", "eyebrow": "El recorrido", "h2": "Cómo funciona la valoración",
-         "items": [("Valoración inicial", "Historia clínica, hábitos, sueño, estrés y pruebas recientes. [[Indicar si incluye mediciones: fuerza de prensión, composición corporal, etc.]]"),
-                   ("Informe y prioridades", "Te entregamos un resumen con lo que está bien, lo que conviene mejorar y en qué orden."),
-                   ("Plan y seguimiento", "Derivación a los servicios o clases que necesites y revisión periódica. [[Indicar periodicidad]].")]},
-        ficha("Ficha del servicio", "Valoración de prevención y longevidad", "Primera visita con un recorrido claro. Ideal como punto de partida para un plan de salud a largo plazo.",
-              [("Profesional", "[[Nombre y titulación]]"), ("Duración", "[[min]]"), ("Incluye", "[[Valoración + informe]]"), ("Precio", "[[€]]")]),
+        {"type": "steps", "eyebrow": "Tu recorrido en WA LAM", "h2": "Tu recorrido en WA LAM",
+         "intro": "Así es el proceso, adaptado a lo que hacemos en WA LAM. [[Confirmar duración, contenido exacto de la visita y periodicidad del seguimiento.]]",
+         "items": [("Antes de la visita", "Rellenas el [formulario de primera cita](https://www.walambcn.com/primera-cita) con tu historia médica, medicación, sueño, alimentación, digestión, actividad física y nivel de estrés, y nos envías tus analíticas y pruebas recientes."),
+                   ("Primera visita", "Una consulta de [[duración: en «Sobre mí» figura unos 60 minutos]] en la que revisamos tu historia, tus pruebas y tus hábitos, y escuchamos qué quieres conseguir. [[Confirmar si se incluyen mediciones (composición corporal, fuerza de prensión, tensión arterial…).]]"),
+                   ("Valoración y plan", "Si es necesario, proponemos pruebas más específicas [[confirmar cuáles: por ejemplo, estudio de microbiota]]. Organizamos el plan en dos o tres fases, y al terminar cada consulta recibes por escrito las recomendaciones de la fase que empezamos."),
+                   ("Seguimiento", "Revisamos la evolución [[periodicidad por confirmar]], puedes escribirnos por correo con tus dudas entre sesiones y, al terminar, recibes unas pautas de mantenimiento para consolidar lo conseguido.")],
+         "note": "La consulta no sustituye a tu médico de cabecera ni a las revisiones que te correspondan. Si detectamos algo que requiere valoración médica, te lo diremos."},
+        {"type": "cards", "eyebrow": "Los pilares del plan", "h2": "Qué trabajamos según tu recorrido",
+         "intro": "Cada plan es individual. Estas son las áreas que solemos revisar y la página donde puedes saber más de cada una.",
+         "items": [{"k": "Sistema nervioso", "h": "Estrés y descanso", "p": "Regulación del estrés y del sueño: [estrés y ansiedad](estres-ansiedad), [sueño e insomnio](sueno-insomnio) y el [curso MBSR](curso-mindfulness-mbsr-barcelona)."},
+                   {"k": "Intestino e inflamación", "h": "Salud digestiva y PNI", "p": "Digestión, microbiota e inflamación de bajo grado: [salud digestiva y microbiota](salud-digestiva-microbiota) y [PNI/PNIE](pni-pnie-barcelona)."},
+                   {"k": "Cerebro", "h": "Neurolongevidad", "p": "Hábitos que protegen la memoria y la atención: [neurolongevidad y salud cognitiva](neurolongevidad-salud-cognitiva)."},
+                   {"k": "Movimiento", "h": "Fuerza, movilidad y equilibrio", "p": "Ejercicio adaptado y prácticas suaves: [yoga](yoga-particular-grupos-reducidos), [qigong](qigong-barcelona) y, si hay dolor, [dolor persistente](dolor-persistente-cronico)."},
+                   {"k": "Etapa vital", "h": "Salud de la mujer", "p": "Perimenopausia y menopausia: [salud de la mujer y menopausia](salud-mujer-menopausia)."},
+                   {"k": "Peso y metabolismo", "h": "Pérdida de peso", "p": "Si el peso forma parte de tu objetivo, en la consulta de [pérdida de peso](perdida-de-peso-sarria-sant-gervasi) trabajo con cambios alimentarios y acupuntura."}]},
+        ficha("Ficha del servicio", "Consulta de longevidad y prevención", "Primera visita con un recorrido definido. Es el punto de partida para un plan de salud a largo plazo.",
+              [("Duración primera visita", "[[confirmar]]"), ("Incluye", "[[confirmar: valoración, revisión de pruebas, informe…]]"), ("Seguimiento", "[[confirmar periodicidad]]"), ("Precio", "[[€]]"), ("Modalidad", "Presencial en Sarrià–Sant Gervasi [[y online, si se ofrece]]")]),
         {"type": "evidence", "h2": "Longevidad basada en datos, no en modas",
          "items": [("Metaanálisis (BMJ)", "En 36.383 adultos con actividad medida por acelerómetro, **cualquier nivel de actividad física**, incluso de intensidad ligera, se asoció a menor mortalidad. El mayor tiempo sentado se asoció a un riesgo claramente más alto."),
                    ("Metaanálisis (BJSM)", "El ejercicio de fuerza se asocia a un 10–17 % menos de mortalidad y enfermedad crónica. Combinado con ejercicio aeróbico, la reducción de la mortalidad por todas las causas llega aproximadamente al 40 %."),
                    ("Metaanálisis (Biol Psychiatry)", "Las alteraciones del sueño se asocian a niveles más altos de marcadores inflamatorios como la PCR y la IL-6 (72 estudios, más de 50.000 personas)."),
+                   ("Comisión The Lancet (2024)", "Cerca de la mitad de los casos de demencia se asocian a 14 factores de riesgo modificables a lo largo de la vida, como la inactividad física, la hipertensión, el colesterol LDL elevado, la pérdida de audición o de visión y el aislamiento social."),
                    ("Lo que no hacemos", "No ofrecemos tratamientos «antiaging», sueros ni suplementos sin indicación. Priorizamos lo que ha demostrado impacto: moverse, ganar fuerza, dormir y gestionar el estrés.")],
-         "refs": [R["ekelund"], R["momma"], R["irwin"]]},
+         "refs": [R["ekelund"], R["momma"], R["irwin"], R["lancet_dem"]]},
     ],
     "faq": [
-        ("¿Necesito tener algún problema de salud para venir?", "No. Esta valoración está pensada precisamente para personas que quieren anticiparse."),
-        ("¿Pedís analíticas?", "[[Indicar si se solicitan analíticas o se revisan las aportadas]]."),
+        ("¿Necesito tener algún problema de salud para venir?", "No. La consulta está pensada precisamente para personas que quieren anticiparse."),
+        ("¿Qué tengo que traer a la primera visita?", "Tus analíticas y pruebas médicas recientes. Antes de la visita te pediremos que rellenes el formulario de primera cita."),
+        ("¿Pedís pruebas adicionales?", "Solo cuando pueden cambiar el plan. [[Confirmar qué pruebas se solicitan y en qué casos.]]"),
         ("¿Recomendáis suplementos?", "Solo cuando hay una indicación clara y evidencia que lo respalde. No forman parte del plan por defecto."),
+        ("¿Cuánto dura el seguimiento?", "[[Pendiente de confirmar.]] El plan suele organizarse en dos o tres fases."),
     ],
-    "related": ["fisioterapia-sarria-sant-gervasi", "pni-pnie-barcelona", "qigong-barcelona", "vacaciones-con-sentido"],
-    "cta": {"h2": "Empieza a cuidar tu salud futura", "p": "Reserva tu valoración o escríbenos si quieres saber más."},
+    "related": ["neurolongevidad-salud-cognitiva", "estres-ansiedad", "sueno-insomnio", "salud-digestiva-microbiota"],
+    "cta": {"h2": "Empieza tu recorrido de longevidad", "p": "Escríbenos por WhatsApp o reserva tu primera visita en Sarrià–Sant Gervasi."},
 })
 
-# ---------------------------------------------------------------- SERVICIOS
+PAGES.append({
+    "slug": "neurolongevidad-salud-cognitiva", "group": "motivo", "wave": 2,
+    "nav": "Neurolongevidad y salud cognitiva",
+    "card": "Cuidar la memoria, la atención y la regulación del sistema nervioso a lo largo de los años.",
+    "title": "Neurolongevidad y salud cognitiva en Barcelona | WA LAM",
+    "desc": "Neurolongevidad y salud cognitiva en Sarrià–Sant Gervasi, Barcelona: hábitos que protegen el cerebro, regulación del estrés y servicios de neurorregulación.",
+    "about": "Salud cognitiva",
+    "eyebrow": "Motivo de consulta",
+    "h1": "Neurolongevidad y salud cognitiva",
+    "sub": "Cuidar el cerebro a lo largo de la vida · Sarrià–Sant Gervasi",
+    "lead": "La salud cognitiva no depende solo de la edad. El sueño, el estrés sostenido, la actividad física, la salud cardiovascular y metabólica, la audición, los vínculos y la estimulación mental influyen en cómo envejece el cerebro. Esta consulta forma parte de nuestro recorrido de [longevidad y prevención](prevencion-longevidad).",
+    "facts": ["Valoración de hábitos que protegen el cerebro", "Regulación del estrés y del sueño", "[[Confirmar: neurorregulación (60 min) y estimulación eléctrica transcraneal]]",
+              "Curso MBSR de 8 semanas", "Atiende: Rosa [[apellidos]]"],
+    "wa": "Hola, me interesa la consulta de salud cognitiva y neurolongevidad.",
+    "blocks": [
+        {"type": "mirror", "eyebrow": "¿Te reconoces?", "h2": "Cuando notas que tu mente no responde como antes",
+         "qs": ["¿Te cuesta más concentrarte o recordar cosas en épocas de estrés o de mal descanso?",
+                "¿Tienes antecedentes familiares de demencia y quieres saber qué puedes hacer?",
+                "¿Notas «niebla mental» junto a cansancio, digestiones pesadas o mal sueño?",
+                "¿Quieres cuidar tu memoria y tu atención con hábitos que tengan respaldo científico?"],
+         "close": "Si los olvidos son frecuentes, progresivos o interfieren en tu vida diaria, consulta primero con tu médico."},
+        {"type": "explain", "eyebrow": "Qué sabemos", "h2": "El cerebro también se puede cuidar",
+         "paras": [
+             "La Comisión de The Lancet de 2024 estima que cerca de la mitad de los casos de demencia se asocian a **14 factores de riesgo modificables** a lo largo de la vida: menor nivel educativo, pérdida de audición, colesterol LDL elevado, depresión, traumatismos craneales, inactividad física, diabetes, tabaquismo, hipertensión, obesidad, consumo excesivo de alcohol, aislamiento social, contaminación del aire y pérdida de visión.",
+             "En el ensayo FINGER, una intervención de dos años que combinaba alimentación, ejercicio, entrenamiento cognitivo y control del riesgo vascular mejoró ligeramente el rendimiento cognitivo en personas mayores con riesgo. Es una mejora modesta, pero confirma que los hábitos importan.",
+             "En la consulta revisamos esos factores contigo y diseñamos un plan dentro de tu recorrido de longevidad, con apoyo para el [estrés](estres-ansiedad) y el [sueño](sueno-insomnio).",
+         ]},
+        {"type": "cards", "eyebrow": "Qué ofrecemos", "h2": "Servicios de salud cognitiva en WA LAM",
+         "intro": "[[Confirmar qué servicios concretos podemos describir en esta página y cómo se presentan.]]",
+         "items": [{"k": "Consulta", "h": "Valoración de hábitos", "p": "Sueño, estrés, actividad física, alimentación, salud cardiovascular y vínculos, dentro del recorrido de longevidad."},
+                   {"k": "[[Confirmar]]", "h": "Neurorregulación", "p": "[[Confirmar el método o aparato que se utiliza y cómo se describe. En la web figura como sesión de 60 minutos.]]"},
+                   {"k": "[[Confirmar]]", "h": "Estimulación eléctrica transcraneal", "p": "[[Confirmar si se mantiene, quién la aplica y con qué indicación.]]"},
+                   {"k": "Programa", "h": "MBSR · 8 semanas", "p": "Entrenamiento de la atención y de la regulación del estrés: el [curso MBSR](curso-mindfulness-mbsr-barcelona)."}]},
+        {"type": "evidence", "h2": "Lo que ofrecemos y lo que se sabe",
+         "items": [("Comisión The Lancet (2024)", "Cerca de la mitad de los casos de demencia se asocian a 14 factores de riesgo modificables. Actuar sobre ellos es la estrategia preventiva con más respaldo."),
+                   ("Ensayo clínico (The Lancet)", "En el ensayo FINGER, una intervención multidominio de dos años mejoró ligeramente la función cognitiva en personas de 60 a 77 años con riesgo, frente a consejos de salud generales."),
+                   ("Revisión cuantitativa (Brain Stimulation)", "En adultos sanos, una sesión de estimulación transcraneal por corriente continua (tDCS) no mostró efectos fiables sobre la cognición en 59 análisis. Por eso no la presentamos como un método para «mejorar el cerebro»."),
+                   ("Nuestro criterio", "Las técnicas de estimulación las describimos con prudencia y solo como complemento de los hábitos que sí han demostrado proteger la salud cognitiva.")],
+         "refs": [R["lancet_dem"], R["finger"], R["horvath"]]},
+    ],
+    "faq": [
+        ("¿Hacéis diagnóstico de deterioro cognitivo?", "No. Si los olvidos son frecuentes o progresivos, el diagnóstico corresponde a tu médico o a un neurólogo. Podemos acompañarte en los hábitos y en la regulación del estrés y del sueño."),
+        ("¿Qué es la neurorregulación?", "[[Pendiente de confirmar la descripción del servicio.]]"),
+        ("¿A partir de qué edad tiene sentido cuidarse?", "Los factores de riesgo actúan a lo largo de toda la vida, y la mediana edad es una etapa clave para la prevención."),
+    ],
+    "related": ["prevencion-longevidad", "sueno-insomnio", "estres-ansiedad", "curso-mindfulness-mbsr-barcelona"],
+    "cta": {"h2": "Cuida tu salud cognitiva con un plan claro", "p": "Escríbenos y te explicamos cómo es la consulta."},
+})
+
 PAGES.append({
     "slug": "osteopatia-sarria-sant-gervasi", "group": "servicio", "wave": 1,
     "nav": "Osteopatía en Sarrià–Sant Gervasi",
@@ -523,7 +601,7 @@ PAGES.append({
         ("¿Trabajáis suelo pélvico?", "[[Confirmar si se ofrece fisioterapia de suelo pélvico]]."),
         ("¿Tras una operación, cuándo puedo empezar?", "Depende de la cirugía y de las indicaciones de tu cirujano. Escríbenos con el informe y te orientamos."),
     ],
-    "related": ["osteopatia-sarria-sant-gervasi", "dolor-persistente-cronico", "cuidados-postoperatorios-drenaje-linfatico", "prevencion-longevidad"],
+    "related": ["osteopatia-sarria-sant-gervasi", "dolor-persistente-cronico", "drenaje-linfatico-postoperatorio", "prevencion-longevidad"],
     "cta": {"h2": "Reserva tu sesión de fisioterapia", "p": "Recupera movimiento y confianza con un plan claro y adaptado a ti."},
 })
 
@@ -790,19 +868,19 @@ PAGES.append({
 })
 
 PAGES.append({
-    "slug": "cuidados-postoperatorios-drenaje-linfatico", "group": "servicio", "wave": 1,
-    "nav": "Cuidados postoperatorios y drenaje linfático manual",
-    "card": "Recuperación después de una cirugía: drenaje linfático manual y otros cuidados postoperatorios, cuándo empezar y quién te trata.",
-    "title": "Cuidados postoperatorios y drenaje linfático en Barcelona | WA LAM",
-    "desc": "Cuidados postoperatorios y drenaje linfático manual en Sarrià–Sant Gervasi (Barcelona): cirugías que atendemos, cuándo empezar y cómo reservar.",
-    "about": "Cuidados postoperatorios y drenaje linfático manual",
+    "slug": "drenaje-linfatico-postoperatorio", "group": "servicio", "wave": 1,
+    "nav": "Drenaje linfático manual postoperatorio",
+    "card": "Drenaje linfático manual después de una cirugía: cuándo empezar, qué cirugías atendemos y cómo reservar.",
+    "title": "Drenaje linfático postoperatorio en Barcelona | WA LAM",
+    "desc": "Drenaje linfático manual postoperatorio en Sarrià–Sant Gervasi (Barcelona): cirugías que atendemos, cuándo empezar y cómo reservar.",
+    "about": "Drenaje linfático manual postoperatorio",
     "eyebrow": "Servicio · Postoperatorio",
-    "h1": "Cuidados postoperatorios y drenaje linfático manual",
+    "h1": "Drenaje linfático manual postoperatorio",
     "sub": "Recuperación tras cirugía · Sarrià–Sant Gervasi",
-    "lead": "Después de una cirugía es habitual que aparezcan inflamación, edema y sensación de tirantez. En WA LAM te acompañamos en esa fase con **drenaje linfático manual** y otros **cuidados postoperatorios** adaptados a tu cirugía, siempre siguiendo las indicaciones de tu cirujano.",
-    "facts": ["Profesional: [[nombre, titulación]]", "Sesión de [[duración]] · [[precio]]", "Coordinado con las pautas de tu cirujano",
-              "Cuidado de cicatrices", "Te ayudamos a decidir cuándo empezar"],
-    "wa": "Hola, me han operado (o me van a operar) y me gustaría información sobre los cuidados postoperatorios y el drenaje linfático.",
+    "lead": "Después de una cirugía es habitual que aparezcan inflamación, edema y sensación de tirantez. En WA LAM te acompañamos en esa fase con **drenaje linfático manual** adaptado a tu cirugía, siempre siguiendo las indicaciones de tu cirujano.",
+    "facts": ["Cirugía plástica y estética: liposucción, párpados, cara, lifting…", "Cirugía traumatológica: rodilla, cadera…", "Coordinado con las pautas de tu cirujano",
+              "También en el embarazo y en el apoyo oncológico", "Profesional: [[nombre, titulación]] · Sesión de [[duración]] · [[precio]]"],
+    "wa": "Hola, me han operado (o me van a operar) y me gustaría información sobre el drenaje linfático postoperatorio.",
     "blocks": [
         {"type": "mirror", "eyebrow": "¿Te reconoces?", "h2": "Cuando acabas de operarte",
          "qs": ["¿Te han operado hace poco y notas mucha inflamación o hinchazón?",
@@ -810,13 +888,17 @@ PAGES.append({
                 "¿Sientes tirantez, endurecimiento o zonas con poca sensibilidad?",
                 "¿Te preocupa la evolución de la cicatriz?"]},
         {"type": "cards", "eyebrow": "Qué atendemos", "h2": "Tipos de postoperatorio",
-         "intro": "[[Revisar y ajustar la lista a las cirugías que realmente atendéis]].",
-         "items": [{"k": "Cirugía estética", "h": "Liposucción, abdominoplastia y otras", "p": "Para reducir edema y mejorar el confort en las semanas posteriores."},
-                   {"k": "Cirugía mamaria", "h": "Aumento, reducción o reconstrucción", "p": "Drenaje adaptado y cuidado de la zona según indicación médica."},
-                   {"k": "Cirugía traumatológica", "h": "Rodilla, tobillo, hombro…", "p": "Como complemento a la fisioterapia para controlar la inflamación."}]},
-        {"type": "cards", "eyebrow": "Qué incluye", "h2": "Cuidados postoperatorios que ofrecemos",
-         "intro": "[[Confirmar la lista de cuidados además del drenaje (por ejemplo, cuidado de la cicatriz, movilización, pautas de ejercicio, vendaje) antes de publicar.]]",
-         "items": [{"k": "Edema", "h": "Drenaje linfático manual", "p": "Técnica suave y lenta para mejorar el confort y el edema en las semanas posteriores a la cirugía."},
+         "intro": "Atendemos la recuperación de cualquier cirugía que deje edema, tanto estética como traumatológica.",
+         "items": [{"k": "Cirugía plástica y estética", "h": "Liposucción y cirugía corporal", "p": "Sobre todo tras una liposucción, cuando el edema es más intenso en las primeras semanas."},
+                   {"k": "Cirugía facial", "h": "Párpados, cara y lifting", "p": "Tras una blefaroplastia, un lifting u otras intervenciones faciales, con técnicas muy suaves adaptadas a la zona."},
+                   {"k": "Cirugía traumatológica", "h": "Rodilla, cadera y otras", "p": "Para controlar la inflamación tras una intervención de rodilla, cadera u otra articulación, como complemento a la rehabilitación."}]},
+        {"type": "cards", "eyebrow": "Otros casos", "h2": "Drenaje en el embarazo y en el apoyo oncológico",
+         "intro": "Además del postoperatorio, ofrecemos drenaje linfático manual en estas situaciones, siempre coordinado con tu equipo médico.",
+         "items": [{"k": "Embarazo y posparto", "h": "Retención de líquidos antes y después del parto", "p": "Para la pesadez y la retención de líquidos del embarazo y del posparto, con el visto bueno de tu matrona o ginecóloga. Si hay hipertensión, preeclampsia, sospecha de trombosis o un embarazo de riesgo, no se realiza sin autorización médica."},
+                   {"k": "Apoyo oncológico", "h": "Personas con cáncer o tras su tratamiento", "p": "Drenaje linfático manual como apoyo en el linfedema y la retención de líquidos, siempre con la autorización y en coordinación con tu equipo de oncología. [[Confirmar formación específica en linfedema.]]"}]},
+        {"type": "cards", "eyebrow": "Qué incluye", "h2": "Drenaje y otros cuidados postoperatorios",
+         "intro": "El drenaje linfático manual es el servicio principal. [[Confirmar qué otros cuidados postoperatorios ofrecemos (por ejemplo, cuidado de la cicatriz o recuperación de la movilidad); si no se ofrecen, retirar esas tarjetas.]]",
+         "items": [{"k": "Servicio principal", "h": "Drenaje linfático manual", "p": "Técnica suave y lenta para mejorar el confort y el edema en las semanas posteriores a la cirugía."},
                    {"k": "Cicatriz", "h": "[[Cuidado de la cicatriz]]", "p": "[[Describir qué se hace y a partir de cuándo.]]"},
                    {"k": "Movilidad", "h": "[[Recuperación de la movilidad]]", "p": "[[Describir qué se hace y a partir de cuándo.]]"}]},
         {"type": "steps", "eyebrow": "Antes de empezar", "h2": "¿Es el momento adecuado?",
@@ -825,8 +907,8 @@ PAGES.append({
                    ("Plan de sesiones", "Proponemos frecuencia y número aproximado de sesiones según tu evolución.")],
          "note": "Si tienes fiebre, dolor intenso, enrojecimiento o calor en la zona, o hinchazón repentina en una pierna, contacta con tu cirujano o con urgencias antes de cualquier drenaje."},
         {"type": "evidence", "h2": "Lo que ofrecemos y lo que se sabe",
-         "items": [("Lo que ofrecemos", "Drenaje linfático manual y cuidados postoperatorios adaptados a tu cirugía y a las pautas de tu cirujano."),
-                   ("Lo que se sabe", "Tras la cirugía estética, el drenaje linfático manual es una práctica habitual y bien tolerada, pero los estudios disponibles son pequeños y de calidad limitada. La evidencia más sólida sobre el drenaje procede del linfedema asociado al cáncer, donde se usa junto a la compresión."),
+         "items": [("Lo que ofrecemos", "Drenaje linfático manual adaptado a tu cirugía y a las pautas de tu cirujano."),
+                   ("Lo que se sabe", "Tras la cirugía estética, el drenaje linfático manual es una práctica habitual y bien tolerada, pero los estudios disponibles son pequeños y de calidad limitada. La evidencia más sólida procede del linfedema asociado al cáncer, donde se usa junto a la compresión y dentro de un tratamiento supervisado por el equipo oncológico."),
                    ("Nuestro criterio", "Por eso no prometemos resultados concretos: valoramos tu evolución sesión a sesión y te derivamos a tu cirujano ante cualquier signo de alarma.")]},
         ficha("Ficha del servicio", "Drenaje linfático manual postoperatorio", "Sesión individual de drenaje linfático manual adaptada a tu cirugía y fase de recuperación.",
               ROWS_SERVICIO + [("Bonos", "[[Indicar si hay bonos postoperatorios]]")]),
@@ -834,6 +916,8 @@ PAGES.append({
     "faq": [
         ("¿Cuándo puedo empezar después de la operación?", "Depende de la cirugía y de lo que indique tu cirujano. Escríbenos con esa información y te orientamos antes de reservar."),
         ("¿Cuántas sesiones suelen hacer falta?", "Varía según la intervención y la evolución. [[Indicar rango orientativo]]. Lo revisamos sesión a sesión."),
+        ("¿Puedo hacer drenaje si estoy embarazada?", "Sí, con el visto bueno de tu matrona o ginecóloga. Lo usamos para la retención de líquidos antes y después del parto."),
+        ("¿Y si tengo o he tenido cáncer?", "Podemos acompañarte con drenaje linfático manual siempre que tu equipo de oncología lo autorice y en coordinación con él."),
         ("¿Es lo mismo que un masaje?", "No. El drenaje linfático manual es una técnica específica, muy suave y lenta, distinta del masaje. Por eso tiene su propia página."),
         ("¿Tengo que llevar la faja?", "Sigue las indicaciones de tu cirujano sobre prendas de compresión. Normalmente la retiras durante la sesión y te la vuelves a poner al terminar."),
     ],
@@ -868,7 +952,7 @@ PAGES.append({
         ("¿Tenéis tarjetas regalo?", "[[Confirmar]]."),
         ("¿Puedo recibir un masaje si estoy embarazada?", "[[Confirmar si se ofrece masaje prenatal y desde qué semana]]."),
     ],
-    "related": ["cuidados-postoperatorios-drenaje-linfatico", "reflexologia-sarria-sant-gervasi", "osteopatia-sarria-sant-gervasi"],
+    "related": ["drenaje-linfatico-postoperatorio", "reflexologia-sarria-sant-gervasi", "osteopatia-sarria-sant-gervasi"],
     "cta": {"h2": "Reserva tu masaje", "p": "Elige modalidad y horario online, o escríbenos por WhatsApp."},
 })
 
@@ -1113,7 +1197,7 @@ PAGES.append({
     "eyebrow": "Healthy Lifestyle Academy · Vacaciones con sentido",
     "h1": "Vacaciones con sentido",
     "sub": "Descansar, aprender y volver con hábitos que se quedan",
-    "lead": "No son unas vacaciones convencionales ni un retiro de silencio. Son seis días guiados para descansar de verdad, regular el sistema nervioso y aprender —con profesionales sanitarios— a dormir mejor, respirar mejor, moverte mejor y comer con más conciencia. El destino acompaña; lo que te llevas a casa es lo importante.",
+    "lead": "No son unas vacaciones convencionales ni un retiro de silencio. Son seis días guiados para descansar de verdad, regular el sistema nervioso y aprender, con el equipo de WA LAM, a dormir mejor, respirar mejor, moverte mejor y comer con más conciencia. El destino acompaña; lo que te llevas a casa es lo importante.",
     "facts_title": "Próxima edición",
     "facts": ["**Vacaciones con sentido en Bali**", "Fechas: [[fechas]]", "6 días · [[nº]] plazas", "Precio: [[€]] (ver qué incluye)", "Equipo: [[profesionales]]"],
     "cta1": ("Quiero información", "https://wa.me/34675716409?text=" + "Hola%2C%20me%20interesa%20Vacaciones%20con%20sentido%20en%20Bali."),
@@ -1147,7 +1231,7 @@ PAGES.append({
 
 # ---------------------------------------------------------------- QUIÉN ATIENDE
 # Credenciales tomadas del currículum publicado en walambcn.com/curriculum.
-# Faltan apellidos y nº de colegiada: se muestran como pendientes.
+# Faltan los apellidos: se muestran como pendientes.
 SITE.update({
     "booking": "https://www.walambcn.com/reserva-sarri%C3%A0-sant-gervasi-barcelona",
     "street": "C/ Bisbe Sivilla, 44, local",
@@ -1155,27 +1239,28 @@ SITE.update({
     "address_short": "C/ Bisbe Sivilla, 44 · 08022 Barcelona (Sarrià–Sant Gervasi)",
     "hours": "De lunes a viernes, de 9 a 21 h. Sábados, domingos y urgencias, solo con cita previa.",
     "opening": ["Mo-Fr 09:00-21:00"],
-    "reviewer_md": "Rosa [[apellidos]], fisioterapeuta y osteópata · [[nº de colegiada]]",
+    "reviewer_md": "Rosa [[apellidos]], osteópata D.O. · máster en medicina integrativa",
 })
 
 ROSA = "Rosa [[apellidos]]"
 PRO = {
-    "medicina-integrativa-barcelona": f"{ROSA}, fundadora y directora de WA LAM desde 2004",
-    "dolor-persistente-cronico": f"{ROSA}, fisioterapeuta y osteópata",
+    "medicina-integrativa-barcelona": f"{ROSA}, osteópata D.O. y máster en medicina integrativa, fundadora de WA LAM (2004)",
+    "neurolongevidad-salud-cognitiva": f"{ROSA}, máster en medicina integrativa y profesora de MBSR",
+    "dolor-persistente-cronico": f"{ROSA}, osteópata D.O.",
     "estres-ansiedad": f"{ROSA}, profesora de mindfulness y MBSR",
     "sueno-insomnio": f"{ROSA}",
     "salud-digestiva-microbiota": f"{ROSA}, máster en PNI",
     "acompanamiento-fertilidad": f"{ROSA}",
     "salud-mujer-menopausia": f"{ROSA}",
-    "prevencion-longevidad": f"{ROSA}",
-    "osteopatia-sarria-sant-gervasi": f"{ROSA}, fisioterapeuta y osteópata (IIOA)",
+    "prevencion-longevidad": f"{ROSA}, osteópata D.O. y máster en medicina integrativa",
+    "osteopatia-sarria-sant-gervasi": f"{ROSA}, osteópata D.O. (IIOA)",
     "fisioterapia-sarria-sant-gervasi": "[[Nombre de la fisioterapeuta]], fisioterapeuta · [[nº de colegiada]]",
     "perdida-de-peso-sarria-sant-gervasi": f"{ROSA}, posgrado en acupuntura para la obesidad",
     "dejar-de-fumar-acupuntura": f"{ROSA}, acupuntura",
     "acupuntura-medicina-tradicional-china": f"{ROSA}, acupuntura y MTC",
     "pni-pnie-barcelona": f"{ROSA}, máster en PNI (Xevi Verdaguer)",
     "nutricion-salud-intestinal": f"{ROSA} · [[confirmar titulación en nutrición]]",
-    "cuidados-postoperatorios-drenaje-linfatico": f"{ROSA}, fisioterapeuta, formada en drenaje linfático manual",
+    "drenaje-linfatico-postoperatorio": f"{ROSA}, formada en drenaje linfático manual",
     "masajes-sarria-sant-gervasi": f"{ROSA}",
     "reflexologia-sarria-sant-gervasi": f"{ROSA}",
     "curso-mindfulness-mbsr-barcelona": f"{ROSA}, formación de profesores MBSR (Nirakara, TAI) y máster en Mindfulness (Universidad de Zaragoza)",
@@ -1194,7 +1279,7 @@ def _fix(o, who):
     if isinstance(o, str):
         for t in _TOKENS:
             o = o.replace(t, who)
-        return o.replace("[[Nº colegiado/a]]", "[[nº de colegiada]]")
+        return o.replace("[[Nº colegiado/a]]", "[[nº de colegiada]]").replace("D.O..", "D.O.")
     if isinstance(o, list):
         return [_fix(x, who) for x in o]
     if isinstance(o, tuple):
@@ -1207,5 +1292,17 @@ def _fix(o, who):
 for _i, _p in enumerate(PAGES):
     _w = PRO.get(_p["slug"], ROSA)
     _p = _fix(_p, _w)
+    if _p["slug"] != "fisioterapia-sarria-sant-gervasi":
+        for _b in _p["blocks"]:
+            if _b.get("type") == "pro":
+                _b["rows"] = [r for r in _b["rows"] if "colegiad" not in r[0]]
     _p["pro_who"] = _w
     PAGES[_i] = _p
+
+# Enlaces de vuelta a Longevidad desde los recorridos que la componen
+for _p in PAGES:
+    if _p["slug"] in ("estres-ansiedad", "sueno-insomnio", "salud-digestiva-microbiota", "pni-pnie-barcelona", "salud-mujer-menopausia",
+                      "dolor-persistente-cronico", "curso-mindfulness-mbsr-barcelona", "yoga-particular-grupos-reducidos", "qigong-barcelona",
+                      "perdida-de-peso-sarria-sant-gervasi"):
+        _rel = [r for r in _p.get("related", []) if r != "prevencion-longevidad"]
+        _p["related"] = (["prevencion-longevidad"] + _rel)[:4]
