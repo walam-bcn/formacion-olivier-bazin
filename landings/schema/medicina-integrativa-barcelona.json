@@ -164,7 +164,7 @@
       "@type": "MedicalWebPage",
       "@id": "https://www.walambcn.com#webpage",
       "url": "https://www.walambcn.com",
-      "name": "Medicina integrativa, longevidad y neurolongevidad en Barcelona | WA LAM",
+      "name": "Medicina integrativa en Barcelona · Sarrià–Sant Gervasi | WA LAM",
       "description": "Medicina integrativa en Sarrià–Sant Gervasi (Barcelona): tratamos tu motivo de consulta con una visión global, más allá del síntoma. Primera visita: 90 €.",
       "inLanguage": "es-ES",
       "isPartOf": {
@@ -180,7 +180,7 @@
       },
       "lastReviewed": "2026-11-18",
       "dateModified": "2026-11-18",
-      "keywords": "medicina integrativa Barcelona, longevidad Barcelona, neurolongevidad Barcelona, salud de precisión Barcelona, centro de medicina integrativa Sarrià, medicina integrativa Sant Gervasi",
+      "keywords": "medicina integrativa Barcelona, centro de medicina integrativa Barcelona, medicina integrativa Sarrià Sant Gervasi, medicina 5P, medicina integrativa Sant Gervasi, tratamiento integrativo Barcelona",
       "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/medicina-integrativa-barcelona.png",
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -196,51 +196,7 @@
         "worksFor": {
           "@id": "https://www.walambcn.com/#clinica"
         }
-      },
-      "citation": [
-        {
-          "@type": "ScholarlyArticle",
-          "name": "Noninvasive Treatments for Acute, Subacute, and Chronic Low Back Pain: A Clinical Practice Guideline From the American College of Physicians",
-          "url": "https://doi.org/10.7326/M16-2367",
-          "sameAs": "https://doi.org/10.7326/M16-2367"
-        },
-        {
-          "@type": "ScholarlyArticle",
-          "name": "Mindfulness-Based Stress Reduction vs Escitalopram for the Treatment of Adults With Anxiety Disorders: A Randomized Clinical Trial",
-          "url": "https://doi.org/10.1001/jamapsychiatry.2022.3679",
-          "sameAs": "https://doi.org/10.1001/jamapsychiatry.2022.3679"
-        },
-        {
-          "@type": "ScholarlyArticle",
-          "name": "Psychological Stress and the Human Immune System: A Meta-Analytic Study of 30 Years of Inquiry",
-          "url": "https://doi.org/10.1037/0033-2909.130.4.601",
-          "sameAs": "https://doi.org/10.1037/0033-2909.130.4.601"
-        },
-        {
-          "@type": "ScholarlyArticle",
-          "name": "Sleep Disturbance, Sleep Duration, and Inflammation: A Systematic Review and Meta-Analysis of Cohort Studies and Experimental Sleep Deprivation",
-          "url": "https://doi.org/10.1016/j.biopsych.2015.05.014",
-          "sameAs": "https://doi.org/10.1016/j.biopsych.2015.05.014"
-        },
-        {
-          "@type": "ScholarlyArticle",
-          "name": "Muscle-strengthening activities are associated with lower risk and mortality in major non-communicable diseases: a systematic review and meta-analysis of cohort studies",
-          "url": "https://doi.org/10.1136/bjsports-2021-105061",
-          "sameAs": "https://doi.org/10.1136/bjsports-2021-105061"
-        },
-        {
-          "@type": "ScholarlyArticle",
-          "name": "Dementia prevention, intervention, and care: 2024 report of the Lancet standing Commission",
-          "url": "https://doi.org/10.1016/S0140-6736(24)01296-0",
-          "sameAs": "https://doi.org/10.1016/S0140-6736(24)01296-0"
-        },
-        {
-          "@type": "ScholarlyArticle",
-          "name": "Reliability of Diagnosis and Clinical Efficacy of Cranial Osteopathy: A Systematic Review",
-          "url": "https://doi.org/10.1371/journal.pone.0167823",
-          "sameAs": "https://doi.org/10.1371/journal.pone.0167823"
-        }
-      ]
+      }
     },
     {
       "@type": "FAQPage",
@@ -251,55 +207,39 @@
           "name": "¿Qué es la medicina integrativa?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Es un enfoque que combina la medicina convencional con terapias complementarias y cambios en el estilo de vida que disponen de respaldo científico, centrado en la persona. No sustituye a tu médico: complementa su seguimiento."
+            "text": "Es una medicina basada en la evidencia que mira a la persona entera, no solo al síntoma. Combina el conocimiento científico actual con las terapias complementarias que cuentan con respaldo científico, como complemento del seguimiento de tu médico."
           }
         },
         {
           "@type": "Question",
-          "name": "¿En qué se diferencian la longevidad y la neurolongevidad?",
+          "name": "¿Es lo mismo que la medicina alternativa?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "La longevidad busca prolongar los años vividos con buena salud en todo el organismo; la neurolongevidad se centra en la salud del cerebro: memoria, atención y equilibrio emocional."
+            "text": "No. La medicina alternativa se plantea como sustituta de la medicina convencional. La medicina integrativa la complementa y solo utiliza las terapias que disponen de respaldo científico."
           }
         },
         {
           "@type": "Question",
-          "name": "¿Qué significa salud de precisión?",
+          "name": "¿Cuánto cuesta la primera visita?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Adaptar las decisiones clínicas a las características de cada persona: su historia, sus analíticas, su microbiota o su perfil genético. Solo solicitamos pruebas complementarias cuando pueden modificar el plan."
+            "text": "La primera visita cuesta 90 €."
           }
         },
         {
           "@type": "Question",
-          "name": "¿Cuánto cuesta?",
+          "name": "¿Cuánto dura la primera visita?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "La primera visita dura 60 minutos y cuesta 90 €. Las sesiones de seguimiento duran una hora: osteopatía, masaje, reflexología y drenaje linfático, 70 €; acupuntura, 50 €."
+            "text": "Sesenta minutos. Si tienes analíticas o pruebas recientes, tráelas: las utilizamos para no repetir pruebas sin motivo."
           }
         },
         {
           "@type": "Question",
-          "name": "¿Cuántas sesiones necesitaré?",
+          "name": "¿Dónde está el centro?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Depende de cada caso. Para un motivo de consulta concreto, lo habitual es resolverlo en unas cinco o seis sesiones."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "¿Dónde estáis?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "En Carrer del Bisbe Sivilla, 44, 08022 Barcelona, en el distrito de Sarrià–Sant Gervasi."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "¿Trabajáis con mutuas?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "No. WA LAM no trabaja con mutuas ni con compañías de seguros."
+            "text": "En la calle Bisbe Sivilla, 44, 08022 Barcelona, en el distrito de Sarrià–Sant Gervasi."
           }
         }
       ]

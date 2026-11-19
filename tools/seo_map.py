@@ -6,9 +6,9 @@ y entidad médica para los datos estructurados."""
 SEO = {
     "medicina-integrativa-barcelona": {
         "kw": "medicina integrativa Barcelona",
-        "kws": ["longevidad Barcelona", "neurolongevidad Barcelona", "salud de precisión Barcelona", "centro de medicina integrativa Sarrià", "medicina integrativa Sant Gervasi"],
+        "kws": ["centro de medicina integrativa Barcelona", "medicina integrativa Sarrià Sant Gervasi", "medicina 5P", "medicina integrativa Sant Gervasi", "tratamiento integrativo Barcelona"],
         "ca": "medicina integrativa Barcelona",
-        "title": "Medicina integrativa, longevidad y neurolongevidad en Barcelona | WA LAM",
+        "title": "Medicina integrativa en Barcelona · Sarrià–Sant Gervasi | WA LAM",
         "desc": "Medicina integrativa en Sarrià–Sant Gervasi (Barcelona): tratamos tu motivo de consulta con una visión global, más allá del síntoma. Primera visita: 90 €.",
         "quick": "WA LAM es un centro de medicina integrativa en Sarrià–Sant Gervasi (Barcelona), fundado en 2004. Ante un motivo de consulta concreto, como un dolor de hombro, valora también la postura, la digestión, el sueño o el estrés que pueden mantenerlo. La primera visita dura 60 minutos (90 €) y un problema concreto suele resolverse en cinco o seis sesiones.",
         "entity": None,
