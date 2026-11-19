@@ -6,11 +6,11 @@ y entidad médica para los datos estructurados."""
 SEO = {
     "medicina-integrativa-barcelona": {
         "kw": "medicina integrativa Barcelona",
-        "kws": ["longevidad Barcelona", "neurolongevidad Barcelona", "salud de precisión Barcelona", "centro de medicina integrativa Sarrià", "medicina integrativa Sant Gervasi", "método re:trace"],
+        "kws": ["longevidad Barcelona", "neurolongevidad Barcelona", "salud de precisión Barcelona", "centro de medicina integrativa Sarrià", "medicina integrativa Sant Gervasi"],
         "ca": "medicina integrativa Barcelona",
         "title": "Medicina integrativa, longevidad y neurolongevidad en Barcelona | WA LAM",
-        "desc": "WA LAM une medicina integrativa, longevidad y neurolongevidad en Sarrià–Sant Gervasi (Barcelona). Método re:trace. Primera visita: 90 €.",
-        "quick": "WA LAM es un centro de medicina integrativa, longevidad y neurolongevidad en Sarrià–Sant Gervasi (Barcelona), fundado en 2004. Su método propio, re:trace (Research, Evidence, Trajectory, Regulation, Awareness, Clinical Integration, Evolution), diseña estrategias clínicas personalizadas que se ajustan a la evolución de cada persona. Empieza con una primera visita de 60 minutos (90 €) y continúa con el programa re:trace Premium de 12 semanas u otras modalidades intensivas, con presupuesto individual.",
+        "desc": "Medicina integrativa en Sarrià–Sant Gervasi (Barcelona): tratamos tu motivo de consulta con una visión global, más allá del síntoma. Primera visita: 90 €.",
+        "quick": "WA LAM es un centro de medicina integrativa en Sarrià–Sant Gervasi (Barcelona), fundado en 2004. Ante un motivo de consulta concreto, como un dolor de hombro, valora también la postura, la digestión, el sueño o el estrés que pueden mantenerlo. La primera visita dura 60 minutos (90 €) y un problema concreto suele resolverse en cinco o seis sesiones.",
         "entity": None,
     },
     "programas-re-trace": {
@@ -144,8 +144,8 @@ SEO = {
         "kws": ["medicina preventiva Barcelona", "longevidad Sarrià Sant Gervasi", "consulta de longevidad", "estudio de microbiota intestinal Barcelona", "test genético longevidad", "medicina integrativa y longevidad"],
         "ca": "longevitat Barcelona",
         "title": "Longevidad y prevención en Barcelona | WA LAM",
-        "desc": "Consulta de longevidad y prevención en Sarrià–Sant Gervasi, Barcelona: primera visita, valoración, plan por fases y seguimiento. Basada en evidencia.",
-        "quick": "La consulta de longevidad y prevención de WA LAM sigue un recorrido claro: formulario y analíticas antes de la visita, una primera visita para revisar historia, pruebas y hábitos, un plan por fases con recomendaciones por escrito y un seguimiento con pautas de mantenimiento.",
+        "desc": "Medicina de longevidad en Sarrià–Sant Gervasi (Barcelona): valoración de cómo envejece tu organismo y programa de cambio de hábitos basado en la evidencia.",
+        "quick": "El programa de longevidad de WA LAM (Barcelona) empieza con una primera visita de 60 minutos (90 €) y, si aporta información útil, una valoración con analíticas, microbiota, genética o composición corporal. Con los resultados se diseña un plan de cambio de hábitos (alimentación, fuerza, sueño y estrés) con seguimiento y presupuesto personalizado.",
         "entity": None,
     },
     "neurolongevidad-salud-cognitiva": {

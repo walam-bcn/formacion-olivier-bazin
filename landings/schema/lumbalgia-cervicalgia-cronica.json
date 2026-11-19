@@ -280,7 +280,7 @@
           "name": "¿Cuántas sesiones necesitaré?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Depende de cada caso. En la primera visita valoramos tu situación y te proponemos un plan; en los casos persistentes, el abordaje puede integrarse en un programa re:trace."
+            "text": "Depende de cada caso. En la primera visita valoramos tu situación y te proponemos un plan."
           }
         }
       ]

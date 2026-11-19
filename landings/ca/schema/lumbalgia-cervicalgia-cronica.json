@@ -280,7 +280,7 @@
           "name": "Quantes sessions necessitaré?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Depèn de cada cas. A la primera visita valorem la teva situació i et proposem un pla; en els casos persistents, l'abordatge es pot integrar en un programa re:trace."
+            "text": "Depèn de cada cas. A la primera visita valorem la teva situació i et proposem un pla."
           }
         }
       ]

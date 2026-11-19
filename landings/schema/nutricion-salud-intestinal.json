@@ -267,7 +267,7 @@
           "name": "¿Es una consulta diferente de la de PNIE?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí. La consulta de nutrición se centra en la alimentación y la salud intestinal; la de PNIE aborda de forma más amplia la relación entre el sistema nervioso, las hormonas y la inmunidad. Ambas pueden combinarse en un programa re:trace."
+            "text": "Sí. La consulta de nutrición se centra en la alimentación y la salud intestinal; la de PNIE aborda de forma más amplia la relación entre el sistema nervioso, las hormonas y la inmunidad. Ambas pueden combinarse."
           }
         },
         {

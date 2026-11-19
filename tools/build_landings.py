@@ -642,7 +642,7 @@ def hubcards(b):
         G = GROUPS[g]
         cs = "".join(
             f'<a class="card" href="{url(x["slug"])}"><span class="k">{G["label"]}</span><h3>{fmt(x["nav"])}</h3><p>{fmt(x["card"])}</p><span class="go">{tr("Ver página →")}</span></a>'
-            for x in PAGES if x["group"] == g)
+            for x in PAGES if x["group"] == g and x["slug"] not in ("programas-re-trace", "formacion-re-trace"))
         out.append(f'<section class="rel" id="{ {"motivo": "motivos", "servicio": "servicios", "academia": "academia"}[g]}"><div class="wrap">{sec_head(G["eyebrow"], G["title"], G["intro"])}<div class="grid">{cs}</div></div></section>')
     return "\n".join(out)
 
@@ -796,7 +796,7 @@ def main():
         cs = "".join(
             f'<a class="card" href="{x["slug"]}.html" target="_self"><span class="k">/{x["slug"]}</span><h3>{fmt(x["nav"])}'
             f'{"<span class=tag>1ª tanda</span>" if x.get("wave") == 1 else ""}</h3><p>{fmt(x["card"])}</p></a>'
-            for x in PAGES if x["group"] == g)
+            for x in PAGES if x["group"] == g and x["slug"] not in ("programas-re-trace", "formacion-re-trace"))
         rows.append(f'<div class="hubgrp" id="{ {"home": "portada", "motivo": "motivos", "servicio": "servicios", "academia": "academia"}[g]}"><span class="k">{G["label"]}</span><h2>{G["title"]}</h2><div class="grid">{cs}</div></div>')
     idx = {"slug": "index", "group": "home", "title": "WA LAM · Landing pages", "desc": "Índice de revisión.", "h1": "", "faq": []}
     doc = head(idx) + nav(idx) + f"""<section class="hero"><div class="wrap" style="grid-template-columns:1fr"><div>

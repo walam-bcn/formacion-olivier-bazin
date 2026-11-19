@@ -177,7 +177,7 @@
       "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/longevitat-prevencio-barcelona#webpage",
       "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/longevitat-prevencio-barcelona",
       "name": "Longevitat i prevenció a Barcelona | WA LAM",
-      "description": "Consulta de longevitat i prevenció a Sarrià–Sant Gervasi, Barcelona: primera visita, valoració, pla per fases i seguiment. Basada en l'evidència.",
+      "description": "Medicina de longevitat a Sarrià–Sant Gervasi (Barcelona): valoració de com envelleix el teu organisme i programa de canvi d'hàbits basat en l'evidència.",
       "inLanguage": "ca-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -336,7 +336,7 @@
           "name": "Quant costa?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "La primera visita dura 60 minuts i costa 90 €. Després et recomanem el programa re:trace més adequat: de 3.000 € a 7.500 €, segons el format, amb els costos de laboratori a part."
+            "text": "La primera visita dura 60 minuts i costa 90 €. Després reps un pressupost personalitzat per al teu programa; els costos de laboratori s'abonen a part."
           }
         },
         {
