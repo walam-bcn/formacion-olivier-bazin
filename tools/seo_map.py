@@ -26,7 +26,7 @@ SEO = {
         "kw": "medicina integrativa enfermedades crónicas Barcelona",
         "kws": ["acidez y reflujo Barcelona", "colon irritable tratamiento Barcelona", "SIBO Barcelona", "fibromialgia tratamiento integrativo", "hipotiroidismo medicina integrativa", "migraña tratamiento integrativo"],
         "ca": "medicina integrativa malalties cròniques Barcelona",
-        "title": "En qué podemos ayudarte · Medicina integrativa | WA LAM",
+        "title": "En qué te puedo ayudar · Medicina integrativa | WA LAM",
         "desc": "Acidez, colon irritable, SIBO, migraña, fibromialgia, lumbalgia, menopausia, hipotiroidismo, insomnio o sobrepeso: acompañamiento integrativo en Sarrià–Sant Gervasi.",
         "quick": "Las consultas más frecuentes abarcan siete áreas clínicas: trastornos digestivos funcionales (reflujo gastroesofágico, síndrome del intestino irritable, sobrecrecimiento bacteriano intestinal), dolor musculoesquelético y vertebral, procesos inflamatorios e inmunoalérgicos, riesgo metabólico y cardiovascular, alteraciones del sueño y fatiga persistente, salud ginecológica y menopausia, y patología tiroidea. Cada caso se aborda mediante una valoración integral y un plan terapéutico individualizado.",
         "entity": None,

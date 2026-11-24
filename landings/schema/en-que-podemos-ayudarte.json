@@ -161,13 +161,13 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "¿En qué podemos ayudarte?",
+          "name": "¿En qué te puedo ayudar?",
           "item": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona"
         },
         {
           "@type": "ListItem",
           "position": 3,
-          "name": "En qué podemos ayudarte",
+          "name": "En qué te puedo ayudar",
           "item": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/en-que-podemos-ayudarte"
         }
       ]
@@ -176,7 +176,7 @@
       "@type": "MedicalWebPage",
       "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/en-que-podemos-ayudarte#webpage",
       "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/en-que-podemos-ayudarte",
-      "name": "En qué podemos ayudarte · Medicina integrativa | WA LAM",
+      "name": "En qué te puedo ayudar · Medicina integrativa | WA LAM",
       "description": "Acidez, colon irritable, SIBO, migraña, fibromialgia, lumbalgia, menopausia, hipotiroidismo, insomnio o sobrepeso: acompañamiento integrativo en Sarrià–Sant Gervasi.",
       "inLanguage": "es-ES",
       "isPartOf": {

@@ -56,8 +56,8 @@ R = {
 
 GROUPS = {
     "home": {"label": "Portada", "nav": "Inicio", "hub": "", "title": "Portada", "eyebrow": "", "intro": ""},
-    "motivo": {"label": "Motivo de consulta", "nav": "¿En qué podemos ayudarte?", "hub": "tratamientos",
-               "eyebrow": "¿En qué podemos ayudarte?", "title": "Empieza por lo que te ocurre",
+    "motivo": {"label": "Motivo de consulta", "nav": "¿En qué te puedo ayudar?", "hub": "tratamientos",
+               "eyebrow": "¿En qué te puedo ayudar?", "title": "Empieza por lo que te ocurre",
                "intro": "Si todavía no sabes qué tratamiento necesitas, empieza aquí. Cada página explica cómo valoramos ese motivo de consulta y qué profesionales pueden acompañarte."},
     "servicio": {"label": "Servicio", "nav": "Servicios y terapias", "hub": "tratamientos",
                  "eyebrow": "Servicios y terapias", "title": "Especialidades y servicios",
@@ -354,13 +354,13 @@ BLOCKS = [
 
 PAGE = {
     "slug": "en-que-podemos-ayudarte", "group": "motivo", "wave": 1,
-    "nav": "En qué podemos ayudarte",
+    "nav": "En qué te puedo ayudar",
     "card": "Indicaciones más frecuentes ordenadas por sistemas: digestivo, musculoesquelético, inmunidad, metabolismo, sueño, mujer y endocrino.",
-    "title": "En qué podemos ayudarte · Medicina integrativa en Barcelona | WA LAM",
+    "title": "En qué te puedo ayudar · Medicina integrativa en Barcelona | WA LAM",
     "desc": "Acidez, colon irritable, SIBO, migraña, fibromialgia, lumbalgia, menopausia, hipotiroidismo, insomnio o sobrepeso: acompañamiento integrativo en Sarrià–Sant Gervasi.",
     "about": "Motivos de consulta en medicina integrativa",
     "eyebrow": "Motivos de consulta",
-    "h1": "En qué podemos ayudarte",
+    "h1": "En qué te puedo ayudar",
     "sub": "Indicaciones más frecuentes en medicina integrativa · Sarrià–Sant Gervasi",
     "lead": "Estas son las situaciones clínicas por las que se consulta con más frecuencia en WA LAM, ordenadas por sistemas. En cada caso, analizamos los factores que han contribuido al cuadro actual y diseñamos un tratamiento complementario al seguimiento médico. Si tu motivo de consulta no aparece, escríbenos y te orientaremos.",
     "facts_title": "Antes de empezar",
