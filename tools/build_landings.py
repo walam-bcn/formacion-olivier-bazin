@@ -374,6 +374,13 @@ h1,h2,h3,h4,.btn,.btn-tq,.faq summary,b,strong,.explain .txt b,.card h3,.step h3
 .step{background:transparent!important;border:none!important;text-align:center;padding:0 10px!important}
 .num{background:transparent!important;color:rgba(29,63,64,.18)!important;font-size:64px!important;font-weight:400!important;font-style:italic;width:auto!important;height:auto!important;margin:0 auto 6px!important;display:block!important}
 .step p{text-align:center!important;font-size:18px!important}
+#datos-clave .grid{grid-template-columns:repeat(auto-fit,minmax(200px,1fr))!important;gap:20px!important}
+#datos-clave .card{background:transparent!important;border:none!important;border-top:2px solid var(--tq)!important;border-radius:0!important;padding:16px 0 0!important}
+#datos-clave .card h3{font-size:16px!important;font-weight:400!important;margin:0!important;line-height:1.5!important}
+#datos-clave .head{margin-bottom:28px!important}
+#datos-clave .head h2{font-size:24px!important}
+.note{padding:0!important;margin-top:56px;background:transparent!important;text-align:center}
+.note p{display:inline-block;max-width:860px!important;margin:0 auto!important;border:1px solid var(--tq);border-radius:40px;padding:14px 30px;color:#0a9a9c!important;opacity:1!important;font-size:.85rem!important;text-align:center!important;line-height:1.55}
 .hero-dna{background-color:#dcebf2!important;background-position:center!important;background-size:cover!important;color:var(--pet)}
 .hero-dna h1,.hero-dna .hs,.hero-dna .lead,.hero-dna .eyebrow,.hero-dna .crumbs,.hero-dna .crumbs a{color:var(--pet)!important;text-shadow:0 0 18px rgba(255,255,255,.9)}
 .hero-dna .hcard{background:rgba(255,255,255,.72);border-color:rgba(29,63,64,.18)}
@@ -537,10 +544,10 @@ def hero(p):
     hcls = "hero hero-dna" if p["slug"] in ("programas-re-trace", "formacion-re-trace") else "hero"
     hst = f' style="background-image:url(data:image/jpeg;base64,{DNA_BG})"' if hcls != "hero" else ""
     return f"""<section class="{hcls}"{hst}><div class="wrap">
-{sp}<div>{crumbs}<span class="eyebrow">{fmt(p['eyebrow'])}</span><h1>{fmt(p['h1'])}</h1>
+{sp}<div><span class="eyebrow">{fmt(p['eyebrow'])}</span><h1>{fmt(p['h1'])}</h1>
 <div class="hs">{fmt(p['sub'])}</div><p class="lead">{fmt(p['lead'])}</p>
 <div class="btn-row"><a class="btn btn-tq" href="{b1[1]}" target="_blank" rel="noopener">{b1[0]}</a><a class="btn btn-gh" href="{b2[1]}">{b2[0]}</a></div></div>
-</div></section>""" + ("" if p["group"] == "home" else f'<section class="fband"><div class="wrap"><span class="k">{fmt(p.get("facts_title", tr("En WA LAM")))}</span><ul>{facts}</ul></div></section>')
+</div></section>"""
 
 
 def sec_head(eyebrow, h2, intro=None):
@@ -703,7 +710,12 @@ def local(p):
 def page(p):
     parts = [head(p), nav(p), hero(p)]
     body, items = [], []
-    for blk in p["blocks"]:
+    blocks = list(p["blocks"])
+    fx = [f for f in p.get("facts", []) if not plain(f).startswith(("Atiende", "Atienden", "Profesional", "Realiza la consulta", "Acupuntor", "Te atiende"))]
+    if p["group"] != "home" and fx:
+        blocks.insert(1 if blocks else 0, {"type": "cards", "eyebrow": "", "h2": p.get("facts_title", tr("En WA LAM")), "_id": "datos-clave",
+                                           "items": [{"h": f, "p": ""} for f in fx]})
+    for blk in blocks:
         t = blk["type"]
         h = {"mirror": mirror, "explain": explain, "cards": cards, "steps": steps, "evidence": evidence, "hubcards": hubcards, "pack": pack}.get(t)
         if t == "pro":
@@ -725,8 +737,10 @@ def page(p):
         v = _alt[_n[0] % 2]; _n[0] += 1
         return '<section data-bg="' + v + '" '
     seq = [re.sub(r'<section ', _bg, x) for x in seq]
+    if p["group"] in ("motivo", "servicio") and seq:
+        k = seq[-1].rfind("</div></section>")
+        seq[-1] = seq[-1][:k] + f'<div class="note"><p>{tr(NOTE_ES)}</p></div>' + seq[-1][k:]
     parts += [quick(p)] + seq
-    if p["group"] in ("motivo", "servicio"): parts.append(note())
     parts.append(contact(p))
     parts.append(JS + "</body></html>")
     return "\n".join(x for x in parts if x)
