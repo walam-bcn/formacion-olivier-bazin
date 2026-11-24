@@ -107,7 +107,7 @@
         },
         {
           "@type": "MedicalTherapy",
-          "name": "PNI y PNIE",
+          "name": "PNIE",
           "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/pni-pnie-barcelona"
         },
         {
@@ -167,7 +167,7 @@
         {
           "@type": "ListItem",
           "position": 3,
-          "name": "PNI y PNIE",
+          "name": "PNIE",
           "item": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/pni-pnie-barcelona"
         }
       ]
@@ -176,8 +176,8 @@
       "@type": "MedicalWebPage",
       "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/pni-pnie-barcelona#webpage",
       "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/pni-pnie-barcelona",
-      "name": "PNI y PNIE en Barcelona · Psiconeuroinmunología",
-      "description": "Consulta de PNI y PNIE en Sarrià–Sant Gervasi, Barcelona: estrés, sueño, digestión, inflamación y hábitos, con una mirada integrativa y basada en evidencia.",
+      "name": "PNIE en Barcelona · Psiconeuroinmunoendocrinología",
+      "description": "Consulta de PNIE en Sarrià–Sant Gervasi, Barcelona: estrés, sueño, digestión, inflamación y hábitos, con una mirada integrativa y basada en evidencia.",
       "inLanguage": "es-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -192,7 +192,7 @@
       },
       "lastReviewed": "2026-11-18",
       "dateModified": "2026-11-18",
-      "keywords": "PNI Barcelona, PNIE Barcelona, psiconeuroinmunología Barcelona, consulta PNI, psiconeuroinmunoendocrinología, inflamación de bajo grado",
+      "keywords": "PNIE Barcelona, PNI Barcelona, psiconeuroinmunoendocrinología Barcelona, consulta PNIE, psiconeuroinmunoendocrinología, inflamación de bajo grado",
       "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/pni-pnie-barcelona.png",
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -214,7 +214,7 @@
       },
       "about": {
         "@type": "MedicalTherapy",
-        "name": "Psiconeuroinmunología clínica"
+        "name": "Psiconeuroinmunoendocrinología clínica"
       },
       "citation": [
         {
@@ -241,7 +241,7 @@
       "@type": "Service",
       "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/pni-pnie-barcelona#servicio",
       "name": "Psiconeuroinmunoendocrinología (PNIE) en Barcelona",
-      "serviceType": "PNI y PNIE",
+      "serviceType": "PNIE",
       "provider": {
         "@id": "https://www.walambcn.com/#clinica"
       },
@@ -276,7 +276,7 @@
         }
       ],
       "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/pni-pnie-barcelona",
-      "description": "Consulta de PNI y PNIE en Sarrià–Sant Gervasi, Barcelona: estrés, sueño, digestión, inflamación y hábitos, con una mirada integrativa y basada en evidencia."
+      "description": "Consulta de PNIE en Sarrià–Sant Gervasi, Barcelona: estrés, sueño, digestión, inflamación y hábitos, con una mirada integrativa y basada en evidencia."
     },
     {
       "@type": "FAQPage",

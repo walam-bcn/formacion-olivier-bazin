@@ -381,6 +381,7 @@ h1,h2,h3,h4,.btn,.btn-tq,.faq summary,b,strong,.explain .txt b,.card h3,.step h3
 #datos-clave .head h2{font-size:24px!important}
 .note{padding:0!important;margin-top:56px;background:transparent!important;text-align:center}
 .note p{display:inline-block;max-width:860px!important;margin:0 auto!important;border:1px solid var(--tq);border-radius:40px;padding:14px 30px;color:#0a9a9c!important;opacity:1!important;font-size:.85rem!important;text-align:center!important;line-height:1.55}
+.evbtn{display:inline-block;margin-left:6px;border:1px solid var(--tq);border-radius:30px;padding:2px 12px;font-size:.8rem;color:#0a9a9c;text-decoration:none;white-space:nowrap}.evbtn:hover{background:var(--tq);color:#fff}
 .hero-dna{background-color:#dcebf2!important;background-position:center!important;background-size:cover!important;color:var(--pet)}
 .hero-dna h1,.hero-dna .hs,.hero-dna .lead,.hero-dna .eyebrow,.hero-dna .crumbs,.hero-dna .crumbs a{color:var(--pet)!important;text-shadow:0 0 18px rgba(255,255,255,.9)}
 .hero-dna .hcard{background:rgba(255,255,255,.72);border-color:rgba(29,63,64,.18)}
@@ -545,7 +546,7 @@ def hero(p):
     hst = f' style="background-image:url(data:image/jpeg;base64,{DNA_BG})"' if hcls != "hero" else ""
     return f"""<section class="{hcls}"{hst}><div class="wrap">
 {sp}<div><span class="eyebrow">{fmt(p['eyebrow'])}</span><h1>{fmt(p['h1'])}</h1>
-<div class="hs">{fmt(p['sub'])}</div><p class="lead">{fmt(p['lead'])}</p>
+<div class="hs">{fmt(p['sub'])}</div>
 <div class="btn-row"><a class="btn btn-tq" href="{b1[1]}" target="_blank" rel="noopener">{b1[0]}</a><a class="btn btn-gh" href="{b2[1]}">{b2[0]}</a></div></div>
 </div></section>"""
 
@@ -609,13 +610,50 @@ def pro(f, p):
 </div></div></section>"""
 
 
+EV_NEG = re.compile(r"(?i)insuficiente|limitad|escas|no hay evidencia|no se ha demostrado|no est[áa] demostrad|no demostr|d[ée]bil|baja calidad|incierta|no concluyente|sin evidencia|pocos estudios|experiencia cl[íi]nica|no permite|menos estudiad|se reduce|inconsistente|no superior|calidad moderada|riesgo de sesgo")
+EV_LAB = re.compile(r"(?i)nuestro criterio|lo que ofrecemos|lo que no|con honestidad|nuestra postura|lo que se sabe|l[íi]mite|marco tradicional|otras consultas|experiencia cl[íi]nica|nuestro papel")
+
+
+def ev_items(e):
+    out = []
+    base = [(lv, t) for lv, t in e["items"] if not EV_LAB.search(plain(lv))]
+    refs = e.get("refs") or []
+    for i, (lv, t) in enumerate(base):
+        u = ev_link(lv + " " + t, refs)
+        if not u and len(base) == len(refs):
+            u = "https://doi.org/" + refs[i]["doi"]
+        sents = re.split(r"(?<=[.!?])\s+(?=[A-ZÁÉÍÓÚ¿«*])", t)
+        keep = [x for x in sents if not EV_NEG.search(x) and not re.match(r"(?i)(por eso|sin embargo|aun as[íi]|no obstante|pero)\b", x)]
+        if keep:
+            out.append((lv, " ".join(keep), u))
+    return out
+
+
+def ev_link(t, refs):
+    for r in refs or []:
+        au = re.split(r"[ ,]", r["t"].strip())[0]
+        if au and len(au) > 2 and au.lower() in plain(t).lower():
+            return "https://doi.org/" + r["doi"]
+    for j in re.findall(r"\(([^)]+)\)", t):
+        j = re.sub(r",? ?(?:19|20)\d\d", "", j).strip()
+        hits = [r for r in refs or [] if j and len(j) > 3 and j.lower() in r["t"].lower()]
+        if len(hits) == 1:
+            return "https://doi.org/" + hits[0]["doi"]
+    ys = re.findall(r"(?:19|20)\d\d", t)
+    hits = [r for r in refs or [] if any(f"{y}." in r["t"] or f"{y}," in r["t"] or f"({y})" in r["t"] for y in ys)]
+    if len(hits) == 1:
+        return "https://doi.org/" + hits[0]["doi"]
+    return None
+
+
 def evidence(e):
-    its = "".join(f'<div class="evi"><span class="lv">{fmt(lv)}</span><p>{fmt(t)}</p></div>' for lv, t in e["items"])
-    refs = ""
-    if e.get("refs"):
-        refs = '<div class="refs">' + "".join(
-            f'<p>{fmt(r["t"])} DOI: <a href="https://doi.org/{r["doi"]}" target="_blank" rel="noopener">{r["doi"]}</a></p>' for r in e["refs"]) + "</div>"
-    return f'<section class="evid"><div class="wrap">{sec_head(e.get("eyebrow", tr("Con honestidad")), e["h2"], e.get("intro"))}<div class="ev">{its}</div>{refs}</div></section>'
+    its = []
+    for lv, t, u in ev_items(e):
+        btn = f' <a class="evbtn" href="{u}" target="_blank" rel="noopener">{tr("Ver estudio")} →</a>' if u else ""
+        its.append(f'<div class="evi"><span class="lv">{fmt(lv)}</span><p>{fmt(t)}{btn}</p></div>')
+    if not its:
+        return ""
+    return f'<section class="evid"><div class="wrap">{sec_head(e.get("eyebrow", ""), e["h2"], e.get("intro"))}<div class="ev">{"".join(its)}</div></div></section>'
 
 
 def faq(items):
@@ -683,8 +721,19 @@ def quick(p):
         return ""
     if p["group"] == "home":
         return ""
+    # el texto que antes iba en la imagen se añade aquí, sin repetir frases ya dichas
+    def _w(x):
+        return set(w for w in re.findall(r"\w{5,}", plain(x).lower()))
+    split = lambda x: [y for y in re.split(r"(?<=[.!?])\s+(?=[A-ZÁÉÍÓÚ¿«])", x) if y.strip()]
+    qs = split(q); extra = []
+    for snt in split(p.get("lead", "")):
+        ws = _w(snt)
+        seen = set().union(*[_w(y) for y in qs + extra]) if qs or extra else set()
+        if ws and len(ws & seen) / len(ws) < 0.6:
+            extra.append(snt)
+    lead = f"<p>{fmt(' '.join(extra))}</p>" if extra else ""
     return (f'<section class="quick" id="en-resumen"><div class="wrap"><div class="qbox">'
-            f'<h2>{fmt(seo(p).get("q_title", p["nav"]))}</h2><p>{fmt(q)}</p></div></div></section>')
+            f'<h2>{fmt(seo(p).get("q_title", p["nav"]))}</h2><p>{fmt(q)}</p>{lead}</div></div></section>')
 
 
 def toc(items):
@@ -722,6 +771,8 @@ def page(p):
             out = pro(blk, p); sid = "ficha"; label = tr("Ficha y reserva")
         else:
             out = h(blk); sid = blk.get("_id") or slugify(blk.get("h2", t)); label = plain(blk.get("eyebrow", blk.get("h2", "")))
+            if not out:
+                continue
             if t != "hubcards":
                 out = out.replace('<section class="', f'<section id="{sid}" class="', 1)
         if t != "hubcards":

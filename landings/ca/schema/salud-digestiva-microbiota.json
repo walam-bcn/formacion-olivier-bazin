@@ -107,7 +107,7 @@
         },
         {
           "@type": "MedicalTherapy",
-          "name": "PNI i PNIE",
+          "name": "PNIE",
           "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/pni-pnie-barcelona"
         },
         {
@@ -218,7 +218,7 @@
         "possibleTreatment": [
           {
             "@type": "MedicalTherapy",
-            "name": "PNI i PNIE"
+            "name": "PNIE"
           },
           {
             "@type": "MedicalTherapy",
