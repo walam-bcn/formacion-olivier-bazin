@@ -161,6 +161,11 @@
           "@type": "MedicalTherapy",
           "name": "Osteopatia i trauma",
           "url": "https://www.walambcn.com/ca/osteopatia-trauma"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Osteopatia en nadons i infants",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/osteopatia-nadons-infants"
         }
       ],
       "sameAs": [

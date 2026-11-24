@@ -161,6 +161,11 @@
           "@type": "MedicalTherapy",
           "name": "Osteopatía y trauma",
           "url": "https://www.walambcn.com/osteopatia-trauma"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Osteopatía en bebés y niños",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/osteopatia-bebes-ninos"
         }
       ],
       "sameAs": [
