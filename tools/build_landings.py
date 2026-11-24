@@ -297,6 +297,68 @@ section[data-bg=b]{background:var(--piedra)!important}
 @keyframes spin{to{transform:rotate(360deg)}}
 @media (prefers-reduced-motion:reduce){.spiral{animation:none}}
 
+/* Ajustes noviembre 2026: más parecido a walambcn.com */
+.hero{padding:44px 0 40px!important}
+.spiral{width:min(150px,40vw)!important;margin:0 auto 10px!important}
+.wrap{max-width:1000px}
+.head{text-align:center;max-width:760px;margin:0 auto 26px}
+.head p{text-align:center}
+.explain .txt,.qbox,.faq .list{max-width:760px;margin:0 auto}
+.explain .txt p{text-align:center}
+.qbox{border-left:none;padding:0;text-align:center}.qbox p{text-align:center}
+.quote{max-width:760px;margin:22px auto 0!important;border-left:none!important;text-align:center;padding:6px 0!important}
+.fband{background:#fff;padding:26px 0;border-bottom:1px solid rgba(29,63,64,.1)}
+.fband .wrap{text-align:center}
+.fband .k{display:block;margin-bottom:10px;color:var(--pet)}
+.fband ul{list-style:none;display:flex;flex-wrap:wrap;justify-content:center;gap:8px 28px}
+.fband li{font-size:.93rem;color:var(--pet)}
+.ilist{list-style:none;max-width:760px;margin:18px auto 0;text-align:center}
+.ilist li{padding:6px 0;font-weight:600;color:var(--pet)}
+/* Más aire y menos negrita, como walambcn.com */
+body{font-weight:300!important;line-height:1.8!important}
+section{padding:78px 0}
+h1,h2,h3,h4{font-weight:500!important}
+.head h2{font-size:clamp(1.3rem,2.4vw,1.7rem)!important}
+.card h3,.step h3{font-size:1.02rem!important;font-weight:500!important}
+b,strong,.explain .txt b{font-weight:500!important}
+.faq summary{font-weight:500!important}
+.quote{font-weight:400!important;font-style:italic}
+.btn,.btn-tq{font-weight:500!important}
+.grid{gap:34px 40px}
+#una-medicina-sin-prisas .head .eyebrow{display:block!important;color:var(--tq);margin-bottom:6px}
+.cont{padding:34px 0!important}
+.cont h2{font-size:1.25rem!important;margin-top:0!important}
+.cont .eyebrow{display:none}
+.cont p{margin:6px auto 12px!important;font-size:.92rem}
+.cont .datos{margin-bottom:14px!important;font-size:.88rem!important}
+.cont .btn{padding:10px 22px;font-size:.88rem}
+#te-ayudamos .card{text-align:center;padding:10px 16px}#te-ayudamos .card h3{font-size:1.05rem!important;font-weight:400!important;margin:0}#te-ayudamos .card::before{content:'';display:block;width:34px;height:2px;background:var(--tq);margin:0 auto 18px}
+/* Medidas tomadas de walambcn.com (Método Wa Lam): Montserrat, H2 32px/700, texto 16px/400, interlineado 24px, mucho aire vertical, texto a todo el ancho */
+body{font-weight:400!important;line-height:1.5!important;font-size:16px!important}
+.wrap{max-width:1250px!important}
+section{padding:110px 0!important}
+.head{text-align:left!important;max-width:none!important;margin:0 0 40px!important}
+.head h2{font-size:32px!important;font-weight:700!important;line-height:1.25!important}
+.head p{text-align:justify!important}
+.explain .txt,.qbox,.faq .list{max-width:none!important;margin:0!important}
+.explain .txt p,.qbox p{text-align:justify!important;margin-bottom:22px}
+.qbox{text-align:left!important}
+.qbox h2{font-size:32px!important;font-weight:700!important;margin:0 0 30px!important}
+.quote{max-width:none!important;margin:10px 0 0!important;text-align:left!important;font-style:italic;font-weight:400!important}
+.card h3,.step h3{font-size:18px!important;font-weight:700!important}
+.card p,.step p{font-size:16px!important;line-height:1.5}
+b,strong,.explain .txt b{font-weight:600!important}
+.grid{gap:40px 48px!important}
+.hero{padding:44px 0 40px!important}
+.cont{padding:34px 0!important}
+.fband{padding:36px 0!important}
+#te-ayudamos .card{text-align:left!important;padding:0!important}
+#te-ayudamos .card::before{margin:0 0 18px!important}
+#te-ayudamos .card h3{font-size:18px!important;font-weight:500!important}
+.spiral{width:110px!important}
+.hero h1{font-size:clamp(1.5rem,2.6vw,2rem)!important;max-width:34ch!important}
+.hero .lead:empty{display:none}
+.hero .btn-row{margin-top:20px}
 .hero-dna{background-color:#dcebf2!important;background-position:center!important;background-size:cover!important;color:var(--pet)}
 .hero-dna h1,.hero-dna .hs,.hero-dna .lead,.hero-dna .eyebrow,.hero-dna .crumbs,.hero-dna .crumbs a{color:var(--pet)!important;text-shadow:0 0 18px rgba(255,255,255,.9)}
 .hero-dna .hcard{background:rgba(255,255,255,.72);border-color:rgba(29,63,64,.18)}
@@ -347,7 +409,7 @@ def head(p):
 <meta property="og:image:alt" content="{html.escape(plain(p.get('h1') or title))} · WA LAM">
 <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{html.escape(title)}"><meta name="twitter:description" content="{html.escape(desc)}"><meta name="twitter:image" content="{og}">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&display=swap" rel="stylesheet">
 <style>{CSS}</style>
 <script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>
 </head><body>"""
@@ -463,8 +525,7 @@ def hero(p):
 {sp}<div>{crumbs}<span class="eyebrow">{fmt(p['eyebrow'])}</span><h1>{fmt(p['h1'])}</h1>
 <div class="hs">{fmt(p['sub'])}</div><p class="lead">{fmt(p['lead'])}</p>
 <div class="btn-row"><a class="btn btn-tq" href="{b1[1]}" target="_blank" rel="noopener">{b1[0]}</a><a class="btn btn-gh" href="{b2[1]}">{b2[0]}</a></div></div>
-<aside class="hcard"><span class="k">{fmt(p.get('facts_title', tr('En WA LAM')))}</span><ul>{facts}</ul></aside>
-</div></section>"""
+</div></section>""" + ("" if p["group"] == "home" else f'<section class="fband"><div class="wrap"><span class="k">{fmt(p.get("facts_title", tr("En WA LAM")))}</span><ul>{facts}</ul></div></section>')
 
 
 def sec_head(eyebrow, h2, intro=None):
@@ -481,7 +542,8 @@ def mirror(m):
 def explain(e):
     ps = "".join(f"<p>{fmt(x)}</p>" for x in e["paras"])
     q = f'<div class="quote">{fmt(e["quote"])}</div>' if e.get("quote") else ""
-    return f'<section class="explain"><div class="wrap">{sec_head(e["eyebrow"], e["h2"])}<div class="txt">{ps}</div>{q}</div></section>'
+    li = (f'<p class="k" style="text-align:center;margin-top:22px">{fmt(e["list_title"])}</p><ul class="ilist">' + "".join(f"<li>{fmt(x)}</li>" for x in e["list"]) + "</ul>") if e.get("list") else ""
+    return f'<section class="explain"><div class="wrap">{sec_head(e["eyebrow"], e["h2"])}<div class="txt">{ps}</div>{li}{q}</div></section>'
 
 
 def cards(c, cls="cards"):
@@ -595,7 +657,9 @@ def quick(p):
     q = seo(p).get("quick")
     if not q:
         return ""
-    return (f'<section class="quick" id="en-resumen"><div class="wrap"><div class="qbox"><span class="k">{tr("En resumen")}</span>'
+    if p["group"] == "home":
+        return ""
+    return (f'<section class="quick" id="en-resumen"><div class="wrap"><div class="qbox">'
             f'<h2>{fmt(seo(p).get("q_title", p["nav"]))}</h2><p>{fmt(q)}</p></div></div></section>')
 
 
@@ -620,7 +684,7 @@ def local(p):
 
 
 def page(p):
-    parts = [head(p), nav(p), hero(p), byline(p) if p["group"] != "home" or True else ""]
+    parts = [head(p), nav(p), hero(p)]
     body, items = [], []
     for blk in p["blocks"]:
         t = blk["type"]

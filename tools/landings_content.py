@@ -2492,3 +2492,23 @@ for _p in PAGES:
 for _p in PAGES:
     if _p["slug"] == "curso-mindfulness-mbsr-barcelona":
         _p["h1"] = "Curso de mindfulness MBSR de 8 semanas, online y en Barcelona"
+
+
+# Portada (noviembre 2026): un solo apartado de presentación, sin ejemplo del hombro
+for _p in PAGES:
+    if _p["slug"] == "medicina-integrativa-barcelona":
+        _b = _p["blocks"][0]
+        _b["eyebrow"] = "Medicina integrativa"
+        _b["h2"] = "Qué es la medicina integrativa y cómo la practicamos"
+        _b["_id"] = "que-es-la-medicina-integrativa"
+        _b["h2"] = "Qué es la medicina integrativa"
+        _b["paras"] = ["La medicina integrativa es un enfoque basado en la evidencia científica que contempla a la persona en su globalidad, no solo el síntoma. Aúna el conocimiento científico actual y las terapias que cuentan con respaldo en la evidencia en un único plan terapéutico, diseñado de forma individual para cada paciente."]
+        _p["blocks"].insert(1, {"type": "cards", "eyebrow": "", "h2": _p["facts_title"], "_id": "te-ayudamos",
+                                "items": [{"h": f, "p": ""} for f in _p["facts"]]})
+        for _c in _p["blocks"]:
+            if _c.get("h2") == "Una medicina sin prisas":
+                _c["eyebrow"] = "Slow medicine"
+for _p in PAGES:
+    if _p["slug"] == "medicina-integrativa-barcelona":
+        _p["lead"] = ""
+        _p["blocks"] = [b for b in _p["blocks"] if b.get("h2") != "¿Qué es WA LAM?"]
