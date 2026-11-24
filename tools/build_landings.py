@@ -382,6 +382,10 @@ h1,h2,h3,h4,.btn,.btn-tq,.faq summary,b,strong,.explain .txt b,.card h3,.step h3
 .note{padding:0!important;margin-top:56px;background:transparent!important;text-align:center}
 .note p{display:inline-block;max-width:860px!important;margin:0 auto!important;border:1px solid var(--tq);border-radius:40px;padding:14px 30px;color:#0a9a9c!important;opacity:1!important;font-size:.85rem!important;text-align:center!important;line-height:1.55}
 .evbtn{display:inline-block;margin-left:6px;border:1px solid var(--tq);border-radius:30px;padding:2px 12px;font-size:.8rem;color:#0a9a9c;text-decoration:none;white-space:nowrap}.evbtn:hover{background:var(--tq);color:#fff}
+.lggrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:36px 40px}
+.lg h3{font-size:18px!important;font-weight:700!important;color:var(--pet);padding-top:14px;border-top:2px solid var(--tq);margin-bottom:10px}
+.lg ul{list-style:none}.lg li{padding:4px 0}.lg a{color:var(--pet);text-decoration:none}.lg a:hover{color:#0a9a9c;text-decoration:underline}
+.lgall{margin-top:40px;text-align:center}
 .hero-dna{background-color:#dcebf2!important;background-position:center!important;background-size:cover!important;color:var(--pet)}
 .hero-dna h1,.hero-dna .hs,.hero-dna .lead,.hero-dna .eyebrow,.hero-dna .crumbs,.hero-dna .crumbs a{color:var(--pet)!important;text-shadow:0 0 18px rgba(255,255,255,.9)}
 .hero-dna .hcard{background:rgba(255,255,255,.72);border-color:rgba(29,63,64,.18)}
@@ -769,7 +773,7 @@ def page(p):
                                            "items": [{"h": f, "p": ""} for f in fx]})
     for blk in blocks:
         t = blk["type"]
-        h = {"mirror": mirror, "explain": explain, "cards": cards, "steps": steps, "evidence": evidence, "hubcards": hubcards, "pack": pack}.get(t)
+        h = {"mirror": mirror, "explain": explain, "cards": cards, "steps": steps, "evidence": evidence, "hubcards": hubcards, "pack": pack, "linkgroups": linkgroups}.get(t)
         if t == "pro":
             out = pro(blk, p); sid = "ficha"; label = tr("Ficha y reserva")
         else:
@@ -798,6 +802,15 @@ def page(p):
     parts.append(contact(p))
     parts.append(JS + "</body></html>")
     return "\n".join(x for x in parts if x)
+
+
+def linkgroups(b):
+    cols = []
+    for g in b["groups"]:
+        lis = "".join(f'<li><a href="{url(s)}">{fmt(BYSLUG[s]["nav"])}</a></li>' for s in g["links"] if s in BYSLUG)
+        cols.append(f'<div class="lg"><h3>{fmt(g["h"])}</h3><ul>{lis}</ul></div>')
+    allx = f'<p class="lgall"><a class="btn btn-gh" href="{url(b["all"])}">{tr("Ver todos los motivos de consulta")}</a></p>' if b.get("all") in BYSLUG else ""
+    return f'<section class="lgs"><div class="wrap">{sec_head(b.get("eyebrow", ""), b["h2"], b.get("intro"))}<div class="lggrid">{"".join(cols)}</div>{allx}</div></section>'
 
 
 def hubcards(b):

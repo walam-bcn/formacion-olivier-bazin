@@ -2526,3 +2526,9 @@ for _p in PAGES:
             _b["refs"] = [r for r in _b.get("refs", []) if "Smith CA" not in r["t"]]
     if _p.get("faq"):
         _p["faq"] = [("¿Qué aporta la acupuntura durante un tratamiento de fertilidad?", "Puede ayudarte a gestionar el estrés y a cuidar tu bienestar durante el proceso, como complemento del seguimiento de tu clínica de reproducción.") if q.startswith("¿La acupuntura mejora las probabilidades de embarazo") else (q, a) for q, a in _p["faq"]]
+
+# Landings de patologías nuevas (noviembre 2026)
+from new_pages import integrate_pages as _np_int  # noqa: E402
+_np_int(PAGES)
+from new_pages import integrate_areas as _np_areas  # noqa: E402
+_np_areas(PAGES)

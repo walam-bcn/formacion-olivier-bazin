@@ -198,3 +198,7 @@ VISIBILITY = [
     ("Nueva posible", "Informe escrito de la valoración de longevidad", "Refuerza el recorrido y la percepción de valor.", "pendiente de confirmar"),
     ("Nueva posible", "Revisión anual de longevidad", "Un seguimiento con fecha fija ayuda a mantener los hábitos.", "pendiente de confirmar"),
 ]
+
+# Landings de patologías nuevas (noviembre 2026)
+from new_pages import integrate_research as _np_res  # noqa: E402
+_np_res(RESEARCH)

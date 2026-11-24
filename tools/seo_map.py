@@ -493,3 +493,8 @@ CA_SLUG = {
     "formacion-re-trace": "formacio-re-trace", "retiros-mindfulness-meditacion-silencio": "recessos",
     "vacaciones-con-sentido": "vacances-amb-sentit",
 }
+
+# Landings de patologías nuevas (noviembre 2026)
+from new_pages import integrate_seo as _np_seo  # noqa: E402
+_np_seo(SEO, URLS, CA_SLUG, H)
+REDIRECTS.append((f"/{H}/lumbalgia-cervicalgia-cronica", f"/{H}/lumbalgia-dolor-lumbar", "La página conjunta se divide en Lumbalgia y Cervicalgia; la dirección antigua lleva a Lumbalgia."))
