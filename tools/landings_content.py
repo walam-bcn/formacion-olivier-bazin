@@ -2370,6 +2370,37 @@ for _p in PAGES:
         _rel = [r for r in _p.get("related", []) if r != "prevencion-longevidad"]
         _p["related"] = (["prevencion-longevidad"] + _rel)[:4]
 
+# ---------------------------------------------------------------- PROLAPSO
+R["hagen"] = _r("Hagen S, Stark D, 2011. «Conservative prevention and management of pelvic organ prolapse in women». Cochrane Database of Systematic Reviews.", "10.1002/14651858.CD003882.pub4")
+R["barber"] = _r("Barber MD, Maher C, 2013. «Epidemiology and outcome assessment of pelvic organ prolapse». International Urogynecology Journal.", "10.1007/s00192-013-2169-9")
+uro_page("prolapso-organos-pelvicos", "Prolapso de órganos pélvicos", "Sensación de bulto o peso vaginal por el descenso de la vejiga, el útero o el recto.",
+  "Prolapso de órganos pélvicos en Barcelona | WA LAM",
+  "Prolapso de órganos pélvicos en Sarrià–Sant Gervasi, Barcelona: sensación de peso o bulto vaginal. Abordaje osteopático externo complementario a la fisioterapia y la ginecología.",
+  "Prolapso de órganos pélvicos", "Prolapso de órganos pélvicos", "Cistocele, prolapso uterino y rectocele · Sarrià–Sant Gervasi",
+  "El prolapso de órganos pélvicos es el descenso de la vejiga, el útero o el recto hacia la vagina, cuando los ligamentos, las fascias y la musculatura que los sostienen pierden su capacidad de soporte. Se nota como peso, presión o un bulto en la vagina, que suele aumentar al final del día o tras un esfuerzo.",
+  ["Sensación de peso o bulto vaginal", "Tras el parto y en la menopausia", "Sistema de soporte de la pelvis", "Abordaje externo complementario", "Primera visita: 60 min · 90 €"],
+  "Hola, me gustaría información sobre el prolapso de órganos pélvicos.",
+  "Cuando notas peso en la pelvis",
+  ["¿Notas una sensación de peso, presión o bulto en la vagina?", "¿Las molestias aumentan al final del día, al estar mucho de pie o al cargar peso?", "¿Te cuesta vaciar del todo la vejiga o el intestino?", "¿Te han diagnosticado un cistocele, un prolapso uterino o un rectocele?"],
+  "El diagnóstico y el grado del prolapso los establece tu ginecóloga. Si el bulto sale fuera de la vagina, sangra o no puedes orinar, consulta con ella sin demora.",
+  "Un problema del sistema de soporte",
+  ["La vejiga, el útero y el recto se mantienen en su posición gracias a un sistema de ligamentos, fascias y músculos. El embarazo y el parto, el descenso hormonal de la menopausia, el estreñimiento crónico, la tos persistente o el esfuerzo repetido pueden debilitarlo.",
+   "Es muy frecuente: según una revisión internacional, entre el 3 % y el 6 % de las mujeres tienen síntomas de prolapso, y hasta la mitad presenta algún grado de descenso en la exploración, aunque muchas no lo noten. El entrenamiento de la musculatura del suelo pélvico con una fisioterapeuta especializada es el tratamiento conservador de referencia; en WA LAM lo complementamos con un abordaje osteopático externo de la pelvis, el abdomen y el diafragma."],
+  "Cómo afecta a la vida diaria",
+  ["La sensación de peso, las molestias al estar de pie y las dificultades para orinar o defecar afectan a la actividad física, a la sexualidad y a la confianza en el propio cuerpo."],
+  [("Revisión Cochrane", "En mujeres con prolapso, el entrenamiento de la musculatura del suelo pélvico mejoró los síntomas y aumentó la probabilidad de mejorar el grado del prolapso frente a no hacer tratamiento (Hagen y Stark, 2011)."),
+   ("Revisión (Int Urogynecol J)", "Entre el 3 % y el 6 % de las mujeres refieren síntomas de prolapso, y hasta el 50 % presenta algún grado de descenso en la exploración vaginal (Barber y Maher, 2013).")],
+  [R["hagen"], R["barber"]],
+  [("¿Sustituye a la fisioterapia de suelo pélvico o a la cirugía?", "No. El entrenamiento del suelo pélvico es el tratamiento conservador de referencia y, en los casos que lo requieren, la ginecóloga valora otras opciones. Nuestro abordaje es complementario."),
+   ("¿Hacéis tratamiento interno?", "No. Nuestro abordaje es siempre externo.")],
+  ["suelo-pelvico-dolor-pelvico", "incontinencia-urinaria-esfuerzo", "osteopatia-embarazo-posparto", "salud-mujer-menopausia"], "Recuperar la confianza en tu cuerpo")
+PRO["prolapso-organos-pelvicos"] = PRO["incontinencia-urinaria-esfuerzo"]
+for _p in PAGES:
+    if _p["slug"] == "suelo-pelvico-dolor-pelvico":
+        for _b in _p["blocks"]:
+            if _b.get("h2") == "Motivos de consulta":
+                _b["items"].append({"h": "[Prolapso de órganos pélvicos](prolapso-organos-pelvicos)"})
+
 # re:trace solo aparece en su propia página (y en la de su formación)
 for _p in PAGES:
     if _p["slug"] not in ("programas-re-trace", "formacion-re-trace"):
