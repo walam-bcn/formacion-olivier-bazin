@@ -204,14 +204,6 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Què és la medicina integrativa?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "És una medicina basada en l'evidència que mira la persona sencera, no només el símptoma. Combina el coneixement científic actual amb les teràpies complementàries que compten amb suport científic, com a complement del seguiment del teu metge."
-          }
-        },
-        {
-          "@type": "Question",
           "name": "És el mateix que la medicina alternativa?",
           "acceptedAnswer": {
             "@type": "Answer",
@@ -220,18 +212,10 @@
         },
         {
           "@type": "Question",
-          "name": "Quant costa la primera visita?",
+          "name": "Quant dura i quant costa la primera visita?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "La primera visita costa 90 €."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Quant dura la primera visita?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Seixanta minuts. Si tens analítiques o proves recents, porta-les: les utilitzem per no repetir proves sense motiu."
+            "text": "Dura seixanta minuts i costa 90 €."
           }
         },
         {

@@ -10,7 +10,7 @@ SEO = {
         "ca": "medicina integrativa Barcelona",
         "title": "Medicina integrativa en Barcelona · Sarrià–Sant Gervasi | WA LAM",
         "desc": "Medicina integrativa en Sarrià–Sant Gervasi (Barcelona): tratamos tu motivo de consulta con una visión global, más allá del síntoma. Primera visita: 90 €.",
-        "quick": "WA LAM es un centro de medicina integrativa en Sarrià–Sant Gervasi (Barcelona), fundado en 2004. Ante un motivo de consulta concreto, como un dolor de hombro, valora también la postura, la digestión, el sueño o el estrés que pueden mantenerlo. La primera visita dura 60 minutos (90 €) y un problema concreto suele resolverse en cinco o seis sesiones.",
+        "quick": "La medicina integrativa es un enfoque basado en la evidencia científica que contempla a la persona en su globalidad, no solo el síntoma. En WA LAM, en Sarrià–Sant Gervasi (Barcelona), aunamos el conocimiento científico actual y las terapias que cuentan con respaldo en la evidencia en un único plan terapéutico, diseñado de forma individual para cada paciente.",
         "entity": None,
     },
     "programas-re-trace": {
