@@ -139,8 +139,8 @@
         },
         {
           "@type": "MedicalTherapy",
-          "name": "Masajes",
-          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/masajes-sarria-sant-gervasi"
+          "name": "Masaje terapéutico",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/masaje-terapeutico"
         },
         {
           "@type": "MedicalTherapy",
@@ -151,6 +151,11 @@
           "@type": "MedicalTherapy",
           "name": "Yoga terapéutico",
           "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/yoga-terapeutico"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Qigong (chi kung)",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/qigong-chi-kung"
         },
         {
           "@type": "MedicalTherapy",
@@ -171,6 +176,16 @@
           "@type": "MedicalTherapy",
           "name": "Osteopatía en bebés y niños",
           "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/osteopatia-bebes-ninos"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Mindfulness",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/mindfulness"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Clases de estiramientos",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/clases-de-estiramientos"
         }
       ],
       "sameAs": [
@@ -179,7 +194,7 @@
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://www.walambcn.com/academia-vida-saludable-barcelona/qigong#breadcrumb",
+      "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/qigong-chi-kung#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -190,23 +205,23 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "Academia",
-          "item": "https://www.walambcn.com/academia-vida-saludable-barcelona"
+          "name": "Servicios y terapias",
+          "item": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona"
         },
         {
           "@type": "ListItem",
           "position": 3,
-          "name": "Qigong",
-          "item": "https://www.walambcn.com/academia-vida-saludable-barcelona/qigong"
+          "name": "Qigong (chi kung)",
+          "item": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/qigong-chi-kung"
         }
       ]
     },
     {
-      "@type": "WebPage",
-      "@id": "https://www.walambcn.com/academia-vida-saludable-barcelona/qigong#webpage",
-      "url": "https://www.walambcn.com/academia-vida-saludable-barcelona/qigong",
-      "name": "Clases de qigong en Barcelona · Particulares y online | WA LAM",
-      "description": "Clases de qigong particulares en Barcelona (Sarrià–Sant Gervasi) u online con la membresía: ejercicio suave para el equilibrio, la movilidad y el estrés.",
+      "@type": "MedicalWebPage",
+      "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/qigong-chi-kung#webpage",
+      "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/qigong-chi-kung",
+      "name": "Qigong o chi kung en Barcelona | WA LAM",
+      "description": "Qigong o chi kung terapéutico en Sarrià–Sant Gervasi, Barcelona: sesiones particulares para el equilibrio, la tensión arterial y el estrés, y online.",
       "inLanguage": "es-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -214,14 +229,14 @@
         "url": "https://www.walambcn.com"
       },
       "breadcrumb": {
-        "@id": "https://www.walambcn.com/academia-vida-saludable-barcelona/qigong#breadcrumb"
+        "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/qigong-chi-kung#breadcrumb"
       },
       "publisher": {
         "@id": "https://www.walambcn.com/#clinica"
       },
       "lastReviewed": "2026-11-18",
       "dateModified": "2026-11-18",
-      "keywords": "qigong Barcelona, clases de qigong Barcelona, qigong Sarrià Sant Gervasi, qigong personas mayores, qigong equilibrio",
+      "keywords": "qigong Barcelona, qigong Barcelona, chi kung Barcelona, chikung, qigong terapéutico, qigong para la ansiedad, Baduanjin",
       "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/qigong-barcelona.png",
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -230,6 +245,9 @@
           "h1"
         ]
       },
+      "audience": {
+        "@type": "Patient"
+      },
       "reviewedBy": {
         "@type": "Person",
         "name": "Rosa María Rodríguez Valls",
@@ -237,31 +255,83 @@
         "worksFor": {
           "@id": "https://www.walambcn.com/#clinica"
         }
-      }
+      },
+      "about": {
+        "@type": "MedicalTherapy",
+        "name": "Qigong"
+      },
+      "citation": [
+        {
+          "@type": "ScholarlyArticle",
+          "name": "A Comprehensive Review of Health Benefits of Qigong and Tai Chi",
+          "url": "https://doi.org/10.4278/ajhp.081013-LIT-248",
+          "sameAs": "https://doi.org/10.4278/ajhp.081013-LIT-248"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Qigong for Hypertension: A Systematic Review",
+          "url": "https://doi.org/10.1097/MD.0000000000000352",
+          "sameAs": "https://doi.org/10.1097/MD.0000000000000352"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Tai Chi and Qigong for cancer-related symptoms and quality of life: a systematic review and meta-analysis",
+          "url": "https://doi.org/10.1007/s11764-017-0665-5",
+          "sameAs": "https://doi.org/10.1007/s11764-017-0665-5"
+        }
+      ]
     },
     {
-      "@type": "Course",
-      "@id": "https://www.walambcn.com/academia-vida-saludable-barcelona/qigong#curso",
-      "name": "Qigong en Barcelona",
-      "description": "Clases de qigong particulares en Barcelona (Sarrià–Sant Gervasi) u online con la membresía: ejercicio suave para el equilibrio, la movilidad y el estrés.",
+      "@type": "Service",
+      "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/qigong-chi-kung#servicio",
+      "name": "Qigong o chi kung en Barcelona",
+      "serviceType": "Qigong (chi kung)",
       "provider": {
-        "@type": "Organization",
-        "name": "WA LAM · Healthy Lifestyle Academy",
-        "url": "https://www.walambcn.com"
+        "@id": "https://www.walambcn.com/#clinica"
       },
-      "inLanguage": "es",
-      "url": "https://www.walambcn.com/academia-vida-saludable-barcelona/qigong"
+      "areaServed": [
+        {
+          "@type": "Place",
+          "name": "Sarrià, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Sant Gervasi–Galvany, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Sant Gervasi–la Bonanova, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "les Tres Torres, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "el Putxet i el Farró, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Vallvidrera, el Tibidabo i les Planes, Barcelona"
+        },
+        {
+          "@type": "City",
+          "name": "Barcelona"
+        }
+      ],
+      "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/qigong-chi-kung",
+      "description": "Qigong o chi kung terapéutico en Sarrià–Sant Gervasi, Barcelona: sesiones particulares para el equilibrio, la tensión arterial y el estrés, y online."
     },
     {
       "@type": "FAQPage",
-      "@id": "https://www.walambcn.com/academia-vida-saludable-barcelona/qigong#faq",
+      "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/qigong-chi-kung#faq",
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "¿Necesito estar en forma?",
+          "name": "¿Qué diferencia hay entre qigong y chi kung?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. El qigong se adapta a cualquier nivel y se puede practicar incluso sentado."
+            "text": "Ninguna: son dos formas de escribir la misma palabra china. «Qigong» sigue la transcripción oficial del chino (pinyin), y «chi kung» o «chikung», una transcripción más antigua que refleja mejor su pronunciación."
           }
         },
         {
@@ -269,7 +339,31 @@
           "name": "¿En qué se diferencia del taichí?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Comparten raíces. El taichí es una secuencia más larga de movimientos encadenados; el qigong suele trabajar ejercicios más cortos y repetidos."
+            "text": "Comparten origen y principios. El taichí es un arte marcial que encadena una secuencia larga de movimientos; el qigong trabaja ejercicios más cortos y repetidos, más fáciles de aprender y de adaptar a cada situación de salud."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Necesito estar en forma o tener experiencia?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. El qigong se adapta a su nivel y puede practicarse sentado o con apoyo. Es una buena opción si hace tiempo que no realiza ejercicio o si otras actividades le resultan demasiado exigentes."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuándo notaré los efectos?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Muchas personas notan más calma y un mejor descanso desde las primeras sesiones. Los cambios en el equilibrio, la presión arterial o la fatiga suelen requerir una práctica regular durante 8 a 12 semanas, idealmente con unos minutos diarios en casa."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuánto cuesta y cómo funciona la modalidad online?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "La sesión particular de 60 minutos cuesta 50 €, y dispone de un pack de 10 sesiones. También puede practicar desde casa con la membresía online, desde 25 € al mes. Solo necesita ropa cómoda y un espacio tranquilo."
           }
         }
       ]

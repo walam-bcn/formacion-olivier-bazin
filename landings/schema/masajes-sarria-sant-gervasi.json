@@ -139,8 +139,8 @@
         },
         {
           "@type": "MedicalTherapy",
-          "name": "Masajes",
-          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/masajes-sarria-sant-gervasi"
+          "name": "Masaje terapéutico",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/masaje-terapeutico"
         },
         {
           "@type": "MedicalTherapy",
@@ -151,6 +151,11 @@
           "@type": "MedicalTherapy",
           "name": "Yoga terapéutico",
           "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/yoga-terapeutico"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Qigong (chi kung)",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/qigong-chi-kung"
         },
         {
           "@type": "MedicalTherapy",
@@ -171,6 +176,16 @@
           "@type": "MedicalTherapy",
           "name": "Osteopatía en bebés y niños",
           "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/osteopatia-bebes-ninos"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Mindfulness",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/mindfulness"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Clases de estiramientos",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/clases-de-estiramientos"
         }
       ],
       "sameAs": [
@@ -179,7 +194,7 @@
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/masajes-sarria-sant-gervasi#breadcrumb",
+      "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/masaje-terapeutico#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -196,17 +211,17 @@
         {
           "@type": "ListItem",
           "position": 3,
-          "name": "Masajes",
-          "item": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/masajes-sarria-sant-gervasi"
+          "name": "Masaje terapéutico",
+          "item": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/masaje-terapeutico"
         }
       ]
     },
     {
       "@type": "MedicalWebPage",
-      "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/masajes-sarria-sant-gervasi#webpage",
-      "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/masajes-sarria-sant-gervasi",
-      "name": "Masajes en Sarrià–Sant Gervasi, Barcelona | WA LAM",
-      "description": "Masaje descontracturante y relajante en Sarrià–Sant Gervasi, Barcelona. Modalidades, duración, precio y reserva online en WA LAM.",
+      "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/masaje-terapeutico#webpage",
+      "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/masaje-terapeutico",
+      "name": "Masaje terapéutico en Barcelona | WA LAM",
+      "description": "Masaje terapéutico y descontracturante en Sarrià–Sant Gervasi, Barcelona: terapia manual para contracturas y dolor de espalda. Sesión de 60 min · 70 €.",
       "inLanguage": "es-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -214,14 +229,14 @@
         "url": "https://www.walambcn.com"
       },
       "breadcrumb": {
-        "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/masajes-sarria-sant-gervasi#breadcrumb"
+        "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/masaje-terapeutico#breadcrumb"
       },
       "publisher": {
         "@id": "https://www.walambcn.com/#clinica"
       },
       "lastReviewed": "2026-11-18",
       "dateModified": "2026-11-18",
-      "keywords": "masajes Sarrià Sant Gervasi, masaje descontracturante Barcelona, masaje relajante Sant Gervasi, masajes zona alta Barcelona",
+      "keywords": "masaje terapéutico Barcelona, masaje terapéutico Barcelona, masaje descontracturante Barcelona, masaje terapéutico Sarrià, quiromasaje Barcelona, masaje para contracturas, masaje para dolor de espalda, masaje deportivo Barcelona, masaje Sarrià, masaje Sarrià Sant Gervasi, masaje espalda Barcelona",
       "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/masajes-sarria-sant-gervasi.png",
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -244,13 +259,33 @@
       "about": {
         "@type": "MedicalTherapy",
         "name": "Masaje terapéutico"
-      }
+      },
+      "citation": [
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Noninvasive Treatments for Acute, Subacute, and Chronic Low Back Pain: A Clinical Practice Guideline From the American College of Physicians",
+          "url": "https://doi.org/10.7326/M16-2367",
+          "sameAs": "https://doi.org/10.7326/M16-2367"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "The Impact of Massage Therapy on Function in Pain Populations—A Systematic Review and Meta-Analysis of Randomized Controlled Trials: Part I, Patients Experiencing Pain in the General Population",
+          "url": "https://doi.org/10.1093/pm/pnw099",
+          "sameAs": "https://doi.org/10.1093/pm/pnw099"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "A Meta-Analysis of Massage Therapy Research",
+          "url": "https://doi.org/10.1037/0033-2909.130.1.3",
+          "sameAs": "https://doi.org/10.1037/0033-2909.130.1.3"
+        }
+      ]
     },
     {
       "@type": "Service",
-      "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/masajes-sarria-sant-gervasi#servicio",
-      "name": "Masajes en Sarrià–Sant Gervasi",
-      "serviceType": "Masajes",
+      "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/masaje-terapeutico#servicio",
+      "name": "Masaje terapéutico en Barcelona",
+      "serviceType": "Masaje terapéutico",
       "provider": {
         "@id": "https://www.walambcn.com/#clinica"
       },
@@ -284,19 +319,51 @@
           "name": "Barcelona"
         }
       ],
-      "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/masajes-sarria-sant-gervasi",
-      "description": "Masaje descontracturante y relajante en Sarrià–Sant Gervasi, Barcelona. Modalidades, duración, precio y reserva online en WA LAM."
+      "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/masaje-terapeutico",
+      "description": "Masaje terapéutico y descontracturante en Sarrià–Sant Gervasi, Barcelona: terapia manual para contracturas y dolor de espalda. Sesión de 60 min · 70 €."
     },
     {
       "@type": "FAQPage",
-      "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/masajes-sarria-sant-gervasi#faq",
+      "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/masaje-terapeutico#faq",
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "¿Tenéis tarjetas regalo?",
+          "name": "¿Qué diferencia hay entre el masaje terapéutico y el relajante?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí. Escríbanos por WhatsApp y le preparamos una tarjeta regalo."
+            "text": "El masaje terapéutico o descontracturante se centra en las zonas de dolor y contractura, con una presión más profunda. El relajante utiliza un ritmo lento y una presión moderada en todo el cuerpo para reducir la tensión general y el estrés."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Duele el masaje descontracturante?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Puede notarse intenso sobre una contractura, pero la presión se ajusta a su tolerancia y no debe resultar doloroso. Es normal sentir la zona algo sensible durante uno o dos días."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuántas sesiones necesitaré?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Una contractura reciente suele mejorar en una a tres sesiones. En el dolor de espalda persistente o la sobrecarga deportiva habitual suele ser útil una sesión semanal o quincenal durante unas semanas. Le orientamos según su caso."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuándo es mejor una valoración de osteopatía?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Si el dolor es persistente, se irradia a un brazo o una pierna, o aparece tras una lesión o una operación, conviene empezar por una valoración de osteopatía para definir el tratamiento más adecuado."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuánto cuesta y tienen tarjetas regalo?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "La sesión de masaje terapéutico de 60 minutos cuesta 70 €; el resto de modalidades tienen el precio indicado en cada una. Dispone de packs de 10 sesiones y de tarjetas regalo: escríbanos por WhatsApp."
           }
         }
       ]

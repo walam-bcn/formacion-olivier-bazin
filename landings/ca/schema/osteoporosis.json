@@ -139,8 +139,8 @@
         },
         {
           "@type": "MedicalTherapy",
-          "name": "Massatges",
-          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/massatges-sarria-sant-gervasi"
+          "name": "Massatge terapèutic",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/massatge-terapeutic"
         },
         {
           "@type": "MedicalTherapy",
@@ -151,6 +151,11 @@
           "@type": "MedicalTherapy",
           "name": "Ioga terapèutic",
           "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/ioga-terapeutic"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Qigong (chi kung)",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/qigong-chikung"
         },
         {
           "@type": "MedicalTherapy",
@@ -171,6 +176,16 @@
           "@type": "MedicalTherapy",
           "name": "Osteopatia en nadons i infants",
           "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/osteopatia-nadons-infants"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Mindfulness",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/mindfulness-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Classes d'estiraments",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/classes-estiraments"
         }
       ],
       "sameAs": [
@@ -244,7 +259,12 @@
       "about": {
         "@type": "MedicalCondition",
         "name": "Osteoporosi",
-        "possibleTreatment": []
+        "possibleTreatment": [
+          {
+            "@type": "MedicalTherapy",
+            "name": "Qigong (chi kung)"
+          }
+        ]
       },
       "citation": [
         {

@@ -209,3 +209,5 @@ VISIBILITY = [
 # Landings de patologías nuevas (noviembre 2026)
 from new_pages import integrate_research as _np_res  # noqa: E402
 _np_res(RESEARCH)
+
+ASK.append('Google Ads y Search Console · Masaje terapéutico: añade como palabras clave negativas (y no las uses nunca en la web ni en la ficha de Google): erótico, erotico, tántrico, tantra, sensual, final feliz, happy ending, masaje con final, escort, body to body, nuru, relax 24h, 24 horas, a domicilio, lingam, yoni, prostático, masaje para hombres, masaje en pareja, chicas. En Wix, cambia «Masaje californiano psico-sensitivo» por «Masaje californiano» y evita «relax» suelto o «masajista» sin más.')
