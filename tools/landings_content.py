@@ -2471,3 +2471,21 @@ for _p in PAGES:
              "items": [("Inicio", "Comentamos cómo estás ese día y adaptamos la práctica."),
                        ("Práctica", "Respiración, movilidad, fuerza y equilibrio, con las modificaciones que necesites."),
                        ("Cierre", "Relajación guiada y pautas sencillas para practicar en casa.")]}]
+
+# Frases elegidas por Rosa (noviembre de 2026)
+for _p in PAGES:
+    if _p["slug"] == "medicina-integrativa-barcelona":
+        _p["sub"] = "Mirar más allá del síntoma"
+        for _b in _p["blocks"]:
+            if _b.get("h2") == "Cómo practicamos la medicina integrativa en WA LAM":
+                _b["quote"] = "Ciencia y cuidado, en un mismo tratamiento."
+        _p["cta"] = {"h2": "Tu salud, hoy y en los años que vienen", "p": "Escríbenos por WhatsApp y te orientamos sobre tu caso."}
+    if _p["slug"] == "prevencion-longevidad":
+        _p["sub"] = "Vivir más años y vivirlos mejor · Sarrià–Sant Gervasi"
+        _p["blocks"][0]["quote"] = "La salud que construyes hoy es la que vivirás mañana."
+    if _p["slug"] == "neurolongevidad-salud-cognitiva":
+        _p["sub"] = "Un cerebro joven a cualquier edad · Sarrià–Sant Gervasi"
+        for _b in _p["blocks"]:
+            if _b.get("type") == "explain":
+                _b["quote"] = "Tu cerebro también envejece. Puedes cuidarlo."
+                break
