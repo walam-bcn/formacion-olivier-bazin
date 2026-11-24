@@ -211,3 +211,10 @@ from new_pages import integrate_research as _np_res  # noqa: E402
 _np_res(RESEARCH)
 
 ASK.append('Google Ads y Search Console · Masaje terapéutico: añade como palabras clave negativas (y no las uses nunca en la web ni en la ficha de Google): erótico, erotico, tántrico, tantra, sensual, final feliz, happy ending, masaje con final, escort, body to body, nuru, relax 24h, 24 horas, a domicilio, lingam, yoni, prostático, masaje para hombres, masaje en pareja, chicas. En Wix, cambia «Masaje californiano psico-sensitivo» por «Masaje californiano» y evita «relax» suelto o «masajista» sin más.')
+ASK.append('Google (ficha «Wa Lam») · Servicios con nombre de búsqueda: «Masaje terapéutico», «Masaje descontracturante», «Reflexología podal», «Drenaje linfático manual», «Reiki», «Osteopatía», «Acupuntura», «Yoga terapéutico», «Qigong», «Mindfulness», cada uno con precio, una frase y el enlace a su landing.')
+ASK.append('Google (ficha «Wa Lam») · Categorías secundarias de masaje si existen en el listado: «Masajista terapéutico/Terapeuta de masaje», «Centro de reflexología», además de osteópata y acupuntura.')
+ASK.append('Google (ficha «Wa Lam») · Reseñas: usa el enlace «Pedir reseñas» de la ficha tras cada sesión y responde a todas sin mencionar datos de salud.')
+ASK.append('Google (ficha «Wa Lam») · Fotos reales cada mes: fachada y portal (para reconocer la entrada), sala, camilla y equipo.')
+ASK.append('Google (ficha «Wa Lam») · Preguntas y respuestas en la ficha: «¿Hacéis masaje descontracturante?», «¿Cuánto cuesta un masaje?», «¿Hay que pedir cita?».')
+ASK.append('Directorios · Mismo nombre, dirección y teléfono en Apple Business Connect (Apple Maps), Bing Places, Waze, Doctoralia, Páginas Amarillas, Yelp, Facebook e Instagram (con la ubicación activada).')
+ASK.append('Wix · Pie de página de todas las páginas: dirección completa, mapa incrustado de la ficha de Google y botón «Cómo llegar» (https://www.google.com/maps/dir/?api=1&destination=Wa%20Lam%2C%20Carrer%20del%20Bisbe%20Sivilla%2044%2C%2008022%20Barcelona).')

@@ -186,6 +186,11 @@
           "@type": "MedicalTherapy",
           "name": "Classes d'estiraments",
           "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/classes-estiraments"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Reiki",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/reiki-barcelona"
         }
       ],
       "sameAs": [
@@ -220,8 +225,8 @@
       "@type": "MedicalWebPage",
       "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/drenatge-limfatic-manual#webpage",
       "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/drenatge-limfatic-manual",
-      "name": "Drenatge limfàtic manual a Sarrià–Sant Gervasi | WA LAM",
-      "description": "Drenatge limfàtic manual a Sarrià–Sant Gervasi, Barcelona: retenció de líquids, postoperatori i embaràs. Pacients oncològics amb autorització mèdica.",
+      "name": "Drenatge limfàtic manual a Barcelona | WA LAM",
+      "description": "Drenatge limfàtic manual (Vodder i Leduc) a Sarrià–Sant Gervasi, Barcelona: retenció de líquids, cames cansades i postoperatori. 60 min · 70 €.",
       "inLanguage": "ca-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -236,7 +241,7 @@
       },
       "lastReviewed": "2026-11-18",
       "dateModified": "2026-11-18",
-      "keywords": "drenatge limfàtic manual Barcelona, drenatge limfàtic Sarrià Sant Gervasi, drenatge limfàtic retenció de líquids, drenatge limfàtic Sant Gervasi, drenatge limfàtic limfedema Barcelona",
+      "keywords": "drenatge limfàtic manual Barcelona, drenatge limfàtic manual Barcelona, drenaje linfático Barcelona, drenatge limfàtic Sarrià Sant Gervasi, drenaje linfático método Vodder, drenaje linfático piernas, drenatge limfàtic retenció de líquids, drenaje linfático lipedema",
       "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/drenaje-linfatico-manual.png",
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -266,13 +271,19 @@
           "name": "Manual lymphatic drainage for lymphedema following breast cancer treatment",
           "url": "https://doi.org/10.1002/14651858.CD003475.pub2",
           "sameAs": "https://doi.org/10.1002/14651858.CD003475.pub2"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Manual lymphatic drainage treatment for lymphedema: a systematic review of the literature",
+          "url": "https://doi.org/10.1007/s11764-020-00928-1",
+          "sameAs": "https://doi.org/10.1007/s11764-020-00928-1"
         }
       ]
     },
     {
       "@type": "Service",
       "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/drenatge-limfatic-manual#servicio",
-      "name": "Drenatge limfàtic manual a Sarrià–Sant Gervasi",
+      "name": "Drenatge limfàtic manual a Barcelona",
       "serviceType": "Drenatge limfàtic manual",
       "provider": {
         "@id": "https://www.walambcn.com/#clinica"
@@ -308,7 +319,7 @@
         }
       ],
       "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/drenatge-limfatic-manual",
-      "description": "Drenatge limfàtic manual a Sarrià–Sant Gervasi, Barcelona: retenció de líquids, postoperatori i embaràs. Pacients oncològics amb autorització mèdica."
+      "description": "Drenatge limfàtic manual (Vodder i Leduc) a Sarrià–Sant Gervasi, Barcelona: retenció de líquids, cames cansades i postoperatori. 60 min · 70 €."
     },
     {
       "@type": "FAQPage",
@@ -316,26 +327,34 @@
       "mainEntity": [
         {
           "@type": "Question",
+          "name": "Fa mal el drenatge limfàtic?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. La pressió és molt suau, perquè els vasos limfàtics són just sota la pell. Si una zona està sensible, com en el lipedema o després d'una operació, la tècnica s'adapta encara més."
+          }
+        },
+        {
+          "@type": "Question",
           "name": "És el mateix que la pressoteràpia?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. La pressoteràpia aplica compressió amb un aparell pneumàtic; el drenatge limfàtic manual és una tècnica feta amb les mans."
+            "text": "No. La pressoteràpia aplica compressió amb un aparell pneumàtic; el drenatge limfàtic manual es fa amb les mans i permet adaptar la direcció i la pressió a cada zona i a cada persona."
           }
         },
         {
           "@type": "Question",
-          "name": "Atenteu pacients amb càncer?",
+          "name": "Quantes sessions necessitaré?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí, però sempre amb l'autorització del seu metge."
+            "text": "Per a unes cames cansades pot ser suficient una sessió setmanal o quinzenal a les èpoques de més calor. En el postoperatori, el limfedema o el lipedema solen caldre diverses sessions seguides durant unes setmanes. L'orientem segons el seu cas."
           }
         },
         {
           "@type": "Question",
-          "name": "Quantes sessions necessito?",
+          "name": "Quan puc començar després d'una operació?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Depèn del motiu. Si té limfedema diagnosticat, el nombre de sessions s'ajusta al que indiqui el seu metge especialista."
+            "text": "Depèn de la intervenció i de les indicacions del seu cirurgià. Després d'una cirurgia estètica se sol començar els primers dies; després d'una cirurgia traumatològica, quan la ferida ho permet. Consulti la nostra pàgina de drenatge postoperatori."
           }
         },
         {
@@ -343,7 +362,7 @@
           "name": "Quant costa?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "La sessió d'1 hora costa 70 € i el bo de 10 sessions més 1 de regal, 700 €."
+            "text": "La sessió de 60 minuts costa 70 €. Disposa d'un paquet de 10 sessions: escrigui'ns per WhatsApp."
           }
         }
       ]

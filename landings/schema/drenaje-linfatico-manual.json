@@ -186,6 +186,11 @@
           "@type": "MedicalTherapy",
           "name": "Clases de estiramientos",
           "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/clases-de-estiramientos"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Reiki",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/reiki"
         }
       ],
       "sameAs": [
@@ -220,8 +225,8 @@
       "@type": "MedicalWebPage",
       "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/drenaje-linfatico-manual#webpage",
       "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/drenaje-linfatico-manual",
-      "name": "Drenaje linfático manual en Sarrià–Sant Gervasi | WA LAM",
-      "description": "Drenaje linfático manual en Sarrià–Sant Gervasi, Barcelona: retención de líquidos, postoperatorio y embarazo. Pacientes oncológicos con autorización médica.",
+      "name": "Drenaje linfático manual en Barcelona | WA LAM",
+      "description": "Drenaje linfático manual (Vodder y Leduc) en Sarrià–Sant Gervasi, Barcelona: retención de líquidos, piernas cansadas y postoperatorio. 60 min · 70 €.",
       "inLanguage": "es-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -236,7 +241,7 @@
       },
       "lastReviewed": "2026-11-18",
       "dateModified": "2026-11-18",
-      "keywords": "drenaje linfático manual Barcelona, drenaje linfático Sarrià Sant Gervasi, drenaje linfático retención de líquidos, drenaje linfático Sant Gervasi, drenaje linfático linfedema Barcelona",
+      "keywords": "drenaje linfático manual Barcelona, drenaje linfático manual Barcelona, drenaje linfático Barcelona, drenaje linfático Sarrià Sant Gervasi, drenaje linfático método Vodder, drenaje linfático piernas, drenaje linfático retención de líquidos, drenaje linfático lipedema",
       "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/drenaje-linfatico-manual.png",
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -266,13 +271,19 @@
           "name": "Manual lymphatic drainage for lymphedema following breast cancer treatment",
           "url": "https://doi.org/10.1002/14651858.CD003475.pub2",
           "sameAs": "https://doi.org/10.1002/14651858.CD003475.pub2"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Manual lymphatic drainage treatment for lymphedema: a systematic review of the literature",
+          "url": "https://doi.org/10.1007/s11764-020-00928-1",
+          "sameAs": "https://doi.org/10.1007/s11764-020-00928-1"
         }
       ]
     },
     {
       "@type": "Service",
       "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/drenaje-linfatico-manual#servicio",
-      "name": "Drenaje linfático manual en Sarrià–Sant Gervasi",
+      "name": "Drenaje linfático manual en Barcelona",
       "serviceType": "Drenaje linfático manual",
       "provider": {
         "@id": "https://www.walambcn.com/#clinica"
@@ -308,7 +319,7 @@
         }
       ],
       "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/drenaje-linfatico-manual",
-      "description": "Drenaje linfático manual en Sarrià–Sant Gervasi, Barcelona: retención de líquidos, postoperatorio y embarazo. Pacientes oncológicos con autorización médica."
+      "description": "Drenaje linfático manual (Vodder y Leduc) en Sarrià–Sant Gervasi, Barcelona: retención de líquidos, piernas cansadas y postoperatorio. 60 min · 70 €."
     },
     {
       "@type": "FAQPage",
@@ -316,26 +327,34 @@
       "mainEntity": [
         {
           "@type": "Question",
+          "name": "¿Duele el drenaje linfático?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. La presión es muy suave, porque los vasos linfáticos están justo bajo la piel. Si una zona está sensible, como en el lipedema o tras una operación, la técnica se adapta todavía más."
+          }
+        },
+        {
+          "@type": "Question",
           "name": "¿Es lo mismo que la presoterapia?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. La presoterapia aplica compresión con un aparato neumático; el drenaje linfático manual es una técnica realizada con las manos."
+            "text": "No. La presoterapia aplica compresión con un aparato neumático; el drenaje linfático manual se realiza con las manos y permite adaptar la dirección y la presión a cada zona y a cada persona."
           }
         },
         {
           "@type": "Question",
-          "name": "¿Atendéis a pacientes con cáncer?",
+          "name": "¿Cuántas sesiones necesitaré?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí, pero siempre con la autorización de su médico."
+            "text": "Para unas piernas cansadas puede bastar con una sesión semanal o quincenal en las épocas de más calor. En el postoperatorio, el linfedema o el lipedema suelen hacer falta varias sesiones seguidas durante unas semanas. Le orientamos según su caso."
           }
         },
         {
           "@type": "Question",
-          "name": "¿Cuántas sesiones necesito?",
+          "name": "¿Cuándo puedo empezar después de una operación?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Depende del motivo. Si tiene linfedema diagnosticado, el número de sesiones se ajusta a lo que indique su médico especialista."
+            "text": "Depende de la intervención y de las indicaciones de su cirujano. Tras una cirugía estética suele empezarse en los primeros días; tras una cirugía traumatológica, cuando la herida lo permite. Consulte nuestra página de drenaje postoperatorio."
           }
         },
         {
@@ -343,7 +362,7 @@
           "name": "¿Cuánto cuesta?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "La sesión de 1 hora cuesta 70 € y el bono de 10 sesiones más 1 de regalo, 700 €."
+            "text": "La sesión de 60 minutos cuesta 70 €. Dispone de un pack de 10 sesiones: escríbanos por WhatsApp."
           }
         }
       ]

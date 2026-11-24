@@ -1,0 +1,377 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": [
+        "MedicalClinic",
+        "MedicalBusiness"
+      ],
+      "@id": "https://www.walambcn.com/#clinica",
+      "name": "WA LAM",
+      "alternateName": "Wa Lam · Medicina integrativa",
+      "hasMap": "https://www.google.com/maps/search/?api=1&query=Wa%20Lam%2C%20Carrer%20del%20Bisbe%20Sivilla%2044%2C%2008022%20Barcelona",
+      "url": "https://www.walambcn.com",
+      "telephone": "+34675716409",
+      "email": "contacto@walambcn.com",
+      "image": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/medicina-integrativa-barcelona.png",
+      "priceRange": "€€",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Carrer del Bisbe Sivilla, 44, local",
+        "postalCode": "08022",
+        "addressLocality": "Barcelona",
+        "addressRegion": "Cataluña",
+        "addressCountry": "ES"
+      },
+      "openingHours": [
+        "Mo-Fr 09:00-21:00"
+      ],
+      "founder": {
+        "@type": "Person",
+        "name": "Rosa María Rodríguez Valls",
+        "url": "https://www.walambcn.com/curriculum"
+      },
+      "foundingDate": "2004",
+      "areaServed": [
+        {
+          "@type": "Place",
+          "name": "Sarrià, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Sant Gervasi–Galvany, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Sant Gervasi–la Bonanova, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "les Tres Torres, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "el Putxet i el Farró, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Vallvidrera, el Tibidabo i les Planes, Barcelona"
+        },
+        {
+          "@type": "City",
+          "name": "Barcelona"
+        }
+      ],
+      "medicalSpecialty": [
+        "Physiotherapy",
+        "Musculoskeletal"
+      ],
+      "availableService": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Programes re:trace",
+          "url": "https://www.walambcn.com/ca/programes-re-trace"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Osteopatia",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/osteopatia-sarria-sant-gervasi"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Osteopatia visceral",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/osteopatia-visceral-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Osteopatia craniosacral",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/osteopatia-craniosacral-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Manipulació neural i neurovisceral",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/manipulacions-neuroviscerals"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Pèrdua de pes",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/perdua-de-pes"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Deixar de fumar amb acupuntura",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/acupuntura-deixar-de-fumar"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Acupuntura i medicina tradicional xinesa",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/acupuntura-medicina-tradicional-xinesa"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "PNIE",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/pni-pnie-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Nutrició i salut intestinal",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/nutricio-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Drenatge limfàtic manual",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/drenatge-limfatic-manual"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Drenatge limfàtic en l'embaràs",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/drenatge-limfatic-embaras"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Drenatge limfàtic manual postoperatori",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/drenatge-limfatic-postoperatori"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Drenatge limfàtic per al limfedema",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/drenatge-limfatic-limfedema"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Massatge terapèutic",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/massatge-terapeutic"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Reflexologia podal",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/reflexologia-podal"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Ioga terapèutic",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/ioga-terapeutic"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Qigong (chi kung)",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/qigong-chikung"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Nervi vague i teoria polivagal",
+          "url": "https://www.walambcn.com/ca/osteopatia-nervi-vague-teoria-polivagal"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Fàscia i alliberament miofascial",
+          "url": "https://www.walambcn.com/ca/osteopatia-fascia-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Osteopatia i trauma",
+          "url": "https://www.walambcn.com/ca/osteopatia-trauma"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Osteopatia en nadons i infants",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/osteopatia-nadons-infants"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Mindfulness",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/mindfulness-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Classes d'estiraments",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/classes-estiraments"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Reiki",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/reiki-barcelona"
+        }
+      ],
+      "sameAs": [
+        "https://www.google.com/maps/search/?api=1&query=Wa%20Lam%2C%20Carrer%20del%20Bisbe%20Sivilla%2044%2C%2008022%20Barcelona"
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/reiki-barcelona#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Inicio",
+          "item": "https://www.walambcn.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Serveis i teràpies",
+          "item": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Reiki",
+          "item": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/reiki-barcelona"
+        }
+      ]
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/reiki-barcelona#webpage",
+      "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/reiki-barcelona",
+      "name": "Reiki a Barcelona | WA LAM",
+      "description": "Reiki a Sarrià–Sant Gervasi, Barcelona: tècnica japonesa d'imposició de mans per a l'estrès, l'ansietat i el son. Sessió de 60 min, estirat i vestit.",
+      "inLanguage": "ca-ES",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "WA LAM",
+        "url": "https://www.walambcn.com"
+      },
+      "breadcrumb": {
+        "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/reiki-barcelona#breadcrumb"
+      },
+      "publisher": {
+        "@id": "https://www.walambcn.com/#clinica"
+      },
+      "lastReviewed": "2026-11-18",
+      "dateModified": "2026-11-18",
+      "keywords": "reiki Barcelona, reiki Barcelona, sesión de reiki Barcelona, reiki Sarrià Sant Gervasi, reiki para la ansiedad, reiki para el estrés, reiki oncología, reiki precio Barcelona",
+      "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/reiki-barcelona.png",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".quick p",
+          "h1"
+        ]
+      },
+      "audience": {
+        "@type": "Patient"
+      },
+      "reviewedBy": {
+        "@type": "Person",
+        "name": "Rosa María Rodríguez Valls",
+        "jobTitle": "Osteópata D.O. y máster en medicina integrativa",
+        "worksFor": {
+          "@id": "https://www.walambcn.com/#clinica"
+        }
+      },
+      "about": {
+        "@type": "MedicalTherapy",
+        "name": "Reiki"
+      },
+      "citation": [
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Reiki therapy for pain, anxiety and quality of life",
+          "url": "https://doi.org/10.1136/bmjspcare-2019-001775",
+          "sameAs": "https://doi.org/10.1136/bmjspcare-2019-001775"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "The effect of reiki on pain: A meta-analysis",
+          "url": "https://doi.org/10.1016/j.ctcp.2018.02.020",
+          "sameAs": "https://doi.org/10.1016/j.ctcp.2018.02.020"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "The Effects of Reiki Therapy on Pain and Anxiety in Patients Attending a Day Oncology and Infusion Services Unit",
+          "url": "https://doi.org/10.1177/1049909111420859",
+          "sameAs": "https://doi.org/10.1177/1049909111420859"
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/reiki-barcelona#servicio",
+      "name": "Reiki a Barcelona",
+      "serviceType": "Reiki",
+      "provider": {
+        "@id": "https://www.walambcn.com/#clinica"
+      },
+      "areaServed": [
+        {
+          "@type": "Place",
+          "name": "Sarrià, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Sant Gervasi–Galvany, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Sant Gervasi–la Bonanova, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "les Tres Torres, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "el Putxet i el Farró, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Vallvidrera, el Tibidabo i les Planes, Barcelona"
+        },
+        {
+          "@type": "City",
+          "name": "Barcelona"
+        }
+      ],
+      "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/reiki-barcelona",
+      "description": "Reiki a Sarrià–Sant Gervasi, Barcelona: tècnica japonesa d'imposició de mans per a l'estrès, l'ansietat i el son. Sessió de 60 min, estirat i vestit."
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/reiki-barcelona#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Què se sent durant una sessió de reiki?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "La majoria de les persones descriuen una relaxació profunda, una sensació de calor o de pesantor agradable i, sovint, somnolència. Cada persona ho viu d'una manera diferent."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "M'he de despullar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. El reiki es rep vestit, amb roba còmoda. Només se li demanarà que es tregui les sabates."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "En què es diferencia d'un massatge?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "En el reiki no es pressiona ni es manipulen els músculs: les mans es recolzen amb suavitat o es mantenen a prop del cos. Per això és adequat quan el massatge no és possible o resulta molest."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Puc rebre reiki si estic en tractament oncològic?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí, amb l'autorització del seu oncòleg. És una tècnica molt suau que ofereixen programes d'oncologia integrativa de diferents hospitals per alleujar l'ansietat i el malestar durant el tractament."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quantes sessions necessitaré?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Moltes persones noten una relaxació clara des de la primera sessió. Per a l'estrès, l'ansietat o l'insomni se sol recomanar una sessió setmanal durant algunes setmanes. L'orientem segons el seu cas."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -186,6 +186,11 @@
           "@type": "MedicalTherapy",
           "name": "Classes d'estiraments",
           "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/classes-estiraments"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Reiki",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/reiki-barcelona"
         }
       ],
       "sameAs": [

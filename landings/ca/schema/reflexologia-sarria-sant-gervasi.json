@@ -186,6 +186,11 @@
           "@type": "MedicalTherapy",
           "name": "Classes d'estiraments",
           "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/classes-estiraments"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Reiki",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/reiki-barcelona"
         }
       ],
       "sameAs": [
@@ -220,8 +225,8 @@
       "@type": "MedicalWebPage",
       "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/reflexologia-podal#webpage",
       "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/reflexologia-podal",
-      "name": "Reflexologia podal a Sarrià–Sant Gervasi | WA LAM",
-      "description": "Sessió de reflexologia podal a Sarrià–Sant Gervasi, Barcelona: massatge de relaxació als peus. Durada, preu, reserva i què diu l'evidència.",
+      "name": "Reflexologia podal a Barcelona | WA LAM",
+      "description": "Reflexologia podal a Sarrià–Sant Gervasi, Barcelona: pressió als peus per a l'estrès, la tensió i el descans. Sessió de 60 min · 70 €, paquet de 10.",
       "inLanguage": "ca-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -236,7 +241,7 @@
       },
       "lastReviewed": "2026-11-18",
       "dateModified": "2026-11-18",
-      "keywords": "reflexologia podal Barcelona, reflexologia Sarrià Sant Gervasi, reflexologia Sant Gervasi",
+      "keywords": "reflexologia podal Barcelona, reflexologia podal Barcelona, reflexología pies Barcelona, reflexoterapia podal Barcelona, reflexologia Sarrià Sant Gervasi, reflexología podal precio, reflexología para el estrés, reflexología oncología",
       "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/reflexologia-sarria-sant-gervasi.png",
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -258,7 +263,7 @@
       },
       "about": {
         "@type": "MedicalTherapy",
-        "name": "Reflexologia"
+        "name": "Reflexologia podal"
       },
       "citation": [
         {
@@ -278,7 +283,7 @@
     {
       "@type": "Service",
       "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/reflexologia-podal#servicio",
-      "name": "Reflexologia podal a Sarrià–Sant Gervasi",
+      "name": "Reflexologia podal a Barcelona",
       "serviceType": "Reflexologia podal",
       "provider": {
         "@id": "https://www.walambcn.com/#clinica"
@@ -314,7 +319,7 @@
         }
       ],
       "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/reflexologia-podal",
-      "description": "Sessió de reflexologia podal a Sarrià–Sant Gervasi, Barcelona: massatge de relaxació als peus. Durada, preu, reserva i què diu l'evidència."
+      "description": "Reflexologia podal a Sarrià–Sant Gervasi, Barcelona: pressió als peus per a l'estrès, la tensió i el descans. Sessió de 60 min · 70 €, paquet de 10."
     },
     {
       "@type": "FAQPage",
@@ -322,10 +327,18 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "La reflexologia substitueix un tractament mèdic?",
+          "name": "Fa mal la reflexologia podal?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. L'oferim com una tècnica de benestar i relaxació, complementària al seu tractament."
+            "text": "No n'hauria de fer. Algunes zones es poden notar més sensibles, però la pressió s'ajusta en tot moment a la seva tolerància. La majoria de les persones la viuen com una experiència molt agradable."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quina diferència hi ha amb un massatge de peus?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "La reflexologia segueix un recorregut sistemàtic per totes les zones de tots dos peus, amb pressió mantinguda i puntual, mentre que el massatge de peus treballa sobretot la musculatura amb maniobres de lliscament i pastat."
           }
         },
         {
@@ -333,15 +346,23 @@
           "name": "Puc rebre reflexologia si estic en tractament oncològic?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí, sempre amb l'autorització del seu metge. La guia SIO–ASCO contempla la reflexologia com a suport per al dolor durant el tractament del càncer. A WA LAM no tractem cap pacient oncològic sense autorització mèdica, ni amb reflexologia, ni amb drenatge, ni amb massatge."
+            "text": "Sí, amb l'autorització del seu oncòleg. És una de les tècniques que recomanen les guies d'oncologia integrativa per alleujar el dolor durant el tractament, i s'adapta al seu estat a cada sessió."
           }
         },
         {
           "@type": "Question",
-          "name": "Hi ha alguna contraindicació?",
+          "name": "Quantes sessions necessitaré?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Avisi'ns si té ferides, infeccions o problemes circulatoris als peus, o si està embarassada."
+            "text": "Moltes persones noten una relaxació clara des de la primera sessió. Per a l'estrès o l'insomni se sol recomanar una sessió setmanal durant quatre a sis setmanes. L'orientem segons el seu cas."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quant costa i tenen targetes regal?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "La sessió de 60 minuts costa 70 €. Disposa d'un paquet de 10 sessions i de targetes regal: escrigui'ns per WhatsApp."
           }
         }
       ]
