@@ -61,6 +61,13 @@ def integrate_pages(PAGES):
     for d in new:
         p = _p = _page(d)
         if d["slug"] in pos:
+            old = PAGES[pos[d["slug"]]]
+            # conserva la ficha de precios y el grupo (servicio) de las páginas existentes
+            keep = [b for b in old["blocks"] if b.get("type") in ("pro", "pack")]
+            if keep:
+                ev = next((k for k, b in enumerate(p["blocks"]) if b.get("type") == "evidence"), len(p["blocks"]))
+                p["blocks"][ev:ev] = keep
+            p["group"] = old["group"]
             PAGES[pos[d["slug"]]] = p
         else:
             PAGES.append(p)
