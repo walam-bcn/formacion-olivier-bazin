@@ -67,7 +67,7 @@ def integrate_pages(PAGES):
             if keep:
                 ev = next((k for k, b in enumerate(p["blocks"]) if b.get("type") == "evidence"), len(p["blocks"]))
                 p["blocks"][ev:ev] = keep
-            p["group"] = old["group"]
+            p["group"] = d.get("group", old["group"])
             PAGES[pos[d["slug"]]] = p
         else:
             PAGES.append(p)
