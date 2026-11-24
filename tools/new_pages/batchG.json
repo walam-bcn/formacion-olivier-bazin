@@ -1,0 +1,800 @@
+[
+ {
+  "slug": "digestiones-pesadas-gastritis",
+  "ca_slug": "digestions-pesades-gastritis",
+  "nav": "Digestiones pesadas y gastritis",
+  "card": "Pesadez después de comer, ardor en la boca del estómago y sensación de llenarte enseguida.",
+  "title": "Digestiones pesadas y gastritis en Barcelona | WA LAM",
+  "desc": "Digestiones pesadas y gastritis en Sarrià–Sant Gervasi, Barcelona: dispepsia funcional, hábitos, estrés y alimentación con un abordaje integrativo.",
+  "h1": "Digestiones pesadas y gastritis en Barcelona",
+  "sub": "Dispepsia funcional y molestias de estómago · Sarrià–Sant Gervasi",
+  "lead": "Comes y te notas lleno durante horas, con pesadez o ardor en la parte alta del abdomen. Es una molestia muy frecuente y, cuando las pruebas descartan una lesión, suele hablarse de dispepsia funcional. Tus horarios, el ritmo al que comes y el estrés influyen mucho más de lo que parece.",
+  "facts_title": "En WA LAM",
+  "facts": [
+   "Dispepsia funcional y gastritis",
+   "Hábitos, alimentación y estrés",
+   "Osteopatía visceral y acupuntura",
+   "Primera visita: 60 min · 90 €"
+  ],
+  "wa": "Hola, me gustaría información sobre las digestiones pesadas y la gastritis.",
+  "mirror": {
+   "h2": "Cuando cada comida se te hace cuesta arriba",
+   "qs": [
+    "¿Te sientes lleno enseguida o con pesadez durante horas después de comer?",
+    "¿Notas ardor o molestias en la boca del estómago?",
+    "¿Las molestias empeoran cuando comes deprisa o en épocas de estrés?",
+    "¿Te han hablado de gastritis o de Helicobacter pylori y no sabes por dónde seguir?"
+   ],
+   "close": "Si vomitas sangre, tienes heces negras, pierdes peso sin motivo, te cuesta tragar o las molestias empiezan a partir de los 60 años, consulta con tu médico cuanto antes."
+  },
+  "explain": {
+   "h2": "Qué pasa en tu estómago y por qué se mantiene",
+   "paras": [
+    "La dispepsia funcional aparece cuando el estómago se vuelve más sensible y se adapta peor a la comida: se llena antes, se vacía más despacio o reacciona con más dolor a estímulos normales. La gastritis, en cambio, es una inflamación de la mucosa que diagnostica tu médico, a menudo relacionada con la bacteria Helicobacter pylori o con algunos fármacos antiinflamatorios.",
+    "Las comidas copiosas o a deshoras, comer con prisa, el tabaco, el alcohol y el estrés mantenido alimentan el círculo. El eje intestino-cerebro hace que la tensión emocional se note en el estómago. Si además notas que la acidez sube hacia el pecho, te puede interesar nuestra página sobre [reflujo y acidez](reflujo-acidez)."
+   ]
+  },
+  "cards": {
+   "h2": "Cómo lo abordamos",
+   "items": [
+    {
+     "k": "Valoración",
+     "h": "Tu historia digestiva",
+     "p": "Revisamos tus síntomas, pruebas previas, medicación, horarios, sueño y estrés. Si conviene descartar Helicobacter pylori, te orientamos para que lo valore tu médico."
+    },
+    {
+     "k": "Tratamiento",
+     "h": "Osteopatía visceral y acupuntura",
+     "p": "Trabajo manual suave sobre la zona abdominal y el diafragma con [osteopatía visceral](osteopatia-visceral-barcelona), y [acupuntura](acupuntura-medicina-tradicional-china) cuando está indicada."
+    },
+    {
+     "k": "Alimentación",
+     "h": "Ritmo, horarios y comidas",
+     "p": "Pautas sencillas: comidas más ligeras y regulares, cenar antes, masticar sin prisa e identificar lo que a ti te sienta peor."
+    },
+    {
+     "k": "Sistema nervioso",
+     "h": "Estrés y eje intestino-cerebro",
+     "p": "Respiración, pausas antes de comer y herramientas de regulación del estrés, con apoyo del [curso MBSR](curso-mindfulness-mbsr-barcelona) si te encaja."
+    }
+   ]
+  },
+  "evidence": {
+   "h2": "Qué dice la evidencia",
+   "items": [
+    [
+     "Metaanálisis (Gut)",
+     "Un metaanálisis con datos de todo el mundo estimó que alrededor de una de cada cinco personas tiene síntomas de dispepsia, más frecuentes con el tabaco, los antiinflamatorios y la infección por Helicobacter pylori (Ford et al., Gut, 2014)."
+    ],
+    [
+     "Guía clínica (Am J Gastroenterol)",
+     "La guía conjunta de las sociedades americana y canadiense de gastroenterología recomienda estudiar y tratar el Helicobacter pylori en las personas con dispepsia y contempla las terapias psicológicas en la dispepsia funcional (Moayyedi et al., Am J Gastroenterol, 2017)."
+    ],
+    [
+     "Ensayo clínico (Ann Intern Med)",
+     "En personas con plenitud y saciedad precoz tras las comidas, la acupuntura mejoró los síntomas frente a la acupuntura simulada, con beneficios que se mantuvieron a las 12 semanas (Yang et al., Ann Intern Med, 2020)."
+    ]
+   ],
+   "refs": [
+    {
+     "t": "Ford AC, Marwaha A, Sood R, Moayyedi P, 2014. «Global prevalence of, and risk factors for, uninvestigated dyspepsia: a meta-analysis». Gut.",
+     "doi": "10.1136/gutjnl-2014-307843"
+    },
+    {
+     "t": "Moayyedi P, Lacy BE, Andrews CN, Enns R, Howden CW, Vakil NB, 2017. «ACG and CAG Clinical Guideline: Management of Dyspepsia». The American Journal of Gastroenterology.",
+     "doi": "10.1038/ajg.2017.154"
+    },
+    {
+     "t": "Yang JW, Wang LQ, Zou X, Yan SY, et al., 2020. «Effect of Acupuncture for Postprandial Distress Syndrome: A Randomized Clinical Trial». Annals of Internal Medicine.",
+     "doi": "10.7326/M19-2880"
+    }
+   ]
+  },
+  "faq": [
+   [
+    "¿Qué diferencia hay entre dispepsia funcional y gastritis?",
+    "La gastritis es una inflamación de la mucosa del estómago que se confirma con pruebas. En la dispepsia funcional hay síntomas parecidos, pero sin una lesión que los explique: el estómago funciona de forma más sensible."
+   ],
+   [
+    "¿Y si tengo Helicobacter pylori?",
+    "Su diagnóstico y su tratamiento antibiótico los pauta tu médico. En paralelo, trabajamos contigo los hábitos, la alimentación y el estrés para que tu estómago se recupere mejor."
+   ],
+   [
+    "¿Tengo que dejar de comer muchos alimentos?",
+    "No necesariamente. Buscamos qué te sienta peor a ti y ajustamos cantidades, horarios y combinaciones antes de plantear restricciones."
+   ],
+   [
+    "¿Puede el estrés darme digestiones pesadas?",
+    "Sí. El estómago y el cerebro están muy conectados y la tensión mantenida altera el vaciado y la sensibilidad del estómago. Por eso incluimos herramientas de regulación en el plan."
+   ]
+  ],
+  "related": [
+   "reflujo-acidez",
+   "salud-digestiva-microbiota",
+   "osteopatia-visceral-barcelona",
+   "estres-ansiedad"
+  ],
+  "cta_h2": "Vuelve a disfrutar de la comida sin pesadez",
+  "seo": {
+   "kw": "digestiones pesadas Barcelona",
+   "kws": [
+    "gastritis tratamiento natural Barcelona",
+    "dispepsia funcional Barcelona",
+    "pesadez de estómago Sarrià",
+    "osteopatía visceral estómago Barcelona",
+    "acupuntura digestión Barcelona"
+   ],
+   "ca_kw": "digestions pesades Barcelona",
+   "quick": "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), acompañamos las digestiones pesadas y la gastritis con osteopatía visceral, acupuntura, pautas de alimentación y regulación del estrés. Revisamos tus hábitos y horarios y, si hace falta descartar Helicobacter pylori, te orientamos hacia tu médico.",
+   "entity": [
+    "MedicalCondition",
+    "Dispepsia funcional"
+   ]
+  },
+  "research": [
+   "Personas con pesadez, ardor o plenitud tras las comidas que buscan aliviar el estómago sin depender solo de los antiácidos.",
+   [
+    "digestiones pesadas qué hacer",
+    "gastritis tratamiento natural Barcelona",
+    "dispepsia funcional tratamiento"
+   ],
+   [
+    "digestions pesades què fer",
+    "gastritis tractament Barcelona"
+   ],
+   "Portales de salud generalistas, farmacias online y clínicas digestivas privadas con contenido muy médico."
+  ],
+  "ca": {
+   "Digestiones pesadas y gastritis": "Digestions pesades i gastritis",
+   "Pesadez después de comer, ardor en la boca del estómago y sensación de llenarte enseguida.": "Pesadesa després de menjar, cremor a la boca de l'estómac i sensació d'omplir-te de seguida.",
+   "Digestiones pesadas y gastritis en Barcelona | WA LAM": "Digestions pesades i gastritis a Barcelona | WA LAM",
+   "Digestiones pesadas y gastritis en Sarrià–Sant Gervasi, Barcelona: dispepsia funcional, hábitos, estrés y alimentación con un abordaje integrativo.": "Digestions pesades i gastritis a Sarrià–Sant Gervasi, Barcelona: dispèpsia funcional, hàbits, estrès i alimentació amb un abordatge integratiu.",
+   "Digestiones pesadas y gastritis en Barcelona": "Digestions pesades i gastritis a Barcelona",
+   "Dispepsia funcional y molestias de estómago · Sarrià–Sant Gervasi": "Dispèpsia funcional i molèsties d'estómac · Sarrià–Sant Gervasi",
+   "Comes y te notas lleno durante horas, con pesadez o ardor en la parte alta del abdomen. Es una molestia muy frecuente y, cuando las pruebas descartan una lesión, suele hablarse de dispepsia funcional. Tus horarios, el ritmo al que comes y el estrés influyen mucho más de lo que parece.": "Menges i et notes ple durant hores, amb pesadesa o cremor a la part alta de l'abdomen. És una molèstia molt freqüent i, quan les proves descarten una lesió, se sol parlar de dispèpsia funcional. Els teus horaris, el ritme al qual menges i l'estrès influeixen molt més del que sembla.",
+   "En WA LAM": "A WA LAM",
+   "Dispepsia funcional y gastritis": "Dispèpsia funcional i gastritis",
+   "Hábitos, alimentación y estrés": "Hàbits, alimentació i estrès",
+   "Osteopatía visceral y acupuntura": "Osteopatia visceral i acupuntura",
+   "Primera visita: 60 min · 90 €": "Primera visita: 60 min · 90 €",
+   "Hola, me gustaría información sobre las digestiones pesadas y la gastritis.": "Hola, m'agradaria informació sobre les digestions pesades i la gastritis.",
+   "Cuando cada comida se te hace cuesta arriba": "Quan cada àpat se't fa costa amunt",
+   "¿Te sientes lleno enseguida o con pesadez durante horas después de comer?": "Et sents ple de seguida o amb pesadesa durant hores després de menjar?",
+   "¿Notas ardor o molestias en la boca del estómago?": "Notes cremor o molèsties a la boca de l'estómac?",
+   "¿Las molestias empeoran cuando comes deprisa o en épocas de estrés?": "Les molèsties empitjoren quan menges de pressa o en èpoques d'estrès?",
+   "¿Te han hablado de gastritis o de Helicobacter pylori y no sabes por dónde seguir?": "T'han parlat de gastritis o d'Helicobacter pylori i no saps per on continuar?",
+   "Si vomitas sangre, tienes heces negras, pierdes peso sin motivo, te cuesta tragar o las molestias empiezan a partir de los 60 años, consulta con tu médico cuanto antes.": "Si vomites sang, tens femta negra, perds pes sense motiu, et costa empassar o les molèsties comencen a partir dels 60 anys, consulta el teu metge com més aviat millor.",
+   "Qué pasa en tu estómago y por qué se mantiene": "Què passa al teu estómac i per què es manté",
+   "La dispepsia funcional aparece cuando el estómago se vuelve más sensible y se adapta peor a la comida: se llena antes, se vacía más despacio o reacciona con más dolor a estímulos normales. La gastritis, en cambio, es una inflamación de la mucosa que diagnostica tu médico, a menudo relacionada con la bacteria Helicobacter pylori o con algunos fármacos antiinflamatorios.": "La dispèpsia funcional apareix quan l'estómac es torna més sensible i s'adapta pitjor al menjar: s'omple abans, es buida més a poc a poc o reacciona amb més dolor a estímuls normals. La gastritis, en canvi, és una inflamació de la mucosa que diagnostica el teu metge, sovint relacionada amb el bacteri Helicobacter pylori o amb alguns fàrmacs antiinflamatoris.",
+   "Las comidas copiosas o a deshoras, comer con prisa, el tabaco, el alcohol y el estrés mantenido alimentan el círculo. El eje intestino-cerebro hace que la tensión emocional se note en el estómago. Si además notas que la acidez sube hacia el pecho, te puede interesar nuestra página sobre [reflujo y acidez](reflujo-acidez).": "Els àpats copiosos o a deshora, menjar amb pressa, el tabac, l'alcohol i l'estrès mantingut alimenten el cercle. L'eix intestí-cervell fa que la tensió emocional es noti a l'estómac. Si a més notes que l'acidesa puja cap al pit, et pot interessar la nostra pàgina sobre [reflux i acidesa](reflujo-acidez).",
+   "Cómo lo abordamos": "Com ho abordem",
+   "Valoración": "Valoració",
+   "Tu historia digestiva": "La teva història digestiva",
+   "Revisamos tus síntomas, pruebas previas, medicación, horarios, sueño y estrés. Si conviene descartar Helicobacter pylori, te orientamos para que lo valore tu médico.": "Revisem els teus símptomes, proves prèvies, medicació, horaris, son i estrès. Si convé descartar l'Helicobacter pylori, t'orientem perquè ho valori el teu metge.",
+   "Tratamiento": "Tractament",
+   "Trabajo manual suave sobre la zona abdominal y el diafragma con [osteopatía visceral](osteopatia-visceral-barcelona), y [acupuntura](acupuntura-medicina-tradicional-china) cuando está indicada.": "Treball manual suau sobre la zona abdominal i el diafragma amb [osteopatia visceral](osteopatia-visceral-barcelona), i [acupuntura](acupuntura-medicina-tradicional-china) quan està indicada.",
+   "Alimentación": "Alimentació",
+   "Ritmo, horarios y comidas": "Ritme, horaris i àpats",
+   "Pautas sencillas: comidas más ligeras y regulares, cenar antes, masticar sin prisa e identificar lo que a ti te sienta peor.": "Pautes senzilles: àpats més lleugers i regulars, sopar abans, mastegar sense pressa i identificar el que a tu et sent pitjor.",
+   "Sistema nervioso": "Sistema nerviós",
+   "Estrés y eje intestino-cerebro": "Estrès i eix intestí-cervell",
+   "Respiración, pausas antes de comer y herramientas de regulación del estrés, con apoyo del [curso MBSR](curso-mindfulness-mbsr-barcelona) si te encaja.": "Respiració, pauses abans de menjar i eines de regulació de l'estrès, amb el suport del [curs MBSR](curso-mindfulness-mbsr-barcelona) si t'encaixa.",
+   "Qué dice la evidencia": "Què diu l'evidència",
+   "Metaanálisis (Gut)": "Metaanàlisi (Gut)",
+   "Un metaanálisis con datos de todo el mundo estimó que alrededor de una de cada cinco personas tiene síntomas de dispepsia, más frecuentes con el tabaco, los antiinflamatorios y la infección por Helicobacter pylori (Ford et al., Gut, 2014).": "Una metaanàlisi amb dades de tot el món va estimar que al voltant d'una de cada cinc persones té símptomes de dispèpsia, més freqüents amb el tabac, els antiinflamatoris i la infecció per Helicobacter pylori (Ford et al., Gut, 2014).",
+   "Guía clínica (Am J Gastroenterol)": "Guia clínica (Am J Gastroenterol)",
+   "La guía conjunta de las sociedades americana y canadiense de gastroenterología recomienda estudiar y tratar el Helicobacter pylori en las personas con dispepsia y contempla las terapias psicológicas en la dispepsia funcional (Moayyedi et al., Am J Gastroenterol, 2017).": "La guia conjunta de les societats americana i canadenca de gastroenterologia recomana estudiar i tractar l'Helicobacter pylori en les persones amb dispèpsia i preveu les teràpies psicològiques en la dispèpsia funcional (Moayyedi et al., Am J Gastroenterol, 2017).",
+   "Ensayo clínico (Ann Intern Med)": "Assaig clínic (Ann Intern Med)",
+   "En personas con plenitud y saciedad precoz tras las comidas, la acupuntura mejoró los síntomas frente a la acupuntura simulada, con beneficios que se mantuvieron a las 12 semanas (Yang et al., Ann Intern Med, 2020).": "En persones amb plenitud i sacietat precoç després dels àpats, l'acupuntura va millorar els símptomes respecte a l'acupuntura simulada, amb beneficis que es van mantenir a les 12 setmanes (Yang et al., Ann Intern Med, 2020).",
+   "¿Qué diferencia hay entre dispepsia funcional y gastritis?": "Quina diferència hi ha entre dispèpsia funcional i gastritis?",
+   "La gastritis es una inflamación de la mucosa del estómago que se confirma con pruebas. En la dispepsia funcional hay síntomas parecidos, pero sin una lesión que los explique: el estómago funciona de forma más sensible.": "La gastritis és una inflamació de la mucosa de l'estómac que es confirma amb proves. En la dispèpsia funcional hi ha símptomes semblants, però sense una lesió que els expliqui: l'estómac funciona de manera més sensible.",
+   "¿Y si tengo Helicobacter pylori?": "I si tinc Helicobacter pylori?",
+   "Su diagnóstico y su tratamiento antibiótico los pauta tu médico. En paralelo, trabajamos contigo los hábitos, la alimentación y el estrés para que tu estómago se recupere mejor.": "El seu diagnòstic i el seu tractament antibiòtic els pauta el teu metge. En paral·lel, treballem amb tu els hàbits, l'alimentació i l'estrès perquè el teu estómac es recuperi millor.",
+   "¿Tengo que dejar de comer muchos alimentos?": "He de deixar de menjar molts aliments?",
+   "No necesariamente. Buscamos qué te sienta peor a ti y ajustamos cantidades, horarios y combinaciones antes de plantear restricciones.": "No necessàriament. Busquem què et sent pitjor a tu i ajustem quantitats, horaris i combinacions abans de plantejar restriccions.",
+   "¿Puede el estrés darme digestiones pesadas?": "L'estrès em pot provocar digestions pesades?",
+   "Sí. El estómago y el cerebro están muy conectados y la tensión mantenida altera el vaciado y la sensibilidad del estómago. Por eso incluimos herramientas de regulación en el plan.": "Sí. L'estómac i el cervell estan molt connectats i la tensió mantinguda altera el buidatge i la sensibilitat de l'estómac. Per això incloem eines de regulació en el pla.",
+   "Vuelve a disfrutar de la comida sin pesadez": "Torna a gaudir del menjar sense pesadesa",
+   "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), acompañamos las digestiones pesadas y la gastritis con osteopatía visceral, acupuntura, pautas de alimentación y regulación del estrés. Revisamos tus hábitos y horarios y, si hace falta descartar Helicobacter pylori, te orientamos hacia tu médico.": "A WA LAM, a Sarrià–Sant Gervasi (Barcelona), acompanyem les digestions pesades i la gastritis amb osteopatia visceral, acupuntura, pautes d'alimentació i regulació de l'estrès. Revisem els teus hàbits i horaris i, si cal descartar l'Helicobacter pylori, t'orientem cap al teu metge."
+  }
+ },
+ {
+  "slug": "gases-hinchazon-abdominal",
+  "ca_slug": "gasos-inflor-abdominal",
+  "nav": "Gases e hinchazón",
+  "card": "Barriga hinchada a lo largo del día, gases y sensación de presión abdominal.",
+  "title": "Gases e hinchazón abdominal en Barcelona | WA LAM",
+  "desc": "Gases e hinchazón abdominal en Sarrià–Sant Gervasi, Barcelona: alimentación, FODMAP, microbiota, estrés y diafragma con un abordaje integrativo.",
+  "h1": "Gases e hinchazón abdominal en Barcelona",
+  "sub": "Distensión, gases y presión abdominal · Sarrià–Sant Gervasi",
+  "lead": "Te levantas con el vientre plano y, a medida que pasa el día, la barriga se hincha hasta que el pantalón te aprieta. Los gases y la distensión abdominal son de las molestias digestivas más habituales. Casi siempre tienen que ver con cómo comes, con tu microbiota y con la forma en que tu abdomen y tu diafragma responden.",
+  "facts_title": "En WA LAM",
+  "facts": [
+   "Hinchazón, gases y distensión",
+   "Alimentación, microbiota y diafragma",
+   "Pautas FODMAP y respiración diafragmática",
+   "Primera visita: 60 min · 90 €"
+  ],
+  "wa": "Hola, me gustaría información sobre los gases y la hinchazón abdominal.",
+  "mirror": {
+   "h2": "Cuando la barriga se hincha cada día",
+   "qs": [
+    "¿Se te hincha el abdomen a lo largo del día, sobre todo después de comer?",
+    "¿Tienes muchos gases, ruidos intestinales o sensación de presión?",
+    "¿Notas que algunos alimentos, como legumbres, cebolla o lácteos, te sientan peor?",
+    "¿La hinchazón empeora con el estrés o cuando comes deprisa?"
+   ],
+   "close": "Si la hinchazón es constante y no baja por la noche, o aparece con pérdida de peso, sangre en las heces, vómitos o fiebre, consulta con tu médico."
+  },
+  "explain": {
+   "h2": "De dónde vienen los gases y por qué te hinchas",
+   "paras": [
+    "Parte del gas viene del aire que tragas al comer deprisa, hablar mientras comes o beber bebidas con gas. Otra parte la produce tu microbiota al fermentar algunos azúcares y fibras poco absorbibles, los llamados FODMAP. En un intestino más sensible, una cantidad normal de gas se vive como hinchazón y molestia.",
+    "La distensión visible tiene además un componente mecánico: en muchas personas el diafragma baja y la pared abdominal se relaja de forma refleja después de comer, y el vientre se proyecta hacia delante. El estrés, la postura y la respiración influyen en ese reflejo. Si la hinchazón va con dolor y cambios en el ritmo intestinal, revisa también [colon irritable y SIBO](colon-irritable-sibo)."
+   ]
+  },
+  "cards": {
+   "h2": "Cómo lo abordamos",
+   "items": [
+    {
+     "k": "Valoración",
+     "h": "Qué te hincha a ti",
+     "p": "Revisamos tu alimentación, ritmo intestinal, forma de comer, estrés, postura y respiración para entender tu patrón de hinchazón."
+    },
+    {
+     "k": "Tratamiento",
+     "h": "Abdomen y diafragma",
+     "p": "[Osteopatía visceral](osteopatia-visceral-barcelona) suave sobre el abdomen y el diafragma, y [acupuntura](acupuntura-medicina-tradicional-china) cuando está indicada."
+    },
+    {
+     "k": "Alimentación",
+     "h": "FODMAP y microbiota",
+     "p": "Masticar despacio, ajustar raciones y, si conviene, una fase temporal baja en FODMAP con reintroducción guiada para cuidar tu microbiota."
+    },
+    {
+     "k": "Sistema nervioso",
+     "h": "Respiración y estrés",
+     "p": "Respiración diafragmática y herramientas de regulación del estrés para calmar el eje intestino-cerebro."
+    }
+   ]
+  },
+  "evidence": {
+   "h2": "Qué dice la evidencia",
+   "items": [
+    [
+     "Revisión clínica (Clin Gastroenterol Hepatol)",
+     "Una revisión sobre la distensión abdominal crónica describe su origen en la hipersensibilidad visceral, la microbiota y un reflejo anómalo entre el abdomen y el diafragma, y señala la dieta baja en FODMAP y el biofeedback entre las opciones útiles (Lacy et al., Clin Gastroenterol Hepatol, 2020)."
+    ],
+    [
+     "Ensayo clínico (Gastroenterology)",
+     "Una dieta baja en FODMAP redujo la hinchazón, los gases y el dolor abdominal en personas con colon irritable frente a una dieta habitual (Halmos et al., Gastroenterology, 2013)."
+    ],
+    [
+     "Estudio clínico (Gastroenterology)",
+     "Un equipo de Barcelona mostró que la distensión se debe a un descenso reflejo del diafragma con relajación de la pared abdominal, y que el entrenamiento de la musculatura abdominotorácica con biofeedback corrigió el reflejo y redujo la distensión (Barba et al., Gastroenterology, 2014)."
+    ]
+   ],
+   "refs": [
+    {
+     "t": "Lacy BE, Cangemi DJ, Vázquez-Roque MI, 2020. «Management of Chronic Abdominal Distension and Bloating». Clinical Gastroenterology and Hepatology.",
+     "doi": "10.1016/j.cgh.2020.03.056"
+    },
+    {
+     "t": "Halmos EP, Power VA, Shepherd SJ, Gibson PR, Muir JG, 2013. «A Diet Low in FODMAPs Reduces Symptoms of Irritable Bowel Syndrome». Gastroenterology.",
+     "doi": "10.1053/j.gastro.2013.09.046"
+    },
+    {
+     "t": "Barba E, Burri E, Accarino A, Cisternas D, Quiroga S, Monclús E, Navazo I, Malagelada JR, Azpiroz F, 2014. «Abdominothoracic Mechanisms of Functional Abdominal Distension and Correction by Biofeedback». Gastroenterology.",
+     "doi": "10.1053/j.gastro.2014.12.006"
+    }
+   ]
+  },
+  "faq": [
+   [
+    "¿Es normal hincharse después de comer?",
+    "Un poco sí. Cuando la hinchazón es diaria, molesta o te limita, merece la pena revisar qué la provoca y cómo responde tu abdomen."
+   ],
+   [
+    "¿Tengo que hacer la dieta FODMAP?",
+    "No siempre. Es una herramienta temporal que se plantea en algunos casos, siempre con reintroducción progresiva para no empobrecer la alimentación ni la microbiota."
+   ],
+   [
+    "¿Qué tiene que ver el diafragma con la hinchazón?",
+    "Mucho. Si el diafragma desciende en exceso tras las comidas, empuja el contenido abdominal hacia delante. Trabajar la respiración y la movilidad del diafragma ayuda a reducir esa distensión."
+   ],
+   [
+    "¿Los probióticos sirven para los gases?",
+    "Depende de cada caso. Antes de añadir suplementos revisamos tu alimentación y tu ritmo intestinal; si tienen sentido, te lo explicamos."
+   ]
+  ],
+  "related": [
+   "colon-irritable-sibo",
+   "intolerancias-alimentarias",
+   "salud-digestiva-microbiota",
+   "osteopatia-visceral-barcelona"
+  ],
+  "cta_h2": "Vuelve a sentirte a gusto en tu cuerpo",
+  "seo": {
+   "kw": "hinchazón abdominal Barcelona",
+   "kws": [
+    "gases tratamiento Barcelona",
+    "barriga hinchada Sarrià",
+    "distensión abdominal Barcelona",
+    "dieta FODMAP Barcelona",
+    "osteopatía visceral gases Barcelona"
+   ],
+   "ca_kw": "inflor abdominal Barcelona",
+   "quick": "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), abordamos los gases y la hinchazón abdominal revisando tu alimentación, tu microbiota, tu forma de comer y tu respiración. Combinamos osteopatía visceral, acupuntura, pautas como la dieta baja en FODMAP cuando procede y regulación del estrés.",
+   "entity": [
+    "MedicalCondition",
+    "Distensión abdominal"
+   ]
+  },
+  "research": [
+   "Personas con barriga hinchada y gases a diario que quieren entender la causa y encontrar un plan práctico.",
+   [
+    "barriga hinchada qué hacer",
+    "gases e hinchazón tratamiento Barcelona",
+    "dieta FODMAP Barcelona"
+   ],
+   [
+    "panxa inflada què fer",
+    "gasos i inflor Barcelona"
+   ],
+   "Blogs de nutrición, marcas de suplementos y portales de salud con consejos genéricos."
+  ],
+  "ca": {
+   "Gases e hinchazón": "Gasos i inflor",
+   "Barriga hinchada a lo largo del día, gases y sensación de presión abdominal.": "Panxa inflada al llarg del dia, gasos i sensació de pressió abdominal.",
+   "Gases e hinchazón abdominal en Barcelona | WA LAM": "Gasos i inflor abdominal a Barcelona | WA LAM",
+   "Gases e hinchazón abdominal en Sarrià–Sant Gervasi, Barcelona: alimentación, FODMAP, microbiota, estrés y diafragma con un abordaje integrativo.": "Gasos i inflor abdominal a Sarrià–Sant Gervasi, Barcelona: alimentació, FODMAP, microbiota, estrès i diafragma amb un abordatge integratiu.",
+   "Gases e hinchazón abdominal en Barcelona": "Gasos i inflor abdominal a Barcelona",
+   "Distensión, gases y presión abdominal · Sarrià–Sant Gervasi": "Distensió, gasos i pressió abdominal · Sarrià–Sant Gervasi",
+   "Te levantas con el vientre plano y, a medida que pasa el día, la barriga se hincha hasta que el pantalón te aprieta. Los gases y la distensión abdominal son de las molestias digestivas más habituales. Casi siempre tienen que ver con cómo comes, con tu microbiota y con la forma en que tu abdomen y tu diafragma responden.": "T'aixeques amb el ventre pla i, a mesura que passa el dia, la panxa s'infla fins que els pantalons t'estrenyen. Els gasos i la distensió abdominal són de les molèsties digestives més habituals. Gairebé sempre tenen a veure amb com menges, amb la teva microbiota i amb la manera com el teu abdomen i el teu diafragma responen.",
+   "En WA LAM": "A WA LAM",
+   "Hinchazón, gases y distensión": "Inflor, gasos i distensió",
+   "Alimentación, microbiota y diafragma": "Alimentació, microbiota i diafragma",
+   "Pautas FODMAP y respiración diafragmática": "Pautes FODMAP i respiració diafragmàtica",
+   "Primera visita: 60 min · 90 €": "Primera visita: 60 min · 90 €",
+   "Hola, me gustaría información sobre los gases y la hinchazón abdominal.": "Hola, m'agradaria informació sobre els gasos i la inflor abdominal.",
+   "Cuando la barriga se hincha cada día": "Quan la panxa s'infla cada dia",
+   "¿Se te hincha el abdomen a lo largo del día, sobre todo después de comer?": "Se t'infla l'abdomen al llarg del dia, sobretot després de menjar?",
+   "¿Tienes muchos gases, ruidos intestinales o sensación de presión?": "Tens molts gasos, sorolls intestinals o sensació de pressió?",
+   "¿Notas que algunos alimentos, como legumbres, cebolla o lácteos, te sientan peor?": "Notes que alguns aliments, com llegums, ceba o làctics, et senten pitjor?",
+   "¿La hinchazón empeora con el estrés o cuando comes deprisa?": "La inflor empitjora amb l'estrès o quan menges de pressa?",
+   "Si la hinchazón es constante y no baja por la noche, o aparece con pérdida de peso, sangre en las heces, vómitos o fiebre, consulta con tu médico.": "Si la inflor és constant i no baixa a la nit, o apareix amb pèrdua de pes, sang a la femta, vòmits o febre, consulta el teu metge.",
+   "De dónde vienen los gases y por qué te hinchas": "D'on vénen els gasos i per què t'infles",
+   "Parte del gas viene del aire que tragas al comer deprisa, hablar mientras comes o beber bebidas con gas. Otra parte la produce tu microbiota al fermentar algunos azúcares y fibras poco absorbibles, los llamados FODMAP. En un intestino más sensible, una cantidad normal de gas se vive como hinchazón y molestia.": "Una part del gas ve de l'aire que empasses quan menges de pressa, parles mentre menges o beus begudes amb gas. Una altra part la produeix la teva microbiota en fermentar alguns sucres i fibres poc absorbibles, els anomenats FODMAP. En un intestí més sensible, una quantitat normal de gas es viu com a inflor i molèstia.",
+   "La distensión visible tiene además un componente mecánico: en muchas personas el diafragma baja y la pared abdominal se relaja de forma refleja después de comer, y el vientre se proyecta hacia delante. El estrés, la postura y la respiración influyen en ese reflejo. Si la hinchazón va con dolor y cambios en el ritmo intestinal, revisa también [colon irritable y SIBO](colon-irritable-sibo).": "La distensió visible té a més un component mecànic: en moltes persones el diafragma baixa i la paret abdominal es relaxa de manera reflexa després de menjar, i el ventre es projecta cap endavant. L'estrès, la postura i la respiració influeixen en aquest reflex. Si la inflor va amb dolor i canvis en el ritme intestinal, revisa també [còlon irritable i SIBO](colon-irritable-sibo).",
+   "Cómo lo abordamos": "Com ho abordem",
+   "Valoración": "Valoració",
+   "Qué te hincha a ti": "Què t'infla a tu",
+   "Revisamos tu alimentación, ritmo intestinal, forma de comer, estrés, postura y respiración para entender tu patrón de hinchazón.": "Revisem la teva alimentació, ritme intestinal, manera de menjar, estrès, postura i respiració per entendre el teu patró d'inflor.",
+   "Tratamiento": "Tractament",
+   "Abdomen y diafragma": "Abdomen i diafragma",
+   "[Osteopatía visceral](osteopatia-visceral-barcelona) suave sobre el abdomen y el diafragma, y [acupuntura](acupuntura-medicina-tradicional-china) cuando está indicada.": "[Osteopatia visceral](osteopatia-visceral-barcelona) suau sobre l'abdomen i el diafragma, i [acupuntura](acupuntura-medicina-tradicional-china) quan està indicada.",
+   "Alimentación": "Alimentació",
+   "FODMAP y microbiota": "FODMAP i microbiota",
+   "Masticar despacio, ajustar raciones y, si conviene, una fase temporal baja en FODMAP con reintroducción guiada para cuidar tu microbiota.": "Mastegar a poc a poc, ajustar racions i, si convé, una fase temporal baixa en FODMAP amb reintroducció guiada per cuidar la teva microbiota.",
+   "Sistema nervioso": "Sistema nerviós",
+   "Respiración y estrés": "Respiració i estrès",
+   "Respiración diafragmática y herramientas de regulación del estrés para calmar el eje intestino-cerebro.": "Respiració diafragmàtica i eines de regulació de l'estrès per calmar l'eix intestí-cervell.",
+   "Qué dice la evidencia": "Què diu l'evidència",
+   "Revisión clínica (Clin Gastroenterol Hepatol)": "Revisió clínica (Clin Gastroenterol Hepatol)",
+   "Una revisión sobre la distensión abdominal crónica describe su origen en la hipersensibilidad visceral, la microbiota y un reflejo anómalo entre el abdomen y el diafragma, y señala la dieta baja en FODMAP y el biofeedback entre las opciones útiles (Lacy et al., Clin Gastroenterol Hepatol, 2020).": "Una revisió sobre la distensió abdominal crònica en descriu l'origen en la hipersensibilitat visceral, la microbiota i un reflex anòmal entre l'abdomen i el diafragma, i assenyala la dieta baixa en FODMAP i el biofeedback entre les opcions útils (Lacy et al., Clin Gastroenterol Hepatol, 2020).",
+   "Ensayo clínico (Gastroenterology)": "Assaig clínic (Gastroenterology)",
+   "Una dieta baja en FODMAP redujo la hinchazón, los gases y el dolor abdominal en personas con colon irritable frente a una dieta habitual (Halmos et al., Gastroenterology, 2013).": "Una dieta baixa en FODMAP va reduir la inflor, els gasos i el dolor abdominal en persones amb còlon irritable respecte a una dieta habitual (Halmos et al., Gastroenterology, 2013).",
+   "Estudio clínico (Gastroenterology)": "Estudi clínic (Gastroenterology)",
+   "Un equipo de Barcelona mostró que la distensión se debe a un descenso reflejo del diafragma con relajación de la pared abdominal, y que el entrenamiento de la musculatura abdominotorácica con biofeedback corrigió el reflejo y redujo la distensión (Barba et al., Gastroenterology, 2014).": "Un equip de Barcelona va mostrar que la distensió es deu a un descens reflex del diafragma amb relaxació de la paret abdominal, i que l'entrenament de la musculatura abdominotoràcica amb biofeedback va corregir el reflex i va reduir la distensió (Barba et al., Gastroenterology, 2014).",
+   "¿Es normal hincharse después de comer?": "És normal inflar-se després de menjar?",
+   "Un poco sí. Cuando la hinchazón es diaria, molesta o te limita, merece la pena revisar qué la provoca y cómo responde tu abdomen.": "Una mica sí. Quan la inflor és diària, molesta o et limita, val la pena revisar què la provoca i com respon el teu abdomen.",
+   "¿Tengo que hacer la dieta FODMAP?": "He de fer la dieta FODMAP?",
+   "No siempre. Es una herramienta temporal que se plantea en algunos casos, siempre con reintroducción progresiva para no empobrecer la alimentación ni la microbiota.": "No sempre. És una eina temporal que es planteja en alguns casos, sempre amb reintroducció progressiva per no empobrir l'alimentació ni la microbiota.",
+   "¿Qué tiene que ver el diafragma con la hinchazón?": "Què hi té a veure el diafragma amb la inflor?",
+   "Mucho. Si el diafragma desciende en exceso tras las comidas, empuja el contenido abdominal hacia delante. Trabajar la respiración y la movilidad del diafragma ayuda a reducir esa distensión.": "Molt. Si el diafragma baixa en excés després dels àpats, empeny el contingut abdominal cap endavant. Treballar la respiració i la mobilitat del diafragma ajuda a reduir aquesta distensió.",
+   "¿Los probióticos sirven para los gases?": "Els probiòtics serveixen per als gasos?",
+   "Depende de cada caso. Antes de añadir suplementos revisamos tu alimentación y tu ritmo intestinal; si tienen sentido, te lo explicamos.": "Depèn de cada cas. Abans d'afegir suplements revisem la teva alimentació i el teu ritme intestinal; si tenen sentit, t'ho expliquem.",
+   "Vuelve a sentirte a gusto en tu cuerpo": "Torna a sentir-te a gust en el teu cos",
+   "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), abordamos los gases y la hinchazón abdominal revisando tu alimentación, tu microbiota, tu forma de comer y tu respiración. Combinamos osteopatía visceral, acupuntura, pautas como la dieta baja en FODMAP cuando procede y regulación del estrés.": "A WA LAM, a Sarrià–Sant Gervasi (Barcelona), abordem els gasos i la inflor abdominal revisant la teva alimentació, la teva microbiota, la teva manera de menjar i la teva respiració. Combinem osteopatia visceral, acupuntura, pautes com la dieta baixa en FODMAP quan escau i regulació de l'estrès."
+  }
+ },
+ {
+  "slug": "estrenimiento",
+  "ca_slug": "restrenyiment",
+  "nav": "Estreñimiento",
+  "card": "Ir poco al baño, esfuerzo al evacuar y sensación de no vaciar del todo.",
+  "title": "Estreñimiento crónico en Barcelona | WA LAM",
+  "desc": "Estreñimiento crónico en Sarrià–Sant Gervasi, Barcelona: fibra, agua, movimiento, rutina, postura y microbiota con un abordaje integrativo y cercano.",
+  "h1": "Estreñimiento crónico en Barcelona",
+  "sub": "Estreñimiento funcional · Sarrià–Sant Gervasi",
+  "lead": "Vas al baño pocas veces, te cuesta y a menudo te quedas con la sensación de no haber terminado. El estreñimiento crónico es muy común y afecta a tu energía y a tu bienestar más de lo que se suele reconocer. La buena noticia es que pequeños cambios bien elegidos suelen marcar una gran diferencia.",
+  "facts_title": "En WA LAM",
+  "facts": [
+   "Estreñimiento crónico funcional",
+   "Hábitos, postura y microbiota",
+   "Masaje abdominal y osteopatía visceral",
+   "Primera visita: 60 min · 90 €"
+  ],
+  "wa": "Hola, me gustaría información sobre el estreñimiento crónico.",
+  "mirror": {
+   "h2": "Cuando ir al baño se convierte en un esfuerzo",
+   "qs": [
+    "¿Vas al baño menos de tres veces por semana o con mucho esfuerzo?",
+    "¿Tus heces son duras y te quedas con sensación de evacuación incompleta?",
+    "¿Te estriñes más cuando viajas, cambias de horarios o estás estresado?",
+    "¿Dependes de laxantes y te gustaría encontrar otra forma de regularte?"
+   ],
+   "close": "Si el estreñimiento aparece de repente a partir de los 50 años, o va con sangre en las heces, pérdida de peso, anemia o dolor intenso, consulta con tu médico."
+  },
+  "explain": {
+   "h2": "Por qué se enlentece el intestino",
+   "paras": [
+    "En el estreñimiento funcional no hay una enfermedad que lo explique, pero el tránsito se vuelve más lento o la evacuación cuesta. Influyen la poca fibra y agua, el sedentarismo, ignorar las ganas de ir, los cambios de rutina y una microbiota menos diversa.",
+    "A veces el problema está en la salida: el suelo pélvico no se relaja bien al empujar o la postura en el inodoro no ayuda. El estrés también frena el intestino a través del sistema nervioso autónomo. Por eso funciona mejor un plan que combine hábitos, movimiento, postura y trabajo abdominal."
+   ]
+  },
+  "cards": {
+   "h2": "Cómo lo abordamos",
+   "items": [
+    {
+     "k": "Valoración",
+     "h": "Tu ritmo intestinal",
+     "p": "Revisamos frecuencia, tipo de heces, alimentación, agua, actividad, medicación, estrés y forma de evacuar."
+    },
+    {
+     "k": "Tratamiento",
+     "h": "Masaje abdominal y osteopatía visceral",
+     "p": "Trabajo manual sobre el abdomen con [osteopatía visceral](osteopatia-visceral-barcelona) y [acupuntura](acupuntura-medicina-tradicional-china) cuando está indicada. Te enseñamos también un automasaje sencillo."
+    },
+    {
+     "k": "Hábitos",
+     "h": "Fibra, agua, movimiento y rutina",
+     "p": "Más fibra de forma progresiva, agua suficiente, caminar a diario, un horario fijo para ir al baño y los pies elevados en un taburete."
+    },
+    {
+     "k": "Sistema nervioso",
+     "h": "Respiración y suelo pélvico",
+     "p": "Respiración para relajar el suelo pélvico al evacuar y herramientas para reducir el estrés que frena el intestino."
+    }
+   ]
+  },
+  "evidence": {
+   "h2": "Qué dice la evidencia",
+   "items": [
+    [
+     "Metaanálisis (Am J Gastroenterol)",
+     "Un metaanálisis de estudios poblacionales estimó que alrededor del 14 % de los adultos tiene estreñimiento crónico, más frecuente en mujeres y con la edad (Suares y Ford, Am J Gastroenterol, 2011)."
+    ],
+    [
+     "Ensayo clínico (Ann Intern Med)",
+     "En más de 1.000 personas con estreñimiento crónico grave, la electroacupuntura aumentó las deposiciones espontáneas completas frente a la acupuntura simulada, con efecto mantenido tras el tratamiento (Liu et al., Ann Intern Med, 2016)."
+    ],
+    [
+     "Ensayo clínico (Int J Nurs Stud)",
+     "El masaje abdominal redujo la intensidad del estreñimiento y el dolor abdominal y aumentó la frecuencia de las deposiciones frente a no recibirlo (Lämås et al., Int J Nurs Stud, 2009)."
+    ]
+   ],
+   "refs": [
+    {
+     "t": "Suares NC, Ford AC, 2011. «Prevalence of, and Risk Factors for, Chronic Idiopathic Constipation in the Community: Systematic Review and Meta-analysis». The American Journal of Gastroenterology.",
+     "doi": "10.1038/ajg.2011.164"
+    },
+    {
+     "t": "Liu Z, Yan S, Wu J, He L, et al., 2016. «Acupuncture for Chronic Severe Functional Constipation: A Randomized Trial». Annals of Internal Medicine.",
+     "doi": "10.7326/M15-3118"
+    },
+    {
+     "t": "Lämås K, Lindholm L, Stenlund H, Engström B, Jacobsson C, 2009. «Effects of abdominal massage in management of constipation—A randomized controlled trial». International Journal of Nursing Studies.",
+     "doi": "10.1016/j.ijnurstu.2009.01.007"
+    }
+   ]
+  },
+  "faq": [
+   [
+    "¿Cuántas veces hay que ir al baño para que sea normal?",
+    "Entre tres veces al día y tres veces por semana se considera normal. Más que la frecuencia, importa que evacuar no te cueste y que te quedes bien."
+   ],
+   [
+    "¿Basta con comer más fibra?",
+    "La fibra ayuda, pero hay que aumentarla poco a poco y acompañarla de agua y movimiento. Si te hincha, ajustamos el tipo de fibra."
+   ],
+   [
+    "¿El masaje abdominal sirve de verdad?",
+    "Sí: estimula el tránsito y relaja el abdomen. Te enseñamos a hacerlo en casa para que lo incorpores a tu rutina."
+   ],
+   [
+    "¿Influye la postura en el inodoro?",
+    "Mucho. Con los pies elevados en un taburete y el tronco ligeramente inclinado, el recto se alinea y el suelo pélvico se relaja, de modo que evacuar cuesta menos."
+   ]
+  ],
+  "related": [
+   "salud-digestiva-microbiota",
+   "osteopatia-visceral-barcelona",
+   "suelo-pelvico-dolor-pelvico",
+   "gases-hinchazon-abdominal"
+  ],
+  "cta_h2": "Recupera un ritmo intestinal tranquilo",
+  "seo": {
+   "kw": "estreñimiento crónico Barcelona",
+   "kws": [
+    "estreñimiento tratamiento natural Barcelona",
+    "masaje abdominal estreñimiento",
+    "osteopatía visceral estreñimiento Barcelona",
+    "acupuntura estreñimiento Barcelona",
+    "estreñimiento Sarrià"
+   ],
+   "ca_kw": "restrenyiment crònic Barcelona",
+   "quick": "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), acompañamos el estreñimiento crónico funcional con pautas de fibra, agua, movimiento y rutina, trabajo de postura y suelo pélvico, cuidado de la microbiota, masaje abdominal, osteopatía visceral y acupuntura.",
+   "entity": [
+    "MedicalCondition",
+    "Estreñimiento crónico"
+   ]
+  },
+  "research": [
+   "Personas con estreñimiento de larga evolución que quieren regularse de forma natural y depender menos de los laxantes.",
+   [
+    "estreñimiento crónico qué hacer",
+    "remedios para el estreñimiento",
+    "osteopatía visceral estreñimiento Barcelona"
+   ],
+   [
+    "restrenyiment crònic què fer",
+    "remeis restrenyiment"
+   ],
+   "Portales de salud, farmacias y marcas de laxantes o suplementos de fibra con contenido muy posicionado."
+  ],
+  "ca": {
+   "Estreñimiento": "Restrenyiment",
+   "Ir poco al baño, esfuerzo al evacuar y sensación de no vaciar del todo.": "Anar poc al lavabo, esforç en evacuar i sensació de no buidar del tot.",
+   "Estreñimiento crónico en Barcelona | WA LAM": "Restrenyiment crònic a Barcelona | WA LAM",
+   "Estreñimiento crónico en Sarrià–Sant Gervasi, Barcelona: fibra, agua, movimiento, rutina, postura y microbiota con un abordaje integrativo y cercano.": "Restrenyiment crònic a Sarrià–Sant Gervasi, Barcelona: fibra, aigua, moviment, rutina, postura i microbiota amb un abordatge integratiu i proper.",
+   "Estreñimiento crónico en Barcelona": "Restrenyiment crònic a Barcelona",
+   "Estreñimiento funcional · Sarrià–Sant Gervasi": "Restrenyiment funcional · Sarrià–Sant Gervasi",
+   "Vas al baño pocas veces, te cuesta y a menudo te quedas con la sensación de no haber terminado. El estreñimiento crónico es muy común y afecta a tu energía y a tu bienestar más de lo que se suele reconocer. La buena noticia es que pequeños cambios bien elegidos suelen marcar una gran diferencia.": "Vas al lavabo poques vegades, et costa i sovint et quedes amb la sensació de no haver acabat. El restrenyiment crònic és molt comú i afecta la teva energia i el teu benestar més del que se sol reconèixer. La bona notícia és que petits canvis ben triats solen marcar una gran diferència.",
+   "En WA LAM": "A WA LAM",
+   "Estreñimiento crónico funcional": "Restrenyiment crònic funcional",
+   "Hábitos, postura y microbiota": "Hàbits, postura i microbiota",
+   "Masaje abdominal y osteopatía visceral": "Massatge abdominal i osteopatia visceral",
+   "Primera visita: 60 min · 90 €": "Primera visita: 60 min · 90 €",
+   "Hola, me gustaría información sobre el estreñimiento crónico.": "Hola, m'agradaria informació sobre el restrenyiment crònic.",
+   "Cuando ir al baño se convierte en un esfuerzo": "Quan anar al lavabo es converteix en un esforç",
+   "¿Vas al baño menos de tres veces por semana o con mucho esfuerzo?": "Vas al lavabo menys de tres vegades per setmana o amb molt d'esforç?",
+   "¿Tus heces son duras y te quedas con sensación de evacuación incompleta?": "La teva femta és dura i et quedes amb sensació d'evacuació incompleta?",
+   "¿Te estriñes más cuando viajas, cambias de horarios o estás estresado?": "Et restrenyes més quan viatges, canvies d'horaris o estàs estressat?",
+   "¿Dependes de laxantes y te gustaría encontrar otra forma de regularte?": "Depens de laxants i t'agradaria trobar una altra manera de regular-te?",
+   "Si el estreñimiento aparece de repente a partir de los 50 años, o va con sangre en las heces, pérdida de peso, anemia o dolor intenso, consulta con tu médico.": "Si el restrenyiment apareix de sobte a partir dels 50 anys, o va amb sang a la femta, pèrdua de pes, anèmia o dolor intens, consulta el teu metge.",
+   "Por qué se enlentece el intestino": "Per què s'alenteix l'intestí",
+   "En el estreñimiento funcional no hay una enfermedad que lo explique, pero el tránsito se vuelve más lento o la evacuación cuesta. Influyen la poca fibra y agua, el sedentarismo, ignorar las ganas de ir, los cambios de rutina y una microbiota menos diversa.": "En el restrenyiment funcional no hi ha cap malaltia que l'expliqui, però el trànsit es torna més lent o l'evacuació costa. Hi influeixen la poca fibra i aigua, el sedentarisme, ignorar les ganes d'anar-hi, els canvis de rutina i una microbiota menys diversa.",
+   "A veces el problema está en la salida: el suelo pélvico no se relaja bien al empujar o la postura en el inodoro no ayuda. El estrés también frena el intestino a través del sistema nervioso autónomo. Por eso funciona mejor un plan que combine hábitos, movimiento, postura y trabajo abdominal.": "De vegades el problema és a la sortida: el sòl pelvià no es relaxa bé en empènyer o la postura al vàter no ajuda. L'estrès també frena l'intestí a través del sistema nerviós autònom. Per això funciona millor un pla que combini hàbits, moviment, postura i treball abdominal.",
+   "Cómo lo abordamos": "Com ho abordem",
+   "Valoración": "Valoració",
+   "Tu ritmo intestinal": "El teu ritme intestinal",
+   "Revisamos frecuencia, tipo de heces, alimentación, agua, actividad, medicación, estrés y forma de evacuar.": "Revisem freqüència, tipus de femta, alimentació, aigua, activitat, medicació, estrès i manera d'evacuar.",
+   "Tratamiento": "Tractament",
+   "Trabajo manual sobre el abdomen con [osteopatía visceral](osteopatia-visceral-barcelona) y [acupuntura](acupuntura-medicina-tradicional-china) cuando está indicada. Te enseñamos también un automasaje sencillo.": "Treball manual sobre l'abdomen amb [osteopatia visceral](osteopatia-visceral-barcelona) i [acupuntura](acupuntura-medicina-tradicional-china) quan està indicada. També t'ensenyem un automassatge senzill.",
+   "Hábitos": "Hàbits",
+   "Fibra, agua, movimiento y rutina": "Fibra, aigua, moviment i rutina",
+   "Más fibra de forma progresiva, agua suficiente, caminar a diario, un horario fijo para ir al baño y los pies elevados en un taburete.": "Més fibra de manera progressiva, aigua suficient, caminar cada dia, un horari fix per anar al lavabo i els peus elevats en un tamboret.",
+   "Sistema nervioso": "Sistema nerviós",
+   "Respiración y suelo pélvico": "Respiració i sòl pelvià",
+   "Respiración para relajar el suelo pélvico al evacuar y herramientas para reducir el estrés que frena el intestino.": "Respiració per relaxar el sòl pelvià en evacuar i eines per reduir l'estrès que frena l'intestí.",
+   "Qué dice la evidencia": "Què diu l'evidència",
+   "Metaanálisis (Am J Gastroenterol)": "Metaanàlisi (Am J Gastroenterol)",
+   "Un metaanálisis de estudios poblacionales estimó que alrededor del 14 % de los adultos tiene estreñimiento crónico, más frecuente en mujeres y con la edad (Suares y Ford, Am J Gastroenterol, 2011).": "Una metaanàlisi d'estudis poblacionals va estimar que al voltant del 14 % dels adults té restrenyiment crònic, més freqüent en dones i amb l'edat (Suares i Ford, Am J Gastroenterol, 2011).",
+   "Ensayo clínico (Ann Intern Med)": "Assaig clínic (Ann Intern Med)",
+   "En más de 1.000 personas con estreñimiento crónico grave, la electroacupuntura aumentó las deposiciones espontáneas completas frente a la acupuntura simulada, con efecto mantenido tras el tratamiento (Liu et al., Ann Intern Med, 2016).": "En més de 1.000 persones amb restrenyiment crònic greu, l'electroacupuntura va augmentar les deposicions espontànies completes respecte a l'acupuntura simulada, amb efecte mantingut després del tractament (Liu et al., Ann Intern Med, 2016).",
+   "Ensayo clínico (Int J Nurs Stud)": "Assaig clínic (Int J Nurs Stud)",
+   "El masaje abdominal redujo la intensidad del estreñimiento y el dolor abdominal y aumentó la frecuencia de las deposiciones frente a no recibirlo (Lämås et al., Int J Nurs Stud, 2009).": "El massatge abdominal va reduir la intensitat del restrenyiment i el dolor abdominal i va augmentar la freqüència de les deposicions respecte a no rebre'l (Lämås et al., Int J Nurs Stud, 2009).",
+   "¿Cuántas veces hay que ir al baño para que sea normal?": "Quantes vegades cal anar al lavabo perquè sigui normal?",
+   "Entre tres veces al día y tres veces por semana se considera normal. Más que la frecuencia, importa que evacuar no te cueste y que te quedes bien.": "Entre tres vegades al dia i tres vegades per setmana es considera normal. Més que la freqüència, importa que evacuar no et costi i que et quedis bé.",
+   "¿Basta con comer más fibra?": "N'hi ha prou amb menjar més fibra?",
+   "La fibra ayuda, pero hay que aumentarla poco a poco y acompañarla de agua y movimiento. Si te hincha, ajustamos el tipo de fibra.": "La fibra ajuda, però cal augmentar-la a poc a poc i acompanyar-la d'aigua i moviment. Si t'infla, ajustem el tipus de fibra.",
+   "¿El masaje abdominal sirve de verdad?": "El massatge abdominal serveix de debò?",
+   "Sí: estimula el tránsito y relaja el abdomen. Te enseñamos a hacerlo en casa para que lo incorpores a tu rutina.": "Sí: estimula el trànsit i relaxa l'abdomen. T'ensenyem a fer-lo a casa perquè l'incorporis a la teva rutina.",
+   "¿Influye la postura en el inodoro?": "Influeix la postura al vàter?",
+   "Mucho. Con los pies elevados en un taburete y el tronco ligeramente inclinado, el recto se alinea y el suelo pélvico se relaja, de modo que evacuar cuesta menos.": "Molt. Amb els peus elevats en un tamboret i el tronc lleugerament inclinat, el recte s'alinea i el sòl pelvià es relaxa, de manera que evacuar costa menys.",
+   "Recupera un ritmo intestinal tranquilo": "Recupera un ritme intestinal tranquil",
+   "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), acompañamos el estreñimiento crónico funcional con pautas de fibra, agua, movimiento y rutina, trabajo de postura y suelo pélvico, cuidado de la microbiota, masaje abdominal, osteopatía visceral y acupuntura.": "A WA LAM, a Sarrià–Sant Gervasi (Barcelona), acompanyem el restrenyiment crònic funcional amb pautes de fibra, aigua, moviment i rutina, treball de postura i sòl pelvià, cura de la microbiota, massatge abdominal, osteopatia visceral i acupuntura."
+  }
+ },
+ {
+  "slug": "diarrea-cronica",
+  "ca_slug": "diarrea-cronica",
+  "nav": "Diarrea crónica",
+  "card": "Deposiciones blandas o urgentes que se repiten durante semanas.",
+  "title": "Diarrea crónica en Barcelona | WA LAM",
+  "desc": "Diarrea crónica o de repetición en Sarrià–Sant Gervasi, Barcelona: intolerancias, microbiota y estrés con un abordaje integrativo y personalizado.",
+  "h1": "Diarrea crónica o de repetición en Barcelona",
+  "sub": "Diarrea funcional y urgencia intestinal · Sarrià–Sant Gervasi",
+  "lead": "Vives pendiente de dónde está el baño más cercano y las deposiciones blandas se repiten semana tras semana. La diarrea crónica condiciona tu día a día y tu tranquilidad. Tu alimentación, tu microbiota y el estrés son piezas clave para recuperar el control.",
+  "facts_title": "En WA LAM",
+  "facts": [
+   "Diarrea funcional y de repetición",
+   "Intolerancias, microbiota y estrés",
+   "Acupuntura, osteopatía visceral y mindfulness",
+   "Primera visita: 60 min · 90 €"
+  ],
+  "wa": "Hola, me gustaría información sobre la diarrea crónica.",
+  "mirror": {
+   "h2": "Cuando el intestino no te da tregua",
+   "qs": [
+    "¿Tienes deposiciones blandas o líquidas desde hace más de cuatro semanas?",
+    "¿Sientes urgencia y necesitas tener siempre un baño cerca?",
+    "¿Notas que ciertos alimentos, como los lácteos o el exceso de grasa, te sientan mal?",
+    "¿La diarrea empeora en momentos de nervios o de estrés?"
+   ],
+   "close": "Si hay sangre en las heces, pérdida de peso, fiebre, anemia o la diarrea te despierta por la noche, consulta con tu médico antes de nada."
+  },
+  "explain": {
+   "h2": "Por qué se repite la diarrea",
+   "paras": [
+    "Se habla de diarrea crónica cuando las deposiciones blandas duran más de cuatro semanas. Primero hay que descartar con tu médico causas orgánicas como la celiaquía, la enfermedad inflamatoria intestinal, las infecciones o los problemas de tiroides. Cuando todo eso está en orden, suele tratarse de una diarrea funcional o de un colon irritable con predominio de diarrea.",
+    "En ella intervienen la sensibilidad del intestino, los cambios en la microbiota, algunas intolerancias, como a la lactosa o a la fructosa, y el estrés, que acelera el tránsito a través del eje intestino-cerebro. Por eso el abordaje combina alimentación, cuidado de la microbiota y regulación del sistema nervioso."
+   ]
+  },
+  "cards": {
+   "h2": "Cómo lo abordamos",
+   "items": [
+    {
+     "k": "Valoración",
+     "h": "Tu historia y tus pruebas",
+     "p": "Revisamos tus síntomas, las pruebas que te ha hecho tu médico, tu alimentación, posibles intolerancias, medicación y estrés."
+    },
+    {
+     "k": "Tratamiento",
+     "h": "Acupuntura y osteopatía visceral",
+     "p": "[Acupuntura](acupuntura-medicina-tradicional-china) y trabajo manual suave sobre el abdomen con [osteopatía visceral](osteopatia-visceral-barcelona) cuando está indicado."
+    },
+    {
+     "k": "Alimentación",
+     "h": "Intolerancias y microbiota",
+     "p": "Identificamos los alimentos que te sientan peor, valoramos posibles [intolerancias alimentarias](intolerancias-alimentarias) y cuidamos tu microbiota de forma progresiva."
+    },
+    {
+     "k": "Sistema nervioso",
+     "h": "Estrés y eje intestino-cerebro",
+     "p": "Herramientas de respiración y atención plena para calmar la respuesta de urgencia, con apoyo del [curso MBSR](curso-mindfulness-mbsr-barcelona) si te encaja."
+    }
+   ]
+  },
+  "evidence": {
+   "h2": "Qué dice la evidencia",
+   "items": [
+    [
+     "Guía clínica (Gut)",
+     "La guía de la Sociedad Británica de Gastroenterología define la diarrea crónica como la que dura más de cuatro semanas y establece qué pruebas hacen falta para descartar causas orgánicas, como la celiaquía o la enfermedad inflamatoria intestinal (Arasaradnam et al., Gut, 2018)."
+    ],
+    [
+     "Ensayo clínico (JAMA Netw Open)",
+     "En personas con colon irritable con predominio de diarrea, la acupuntura mejoró los síntomas y la consistencia de las heces frente a la acupuntura simulada (Qi et al., JAMA Netw Open, 2022)."
+    ],
+    [
+     "Ensayo clínico (Am J Gastroenterol)",
+     "Un programa de mindfulness redujo la intensidad de los síntomas del colon irritable en mujeres, con mejoras mantenidas a los tres meses (Gaylord et al., Am J Gastroenterol, 2011)."
+    ]
+   ],
+   "refs": [
+    {
+     "t": "Arasaradnam RP, Brown S, Forbes A, Fox MR, et al., 2018. «Guidelines for the investigation of chronic diarrhoea in adults: British Society of Gastroenterology, 3rd edition». Gut.",
+     "doi": "10.1136/gutjnl-2017-315909"
+    },
+    {
+     "t": "Qi LY, Yang JW, Yan SY, Tu JF, et al., 2022. «Acupuncture for the Treatment of Diarrhea-Predominant Irritable Bowel Syndrome: A Pilot Randomized Clinical Trial». JAMA Network Open.",
+     "doi": "10.1001/jamanetworkopen.2022.48817"
+    },
+    {
+     "t": "Gaylord SA, Palsson OS, Garland EL, Faurot KR, et al., 2011. «Mindfulness Training Reduces the Severity of Irritable Bowel Syndrome in Women: Results of a Randomized Controlled Trial». The American Journal of Gastroenterology.",
+     "doi": "10.1038/ajg.2011.184"
+    }
+   ]
+  },
+  "faq": [
+   [
+    "¿Cuándo se considera crónica una diarrea?",
+    "Cuando las deposiciones blandas o líquidas se mantienen más de cuatro semanas. Es importante que tu médico descarte antes una causa orgánica."
+   ],
+   [
+    "¿Puede ser una intolerancia?",
+    "A veces sí. La lactosa, la fructosa o algunos azúcares fermentables pueden provocar diarrea. Te ayudamos a identificarlos sin hacer dietas más restrictivas de lo necesario."
+   ],
+   [
+    "¿El estrés puede darme diarrea?",
+    "Sí. El estrés acelera el tránsito intestinal y aumenta la sensibilidad del intestino. Aprender a regular esa respuesta suele reducir la urgencia."
+   ],
+   [
+    "¿Cuánto se tarda en notar mejoría?",
+    "Depende de cada caso. Muchas personas notan cambios en pocas semanas al ajustar la alimentación y el manejo del estrés. En la primera visita te proponemos un plan con objetivos claros."
+   ]
+  ],
+  "related": [
+   "colon-irritable-sibo",
+   "intolerancias-alimentarias",
+   "salud-digestiva-microbiota",
+   "estres-ansiedad"
+  ],
+  "cta_h2": "Recupera la tranquilidad en tu día a día",
+  "seo": {
+   "kw": "diarrea crónica Barcelona",
+   "kws": [
+    "diarrea de repetición Barcelona",
+    "diarrea funcional tratamiento",
+    "colon irritable diarrea Barcelona",
+    "acupuntura diarrea Barcelona",
+    "microbiota diarrea Sarrià"
+   ],
+   "ca_kw": "diarrea crònica Barcelona",
+   "quick": "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), acompañamos la diarrea crónica o de repetición de origen funcional. Revisamos intolerancias, microbiota y estrés, y combinamos alimentación, acupuntura, osteopatía visceral y mindfulness.",
+   "entity": [
+    "MedicalCondition",
+    "Diarrea crónica"
+   ]
+  },
+  "research": [
+   "Personas con diarrea o urgencia intestinal recurrente que buscan entender la causa y un abordaje integrativo.",
+   [
+    "diarrea crónica causas",
+    "diarrea de repetición qué hacer",
+    "diarrea por estrés tratamiento"
+   ],
+   [
+    "diarrea crònica causes",
+    "diarrea per estrès"
+   ],
+   "Portales médicos y hospitales con contenido diagnóstico, y blogs de microbiota y probióticos."
+  ],
+  "ca": {
+   "Diarrea crónica": "Diarrea crònica",
+   "Deposiciones blandas o urgentes que se repiten durante semanas.": "Deposicions toves o urgents que es repeteixen durant setmanes.",
+   "Diarrea crónica en Barcelona | WA LAM": "Diarrea crònica a Barcelona | WA LAM",
+   "Diarrea crónica o de repetición en Sarrià–Sant Gervasi, Barcelona: intolerancias, microbiota y estrés con un abordaje integrativo y personalizado.": "Diarrea crònica o de repetició a Sarrià–Sant Gervasi, Barcelona: intoleràncies, microbiota i estrès amb un abordatge integratiu i personalitzat.",
+   "Diarrea crónica o de repetición en Barcelona": "Diarrea crònica o de repetició a Barcelona",
+   "Diarrea funcional y urgencia intestinal · Sarrià–Sant Gervasi": "Diarrea funcional i urgència intestinal · Sarrià–Sant Gervasi",
+   "Vives pendiente de dónde está el baño más cercano y las deposiciones blandas se repiten semana tras semana. La diarrea crónica condiciona tu día a día y tu tranquilidad. Tu alimentación, tu microbiota y el estrés son piezas clave para recuperar el control.": "Vius pendent d'on és el lavabo més proper i les deposicions toves es repeteixen setmana rere setmana. La diarrea crònica condiciona el teu dia a dia i la teva tranquil·litat. La teva alimentació, la teva microbiota i l'estrès són peces clau per recuperar el control.",
+   "En WA LAM": "A WA LAM",
+   "Diarrea funcional y de repetición": "Diarrea funcional i de repetició",
+   "Intolerancias, microbiota y estrés": "Intoleràncies, microbiota i estrès",
+   "Acupuntura, osteopatía visceral y mindfulness": "Acupuntura, osteopatia visceral i mindfulness",
+   "Primera visita: 60 min · 90 €": "Primera visita: 60 min · 90 €",
+   "Hola, me gustaría información sobre la diarrea crónica.": "Hola, m'agradaria informació sobre la diarrea crònica.",
+   "Cuando el intestino no te da tregua": "Quan l'intestí no et dona treva",
+   "¿Tienes deposiciones blandas o líquidas desde hace más de cuatro semanas?": "Tens deposicions toves o líquides des de fa més de quatre setmanes?",
+   "¿Sientes urgencia y necesitas tener siempre un baño cerca?": "Sents urgència i necessites tenir sempre un lavabo a prop?",
+   "¿Notas que ciertos alimentos, como los lácteos o el exceso de grasa, te sientan mal?": "Notes que certs aliments, com els làctics o l'excés de greix, et senten malament?",
+   "¿La diarrea empeora en momentos de nervios o de estrés?": "La diarrea empitjora en moments de nervis o d'estrès?",
+   "Si hay sangre en las heces, pérdida de peso, fiebre, anemia o la diarrea te despierta por la noche, consulta con tu médico antes de nada.": "Si hi ha sang a la femta, pèrdua de pes, febre, anèmia o la diarrea et desperta a la nit, consulta el teu metge abans de res.",
+   "Por qué se repite la diarrea": "Per què es repeteix la diarrea",
+   "Se habla de diarrea crónica cuando las deposiciones blandas duran más de cuatro semanas. Primero hay que descartar con tu médico causas orgánicas como la celiaquía, la enfermedad inflamatoria intestinal, las infecciones o los problemas de tiroides. Cuando todo eso está en orden, suele tratarse de una diarrea funcional o de un colon irritable con predominio de diarrea.": "Es parla de diarrea crònica quan les deposicions toves duren més de quatre setmanes. Primer cal descartar amb el teu metge causes orgàniques com la celiaquia, la malaltia inflamatòria intestinal, les infeccions o els problemes de tiroide. Quan tot això està en ordre, sol tractar-se d'una diarrea funcional o d'un còlon irritable amb predomini de diarrea.",
+   "En ella intervienen la sensibilidad del intestino, los cambios en la microbiota, algunas intolerancias, como a la lactosa o a la fructosa, y el estrés, que acelera el tránsito a través del eje intestino-cerebro. Por eso el abordaje combina alimentación, cuidado de la microbiota y regulación del sistema nervioso.": "Hi intervenen la sensibilitat de l'intestí, els canvis en la microbiota, algunes intoleràncies, com a la lactosa o a la fructosa, i l'estrès, que accelera el trànsit a través de l'eix intestí-cervell. Per això l'abordatge combina alimentació, cura de la microbiota i regulació del sistema nerviós.",
+   "Cómo lo abordamos": "Com ho abordem",
+   "Valoración": "Valoració",
+   "Tu historia y tus pruebas": "La teva història i les teves proves",
+   "Revisamos tus síntomas, las pruebas que te ha hecho tu médico, tu alimentación, posibles intolerancias, medicación y estrés.": "Revisem els teus símptomes, les proves que t'ha fet el teu metge, la teva alimentació, possibles intoleràncies, medicació i estrès.",
+   "Tratamiento": "Tractament",
+   "Acupuntura y osteopatía visceral": "Acupuntura i osteopatia visceral",
+   "[Acupuntura](acupuntura-medicina-tradicional-china) y trabajo manual suave sobre el abdomen con [osteopatía visceral](osteopatia-visceral-barcelona) cuando está indicado.": "[Acupuntura](acupuntura-medicina-tradicional-china) i treball manual suau sobre l'abdomen amb [osteopatia visceral](osteopatia-visceral-barcelona) quan està indicat.",
+   "Alimentación": "Alimentació",
+   "Intolerancias y microbiota": "Intoleràncies i microbiota",
+   "Identificamos los alimentos que te sientan peor, valoramos posibles [intolerancias alimentarias](intolerancias-alimentarias) y cuidamos tu microbiota de forma progresiva.": "Identifiquem els aliments que et senten pitjor, valorem possibles [intoleràncies alimentàries](intolerancias-alimentarias) i cuidem la teva microbiota de manera progressiva.",
+   "Sistema nervioso": "Sistema nerviós",
+   "Estrés y eje intestino-cerebro": "Estrès i eix intestí-cervell",
+   "Herramientas de respiración y atención plena para calmar la respuesta de urgencia, con apoyo del [curso MBSR](curso-mindfulness-mbsr-barcelona) si te encaja.": "Eines de respiració i atenció plena per calmar la resposta d'urgència, amb el suport del [curs MBSR](curso-mindfulness-mbsr-barcelona) si t'encaixa.",
+   "Qué dice la evidencia": "Què diu l'evidència",
+   "Guía clínica (Gut)": "Guia clínica (Gut)",
+   "La guía de la Sociedad Británica de Gastroenterología define la diarrea crónica como la que dura más de cuatro semanas y establece qué pruebas hacen falta para descartar causas orgánicas, como la celiaquía o la enfermedad inflamatoria intestinal (Arasaradnam et al., Gut, 2018).": "La guia de la Societat Britànica de Gastroenterologia defineix la diarrea crònica com la que dura més de quatre setmanes i estableix quines proves calen per descartar causes orgàniques, com la celiaquia o la malaltia inflamatòria intestinal (Arasaradnam et al., Gut, 2018).",
+   "Ensayo clínico (JAMA Netw Open)": "Assaig clínic (JAMA Netw Open)",
+   "En personas con colon irritable con predominio de diarrea, la acupuntura mejoró los síntomas y la consistencia de las heces frente a la acupuntura simulada (Qi et al., JAMA Netw Open, 2022).": "En persones amb còlon irritable amb predomini de diarrea, l'acupuntura va millorar els símptomes i la consistència de la femta respecte a l'acupuntura simulada (Qi et al., JAMA Netw Open, 2022).",
+   "Ensayo clínico (Am J Gastroenterol)": "Assaig clínic (Am J Gastroenterol)",
+   "Un programa de mindfulness redujo la intensidad de los síntomas del colon irritable en mujeres, con mejoras mantenidas a los tres meses (Gaylord et al., Am J Gastroenterol, 2011).": "Un programa de mindfulness va reduir la intensitat dels símptomes del còlon irritable en dones, amb millores mantingudes als tres mesos (Gaylord et al., Am J Gastroenterol, 2011).",
+   "¿Cuándo se considera crónica una diarrea?": "Quan es considera crònica una diarrea?",
+   "Cuando las deposiciones blandas o líquidas se mantienen más de cuatro semanas. Es importante que tu médico descarte antes una causa orgánica.": "Quan les deposicions toves o líquides es mantenen més de quatre setmanes. És important que el teu metge descarti abans una causa orgànica.",
+   "¿Puede ser una intolerancia?": "Pot ser una intolerància?",
+   "A veces sí. La lactosa, la fructosa o algunos azúcares fermentables pueden provocar diarrea. Te ayudamos a identificarlos sin hacer dietas más restrictivas de lo necesario.": "De vegades sí. La lactosa, la fructosa o alguns sucres fermentables poden provocar diarrea. T'ajudem a identificar-los sense fer dietes més restrictives del que cal.",
+   "¿El estrés puede darme diarrea?": "L'estrès em pot provocar diarrea?",
+   "Sí. El estrés acelera el tránsito intestinal y aumenta la sensibilidad del intestino. Aprender a regular esa respuesta suele reducir la urgencia.": "Sí. L'estrès accelera el trànsit intestinal i augmenta la sensibilitat de l'intestí. Aprendre a regular aquesta resposta sol reduir la urgència.",
+   "¿Cuánto se tarda en notar mejoría?": "Quant es triga a notar millora?",
+   "Depende de cada caso. Muchas personas notan cambios en pocas semanas al ajustar la alimentación y el manejo del estrés. En la primera visita te proponemos un plan con objetivos claros.": "Depèn de cada cas. Moltes persones noten canvis en poques setmanes en ajustar l'alimentació i la gestió de l'estrès. A la primera visita et proposem un pla amb objectius clars.",
+   "Recupera la tranquilidad en tu día a día": "Recupera la tranquil·litat en el teu dia a dia",
+   "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), acompañamos la diarrea crónica o de repetición de origen funcional. Revisamos intolerancias, microbiota y estrés, y combinamos alimentación, acupuntura, osteopatía visceral y mindfulness.": "A WA LAM, a Sarrià–Sant Gervasi (Barcelona), acompanyem la diarrea crònica o de repetició d'origen funcional. Revisem intoleràncies, microbiota i estrès, i combinem alimentació, acupuntura, osteopatia visceral i mindfulness."
+  }
+ }
+]

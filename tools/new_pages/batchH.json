@@ -1,0 +1,971 @@
+[
+ {
+  "slug": "intolerancia-gluten",
+  "ca_slug": "intolerancia-gluten",
+  "nav": "Sensibilidad al gluten",
+  "card": "Molestias digestivas, cansancio o niebla mental con el gluten, después de descartar la celiaquía.",
+  "title": "Sensibilidad al gluten no celíaca en Barcelona | WA LAM",
+  "desc": "Sensibilidad al gluten no celíaca en Sarrià–Sant Gervasi, Barcelona: síntomas digestivos y extradigestivos, dieta de exclusión y reintroducción guiada.",
+  "h1": "Sensibilidad al gluten no celíaca en Barcelona",
+  "sub": "Síntomas con el gluten sin celiaquía · Sarrià–Sant Gervasi",
+  "lead": "Hay personas que notan hinchazón, dolor abdominal, cansancio o dificultad para concentrarse cuando comen gluten, sin tener celiaquía ni alergia al trigo. Es la sensibilidad al gluten no celíaca. Antes de retirar el gluten conviene descartar la celiaquía con tu médico; después, una exclusión y una reintroducción guiadas te ayudan a saber qué te sienta bien.",
+  "facts_title": "En WA LAM",
+  "facts": [
+   "Síntomas digestivos y extradigestivos",
+   "Exclusión y reintroducción guiadas",
+   "Primera visita: 60 min · 90 €"
+  ],
+  "wa": "Hola, me gustaría información sobre el acompañamiento de la sensibilidad al gluten.",
+  "mirror": {
+   "h2": "Cuando el gluten parece sentarte mal",
+   "qs": [
+    "¿Te hinchas o tienes dolor abdominal después de comer pan o pasta?",
+    "¿Notas cansancio, niebla mental o dolor de cabeza en las horas siguientes?",
+    "¿Te han descartado la celiaquía pero los síntomas continúan?",
+    "¿Has retirado el gluten por tu cuenta y no sabes si es necesario?"
+   ],
+   "close": "Si pierdes peso sin buscarlo, tienes diarrea persistente, sangre en las heces, anemia o fiebre, consulta con tu médico. Si sospechas celiaquía, no retires el gluten antes de hacerte la serología y, si procede, la biopsia: retirarlo antes puede falsear el resultado."
+  },
+  "explain": {
+   "h2": "Qué es la sensibilidad al gluten no celíaca",
+   "paras": [
+    "Es una reacción al gluten, o a otros componentes del trigo, que provoca síntomas digestivos como hinchazón, gases o dolor abdominal, y extradigestivos como cansancio, niebla mental, dolor de cabeza o dolor articular. A diferencia de la celiaquía, no daña la mucosa intestinal ni produce anticuerpos específicos.",
+    "Por eso el diagnóstico se hace por exclusión: primero se descartan la celiaquía y la alergia al trigo, y después se comprueba si los síntomas mejoran sin gluten y reaparecen al reintroducirlo. En que se mantengan influyen también el estado de la microbiota, la sensibilidad del intestino y el estrés."
+   ]
+  },
+  "cards": {
+   "h2": "Cómo lo abordamos",
+   "items": [
+    {
+     "k": "Valoración",
+     "h": "Primero, descartar la celiaquía",
+     "p": "Revisamos tu historia digestiva, tus síntomas y las pruebas que ya tienes. Si falta la serología de celiaquía, te orientamos a pedirla a tu médico antes de cambiar la dieta."
+    },
+    {
+     "k": "Alimentación",
+     "h": "Exclusión y reintroducción guiadas",
+     "p": "Una retirada temporal y ordenada del gluten, seguida de una reintroducción por pasos, para saber qué toleras y en qué cantidad. Sin dietas más estrictas de lo necesario."
+    },
+    {
+     "k": "Intestino",
+     "h": "Microbiota y digestión",
+     "p": "Pautas desde la [PNIE](pni-pnie-barcelona) para cuidar la microbiota y la mucosa intestinal, y, cuando está indicada, osteopatía visceral para la hinchazón y la tensión abdominal."
+    },
+    {
+     "k": "Sistema nervioso",
+     "h": "El eje intestino-cerebro",
+     "p": "El estrés aumenta la sensibilidad digestiva. Trabajamos la respiración, el descanso y la regulación del sistema nervioso para que el intestino esté más tranquilo."
+    }
+   ]
+  },
+  "evidence": {
+   "h2": "Qué dice la evidencia",
+   "items": [
+    [
+     "Consenso internacional (BMC Medicine)",
+     "Un grupo de expertos reconoció la sensibilidad al gluten no celíaca como una entidad propia, distinta de la celiaquía y de la alergia al trigo (Sapone et al., BMC Med, 2012)."
+    ],
+    [
+     "Ensayo controlado (Am J Gastroenterol)",
+     "En personas sin celiaquía, el gluten provocó más dolor abdominal, hinchazón y cansancio que el placebo en un ensayo doble ciego (Biesiekierski et al., Am J Gastroenterol, 2011)."
+    ],
+    [
+     "Criterios de expertos (Nutrients)",
+     "Los criterios de Salerno establecen el diagnóstico tras descartar la celiaquía, con una dieta sin gluten y una reintroducción controlada que confirma la relación con los síntomas (Catassi et al., Nutrients, 2015)."
+    ]
+   ],
+   "refs": [
+    {
+     "t": "Sapone A, et al., 2012. «Spectrum of gluten-related disorders: consensus on new nomenclature and classification». BMC Medicine.",
+     "doi": "10.1186/1741-7015-10-13"
+    },
+    {
+     "t": "Biesiekierski JR, et al., 2011. «Gluten Causes Gastrointestinal Symptoms in Subjects Without Celiac Disease: A Double-Blind Randomized Placebo-Controlled Trial». Am J Gastroenterol.",
+     "doi": "10.1038/ajg.2010.487"
+    },
+    {
+     "t": "Catassi C, et al., 2015. «Diagnosis of Non-Celiac Gluten Sensitivity (NCGS): The Salerno Experts' Criteria». Nutrients.",
+     "doi": "10.3390/nu7064966"
+    }
+   ]
+  },
+  "faq": [
+   [
+    "¿Puedo dejar el gluten antes de hacerme las pruebas?",
+    "Es mejor no hacerlo. La serología y la biopsia de celiaquía necesitan que sigas comiendo gluten para ser fiables. Primero las pruebas, después los cambios."
+   ],
+   [
+    "¿Tendré que eliminar el gluten para siempre?",
+    "No necesariamente. Muchas personas toleran cierta cantidad. La reintroducción guiada sirve precisamente para encontrar tu margen."
+   ],
+   [
+    "¿Y si no es el gluten, sino otros componentes del trigo?",
+    "A veces los síntomas se deben a los fructanos del trigo, un tipo de FODMAP. Lo valoramos junto a otras [intolerancias alimentarias](intolerancias-alimentarias)."
+   ],
+   [
+    "¿Qué relación tiene con el colon irritable?",
+    "Comparten síntomas y a menudo coinciden. Si es tu caso, el abordaje del [colon irritable](colon-irritable-sibo) se integra en el mismo plan."
+   ]
+  ],
+  "related": [
+   "intolerancias-alimentarias",
+   "colon-irritable-sibo",
+   "salud-digestiva-microbiota",
+   "gases-hinchazon-abdominal"
+  ],
+  "cta_h2": "Comer con tranquilidad, sabiendo lo que te sienta bien",
+  "seo": {
+   "kw": "sensibilidad al gluten no celíaca Barcelona",
+   "kws": [
+    "intolerancia al gluten síntomas",
+    "dieta sin gluten sin ser celíaco",
+    "niebla mental gluten",
+    "gluten hinchazón abdominal",
+    "reintroducción del gluten"
+   ],
+   "ca_kw": "sensibilitat al gluten no celíaca Barcelona",
+   "quick": "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), acompañamos la sensibilidad al gluten no celíaca una vez descartada la celiaquía por tu médico. Trabajamos con una exclusión y una reintroducción guiadas, el cuidado de la microbiota y la regulación del estrés.",
+   "entity": [
+    "MedicalCondition",
+    "Sensibilidad al gluten no celíaca"
+   ]
+  },
+  "research": [
+   "Personas con molestias digestivas o cansancio que sospechan que el gluten les sienta mal y buscan en Barcelona orientación para confirmarlo y saber qué comer.",
+   [
+    "sensibilidad al gluten no celíaca síntomas",
+    "intolerancia al gluten sin ser celíaco",
+    "dieta sin gluten Barcelona nutrición integrativa"
+   ],
+   [
+    "sensibilitat al gluten símptomes",
+    "intolerància al gluten Barcelona"
+   ],
+   "Asociaciones de celíacos, páginas hospitalarias de digestivo, nutricionistas y blogs de alimentación sin gluten."
+  ],
+  "ca": {
+   "Sensibilidad al gluten": "Sensibilitat al gluten",
+   "Molestias digestivas, cansancio o niebla mental con el gluten, después de descartar la celiaquía.": "Molèsties digestives, cansament o boira mental amb el gluten, després de descartar la celiaquia.",
+   "Sensibilidad al gluten no celíaca en Barcelona | WA LAM": "Sensibilitat al gluten no celíaca a Barcelona | WA LAM",
+   "Sensibilidad al gluten no celíaca en Sarrià–Sant Gervasi, Barcelona: síntomas digestivos y extradigestivos, dieta de exclusión y reintroducción guiada.": "Sensibilitat al gluten no celíaca a Sarrià–Sant Gervasi, Barcelona: símptomes digestius i extradigestius, dieta d'exclusió i reintroducció guiada.",
+   "Sensibilidad al gluten no celíaca en Barcelona": "Sensibilitat al gluten no celíaca a Barcelona",
+   "Síntomas con el gluten sin celiaquía · Sarrià–Sant Gervasi": "Símptomes amb el gluten sense celiaquia · Sarrià–Sant Gervasi",
+   "Hay personas que notan hinchazón, dolor abdominal, cansancio o dificultad para concentrarse cuando comen gluten, sin tener celiaquía ni alergia al trigo. Es la sensibilidad al gluten no celíaca. Antes de retirar el gluten conviene descartar la celiaquía con tu médico; después, una exclusión y una reintroducción guiadas te ayudan a saber qué te sienta bien.": "Hi ha persones que noten inflor, dolor abdominal, cansament o dificultat per concentrar-se quan mengen gluten, sense tenir celiaquia ni al·lèrgia al blat. És la sensibilitat al gluten no celíaca. Abans de retirar el gluten convé descartar la celiaquia amb el teu metge; després, una exclusió i una reintroducció guiades t'ajuden a saber què et sent bé.",
+   "En WA LAM": "A WA LAM",
+   "Síntomas digestivos y extradigestivos": "Símptomes digestius i extradigestius",
+   "Exclusión y reintroducción guiadas": "Exclusió i reintroducció guiades",
+   "Primera visita: 60 min · 90 €": "Primera visita: 60 min · 90 €",
+   "Hola, me gustaría información sobre el acompañamiento de la sensibilidad al gluten.": "Hola, m'agradaria informació sobre l'acompanyament de la sensibilitat al gluten.",
+   "Cuando el gluten parece sentarte mal": "Quan sembla que el gluten et sent malament",
+   "¿Te hinchas o tienes dolor abdominal después de comer pan o pasta?": "T'infles o tens dolor abdominal després de menjar pa o pasta?",
+   "¿Notas cansancio, niebla mental o dolor de cabeza en las horas siguientes?": "Notes cansament, boira mental o mal de cap en les hores següents?",
+   "¿Te han descartado la celiaquía pero los síntomas continúan?": "T'han descartat la celiaquia però els símptomes continuen?",
+   "¿Has retirado el gluten por tu cuenta y no sabes si es necesario?": "Has retirat el gluten pel teu compte i no saps si és necessari?",
+   "Si pierdes peso sin buscarlo, tienes diarrea persistente, sangre en las heces, anemia o fiebre, consulta con tu médico. Si sospechas celiaquía, no retires el gluten antes de hacerte la serología y, si procede, la biopsia: retirarlo antes puede falsear el resultado.": "Si perds pes sense buscar-ho, tens diarrea persistent, sang a la femta, anèmia o febre, consulta el teu metge. Si sospites celiaquia, no retiris el gluten abans de fer-te la serologia i, si escau, la biòpsia: retirar-lo abans pot falsejar el resultat.",
+   "Qué es la sensibilidad al gluten no celíaca": "Què és la sensibilitat al gluten no celíaca",
+   "Es una reacción al gluten, o a otros componentes del trigo, que provoca síntomas digestivos como hinchazón, gases o dolor abdominal, y extradigestivos como cansancio, niebla mental, dolor de cabeza o dolor articular. A diferencia de la celiaquía, no daña la mucosa intestinal ni produce anticuerpos específicos.": "És una reacció al gluten, o a altres components del blat, que provoca símptomes digestius com inflor, gasos o dolor abdominal, i extradigestius com cansament, boira mental, mal de cap o dolor articular. A diferència de la celiaquia, no danya la mucosa intestinal ni produeix anticossos específics.",
+   "Por eso el diagnóstico se hace por exclusión: primero se descartan la celiaquía y la alergia al trigo, y después se comprueba si los síntomas mejoran sin gluten y reaparecen al reintroducirlo. En que se mantengan influyen también el estado de la microbiota, la sensibilidad del intestino y el estrés.": "Per això el diagnòstic es fa per exclusió: primer es descarten la celiaquia i l'al·lèrgia al blat, i després es comprova si els símptomes milloren sense gluten i reapareixen en reintroduir-lo. En el fet que es mantinguin també hi influeixen l'estat de la microbiota, la sensibilitat de l'intestí i l'estrès.",
+   "Cómo lo abordamos": "Com ho abordem",
+   "Valoración": "Valoració",
+   "Primero, descartar la celiaquía": "Primer, descartar la celiaquia",
+   "Revisamos tu historia digestiva, tus síntomas y las pruebas que ya tienes. Si falta la serología de celiaquía, te orientamos a pedirla a tu médico antes de cambiar la dieta.": "Revisem la teva història digestiva, els teus símptomes i les proves que ja tens. Si falta la serologia de celiaquia, t'orientem a demanar-la al teu metge abans de canviar la dieta.",
+   "Alimentación": "Alimentació",
+   "Una retirada temporal y ordenada del gluten, seguida de una reintroducción por pasos, para saber qué toleras y en qué cantidad. Sin dietas más estrictas de lo necesario.": "Una retirada temporal i ordenada del gluten, seguida d'una reintroducció per passos, per saber què toleres i en quina quantitat. Sense dietes més estrictes del necessari.",
+   "Intestino": "Intestí",
+   "Microbiota y digestión": "Microbiota i digestió",
+   "Pautas desde la [PNIE](pni-pnie-barcelona) para cuidar la microbiota y la mucosa intestinal, y, cuando está indicada, osteopatía visceral para la hinchazón y la tensión abdominal.": "Pautes des de la [PNIE](pni-pnie-barcelona) per cuidar la microbiota i la mucosa intestinal i, quan està indicada, osteopatia visceral per a la inflor i la tensió abdominal.",
+   "Sistema nervioso": "Sistema nerviós",
+   "El eje intestino-cerebro": "L'eix intestí-cervell",
+   "El estrés aumenta la sensibilidad digestiva. Trabajamos la respiración, el descanso y la regulación del sistema nervioso para que el intestino esté más tranquilo.": "L'estrès augmenta la sensibilitat digestiva. Treballem la respiració, el descans i la regulació del sistema nerviós perquè l'intestí estigui més tranquil.",
+   "Qué dice la evidencia": "Què diu l'evidència",
+   "Consenso internacional (BMC Medicine)": "Consens internacional (BMC Medicine)",
+   "Un grupo de expertos reconoció la sensibilidad al gluten no celíaca como una entidad propia, distinta de la celiaquía y de la alergia al trigo (Sapone et al., BMC Med, 2012).": "Un grup d'experts va reconèixer la sensibilitat al gluten no celíaca com una entitat pròpia, diferent de la celiaquia i de l'al·lèrgia al blat (Sapone et al., BMC Med, 2012).",
+   "Ensayo controlado (Am J Gastroenterol)": "Assaig controlat (Am J Gastroenterol)",
+   "En personas sin celiaquía, el gluten provocó más dolor abdominal, hinchazón y cansancio que el placebo en un ensayo doble ciego (Biesiekierski et al., Am J Gastroenterol, 2011).": "En persones sense celiaquia, el gluten va provocar més dolor abdominal, inflor i cansament que el placebo en un assaig doble cec (Biesiekierski et al., Am J Gastroenterol, 2011).",
+   "Criterios de expertos (Nutrients)": "Criteris d'experts (Nutrients)",
+   "Los criterios de Salerno establecen el diagnóstico tras descartar la celiaquía, con una dieta sin gluten y una reintroducción controlada que confirma la relación con los síntomas (Catassi et al., Nutrients, 2015).": "Els criteris de Salern estableixen el diagnòstic després de descartar la celiaquia, amb una dieta sense gluten i una reintroducció controlada que confirma la relació amb els símptomes (Catassi et al., Nutrients, 2015).",
+   "¿Puedo dejar el gluten antes de hacerme las pruebas?": "Puc deixar el gluten abans de fer-me les proves?",
+   "Es mejor no hacerlo. La serología y la biopsia de celiaquía necesitan que sigas comiendo gluten para ser fiables. Primero las pruebas, después los cambios.": "És millor no fer-ho. La serologia i la biòpsia de celiaquia necessiten que continuïs menjant gluten per ser fiables. Primer les proves, després els canvis.",
+   "¿Tendré que eliminar el gluten para siempre?": "Hauré d'eliminar el gluten per sempre?",
+   "No necesariamente. Muchas personas toleran cierta cantidad. La reintroducción guiada sirve precisamente para encontrar tu margen.": "No necessàriament. Moltes persones toleren una certa quantitat. La reintroducció guiada serveix precisament per trobar el teu marge.",
+   "¿Y si no es el gluten, sino otros componentes del trigo?": "I si no és el gluten, sinó altres components del blat?",
+   "A veces los síntomas se deben a los fructanos del trigo, un tipo de FODMAP. Lo valoramos junto a otras [intolerancias alimentarias](intolerancias-alimentarias).": "De vegades els símptomes es deuen als fructans del blat, un tipus de FODMAP. Ho valorem juntament amb altres [intoleràncies alimentàries](intolerancias-alimentarias).",
+   "¿Qué relación tiene con el colon irritable?": "Quina relació té amb el còlon irritable?",
+   "Comparten síntomas y a menudo coinciden. Si es tu caso, el abordaje del [colon irritable](colon-irritable-sibo) se integra en el mismo plan.": "Comparteixen símptomes i sovint coincideixen. Si és el teu cas, l'abordatge del [còlon irritable](colon-irritable-sibo) s'integra en el mateix pla.",
+   "Comer con tranquilidad, sabiendo lo que te sienta bien": "Menjar amb tranquil·litat, sabent què et sent bé",
+   "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), acompañamos la sensibilidad al gluten no celíaca una vez descartada la celiaquía por tu médico. Trabajamos con una exclusión y una reintroducción guiadas, el cuidado de la microbiota y la regulación del estrés.": "A WA LAM, a Sarrià–Sant Gervasi (Barcelona), acompanyem la sensibilitat al gluten no celíaca un cop el teu metge ha descartat la celiaquia. Treballem amb una exclusió i una reintroducció guiades, la cura de la microbiota i la regulació de l'estrès."
+  }
+ },
+ {
+  "slug": "intolerancia-lactosa",
+  "ca_slug": "intolerancia-lactosa",
+  "nav": "Intolerancia a la lactosa",
+  "card": "Gases, hinchazón o diarrea con los lácteos: saber cuánta lactosa toleras y cuidar el calcio.",
+  "title": "Intolerancia a la lactosa en Barcelona | WA LAM",
+  "desc": "Intolerancia a la lactosa en Sarrià–Sant Gervasi, Barcelona: síntomas, test de aliento, cuánta lactosa toleras, alternativas y calcio. Enfoque integrativo.",
+  "h1": "Intolerancia a la lactosa en Barcelona",
+  "sub": "Comer lácteos sin molestias · Sarrià–Sant Gervasi",
+  "lead": "La intolerancia a la lactosa aparece cuando el intestino no digiere bien el azúcar de la leche y provoca gases, hinchazón o diarrea. Es muy frecuente y, en la mayoría de los casos, no obliga a eliminar todos los lácteos. Te ayudamos a saber cuánta lactosa toleras y a mantener un buen aporte de calcio.",
+  "facts_title": "En WA LAM",
+  "facts": [
+   "Interpretación del test de aliento",
+   "Cantidad tolerada, alternativas y calcio",
+   "Primera visita: 60 min · 90 €"
+  ],
+  "wa": "Hola, me gustaría información sobre el acompañamiento de la intolerancia a la lactosa.",
+  "mirror": {
+   "h2": "Cuando los lácteos te sientan mal",
+   "qs": [
+    "¿Tienes gases, ruidos o hinchazón poco después de tomar leche?",
+    "¿Te aparece diarrea o urgencia tras un café con leche o un helado?",
+    "¿Has dejado los lácteos y te preocupa no tomar suficiente calcio?",
+    "¿No sabes si el yogur o el queso curado también te sientan mal?"
+   ],
+   "close": "Si tienes diarrea con sangre, pérdida de peso sin explicación, fiebre o dolor abdominal intenso, consulta con tu médico: estos síntomas no son propios de la intolerancia a la lactosa."
+  },
+  "explain": {
+   "h2": "Por qué aparece la intolerancia a la lactosa",
+   "paras": [
+    "La lactosa necesita una enzima, la lactasa, para digerirse. En muchas personas adultas su actividad disminuye con los años, y la lactosa que no se absorbe llega al colon, donde la fermenta la microbiota. Esa fermentación produce gases, hinchazón y, a veces, diarrea.",
+    "También puede aparecer de forma temporal tras una gastroenteritis o en otras alteraciones intestinales. El test de aliento ayuda a confirmarla, y la intensidad de los síntomas depende de la cantidad de lactosa, de cómo la tomas y de la sensibilidad de tu intestino."
+   ]
+  },
+  "cards": {
+   "h2": "Cómo lo abordamos",
+   "items": [
+    {
+     "k": "Valoración",
+     "h": "Entender tus síntomas",
+     "p": "Revisamos tu historia digestiva, el resultado del test de aliento si lo tienes y qué lácteos tomas y cómo te sientan."
+    },
+    {
+     "k": "Alimentación",
+     "h": "Encontrar tu cantidad tolerada",
+     "p": "Una reducción temporal y una reintroducción por pasos para descubrir tu margen. Los yogures, el kéfir y los quesos curados suelen tolerarse mejor que la leche."
+    },
+    {
+     "k": "Calcio",
+     "h": "Alternativas y huesos fuertes",
+     "p": "Te orientamos sobre lácteos sin lactosa, bebidas vegetales enriquecidas y otras fuentes de calcio para cuidar tus huesos."
+    },
+    {
+     "k": "Intestino",
+     "h": "Microbiota y estrés",
+     "p": "Cuidamos la microbiota desde la [PNIE](pni-pnie-barcelona) y trabajamos el estrés, que aumenta la sensibilidad digestiva."
+    }
+   ]
+  },
+  "evidence": {
+   "h2": "Qué dice la evidencia",
+   "items": [
+    [
+     "Revisión sistemática (Ann Intern Med)",
+     "La mayoría de las personas con intolerancia toleran unos 12 g de lactosa, la cantidad de un vaso de leche, con pocos síntomas o ninguno (Shaukat et al., Ann Intern Med, 2010)."
+    ],
+    [
+     "Revisión clínica (Gut)",
+     "El test de aliento con hidrógeno es la prueba de referencia, y el manejo se basa en ajustar la cantidad de lactosa a la tolerancia de cada persona (Misselwitz et al., Gut, 2019)."
+    ]
+   ],
+   "refs": [
+    {
+     "t": "Shaukat A, et al., 2010. «Systematic Review: Effective Management Strategies for Lactose Intolerance». Ann Intern Med.",
+     "doi": "10.7326/0003-4819-152-12-201006150-00241"
+    },
+    {
+     "t": "Misselwitz B, et al., 2019. «Update on lactose malabsorption and intolerance: pathogenesis, diagnosis and clinical management». Gut.",
+     "doi": "10.1136/gutjnl-2019-318404"
+    }
+   ]
+  },
+  "faq": [
+   [
+    "¿Tengo que dejar todos los lácteos?",
+    "Casi nunca. La mayoría de las personas toleran pequeñas cantidades, sobre todo repartidas a lo largo del día y junto con otros alimentos."
+   ],
+   [
+    "¿Cómo se diagnostica?",
+    "Con el test de aliento de hidrógeno, que te puede solicitar tu médico. Si ya lo tienes, lo revisamos juntos para orientar la alimentación."
+   ],
+   [
+    "¿Cómo me aseguro de tomar suficiente calcio?",
+    "Con lácteos sin lactosa o fermentados, bebidas vegetales enriquecidas, legumbres, frutos secos, sardinas o verduras de hoja verde. Si te preocupa tu masa ósea, mira también [osteoporosis](osteoporosis)."
+   ],
+   [
+    "¿Puede mejorar con el tiempo?",
+    "Cuando es secundaria a una alteración intestinal, suele mejorar al recuperarse el intestino. En todos los casos, cuidar la microbiota ayuda a tolerar mejor."
+   ]
+  ],
+  "related": [
+   "intolerancias-alimentarias",
+   "gases-hinchazon-abdominal",
+   "diarrea-cronica",
+   "salud-digestiva-microbiota"
+  ],
+  "cta_h2": "Volver a disfrutar de la comida sin molestias",
+  "seo": {
+   "kw": "intolerancia a la lactosa Barcelona",
+   "kws": [
+    "síntomas intolerancia lactosa",
+    "test de aliento lactosa",
+    "cuánta lactosa puedo tomar",
+    "intolerancia lactosa calcio",
+    "dieta sin lactosa"
+   ],
+   "ca_kw": "intolerància a la lactosa Barcelona",
+   "quick": "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), acompañamos la intolerancia a la lactosa a partir de tus síntomas y del test de aliento. Te ayudamos a encontrar la cantidad que toleras, a elegir alternativas y a mantener un buen aporte de calcio.",
+   "entity": [
+    "MedicalCondition",
+    "Intolerancia a la lactosa"
+   ]
+  },
+  "research": [
+   "Personas con gases o diarrea al tomar lácteos que buscan en Barcelona confirmar la intolerancia y saber qué pueden comer.",
+   [
+    "intolerancia a la lactosa síntomas",
+    "test de aliento lactosa Barcelona",
+    "qué comer intolerancia lactosa"
+   ],
+   [
+    "intolerància a la lactosa símptomes",
+    "test d'alè lactosa Barcelona"
+   ],
+   "Laboratorios de test de aliento, clínicas de digestivo, nutricionistas y marcas de productos sin lactosa."
+  ],
+  "ca": {
+   "Intolerancia a la lactosa": "Intolerància a la lactosa",
+   "Gases, hinchazón o diarrea con los lácteos: saber cuánta lactosa toleras y cuidar el calcio.": "Gasos, inflor o diarrea amb els làctics: saber quanta lactosa toleres i cuidar el calci.",
+   "Intolerancia a la lactosa en Barcelona | WA LAM": "Intolerància a la lactosa a Barcelona | WA LAM",
+   "Intolerancia a la lactosa en Sarrià–Sant Gervasi, Barcelona: síntomas, test de aliento, cuánta lactosa toleras, alternativas y calcio. Enfoque integrativo.": "Intolerància a la lactosa a Sarrià–Sant Gervasi, Barcelona: símptomes, test d'alè, quanta lactosa toleres, alternatives i calci. Enfocament integratiu.",
+   "Intolerancia a la lactosa en Barcelona": "Intolerància a la lactosa a Barcelona",
+   "Comer lácteos sin molestias · Sarrià–Sant Gervasi": "Menjar làctics sense molèsties · Sarrià–Sant Gervasi",
+   "La intolerancia a la lactosa aparece cuando el intestino no digiere bien el azúcar de la leche y provoca gases, hinchazón o diarrea. Es muy frecuente y, en la mayoría de los casos, no obliga a eliminar todos los lácteos. Te ayudamos a saber cuánta lactosa toleras y a mantener un buen aporte de calcio.": "La intolerància a la lactosa apareix quan l'intestí no digereix bé el sucre de la llet i provoca gasos, inflor o diarrea. És molt freqüent i, en la majoria dels casos, no obliga a eliminar tots els làctics. T'ajudem a saber quanta lactosa toleres i a mantenir una bona aportació de calci.",
+   "En WA LAM": "A WA LAM",
+   "Interpretación del test de aliento": "Interpretació del test d'alè",
+   "Cantidad tolerada, alternativas y calcio": "Quantitat tolerada, alternatives i calci",
+   "Primera visita: 60 min · 90 €": "Primera visita: 60 min · 90 €",
+   "Hola, me gustaría información sobre el acompañamiento de la intolerancia a la lactosa.": "Hola, m'agradaria informació sobre l'acompanyament de la intolerància a la lactosa.",
+   "Cuando los lácteos te sientan mal": "Quan els làctics et senten malament",
+   "¿Tienes gases, ruidos o hinchazón poco después de tomar leche?": "Tens gasos, sorolls o inflor poc després de prendre llet?",
+   "¿Te aparece diarrea o urgencia tras un café con leche o un helado?": "Et surt diarrea o urgència després d'un cafè amb llet o un gelat?",
+   "¿Has dejado los lácteos y te preocupa no tomar suficiente calcio?": "Has deixat els làctics i et preocupa no prendre prou calci?",
+   "¿No sabes si el yogur o el queso curado también te sientan mal?": "No saps si el iogurt o el formatge curat també et senten malament?",
+   "Si tienes diarrea con sangre, pérdida de peso sin explicación, fiebre o dolor abdominal intenso, consulta con tu médico: estos síntomas no son propios de la intolerancia a la lactosa.": "Si tens diarrea amb sang, pèrdua de pes sense explicació, febre o dolor abdominal intens, consulta el teu metge: aquests símptomes no són propis de la intolerància a la lactosa.",
+   "Por qué aparece la intolerancia a la lactosa": "Per què apareix la intolerància a la lactosa",
+   "La lactosa necesita una enzima, la lactasa, para digerirse. En muchas personas adultas su actividad disminuye con los años, y la lactosa que no se absorbe llega al colon, donde la fermenta la microbiota. Esa fermentación produce gases, hinchazón y, a veces, diarrea.": "La lactosa necessita un enzim, la lactasa, per digerir-se. En moltes persones adultes la seva activitat disminueix amb els anys, i la lactosa que no s'absorbeix arriba al còlon, on la fermenta la microbiota. Aquesta fermentació produeix gasos, inflor i, de vegades, diarrea.",
+   "También puede aparecer de forma temporal tras una gastroenteritis o en otras alteraciones intestinales. El test de aliento ayuda a confirmarla, y la intensidad de los síntomas depende de la cantidad de lactosa, de cómo la tomas y de la sensibilidad de tu intestino.": "També pot aparèixer de manera temporal després d'una gastroenteritis o en altres alteracions intestinals. El test d'alè ajuda a confirmar-la, i la intensitat dels símptomes depèn de la quantitat de lactosa, de com la prens i de la sensibilitat del teu intestí.",
+   "Cómo lo abordamos": "Com ho abordem",
+   "Valoración": "Valoració",
+   "Entender tus síntomas": "Entendre els teus símptomes",
+   "Revisamos tu historia digestiva, el resultado del test de aliento si lo tienes y qué lácteos tomas y cómo te sientan.": "Revisem la teva història digestiva, el resultat del test d'alè si el tens i quins làctics prens i com et senten.",
+   "Alimentación": "Alimentació",
+   "Encontrar tu cantidad tolerada": "Trobar la teva quantitat tolerada",
+   "Una reducción temporal y una reintroducción por pasos para descubrir tu margen. Los yogures, el kéfir y los quesos curados suelen tolerarse mejor que la leche.": "Una reducció temporal i una reintroducció per passos per descobrir el teu marge. Els iogurts, el quefir i els formatges curats se solen tolerar millor que la llet.",
+   "Calcio": "Calci",
+   "Alternativas y huesos fuertes": "Alternatives i ossos forts",
+   "Te orientamos sobre lácteos sin lactosa, bebidas vegetales enriquecidas y otras fuentes de calcio para cuidar tus huesos.": "T'orientem sobre làctics sense lactosa, begudes vegetals enriquides i altres fonts de calci per cuidar els teus ossos.",
+   "Intestino": "Intestí",
+   "Microbiota y estrés": "Microbiota i estrès",
+   "Cuidamos la microbiota desde la [PNIE](pni-pnie-barcelona) y trabajamos el estrés, que aumenta la sensibilidad digestiva.": "Cuidem la microbiota des de la [PNIE](pni-pnie-barcelona) i treballem l'estrès, que augmenta la sensibilitat digestiva.",
+   "Qué dice la evidencia": "Què diu l'evidència",
+   "Revisión sistemática (Ann Intern Med)": "Revisió sistemàtica (Ann Intern Med)",
+   "La mayoría de las personas con intolerancia toleran unos 12 g de lactosa, la cantidad de un vaso de leche, con pocos síntomas o ninguno (Shaukat et al., Ann Intern Med, 2010).": "La majoria de les persones amb intolerància toleren uns 12 g de lactosa, la quantitat d'un got de llet, amb pocs símptomes o cap (Shaukat et al., Ann Intern Med, 2010).",
+   "Revisión clínica (Gut)": "Revisió clínica (Gut)",
+   "El test de aliento con hidrógeno es la prueba de referencia, y el manejo se basa en ajustar la cantidad de lactosa a la tolerancia de cada persona (Misselwitz et al., Gut, 2019).": "El test d'alè amb hidrogen és la prova de referència, i el maneig es basa a ajustar la quantitat de lactosa a la tolerància de cada persona (Misselwitz et al., Gut, 2019).",
+   "¿Tengo que dejar todos los lácteos?": "He de deixar tots els làctics?",
+   "Casi nunca. La mayoría de las personas toleran pequeñas cantidades, sobre todo repartidas a lo largo del día y junto con otros alimentos.": "Gairebé mai. La majoria de les persones toleren petites quantitats, sobretot repartides al llarg del dia i juntament amb altres aliments.",
+   "¿Cómo se diagnostica?": "Com es diagnostica?",
+   "Con el test de aliento de hidrógeno, que te puede solicitar tu médico. Si ya lo tienes, lo revisamos juntos para orientar la alimentación.": "Amb el test d'alè d'hidrogen, que et pot sol·licitar el teu metge. Si ja el tens, el revisem junts per orientar l'alimentació.",
+   "¿Cómo me aseguro de tomar suficiente calcio?": "Com m'asseguro de prendre prou calci?",
+   "Con lácteos sin lactosa o fermentados, bebidas vegetales enriquecidas, legumbres, frutos secos, sardinas o verduras de hoja verde. Si te preocupa tu masa ósea, mira también [osteoporosis](osteoporosis).": "Amb làctics sense lactosa o fermentats, begudes vegetals enriquides, llegums, fruits secs, sardines o verdures de fulla verda. Si et preocupa la teva massa òssia, mira també [osteoporosi](osteoporosis).",
+   "¿Puede mejorar con el tiempo?": "Pot millorar amb el temps?",
+   "Cuando es secundaria a una alteración intestinal, suele mejorar al recuperarse el intestino. En todos los casos, cuidar la microbiota ayuda a tolerar mejor.": "Quan és secundària a una alteració intestinal, sol millorar quan l'intestí es recupera. En tots els casos, cuidar la microbiota ajuda a tolerar millor.",
+   "Volver a disfrutar de la comida sin molestias": "Tornar a gaudir del menjar sense molèsties",
+   "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), acompañamos la intolerancia a la lactosa a partir de tus síntomas y del test de aliento. Te ayudamos a encontrar la cantidad que toleras, a elegir alternativas y a mantener un buen aporte de calcio.": "A WA LAM, a Sarrià–Sant Gervasi (Barcelona), acompanyem la intolerància a la lactosa a partir dels teus símptomes i del test d'alè. T'ajudem a trobar la quantitat que toleres, a triar alternatives i a mantenir una bona aportació de calci."
+  }
+ },
+ {
+  "slug": "intolerancia-fructosa",
+  "ca_slug": "intolerancia-fructosa",
+  "nav": "Intolerancia a la fructosa",
+  "card": "Hinchazón, gases o diarrea con la fruta y los edulcorantes: test de aliento, FODMAP y reintroducción.",
+  "title": "Intolerancia a la fructosa en Barcelona | WA LAM",
+  "desc": "Malabsorción de fructosa y sorbitol en Sarrià–Sant Gervasi, Barcelona: síntomas, test de aliento, dieta baja en FODMAP y reintroducción guiada.",
+  "h1": "Intolerancia a la fructosa y al sorbitol en Barcelona",
+  "sub": "Malabsorción de fructosa · Sarrià–Sant Gervasi",
+  "lead": "La malabsorción de fructosa aparece cuando el intestino no absorbe bien el azúcar de la fruta, la miel o algunos edulcorantes, y provoca hinchazón, gases, dolor abdominal o diarrea. A menudo se acompaña de sensibilidad al sorbitol. Con una dieta pautada y una reintroducción progresiva, la mayoría de las personas recupera una alimentación variada.",
+  "facts_title": "En WA LAM",
+  "facts": [
+   "Fructosa, sorbitol y FODMAP",
+   "Reintroducción progresiva y guiada",
+   "Primera visita: 60 min · 90 €"
+  ],
+  "wa": "Hola, me gustaría información sobre el acompañamiento de la intolerancia a la fructosa.",
+  "mirror": {
+   "h2": "Cuando la fruta no te sienta bien",
+   "qs": [
+    "¿Te hinchas después de tomar fruta, zumos o miel?",
+    "¿Te sientan mal los chicles o caramelos sin azúcar?",
+    "¿Tienes gases, dolor abdominal o diarrea sin una causa clara?",
+    "¿Te han dado un test de aliento positivo y no sabes qué comer?"
+   ],
+   "close": "La intolerancia hereditaria a la fructosa es una enfermedad distinta, poco frecuente, que se manifiesta desde la infancia con vómitos, hipoglucemias y rechazo a lo dulce: su diagnóstico y su control son médicos. Si tienes sangre en las heces, pérdida de peso o fiebre, consulta con tu médico."
+  },
+  "explain": {
+   "h2": "Qué es la malabsorción de fructosa",
+   "paras": [
+    "La fructosa se absorbe en el intestino delgado a través de un transportador con capacidad limitada. Cuando llega más fructosa de la que se puede absorber, sobre todo si hay más fructosa que glucosa en el alimento, pasa al colon y la microbiota la fermenta. El sorbitol, presente en algunas frutas y en productos sin azúcar, empeora esa absorción.",
+    "La fermentación produce gases e hinchazón, y atrae agua al intestino. Los síntomas se mantienen cuando el intestino está más sensible, la microbiota alterada o el estrés elevado. Por eso no se trata solo de qué comes, sino también de cómo está tu intestino."
+   ]
+  },
+  "cards": {
+   "h2": "Cómo lo abordamos",
+   "items": [
+    {
+     "k": "Valoración",
+     "h": "Tu historia y tus pruebas",
+     "p": "Revisamos tus síntomas, el test de aliento si lo tienes y tus hábitos, y comprobamos que no haya signos que requieran valoración médica."
+    },
+    {
+     "k": "Alimentación",
+     "h": "Reducir, observar y reintroducir",
+     "p": "Una fase breve con menos fructosa, sorbitol y otros FODMAP, seguida de una reintroducción progresiva para saber qué alimentos y qué cantidades toleras."
+    },
+    {
+     "k": "Intestino",
+     "h": "Microbiota y motilidad",
+     "p": "Pautas desde la [PNIE](pni-pnie-barcelona) para cuidar la microbiota y, cuando está indicada, [osteopatía visceral](osteopatia-visceral-barcelona) para la hinchazón y la tensión abdominal."
+    },
+    {
+     "k": "Sistema nervioso",
+     "h": "Calmar el eje intestino-cerebro",
+     "p": "Respiración, descanso y regulación del estrés para reducir la sensibilidad digestiva."
+    }
+   ]
+  },
+  "evidence": {
+   "h2": "Qué dice la evidencia",
+   "items": [
+    [
+     "Estudio clínico (J Am Diet Assoc)",
+     "En personas con malabsorción de fructosa y síntomas digestivos, tres de cada cuatro mejoraron con una dieta pautada baja en fructosa y fructanos (Shepherd y Gibson, J Am Diet Assoc, 2006)."
+    ],
+    [
+     "Revisión (Aliment Pharmacol Ther)",
+     "La malabsorción de fructosa es frecuente, se identifica con el test de aliento y responde a la restricción dietética de la fructosa libre y los fructanos (Gibson et al., Aliment Pharmacol Ther, 2006)."
+    ]
+   ],
+   "refs": [
+    {
+     "t": "Shepherd SJ, Gibson PR, 2006. «Fructose Malabsorption and Symptoms of Irritable Bowel Syndrome: Guidelines for Effective Dietary Management». J Am Diet Assoc.",
+     "doi": "10.1016/j.jada.2006.07.010"
+    },
+    {
+     "t": "Gibson PR, et al., 2006. «Review article: fructose malabsorption and the bigger picture». Aliment Pharmacol Ther.",
+     "doi": "10.1111/j.1365-2036.2006.03186.x"
+    }
+   ]
+  },
+  "faq": [
+   [
+    "¿Es lo mismo que la intolerancia hereditaria a la fructosa?",
+    "No. La hereditaria es una enfermedad genética rara que requiere diagnóstico y seguimiento médico. La malabsorción de fructosa es frecuente y se maneja con cambios en la alimentación."
+   ],
+   [
+    "¿Tengo que dejar la fruta?",
+    "No. Algunas frutas, como los cítricos, el kiwi o los frutos rojos, suelen tolerarse bien en raciones moderadas. Se trata de elegir y repartir."
+   ],
+   [
+    "¿Cuánto dura la dieta baja en FODMAP?",
+    "La fase restrictiva es breve, normalmente de dos a seis semanas. Después reintroducimos los alimentos de forma progresiva."
+   ],
+   [
+    "¿Y si además tengo colon irritable?",
+    "Es habitual que coincidan. El plan integra también el abordaje del [colon irritable y el SIBO](colon-irritable-sibo)."
+   ]
+  ],
+  "related": [
+   "intolerancias-alimentarias",
+   "colon-irritable-sibo",
+   "gases-hinchazon-abdominal",
+   "nutricion-salud-intestinal"
+  ],
+  "cta_h2": "Una alimentación variada que te siente bien",
+  "seo": {
+   "kw": "intolerancia a la fructosa Barcelona",
+   "kws": [
+    "malabsorción de fructosa",
+    "intolerancia al sorbitol",
+    "test de aliento fructosa",
+    "dieta baja en FODMAP Barcelona",
+    "fructosa síntomas digestivos"
+   ],
+   "ca_kw": "intolerància a la fructosa Barcelona",
+   "quick": "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), acompañamos la malabsorción de fructosa y sorbitol con una dieta pautada baja en FODMAP y una reintroducción progresiva. Cuidamos también la microbiota y el estrés para que vuelvas a comer variado.",
+   "entity": [
+    "MedicalCondition",
+    "Malabsorción de fructosa"
+   ]
+  },
+  "research": [
+   "Personas con hinchazón o diarrea tras la fruta o con un test de aliento positivo que buscan en Barcelona una pauta de alimentación clara.",
+   [
+    "intolerancia a la fructosa qué comer",
+    "malabsorción de fructosa síntomas",
+    "dieta FODMAP Barcelona"
+   ],
+   [
+    "intolerància a la fructosa què menjar",
+    "malabsorció de fructosa Barcelona"
+   ],
+   "Laboratorios de test de aliento, nutricionistas especializados en FODMAP y páginas hospitalarias de digestivo."
+  ],
+  "ca": {
+   "Intolerancia a la fructosa": "Intolerància a la fructosa",
+   "Hinchazón, gases o diarrea con la fruta y los edulcorantes: test de aliento, FODMAP y reintroducción.": "Inflor, gasos o diarrea amb la fruita i els edulcorants: test d'alè, FODMAP i reintroducció.",
+   "Intolerancia a la fructosa en Barcelona | WA LAM": "Intolerància a la fructosa a Barcelona | WA LAM",
+   "Malabsorción de fructosa y sorbitol en Sarrià–Sant Gervasi, Barcelona: síntomas, test de aliento, dieta baja en FODMAP y reintroducción guiada.": "Malabsorció de fructosa i sorbitol a Sarrià–Sant Gervasi, Barcelona: símptomes, test d'alè, dieta baixa en FODMAP i reintroducció guiada.",
+   "Intolerancia a la fructosa y al sorbitol en Barcelona": "Intolerància a la fructosa i al sorbitol a Barcelona",
+   "Malabsorción de fructosa · Sarrià–Sant Gervasi": "Malabsorció de fructosa · Sarrià–Sant Gervasi",
+   "La malabsorción de fructosa aparece cuando el intestino no absorbe bien el azúcar de la fruta, la miel o algunos edulcorantes, y provoca hinchazón, gases, dolor abdominal o diarrea. A menudo se acompaña de sensibilidad al sorbitol. Con una dieta pautada y una reintroducción progresiva, la mayoría de las personas recupera una alimentación variada.": "La malabsorció de fructosa apareix quan l'intestí no absorbeix bé el sucre de la fruita, la mel o alguns edulcorants, i provoca inflor, gasos, dolor abdominal o diarrea. Sovint s'acompanya de sensibilitat al sorbitol. Amb una dieta pautada i una reintroducció progressiva, la majoria de les persones recupera una alimentació variada.",
+   "En WA LAM": "A WA LAM",
+   "Fructosa, sorbitol y FODMAP": "Fructosa, sorbitol i FODMAP",
+   "Reintroducción progresiva y guiada": "Reintroducció progressiva i guiada",
+   "Primera visita: 60 min · 90 €": "Primera visita: 60 min · 90 €",
+   "Hola, me gustaría información sobre el acompañamiento de la intolerancia a la fructosa.": "Hola, m'agradaria informació sobre l'acompanyament de la intolerància a la fructosa.",
+   "Cuando la fruta no te sienta bien": "Quan la fruita no et sent bé",
+   "¿Te hinchas después de tomar fruta, zumos o miel?": "T'infles després de prendre fruita, sucs o mel?",
+   "¿Te sientan mal los chicles o caramelos sin azúcar?": "Et senten malament els xiclets o caramels sense sucre?",
+   "¿Tienes gases, dolor abdominal o diarrea sin una causa clara?": "Tens gasos, dolor abdominal o diarrea sense una causa clara?",
+   "¿Te han dado un test de aliento positivo y no sabes qué comer?": "T'han donat un test d'alè positiu i no saps què menjar?",
+   "La intolerancia hereditaria a la fructosa es una enfermedad distinta, poco frecuente, que se manifiesta desde la infancia con vómitos, hipoglucemias y rechazo a lo dulce: su diagnóstico y su control son médicos. Si tienes sangre en las heces, pérdida de peso o fiebre, consulta con tu médico.": "La intolerància hereditària a la fructosa és una malaltia diferent, poc freqüent, que es manifesta des de la infància amb vòmits, hipoglucèmies i rebuig del dolç: el diagnòstic i el control són mèdics. Si tens sang a la femta, pèrdua de pes o febre, consulta el teu metge.",
+   "Qué es la malabsorción de fructosa": "Què és la malabsorció de fructosa",
+   "La fructosa se absorbe en el intestino delgado a través de un transportador con capacidad limitada. Cuando llega más fructosa de la que se puede absorber, sobre todo si hay más fructosa que glucosa en el alimento, pasa al colon y la microbiota la fermenta. El sorbitol, presente en algunas frutas y en productos sin azúcar, empeora esa absorción.": "La fructosa s'absorbeix a l'intestí prim a través d'un transportador amb capacitat limitada. Quan arriba més fructosa de la que es pot absorbir, sobretot si hi ha més fructosa que glucosa a l'aliment, passa al còlon i la microbiota la fermenta. El sorbitol, present en algunes fruites i en productes sense sucre, empitjora aquesta absorció.",
+   "La fermentación produce gases e hinchazón, y atrae agua al intestino. Los síntomas se mantienen cuando el intestino está más sensible, la microbiota alterada o el estrés elevado. Por eso no se trata solo de qué comes, sino también de cómo está tu intestino.": "La fermentació produeix gasos i inflor, i atreu aigua a l'intestí. Els símptomes es mantenen quan l'intestí està més sensible, la microbiota alterada o l'estrès elevat. Per això no es tracta només del que menges, sinó també de com està el teu intestí.",
+   "Cómo lo abordamos": "Com ho abordem",
+   "Valoración": "Valoració",
+   "Tu historia y tus pruebas": "La teva història i les teves proves",
+   "Revisamos tus síntomas, el test de aliento si lo tienes y tus hábitos, y comprobamos que no haya signos que requieran valoración médica.": "Revisem els teus símptomes, el test d'alè si el tens i els teus hàbits, i comprovem que no hi hagi signes que requereixin valoració mèdica.",
+   "Alimentación": "Alimentació",
+   "Reducir, observar y reintroducir": "Reduir, observar i reintroduir",
+   "Una fase breve con menos fructosa, sorbitol y otros FODMAP, seguida de una reintroducción progresiva para saber qué alimentos y qué cantidades toleras.": "Una fase breu amb menys fructosa, sorbitol i altres FODMAP, seguida d'una reintroducció progressiva per saber quins aliments i quines quantitats toleres.",
+   "Intestino": "Intestí",
+   "Microbiota y motilidad": "Microbiota i motilitat",
+   "Pautas desde la [PNIE](pni-pnie-barcelona) para cuidar la microbiota y, cuando está indicada, [osteopatía visceral](osteopatia-visceral-barcelona) para la hinchazón y la tensión abdominal.": "Pautes des de la [PNIE](pni-pnie-barcelona) per cuidar la microbiota i, quan està indicada, [osteopatia visceral](osteopatia-visceral-barcelona) per a la inflor i la tensió abdominal.",
+   "Sistema nervioso": "Sistema nerviós",
+   "Calmar el eje intestino-cerebro": "Calmar l'eix intestí-cervell",
+   "Respiración, descanso y regulación del estrés para reducir la sensibilidad digestiva.": "Respiració, descans i regulació de l'estrès per reduir la sensibilitat digestiva.",
+   "Qué dice la evidencia": "Què diu l'evidència",
+   "Estudio clínico (J Am Diet Assoc)": "Estudi clínic (J Am Diet Assoc)",
+   "En personas con malabsorción de fructosa y síntomas digestivos, tres de cada cuatro mejoraron con una dieta pautada baja en fructosa y fructanos (Shepherd y Gibson, J Am Diet Assoc, 2006).": "En persones amb malabsorció de fructosa i símptomes digestius, tres de cada quatre van millorar amb una dieta pautada baixa en fructosa i fructans (Shepherd i Gibson, J Am Diet Assoc, 2006).",
+   "Revisión (Aliment Pharmacol Ther)": "Revisió (Aliment Pharmacol Ther)",
+   "La malabsorción de fructosa es frecuente, se identifica con el test de aliento y responde a la restricción dietética de la fructosa libre y los fructanos (Gibson et al., Aliment Pharmacol Ther, 2006).": "La malabsorció de fructosa és freqüent, s'identifica amb el test d'alè i respon a la restricció dietètica de la fructosa lliure i els fructans (Gibson et al., Aliment Pharmacol Ther, 2006).",
+   "¿Es lo mismo que la intolerancia hereditaria a la fructosa?": "És el mateix que la intolerància hereditària a la fructosa?",
+   "No. La hereditaria es una enfermedad genética rara que requiere diagnóstico y seguimiento médico. La malabsorción de fructosa es frecuente y se maneja con cambios en la alimentación.": "No. L'hereditària és una malaltia genètica rara que requereix diagnòstic i seguiment mèdic. La malabsorció de fructosa és freqüent i es maneja amb canvis en l'alimentació.",
+   "¿Tengo que dejar la fruta?": "He de deixar la fruita?",
+   "No. Algunas frutas, como los cítricos, el kiwi o los frutos rojos, suelen tolerarse bien en raciones moderadas. Se trata de elegir y repartir.": "No. Algunes fruites, com els cítrics, el kiwi o els fruits vermells, se solen tolerar bé en racions moderades. Es tracta de triar i repartir.",
+   "¿Cuánto dura la dieta baja en FODMAP?": "Quant dura la dieta baixa en FODMAP?",
+   "La fase restrictiva es breve, normalmente de dos a seis semanas. Después reintroducimos los alimentos de forma progresiva.": "La fase restrictiva és breu, normalment de dues a sis setmanes. Després reintroduïm els aliments de manera progressiva.",
+   "¿Y si además tengo colon irritable?": "I si a més tinc còlon irritable?",
+   "Es habitual que coincidan. El plan integra también el abordaje del [colon irritable y el SIBO](colon-irritable-sibo).": "És habitual que coincideixin. El pla integra també l'abordatge del [còlon irritable i el SIBO](colon-irritable-sibo).",
+   "Una alimentación variada que te siente bien": "Una alimentació variada que et senti bé",
+   "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), acompañamos la malabsorción de fructosa y sorbitol con una dieta pautada baja en FODMAP y una reintroducción progresiva. Cuidamos también la microbiota y el estrés para que vuelvas a comer variado.": "A WA LAM, a Sarrià–Sant Gervasi (Barcelona), acompanyem la malabsorció de fructosa i sorbitol amb una dieta pautada baixa en FODMAP i una reintroducció progressiva. Cuidem també la microbiota i l'estrès perquè tornis a menjar variat."
+  }
+ },
+ {
+  "slug": "intolerancia-histamina",
+  "ca_slug": "intolerancia-histamina",
+  "nav": "Intolerancia a la histamina",
+  "card": "Dolor de cabeza, molestias digestivas o rojeces tras ciertos alimentos: déficit de DAO y dieta baja en histamina.",
+  "title": "Intolerancia a la histamina en Barcelona | WA LAM",
+  "desc": "Intolerancia a la histamina y déficit de DAO en Sarrià–Sant Gervasi, Barcelona: cefalea, síntomas digestivos y de la piel, dieta guiada y microbiota.",
+  "h1": "Intolerancia a la histamina y déficit de DAO en Barcelona",
+  "sub": "Cuando la histamina se acumula · Sarrià–Sant Gervasi",
+  "lead": "La intolerancia a la histamina aparece cuando el cuerpo no degrada bien la histamina que llega con los alimentos, a menudo por una menor actividad de la enzima DAO. Puede provocar dolor de cabeza, molestias digestivas, rojeces o picor. Con una dieta baja en histamina bien guiada y el cuidado del intestino, muchas personas notan una mejoría clara.",
+  "facts_title": "En WA LAM",
+  "facts": [
+   "Cefalea, síntomas digestivos y de la piel",
+   "Dieta baja en histamina guiada y microbiota",
+   "Primera visita: 60 min · 90 €"
+  ],
+  "wa": "Hola, me gustaría información sobre el acompañamiento de la intolerancia a la histamina.",
+  "mirror": {
+   "h2": "Cuando ciertos alimentos te dan síntomas muy diversos",
+   "qs": [
+    "¿Te duele la cabeza después de tomar vino, queso curado o embutidos?",
+    "¿Tienes hinchazón, dolor abdominal o diarrea tras ciertas comidas?",
+    "¿Notas rojeces, picor o congestión nasal sin una alergia clara?",
+    "¿Te han detectado un déficit de DAO y no sabes cómo organizar la alimentación?"
+   ],
+   "close": "Si tras comer notas hinchazón de labios, lengua o garganta, dificultad para respirar o mareo intenso, acude a urgencias: puede ser una reacción alérgica grave. Ante síntomas persistentes, consulta con tu médico para descartar alergias y otras causas."
+  },
+  "explain": {
+   "h2": "Qué es la intolerancia a la histamina",
+   "paras": [
+    "La histamina está presente en muchos alimentos, sobre todo en los fermentados, curados o poco frescos. En el intestino, la enzima diaminooxidasa (DAO) se encarga de degradarla. Cuando su actividad es baja, la histamina se acumula y actúa en distintos órganos: de ahí la variedad de síntomas, del dolor de cabeza a las molestias digestivas o de la piel.",
+    "La actividad de la DAO puede disminuir por factores genéticos, por algunos fármacos, por el alcohol o por una mucosa intestinal alterada. La microbiota también influye, porque algunas bacterias producen histamina. Por eso el abordaje combina la alimentación con el cuidado del intestino."
+   ]
+  },
+  "cards": {
+   "h2": "Cómo lo abordamos",
+   "items": [
+    {
+     "k": "Valoración",
+     "h": "Unir las piezas",
+     "p": "Revisamos tus síntomas, cuándo aparecen, tus pruebas y tu medicación, y comprobamos que se hayan descartado alergias y otras causas."
+    },
+    {
+     "k": "Alimentación",
+     "h": "Dieta baja en histamina guiada",
+     "p": "Una fase temporal con alimentos frescos y menos fermentados, curados o en conserva, seguida de una reintroducción para encontrar tu umbral de tolerancia."
+    },
+    {
+     "k": "Intestino",
+     "h": "Microbiota y mucosa",
+     "p": "Pautas desde la [PNIE](pni-pnie-barcelona) para cuidar la mucosa intestinal, donde se produce la DAO, y equilibrar la microbiota."
+    },
+    {
+     "k": "Sistema nervioso",
+     "h": "Estrés y descanso",
+     "p": "El estrés favorece la liberación de histamina. Trabajamos la regulación del sistema nervioso y, cuando está indicada, la acupuntura para el dolor de cabeza."
+    }
+   ]
+  },
+  "evidence": {
+   "h2": "Qué dice la evidencia",
+   "items": [
+    [
+     "Revisión (Am J Clin Nutr)",
+     "La intolerancia a la histamina se debe a un desequilibrio entre la histamina acumulada y la capacidad de degradarla, principalmente por la DAO, y mejora con una dieta baja en histamina (Maintz y Novak, Am J Clin Nutr, 2007)."
+    ],
+    [
+     "Estudio clínico (Intest Res)",
+     "En personas con intolerancia a la histamina, los síntomas más frecuentes fueron la hinchazón, la plenitud y el dolor abdominal, junto con mareo, dolor de cabeza y palpitaciones (Schnedl et al., Intest Res, 2019)."
+    ],
+    [
+     "Revisión (Biomolecules)",
+     "La dieta baja en histamina es la base del manejo, y la microbiota intestinal aparece como un factor relevante en la acumulación de histamina (Comas-Basté et al., Biomolecules, 2020)."
+    ]
+   ],
+   "refs": [
+    {
+     "t": "Maintz L, Novak N, 2007. «Histamine and histamine intolerance». Am J Clin Nutr.",
+     "doi": "10.1093/ajcn/85.5.1185"
+    },
+    {
+     "t": "Schnedl WJ, et al., 2019. «Evaluation of symptoms and symptom combinations in histamine intolerance». Intest Res.",
+     "doi": "10.5217/ir.2018.00152"
+    },
+    {
+     "t": "Comas-Basté O, et al., 2020. «Histamine Intolerance: The Current State of the Art». Biomolecules.",
+     "doi": "10.3390/biom10081181"
+    }
+   ]
+  },
+  "faq": [
+   [
+    "¿Qué alimentos tienen más histamina?",
+    "Sobre todo los fermentados y curados: vino, cerveza, quesos curados, embutidos, conservas de pescado, chucrut o salsa de soja. Las sobras guardadas varios días también acumulan histamina."
+   ],
+   [
+    "¿La dieta baja en histamina es para siempre?",
+    "No. Es una fase temporal. Después reintroducimos alimentos para que tu dieta sea lo más amplia posible dentro de tu tolerancia."
+   ],
+   [
+    "¿Tiene relación con la migraña?",
+    "En algunas personas la histamina es un desencadenante del dolor de cabeza. Si es tu caso, puedes consultar también [cefaleas y migraña](cefaleas-migrana)."
+   ],
+   [
+    "¿Puedo tomar suplementos de DAO?",
+    "Pueden ser útiles en algunas personas como apoyo a la dieta. Lo valoramos contigo según tu caso."
+   ]
+  ],
+  "related": [
+   "intolerancias-alimentarias",
+   "cefaleas-migrana",
+   "salud-digestiva-microbiota",
+   "alergias-asma-infecciones"
+  ],
+  "cta_h2": "Entender tus síntomas y volver a comer con confianza",
+  "seo": {
+   "kw": "intolerancia a la histamina Barcelona",
+   "kws": [
+    "déficit de DAO",
+    "dieta baja en histamina",
+    "histamina dolor de cabeza",
+    "alimentos ricos en histamina",
+    "intolerancia histamina síntomas"
+   ],
+   "ca_kw": "intolerància a la histamina Barcelona",
+   "quick": "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), acompañamos la intolerancia a la histamina y el déficit de DAO con una dieta baja en histamina guiada y el cuidado de la microbiota y la mucosa intestinal. Trabajamos también el estrés y el descanso.",
+   "entity": [
+    "MedicalCondition",
+    "Intolerancia a la histamina"
+   ]
+  },
+  "research": [
+   "Personas con dolor de cabeza, molestias digestivas o rojeces tras ciertos alimentos, a veces con un déficit de DAO detectado, que buscan en Barcelona orientación sobre la dieta.",
+   [
+    "intolerancia a la histamina síntomas",
+    "déficit de DAO qué comer",
+    "dieta baja en histamina Barcelona"
+   ],
+   [
+    "intolerància a la histamina",
+    "dèficit de DAO Barcelona"
+   ],
+   "Laboratorios de análisis de DAO, nutricionistas, marcas de suplementos de DAO y blogs de alimentación."
+  ],
+  "ca": {
+   "Intolerancia a la histamina": "Intolerància a la histamina",
+   "Dolor de cabeza, molestias digestivas o rojeces tras ciertos alimentos: déficit de DAO y dieta baja en histamina.": "Mal de cap, molèsties digestives o vermellors després de certs aliments: dèficit de DAO i dieta baixa en histamina.",
+   "Intolerancia a la histamina en Barcelona | WA LAM": "Intolerància a la histamina a Barcelona | WA LAM",
+   "Intolerancia a la histamina y déficit de DAO en Sarrià–Sant Gervasi, Barcelona: cefalea, síntomas digestivos y de la piel, dieta guiada y microbiota.": "Intolerància a la histamina i dèficit de DAO a Sarrià–Sant Gervasi, Barcelona: cefalea, símptomes digestius i de la pell, dieta guiada i microbiota.",
+   "Intolerancia a la histamina y déficit de DAO en Barcelona": "Intolerància a la histamina i dèficit de DAO a Barcelona",
+   "Cuando la histamina se acumula · Sarrià–Sant Gervasi": "Quan la histamina s'acumula · Sarrià–Sant Gervasi",
+   "La intolerancia a la histamina aparece cuando el cuerpo no degrada bien la histamina que llega con los alimentos, a menudo por una menor actividad de la enzima DAO. Puede provocar dolor de cabeza, molestias digestivas, rojeces o picor. Con una dieta baja en histamina bien guiada y el cuidado del intestino, muchas personas notan una mejoría clara.": "La intolerància a la histamina apareix quan el cos no degrada bé la histamina que arriba amb els aliments, sovint per una menor activitat de l'enzim DAO. Pot provocar mal de cap, molèsties digestives, vermellors o picor. Amb una dieta baixa en histamina ben guiada i la cura de l'intestí, moltes persones noten una millora clara.",
+   "En WA LAM": "A WA LAM",
+   "Cefalea, síntomas digestivos y de la piel": "Cefalea, símptomes digestius i de la pell",
+   "Dieta baja en histamina guiada y microbiota": "Dieta baixa en histamina guiada i microbiota",
+   "Primera visita: 60 min · 90 €": "Primera visita: 60 min · 90 €",
+   "Hola, me gustaría información sobre el acompañamiento de la intolerancia a la histamina.": "Hola, m'agradaria informació sobre l'acompanyament de la intolerància a la histamina.",
+   "Cuando ciertos alimentos te dan síntomas muy diversos": "Quan certs aliments et donen símptomes molt diversos",
+   "¿Te duele la cabeza después de tomar vino, queso curado o embutidos?": "Et fa mal el cap després de prendre vi, formatge curat o embotits?",
+   "¿Tienes hinchazón, dolor abdominal o diarrea tras ciertas comidas?": "Tens inflor, dolor abdominal o diarrea després de certs àpats?",
+   "¿Notas rojeces, picor o congestión nasal sin una alergia clara?": "Notes vermellors, picor o congestió nasal sense una al·lèrgia clara?",
+   "¿Te han detectado un déficit de DAO y no sabes cómo organizar la alimentación?": "T'han detectat un dèficit de DAO i no saps com organitzar l'alimentació?",
+   "Si tras comer notas hinchazón de labios, lengua o garganta, dificultad para respirar o mareo intenso, acude a urgencias: puede ser una reacción alérgica grave. Ante síntomas persistentes, consulta con tu médico para descartar alergias y otras causas.": "Si després de menjar notes inflor de llavis, llengua o gola, dificultat per respirar o mareig intens, ves a urgències: pot ser una reacció al·lèrgica greu. Davant de símptomes persistents, consulta el teu metge per descartar al·lèrgies i altres causes.",
+   "Qué es la intolerancia a la histamina": "Què és la intolerància a la histamina",
+   "La histamina está presente en muchos alimentos, sobre todo en los fermentados, curados o poco frescos. En el intestino, la enzima diaminooxidasa (DAO) se encarga de degradarla. Cuando su actividad es baja, la histamina se acumula y actúa en distintos órganos: de ahí la variedad de síntomas, del dolor de cabeza a las molestias digestivas o de la piel.": "La histamina és present en molts aliments, sobretot en els fermentats, curats o poc frescos. A l'intestí, l'enzim diaminooxidasa (DAO) s'encarrega de degradar-la. Quan la seva activitat és baixa, la histamina s'acumula i actua en diferents òrgans: d'aquí la varietat de símptomes, del mal de cap a les molèsties digestives o de la pell.",
+   "La actividad de la DAO puede disminuir por factores genéticos, por algunos fármacos, por el alcohol o por una mucosa intestinal alterada. La microbiota también influye, porque algunas bacterias producen histamina. Por eso el abordaje combina la alimentación con el cuidado del intestino.": "L'activitat de la DAO pot disminuir per factors genètics, per alguns fàrmacs, per l'alcohol o per una mucosa intestinal alterada. La microbiota també hi influeix, perquè alguns bacteris produeixen histamina. Per això l'abordatge combina l'alimentació amb la cura de l'intestí.",
+   "Cómo lo abordamos": "Com ho abordem",
+   "Valoración": "Valoració",
+   "Unir las piezas": "Unir les peces",
+   "Revisamos tus síntomas, cuándo aparecen, tus pruebas y tu medicación, y comprobamos que se hayan descartado alergias y otras causas.": "Revisem els teus símptomes, quan apareixen, les teves proves i la teva medicació, i comprovem que s'hagin descartat al·lèrgies i altres causes.",
+   "Alimentación": "Alimentació",
+   "Dieta baja en histamina guiada": "Dieta baixa en histamina guiada",
+   "Una fase temporal con alimentos frescos y menos fermentados, curados o en conserva, seguida de una reintroducción para encontrar tu umbral de tolerancia.": "Una fase temporal amb aliments frescos i menys fermentats, curats o en conserva, seguida d'una reintroducció per trobar el teu llindar de tolerància.",
+   "Intestino": "Intestí",
+   "Microbiota y mucosa": "Microbiota i mucosa",
+   "Pautas desde la [PNIE](pni-pnie-barcelona) para cuidar la mucosa intestinal, donde se produce la DAO, y equilibrar la microbiota.": "Pautes des de la [PNIE](pni-pnie-barcelona) per cuidar la mucosa intestinal, on es produeix la DAO, i equilibrar la microbiota.",
+   "Sistema nervioso": "Sistema nerviós",
+   "Estrés y descanso": "Estrès i descans",
+   "El estrés favorece la liberación de histamina. Trabajamos la regulación del sistema nervioso y, cuando está indicada, la acupuntura para el dolor de cabeza.": "L'estrès afavoreix l'alliberament d'histamina. Treballem la regulació del sistema nerviós i, quan està indicada, l'acupuntura per al mal de cap.",
+   "Qué dice la evidencia": "Què diu l'evidència",
+   "Revisión (Am J Clin Nutr)": "Revisió (Am J Clin Nutr)",
+   "La intolerancia a la histamina se debe a un desequilibrio entre la histamina acumulada y la capacidad de degradarla, principalmente por la DAO, y mejora con una dieta baja en histamina (Maintz y Novak, Am J Clin Nutr, 2007).": "La intolerància a la histamina es deu a un desequilibri entre la histamina acumulada i la capacitat de degradar-la, principalment per la DAO, i millora amb una dieta baixa en histamina (Maintz i Novak, Am J Clin Nutr, 2007).",
+   "Estudio clínico (Intest Res)": "Estudi clínic (Intest Res)",
+   "En personas con intolerancia a la histamina, los síntomas más frecuentes fueron la hinchazón, la plenitud y el dolor abdominal, junto con mareo, dolor de cabeza y palpitaciones (Schnedl et al., Intest Res, 2019).": "En persones amb intolerància a la histamina, els símptomes més freqüents van ser la inflor, la plenitud i el dolor abdominal, juntament amb mareig, mal de cap i palpitacions (Schnedl et al., Intest Res, 2019).",
+   "Revisión (Biomolecules)": "Revisió (Biomolecules)",
+   "La dieta baja en histamina es la base del manejo, y la microbiota intestinal aparece como un factor relevante en la acumulación de histamina (Comas-Basté et al., Biomolecules, 2020).": "La dieta baixa en histamina és la base del maneig, i la microbiota intestinal apareix com un factor rellevant en l'acumulació d'histamina (Comas-Basté et al., Biomolecules, 2020).",
+   "¿Qué alimentos tienen más histamina?": "Quins aliments tenen més histamina?",
+   "Sobre todo los fermentados y curados: vino, cerveza, quesos curados, embutidos, conservas de pescado, chucrut o salsa de soja. Las sobras guardadas varios días también acumulan histamina.": "Sobretot els fermentats i curats: vi, cervesa, formatges curats, embotits, conserves de peix, xucrut o salsa de soja. Les restes de menjar guardades diversos dies també acumulen histamina.",
+   "¿La dieta baja en histamina es para siempre?": "La dieta baixa en histamina és per sempre?",
+   "No. Es una fase temporal. Después reintroducimos alimentos para que tu dieta sea lo más amplia posible dentro de tu tolerancia.": "No. És una fase temporal. Després reintroduïm aliments perquè la teva dieta sigui al més àmplia possible dins de la teva tolerància.",
+   "¿Tiene relación con la migraña?": "Té relació amb la migranya?",
+   "En algunas personas la histamina es un desencadenante del dolor de cabeza. Si es tu caso, puedes consultar también [cefaleas y migraña](cefaleas-migrana).": "En algunes persones la histamina és un desencadenant del mal de cap. Si és el teu cas, pots consultar també [cefalees i migranya](cefaleas-migrana).",
+   "¿Puedo tomar suplementos de DAO?": "Puc prendre suplements de DAO?",
+   "Pueden ser útiles en algunas personas como apoyo a la dieta. Lo valoramos contigo según tu caso.": "Poden ser útils en algunes persones com a suport a la dieta. Ho valorem amb tu segons el teu cas.",
+   "Entender tus síntomas y volver a comer con confianza": "Entendre els teus símptomes i tornar a menjar amb confiança",
+   "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), acompañamos la intolerancia a la histamina y el déficit de DAO con una dieta baja en histamina guiada y el cuidado de la microbiota y la mucosa intestinal. Trabajamos también el estrés y el descanso.": "A WA LAM, a Sarrià–Sant Gervasi (Barcelona), acompanyem la intolerància a la histamina i el dèficit de DAO amb una dieta baixa en histamina guiada i la cura de la microbiota i la mucosa intestinal. Treballem també l'estrès i el descans."
+  }
+ },
+ {
+  "slug": "cortisol-estres-cronico",
+  "ca_slug": "cortisol-estres-cronic",
+  "nav": "Cortisol y estrés crónico",
+  "card": "Dormir mal, ir sin energía, digestiones alteradas o grasa abdominal en épocas de estrés sostenido.",
+  "title": "Cortisol y estrés crónico en Barcelona | WA LAM",
+  "desc": "Cortisol y estrés crónico en Sarrià–Sant Gervasi, Barcelona: sueño, energía, peso abdominal y digestión. Mindfulness, movimiento y alimentación.",
+  "h1": "Cortisol y estrés crónico en Barcelona",
+  "sub": "Cuando el estrés se queda en el cuerpo · Sarrià–Sant Gervasi",
+  "lead": "El cortisol es la hormona que te ayuda a responder a las exigencias del día. Cuando el estrés se prolonga durante meses, el eje del estrés se mantiene activado y lo notas en el sueño, la energía, la digestión o el peso abdominal. Te ayudamos a regular el sistema nervioso con mindfulness, descanso, movimiento y alimentación.",
+  "facts_title": "En WA LAM",
+  "facts": [
+   "Sueño, energía, digestión y peso abdominal",
+   "Mindfulness, movimiento y alimentación",
+   "Primera visita: 60 min · 90 €"
+  ],
+  "wa": "Hola, me gustaría información sobre el acompañamiento del estrés crónico.",
+  "mirror": {
+   "h2": "Cuando vives en tensión constante",
+   "qs": [
+    "¿Te cuesta dormirte o te despiertas de madrugada con la mente activa?",
+    "¿Te levantas cansado y vas con poca energía durante el día?",
+    "¿Has notado más grasa abdominal o más ganas de dulce en épocas de estrés?",
+    "¿Tus digestiones empeoran cuando vas con prisas o preocupado?"
+   ],
+   "close": "Si notas un aumento de peso rápido con estrías rojizas, cara redondeada, debilidad muscular o tensión alta, o bien cansancio extremo con pérdida de peso, mareos y tensión baja, consulta con tu médico: pueden ser signos de una enfermedad endocrina que requiere diagnóstico médico. Si tienes pensamientos de hacerte daño, acude a urgencias o llama al 024."
+  },
+  "explain": {
+   "h2": "Qué ocurre con el cortisol cuando el estrés se cronifica",
+   "paras": [
+    "Ante una exigencia, el eje hipotálamo-hipófisis-suprarrenal libera cortisol para movilizar energía y mantenerte alerta. Es una respuesta útil y pasajera. Cuando el estrés no cesa, esa activación se mantiene y altera el ritmo natural del cortisol, que debería ser alto por la mañana y bajo por la noche.",
+    "Con el tiempo, esa desregulación se refleja en el sueño, en la energía, en la digestión, en el apetito y en la acumulación de grasa abdominal. La buena noticia es que el sistema nervioso puede aprender a volver a la calma con práctica, descanso, movimiento y una alimentación que lo apoye."
+   ]
+  },
+  "cards": {
+   "h2": "Cómo lo abordamos",
+   "items": [
+    {
+     "k": "Valoración",
+     "h": "Una mirada global",
+     "p": "Revisamos tu ritmo de sueño, tu energía, tus digestiones, tus fuentes de estrés y tus hábitos, para entender cómo se expresa el estrés en tu cuerpo."
+    },
+    {
+     "k": "Tratamiento",
+     "h": "Acupuntura y terapia manual",
+     "p": "Cuando están indicadas, para liberar la tensión acumulada, favorecer la relajación y mejorar el descanso."
+    },
+    {
+     "k": "Movimiento y alimentación",
+     "h": "Ritmo, ejercicio y comida que te sostienen",
+     "p": "Ejercicio adaptado, [qigong](qigong-barcelona) o yoga, y pautas de alimentación desde la [PNIE](pni-pnie-barcelona) para estabilizar la energía y cuidar el intestino."
+    },
+    {
+     "k": "Sistema nervioso",
+     "h": "Mindfulness y sueño",
+     "p": "Prácticas de atención plena, respiración y higiene del sueño, con la opción de hacer el [curso MBSR](curso-mindfulness-mbsr-barcelona)."
+    }
+   ]
+  },
+  "evidence": {
+   "h2": "Qué dice la evidencia",
+   "items": [
+    [
+     "Estudio clínico (Psychosom Med)",
+     "Las mujeres con más grasa abdominal secretaron más cortisol ante situaciones de estrés, lo que relaciona el estrés sostenido con la distribución central de la grasa (Epel et al., Psychosom Med, 2000)."
+    ],
+    [
+     "Metaanálisis (J Psychiatr Res)",
+     "Las prácticas de mindfulness redujeron el cortisol, la presión arterial y otros marcadores fisiológicos del estrés (Pascoe et al., J Psychiatr Res, 2017)."
+    ],
+    [
+     "Metaanálisis (J Psychosom Res)",
+     "El programa MBSR redujo el estrés, la ansiedad y el agotamiento y mejoró la calidad de vida en personas sanas (Khoury et al., J Psychosom Res, 2015)."
+    ]
+   ],
+   "refs": [
+    {
+     "t": "Epel ES, et al., 2000. «Stress and Body Shape: Stress-Induced Cortisol Secretion Is Consistently Greater Among Women With Central Fat». Psychosom Med.",
+     "doi": "10.1097/00006842-200009000-00005"
+    },
+    {
+     "t": "Pascoe MC, et al., 2017. «Mindfulness mediates the physiological markers of stress: Systematic review and meta-analysis». J Psychiatr Res.",
+     "doi": "10.1016/j.jpsychires.2017.08.004"
+    },
+    {
+     "t": "Khoury B, et al., 2015. «Mindfulness-based stress reduction for healthy individuals: A meta-analysis». J Psychosom Res.",
+     "doi": "10.1016/j.jpsychores.2015.03.009"
+    }
+   ]
+  },
+  "faq": [
+   [
+    "¿Necesito un análisis de cortisol?",
+    "No siempre. El estrés crónico se reconoce sobre todo por cómo te sientes y cómo duermes. Si tu médico sospecha una enfermedad endocrina, es él quien indica las pruebas."
+   ],
+   [
+    "¿El estrés puede hacerme engordar?",
+    "Puede favorecer la grasa abdominal, el picoteo y el mal descanso. Si es tu caso, trabajamos el estrés junto con la [pérdida de peso](perdida-de-peso-sarria-sant-gervasi)."
+   ],
+   [
+    "¿En qué se diferencia del agotamiento?",
+    "El estrés sostenido puede acabar en un [agotamiento físico y emocional](agotamiento-fisico-emocional). Cuanto antes se aborda, más fácil es recuperar la energía."
+   ],
+   [
+    "¿Y si además tengo ansiedad?",
+    "Es frecuente que vayan juntos. Puedes leer más sobre el abordaje del [estrés y la ansiedad](estres-ansiedad)."
+   ]
+  ],
+  "related": [
+   "estres-ansiedad",
+   "agotamiento-fisico-emocional",
+   "sueno-insomnio",
+   "curso-mindfulness-mbsr-barcelona"
+  ],
+  "cta_h2": "Recuperar la calma, el descanso y la energía",
+  "seo": {
+   "kw": "estrés crónico Barcelona",
+   "kws": [
+    "cortisol alto síntomas",
+    "cómo bajar el cortisol",
+    "estrés y grasa abdominal",
+    "estrés crónico insomnio",
+    "mindfulness estrés Barcelona"
+   ],
+   "ca_kw": "estrès crònic Barcelona",
+   "quick": "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), acompañamos el estrés crónico y sus efectos en el sueño, la energía, la digestión y el peso abdominal. Trabajamos la regulación del sistema nervioso con mindfulness, descanso, movimiento y alimentación.",
+   "entity": [
+    "MedicalCondition",
+    "Estrés crónico"
+   ]
+  },
+  "research": [
+   "Personas con estrés sostenido que duermen mal, van sin energía o notan cambios en el peso y la digestión, y buscan en Barcelona cómo regular el cortisol de forma natural.",
+   [
+    "cómo bajar el cortisol de forma natural",
+    "síntomas de cortisol alto por estrés",
+    "tratamiento estrés crónico Barcelona"
+   ],
+   [
+    "com baixar el cortisol",
+    "estrès crònic Barcelona"
+   ],
+   "Blogs de salud y nutrición sobre cortisol, centros de psicología, programas de mindfulness y páginas de endocrinología."
+  ],
+  "ca": {
+   "Cortisol y estrés crónico": "Cortisol i estrès crònic",
+   "Dormir mal, ir sin energía, digestiones alteradas o grasa abdominal en épocas de estrés sostenido.": "Dormir malament, anar sense energia, digestions alterades o greix abdominal en èpoques d'estrès sostingut.",
+   "Cortisol y estrés crónico en Barcelona | WA LAM": "Cortisol i estrès crònic a Barcelona | WA LAM",
+   "Cortisol y estrés crónico en Sarrià–Sant Gervasi, Barcelona: sueño, energía, peso abdominal y digestión. Mindfulness, movimiento y alimentación.": "Cortisol i estrès crònic a Sarrià–Sant Gervasi, Barcelona: son, energia, pes abdominal i digestió. Mindfulness, moviment i alimentació.",
+   "Cortisol y estrés crónico en Barcelona": "Cortisol i estrès crònic a Barcelona",
+   "Cuando el estrés se queda en el cuerpo · Sarrià–Sant Gervasi": "Quan l'estrès es queda al cos · Sarrià–Sant Gervasi",
+   "El cortisol es la hormona que te ayuda a responder a las exigencias del día. Cuando el estrés se prolonga durante meses, el eje del estrés se mantiene activado y lo notas en el sueño, la energía, la digestión o el peso abdominal. Te ayudamos a regular el sistema nervioso con mindfulness, descanso, movimiento y alimentación.": "El cortisol és l'hormona que t'ajuda a respondre a les exigències del dia. Quan l'estrès es perllonga durant mesos, l'eix de l'estrès es manté activat i ho notes en el son, l'energia, la digestió o el pes abdominal. T'ajudem a regular el sistema nerviós amb mindfulness, descans, moviment i alimentació.",
+   "En WA LAM": "A WA LAM",
+   "Sueño, energía, digestión y peso abdominal": "Son, energia, digestió i pes abdominal",
+   "Mindfulness, movimiento y alimentación": "Mindfulness, moviment i alimentació",
+   "Primera visita: 60 min · 90 €": "Primera visita: 60 min · 90 €",
+   "Hola, me gustaría información sobre el acompañamiento del estrés crónico.": "Hola, m'agradaria informació sobre l'acompanyament de l'estrès crònic.",
+   "Cuando vives en tensión constante": "Quan vius en tensió constant",
+   "¿Te cuesta dormirte o te despiertas de madrugada con la mente activa?": "Et costa adormir-te o et despertes de matinada amb la ment activa?",
+   "¿Te levantas cansado y vas con poca energía durante el día?": "Et lleves cansat i vas amb poca energia durant el dia?",
+   "¿Has notado más grasa abdominal o más ganas de dulce en épocas de estrés?": "Has notat més greix abdominal o més ganes de dolç en èpoques d'estrès?",
+   "¿Tus digestiones empeoran cuando vas con prisas o preocupado?": "Les teves digestions empitjoren quan vas amb presses o preocupat?",
+   "Si notas un aumento de peso rápido con estrías rojizas, cara redondeada, debilidad muscular o tensión alta, o bien cansancio extremo con pérdida de peso, mareos y tensión baja, consulta con tu médico: pueden ser signos de una enfermedad endocrina que requiere diagnóstico médico. Si tienes pensamientos de hacerte daño, acude a urgencias o llama al 024.": "Si notes un augment de pes ràpid amb estries vermelloses, cara arrodonida, debilitat muscular o tensió alta, o bé cansament extrem amb pèrdua de pes, marejos i tensió baixa, consulta el teu metge: poden ser signes d'una malaltia endocrina que requereix diagnòstic mèdic. Si tens pensaments de fer-te mal, ves a urgències o truca al 024.",
+   "Qué ocurre con el cortisol cuando el estrés se cronifica": "Què passa amb el cortisol quan l'estrès es cronifica",
+   "Ante una exigencia, el eje hipotálamo-hipófisis-suprarrenal libera cortisol para movilizar energía y mantenerte alerta. Es una respuesta útil y pasajera. Cuando el estrés no cesa, esa activación se mantiene y altera el ritmo natural del cortisol, que debería ser alto por la mañana y bajo por la noche.": "Davant d'una exigència, l'eix hipotàlem-hipòfisi-suprarenal allibera cortisol per mobilitzar energia i mantenir-te alerta. És una resposta útil i passatgera. Quan l'estrès no s'atura, aquesta activació es manté i altera el ritme natural del cortisol, que hauria de ser alt al matí i baix a la nit.",
+   "Con el tiempo, esa desregulación se refleja en el sueño, en la energía, en la digestión, en el apetito y en la acumulación de grasa abdominal. La buena noticia es que el sistema nervioso puede aprender a volver a la calma con práctica, descanso, movimiento y una alimentación que lo apoye.": "Amb el temps, aquesta desregulació es reflecteix en el son, en l'energia, en la digestió, en la gana i en l'acumulació de greix abdominal. La bona notícia és que el sistema nerviós pot aprendre a tornar a la calma amb pràctica, descans, moviment i una alimentació que li doni suport.",
+   "Cómo lo abordamos": "Com ho abordem",
+   "Valoración": "Valoració",
+   "Una mirada global": "Una mirada global",
+   "Revisamos tu ritmo de sueño, tu energía, tus digestiones, tus fuentes de estrés y tus hábitos, para entender cómo se expresa el estrés en tu cuerpo.": "Revisem el teu ritme de son, la teva energia, les teves digestions, les teves fonts d'estrès i els teus hàbits, per entendre com s'expressa l'estrès en el teu cos.",
+   "Tratamiento": "Tractament",
+   "Acupuntura y terapia manual": "Acupuntura i teràpia manual",
+   "Cuando están indicadas, para liberar la tensión acumulada, favorecer la relajación y mejorar el descanso.": "Quan estan indicades, per alliberar la tensió acumulada, afavorir la relaxació i millorar el descans.",
+   "Movimiento y alimentación": "Moviment i alimentació",
+   "Ritmo, ejercicio y comida que te sostienen": "Ritme, exercici i menjar que et sostenen",
+   "Ejercicio adaptado, [qigong](qigong-barcelona) o yoga, y pautas de alimentación desde la [PNIE](pni-pnie-barcelona) para estabilizar la energía y cuidar el intestino.": "Exercici adaptat, [qigong](qigong-barcelona) o ioga, i pautes d'alimentació des de la [PNIE](pni-pnie-barcelona) per estabilitzar l'energia i cuidar l'intestí.",
+   "Sistema nervioso": "Sistema nerviós",
+   "Mindfulness y sueño": "Mindfulness i son",
+   "Prácticas de atención plena, respiración y higiene del sueño, con la opción de hacer el [curso MBSR](curso-mindfulness-mbsr-barcelona).": "Pràctiques d'atenció plena, respiració i higiene del son, amb l'opció de fer el [curs MBSR](curso-mindfulness-mbsr-barcelona).",
+   "Qué dice la evidencia": "Què diu l'evidència",
+   "Estudio clínico (Psychosom Med)": "Estudi clínic (Psychosom Med)",
+   "Las mujeres con más grasa abdominal secretaron más cortisol ante situaciones de estrés, lo que relaciona el estrés sostenido con la distribución central de la grasa (Epel et al., Psychosom Med, 2000).": "Les dones amb més greix abdominal van secretar més cortisol davant de situacions d'estrès, cosa que relaciona l'estrès sostingut amb la distribució central del greix (Epel et al., Psychosom Med, 2000).",
+   "Metaanálisis (J Psychiatr Res)": "Metaanàlisi (J Psychiatr Res)",
+   "Las prácticas de mindfulness redujeron el cortisol, la presión arterial y otros marcadores fisiológicos del estrés (Pascoe et al., J Psychiatr Res, 2017).": "Les pràctiques de mindfulness van reduir el cortisol, la pressió arterial i altres marcadors fisiològics de l'estrès (Pascoe et al., J Psychiatr Res, 2017).",
+   "Metaanálisis (J Psychosom Res)": "Metaanàlisi (J Psychosom Res)",
+   "El programa MBSR redujo el estrés, la ansiedad y el agotamiento y mejoró la calidad de vida en personas sanas (Khoury et al., J Psychosom Res, 2015).": "El programa MBSR va reduir l'estrès, l'ansietat i l'esgotament i va millorar la qualitat de vida en persones sanes (Khoury et al., J Psychosom Res, 2015).",
+   "¿Necesito un análisis de cortisol?": "Necessito una anàlisi de cortisol?",
+   "No siempre. El estrés crónico se reconoce sobre todo por cómo te sientes y cómo duermes. Si tu médico sospecha una enfermedad endocrina, es él quien indica las pruebas.": "No sempre. L'estrès crònic es reconeix sobretot per com et sents i com dorms. Si el teu metge sospita una malaltia endocrina, és ell qui indica les proves.",
+   "¿El estrés puede hacerme engordar?": "L'estrès em pot fer engreixar?",
+   "Puede favorecer la grasa abdominal, el picoteo y el mal descanso. Si es tu caso, trabajamos el estrés junto con la [pérdida de peso](perdida-de-peso-sarria-sant-gervasi).": "Pot afavorir el greix abdominal, el piquejar i el mal descans. Si és el teu cas, treballem l'estrès juntament amb la [pèrdua de pes](perdida-de-peso-sarria-sant-gervasi).",
+   "¿En qué se diferencia del agotamiento?": "En què es diferencia de l'esgotament?",
+   "El estrés sostenido puede acabar en un [agotamiento físico y emocional](agotamiento-fisico-emocional). Cuanto antes se aborda, más fácil es recuperar la energía.": "L'estrès sostingut pot acabar en un [esgotament físic i emocional](agotamiento-fisico-emocional). Com més aviat s'aborda, més fàcil és recuperar l'energia.",
+   "¿Y si además tengo ansiedad?": "I si a més tinc ansietat?",
+   "Es frecuente que vayan juntos. Puedes leer más sobre el abordaje del [estrés y la ansiedad](estres-ansiedad).": "És freqüent que vagin junts. Pots llegir més sobre l'abordatge de l'[estrès i l'ansietat](estres-ansiedad).",
+   "Recuperar la calma, el descanso y la energía": "Recuperar la calma, el descans i l'energia",
+   "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), acompañamos el estrés crónico y sus efectos en el sueño, la energía, la digestión y el peso abdominal. Trabajamos la regulación del sistema nervioso con mindfulness, descanso, movimiento y alimentación.": "A WA LAM, a Sarrià–Sant Gervasi (Barcelona), acompanyem l'estrès crònic i els seus efectes en el son, l'energia, la digestió i el pes abdominal. Treballem la regulació del sistema nerviós amb mindfulness, descans, moviment i alimentació."
+  }
+ }
+]
