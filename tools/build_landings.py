@@ -718,7 +718,7 @@ def ctaband(p):
 def newsletter():
     return f"""<section class="nl" id="newsletter"><div class="wrap"><div class="nlbox">
 <div class="nltx"><h2>{tr("Reciba las novedades de WA LAM")}</h2>
-<p>{tr("Talleres, retiros, cursos de mindfulness y consejos de salud, una vez al mes. Sin publicidad y puede darse de baja cuando quiera.")}</p></div>
+<p>{tr("Consejos de salud integrativa y longevidad, talleres, retiros y novedades del centro. Sin publicidad y puede darse de baja cuando quiera.")}</p></div>
 <a class="btn btn-tq" href="{NEWSLETTER_URL}" target="_blank" rel="noopener">✉ {tr("Suscribirme a la newsletter")}</a>
 </div></div></section>"""
 
