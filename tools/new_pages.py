@@ -7,7 +7,7 @@ DIR = Path(__file__).parent / "new_pages"
 OLD_LUMBAR = "lumbalgia-cervicalgia-cronica"
 
 EYEBROW = {
-    "fatiga-cronica-agotamiento": "Sistema nervioso · Energía", "agotamiento-fisico-emocional": "Sistema nervioso · Energía", "cortisol-estres-cronico": "Sistema nervioso · Estrés", "dolor-pelvico-barcelona": "Salud pélvica", "ejercicios-suelo-pelvico": "Salud pélvica", "nervio-vago": "Osteopatía · Sistema nervioso", "osteopatia-fascia-barcelona": "Osteopatía", "osteopatia-trauma": "Osteopatía", "neuralgia-trigemino": "Dolor · Sistema nervioso",
+    "fatiga-cronica-agotamiento": "Sistema nervioso · Energía", "agotamiento-fisico-emocional": "Sistema nervioso · Energía", "cortisol-estres-cronico": "Sistema nervioso · Estrés", "dolor-pelvico-barcelona": "Salud pélvica", "ejercicios-suelo-pelvico": "Salud pélvica", "nervio-vago": "Osteopatía · Sistema nervioso", "osteopatia-fascia-barcelona": "Osteopatía", "osteopatia-bebes-ninos": "Osteopatía · Pediatría", "cicatrices-adherencias": "Osteopatía visceral", "vertigo-mareo": "Cabeza y cuello", "acufenos": "Cabeza y cuello", "lesiones-deportivas": "Deporte · Aparato locomotor", "osteopatia-trauma": "Osteopatía", "neuralgia-trigemino": "Dolor · Sistema nervioso",
     "intolerancias-alimentarias": "Salud digestiva", "intolerancia-histamina": "Salud digestiva", "intolerancia-fructosa": "Salud digestiva", "intolerancia-lactosa": "Salud digestiva", "intolerancia-gluten": "Salud digestiva", "diarrea-cronica": "Salud digestiva", "estrenimiento": "Salud digestiva", "gases-hinchazon-abdominal": "Salud digestiva", "digestiones-pesadas-gastritis": "Salud digestiva", "alergias-asma-infecciones": "Inflamación e inmunidad",
     "salud-digestiva-microbiota": "Salud digestiva · PNIE", "colon-irritable-sibo": "Salud digestiva",
     "reflujo-acidez": "Salud digestiva", "enfermedad-inflamatoria-intestinal": "Salud digestiva",
@@ -127,7 +127,7 @@ def integrate_research(RESEARCH):
 AREAS = [
     ("Dolor y aparato locomotor", "02", ["lumbalgia-dolor-lumbar", "cervicalgia-dolor-cuello", "dorsalgia-dolor-espalda-alta", "ciatica",
                                          "artrosis", "hombro-doloroso", "dolor-rodilla-condromalacia", "contracturas-desgarros-musculares",
-                                         "bruxismo-dolor-mandibular-atm", "osteopatia-fascia-barcelona", "neuralgia-trigemino", "hernia-disco-incipiente", "torticolis", "esguinces", "fascitis-plantar", "tunel-carpiano", "osteoporosis", "fibromialgia", "dolor-persistente-cronico", "dolor-neuropatico", "cefaleas-migrana"]),
+                                         "bruxismo-dolor-mandibular-atm", "osteopatia-fascia-barcelona", "lesiones-deportivas", "cicatrices-adherencias", "vertigo-mareo", "acufenos", "osteopatia-bebes-ninos", "neuralgia-trigemino", "hernia-disco-incipiente", "torticolis", "esguinces", "fascitis-plantar", "tunel-carpiano", "osteoporosis", "fibromialgia", "dolor-persistente-cronico", "dolor-neuropatico", "cefaleas-migrana"]),
     ("Inflamación e inmunidad", "03", ["inflamacion-cronica-autoinmunes", "alergias-asma-infecciones"]),
     ("Salud digestiva", "01", ["salud-digestiva-microbiota", "colon-irritable-sibo", "reflujo-acidez", "digestiones-pesadas-gastritis", "gases-hinchazon-abdominal", "estrenimiento", "diarrea-cronica", "enfermedad-inflamatoria-intestinal", "intolerancias-alimentarias", "intolerancia-gluten", "intolerancia-lactosa", "intolerancia-fructosa", "intolerancia-histamina"]),
     ("Metabolismo", "04", ["salud-metabolica", "perdida-de-peso-sarria-sant-gervasi", "dejar-de-fumar-acupuntura"]),
@@ -170,7 +170,9 @@ HOME_LIST = [
         ("Lumbalgia", "lumbalgia-dolor-lumbar"), ("Neuralgia de Arnold", "cervicalgia-dolor-cuello"), ("Neuralgia del trigémino", "neuralgia-trigemino"),
         ("Osteoporosis", "osteoporosis"), ("Problemas de la ATM y bruxismo", "bruxismo-dolor-mandibular-atm"), ("Sarcopenia", "osteoporosis"),
         ("Síndrome del túnel carpiano", "tunel-carpiano"), ("Tendinitis", "hombro-doloroso"), ("Tortícolis", "torticolis"),
-        ("Dolor neuropático", "dolor-neuropatico")]),
+        ("Dolor neuropático", "dolor-neuropatico"), ("Vértigo y mareo", "vertigo-mareo"), ("Acúfenos (tinnitus)", "acufenos"),
+        ("Cicatrices y adherencias", "cicatrices-adherencias"), ("Lesiones deportivas", "lesiones-deportivas"), ("Osteopatía en bebés y niños", "osteopatia-bebes-ninos"),
+        ("Fascia y liberación miofascial", "osteopatia-fascia-barcelona"), ("Trauma físico y emocional", "osteopatia-trauma")]),
     ("Patologías inflamatorias crónicas y autoinmunes", [
         ("Alergias", "alergias-asma-infecciones"), ("Artritis y artritis reumatoide", "inflamacion-cronica-autoinmunes"), ("Asma", "alergias-asma-infecciones"),
         ("Candidiasis", "candidiasis-vaginal-repeticion"), ("Colitis y gastritis", "digestiones-pesadas-gastritis"), ("Fibromialgia", "fibromialgia"),
