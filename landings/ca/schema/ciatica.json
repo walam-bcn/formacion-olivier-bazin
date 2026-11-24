@@ -1,0 +1,283 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": [
+        "MedicalClinic",
+        "MedicalBusiness"
+      ],
+      "@id": "https://www.walambcn.com/#clinica",
+      "name": "WA LAM · Salud integrativa",
+      "url": "https://www.walambcn.com",
+      "telephone": "+34675716409",
+      "email": "contacto@walambcn.com",
+      "image": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/medicina-integrativa-barcelona.png",
+      "priceRange": "€€",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Carrer del Bisbe Sivilla, 44, local",
+        "postalCode": "08022",
+        "addressLocality": "Barcelona",
+        "addressRegion": "Cataluña",
+        "addressCountry": "ES"
+      },
+      "openingHours": [
+        "Mo-Fr 09:00-21:00"
+      ],
+      "founder": {
+        "@type": "Person",
+        "name": "Rosa María Rodríguez Valls",
+        "url": "https://www.walambcn.com/curriculum"
+      },
+      "foundingDate": "2004",
+      "areaServed": [
+        {
+          "@type": "Place",
+          "name": "Sarrià, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Sant Gervasi–Galvany, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Sant Gervasi–la Bonanova, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "les Tres Torres, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "el Putxet i el Farró, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Vallvidrera, el Tibidabo i les Planes, Barcelona"
+        },
+        {
+          "@type": "City",
+          "name": "Barcelona"
+        }
+      ],
+      "medicalSpecialty": [
+        "Physiotherapy",
+        "Musculoskeletal"
+      ],
+      "availableService": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Programes re:trace",
+          "url": "https://www.walambcn.com/ca/programes-re-trace"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Osteopatia",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/osteopatia-sarria-sant-gervasi"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Osteopatia visceral",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/osteopatia-visceral-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Osteopatia craniosacral",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/osteopatia-craniosacral-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Manipulacions neuroviscerals",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/manipulacions-neuroviscerals"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Pèrdua de pes",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/perdua-de-pes"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Deixar de fumar amb acupuntura",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/acupuntura-deixar-de-fumar"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Acupuntura i medicina tradicional xinesa",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/acupuntura-medicina-tradicional-xinesa"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "PNIE",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/pni-pnie-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Nutrició i salut intestinal",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/nutricio-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Drenatge limfàtic manual",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/drenatge-limfatic-manual"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Drenatge limfàtic en l'embaràs",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/drenatge-limfatic-embaras"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Drenatge limfàtic manual postoperatori",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/drenatge-limfatic-postoperatori"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Drenatge limfàtic per al limfedema",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/drenatge-limfatic-limfedema"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Massatges",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/massatges-sarria-sant-gervasi"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Reflexologia podal",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/reflexologia-podal"
+        }
+      ],
+      "sameAs": []
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/ciatica#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Inicio",
+          "item": "https://www.walambcn.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "En què et puc ajudar?",
+          "item": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Ciàtica",
+          "item": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/ciatica"
+        }
+      ]
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/ciatica#webpage",
+      "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/ciatica",
+      "name": "Ciàtica a Barcelona · Dolor irradiat | WA LAM",
+      "description": "Ciàtica a Sarrià–Sant Gervasi, Barcelona: dolor irradiat a la cama per hèrnia discal. Acompanyament integratiu com a complement del seguiment mèdic.",
+      "inLanguage": "ca-ES",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "WA LAM",
+        "url": "https://www.walambcn.com"
+      },
+      "breadcrumb": {
+        "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/ciatica#breadcrumb"
+      },
+      "publisher": {
+        "@id": "https://www.walambcn.com/#clinica"
+      },
+      "lastReviewed": "2026-11-18",
+      "dateModified": "2026-11-18",
+      "keywords": "ciática Barcelona, tratamiento ciática Barcelona, dolor nervio ciático, hernia discal ciática, acupuntura ciática Barcelona, osteópata ciática Sarrià",
+      "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/ciatica.png",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".quick p",
+          "h1"
+        ]
+      },
+      "audience": {
+        "@type": "Patient"
+      },
+      "reviewedBy": {
+        "@type": "Person",
+        "name": "Rosa María Rodríguez Valls",
+        "jobTitle": "Osteópata D.O. y máster en medicina integrativa",
+        "worksFor": {
+          "@id": "https://www.walambcn.com/#clinica"
+        }
+      },
+      "about": {
+        "@type": "MedicalCondition",
+        "name": "Ciàtica",
+        "possibleTreatment": [
+          {
+            "@type": "MedicalTherapy",
+            "name": "Acupuntura i medicina tradicional xinesa"
+          },
+          {
+            "@type": "MedicalTherapy",
+            "name": "Osteopatia"
+          }
+        ]
+      },
+      "citation": [
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Diagnosis and treatment of sciatica",
+          "url": "https://doi.org/10.1136/bmj.39223.428495.BE",
+          "sameAs": "https://doi.org/10.1136/bmj.39223.428495.BE"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Acupuncture vs Sham Acupuncture for Chronic Sciatica From Herniated Disk: A Randomized Clinical Trial",
+          "url": "https://doi.org/10.1001/jamainternmed.2024.5463",
+          "sameAs": "https://doi.org/10.1001/jamainternmed.2024.5463"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/ciatica#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Substitueix el tractament mèdic?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. L'acompanyament és complementari i no modifica la medicació prescrita pel teu metge."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "És millor fer repòs?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "En general no. Mantenir-se actiu dins del que toleres afavoreix la recuperació més que el repòs prolongat al llit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Puc venir si tinc una hèrnia discal diagnosticada?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. Porta les teves proves a la primera visita. Si hi ha pèrdua de força o alteracions de la sensibilitat que avancen, primer t'ha de valorar el teu metge."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quantes sessions necessitaré?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Depèn de cada cas. A la primera visita valorem la teva situació i et proposem un pla amb objectius clars."
+          }
+        }
+      ]
+    }
+  ]
+}

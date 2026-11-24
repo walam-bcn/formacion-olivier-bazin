@@ -1,0 +1,280 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": [
+        "MedicalClinic",
+        "MedicalBusiness"
+      ],
+      "@id": "https://www.walambcn.com/#clinica",
+      "name": "WA LAM · Salud integrativa",
+      "url": "https://www.walambcn.com",
+      "telephone": "+34675716409",
+      "email": "contacto@walambcn.com",
+      "image": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/medicina-integrativa-barcelona.png",
+      "priceRange": "€€",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Carrer del Bisbe Sivilla, 44, local",
+        "postalCode": "08022",
+        "addressLocality": "Barcelona",
+        "addressRegion": "Cataluña",
+        "addressCountry": "ES"
+      },
+      "openingHours": [
+        "Mo-Fr 09:00-21:00"
+      ],
+      "founder": {
+        "@type": "Person",
+        "name": "Rosa María Rodríguez Valls",
+        "url": "https://www.walambcn.com/curriculum"
+      },
+      "foundingDate": "2004",
+      "areaServed": [
+        {
+          "@type": "Place",
+          "name": "Sarrià, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Sant Gervasi–Galvany, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Sant Gervasi–la Bonanova, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "les Tres Torres, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "el Putxet i el Farró, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Vallvidrera, el Tibidabo i les Planes, Barcelona"
+        },
+        {
+          "@type": "City",
+          "name": "Barcelona"
+        }
+      ],
+      "medicalSpecialty": [
+        "Physiotherapy",
+        "Musculoskeletal"
+      ],
+      "availableService": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Programes re:trace",
+          "url": "https://www.walambcn.com/ca/programes-re-trace"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Osteopatia",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/osteopatia-sarria-sant-gervasi"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Osteopatia visceral",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/osteopatia-visceral-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Osteopatia craniosacral",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/osteopatia-craniosacral-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Manipulacions neuroviscerals",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/manipulacions-neuroviscerals"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Pèrdua de pes",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/perdua-de-pes"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Deixar de fumar amb acupuntura",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/acupuntura-deixar-de-fumar"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Acupuntura i medicina tradicional xinesa",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/acupuntura-medicina-tradicional-xinesa"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "PNIE",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/pni-pnie-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Nutrició i salut intestinal",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/nutricio-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Drenatge limfàtic manual",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/drenatge-limfatic-manual"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Drenatge limfàtic en l'embaràs",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/drenatge-limfatic-embaras"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Drenatge limfàtic manual postoperatori",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/drenatge-limfatic-postoperatori"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Drenatge limfàtic per al limfedema",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/drenatge-limfatic-limfedema"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Massatges",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/massatges-sarria-sant-gervasi"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Reflexologia podal",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/reflexologia-podal"
+        }
+      ],
+      "sameAs": []
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/malaltia-inflamatoria-intestinal#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Inicio",
+          "item": "https://www.walambcn.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "En què et puc ajudar?",
+          "item": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Malaltia inflamatòria intestinal",
+          "item": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/malaltia-inflamatoria-intestinal"
+        }
+      ]
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/malaltia-inflamatoria-intestinal#webpage",
+      "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/malaltia-inflamatoria-intestinal",
+      "name": "Crohn i colitis ulcerosa a Barcelona | WA LAM",
+      "description": "Malaltia de Crohn i colitis ulcerosa a Sarrià–Sant Gervasi, Barcelona: alimentació, estrès, fatiga i qualitat de vida com a complement del digestiu.",
+      "inLanguage": "ca-ES",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "WA LAM",
+        "url": "https://www.walambcn.com"
+      },
+      "breadcrumb": {
+        "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/malaltia-inflamatoria-intestinal#breadcrumb"
+      },
+      "publisher": {
+        "@id": "https://www.walambcn.com/#clinica"
+      },
+      "lastReviewed": "2026-11-18",
+      "dateModified": "2026-11-18",
+      "keywords": "enfermedad inflamatoria intestinal Barcelona, enfermedad de Crohn alimentación, colitis ulcerosa tratamiento complementario, Crohn fatiga, colitis ulcerosa estrés, medicina integrativa Crohn Barcelona",
+      "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/enfermedad-inflamatoria-intestinal.png",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".quick p",
+          "h1"
+        ]
+      },
+      "audience": {
+        "@type": "Patient"
+      },
+      "reviewedBy": {
+        "@type": "Person",
+        "name": "Rosa María Rodríguez Valls",
+        "jobTitle": "Osteópata D.O. y máster en medicina integrativa",
+        "worksFor": {
+          "@id": "https://www.walambcn.com/#clinica"
+        }
+      },
+      "about": {
+        "@type": "MedicalCondition",
+        "name": "Malaltia inflamatòria intestinal",
+        "possibleTreatment": []
+      },
+      "citation": [
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Worldwide incidence and prevalence of inflammatory bowel disease in the 21st century: a systematic review of population-based studies",
+          "url": "https://doi.org/10.1016/S0140-6736(17)32448-0",
+          "sameAs": "https://doi.org/10.1016/S0140-6736(17)32448-0"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Randomised clinical trial: yoga vs written self-care advice for ulcerative colitis",
+          "url": "https://doi.org/10.1111/apt.14062",
+          "sameAs": "https://doi.org/10.1111/apt.14062"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "A systematic review and meta-analysis of mindfulness based interventions and yoga in inflammatory bowel disease",
+          "url": "https://doi.org/10.1016/j.jpsychores.2018.11.010",
+          "sameAs": "https://doi.org/10.1016/j.jpsychores.2018.11.010"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/malaltia-inflamatoria-intestinal#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Substitueix el tractament del meu digestiu?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. El tractament de la malaltia l'indica el teu especialista. El nostre acompanyament és un complement centrat en la qualitat de vida."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hi ha una dieta per al Crohn o la colitis?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No hi ha una dieta única. Ajustem l'alimentació a la teva fase, els teus símptomes i les teves toleràncies per menjar amb més seguretat i varietat."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Em podeu ajudar amb la fatiga?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. Revisem la son, l'activitat, l'estrès i l'alimentació, i proposem moviment suau adaptat a la teva energia."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Puc venir durant un brot?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Durant un brot, la prioritat és el teu equip de digestiu. Et podem acompanyar amb pautes suaus i reprendre el pla quan estiguis més estable."
+          }
+        }
+      ]
+    }
+  ]
+}

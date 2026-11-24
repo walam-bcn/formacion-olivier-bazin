@@ -1,0 +1,285 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": [
+        "MedicalClinic",
+        "MedicalBusiness"
+      ],
+      "@id": "https://www.walambcn.com/#clinica",
+      "name": "WA LAM · Salud integrativa",
+      "url": "https://www.walambcn.com",
+      "telephone": "+34675716409",
+      "email": "contacto@walambcn.com",
+      "image": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/medicina-integrativa-barcelona.png",
+      "priceRange": "€€",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Carrer del Bisbe Sivilla, 44, local",
+        "postalCode": "08022",
+        "addressLocality": "Barcelona",
+        "addressRegion": "Cataluña",
+        "addressCountry": "ES"
+      },
+      "openingHours": [
+        "Mo-Fr 09:00-21:00"
+      ],
+      "founder": {
+        "@type": "Person",
+        "name": "Rosa María Rodríguez Valls",
+        "url": "https://www.walambcn.com/curriculum"
+      },
+      "foundingDate": "2004",
+      "areaServed": [
+        {
+          "@type": "Place",
+          "name": "Sarrià, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Sant Gervasi–Galvany, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Sant Gervasi–la Bonanova, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "les Tres Torres, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "el Putxet i el Farró, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Vallvidrera, el Tibidabo i les Planes, Barcelona"
+        },
+        {
+          "@type": "City",
+          "name": "Barcelona"
+        }
+      ],
+      "medicalSpecialty": [
+        "Physiotherapy",
+        "Musculoskeletal"
+      ],
+      "availableService": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Programas re:trace",
+          "url": "https://www.walambcn.com/metodo-integrativo-sarri%C3%A0-sant-gervasi-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Osteopatía",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/osteopatia-sarria-sant-gervasi"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Osteopatía visceral",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/osteopatia-visceral-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Osteopatía craneosacral",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/osteopatia-craneosacral-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Manipulaciones neuroviscerales",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/manipulaciones-neuroviscerales"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Pérdida de peso",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/perdida-de-peso"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Dejar de fumar con acupuntura",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/acupuntura-dejar-de-fumar"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Acupuntura y medicina tradicional china",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/acupuntura-medicina-tradicional-china"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "PNIE",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/pni-pnie-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Nutrición y salud intestinal",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/nutricion-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Drenaje linfático manual",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/drenaje-linfatico-manual"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Drenaje linfático en el embarazo",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/drenaje-linfatico-embarazo"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Drenaje linfático manual postoperatorio",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/drenaje-linfatico-postoperatorio"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Drenaje linfático para linfedema",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/drenaje-linfatico-linfedema"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Masajes",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/masajes-sarria-sant-gervasi"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Reflexología podal",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/reflexologia-podal"
+        }
+      ],
+      "sameAs": []
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/cervicalgia-dolor-cuello#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Inicio",
+          "item": "https://www.walambcn.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "¿En qué te puedo ayudar?",
+          "item": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Cervicalgia",
+          "item": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/cervicalgia-dolor-cuello"
+        }
+      ]
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/cervicalgia-dolor-cuello#webpage",
+      "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/cervicalgia-dolor-cuello",
+      "name": "Cervicalgia y dolor de cuello en Barcelona | WA LAM",
+      "description": "Cervicalgia en Sarrià–Sant Gervasi, Barcelona: dolor de cuello, tortícolis y latigazo cervical. Abordaje integrativo con terapia manual y acupuntura.",
+      "inLanguage": "es-ES",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "WA LAM",
+        "url": "https://www.walambcn.com"
+      },
+      "breadcrumb": {
+        "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/cervicalgia-dolor-cuello#breadcrumb"
+      },
+      "publisher": {
+        "@id": "https://www.walambcn.com/#clinica"
+      },
+      "lastReviewed": "2026-11-18",
+      "dateModified": "2026-11-18",
+      "keywords": "cervicalgia Barcelona, dolor de cuello Barcelona, tortícolis tratamiento Barcelona, latigazo cervical Barcelona, osteópata cervicales Sarrià, acupuntura dolor cervical Barcelona",
+      "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/cervicalgia-dolor-cuello.png",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".quick p",
+          "h1"
+        ]
+      },
+      "audience": {
+        "@type": "Patient"
+      },
+      "reviewedBy": {
+        "@type": "Person",
+        "name": "Rosa María Rodríguez Valls",
+        "jobTitle": "Osteópata D.O. y máster en medicina integrativa",
+        "worksFor": {
+          "@id": "https://www.walambcn.com/#clinica"
+        }
+      },
+      "about": {
+        "@type": "MedicalCondition",
+        "name": "Cervicalgia",
+        "possibleTreatment": [
+          {
+            "@type": "MedicalTherapy",
+            "name": "Osteopatía"
+          }
+        ]
+      },
+      "citation": [
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Global, regional, and national burden of neck pain in the general population, 1990-2017: systematic analysis of the Global Burden of Disease Study 2017",
+          "url": "https://doi.org/10.1136/bmj.m791",
+          "sameAs": "https://doi.org/10.1136/bmj.m791"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Neck Pain: Revision 2017. Clinical Practice Guidelines Linked to the International Classification of Functioning, Disability and Health From the Orthopaedic Section of the American Physical Therapy Association",
+          "url": "https://doi.org/10.2519/jospt.2017.0302",
+          "sameAs": "https://doi.org/10.2519/jospt.2017.0302"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Acupuncture for Chronic Pain: Update of an Individual Patient Data Meta-Analysis",
+          "url": "https://doi.org/10.1016/j.jpain.2017.11.005",
+          "sameAs": "https://doi.org/10.1016/j.jpain.2017.11.005"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/cervicalgia-dolor-cuello#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Qué hago si tengo una tortícolis?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mantén el cuello en movimiento suave dentro de lo que toleras y aplica calor local. Si en pocos días no mejora, una valoración ayuda a recuperar la movilidad antes."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Atendéis el latigazo cervical tras un accidente?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí, una vez descartadas lesiones por tu médico, como complemento del seguimiento médico, con terapia manual suave y ejercicio progresivo."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿El dolor de cuello puede dar dolor de cabeza?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. La tensión cervical puede irradiarse a la nuca y la cabeza. Si los dolores de cabeza son frecuentes, consulta también nuestra página de cefaleas y migraña."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuántas sesiones necesitaré?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Depende de cada caso. En la primera visita valoramos tu situación y te proponemos un plan con objetivos claros."
+          }
+        }
+      ]
+    }
+  ]
+}

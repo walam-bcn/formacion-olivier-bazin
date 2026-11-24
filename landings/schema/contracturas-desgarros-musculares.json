@@ -1,0 +1,289 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": [
+        "MedicalClinic",
+        "MedicalBusiness"
+      ],
+      "@id": "https://www.walambcn.com/#clinica",
+      "name": "WA LAM · Salud integrativa",
+      "url": "https://www.walambcn.com",
+      "telephone": "+34675716409",
+      "email": "contacto@walambcn.com",
+      "image": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/medicina-integrativa-barcelona.png",
+      "priceRange": "€€",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Carrer del Bisbe Sivilla, 44, local",
+        "postalCode": "08022",
+        "addressLocality": "Barcelona",
+        "addressRegion": "Cataluña",
+        "addressCountry": "ES"
+      },
+      "openingHours": [
+        "Mo-Fr 09:00-21:00"
+      ],
+      "founder": {
+        "@type": "Person",
+        "name": "Rosa María Rodríguez Valls",
+        "url": "https://www.walambcn.com/curriculum"
+      },
+      "foundingDate": "2004",
+      "areaServed": [
+        {
+          "@type": "Place",
+          "name": "Sarrià, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Sant Gervasi–Galvany, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Sant Gervasi–la Bonanova, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "les Tres Torres, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "el Putxet i el Farró, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Vallvidrera, el Tibidabo i les Planes, Barcelona"
+        },
+        {
+          "@type": "City",
+          "name": "Barcelona"
+        }
+      ],
+      "medicalSpecialty": [
+        "Physiotherapy",
+        "Musculoskeletal"
+      ],
+      "availableService": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Programas re:trace",
+          "url": "https://www.walambcn.com/metodo-integrativo-sarri%C3%A0-sant-gervasi-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Osteopatía",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/osteopatia-sarria-sant-gervasi"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Osteopatía visceral",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/osteopatia-visceral-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Osteopatía craneosacral",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/osteopatia-craneosacral-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Manipulaciones neuroviscerales",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/manipulaciones-neuroviscerales"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Pérdida de peso",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/perdida-de-peso"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Dejar de fumar con acupuntura",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/acupuntura-dejar-de-fumar"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Acupuntura y medicina tradicional china",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/acupuntura-medicina-tradicional-china"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "PNIE",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/pni-pnie-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Nutrición y salud intestinal",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/nutricion-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Drenaje linfático manual",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/drenaje-linfatico-manual"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Drenaje linfático en el embarazo",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/drenaje-linfatico-embarazo"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Drenaje linfático manual postoperatorio",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/drenaje-linfatico-postoperatorio"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Drenaje linfático para linfedema",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/drenaje-linfatico-linfedema"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Masajes",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/masajes-sarria-sant-gervasi"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Reflexología podal",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/reflexologia-podal"
+        }
+      ],
+      "sameAs": []
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/contracturas-desgarros-musculares#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Inicio",
+          "item": "https://www.walambcn.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "¿En qué te puedo ayudar?",
+          "item": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Contracturas y desgarros",
+          "item": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/contracturas-desgarros-musculares"
+        }
+      ]
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/contracturas-desgarros-musculares#webpage",
+      "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/contracturas-desgarros-musculares",
+      "name": "Contracturas y desgarros en Barcelona | WA LAM",
+      "description": "Contracturas, desgarros musculares y esguinces leves en Sarrià–Sant Gervasi, Barcelona: recuperación activa, terapia manual y vuelta segura a tu actividad.",
+      "inLanguage": "es-ES",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "WA LAM",
+        "url": "https://www.walambcn.com"
+      },
+      "breadcrumb": {
+        "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/contracturas-desgarros-musculares#breadcrumb"
+      },
+      "publisher": {
+        "@id": "https://www.walambcn.com/#clinica"
+      },
+      "lastReviewed": "2026-11-18",
+      "dateModified": "2026-11-18",
+      "keywords": "contractura muscular Barcelona, rotura fibrilar tratamiento Barcelona, desgarro muscular recuperación, esguince de tobillo leve Barcelona, osteopatía contractura Sarrià, lesión deportiva Sant Gervasi",
+      "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/contracturas-desgarros-musculares.png",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".quick p",
+          "h1"
+        ]
+      },
+      "audience": {
+        "@type": "Patient"
+      },
+      "reviewedBy": {
+        "@type": "Person",
+        "name": "Rosa María Rodríguez Valls",
+        "jobTitle": "Osteópata D.O. y máster en medicina integrativa",
+        "worksFor": {
+          "@id": "https://www.walambcn.com/#clinica"
+        }
+      },
+      "about": {
+        "@type": "MedicalCondition",
+        "name": "Lesión muscular (contractura y rotura fibrilar)",
+        "possibleTreatment": [
+          {
+            "@type": "MedicalTherapy",
+            "name": "Osteopatía"
+          },
+          {
+            "@type": "MedicalTherapy",
+            "name": "Masajes"
+          }
+        ]
+      },
+      "citation": [
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Global estimates of the need for rehabilitation based on the Global Burden of Disease study 2019: a systematic analysis for the Global Burden of Disease Study 2019",
+          "url": "https://doi.org/10.1016/S0140-6736(20)32340-0",
+          "sameAs": "https://doi.org/10.1016/S0140-6736(20)32340-0"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "The effectiveness of exercise interventions to prevent sports injuries: a systematic review and meta-analysis of randomised controlled trials",
+          "url": "https://doi.org/10.1136/bjsports-2013-092538",
+          "sameAs": "https://doi.org/10.1136/bjsports-2013-092538"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Diagnosis, treatment and prevention of ankle sprains: update of an evidence-based clinical guideline",
+          "url": "https://doi.org/10.1136/bjsports-2017-098106",
+          "sameAs": "https://doi.org/10.1136/bjsports-2017-098106"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/contracturas-desgarros-musculares#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Es mejor el reposo absoluto tras una rotura fibrilar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Los primeros días conviene proteger la zona, pero el músculo se recupera mejor con una carga progresiva y bien dosificada. Te indicamos qué hacer en cada fase."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuándo podré volver a hacer deporte?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Depende del tipo de lesión y de tu actividad. Marcamos criterios claros de fuerza, movilidad y ausencia de dolor para que la vuelta sea segura."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Atendéis esguinces de tobillo?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí, los esguinces leves y las molestias que quedan tras un esguince. Si no puedes apoyar el pie, primero debe valorarte un médico."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Por qué se repiten mis contracturas?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Suelen influir la sobrecarga, las posturas mantenidas, la falta de fuerza, el estrés y el descanso. Revisamos todos estos factores para reducir las recaídas."
+          }
+        }
+      ]
+    }
+  ]
+}

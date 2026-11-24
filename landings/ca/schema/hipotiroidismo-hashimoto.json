@@ -1,0 +1,274 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": [
+        "MedicalClinic",
+        "MedicalBusiness"
+      ],
+      "@id": "https://www.walambcn.com/#clinica",
+      "name": "WA LAM · Salud integrativa",
+      "url": "https://www.walambcn.com",
+      "telephone": "+34675716409",
+      "email": "contacto@walambcn.com",
+      "image": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/medicina-integrativa-barcelona.png",
+      "priceRange": "€€",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Carrer del Bisbe Sivilla, 44, local",
+        "postalCode": "08022",
+        "addressLocality": "Barcelona",
+        "addressRegion": "Cataluña",
+        "addressCountry": "ES"
+      },
+      "openingHours": [
+        "Mo-Fr 09:00-21:00"
+      ],
+      "founder": {
+        "@type": "Person",
+        "name": "Rosa María Rodríguez Valls",
+        "url": "https://www.walambcn.com/curriculum"
+      },
+      "foundingDate": "2004",
+      "areaServed": [
+        {
+          "@type": "Place",
+          "name": "Sarrià, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Sant Gervasi–Galvany, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Sant Gervasi–la Bonanova, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "les Tres Torres, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "el Putxet i el Farró, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Vallvidrera, el Tibidabo i les Planes, Barcelona"
+        },
+        {
+          "@type": "City",
+          "name": "Barcelona"
+        }
+      ],
+      "medicalSpecialty": [
+        "Physiotherapy",
+        "Musculoskeletal"
+      ],
+      "availableService": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Programes re:trace",
+          "url": "https://www.walambcn.com/ca/programes-re-trace"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Osteopatia",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/osteopatia-sarria-sant-gervasi"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Osteopatia visceral",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/osteopatia-visceral-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Osteopatia craniosacral",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/osteopatia-craniosacral-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Manipulacions neuroviscerals",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/manipulacions-neuroviscerals"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Pèrdua de pes",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/perdua-de-pes"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Deixar de fumar amb acupuntura",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/acupuntura-deixar-de-fumar"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Acupuntura i medicina tradicional xinesa",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/acupuntura-medicina-tradicional-xinesa"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "PNIE",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/pni-pnie-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Nutrició i salut intestinal",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/nutricio-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Drenatge limfàtic manual",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/drenatge-limfatic-manual"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Drenatge limfàtic en l'embaràs",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/drenatge-limfatic-embaras"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Drenatge limfàtic manual postoperatori",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/drenatge-limfatic-postoperatori"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Drenatge limfàtic per al limfedema",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/drenatge-limfatic-limfedema"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Massatges",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/massatges-sarria-sant-gervasi"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Reflexologia podal",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/reflexologia-podal"
+        }
+      ],
+      "sameAs": []
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/hipotiroidisme-hashimoto#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Inicio",
+          "item": "https://www.walambcn.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "En què et puc ajudar?",
+          "item": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Hipotiroïdisme i Hashimoto",
+          "item": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/hipotiroidisme-hashimoto"
+        }
+      ]
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/hipotiroidisme-hashimoto#webpage",
+      "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/hipotiroidisme-hashimoto",
+      "name": "Hipotiroïdisme i Hashimoto a Barcelona | WA LAM",
+      "description": "Hipotiroïdisme lleu i tiroïditis de Hashimoto a Sarrià–Sant Gervasi, Barcelona: alimentació, intestí, son i estrès com a complement de l'endocrí.",
+      "inLanguage": "ca-ES",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "WA LAM",
+        "url": "https://www.walambcn.com"
+      },
+      "breadcrumb": {
+        "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/hipotiroidisme-hashimoto#breadcrumb"
+      },
+      "publisher": {
+        "@id": "https://www.walambcn.com/#clinica"
+      },
+      "lastReviewed": "2026-11-18",
+      "dateModified": "2026-11-18",
+      "keywords": "hipotiroidismo Hashimoto Barcelona, tiroiditis de Hashimoto alimentación, Hashimoto medicina integrativa, hipotiroidismo y microbiota, Hashimoto cansancio, PNIE tiroides Barcelona",
+      "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/hipotiroidismo-hashimoto.png",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".quick p",
+          "h1"
+        ]
+      },
+      "audience": {
+        "@type": "Patient"
+      },
+      "reviewedBy": {
+        "@type": "Person",
+        "name": "Rosa María Rodríguez Valls",
+        "jobTitle": "Osteópata D.O. y máster en medicina integrativa",
+        "worksFor": {
+          "@id": "https://www.walambcn.com/#clinica"
+        }
+      },
+      "about": {
+        "@type": "MedicalCondition",
+        "name": "Tiroiditis de Hashimoto",
+        "possibleTreatment": []
+      },
+      "citation": [
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Global prevalence and epidemiological trends of Hashimoto's thyroiditis in adults: A systematic review and meta-analysis",
+          "url": "https://doi.org/10.3389/fpubh.2022.1020709",
+          "sameAs": "https://doi.org/10.3389/fpubh.2022.1020709"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Thyroid-Gut-Axis: How Does the Microbiota Influence Thyroid Function?",
+          "url": "https://doi.org/10.3390/nu12061769",
+          "sameAs": "https://doi.org/10.3390/nu12061769"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/hipotiroidisme-hashimoto#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "He de deixar o canviar la meva medicació?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. La medicació i les analítiques de control són competència del teu endocrí. L'acompanyament és complementari i no modifica el teu tractament."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "He de prendre suplements de seleni o iode?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No pel teu compte. L'excés de iode pot ser perjudicial en la tiroïditis. Qualsevol suplement l'ha de valorar el teu metge a partir de les teves analítiques."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Cal seguir una dieta sense gluten?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Només si tens celiaquia o una sensibilitat confirmada. En la resta de casos prioritzem una alimentació variada, rica en aliments frescos i adaptada a les teves digestions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Per què continuo amb cansament si les analítiques estan bé?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "El cansament pot tenir diversos factors: el son, l'estrès, nivells baixos de ferro o de vitamina D, o les digestions. Els revisem amb tu a la primera visita."
+          }
+        }
+      ]
+    }
+  ]
+}

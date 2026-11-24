@@ -1,0 +1,289 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": [
+        "MedicalClinic",
+        "MedicalBusiness"
+      ],
+      "@id": "https://www.walambcn.com/#clinica",
+      "name": "WA LAM · Salud integrativa",
+      "url": "https://www.walambcn.com",
+      "telephone": "+34675716409",
+      "email": "contacto@walambcn.com",
+      "image": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/medicina-integrativa-barcelona.png",
+      "priceRange": "€€",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Carrer del Bisbe Sivilla, 44, local",
+        "postalCode": "08022",
+        "addressLocality": "Barcelona",
+        "addressRegion": "Cataluña",
+        "addressCountry": "ES"
+      },
+      "openingHours": [
+        "Mo-Fr 09:00-21:00"
+      ],
+      "founder": {
+        "@type": "Person",
+        "name": "Rosa María Rodríguez Valls",
+        "url": "https://www.walambcn.com/curriculum"
+      },
+      "foundingDate": "2004",
+      "areaServed": [
+        {
+          "@type": "Place",
+          "name": "Sarrià, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Sant Gervasi–Galvany, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Sant Gervasi–la Bonanova, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "les Tres Torres, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "el Putxet i el Farró, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Vallvidrera, el Tibidabo i les Planes, Barcelona"
+        },
+        {
+          "@type": "City",
+          "name": "Barcelona"
+        }
+      ],
+      "medicalSpecialty": [
+        "Physiotherapy",
+        "Musculoskeletal"
+      ],
+      "availableService": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Programes re:trace",
+          "url": "https://www.walambcn.com/ca/programes-re-trace"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Osteopatia",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/osteopatia-sarria-sant-gervasi"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Osteopatia visceral",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/osteopatia-visceral-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Osteopatia craniosacral",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/osteopatia-craniosacral-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Manipulacions neuroviscerals",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/manipulacions-neuroviscerals"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Pèrdua de pes",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/perdua-de-pes"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Deixar de fumar amb acupuntura",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/acupuntura-deixar-de-fumar"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Acupuntura i medicina tradicional xinesa",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/acupuntura-medicina-tradicional-xinesa"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "PNIE",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/pni-pnie-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Nutrició i salut intestinal",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/nutricio-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Drenatge limfàtic manual",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/drenatge-limfatic-manual"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Drenatge limfàtic en l'embaràs",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/drenatge-limfatic-embaras"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Drenatge limfàtic manual postoperatori",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/drenatge-limfatic-postoperatori"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Drenatge limfàtic per al limfedema",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/drenatge-limfatic-limfedema"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Massatges",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/massatges-sarria-sant-gervasi"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Reflexologia podal",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/reflexologia-podal"
+        }
+      ],
+      "sameAs": []
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/reflux-acidesa#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Inicio",
+          "item": "https://www.walambcn.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "En què et puc ajudar?",
+          "item": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Reflux i acidesa",
+          "item": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/reflux-acidesa"
+        }
+      ]
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/reflux-acidesa#webpage",
+      "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/reflux-acidesa",
+      "name": "Reflux i acidesa a Barcelona | WA LAM",
+      "description": "Reflux, acidesa i digestions pesades a Sarrià–Sant Gervasi, Barcelona: hàbits, horaris d'àpats, pes i estrès en un abordatge integratiu i realista.",
+      "inLanguage": "ca-ES",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "WA LAM",
+        "url": "https://www.walambcn.com"
+      },
+      "breadcrumb": {
+        "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/reflux-acidesa#breadcrumb"
+      },
+      "publisher": {
+        "@id": "https://www.walambcn.com/#clinica"
+      },
+      "lastReviewed": "2026-11-18",
+      "dateModified": "2026-11-18",
+      "keywords": "reflujo y acidez Barcelona, reflujo gastroesofágico tratamiento natural, acidez de estómago remedios, digestiones pesadas Barcelona, gastritis funcional, osteopatía reflujo Barcelona",
+      "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/reflujo-acidez.png",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".quick p",
+          "h1"
+        ]
+      },
+      "audience": {
+        "@type": "Patient"
+      },
+      "reviewedBy": {
+        "@type": "Person",
+        "name": "Rosa María Rodríguez Valls",
+        "jobTitle": "Osteópata D.O. y máster en medicina integrativa",
+        "worksFor": {
+          "@id": "https://www.walambcn.com/#clinica"
+        }
+      },
+      "about": {
+        "@type": "MedicalCondition",
+        "name": "Enfermedad por reflujo gastroesofágico",
+        "possibleTreatment": [
+          {
+            "@type": "MedicalTherapy",
+            "name": "Osteopatia visceral"
+          },
+          {
+            "@type": "MedicalTherapy",
+            "name": "Pèrdua de pes"
+          }
+        ]
+      },
+      "citation": [
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Update on the epidemiology of gastro-oesophageal reflux disease: a systematic review",
+          "url": "https://doi.org/10.1136/gutjnl-2012-304269",
+          "sameAs": "https://doi.org/10.1136/gutjnl-2012-304269"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Lifestyle Intervention in Gastroesophageal Reflux Disease",
+          "url": "https://doi.org/10.1016/j.cgh.2015.04.176",
+          "sameAs": "https://doi.org/10.1016/j.cgh.2015.04.176"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "ACG Clinical Guideline for the Diagnosis and Management of Gastroesophageal Reflux Disease",
+          "url": "https://doi.org/10.14309/ajg.0000000000001538",
+          "sameAs": "https://doi.org/10.14309/ajg.0000000000001538"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/reflux-acidesa#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "He de deixar la medicació per al reflux?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. La medicació la pauta i l'ajusta el teu metge. El nostre acompanyament és un complement centrat en els hàbits que influeixen en el reflux."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quins canvis ajuden més?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sopar abans i més lleuger, no estirar-se just després de menjar, perdre pes si hi ha sobrepès, deixar el tabac i menjar amb calma. Els adaptem a la teva rutina."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "L'estrès influeix en l'acidesa?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. L'estrès augmenta la percepció dels símptomes i altera la digestió. Per això hi incloem respiració i regulació del sistema nerviós."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ateneu la gastritis i les digestions pesades?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí, la gastritis funcional i la dispèpsia, com a complement del seguiment mèdic. Si tens senyals d'alarma, primer t'ha de valorar el teu metge."
+          }
+        }
+      ]
+    }
+  ]
+}

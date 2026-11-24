@@ -1,0 +1,274 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": [
+        "MedicalClinic",
+        "MedicalBusiness"
+      ],
+      "@id": "https://www.walambcn.com/#clinica",
+      "name": "WA LAM · Salud integrativa",
+      "url": "https://www.walambcn.com",
+      "telephone": "+34675716409",
+      "email": "contacto@walambcn.com",
+      "image": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/medicina-integrativa-barcelona.png",
+      "priceRange": "€€",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Carrer del Bisbe Sivilla, 44, local",
+        "postalCode": "08022",
+        "addressLocality": "Barcelona",
+        "addressRegion": "Cataluña",
+        "addressCountry": "ES"
+      },
+      "openingHours": [
+        "Mo-Fr 09:00-21:00"
+      ],
+      "founder": {
+        "@type": "Person",
+        "name": "Rosa María Rodríguez Valls",
+        "url": "https://www.walambcn.com/curriculum"
+      },
+      "foundingDate": "2004",
+      "areaServed": [
+        {
+          "@type": "Place",
+          "name": "Sarrià, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Sant Gervasi–Galvany, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Sant Gervasi–la Bonanova, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "les Tres Torres, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "el Putxet i el Farró, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Vallvidrera, el Tibidabo i les Planes, Barcelona"
+        },
+        {
+          "@type": "City",
+          "name": "Barcelona"
+        }
+      ],
+      "medicalSpecialty": [
+        "Physiotherapy",
+        "Musculoskeletal"
+      ],
+      "availableService": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Programas re:trace",
+          "url": "https://www.walambcn.com/metodo-integrativo-sarri%C3%A0-sant-gervasi-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Osteopatía",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/osteopatia-sarria-sant-gervasi"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Osteopatía visceral",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/osteopatia-visceral-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Osteopatía craneosacral",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/osteopatia-craneosacral-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Manipulaciones neuroviscerales",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/manipulaciones-neuroviscerales"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Pérdida de peso",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/perdida-de-peso"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Dejar de fumar con acupuntura",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/acupuntura-dejar-de-fumar"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Acupuntura y medicina tradicional china",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/acupuntura-medicina-tradicional-china"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "PNIE",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/pni-pnie-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Nutrición y salud intestinal",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/nutricion-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Drenaje linfático manual",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/drenaje-linfatico-manual"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Drenaje linfático en el embarazo",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/drenaje-linfatico-embarazo"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Drenaje linfático manual postoperatorio",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/drenaje-linfatico-postoperatorio"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Drenaje linfático para linfedema",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/drenaje-linfatico-linfedema"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Masajes",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/masajes-sarria-sant-gervasi"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Reflexología podal",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/reflexologia-podal"
+        }
+      ],
+      "sameAs": []
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/fibromialgia#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Inicio",
+          "item": "https://www.walambcn.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "¿En qué te puedo ayudar?",
+          "item": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Fibromialgia",
+          "item": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/fibromialgia"
+        }
+      ]
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/fibromialgia#webpage",
+      "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/fibromialgia",
+      "name": "Fibromialgia en Barcelona | WA LAM",
+      "description": "Fibromialgia en Sarrià–Sant Gervasi, Barcelona: dolor generalizado, sueño y fatiga. Ejercicio adaptado, acupuntura, mindfulness y educación en dolor.",
+      "inLanguage": "es-ES",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "WA LAM",
+        "url": "https://www.walambcn.com"
+      },
+      "breadcrumb": {
+        "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/fibromialgia#breadcrumb"
+      },
+      "publisher": {
+        "@id": "https://www.walambcn.com/#clinica"
+      },
+      "lastReviewed": "2026-11-18",
+      "dateModified": "2026-11-18",
+      "keywords": "fibromialgia Barcelona, tratamiento fibromialgia Barcelona, acupuntura fibromialgia, ejercicio para la fibromialgia, mindfulness fibromialgia, dolor generalizado y cansancio",
+      "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/fibromialgia.png",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".quick p",
+          "h1"
+        ]
+      },
+      "audience": {
+        "@type": "Patient"
+      },
+      "reviewedBy": {
+        "@type": "Person",
+        "name": "Rosa María Rodríguez Valls",
+        "jobTitle": "Osteópata D.O. y máster en medicina integrativa",
+        "worksFor": {
+          "@id": "https://www.walambcn.com/#clinica"
+        }
+      },
+      "about": {
+        "@type": "MedicalCondition",
+        "name": "Fibromialgia",
+        "possibleTreatment": []
+      },
+      "citation": [
+        {
+          "@type": "ScholarlyArticle",
+          "name": "EULAR revised recommendations for the management of fibromyalgia",
+          "url": "https://doi.org/10.1136/annrheumdis-2016-209724",
+          "sameAs": "https://doi.org/10.1136/annrheumdis-2016-209724"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Aerobic exercise training for adults with fibromyalgia",
+          "url": "https://doi.org/10.1002/14651858.CD012700",
+          "sameAs": "https://doi.org/10.1002/14651858.CD012700"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/fibromialgia#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Se puede mejorar la fibromialgia?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí, es posible reducir el dolor y la fatiga y recuperar actividad. Trabajamos con objetivos realistas y un plan que se ajusta a cómo respondes."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿El ejercicio no empeora el dolor?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Si se dosifica bien, no. Empezamos en un nivel cómodo y aumentamos de forma gradual, respetando los días de más dolor."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿La acupuntura es adecuada si tengo mucha sensibilidad?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. Adaptamos el número de agujas, la estimulación y la duración de la sesión a tu tolerancia."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Sustituye al tratamiento de mi reumatólogo?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Es un acompañamiento complementario al seguimiento médico y no modifica tu medicación."
+          }
+        }
+      ]
+    }
+  ]
+}

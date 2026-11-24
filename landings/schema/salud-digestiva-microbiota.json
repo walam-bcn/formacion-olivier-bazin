@@ -167,7 +167,7 @@
         {
           "@type": "ListItem",
           "position": 3,
-          "name": "Salud digestiva y microbiota",
+          "name": "Microbiota y estudio de microbiota",
           "item": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/salud-digestiva-microbiota"
         }
       ]
@@ -176,8 +176,8 @@
       "@type": "MedicalWebPage",
       "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/salud-digestiva-microbiota#webpage",
       "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/salud-digestiva-microbiota",
-      "name": "Salud digestiva y microbiota en Barcelona | WA LAM",
-      "description": "Hinchazón, colon irritable o digestiones alteradas por el estrés: valoración integrativa del eje intestino-cerebro en Sarrià–Sant Gervasi, Barcelona.",
+      "name": "Microbiota y estudio de microbiota en Barcelona | WA LAM",
+      "description": "Estudio de microbiota intestinal en Sarrià–Sant Gervasi, Barcelona: disbiosis, cuándo pedirlo y cómo se interpreta en consulta de PNIE con un plan realista.",
       "inLanguage": "es-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -192,7 +192,7 @@
       },
       "lastReviewed": "2026-11-18",
       "dateModified": "2026-11-18",
-      "keywords": "salud digestiva y microbiota Barcelona, hinchazón abdominal causas, colon irritable tratamiento Barcelona, eje intestino-cerebro, microbiota intestinal, digestiones pesadas estrés",
+      "keywords": "estudio de microbiota Barcelona, análisis de microbiota intestinal Barcelona, disbiosis intestinal tratamiento, test de microbiota heces, PNIE microbiota Barcelona, microbiota intestinal Sarrià",
       "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/salud-digestiva-microbiota.png",
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -214,7 +214,7 @@
       },
       "about": {
         "@type": "MedicalCondition",
-        "name": "Trastornos digestivos funcionales",
+        "name": "Disbiosis intestinal",
         "possibleTreatment": [
           {
             "@type": "MedicalTherapy",
@@ -223,10 +223,6 @@
           {
             "@type": "MedicalTherapy",
             "name": "Nutrición y salud intestinal"
-          },
-          {
-            "@type": "MedicalTherapy",
-            "name": "Osteopatía"
           }
         ]
       },
@@ -239,15 +235,15 @@
         },
         {
           "@type": "ScholarlyArticle",
-          "name": "Efficacy of a low FODMAP diet in irritable bowel syndrome: systematic review and network meta-analysis",
-          "url": "https://doi.org/10.1136/gutjnl-2021-325214",
-          "sameAs": "https://doi.org/10.1136/gutjnl-2021-325214"
+          "name": "Role of the gut microbiota in nutrition and health",
+          "url": "https://doi.org/10.1136/bmj.k2179",
+          "sameAs": "https://doi.org/10.1136/bmj.k2179"
         },
         {
           "@type": "ScholarlyArticle",
-          "name": "Reliability of diagnosis and clinical efficacy of visceral osteopathy: a systematic review",
-          "url": "https://doi.org/10.1186/s12906-018-2098-8",
-          "sameAs": "https://doi.org/10.1186/s12906-018-2098-8"
+          "name": "Gut Microbiota in Patients With Irritable Bowel Syndrome—A Systematic Review",
+          "url": "https://doi.org/10.1053/j.gastro.2019.03.049",
+          "sameAs": "https://doi.org/10.1053/j.gastro.2019.03.049"
         }
       ]
     },
@@ -257,34 +253,34 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "¿Hacéis estudio de microbiota?",
+          "name": "¿Todo el mundo necesita un estudio de microbiota?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí. El estudio de microbiota intestinal, que se deriva a un laboratorio especializado, lo valoramos en la primera visita y lo recomendamos cuando puede cambiar el plan. Sus resultados se integran en el informe de valoración, como explicamos en longevidad y prevención. Si se plantea un estudio de parásitos, comprobamos antes qué incluye el perfil elegido para no duplicar pruebas."
+            "text": "No. Lo proponemos cuando los síntomas persisten, cuando hay antecedentes como tandas de antibióticos o gastroenteritis, o cuando el resultado puede orientar mejor el plan."
           }
         },
         {
           "@type": "Question",
-          "name": "¿Tendré que hacer una dieta muy estricta?",
+          "name": "¿Cómo se hace el estudio?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No por defecto. Algunas personas se benefician de cambios temporales y guiados, pero evitamos restricciones prolongadas sin motivo."
+            "text": "Recoges una pequeña muestra de heces en casa con un kit y la envías a un laboratorio especializado. Cuando llegan los resultados, los revisamos juntos en consulta."
           }
         },
         {
           "@type": "Question",
-          "name": "¿La osteopatía visceral sirve para la digestión?",
+          "name": "¿Qué hacéis con los resultados?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Puede ayudar a algunas personas a sentir menos tensión abdominal y mejor movilidad del diafragma. La evidencia científica es todavía limitada, por eso la proponemos como complemento y no como tratamiento único."
+            "text": "Los interpretamos junto con tus síntomas y tu historia, y los traducimos en un plan por fases de alimentación, descanso y regulación del estrés."
           }
         },
         {
           "@type": "Question",
-          "name": "¿Sustituye a la consulta de digestivo?",
+          "name": "¿Sustituye a las pruebas del digestivo?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. Si tus síntomas requieren estudio médico, te lo indicaremos. Podemos acompañarte en paralelo."
+            "text": "No. Es un complemento del seguimiento médico. Si tus síntomas necesitan otras pruebas, te lo indicaremos."
           }
         }
       ]

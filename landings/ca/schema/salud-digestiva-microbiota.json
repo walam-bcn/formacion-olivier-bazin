@@ -167,7 +167,7 @@
         {
           "@type": "ListItem",
           "position": 3,
-          "name": "Salut digestiva i microbiota",
+          "name": "Microbiota i estudi de microbiota",
           "item": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/salut-digestiva-microbiota"
         }
       ]
@@ -176,8 +176,8 @@
       "@type": "MedicalWebPage",
       "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/salut-digestiva-microbiota#webpage",
       "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/salut-digestiva-microbiota",
-      "name": "Salut digestiva i microbiota a Barcelona | WA LAM",
-      "description": "Inflor, còlon irritable o digestions alterades per l'estrès: valoració integrativa de l'eix intestí-cervell a Sarrià–Sant Gervasi, Barcelona.",
+      "name": "Microbiota i estudi de microbiota a Barcelona | WA LAM",
+      "description": "Estudi de microbiota intestinal a Sarrià–Sant Gervasi, Barcelona: disbiosi, quan demanar-lo i com s'interpreta en una consulta de PNIE amb un pla realista.",
       "inLanguage": "ca-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -192,7 +192,7 @@
       },
       "lastReviewed": "2026-11-18",
       "dateModified": "2026-11-18",
-      "keywords": "salut digestiva i microbiota Barcelona, inflor abdominal causes, còlon irritable tractament Barcelona, eix intestí-cervell, microbiota intestinal, digestions pesades estrès",
+      "keywords": "estudio de microbiota Barcelona, análisis de microbiota intestinal Barcelona, disbiosis intestinal tratamiento, test de microbiota heces, PNIE microbiota Barcelona, microbiota intestinal Sarrià",
       "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/salud-digestiva-microbiota.png",
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -214,7 +214,7 @@
       },
       "about": {
         "@type": "MedicalCondition",
-        "name": "Trastorns digestius funcionals",
+        "name": "Disbiosi intestinal",
         "possibleTreatment": [
           {
             "@type": "MedicalTherapy",
@@ -223,10 +223,6 @@
           {
             "@type": "MedicalTherapy",
             "name": "Nutrició i salut intestinal"
-          },
-          {
-            "@type": "MedicalTherapy",
-            "name": "Osteopatia"
           }
         ]
       },
@@ -239,15 +235,15 @@
         },
         {
           "@type": "ScholarlyArticle",
-          "name": "Efficacy of a low FODMAP diet in irritable bowel syndrome: systematic review and network meta-analysis",
-          "url": "https://doi.org/10.1136/gutjnl-2021-325214",
-          "sameAs": "https://doi.org/10.1136/gutjnl-2021-325214"
+          "name": "Role of the gut microbiota in nutrition and health",
+          "url": "https://doi.org/10.1136/bmj.k2179",
+          "sameAs": "https://doi.org/10.1136/bmj.k2179"
         },
         {
           "@type": "ScholarlyArticle",
-          "name": "Reliability of diagnosis and clinical efficacy of visceral osteopathy: a systematic review",
-          "url": "https://doi.org/10.1186/s12906-018-2098-8",
-          "sameAs": "https://doi.org/10.1186/s12906-018-2098-8"
+          "name": "Gut Microbiota in Patients With Irritable Bowel Syndrome—A Systematic Review",
+          "url": "https://doi.org/10.1053/j.gastro.2019.03.049",
+          "sameAs": "https://doi.org/10.1053/j.gastro.2019.03.049"
         }
       ]
     },
@@ -257,34 +253,34 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Feu estudi de microbiota?",
+          "name": "Tothom necessita un estudi de microbiota?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí. L'estudi de microbiota intestinal, que es deriva a un laboratori especialitzat, el valorem a la primera visita i el recomanem quan pot canviar el pla. Els resultats s'integren a l'informe de valoració, com expliquem a longevitat i prevenció. Si es planteja un estudi de paràsits, comprovem abans què inclou el perfil escollit per no duplicar proves."
+            "text": "No. El proposem quan els símptomes persisteixen, quan hi ha antecedents com tandes d'antibiòtics o gastroenteritis, o quan el resultat pot orientar millor el pla."
           }
         },
         {
           "@type": "Question",
-          "name": "Hauré de fer una dieta molt estricta?",
+          "name": "Com es fa l'estudi?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No per defecte. Algunes persones es beneficien de canvis temporals i guiats, però evitem restriccions prolongades sense motiu."
+            "text": "Reculls una petita mostra de femta a casa amb un kit i l'envies a un laboratori especialitzat. Quan arriben els resultats, els revisem junts a la consulta."
           }
         },
         {
           "@type": "Question",
-          "name": "L'osteopatia visceral serveix per a la digestió?",
+          "name": "Què feu amb els resultats?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Pot ajudar algunes persones a sentir menys tensió abdominal i una millor mobilitat del diafragma. L'evidència científica és encara limitada, per això la proposem com a complement i no com a tractament únic."
+            "text": "Els interpretem juntament amb els teus símptomes i la teva història, i els traduïm en un pla per fases d'alimentació, descans i regulació de l'estrès."
           }
         },
         {
           "@type": "Question",
-          "name": "Substitueix la consulta de digestiu?",
+          "name": "Substitueix les proves del digestiu?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. Si els teus símptomes requereixen estudi mèdic, t'ho indicarem. Et podem acompanyar en paral·lel."
+            "text": "No. És un complement del seguiment mèdic. Si els teus símptomes necessiten altres proves, t'ho indicarem."
           }
         }
       ]
