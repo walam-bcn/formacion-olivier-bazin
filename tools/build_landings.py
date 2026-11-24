@@ -60,7 +60,8 @@ OUT = ROOT / "landings"
 OUT.mkdir(exist_ok=True)
 BYSLUG = {p["slug"]: p for p in PAGES}
 # Ficha de Google (Wa Lam). Sustituir por el enlace «Compartir» de Google Maps cuando lo tengamos.
-MAPS_URL = "https://www.google.com/maps/search/?api=1&query=Wa%20Lam%2C%20Carrer%20del%20Bisbe%20Sivilla%2044%2C%2008022%20Barcelona"
+MAPS_URL = "https://share.google/ND7AyHqhaIKZufsCF"
+NEWSLETTER_URL = "mailto:contacto@walambcn.com?subject=Alta%20en%20la%20newsletter%20de%20WA%20LAM&body=Hola%2C%20quiero%20recibir%20la%20newsletter%20de%20WA%20LAM%20con%20novedades%2C%20talleres%20y%20retiros.%20Acepto%20que%20WA%20LAM%20use%20mi%20correo%20solo%20para%20este%20fin."
 DIR_URL = "https://www.google.com/maps/dir/?api=1&destination=Wa%20Lam%2C%20Carrer%20del%20Bisbe%20Sivilla%2044%2C%2008022%20Barcelona"
 
 
@@ -410,7 +411,7 @@ h1,h2,h3,h4,.btn,.btn-tq,.faq summary,b,strong,.explain .txt b,.card h3,.step h3
 .ilist li{font-weight:400!important;position:relative;padding:5px 0 5px 22px!important}
 .ilist li::before{content:"";position:absolute;left:4px;top:15px;width:7px;height:7px;border-radius:50%;background:var(--tq)}
 .explain p.k{text-align:left!important}
-.cont .cbtns{justify-content:center;gap:12px;flex-wrap:wrap}.cont .btn-map{background:transparent;color:#fff;border:1px solid #fff}.cont .btn-map:hover{background:#fff;color:#222}.cont .gmb{margin:18px auto 0!important}.hero-dna{background-color:#dcebf2!important;background-position:center!important;background-size:cover!important;color:var(--pet)}
+.cont .cbtns{justify-content:center;gap:12px;flex-wrap:wrap}.cont .btn-map{background:transparent;color:#fff;border:1px solid #fff}.cont .btn-map:hover{background:#fff;color:#222}.cont .gmb{margin:18px auto 0!important}.nl{padding:56px 0!important;background:#fff}.nlbox{display:flex;align-items:center;justify-content:space-between;gap:28px;flex-wrap:wrap;border:1px solid #2ec4c4;border-radius:14px;padding:28px 32px;max-width:980px;margin:0 auto}.nltx{flex:1 1 380px}.nl h2{font-size:24px!important;margin:0 0 6px!important;text-align:left!important}.nl p{margin:0!important;text-align:left!important}.hero-dna{background-color:#dcebf2!important;background-position:center!important;background-size:cover!important;color:var(--pet)}
 .hero-dna h1,.hero-dna .hs,.hero-dna .lead,.hero-dna .eyebrow,.hero-dna .crumbs,.hero-dna .crumbs a{color:var(--pet)!important;text-shadow:0 0 18px rgba(255,255,255,.9)}
 .hero-dna .hcard{background:rgba(255,255,255,.72);border-color:rgba(29,63,64,.18)}
 .hero-dna .hcard .k,.hero-dna .hcard li{color:var(--pet)}
@@ -714,8 +715,16 @@ def ctaband(p):
 <div class="btn-row"><a class="btn btn-dk" href="{wa(p['wa'])}" target="_blank" rel="noopener">{tr("Escríbenos por WhatsApp")}</a>{b2h}</div></div></section>"""
 
 
+def newsletter():
+    return f"""<section class="nl" id="newsletter"><div class="wrap"><div class="nlbox">
+<div class="nltx"><h2>{tr("Reciba las novedades de WA LAM")}</h2>
+<p>{tr("Talleres, retiros, cursos de mindfulness y consejos de salud, una vez al mes. Sin publicidad y puede darse de baja cuando quiera.")}</p></div>
+<a class="btn btn-tq" href="{NEWSLETTER_URL}" target="_blank" rel="noopener">✉ {tr("Suscribirme a la newsletter")}</a>
+</div></div></section>"""
+
+
 def contact(p):
-    return f"""<section class="cont" id="contacto"><div class="wrap">
+    return newsletter() + f"""<section class="cont" id="contacto"><div class="wrap">
 <h2>{fmt(p.get("cta", {}).get("h2") or tr("Estamos aquí para orientarte"))}</h2>
 <p>{fmt(p.get("cta", {}).get("p") or tr("Cuéntanos brevemente qué te ocurre o qué te interesa y te diremos con sinceridad si podemos ayudarte y con qué profesional."))}</p>
 <div class="datos"><span>📍 {fmt(SITE['address_short'])}</span><span>📧 {SITE['email']}</span><span>🕘 {tr(SITE['hours'])}</span></div>
@@ -793,6 +802,24 @@ def local(p):
 <p>{fmt(p.get("pro_who", "").rstrip("."))}. <a class="inl" href="{SITE['cv_url']}">{tr("Ver currículum")}</a></p>
 <p>{tr("La reserva se realiza por WhatsApp y el pago, mediante Bizum. Si no sabes qué servicio te conviene, cuéntanos tu caso y te orientamos antes de reservar.")}</p>
 <div class="btn-row"><a class="btn btn-tq" href="{wa(p['wa'])}" target="_blank" rel="noopener">WhatsApp</a><a class="btn btn-gh" href="tel:+34675716409">{tr("Llamar")}</a></div></div></div></div></section>"""
+
+
+_BONO_RE = [
+    (r"\b([Pp])ack(s?) de 10 (sesiones|clases)", lambda m: ("B" if m.group(1) == "P" else "b") + "ono" + ("s" if m.group(2) else "") + " de 10 " + m.group(3) + " + 1 de regalo"),
+    (r"\b([Pp])ack de 10\b(?! (sesiones|clases))", lambda m: ("B" if m.group(1) == "P" else "b") + "ono de 10 + 1 de regalo"),
+    (r"\bbono de 10 sesiones por 700 €", lambda m: "bono de 10 sesiones + 1 de regalo por 700 €"),
+    (r"\b([Pp])a(?:quet|ck)s? de 10 (sessions|classes)", lambda m: ("B" if m.group(1) == "P" else "b") + "o de 10 " + m.group(2) + " + 1 de regal"),
+    (r"\b([Pp])aquet de 10\b(?! (sessions|classes))", lambda m: ("B" if m.group(1) == "P" else "b") + "o de 10 + 1 de regal"),
+    (r"\bbo de 10 sessions per 700 €", lambda m: "bo de 10 sessions + 1 de regal per 700 €"),
+    (r"d'un bo de 10", lambda m: "d'un bo de 10"),
+    (r"un bono de 10 (sesiones|clases) \+", lambda m: "un bono de 10 " + m.group(1) + " +"),
+]
+
+
+def fix_bonos(s):
+    for pat, rep in _BONO_RE:
+        s = re.sub(pat, rep, s)
+    return s.replace("dispone de un bono", "dispone de un bono").replace("disposa d'un bo", "disposa d'un bo")
 
 
 def page(p):
@@ -1021,9 +1048,9 @@ def main():
         out = Path(sys.argv[sys.argv.index("--preview") + 1]) / ("ca" if LANG == "ca" else "")
     out.mkdir(parents=True, exist_ok=True)
     for p in PAGES:
-        (out / f"{p['slug']}.html").write_text(page(p), encoding="utf-8")
+        (out / f"{p['slug']}.html").write_text(fix_bonos(page(p)), encoding="utf-8")
     if LANG == "es":
-        (out / "guia-seo.html").write_text(guide(), encoding="utf-8")
+        (out / "guia-seo.html").write_text(fix_bonos(guide()), encoding="utf-8")
         (out / "tabla-patologias.html").write_text(patho_table(), encoding="utf-8")
     if not PREVIEW:
         sd = out / "schema"; sd.mkdir(exist_ok=True)
@@ -1047,7 +1074,7 @@ def main():
 <span class="eyebrow">Revisión</span><h1>Landing pages WA LAM</h1><p class="lead">{len(PAGES)} páginas. Pulsa cualquiera para verla. Lo resaltado así: <span class="pend">dato pendiente</span> hay que completarlo antes de publicar.</p>
 <div class="btn-row"><a class="btn btn-gh" href="{"../" if LANG == "ca" else ""}tabla-patologias.html" target="_self">{"Taula de patologies" if LANG == "ca" else "Tabla de patologías para Wix"}</a><a class="btn btn-tq" href="{"../" if LANG == "ca" else ""}guia-seo.html" target="_self">{"Pla SEO (castellà)" if LANG == "ca" else "Ver el plan SEO"}</a></div></div></div></section>
 <section style="background:#fff"><div class="wrap">{''.join(rows)}</div></section>""" + contact(dict(idx, wa="Hola, tengo una consulta sobre WA LAM.")) + JS + "</body></html>"
-    (out / "index.html").write_text(doc, encoding="utf-8")
+    (out / "index.html").write_text(fix_bonos(doc), encoding="utf-8")
     print(f"{len(PAGES)} páginas + index.html + guia-seo.html en {out}")
 
 
