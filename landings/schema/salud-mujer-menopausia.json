@@ -270,14 +270,6 @@
             "@type": "Answer",
             "text": "Suele empezar entre los 40 y los 50 años, con cambios en el ciclo y síntomas que pueden aparecer años antes de la última regla."
           }
-        },
-        {
-          "@type": "Question",
-          "name": "¿Quién atiende estas consultas?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Rosa María Rodríguez Valls, osteópata D.O."
-          }
         }
       ]
     }

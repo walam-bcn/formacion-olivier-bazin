@@ -163,7 +163,7 @@ SEO = {
         "ca": "osteòpata Sarrià Sant Gervasi",
         "title": "Osteópata en Sarrià–Sant Gervasi, Barcelona | WA LAM",
         "desc": "Osteopatía estructural, visceral y craneal en Sarrià–Sant Gervasi (Barcelona). Valoración individual, tratamiento manual y ejercicio. Reserva por WhatsApp.",
-        "quick": "Sesión individual de 1 hora (70 €) en Sarrià–Sant Gervasi, Barcelona, con Rosa María Rodríguez Valls, osteópata D.O. Se emplea como complemento en el dolor lumbar y cervical, las cefaleas tensionales y las limitaciones de movilidad, combinando técnicas estructurales, viscerales y craneales según la valoración.",
+        "quick": "Sesión individual de 1 hora (70 €) en Sarrià–Sant Gervasi, Barcelona. Se emplea como complemento en el dolor lumbar y cervical, las cefaleas tensionales y las limitaciones de movilidad, combinando técnicas estructurales, viscerales y craneales según la valoración.",
         "entity": ("MedicalTherapy", "Osteopatía"),
     },
     "osteopatia-visceral-barcelona": {
@@ -172,7 +172,7 @@ SEO = {
         "ca": "osteopatia visceral Barcelona",
         "title": "Osteopatía visceral en Barcelona · Sarrià | WA LAM",
         "desc": "Osteopatía visceral en Sarrià–Sant Gervasi, Barcelona: abdomen, diafragma, pelvis y cicatrices. Rosa María Rodríguez Valls, formada en el Barral Institute.",
-        "quick": "En WA LAM (Sarrià–Sant Gervasi, Barcelona) se aplica en sesiones de 1 hora (70 €) como complemento en molestias digestivas funcionales, dolor lumbar o pélvico de origen visceral y tensiones tras cirugías abdominales. Atiende Rosa María Rodríguez Valls, osteópata D.O. formada en el Barral Institute.",
+        "quick": "En WA LAM (Sarrià–Sant Gervasi, Barcelona) se aplica en sesiones de 1 hora (70 €) como complemento en molestias digestivas funcionales, dolor lumbar o pélvico de origen visceral y tensiones tras cirugías abdominales.",
         "entity": ("MedicalTherapy", "Osteopatía visceral"),
     },
     "osteopatia-craneosacral-barcelona": {
@@ -181,7 +181,7 @@ SEO = {
         "ca": "teràpia craniosacral Barcelona",
         "title": "Terapia craneosacral en Barcelona · Sarrià | WA LAM",
         "desc": "Osteopatía y terapia craneosacral en Sarrià–Sant Gervasi, Barcelona: contacto muy suave en cráneo, columna y sacro. Formación del Upledger Institute.",
-        "quick": "En WA LAM (Sarrià–Sant Gervasi, Barcelona) se aplica en sesiones de 1 hora (70 €) como complemento en cefaleas tensionales, tensión cervical y mandibular, dolor persistente y estados de estrés. Atiende Rosa María Rodríguez Valls, osteópata D.O. formada en el Upledger Institute.",
+        "quick": "En WA LAM (Sarrià–Sant Gervasi, Barcelona) se aplica en sesiones de 1 hora (70 €) como complemento en cefaleas tensionales, tensión cervical y mandibular, dolor persistente y estados de estrés.",
         "entity": ("MedicalTherapy", "Terapia craneosacral"),
     },
     "manipulaciones-neuroviscerales": {

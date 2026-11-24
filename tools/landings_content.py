@@ -2512,3 +2512,8 @@ for _p in PAGES:
     if _p["slug"] == "medicina-integrativa-barcelona":
         _p["lead"] = ""
         _p["blocks"] = [b for b in _p["blocks"] if b.get("h2") != "¿Qué es WA LAM?"]
+
+for _p in PAGES:
+    if _p["slug"] == "en-que-podemos-ayudarte":
+        _p["blocks"] = [b for b in _p["blocks"] if b.get("h2") != "Por qué abordamos estos procesos de forma integrada"]
+        _p["lead"] = _p["lead"].replace("Estas son las situaciones clínicas por las que se consulta", "Estos son los motivos por los que se consulta")

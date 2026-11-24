@@ -211,33 +211,7 @@
         "worksFor": {
           "@id": "https://www.walambcn.com/#clinica"
         }
-      },
-      "citation": [
-        {
-          "@type": "ScholarlyArticle",
-          "name": "The Microbiota-Gut-Brain Axis",
-          "url": "https://doi.org/10.1152/physrev.00018.2018",
-          "sameAs": "https://doi.org/10.1152/physrev.00018.2018"
-        },
-        {
-          "@type": "ScholarlyArticle",
-          "name": "Psychological Stress and the Human Immune System: A Meta-Analytic Study of 30 Years of Inquiry",
-          "url": "https://doi.org/10.1037/0033-2909.130.4.601",
-          "sameAs": "https://doi.org/10.1037/0033-2909.130.4.601"
-        },
-        {
-          "@type": "ScholarlyArticle",
-          "name": "Sleep Disturbance, Sleep Duration, and Inflammation: A Systematic Review and Meta-Analysis of Cohort Studies and Experimental Sleep Deprivation",
-          "url": "https://doi.org/10.1016/j.biopsych.2015.05.014",
-          "sameAs": "https://doi.org/10.1016/j.biopsych.2015.05.014"
-        },
-        {
-          "@type": "ScholarlyArticle",
-          "name": "Noninvasive Treatments for Acute, Subacute, and Chronic Low Back Pain: A Clinical Practice Guideline From the American College of Physicians",
-          "url": "https://doi.org/10.7326/M16-2367",
-          "sameAs": "https://doi.org/10.7326/M16-2367"
-        }
-      ]
+      }
     },
     {
       "@type": "FAQPage",
