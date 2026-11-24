@@ -7,7 +7,7 @@ DIR = Path(__file__).parent / "new_pages"
 OLD_LUMBAR = "lumbalgia-cervicalgia-cronica"
 
 EYEBROW = {
-    "fatiga-cronica-agotamiento": "Sistema nervioso · Energía", "agotamiento-fisico-emocional": "Sistema nervioso · Energía", "cortisol-estres-cronico": "Sistema nervioso · Estrés", "dolor-pelvico-barcelona": "Salud pélvica", "ejercicios-suelo-pelvico": "Salud pélvica", "nervio-vago": "Osteopatía · Sistema nervioso", "osteopatia-fascia-barcelona": "Osteopatía", "osteopatia-trauma-emocional": "Osteopatía", "neuralgia-trigemino": "Dolor · Sistema nervioso",
+    "fatiga-cronica-agotamiento": "Sistema nervioso · Energía", "agotamiento-fisico-emocional": "Sistema nervioso · Energía", "cortisol-estres-cronico": "Sistema nervioso · Estrés", "dolor-pelvico-barcelona": "Salud pélvica", "ejercicios-suelo-pelvico": "Salud pélvica", "nervio-vago": "Osteopatía · Sistema nervioso", "osteopatia-fascia-barcelona": "Osteopatía", "osteopatia-trauma": "Osteopatía", "neuralgia-trigemino": "Dolor · Sistema nervioso",
     "intolerancias-alimentarias": "Salud digestiva", "intolerancia-histamina": "Salud digestiva", "intolerancia-fructosa": "Salud digestiva", "intolerancia-lactosa": "Salud digestiva", "intolerancia-gluten": "Salud digestiva", "diarrea-cronica": "Salud digestiva", "estrenimiento": "Salud digestiva", "gases-hinchazon-abdominal": "Salud digestiva", "digestiones-pesadas-gastritis": "Salud digestiva", "alergias-asma-infecciones": "Inflamación e inmunidad",
     "salud-digestiva-microbiota": "Salud digestiva · PNIE", "colon-irritable-sibo": "Salud digestiva",
     "reflujo-acidez": "Salud digestiva", "enfermedad-inflamatoria-intestinal": "Salud digestiva",
@@ -131,7 +131,7 @@ AREAS = [
     ("Inflamación e inmunidad", "03", ["inflamacion-cronica-autoinmunes", "alergias-asma-infecciones"]),
     ("Salud digestiva", "01", ["salud-digestiva-microbiota", "colon-irritable-sibo", "reflujo-acidez", "digestiones-pesadas-gastritis", "gases-hinchazon-abdominal", "estrenimiento", "diarrea-cronica", "enfermedad-inflamatoria-intestinal", "intolerancias-alimentarias", "intolerancia-gluten", "intolerancia-lactosa", "intolerancia-fructosa", "intolerancia-histamina"]),
     ("Metabolismo", "04", ["salud-metabolica", "perdida-de-peso-sarria-sant-gervasi", "dejar-de-fumar-acupuntura"]),
-    ("Energía, estrés y sueño", "05", ["nervio-vago", "osteopatia-trauma-emocional", "agotamiento-fisico-emocional", "cortisol-estres-cronico", "fatiga-cronica-agotamiento", "estres-ansiedad", "sueno-insomnio"]),
+    ("Energía, estrés y sueño", "05", ["nervio-vago", "osteopatia-trauma", "agotamiento-fisico-emocional", "cortisol-estres-cronico", "fatiga-cronica-agotamiento", "estres-ansiedad", "sueno-insomnio"]),
     ("Salud de la mujer", "06", ["salud-mujer-menopausia", "sindrome-ovario-poliquistico", "candidiasis-vaginal-repeticion",
                                  "suelo-pelvico-dolor-pelvico", "dolor-pelvico-barcelona", "ejercicios-suelo-pelvico", "cistitis-repeticion-vejiga-dolorosa", "acompanamiento-fertilidad"]),
     ("Sistema endocrino", "07", ["hipotiroidismo-hashimoto"]),

@@ -2606,7 +2606,7 @@ OLIVIER_PAGES = ["suelo-pelvico-dolor-pelvico", "dolor-pelvico-barcelona", "ejer
                  "incontinencia-urinaria-esfuerzo", "prolapso-organos-pelvicos", "salud-mujer-menopausia", "sindrome-ovario-poliquistico",
                  "candidiasis-vaginal-repeticion", "acompanamiento-fertilidad", "manipulaciones-neuroviscerales", "osteopatia-visceral-barcelona",
                  "osteopatia-sarria-sant-gervasi", "osteopatia-craneosacral-barcelona", "nervio-vago",
-                 "osteopatia-fascia-barcelona", "osteopatia-trauma-emocional"]
+                 "osteopatia-fascia-barcelona", "osteopatia-trauma"]
 for _p in PAGES:
     if _p["slug"] in OLIVIER_PAGES:
         _p["blocks"] = [b for b in _p["blocks"] if b.get("h2") != "Para profesionales" and b.get("eyebrow") != "Para profesionales"]
@@ -2656,3 +2656,11 @@ for _p in PAGES:
         _e = next((b for b in _p["blocks"] if b.get("type") == "explain"), None)
         if _e is not None:
             _e["quote"] = "«El concepto de la osteopatía es la movilidad: devolver movilidad al cuerpo». Jean-Pierre Barral"
+
+# Estrés y ansiedad: relación con el nervio vago y la teoría polivagal
+for _p in PAGES:
+    if _p["slug"] in ("estres-ansiedad", "cortisol-estres-cronico") and not any(b.get("_id") == "nervio-vago-estres" for b in _p["blocks"]):
+        _i = next((k for k, b in enumerate(_p["blocks"]) if b.get("type") == "explain"), 0) + 1
+        _p["blocks"].insert(_i, {"type": "explain", "eyebrow": "", "h2": "El nervio vago y la teoría polivagal", "_id": "nervio-vago-estres",
+            "paras": ["El nervio vago es la principal vía del sistema nervioso parasimpático, el que favorece la calma, la digestión y la recuperación. Cuando el estrés se mantiene en el tiempo, predomina la respuesta de alerta y el tono vagal tiende a disminuir, algo que puede reflejarse en la variabilidad de la frecuencia cardiaca.",
+                      "La teoría polivagal, formulada por Stephen Porges, propone que el sistema nervioso evalúa de forma continua si el entorno es seguro y ajusta en consecuencia nuestras respuestas de calma, alerta o bloqueo. Lo explicamos con más detalle, junto con el abordaje osteopático, en [Osteopatía, nervio vago y teoría polivagal](nervio-vago)."]})
