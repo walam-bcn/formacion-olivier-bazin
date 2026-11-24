@@ -149,6 +149,11 @@
         },
         {
           "@type": "MedicalTherapy",
+          "name": "Yoga terapéutico",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/yoga-terapeutico"
+        },
+        {
+          "@type": "MedicalTherapy",
           "name": "Nervio vago y teoría polivagal",
           "url": "https://www.walambcn.com/osteopatia-nervio-vago-teoria-polivagal"
         },
@@ -243,6 +248,10 @@
           {
             "@type": "MedicalTherapy",
             "name": "PNIE"
+          },
+          {
+            "@type": "MedicalTherapy",
+            "name": "Yoga terapéutico"
           }
         ]
       },

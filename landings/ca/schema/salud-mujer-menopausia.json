@@ -149,6 +149,11 @@
         },
         {
           "@type": "MedicalTherapy",
+          "name": "Ioga terapèutic",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/ioga-terapeutic"
+        },
+        {
+          "@type": "MedicalTherapy",
           "name": "Nervi vague i teoria polivagal",
           "url": "https://www.walambcn.com/ca/osteopatia-nervi-vague-teoria-polivagal"
         },
@@ -243,6 +248,10 @@
           {
             "@type": "MedicalTherapy",
             "name": "PNIE"
+          },
+          {
+            "@type": "MedicalTherapy",
+            "name": "Ioga terapèutic"
           }
         ]
       },
