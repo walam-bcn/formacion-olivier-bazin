@@ -182,7 +182,6 @@ ASK = [
     "Wix: renombrar en el menú «Método Integrativo» como «Método re:trace» y sustituir su contenido por el de la página Programas re:trace, manteniendo la URL.",
     "Exportación de Search Console (Rendimiento › Consultas y Páginas, últimos 16 meses, en CSV) para saber qué búsquedas ya muestran WA LAM.",
     "Corregir en /curriculum la línea «Fisioterapeuta. Uni. EUG», porque no terminaste la carrera y es una profesión regulada.",
-    "Confirmar la fecha: «desde 1992» (portada de la web) o «desde 2004» (landings).",
 ]
 
 # Servicios que WA LAM ya ofrece y tienen poca visibilidad (detectados en su web) y prestaciones nuevas posibles
