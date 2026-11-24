@@ -506,3 +506,10 @@ SEO["suelo-pelvico-dolor-pelvico"].update({"kw": "suelo pélvico Barcelona", "kw
     "quick": "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), trabajamos la salud pélvica de la mujer con osteopatía urogenital de abordaje externo: dolor pélvico y menstrual, molestias urinarias, prolapso, embarazo, posparto y menopausia. Valoramos la pelvis en conjunto con la columna, el abdomen, el diafragma y la respiración."})
 URLS["suelo-pelvico-dolor-pelvico"] = "suelo-pelvico-barcelona"
 CA_SLUG["suelo-pelvico-dolor-pelvico"] = "sol-pelvia-barcelona"
+import json as _json
+from pathlib import Path as _Path
+for _a, _b in _json.loads((_Path(__file__).parent / "meno_fix.json").read_text()):
+    for _k in ("desc", "quick"):
+        SEO["salud-mujer-menopausia"][_k] = SEO["salud-mujer-menopausia"][_k].replace(_a, _b)
+SEO["salud-mujer-menopausia"].update({"kw": "menopausia Barcelona", "title": "Menopausia en Barcelona: sofocos, sueño y fuerza | WA LAM"})
+SEO["salud-mujer-menopausia"]["kws"] = ["perimenopausia Barcelona", "sofocos tratamiento natural", "menopausia acupuntura", "menopausia ejercicio de fuerza", "menopausia tratamiento integrativo Barcelona"]

@@ -2585,3 +2585,17 @@ for _p in PAGES:
 for _p in PAGES:
     if _p["slug"] in ("dolor-pelvico-barcelona", "ejercicios-suelo-pelvico") and not any(b.get("eyebrow") == "Para profesionales" for b in _p["blocks"]):
         _p["blocks"].append(uro_pro())
+
+# Menopausia (noviembre 2026): título directo y sin frases de complemento
+import json as _json
+from pathlib import Path as _Path
+_MENO = _json.loads((_Path(__file__).parent / "meno_fix.json").read_text())
+for _p in PAGES:
+    if _p["slug"] == "salud-mujer-menopausia":
+        _p["h1"] = "Menopausia en Barcelona"; _p["nav"] = "Menopausia"
+        def _mf(s):
+            for a, b in _MENO:
+                s = s.replace(a, b)
+            return s
+        from new_pages import _walk as _w2
+        _w2(_p, _mf)
