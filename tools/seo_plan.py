@@ -172,16 +172,16 @@ MEASURE = [
 GOAL = {"academia": "Inscripciones", "servicio": "Reservas y clics a WhatsApp", "motivo": "Clics a WhatsApp y primeras visitas", "home": "Clics a WhatsApp y visitas a Tratamientos"}
 
 ASK = [
-    "Wix: renombrar en el menú «Método Integrativo» como «Método re:trace» y sustituir su contenido por el de la página Programas re:trace, manteniendo la URL. En Medicina Integrativa, añadir el botón «Conoce el método re:trace».",
+    "Wix · H1 (comparativa SEO del 24/11/2026): la portada, Medicina integrativa, Bienestar y equilibrio interior, Salud cognitiva, Nutrición, Contacto, Sobre nosotros, Olivier Bazin – Formaciones y Magazín no tienen H1. Añade uno por página con el mismo texto que el H1 de su landing (por ejemplo, en la portada: «Medicina integrativa en Barcelona para cuidar tu salud física, mental y emocional»). No uses longevidad en el H1 de medicina integrativa.",
+    "Wix · H1 duplicados: Tratamientos (3 H1), Reserva, Acupuntura, Quiromasaje, Pranayama, la página de fisioterapia y el evento de Vacaciones con sentido tienen dos o más H1. Deja un solo H1 y convierte el resto en H2.",
+    "Wix · Blog: en los artículos sobre microbiota y alimentación (probióticos y prebióticos, ultraprocesados y microbiota, dieta mediterránea) añade un enlace a Nutrición y salud intestinal, y en los de intestino permeable y eje intestino-cerebro, a Salud digestiva y microbiota.",
+    "Wix · Primera cita: cambia su H1 por «Primera visita de medicina integrativa en Barcelona» y añade la duración (60 min) y el precio (90 €).",
+    "Wix: renombrar en el menú «Método Integrativo» como «Método re:trace» y sustituir su contenido por el de la página Programas re:trace, manteniendo la URL.",
     "Exportación de Search Console (Rendimiento › Consultas y Páginas, últimos 16 meses, en CSV) para saber qué búsquedas ya muestran WA LAM.",
     "El nombre exacto del centro de tu título de osteopatía D.O. y de la universidad de tu máster en medicina integrativa.",
     "Corregir en /curriculum la línea «Fisioterapeuta. Uni. EUG», porque no terminaste la carrera y es una profesión regulada.",
     "Desactivar en Wix la página de reserva de fisioterapia y redirigir su URL a Osteopatía.",
-    "El enlace o documento de la revisión de Monarka: no he encontrado esa clínica en búsquedas públicas.",
     "Acceso o capturas de la ficha de Google Business Profile.",
-    "Confirmar qué incluyen los cuidados postoperatorios además del drenaje, y qué cirugías atendéis.",
-    "Confirmar la primera consulta y el seguimiento de Pérdida de peso, y si ofreces TCC-I para el insomnio.",
-    "Decidir qué hacer con «Otras formaciones» del currículum y con las páginas de reserva de lenguaje no clínico.",
 ]
 
 # Servicios que WA LAM ya ofrece y tienen poca visibilidad (detectados en su web) y prestaciones nuevas posibles
