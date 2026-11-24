@@ -61,6 +61,7 @@ OUT.mkdir(exist_ok=True)
 BYSLUG = {p["slug"]: p for p in PAGES}
 # Ficha de Google (Wa Lam). Sustituir por el enlace «Compartir» de Google Maps cuando lo tengamos.
 MAPS_URL = "https://www.google.com/maps/search/?api=1&query=Wa%20Lam%2C%20Carrer%20del%20Bisbe%20Sivilla%2044%2C%2008022%20Barcelona"
+DIR_URL = "https://www.google.com/maps/dir/?api=1&destination=Wa%20Lam%2C%20Carrer%20del%20Bisbe%20Sivilla%2044%2C%2008022%20Barcelona"
 
 
 LINK_RE = re.compile(r"(?<!\[)\[([^\[\]]+)\]\(([A-Za-z0-9#:/._\-]+)\)")
@@ -409,7 +410,7 @@ h1,h2,h3,h4,.btn,.btn-tq,.faq summary,b,strong,.explain .txt b,.card h3,.step h3
 .ilist li{font-weight:400!important;position:relative;padding:5px 0 5px 22px!important}
 .ilist li::before{content:"";position:absolute;left:4px;top:15px;width:7px;height:7px;border-radius:50%;background:var(--tq)}
 .explain p.k{text-align:left!important}
-.hero-dna{background-color:#dcebf2!important;background-position:center!important;background-size:cover!important;color:var(--pet)}
+.cont .cbtns{justify-content:center;gap:12px;flex-wrap:wrap}.cont .btn-map{background:transparent;color:#fff;border:1px solid #fff}.cont .btn-map:hover{background:#fff;color:#222}.cont .gmb{margin:18px auto 0!important}.hero-dna{background-color:#dcebf2!important;background-position:center!important;background-size:cover!important;color:var(--pet)}
 .hero-dna h1,.hero-dna .hs,.hero-dna .lead,.hero-dna .eyebrow,.hero-dna .crumbs,.hero-dna .crumbs a{color:var(--pet)!important;text-shadow:0 0 18px rgba(255,255,255,.9)}
 .hero-dna .hcard{background:rgba(255,255,255,.72);border-color:rgba(29,63,64,.18)}
 .hero-dna .hcard .k,.hero-dna .hcard li{color:var(--pet)}
@@ -718,8 +719,8 @@ def contact(p):
 <h2>{fmt(p.get("cta", {}).get("h2") or tr("Estamos aquí para orientarte"))}</h2>
 <p>{fmt(p.get("cta", {}).get("p") or tr("Cuéntanos brevemente qué te ocurre o qué te interesa y te diremos con sinceridad si podemos ayudarte y con qué profesional."))}</p>
 <div class="datos"><span>📍 {fmt(SITE['address_short'])}</span><span>📧 {SITE['email']}</span><span>🕘 {tr(SITE['hours'])}</span></div>
-<p class="gmb"><a href="{MAPS_URL}" target="_blank" rel="noopener">{tr("Cómo llegar y opiniones en Google")} →</a></p>
-<a class="btn btn-tq" href="{wa(p['wa'])}" target="_blank" rel="noopener">{tr("Escríbenos por WhatsApp")}</a>
+<div class="btn-row cbtns"><a class="btn btn-tq" href="{wa(p['wa'])}" target="_blank" rel="noopener">{tr("Escríbenos por WhatsApp")}</a><a class="btn btn-map" href="{DIR_URL}" target="_blank" rel="noopener">📍 {tr("Cómo llegar")}</a></div>
+<p class="gmb"><a href="{MAPS_URL}" target="_blank" rel="noopener">{tr("Ver WA LAM en Google Maps y sus opiniones")} →</a></p>
 </div></section>
 <footer class="foot"><div class="wrap">WA LAM · {tr("Salud integrativa en Barcelona")} · Sarrià–Sant Gervasi · <a href="{url('')}">walambcn.com</a></div></footer>"""
 
