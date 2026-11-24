@@ -130,7 +130,7 @@ PAGES.append({
     "faq": [
         ("¿Es lo mismo que la medicina alternativa?", "No. La medicina alternativa se plantea como sustituta de la medicina convencional. La medicina integrativa la complementa y solo utiliza las terapias que disponen de respaldo científico."),
         ("¿Cuánto dura y cuánto cuesta la primera visita?", "Dura sesenta minutos y cuesta 90 €."),
-        ("¿Dónde está el centro?", "En la calle Bisbe Sivilla, 44, 08022 Barcelona, en el distrito de Sarrià–Sant Gervasi."),
+        ("¿Necesito un diagnóstico para venir?", "No. Puedes venir con un diagnóstico o simplemente porque notas que algo no va bien. En la primera visita revisamos tu historia y las pruebas que ya tengas y, si hace falta alguna más, te lo indicamos."),
     ],
     "related": [],
     "cta": {"h2": "Reserva tu primera visita", "p": "Escríbenos por WhatsApp y te orientamos sobre tu caso."},

@@ -220,10 +220,10 @@
         },
         {
           "@type": "Question",
-          "name": "On és el centre?",
+          "name": "Necessito un diagnòstic per venir?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Al carrer del Bisbe Sivilla, 44, 08022 Barcelona, al districte de Sarrià–Sant Gervasi."
+            "text": "No. Pots venir amb un diagnòstic o simplement perquè notes que alguna cosa no va bé. A la primera visita revisem la teva història i les proves que ja tinguis i, si cal alguna més, t'ho indiquem."
           }
         }
       ]

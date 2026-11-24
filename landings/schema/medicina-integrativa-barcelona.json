@@ -220,10 +220,10 @@
         },
         {
           "@type": "Question",
-          "name": "¿Dónde está el centro?",
+          "name": "¿Necesito un diagnóstico para venir?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "En la calle Bisbe Sivilla, 44, 08022 Barcelona, en el distrito de Sarrià–Sant Gervasi."
+            "text": "No. Puedes venir con un diagnóstico o simplemente porque notas que algo no va bien. En la primera visita revisamos tu historia y las pruebas que ya tengas y, si hace falta alguna más, te lo indicamos."
           }
         }
       ]
