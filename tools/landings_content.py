@@ -1330,7 +1330,7 @@ R["dumoulin"] = _r("Dumoulin C, Cacciari LP, Hay-Smith EJC, 2018. «Pelvic floor
 OB_URL = "https://www.walambcn.com/formacion-avanzada-internacional-osteopatia-urogenital-salud-pelvica"
 def uro_pro():
     return {"type": "explain", "eyebrow": "Para profesionales", "h2": "Formación en osteopatía urogenital con Olivier Bazin",
-            "paras": ["WA LAM organiza en Barcelona la formación internacional de Olivier Bazin, D.O., en manipulaciones urogenitales y trastornos pélvicos femeninos, con abordaje externo. Está dirigida a osteópatas y terapeutas manuales. [Ver programa y fechas](" + OB_URL + ")."]}
+            "paras": ["WA LAM organiza en Barcelona la formación internacional de Olivier Bazin, D.O., en manipulaciones urogenitales y trastornos pélvicos femeninos, con abordaje externo. Está dirigida a osteópatas, fisioterapeutas, médicos, matronas y especialistas en suelo pélvico. [Ver programa y fechas](" + OB_URL + ")."]}
 UG_NOTE = "En WA LAM el abordaje es siempre externo y se dirige a mujeres."
 
 def uro_page(slug, nav, card, title, desc, about, h1, sub, lead, facts, wa, mirror_h2, qs, close, ex1_h2, ex1, ex2_h2, ex2, ev, refs, faq, related, cta_h2):
@@ -2604,7 +2604,8 @@ for _p in PAGES:
 OLIVIER_PAGES = ["suelo-pelvico-dolor-pelvico", "dolor-pelvico-barcelona", "ejercicios-suelo-pelvico", "neuralgia-pudendo", "dolor-menstrual-endometriosis",
                  "dispareunia-dolor-relaciones", "dolor-coxis-coccigodinia", "cistitis-repeticion-vejiga-dolorosa", "osteopatia-embarazo-posparto",
                  "incontinencia-urinaria-esfuerzo", "prolapso-organos-pelvicos", "salud-mujer-menopausia", "sindrome-ovario-poliquistico",
-                 "candidiasis-vaginal-repeticion", "acompanamiento-fertilidad", "manipulaciones-neuroviscerales", "osteopatia-visceral-barcelona"]
+                 "candidiasis-vaginal-repeticion", "acompanamiento-fertilidad", "manipulaciones-neuroviscerales", "osteopatia-visceral-barcelona",
+                 "osteopatia-sarria-sant-gervasi", "osteopatia-craneosacral-barcelona", "nervio-vago"]
 for _p in PAGES:
     if _p["slug"] in OLIVIER_PAGES:
         _p["blocks"] = [b for b in _p["blocks"] if b.get("h2") != "Para profesionales" and b.get("eyebrow") != "Para profesionales"]
