@@ -89,7 +89,7 @@
         },
         {
           "@type": "MedicalTherapy",
-          "name": "Manipulacions neuroviscerals",
+          "name": "Manipulació neural i neurovisceral",
           "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/manipulacions-neuroviscerals"
         },
         {
@@ -180,8 +180,8 @@
       "@type": "MedicalWebPage",
       "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/osteopatia-visceral-barcelona#webpage",
       "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/osteopatia-visceral-barcelona",
-      "name": "Osteopatia visceral a Barcelona · Sarrià | WA LAM",
-      "description": "Osteopatia visceral a Sarrià–Sant Gervasi, Barcelona: abdomen, diafragma, pelvis i cicatrius. Rosa María Rodríguez Valls, formada al Barral Institute.",
+      "name": "Osteopatia visceral (mètode Barral) a Barcelona | WA LAM",
+      "description": "Osteopatia visceral del mètode Barral a Sarrià–Sant Gervasi, Barcelona: mobilitat dels òrgans, fàscies, cicatrius i la seva relació amb la columna.",
       "inLanguage": "ca-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -196,7 +196,7 @@
       },
       "lastReviewed": "2026-11-18",
       "dateModified": "2026-11-18",
-      "keywords": "osteopatia visceral Barcelona, osteòpata visceral Sant Gervasi, osteopatia visceral Sarrià, manipulació visceral Barral Barcelona, osteopatia abdominal",
+      "keywords": "osteopatia visceral Barcelona, manipulación visceral Barral, osteópata visceral Sarrià, osteopatía visceral estreñimiento, osteopatía visceral colon irritable, adherencias cicatriz osteopatía",
       "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/osteopatia-visceral-barcelona.png",
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -218,21 +218,33 @@
       },
       "about": {
         "@type": "MedicalTherapy",
-        "name": "Osteopatia visceral"
+        "name": "Osteopatía visceral (manipulación visceral de Barral)"
       },
       "citation": [
         {
           "@type": "ScholarlyArticle",
-          "name": "Reliability of diagnosis and clinical efficacy of visceral osteopathy: a systematic review",
-          "url": "https://doi.org/10.1186/s12906-018-2098-8",
-          "sameAs": "https://doi.org/10.1186/s12906-018-2098-8"
+          "name": "Treatment of refractory irritable bowel syndrome with visceral osteopathy: Short-term and long-term results of a randomized trial",
+          "url": "https://doi.org/10.1111/1751-2980.12098",
+          "sameAs": "https://doi.org/10.1111/1751-2980.12098"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Evaluation of effectiveness of osteopathic visceral manipulation in patients with chronic mechanical low back pain: A multi-center, single-blind, randomized-controlled study",
+          "url": "https://doi.org/10.5606/tftrd.2023.12541",
+          "sameAs": "https://doi.org/10.5606/tftrd.2023.12541"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Effectiveness of Osteopathic Manipulative Treatment in Adults with Irritable Bowel Syndrome: A Systematic Review and Meta-Analysis",
+          "url": "https://doi.org/10.3390/healthcare11172442",
+          "sameAs": "https://doi.org/10.3390/healthcare11172442"
         }
       ]
     },
     {
       "@type": "Service",
       "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/osteopatia-visceral-barcelona#servicio",
-      "name": "Osteopatia visceral a Barcelona",
+      "name": "Osteopatia visceral (mètode Barral) a Barcelona",
       "serviceType": "Osteopatia visceral",
       "provider": {
         "@id": "https://www.walambcn.com/#clinica"
@@ -268,7 +280,7 @@
         }
       ],
       "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/osteopatia-visceral-barcelona",
-      "description": "Osteopatia visceral a Sarrià–Sant Gervasi, Barcelona: abdomen, diafragma, pelvis i cicatrius. Rosa María Rodríguez Valls, formada al Barral Institute."
+      "description": "Osteopatia visceral del mètode Barral a Sarrià–Sant Gervasi, Barcelona: mobilitat dels òrgans, fàscies, cicatrius i la seva relació amb la columna."
     },
     {
       "@type": "FAQPage",
@@ -279,15 +291,39 @@
           "name": "Fa mal l'osteopatia visceral?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No sol fer mal. Són tècniques suaus; algunes zones poden estar més sensibles."
+            "text": "No acostuma a fer mal. Les tècniques són suaus i s'adapten a la sensibilitat de cada zona. Algunes àrees es poden notar més sensibles durant la sessió."
           }
         },
         {
           "@type": "Question",
-          "name": "Serveix per al còlon irritable?",
+          "name": "Qui va ser Jean-Pierre Barral?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Pot ajudar algunes persones a sentir menys tensió abdominal, però no hi ha evidència sòlida que tracti el còlon irritable. Ho combinem amb la salut digestiva i l'alimentació."
+            "text": "És un osteòpata i fisioterapeuta francès, creador de la manipulació visceral. Va desenvolupar el mètode a partir de la seva feina en un hospital de Grenoble i dels seus estudis d'anatomia; avui s'ensenya a tot el món a través del Barral Institute."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Pot ajudar amb el còlon irritable o el restrenyiment?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Els estudis en la síndrome de l'intestí irritable mostren millores del dolor i la distensió abdominal. Ho integrem amb l'alimentació i la salut digestiva, segons el seu cas."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quantes sessions necessitaré?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Depèn del motiu de consulta i de la seva evolució. Després de la primera sessió l'orientem sobre la freqüència; sovint s'espaien una o dues setmanes per observar la resposta del cos."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quina diferència hi ha amb la manipulació neural?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "L'osteopatia visceral se centra en els òrgans, les seves fàscies i els seus lligaments; la manipulació neural i neurovisceral, en els nervis i les meninges. Totes dues formen part del mètode Barral i sovint es combinen."
           }
         }
       ]

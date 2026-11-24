@@ -89,7 +89,7 @@
         },
         {
           "@type": "MedicalTherapy",
-          "name": "Manipulaciones neuroviscerales",
+          "name": "Manipulación neural y neurovisceral",
           "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/manipulaciones-neuroviscerales"
         },
         {
@@ -171,7 +171,7 @@
         {
           "@type": "ListItem",
           "position": 3,
-          "name": "Manipulaciones neuroviscerales",
+          "name": "Manipulación neural y neurovisceral",
           "item": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/manipulaciones-neuroviscerales"
         }
       ]
@@ -180,8 +180,8 @@
       "@type": "MedicalWebPage",
       "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/manipulaciones-neuroviscerales#webpage",
       "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/manipulaciones-neuroviscerales",
-      "name": "Manipulaciones neuroviscerales en Barcelona | WA LAM",
-      "description": "Manipulaciones neuroviscerales en Sarrià–Sant Gervasi: osteopatía sobre los nervios del tórax, el abdomen y la pelvis. Formación Barral y Olivier Bazin.",
+      "name": "Manipulación neural y neurovisceral en Barcelona | WA LAM",
+      "description": "Manipulación neural y neurovisceral del método Barral en Sarrià–Sant Gervasi, Barcelona: nervios, meninges, columna, traumatismos y latigazo cervical.",
       "inLanguage": "es-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -196,7 +196,7 @@
       },
       "lastReviewed": "2026-11-18",
       "dateModified": "2026-11-18",
-      "keywords": "manipulaciones neuroviscerales, osteopatía neurovisceral Barcelona, manipulación neural Barral, nervio vago osteopatía, Olivier Bazin neurovisceral",
+      "keywords": "manipulación neural Barcelona, manipulaciones neuroviscerales Barcelona, manipulación neural Barral, osteopatía latigazo cervical, osteopatía nervio vago, osteópata Sarrià–Sant Gervasi",
       "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/manipulaciones-neuroviscerales.png",
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -218,22 +218,28 @@
       },
       "about": {
         "@type": "MedicalTherapy",
-        "name": "Manipulaciones neuroviscerales"
+        "name": "Manipulación neural y neurovisceral (método Barral)"
       },
       "citation": [
         {
           "@type": "ScholarlyArticle",
-          "name": "Reliability of diagnosis and clinical efficacy of visceral osteopathy: a systematic review",
-          "url": "https://doi.org/10.1186/s12906-018-2098-8",
-          "sameAs": "https://doi.org/10.1186/s12906-018-2098-8"
+          "name": "The Effectiveness of Neural Mobilization for Neuromusculoskeletal Conditions: A Systematic Review and Meta-analysis",
+          "url": "https://doi.org/10.2519/jospt.2017.7117",
+          "sameAs": "https://doi.org/10.2519/jospt.2017.7117"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Evaluation of effectiveness of osteopathic visceral manipulation in patients with chronic mechanical low back pain: A multi-center, single-blind, randomized-controlled study",
+          "url": "https://doi.org/10.5606/tftrd.2023.12541",
+          "sameAs": "https://doi.org/10.5606/tftrd.2023.12541"
         }
       ]
     },
     {
       "@type": "Service",
       "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/manipulaciones-neuroviscerales#servicio",
-      "name": "Manipulaciones neuroviscerales",
-      "serviceType": "Manipulaciones neuroviscerales",
+      "name": "Manipulación neural y neurovisceral (método Barral) en Barcelona",
+      "serviceType": "Manipulación neural y neurovisceral",
       "provider": {
         "@id": "https://www.walambcn.com/#clinica"
       },
@@ -268,7 +274,7 @@
         }
       ],
       "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/manipulaciones-neuroviscerales",
-      "description": "Manipulaciones neuroviscerales en Sarrià–Sant Gervasi: osteopatía sobre los nervios del tórax, el abdomen y la pelvis. Formación Barral y Olivier Bazin."
+      "description": "Manipulación neural y neurovisceral del método Barral en Sarrià–Sant Gervasi, Barcelona: nervios, meninges, columna, traumatismos y latigazo cervical."
     },
     {
       "@type": "FAQPage",
@@ -279,15 +285,39 @@
           "name": "¿Es lo mismo que la osteopatía visceral?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. La visceral trabaja sobre los órganos y sus fascias; la neurovisceral, sobre los nervios que conectan con ellos. Suelen combinarse."
+            "text": "No. La osteopatía visceral trabaja sobre los órganos y sus fascias; la manipulación neural, sobre los nervios y las meninges. Las dos forman parte del método Barral y suelen combinarse."
           }
         },
         {
           "@type": "Question",
-          "name": "Soy profesional, ¿dónde puedo aprenderlo?",
+          "name": "¿Puede ayudar después de un latigazo cervical?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "En la formación de Olivier Bazin que organizamos en Barcelona."
+            "text": "Es uno de los ámbitos en los que más se aplica. Antes descartamos signos de alarma y, si hace falta, le pedimos que consulte con su médico. Después valoramos la columna, el cráneo, los nervios y las meninges."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Duele la manipulación neural?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No suele doler. Las técnicas son muy suaves; algunos puntos del recorrido de un nervio pueden notarse sensibles al palparlos."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué relación tiene con el nervio vago?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "El nervio vago conecta el encéfalo con el corazón, los pulmones y el aparato digestivo. La vertiente neurovisceral lo valora a lo largo de su recorrido, junto con el diafragma y los demás nervios de los órganos."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuántas sesiones necesitaré?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Depende de su caso y de cómo responda. Tras la primera sesión le orientamos sobre la frecuencia; a menudo se espacian una o dos semanas."
           }
         }
       ]

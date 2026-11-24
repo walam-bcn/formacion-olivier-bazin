@@ -89,7 +89,7 @@
         },
         {
           "@type": "MedicalTherapy",
-          "name": "Manipulacions neuroviscerals",
+          "name": "Manipulació neural i neurovisceral",
           "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/manipulacions-neuroviscerals"
         },
         {
@@ -171,7 +171,7 @@
         {
           "@type": "ListItem",
           "position": 3,
-          "name": "Manipulacions neuroviscerals",
+          "name": "Manipulació neural i neurovisceral",
           "item": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/manipulacions-neuroviscerals"
         }
       ]
@@ -180,8 +180,8 @@
       "@type": "MedicalWebPage",
       "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/manipulacions-neuroviscerals#webpage",
       "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/manipulacions-neuroviscerals",
-      "name": "Manipulacions neuroviscerals a Barcelona | WA LAM",
-      "description": "Manipulacions neuroviscerals a Sarrià–Sant Gervasi: osteopatia sobre els nervis del tòrax, l'abdomen i la pelvis. Formació Barral i Olivier Bazin.",
+      "name": "Manipulació neural i neurovisceral a Barcelona | WA LAM",
+      "description": "Manipulació neural i neurovisceral del mètode Barral a Sarrià–Sant Gervasi, Barcelona: nervis, meninges, columna, traumatismes i cop de fuet cervical.",
       "inLanguage": "ca-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -196,7 +196,7 @@
       },
       "lastReviewed": "2026-11-18",
       "dateModified": "2026-11-18",
-      "keywords": "manipulacions neuroviscerals, osteopatia neurovisceral Barcelona, manipulació neural Barral, nervi vague osteopatia, Olivier Bazin neurovisceral",
+      "keywords": "manipulación neural Barcelona, manipulaciones neuroviscerales Barcelona, manipulació neural Barral, osteopatía latigazo cervical, osteopatía nervio vago, osteópata Sarrià–Sant Gervasi",
       "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/manipulaciones-neuroviscerales.png",
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -218,22 +218,28 @@
       },
       "about": {
         "@type": "MedicalTherapy",
-        "name": "Manipulacions neuroviscerals"
+        "name": "Manipulación neural y neurovisceral (método Barral)"
       },
       "citation": [
         {
           "@type": "ScholarlyArticle",
-          "name": "Reliability of diagnosis and clinical efficacy of visceral osteopathy: a systematic review",
-          "url": "https://doi.org/10.1186/s12906-018-2098-8",
-          "sameAs": "https://doi.org/10.1186/s12906-018-2098-8"
+          "name": "The Effectiveness of Neural Mobilization for Neuromusculoskeletal Conditions: A Systematic Review and Meta-analysis",
+          "url": "https://doi.org/10.2519/jospt.2017.7117",
+          "sameAs": "https://doi.org/10.2519/jospt.2017.7117"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Evaluation of effectiveness of osteopathic visceral manipulation in patients with chronic mechanical low back pain: A multi-center, single-blind, randomized-controlled study",
+          "url": "https://doi.org/10.5606/tftrd.2023.12541",
+          "sameAs": "https://doi.org/10.5606/tftrd.2023.12541"
         }
       ]
     },
     {
       "@type": "Service",
       "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/manipulacions-neuroviscerals#servicio",
-      "name": "Manipulacions neuroviscerals",
-      "serviceType": "Manipulacions neuroviscerals",
+      "name": "Manipulació neural i neurovisceral (mètode Barral) a Barcelona",
+      "serviceType": "Manipulació neural i neurovisceral",
       "provider": {
         "@id": "https://www.walambcn.com/#clinica"
       },
@@ -268,7 +274,7 @@
         }
       ],
       "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/manipulacions-neuroviscerals",
-      "description": "Manipulacions neuroviscerals a Sarrià–Sant Gervasi: osteopatia sobre els nervis del tòrax, l'abdomen i la pelvis. Formació Barral i Olivier Bazin."
+      "description": "Manipulació neural i neurovisceral del mètode Barral a Sarrià–Sant Gervasi, Barcelona: nervis, meninges, columna, traumatismes i cop de fuet cervical."
     },
     {
       "@type": "FAQPage",
@@ -279,15 +285,39 @@
           "name": "És el mateix que l'osteopatia visceral?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. La visceral treballa sobre els òrgans i les seves fàscies; la neurovisceral, sobre els nervis que hi connecten. Se solen combinar."
+            "text": "No. L'osteopatia visceral treballa sobre els òrgans i les seves fàscies; la manipulació neural, sobre els nervis i les meninges. Totes dues formen part del mètode Barral i sovint es combinen."
           }
         },
         {
           "@type": "Question",
-          "name": "Soc professional, on ho puc aprendre?",
+          "name": "Pot ajudar després d'un cop de fuet cervical?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "A la formació d'Olivier Bazin que organitzem a Barcelona."
+            "text": "És un dels àmbits en què més s'aplica. Abans descartem signes d'alarma i, si cal, li demanem que consulti el seu metge. Després valorem la columna, el crani, els nervis i les meninges."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Fa mal la manipulació neural?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No acostuma a fer mal. Les tècniques són molt suaus; alguns punts del recorregut d'un nervi es poden notar sensibles en palpar-los."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quina relació té amb el nervi vague?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "El nervi vague connecta l'encèfal amb el cor, els pulmons i l'aparell digestiu. La vessant neurovisceral el valora al llarg del seu recorregut, juntament amb el diafragma i els altres nervis dels òrgans."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quantes sessions necessitaré?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Depèn del seu cas i de com respongui. Després de la primera sessió l'orientem sobre la freqüència; sovint s'espaien una o dues setmanes."
           }
         }
       ]
