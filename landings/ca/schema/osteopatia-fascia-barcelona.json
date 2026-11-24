@@ -1,0 +1,347 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": [
+        "MedicalClinic",
+        "MedicalBusiness"
+      ],
+      "@id": "https://www.walambcn.com/#clinica",
+      "name": "WA LAM",
+      "alternateName": "Wa Lam · Medicina integrativa",
+      "hasMap": "https://www.google.com/maps/search/?api=1&query=Wa%20Lam%2C%20Carrer%20del%20Bisbe%20Sivilla%2044%2C%2008022%20Barcelona",
+      "url": "https://www.walambcn.com",
+      "telephone": "+34675716409",
+      "email": "contacto@walambcn.com",
+      "image": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/medicina-integrativa-barcelona.png",
+      "priceRange": "€€",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Carrer del Bisbe Sivilla, 44, local",
+        "postalCode": "08022",
+        "addressLocality": "Barcelona",
+        "addressRegion": "Cataluña",
+        "addressCountry": "ES"
+      },
+      "openingHours": [
+        "Mo-Fr 09:00-21:00"
+      ],
+      "founder": {
+        "@type": "Person",
+        "name": "Rosa María Rodríguez Valls",
+        "url": "https://www.walambcn.com/curriculum"
+      },
+      "foundingDate": "2004",
+      "areaServed": [
+        {
+          "@type": "Place",
+          "name": "Sarrià, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Sant Gervasi–Galvany, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Sant Gervasi–la Bonanova, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "les Tres Torres, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "el Putxet i el Farró, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Vallvidrera, el Tibidabo i les Planes, Barcelona"
+        },
+        {
+          "@type": "City",
+          "name": "Barcelona"
+        }
+      ],
+      "medicalSpecialty": [
+        "Physiotherapy",
+        "Musculoskeletal"
+      ],
+      "availableService": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Programes re:trace",
+          "url": "https://www.walambcn.com/ca/programes-re-trace"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Osteopatia",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/osteopatia-sarria-sant-gervasi"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Osteopatia visceral",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/osteopatia-visceral-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Osteopatia craniosacral",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/osteopatia-craniosacral-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Manipulació neural i neurovisceral",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/manipulacions-neuroviscerals"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Pèrdua de pes",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/perdua-de-pes"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Deixar de fumar amb acupuntura",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/acupuntura-deixar-de-fumar"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Acupuntura i medicina tradicional xinesa",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/acupuntura-medicina-tradicional-xinesa"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "PNIE",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/pni-pnie-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Nutrició i salut intestinal",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/nutricio-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Drenatge limfàtic manual",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/drenatge-limfatic-manual"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Drenatge limfàtic en l'embaràs",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/drenatge-limfatic-embaras"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Drenatge limfàtic manual postoperatori",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/drenatge-limfatic-postoperatori"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Drenatge limfàtic per al limfedema",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/drenatge-limfatic-limfedema"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Massatges",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/massatges-sarria-sant-gervasi"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Reflexologia podal",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/reflexologia-podal"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Nervi vague i teoria polivagal",
+          "url": "https://www.walambcn.com/ca/osteopatia-nervi-vague-teoria-polivagal"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Fàscia i alliberament miofascial",
+          "url": "https://www.walambcn.com/ca/osteopatia-fascia-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Osteopatia i trauma",
+          "url": "https://www.walambcn.com/ca/osteopatia-trauma"
+        }
+      ],
+      "sameAs": [
+        "https://www.google.com/maps/search/?api=1&query=Wa%20Lam%2C%20Carrer%20del%20Bisbe%20Sivilla%2044%2C%2008022%20Barcelona"
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.walambcn.com/ca/osteopatia-fascia-barcelona#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Inicio",
+          "item": "https://www.walambcn.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Serveis i teràpies",
+          "item": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Fàscia i alliberament miofascial",
+          "item": "https://www.walambcn.com/ca/osteopatia-fascia-barcelona"
+        }
+      ]
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.walambcn.com/ca/osteopatia-fascia-barcelona#webpage",
+      "url": "https://www.walambcn.com/ca/osteopatia-fascia-barcelona",
+      "name": "Alliberament miofascial i osteopatia a Barcelona | WA LAM",
+      "description": "Osteopatia fascial i alliberament miofascial a Sarrià–Sant Gervasi, Barcelona: què és la fàscia, per què pot fer mal i com és una sessió de tractament.",
+      "inLanguage": "ca-ES",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "WA LAM",
+        "url": "https://www.walambcn.com"
+      },
+      "breadcrumb": {
+        "@id": "https://www.walambcn.com/ca/osteopatia-fascia-barcelona#breadcrumb"
+      },
+      "publisher": {
+        "@id": "https://www.walambcn.com/#clinica"
+      },
+      "lastReviewed": "2026-11-18",
+      "dateModified": "2026-11-18",
+      "keywords": "liberación miofascial Barcelona, osteopatía fascial, osteopatía fascias, liberación miofascial Barcelona, liberación miofascial cerca de mí, fascia dolor",
+      "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/osteopatia-fascia-barcelona.png",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".quick p",
+          "h1"
+        ]
+      },
+      "audience": {
+        "@type": "Patient"
+      },
+      "reviewedBy": {
+        "@type": "Person",
+        "name": "Rosa María Rodríguez Valls",
+        "jobTitle": "Osteópata D.O. y máster en medicina integrativa",
+        "worksFor": {
+          "@id": "https://www.walambcn.com/#clinica"
+        }
+      },
+      "about": {
+        "@type": "MedicalTherapy",
+        "name": "Alliberament miofascial"
+      },
+      "citation": [
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Effectiveness of myofascial release: Systematic review of randomized controlled trials",
+          "url": "https://doi.org/10.1016/j.jbmt.2014.06.001",
+          "sameAs": "https://doi.org/10.1016/j.jbmt.2014.06.001"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Effects of Myofascial Release in Nonspecific Chronic Low Back Pain: A Randomized Clinical Trial",
+          "url": "https://doi.org/10.1097/BRS.0000000000001897",
+          "sameAs": "https://doi.org/10.1097/BRS.0000000000001897"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Reduced thoracolumbar fascia shear strain in human chronic low back pain",
+          "url": "https://doi.org/10.1186/1471-2474-12-203",
+          "sameAs": "https://doi.org/10.1186/1471-2474-12-203"
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.walambcn.com/ca/osteopatia-fascia-barcelona#servicio",
+      "name": "Osteopatia i alliberament miofascial a Barcelona",
+      "serviceType": "Fàscia i alliberament miofascial",
+      "provider": {
+        "@id": "https://www.walambcn.com/#clinica"
+      },
+      "areaServed": [
+        {
+          "@type": "Place",
+          "name": "Sarrià, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Sant Gervasi–Galvany, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Sant Gervasi–la Bonanova, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "les Tres Torres, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "el Putxet i el Farró, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Vallvidrera, el Tibidabo i les Planes, Barcelona"
+        },
+        {
+          "@type": "City",
+          "name": "Barcelona"
+        }
+      ],
+      "url": "https://www.walambcn.com/ca/osteopatia-fascia-barcelona",
+      "description": "Osteopatia fascial i alliberament miofascial a Sarrià–Sant Gervasi, Barcelona: què és la fàscia, per què pot fer mal i com és una sessió de tractament."
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.walambcn.com/ca/osteopatia-fascia-barcelona#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Fa mal l'alliberament miofascial?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "En general és una tècnica suau i ben tolerada. Pot notar una pressió intensa a les zones més tenses, però la intensitat s'adapta sempre a la seva sensibilitat. Després pot aparèixer una lleu molèstia que sol desaparèixer en un o dos dies."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quina diferència hi ha entre l'alliberament miofascial i un massatge?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "El massatge treballa sobretot el múscul amb maniobres de pastatge i fricció. L'alliberament miofascial aplica pressions mantingudes i estiraments lents que segueixen la resposta de la fàscia, i s'integra en una valoració osteopàtica global."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Per què la fàscia pot produir dolor?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Perquè és un teixit ricament innervat. Quan perd la capacitat de lliscar per la inactivitat, la sobrecàrrega, una lesió o una cicatriu, pot generar tensió, rigidesa i dolor, de vegades lluny del lloc d'origen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Puc treballar la fàscia a casa?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. El moviment regular, els estiraments suaus i l'ús d'un corró d'escuma ajuden a mantenir la fàscia flexible. A la consulta li indiquem els exercicis més adequats per al seu cas."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quantes sessions calen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Depèn de la causa i del temps d'evolució. Moltes persones noten canvis en les primeres sessions; després de la primera visita li proposem un pla adaptat."
+          }
+        }
+      ]
+    }
+  ]
+}

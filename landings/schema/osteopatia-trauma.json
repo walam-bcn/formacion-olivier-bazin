@@ -1,0 +1,347 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": [
+        "MedicalClinic",
+        "MedicalBusiness"
+      ],
+      "@id": "https://www.walambcn.com/#clinica",
+      "name": "WA LAM",
+      "alternateName": "Wa Lam · Medicina integrativa",
+      "hasMap": "https://www.google.com/maps/search/?api=1&query=Wa%20Lam%2C%20Carrer%20del%20Bisbe%20Sivilla%2044%2C%2008022%20Barcelona",
+      "url": "https://www.walambcn.com",
+      "telephone": "+34675716409",
+      "email": "contacto@walambcn.com",
+      "image": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/medicina-integrativa-barcelona.png",
+      "priceRange": "€€",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Carrer del Bisbe Sivilla, 44, local",
+        "postalCode": "08022",
+        "addressLocality": "Barcelona",
+        "addressRegion": "Cataluña",
+        "addressCountry": "ES"
+      },
+      "openingHours": [
+        "Mo-Fr 09:00-21:00"
+      ],
+      "founder": {
+        "@type": "Person",
+        "name": "Rosa María Rodríguez Valls",
+        "url": "https://www.walambcn.com/curriculum"
+      },
+      "foundingDate": "2004",
+      "areaServed": [
+        {
+          "@type": "Place",
+          "name": "Sarrià, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Sant Gervasi–Galvany, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Sant Gervasi–la Bonanova, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "les Tres Torres, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "el Putxet i el Farró, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Vallvidrera, el Tibidabo i les Planes, Barcelona"
+        },
+        {
+          "@type": "City",
+          "name": "Barcelona"
+        }
+      ],
+      "medicalSpecialty": [
+        "Physiotherapy",
+        "Musculoskeletal"
+      ],
+      "availableService": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Programas re:trace",
+          "url": "https://www.walambcn.com/metodo-integrativo-sarri%C3%A0-sant-gervasi-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Osteopatía",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/osteopatia-sarria-sant-gervasi"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Osteopatía visceral",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/osteopatia-visceral-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Osteopatía craneosacral",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/osteopatia-craneosacral-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Manipulación neural y neurovisceral",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/manipulaciones-neuroviscerales"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Pérdida de peso",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/perdida-de-peso"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Dejar de fumar con acupuntura",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/acupuntura-dejar-de-fumar"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Acupuntura y medicina tradicional china",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/acupuntura-medicina-tradicional-china"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "PNIE",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/pni-pnie-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Nutrición y salud intestinal",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/nutricion-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Drenaje linfático manual",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/drenaje-linfatico-manual"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Drenaje linfático en el embarazo",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/drenaje-linfatico-embarazo"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Drenaje linfático manual postoperatorio",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/drenaje-linfatico-postoperatorio"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Drenaje linfático para linfedema",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/drenaje-linfatico-linfedema"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Masajes",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/masajes-sarria-sant-gervasi"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Reflexología podal",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/reflexologia-podal"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Nervio vago y teoría polivagal",
+          "url": "https://www.walambcn.com/osteopatia-nervio-vago-teoria-polivagal"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Fascia y liberación miofascial",
+          "url": "https://www.walambcn.com/osteopatia-fascia-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Osteopatía y trauma",
+          "url": "https://www.walambcn.com/osteopatia-trauma"
+        }
+      ],
+      "sameAs": [
+        "https://www.google.com/maps/search/?api=1&query=Wa%20Lam%2C%20Carrer%20del%20Bisbe%20Sivilla%2044%2C%2008022%20Barcelona"
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.walambcn.com/osteopatia-trauma#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Inicio",
+          "item": "https://www.walambcn.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Servicios y terapias",
+          "item": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Osteopatía y trauma",
+          "item": "https://www.walambcn.com/osteopatia-trauma"
+        }
+      ]
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.walambcn.com/osteopatia-trauma#webpage",
+      "url": "https://www.walambcn.com/osteopatia-trauma",
+      "name": "Osteopatía y trauma en Barcelona | WA LAM",
+      "description": "Osteopatía y trauma en Sarrià–Sant Gervasi, Barcelona: secuelas de accidentes, caídas y latigazo cervical, y del trauma emocional, con un abordaje corporal.",
+      "inLanguage": "es-ES",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "WA LAM",
+        "url": "https://www.walambcn.com"
+      },
+      "breadcrumb": {
+        "@id": "https://www.walambcn.com/osteopatia-trauma#breadcrumb"
+      },
+      "publisher": {
+        "@id": "https://www.walambcn.com/#clinica"
+      },
+      "lastReviewed": "2026-11-18",
+      "dateModified": "2026-11-18",
+      "keywords": "osteopatía trauma Barcelona, osteopatía trauma, latigazo cervical osteopatía, osteopatía después de un accidente, trauma emocional síntomas, efectos del trauma en el cuerpo, osteopatía trauma emocional, trauma y cuerpo, memoria corporal trauma",
+      "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/osteopatia-trauma.png",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".quick p",
+          "h1"
+        ]
+      },
+      "audience": {
+        "@type": "Patient"
+      },
+      "reviewedBy": {
+        "@type": "Person",
+        "name": "Rosa María Rodríguez Valls",
+        "jobTitle": "Osteópata D.O. y máster en medicina integrativa",
+        "worksFor": {
+          "@id": "https://www.walambcn.com/#clinica"
+        }
+      },
+      "about": {
+        "@type": "MedicalTherapy",
+        "name": "Osteopatía en el trauma físico y emocional"
+      },
+      "citation": [
+        {
+          "@type": "ScholarlyArticle",
+          "name": "The Burden and Determinants of Neck Pain in Whiplash-Associated Disorders After Traffic Collisions: Results of the Bone and Joint Decade 2000–2010 Task Force on Neck Pain and Its Associated Disorders",
+          "url": "https://doi.org/10.1097/BRS.0b013e3181643ece",
+          "sameAs": "https://doi.org/10.1097/BRS.0b013e3181643ece"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Psychological Trauma and Functional Somatic Syndromes: A Systematic Review and Meta-Analysis",
+          "url": "https://doi.org/10.1097/PSY.0000000000000010",
+          "sameAs": "https://doi.org/10.1097/PSY.0000000000000010"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "The brain-body disconnect: A somatic sensory basis for trauma-related disorders",
+          "url": "https://doi.org/10.3389/fnins.2022.1015749",
+          "sameAs": "https://doi.org/10.3389/fnins.2022.1015749"
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.walambcn.com/osteopatia-trauma#servicio",
+      "name": "Osteopatía y trauma: un abordaje corporal del trauma físico y emocional",
+      "serviceType": "Osteopatía y trauma",
+      "provider": {
+        "@id": "https://www.walambcn.com/#clinica"
+      },
+      "areaServed": [
+        {
+          "@type": "Place",
+          "name": "Sarrià, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Sant Gervasi–Galvany, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Sant Gervasi–la Bonanova, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "les Tres Torres, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "el Putxet i el Farró, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Vallvidrera, el Tibidabo i les Planes, Barcelona"
+        },
+        {
+          "@type": "City",
+          "name": "Barcelona"
+        }
+      ],
+      "url": "https://www.walambcn.com/osteopatia-trauma",
+      "description": "Osteopatía y trauma en Sarrià–Sant Gervasi, Barcelona: secuelas de accidentes, caídas y latigazo cervical, y del trauma emocional, con un abordaje corporal."
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.walambcn.com/osteopatia-trauma#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Cuándo puedo acudir a osteopatía después de un accidente?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Una vez descartadas en urgencias o por su médico las lesiones que requieren atención inmediata, como fracturas o lesiones neurológicas. En la fase inicial se utilizan técnicas muy suaves, que se adaptan a medida que el dolor disminuye."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué puede hacer la osteopatía tras un latigazo cervical?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Valorar el cuello, la base del cráneo, la mandíbula, el tórax y las zonas por las que se transmitió el impacto, y tratar con técnicas suaves las que han perdido movilidad, junto con ejercicios progresivos para casa."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Puede el cuerpo guardar memoria de un trauma?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Según Barral, el cuerpo posee una gran memoria, y los choques físicos o emocionales pueden dejar huellas que se manifiestan tiempo después. La investigación muestra que el trauma influye en la forma en que se perciben las sensaciones corporales y se asocia a más molestias físicas persistentes."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Tengo que hablar de lo que me ocurrió?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Puede compartir lo que desee y cuando lo desee. La sesión se centra en cómo se siente su cuerpo hoy y en sus molestias actuales."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué ocurre si me emociono durante la sesión?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Es una reacción natural y se acoge con respeto. Podemos hacer una pausa, cambiar de técnica o terminar la sesión; usted decide en todo momento."
+          }
+        }
+      ]
+    }
+  ]
+}

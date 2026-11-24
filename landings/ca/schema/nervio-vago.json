@@ -146,6 +146,21 @@
           "@type": "MedicalTherapy",
           "name": "Reflexologia podal",
           "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/reflexologia-podal"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Nervi vague i teoria polivagal",
+          "url": "https://www.walambcn.com/ca/osteopatia-nervi-vague-teoria-polivagal"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Fàscia i alliberament miofascial",
+          "url": "https://www.walambcn.com/ca/osteopatia-fascia-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Osteopatia i trauma",
+          "url": "https://www.walambcn.com/ca/osteopatia-trauma"
         }
       ],
       "sameAs": [
@@ -154,7 +169,7 @@
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/nervi-vague#breadcrumb",
+      "@id": "https://www.walambcn.com/ca/osteopatia-nervi-vague-teoria-polivagal#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -165,23 +180,23 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "En què puc ser-li útil?",
+          "name": "Serveis i teràpies",
           "item": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona"
         },
         {
           "@type": "ListItem",
           "position": 3,
-          "name": "Nervi vague",
-          "item": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/nervi-vague"
+          "name": "Nervi vague i teoria polivagal",
+          "item": "https://www.walambcn.com/ca/osteopatia-nervi-vague-teoria-polivagal"
         }
       ]
     },
     {
       "@type": "MedicalWebPage",
-      "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/nervi-vague#webpage",
-      "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/nervi-vague",
-      "name": "Nervi vague i sistema nerviós a Barcelona | WA LAM",
-      "description": "Nervi vague i regulació del sistema nerviós a Sarrià–Sant Gervasi, Barcelona: to vagal, estrès, digestió i descans amb un enfocament integratiu.",
+      "@id": "https://www.walambcn.com/ca/osteopatia-nervi-vague-teoria-polivagal#webpage",
+      "url": "https://www.walambcn.com/ca/osteopatia-nervi-vague-teoria-polivagal",
+      "name": "Nervi vague i ansietat: osteopatia a Barcelona | WA LAM",
+      "description": "Osteopatia, nervi vague i teoria polivagal a Sarrià–Sant Gervasi, Barcelona: relació amb l'estrès, l'ansietat i la digestió, i què es valora a la consulta.",
       "inLanguage": "ca-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -189,14 +204,14 @@
         "url": "https://www.walambcn.com"
       },
       "breadcrumb": {
-        "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/nervi-vague#breadcrumb"
+        "@id": "https://www.walambcn.com/ca/osteopatia-nervi-vague-teoria-polivagal#breadcrumb"
       },
       "publisher": {
         "@id": "https://www.walambcn.com/#clinica"
       },
       "lastReviewed": "2026-11-18",
       "dateModified": "2026-11-18",
-      "keywords": "nervio vago Barcelona, tono vagal, cómo estimular el nervio vago, teoría polivagal Barcelona, variabilidad de la frecuencia cardiaca y estrés, osteopatía nervio vago Barcelona",
+      "keywords": "osteopatía nervio vago Barcelona, nervio vago y ansiedad, nervio vago ansiedad síntomas, nervio vago ansiedad ejercicios, teoría polivagal aplicada al trauma, osteopatía nervio vago",
       "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/nervio-vago.png",
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -217,33 +232,33 @@
         }
       },
       "about": {
-        "@type": "MedicalCondition",
-        "name": "Desregulación del sistema nervioso autónomo",
-        "possibleTreatment": [
-          {
-            "@type": "MedicalTherapy",
-            "name": "Osteopatia craniosacral"
-          }
-        ]
+        "@type": "MedicalTherapy",
+        "name": "Osteopatía craneal y visceral del nervio vago"
       },
       "citation": [
         {
           "@type": "ScholarlyArticle",
-          "name": "The inflammatory reflex",
-          "url": "https://doi.org/10.1038/nature01321",
-          "sameAs": "https://doi.org/10.1038/nature01321"
+          "name": "Vagus Nerve as Modulator of the Brain–Gut Axis in Psychiatric and Inflammatory Disorders",
+          "url": "https://doi.org/10.3389/fpsyt.2018.00044",
+          "sameAs": "https://doi.org/10.3389/fpsyt.2018.00044"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "The Vagus Nerve at the Interface of the Microbiota-Gut-Brain Axis",
+          "url": "https://doi.org/10.3389/fnins.2018.00049",
+          "sameAs": "https://doi.org/10.3389/fnins.2018.00049"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "The vagus nerve and the inflammatory reflex—linking immunity and metabolism",
+          "url": "https://doi.org/10.1038/nrendo.2012.189",
+          "sameAs": "https://doi.org/10.1038/nrendo.2012.189"
         },
         {
           "@type": "ScholarlyArticle",
           "name": "Effects of voluntary slow breathing on heart rate and heart rate variability: A systematic review and a meta-analysis",
           "url": "https://doi.org/10.1016/j.neubiorev.2022.104711",
           "sameAs": "https://doi.org/10.1016/j.neubiorev.2022.104711"
-        },
-        {
-          "@type": "ScholarlyArticle",
-          "name": "Alterations in Resting-State Functional Connectivity Link Mindfulness Meditation With Reduced Interleukin-6: A Randomized Controlled Trial",
-          "url": "https://doi.org/10.1016/j.biopsych.2016.01.008",
-          "sameAs": "https://doi.org/10.1016/j.biopsych.2016.01.008"
         },
         {
           "@type": "ScholarlyArticle",
@@ -254,47 +269,88 @@
       ]
     },
     {
+      "@type": "Service",
+      "@id": "https://www.walambcn.com/ca/osteopatia-nervi-vague-teoria-polivagal#servicio",
+      "name": "Osteopatia, nervi vague i teoria polivagal",
+      "serviceType": "Nervi vague i teoria polivagal",
+      "provider": {
+        "@id": "https://www.walambcn.com/#clinica"
+      },
+      "areaServed": [
+        {
+          "@type": "Place",
+          "name": "Sarrià, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Sant Gervasi–Galvany, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Sant Gervasi–la Bonanova, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "les Tres Torres, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "el Putxet i el Farró, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Vallvidrera, el Tibidabo i les Planes, Barcelona"
+        },
+        {
+          "@type": "City",
+          "name": "Barcelona"
+        }
+      ],
+      "url": "https://www.walambcn.com/ca/osteopatia-nervi-vague-teoria-polivagal",
+      "description": "Osteopatia, nervi vague i teoria polivagal a Sarrià–Sant Gervasi, Barcelona: relació amb l'estrès, l'ansietat i la digestió, i què es valora a la consulta."
+    },
+    {
       "@type": "FAQPage",
-      "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/nervi-vague#faq",
+      "@id": "https://www.walambcn.com/ca/osteopatia-nervi-vague-teoria-polivagal#faq",
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Què és el to vagal?",
+          "name": "Què vol dir estimular el nervi vague?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "És la influència que exerceix el nervi vague sobre l'organisme en repòs. Un bon to vagal s'associa a una capacitat més gran per recuperar la calma després de l'estrès, i es pot estimar amb la variabilitat de la freqüència cardíaca."
+            "text": "Vol dir afavorir l'activitat de la branca parasimpàtica del sistema nerviós, la que redueix la freqüència cardíaca i facilita la calma i la digestió. En el dia a dia s'aconsegueix amb pràctiques senzilles, com la respiració lenta, el moviment suau o el descans, que augmenten el to vagal."
           }
         },
         {
           "@type": "Question",
-          "name": "Com s'estimula el nervi vague de manera natural?",
+          "name": "Quina relació té amb la digestió?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Amb la respiració lenta i diafragmàtica, l'exhalació allargada, el mindfulness, el moviment suau com el ioga o el qigong, l'exercici regular, un bon descans i el contacte social. Són pràctiques senzilles que, mantingudes en el temps, afavoreixen el to vagal."
+            "text": "El nervi vague estimula la secreció de sucs digestius, el moviment de l'intestí i la sensació de sacietat, i comunica l'estat de l'intestí amb el cervell. Per això l'estrès es nota sovint a l'estómac i, a la inversa, les molèsties digestives influeixen en com se sent."
           }
         },
         {
           "@type": "Question",
-          "name": "Què és la teoria polivagal?",
+          "name": "Quin paper poden tenir l'osteopatia cranial i la visceral en una consulta per molèsties físiques?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "És un model proposat per Stephen Porges que descriu com el sistema nerviós alterna entre estats de seguretat, de mobilització i de bloqueig segons com percep l'entorn. És una guia útil per entendre les reaccions del cos davant l'estrès i per orientar les pràctiques que afavoreixen la calma."
+            "text": "Permeten valorar i tractar amb tècniques suaus la base del crani, la regió cervical alta, el diafragma i l'abdomen, zones relacionades amb el nervi vague. L'objectiu és millorar la mobilitat dels teixits, reduir la tensió i afavorir la resposta de relaxació."
           }
         },
         {
           "@type": "Question",
-          "name": "L'osteopatia treballa el nervi vague?",
+          "name": "Té relació el nervi vague amb el fetge?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "L'osteopatia cranial i visceral utilitza tècniques suaus sobre les zones relacionades amb el vague, com la base del crani, la regió cervical alta, el diafragma i l'abdomen, per reduir la tensió i afavorir la resposta de relaxació. La integrem amb la respiració i els hàbits."
+            "text": "Sí. La branca hepàtica del vague transmet sobretot senyals metabòlics i inflamatoris. El dolor d'origen hepàtic, en canvi, sol notar-se a l'espatlla dreta a través del nervi frènic; per això, des de l'osteopatia visceral, es valoren junts el fetge, el diafragma i la regió cervical."
           }
         },
         {
           "@type": "Question",
-          "name": "Em pot ajudar amb l'ansietat o amb la digestió?",
+          "name": "Quins exercicis ajuden el nervi vague?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Regular el sistema nerviós et pot ajudar a viure amb menys tensió i a millorar les digestions relacionades amb l'estrès. Treballem tots dos aspectes de manera conjunta, amb respiració, teràpia manual, alimentació i hàbits."
+            "text": "La respiració lenta i diafragmàtica, a unes sis respiracions per minut i amb una exhalació més llarga que la inhalació, és l'exercici més senzill. També hi ajuden l'exercici físic regular, el ioga, el qigong, la pràctica de mindfulness, un bon descans i el contacte amb altres persones."
           }
         },
         {
@@ -302,7 +358,7 @@
           "name": "Quantes sessions calen?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Depèn de cada persona. Després de la primera visita li proposem un pla, que sol combinar unes poques sessions inicials amb pràctiques per a casa, perquè la regularitat és el que sosté els canvis."
+            "text": "Depèn de cada persona i dels seus símptomes. Després de la primera visita li proposem un pla, que sol combinar unes poques sessions amb pràctiques per fer a casa."
           }
         }
       ]

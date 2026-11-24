@@ -146,6 +146,21 @@
           "@type": "MedicalTherapy",
           "name": "Reflexología podal",
           "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/reflexologia-podal"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Nervio vago y teoría polivagal",
+          "url": "https://www.walambcn.com/osteopatia-nervio-vago-teoria-polivagal"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Fascia y liberación miofascial",
+          "url": "https://www.walambcn.com/osteopatia-fascia-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Osteopatía y trauma",
+          "url": "https://www.walambcn.com/osteopatia-trauma"
         }
       ],
       "sameAs": [

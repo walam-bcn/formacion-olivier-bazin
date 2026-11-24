@@ -146,6 +146,21 @@
           "@type": "MedicalTherapy",
           "name": "Reflexología podal",
           "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/reflexologia-podal"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Nervio vago y teoría polivagal",
+          "url": "https://www.walambcn.com/osteopatia-nervio-vago-teoria-polivagal"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Fascia y liberación miofascial",
+          "url": "https://www.walambcn.com/osteopatia-fascia-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Osteopatía y trauma",
+          "url": "https://www.walambcn.com/osteopatia-trauma"
         }
       ],
       "sameAs": [
@@ -154,7 +169,7 @@
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/nervio-vago#breadcrumb",
+      "@id": "https://www.walambcn.com/osteopatia-nervio-vago-teoria-polivagal#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -165,23 +180,23 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "¿En qué le puedo ayudar?",
+          "name": "Servicios y terapias",
           "item": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona"
         },
         {
           "@type": "ListItem",
           "position": 3,
-          "name": "Nervio vago",
-          "item": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/nervio-vago"
+          "name": "Nervio vago y teoría polivagal",
+          "item": "https://www.walambcn.com/osteopatia-nervio-vago-teoria-polivagal"
         }
       ]
     },
     {
       "@type": "MedicalWebPage",
-      "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/nervio-vago#webpage",
-      "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/nervio-vago",
-      "name": "Nervio vago y sistema nervioso en Barcelona | WA LAM",
-      "description": "Nervio vago y regulación del sistema nervioso en Sarrià–Sant Gervasi, Barcelona: tono vagal, estrés, digestión y descanso con un enfoque integrativo.",
+      "@id": "https://www.walambcn.com/osteopatia-nervio-vago-teoria-polivagal#webpage",
+      "url": "https://www.walambcn.com/osteopatia-nervio-vago-teoria-polivagal",
+      "name": "Nervio vago y ansiedad: osteopatía en Barcelona | WA LAM",
+      "description": "Osteopatía, nervio vago y teoría polivagal en Sarrià–Sant Gervasi, Barcelona: relación con el estrés, la ansiedad y la digestión, y qué se valora en consulta.",
       "inLanguage": "es-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -189,14 +204,14 @@
         "url": "https://www.walambcn.com"
       },
       "breadcrumb": {
-        "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/nervio-vago#breadcrumb"
+        "@id": "https://www.walambcn.com/osteopatia-nervio-vago-teoria-polivagal#breadcrumb"
       },
       "publisher": {
         "@id": "https://www.walambcn.com/#clinica"
       },
       "lastReviewed": "2026-11-18",
       "dateModified": "2026-11-18",
-      "keywords": "nervio vago Barcelona, tono vagal, cómo estimular el nervio vago, teoría polivagal Barcelona, variabilidad de la frecuencia cardiaca y estrés, osteopatía nervio vago Barcelona",
+      "keywords": "osteopatía nervio vago Barcelona, nervio vago y ansiedad, nervio vago ansiedad síntomas, nervio vago ansiedad ejercicios, teoría polivagal aplicada al trauma, osteopatía nervio vago",
       "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/nervio-vago.png",
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -217,33 +232,33 @@
         }
       },
       "about": {
-        "@type": "MedicalCondition",
-        "name": "Desregulación del sistema nervioso autónomo",
-        "possibleTreatment": [
-          {
-            "@type": "MedicalTherapy",
-            "name": "Osteopatía craneosacral"
-          }
-        ]
+        "@type": "MedicalTherapy",
+        "name": "Osteopatía craneal y visceral del nervio vago"
       },
       "citation": [
         {
           "@type": "ScholarlyArticle",
-          "name": "The inflammatory reflex",
-          "url": "https://doi.org/10.1038/nature01321",
-          "sameAs": "https://doi.org/10.1038/nature01321"
+          "name": "Vagus Nerve as Modulator of the Brain–Gut Axis in Psychiatric and Inflammatory Disorders",
+          "url": "https://doi.org/10.3389/fpsyt.2018.00044",
+          "sameAs": "https://doi.org/10.3389/fpsyt.2018.00044"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "The Vagus Nerve at the Interface of the Microbiota-Gut-Brain Axis",
+          "url": "https://doi.org/10.3389/fnins.2018.00049",
+          "sameAs": "https://doi.org/10.3389/fnins.2018.00049"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "The vagus nerve and the inflammatory reflex—linking immunity and metabolism",
+          "url": "https://doi.org/10.1038/nrendo.2012.189",
+          "sameAs": "https://doi.org/10.1038/nrendo.2012.189"
         },
         {
           "@type": "ScholarlyArticle",
           "name": "Effects of voluntary slow breathing on heart rate and heart rate variability: A systematic review and a meta-analysis",
           "url": "https://doi.org/10.1016/j.neubiorev.2022.104711",
           "sameAs": "https://doi.org/10.1016/j.neubiorev.2022.104711"
-        },
-        {
-          "@type": "ScholarlyArticle",
-          "name": "Alterations in Resting-State Functional Connectivity Link Mindfulness Meditation With Reduced Interleukin-6: A Randomized Controlled Trial",
-          "url": "https://doi.org/10.1016/j.biopsych.2016.01.008",
-          "sameAs": "https://doi.org/10.1016/j.biopsych.2016.01.008"
         },
         {
           "@type": "ScholarlyArticle",
@@ -254,47 +269,88 @@
       ]
     },
     {
+      "@type": "Service",
+      "@id": "https://www.walambcn.com/osteopatia-nervio-vago-teoria-polivagal#servicio",
+      "name": "Osteopatía, nervio vago y teoría polivagal",
+      "serviceType": "Nervio vago y teoría polivagal",
+      "provider": {
+        "@id": "https://www.walambcn.com/#clinica"
+      },
+      "areaServed": [
+        {
+          "@type": "Place",
+          "name": "Sarrià, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Sant Gervasi–Galvany, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Sant Gervasi–la Bonanova, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "les Tres Torres, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "el Putxet i el Farró, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Vallvidrera, el Tibidabo i les Planes, Barcelona"
+        },
+        {
+          "@type": "City",
+          "name": "Barcelona"
+        }
+      ],
+      "url": "https://www.walambcn.com/osteopatia-nervio-vago-teoria-polivagal",
+      "description": "Osteopatía, nervio vago y teoría polivagal en Sarrià–Sant Gervasi, Barcelona: relación con el estrés, la ansiedad y la digestión, y qué se valora en consulta."
+    },
+    {
       "@type": "FAQPage",
-      "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/nervio-vago#faq",
+      "@id": "https://www.walambcn.com/osteopatia-nervio-vago-teoria-polivagal#faq",
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "¿Qué es el tono vagal?",
+          "name": "¿Qué significa estimular el nervio vago?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Es la influencia que ejerce el nervio vago sobre el organismo en reposo. Un buen tono vagal se asocia a una mayor capacidad para recuperar la calma después del estrés, y se puede estimar con la variabilidad de la frecuencia cardiaca."
+            "text": "Significa favorecer la actividad de la rama parasimpática del sistema nervioso, la que reduce la frecuencia cardiaca y facilita la calma y la digestión. En la vida diaria se consigue con prácticas sencillas, como la respiración lenta, el movimiento suave o el descanso, que aumentan el tono vagal."
           }
         },
         {
           "@type": "Question",
-          "name": "¿Cómo se estimula el nervio vago de forma natural?",
+          "name": "¿Qué relación tiene con la digestión?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Con la respiración lenta y diafragmática, la exhalación prolongada, el mindfulness, el movimiento suave como el yoga o el qigong, el ejercicio regular, un buen descanso y el contacto social. Son prácticas sencillas que, mantenidas en el tiempo, favorecen el tono vagal."
+            "text": "El nervio vago estimula la secreción de jugos digestivos, el movimiento del intestino y la sensación de saciedad, y comunica el estado del intestino con el cerebro. Por eso el estrés se nota a menudo en el estómago y, a la inversa, las molestias digestivas influyen en cómo se siente."
           }
         },
         {
           "@type": "Question",
-          "name": "¿Qué es la teoría polivagal?",
+          "name": "¿Qué papel pueden tener la osteopatía craneal y visceral en una consulta por molestias físicas?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Es un modelo propuesto por Stephen Porges que describe cómo el sistema nervioso alterna entre estados de seguridad, de movilización y de bloqueo según cómo percibe el entorno. Es una guía útil para entender las reacciones del cuerpo ante el estrés y para orientar las prácticas que favorecen la calma."
+            "text": "Permiten valorar y tratar con técnicas suaves la base del cráneo, la región cervical alta, el diafragma y el abdomen, zonas relacionadas con el nervio vago. El objetivo es mejorar la movilidad de los tejidos, reducir la tensión y favorecer la respuesta de relajación."
           }
         },
         {
           "@type": "Question",
-          "name": "¿La osteopatía trabaja el nervio vago?",
+          "name": "¿Tiene relación el nervio vago con el hígado?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "La osteopatía craneal y visceral utiliza técnicas suaves sobre las zonas relacionadas con el vago, como la base del cráneo, la región cervical alta, el diafragma y el abdomen, para reducir la tensión y favorecer la respuesta de relajación. La integramos con la respiración y los hábitos."
+            "text": "Sí. La rama hepática del vago transmite sobre todo señales metabólicas e inflamatorias. El dolor de origen hepático, en cambio, suele notarse en el hombro derecho a través del nervio frénico; por eso, desde la osteopatía visceral, se valoran juntos el hígado, el diafragma y la región cervical."
           }
         },
         {
           "@type": "Question",
-          "name": "¿Puede ayudarme con la ansiedad o con la digestión?",
+          "name": "¿Qué ejercicios ayudan al nervio vago?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Regular el sistema nervioso puede ayudarte a vivir con menos tensión y a mejorar las digestiones relacionadas con el estrés. Trabajamos ambos aspectos de forma conjunta, con respiración, terapia manual, alimentación y hábitos."
+            "text": "La respiración lenta y diafragmática, a unas seis respiraciones por minuto y con una exhalación más larga que la inhalación, es el ejercicio más sencillo. También ayudan el ejercicio físico regular, el yoga, el qigong, la práctica de mindfulness, un buen descanso y el contacto con otras personas."
           }
         },
         {
@@ -302,7 +358,7 @@
           "name": "¿Cuántas sesiones se necesitan?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Depende de cada persona. Tras la primera visita le proponemos un plan, que suele combinar unas pocas sesiones iniciales con prácticas para casa, porque la regularidad es lo que sostiene los cambios."
+            "text": "Depende de cada persona y de sus síntomas. Tras la primera visita le proponemos un plan, que suele combinar unas pocas sesiones con prácticas para casa."
           }
         }
       ]
