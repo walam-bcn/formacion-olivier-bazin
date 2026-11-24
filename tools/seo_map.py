@@ -498,3 +498,11 @@ CA_SLUG = {
 from new_pages import integrate_seo as _np_seo  # noqa: E402
 _np_seo(SEO, URLS, CA_SLUG, H)
 REDIRECTS.append((f"/{H}/lumbalgia-cervicalgia-cronica", f"/{H}/lumbalgia-dolor-lumbar", "La página conjunta se divide en Lumbalgia y Cervicalgia; la dirección antigua lleva a Lumbalgia."))
+
+# Salud pélvica (noviembre 2026)
+SEO["suelo-pelvico-dolor-pelvico"].update({"kw": "suelo pélvico Barcelona", "kws": ["osteopatía suelo pélvico Barcelona", "salud pélvica mujer Barcelona", "osteopatía urogenital", "suelo pélvico Sant Gervasi", "valoración suelo pélvico"],
+    "ca": "sòl pelvià Barcelona", "title": "Suelo pélvico en Barcelona | WA LAM",
+    "desc": "Suelo pélvico en Sarrià–Sant Gervasi, Barcelona: osteopatía urogenital de abordaje externo para la salud pélvica de la mujer. Primera valoración: 60 min.",
+    "quick": "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), trabajamos la salud pélvica de la mujer con osteopatía urogenital de abordaje externo: dolor pélvico y menstrual, molestias urinarias, prolapso, embarazo, posparto y menopausia. Valoramos la pelvis en conjunto con la columna, el abdomen, el diafragma y la respiración."})
+URLS["suelo-pelvico-dolor-pelvico"] = "suelo-pelvico-barcelona"
+CA_SLUG["suelo-pelvico-dolor-pelvico"] = "sol-pelvia-barcelona"

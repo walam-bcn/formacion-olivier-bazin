@@ -2541,3 +2541,42 @@ for _p in PAGES:
                 _b["wa_btn"] = _p["wa"]
             if _b.get("h2") == "Una medicina sin prisas":
                 _b["h2"] = "Slow medicine"; _b["eyebrow"] = ""; _b["intro"] = "Una medicina sin prisas"; _b["_id"] = "slow-medicine"
+
+# Salud pélvica (noviembre 2026): página principal «Suelo pélvico en Barcelona»
+for _p in PAGES:
+    if _p["slug"] == "suelo-pelvico-dolor-pelvico":
+        _p["h1"] = "Suelo pélvico en Barcelona"; _p["nav"] = "Suelo pélvico"; _p["eyebrow"] = "Salud pélvica"
+        _p["sub"] = "Salud pélvica de la mujer · Sarrià–Sant Gervasi"
+        _p["title"] = "Suelo pélvico en Barcelona | WA LAM"
+        _p["blocks"] = [b for b in _p["blocks"] if b.get("type") != "evidence"]
+        for _b in _p["blocks"]:
+            if _b.get("h2") == "Formación urogenital con Olivier Bazin":
+                _b["eyebrow"] = ""; _b["h2"] = "Para profesionales"
+        _i = next(k for k, b in enumerate(_p["blocks"]) if b["type"] == "explain") + 1
+        _p["blocks"].insert(_i, {"type": "cards", "eyebrow": "", "h2": "También en salud pélvica", "_id": "tambien-salud-pelvica",
+            "items": [{"h": "[Dolor pélvico](dolor-pelvico-barcelona)", "p": "Dolor menstrual, endometriosis, vejiga dolorosa, dolor perineal o en las relaciones: cómo lo trabajamos."},
+                      {"h": "[Ejercicios de suelo pélvico](ejercicios-suelo-pelvico)", "p": "Guía práctica para localizar, fortalecer y coordinar tu suelo pélvico en el día a día."}]})
+        _p["cta"] = {"h2": "Pide una primera valoración", "p": "Escríbenos por WhatsApp y te orientamos sobre tu caso."}
+        _p["related"] = ["dolor-pelvico-barcelona", "ejercicios-suelo-pelvico", "prolapso-organos-pelvicos", "incontinencia-urinaria-esfuerzo"]
+_PELV_FIX = [(", como complemento del seguimiento ginecológico o urológico.", "."),
+             (", complementario al seguimiento de tu ginecóloga o tu médico.", "."),
+             (", complementaria al seguimiento médico.", ". Valoración global de la pelvis.")]
+_known = {p["slug"] for p in PAGES}
+for _p in PAGES:
+    if _p["slug"] == "suelo-pelvico-dolor-pelvico":
+        def _fx(s):
+            for a, b in _PELV_FIX:
+                s = s.replace(a, b)
+            return s
+        from new_pages import _walk as _w
+        _w(_p, _fx)
+        for _b in _p["blocks"]:
+            if _b.get("paras"):
+                _b["paras"] = [x for x in _b["paras"] if not x.startswith("Si necesitas fisioterapia de suelo pélvico")]
+        _p["faq_title"] = "Preguntas sobre salud pélvica"
+        _p["related"] = [x for x in _p["related"] if x in _known]
+for _p in PAGES:
+    if _p["slug"] == "suelo-pelvico-dolor-pelvico" and _p.get("faq") is not None:
+        _q = "¿Cómo pido cita para una valoración de suelo pélvico?"
+        if not any(q == _q for q, a in _p["faq"]):
+            _p["faq"] = list(_p["faq"]) + [(_q, "Escríbenos por WhatsApp, cuéntanos brevemente qué notas y te proponemos día y hora para la primera valoración, de 60 minutos, en Sarrià–Sant Gervasi.")]

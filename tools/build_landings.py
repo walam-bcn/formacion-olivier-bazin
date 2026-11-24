@@ -674,10 +674,10 @@ def evidence(e):
     return f'<section class="evid"><div class="wrap">{sec_head(e.get("eyebrow", ""), e["h2"], e.get("intro"))}<div class="ev">{"".join(its)}</div></div></section>'
 
 
-def faq(items):
+def faq(items, title=None):
     items = [(q, a) for q, a in items if not re.search(r"(?i)qui[eé]n (me )?atiende|qui[eé]n me atender", q)]
     d = "".join(f"<details><summary>{fmt(q)}</summary><p>{fmt(a)}</p></details>" for q, a in items)
-    return f'<section class="faq" id="preguntas-frecuentes"><div class="wrap">{sec_head(tr("Preguntas frecuentes"), tr("Lo que suelen preguntarnos"))}<div class="list">{d}</div></div></section>'
+    return f'<section class="faq" id="preguntas-frecuentes"><div class="wrap">{sec_head(tr("Preguntas frecuentes"), tr(title) if title else tr("Lo que suelen preguntarnos"))}<div class="list">{d}</div></div></section>'
 
 
 def related(slugs, h2=None):
@@ -804,7 +804,7 @@ def page(p):
     if p["group"] in ("motivo", "servicio"):
         pass
     if p.get("faq"):
-        body.append(faq(p["faq"])); items.append(("preguntas-frecuentes", tr("Preguntas frecuentes")))
+        body.append(faq(p["faq"], p.get("faq_title"))); items.append(("preguntas-frecuentes", tr("Preguntas frecuentes")))
     seq = body + ([related(p["related"])] if p.get("related") else [])
     _alt = ["b", "w"]; _n = [0]
     def _bg(m):
