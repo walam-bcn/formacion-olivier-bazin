@@ -2612,3 +2612,39 @@ for _p in PAGES:
         _ob = uro_pro()
         _ob["link_btn"] = ("Ver la formación de Olivier Bazin", OB_URL)
         _p["blocks"].append(_ob)
+import copy as _copy
+_PRIMER = _copy.deepcopy(PAGE["blocks"][1])
+from new_pages import integrate_home_list as _np_home, integrate_home_areas as _np_home_areas  # noqa: E402
+_np_home(PAGES)
+_np_home_areas(PAGES, _PRIMER)
+
+# Dolor persistente: enfoques que combinamos (noviembre 2026)
+_ENFOQUES = [
+    {"k": "Terapia manual", "h": "Osteopatía, fisioterapia y acupuntura", "p": "Para mejorar la movilidad, la función y la percepción corporal, con abordaje visceral y craneal cuando está indicado. La [acupuntura](acupuntura-medicina-tradicional-china) está recomendada como tratamiento inicial del dolor lumbar crónico por el American College of Physicians."},
+    {"k": "Movimiento", "h": "Ejercicio adaptado", "p": "Recuperar fuerza y confianza en el movimiento con un programa progresivo y adaptado."},
+    {"k": "Mente y cuerpo", "h": "Mindfulness (MBSR)", "p": "Programa de 8 semanas creado por Jon Kabat-Zinn en la Universidad de Massachusetts para personas con dolor crónico y estrés. El American College of Physicians lo recomienda como tratamiento inicial del dolor lumbar crónico."},
+    {"k": "Hábitos saludables", "h": "Sueño, alimentación antiinflamatoria y microbiota", "p": "El descanso, la alimentación y el estado de la microbiota influyen en la inflamación y en la sensibilidad al dolor. Los trabajamos desde la [PNIE](pni-pnie-barcelona) (psiconeuroinmunoendocrinología)."},
+]
+for _p in PAGES:
+    if _p["slug"] == "dolor-persistente-cronico":
+        for _b in _p["blocks"]:
+            if _b.get("h2") == "Enfoques que combinamos según tu caso":
+                _b["items"] = _ENFOQUES
+
+# Mi forma de trabajar: los mismos pasos en todas las páginas clínicas (noviembre 2026)
+from new_pages import WORK_STEPS as _WS  # noqa: E402
+_REPLACE_STEPS = {"Qué valoramos cuando vienes por dolor", "Cómo es la primera visita", "Cómo es la primera visita de nutrición",
+                  "Cómo es la consulta de PNIE", "Cómo es una consulta de acupuntura", "Cómo es una sesión de osteopatía",
+                  "Cómo es una sesión de osteopatía visceral"}
+for _p in PAGES:
+    if _p["group"] not in ("motivo", "servicio") or _p["slug"] in ("programas-re-trace",):
+        continue
+    _steps = {"type": "steps", "eyebrow": "", "h2": "Mi forma de trabajar", "intro": "Un enfoque integrativo", "items": _WS}
+    _idx = [k for k, b in enumerate(_p["blocks"]) if b.get("type") in ("steps", "cards") and b.get("h2") in _REPLACE_STEPS]
+    if _idx:
+        _p["blocks"][_idx[0]] = _steps
+        for k in reversed(_idx[1:]):
+            _p["blocks"].pop(k)
+    elif _p["group"] == "motivo" and not any(b.get("h2") == "Mi forma de trabajar" for b in _p["blocks"]):
+        _ev = next((k for k, b in enumerate(_p["blocks"]) if b.get("type") == "evidence"), len(_p["blocks"]))
+        _p["blocks"].insert(_ev, _steps)

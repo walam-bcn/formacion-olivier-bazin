@@ -139,3 +139,123 @@ def integrate_areas(PAGES):
                         for s in sl:
                             if s in known and f"]({s})" not in have:
                                 li.append(f"[{known[s]['nav']}]({s})")
+
+
+# Lista completa de «Te puedo ayudar en las siguientes situaciones» (walambcn.com/sobre-mi), con enlace cuando hay página
+HOME_LIST = [
+    ("Patologías musculoesqueléticas y osteoarticulares", [
+        ("Artrosis", "artrosis"), ("Bursitis", "hombro-doloroso"), ("Capsulitis", "hombro-doloroso"), ("Cervicalgia", "cervicalgia-dolor-cuello"),
+        ("Ciática", "ciatica"), ("Condromalacia rotuliana", "dolor-rodilla-condromalacia"), ("Contracturas y desgarros musculares", "contracturas-desgarros-musculares"),
+        ("Dorsalgia", "dorsalgia-dolor-espalda-alta"), ("Esguinces", "esguinces"), ("Esguince cervical", "cervicalgia-dolor-cuello"),
+        ("Fascitis plantar", "fascitis-plantar"), ("Fibromialgia", "fibromialgia"), ("Hernias de disco incipientes", "hernia-disco-incipiente"),
+        ("Lumbalgia", "lumbalgia-dolor-lumbar"), ("Neuralgia de Arnold", "cervicalgia-dolor-cuello"), ("Neuralgia del trigémino", "neuralgia-trigemino"),
+        ("Osteoporosis", "osteoporosis"), ("Problemas de la ATM y bruxismo", "bruxismo-dolor-mandibular-atm"), ("Sarcopenia", "osteoporosis"),
+        ("Síndrome del túnel carpiano", "tunel-carpiano"), ("Tendinitis", "hombro-doloroso"), ("Tortícolis", "torticolis"),
+        ("Dolor neuropático", "dolor-neuropatico")]),
+    ("Patologías inflamatorias crónicas y autoinmunes", [
+        ("Alergias", "alergias-asma-infecciones"), ("Artritis y artritis reumatoide", "inflamacion-cronica-autoinmunes"), ("Asma", "alergias-asma-infecciones"),
+        ("Candidiasis", "candidiasis-vaginal-repeticion"), ("Colitis y gastritis", "digestiones-pesadas-gastritis"), ("Fibromialgia", "fibromialgia"),
+        ("Infecciones de repetición", "alergias-asma-infecciones"), ("Migrañas y cefaleas", "cefaleas-migrana"),
+        ("Problemas autoinmunes de la piel: eccemas, atopia", "inflamacion-cronica-autoinmunes"), ("Síndrome de dolor crónico", "dolor-persistente-cronico")]),
+    ("Patologías intestinales", [
+        ("Diarrea", "diarrea-cronica"), ("Estreñimiento", "estrenimiento"), ("Disbiosis intestinal y estudio de microbiota", "salud-digestiva-microbiota"),
+        ("Digestiones pesadas", "digestiones-pesadas-gastritis"), ("Reflujo y acidez", "reflujo-acidez"),
+        ("Enfermedad inflamatoria intestinal: Crohn, colitis ulcerosa", "enfermedad-inflamatoria-intestinal"), ("Gases", "gases-hinchazon-abdominal"),
+        ("Hinchazón y distensión abdominal", "gases-hinchazon-abdominal"), ("Colon irritable (SII)", "colon-irritable-sibo"), ("SIBO y LIBO", "colon-irritable-sibo"),
+        ("Intolerancias alimentarias", "intolerancias-alimentarias"), ("Sensibilidad al gluten", "intolerancia-gluten"), ("Intolerancia a la lactosa", "intolerancia-lactosa"),
+        ("Intolerancia a la fructosa", "intolerancia-fructosa"), ("Intolerancia a la histamina", "intolerancia-histamina")]),
+    ("Patologías metabólicas y cardiovasculares", [
+        ("Adicción al azúcar, chocolate o refrescos", None), ("Alcoholismo", None), ("Déficit de hierro, vitaminas y minerales", None),
+        ("Hígado graso", "salud-metabolica"), ("Hipertensión", "salud-metabolica"), ("Prevención cardiovascular", "salud-metabolica"),
+        ("Resistencia a la insulina", "salud-metabolica"), ("Síndrome metabólico", "salud-metabolica"), ("Sobrepeso y obesidad", "perdida-de-peso-sarria-sant-gervasi"),
+        ("Tabaquismo", "dejar-de-fumar-acupuntura")]),
+    ("Agotamiento físico y emocional", [
+        ("Agotamiento físico y emocional", "agotamiento-fisico-emocional"), ("Estado de ánimo bajo", "agotamiento-fisico-emocional"),
+        ("Fatiga crónica", "fatiga-cronica-agotamiento"), ("Cansancio extremo", "fatiga-cronica-agotamiento"), ("Insomnio y trastornos del sueño", "sueno-insomnio"),
+        ("Shock emocional", "agotamiento-fisico-emocional"), ("Estrés y ansiedad", "estres-ansiedad"), ("Cortisol y estrés crónico", "cortisol-estres-cronico"),
+        ("Nervio vago", "nervio-vago")]),
+    ("Ginecología y salud pélvica", [
+        ("Acné en mujeres", "sindrome-ovario-poliquistico"), ("Candidiasis vaginal recurrente", "candidiasis-vaginal-repeticion"),
+        ("Cistitis recurrente", "cistitis-repeticion-vejiga-dolorosa"), ("Infertilidad y abortos recurrentes", "acompanamiento-fertilidad"),
+        ("Menopausia y sofocos", "salud-mujer-menopausia"), ("Ovarios poliquísticos (SOP)", "sindrome-ovario-poliquistico"),
+        ("Suelo pélvico", "suelo-pelvico-dolor-pelvico"), ("Dolor pélvico", "dolor-pelvico-barcelona"), ("Ejercicios de suelo pélvico", "ejercicios-suelo-pelvico"),
+        ("Dolor menstrual y endometriosis", "dolor-menstrual-endometriosis"), ("Neuralgia del pudendo", "neuralgia-pudendo"),
+        ("Dolor en las relaciones", "dispareunia-dolor-relaciones"), ("Incontinencia urinaria", "incontinencia-urinaria-esfuerzo"),
+        ("Prolapso", "prolapso-organos-pelvicos"), ("Embarazo y posparto", "osteopatia-embarazo-posparto"), ("Dolor de coxis", "dolor-coxis-coccigodinia")]),
+    ("Problemas endocrinos", [
+        ("Tiroiditis de Hashimoto temprana", "hipotiroidismo-hashimoto"), ("Hipotiroidismo leve", "hipotiroidismo-hashimoto"),
+        ("Hipertiroidismo", None), ("Trastornos de la prolactina", None)]),
+]
+
+
+def integrate_home_list(PAGES):
+    known = {p["slug"] for p in PAGES}
+    for p in PAGES:
+        if p["slug"] == "medicina-integrativa-barcelona":
+            for b in p["blocks"]:
+                if b.get("type") == "linkgroups":
+                    b["groups"] = [{"h": t, "links": [(lab, s if s in known else None) for lab, s in items]} for t, items in HOME_LIST]
+                    b.pop("all", None)
+                    b["intro"] = "Esta lista orienta sobre los motivos de consulta más frecuentes. Si tu caso no aparece, escríbenos y te diremos si podemos ayudarte."
+    PAGES[:] = [p for p in PAGES if p["slug"] != "en-que-podemos-ayudarte"]
+    for p in PAGES:
+        if p.get("related"):
+            p["related"] = [x for x in p["related"] if x != "en-que-podemos-ayudarte"]
+
+
+# Portada: «En qué te puedo ayudar» con indicaciones (lista de Sobre mí) y nuestro abordaje, por áreas
+AREA_BLOCKS = [
+    ("01 · Aparato locomotor", "Sistema musculoesquelético y dolor", "Dolor articular, muscular y vertebral, agudo o persistente.",
+     "Combinamos osteopatía, acupuntura, ejercicio adaptado y educación en dolor, y trabajamos los factores que mantienen el dolor: sueño, estrés, sedentarismo e inflamación.",
+     ["[Osteopatía](osteopatia-sarria-sant-gervasi)", "[Acupuntura](acupuntura-medicina-tradicional-china)", "[Masaje terapéutico](masajes-sarria-sant-gervasi)"]),
+    ("02 · Inflamación e inmunidad", "Inflamación crónica, inmunidad y piel", "Procesos en los que la respuesta inflamatoria y la inmunidad desempeñan un papel central.",
+     "Trabajamos desde la PNIE: alimentación antiinflamatoria, salud intestinal y microbiota, regulación del estrés y del sueño.",
+     ["[PNIE](pni-pnie-barcelona)", "[Nutrición y salud intestinal](nutricion-salud-intestinal)"]),
+    ("03 · Aparato digestivo", "Aparato digestivo", "Los trastornos digestivos son uno de los motivos de consulta más frecuentes en WA LAM.",
+     "Analizamos el eje intestino-cerebro, la alimentación, los horarios, el estrés y la microbiota; solicitamos un estudio de microbiota cuando aporta información y diseñamos un plan nutricional, de PNIE y, si procede, de acupuntura y osteopatía visceral.",
+     ["[Nutrición y salud intestinal](nutricion-salud-intestinal)", "[PNIE](pni-pnie-barcelona)", "[Osteopatía visceral](osteopatia-visceral-barcelona)"]),
+    ("04 · Metabolismo", "Metabolismo y salud cardiovascular", "Factores de riesgo metabólico y cardiovascular que dependen en gran medida del estilo de vida.",
+     "Plan de alimentación individualizado, actividad física, acupuntura como apoyo y seguimiento de los parámetros analíticos.",
+     ["[Longevidad y prevención](prevencion-longevidad)", "[Nutrición y salud intestinal](nutricion-salud-intestinal)"]),
+    ("05 · Sistema nervioso", "Agotamiento, estrés y sueño", "Situaciones en las que el sistema nervioso, el sueño y la capacidad de adaptación están comprometidos.",
+     "Regulación del sistema nervioso con mindfulness, respiración, acupuntura, osteopatía craneal y hábitos de sueño, y revisión de los factores físicos que contribuyen a la fatiga.",
+     ["[Curso MBSR](curso-mindfulness-mbsr-barcelona)", "[Yoga terapéutico](yoga-particular-grupos-reducidos)", "[Qigong](qigong-barcelona)"]),
+    ("06 · Salud de la mujer", "Ginecología y salud pélvica", "Etapas y procesos específicos de la salud femenina.",
+     "Nutrición, microbiota, regulación del estrés, acupuntura y osteopatía urogenital de abordaje externo.",
+     ["[Osteopatía urogenital](suelo-pelvico-dolor-pelvico)", "[Drenaje en el embarazo](drenaje-linfatico-embarazo)"]),
+    ("07 · Sistema endocrino", "Sistema endocrino", "Alteraciones hormonales en las que el estilo de vida tiene un papel importante.",
+     "Alimentación, salud intestinal, sueño y regulación del estrés.",
+     ["[PNIE](pni-pnie-barcelona)", "[Menopausia](salud-mujer-menopausia)"]),
+]
+
+WORK_STEPS = [
+    ("Antes de la primera visita", "Me envías los análisis y las pruebas médicas recientes que consideres relevantes para tu problema."),
+    ("Primera consulta", "Dura unos 60 minutos. Si lo considero necesario, solicito pruebas más específicas, como un estudio de microbiota, para centrar el diagnóstico."),
+    ("Tratamiento por fases", "Organizo el tratamiento en fases, normalmente dos o tres, adaptándome a cada paciente."),
+    ("Recomendaciones", "Al terminar cada consulta, presencial u online, recibes las recomendaciones para la fase que iniciamos."),
+    ("Dudas entre sesiones", "Si te surgen dudas, puedes escribirme antes de la siguiente sesión."),
+    ("Mantenimiento", "Al terminar el tratamiento, recibes las pautas de mantenimiento para consolidar la mejoría."),
+]
+
+
+def integrate_home_areas(PAGES, primer_contacto=None):
+    known = {p["slug"] for p in PAGES}
+    for p in PAGES:
+        if p["slug"] != "medicina-integrativa-barcelona":
+            continue
+        bl = p["blocks"]
+        i = next((k for k, b in enumerate(bl) if b.get("type") == "linkgroups"), None)
+        if i is None:
+            return
+        bl.pop(i)
+        new = [{"type": "steps", "eyebrow": "", "h2": "Mi forma de trabajar", "intro": "Un enfoque integrativo", "_id": "mi-forma-de-trabajar", "items": WORK_STEPS}]
+        if primer_contacto:
+            new.append(primer_contacto)
+        new.append({"type": "explain", "eyebrow": "", "h2": "En qué te puedo ayudar", "_id": "en-que-te-puedo-ayudar",
+                    "paras": ["Esta lista orienta sobre los motivos de consulta más frecuentes. Si tu caso no aparece, escríbenos y te diremos si podemos ayudarte."]})
+        for (ey, h2, intro, ptxt, li), (_, items) in zip(AREA_BLOCKS, HOME_LIST):
+            ind = [f"[{lab}]({s})" if s in known else lab for lab, s in items]
+            new.append({"type": "cards", "eyebrow": ey, "h2": h2, "intro": intro,
+                        "items": [{"k": "Indicaciones", "h": "Motivos de consulta frecuentes", "li": ind},
+                                  {"k": "Nuestro abordaje", "h": "Cómo lo abordamos", "p": ptxt, "li": [x for x in li if x.split("](")[1][:-1] in known]}]})
+        bl[i:i] = new

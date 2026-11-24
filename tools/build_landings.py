@@ -396,6 +396,10 @@ h1,h2,h3,h4,.btn,.btn-tq,.faq summary,b,strong,.explain .txt b,.card h3,.step h3
 .qbox .btn-row,.explain .btn-row{margin-top:28px}
 #slow-medicine .head h2{font-size:40px!important}
 #slow-medicine .head p{font-style:italic;font-size:18px;margin-top:4px;text-align:left!important}
+.steps.dark .head h2,.steps.dark .head p,.steps.dark h3,.steps.dark p{color:var(--pet)!important}
+.card li a,.card li a.inl{font-weight:400!important;color:var(--pet)!important;text-decoration:none!important;border-bottom:1px solid rgba(12,191,194,.5)}
+.card li a:hover{color:#0a9a9c!important}
+#en-que-te-puedo-ayudar{padding-bottom:30px!important}
 .hero-dna{background-color:#dcebf2!important;background-position:center!important;background-size:cover!important;color:var(--pet)}
 .hero-dna h1,.hero-dna .hs,.hero-dna .lead,.hero-dna .eyebrow,.hero-dna .crumbs,.hero-dna .crumbs a{color:var(--pet)!important;text-shadow:0 0 18px rgba(255,255,255,.9)}
 .hero-dna .hcard{background:rgba(255,255,255,.72);border-color:rgba(29,63,64,.18)}
@@ -522,7 +526,7 @@ def schema(p):
 
 
 def nav(p):
-    links = "".join(f'<a href="{url(GROUPS[g]["hub"])}">{GROUPS[g]["nav"]}</a>' for g in ("motivo", "servicio", "academia"))
+    links = "".join(f'<a href="{url("medicina-integrativa-barcelona") + "#en-que-te-puedo-ayudar" if g == "motivo" else url(GROUPS[g]["hub"])}">{GROUPS[g]["nav"]}</a>' for g in ("motivo", "servicio", "academia"))
     return f"""<header class="topnav"><div class="wrap"><a href="{url('')}"><img src="{LOGO}" alt="WA LAM" style="height:30px;display:block"></a>
 <nav>{links}<a href="#contacto">{tr("Contacto")}</a>{langlink(p)}</nav></div></header>"""
 
@@ -825,7 +829,10 @@ def page(p):
 def linkgroups(b):
     cols = []
     for g in b["groups"]:
-        lis = "".join(f'<li><a href="{url(s)}">{fmt(BYSLUG[s]["nav"])}</a></li>' for s in g["links"] if s in BYSLUG)
+        lis = ""
+        for it in g["links"]:
+            lab, sl = (it if isinstance(it, (list, tuple)) else (BYSLUG[it]["nav"] if it in BYSLUG else it, it))
+            lis += f'<li><a href="{url(sl)}">{fmt(tr(lab))}</a></li>' if sl in BYSLUG else f'<li>{fmt(tr(lab))}</li>'
         cols.append(f'<div class="lg"><h3>{fmt(g["h"])}</h3><ul>{lis}</ul></div>')
     allx = f'<p class="lgall"><a class="btn btn-gh" href="{url(b["all"])}">{tr("Ver todos los motivos de consulta")}</a></p>' if b.get("all") in BYSLUG else ""
     return f'<section class="lgs"><div class="wrap">{sec_head(b.get("eyebrow", ""), b["h2"], b.get("intro"))}<div class="lggrid">{"".join(cols)}</div>{allx}</div></section>'

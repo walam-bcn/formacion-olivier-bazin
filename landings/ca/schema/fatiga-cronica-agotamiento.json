@@ -218,7 +218,7 @@
       },
       "about": {
         "@type": "MedicalCondition",
-        "name": "Fatiga crónica",
+        "name": "Fatiga crònica",
         "possibleTreatment": [
           {
             "@type": "MedicalTherapy",
