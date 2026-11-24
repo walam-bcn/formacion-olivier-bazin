@@ -1331,7 +1331,7 @@ OB_URL = "https://www.walambcn.com/formacion-avanzada-internacional-osteopatia-u
 def uro_pro():
     return {"type": "explain", "eyebrow": "Para profesionales", "h2": "Formación en osteopatía urogenital con Olivier Bazin",
             "paras": ["WA LAM organiza en Barcelona la formación internacional de Olivier Bazin, D.O., en manipulaciones urogenitales y trastornos pélvicos femeninos, con abordaje externo. Está dirigida a osteópatas y terapeutas manuales. [Ver programa y fechas](" + OB_URL + ")."]}
-UG_NOTE = "En WA LAM el abordaje es siempre externo y se dirige a mujeres. El diagnóstico y el tratamiento médico corresponden a tu ginecóloga, urólogo o médico especialista."
+UG_NOTE = "En WA LAM el abordaje es siempre externo y se dirige a mujeres."
 
 def uro_page(slug, nav, card, title, desc, about, h1, sub, lead, facts, wa, mirror_h2, qs, close, ex1_h2, ex1, ex2_h2, ex2, ev, refs, faq, related, cta_h2):
     blocks = [{"type": "mirror", "eyebrow": "¿Te reconoces?", "h2": mirror_h2, "qs": qs}]
@@ -2580,3 +2580,8 @@ for _p in PAGES:
         _q = "¿Cómo pido cita para una valoración de suelo pélvico?"
         if not any(q == _q for q, a in _p["faq"]):
             _p["faq"] = list(_p["faq"]) + [(_q, "Escríbenos por WhatsApp, cuéntanos brevemente qué notas y te proponemos día y hora para la primera valoración, de 60 minutos, en Sarrià–Sant Gervasi.")]
+
+# Todas las páginas de salud pélvica enlazan a la formación de Olivier Bazin
+for _p in PAGES:
+    if _p["slug"] in ("dolor-pelvico-barcelona", "ejercicios-suelo-pelvico") and not any(b.get("eyebrow") == "Para profesionales" for b in _p["blocks"]):
+        _p["blocks"].append(uro_pro())
