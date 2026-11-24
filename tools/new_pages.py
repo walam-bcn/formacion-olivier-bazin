@@ -7,7 +7,8 @@ DIR = Path(__file__).parent / "new_pages"
 OLD_LUMBAR = "lumbalgia-cervicalgia-cronica"
 
 EYEBROW = {
-    "fatiga-cronica-agotamiento": "Sistema nervioso · Energía",
+    "fatiga-cronica-agotamiento": "Sistema nervioso · Energía", "agotamiento-fisico-emocional": "Sistema nervioso · Energía",
+    "intolerancias-alimentarias": "Salud digestiva", "alergias-asma-infecciones": "Inflamación e inmunidad",
     "salud-digestiva-microbiota": "Salud digestiva · PNIE", "colon-irritable-sibo": "Salud digestiva",
     "reflujo-acidez": "Salud digestiva", "enfermedad-inflamatoria-intestinal": "Salud digestiva",
     "inflamacion-cronica-autoinmunes": "Inflamación e inmunidad", "hipotiroidismo-hashimoto": "Sistema endocrino",
@@ -103,11 +104,11 @@ def integrate_research(RESEARCH):
 AREAS = [
     ("Dolor y aparato locomotor", "02", ["lumbalgia-dolor-lumbar", "cervicalgia-dolor-cuello", "dorsalgia-dolor-espalda-alta", "ciatica",
                                          "artrosis", "hombro-doloroso", "dolor-rodilla-condromalacia", "contracturas-desgarros-musculares",
-                                         "bruxismo-dolor-mandibular-atm", "fibromialgia", "dolor-persistente-cronico", "dolor-neuropatico", "cefaleas-migrana"]),
-    ("Inflamación e inmunidad", "03", ["inflamacion-cronica-autoinmunes"]),
-    ("Salud digestiva", "01", ["salud-digestiva-microbiota", "colon-irritable-sibo", "reflujo-acidez", "enfermedad-inflamatoria-intestinal"]),
+                                         "bruxismo-dolor-mandibular-atm", "hernia-disco-incipiente", "torticolis", "esguinces", "fascitis-plantar", "tunel-carpiano", "osteoporosis", "fibromialgia", "dolor-persistente-cronico", "dolor-neuropatico", "cefaleas-migrana"]),
+    ("Inflamación e inmunidad", "03", ["inflamacion-cronica-autoinmunes", "alergias-asma-infecciones"]),
+    ("Salud digestiva", "01", ["salud-digestiva-microbiota", "colon-irritable-sibo", "reflujo-acidez", "enfermedad-inflamatoria-intestinal", "intolerancias-alimentarias"]),
     ("Metabolismo", "04", ["salud-metabolica", "perdida-de-peso-sarria-sant-gervasi", "dejar-de-fumar-acupuntura"]),
-    ("Energía, estrés y sueño", "05", ["fatiga-cronica-agotamiento", "estres-ansiedad", "sueno-insomnio"]),
+    ("Energía, estrés y sueño", "05", ["agotamiento-fisico-emocional", "fatiga-cronica-agotamiento", "estres-ansiedad", "sueno-insomnio"]),
     ("Salud de la mujer", "06", ["salud-mujer-menopausia", "sindrome-ovario-poliquistico", "candidiasis-vaginal-repeticion",
                                  "cistitis-repeticion-vejiga-dolorosa", "acompanamiento-fertilidad", "suelo-pelvico-dolor-pelvico"]),
     ("Sistema endocrino", "07", ["hipotiroidismo-hashimoto"]),
