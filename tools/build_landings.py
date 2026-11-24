@@ -61,7 +61,7 @@ OUT.mkdir(exist_ok=True)
 BYSLUG = {p["slug"]: p for p in PAGES}
 # Ficha de Google (Wa Lam). Sustituir por el enlace «Compartir» de Google Maps cuando lo tengamos.
 MAPS_URL = "https://share.google/ND7AyHqhaIKZufsCF"
-NEWSLETTER_URL = "mailto:contacto@walambcn.com?subject=Alta%20en%20la%20newsletter%20de%20WA%20LAM&body=Hola%2C%20quiero%20recibir%20la%20newsletter%20de%20WA%20LAM%20con%20novedades%2C%20talleres%20y%20retiros.%20Acepto%20que%20WA%20LAM%20use%20mi%20correo%20solo%20para%20este%20fin."
+NEWSLETTER_URL = "https://www.walambcn.com/newsletter"
 DIR_URL = "https://www.google.com/maps/dir/?api=1&destination=Wa%20Lam%2C%20Carrer%20del%20Bisbe%20Sivilla%2044%2C%2008022%20Barcelona"
 
 
