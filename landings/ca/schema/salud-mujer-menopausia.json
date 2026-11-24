@@ -171,7 +171,7 @@
         {
           "@type": "ListItem",
           "position": 3,
-          "name": "Salut de la dona i menopausa",
+          "name": "Menopausa",
           "item": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/salut-dona-menopausa"
         }
       ]
@@ -180,8 +180,8 @@
       "@type": "MedicalWebPage",
       "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/salut-dona-menopausa#webpage",
       "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/salut-dona-menopausa",
-      "name": "Menopausa i perimenopausa a Barcelona | WA LAM",
-      "description": "Perimenopausa i menopausa amb enfocament integratiu a Barcelona: son, força, sòl pelvià, digestió i estrès, com a complement del seguiment ginecològic.",
+      "name": "Menopausa a Barcelona: fogots, son i força | WA LAM",
+      "description": "Perimenopausa i menopausa amb enfocament integratiu a Sarrià–Sant Gervasi, Barcelona: fogots, son, força, sòl pelvià, digestió i estrès.",
       "inLanguage": "ca-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -196,7 +196,7 @@
       },
       "lastReviewed": "2026-11-18",
       "dateModified": "2026-11-18",
-      "keywords": "menopausa tractament integratiu Barcelona, perimenopausa símptomes, menopausa insomni, exercici de força menopausa, sòl pelvià menopausa",
+      "keywords": "menopausia Barcelona, perimenopausia Barcelona, sofocos tratamiento natural, menopausia acupuntura, menopausia ejercicio de fuerza, menopausa tractament integratiu Barcelona",
       "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/salud-mujer-menopausia.png",
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -264,7 +264,7 @@
           "name": "Valoreu la microbiota vaginal?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Davant de molèsties o infeccions de repetició, valorem a la primera visita si convé un estudi dirigit o una consulta amb la teva ginecòloga. Si convé un estudi, et derivem a un centre especialitzat. Ho expliquem a longevitat i prevenció."
+            "text": "Davant de molèsties o infeccions de repetició, valorem a la primera visita si convé un estudi dirigit. Ho expliquem a longevitat i prevenció."
           }
         },
         {

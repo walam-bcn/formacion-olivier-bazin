@@ -581,6 +581,8 @@ def explain(e):
     q = f'<div class="quote">{fmt(e["quote"])}</div>' if e.get("quote") else ""
     li = (f'<p class="k" style="text-align:center;margin-top:22px">{fmt(e["list_title"])}</p><ul class="ilist">' + "".join(f"<li>{fmt(x)}</li>" for x in e["list"]) + "</ul>") if e.get("list") else ""
     btn = f'<div class="btn-row"><a class="btn btn-tq" href="{wa(e["wa_btn"])}" target="_blank" rel="noopener">{tr("Escríbenos por WhatsApp")}</a></div>' if e.get("wa_btn") else ""
+    if e.get("link_btn"):
+        btn += f'<div class="btn-row"><a class="btn btn-gh" href="{e["link_btn"][1]}" target="_blank" rel="noopener">{tr(e["link_btn"][0])}</a></div>'
     return f'<section class="explain"><div class="wrap">{sec_head(e["eyebrow"], e["h2"], e.get("intro"))}<div class="txt">{ps}</div>{li}{q}{btn}</div></section>'
 
 

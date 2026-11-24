@@ -2599,3 +2599,15 @@ for _p in PAGES:
             return s
         from new_pages import _walk as _w2
         _w2(_p, _mf)
+
+# Botón a la formación de Olivier Bazin en todo lo que se trata en su curso (pelvis, mujer, menopausia, visceral)
+OLIVIER_PAGES = ["suelo-pelvico-dolor-pelvico", "dolor-pelvico-barcelona", "ejercicios-suelo-pelvico", "neuralgia-pudendo", "dolor-menstrual-endometriosis",
+                 "dispareunia-dolor-relaciones", "dolor-coxis-coccigodinia", "cistitis-repeticion-vejiga-dolorosa", "osteopatia-embarazo-posparto",
+                 "incontinencia-urinaria-esfuerzo", "prolapso-organos-pelvicos", "salud-mujer-menopausia", "sindrome-ovario-poliquistico",
+                 "candidiasis-vaginal-repeticion", "acompanamiento-fertilidad", "manipulaciones-neuroviscerales", "osteopatia-visceral-barcelona"]
+for _p in PAGES:
+    if _p["slug"] in OLIVIER_PAGES:
+        _p["blocks"] = [b for b in _p["blocks"] if b.get("h2") != "Para profesionales" and b.get("eyebrow") != "Para profesionales"]
+        _ob = uro_pro()
+        _ob["link_btn"] = ("Ver la formación de Olivier Bazin", OB_URL)
+        _p["blocks"].append(_ob)

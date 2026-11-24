@@ -171,7 +171,7 @@
         {
           "@type": "ListItem",
           "position": 3,
-          "name": "Salud de la mujer y menopausia",
+          "name": "Menopausia",
           "item": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/salud-mujer-menopausia"
         }
       ]
@@ -180,8 +180,8 @@
       "@type": "MedicalWebPage",
       "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/salud-mujer-menopausia#webpage",
       "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/salud-mujer-menopausia",
-      "name": "Menopausia y perimenopausia en Barcelona | WA LAM",
-      "description": "Perimenopausia y menopausia con enfoque integrativo en Barcelona: sueño, fuerza, suelo pélvico, digestión y estrés, como complemento del seguimiento ginecológico.",
+      "name": "Menopausia en Barcelona: sofocos, sueño y fuerza | WA LAM",
+      "description": "Perimenopausia y menopausia con enfoque integrativo en Sarrià–Sant Gervasi, Barcelona: sofocos, sueño, fuerza, suelo pélvico, digestión y estrés.",
       "inLanguage": "es-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -196,7 +196,7 @@
       },
       "lastReviewed": "2026-11-18",
       "dateModified": "2026-11-18",
-      "keywords": "menopausia tratamiento integrativo Barcelona, perimenopausia síntomas, menopausia insomnio, ejercicio de fuerza menopausia, suelo pélvico menopausia",
+      "keywords": "menopausia Barcelona, perimenopausia Barcelona, sofocos tratamiento natural, menopausia acupuntura, menopausia ejercicio de fuerza, menopausia tratamiento integrativo Barcelona",
       "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/salud-mujer-menopausia.png",
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -264,7 +264,7 @@
           "name": "¿Valoráis la microbiota vaginal?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Ante molestias o infecciones de repetición, valoramos en la primera visita si conviene un estudio dirigido o una consulta con tu ginecóloga. Si conviene un estudio, te derivamos a un centro especializado. Lo explicamos en longevidad y prevención."
+            "text": "Ante molestias o infecciones de repetición, valoramos en la primera visita si conviene un estudio dirigido. Lo explicamos en longevidad y prevención."
           }
         },
         {
