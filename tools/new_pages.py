@@ -7,8 +7,8 @@ DIR = Path(__file__).parent / "new_pages"
 OLD_LUMBAR = "lumbalgia-cervicalgia-cronica"
 
 EYEBROW = {
-    "fatiga-cronica-agotamiento": "Sistema nervioso · Energía", "agotamiento-fisico-emocional": "Sistema nervioso · Energía",
-    "intolerancias-alimentarias": "Salud digestiva", "alergias-asma-infecciones": "Inflamación e inmunidad",
+    "fatiga-cronica-agotamiento": "Sistema nervioso · Energía", "agotamiento-fisico-emocional": "Sistema nervioso · Energía", "cortisol-estres-cronico": "Sistema nervioso · Estrés", "nervio-vago": "Sistema nervioso · Osteopatía", "neuralgia-trigemino": "Dolor · Sistema nervioso",
+    "intolerancias-alimentarias": "Salud digestiva", "intolerancia-histamina": "Salud digestiva", "intolerancia-fructosa": "Salud digestiva", "intolerancia-lactosa": "Salud digestiva", "intolerancia-gluten": "Salud digestiva", "diarrea-cronica": "Salud digestiva", "estrenimiento": "Salud digestiva", "gases-hinchazon-abdominal": "Salud digestiva", "digestiones-pesadas-gastritis": "Salud digestiva", "alergias-asma-infecciones": "Inflamación e inmunidad",
     "salud-digestiva-microbiota": "Salud digestiva · PNIE", "colon-irritable-sibo": "Salud digestiva",
     "reflujo-acidez": "Salud digestiva", "enfermedad-inflamatoria-intestinal": "Salud digestiva",
     "inflamacion-cronica-autoinmunes": "Inflamación e inmunidad", "hipotiroidismo-hashimoto": "Sistema endocrino",
@@ -29,6 +29,10 @@ def _page(d):
     blocks = [
         {"type": "mirror", "eyebrow": "¿Te reconoces?", "h2": d["mirror"]["h2"], "qs": d["mirror"]["qs"], "close": d["mirror"].get("close", "")},
         {"type": "explain", "eyebrow": "Qué es", "h2": d["explain"]["h2"], "paras": d["explain"]["paras"]},
+    ]
+    if d.get("explain2"):
+        blocks.append({"type": "explain", "eyebrow": "", "h2": d["explain2"]["h2"], "paras": d["explain2"]["paras"]})
+    blocks += [
         {"type": "cards", "eyebrow": "Cómo lo abordamos", "h2": d["cards"]["h2"], "items": d["cards"]["items"]},
         {"type": "evidence", "h2": ev.get("h2", "Qué dice la evidencia"), "items": [tuple(x) for x in ev["items"]], "refs": ev.get("refs", [])},
     ]
@@ -104,11 +108,11 @@ def integrate_research(RESEARCH):
 AREAS = [
     ("Dolor y aparato locomotor", "02", ["lumbalgia-dolor-lumbar", "cervicalgia-dolor-cuello", "dorsalgia-dolor-espalda-alta", "ciatica",
                                          "artrosis", "hombro-doloroso", "dolor-rodilla-condromalacia", "contracturas-desgarros-musculares",
-                                         "bruxismo-dolor-mandibular-atm", "hernia-disco-incipiente", "torticolis", "esguinces", "fascitis-plantar", "tunel-carpiano", "osteoporosis", "fibromialgia", "dolor-persistente-cronico", "dolor-neuropatico", "cefaleas-migrana"]),
+                                         "bruxismo-dolor-mandibular-atm", "neuralgia-trigemino", "hernia-disco-incipiente", "torticolis", "esguinces", "fascitis-plantar", "tunel-carpiano", "osteoporosis", "fibromialgia", "dolor-persistente-cronico", "dolor-neuropatico", "cefaleas-migrana"]),
     ("Inflamación e inmunidad", "03", ["inflamacion-cronica-autoinmunes", "alergias-asma-infecciones"]),
-    ("Salud digestiva", "01", ["salud-digestiva-microbiota", "colon-irritable-sibo", "reflujo-acidez", "enfermedad-inflamatoria-intestinal", "intolerancias-alimentarias"]),
+    ("Salud digestiva", "01", ["salud-digestiva-microbiota", "colon-irritable-sibo", "reflujo-acidez", "digestiones-pesadas-gastritis", "gases-hinchazon-abdominal", "estrenimiento", "diarrea-cronica", "enfermedad-inflamatoria-intestinal", "intolerancias-alimentarias", "intolerancia-gluten", "intolerancia-lactosa", "intolerancia-fructosa", "intolerancia-histamina"]),
     ("Metabolismo", "04", ["salud-metabolica", "perdida-de-peso-sarria-sant-gervasi", "dejar-de-fumar-acupuntura"]),
-    ("Energía, estrés y sueño", "05", ["agotamiento-fisico-emocional", "fatiga-cronica-agotamiento", "estres-ansiedad", "sueno-insomnio"]),
+    ("Energía, estrés y sueño", "05", ["nervio-vago", "agotamiento-fisico-emocional", "cortisol-estres-cronico", "fatiga-cronica-agotamiento", "estres-ansiedad", "sueno-insomnio"]),
     ("Salud de la mujer", "06", ["salud-mujer-menopausia", "sindrome-ovario-poliquistico", "candidiasis-vaginal-repeticion",
                                  "cistitis-repeticion-vejiga-dolorosa", "acompanamiento-fertilidad", "suelo-pelvico-dolor-pelvico"]),
     ("Sistema endocrino", "07", ["hipotiroidismo-hashimoto"]),
