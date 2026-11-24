@@ -2605,7 +2605,8 @@ OLIVIER_PAGES = ["suelo-pelvico-dolor-pelvico", "dolor-pelvico-barcelona", "ejer
                  "dispareunia-dolor-relaciones", "dolor-coxis-coccigodinia", "cistitis-repeticion-vejiga-dolorosa", "osteopatia-embarazo-posparto",
                  "incontinencia-urinaria-esfuerzo", "prolapso-organos-pelvicos", "salud-mujer-menopausia", "sindrome-ovario-poliquistico",
                  "candidiasis-vaginal-repeticion", "acompanamiento-fertilidad", "manipulaciones-neuroviscerales", "osteopatia-visceral-barcelona",
-                 "osteopatia-sarria-sant-gervasi", "osteopatia-craneosacral-barcelona", "nervio-vago"]
+                 "osteopatia-sarria-sant-gervasi", "osteopatia-craneosacral-barcelona", "nervio-vago",
+                 "osteopatia-fascia-barcelona", "osteopatia-trauma-emocional"]
 for _p in PAGES:
     if _p["slug"] in OLIVIER_PAGES:
         _p["blocks"] = [b for b in _p["blocks"] if b.get("h2") != "Para profesionales" and b.get("eyebrow") != "Para profesionales"]

@@ -7,7 +7,7 @@ DIR = Path(__file__).parent / "new_pages"
 OLD_LUMBAR = "lumbalgia-cervicalgia-cronica"
 
 EYEBROW = {
-    "fatiga-cronica-agotamiento": "Sistema nervioso · Energía", "agotamiento-fisico-emocional": "Sistema nervioso · Energía", "cortisol-estres-cronico": "Sistema nervioso · Estrés", "dolor-pelvico-barcelona": "Salud pélvica", "ejercicios-suelo-pelvico": "Salud pélvica", "nervio-vago": "Sistema nervioso · Osteopatía", "neuralgia-trigemino": "Dolor · Sistema nervioso",
+    "fatiga-cronica-agotamiento": "Sistema nervioso · Energía", "agotamiento-fisico-emocional": "Sistema nervioso · Energía", "cortisol-estres-cronico": "Sistema nervioso · Estrés", "dolor-pelvico-barcelona": "Salud pélvica", "ejercicios-suelo-pelvico": "Salud pélvica", "nervio-vago": "Osteopatía · Sistema nervioso", "osteopatia-fascia-barcelona": "Osteopatía", "osteopatia-trauma-emocional": "Osteopatía", "neuralgia-trigemino": "Dolor · Sistema nervioso",
     "intolerancias-alimentarias": "Salud digestiva", "intolerancia-histamina": "Salud digestiva", "intolerancia-fructosa": "Salud digestiva", "intolerancia-lactosa": "Salud digestiva", "intolerancia-gluten": "Salud digestiva", "diarrea-cronica": "Salud digestiva", "estrenimiento": "Salud digestiva", "gases-hinchazon-abdominal": "Salud digestiva", "digestiones-pesadas-gastritis": "Salud digestiva", "alergias-asma-infecciones": "Inflamación e inmunidad",
     "salud-digestiva-microbiota": "Salud digestiva · PNIE", "colon-irritable-sibo": "Salud digestiva",
     "reflujo-acidez": "Salud digestiva", "enfermedad-inflamatoria-intestinal": "Salud digestiva",
@@ -43,7 +43,7 @@ def _page(d):
         {"type": "cards", "eyebrow": "Cómo lo abordamos", "h2": d["cards"]["h2"], "items": d["cards"]["items"]},
         {"type": "evidence", "h2": ev.get("h2", "Qué dice la evidencia"), "items": [tuple(x) for x in ev["items"]], "refs": ev.get("refs", [])},
     ]
-    return {"slug": d["slug"], "group": "motivo", "wave": 3, "nav": d["nav"], "card": d["card"], "title": d["title"], "desc": d["desc"],
+    return {"slug": d["slug"], "group": d.get("group", "motivo"), "wave": 3, "nav": d["nav"], "card": d["card"], "title": d["title"], "desc": d["desc"],
             "about": d["seo"]["entity"][1], "eyebrow": EYEBROW.get(d["slug"], "Dolor · Aparato locomotor"),
             "h1": d["h1"], "sub": d["sub"], "lead": d["lead"], "facts_title": d.get("facts_title", "En WA LAM"), "facts": d["facts"],
             "wa": d["wa"], "blocks": blocks, "faq": [tuple(x) for x in d["faq"]], "related": d["related"],
@@ -107,9 +107,14 @@ def integrate_seo(SEO, URLS, CA_SLUG, H):
         s = d["seo"]
         SEO[d["slug"]] = {"kw": s["kw"], "kws": s["kws"], "ca": s["ca_kw"], "title": d["title"], "desc": d["desc"],
                           "quick": s["quick"], "entity": tuple(s["entity"])}
-        if d["slug"] not in URLS:
+        if d.get("url_path"):
+            URLS[d["slug"]] = d["url_path"]
+        elif d["slug"] not in URLS:
             URLS[d["slug"]] = f"{H}/{d['slug']}"
-        CA_SLUG.setdefault(d["slug"], d["ca_slug"])
+        if d.get("url_path"):
+            CA_SLUG[d["slug"]] = d["ca_slug"]
+        else:
+            CA_SLUG.setdefault(d["slug"], d["ca_slug"])
 
 
 def integrate_research(RESEARCH):
@@ -122,11 +127,11 @@ def integrate_research(RESEARCH):
 AREAS = [
     ("Dolor y aparato locomotor", "02", ["lumbalgia-dolor-lumbar", "cervicalgia-dolor-cuello", "dorsalgia-dolor-espalda-alta", "ciatica",
                                          "artrosis", "hombro-doloroso", "dolor-rodilla-condromalacia", "contracturas-desgarros-musculares",
-                                         "bruxismo-dolor-mandibular-atm", "neuralgia-trigemino", "hernia-disco-incipiente", "torticolis", "esguinces", "fascitis-plantar", "tunel-carpiano", "osteoporosis", "fibromialgia", "dolor-persistente-cronico", "dolor-neuropatico", "cefaleas-migrana"]),
+                                         "bruxismo-dolor-mandibular-atm", "osteopatia-fascia-barcelona", "neuralgia-trigemino", "hernia-disco-incipiente", "torticolis", "esguinces", "fascitis-plantar", "tunel-carpiano", "osteoporosis", "fibromialgia", "dolor-persistente-cronico", "dolor-neuropatico", "cefaleas-migrana"]),
     ("Inflamación e inmunidad", "03", ["inflamacion-cronica-autoinmunes", "alergias-asma-infecciones"]),
     ("Salud digestiva", "01", ["salud-digestiva-microbiota", "colon-irritable-sibo", "reflujo-acidez", "digestiones-pesadas-gastritis", "gases-hinchazon-abdominal", "estrenimiento", "diarrea-cronica", "enfermedad-inflamatoria-intestinal", "intolerancias-alimentarias", "intolerancia-gluten", "intolerancia-lactosa", "intolerancia-fructosa", "intolerancia-histamina"]),
     ("Metabolismo", "04", ["salud-metabolica", "perdida-de-peso-sarria-sant-gervasi", "dejar-de-fumar-acupuntura"]),
-    ("Energía, estrés y sueño", "05", ["nervio-vago", "agotamiento-fisico-emocional", "cortisol-estres-cronico", "fatiga-cronica-agotamiento", "estres-ansiedad", "sueno-insomnio"]),
+    ("Energía, estrés y sueño", "05", ["nervio-vago", "osteopatia-trauma-emocional", "agotamiento-fisico-emocional", "cortisol-estres-cronico", "fatiga-cronica-agotamiento", "estres-ansiedad", "sueno-insomnio"]),
     ("Salud de la mujer", "06", ["salud-mujer-menopausia", "sindrome-ovario-poliquistico", "candidiasis-vaginal-repeticion",
                                  "suelo-pelvico-dolor-pelvico", "dolor-pelvico-barcelona", "ejercicios-suelo-pelvico", "cistitis-repeticion-vejiga-dolorosa", "acompanamiento-fertilidad"]),
     ("Sistema endocrino", "07", ["hipotiroidismo-hashimoto"]),
