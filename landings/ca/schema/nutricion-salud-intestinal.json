@@ -220,7 +220,7 @@
     {
       "@type": "Service",
       "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/nutricio-barcelona#servicio",
-      "name": "Nutrició i salut intestinal",
+      "name": "Nutrició i salut intestinal a Barcelona",
       "serviceType": "Nutrició i salut intestinal",
       "provider": {
         "@id": "https://www.walambcn.com/#clinica"

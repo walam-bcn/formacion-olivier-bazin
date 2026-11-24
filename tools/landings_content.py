@@ -2384,3 +2384,44 @@ for _p in PAGES:
 for _p in PAGES:
     if _p["slug"] not in ("programas-re-trace", "formacion-re-trace"):
         _p["related"] = [r for r in _p.get("related", []) if r != "programas-re-trace"]
+
+# H1 descriptivos (comparativa SEO de noviembre de 2026)
+_H1 = {
+    "dolor-persistente-cronico": "Abordaje del dolor crónico en Barcelona",
+    "estres-ansiedad": "Estrés y ansiedad en Barcelona",
+    "sueno-insomnio": "Sueño e insomnio en Barcelona",
+    "salud-mujer-menopausia": "Salud de la mujer y menopausia en Barcelona",
+    "neurolongevidad-salud-cognitiva": "Salud cognitiva y regulación del sistema nervioso en Barcelona",
+    "suelo-pelvico-dolor-pelvico": "Salud pélvica y tratamiento urogenital en Barcelona",
+    "nutricion-salud-intestinal": "Nutrición y salud intestinal en Barcelona",
+    "pni-pnie-barcelona": "Psiconeuroinmunoendocrinología (PNIE) en Barcelona",
+    "neuralgia-pudendo": "Neuralgia del pudendo y dolor perineal",
+    "incontinencia-urinaria-esfuerzo": "Incontinencia urinaria de esfuerzo y suelo pélvico",
+    "osteopatia-embarazo-posparto": "Osteopatía en el embarazo y el posparto en Barcelona",
+    "salud-digestiva-microbiota": "Salud digestiva y microbiota en Barcelona",
+}
+_BLOG_INTRO = {
+    "nutricion-salud-intestinal": "En el magazín de WA LAM encontrarás más información sobre alimentación y microbiota:",
+    "salud-digestiva-microbiota": "En el magazín de WA LAM encontrarás más información sobre el intestino y la microbiota:",
+}
+_NUTRI_STEPS = {"type": "steps", "eyebrow": "Primera visita", "h2": "Cómo es la primera visita de nutrición",
+    "items": [("Antes de venir", "Rellenas el [formulario de primera cita](https://www.walambcn.com/primera-cita) y nos envías tus analíticas recientes, si las tienes."),
+              ("La consulta", "Setenta y cinco minutos para revisar tus síntomas digestivos, tu historia clínica, qué comes, cómo y cuándo comes, tu descanso y tu nivel de estrés."),
+              ("Las pautas", "Recibes por escrito unas pautas de alimentación antiinflamatoria individualizadas, progresivas y adaptadas a tu vida."),
+              ("El seguimiento", "En las visitas de seguimiento (40 minutos) revisamos cómo responde tu digestión y ajustamos las pautas.")]}
+def _blog_block(sl):
+    from urllib.parse import unquote as _uq
+    from seo_map import BLOG as _B
+    links = []
+    for b in _B.get(sl, []):
+        t = _uq(b).split("/post/")[1].replace("-", " ")
+        links.append("[" + t[0].upper() + t[1:] + "](https://www.walambcn.com" + b + ")")
+    return {"type": "explain", "eyebrow": "Magazín", "h2": "Artículos relacionados", "paras": [_BLOG_INTRO[sl] + " " + " · ".join(links)]}
+for _p in PAGES:
+    if _p["slug"] in _H1:
+        _p["h1"] = _H1[_p["slug"]]
+    if _p["slug"] == "nutricion-salud-intestinal":
+        _p["blocks"].insert(1, _NUTRI_STEPS)
+    if _p["slug"] in _BLOG_INTRO:
+        _k = next((n for n, b in enumerate(_p["blocks"]) if b.get("type") == "pro"), len(_p["blocks"]))
+        _p["blocks"].insert(_k, _blog_block(_p["slug"]))

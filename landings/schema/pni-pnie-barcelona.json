@@ -240,7 +240,7 @@
     {
       "@type": "Service",
       "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/pni-pnie-barcelona#servicio",
-      "name": "PNI y PNIE en Barcelona",
+      "name": "Psiconeuroinmunoendocrinología (PNIE) en Barcelona",
       "serviceType": "PNI y PNIE",
       "provider": {
         "@id": "https://www.walambcn.com/#clinica"
