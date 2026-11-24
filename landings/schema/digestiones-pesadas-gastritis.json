@@ -264,7 +264,7 @@
           "name": "¿Y si tengo Helicobacter pylori?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Su diagnóstico y su tratamiento antibiótico los pauta tu médico. En paralelo, trabajamos contigo los hábitos, la alimentación y el estrés para que tu estómago se recupere mejor."
+            "text": "El diagnóstico y el tratamiento antibiótico los pauta su médico. En paralelo, trabajamos con usted los hábitos, la alimentación y el estrés para que su estómago se recupere mejor."
           }
         },
         {
@@ -272,7 +272,7 @@
           "name": "¿Tengo que dejar de comer muchos alimentos?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No necesariamente. Buscamos qué te sienta peor a ti y ajustamos cantidades, horarios y combinaciones antes de plantear restricciones."
+            "text": "No necesariamente. Buscamos qué le sienta peor a usted y ajustamos cantidades, horarios y combinaciones antes de plantear restricciones."
           }
         },
         {

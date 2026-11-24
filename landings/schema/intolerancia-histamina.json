@@ -259,7 +259,7 @@
           "name": "¿La dieta baja en histamina es para siempre?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. Es una fase temporal. Después reintroducimos alimentos para que tu dieta sea lo más amplia posible dentro de tu tolerancia."
+            "text": "No. Es una fase temporal. Después reintroducimos alimentos para que su dieta sea lo más amplia posible dentro de su tolerancia."
           }
         },
         {
@@ -267,7 +267,7 @@
           "name": "¿Tiene relación con la migraña?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "En algunas personas la histamina es un desencadenante del dolor de cabeza. Si es tu caso, puedes consultar también cefaleas y migraña."
+            "text": "En algunas personas la histamina es un desencadenante del dolor de cabeza. Si es su caso, puede consultar también cefaleas y migraña."
           }
         },
         {
@@ -275,7 +275,7 @@
           "name": "¿Puedo tomar suplementos de DAO?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Pueden ser útiles en algunas personas como apoyo a la dieta. Lo valoramos contigo según tu caso."
+            "text": "Pueden ser útiles en algunas personas como apoyo a la dieta. Lo valoramos con usted según su caso."
           }
         }
       ]

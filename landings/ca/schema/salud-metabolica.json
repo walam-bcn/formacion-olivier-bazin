@@ -256,7 +256,7 @@
           "name": "Què he de portar a la primera visita?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Les teves analítiques recents (colesterol, glucosa, hemoglobina glicada, perfil hepàtic), les teves xifres de tensió si les controles i la llista del que prens. Així podem mesurar el teu progrés."
+            "text": "Les seves analítiques recents (colesterol, glucosa, hemoglobina glicada, perfil hepàtic), les seves xifres de tensió si les controla i la llista del que pren. Així podem mesurar el seu progrés."
           }
         },
         {
@@ -264,7 +264,7 @@
           "name": "Quin exercici és millor?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "La combinació regular d'exercici aeròbic i de força. L'important és començar al teu nivell i progressar de mica en mica."
+            "text": "La combinació regular d'exercici aeròbic i de força. L'important és començar al seu nivell i progressar de mica en mica."
           }
         },
         {
@@ -272,7 +272,7 @@
           "name": "El fetge gras pot millorar?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí, respon bé a la pèrdua de pes moderada, l'alimentació mediterrània i l'exercici. El teu metge en farà el seguiment amb analítiques i ecografia."
+            "text": "Sí, respon bé a la pèrdua de pes moderada, l'alimentació mediterrània i l'exercici. El seu metge en farà el seguiment amb analítiques i ecografia."
           }
         },
         {
@@ -280,7 +280,7 @@
           "name": "Cada quant tindré seguiment?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Ho acordem a la primera visita segons els teus objectius. Els canvis d'hàbits necessiten constància, per això plantegem un seguiment progressiu."
+            "text": "Ho acordem a la primera visita segons els seus objectius. Els canvis d'hàbits necessiten constància, per això plantegem un seguiment progressiu."
           }
         }
       ]

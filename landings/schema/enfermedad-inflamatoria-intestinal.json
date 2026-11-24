@@ -251,7 +251,7 @@
           "name": "¿Qué debo traer a la primera visita?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Tus informes recientes, las analíticas y la lista de lo que tomas. Con eso y tu historia diseñamos un plan centrado en tu energía, tu alimentación y tu calidad de vida."
+            "text": "Sus informes recientes, las analíticas y la lista de lo que toma. Con eso y su historia diseñamos un plan centrado en su energía, su alimentación y su calidad de vida."
           }
         },
         {
@@ -259,7 +259,7 @@
           "name": "¿Hay una dieta para el Crohn o la colitis?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No hay una dieta única. Ajustamos la alimentación a tu fase, tus síntomas y tus tolerancias para comer con más seguridad y variedad."
+            "text": "No hay una dieta única. Ajustamos la alimentación a su fase, sus síntomas y sus tolerancias para comer con más seguridad y variedad."
           }
         },
         {
@@ -267,7 +267,7 @@
           "name": "¿Podéis ayudarme con la fatiga?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí. Revisamos el sueño, la actividad, el estrés y la alimentación, y proponemos movimiento suave adaptado a tu energía."
+            "text": "Sí. Revisamos el sueño, la actividad, el estrés y la alimentación, y proponemos movimiento suave adaptado a su energía."
           }
         },
         {
@@ -275,7 +275,7 @@
           "name": "¿Puedo venir durante un brote?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "En un brote, la prioridad es tu equipo de digestivo. Podemos acompañarte con pautas suaves y retomar el plan cuando estés más estable."
+            "text": "En un brote, la prioridad es su equipo de digestivo. Podemos acompañarle con pautas suaves y retomar el plan cuando esté más estable."
           }
         }
       ]

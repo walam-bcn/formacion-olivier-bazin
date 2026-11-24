@@ -181,7 +181,7 @@
       "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/sindrome-ovari-poliquistic#webpage",
       "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/sindrome-ovari-poliquistic",
       "name": "Síndrome d'ovari poliquístic a Barcelona | WA LAM",
-      "description": "Síndrome d'ovari poliquístic (SOP) a Sarrià–Sant Gervasi, Barcelona: alimentació, exercici, pes i resistència a la insulina al costat del teu ginecòleg.",
+      "description": "Síndrome d'ovari poliquístic (SOP) a Sarrià–Sant Gervasi, Barcelona: alimentació, exercici, pes i resistència a la insulina al costat del seu ginecòleg.",
       "inLanguage": "ca-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -268,7 +268,7 @@
           "name": "Quin tipus d'alimentació recomaneu?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Una alimentació basada en aliments frescos, amb proteïna i fibra a cada àpat i pocs sucres i ultraprocessats. L'adaptem als teus gustos i al teu ritme de vida."
+            "text": "Una alimentació basada en aliments frescos, amb proteïna i fibra a cada àpat i pocs sucres i ultraprocessats. L'adaptem als seus gustos i al seu ritme de vida."
           }
         },
         {
@@ -284,7 +284,7 @@
           "name": "I si busco un embaràs?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "També t'acompanyem en aquesta etapa. Pots conèixer el nostre acompanyament a la fertilitat."
+            "text": "També l'acompanyem en aquesta etapa. Pot conèixer el nostre acompanyament a la fertilitat."
           }
         }
       ]

@@ -181,7 +181,7 @@
       "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/longevitat-prevencio-barcelona#webpage",
       "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/longevitat-prevencio-barcelona",
       "name": "Longevitat i prevenció a Barcelona | WA LAM",
-      "description": "Medicina de longevitat a Sarrià–Sant Gervasi (Barcelona): valoració de com envelleix el teu organisme i programa de canvi d'hàbits basat en l'evidència.",
+      "description": "Medicina de longevitat a Sarrià–Sant Gervasi (Barcelona): valoració de com envelleix el seu organisme i programa de canvi d'hàbits basat en l'evidència.",
       "inLanguage": "ca-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -268,7 +268,7 @@
           "name": "És segur?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "El pla es basa en canvis d'hàbits i en teràpies de baix risc, adaptats a la teva història clínica i a la teva medicació. No inclou tractaments «antiaging» sense suport científic."
+            "text": "El pla es basa en canvis d'hàbits i en teràpies de baix risc, adaptats a la seva història clínica i a la seva medicació. No inclou tractaments «antiaging» sense suport científic."
           }
         },
         {
@@ -308,7 +308,7 @@
           "name": "Què he de portar a la primera visita?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Les teves analítiques i proves mèdiques recents. Abans de la visita et demanarem que emplenis el formulari de primera cita."
+            "text": "Les seves analítiques i proves mèdiques recents. Abans de la visita li demanarem que empleni el formulari de primera cita."
           }
         },
         {
@@ -316,7 +316,7 @@
           "name": "Demaneu proves addicionals?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Només quan poden canviar el pla. La més habitual és l'estudi de microbiota intestinal; segons el teu cas, valorem altres proves o una consulta amb l'especialista."
+            "text": "Només quan poden canviar el pla. La més habitual és l'estudi de microbiota intestinal; segons el seu cas, valorem altres proves o una consulta amb l'especialista."
           }
         },
         {
@@ -324,7 +324,7 @@
           "name": "Quines proves inclou la valoració?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Segons el teu cas: analítica general i metabòlica, marcadors cardiovasculars, panells hormonals, proves genètiques, estudi de microbiota, epigenètica, valoració cognitiva, composició corporal i valoració del son i de l'estrès. Tot s'integra en un informe final amb el teu pla d'acció."
+            "text": "Segons el seu cas: analítica general i metabòlica, marcadors cardiovasculars, panells hormonals, proves genètiques, estudi de microbiota, epigenètica, valoració cognitiva, composició corporal i valoració del son i de l'estrès. Tot s'integra en un informe final amb el seu pla d'acció."
           }
         },
         {
@@ -340,7 +340,7 @@
           "name": "Quant costa?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "La primera visita dura 60 minuts i costa 90 €. Després reps un pressupost personalitzat per al teu programa; els costos de laboratori s'abonen a part."
+            "text": "La primera visita dura 60 minuts i costa 90 €. Després rep un pressupost personalitzat per al seu programa; els costos de laboratori s'abonen a part."
           }
         },
         {
@@ -348,7 +348,7 @@
           "name": "Quant dura el programa?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "El programa base dura 12 setmanes, el temps mínim que necessiten els canvis en l'alimentació, la microbiota i els hàbits per consolidar-se, i es pot allargar segons la teva evolució."
+            "text": "El programa base dura 12 setmanes, el temps mínim que necessiten els canvis en l'alimentació, la microbiota i els hàbits per consolidar-se, i es pot allargar segons la seva evolució."
           }
         }
       ]

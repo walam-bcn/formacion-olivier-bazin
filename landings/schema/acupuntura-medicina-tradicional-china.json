@@ -293,7 +293,7 @@
           "name": "¿Es segura?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Realizada por un profesional formado y con agujas estériles de un solo uso, los efectos adversos graves son muy poco frecuentes. Avísanos si tomas anticoagulantes o estás embarazada."
+            "text": "Realizada por un profesional formado y con agujas estériles de un solo uso, los efectos adversos graves son muy poco frecuentes. Avísenos si toma anticoagulantes o está embarazada."
           }
         },
         {
@@ -309,7 +309,7 @@
           "name": "¿Y para dejar de fumar?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí, como apoyo, en una consulta específica. Te explicamos qué dice la evidencia en la página de acupuntura para dejar de fumar."
+            "text": "Sí, como apoyo, en una consulta específica. Le explicamos qué dice la evidencia en la página de acupuntura para dejar de fumar."
           }
         },
         {

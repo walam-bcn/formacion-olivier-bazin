@@ -260,7 +260,7 @@
           "name": "Quant de temps triga a notar-se la millora?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Amb els canvis d'horaris i d'alimentació, moltes persones noten menys acidesa en poques setmanes. Ajustem el pla amb tu fins a trobar el que funciona millor en el teu cas."
+            "text": "Amb els canvis d'horaris i d'alimentació, moltes persones noten menys acidesa en poques setmanes. Ajustem el pla amb vostè fins a trobar el que funciona millor en el seu cas."
           }
         },
         {
@@ -268,7 +268,7 @@
           "name": "Quins canvis ajuden més?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sopar abans i més lleuger, no estirar-se just després de menjar, perdre pes si hi ha sobrepès, deixar el tabac i menjar amb calma. Els adaptem a la teva rutina."
+            "text": "Sopar abans i més lleuger, no estirar-se just després de menjar, perdre pes si hi ha sobrepès, deixar el tabac i menjar amb calma. Els adaptem a la seva rutina."
           }
         },
         {
@@ -284,7 +284,7 @@
           "name": "Ateneu la gastritis i les digestions pesades?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí, la gastritis funcional i la dispèpsia. Si tens senyals d'alarma, primer t'ha de valorar el teu metge."
+            "text": "Sí, la gastritis funcional i la dispèpsia. Si té senyals d'alarma, primer l'ha de valorar el seu metge."
           }
         }
       ]

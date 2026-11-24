@@ -299,7 +299,7 @@
           "name": "Substitueix el tractament del meu metge?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. El tractament es fa en coordinació amb el teu metge especialista en limfedema: l'especialista s'encarrega de la valoració, les mesures i la indicació de la compressió, i WA LAM del drenatge limfàtic manual."
+            "text": "No. El tractament es fa en coordinació amb el seu metge especialista en limfedema: l'especialista s'encarrega de la valoració, les mesures i la indicació de la compressió, i WA LAM del drenatge limfàtic manual."
           }
         },
         {
@@ -315,7 +315,7 @@
           "name": "Necessito autorització mèdica?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí. Sense l'autorització del teu metge no tractem cap pacient oncològic, ni amb drenatge, ni amb reflexologia, ni amb massatge."
+            "text": "Sí. Sense l'autorització del seu metge no tractem cap pacient oncològic, ni amb drenatge, ni amb reflexologia, ni amb massatge."
           }
         },
         {

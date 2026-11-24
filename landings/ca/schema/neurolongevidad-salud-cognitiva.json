@@ -263,7 +263,7 @@
           "name": "Feu diagnòstic de deteriorament cognitiu?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. Si els oblits són freqüents o progressius, el diagnòstic correspon al teu metge o a un neuròleg. Et podem acompanyar en els hàbits i en la regulació de l'estrès i del son."
+            "text": "No. Si els oblits són freqüents o progressius, el diagnòstic correspon al seu metge o a un neuròleg. Podem donar-li suport en els hàbits i en la regulació de l'estrès i del son."
           }
         },
         {
@@ -279,7 +279,7 @@
           "name": "Oferiu estimulació transcranial?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Encara no. Si la incorporem, s'aplicarà només quan hi hagi una indicació avalada per l'evidència i en coordinació amb el teu metge."
+            "text": "Encara no. Si la incorporem, s'aplicarà només quan hi hagi una indicació avalada per l'evidència i en coordinació amb el seu metge."
           }
         },
         {

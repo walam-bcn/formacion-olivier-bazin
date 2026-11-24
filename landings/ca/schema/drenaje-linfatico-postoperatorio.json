@@ -181,7 +181,7 @@
       "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/drenatge-limfatic-postoperatori#webpage",
       "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/drenatge-limfatic-postoperatori",
       "name": "Drenatge limfàtic postoperatori a Barcelona | WA LAM",
-      "description": "Drenatge limfàtic manual postoperatori a Sarrià–Sant Gervasi, Barcelona: quines cirurgies atenem, quan començar, qui t'atén i com reservar.",
+      "description": "Drenatge limfàtic manual postoperatori a Sarrià–Sant Gervasi, Barcelona: quines cirurgies atenem, quan començar, qui l'atén i com reservar.",
       "inLanguage": "ca-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -260,7 +260,7 @@
         }
       ],
       "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/drenatge-limfatic-postoperatori",
-      "description": "Drenatge limfàtic manual postoperatori a Sarrià–Sant Gervasi, Barcelona: quines cirurgies atenem, quan començar, qui t'atén i com reservar."
+      "description": "Drenatge limfàtic manual postoperatori a Sarrià–Sant Gervasi, Barcelona: quines cirurgies atenem, quan començar, qui l'atén i com reservar."
     },
     {
       "@type": "FAQPage",
@@ -271,7 +271,7 @@
           "name": "Quan puc començar després de l'operació?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Depèn de la cirurgia i del que indiqui el teu cirurgià. Escriu-nos amb aquesta informació i t'orientem abans de reservar."
+            "text": "Depèn de la cirurgia i del que indiqui el seu cirurgià. Escrigui'ns amb aquesta informació i l'orientem abans de reservar."
           }
         },
         {
@@ -279,7 +279,7 @@
           "name": "Quantes sessions solen caldre?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Varia segons la intervenció, l'evolució i les indicacions del teu cirurgià. Ho revisem sessió a sessió. La sessió d'1 hora costa 70 € i el bo de 10 sessions més 1 de regal, 700 €."
+            "text": "Varia segons la intervenció, l'evolució i les indicacions del seu cirurgià. Ho revisem sessió a sessió. La sessió d'1 hora costa 70 € i el bo de 10 sessions més 1 de regal, 700 €."
           }
         },
         {
@@ -295,7 +295,7 @@
           "name": "He de portar la faixa?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Segueix les indicacions del teu cirurgià sobre peces de compressió. Normalment te la treus durant la sessió i te la tornes a posar en acabar."
+            "text": "Segueixi les indicacions del seu cirurgià sobre peces de compressió. Normalment se la treu durant la sessió i se la torna a posar en acabar."
           }
         }
       ]

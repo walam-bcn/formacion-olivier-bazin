@@ -293,7 +293,7 @@
           "name": "És segura?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Feta per un professional format i amb agulles estèrils d'un sol ús, els efectes adversos greus són molt poc freqüents. Avisa'ns si prens anticoagulants o estàs embarassada."
+            "text": "Feta per un professional format i amb agulles estèrils d'un sol ús, els efectes adversos greus són molt poc freqüents. Avisi'ns si pren anticoagulants o està embarassada."
           }
         },
         {
@@ -309,7 +309,7 @@
           "name": "I per deixar de fumar?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí, com a suport, en una consulta específica. T'expliquem què diu l'evidència a la pàgina d'acupuntura per deixar de fumar."
+            "text": "Sí, com a suport, en una consulta específica. Li expliquem què diu l'evidència a la pàgina d'acupuntura per deixar de fumar."
           }
         },
         {

@@ -280,7 +280,7 @@
           "name": "¿Cuándo se considera que tengo insomnio crónico?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Cuando te cuesta dormirte o mantener el sueño al menos tres noches por semana durante tres meses, y eso afecta a tu día."
+            "text": "Cuando le cuesta dormirse o mantener el sueño al menos tres noches por semana durante tres meses, y eso afecta a su día."
           }
         },
         {
@@ -288,7 +288,7 @@
           "name": "Duermo ocho horas y me levanto agotada. ¿Por qué?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Puede deberse a un sueño fragmentado, a un ritmo circadiano desajustado, al estrés, a cambios hormonales o a un trastorno como la apnea. En la primera visita revisamos estos factores y, si es necesario, te derivamos a una unidad del sueño."
+            "text": "Puede deberse a un sueño fragmentado, a un ritmo circadiano desajustado, al estrés, a cambios hormonales o a un trastorno como la apnea. En la primera visita revisamos estos factores y, si es necesario, le derivamos a una unidad del sueño."
           }
         },
         {
@@ -304,7 +304,7 @@
           "name": "¿Tengo que dejar las pastillas para dormir?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No sin hablarlo con tu médico. Cualquier cambio en la medicación debe hacerse con su supervisión."
+            "text": "No sin hablarlo con su médico. Cualquier cambio en la medicación debe hacerse con su supervisión."
           }
         },
         {
@@ -312,7 +312,7 @@
           "name": "¿Ofrecéis terapia cognitivo-conductual para el insomnio?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "La TCC-I es el tratamiento de primera elección. Si necesitas un programa completo de TCC-I, te derivamos a un psicólogo especializado en sueño."
+            "text": "La TCC-I es el tratamiento de primera elección. Si necesita un programa completo de TCC-I, le derivamos a un psicólogo especializado en sueño."
           }
         },
         {
@@ -320,7 +320,7 @@
           "name": "¿Cuándo debo ir a una unidad del sueño?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Si roncas fuerte con pausas en la respiración, tienes mucha somnolencia durante el día o sientes necesidad de mover las piernas por la noche."
+            "text": "Si ronca fuerte con pausas en la respiración, tiene mucha somnolencia durante el día o siente necesidad de mover las piernas por la noche."
           }
         }
       ]

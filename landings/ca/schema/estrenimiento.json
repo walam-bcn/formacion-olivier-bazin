@@ -256,7 +256,7 @@
           "name": "Quantes vegades cal anar al lavabo perquè sigui normal?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Entre tres vegades al dia i tres vegades per setmana es considera normal. Més que la freqüència, importa que evacuar no et costi i que et quedis bé."
+            "text": "Entre tres vegades al dia i tres vegades per setmana es considera normal. Més que la freqüència, importa que evacuar no li costi i que es quedi bé."
           }
         },
         {
@@ -264,7 +264,7 @@
           "name": "N'hi ha prou amb menjar més fibra?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "La fibra ajuda, però cal augmentar-la a poc a poc i acompanyar-la d'aigua i moviment. Si t'infla, ajustem el tipus de fibra."
+            "text": "La fibra ajuda, però cal augmentar-la a poc a poc i acompanyar-la d'aigua i moviment. Si l'infla, ajustem el tipus de fibra."
           }
         },
         {
@@ -272,7 +272,7 @@
           "name": "El massatge abdominal serveix de debò?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí: estimula el trànsit i relaxa l'abdomen. T'ensenyem a fer-lo a casa perquè l'incorporis a la teva rutina."
+            "text": "Sí: estimula el trànsit i relaxa l'abdomen. Li ensenyem a fer-lo a casa perquè l'incorpori a la seva rutina."
           }
         },
         {

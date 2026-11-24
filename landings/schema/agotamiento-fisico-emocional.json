@@ -259,7 +259,7 @@
           "name": "¿Qué debo traer a la primera visita?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Solo tus ganas de entender qué te pasa. Si tienes analíticas recientes, tráelas. Hablaremos de tu sueño, tu energía, tu trabajo y tu estrés para diseñar un plan a tu ritmo."
+            "text": "Solo sus ganas de entender qué le ocurre. Si tiene analíticas recientes, tráigalas. Hablaremos de su sueño, su energía, su trabajo y su estrés para diseñar un plan a su ritmo."
           }
         },
         {
@@ -267,7 +267,7 @@
           "name": "¿Necesito estar de baja para empezar?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. Muchas personas empiezan mientras siguen trabajando; ajustamos el plan a tu ritmo y a tu energía."
+            "text": "No. Muchas personas empiezan mientras siguen trabajando; ajustamos el plan a su ritmo y a su energía."
           }
         },
         {
@@ -275,7 +275,7 @@
           "name": "¿Cuánto tarda en notarse la mejoría?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Depende de cada persona y de cuánto tiempo llevas al límite. En la primera visita valoramos tu situación y te proponemos un plan."
+            "text": "Depende de cada persona y de cuánto tiempo lleva al límite. En la primera visita valoramos su situación y le proponemos un plan."
           }
         }
       ]

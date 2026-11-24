@@ -299,7 +299,7 @@
           "name": "¿Necesito traer analíticas?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Si tienes analíticas recientes, tráelas. Si hace falta alguna prueba, te lo indicaremos y te explicaremos para qué."
+            "text": "Si tiene analíticas recientes, tráigalas. Si hace falta alguna prueba, se lo indicaremos y le explicaremos para qué."
           }
         },
         {

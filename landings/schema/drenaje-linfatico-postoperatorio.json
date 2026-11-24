@@ -181,7 +181,7 @@
       "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/drenaje-linfatico-postoperatorio#webpage",
       "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/drenaje-linfatico-postoperatorio",
       "name": "Drenaje linfático postoperatorio en Barcelona | WA LAM",
-      "description": "Drenaje linfático manual postoperatorio en Sarrià–Sant Gervasi, Barcelona: qué cirugías atendemos, cuándo empezar, quién te atiende y cómo reservar.",
+      "description": "Drenaje linfático manual postoperatorio en Sarrià–Sant Gervasi, Barcelona: qué cirugías atendemos, cuándo empezar, quién le atiende y cómo reservar.",
       "inLanguage": "es-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -260,7 +260,7 @@
         }
       ],
       "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/drenaje-linfatico-postoperatorio",
-      "description": "Drenaje linfático manual postoperatorio en Sarrià–Sant Gervasi, Barcelona: qué cirugías atendemos, cuándo empezar, quién te atiende y cómo reservar."
+      "description": "Drenaje linfático manual postoperatorio en Sarrià–Sant Gervasi, Barcelona: qué cirugías atendemos, cuándo empezar, quién le atiende y cómo reservar."
     },
     {
       "@type": "FAQPage",
@@ -271,7 +271,7 @@
           "name": "¿Cuándo puedo empezar después de la operación?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Depende de la cirugía y de lo que indique tu cirujano. Escríbenos con esa información y te orientamos antes de reservar."
+            "text": "Depende de la cirugía y de lo que indique su cirujano. Escríbanos con esa información y le orientamos antes de reservar."
           }
         },
         {
@@ -279,7 +279,7 @@
           "name": "¿Cuántas sesiones suelen hacer falta?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Varía según la intervención, la evolución y las indicaciones de tu cirujano. Lo revisamos sesión a sesión. La sesión de 1 hora cuesta 70 € y el bono de 10 sesiones más 1 de regalo, 700 €."
+            "text": "Varía según la intervención, la evolución y las indicaciones de su cirujano. Lo revisamos sesión a sesión. La sesión de 1 hora cuesta 70 € y el bono de 10 sesiones más 1 de regalo, 700 €."
           }
         },
         {
@@ -295,7 +295,7 @@
           "name": "¿Tengo que llevar la faja?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sigue las indicaciones de tu cirujano sobre prendas de compresión. Normalmente la retiras durante la sesión y te la vuelves a poner al terminar."
+            "text": "Siga las indicaciones de su cirujano sobre prendas de compresión. Normalmente se la retira durante la sesión y se la vuelve a poner al terminar."
           }
         }
       ]

@@ -251,7 +251,7 @@
           "name": "Quan es considera crònica una diarrea?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Quan les deposicions toves o líquides es mantenen més de quatre setmanes. És important que el teu metge descarti abans una causa orgànica."
+            "text": "Quan les deposicions toves o líquides es mantenen més de quatre setmanes. És important que el seu metge descarti abans una causa orgànica."
           }
         },
         {
@@ -259,7 +259,7 @@
           "name": "Pot ser una intolerància?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "De vegades sí. La lactosa, la fructosa o alguns sucres fermentables poden provocar diarrea. T'ajudem a identificar-los sense fer dietes més restrictives del que cal."
+            "text": "De vegades sí. La lactosa, la fructosa o alguns sucres fermentables poden provocar diarrea. L'ajudem a identificar-los sense fer dietes més restrictives del que cal."
           }
         },
         {
@@ -275,7 +275,7 @@
           "name": "Quant es triga a notar millora?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Depèn de cada cas. Moltes persones noten canvis en poques setmanes en ajustar l'alimentació i la gestió de l'estrès. A la primera visita et proposem un pla amb objectius clars."
+            "text": "Depèn de cada cas. Moltes persones noten canvis en poques setmanes en ajustar l'alimentació i la gestió de l'estrès. A la primera visita li proposem un pla amb objectius clars."
           }
         }
       ]

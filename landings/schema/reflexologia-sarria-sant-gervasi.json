@@ -285,7 +285,7 @@
           "name": "¿La reflexología sustituye a un tratamiento médico?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. La ofrecemos como una técnica de bienestar y relajación, complementaria a tu tratamiento."
+            "text": "No. La ofrecemos como una técnica de bienestar y relajación, complementaria a su tratamiento."
           }
         },
         {
@@ -293,7 +293,7 @@
           "name": "¿Puedo recibir reflexología si estoy en tratamiento oncológico?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí, siempre con la autorización de tu médico. La guía SIO–ASCO contempla la reflexología como apoyo para el dolor durante el tratamiento del cáncer. En WA LAM no tratamos a ningún paciente oncológico sin autorización médica, ni con reflexología, ni con drenaje, ni con masaje."
+            "text": "Sí, siempre con la autorización de su médico. La guía SIO–ASCO contempla la reflexología como apoyo para el dolor durante el tratamiento del cáncer. En WA LAM no tratamos a ningún paciente oncológico sin autorización médica, ni con reflexología, ni con drenaje, ni con masaje."
           }
         },
         {
@@ -301,7 +301,7 @@
           "name": "¿Hay alguna contraindicación?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Avísanos si tienes heridas, infecciones o problemas circulatorios en los pies, o si estás embarazada."
+            "text": "Avísenos si tiene heridas, infecciones o problemas circulatorios en los pies, o si está embarazada."
           }
         }
       ]

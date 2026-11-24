@@ -267,7 +267,7 @@
           "name": "He de portar proves o informes?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Si tens ecografies, analítiques o informes, porta'ls a la primera visita. Ens ajuden a entendre la teva situació i a orientar el pla."
+            "text": "Si té ecografies, analítiques o informes, porti'ls a la primera visita. Ens ajuden a entendre la seva situació i a orientar el pla."
           }
         },
         {
@@ -275,7 +275,7 @@
           "name": "Quantes sessions necessitaré?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Depèn de cada cas i del temps d'evolució. A la primera visita valorem la teva situació i et proposem un pla amb objectius clars."
+            "text": "Depèn de cada cas i del temps d'evolució. A la primera visita valorem la seva situació i li proposem un pla amb objectius clars."
           }
         }
       ]

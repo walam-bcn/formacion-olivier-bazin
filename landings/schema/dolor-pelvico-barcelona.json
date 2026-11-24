@@ -267,7 +267,7 @@
           "name": "¿Tengo que traer pruebas o informes?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Si tienes ecografías, analíticas o informes, tráelos a la primera visita. Nos ayudan a entender tu situación y a orientar el plan."
+            "text": "Si tiene ecografías, analíticas o informes, tráigalos a la primera visita. Nos ayudan a entender su situación y a orientar el plan."
           }
         },
         {
@@ -275,7 +275,7 @@
           "name": "¿Cuántas sesiones necesitaré?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Depende de cada caso y del tiempo de evolución. En la primera visita valoramos tu situación y te proponemos un plan con objetivos claros."
+            "text": "Depende de cada caso y del tiempo de evolución. En la primera visita valoramos su situación y le proponemos un plan con objetivos claros."
           }
         }
       ]

@@ -260,7 +260,7 @@
           "name": "¿Cuánto tiempo tarda en notarse la mejoría?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Con los cambios de horarios y de alimentación, muchas personas notan menos acidez en pocas semanas. Ajustamos el plan contigo hasta encontrar lo que mejor funciona en tu caso."
+            "text": "Con los cambios de horarios y de alimentación, muchas personas notan menos acidez en pocas semanas. Ajustamos el plan con usted hasta encontrar lo que mejor funciona en su caso."
           }
         },
         {
@@ -268,7 +268,7 @@
           "name": "¿Qué cambios ayudan más?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Cenar antes y más ligero, no tumbarse justo después de comer, perder peso si hay sobrepeso, dejar el tabaco y comer con calma. Los adaptamos a tu rutina."
+            "text": "Cenar antes y más ligero, no tumbarse justo después de comer, perder peso si hay sobrepeso, dejar el tabaco y comer con calma. Los adaptamos a su rutina."
           }
         },
         {
@@ -284,7 +284,7 @@
           "name": "¿Atendéis la gastritis y las digestiones pesadas?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí, la gastritis funcional y la dispepsia. Si tienes señales de alarma, primero debe valorarte tu médico."
+            "text": "Sí, la gastritis funcional y la dispepsia. Si tiene señales de alarma, primero debe valorarle su médico."
           }
         }
       ]

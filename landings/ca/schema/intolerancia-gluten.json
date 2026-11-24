@@ -259,7 +259,7 @@
           "name": "Hauré d'eliminar el gluten per sempre?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No necessàriament. Moltes persones toleren una certa quantitat. La reintroducció guiada serveix precisament per trobar el teu marge."
+            "text": "No necessàriament. Moltes persones toleren una certa quantitat. La reintroducció guiada serveix precisament per trobar el seu marge."
           }
         },
         {
@@ -275,7 +275,7 @@
           "name": "Quina relació té amb el còlon irritable?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Comparteixen símptomes i sovint coincideixen. Si és el teu cas, l'abordatge del còlon irritable s'integra en el mateix pla."
+            "text": "Comparteixen símptomes i sovint coincideixen. Si és el seu cas, l'abordatge del còlon irritable s'integra en el mateix pla."
           }
         }
       ]

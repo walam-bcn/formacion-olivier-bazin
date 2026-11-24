@@ -253,7 +253,7 @@
           "name": "¿Cómo se diagnostica?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Con el test de aliento de hidrógeno, que te puede solicitar tu médico. Si ya lo tienes, lo revisamos juntos para orientar la alimentación."
+            "text": "Con el test de aliento de hidrógeno, que le puede solicitar su médico. Si ya lo tiene, lo revisamos juntos para orientar la alimentación."
           }
         },
         {
@@ -261,7 +261,7 @@
           "name": "¿Cómo me aseguro de tomar suficiente calcio?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Con lácteos sin lactosa o fermentados, bebidas vegetales enriquecidas, legumbres, frutos secos, sardinas o verduras de hoja verde. Si te preocupa tu masa ósea, mira también osteoporosis."
+            "text": "Con lácteos sin lactosa o fermentados, bebidas vegetales enriquecidas, legumbres, frutos secos, sardinas o verduras de hoja verde. Si le preocupa su masa ósea, vea también osteoporosis."
           }
         },
         {

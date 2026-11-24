@@ -264,7 +264,7 @@
           "name": "I si tinc Helicobacter pylori?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "El seu diagnòstic i el seu tractament antibiòtic els pauta el teu metge. En paral·lel, treballem amb tu els hàbits, l'alimentació i l'estrès perquè el teu estómac es recuperi millor."
+            "text": "El diagnòstic i el tractament antibiòtic els pauta el seu metge. En paral·lel, treballem amb vostè els hàbits, l'alimentació i l'estrès perquè el seu estómac es recuperi millor."
           }
         },
         {
@@ -272,7 +272,7 @@
           "name": "He de deixar de menjar molts aliments?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No necessàriament. Busquem què et sent pitjor a tu i ajustem quantitats, horaris i combinacions abans de plantejar restriccions."
+            "text": "No necessàriament. Busquem què li sent pitjor a vostè i ajustem quantitats, horaris i combinacions abans de plantejar restriccions."
           }
         },
         {

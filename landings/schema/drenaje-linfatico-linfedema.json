@@ -299,7 +299,7 @@
           "name": "¿Sustituye al tratamiento de mi médico?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. El tratamiento se realiza en coordinación con tu médico especialista en linfedema: el especialista se encarga de la valoración, las mediciones y la indicación de la compresión, y WA LAM del drenaje linfático manual."
+            "text": "No. El tratamiento se realiza en coordinación con su médico especialista en linfedema: el especialista se encarga de la valoración, las mediciones y la indicación de la compresión, y WA LAM del drenaje linfático manual."
           }
         },
         {
@@ -315,7 +315,7 @@
           "name": "¿Necesito autorización médica?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí. Sin la autorización de tu médico no tratamos a ningún paciente oncológico, ni con drenaje, ni con reflexología, ni con masaje."
+            "text": "Sí. Sin la autorización de su médico no tratamos a ningún paciente oncológico, ni con drenaje, ni con reflexología, ni con masaje."
           }
         },
         {

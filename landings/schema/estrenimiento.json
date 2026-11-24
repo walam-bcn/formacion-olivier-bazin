@@ -256,7 +256,7 @@
           "name": "¿Cuántas veces hay que ir al baño para que sea normal?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Entre tres veces al día y tres veces por semana se considera normal. Más que la frecuencia, importa que evacuar no te cueste y que te quedes bien."
+            "text": "Entre tres veces al día y tres veces por semana se considera normal. Más que la frecuencia, importa que evacuar no le cueste y que se quede bien."
           }
         },
         {
@@ -264,7 +264,7 @@
           "name": "¿Basta con comer más fibra?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "La fibra ayuda, pero hay que aumentarla poco a poco y acompañarla de agua y movimiento. Si te hincha, ajustamos el tipo de fibra."
+            "text": "La fibra ayuda, pero hay que aumentarla poco a poco y acompañarla de agua y movimiento. Si le hincha, ajustamos el tipo de fibra."
           }
         },
         {
@@ -272,7 +272,7 @@
           "name": "¿El masaje abdominal sirve de verdad?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí: estimula el tránsito y relaja el abdomen. Te enseñamos a hacerlo en casa para que lo incorpores a tu rutina."
+            "text": "Sí: estimula el tránsito y relaja el abdomen. Le enseñamos a hacerlo en casa para que lo incorpore a su rutina."
           }
         },
         {

@@ -271,7 +271,7 @@
           "name": "¿Cuánto peso voy a perder?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No podemos prometerte una cifra: depende de cada persona. Buscamos una pérdida progresiva que puedas mantener en el tiempo."
+            "text": "No podemos prometerle una cifra: depende de cada persona. Buscamos una pérdida progresiva que pueda mantener en el tiempo."
           }
         },
         {
@@ -287,7 +287,7 @@
           "name": "¿Tendré que hacer una dieta estricta?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. Trabajamos con cambios progresivos y adaptados a ti, sin eliminar grupos de alimentos sin una indicación clara."
+            "text": "No. Trabajamos con cambios progresivos y adaptados a usted, sin eliminar grupos de alimentos sin una indicación clara."
           }
         },
         {
@@ -295,7 +295,7 @@
           "name": "¿Cómo es el seguimiento?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Cada semana controlamos el peso y ajustamos las pautas nutricionales. Las sesiones de acupuntura son dos por semana, y la duración total depende de tus objetivos."
+            "text": "Cada semana controlamos el peso y ajustamos las pautas nutricionales. Las sesiones de acupuntura son dos por semana, y la duración total depende de sus objetivos."
           }
         }
       ]

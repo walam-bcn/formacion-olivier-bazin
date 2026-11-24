@@ -256,7 +256,7 @@
           "name": "Necessito un diagnòstic de fatiga crònica per venir?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. Atenem l'esgotament persistent tant si té diagnòstic com si no. Si no t'has fet analítiques recents, et recomanarem que ho comentis amb el teu metge."
+            "text": "No. Atenem l'esgotament persistent tant si té diagnòstic com si no. Si no s'ha fet analítiques recents, li recomanarem que ho comenti amb el seu metge."
           }
         },
         {
@@ -264,7 +264,7 @@
           "name": "I si a més tinc l'ànim baix?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "És freqüent i ho tenim en compte en el pla. Si hi ha signes de depressió moderada o greu, et recomanarem la valoració d'un professional de salut mental."
+            "text": "És freqüent i ho tenim en compte en el pla. Si hi ha signes de depressió moderada o greu, li recomanarem la valoració d'un professional de salut mental."
           }
         },
         {
@@ -272,7 +272,7 @@
           "name": "Fer exercici no em cansarà més?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Per això el dosifiquem. Comencem amb moviment suau i breu i només augmentem quan la teva energia ho permet."
+            "text": "Per això el dosifiquem. Comencem amb moviment suau i breu i només augmentem quan la seva energia ho permet."
           }
         },
         {
@@ -280,7 +280,7 @@
           "name": "Quant de temps es triga a notar millora?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Depèn de cada persona i de quant de temps fa que estàs esgotada o esgotat. A la primera visita et proposem un pla i el revisem amb tu."
+            "text": "Depèn de cada persona i de quant de temps fa que està esgotada o esgotat. A la primera visita li proposem un pla i el revisem amb vostè."
           }
         }
       ]

@@ -239,7 +239,7 @@
           "name": "Substitueix el tractament antibiòtic?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. Les infeccions urinàries s'han de tractar segons indiqui el teu metge. El nostre acompanyament és complementari."
+            "text": "No. Les infeccions urinàries s'han de tractar segons indiqui el seu metge. El nostre acompanyament és complementari."
           }
         },
         {

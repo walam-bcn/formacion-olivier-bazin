@@ -285,7 +285,7 @@
           "name": "La reflexologia substitueix un tractament mèdic?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. L'oferim com una tècnica de benestar i relaxació, complementària al teu tractament."
+            "text": "No. L'oferim com una tècnica de benestar i relaxació, complementària al seu tractament."
           }
         },
         {
@@ -293,7 +293,7 @@
           "name": "Puc rebre reflexologia si estic en tractament oncològic?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí, sempre amb l'autorització del teu metge. La guia SIO–ASCO contempla la reflexologia com a suport per al dolor durant el tractament del càncer. A WA LAM no tractem cap pacient oncològic sense autorització mèdica, ni amb reflexologia, ni amb drenatge, ni amb massatge."
+            "text": "Sí, sempre amb l'autorització del seu metge. La guia SIO–ASCO contempla la reflexologia com a suport per al dolor durant el tractament del càncer. A WA LAM no tractem cap pacient oncològic sense autorització mèdica, ni amb reflexologia, ni amb drenatge, ni amb massatge."
           }
         },
         {
@@ -301,7 +301,7 @@
           "name": "Hi ha alguna contraindicació?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Avisa'ns si tens ferides, infeccions o problemes circulatoris als peus, o si estàs embarassada."
+            "text": "Avisi'ns si té ferides, infeccions o problemes circulatoris als peus, o si està embarassada."
           }
         }
       ]

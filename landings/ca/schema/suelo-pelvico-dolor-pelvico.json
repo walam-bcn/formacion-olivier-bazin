@@ -231,7 +231,7 @@
           "name": "Feu tractament intern?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. El nostre abordatge és sempre extern. Si necessites un tractament intracavitari, t'orientem cap a una fisioterapeuta especialitzada en sòl pelvià."
+            "text": "No. El nostre abordatge és sempre extern. Si necessita un tractament intracavitari, l'orientem cap a una fisioterapeuta especialitzada en sòl pelvià."
           }
         },
         {
@@ -247,7 +247,7 @@
           "name": "Ateneu homes?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No atenem el dolor pèlvic masculí. T'orientarem cap a un uròleg o una fisioterapeuta especialitzada."
+            "text": "No atenem el dolor pèlvic masculí. L'orientarem cap a un uròleg o una fisioterapeuta especialitzada."
           }
         },
         {
@@ -255,7 +255,7 @@
           "name": "Com demano cita per a una valoració de sòl pelvià?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Escriu-nos per WhatsApp, explica'ns breument què notes i et proposem dia i hora per a la primera valoració, de 60 minuts, a Sarrià–Sant Gervasi."
+            "text": "Escrigui'ns per WhatsApp, expliqui'ns breument què nota i li proposem dia i hora per a la primera valoració, de 60 minuts, a Sarrià–Sant Gervasi."
           }
         }
       ]

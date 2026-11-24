@@ -268,7 +268,7 @@
           "name": "Com sé si tinc SIBO?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "El SIBO s'estudia amb un test d'alè que sol demanar el metge. Si ja el tens, porta'l a la primera visita i l'integrem en el pla."
+            "text": "El SIBO s'estudia amb un test d'alè que sol demanar el metge. Si ja el té, porti'l a la primera visita i l'integrem en el pla."
           }
         },
         {
@@ -284,7 +284,7 @@
           "name": "Què he de portar a la primera visita?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Els informes i proves que tinguis (analítiques, test d'alè, colonoscòpia) i, si pots, un registre d'uns dies del que menges i dels teus símptomes."
+            "text": "Els informes i proves que tingui (analítiques, test d'alè, colonoscòpia) i, si pot, un registre d'uns dies del que menja i dels seus símptomes."
           }
         }
       ]

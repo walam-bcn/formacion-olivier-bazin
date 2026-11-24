@@ -236,7 +236,7 @@
           "name": "¿Esto sustituye a un tratamiento de fertilidad?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. Es un acompañamiento complementario. Las decisiones diagnósticas y de tratamiento corresponden a tu ginecóloga o a tu clínica de reproducción."
+            "text": "No. Es un acompañamiento complementario. Las decisiones diagnósticas y de tratamiento corresponden a su ginecóloga o a su clínica de reproducción."
           }
         },
         {
@@ -244,7 +244,7 @@
           "name": "¿Qué aporta la acupuntura durante un tratamiento de fertilidad?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Puede ayudarte a gestionar el estrés y a cuidar tu bienestar durante el proceso, como complemento del seguimiento de tu clínica de reproducción."
+            "text": "Puede ayudarle a gestionar el estrés y a cuidar su bienestar durante el proceso, como complemento del seguimiento de su clínica de reproducción."
           }
         },
         {

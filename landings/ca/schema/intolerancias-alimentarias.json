@@ -262,7 +262,7 @@
           "name": "He de deixar el gluten abans de venir?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. Si sospites que el gluten et cau malament, demana abans al teu metge que descarti la celiaquia; les proves només són fiables si el continues prenent."
+            "text": "No. Si sospita que el gluten li cau malament, demani abans al seu metge que descarti la celiaquia; les proves només són fiables si continua prenent-lo."
           }
         },
         {
@@ -278,7 +278,7 @@
           "name": "I si a més tinc còlon irritable?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "És freqüent que coincideixin. Pots veure també còlon irritable i SIBO."
+            "text": "És freqüent que coincideixin. Pot veure també còlon irritable i SIBO."
           }
         }
       ]

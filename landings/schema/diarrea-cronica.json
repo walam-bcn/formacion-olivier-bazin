@@ -251,7 +251,7 @@
           "name": "¿Cuándo se considera crónica una diarrea?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Cuando las deposiciones blandas o líquidas se mantienen más de cuatro semanas. Es importante que tu médico descarte antes una causa orgánica."
+            "text": "Cuando las deposiciones blandas o líquidas se mantienen más de cuatro semanas. Es importante que su médico descarte antes una causa orgánica."
           }
         },
         {
@@ -259,7 +259,7 @@
           "name": "¿Puede ser una intolerancia?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "A veces sí. La lactosa, la fructosa o algunos azúcares fermentables pueden provocar diarrea. Te ayudamos a identificarlos sin hacer dietas más restrictivas de lo necesario."
+            "text": "A veces sí. La lactosa, la fructosa o algunos azúcares fermentables pueden provocar diarrea. Le ayudamos a identificarlos sin hacer dietas más restrictivas de lo necesario."
           }
         },
         {
@@ -275,7 +275,7 @@
           "name": "¿Cuánto se tarda en notar mejoría?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Depende de cada caso. Muchas personas notan cambios en pocas semanas al ajustar la alimentación y el manejo del estrés. En la primera visita te proponemos un plan con objetivos claros."
+            "text": "Depende de cada caso. Muchas personas notan cambios en pocas semanas al ajustar la alimentación y el manejo del estrés. En la primera visita le proponemos un plan con objetivos claros."
           }
         }
       ]

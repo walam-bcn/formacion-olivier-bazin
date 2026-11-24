@@ -231,7 +231,7 @@
           "name": "¿Hacéis tratamiento interno?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. Nuestro abordaje es siempre externo. Si necesitas un tratamiento intracavitario, te orientamos hacia una fisioterapeuta especializada en suelo pélvico."
+            "text": "No. Nuestro abordaje es siempre externo. Si necesita un tratamiento intracavitario, le orientamos hacia una fisioterapeuta especializada en suelo pélvico."
           }
         },
         {
@@ -247,7 +247,7 @@
           "name": "¿Atendéis a hombres?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No atendemos el dolor pélvico masculino. Te orientaremos hacia un urólogo o una fisioterapeuta especializada."
+            "text": "No atendemos el dolor pélvico masculino. Le orientaremos hacia un urólogo o una fisioterapeuta especializada."
           }
         },
         {
@@ -255,7 +255,7 @@
           "name": "¿Cómo pido cita para una valoración de suelo pélvico?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Escríbenos por WhatsApp, cuéntanos brevemente qué notas y te proponemos día y hora para la primera valoración, de 60 minutos, en Sarrià–Sant Gervasi."
+            "text": "Escríbanos por WhatsApp, cuéntenos brevemente qué nota y le proponemos día y hora para la primera valoración, de 60 minutos, en Sarrià–Sant Gervasi."
           }
         }
       ]

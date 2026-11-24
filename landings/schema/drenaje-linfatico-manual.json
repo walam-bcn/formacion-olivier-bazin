@@ -295,7 +295,7 @@
           "name": "¿Cuántas sesiones necesito?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Depende del motivo. Si tienes linfedema diagnosticado, el número de sesiones se ajusta a lo que indique tu médico especialista."
+            "text": "Depende del motivo. Si tiene linfedema diagnosticado, el número de sesiones se ajusta a lo que indique su médico especialista."
           }
         },
         {

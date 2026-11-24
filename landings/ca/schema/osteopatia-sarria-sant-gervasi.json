@@ -181,7 +181,7 @@
       "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/osteopatia-sarria-sant-gervasi#webpage",
       "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/osteopatia-sarria-sant-gervasi",
       "name": "Osteòpata a Sarrià–Sant Gervasi, Barcelona | WA LAM",
-      "description": "Osteopatia estructural, visceral i cranial a Sarrià–Sant Gervasi (Barcelona). Valoració individual, tractament manual i exercici. Reserva per WhatsApp.",
+      "description": "Osteopatia estructural, visceral i cranial a Sarrià–Sant Gervasi (Barcelona). Valoració individual, tractament manual i exercici. Reservi per WhatsApp.",
       "inLanguage": "ca-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -286,7 +286,7 @@
         }
       ],
       "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/osteopatia-sarria-sant-gervasi",
-      "description": "Osteopatia estructural, visceral i cranial a Sarrià–Sant Gervasi (Barcelona). Valoració individual, tractament manual i exercici. Reserva per WhatsApp."
+      "description": "Osteopatia estructural, visceral i cranial a Sarrià–Sant Gervasi (Barcelona). Valoració individual, tractament manual i exercici. Reservi per WhatsApp."
     },
     {
       "@type": "FAQPage",
@@ -297,7 +297,7 @@
           "name": "Quantes sessions necessitaré?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Depèn del teu cas. En general revisem l'evolució després de dues o tres sessions i decidim junts si té sentit continuar."
+            "text": "Depèn del seu cas. En general revisem l'evolució després de dues o tres sessions i decidim junts si té sentit continuar."
           }
         },
         {
@@ -329,7 +329,7 @@
           "name": "Necessito prescripció mèdica?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No és necessària. Si durant la valoració detectem alguna cosa que requereix estudi mèdic, t'ho direm."
+            "text": "No és necessària. Si durant la valoració detectem alguna cosa que requereix estudi mèdic, li ho direm."
           }
         }
       ]

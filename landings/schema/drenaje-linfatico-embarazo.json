@@ -279,7 +279,7 @@
           "name": "¿Necesito autorización médica?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "En un embarazo sin complicaciones, no. Si tienes hipertensión, preeclampsia, antecedentes de trombosis o un embarazo de riesgo, te pediremos antes la valoración de tu matrona o tu ginecóloga."
+            "text": "En un embarazo sin complicaciones, no. Si tiene hipertensión, preeclampsia, antecedentes de trombosis o un embarazo de riesgo, le pediremos antes la valoración de su matrona o su ginecóloga."
           }
         },
         {
@@ -287,7 +287,7 @@
           "name": "¿Y después del parto?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí, también te acompañamos en el posparto, para la retención de líquidos y la recuperación tras el parto."
+            "text": "Sí, también le acompañamos en el posparto, para la retención de líquidos y la recuperación tras el parto."
           }
         }
       ]

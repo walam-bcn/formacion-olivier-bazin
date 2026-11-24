@@ -251,7 +251,7 @@
           "name": "Què he de portar a la primera visita?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Els teus informes recents, les analítiques i la llista del que prens. Amb això i la teva història dissenyem un pla centrat en la teva energia, la teva alimentació i la teva qualitat de vida."
+            "text": "Els seus informes recents, les analítiques i la llista del que pren. Amb això i la seva història dissenyem un pla centrat en la seva energia, la seva alimentació i la seva qualitat de vida."
           }
         },
         {
@@ -259,7 +259,7 @@
           "name": "Hi ha una dieta per al Crohn o la colitis?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No hi ha una dieta única. Ajustem l'alimentació a la teva fase, els teus símptomes i les teves toleràncies per menjar amb més seguretat i varietat."
+            "text": "No hi ha una dieta única. Ajustem l'alimentació a la seva fase, els seus símptomes i les seves toleràncies per menjar amb més seguretat i varietat."
           }
         },
         {
@@ -267,7 +267,7 @@
           "name": "Em podeu ajudar amb la fatiga?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí. Revisem la son, l'activitat, l'estrès i l'alimentació, i proposem moviment suau adaptat a la teva energia."
+            "text": "Sí. Revisem el son, l'activitat, l'estrès i l'alimentació, i proposem moviment suau adaptat a la seva energia."
           }
         },
         {
@@ -275,7 +275,7 @@
           "name": "Puc venir durant un brot?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Durant un brot, la prioritat és el teu equip de digestiu. Et podem acompanyar amb pautes suaus i reprendre el pla quan estiguis més estable."
+            "text": "Durant un brot, la prioritat és el seu equip de digestiu. Li podem oferir un acompanyament amb pautes suaus i reprendre el pla quan estigui més estable."
           }
         }
       ]

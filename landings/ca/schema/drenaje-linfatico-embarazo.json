@@ -279,7 +279,7 @@
           "name": "Necessito autorització mèdica?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "En un embaràs sense complicacions, no. Si tens hipertensió, preeclàmpsia, antecedents de trombosi o un embaràs de risc, et demanarem abans la valoració de la teva llevadora o la teva ginecòloga."
+            "text": "En un embaràs sense complicacions, no. Si té hipertensió, preeclàmpsia, antecedents de trombosi o un embaràs de risc, li demanarem abans la valoració de la seva llevadora o la seva ginecòloga."
           }
         },
         {
@@ -287,7 +287,7 @@
           "name": "I després del part?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí, també t'acompanyem en el postpart, per a la retenció de líquids i la recuperació després del part."
+            "text": "Sí, també l'acompanyem en el postpart, per a la retenció de líquids i la recuperació després del part."
           }
         }
       ]

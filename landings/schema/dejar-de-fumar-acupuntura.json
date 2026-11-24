@@ -285,7 +285,7 @@
           "name": "¿Cuántas sesiones necesitaré?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Generalmente entre 3 y 5 sesiones. Lo valoramos según tu caso."
+            "text": "Generalmente entre 3 y 5 sesiones. Lo valoramos según su caso."
           }
         },
         {
@@ -293,7 +293,7 @@
           "name": "¿La acupuntura sustituye a los parches o a la medicación?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. Los tratamientos con más eficacia demostrada son farmacológicos y los prescribe tu médico. La acupuntura puede ser un apoyo complementario."
+            "text": "No. Los tratamientos con más eficacia demostrada son farmacológicos y los prescribe su médico. La acupuntura puede ser un apoyo complementario."
           }
         },
         {
@@ -301,7 +301,7 @@
           "name": "¿Es seguro?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Realizada por un profesional formado y con agujas estériles de un solo uso, es una técnica segura. Avísanos si tomas anticoagulantes o estás embarazada."
+            "text": "Realizada por un profesional formado y con agujas estériles de un solo uso, es una técnica segura. Avísenos si toma anticoagulantes o está embarazada."
           }
         }
       ]

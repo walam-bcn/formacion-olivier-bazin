@@ -181,7 +181,7 @@
       "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/hipotiroidismo-hashimoto#webpage",
       "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/hipotiroidismo-hashimoto",
       "name": "Hipotiroidismo y Hashimoto en Barcelona | WA LAM",
-      "description": "Hipotiroidismo leve y tiroiditis de Hashimoto en Sarrià–Sant Gervasi, Barcelona: alimentación, intestino, sueño y estrés para recuperar tu energía.",
+      "description": "Hipotiroidismo leve y tiroiditis de Hashimoto en Sarrià–Sant Gervasi, Barcelona: alimentación, intestino, sueño y estrés para recuperar su energía.",
       "inLanguage": "es-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -245,7 +245,7 @@
           "name": "¿Qué debo traer a la primera visita?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Tus analíticas recientes de tiroides (TSH, T4 libre y anticuerpos), y si las tienes, de hierro, vitamina D y vitamina B12. Con ellas y tu historia preparamos un plan a tu medida."
+            "text": "Sus analíticas recientes de tiroides (TSH, T4 libre y anticuerpos), y si las tiene, de hierro, vitamina D y vitamina B12. Con ellas y su historia preparamos un plan a su medida."
           }
         },
         {
@@ -253,7 +253,7 @@
           "name": "¿Debo tomar suplementos de selenio o yodo?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No por tu cuenta. El exceso de yodo puede ser perjudicial en la tiroiditis. Cualquier suplemento debe valorarlo tu médico a partir de tus análisis."
+            "text": "No por su cuenta. El exceso de yodo puede ser perjudicial en la tiroiditis. Cualquier suplemento debe valorarlo su médico a partir de sus análisis."
           }
         },
         {
@@ -261,7 +261,7 @@
           "name": "¿Hay que seguir una dieta sin gluten?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Solo si tienes celiaquía o una sensibilidad confirmada. En el resto de casos priorizamos una alimentación variada, rica en alimentos frescos y adaptada a tus digestiones."
+            "text": "Solo si tiene celiaquía o una sensibilidad confirmada. En el resto de casos priorizamos una alimentación variada, rica en alimentos frescos y adaptada a sus digestiones."
           }
         },
         {
@@ -269,7 +269,7 @@
           "name": "¿Por qué sigo con cansancio si mis análisis están bien?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "El cansancio puede tener varios factores: el sueño, el estrés, niveles bajos de hierro o de vitamina D, o las digestiones. Los revisamos contigo en la primera visita."
+            "text": "El cansancio puede tener varios factores: el sueño, el estrés, niveles bajos de hierro o de vitamina D, o las digestiones. Los revisamos con usted en la primera visita."
           }
         }
       ]

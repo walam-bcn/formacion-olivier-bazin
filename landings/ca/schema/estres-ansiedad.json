@@ -256,7 +256,7 @@
           "name": "Això substitueix la teràpia psicològica?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. Treballem la dimensió corporal i fisiològica de l'estrès. Si la teva situació requereix psicoteràpia o tractament mèdic, et derivem al professional corresponent."
+            "text": "No. Treballem la dimensió corporal i fisiològica de l'estrès. Si la seva situació requereix psicoteràpia o tractament mèdic, l'adrecem al professional corresponent."
           }
         },
         {
@@ -264,7 +264,7 @@
           "name": "Quina diferència hi ha entre la consulta individual i el MBSR?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "La consulta individual s'adapta a la teva situació concreta. El MBSR és un programa grupal estructurat de 8 setmanes amb dates i inscripció pròpies. Moltes persones combinen totes dues opcions."
+            "text": "La consulta individual s'adapta a la seva situació concreta. El MBSR és un programa grupal estructurat de 8 setmanes amb dates i inscripció pròpies. Moltes persones combinen totes dues opcions."
           }
         },
         {
@@ -280,7 +280,7 @@
           "name": "Tinc crisis d'ansietat. Puc venir?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí, però si les crisis són freqüents o intenses és important que també et valori un professional de salut mental. Escriu-nos i en parlem."
+            "text": "Sí, però si les crisis són freqüents o intenses és important que també consulti amb un professional de salut mental. Escrigui'ns i en parlem."
           }
         }
       ]

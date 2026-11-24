@@ -256,7 +256,7 @@
           "name": "¿Necesito un diagnóstico de fatiga crónica para venir?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. Atendemos el agotamiento persistente tenga o no un diagnóstico. Si no te has hecho analíticas recientes, te recomendaremos que lo comentes con tu médico."
+            "text": "No. Atendemos el agotamiento persistente tenga o no un diagnóstico. Si no se ha hecho analíticas recientes, le recomendaremos que lo comente con su médico."
           }
         },
         {
@@ -264,7 +264,7 @@
           "name": "¿Y si además tengo el ánimo bajo?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Es frecuente y lo tenemos en cuenta en el plan. Si hay signos de depresión moderada o grave, te recomendaremos la valoración de un profesional de salud mental."
+            "text": "Es frecuente y lo tenemos en cuenta en el plan. Si hay signos de depresión moderada o grave, le recomendaremos la valoración de un profesional de salud mental."
           }
         },
         {
@@ -272,7 +272,7 @@
           "name": "¿Hacer ejercicio no me cansará más?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Por eso lo dosificamos. Empezamos con movimiento suave y breve y solo aumentamos cuando tu energía lo permite."
+            "text": "Por eso lo dosificamos. Empezamos con movimiento suave y breve y solo aumentamos cuando su energía lo permite."
           }
         },
         {
@@ -280,7 +280,7 @@
           "name": "¿Cuánto tiempo se tarda en notar mejoría?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Depende de cada persona y de cuánto tiempo llevas agotada o agotado. En la primera visita te proponemos un plan y lo revisamos contigo."
+            "text": "Depende de cada persona y de cuánto tiempo lleva agotada o agotado. En la primera visita le proponemos un plan y lo revisamos con usted."
           }
         }
       ]

@@ -236,7 +236,7 @@
           "name": "Necessito experiència?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. Adaptem la pràctica al teu nivell."
+            "text": "No. Adaptem la pràctica al seu nivell."
           }
         },
         {
@@ -244,7 +244,7 @@
           "name": "Puc fer ioga si tinc mal d'esquena?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "En molts casos sí, amb adaptacions. Si el dolor és recent o intens, et recomanem una valoració prèvia."
+            "text": "En molts casos sí, amb adaptacions. Si el dolor és recent o intens, li recomanem una valoració prèvia."
           }
         },
         {

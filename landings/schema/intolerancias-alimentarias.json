@@ -262,7 +262,7 @@
           "name": "¿Debo dejar el gluten antes de venir?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. Si sospechas que el gluten te sienta mal, pide antes a tu médico que descarte la celiaquía; las pruebas solo son fiables si sigues tomándolo."
+            "text": "No. Si sospecha que el gluten le sienta mal, pida antes a su médico que descarte la celiaquía; las pruebas solo son fiables si sigue tomándolo."
           }
         },
         {
@@ -278,7 +278,7 @@
           "name": "¿Y si además tengo colon irritable?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Es frecuente que coincidan. Puedes ver también colon irritable y SIBO."
+            "text": "Es frecuente que coincidan. Puede ver también colon irritable y SIBO."
           }
         }
       ]

@@ -251,7 +251,7 @@
           "name": "¿Necesito un análisis de cortisol?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No siempre. El estrés crónico se reconoce sobre todo por cómo te sientes y cómo duermes. Si tu médico sospecha una enfermedad endocrina, es él quien indica las pruebas."
+            "text": "No siempre. El estrés crónico se reconoce sobre todo por cómo se siente y cómo duerme. Si su médico sospecha una enfermedad endocrina, es él quien indica las pruebas."
           }
         },
         {
@@ -259,7 +259,7 @@
           "name": "¿El estrés puede hacerme engordar?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Puede favorecer la grasa abdominal, el picoteo y el mal descanso. Si es tu caso, trabajamos el estrés junto con la pérdida de peso."
+            "text": "Puede favorecer la grasa abdominal, el picoteo y el mal descanso. Si es su caso, trabajamos el estrés junto con la pérdida de peso."
           }
         },
         {
@@ -275,7 +275,7 @@
           "name": "¿Y si además tengo ansiedad?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Es frecuente que vayan juntos. Puedes leer más sobre el abordaje del estrés y la ansiedad."
+            "text": "Es frecuente que vayan juntos. Puede leer más sobre el abordaje del estrés y la ansiedad."
           }
         }
       ]

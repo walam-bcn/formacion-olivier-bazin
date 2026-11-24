@@ -268,7 +268,7 @@
           "name": "¿Cómo se hace el estudio?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Recoges una pequeña muestra de heces en casa con un kit y la envías a un laboratorio especializado. Cuando llegan los resultados, los revisamos juntos en consulta."
+            "text": "Recoge una pequeña muestra de heces en casa con un kit y la envía a un laboratorio especializado. Cuando llegan los resultados, los revisamos juntos en consulta."
           }
         },
         {
@@ -276,7 +276,7 @@
           "name": "¿Qué hacéis con los resultados?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Los interpretamos junto con tus síntomas y tu historia, y los traducimos en un plan por fases de alimentación, descanso y regulación del estrés."
+            "text": "Los interpretamos junto con sus síntomas y su historia, y los traducimos en un plan por fases de alimentación, descanso y regulación del estrés."
           }
         },
         {

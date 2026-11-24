@@ -181,7 +181,7 @@
       "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/longevidad-prevencion-barcelona#webpage",
       "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/longevidad-prevencion-barcelona",
       "name": "Longevidad y prevención en Barcelona | WA LAM",
-      "description": "Medicina de longevidad en Sarrià–Sant Gervasi (Barcelona): valoración de cómo envejece tu organismo y programa de cambio de hábitos basado en la evidencia.",
+      "description": "Medicina de longevidad en Sarrià–Sant Gervasi (Barcelona): valoración de cómo envejece su organismo y programa de cambio de hábitos basado en la evidencia.",
       "inLanguage": "es-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -268,7 +268,7 @@
           "name": "¿Es seguro?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "El plan se basa en cambios de hábitos y en terapias de bajo riesgo, adaptados a tu historia clínica y a tu medicación. No incluye tratamientos «antiaging» sin respaldo científico."
+            "text": "El plan se basa en cambios de hábitos y en terapias de bajo riesgo, adaptados a su historia clínica y a su medicación. No incluye tratamientos «antiaging» sin respaldo científico."
           }
         },
         {
@@ -308,7 +308,7 @@
           "name": "¿Qué tengo que traer a la primera visita?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Tus analíticas y pruebas médicas recientes. Antes de la visita te pediremos que rellenes el formulario de primera cita."
+            "text": "Sus analíticas y pruebas médicas recientes. Antes de la visita le pediremos que rellene el formulario de primera cita."
           }
         },
         {
@@ -316,7 +316,7 @@
           "name": "¿Pedís pruebas adicionales?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Solo cuando pueden cambiar el plan. La más habitual es el estudio de microbiota intestinal; según tu caso, valoramos otras pruebas o una consulta con el especialista."
+            "text": "Solo cuando pueden cambiar el plan. La más habitual es el estudio de microbiota intestinal; según su caso, valoramos otras pruebas o una consulta con el especialista."
           }
         },
         {
@@ -324,7 +324,7 @@
           "name": "¿Qué pruebas incluye la valoración?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Según tu caso: analítica general y metabólica, marcadores cardiovasculares, paneles hormonales, pruebas genéticas, estudio de microbiota, epigenética, valoración cognitiva, composición corporal y valoración del sueño y del estrés. Todo se integra en un informe final con tu plan de acción."
+            "text": "Según su caso: analítica general y metabólica, marcadores cardiovasculares, paneles hormonales, pruebas genéticas, estudio de microbiota, epigenética, valoración cognitiva, composición corporal y valoración del sueño y del estrés. Todo se integra en un informe final con su plan de acción."
           }
         },
         {
@@ -340,7 +340,7 @@
           "name": "¿Cuánto cuesta?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "La primera visita dura 60 minutos y cuesta 90 €. Después recibes un presupuesto personalizado para tu programa; los costes de laboratorio se abonan aparte."
+            "text": "La primera visita dura 60 minutos y cuesta 90 €. Después recibe un presupuesto personalizado para su programa; los costes de laboratorio se abonan aparte."
           }
         },
         {
@@ -348,7 +348,7 @@
           "name": "¿Cuánto dura el programa?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "El programa base dura 12 semanas, el tiempo mínimo que necesitan los cambios en la alimentación, la microbiota y los hábitos para consolidarse, y puede prolongarse según tu evolución."
+            "text": "El programa base dura 12 semanas, el tiempo mínimo que necesitan los cambios en la alimentación, la microbiota y los hábitos para consolidarse, y puede prolongarse según su evolución."
           }
         }
       ]

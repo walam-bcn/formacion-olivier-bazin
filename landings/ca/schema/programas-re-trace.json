@@ -271,7 +271,7 @@
           "name": "Quin programa re:trace em convé?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Depèn de la teva disponibilitat i del teu lloc de residència. Si vius a Barcelona, el Premium és el format de referència; si no pots venir cada setmana, Immersive Weekends concentra la feina en tres caps de setmana; si busques una intervenció intensiva i individual, Private Experience; i si prefereixes una experiència en grup reduït, Exclusive Retreats."
+            "text": "Depèn de la seva disponibilitat i del seu lloc de residència. Si viu a Barcelona, el Premium és el format de referència; si no pot venir cada setmana, Immersive Weekends concentra la feina en tres caps de setmana; si busca una intervenció intensiva i individual, Private Experience; i si prefereix una experiència en grup reduït, Exclusive Retreats."
           }
         },
         {
@@ -279,7 +279,7 @@
           "name": "Les proves de laboratori hi estan incloses?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. Els programes inclouen la coordinació de l'avaluació, la revisió dels resultats i la seva integració en el teu pla. Els costos de laboratori, genètica, epigenètica, microbiota, proves d'imatge i altres exploracions externes es pressuposten i s'abonen per separat."
+            "text": "No. Els programes inclouen la coordinació de l'avaluació, la revisió dels resultats i la seva integració en el seu pla. Els costos de laboratori, genètica, epigenètica, microbiota, proves d'imatge i altres exploracions externes es pressuposten i s'abonen per separat."
           }
         },
         {
@@ -287,7 +287,7 @@
           "name": "Com començo?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Amb una primera visita de 60 minuts (90 €), en què valorem el teu cas i et recomanem el programa més adequat."
+            "text": "Amb una primera visita de 60 minuts (90 €), en què valorem el seu cas i li recomanem el programa més adequat."
           }
         }
       ]

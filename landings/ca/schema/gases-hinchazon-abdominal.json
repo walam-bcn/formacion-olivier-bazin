@@ -256,7 +256,7 @@
           "name": "És normal inflar-se després de menjar?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Una mica sí. Quan la inflor és diària, molesta o et limita, val la pena revisar què la provoca i com respon el teu abdomen."
+            "text": "Una mica sí. Quan la inflor és diària, molesta o el limita, val la pena revisar què la provoca i com respon el seu abdomen."
           }
         },
         {
@@ -280,7 +280,7 @@
           "name": "Els probiòtics serveixen per als gasos?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Depèn de cada cas. Abans d'afegir suplements revisem la teva alimentació i el teu ritme intestinal; si tenen sentit, t'ho expliquem."
+            "text": "Depèn de cada cas. Abans d'afegir suplements revisem la seva alimentació i el seu ritme intestinal; si tenen sentit, li ho expliquem."
           }
         }
       ]

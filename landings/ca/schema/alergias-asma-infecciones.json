@@ -181,7 +181,7 @@
       "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/allergies-asma-infeccions#webpage",
       "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/allergies-asma-infeccions",
       "name": "Al·lèrgies, asma i infeccions a Barcelona | WA LAM",
-      "description": "Al·lèrgies, asma i infeccions de repetició a Sarrià–Sant Gervasi, Barcelona: microbiota, son, estrès i respiració per equilibrar les teves defenses.",
+      "description": "Al·lèrgies, asma i infeccions de repetició a Sarrià–Sant Gervasi, Barcelona: microbiota, son, estrès i respiració per equilibrar les seves defenses.",
       "inLanguage": "ca-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -256,7 +256,7 @@
           "name": "Puc deixar la meva medicació per a l'asma?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. Mai no has de deixar ni reduir els inhaladors ni altres tractaments sense indicació del teu metge. Treballem alhora la respiració, el son i la microbiota perquè et trobis millor."
+            "text": "No. Mai no ha de deixar ni reduir els inhaladors ni altres tractaments sense indicació del seu metge. Treballem alhora la respiració, el son i la microbiota perquè es trobi millor."
           }
         },
         {
@@ -272,7 +272,7 @@
           "name": "Ateneu persones amb infeccions d'orina de repetició?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí. En dones, pots veure també cistitis de repetició."
+            "text": "Sí. En dones, pot veure també cistitis de repetició."
           }
         },
         {

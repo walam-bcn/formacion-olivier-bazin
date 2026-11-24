@@ -256,7 +256,7 @@
           "name": "¿Qué debo traer a la primera visita?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Tus analíticas recientes (colesterol, glucosa, hemoglobina glicada, perfil hepático), tus cifras de tensión si las controlas y la lista de lo que tomas. Así podemos medir tu progreso."
+            "text": "Sus analíticas recientes (colesterol, glucosa, hemoglobina glicada, perfil hepático), sus cifras de tensión si las controla y la lista de lo que toma. Así podemos medir su progreso."
           }
         },
         {
@@ -264,7 +264,7 @@
           "name": "¿Qué ejercicio es mejor?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "La combinación regular de ejercicio aeróbico y de fuerza. Lo importante es empezar a tu nivel y progresar poco a poco."
+            "text": "La combinación regular de ejercicio aeróbico y de fuerza. Lo importante es empezar a su nivel y progresar poco a poco."
           }
         },
         {
@@ -272,7 +272,7 @@
           "name": "¿El hígado graso puede mejorar?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí, responde bien a la pérdida de peso moderada, la alimentación mediterránea y el ejercicio. Tu médico hará el seguimiento con analíticas y ecografía."
+            "text": "Sí, responde bien a la pérdida de peso moderada, la alimentación mediterránea y el ejercicio. Su médico hará el seguimiento con analíticas y ecografía."
           }
         },
         {
@@ -280,7 +280,7 @@
           "name": "¿Cada cuánto tendré seguimiento?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Lo acordamos en la primera visita según tus objetivos. Los cambios de hábitos necesitan constancia, por eso planteamos un seguimiento progresivo."
+            "text": "Lo acordamos en la primera visita según sus objetivos. Los cambios de hábitos necesitan constancia, por eso planteamos un seguimiento progresivo."
           }
         }
       ]

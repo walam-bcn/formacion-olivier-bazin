@@ -253,7 +253,7 @@
           "name": "Com es diagnostica?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Amb el test d'alè d'hidrogen, que et pot sol·licitar el teu metge. Si ja el tens, el revisem junts per orientar l'alimentació."
+            "text": "Amb el test d'alè d'hidrogen, que li pot sol·licitar el seu metge. Si ja el té, el revisem junts per orientar l'alimentació."
           }
         },
         {
@@ -261,7 +261,7 @@
           "name": "Com m'asseguro de prendre prou calci?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Amb làctics sense lactosa o fermentats, begudes vegetals enriquides, llegums, fruits secs, sardines o verdures de fulla verda. Si et preocupa la teva massa òssia, mira també osteoporosi."
+            "text": "Amb làctics sense lactosa o fermentats, begudes vegetals enriquides, llegums, fruits secs, sardines o verdures de fulla verda. Si li preocupa la seva massa òssia, vegi també osteoporosi."
           }
         },
         {

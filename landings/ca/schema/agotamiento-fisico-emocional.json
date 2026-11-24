@@ -259,7 +259,7 @@
           "name": "Què he de portar a la primera visita?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Només les ganes d'entendre què et passa. Si tens analítiques recents, porta-les. Parlarem del teu son, la teva energia, la teva feina i el teu estrès per dissenyar un pla al teu ritme."
+            "text": "Només les ganes d'entendre què li passa. Si té analítiques recents, porti-les. Parlarem del seu son, la seva energia, la seva feina i el seu estrès per dissenyar un pla al seu ritme."
           }
         },
         {
@@ -267,7 +267,7 @@
           "name": "He d'estar de baixa per començar?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. Moltes persones comencen mentre continuen treballant; ajustem el pla al teu ritme i a la teva energia."
+            "text": "No. Moltes persones comencen mentre continuen treballant; ajustem el pla al seu ritme i a la seva energia."
           }
         },
         {
@@ -275,7 +275,7 @@
           "name": "Quant triga a notar-se la millora?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Depèn de cada persona i de quant de temps fa que vius al límit. A la primera visita valorem la teva situació i et proposem un pla."
+            "text": "Depèn de cada persona i de quant de temps fa que viu al límit. A la primera visita valorem la seva situació i li proposem un pla."
           }
         }
       ]

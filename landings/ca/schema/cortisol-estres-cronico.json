@@ -251,7 +251,7 @@
           "name": "Necessito una anàlisi de cortisol?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No sempre. L'estrès crònic es reconeix sobretot per com et sents i com dorms. Si el teu metge sospita una malaltia endocrina, és ell qui indica les proves."
+            "text": "No sempre. L'estrès crònic es reconeix sobretot per com se sent i com dorm. Si el seu metge sospita una malaltia endocrina, és ell qui indica les proves."
           }
         },
         {
@@ -259,7 +259,7 @@
           "name": "L'estrès em pot fer engreixar?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Pot afavorir el greix abdominal, el piquejar i el mal descans. Si és el teu cas, treballem l'estrès juntament amb la pèrdua de pes."
+            "text": "Pot afavorir el greix abdominal, el piquejar i el mal descans. Si és el seu cas, treballem l'estrès juntament amb la pèrdua de pes."
           }
         },
         {
@@ -275,7 +275,7 @@
           "name": "I si a més tinc ansietat?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "És freqüent que vagin junts. Pots llegir més sobre l'abordatge de l'estrès i l'ansietat."
+            "text": "És freqüent que vagin junts. Pot llegir més sobre l'abordatge de l'estrès i l'ansietat."
           }
         }
       ]

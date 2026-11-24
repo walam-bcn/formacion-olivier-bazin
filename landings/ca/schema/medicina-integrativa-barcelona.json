@@ -169,7 +169,7 @@
       "@id": "https://www.walambcn.com/ca#webpage",
       "url": "https://www.walambcn.com/ca",
       "name": "Medicina integrativa a Barcelona · Sarrià–Sant Gervasi | WA LAM",
-      "description": "Medicina integrativa a Sarrià–Sant Gervasi (Barcelona): tractem el teu motiu de consulta amb una visió global, més enllà del símptoma. Primera visita: 90 €.",
+      "description": "Medicina integrativa a Sarrià–Sant Gervasi (Barcelona): tractem el seu motiu de consulta amb una visió global, més enllà del símptoma. Primera visita: 90 €.",
       "inLanguage": "ca-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -227,7 +227,7 @@
           "name": "Necessito un diagnòstic per venir?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. Pots venir amb un diagnòstic o simplement perquè notes que alguna cosa no va bé. A la primera visita revisem la teva història i les proves que ja tinguis i, si cal alguna més, t'ho indiquem."
+            "text": "No. Pot venir amb un diagnòstic o simplement perquè nota que alguna cosa no va bé. A la primera visita revisem la seva història i les proves que ja tingui i, si cal alguna més, li ho indiquem."
           }
         }
       ]

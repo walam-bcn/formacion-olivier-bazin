@@ -259,7 +259,7 @@
           "name": "¿Tendré que eliminar el gluten para siempre?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No necesariamente. Muchas personas toleran cierta cantidad. La reintroducción guiada sirve precisamente para encontrar tu margen."
+            "text": "No necesariamente. Muchas personas toleran cierta cantidad. La reintroducción guiada sirve precisamente para encontrar su margen."
           }
         },
         {
@@ -275,7 +275,7 @@
           "name": "¿Qué relación tiene con el colon irritable?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Comparten síntomas y a menudo coinciden. Si es tu caso, el abordaje del colon irritable se integra en el mismo plan."
+            "text": "Comparten síntomas y a menudo coinciden. Si es su caso, el abordaje del colon irritable se integra en el mismo plan."
           }
         }
       ]

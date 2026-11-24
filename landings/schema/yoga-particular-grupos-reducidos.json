@@ -236,7 +236,7 @@
           "name": "¿Necesito experiencia?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. Adaptamos la práctica a tu nivel."
+            "text": "No. Adaptamos la práctica a su nivel."
           }
         },
         {
@@ -244,7 +244,7 @@
           "name": "¿Puedo hacer yoga si tengo dolor de espalda?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "En muchos casos sí, con adaptaciones. Si el dolor es reciente o intenso, te recomendamos una valoración previa."
+            "text": "En muchos casos sí, con adaptaciones. Si el dolor es reciente o intenso, le recomendamos una valoración previa."
           }
         },
         {

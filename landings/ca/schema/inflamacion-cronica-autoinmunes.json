@@ -181,7 +181,7 @@
       "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/inflamacio-cronica-autoimmunes#webpage",
       "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/inflamacio-cronica-autoimmunes",
       "name": "Inflamació crònica i autoimmunes a Barcelona | WA LAM",
-      "description": "Inflamació crònica i malalties autoimmunes a Sarrià–Sant Gervasi, Barcelona: alimentació, microbiota, son i estrès al costat del teu especialista.",
+      "description": "Inflamació crònica i malalties autoimmunes a Sarrià–Sant Gervasi, Barcelona: alimentació, microbiota, son i estrès al costat del seu especialista.",
       "inLanguage": "ca-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -256,7 +256,7 @@
           "name": "Quant de temps triga a notar-se la millora?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Depèn de cada persona, però els canvis en l'alimentació, el son i l'estrès se solen notar en poques setmanes. Revisem el pla amb tu a cada visita."
+            "text": "Depèn de cada persona, però els canvis en l'alimentació, el son i l'estrès se solen notar en poques setmanes. Revisem el pla amb vostè a cada visita."
           }
         },
         {
@@ -264,7 +264,7 @@
           "name": "Què és una alimentació antiinflamatòria?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Una alimentació basada en verdures, fruites, llegums, peix, oli d'oliva i fruita seca, amb pocs ultraprocessats. L'adaptem a la teva situació i a les teves digestions."
+            "text": "Una alimentació basada en verdures, fruites, llegums, peix, oli d'oliva i fruita seca, amb pocs ultraprocessats. L'adaptem a la seva situació i a les seves digestions."
           }
         },
         {

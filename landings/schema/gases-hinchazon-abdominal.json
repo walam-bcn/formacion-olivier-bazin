@@ -256,7 +256,7 @@
           "name": "¿Es normal hincharse después de comer?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Un poco sí. Cuando la hinchazón es diaria, molesta o te limita, merece la pena revisar qué la provoca y cómo responde tu abdomen."
+            "text": "Un poco sí. Cuando la hinchazón es diaria, molesta o le limita, merece la pena revisar qué la provoca y cómo responde su abdomen."
           }
         },
         {
@@ -280,7 +280,7 @@
           "name": "¿Los probióticos sirven para los gases?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Depende de cada caso. Antes de añadir suplementos revisamos tu alimentación y tu ritmo intestinal; si tienen sentido, te lo explicamos."
+            "text": "Depende de cada caso. Antes de añadir suplementos revisamos su alimentación y su ritmo intestinal; si tienen sentido, se lo explicamos."
           }
         }
       ]

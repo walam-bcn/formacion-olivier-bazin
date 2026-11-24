@@ -285,7 +285,7 @@
           "name": "Quantes sessions necessitaré?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Generalment entre 3 i 5 sessions. Ho valorem segons el teu cas."
+            "text": "Generalment entre 3 i 5 sessions. Ho valorem segons el seu cas."
           }
         },
         {
@@ -293,7 +293,7 @@
           "name": "L'acupuntura substitueix els pegats o la medicació?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. Els tractaments amb més eficàcia demostrada són farmacològics i te'ls prescriu el teu metge. L'acupuntura pot ser un suport complementari."
+            "text": "No. Els tractaments amb més eficàcia demostrada són farmacològics i els prescriu el seu metge. L'acupuntura pot ser un suport complementari."
           }
         },
         {
@@ -301,7 +301,7 @@
           "name": "És segur?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Feta per un professional format i amb agulles estèrils d'un sol ús, és una tècnica segura. Avisa'ns si prens anticoagulants o estàs embarassada."
+            "text": "Feta per un professional format i amb agulles estèrils d'un sol ús, és una tècnica segura. Avisi'ns si pren anticoagulants o està embarassada."
           }
         }
       ]

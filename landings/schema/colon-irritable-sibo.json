@@ -268,7 +268,7 @@
           "name": "¿Cómo sé si tengo SIBO?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "El SIBO se estudia con un test de aliento que suele pedir el médico. Si ya lo tienes, tráelo a la primera visita y lo integramos en el plan."
+            "text": "El SIBO se estudia con un test de aliento que suele pedir el médico. Si ya lo tiene, tráigalo a la primera visita y lo integramos en el plan."
           }
         },
         {
@@ -284,7 +284,7 @@
           "name": "¿Qué debo traer a la primera visita?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Los informes y pruebas que tengas (analíticas, test de aliento, colonoscopia) y, si puedes, un registro de unos días de lo que comes y de tus síntomas."
+            "text": "Los informes y pruebas que tenga (analíticas, test de aliento, colonoscopia) y, si puede, un registro de unos días de lo que come y de sus síntomas."
           }
         }
       ]

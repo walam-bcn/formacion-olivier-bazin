@@ -302,7 +302,7 @@
           "name": "¿Cuántas sesiones se necesitan?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Depende de cada persona. Tras la primera visita te proponemos un plan, que suele combinar unas pocas sesiones iniciales con prácticas para casa, porque la regularidad es lo que sostiene los cambios."
+            "text": "Depende de cada persona. Tras la primera visita le proponemos un plan, que suele combinar unas pocas sesiones iniciales con prácticas para casa, porque la regularidad es lo que sostiene los cambios."
           }
         }
       ]

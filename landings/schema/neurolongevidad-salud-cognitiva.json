@@ -263,7 +263,7 @@
           "name": "¿Hacéis diagnóstico de deterioro cognitivo?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. Si los olvidos son frecuentes o progresivos, el diagnóstico corresponde a tu médico o a un neurólogo. Podemos acompañarte en los hábitos y en la regulación del estrés y del sueño."
+            "text": "No. Si los olvidos son frecuentes o progresivos, el diagnóstico corresponde a su médico o a un neurólogo. Podemos acompañarle en los hábitos y en la regulación del estrés y del sueño."
           }
         },
         {
@@ -279,7 +279,7 @@
           "name": "¿Ofrecéis estimulación transcraneal?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Todavía no. Si la incorporamos, se aplicará solo cuando haya una indicación respaldada por la evidencia y en coordinación con tu médico."
+            "text": "Todavía no. Si la incorporamos, se aplicará solo cuando haya una indicación respaldada por la evidencia y en coordinación con su médico."
           }
         },
         {

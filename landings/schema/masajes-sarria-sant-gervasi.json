@@ -271,7 +271,7 @@
           "name": "¿Tenéis tarjetas regalo?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí. Escríbenos por WhatsApp y te preparamos una tarjeta regalo."
+            "text": "Sí. Escríbanos por WhatsApp y le preparamos una tarjeta regalo."
           }
         }
       ]

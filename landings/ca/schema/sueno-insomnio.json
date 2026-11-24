@@ -280,7 +280,7 @@
           "name": "Quan es considera que tinc insomni crònic?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Quan et costa adormir-te o mantenir el son almenys tres nits per setmana durant tres mesos, i això afecta el teu dia."
+            "text": "Quan li costa adormir-se o mantenir el son almenys tres nits per setmana durant tres mesos, i això afecta el seu dia."
           }
         },
         {
@@ -288,7 +288,7 @@
           "name": "Dormo vuit hores i em llevo esgotada. Per què?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Pot ser degut a un son fragmentat, a un ritme circadiari desajustat, a l'estrès, a canvis hormonals o a un trastorn com l'apnea. A la primera visita revisem aquests factors i, si cal, et derivem a una unitat del son."
+            "text": "Pot ser degut a un son fragmentat, a un ritme circadiari desajustat, a l'estrès, a canvis hormonals o a un trastorn com l'apnea. A la primera visita revisem aquests factors i, si cal, l'adrecem a una unitat del son."
           }
         },
         {
@@ -304,7 +304,7 @@
           "name": "He de deixar les pastilles per dormir?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No sense parlar-ne amb el teu metge. Qualsevol canvi en la medicació s'ha de fer amb la seva supervisió."
+            "text": "No sense parlar-ne amb el seu metge. Qualsevol canvi en la medicació s'ha de fer amb la seva supervisió."
           }
         },
         {
@@ -312,7 +312,7 @@
           "name": "Oferiu teràpia cognitivoconductual per a l'insomni?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "La TCC-I és el tractament de primera elecció. Si necessites un programa complet de TCC-I, et derivem a un psicòleg especialitzat en son."
+            "text": "La TCC-I és el tractament de primera elecció. Si necessita un programa complet de TCC-I, el derivem a un psicòleg especialitzat en son."
           }
         },
         {
@@ -320,7 +320,7 @@
           "name": "Quan he d'anar a una unitat del son?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Si ronques fort amb pauses en la respiració, tens molta somnolència durant el dia o sents la necessitat de moure les cames a la nit."
+            "text": "Si ronca fort amb pauses en la respiració, té molta somnolència durant el dia o sent la necessitat de moure les cames a la nit."
           }
         }
       ]

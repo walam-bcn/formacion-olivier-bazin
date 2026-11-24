@@ -256,7 +256,7 @@
           "name": "¿Esto sustituye a la terapia psicológica?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. Trabajamos la dimensión corporal y fisiológica del estrés. Si tu situación requiere psicoterapia o tratamiento médico, te derivamos al profesional correspondiente."
+            "text": "No. Trabajamos la dimensión corporal y fisiológica del estrés. Si su situación requiere psicoterapia o tratamiento médico, le derivamos al profesional correspondiente."
           }
         },
         {
@@ -264,7 +264,7 @@
           "name": "¿Qué diferencia hay entre la consulta individual y el MBSR?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "La consulta individual se adapta a tu situación concreta. El MBSR es un programa grupal estructurado de 8 semanas con fechas e inscripción propias. Muchas personas combinan ambos."
+            "text": "La consulta individual se adapta a su situación concreta. El MBSR es un programa grupal estructurado de 8 semanas con fechas e inscripción propias. Muchas personas combinan ambos."
           }
         },
         {
@@ -280,7 +280,7 @@
           "name": "Tengo crisis de ansiedad. ¿Puedo venir?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí, pero si las crisis son frecuentes o intensas es importante que también te valore un profesional de salud mental. Escríbenos y lo hablamos."
+            "text": "Sí, pero si las crisis son frecuentes o intensas es importante que también consulte con un profesional de salud mental. Escríbanos y lo hablamos."
           }
         }
       ]

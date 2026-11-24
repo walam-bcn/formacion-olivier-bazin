@@ -236,7 +236,7 @@
           "name": "Això substitueix un tractament de fertilitat?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. És un acompanyament complementari. Les decisions diagnòstiques i de tractament corresponen a la teva ginecòloga o a la teva clínica de reproducció."
+            "text": "No. És un acompanyament complementari. Les decisions diagnòstiques i de tractament corresponen a la seva ginecòloga o a la seva clínica de reproducció."
           }
         },
         {
@@ -244,7 +244,7 @@
           "name": "Què aporta l'acupuntura durant un tractament de fertilitat?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Et pot ajudar a gestionar l'estrès i a tenir cura del teu benestar durant el procés, com a complement del seguiment de la teva clínica de reproducció."
+            "text": "Li pot ajudar a gestionar l'estrès i a tenir cura del seu benestar durant el procés, com a complement del seguiment de la seva clínica de reproducció."
           }
         },
         {

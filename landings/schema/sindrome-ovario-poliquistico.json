@@ -181,7 +181,7 @@
       "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/sindrome-ovario-poliquistico#webpage",
       "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/sindrome-ovario-poliquistico",
       "name": "Síndrome de ovario poliquístico en Barcelona | WA LAM",
-      "description": "Síndrome de ovario poliquístico (SOP) en Sarrià–Sant Gervasi, Barcelona: alimentación, ejercicio, peso y resistencia a la insulina junto a tu ginecólogo.",
+      "description": "Síndrome de ovario poliquístico (SOP) en Sarrià–Sant Gervasi, Barcelona: alimentación, ejercicio, peso y resistencia a la insulina junto a su ginecólogo.",
       "inLanguage": "es-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -268,7 +268,7 @@
           "name": "¿Qué tipo de alimentación recomendáis?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Una alimentación basada en alimentos frescos, con proteína y fibra en cada comida y pocos azúcares y ultraprocesados. La adaptamos a tus gustos y a tu ritmo de vida."
+            "text": "Una alimentación basada en alimentos frescos, con proteína y fibra en cada comida y pocos azúcares y ultraprocesados. La adaptamos a sus gustos y a su ritmo de vida."
           }
         },
         {
@@ -284,7 +284,7 @@
           "name": "¿Y si busco un embarazo?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "También te acompañamos en esa etapa. Puedes conocer nuestro acompañamiento a la fertilidad."
+            "text": "También le acompañamos en esa etapa. Puede conocer nuestro acompañamiento a la fertilidad."
           }
         }
       ]

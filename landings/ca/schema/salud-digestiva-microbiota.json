@@ -268,7 +268,7 @@
           "name": "Com es fa l'estudi?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Reculls una petita mostra de femta a casa amb un kit i l'envies a un laboratori especialitzat. Quan arriben els resultats, els revisem junts a la consulta."
+            "text": "Recull una petita mostra de femta a casa amb un kit i l'envia a un laboratori especialitzat. Quan arriben els resultats, els revisem junts a la consulta."
           }
         },
         {
@@ -276,7 +276,7 @@
           "name": "Què feu amb els resultats?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Els interpretem juntament amb els teus símptomes i la teva història, i els traduïm en un pla per fases d'alimentació, descans i regulació de l'estrès."
+            "text": "Els interpretem juntament amb els seus símptomes i la seva història, i els traduïm en un pla per fases d'alimentació, descans i regulació de l'estrès."
           }
         },
         {
