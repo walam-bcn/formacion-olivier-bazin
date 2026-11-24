@@ -1080,7 +1080,7 @@ PAGES.append({
     "faq": [
         ("¿Hacéis diagnóstico de deterioro cognitivo?", "No. Si los olvidos son frecuentes o progresivos, el diagnóstico corresponde a tu médico o a un neurólogo. Podemos acompañarte en los hábitos y en la regulación del estrés y del sueño."),
         ("¿Qué es la neurorregulación?", "Es una forma de estimulación eléctrica de baja intensidad que se aplica sobre la piel con electrodos, sin agujas. Todavía no la ofrecemos; cuando la incorporemos, lo anunciaremos en esta página."),
-        ("¿Ofrecéis estimulación transcraneal?", "Todavía no. Si la incorporamos, se aplicará solo cuando haya una indicación respaldada por la evidencia y en coordinación con tu médico. En personas sanas no ha demostrado mejorar la memoria ni la atención."),
+        ("¿Ofrecéis estimulación transcraneal?", "Todavía no. Si la incorporamos, se aplicará solo cuando haya una indicación respaldada por la evidencia y en coordinación con tu médico."),
         ("¿A partir de qué edad tiene sentido cuidarse?", "Los factores de riesgo actúan a lo largo de toda la vida, y la mediana edad es una etapa clave para la prevención."),
     ],
     "related": ["prevencion-longevidad", "sueno-insomnio", "estres-ansiedad", "curso-mindfulness-mbsr-barcelona"],
@@ -1113,7 +1113,7 @@ PAGES.append({
          "intro": "Según tu valoración, la sesión combina las técnicas que tu caso necesita. Cada enfoque tiene su propia página con más detalle.",
          "items": [{"k": "Estructural", "h": "Osteopatía estructural", "p": "Trabajo sobre articulaciones, músculos y fascias para mejorar la movilidad y aliviar la tensión. Es la base de la consulta para el dolor de espalda, cuello, hombro o cadera."},
                    {"k": "Visceral", "h": "[Osteopatía visceral](osteopatia-visceral-barcelona)", "p": "Técnicas suaves sobre el abdomen, el diafragma y la pelvis que valoran la movilidad de las vísceras y sus fascias. La usamos en dolor lumbar o pélvico relacionado con tensión abdominal, cicatrices o estrés."},
-                   {"k": "Craneosacral", "h": "[Osteopatía craneosacral](osteopatia-craneosacral-barcelona)", "p": "Técnicas manuales muy suaves en cráneo, región cervical y sacro. Su respaldo científico es débil, por lo que la aplicamos con prudencia, como complemento y con consentimiento informado."}]},
+                   {"k": "Craneosacral", "h": "[Osteopatía craneosacral](osteopatia-craneosacral-barcelona)", "p": "Técnicas manuales muy suaves en cráneo, región cervical y sacro. La aplicamos como complemento, dentro de una valoración global."}]},
         {"type": "steps", "eyebrow": "La sesión", "h2": "Cómo es una sesión de osteopatía",
          "items": [("Entrevista", "Revisamos tu motivo de consulta, historia médica, pruebas y lo que esperas de la sesión."),
                    ("Valoración", "Exploramos movilidad, postura, respiración y las zonas relacionadas con tus síntomas."),
@@ -2517,3 +2517,12 @@ for _p in PAGES:
     if _p["slug"] == "en-que-podemos-ayudarte":
         _p["blocks"] = [b for b in _p["blocks"] if b.get("h2") != "Por qué abordamos estos procesos de forma integrada"]
         _p["lead"] = _p["lead"].replace("Estas son las situaciones clínicas por las que se consulta", "Estos son los motivos por los que se consulta")
+
+# Fertilidad y acupuntura: sin datos negativos (noviembre 2026)
+for _p in PAGES:
+    for _b in _p["blocks"]:
+        if _b.get("type") == "evidence":
+            _b["items"] = [(lv, t) for lv, t in _b["items"] if "nacidos vivos" not in t]
+            _b["refs"] = [r for r in _b.get("refs", []) if "Smith CA" not in r["t"]]
+    if _p.get("faq"):
+        _p["faq"] = [("¿Qué aporta la acupuntura durante un tratamiento de fertilidad?", "Puede ayudarte a gestionar el estrés y a cuidar tu bienestar durante el proceso, como complemento del seguimiento de tu clínica de reproducción.") if q.startswith("¿La acupuntura mejora las probabilidades de embarazo") else (q, a) for q, a in _p["faq"]]

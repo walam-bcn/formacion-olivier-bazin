@@ -275,7 +275,7 @@
           "name": "¿Ofrecéis estimulación transcraneal?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Todavía no. Si la incorporamos, se aplicará solo cuando haya una indicación respaldada por la evidencia y en coordinación con tu médico. En personas sanas no ha demostrado mejorar la memoria ni la atención."
+            "text": "Todavía no. Si la incorporamos, se aplicará solo cuando haya una indicación respaldada por la evidencia y en coordinación con tu médico."
           }
         },
         {

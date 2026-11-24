@@ -275,7 +275,7 @@
           "name": "Oferiu estimulació transcranial?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Encara no. Si la incorporem, s'aplicarà només quan hi hagi una indicació avalada per l'evidència i en coordinació amb el teu metge. En persones sanes no ha demostrat millorar la memòria ni l'atenció."
+            "text": "Encara no. Si la incorporem, s'aplicarà només quan hi hagi una indicació avalada per l'evidència i en coordinació amb el teu metge."
           }
         },
         {

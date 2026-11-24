@@ -221,15 +221,7 @@
             "name": "Acupuntura y medicina tradicional china"
           }
         ]
-      },
-      "citation": [
-        {
-          "@type": "ScholarlyArticle",
-          "name": "Effect of Acupuncture vs Sham Acupuncture on Live Births Among Women Undergoing In Vitro Fertilization: A Randomized Clinical Trial",
-          "url": "https://doi.org/10.1001/jama.2018.5336",
-          "sameAs": "https://doi.org/10.1001/jama.2018.5336"
-        }
-      ]
+      }
     },
     {
       "@type": "FAQPage",
@@ -245,10 +237,10 @@
         },
         {
           "@type": "Question",
-          "name": "¿La acupuntura mejora las probabilidades de embarazo?",
+          "name": "¿Qué aporta la acupuntura durante un tratamiento de fertilidad?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No hay pruebas de que lo haga. Un ensayo clínico con 848 mujeres publicado en JAMA no encontró diferencias en la tasa de nacidos vivos frente a la acupuntura simulada. Algunas personas la eligen por bienestar y para gestionar el estrés; te lo explicamos para que decidas con información."
+            "text": "Puede ayudarte a gestionar el estrés y a cuidar tu bienestar durante el proceso, como complemento del seguimiento de tu clínica de reproducción."
           }
         },
         {

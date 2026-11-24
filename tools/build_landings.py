@@ -610,8 +610,8 @@ def pro(f, p):
 </div></div></section>"""
 
 
-EV_NEG = re.compile(r"(?i)insuficiente|limitad|escas|no hay evidencia|no se ha demostrado|no est[áa] demostrad|no demostr|d[ée]bil|baja calidad|incierta|no concluyente|sin evidencia|pocos estudios|experiencia cl[íi]nica|no permite|menos estudiad|se reduce|inconsistente|no superior|calidad moderada|riesgo de sesgo")
-EV_LAB = re.compile(r"(?i)nuestro criterio|lo que ofrecemos|lo que no|con honestidad|nuestra postura|lo que se sabe|l[íi]mite|marco tradicional|otras consultas|experiencia cl[íi]nica|nuestro papel")
+EV_NEG = re.compile(r"(?i)insuficiente|limitad|escas|no hay evidencia|no se ha demostrado|no est[áa] demostrad|no demostr|d[ée]bil|baja calidad|incierta|no concluyente|sin evidencia|pocos estudios|experiencia cl[íi]nica|no permite|menos estudiad|se reduce|inconsistente|no superior|calidad moderada|riesgo de sesgo|feble|insuficient|no està demostrad|no ha demostrat|escàs|escassa|inconsistent|limitada|baixa qualitat|no han demostra|faltan ensayos|falten assajos|l[íi]mites|l[íi]mits|qualitat moderada|certesa moderada|certeza moderada|no redu|no mostr|no se asoci|no mejor|sin ensay|hip[óò]tesi|sense assaig|no va reduir|no va mostrar|no va millorar|vareniclina|pero no |però no |no hi ha evid|possible efecte|posible efecto")
+EV_LAB = re.compile(r"(?i)nuestro criterio|lo que ofrecemos|lo que no|con honestidad|nuestra postura|lo que se sabe|l[íi]mite|marco tradicional|otras consultas|experiencia cl[íi]nica|nuestro papel|el nostre criteri|el que oferim|el que no|amb honestedat|el que se sap|marc tradicional|altres consultes|experiència clínica|el nostre paper|l[íi]mit|se.n sap|debate|debat")
 
 
 def ev_items(e):
@@ -622,8 +622,11 @@ def ev_items(e):
         u = ev_link(lv + " " + t, refs)
         if not u and len(base) == len(refs):
             u = "https://doi.org/" + refs[i]["doi"]
+        t = re.sub(r"\s*\([^)]*\)", lambda m: "" if EV_NEG.search(m.group(0)) else m.group(0), t)
         sents = re.split(r"(?<=[.!?])\s+(?=[A-ZÁÉÍÓÚ¿«*])", t)
-        keep = [x for x in sents if not EV_NEG.search(x) and not re.match(r"(?i)(por eso|sin embargo|aun as[íi]|no obstante|pero)\b", x)]
+        if sents and EV_NEG.search(sents[0]):
+            continue
+        keep = [x for x in sents if not EV_NEG.search(x) and not re.match(r"(?i)(por eso|sin embargo|aun as[íi]|no obstante|pero|per aix[òo]|tanmateix|tot i aix[íi]|no obstant|per[òo])\b", x)]
         if keep:
             out.append((lv, " ".join(keep), u))
     return out

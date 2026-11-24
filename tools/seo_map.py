@@ -127,7 +127,7 @@ SEO = {
         "ca": "acompanyament fertilitat Barcelona",
         "title": "Acompañamiento integrativo en fertilidad | WA LAM",
         "desc": "Acompañamiento integrativo en fertilidad, complementario al seguimiento ginecológico o de reproducción: hábitos, estrés y bienestar, basado en evidencia.",
-        "quick": "El acompañamiento integrativo en fertilidad cuida los factores modificables —peso, tabaco, alcohol, sueño, actividad física y estrés— como complemento del seguimiento ginecológico. La acupuntura no ha demostrado mejorar la tasa de nacidos vivos en FIV, según un ensayo publicado en JAMA.",
+        "quick": "El acompañamiento integrativo en fertilidad cuida los factores modificables —peso, tabaco, alcohol, sueño, actividad física y estrés— como complemento del seguimiento ginecológico.",
         "entity": ("MedicalCondition", "Infertilidad"),
     },
     "salud-mujer-menopausia": {
@@ -316,7 +316,7 @@ SEO = {
         "ca": "reflexologia podal Barcelona",
         "title": "Reflexología podal en Sarrià–Sant Gervasi | WA LAM",
         "desc": "Sesión de reflexología podal en Sarrià–Sant Gervasi, Barcelona: masaje de relajación en los pies. Duración, precio, reserva y qué dice la evidencia.",
-        "quick": "La reflexología podal es una técnica de masaje y presión en los pies. En WA LAM la ofrecemos como sesión de relajación y bienestar complementaria. La guía SIO–ASCO de 2022 contempla la reflexología como apoyo para el dolor durante el tratamiento del cáncer; la correspondencia entre zonas del pie y órganos no está demostrada.",
+        "quick": "La reflexología podal es una técnica de masaje y presión en los pies. En WA LAM la ofrecemos como sesión de relajación y bienestar complementaria. La guía SIO–ASCO de 2022 contempla la reflexología como apoyo para el dolor durante el tratamiento del cáncer.",
         "entity": ("MedicalTherapy", "Reflexología"),
     },
     "curso-mindfulness-mbsr-barcelona": {
