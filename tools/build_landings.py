@@ -28,10 +28,15 @@ if LANG == "ca":
     CA = json.loads((ROOT / "tools" / "i18n_ca.json").read_text(encoding="utf-8"))
 
 
+_UF = ROOT / "tools" / "usted.json"
+USTED = json.loads(_UF.read_text(encoding="utf-8")) if _UF.exists() else {}
+
+
 def tr(t):
+    t2 = USTED.get(t, t) if isinstance(t, str) else t
     if LANG != "ca":
-        return t
-    return CA.get(t, t)
+        return t2
+    return CA.get(t2, CA.get(t, t2))
 
 
 SKIP_KEYS = {"slug", "type", "group", "related", "refs", "wave", "doi"}
@@ -991,6 +996,13 @@ def main():
     for p in PAGES:
         for b in p["blocks"]:
             b["_id"] = slugify(b.get("h2", b["type"]))
+    if LANG != "ca" and USTED:
+        PAGES[:] = [tr_deep(p) for p in PAGES]
+        for k in list(GROUPS):
+            GROUPS[k] = tr_deep(GROUPS[k])
+        for k in list(SEO):
+            SEO[k] = tr_deep(SEO[k])
+        BYSLUG = {p["slug"]: p for p in PAGES}
     if LANG == "ca":
         PAGES[:] = [tr_deep(p) for p in PAGES]
         for k in list(GROUPS):

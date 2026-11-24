@@ -27,11 +27,16 @@ def load():
 def _page(d):
     ev = d["evidence"]
     blocks = [
-        {"type": "mirror", "eyebrow": "¿Te reconoces?", "h2": d["mirror"]["h2"], "qs": d["mirror"]["qs"], "close": d["mirror"].get("close", "")},
+        {"type": "mirror", "eyebrow": "", "h2": d["mirror"]["h2"], "qs": d["mirror"]["qs"], "close": d["mirror"].get("close", "")},
         {"type": "explain", "eyebrow": "Qué es", "h2": d["explain"]["h2"], "paras": d["explain"]["paras"]},
     ]
     if d.get("explain2"):
         blocks.append({"type": "explain", "eyebrow": "", "h2": d["explain2"]["h2"], "paras": d["explain2"]["paras"]})
+    for sec in d.get("sections", []):
+        blk = {"type": "explain", "eyebrow": "", "h2": sec["h2"], "paras": sec.get("paras", [])}
+        if sec.get("list"):
+            blk["list_title"] = sec.get("list_title", ""); blk["list"] = sec["list"]
+        blocks.append(blk)
     blocks += [
         {"type": "cards", "eyebrow": "Cómo lo abordamos", "h2": d["cards"]["h2"], "items": d["cards"]["items"]},
         {"type": "evidence", "h2": ev.get("h2", "Qué dice la evidencia"), "items": [tuple(x) for x in ev["items"]], "refs": ev.get("refs", [])},
@@ -95,7 +100,7 @@ def integrate_seo(SEO, URLS, CA_SLUG, H):
                           "quick": s["quick"], "entity": tuple(s["entity"])}
         if d["slug"] not in URLS:
             URLS[d["slug"]] = f"{H}/{d['slug']}"
-        CA_SLUG[d["slug"]] = d["ca_slug"]
+        CA_SLUG.setdefault(d["slug"], d["ca_slug"])
 
 
 def integrate_research(RESEARCH):
