@@ -7,7 +7,9 @@
         "MedicalBusiness"
       ],
       "@id": "https://www.walambcn.com/#clinica",
-      "name": "WA LAM · Salud integrativa",
+      "name": "WA LAM",
+      "alternateName": "Wa Lam · Medicina integrativa",
+      "hasMap": "https://www.google.com/maps/search/?api=1&query=Wa%20Lam%2C%20Carrer%20del%20Bisbe%20Sivilla%2044%2C%2008022%20Barcelona",
       "url": "https://www.walambcn.com",
       "telephone": "+34675716409",
       "email": "contacto@walambcn.com",
@@ -146,7 +148,9 @@
           "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/reflexologia-podal"
         }
       ],
-      "sameAs": []
+      "sameAs": [
+        "https://www.google.com/maps/search/?api=1&query=Wa%20Lam%2C%20Carrer%20del%20Bisbe%20Sivilla%2044%2C%2008022%20Barcelona"
+      ]
     },
     {
       "@type": "BreadcrumbList",
@@ -177,7 +181,7 @@
       "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/enfermedad-inflamatoria-intestinal#webpage",
       "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/enfermedad-inflamatoria-intestinal",
       "name": "Crohn y colitis ulcerosa en Barcelona | WA LAM",
-      "description": "Enfermedad de Crohn y colitis ulcerosa en Sarrià–Sant Gervasi, Barcelona: alimentación, estrés, fatiga y calidad de vida como complemento del digestivo.",
+      "description": "Enfermedad de Crohn y colitis ulcerosa en Sarrià–Sant Gervasi, Barcelona: alimentación, estrés, fatiga y calidad de vida, con un plan adaptado a cada fase.",
       "inLanguage": "es-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -192,7 +196,7 @@
       },
       "lastReviewed": "2026-11-18",
       "dateModified": "2026-11-18",
-      "keywords": "enfermedad inflamatoria intestinal Barcelona, enfermedad de Crohn alimentación, colitis ulcerosa tratamiento complementario, Crohn fatiga, colitis ulcerosa estrés, medicina integrativa Crohn Barcelona",
+      "keywords": "enfermedad inflamatoria intestinal Barcelona, enfermedad de Crohn alimentación, colitis ulcerosa alimentación, Crohn fatiga, colitis ulcerosa estrés, medicina integrativa Crohn Barcelona",
       "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/enfermedad-inflamatoria-intestinal.png",
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -244,10 +248,10 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "¿Sustituye al tratamiento de mi digestivo?",
+          "name": "¿Qué debo traer a la primera visita?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. El tratamiento de la enfermedad lo indica tu especialista. Nuestro acompañamiento es un complemento centrado en la calidad de vida."
+            "text": "Tus informes recientes, las analíticas y la lista de lo que tomas. Con eso y tu historia diseñamos un plan centrado en tu energía, tu alimentación y tu calidad de vida."
           }
         },
         {

@@ -1,0 +1,284 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": [
+        "MedicalClinic",
+        "MedicalBusiness"
+      ],
+      "@id": "https://www.walambcn.com/#clinica",
+      "name": "WA LAM",
+      "alternateName": "Wa Lam · Medicina integrativa",
+      "hasMap": "https://www.google.com/maps/search/?api=1&query=Wa%20Lam%2C%20Carrer%20del%20Bisbe%20Sivilla%2044%2C%2008022%20Barcelona",
+      "url": "https://www.walambcn.com",
+      "telephone": "+34675716409",
+      "email": "contacto@walambcn.com",
+      "image": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/medicina-integrativa-barcelona.png",
+      "priceRange": "€€",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Carrer del Bisbe Sivilla, 44, local",
+        "postalCode": "08022",
+        "addressLocality": "Barcelona",
+        "addressRegion": "Cataluña",
+        "addressCountry": "ES"
+      },
+      "openingHours": [
+        "Mo-Fr 09:00-21:00"
+      ],
+      "founder": {
+        "@type": "Person",
+        "name": "Rosa María Rodríguez Valls",
+        "url": "https://www.walambcn.com/curriculum"
+      },
+      "foundingDate": "2004",
+      "areaServed": [
+        {
+          "@type": "Place",
+          "name": "Sarrià, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Sant Gervasi–Galvany, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Sant Gervasi–la Bonanova, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "les Tres Torres, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "el Putxet i el Farró, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Vallvidrera, el Tibidabo i les Planes, Barcelona"
+        },
+        {
+          "@type": "City",
+          "name": "Barcelona"
+        }
+      ],
+      "medicalSpecialty": [
+        "Physiotherapy",
+        "Musculoskeletal"
+      ],
+      "availableService": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Programes re:trace",
+          "url": "https://www.walambcn.com/ca/programes-re-trace"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Osteopatia",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/osteopatia-sarria-sant-gervasi"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Osteopatia visceral",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/osteopatia-visceral-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Osteopatia craniosacral",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/osteopatia-craniosacral-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Manipulacions neuroviscerals",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/manipulacions-neuroviscerals"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Pèrdua de pes",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/perdua-de-pes"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Deixar de fumar amb acupuntura",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/acupuntura-deixar-de-fumar"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Acupuntura i medicina tradicional xinesa",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/acupuntura-medicina-tradicional-xinesa"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "PNIE",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/pni-pnie-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Nutrició i salut intestinal",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/nutricio-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Drenatge limfàtic manual",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/drenatge-limfatic-manual"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Drenatge limfàtic en l'embaràs",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/drenatge-limfatic-embaras"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Drenatge limfàtic manual postoperatori",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/drenatge-limfatic-postoperatori"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Drenatge limfàtic per al limfedema",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/drenatge-limfatic-limfedema"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Massatges",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/massatges-sarria-sant-gervasi"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Reflexologia podal",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/reflexologia-podal"
+        }
+      ],
+      "sameAs": [
+        "https://www.google.com/maps/search/?api=1&query=Wa%20Lam%2C%20Carrer%20del%20Bisbe%20Sivilla%2044%2C%2008022%20Barcelona"
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/cortisol-estres-cronic#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Inicio",
+          "item": "https://www.walambcn.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "En què et puc ajudar?",
+          "item": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Cortisol i estrès crònic",
+          "item": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/cortisol-estres-cronic"
+        }
+      ]
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/cortisol-estres-cronic#webpage",
+      "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/cortisol-estres-cronic",
+      "name": "Cortisol i estrès crònic a Barcelona | WA LAM",
+      "description": "Cortisol i estrès crònic a Sarrià–Sant Gervasi, Barcelona: son, energia, pes abdominal i digestió. Mindfulness, moviment i alimentació.",
+      "inLanguage": "ca-ES",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "WA LAM",
+        "url": "https://www.walambcn.com"
+      },
+      "breadcrumb": {
+        "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/cortisol-estres-cronic#breadcrumb"
+      },
+      "publisher": {
+        "@id": "https://www.walambcn.com/#clinica"
+      },
+      "lastReviewed": "2026-11-18",
+      "dateModified": "2026-11-18",
+      "keywords": "estrés crónico Barcelona, cortisol alto síntomas, cómo bajar el cortisol, estrés y grasa abdominal, estrés crónico insomnio, mindfulness estrés Barcelona",
+      "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/cortisol-estres-cronico.png",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".quick p",
+          "h1"
+        ]
+      },
+      "audience": {
+        "@type": "Patient"
+      },
+      "reviewedBy": {
+        "@type": "Person",
+        "name": "Rosa María Rodríguez Valls",
+        "jobTitle": "Osteópata D.O. y máster en medicina integrativa",
+        "worksFor": {
+          "@id": "https://www.walambcn.com/#clinica"
+        }
+      },
+      "about": {
+        "@type": "MedicalCondition",
+        "name": "Estrés crónico",
+        "possibleTreatment": []
+      },
+      "citation": [
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Stress and Body Shape: Stress-Induced Cortisol Secretion Is Consistently Greater Among Women With Central Fat",
+          "url": "https://doi.org/10.1097/00006842-200009000-00005",
+          "sameAs": "https://doi.org/10.1097/00006842-200009000-00005"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Mindfulness mediates the physiological markers of stress: Systematic review and meta-analysis",
+          "url": "https://doi.org/10.1016/j.jpsychires.2017.08.004",
+          "sameAs": "https://doi.org/10.1016/j.jpsychires.2017.08.004"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Mindfulness-based stress reduction for healthy individuals: A meta-analysis",
+          "url": "https://doi.org/10.1016/j.jpsychores.2015.03.009",
+          "sameAs": "https://doi.org/10.1016/j.jpsychores.2015.03.009"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/cortisol-estres-cronic#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Necessito una anàlisi de cortisol?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No sempre. L'estrès crònic es reconeix sobretot per com et sents i com dorms. Si el teu metge sospita una malaltia endocrina, és ell qui indica les proves."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "L'estrès em pot fer engreixar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pot afavorir el greix abdominal, el piquejar i el mal descans. Si és el teu cas, treballem l'estrès juntament amb la pèrdua de pes."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "En què es diferencia de l'esgotament?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "L'estrès sostingut pot acabar en un esgotament físic i emocional. Com més aviat s'aborda, més fàcil és recuperar l'energia."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "I si a més tinc ansietat?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "És freqüent que vagin junts. Pots llegir més sobre l'abordatge de l'estrès i l'ansietat."
+          }
+        }
+      ]
+    }
+  ]
+}

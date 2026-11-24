@@ -304,8 +304,8 @@
     "Los interpretamos junto con tus síntomas y tu historia, y los traducimos en un plan por fases de alimentación, descanso y regulación del estrés."
    ],
    [
-    "¿Sustituye a las pruebas del digestivo?",
-    "No. Es un complemento del seguimiento médico. Si tus síntomas necesitan otras pruebas, te lo indicaremos."
+    "¿Cuánto tiempo tarda en notarse la mejoría?",
+    "Muchas personas notan cambios en la digestión en pocas semanas. La microbiota se reequilibra de forma progresiva, por eso trabajamos por fases y revisamos el plan en cada visita."
    ]
   ],
   "related": [
@@ -393,10 +393,10 @@
    "Recoges una pequeña muestra de heces en casa con un kit y la envías a un laboratorio especializado. Cuando llegan los resultados, los revisamos juntos en consulta.": "Reculls una petita mostra de femta a casa amb un kit i l'envies a un laboratori especialitzat. Quan arriben els resultats, els revisem junts a la consulta.",
    "¿Qué hacéis con los resultados?": "Què feu amb els resultats?",
    "Los interpretamos junto con tus síntomas y tu historia, y los traducimos en un plan por fases de alimentación, descanso y regulación del estrés.": "Els interpretem juntament amb els teus símptomes i la teva història, i els traduïm en un pla per fases d'alimentació, descans i regulació de l'estrès.",
-   "¿Sustituye a las pruebas del digestivo?": "Substitueix les proves del digestiu?",
-   "No. Es un complemento del seguimiento médico. Si tus síntomas necesitan otras pruebas, te lo indicaremos.": "No. És un complement del seguiment mèdic. Si els teus símptomes necessiten altres proves, t'ho indicarem.",
    "Entiende tu microbiota con un plan a tu medida": "Entén la teva microbiota amb un pla a la teva mida",
-   "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), valoramos la microbiota intestinal dentro de una consulta de PNIE. Cuando aporta información útil, proponemos un estudio de microbiota en laboratorio especializado y lo interpretamos junto con tus síntomas para diseñar un plan por fases.": "A WA LAM, a Sarrià–Sant Gervasi (Barcelona), valorem la microbiota intestinal dins d'una consulta de PNIE. Quan aporta informació útil, proposem un estudi de microbiota en laboratori especialitzat i l'interpretem juntament amb els teus símptomes per dissenyar un pla per fases."
+   "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), valoramos la microbiota intestinal dentro de una consulta de PNIE. Cuando aporta información útil, proponemos un estudio de microbiota en laboratorio especializado y lo interpretamos junto con tus síntomas para diseñar un plan por fases.": "A WA LAM, a Sarrià–Sant Gervasi (Barcelona), valorem la microbiota intestinal dins d'una consulta de PNIE. Quan aporta informació útil, proposem un estudi de microbiota en laboratori especialitzat i l'interpretem juntament amb els teus símptomes per dissenyar un pla per fases.",
+   "¿Cuánto tiempo tarda en notarse la mejoría?": "Quant de temps triga a notar-se la millora?",
+   "Muchas personas notan cambios en la digestión en pocas semanas. La microbiota se reequilibra de forma progresiva, por eso trabajamos por fases y revisamos el plan en cada visita.": "Moltes persones noten canvis en la digestió en poques setmanes. La microbiota es reequilibra de manera progressiva, per això treballem per fases i revisem el pla a cada visita."
   }
  },
  {
@@ -504,8 +504,8 @@
     "El estrés no es la única causa, pero influye mucho a través del eje intestino-cerebro. Por eso incluimos herramientas como el [curso MBSR](curso-mindfulness-mbsr-barcelona)."
    ],
    [
-    "¿Sustituye a la consulta de digestivo?",
-    "No. Es un acompañamiento como complemento del seguimiento médico, centrado en la alimentación, el estrés y los hábitos."
+    "¿Qué debo traer a la primera visita?",
+    "Los informes y pruebas que tengas (analíticas, test de aliento, colonoscopia) y, si puedes, un registro de unos días de lo que comes y de tus síntomas."
    ]
   ],
   "related": [
@@ -525,7 +525,7 @@
     "acupuntura colon irritable"
    ],
    "ca_kw": "còlon irritable Barcelona",
-   "quick": "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), acompañamos el colon irritable y el SIBO con una dieta baja en FODMAP guiada y con reintroducción, trabajo sobre el eje intestino-cerebro, mindfulness y acupuntura, como complemento del seguimiento médico.",
+   "quick": "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), acompañamos el colon irritable y el SIBO con una dieta baja en FODMAP guiada y con reintroducción, trabajo sobre el eje intestino-cerebro, mindfulness y acupuntura, para que vuelvas a comer con tranquilidad.",
    "entity": [
     "MedicalCondition",
     "Síndrome del intestino irritable"
@@ -591,11 +591,11 @@
    "El SIBO se estudia con un test de aliento que suele pedir el médico. Si ya lo tienes, tráelo a la primera visita y lo integramos en el plan.": "El SIBO s'estudia amb un test d'alè que sol demanar el metge. Si ja el tens, porta'l a la primera visita i l'integrem en el pla.",
    "¿El estrés puede causar colon irritable?": "L'estrès pot causar còlon irritable?",
    "El estrés no es la única causa, pero influye mucho a través del eje intestino-cerebro. Por eso incluimos herramientas como el [curso MBSR](curso-mindfulness-mbsr-barcelona).": "L'estrès no n'és l'única causa, però hi influeix molt a través de l'eix intestí-cervell. Per això hi incloem eines com el [curs MBSR](curso-mindfulness-mbsr-barcelona).",
-   "¿Sustituye a la consulta de digestivo?": "Substitueix la consulta de digestiu?",
-   "No. Es un acompañamiento como complemento del seguimiento médico, centrado en la alimentación, el estrés y los hábitos.": "No. És un acompanyament com a complement del seguiment mèdic, centrat en l'alimentació, l'estrès i els hàbits.",
    "Vuelve a comer con tranquilidad": "Torna a menjar amb tranquil·litat",
-   "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), acompañamos el colon irritable y el SIBO con una dieta baja en FODMAP guiada y con reintroducción, trabajo sobre el eje intestino-cerebro, mindfulness y acupuntura, como complemento del seguimiento médico.": "A WA LAM, a Sarrià–Sant Gervasi (Barcelona), acompanyem el còlon irritable i el SIBO amb una dieta baixa en FODMAP guiada i amb reintroducció, treball sobre l'eix intestí-cervell, mindfulness i acupuntura, com a complement del seguiment mèdic.",
-   "En 13 ensayos con 944 pacientes, la dieta baja en FODMAP fue la intervención dietética mejor situada para mejorar los síntomas globales, el dolor abdominal y la hinchazón del colon irritable (Black et al., Gut, 2021).": "En 13 assajos amb 944 pacients, la dieta baixa en FODMAP va ser la intervenció dietètica més ben situada per millorar els símptomes globals, el dolor abdominal i la inflor del còlon irritable (Black et al., Gut, 2021)."
+   "En 13 ensayos con 944 pacientes, la dieta baja en FODMAP fue la intervención dietética mejor situada para mejorar los síntomas globales, el dolor abdominal y la hinchazón del colon irritable (Black et al., Gut, 2021).": "En 13 assajos amb 944 pacients, la dieta baixa en FODMAP va ser la intervenció dietètica més ben situada per millorar els símptomes globals, el dolor abdominal i la inflor del còlon irritable (Black et al., Gut, 2021).",
+   "¿Qué debo traer a la primera visita?": "Què he de portar a la primera visita?",
+   "Los informes y pruebas que tengas (analíticas, test de aliento, colonoscopia) y, si puedes, un registro de unos días de lo que comes y de tus síntomas.": "Els informes i proves que tinguis (analítiques, test d'alè, colonoscòpia) i, si pots, un registre d'uns dies del que menges i dels teus símptomes.",
+   "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), acompañamos el colon irritable y el SIBO con una dieta baja en FODMAP guiada y con reintroducción, trabajo sobre el eje intestino-cerebro, mindfulness y acupuntura, para que vuelvas a comer con tranquilidad.": "A WA LAM, a Sarrià–Sant Gervasi (Barcelona), acompanyem el còlon irritable i el SIBO amb una dieta baixa en FODMAP guiada i amb reintroducció, treball sobre l'eix intestí-cervell, mindfulness i acupuntura, perquè tornis a menjar amb tranquil·litat."
   }
  },
  {
@@ -691,8 +691,8 @@
   },
   "faq": [
    [
-    "¿Tengo que dejar la medicación para el reflujo?",
-    "No. La medicación la pauta y la ajusta tu médico. Nuestro acompañamiento es un complemento centrado en los hábitos que influyen en el reflujo."
+    "¿Cuánto tiempo tarda en notarse la mejoría?",
+    "Con los cambios de horarios y de alimentación, muchas personas notan menos acidez en pocas semanas. Ajustamos el plan contigo hasta encontrar lo que mejor funciona en tu caso."
    ],
    [
     "¿Qué cambios ayudan más?",
@@ -704,7 +704,7 @@
    ],
    [
     "¿Atendéis la gastritis y las digestiones pesadas?",
-    "Sí, la gastritis funcional y la dispepsia, como complemento del seguimiento médico. Si tienes señales de alarma, primero debe valorarte tu médico."
+    "Sí, la gastritis funcional y la dispepsia. Si tienes señales de alarma, primero debe valorarte tu médico."
    ]
   ],
   "related": [
@@ -724,7 +724,7 @@
     "osteopatía reflujo Barcelona"
    ],
    "ca_kw": "reflux i acidesa Barcelona",
-   "quick": "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), acompañamos el reflujo, la acidez y las digestiones pesadas ajustando horarios, alimentación, peso y estrés, con terapia manual del diafragma y acupuntura cuando procede, como complemento del seguimiento médico.",
+   "quick": "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), acompañamos el reflujo, la acidez y las digestiones pesadas ajustando horarios, alimentación, peso y estrés, con terapia manual del diafragma y acupuntura cuando procede.",
    "entity": [
     "MedicalCondition",
     "Enfermedad por reflujo gastroesofágico"
@@ -783,36 +783,36 @@
    "Revisión sistemática (Gut)": "Revisió sistemàtica (Gut)",
    "Revisión (Clin Gastroenterol Hepatol)": "Revisió (Clin Gastroenterol Hepatol)",
    "Guía clínica (Am J Gastroenterol)": "Guia clínica (Am J Gastroenterol)",
-   "¿Tengo que dejar la medicación para el reflujo?": "He de deixar la medicació per al reflux?",
-   "No. La medicación la pauta y la ajusta tu médico. Nuestro acompañamiento es un complemento centrado en los hábitos que influyen en el reflujo.": "No. La medicació la pauta i l'ajusta el teu metge. El nostre acompanyament és un complement centrat en els hàbits que influeixen en el reflux.",
    "¿Qué cambios ayudan más?": "Quins canvis ajuden més?",
    "Cenar antes y más ligero, no tumbarse justo después de comer, perder peso si hay sobrepeso, dejar el tabaco y comer con calma. Los adaptamos a tu rutina.": "Sopar abans i més lleuger, no estirar-se just després de menjar, perdre pes si hi ha sobrepès, deixar el tabac i menjar amb calma. Els adaptem a la teva rutina.",
    "¿El estrés influye en la acidez?": "L'estrès influeix en l'acidesa?",
    "Sí. El estrés aumenta la percepción de los síntomas y altera la digestión. Por eso incluimos respiración y regulación del sistema nervioso.": "Sí. L'estrès augmenta la percepció dels símptomes i altera la digestió. Per això hi incloem respiració i regulació del sistema nerviós.",
    "¿Atendéis la gastritis y las digestiones pesadas?": "Ateneu la gastritis i les digestions pesades?",
-   "Sí, la gastritis funcional y la dispepsia, como complemento del seguimiento médico. Si tienes señales de alarma, primero debe valorarte tu médico.": "Sí, la gastritis funcional i la dispèpsia, com a complement del seguiment mèdic. Si tens senyals d'alarma, primer t'ha de valorar el teu metge.",
    "Digiere mejor, descansa mejor": "Digereix millor, descansa millor",
-   "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), acompañamos el reflujo, la acidez y las digestiones pesadas ajustando horarios, alimentación, peso y estrés, con terapia manual del diafragma y acupuntura cuando procede, como complemento del seguimiento médico.": "A WA LAM, a Sarrià–Sant Gervasi (Barcelona), acompanyem el reflux, l'acidesa i les digestions pesades ajustant horaris, alimentació, pes i estrès, amb teràpia manual del diafragma i acupuntura quan escau, com a complement del seguiment mèdic.",
    "La enfermedad por reflujo es frecuente en todo el mundo y su carga puede estar aumentando. La obesidad figura entre los factores asociados (El-Serag et al., Gut, 2013).": "La malaltia per reflux és freqüent arreu del món i la seva càrrega pot estar augmentant. L'obesitat figura entre els factors associats (El-Serag et al., Gut, 2013).",
    "La pérdida de peso redujo la exposición del esófago al ácido, dejar de fumar disminuyó los síntomas, y evitar cenas tardías y elevar el cabecero de la cama mejoraron el reflujo nocturno (Ness-Jensen et al., Clin Gastroenterol Hepatol, 2015).": "La pèrdua de pes va reduir l'exposició de l'esòfag a l'àcid, deixar de fumar va disminuir els símptomes, i evitar sopars tardans i elevar el capçal del llit van millorar el reflux nocturn (Ness-Jensen et al., Clin Gastroenterol Hepatol, 2015).",
-   "La guía del American College of Gastroenterology recomienda perder peso si hay sobrepeso, evitar comer en las 2–3 horas previas a acostarse y elevar el cabecero en los síntomas nocturnos (Katz et al., Am J Gastroenterol, 2021).": "La guia de l'American College of Gastroenterology recomana perdre pes si hi ha sobrepès, evitar menjar en les 2–3 hores prèvies a anar a dormir i elevar el capçal en els símptomes nocturns (Katz et al., Am J Gastroenterol, 2021)."
+   "La guía del American College of Gastroenterology recomienda perder peso si hay sobrepeso, evitar comer en las 2–3 horas previas a acostarse y elevar el cabecero en los síntomas nocturnos (Katz et al., Am J Gastroenterol, 2021).": "La guia de l'American College of Gastroenterology recomana perdre pes si hi ha sobrepès, evitar menjar en les 2–3 hores prèvies a anar a dormir i elevar el capçal en els símptomes nocturns (Katz et al., Am J Gastroenterol, 2021).",
+   "¿Cuánto tiempo tarda en notarse la mejoría?": "Quant de temps triga a notar-se la millora?",
+   "Con los cambios de horarios y de alimentación, muchas personas notan menos acidez en pocas semanas. Ajustamos el plan contigo hasta encontrar lo que mejor funciona en tu caso.": "Amb els canvis d'horaris i d'alimentació, moltes persones noten menys acidesa en poques setmanes. Ajustem el pla amb tu fins a trobar el que funciona millor en el teu cas.",
+   "Sí, la gastritis funcional y la dispepsia. Si tienes señales de alarma, primero debe valorarte tu médico.": "Sí, la gastritis funcional i la dispèpsia. Si tens senyals d'alarma, primer t'ha de valorar el teu metge.",
+   "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), acompañamos el reflujo, la acidez y las digestiones pesadas ajustando horarios, alimentación, peso y estrés, con terapia manual del diafragma y acupuntura cuando procede.": "A WA LAM, a Sarrià–Sant Gervasi (Barcelona), acompanyem el reflux, l'acidesa i les digestions pesades ajustant horaris, alimentació, pes i estrès, amb teràpia manual del diafragma i acupuntura quan escau."
   }
  },
  {
   "slug": "enfermedad-inflamatoria-intestinal",
   "ca_slug": "malaltia-inflamatoria-intestinal",
   "nav": "Enfermedad inflamatoria intestinal",
-  "card": "Crohn y colitis ulcerosa: calidad de vida, alimentación, estrés y fatiga como complemento del digestivo.",
+  "card": "Crohn y colitis ulcerosa: te ayudamos a mejorar tu calidad de vida con alimentación, gestión del estrés y de la fatiga.",
   "title": "Crohn y colitis ulcerosa en Barcelona | WA LAM",
-  "desc": "Enfermedad de Crohn y colitis ulcerosa en Sarrià–Sant Gervasi, Barcelona: alimentación, estrés, fatiga y calidad de vida como complemento del digestivo.",
+  "desc": "Enfermedad de Crohn y colitis ulcerosa en Sarrià–Sant Gervasi, Barcelona: alimentación, estrés, fatiga y calidad de vida, con un plan adaptado a cada fase.",
   "h1": "Enfermedad inflamatoria intestinal en Barcelona",
   "sub": "Crohn y colitis ulcerosa, con una mirada integrativa · Sarrià–Sant Gervasi",
-  "lead": "La enfermedad de Crohn y la colitis ulcerosa son enfermedades crónicas que necesitan seguimiento por el especialista de digestivo. Además del tratamiento médico, muchas personas conviven con fatiga, estrés, dudas sobre qué comer y una calidad de vida afectada. En WA LAM te acompañamos en esos aspectos, siempre como complemento del digestivo.",
+  "lead": "La enfermedad de Crohn y la colitis ulcerosa son enfermedades crónicas que afectan mucho al día a día. Muchas personas conviven con fatiga, estrés, dudas sobre qué comer y una calidad de vida afectada. En WA LAM te ayudamos a cuidar esos aspectos para que vivas mejor con la enfermedad.",
   "facts_title": "En WA LAM",
   "facts": [
    "Crohn y colitis ulcerosa",
    "Alimentación, fatiga y estrés",
-   "Complemento del seguimiento de digestivo",
+   "Plan adaptado a brote y remisión",
    "Primera visita: 60 min · 90 €"
   ],
   "wa": "Hola, me gustaría información sobre el acompañamiento en la enfermedad de Crohn o la colitis ulcerosa.",
@@ -891,8 +891,8 @@
   },
   "faq": [
    [
-    "¿Sustituye al tratamiento de mi digestivo?",
-    "No. El tratamiento de la enfermedad lo indica tu especialista. Nuestro acompañamiento es un complemento centrado en la calidad de vida."
+    "¿Qué debo traer a la primera visita?",
+    "Tus informes recientes, las analíticas y la lista de lo que tomas. Con eso y tu historia diseñamos un plan centrado en tu energía, tu alimentación y tu calidad de vida."
    ],
    [
     "¿Hay una dieta para el Crohn o la colitis?",
@@ -918,13 +918,13 @@
    "kw": "enfermedad inflamatoria intestinal Barcelona",
    "kws": [
     "enfermedad de Crohn alimentación",
-    "colitis ulcerosa tratamiento complementario",
+    "colitis ulcerosa alimentación",
     "Crohn fatiga",
     "colitis ulcerosa estrés",
     "medicina integrativa Crohn Barcelona"
    ],
    "ca_kw": "malaltia inflamatòria intestinal Barcelona",
-   "quick": "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), acompañamos a personas con enfermedad de Crohn o colitis ulcerosa en la alimentación, la fatiga, el estrés y la calidad de vida, siempre como complemento del seguimiento por el especialista de digestivo.",
+   "quick": "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), acompañamos a personas con enfermedad de Crohn o colitis ulcerosa en la alimentación, la fatiga, el estrés y la calidad de vida, con un plan adaptado a cada fase de la enfermedad.",
    "entity": [
     "MedicalCondition",
     "Enfermedad inflamatoria intestinal"
@@ -945,16 +945,12 @@
   ],
   "ca": {
    "Enfermedad inflamatoria intestinal": "Malaltia inflamatòria intestinal",
-   "Crohn y colitis ulcerosa: calidad de vida, alimentación, estrés y fatiga como complemento del digestivo.": "Crohn i colitis ulcerosa: qualitat de vida, alimentació, estrès i fatiga com a complement del digestiu.",
    "Crohn y colitis ulcerosa en Barcelona | WA LAM": "Crohn i colitis ulcerosa a Barcelona | WA LAM",
-   "Enfermedad de Crohn y colitis ulcerosa en Sarrià–Sant Gervasi, Barcelona: alimentación, estrés, fatiga y calidad de vida como complemento del digestivo.": "Malaltia de Crohn i colitis ulcerosa a Sarrià–Sant Gervasi, Barcelona: alimentació, estrès, fatiga i qualitat de vida com a complement del digestiu.",
    "Enfermedad inflamatoria intestinal en Barcelona": "Malaltia inflamatòria intestinal a Barcelona",
    "Crohn y colitis ulcerosa, con una mirada integrativa · Sarrià–Sant Gervasi": "Crohn i colitis ulcerosa, amb una mirada integrativa · Sarrià–Sant Gervasi",
-   "La enfermedad de Crohn y la colitis ulcerosa son enfermedades crónicas que necesitan seguimiento por el especialista de digestivo. Además del tratamiento médico, muchas personas conviven con fatiga, estrés, dudas sobre qué comer y una calidad de vida afectada. En WA LAM te acompañamos en esos aspectos, siempre como complemento del digestivo.": "La malaltia de Crohn i la colitis ulcerosa són malalties cròniques que necessiten seguiment per part de l'especialista de digestiu. A més del tractament mèdic, moltes persones conviuen amb fatiga, estrès, dubtes sobre què menjar i una qualitat de vida afectada. A WA LAM t'acompanyem en aquests aspectes, sempre com a complement del digestiu.",
    "En WA LAM": "A WA LAM",
    "Crohn y colitis ulcerosa": "Crohn i colitis ulcerosa",
    "Alimentación, fatiga y estrés": "Alimentació, fatiga i estrès",
-   "Complemento del seguimiento de digestivo": "Complement del seguiment de digestiu",
    "Primera visita: 60 min · 90 €": "Primera visita: 60 min · 90 €",
    "Hola, me gustaría información sobre el acompañamiento en la enfermedad de Crohn o la colitis ulcerosa.": "Hola, m'agradaria informació sobre l'acompanyament en la malaltia de Crohn o la colitis ulcerosa.",
    "Cuando la enfermedad va más allá del intestino": "Quan la malaltia va més enllà de l'intestí",
@@ -985,8 +981,6 @@
    "Ensayo clínico (Aliment Pharmacol Ther)": "Assaig clínic (Aliment Pharmacol Ther)",
    "En personas con colitis ulcerosa en remisión, 12 semanas de yoga mejoraron la calidad de vida y redujeron la actividad de la enfermedad frente a los consejos escritos de autocuidado (Cramer et al., Aliment Pharmacol Ther, 2017).": "En persones amb colitis ulcerosa en remissió, 12 setmanes de ioga van millorar la qualitat de vida i van reduir l'activitat de la malaltia davant dels consells escrits d'autocura (Cramer et al., Aliment Pharmacol Ther, 2017).",
    "Metaanálisis (J Psychosom Res)": "Metaanàlisi (J Psychosom Res)",
-   "¿Sustituye al tratamiento de mi digestivo?": "Substitueix el tractament del meu digestiu?",
-   "No. El tratamiento de la enfermedad lo indica tu especialista. Nuestro acompañamiento es un complemento centrado en la calidad de vida.": "No. El tractament de la malaltia l'indica el teu especialista. El nostre acompanyament és un complement centrat en la qualitat de vida.",
    "¿Hay una dieta para el Crohn o la colitis?": "Hi ha una dieta per al Crohn o la colitis?",
    "No hay una dieta única. Ajustamos la alimentación a tu fase, tus síntomas y tus tolerancias para comer con más seguridad y variedad.": "No hi ha una dieta única. Ajustem l'alimentació a la teva fase, els teus símptomes i les teves toleràncies per menjar amb més seguretat i varietat.",
    "¿Podéis ayudarme con la fatiga?": "Em podeu ajudar amb la fatiga?",
@@ -994,8 +988,14 @@
    "¿Puedo venir durante un brote?": "Puc venir durant un brot?",
    "En un brote, la prioridad es tu equipo de digestivo. Podemos acompañarte con pautas suaves y retomar el plan cuando estés más estable.": "Durant un brot, la prioritat és el teu equip de digestiu. Et podem acompanyar amb pautes suaus i reprendre el pla quan estiguis més estable.",
    "Vive mejor con tu enfermedad, paso a paso": "Viu millor amb la teva malaltia, pas a pas",
-   "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), acompañamos a personas con enfermedad de Crohn o colitis ulcerosa en la alimentación, la fatiga, el estrés y la calidad de vida, siempre como complemento del seguimiento por el especialista de digestivo.": "A WA LAM, a Sarrià–Sant Gervasi (Barcelona), acompanyem persones amb malaltia de Crohn o colitis ulcerosa en l'alimentació, la fatiga, l'estrès i la qualitat de vida, sempre com a complement del seguiment per part de l'especialista de digestiu.",
-   "Las intervenciones basadas en mindfulness redujeron el estrés y la depresión y mejoraron la calidad de vida en personas con enfermedad inflamatoria intestinal (Ewais et al., J Psychosom Res, 2018).": "Les intervencions basades en mindfulness van reduir l'estrès i la depressió i van millorar la qualitat de vida en persones amb malaltia inflamatòria intestinal (Ewais et al., J Psychosom Res, 2018)."
+   "Las intervenciones basadas en mindfulness redujeron el estrés y la depresión y mejoraron la calidad de vida en personas con enfermedad inflamatoria intestinal (Ewais et al., J Psychosom Res, 2018).": "Les intervencions basades en mindfulness van reduir l'estrès i la depressió i van millorar la qualitat de vida en persones amb malaltia inflamatòria intestinal (Ewais et al., J Psychosom Res, 2018).",
+   "Crohn y colitis ulcerosa: te ayudamos a mejorar tu calidad de vida con alimentación, gestión del estrés y de la fatiga.": "Crohn i colitis ulcerosa: t'ajudem a millorar la teva qualitat de vida amb alimentació, gestió de l'estrès i de la fatiga.",
+   "Enfermedad de Crohn y colitis ulcerosa en Sarrià–Sant Gervasi, Barcelona: alimentación, estrés, fatiga y calidad de vida, con un plan adaptado a cada fase.": "Malaltia de Crohn i colitis ulcerosa a Sarrià–Sant Gervasi, Barcelona: alimentació, estrès, fatiga i qualitat de vida, amb un pla adaptat a cada fase.",
+   "La enfermedad de Crohn y la colitis ulcerosa son enfermedades crónicas que afectan mucho al día a día. Muchas personas conviven con fatiga, estrés, dudas sobre qué comer y una calidad de vida afectada. En WA LAM te ayudamos a cuidar esos aspectos para que vivas mejor con la enfermedad.": "La malaltia de Crohn i la colitis ulcerosa són malalties cròniques que afecten molt el dia a dia. Moltes persones conviuen amb fatiga, estrès, dubtes sobre què menjar i una qualitat de vida afectada. A WA LAM t'ajudem a cuidar aquests aspectes perquè visquis millor amb la malaltia.",
+   "Plan adaptado a brote y remisión": "Pla adaptat a brot i remissió",
+   "¿Qué debo traer a la primera visita?": "Què he de portar a la primera visita?",
+   "Tus informes recientes, las analíticas y la lista de lo que tomas. Con eso y tu historia diseñamos un plan centrado en tu energía, tu alimentación y tu calidad de vida.": "Els teus informes recents, les analítiques i la llista del que prens. Amb això i la teva història dissenyem un pla centrat en la teva energia, la teva alimentació i la teva qualitat de vida.",
+   "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), acompañamos a personas con enfermedad de Crohn o colitis ulcerosa en la alimentación, la fatiga, el estrés y la calidad de vida, con un plan adaptado a cada fase de la enfermedad.": "A WA LAM, a Sarrià–Sant Gervasi (Barcelona), acompanyem persones amb malaltia de Crohn o colitis ulcerosa en l'alimentació, la fatiga, l'estrès i la qualitat de vida, amb un pla adaptat a cada fase de la malaltia."
   }
  }
 ]

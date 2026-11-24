@@ -7,7 +7,9 @@
         "MedicalBusiness"
       ],
       "@id": "https://www.walambcn.com/#clinica",
-      "name": "WA LAM · Salud integrativa",
+      "name": "WA LAM",
+      "alternateName": "Wa Lam · Medicina integrativa",
+      "hasMap": "https://www.google.com/maps/search/?api=1&query=Wa%20Lam%2C%20Carrer%20del%20Bisbe%20Sivilla%2044%2C%2008022%20Barcelona",
       "url": "https://www.walambcn.com",
       "telephone": "+34675716409",
       "email": "contacto@walambcn.com",
@@ -146,7 +148,9 @@
           "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/reflexologia-podal"
         }
       ],
-      "sameAs": []
+      "sameAs": [
+        "https://www.google.com/maps/search/?api=1&query=Wa%20Lam%2C%20Carrer%20del%20Bisbe%20Sivilla%2044%2C%2008022%20Barcelona"
+      ]
     },
     {
       "@type": "BreadcrumbList",
@@ -177,7 +181,7 @@
       "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/ciatica#webpage",
       "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/ciatica",
       "name": "Ciàtica a Barcelona · Dolor irradiat | WA LAM",
-      "description": "Ciàtica a Sarrià–Sant Gervasi, Barcelona: dolor irradiat a la cama per hèrnia discal. Acompanyament integratiu com a complement del seguiment mèdic.",
+      "description": "Ciàtica a Sarrià–Sant Gervasi, Barcelona: dolor irradiat a la cama per hèrnia discal. Acupuntura, teràpia manual suau i exercici progressiu per alleujar el nervi.",
       "inLanguage": "ca-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -247,10 +251,10 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Substitueix el tractament mèdic?",
+          "name": "Quant de temps triga a notar-se la millora?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. L'acompanyament és complementari i no modifica la medicació prescrita pel teu metge."
+            "text": "Moltes persones noten alleujament les primeres setmanes. El nervi necessita temps per calmar-se, per això avancem per fases i ajustem el pla segons com respons."
           }
         },
         {

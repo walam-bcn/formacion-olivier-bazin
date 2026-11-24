@@ -125,7 +125,7 @@
     "acupuntura dolor lumbar Barcelona"
    ],
    "ca_kw": "lumbàlgia Barcelona",
-   "quick": "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), abordamos la lumbalgia aguda y crónica con terapia manual, acupuntura, ejercicio adaptado y regulación del estrés. También acompañamos el dolor asociado a una hernia de disco incipiente, como complemento del seguimiento médico.",
+   "quick": "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), abordamos la lumbalgia aguda y crónica con terapia manual, acupuntura, ejercicio adaptado y regulación del estrés. También te ayudamos con el dolor asociado a una hernia de disco incipiente.",
    "entity": [
     "MedicalCondition",
     "Lumbalgia"
@@ -195,8 +195,8 @@
    "¿Cuántas sesiones necesitaré?": "Quantes sessions necessitaré?",
    "Depende de cada caso. En la primera visita valoramos tu situación y te proponemos un plan con objetivos claros.": "Depèn de cada cas. A la primera visita valorem la teva situació i et proposem un pla amb objectius clars.",
    "Vuelve a moverte con confianza": "Torna a moure't amb confiança",
-   "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), abordamos la lumbalgia aguda y crónica con terapia manual, acupuntura, ejercicio adaptado y regulación del estrés. También acompañamos el dolor asociado a una hernia de disco incipiente, como complemento del seguimiento médico.": "A WA LAM, a Sarrià–Sant Gervasi (Barcelona), abordem la lumbàlgia aguda i crònica amb teràpia manual, acupuntura, exercici adaptat i regulació de l'estrès. També acompanyem el dolor associat a una hèrnia de disc incipient, com a complement del seguiment mèdic.",
-   "En un metaanálisis con datos individuales de más de 20.000 pacientes, la acupuntura redujo el dolor musculoesquelético crónico, incluido el lumbar, frente a la acupuntura simulada y a la ausencia de acupuntura (Vickers et al., J Pain, 2017).": "En una metanàlisi amb dades individuals de més de 20.000 pacients, l'acupuntura va reduir el dolor musculoesquelètic crònic, inclòs el lumbar, en comparació amb l'acupuntura simulada i amb l'absència d'acupuntura (Vickers et al., J Pain, 2017)."
+   "En un metaanálisis con datos individuales de más de 20.000 pacientes, la acupuntura redujo el dolor musculoesquelético crónico, incluido el lumbar, frente a la acupuntura simulada y a la ausencia de acupuntura (Vickers et al., J Pain, 2017).": "En una metanàlisi amb dades individuals de més de 20.000 pacients, l'acupuntura va reduir el dolor musculoesquelètic crònic, inclòs el lumbar, en comparació amb l'acupuntura simulada i amb l'absència d'acupuntura (Vickers et al., J Pain, 2017).",
+   "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), abordamos la lumbalgia aguda y crónica con terapia manual, acupuntura, ejercicio adaptado y regulación del estrés. También te ayudamos con el dolor asociado a una hernia de disco incipiente.": "A WA LAM, a Sarrià–Sant Gervasi (Barcelona), abordem la lumbàlgia aguda i crònica amb teràpia manual, acupuntura, exercici adaptat i regulació de l'estrès. També t'ajudem amb el dolor associat a una hèrnia de disc incipient."
   }
  },
  {
@@ -297,7 +297,7 @@
    ],
    [
     "¿Atendéis el latigazo cervical tras un accidente?",
-    "Sí, una vez descartadas lesiones por tu médico, como complemento del seguimiento médico, con terapia manual suave y ejercicio progresivo."
+    "Sí. Una vez descartadas lesiones por tu médico, trabajamos con terapia manual suave y ejercicio progresivo para recuperar la movilidad del cuello."
    ],
    [
     "¿El dolor de cuello puede dar dolor de cabeza?",
@@ -389,14 +389,14 @@
    "¿Qué hago si tengo una tortícolis?": "Què faig si tinc una torticoli?",
    "Mantén el cuello en movimiento suave dentro de lo que toleras y aplica calor local. Si en pocos días no mejora, una valoración ayuda a recuperar la movilidad antes.": "Mantén el coll en moviment suau dins del que toleres i aplica-hi calor local. Si en pocs dies no millora, una valoració ajuda a recuperar la mobilitat abans.",
    "¿Atendéis el latigazo cervical tras un accidente?": "Atendeu la fuetada cervical després d'un accident?",
-   "Sí, una vez descartadas lesiones por tu médico, como complemento del seguimiento médico, con terapia manual suave y ejercicio progresivo.": "Sí, un cop descartades lesions pel teu metge, com a complement del seguiment mèdic, amb teràpia manual suau i exercici progressiu.",
    "¿El dolor de cuello puede dar dolor de cabeza?": "El dolor de coll pot provocar mal de cap?",
    "Sí. La tensión cervical puede irradiarse a la nuca y la cabeza. Si los dolores de cabeza son frecuentes, consulta también nuestra página de [cefaleas y migraña](cefaleas-migrana).": "Sí. La tensió cervical pot irradiar-se al clatell i al cap. Si els mals de cap són freqüents, consulta també la nostra pàgina de [cefalees i migranya](cefaleas-migrana).",
    "¿Cuántas sesiones necesitaré?": "Quantes sessions necessitaré?",
    "Depende de cada caso. En la primera visita valoramos tu situación y te proponemos un plan con objetivos claros.": "Depèn de cada cas. A la primera visita valorem la teva situació i et proposem un pla amb objectius clars.",
    "Devuelve a tu cuello la libertad de movimiento": "Retorna al teu coll la llibertat de moviment",
    "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), abordamos la cervicalgia, la tortícolis y el latigazo cervical con terapia manual, acupuntura, ejercicio y regulación del estrés. El objetivo es aliviar el dolor y recuperar la movilidad del cuello de forma progresiva.": "A WA LAM, a Sarrià–Sant Gervasi (Barcelona), abordem la cervicàlgia, la torticoli i la fuetada cervical amb teràpia manual, acupuntura, exercici i regulació de l'estrès. L'objectiu és alleujar el dolor i recuperar la mobilitat del coll de manera progressiva.",
-   "En un metaanálisis con datos individuales de más de 20.000 pacientes, la acupuntura redujo el dolor musculoesquelético crónico, incluido el cervical, frente a la acupuntura simulada (Vickers et al., J Pain, 2017).": "En una metanàlisi amb dades individuals de més de 20.000 pacients, l'acupuntura va reduir el dolor musculoesquelètic crònic, inclòs el cervical, en comparació amb l'acupuntura simulada (Vickers et al., J Pain, 2017)."
+   "En un metaanálisis con datos individuales de más de 20.000 pacientes, la acupuntura redujo el dolor musculoesquelético crónico, incluido el cervical, frente a la acupuntura simulada (Vickers et al., J Pain, 2017).": "En una metanàlisi amb dades individuals de més de 20.000 pacients, l'acupuntura va reduir el dolor musculoesquelètic crònic, inclòs el cervical, en comparació amb l'acupuntura simulada (Vickers et al., J Pain, 2017).",
+   "Sí. Una vez descartadas lesiones por tu médico, trabajamos con terapia manual suave y ejercicio progresivo para recuperar la movilidad del cuello.": "Sí. Un cop descartades lesions pel teu metge, treballem amb teràpia manual suau i exercici progressiu per recuperar la mobilitat del coll."
   }
  },
  {
@@ -605,15 +605,15 @@
   "nav": "Ciática",
   "card": "Dolor que baja de la zona lumbar a la pierna, a menudo por una hernia discal.",
   "title": "Ciática en Barcelona · Dolor irradiado | WA LAM",
-  "desc": "Ciática en Sarrià–Sant Gervasi, Barcelona: dolor irradiado a la pierna por hernia discal. Acompañamiento integrativo como complemento del seguimiento médico.",
+  "desc": "Ciática en Sarrià–Sant Gervasi, Barcelona: dolor irradiado a la pierna por hernia discal. Acupuntura, terapia manual suave y ejercicio progresivo para aliviar el nervio.",
   "h1": "Ciática en Barcelona: dolor que baja por la pierna",
   "sub": "Dolor irradiado y hernia discal · Sarrià–Sant Gervasi",
-  "lead": "La ciática es un dolor que nace en la zona lumbar o en la nalga y baja por la pierna, a veces hasta el pie. Suele deberse a la irritación de una raíz nerviosa, con frecuencia por una hernia discal. La mayoría de los casos evoluciona bien con un abordaje conservador, como complemento del seguimiento médico.",
+  "lead": "La ciática es un dolor que nace en la zona lumbar o en la nalga y baja por la pierna, a veces hasta el pie. Suele deberse a la irritación de una raíz nerviosa, con frecuencia por una hernia discal. La mayoría de los casos evoluciona bien con un abordaje conservador, y te ayudamos a recuperar la movilidad y la confianza en tu espalda.",
   "facts_title": "En WA LAM",
   "facts": [
    "Ciática y dolor irradiado",
    "Hernia discal lumbar",
-   "Complemento del seguimiento médico",
+   "Plan individual por fases",
    "Primera visita: 60 min · 90 €"
   ],
   "wa": "Hola, me gustaría información sobre el abordaje de la ciática.",
@@ -684,8 +684,8 @@
   },
   "faq": [
    [
-    "¿Sustituye al tratamiento médico?",
-    "No. El acompañamiento es complementario y no modifica la medicación prescrita por tu médico."
+    "¿Cuánto tiempo tarda en notarse la mejoría?",
+    "Muchas personas notan alivio en las primeras semanas. El nervio necesita tiempo para calmarse, por eso avanzamos por fases y ajustamos el plan según cómo respondes."
    ],
    [
     "¿Es mejor hacer reposo?",
@@ -717,7 +717,7 @@
     "osteópata ciática Sarrià"
    ],
    "ca_kw": "ciàtica Barcelona",
-   "quick": "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), acompañamos la ciática y el dolor irradiado a la pierna por hernia discal con acupuntura, terapia manual suave, actividad adaptada y regulación del estrés, siempre como complemento del seguimiento médico.",
+   "quick": "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), acompañamos la ciática y el dolor irradiado a la pierna por hernia discal con acupuntura, terapia manual suave, actividad adaptada y regulación del estrés, con un plan por fases para recuperar tu día a día.",
    "entity": [
     "MedicalCondition",
     "Ciática"
@@ -740,14 +740,11 @@
    "Ciática": "Ciàtica",
    "Dolor que baja de la zona lumbar a la pierna, a menudo por una hernia discal.": "Dolor que baixa de la zona lumbar a la cama, sovint per una hèrnia discal.",
    "Ciática en Barcelona · Dolor irradiado | WA LAM": "Ciàtica a Barcelona · Dolor irradiat | WA LAM",
-   "Ciática en Sarrià–Sant Gervasi, Barcelona: dolor irradiado a la pierna por hernia discal. Acompañamiento integrativo como complemento del seguimiento médico.": "Ciàtica a Sarrià–Sant Gervasi, Barcelona: dolor irradiat a la cama per hèrnia discal. Acompanyament integratiu com a complement del seguiment mèdic.",
    "Ciática en Barcelona: dolor que baja por la pierna": "Ciàtica a Barcelona: dolor que baixa per la cama",
    "Dolor irradiado y hernia discal · Sarrià–Sant Gervasi": "Dolor irradiat i hèrnia discal · Sarrià–Sant Gervasi",
-   "La ciática es un dolor que nace en la zona lumbar o en la nalga y baja por la pierna, a veces hasta el pie. Suele deberse a la irritación de una raíz nerviosa, con frecuencia por una hernia discal. La mayoría de los casos evoluciona bien con un abordaje conservador, como complemento del seguimiento médico.": "La ciàtica és un dolor que neix a la zona lumbar o a la natja i baixa per la cama, de vegades fins al peu. Sol ser deguda a la irritació d'una arrel nerviosa, sovint per una hèrnia discal. La majoria dels casos evoluciona bé amb un abordatge conservador, com a complement del seguiment mèdic.",
    "En WA LAM": "A WA LAM",
    "Ciática y dolor irradiado": "Ciàtica i dolor irradiat",
    "Hernia discal lumbar": "Hèrnia discal lumbar",
-   "Complemento del seguimiento médico": "Complement del seguiment mèdic",
    "Primera visita: 60 min · 90 €": "Primera visita: 60 min · 90 €",
    "Hola, me gustaría información sobre el abordaje de la ciática.": "Hola, m'agradaria informació sobre l'abordatge de la ciàtica.",
    "Cuando el dolor baja por la pierna": "Quan el dolor baixa per la cama",
@@ -777,8 +774,6 @@
    "La mayoría de las personas con ciática aguda tiene un pronóstico favorable, y el manejo inicial recomendado es conservador (Koes et al., BMJ, 2007).": "La majoria de les persones amb ciàtica aguda té un pronòstic favorable, i el maneig inicial recomanat és conservador (Koes et al., BMJ, 2007).",
    "Ensayo clínico (JAMA Intern Med)": "Assaig clínic (JAMA Intern Med)",
    "En personas con ciática crónica por hernia discal, diez sesiones de acupuntura redujeron el dolor de pierna y mejoraron la función frente a la acupuntura simulada, con beneficios mantenidos al año (Tu et al., JAMA Intern Med, 2024).": "En persones amb ciàtica crònica per hèrnia discal, deu sessions d'acupuntura van reduir el dolor de cama i van millorar la funció en comparació amb l'acupuntura simulada, amb beneficis mantinguts a l'any (Tu et al., JAMA Intern Med, 2024).",
-   "¿Sustituye al tratamiento médico?": "Substitueix el tractament mèdic?",
-   "No. El acompañamiento es complementario y no modifica la medicación prescrita por tu médico.": "No. L'acompanyament és complementari i no modifica la medicació prescrita pel teu metge.",
    "¿Es mejor hacer reposo?": "És millor fer repòs?",
    "En general no. Mantenerse activo dentro de lo que toleras favorece la recuperación más que el reposo prolongado en cama.": "En general no. Mantenir-se actiu dins del que toleres afavoreix la recuperació més que el repòs prolongat al llit.",
    "¿Puedo venir si tengo una hernia discal diagnosticada?": "Puc venir si tinc una hèrnia discal diagnosticada?",
@@ -786,7 +781,12 @@
    "¿Cuántas sesiones necesitaré?": "Quantes sessions necessitaré?",
    "Depende de cada caso. En la primera visita valoramos tu situación y te proponemos un plan con objetivos claros.": "Depèn de cada cas. A la primera visita valorem la teva situació i et proposem un pla amb objectius clars.",
    "Da el primer paso para aliviar tu pierna": "Fes el primer pas per alleujar la teva cama",
-   "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), acompañamos la ciática y el dolor irradiado a la pierna por hernia discal con acupuntura, terapia manual suave, actividad adaptada y regulación del estrés, siempre como complemento del seguimiento médico.": "A WA LAM, a Sarrià–Sant Gervasi (Barcelona), acompanyem la ciàtica i el dolor irradiat a la cama per hèrnia discal amb acupuntura, teràpia manual suau, activitat adaptada i regulació de l'estrès, sempre com a complement del seguiment mèdic."
+   "Ciática en Sarrià–Sant Gervasi, Barcelona: dolor irradiado a la pierna por hernia discal. Acupuntura, terapia manual suave y ejercicio progresivo para aliviar el nervio.": "Ciàtica a Sarrià–Sant Gervasi, Barcelona: dolor irradiat a la cama per hèrnia discal. Acupuntura, teràpia manual suau i exercici progressiu per alleujar el nervi.",
+   "La ciática es un dolor que nace en la zona lumbar o en la nalga y baja por la pierna, a veces hasta el pie. Suele deberse a la irritación de una raíz nerviosa, con frecuencia por una hernia discal. La mayoría de los casos evoluciona bien con un abordaje conservador, y te ayudamos a recuperar la movilidad y la confianza en tu espalda.": "La ciàtica és un dolor que neix a la zona lumbar o a la natja i baixa per la cama, de vegades fins al peu. Sol ser deguda a la irritació d'una arrel nerviosa, sovint per una hèrnia discal. La majoria dels casos evoluciona bé amb un abordatge conservador, i t'ajudem a recuperar la mobilitat i la confiança en la teva esquena.",
+   "Plan individual por fases": "Pla individual per fases",
+   "¿Cuánto tiempo tarda en notarse la mejoría?": "Quant de temps triga a notar-se la millora?",
+   "Muchas personas notan alivio en las primeras semanas. El nervio necesita tiempo para calmarse, por eso avanzamos por fases y ajustamos el plan según cómo respondes.": "Moltes persones noten alleujament les primeres setmanes. El nervi necessita temps per calmar-se, per això avancem per fases i ajustem el pla segons com respons.",
+   "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), acompañamos la ciática y el dolor irradiado a la pierna por hernia discal con acupuntura, terapia manual suave, actividad adaptada y regulación del estrés, con un plan por fases para recuperar tu día a día.": "A WA LAM, a Sarrià–Sant Gervasi (Barcelona), acompanyem la ciàtica i el dolor irradiat a la cama per hèrnia discal amb acupuntura, teràpia manual suau, activitat adaptada i regulació de l'estrès, amb un pla per fases per recuperar el teu dia a dia."
   }
  },
  {
@@ -883,7 +883,7 @@
   "faq": [
    [
     "¿Tengo que dejar de usar la férula?",
-    "No. Si tu dentista te ha indicado una férula de descarga, sigue usándola. Nuestro trabajo complementa su indicación."
+    "No. Si tu dentista te ha indicado una férula de descarga, sigue usándola. Trabajamos la musculatura, la tensión y el estrés para que la mandíbula se relaje también durante el día."
    ],
    [
     "¿El estrés influye en el bruxismo?",
@@ -978,7 +978,6 @@
    "Revisión sistemática (J Orofac Pain)": "Revisió sistemàtica (J Orofac Pain)",
    "El bruxismo del sueño afecta a cerca del 13 % de los adultos (Manfredini et al., J Orofac Pain, 2013).": "El bruxisme del son afecta prop del 13 % dels adults (Manfredini et al., J Orofac Pain, 2013).",
    "¿Tengo que dejar de usar la férula?": "He de deixar d'utilitzar la fèrula?",
-   "No. Si tu dentista te ha indicado una férula de descarga, sigue usándola. Nuestro trabajo complementa su indicación.": "No. Si el teu dentista t'ha indicat una fèrula de descàrrega, continua utilitzant-la. La nostra feina complementa la seva indicació.",
    "¿El estrés influye en el bruxismo?": "L'estrès influeix en el bruxisme?",
    "Sí, mucho. Por eso incluimos herramientas para reducir la activación del sistema nervioso. Consulta también nuestra página de [estrés y ansiedad](estres-ansiedad).": "Sí, molt. Per això hi incloem eines per reduir l'activació del sistema nerviós. Consulta també la nostra pàgina d'[estrès i ansietat](estres-ansiedad).",
    "¿El dolor de mandíbula puede dar dolor de cabeza?": "El dolor de mandíbula pot provocar mal de cap?",
@@ -986,7 +985,8 @@
    "¿Cuántas sesiones necesitaré?": "Quantes sessions necessitaré?",
    "Depende de cada caso. En la primera visita valoramos tu situación y te proponemos un plan con objetivos claros.": "Depèn de cada cas. A la primera visita valorem la teva situació i et proposem un pla amb objectius clars.",
    "Suelta la mandíbula y descansa mejor": "Allibera la mandíbula i descansa millor",
-   "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), abordamos el bruxismo y el dolor mandibular o de la ATM con terapia manual suave sobre la mandíbula y el cuello, ejercicios mandibulares y herramientas de gestión del estrés y del sueño.": "A WA LAM, a Sarrià–Sant Gervasi (Barcelona), abordem el bruxisme i el dolor mandibular o de l'ATM amb teràpia manual suau sobre la mandíbula i el coll, exercicis mandibulars i eines de gestió de l'estrès i del son."
+   "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), abordamos el bruxismo y el dolor mandibular o de la ATM con terapia manual suave sobre la mandíbula y el cuello, ejercicios mandibulares y herramientas de gestión del estrés y del sueño.": "A WA LAM, a Sarrià–Sant Gervasi (Barcelona), abordem el bruxisme i el dolor mandibular o de l'ATM amb teràpia manual suau sobre la mandíbula i el coll, exercicis mandibulars i eines de gestió de l'estrès i del son.",
+   "No. Si tu dentista te ha indicado una férula de descarga, sigue usándola. Trabajamos la musculatura, la tensión y el estrés para que la mandíbula se relaje también durante el día.": "No. Si el teu dentista t'ha indicat una fèrula de descàrrega, continua utilitzant-la. Treballem la musculatura, la tensió i l'estrès perquè la mandíbula es relaxi també durant el dia."
   }
  }
 ]

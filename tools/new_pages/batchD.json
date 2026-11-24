@@ -3,17 +3,17 @@
   "slug": "inflamacion-cronica-autoinmunes",
   "ca_slug": "inflamacio-cronica-autoimmunes",
   "nav": "Inflamación crónica y autoinmunes",
-  "card": "Artritis reumatoide, eccema atópico y alergias: un acompañamiento complementario al especialista.",
+  "card": "Artritis reumatoide, eccema atópico y alergias: alimentación, microbiota, sueño y estrés para reducir la inflamación.",
   "title": "Inflamación crónica y autoinmunes en Barcelona | WA LAM",
   "desc": "Inflamación crónica y enfermedades autoinmunes en Sarrià–Sant Gervasi, Barcelona: alimentación, microbiota, sueño y estrés junto a tu especialista.",
   "h1": "Inflamación crónica y enfermedades autoinmunes en Barcelona",
-  "sub": "Complemento del seguimiento médico · Sarrià–Sant Gervasi",
-  "lead": "La inflamación crónica está presente en enfermedades como la artritis reumatoide, la dermatitis atópica o las alergias. Su diagnóstico y su tratamiento corresponden a tu especialista. En WA LAM te acompañamos, como complemento del seguimiento médico, en los factores del día a día que influyen en la inflamación: alimentación, microbiota, sueño, estrés y movimiento.",
+  "sub": "Alimentación, microbiota y estilo de vida · Sarrià–Sant Gervasi",
+  "lead": "La inflamación crónica está presente en enfermedades como la artritis reumatoide, la dermatitis atópica o las alergias. En WA LAM te ayudamos a trabajar los factores del día a día que influyen en la inflamación: alimentación, microbiota, sueño, estrés y movimiento.",
   "facts_title": "En WA LAM",
   "facts": [
    "Artritis reumatoide, eccema atópico y alergias",
    "Alimentación antiinflamatoria y microbiota",
-   "Complemento del seguimiento médico",
+   "Plan individual por fases",
    "Primera visita: 60 min · 90 €"
   ],
   "wa": "Hola, me gustaría información sobre el acompañamiento de la inflamación crónica o de una enfermedad autoinmune.",
@@ -23,7 +23,7 @@
     "¿Tienes diagnosticada una artritis reumatoide, una dermatitis atópica u otra enfermedad inflamatoria?",
     "¿Notas que los brotes coinciden con épocas de estrés o de mal descanso?",
     "¿Te preguntas qué papel tienen la alimentación y el intestino en tus síntomas?",
-    "¿Buscas un acompañamiento que complemente el tratamiento de tu especialista?"
+    "¿Buscas un abordaje global que te ayude a encontrarte mejor en el día a día?"
    ],
    "close": "Si tienes fiebre, una articulación muy hinchada y caliente, dificultad para respirar, hinchazón de la cara o de la garganta, o un brote intenso de la piel, consulta con tu médico o acude a urgencias."
   },
@@ -31,7 +31,7 @@
    "h2": "Por qué la inflamación se mantiene en el tiempo",
    "paras": [
     "La inflamación es una respuesta de defensa necesaria. En las enfermedades autoinmunes y alérgicas, el sistema inmunitario mantiene una activación sostenida que afecta a las articulaciones, la piel o las mucosas.",
-    "En esa activación influye la genética, pero también la alimentación, el estado de la microbiota intestinal, la calidad del sueño, el estrés sostenido y el sedentarismo. Son factores sobre los que puedes actuar y que complementan el tratamiento médico."
+    "En esa activación influye la genética, pero también la alimentación, el estado de la microbiota intestinal, la calidad del sueño, el estrés sostenido y el sedentarismo. Son factores sobre los que puedes actuar para reducir la carga inflamatoria."
    ]
   },
   "cards": {
@@ -92,8 +92,8 @@
   },
   "faq": [
    [
-    "¿Sustituye al tratamiento de mi reumatólogo o dermatólogo?",
-    "No. El acompañamiento es complementario y no modifica la medicación prescrita por tu especialista."
+    "¿Cuánto tiempo tarda en notarse la mejoría?",
+    "Depende de cada persona, pero los cambios en la alimentación, el sueño y el estrés suelen notarse en pocas semanas. Revisamos el plan contigo en cada visita."
    ],
    [
     "¿Qué es una alimentación antiinflamatoria?",
@@ -120,12 +120,12 @@
    "kws": [
     "enfermedades autoinmunes medicina integrativa",
     "dieta antiinflamatoria Barcelona",
-    "artritis reumatoide tratamiento complementario",
+    "artritis reumatoide alimentación antiinflamatoria",
     "dermatitis atópica adultos Barcelona",
     "microbiota y autoinmunidad"
    ],
    "ca_kw": "inflamació crònica Barcelona",
-   "quick": "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), acompañamos la inflamación crónica y las enfermedades autoinmunes como complemento del especialista. Trabajamos la alimentación antiinflamatoria, la microbiota, el sueño, el estrés y el ejercicio adaptado, sin modificar la medicación.",
+   "quick": "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), acompañamos la inflamación crónica y las enfermedades autoinmunes. Trabajamos la alimentación antiinflamatoria, la microbiota, el sueño, el estrés y el ejercicio adaptado.",
    "entity": [
     "MedicalCondition",
     "Inflamación crónica y enfermedades autoinmunes"
@@ -146,27 +146,21 @@
   ],
   "ca": {
    "Inflamación crónica y autoinmunes": "Inflamació crònica i autoimmunes",
-   "Artritis reumatoide, eccema atópico y alergias: un acompañamiento complementario al especialista.": "Artritis reumatoide, èczema atòpic i al·lèrgies: un acompanyament complementari a l'especialista.",
    "Inflamación crónica y autoinmunes en Barcelona | WA LAM": "Inflamació crònica i autoimmunes a Barcelona | WA LAM",
    "Inflamación crónica y enfermedades autoinmunes en Sarrià–Sant Gervasi, Barcelona: alimentación, microbiota, sueño y estrés junto a tu especialista.": "Inflamació crònica i malalties autoimmunes a Sarrià–Sant Gervasi, Barcelona: alimentació, microbiota, son i estrès al costat del teu especialista.",
    "Inflamación crónica y enfermedades autoinmunes en Barcelona": "Inflamació crònica i malalties autoimmunes a Barcelona",
-   "Complemento del seguimiento médico · Sarrià–Sant Gervasi": "Complement del seguiment mèdic · Sarrià–Sant Gervasi",
-   "La inflamación crónica está presente en enfermedades como la artritis reumatoide, la dermatitis atópica o las alergias. Su diagnóstico y su tratamiento corresponden a tu especialista. En WA LAM te acompañamos, como complemento del seguimiento médico, en los factores del día a día que influyen en la inflamación: alimentación, microbiota, sueño, estrés y movimiento.": "La inflamació crònica és present en malalties com l'artritis reumatoide, la dermatitis atòpica o les al·lèrgies. El diagnòstic i el tractament corresponen al teu especialista. A WA LAM t'acompanyem, com a complement del seguiment mèdic, en els factors del dia a dia que influeixen en la inflamació: alimentació, microbiota, son, estrès i moviment.",
    "En WA LAM": "A WA LAM",
    "Artritis reumatoide, eccema atópico y alergias": "Artritis reumatoide, èczema atòpic i al·lèrgies",
    "Alimentación antiinflamatoria y microbiota": "Alimentació antiinflamatòria i microbiota",
-   "Complemento del seguimiento médico": "Complement del seguiment mèdic",
    "Primera visita: 60 min · 90 €": "Primera visita: 60 min · 90 €",
    "Hola, me gustaría información sobre el acompañamiento de la inflamación crónica o de una enfermedad autoinmune.": "Hola, m'agradaria informació sobre l'acompanyament de la inflamació crònica o d'una malaltia autoimmune.",
    "Cuando la inflamación forma parte de tu día a día": "Quan la inflamació forma part del teu dia a dia",
    "¿Tienes diagnosticada una artritis reumatoide, una dermatitis atópica u otra enfermedad inflamatoria?": "Tens diagnosticada una artritis reumatoide, una dermatitis atòpica o una altra malaltia inflamatòria?",
    "¿Notas que los brotes coinciden con épocas de estrés o de mal descanso?": "Notes que els brots coincideixen amb èpoques d'estrès o de mal descans?",
    "¿Te preguntas qué papel tienen la alimentación y el intestino en tus síntomas?": "Et preguntes quin paper tenen l'alimentació i l'intestí en els teus símptomes?",
-   "¿Buscas un acompañamiento que complemente el tratamiento de tu especialista?": "Busques un acompanyament que complementi el tractament del teu especialista?",
    "Si tienes fiebre, una articulación muy hinchada y caliente, dificultad para respirar, hinchazón de la cara o de la garganta, o un brote intenso de la piel, consulta con tu médico o acude a urgencias.": "Si tens febre, una articulació molt inflada i calenta, dificultat per respirar, inflor de la cara o de la gola, o un brot intens de la pell, consulta el teu metge o ves a urgències.",
    "Por qué la inflamación se mantiene en el tiempo": "Per què la inflamació es manté en el temps",
    "La inflamación es una respuesta de defensa necesaria. En las enfermedades autoinmunes y alérgicas, el sistema inmunitario mantiene una activación sostenida que afecta a las articulaciones, la piel o las mucosas.": "La inflamació és una resposta de defensa necessària. En les malalties autoimmunes i al·lèrgiques, el sistema immunitari manté una activació sostinguda que afecta les articulacions, la pell o les mucoses.",
-   "En esa activación influye la genética, pero también la alimentación, el estado de la microbiota intestinal, la calidad del sueño, el estrés sostenido y el sedentarismo. Son factores sobre los que puedes actuar y que complementan el tratamiento médico.": "En aquesta activació hi influeix la genètica, però també l'alimentació, l'estat de la microbiota intestinal, la qualitat del son, l'estrès sostingut i el sedentarisme. Són factors sobre els quals pots actuar i que complementen el tractament mèdic.",
    "Cómo lo abordamos": "Com ho abordem",
    "Valoración": "Valoració",
    "Una visión global": "Una visió global",
@@ -186,8 +180,6 @@
    "El ejercicio aeróbico combinado con entrenamiento de fuerza mejoró la capacidad aeróbica y la fuerza muscular en personas con artritis reumatoide, sin efectos perjudiciales (Hurkmans et al., Cochrane, 2009).": "L'exercici aeròbic combinat amb entrenament de força va millorar la capacitat aeròbica i la força muscular en persones amb artritis reumatoide, sense efectes perjudicials (Hurkmans et al., Cochrane, 2009).",
    "Revisión sistemática (Ann N Y Acad Sci)": "Revisió sistemàtica (Ann N Y Acad Sci)",
    "La meditación mindfulness se asoció con cambios favorables en marcadores de inflamación y de inmunidad celular (Black y Slavich, Ann N Y Acad Sci, 2016).": "La meditació mindfulness es va associar amb canvis favorables en marcadors d'inflamació i d'immunitat cel·lular (Black i Slavich, Ann N Y Acad Sci, 2016).",
-   "¿Sustituye al tratamiento de mi reumatólogo o dermatólogo?": "Substitueix el tractament del meu reumatòleg o dermatòleg?",
-   "No. El acompañamiento es complementario y no modifica la medicación prescrita por tu especialista.": "No. L'acompanyament és complementari i no modifica la medicació prescrita pel teu especialista.",
    "¿Qué es una alimentación antiinflamatoria?": "Què és una alimentació antiinflamatòria?",
    "Una alimentación basada en verduras, frutas, legumbres, pescado, aceite de oliva y frutos secos, con pocos ultraprocesados. La adaptamos a tu situación y a tus digestiones.": "Una alimentació basada en verdures, fruites, llegums, peix, oli d'oliva i fruita seca, amb pocs ultraprocessats. L'adaptem a la teva situació i a les teves digestions.",
    "¿Qué relación hay entre el intestino y la inflamación?": "Quina relació hi ha entre l'intestí i la inflamació?",
@@ -195,24 +187,32 @@
    "¿Puedo venir durante un brote?": "Puc venir durant un brot?",
    "Sí. En las fases de brote adaptamos el plan y priorizamos el descanso, el manejo del dolor y las medidas suaves.": "Sí. En les fases de brot adaptem el pla i prioritzem el descans, el maneig del dolor i les mesures suaus.",
    "Un acompañamiento sereno para convivir mejor con la inflamación": "Un acompanyament serè per conviure millor amb la inflamació",
-   "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), acompañamos la inflamación crónica y las enfermedades autoinmunes como complemento del especialista. Trabajamos la alimentación antiinflamatoria, la microbiota, el sueño, el estrés y el ejercicio adaptado, sin modificar la medicación.": "A WA LAM, a Sarrià–Sant Gervasi (Barcelona), acompanyem la inflamació crònica i les malalties autoimmunes com a complement de l'especialista. Treballem l'alimentació antiinflamatòria, la microbiota, el son, l'estrès i l'exercici adaptat, sense modificar la medicació."
+   "Artritis reumatoide, eccema atópico y alergias: alimentación, microbiota, sueño y estrés para reducir la inflamación.": "Artritis reumatoide, èczema atòpic i al·lèrgies: alimentació, microbiota, son i estrès per reduir la inflamació.",
+   "Alimentación, microbiota y estilo de vida · Sarrià–Sant Gervasi": "Alimentació, microbiota i estil de vida · Sarrià–Sant Gervasi",
+   "La inflamación crónica está presente en enfermedades como la artritis reumatoide, la dermatitis atópica o las alergias. En WA LAM te ayudamos a trabajar los factores del día a día que influyen en la inflamación: alimentación, microbiota, sueño, estrés y movimiento.": "La inflamació crònica és present en malalties com l'artritis reumatoide, la dermatitis atòpica o les al·lèrgies. A WA LAM t'ajudem a treballar els factors del dia a dia que influeixen en la inflamació: alimentació, microbiota, son, estrès i moviment.",
+   "Plan individual por fases": "Pla individual per fases",
+   "¿Buscas un abordaje global que te ayude a encontrarte mejor en el día a día?": "Busques un abordatge global que t'ajudi a trobar-te millor en el dia a dia?",
+   "En esa activación influye la genética, pero también la alimentación, el estado de la microbiota intestinal, la calidad del sueño, el estrés sostenido y el sedentarismo. Son factores sobre los que puedes actuar para reducir la carga inflamatoria.": "En aquesta activació hi influeix la genètica, però també l'alimentació, l'estat de la microbiota intestinal, la qualitat del son, l'estrès sostingut i el sedentarisme. Són factors sobre els quals pots actuar per reduir la càrrega inflamatòria.",
+   "¿Cuánto tiempo tarda en notarse la mejoría?": "Quant de temps triga a notar-se la millora?",
+   "Depende de cada persona, pero los cambios en la alimentación, el sueño y el estrés suelen notarse en pocas semanas. Revisamos el plan contigo en cada visita.": "Depèn de cada persona, però els canvis en l'alimentació, el son i l'estrès se solen notar en poques setmanes. Revisem el pla amb tu a cada visita.",
+   "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), acompañamos la inflamación crónica y las enfermedades autoinmunes. Trabajamos la alimentación antiinflamatoria, la microbiota, el sueño, el estrés y el ejercicio adaptado.": "A WA LAM, a Sarrià–Sant Gervasi (Barcelona), acompanyem la inflamació crònica i les malalties autoimmunes. Treballem l'alimentació antiinflamatòria, la microbiota, el son, l'estrès i l'exercici adaptat."
   }
  },
  {
   "slug": "hipotiroidismo-hashimoto",
   "ca_slug": "hipotiroidisme-hashimoto",
   "nav": "Hipotiroidismo y Hashimoto",
-  "card": "Hipotiroidismo leve y tiroiditis de Hashimoto: alimentación, intestino, sueño y estrés como complemento del endocrino.",
+  "card": "Hipotiroidismo leve y tiroiditis de Hashimoto: alimentación, intestino, sueño y estrés para recuperar tu energía.",
   "title": "Hipotiroidismo y Hashimoto en Barcelona | WA LAM",
-  "desc": "Hipotiroidismo leve y tiroiditis de Hashimoto en Sarrià–Sant Gervasi, Barcelona: alimentación, intestino, sueño y estrés como complemento del endocrino.",
+  "desc": "Hipotiroidismo leve y tiroiditis de Hashimoto en Sarrià–Sant Gervasi, Barcelona: alimentación, intestino, sueño y estrés para recuperar tu energía.",
   "h1": "Hipotiroidismo y tiroiditis de Hashimoto en Barcelona",
-  "sub": "Complemento del seguimiento endocrinológico · Sarrià–Sant Gervasi",
-  "lead": "La tiroiditis de Hashimoto es la causa más frecuente de hipotiroidismo. Su diagnóstico, el control analítico y la medicación corresponden a tu endocrino. En WA LAM te acompañamos en los hábitos que influyen en cómo te encuentras: alimentación, salud intestinal, sueño y estrés.",
+  "sub": "Alimentación, intestino y energía · Sarrià–Sant Gervasi",
+  "lead": "La tiroiditis de Hashimoto es la causa más frecuente de hipotiroidismo. En WA LAM te ayudamos a cuidar los hábitos que influyen en cómo te encuentras: alimentación, salud intestinal, sueño y estrés.",
   "facts_title": "En WA LAM",
   "facts": [
    "Hipotiroidismo leve y Hashimoto temprano",
    "Alimentación, intestino, sueño y estrés",
-   "Sin cambios en tu medicación",
+   "Plan individual por fases",
    "Primera visita: 60 min · 90 €"
   ],
   "wa": "Hola, me gustaría información sobre el acompañamiento del hipotiroidismo o la tiroiditis de Hashimoto.",
@@ -222,7 +222,7 @@
     "¿Te han diagnosticado un hipotiroidismo leve o anticuerpos antitiroideos elevados?",
     "¿Sientes cansancio, frío, niebla mental o hinchazón aunque tus análisis estén controlados?",
     "¿Tienes molestias digestivas o un descanso poco reparador?",
-    "¿Quieres cuidar tus hábitos sin tocar el tratamiento que te ha pautado tu endocrino?"
+    "¿Quieres cuidar tus hábitos para tener más energía en tu día a día?"
    ],
    "close": "Si notas palpitaciones intensas, un bulto en el cuello que crece, dificultad para tragar o respirar, o un cansancio extremo de aparición rápida, consulta con tu médico o acude a urgencias."
   },
@@ -230,7 +230,7 @@
    "h2": "Qué es la tiroiditis de Hashimoto",
    "paras": [
     "En la tiroiditis de Hashimoto el sistema inmunitario produce anticuerpos frente a la tiroides. Con el tiempo, la glándula puede producir menos hormona y aparece el hipotiroidismo, con síntomas como cansancio, frío, aumento de peso o estado de ánimo bajo.",
-    "Además de la predisposición genética, influyen el aporte de yodo, selenio, hierro y vitamina D, la salud intestinal, el estrés y el sueño. Cuidar estos factores complementa el tratamiento médico y te ayuda a encontrarte mejor en el día a día."
+    "Además de la predisposición genética, influyen el aporte de yodo, selenio, hierro y vitamina D, la salud intestinal, el estrés y el sueño. Cuidar estos factores te ayuda a encontrarte mejor en el día a día."
    ]
   },
   "cards": {
@@ -283,8 +283,8 @@
   },
   "faq": [
    [
-    "¿Tengo que dejar o cambiar mi medicación?",
-    "No. La medicación y las analíticas de control son competencia de tu endocrino. El acompañamiento es complementario y no modifica tu tratamiento."
+    "¿Qué debo traer a la primera visita?",
+    "Tus analíticas recientes de tiroides (TSH, T4 libre y anticuerpos), y si las tienes, de hierro, vitamina D y vitamina B12. Con ellas y tu historia preparamos un plan a tu medida."
    ],
    [
     "¿Debo tomar suplementos de selenio o yodo?",
@@ -316,7 +316,7 @@
     "PNIE tiroides Barcelona"
    ],
    "ca_kw": "hipotiroïdisme Hashimoto Barcelona",
-   "quick": "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), acompañamos el hipotiroidismo leve y la tiroiditis de Hashimoto como complemento del endocrino. Trabajamos la alimentación, la salud intestinal, el sueño y el estrés, sin modificar la medicación.",
+   "quick": "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), acompañamos el hipotiroidismo leve y la tiroiditis de Hashimoto. Trabajamos la alimentación, la salud intestinal, el sueño y el estrés para que recuperes tu energía.",
    "entity": [
     "MedicalCondition",
     "Tiroiditis de Hashimoto"
@@ -337,27 +337,20 @@
   ],
   "ca": {
    "Hipotiroidismo y Hashimoto": "Hipotiroïdisme i Hashimoto",
-   "Hipotiroidismo leve y tiroiditis de Hashimoto: alimentación, intestino, sueño y estrés como complemento del endocrino.": "Hipotiroïdisme lleu i tiroïditis de Hashimoto: alimentació, intestí, son i estrès com a complement de l'endocrí.",
    "Hipotiroidismo y Hashimoto en Barcelona | WA LAM": "Hipotiroïdisme i Hashimoto a Barcelona | WA LAM",
-   "Hipotiroidismo leve y tiroiditis de Hashimoto en Sarrià–Sant Gervasi, Barcelona: alimentación, intestino, sueño y estrés como complemento del endocrino.": "Hipotiroïdisme lleu i tiroïditis de Hashimoto a Sarrià–Sant Gervasi, Barcelona: alimentació, intestí, son i estrès com a complement de l'endocrí.",
    "Hipotiroidismo y tiroiditis de Hashimoto en Barcelona": "Hipotiroïdisme i tiroïditis de Hashimoto a Barcelona",
-   "Complemento del seguimiento endocrinológico · Sarrià–Sant Gervasi": "Complement del seguiment endocrinològic · Sarrià–Sant Gervasi",
-   "La tiroiditis de Hashimoto es la causa más frecuente de hipotiroidismo. Su diagnóstico, el control analítico y la medicación corresponden a tu endocrino. En WA LAM te acompañamos en los hábitos que influyen en cómo te encuentras: alimentación, salud intestinal, sueño y estrés.": "La tiroïditis de Hashimoto és la causa més freqüent d'hipotiroïdisme. El diagnòstic, el control analític i la medicació corresponen al teu endocrí. A WA LAM t'acompanyem en els hàbits que influeixen en com et trobes: alimentació, salut intestinal, son i estrès.",
    "En WA LAM": "A WA LAM",
    "Hipotiroidismo leve y Hashimoto temprano": "Hipotiroïdisme lleu i Hashimoto incipient",
    "Alimentación, intestino, sueño y estrés": "Alimentació, intestí, son i estrès",
-   "Sin cambios en tu medicación": "Sense canvis en la teva medicació",
    "Primera visita: 60 min · 90 €": "Primera visita: 60 min · 90 €",
    "Hola, me gustaría información sobre el acompañamiento del hipotiroidismo o la tiroiditis de Hashimoto.": "Hola, m'agradaria informació sobre l'acompanyament de l'hipotiroïdisme o la tiroïditis de Hashimoto.",
    "Cuando la tiroides marca tu energía": "Quan la tiroide marca la teva energia",
    "¿Te han diagnosticado un hipotiroidismo leve o anticuerpos antitiroideos elevados?": "T'han diagnosticat un hipotiroïdisme lleu o anticossos antitiroïdals elevats?",
    "¿Sientes cansancio, frío, niebla mental o hinchazón aunque tus análisis estén controlados?": "Sents cansament, fred, boira mental o inflor encara que les teves analítiques estiguin controlades?",
    "¿Tienes molestias digestivas o un descanso poco reparador?": "Tens molèsties digestives o un descans poc reparador?",
-   "¿Quieres cuidar tus hábitos sin tocar el tratamiento que te ha pautado tu endocrino?": "Vols cuidar els teus hàbits sense tocar el tractament que t'ha pautat el teu endocrí?",
    "Si notas palpitaciones intensas, un bulto en el cuello que crece, dificultad para tragar o respirar, o un cansancio extremo de aparición rápida, consulta con tu médico o acude a urgencias.": "Si notes palpitacions intenses, un bony al coll que creix, dificultat per empassar o respirar, o un cansament extrem d'aparició ràpida, consulta el teu metge o ves a urgències.",
    "Qué es la tiroiditis de Hashimoto": "Què és la tiroïditis de Hashimoto",
    "En la tiroiditis de Hashimoto el sistema inmunitario produce anticuerpos frente a la tiroides. Con el tiempo, la glándula puede producir menos hormona y aparece el hipotiroidismo, con síntomas como cansancio, frío, aumento de peso o estado de ánimo bajo.": "En la tiroïditis de Hashimoto el sistema immunitari produeix anticossos contra la tiroide. Amb el temps, la glàndula pot produir menys hormona i apareix l'hipotiroïdisme, amb símptomes com cansament, fred, augment de pes o estat d'ànim baix.",
-   "Además de la predisposición genética, influyen el aporte de yodo, selenio, hierro y vitamina D, la salud intestinal, el estrés y el sueño. Cuidar estos factores complementa el tratamiento médico y te ayuda a encontrarte mejor en el día a día.": "A més de la predisposició genètica, hi influeixen l'aportació de iode, seleni, ferro i vitamina D, la salut intestinal, l'estrès i el son. Cuidar aquests factors complementa el tractament mèdic i t'ajuda a trobar-te millor en el dia a dia.",
    "Cómo lo abordamos": "Com ho abordem",
    "Valoración": "Valoració",
    "Tu historia y tus análisis": "La teva història i les teves analítiques",
@@ -376,8 +369,6 @@
    "La tiroiditis de Hashimoto afecta aproximadamente al 7,5 % de la población adulta mundial y es más frecuente en mujeres (Hu et al., Front Public Health, 2022).": "La tiroïditis de Hashimoto afecta aproximadament el 7,5 % de la població adulta mundial i és més freqüent en dones (Hu et al., Front Public Health, 2022).",
    "Revisión (Nutrients)": "Revisió (Nutrients)",
    "Una microbiota intestinal equilibrada favorece la regulación inmunitaria y la disponibilidad de micronutrientes esenciales para la tiroides, como el selenio, el yodo o el hierro (Knezevic et al., Nutrients, 2020).": "Una microbiota intestinal equilibrada afavoreix la regulació immunitària i la disponibilitat de micronutrients essencials per a la tiroide, com el seleni, el iode o el ferro (Knezevic et al., Nutrients, 2020).",
-   "¿Tengo que dejar o cambiar mi medicación?": "He de deixar o canviar la meva medicació?",
-   "No. La medicación y las analíticas de control son competencia de tu endocrino. El acompañamiento es complementario y no modifica tu tratamiento.": "No. La medicació i les analítiques de control són competència del teu endocrí. L'acompanyament és complementari i no modifica el teu tractament.",
    "¿Debo tomar suplementos de selenio o yodo?": "He de prendre suplements de seleni o iode?",
    "No por tu cuenta. El exceso de yodo puede ser perjudicial en la tiroiditis. Cualquier suplemento debe valorarlo tu médico a partir de tus análisis.": "No pel teu compte. L'excés de iode pot ser perjudicial en la tiroïditis. Qualsevol suplement l'ha de valorar el teu metge a partir de les teves analítiques.",
    "¿Hay que seguir una dieta sin gluten?": "Cal seguir una dieta sense gluten?",
@@ -385,24 +376,33 @@
    "¿Por qué sigo con cansancio si mis análisis están bien?": "Per què continuo amb cansament si les analítiques estan bé?",
    "El cansancio puede tener varios factores: el sueño, el estrés, niveles bajos de hierro o de vitamina D, o las digestiones. Los revisamos contigo en la primera visita.": "El cansament pot tenir diversos factors: el son, l'estrès, nivells baixos de ferro o de vitamina D, o les digestions. Els revisem amb tu a la primera visita.",
    "Cuida tu energía con un plan a tu medida": "Cuida la teva energia amb un pla a la teva mida",
-   "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), acompañamos el hipotiroidismo leve y la tiroiditis de Hashimoto como complemento del endocrino. Trabajamos la alimentación, la salud intestinal, el sueño y el estrés, sin modificar la medicación.": "A WA LAM, a Sarrià–Sant Gervasi (Barcelona), acompanyem l'hipotiroïdisme lleu i la tiroïditis de Hashimoto com a complement de l'endocrí. Treballem l'alimentació, la salut intestinal, el son i l'estrès, sense modificar la medicació."
+   "Hipotiroidismo leve y tiroiditis de Hashimoto: alimentación, intestino, sueño y estrés para recuperar tu energía.": "Hipotiroïdisme lleu i tiroïditis de Hashimoto: alimentació, intestí, son i estrès per recuperar la teva energia.",
+   "Hipotiroidismo leve y tiroiditis de Hashimoto en Sarrià–Sant Gervasi, Barcelona: alimentación, intestino, sueño y estrés para recuperar tu energía.": "Hipotiroïdisme lleu i tiroïditis de Hashimoto a Sarrià–Sant Gervasi, Barcelona: alimentació, intestí, son i estrès per recuperar la teva energia.",
+   "Alimentación, intestino y energía · Sarrià–Sant Gervasi": "Alimentació, intestí i energia · Sarrià–Sant Gervasi",
+   "La tiroiditis de Hashimoto es la causa más frecuente de hipotiroidismo. En WA LAM te ayudamos a cuidar los hábitos que influyen en cómo te encuentras: alimentación, salud intestinal, sueño y estrés.": "La tiroïditis de Hashimoto és la causa més freqüent d'hipotiroïdisme. A WA LAM t'ajudem a cuidar els hàbits que influeixen en com et trobes: alimentació, salut intestinal, son i estrès.",
+   "Plan individual por fases": "Pla individual per fases",
+   "¿Quieres cuidar tus hábitos para tener más energía en tu día a día?": "Vols cuidar els teus hàbits per tenir més energia en el teu dia a dia?",
+   "Además de la predisposición genética, influyen el aporte de yodo, selenio, hierro y vitamina D, la salud intestinal, el estrés y el sueño. Cuidar estos factores te ayuda a encontrarte mejor en el día a día.": "A més de la predisposició genètica, hi influeixen l'aportació de iode, seleni, ferro i vitamina D, la salut intestinal, l'estrès i el son. Cuidar aquests factors t'ajuda a trobar-te millor en el dia a dia.",
+   "¿Qué debo traer a la primera visita?": "Què he de portar a la primera visita?",
+   "Tus analíticas recientes de tiroides (TSH, T4 libre y anticuerpos), y si las tienes, de hierro, vitamina D y vitamina B12. Con ellas y tu historia preparamos un plan a tu medida.": "Les teves analítiques recents de tiroide (TSH, T4 lliure i anticossos) i, si les tens, de ferro, vitamina D i vitamina B12. Amb elles i la teva història preparem un pla a la teva mida.",
+   "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), acompañamos el hipotiroidismo leve y la tiroiditis de Hashimoto. Trabajamos la alimentación, la salud intestinal, el sueño y el estrés para que recuperes tu energía.": "A WA LAM, a Sarrià–Sant Gervasi (Barcelona), acompanyem l'hipotiroïdisme lleu i la tiroïditis de Hashimoto. Treballem l'alimentació, la salut intestinal, el son i l'estrès perquè recuperis la teva energia."
   }
  },
  {
   "slug": "sindrome-ovario-poliquistico",
   "ca_slug": "sindrome-ovari-poliquistic",
   "nav": "Síndrome de ovario poliquístico",
-  "card": "SOP: alimentación, ejercicio, resistencia a la insulina y acné, como complemento del ginecólogo.",
+  "card": "SOP: alimentación, ejercicio, resistencia a la insulina y acné, con un plan adaptado a ti.",
   "title": "Síndrome de ovario poliquístico en Barcelona | WA LAM",
   "desc": "Síndrome de ovario poliquístico (SOP) en Sarrià–Sant Gervasi, Barcelona: alimentación, ejercicio, peso y resistencia a la insulina junto a tu ginecólogo.",
   "h1": "Síndrome de ovario poliquístico (SOP) en Barcelona",
   "sub": "Alimentación, ejercicio y metabolismo · Sarrià–Sant Gervasi",
-  "lead": "El síndrome de ovario poliquístico (SOP) es uno de los trastornos hormonales más frecuentes en mujeres en edad fértil. Su diagnóstico y su tratamiento corresponden a tu ginecólogo o endocrino. En WA LAM te acompañamos en el estilo de vida, que las guías sitúan en la base del abordaje: alimentación, ejercicio, sueño y estrés.",
+  "lead": "El síndrome de ovario poliquístico (SOP) es uno de los trastornos hormonales más frecuentes en mujeres en edad fértil. En WA LAM te acompañamos en el estilo de vida, que las guías sitúan en la base del abordaje: alimentación, ejercicio, sueño y estrés.",
   "facts_title": "En WA LAM",
   "facts": [
    "Ciclos irregulares, acné y resistencia a la insulina",
    "Alimentación, ejercicio y gestión del peso",
-   "Complemento del ginecólogo o endocrino",
+   "Sueño, estrés y ciclo menstrual",
    "Primera visita: 60 min · 90 €"
   ],
   "wa": "Hola, me gustaría información sobre el acompañamiento del síndrome de ovario poliquístico.",
@@ -420,7 +420,7 @@
    "h2": "Qué es el SOP y por qué influye el estilo de vida",
    "paras": [
     "El SOP combina, en distinto grado, alteraciones de la ovulación, exceso de andrógenos, que puede causar acné o vello, y ovarios de aspecto poliquístico en la ecografía. Con frecuencia se acompaña de resistencia a la insulina, también en mujeres sin sobrepeso.",
-    "La resistencia a la insulina favorece la producción de andrógenos y dificulta la regulación del ciclo. Por eso la alimentación, el ejercicio regular, el sueño y la gestión del estrés son pilares del abordaje y complementan el tratamiento médico."
+    "La resistencia a la insulina favorece la producción de andrógenos y dificulta la regulación del ciclo. Por eso la alimentación, el ejercicio regular, el sueño y la gestión del estrés son pilares del abordaje."
    ]
   },
   "cards": {
@@ -489,8 +489,8 @@
     "Una alimentación basada en alimentos frescos, con proteína y fibra en cada comida y pocos azúcares y ultraprocesados. La adaptamos a tus gustos y a tu ritmo de vida."
    ],
    [
-    "¿Sustituye al tratamiento de mi ginecólogo?",
-    "No. Es un acompañamiento complementario que no modifica la medicación ni los anticonceptivos que te hayan pautado."
+    "¿Cuánto tiempo tarda en notarse la mejoría?",
+    "La energía y las digestiones suelen mejorar en pocas semanas. Los cambios en el ciclo y en la piel necesitan algo más de tiempo, normalmente unos meses de constancia."
    ],
    [
     "¿Y si busco un embarazo?",
@@ -514,7 +514,7 @@
     "SOP acné Barcelona"
    ],
    "ca_kw": "síndrome d'ovari poliquístic Barcelona",
-   "quick": "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), acompañamos a mujeres con síndrome de ovario poliquístico como complemento del ginecólogo o endocrino. Trabajamos la alimentación, el ejercicio, el peso, el sueño y el estrés para mejorar la sensibilidad a la insulina.",
+   "quick": "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), acompañamos a mujeres con síndrome de ovario poliquístico. Trabajamos la alimentación, el ejercicio, el peso, el sueño y el estrés para mejorar la sensibilidad a la insulina.",
    "entity": [
     "MedicalCondition",
     "Síndrome de ovario poliquístico"
@@ -535,16 +535,13 @@
   ],
   "ca": {
    "Síndrome de ovario poliquístico": "Síndrome d'ovari poliquístic",
-   "SOP: alimentación, ejercicio, resistencia a la insulina y acné, como complemento del ginecólogo.": "SOP: alimentació, exercici, resistència a la insulina i acne, com a complement del ginecòleg.",
    "Síndrome de ovario poliquístico en Barcelona | WA LAM": "Síndrome d'ovari poliquístic a Barcelona | WA LAM",
    "Síndrome de ovario poliquístico (SOP) en Sarrià–Sant Gervasi, Barcelona: alimentación, ejercicio, peso y resistencia a la insulina junto a tu ginecólogo.": "Síndrome d'ovari poliquístic (SOP) a Sarrià–Sant Gervasi, Barcelona: alimentació, exercici, pes i resistència a la insulina al costat del teu ginecòleg.",
    "Síndrome de ovario poliquístico (SOP) en Barcelona": "Síndrome d'ovari poliquístic (SOP) a Barcelona",
    "Alimentación, ejercicio y metabolismo · Sarrià–Sant Gervasi": "Alimentació, exercici i metabolisme · Sarrià–Sant Gervasi",
-   "El síndrome de ovario poliquístico (SOP) es uno de los trastornos hormonales más frecuentes en mujeres en edad fértil. Su diagnóstico y su tratamiento corresponden a tu ginecólogo o endocrino. En WA LAM te acompañamos en el estilo de vida, que las guías sitúan en la base del abordaje: alimentación, ejercicio, sueño y estrés.": "La síndrome d'ovari poliquístic (SOP) és un dels trastorns hormonals més freqüents en dones en edat fèrtil. El diagnòstic i el tractament corresponen al teu ginecòleg o endocrí. A WA LAM t'acompanyem en l'estil de vida, que les guies situen a la base de l'abordatge: alimentació, exercici, son i estrès.",
    "En WA LAM": "A WA LAM",
    "Ciclos irregulares, acné y resistencia a la insulina": "Cicles irregulars, acne i resistència a la insulina",
    "Alimentación, ejercicio y gestión del peso": "Alimentació, exercici i gestió del pes",
-   "Complemento del ginecólogo o endocrino": "Complement del ginecòleg o endocrí",
    "Primera visita: 60 min · 90 €": "Primera visita: 60 min · 90 €",
    "Hola, me gustaría información sobre el acompañamiento del síndrome de ovario poliquístico.": "Hola, m'agradaria informació sobre l'acompanyament de la síndrome d'ovari poliquístic.",
    "Cuando las hormonas y el metabolismo van de la mano": "Quan les hormones i el metabolisme van de la mà",
@@ -555,7 +552,6 @@
    "Si tienes un dolor pélvico intenso y repentino, sangrados muy abundantes o fiebre, consulta con tu médico o acude a urgencias.": "Si tens un dolor pèlvic intens i sobtat, sagnats molt abundants o febre, consulta el teu metge o ves a urgències.",
    "Qué es el SOP y por qué influye el estilo de vida": "Què és la SOP i per què hi influeix l'estil de vida",
    "El SOP combina, en distinto grado, alteraciones de la ovulación, exceso de andrógenos, que puede causar acné o vello, y ovarios de aspecto poliquístico en la ecografía. Con frecuencia se acompaña de resistencia a la insulina, también en mujeres sin sobrepeso.": "La SOP combina, en diferent grau, alteracions de l'ovulació, excés d'andrògens, que pot causar acne o pèl, i ovaris d'aspecte poliquístic a l'ecografia. Sovint s'acompanya de resistència a la insulina, també en dones sense sobrepès.",
-   "La resistencia a la insulina favorece la producción de andrógenos y dificulta la regulación del ciclo. Por eso la alimentación, el ejercicio regular, el sueño y la gestión del estrés son pilares del abordaje y complementan el tratamiento médico.": "La resistència a la insulina afavoreix la producció d'andrògens i dificulta la regulació del cicle. Per això l'alimentació, l'exercici regular, el son i la gestió de l'estrès són pilars de l'abordatge i complementen el tractament mèdic.",
    "Cómo lo abordamos": "Com ho abordem",
    "Valoración": "Valoració",
    "Tu ciclo y tu metabolismo": "El teu cicle i el teu metabolisme",
@@ -580,29 +576,33 @@
    "No siempre. El ejercicio y la alimentación mejoran la sensibilidad a la insulina también sin pérdida de peso. Si hay sobrepeso, una reducción moderada ya puede ayudar.": "No sempre. L'exercici i l'alimentació milloren la sensibilitat a la insulina també sense pèrdua de pes. Si hi ha sobrepès, una reducció moderada ja pot ajudar.",
    "¿Qué tipo de alimentación recomendáis?": "Quin tipus d'alimentació recomaneu?",
    "Una alimentación basada en alimentos frescos, con proteína y fibra en cada comida y pocos azúcares y ultraprocesados. La adaptamos a tus gustos y a tu ritmo de vida.": "Una alimentació basada en aliments frescos, amb proteïna i fibra a cada àpat i pocs sucres i ultraprocessats. L'adaptem als teus gustos i al teu ritme de vida.",
-   "¿Sustituye al tratamiento de mi ginecólogo?": "Substitueix el tractament del meu ginecòleg?",
-   "No. Es un acompañamiento complementario que no modifica la medicación ni los anticonceptivos que te hayan pautado.": "No. És un acompanyament complementari que no modifica la medicació ni els anticonceptius que t'hagin pautat.",
    "¿Y si busco un embarazo?": "I si busco un embaràs?",
    "También te acompañamos en esa etapa. Puedes conocer nuestro [acompañamiento a la fertilidad](acompanamiento-fertilidad).": "També t'acompanyem en aquesta etapa. Pots conèixer el nostre [acompanyament a la fertilitat](acompanamiento-fertilidad).",
    "Un plan realista para tu equilibrio hormonal": "Un pla realista per al teu equilibri hormonal",
-   "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), acompañamos a mujeres con síndrome de ovario poliquístico como complemento del ginecólogo o endocrino. Trabajamos la alimentación, el ejercicio, el peso, el sueño y el estrés para mejorar la sensibilidad a la insulina.": "A WA LAM, a Sarrià–Sant Gervasi (Barcelona), acompanyem dones amb síndrome d'ovari poliquístic com a complement del ginecòleg o endocrí. Treballem l'alimentació, l'exercici, el pes, el son i l'estrès per millorar la sensibilitat a la insulina."
+   "SOP: alimentación, ejercicio, resistencia a la insulina y acné, con un plan adaptado a ti.": "SOP: alimentació, exercici, resistència a la insulina i acne, amb un pla adaptat a tu.",
+   "El síndrome de ovario poliquístico (SOP) es uno de los trastornos hormonales más frecuentes en mujeres en edad fértil. En WA LAM te acompañamos en el estilo de vida, que las guías sitúan en la base del abordaje: alimentación, ejercicio, sueño y estrés.": "La síndrome d'ovari poliquístic (SOP) és un dels trastorns hormonals més freqüents en dones en edat fèrtil. A WA LAM t'acompanyem en l'estil de vida, que les guies situen a la base de l'abordatge: alimentació, exercici, son i estrès.",
+   "Sueño, estrés y ciclo menstrual": "Son, estrès i cicle menstrual",
+   "La resistencia a la insulina favorece la producción de andrógenos y dificulta la regulación del ciclo. Por eso la alimentación, el ejercicio regular, el sueño y la gestión del estrés son pilares del abordaje.": "La resistència a la insulina afavoreix la producció d'andrògens i dificulta la regulació del cicle. Per això l'alimentació, l'exercici regular, el son i la gestió de l'estrès són pilars de l'abordatge.",
+   "¿Cuánto tiempo tarda en notarse la mejoría?": "Quant de temps triga a notar-se la millora?",
+   "La energía y las digestiones suelen mejorar en pocas semanas. Los cambios en el ciclo y en la piel necesitan algo más de tiempo, normalmente unos meses de constancia.": "L'energia i les digestions solen millorar en poques setmanes. Els canvis en el cicle i en la pell necessiten una mica més de temps, normalment uns mesos de constància.",
+   "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), acompañamos a mujeres con síndrome de ovario poliquístico. Trabajamos la alimentación, el ejercicio, el peso, el sueño y el estrés para mejorar la sensibilidad a la insulina.": "A WA LAM, a Sarrià–Sant Gervasi (Barcelona), acompanyem dones amb síndrome d'ovari poliquístic. Treballem l'alimentació, l'exercici, el pes, el son i l'estrès per millorar la sensibilitat a la insulina."
   }
  },
  {
   "slug": "candidiasis-vaginal-repeticion",
   "ca_slug": "candidiasi-vaginal-repeticio",
   "nav": "Candidiasis vaginal de repetición",
-  "card": "Vulvovaginitis por cándida recurrente: hábitos, microbiota y estrés, como complemento del ginecólogo.",
+  "card": "Vulvovaginitis por cándida recurrente: hábitos, microbiota y estrés para reducir las recaídas.",
   "title": "Candidiasis vaginal de repetición en Barcelona | WA LAM",
-  "desc": "Candidiasis vaginal de repetición en Sarrià–Sant Gervasi, Barcelona: hábitos, microbiota y estrés como complemento del ginecólogo. Atención solo a mujeres.",
+  "desc": "Candidiasis vaginal de repetición en Sarrià–Sant Gervasi, Barcelona: hábitos, microbiota y estrés para reducir las recaídas. Atención solo a mujeres.",
   "h1": "Candidiasis vaginal de repetición en Barcelona",
   "sub": "Vulvovaginitis recurrente en mujeres · Sarrià–Sant Gervasi",
-  "lead": "Hablamos de candidiasis vaginal de repetición cuando aparecen cuatro o más episodios en un año. Su diagnóstico y el tratamiento antifúngico corresponden a tu ginecólogo. En WA LAM, como complemento del seguimiento médico, te acompañamos en los factores que favorecen las recaídas: hábitos, microbiota, alimentación y estrés.",
+  "lead": "Hablamos de candidiasis vaginal de repetición cuando aparecen cuatro o más episodios en un año. En WA LAM te ayudamos a trabajar los factores que favorecen las recaídas: hábitos, microbiota, alimentación y estrés.",
   "facts_title": "En WA LAM",
   "facts": [
    "Atención exclusiva a mujeres",
    "Hábitos, microbiota y estrés",
-   "Complemento del ginecólogo",
+   "Alimentación, sueño y estrés",
    "Primera visita: 60 min · 90 €"
   ],
   "wa": "Hola, me gustaría información sobre el acompañamiento de la candidiasis vaginal de repetición.",
@@ -612,7 +612,7 @@
     "¿Has tenido cuatro o más episodios de candidiasis en el último año?",
     "¿Las recaídas aparecen tras tomar antibióticos, en épocas de estrés o en ciertas fases del ciclo?",
     "¿Sientes que el tratamiento funciona, pero los síntomas vuelven?",
-    "¿Quieres revisar tus hábitos y tu salud intestinal como complemento del tratamiento?"
+    "¿Quieres revisar tus hábitos y tu salud intestinal para cortar el ciclo de recaídas?"
    ],
    "close": "Si aparecen fiebre, dolor pélvico o abdominal, flujo con mal olor, llagas o sangrado fuera de la regla, consulta con tu ginecólogo o acude a urgencias. Ante un primer episodio, es importante confirmar el diagnóstico."
   },
@@ -681,8 +681,8 @@
   },
   "faq": [
    [
-    "¿Sustituye al tratamiento antifúngico?",
-    "No. El tratamiento lo pauta tu ginecólogo. El acompañamiento es complementario y se centra en los factores que favorecen las recaídas."
+    "¿Cuánto tiempo tarda en notarse la mejoría?",
+    "Depende de cada caso. Los cambios de hábitos y de alimentación se valoran a lo largo de unos meses, observando si los episodios se espacian y son más leves."
    ],
    [
     "¿La exploración es interna?",
@@ -711,10 +711,10 @@
     "vulvovaginitis de repetición",
     "cándida vaginal microbiota",
     "candidiasis y estrés",
-    "candidiasis vaginal tratamiento complementario"
+    "candidiasis vaginal recurrente Barcelona"
    ],
    "ca_kw": "candidiasi vaginal de repetició Barcelona",
-   "quick": "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), acompañamos a mujeres con candidiasis vaginal de repetición como complemento del ginecólogo. Revisamos hábitos, alimentación, microbiota y estrés, con un abordaje siempre externo.",
+   "quick": "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), acompañamos a mujeres con candidiasis vaginal de repetición. Revisamos hábitos, alimentación, microbiota y estrés, con un abordaje siempre externo.",
    "entity": [
     "MedicalCondition",
     "Candidiasis vulvovaginal recurrente"
@@ -735,23 +735,18 @@
   ],
   "ca": {
    "Candidiasis vaginal de repetición": "Candidiasi vaginal de repetició",
-   "Vulvovaginitis por cándida recurrente: hábitos, microbiota y estrés, como complemento del ginecólogo.": "Vulvovaginitis per càndida recurrent: hàbits, microbiota i estrès, com a complement del ginecòleg.",
    "Candidiasis vaginal de repetición en Barcelona | WA LAM": "Candidiasi vaginal de repetició a Barcelona | WA LAM",
-   "Candidiasis vaginal de repetición en Sarrià–Sant Gervasi, Barcelona: hábitos, microbiota y estrés como complemento del ginecólogo. Atención solo a mujeres.": "Candidiasi vaginal de repetició a Sarrià–Sant Gervasi, Barcelona: hàbits, microbiota i estrès com a complement del ginecòleg. Atenció només a dones.",
    "Candidiasis vaginal de repetición en Barcelona": "Candidiasi vaginal de repetició a Barcelona",
    "Vulvovaginitis recurrente en mujeres · Sarrià–Sant Gervasi": "Vulvovaginitis recurrent en dones · Sarrià–Sant Gervasi",
-   "Hablamos de candidiasis vaginal de repetición cuando aparecen cuatro o más episodios en un año. Su diagnóstico y el tratamiento antifúngico corresponden a tu ginecólogo. En WA LAM, como complemento del seguimiento médico, te acompañamos en los factores que favorecen las recaídas: hábitos, microbiota, alimentación y estrés.": "Parlem de candidiasi vaginal de repetició quan apareixen quatre episodis o més en un any. El diagnòstic i el tractament antifúngic corresponen al teu ginecòleg. A WA LAM, com a complement del seguiment mèdic, t'acompanyem en els factors que afavoreixen les recaigudes: hàbits, microbiota, alimentació i estrès.",
    "En WA LAM": "A WA LAM",
    "Atención exclusiva a mujeres": "Atenció exclusiva a dones",
    "Hábitos, microbiota y estrés": "Hàbits, microbiota i estrès",
-   "Complemento del ginecólogo": "Complement del ginecòleg",
    "Primera visita: 60 min · 90 €": "Primera visita: 60 min · 90 €",
    "Hola, me gustaría información sobre el acompañamiento de la candidiasis vaginal de repetición.": "Hola, m'agradaria informació sobre l'acompanyament de la candidiasi vaginal de repetició.",
    "Cuando la candidiasis vuelve una y otra vez": "Quan la candidiasi torna una vegada i una altra",
    "¿Has tenido cuatro o más episodios de candidiasis en el último año?": "Has tingut quatre episodis o més de candidiasi en l'últim any?",
    "¿Las recaídas aparecen tras tomar antibióticos, en épocas de estrés o en ciertas fases del ciclo?": "Les recaigudes apareixen després de prendre antibiòtics, en èpoques d'estrès o en certes fases del cicle?",
    "¿Sientes que el tratamiento funciona, pero los síntomas vuelven?": "Sents que el tractament funciona, però els símptomes tornen?",
-   "¿Quieres revisar tus hábitos y tu salud intestinal como complemento del tratamiento?": "Vols revisar els teus hàbits i la teva salut intestinal com a complement del tractament?",
    "Si aparecen fiebre, dolor pélvico o abdominal, flujo con mal olor, llagas o sangrado fuera de la regla, consulta con tu ginecólogo o acude a urgencias. Ante un primer episodio, es importante confirmar el diagnóstico.": "Si apareixen febre, dolor pèlvic o abdominal, flux amb mala olor, nafres o sagnat fora de la regla, consulta el teu ginecòleg o ves a urgències. Davant d'un primer episodi, és important confirmar el diagnòstic.",
    "Por qué la candidiasis se repite": "Per què la candidiasi es repeteix",
    "La cándida forma parte de la flora habitual de muchas mujeres. La infección aparece cuando se altera el equilibrio entre el hongo, la microbiota vaginal, rica en lactobacilos, y la respuesta inmunitaria local.": "La càndida forma part de la flora habitual de moltes dones. La infecció apareix quan s'altera l'equilibri entre el fong, la microbiota vaginal, rica en lactobacils, i la resposta immunitària local.",
@@ -776,8 +771,6 @@
    "Los antibióticos, los cambios hormonales y la diabetes se describen entre los principales factores que favorecen la candidiasis vulvovaginal (Sobel, Lancet, 2007).": "Els antibiòtics, els canvis hormonals i la diabetis es descriuen entre els principals factors que afavoreixen la candidiasi vulvovaginal (Sobel, Lancet, 2007).",
    "Revisión (Microorganisms)": "Revisió (Microorganisms)",
    "Las recurrencias se relacionan con una interacción alterada entre la cándida, la respuesta inmunitaria de la mucosa y la microbiota vaginal (Rosati et al., Microorganisms, 2020).": "Les recurrències es relacionen amb una interacció alterada entre la càndida, la resposta immunitària de la mucosa i la microbiota vaginal (Rosati et al., Microorganisms, 2020).",
-   "¿Sustituye al tratamiento antifúngico?": "Substitueix el tractament antifúngic?",
-   "No. El tratamiento lo pauta tu ginecólogo. El acompañamiento es complementario y se centra en los factores que favorecen las recaídas.": "No. El tractament el pauta el teu ginecòleg. L'acompanyament és complementari i se centra en els factors que afavoreixen les recaigudes.",
    "¿La exploración es interna?": "L'exploració és interna?",
    "No. Trabajamos siempre con un abordaje externo y atendemos únicamente a mujeres.": "No. Treballem sempre amb un abordatge extern i atenem únicament dones.",
    "¿Influye la alimentación?": "Hi influeix l'alimentació?",
@@ -785,7 +778,14 @@
    "¿Qué hábitos pueden ayudar?": "Quins hàbits poden ajudar?",
    "Evitar las duchas vaginales y los productos perfumados, usar ropa interior transpirable y cambiarse pronto la ropa húmeda después de nadar o hacer deporte.": "Evitar les dutxes vaginals i els productes perfumats, fer servir roba interior transpirable i canviar-se aviat la roba humida després de nedar o fer esport.",
    "Recupera la tranquilidad con un acompañamiento cercano": "Recupera la tranquil·litat amb un acompanyament proper",
-   "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), acompañamos a mujeres con candidiasis vaginal de repetición como complemento del ginecólogo. Revisamos hábitos, alimentación, microbiota y estrés, con un abordaje siempre externo.": "A WA LAM, a Sarrià–Sant Gervasi (Barcelona), acompanyem dones amb candidiasi vaginal de repetició com a complement del ginecòleg. Revisem hàbits, alimentació, microbiota i estrès, amb un abordatge sempre extern."
+   "Vulvovaginitis por cándida recurrente: hábitos, microbiota y estrés para reducir las recaídas.": "Vulvovaginitis per càndida recurrent: hàbits, microbiota i estrès per reduir les recaigudes.",
+   "Candidiasis vaginal de repetición en Sarrià–Sant Gervasi, Barcelona: hábitos, microbiota y estrés para reducir las recaídas. Atención solo a mujeres.": "Candidiasi vaginal de repetició a Sarrià–Sant Gervasi, Barcelona: hàbits, microbiota i estrès per reduir les recaigudes. Atenció només a dones.",
+   "Hablamos de candidiasis vaginal de repetición cuando aparecen cuatro o más episodios en un año. En WA LAM te ayudamos a trabajar los factores que favorecen las recaídas: hábitos, microbiota, alimentación y estrés.": "Parlem de candidiasi vaginal de repetició quan apareixen quatre episodis o més en un any. A WA LAM t'ajudem a treballar els factors que afavoreixen les recaigudes: hàbits, microbiota, alimentació i estrès.",
+   "Alimentación, sueño y estrés": "Alimentació, son i estrès",
+   "¿Quieres revisar tus hábitos y tu salud intestinal para cortar el ciclo de recaídas?": "Vols revisar els teus hàbits i la teva salut intestinal per trencar el cicle de recaigudes?",
+   "¿Cuánto tiempo tarda en notarse la mejoría?": "Quant de temps triga a notar-se la millora?",
+   "Depende de cada caso. Los cambios de hábitos y de alimentación se valoran a lo largo de unos meses, observando si los episodios se espacian y son más leves.": "Depèn de cada cas. Els canvis d'hàbits i d'alimentació es valoren al llarg d'uns mesos, observant si els episodis s'espaien i són més lleus.",
+   "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), acompañamos a mujeres con candidiasis vaginal de repetición. Revisamos hábitos, alimentación, microbiota y estrés, con un abordaje siempre externo.": "A WA LAM, a Sarrià–Sant Gervasi (Barcelona), acompanyem dones amb candidiasi vaginal de repetició. Revisem hàbits, alimentació, microbiota i estrès, amb un abordatge sempre extern."
   }
  },
  {
@@ -797,7 +797,7 @@
   "desc": "Salud metabólica en Sarrià–Sant Gervasi, Barcelona: colesterol, glucosa, hígado graso e hipertensión. Ejercicio, alimentación y sueño para prevenir.",
   "h1": "Salud metabólica y prevención cardiovascular en Barcelona",
   "sub": "Colesterol, glucosa, hígado graso y tensión · Sarrià–Sant Gervasi",
-  "lead": "El colesterol alto, la glucosa elevada, la resistencia a la insulina, el hígado graso y la hipertensión suelen aparecer juntos y aumentan el riesgo cardiovascular. Los hábitos de vida son la base de su prevención. En WA LAM te acompañamos, como complemento del seguimiento médico, con un plan de ejercicio, alimentación, sueño y gestión del estrés.",
+  "lead": "El colesterol alto, la glucosa elevada, la resistencia a la insulina, el hígado graso y la hipertensión suelen aparecer juntos y aumentan el riesgo cardiovascular. Los hábitos de vida son la base de su prevención. En WA LAM te acompañamos con un plan de ejercicio, alimentación, sueño y gestión del estrés.",
   "facts_title": "En WA LAM",
   "facts": [
    "Colesterol, glucosa y resistencia a la insulina",
@@ -881,8 +881,8 @@
   },
   "faq": [
    [
-    "¿Puedo dejar la medicación si mejoro mis hábitos?",
-    "Cualquier cambio en la medicación debe decidirlo tu médico. El acompañamiento es complementario y no la modifica."
+    "¿Qué debo traer a la primera visita?",
+    "Tus analíticas recientes (colesterol, glucosa, hemoglobina glicada, perfil hepático), tus cifras de tensión si las controlas y la lista de lo que tomas. Así podemos medir tu progreso."
    ],
    [
     "¿Qué ejercicio es mejor?",
@@ -914,7 +914,7 @@
     "prevención cardiovascular Barcelona"
    ],
    "ca_kw": "salut metabòlica Barcelona",
-   "quick": "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), acompañamos la salud metabólica como complemento del seguimiento médico: colesterol, glucosa, resistencia a la insulina, hígado graso e hipertensión. Trabajamos el ejercicio, la alimentación mediterránea, el sueño y el estrés.",
+   "quick": "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), acompañamos la salud metabólica: colesterol, glucosa, resistencia a la insulina, hígado graso e hipertensión. Trabajamos el ejercicio, la alimentación mediterránea, el sueño y el estrés.",
    "entity": [
     "MedicalCondition",
     "Síndrome metabólico"
@@ -940,7 +940,6 @@
    "Salud metabólica en Sarrià–Sant Gervasi, Barcelona: colesterol, glucosa, hígado graso e hipertensión. Ejercicio, alimentación y sueño para prevenir.": "Salut metabòlica a Sarrià–Sant Gervasi, Barcelona: colesterol, glucosa, fetge gras i hipertensió. Exercici, alimentació i son per a la prevenció.",
    "Salud metabólica y prevención cardiovascular en Barcelona": "Salut metabòlica i prevenció cardiovascular a Barcelona",
    "Colesterol, glucosa, hígado graso y tensión · Sarrià–Sant Gervasi": "Colesterol, glucosa, fetge gras i tensió · Sarrià–Sant Gervasi",
-   "El colesterol alto, la glucosa elevada, la resistencia a la insulina, el hígado graso y la hipertensión suelen aparecer juntos y aumentan el riesgo cardiovascular. Los hábitos de vida son la base de su prevención. En WA LAM te acompañamos, como complemento del seguimiento médico, con un plan de ejercicio, alimentación, sueño y gestión del estrés.": "El colesterol alt, la glucosa elevada, la resistència a la insulina, el fetge gras i la hipertensió solen aparèixer junts i augmenten el risc cardiovascular. Els hàbits de vida són la base de la seva prevenció. A WA LAM t'acompanyem, com a complement del seguiment mèdic, amb un pla d'exercici, alimentació, son i gestió de l'estrès.",
    "En WA LAM": "A WA LAM",
    "Colesterol, glucosa y resistencia a la insulina": "Colesterol, glucosa i resistència a la insulina",
    "Hígado graso e hipertensión": "Fetge gras i hipertensió",
@@ -976,8 +975,6 @@
    "En personas con alto riesgo cardiovascular, la dieta mediterránea enriquecida con aceite de oliva virgen extra o frutos secos redujo la incidencia de eventos cardiovasculares mayores (Estruch et al., N Engl J Med, 2018).": "En persones amb risc cardiovascular alt, la dieta mediterrània enriquida amb oli d'oliva verge extra o fruita seca va reduir la incidència d'esdeveniments cardiovasculars majors (Estruch et al., N Engl J Med, 2018).",
    "Revisión (J Hepatol)": "Revisió (J Hepatol)",
    "La pérdida de peso, la dieta mediterránea y el ejercicio son la base del tratamiento del hígado graso, y el ejercicio reduce la grasa hepática incluso sin pérdida de peso (Romero-Gómez et al., J Hepatol, 2017).": "La pèrdua de pes, la dieta mediterrània i l'exercici són la base del tractament del fetge gras, i l'exercici redueix el greix hepàtic fins i tot sense pèrdua de pes (Romero-Gómez et al., J Hepatol, 2017).",
-   "¿Puedo dejar la medicación si mejoro mis hábitos?": "Puc deixar la medicació si millo els meus hàbits?",
-   "Cualquier cambio en la medicación debe decidirlo tu médico. El acompañamiento es complementario y no la modifica.": "Qualsevol canvi en la medicació l'ha de decidir el teu metge. L'acompanyament és complementari i no la modifica.",
    "¿Qué ejercicio es mejor?": "Quin exercici és millor?",
    "La combinación regular de ejercicio aeróbico y de fuerza. Lo importante es empezar a tu nivel y progresar poco a poco.": "La combinació regular d'exercici aeròbic i de força. L'important és començar al teu nivell i progressar de mica en mica.",
    "¿El hígado graso puede mejorar?": "El fetge gras pot millorar?",
@@ -985,7 +982,10 @@
    "¿Cada cuánto tendré seguimiento?": "Cada quant tindré seguiment?",
    "Lo acordamos en la primera visita según tus objetivos. Los cambios de hábitos necesitan constancia, por eso planteamos un seguimiento progresivo.": "Ho acordem a la primera visita segons els teus objectius. Els canvis d'hàbits necessiten constància, per això plantegem un seguiment progressiu.",
    "Empieza hoy a cuidar tu corazón y tu metabolismo": "Comença avui a cuidar el teu cor i el teu metabolisme",
-   "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), acompañamos la salud metabólica como complemento del seguimiento médico: colesterol, glucosa, resistencia a la insulina, hígado graso e hipertensión. Trabajamos el ejercicio, la alimentación mediterránea, el sueño y el estrés.": "A WA LAM, a Sarrià–Sant Gervasi (Barcelona), acompanyem la salut metabòlica com a complement del seguiment mèdic: colesterol, glucosa, resistència a la insulina, fetge gras i hipertensió. Treballem l'exercici, l'alimentació mediterrània, el son i l'estrès."
+   "El colesterol alto, la glucosa elevada, la resistencia a la insulina, el hígado graso y la hipertensión suelen aparecer juntos y aumentan el riesgo cardiovascular. Los hábitos de vida son la base de su prevención. En WA LAM te acompañamos con un plan de ejercicio, alimentación, sueño y gestión del estrés.": "El colesterol alt, la glucosa elevada, la resistència a la insulina, el fetge gras i la hipertensió solen aparèixer junts i augmenten el risc cardiovascular. Els hàbits de vida són la base de la seva prevenció. A WA LAM t'acompanyem amb un pla d'exercici, alimentació, son i gestió de l'estrès.",
+   "¿Qué debo traer a la primera visita?": "Què he de portar a la primera visita?",
+   "Tus analíticas recientes (colesterol, glucosa, hemoglobina glicada, perfil hepático), tus cifras de tensión si las controlas y la lista de lo que tomas. Así podemos medir tu progreso.": "Les teves analítiques recents (colesterol, glucosa, hemoglobina glicada, perfil hepàtic), les teves xifres de tensió si les controles i la llista del que prens. Així podem mesurar el teu progrés.",
+   "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), acompañamos la salud metabólica: colesterol, glucosa, resistencia a la insulina, hígado graso e hipertensión. Trabajamos el ejercicio, la alimentación mediterránea, el sueño y el estrés.": "A WA LAM, a Sarrià–Sant Gervasi (Barcelona), acompanyem la salut metabòlica: colesterol, glucosa, resistència a la insulina, fetge gras i hipertensió. Treballem l'exercici, l'alimentació mediterrània, el son i l'estrès."
   }
  }
 ]

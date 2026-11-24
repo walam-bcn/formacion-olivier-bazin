@@ -54,6 +54,8 @@ LOGO = (ROOT / "tools" / "logo.b64").read_text().strip()
 OUT = ROOT / "landings"
 OUT.mkdir(exist_ok=True)
 BYSLUG = {p["slug"]: p for p in PAGES}
+# Ficha de Google (Wa Lam). Sustituir por el enlace «Compartir» de Google Maps cuando lo tengamos.
+MAPS_URL = "https://www.google.com/maps/search/?api=1&query=Wa%20Lam%2C%20Carrer%20del%20Bisbe%20Sivilla%2044%2C%2008022%20Barcelona"
 
 
 LINK_RE = re.compile(r"(?<!\[)\[([^\[\]]+)\]\(([A-Za-z0-9#:/._\-]+)\)")
@@ -386,6 +388,14 @@ h1,h2,h3,h4,.btn,.btn-tq,.faq summary,b,strong,.explain .txt b,.card h3,.step h3
 .lg h3{font-size:18px!important;font-weight:700!important;color:var(--pet);padding-top:14px;border-top:2px solid var(--tq);margin-bottom:10px}
 .lg ul{list-style:none}.lg li{padding:4px 0}.lg a{color:var(--pet);text-decoration:none}.lg a:hover{color:#0a9a9c;text-decoration:underline}
 .lgall{margin-top:40px;text-align:center}
+.cont .gmb{margin:-8px auto 22px!important}.cont .gmb a{color:#fff;opacity:.85;text-decoration:underline}
+.card,.q,.step,.evi{border-top:2px solid var(--tq)!important}
+.card h3,.step h3{font-weight:400!important}
+.mclose{font-weight:400!important}
+.evi .lv{font-weight:400!important}
+.qbox .btn-row,.explain .btn-row{margin-top:28px}
+#slow-medicine .head h2{font-size:40px!important}
+#slow-medicine .head p{font-style:italic;font-size:18px;margin-top:4px;text-align:left!important}
 .hero-dna{background-color:#dcebf2!important;background-position:center!important;background-size:cover!important;color:var(--pet)}
 .hero-dna h1,.hero-dna .hs,.hero-dna .lead,.hero-dna .eyebrow,.hero-dna .crumbs,.hero-dna .crumbs a{color:var(--pet)!important;text-shadow:0 0 18px rgba(255,255,255,.9)}
 .hero-dna .hcard{background:rgba(255,255,255,.72);border-color:rgba(29,63,64,.18)}
@@ -456,7 +466,7 @@ def schema(p):
         return {"@context": "https://schema.org", "@type": "WebPage", "name": plain(p.get("title", ""))}
     S = seo(p)
     clinic_id = SITE["base"] + "/#clinica"
-    org = {"@type": ["MedicalClinic", "MedicalBusiness"], "@id": clinic_id, "name": "WA LAM · Salud integrativa",
+    org = {"@type": ["MedicalClinic", "MedicalBusiness"], "@id": clinic_id, "name": "WA LAM", "alternateName": "Wa Lam · Medicina integrativa", "hasMap": MAPS_URL,
            "url": SITE["base"], "telephone": "+34675716409", "email": SITE["email"],
            "image": SITE["og_base"] + "medicina-integrativa-barcelona.png", "priceRange": "€€",
            "address": {"@type": "PostalAddress", "streetAddress": "Carrer del Bisbe Sivilla, 44, local", "postalCode": SITE["postal"],
@@ -465,7 +475,7 @@ def schema(p):
            "areaServed": [{"@type": "Place", "name": f"{b}, Barcelona"} for b in BARRIOS] + [{"@type": "City", "name": "Barcelona"}],
            "medicalSpecialty": ["Physiotherapy", "Musculoskeletal"],
            "availableService": [{"@type": "MedicalTherapy", "name": plain(x["nav"]), "url": canon(x["slug"])} for x in PAGES if x["group"] == "servicio"],
-           "sameAs": SITE.get("same_as", [])}
+           "sameAs": SITE.get("same_as", []) + [MAPS_URL]}
     g = GROUPS.get(p["group"], {})
     crumbs = [{"@type": "ListItem", "position": 1, "name": "Inicio", "item": SITE["base"]}]
     if p["group"] != "home":
@@ -551,7 +561,7 @@ def hero(p):
     return f"""<section class="{hcls}"{hst}><div class="wrap">
 {sp}<div><span class="eyebrow">{fmt(p['eyebrow'])}</span><h1>{fmt(p['h1'])}</h1>
 <div class="hs">{fmt(p['sub'])}</div>
-<div class="btn-row"><a class="btn btn-tq" href="{b1[1]}" target="_blank" rel="noopener">{b1[0]}</a><a class="btn btn-gh" href="{b2[1]}">{b2[0]}</a></div></div>
+</div>
 </div></section>"""
 
 
@@ -570,7 +580,8 @@ def explain(e):
     ps = "".join(f"<p>{fmt(x)}</p>" for x in e["paras"])
     q = f'<div class="quote">{fmt(e["quote"])}</div>' if e.get("quote") else ""
     li = (f'<p class="k" style="text-align:center;margin-top:22px">{fmt(e["list_title"])}</p><ul class="ilist">' + "".join(f"<li>{fmt(x)}</li>" for x in e["list"]) + "</ul>") if e.get("list") else ""
-    return f'<section class="explain"><div class="wrap">{sec_head(e["eyebrow"], e["h2"])}<div class="txt">{ps}</div>{li}{q}</div></section>'
+    btn = f'<div class="btn-row"><a class="btn btn-tq" href="{wa(e["wa_btn"])}" target="_blank" rel="noopener">{tr("Escríbenos por WhatsApp")}</a></div>' if e.get("wa_btn") else ""
+    return f'<section class="explain"><div class="wrap">{sec_head(e["eyebrow"], e["h2"], e.get("intro"))}<div class="txt">{ps}</div>{li}{q}{btn}</div></section>'
 
 
 def cards(c, cls="cards"):
@@ -692,6 +703,7 @@ def contact(p):
 <h2>{fmt(p.get("cta", {}).get("h2") or tr("Estamos aquí para orientarte"))}</h2>
 <p>{fmt(p.get("cta", {}).get("p") or tr("Cuéntanos brevemente qué te ocurre o qué te interesa y te diremos con sinceridad si podemos ayudarte y con qué profesional."))}</p>
 <div class="datos"><span>📍 {fmt(SITE['address_short'])}</span><span>📧 {SITE['email']}</span><span>🕘 {tr(SITE['hours'])}</span></div>
+<p class="gmb"><a href="{MAPS_URL}" target="_blank" rel="noopener">{tr("Cómo llegar y opiniones en Google")} →</a></p>
 <a class="btn btn-tq" href="{wa(p['wa'])}" target="_blank" rel="noopener">{tr("Escríbenos por WhatsApp")}</a>
 </div></section>
 <footer class="foot"><div class="wrap">WA LAM · {tr("Salud integrativa en Barcelona")} · Sarrià–Sant Gervasi · <a href="{url('')}">walambcn.com</a></div></footer>"""
@@ -722,6 +734,10 @@ def evid_title(p):
     return ""
 
 
+def wabtn(p):
+    return f'<div class="btn-row"><a class="btn btn-tq" href="{wa(p["wa"])}" target="_blank" rel="noopener">{tr("Escríbenos por WhatsApp")}</a></div>'
+
+
 def quick(p):
     q = seo(p).get("quick")
     if not q:
@@ -740,7 +756,7 @@ def quick(p):
             extra.append(snt)
     lead = f"<p>{fmt(' '.join(extra))}</p>" if extra else ""
     return (f'<section class="quick" id="en-resumen"><div class="wrap"><div class="qbox">'
-            f'<h2>{fmt(seo(p).get("q_title", p["nav"]))}</h2><p>{fmt(q)}</p>{lead}</div></div></section>')
+            f'<h2>{fmt(seo(p).get("q_title", p["nav"]))}</h2><p>{fmt(q)}</p>{lead}{wabtn(p)}</div></div></section>')
 
 
 def toc(items):
@@ -937,6 +953,30 @@ details.wix{background:#fff;border:1px solid rgba(29,63,64,.12);border-radius:14
     return head(gp).replace("</head>", css + "</head>") + nav(gp) + body + contact(gp) + JS + "</body></html>"
 
 
+def patho_table():
+    from new_pages import AREAS
+    rows = []
+    for area, _, sl in AREAS:
+        for x in sl:
+            if x in BYSLUG:
+                es = canon_lang(x, "es"); ca = canon_lang(x, "ca")
+                rows.append(f"<tr><td>{html.escape(area)}</td><td><b>{html.escape(plain(BYSLUG[x]['nav']))}</b></td>"
+                            f"<td><a href='{es}' target='_blank'>{html.escape(unquote_url(es))}</a></td><td><a href='{ca}' target='_blank'>{html.escape(unquote_url(ca))}</a></td></tr>")
+    return (f"<!doctype html><html lang='es'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'>"
+            f"<title>Tabla de patologías</title><style>body{{font-family:Montserrat,system-ui,sans-serif;color:#1D3F40;margin:0;padding:24px 16px;background:#fff}}"
+            f"h1{{font-size:26px}}p{{max-width:760px}}table{{border-collapse:collapse;width:100%;font-size:14px}}th,td{{text-align:left;padding:8px;border-bottom:1px solid #e3e2de;vertical-align:top;word-break:break-all}}"
+            f"th{{background:#F2F1EE}}a{{color:#0a9a9c}}.wrap{{max-width:1150px;margin:0 auto;overflow-x:auto}}</style></head><body><div class='wrap'>"
+            f"<p><a href='index.html'>← Volver</a></p><h1>Patologías y URL para enlazar desde «Sobre mí» (Wix)</h1>"
+            f"<p>En Wix, en tu página «Sobre mí», selecciona cada patología de la lista «Te puedo ayudar en las siguientes situaciones» y enlázala a su URL. "
+            f"En la versión catalana de la página, usa la columna de catalán. Total: {len(rows)} páginas.</p>"
+            f"<table><tr><th>Área</th><th>Patología</th><th>URL castellano</th><th>URL catalán</th></tr>{''.join(rows)}</table></div></body></html>")
+
+
+def unquote_url(u):
+    from urllib.parse import unquote
+    return unquote(u)
+
+
 def main():
     global BYSLUG
     for p in PAGES:
@@ -958,6 +998,7 @@ def main():
         (out / f"{p['slug']}.html").write_text(page(p), encoding="utf-8")
     if LANG == "es":
         (out / "guia-seo.html").write_text(guide(), encoding="utf-8")
+        (out / "tabla-patologias.html").write_text(patho_table(), encoding="utf-8")
     if not PREVIEW:
         sd = out / "schema"; sd.mkdir(exist_ok=True)
         for p in PAGES:
@@ -978,7 +1019,7 @@ def main():
     idx = {"slug": "index", "group": "home", "title": "WA LAM · Landing pages", "desc": "Índice de revisión.", "h1": "", "faq": []}
     doc = head(idx) + nav(idx) + f"""<section class="hero"><div class="wrap" style="grid-template-columns:1fr"><div>
 <span class="eyebrow">Revisión</span><h1>Landing pages WA LAM</h1><p class="lead">{len(PAGES)} páginas. Pulsa cualquiera para verla. Lo resaltado así: <span class="pend">dato pendiente</span> hay que completarlo antes de publicar.</p>
-<div class="btn-row"><a class="btn btn-tq" href="{"../" if LANG == "ca" else ""}guia-seo.html" target="_self">{"Pla SEO (castellà)" if LANG == "ca" else "Ver el plan SEO"}</a></div></div></div></section>
+<div class="btn-row"><a class="btn btn-gh" href="{"../" if LANG == "ca" else ""}tabla-patologias.html" target="_self">{"Taula de patologies" if LANG == "ca" else "Tabla de patologías para Wix"}</a><a class="btn btn-tq" href="{"../" if LANG == "ca" else ""}guia-seo.html" target="_self">{"Pla SEO (castellà)" if LANG == "ca" else "Ver el plan SEO"}</a></div></div></div></section>
 <section style="background:#fff"><div class="wrap">{''.join(rows)}</div></section>""" + contact(dict(idx, wa="Hola, tengo una consulta sobre WA LAM.")) + JS + "</body></html>"
     (out / "index.html").write_text(doc, encoding="utf-8")
     print(f"{len(PAGES)} páginas + index.html + guia-seo.html en {out}")

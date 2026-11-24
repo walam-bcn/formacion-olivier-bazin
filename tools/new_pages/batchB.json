@@ -44,7 +44,7 @@
     {
      "k": "Tratamiento",
      "h": "Acupuntura y terapia manual suave",
-     "p": "Sesiones adaptadas a tu sensibilidad para aliviar el dolor y favorecer la relajación, como complemento del seguimiento médico."
+     "p": "Sesiones adaptadas a tu sensibilidad para aliviar el dolor y favorecer la relajación profunda."
     },
     {
      "k": "Movimiento",
@@ -95,8 +95,8 @@
     "Sí. Adaptamos el número de agujas, la estimulación y la duración de la sesión a tu tolerancia."
    ],
    [
-    "¿Sustituye al tratamiento de mi reumatólogo?",
-    "No. Es un acompañamiento complementario al seguimiento médico y no modifica tu medicación."
+    "¿Qué debo traer a la primera visita?",
+    "Tus informes y analíticas recientes, la lista de lo que tomas y, si puedes, unas notas sobre cómo varían tu dolor, tu sueño y tu energía a lo largo de la semana."
    ]
   ],
   "related": [
@@ -116,7 +116,7 @@
     "dolor generalizado y cansancio"
    ],
    "ca_kw": "fibromiàlgia Barcelona",
-   "quick": "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), abordamos la fibromialgia con un plan integrativo que combina ejercicio gradual, acupuntura, mindfulness y educación en dolor. El objetivo es reducir el dolor y la fatiga, mejorar el sueño y recuperar actividad, como complemento del seguimiento médico.",
+   "quick": "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), abordamos la fibromialgia con un plan integrativo que combina ejercicio gradual, acupuntura, mindfulness y educación en dolor. Te ayudamos a reducir el dolor y la fatiga, mejorar el sueño y recuperar actividad.",
    "entity": [
     "MedicalCondition",
     "Fibromialgia"
@@ -163,7 +163,6 @@
    "Revisamos tu diagnóstico, el patrón del dolor, el sueño, la energía, el estrés y tu actividad diaria.": "Revisem el teu diagnòstic, el patró del dolor, el son, l'energia, l'estrès i la teva activitat diària.",
    "Tratamiento": "Tractament",
    "Acupuntura y terapia manual suave": "Acupuntura i teràpia manual suau",
-   "Sesiones adaptadas a tu sensibilidad para aliviar el dolor y favorecer la relajación, como complemento del seguimiento médico.": "Sessions adaptades a la teva sensibilitat per alleujar el dolor i afavorir la relaxació, com a complement del seguiment mèdic.",
    "Movimiento": "Moviment",
    "Ejercicio gradual": "Exercici gradual",
    "Actividad física que empieza en tu nivel y progresa poco a poco, con apoyo del [qigong](qigong-barcelona) y el [yoga terapéutico](yoga-particular-grupos-reducidos).": "Activitat física que comença al teu nivell i progressa a poc a poc, amb el suport del [qigong](qigong-barcelona) i el [ioga terapèutic](yoga-particular-grupos-reducidos).",
@@ -177,14 +176,15 @@
    "Si se dosifica bien, no. Empezamos en un nivel cómodo y aumentamos de forma gradual, respetando los días de más dolor.": "Si es dosifica bé, no. Comencem en un nivell còmode i augmentem de manera gradual, respectant els dies de més dolor.",
    "¿La acupuntura es adecuada si tengo mucha sensibilidad?": "L'acupuntura és adequada si tinc molta sensibilitat?",
    "Sí. Adaptamos el número de agujas, la estimulación y la duración de la sesión a tu tolerancia.": "Sí. Adaptem el nombre d'agulles, l'estimulació i la durada de la sessió a la teva tolerància.",
-   "¿Sustituye al tratamiento de mi reumatólogo?": "Substitueix el tractament del meu reumatòleg?",
-   "No. Es un acompañamiento complementario al seguimiento médico y no modifica tu medicación.": "No. És un acompanyament complementari al seguiment mèdic i no modifica la teva medicació.",
    "Da el primer paso hacia un día a día con menos dolor": "Fes el primer pas cap a un dia a dia amb menys dolor",
-   "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), abordamos la fibromialgia con un plan integrativo que combina ejercicio gradual, acupuntura, mindfulness y educación en dolor. El objetivo es reducir el dolor y la fatiga, mejorar el sueño y recuperar actividad, como complemento del seguimiento médico.": "A WA LAM, a Sarrià–Sant Gervasi (Barcelona), abordem la fibromiàlgia amb un pla integratiu que combina exercici gradual, acupuntura, mindfulness i educació en dolor. L'objectiu és reduir el dolor i la fatiga, millorar el son i recuperar activitat, com a complement del seguiment mèdic.",
    "Recomendaciones EULAR (Ann Rheum Dis)": "Recomanacions EULAR (Ann Rheum Dis)",
    "Revisión Cochrane": "Revisió Cochrane",
    "El ejercicio aeróbico mejoró la calidad de vida, el dolor y la función física en personas con fibromialgia (Bidonde et al., Cochrane, 2017).": "L'exercici aeròbic va millorar la qualitat de vida, el dolor i la funció física en persones amb fibromiàlgia (Bidonde et al., Cochrane, 2017).",
-   "Las recomendaciones europeas para el manejo de la fibromialgia sitúan el ejercicio como primera intervención e incluyen la acupuntura y las terapias mente-cuerpo como el qigong y el yoga (Macfarlane et al., Ann Rheum Dis, 2016).": "Les recomanacions europees per al maneig de la fibromiàlgia situen l'exercici com a primera intervenció i hi inclouen l'acupuntura i les teràpies ment-cos com el qigong i el ioga (Macfarlane et al., Ann Rheum Dis, 2016)."
+   "Las recomendaciones europeas para el manejo de la fibromialgia sitúan el ejercicio como primera intervención e incluyen la acupuntura y las terapias mente-cuerpo como el qigong y el yoga (Macfarlane et al., Ann Rheum Dis, 2016).": "Les recomanacions europees per al maneig de la fibromiàlgia situen l'exercici com a primera intervenció i hi inclouen l'acupuntura i les teràpies ment-cos com el qigong i el ioga (Macfarlane et al., Ann Rheum Dis, 2016).",
+   "Sesiones adaptadas a tu sensibilidad para aliviar el dolor y favorecer la relajación profunda.": "Sessions adaptades a la teva sensibilitat per alleujar el dolor i afavorir la relaxació profunda.",
+   "¿Qué debo traer a la primera visita?": "Què he de portar a la primera visita?",
+   "Tus informes y analíticas recientes, la lista de lo que tomas y, si puedes, unas notas sobre cómo varían tu dolor, tu sueño y tu energía a lo largo de la semana.": "Els teus informes i analítiques recents, la llista del que prens i, si pots, unes notes sobre com varien el teu dolor, el teu son i la teva energia al llarg de la setmana.",
+   "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), abordamos la fibromialgia con un plan integrativo que combina ejercicio gradual, acupuntura, mindfulness y educación en dolor. Te ayudamos a reducir el dolor y la fatiga, mejorar el sueño y recuperar actividad.": "A WA LAM, a Sarrià–Sant Gervasi (Barcelona), abordem la fibromiàlgia amb un pla integratiu que combina exercici gradual, acupuntura, mindfulness i educació en dolor. T'ajudem a reduir el dolor i la fatiga, millorar el son i recuperar activitat."
   }
  },
  {
@@ -232,7 +232,7 @@
     {
      "k": "Tratamiento",
      "h": "Acupuntura y terapia manual",
-     "p": "Sesiones orientadas a la relajación profunda y a la regulación del sistema nervioso, como complemento del seguimiento médico."
+     "p": "Sesiones orientadas a la relajación profunda y a la regulación del sistema nervioso, para que el descanso vuelva a ser reparador."
     },
     {
      "k": "Movimiento y alimentación",
@@ -312,7 +312,7 @@
     "falta de energía y ánimo bajo"
    ],
    "ca_kw": "fatiga crònica Barcelona",
-   "quick": "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), acompañamos la fatiga crónica y el agotamiento físico y emocional con un plan integrativo: sueño, gestión del estrés, alimentación, movimiento suave y acupuntura. Lo planteamos como complemento del seguimiento médico y a un ritmo adaptado a tu energía.",
+   "quick": "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), acompañamos la fatiga crónica y el agotamiento físico y emocional con un plan integrativo: sueño, gestión del estrés, alimentación, movimiento suave y acupuntura, a un ritmo adaptado a tu energía.",
    "entity": [
     "MedicalCondition",
     "Fatiga crónica"
@@ -359,7 +359,6 @@
    "Revisamos tus analíticas, el sueño, la alimentación, el estrés y los acontecimientos que han precedido al agotamiento.": "Revisem les teves analítiques, el son, l'alimentació, l'estrès i els esdeveniments que han precedit l'esgotament.",
    "Tratamiento": "Tractament",
    "Acupuntura y terapia manual": "Acupuntura i teràpia manual",
-   "Sesiones orientadas a la relajación profunda y a la regulación del sistema nervioso, como complemento del seguimiento médico.": "Sessions orientades a la relaxació profunda i a la regulació del sistema nerviós, com a complement del seguiment mèdic.",
    "Movimiento y alimentación": "Moviment i alimentació",
    "Energía que se construye": "Energia que es construeix",
    "Movimiento suave y progresivo, como el [qigong](qigong-barcelona), y pautas de [salud intestinal](nutricion-salud-intestinal) para sostener tu energía.": "Moviment suau i progressiu, com el [qigong](qigong-barcelona), i pautes de [salut intestinal](nutricion-salud-intestinal) per sostenir la teva energia.",
@@ -376,13 +375,14 @@
    "¿Cuánto tiempo se tarda en notar mejoría?": "Quant de temps es triga a notar millora?",
    "Depende de cada persona y de cuánto tiempo llevas agotada o agotado. En la primera visita te proponemos un plan y lo revisamos contigo.": "Depèn de cada persona i de quant de temps fa que estàs esgotada o esgotat. A la primera visita et proposem un pla i el revisem amb tu.",
    "Recupera tu energía con calma y con un plan": "Recupera la teva energia amb calma i amb un pla",
-   "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), acompañamos la fatiga crónica y el agotamiento físico y emocional con un plan integrativo: sueño, gestión del estrés, alimentación, movimiento suave y acupuntura. Lo planteamos como complemento del seguimiento médico y a un ritmo adaptado a tu energía.": "A WA LAM, a Sarrià–Sant Gervasi (Barcelona), acompanyem la fatiga crònica i l'esgotament físic i emocional amb un pla integratiu: son, gestió de l'estrès, alimentació, moviment suau i acupuntura. Ho plantegem com a complement del seguiment mèdic i a un ritme adaptat a la teva energia.",
    "Metaanálisis (J Transl Med)": "Metanàlisi (J Transl Med)",
    "El síndrome de fatiga crónica afecta a cerca del 0,9 % de la población adulta según los criterios diagnósticos más utilizados (Lim et al., J Transl Med, 2020).": "La síndrome de fatiga crònica afecta prop del 0,9 % de la població adulta segons els criteris diagnòstics més utilitzats (Lim et al., J Transl Med, 2020).",
    "Ensayo clínico (Evid Based Complement Alternat Med)": "Assaig clínic (Evid Based Complement Alternat Med)",
    "Metaanálisis (J Psychosom Res)": "Metanàlisi (J Psychosom Res)",
    "El programa MBSR redujo el estrés, la ansiedad y los síntomas depresivos y mejoró la calidad de vida (Khoury et al., J Psychosom Res, 2015).": "El programa MBSR va reduir l'estrès, l'ansietat i els símptomes depressius i va millorar la qualitat de vida (Khoury et al., J Psychosom Res, 2015).",
-   "La práctica de qigong redujo la fatiga y los síntomas depresivos en personas con un cuadro de fatiga crónica (Chan et al., Evid Based Complement Alternat Med, 2013).": "La pràctica de qigong va reduir la fatiga i els símptomes depressius en persones amb un quadre de fatiga crònica (Chan et al., Evid Based Complement Alternat Med, 2013)."
+   "La práctica de qigong redujo la fatiga y los síntomas depresivos en personas con un cuadro de fatiga crónica (Chan et al., Evid Based Complement Alternat Med, 2013).": "La pràctica de qigong va reduir la fatiga i els símptomes depressius en persones amb un quadre de fatiga crònica (Chan et al., Evid Based Complement Alternat Med, 2013).",
+   "Sesiones orientadas a la relajación profunda y a la regulación del sistema nervioso, para que el descanso vuelva a ser reparador.": "Sessions orientades a la relaxació profunda i a la regulació del sistema nerviós, perquè el descans torni a ser reparador.",
+   "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), acompañamos la fatiga crónica y el agotamiento físico y emocional con un plan integrativo: sueño, gestión del estrés, alimentación, movimiento suave y acupuntura, a un ritmo adaptado a tu energía.": "A WA LAM, a Sarrià–Sant Gervasi (Barcelona), acompanyem la fatiga crònica i l'esgotament físic i emocional amb un pla integratiu: son, gestió de l'estrès, alimentació, moviment suau i acupuntura, a un ritme adaptat a la teva energia."
   }
  },
  {
@@ -491,7 +491,7 @@
    ],
    [
     "¿Es útil si ya me han propuesto una prótesis?",
-    "Puede ayudarte a llegar a la cirugía con más fuerza y movilidad, como complemento del seguimiento de tu traumatólogo."
+    "Sí. Te ayudamos a llegar a la cirugía con más fuerza y movilidad, lo que favorece una recuperación más rápida después."
    ]
   ],
   "related": [
@@ -511,7 +511,7 @@
     "dolor articular Barcelona"
    ],
    "ca_kw": "artrosi Barcelona",
-   "quick": "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), abordamos la artrosis de rodilla, cadera, manos y columna con ejercicio adaptado, control del peso, acupuntura y terapia manual. El objetivo es reducir el dolor y la rigidez y recuperar movilidad, como complemento del seguimiento médico.",
+   "quick": "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), abordamos la artrosis de rodilla, cadera, manos y columna con ejercicio adaptado, control del peso, acupuntura y terapia manual. Te ayudamos a reducir el dolor y la rigidez y a recuperar movilidad.",
    "entity": [
     "MedicalCondition",
     "Artrosis"
@@ -573,15 +573,15 @@
    "¿Atendéis la artrosis de manos y de columna?": "Atenem l'artrosi de mans i de columna?",
    "Sí. También la de manos y la de columna, con un plan adaptado a cada zona. Si el dolor es sobre todo lumbar, consulta también [lumbalgia](lumbalgia-dolor-lumbar).": "Sí. També la de mans i la de columna, amb un pla adaptat a cada zona. Si el dolor és sobretot lumbar, consulta també [lumbàlgia](lumbalgia-dolor-lumbar).",
    "¿Es útil si ya me han propuesto una prótesis?": "És útil si ja m'han proposat una pròtesi?",
-   "Puede ayudarte a llegar a la cirugía con más fuerza y movilidad, como complemento del seguimiento de tu traumatólogo.": "Et pot ajudar a arribar a la cirurgia amb més força i mobilitat, com a complement del seguiment del teu traumatòleg.",
    "Vuelve a moverte con confianza": "Torna a moure't amb confiança",
-   "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), abordamos la artrosis de rodilla, cadera, manos y columna con ejercicio adaptado, control del peso, acupuntura y terapia manual. El objetivo es reducir el dolor y la rigidez y recuperar movilidad, como complemento del seguimiento médico.": "A WA LAM, a Sarrià–Sant Gervasi (Barcelona), abordem l'artrosi de genoll, maluc, mans i columna amb exercici adaptat, control del pes, acupuntura i teràpia manual. L'objectiu és reduir el dolor i la rigidesa i recuperar mobilitat, com a complement del seguiment mèdic.",
    "Revisión Cochrane": "Revisió Cochrane",
    "En la artrosis de rodilla, el ejercicio terapéutico reduce el dolor y mejora la función física (Fransen et al., Cochrane, 2015).": "En l'artrosi de genoll, l'exercici terapèutic redueix el dolor i millora la funció física (Fransen et al., Cochrane, 2015).",
    "Guía clínica (ACR)": "Guia clínica (ACR)",
    "La guía del American College of Rheumatology recomienda el ejercicio, la pérdida de peso, el tai chi y la acupuntura en la artrosis de rodilla, cadera y mano (Kolasinski et al., Arthritis Care Res, 2020).": "La guia de l'American College of Rheumatology recomana l'exercici, la pèrdua de pes, el tai-txi i l'acupuntura en l'artrosi de genoll, maluc i mà (Kolasinski et al., Arthritis Care Res, 2020).",
    "Ensayo clínico (JAMA)": "Assaig clínic (JAMA)",
-   "En personas con sobrepeso y artrosis de rodilla, la combinación de dieta y ejercicio redujo el dolor y mejoró la función (Messier et al., JAMA, 2013).": "En persones amb sobrepès i artrosi de genoll, la combinació de dieta i exercici va reduir el dolor i va millorar la funció (Messier et al., JAMA, 2013)."
+   "En personas con sobrepeso y artrosis de rodilla, la combinación de dieta y ejercicio redujo el dolor y mejoró la función (Messier et al., JAMA, 2013).": "En persones amb sobrepès i artrosi de genoll, la combinació de dieta i exercici va reduir el dolor i va millorar la funció (Messier et al., JAMA, 2013).",
+   "Sí. Te ayudamos a llegar a la cirugía con más fuerza y movilidad, lo que favorece una recuperación más rápida después.": "Sí. T'ajudem a arribar a la cirurgia amb més força i mobilitat, cosa que afavoreix una recuperació més ràpida després.",
+   "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), abordamos la artrosis de rodilla, cadera, manos y columna con ejercicio adaptado, control del peso, acupuntura y terapia manual. Te ayudamos a reducir el dolor y la rigidez y a recuperar movilidad.": "A WA LAM, a Sarrià–Sant Gervasi (Barcelona), abordem l'artrosi de genoll, maluc, mans i columna amb exercici adaptat, control del pes, acupuntura i teràpia manual. T'ajudem a reduir el dolor i la rigidesa i a recuperar mobilitat."
   }
  },
  {

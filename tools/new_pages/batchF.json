@@ -8,7 +8,7 @@
   "desc": "Osteoporosis, osteopenia y sarcopenia en Sarrià–Sant Gervasi, Barcelona: ejercicio de fuerza, alimentación y prevención de caídas, junto a tu médico.",
   "h1": "Osteoporosis y salud ósea en Barcelona",
   "sub": "Huesos y músculos fuertes a cualquier edad · Sarrià–Sant Gervasi",
-  "lead": "La osteoporosis reduce la densidad y la calidad del hueso, y suele avanzar en silencio hasta que aparece una fractura. A menudo va de la mano de la pérdida de masa y fuerza muscular. El ejercicio adecuado, la alimentación y la prevención de caídas son un complemento eficaz del tratamiento médico.",
+  "lead": "La osteoporosis reduce la densidad y la calidad del hueso, y suele avanzar en silencio hasta que aparece una fractura. A menudo va de la mano de la pérdida de masa y fuerza muscular. El ejercicio adecuado, la alimentación y la prevención de caídas son herramientas eficaces para cuidar tus huesos.",
   "facts_title": "En WA LAM",
   "facts": [
    "Osteoporosis, osteopenia y sarcopenia",
@@ -63,7 +63,7 @@
    "items": [
     [
      "Ensayo clínico (J Bone Miner Res)",
-     "En mujeres posmenopáusicas con baja masa ósea, ocho meses de entrenamiento supervisado de fuerza e impacto mejoraron la densidad ósea de la columna y la cadera, la estatura y la función física (Watson et al., J Bone Miner Res, 2018)."
+     "En mujeres posmenopáusicas con baja masa ósea, ocho meses de entrenamiento supervisado de fuerza e impacto mejoraron la densidad ósea de la columna y la cadera, la estatura y la función física (Watson et al., J Bone Miner Res, 2017)."
     ],
     [
      "Revisión Cochrane",
@@ -71,12 +71,12 @@
     ],
     [
      "Consenso europeo (Age Ageing)",
-     "El consenso europeo sobre sarcopenia sitúa la pérdida de fuerza muscular como su rasgo principal y como un factor clave en las caídas y la pérdida de autonomía (Cruz-Jentoft et al., Age Ageing, 2019)."
+     "El consenso europeo sobre sarcopenia sitúa la pérdida de fuerza muscular como su rasgo principal y como un factor clave en las caídas y la pérdida de autonomía (Cruz-Jentoft et al., Age Ageing, 2018)."
     ]
    ],
    "refs": [
     {
-     "t": "Watson SL, Weeks BK, Weis LJ, et al., 2018. «High-Intensity Resistance and Impact Training Improves Bone Mineral Density and Physical Function in Postmenopausal Women With Osteopenia and Osteoporosis: The LIFTMOR Randomized Controlled Trial». Journal of Bone and Mineral Research.",
+     "t": "Watson SL, Weeks BK, Weis LJ, et al., 2017. «High-Intensity Resistance and Impact Training Improves Bone Mineral Density and Physical Function in Postmenopausal Women With Osteopenia and Osteoporosis: The LIFTMOR Randomized Controlled Trial». Journal of Bone and Mineral Research.",
      "doi": "10.1002/jbmr.3284"
     },
     {
@@ -84,7 +84,7 @@
      "doi": "10.1002/14651858.CD012424.pub2"
     },
     {
-     "t": "Cruz-Jentoft AJ, Bahat G, Bauer J, et al., 2019. «Sarcopenia: revised European consensus on definition and diagnosis». Age and Ageing.",
+     "t": "Cruz-Jentoft AJ, Bahat G, Bauer J, et al., 2018. «Sarcopenia: revised European consensus on definition and diagnosis». Age and Ageing.",
      "doi": "10.1093/ageing/afy169"
     }
    ]
@@ -95,8 +95,8 @@
     "Sí. Bien adaptado y progresivo, es una de las mejores herramientas para cuidar el hueso y el músculo. Ajustamos la carga y los movimientos a tu densitometría y a tu situación."
    ],
    [
-    "¿Sustituye al tratamiento que me ha pautado mi médico?",
-    "No. El acompañamiento es complementario y no modifica la medicación ni los suplementos que te hayan prescrito."
+    "¿Cuánto tiempo tarda en notarse la mejoría?",
+    "La fuerza y el equilibrio mejoran en pocas semanas de ejercicio regular. Los cambios en el hueso son más lentos y se valoran con la densitometría al cabo de uno o dos años."
    ],
    [
     "¿Qué relación tiene con la menopausia?",
@@ -124,7 +124,7 @@
     "osteoporosis menopausia"
    ],
    "ca_kw": "osteoporosi Barcelona",
-   "quick": "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), acompañamos la osteoporosis, la osteopenia y la sarcopenia con ejercicio de fuerza e impacto adaptado, alimentación y prevención de caídas. Es un abordaje complementario al tratamiento médico, pensado para mantener huesos y músculos fuertes.",
+   "quick": "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), acompañamos la osteoporosis, la osteopenia y la sarcopenia con ejercicio de fuerza e impacto adaptado, alimentación y prevención de caídas, para mantener huesos y músculos fuertes.",
    "entity": [
     "MedicalCondition",
     "Osteoporosis"
@@ -150,7 +150,6 @@
    "Osteoporosis, osteopenia y sarcopenia en Sarrià–Sant Gervasi, Barcelona: ejercicio de fuerza, alimentación y prevención de caídas, junto a tu médico.": "Osteoporosi, osteopènia i sarcopènia a Sarrià–Sant Gervasi, Barcelona: exercici de força, alimentació i prevenció de caigudes, al costat del teu metge.",
    "Osteoporosis y salud ósea en Barcelona": "Osteoporosi i salut òssia a Barcelona",
    "Huesos y músculos fuertes a cualquier edad · Sarrià–Sant Gervasi": "Ossos i músculs forts a qualsevol edat · Sarrià–Sant Gervasi",
-   "La osteoporosis reduce la densidad y la calidad del hueso, y suele avanzar en silencio hasta que aparece una fractura. A menudo va de la mano de la pérdida de masa y fuerza muscular. El ejercicio adecuado, la alimentación y la prevención de caídas son un complemento eficaz del tratamiento médico.": "L'osteoporosi redueix la densitat i la qualitat de l'os, i sol avançar en silenci fins que apareix una fractura. Sovint va de la mà de la pèrdua de massa i força muscular. L'exercici adequat, l'alimentació i la prevenció de caigudes són un complement eficaç del tractament mèdic.",
    "En WA LAM": "A WA LAM",
    "Osteoporosis, osteopenia y sarcopenia": "Osteoporosi, osteopènia i sarcopènia",
    "Fuerza, impacto adaptado y equilibrio": "Força, impacte adaptat i equilibri",
@@ -180,21 +179,22 @@
    "Reducir el miedo a caer, mejorar el sueño y regular el estrés, que también influyen en el hueso.": "Reduir la por de caure, millorar el son i regular l'estrès, que també influeixen en l'os.",
    "Qué dice la evidencia": "Què diu l'evidència",
    "Ensayo clínico (J Bone Miner Res)": "Assaig clínic (J Bone Miner Res)",
-   "En mujeres posmenopáusicas con baja masa ósea, ocho meses de entrenamiento supervisado de fuerza e impacto mejoraron la densidad ósea de la columna y la cadera, la estatura y la función física (Watson et al., J Bone Miner Res, 2018).": "En dones postmenopàusiques amb massa òssia baixa, vuit mesos d'entrenament supervisat de força i impacte van millorar la densitat òssia de la columna i el maluc, l'estatura i la funció física (Watson et al., J Bone Miner Res, 2018).",
    "Revisión Cochrane": "Revisió Cochrane",
    "En personas mayores que viven en la comunidad, el ejercicio redujo un 23 % la tasa de caídas, sobre todo los programas de equilibrio y ejercicio funcional (Sherrington et al., Cochrane, 2019).": "En persones grans que viuen a la comunitat, l'exercici va reduir un 23 % la taxa de caigudes, sobretot els programes d'equilibri i exercici funcional (Sherrington et al., Cochrane, 2019).",
    "Consenso europeo (Age Ageing)": "Consens europeu (Age Ageing)",
-   "El consenso europeo sobre sarcopenia sitúa la pérdida de fuerza muscular como su rasgo principal y como un factor clave en las caídas y la pérdida de autonomía (Cruz-Jentoft et al., Age Ageing, 2019).": "El consens europeu sobre sarcopènia situa la pèrdua de força muscular com el seu tret principal i com un factor clau en les caigudes i la pèrdua d'autonomia (Cruz-Jentoft et al., Age Ageing, 2019).",
    "¿Puedo hacer ejercicio de fuerza si tengo osteoporosis?": "Puc fer exercici de força si tinc osteoporosi?",
    "Sí. Bien adaptado y progresivo, es una de las mejores herramientas para cuidar el hueso y el músculo. Ajustamos la carga y los movimientos a tu densitometría y a tu situación.": "Sí. Ben adaptat i progressiu, és una de les millors eines per cuidar l'os i el múscul. Ajustem la càrrega i els moviments a la teva densitometria i a la teva situació.",
-   "¿Sustituye al tratamiento que me ha pautado mi médico?": "Substitueix el tractament que m'ha pautat el meu metge?",
-   "No. El acompañamiento es complementario y no modifica la medicación ni los suplementos que te hayan prescrito.": "No. L'acompanyament és complementari i no modifica la medicació ni els suplements que t'hagin prescrit.",
    "¿Qué relación tiene con la menopausia?": "Quina relació té amb la menopausa?",
    "El descenso de estrógenos acelera la pérdida de hueso en los años posteriores a la menopausia. Es un buen momento para empezar a cuidarlo; puedes ver también [salud de la mujer y menopausia](salud-mujer-menopausia).": "El descens d'estrògens accelera la pèrdua d'os en els anys posteriors a la menopausa. És un bon moment per començar a cuidar-lo; pots veure també [salut de la dona i menopausa](salud-mujer-menopausia).",
    "¿Qué debo traer a la primera visita?": "Què he de portar a la primera visita?",
    "Tu última densitometría, las analíticas recientes y la lista de la medicación que tomas.": "La teva darrera densitometria, les analítiques recents i la llista de la medicació que prens.",
    "Cuida tus huesos con un plan a tu medida": "Cuida els teus ossos amb un pla a la teva mida",
-   "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), acompañamos la osteoporosis, la osteopenia y la sarcopenia con ejercicio de fuerza e impacto adaptado, alimentación y prevención de caídas. Es un abordaje complementario al tratamiento médico, pensado para mantener huesos y músculos fuertes.": "A WA LAM, a Sarrià–Sant Gervasi (Barcelona), acompanyem l'osteoporosi, l'osteopènia i la sarcopènia amb exercici de força i impacte adaptat, alimentació i prevenció de caigudes. És un abordatge complementari al tractament mèdic, pensat per mantenir ossos i músculs forts."
+   "La osteoporosis reduce la densidad y la calidad del hueso, y suele avanzar en silencio hasta que aparece una fractura. A menudo va de la mano de la pérdida de masa y fuerza muscular. El ejercicio adecuado, la alimentación y la prevención de caídas son herramientas eficaces para cuidar tus huesos.": "L'osteoporosi redueix la densitat i la qualitat de l'os, i sol avançar en silenci fins que apareix una fractura. Sovint va de la mà de la pèrdua de massa i força muscular. L'exercici adequat, l'alimentació i la prevenció de caigudes són eines eficaces per cuidar els teus ossos.",
+   "¿Cuánto tiempo tarda en notarse la mejoría?": "Quant de temps triga a notar-se la millora?",
+   "La fuerza y el equilibrio mejoran en pocas semanas de ejercicio regular. Los cambios en el hueso son más lentos y se valoran con la densitometría al cabo de uno o dos años.": "La força i l'equilibri milloren en poques setmanes d'exercici regular. Els canvis en l'os són més lents i es valoren amb la densitometria al cap d'un o dos anys.",
+   "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), acompañamos la osteoporosis, la osteopenia y la sarcopenia con ejercicio de fuerza e impacto adaptado, alimentación y prevención de caídas, para mantener huesos y músculos fuertes.": "A WA LAM, a Sarrià–Sant Gervasi (Barcelona), acompanyem l'osteoporosi, l'osteopènia i la sarcopènia amb exercici de força i impacte adaptat, alimentació i prevenció de caigudes, per mantenir ossos i músculs forts.",
+   "En mujeres posmenopáusicas con baja masa ósea, ocho meses de entrenamiento supervisado de fuerza e impacto mejoraron la densidad ósea de la columna y la cadera, la estatura y la función física (Watson et al., J Bone Miner Res, 2017).": "En dones postmenopàusiques amb massa òssia baixa, vuit mesos d'entrenament supervisat de força i impacte van millorar la densitat òssia de la columna i el maluc, l'estatura i la funció física (Watson et al., J Bone Miner Res, 2017).",
+   "El consenso europeo sobre sarcopenia sitúa la pérdida de fuerza muscular como su rasgo principal y como un factor clave en las caídas y la pérdida de autonomía (Cruz-Jentoft et al., Age Ageing, 2018).": "El consens europeu sobre sarcopènia situa la pèrdua de força muscular com el seu tret principal i com un factor clau en les caigudes i la pèrdua d'autonomia (Cruz-Jentoft et al., Age Ageing, 2018)."
   }
  },
  {
@@ -261,7 +261,7 @@
    "items": [
     [
      "Revisión (Aliment Pharmacol Ther)",
-     "Las intolerancias alimentarias afectan a entre un 15 y un 20 % de la población, y la exclusión de alimentos seguida de su reintroducción gradual es la mejor herramienta para identificarlas (Lomer, Aliment Pharmacol Ther, 2015)."
+     "Las intolerancias alimentarias afectan a entre un 15 y un 20 % de la población, y la exclusión de alimentos seguida de su reintroducción gradual es la mejor herramienta para identificarlas (Lomer, Aliment Pharmacol Ther, 2014)."
     ],
     [
      "Consenso de expertos (Nutrients)",
@@ -270,7 +270,7 @@
    ],
    "refs": [
     {
-     "t": "Lomer MCE, 2015. «Review article: the aetiology, diagnosis, mechanisms and clinical evidence for food intolerance». Alimentary Pharmacology & Therapeutics.",
+     "t": "Lomer MCE, 2014. «Review article: the aetiology, diagnosis, mechanisms and clinical evidence for food intolerance». Alimentary Pharmacology & Therapeutics.",
      "doi": "10.1111/apt.13041"
     },
     {
@@ -370,7 +370,6 @@
    "El estrés modifica la sensibilidad intestinal; trabajamos la regulación para que la digestión se calme.": "L'estrès modifica la sensibilitat intestinal; treballem la regulació perquè la digestió es calmi.",
    "Qué dice la evidencia": "Què diu l'evidència",
    "Revisión (Aliment Pharmacol Ther)": "Revisió (Aliment Pharmacol Ther)",
-   "Las intolerancias alimentarias afectan a entre un 15 y un 20 % de la población, y la exclusión de alimentos seguida de su reintroducción gradual es la mejor herramienta para identificarlas (Lomer, Aliment Pharmacol Ther, 2015).": "Les intoleràncies alimentàries afecten entre un 15 i un 20 % de la població, i l'exclusió d'aliments seguida de la seva reintroducció gradual és la millor eina per identificar-les (Lomer, Aliment Pharmacol Ther, 2015).",
    "Consenso de expertos (Nutrients)": "Consens d'experts (Nutrients)",
    "La sensibilidad al gluten no celíaca se reconoce como un trastorno en el que el gluten desencadena síntomas digestivos y generales sin anticuerpos de celiaquía ni lesión intestinal (Catassi et al., Nutrients, 2013).": "La sensibilitat al gluten no celíaca es reconeix com un trastorn en què el gluten desencadena símptomes digestius i generals sense anticossos de celiaquia ni lesió intestinal (Catassi et al., Nutrients, 2013).",
    "¿Es lo mismo una intolerancia que una alergia?": "És el mateix una intolerància que una al·lèrgia?",
@@ -382,7 +381,8 @@
    "¿Y si además tengo colon irritable?": "I si a més tinc còlon irritable?",
    "Es frecuente que coincidan. Puedes ver también [colon irritable y SIBO](colon-irritable-sibo).": "És freqüent que coincideixin. Pots veure també [còlon irritable i SIBO](colon-irritable-sibo).",
    "Vuelve a comer con tranquilidad": "Torna a menjar amb tranquil·litat",
-   "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), acompañamos las intolerancias alimentarias a la lactosa, la fructosa, el gluten no celíaco y los lácteos. Combinamos una dieta de exclusión y reintroducción guiada con el cuidado de la microbiota, después de que tu médico haya descartado la celiaquía.": "A WA LAM, a Sarrià–Sant Gervasi (Barcelona), acompanyem les intoleràncies alimentàries a la lactosa, la fructosa, el gluten no celíac i els lactis. Combinem una dieta d'exclusió i reintroducció guiada amb la cura de la microbiota, després que el teu metge hagi descartat la celiaquia."
+   "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), acompañamos las intolerancias alimentarias a la lactosa, la fructosa, el gluten no celíaco y los lácteos. Combinamos una dieta de exclusión y reintroducción guiada con el cuidado de la microbiota, después de que tu médico haya descartado la celiaquía.": "A WA LAM, a Sarrià–Sant Gervasi (Barcelona), acompanyem les intoleràncies alimentàries a la lactosa, la fructosa, el gluten no celíac i els lactis. Combinem una dieta d'exclusió i reintroducció guiada amb la cura de la microbiota, després que el teu metge hagi descartat la celiaquia.",
+   "Las intolerancias alimentarias afectan a entre un 15 y un 20 % de la población, y la exclusión de alimentos seguida de su reintroducción gradual es la mejor herramienta para identificarlas (Lomer, Aliment Pharmacol Ther, 2014).": "Les intoleràncies alimentàries afecten entre un 15 i un 20 % de la població, i l'exclusió d'aliments seguida de la seva reintroducció gradual és la millor eina per identificar-les (Lomer, Aliment Pharmacol Ther, 2014)."
   }
  },
  {
@@ -391,14 +391,14 @@
   "nav": "Alergias, asma e infecciones",
   "card": "Alergias, asma e infecciones de repetición: sistema inmunitario, microbiota, sueño y respiración.",
   "title": "Alergias, asma e infecciones en Barcelona | WA LAM",
-  "desc": "Alergias, asma e infecciones de repetición en Sarrià–Sant Gervasi, Barcelona: microbiota, sueño, estrés y respiración, como complemento del alergólogo.",
+  "desc": "Alergias, asma e infecciones de repetición en Sarrià–Sant Gervasi, Barcelona: microbiota, sueño, estrés y respiración para equilibrar tus defensas.",
   "h1": "Alergias, asma e infecciones de repetición en Barcelona",
   "sub": "Cuidar el sistema inmunitario de forma global · Sarrià–Sant Gervasi",
-  "lead": "Las alergias, el asma y las infecciones que se repiten tienen algo en común: un sistema inmunitario que no responde de forma equilibrada. La microbiota, la alimentación, el sueño, el estrés y la forma de respirar influyen en esa respuesta. Las cuidamos como complemento del seguimiento por el alergólogo o el neumólogo.",
+  "lead": "Las alergias, el asma y las infecciones que se repiten tienen algo en común: un sistema inmunitario que no responde de forma equilibrada. La microbiota, la alimentación, el sueño, el estrés y la forma de respirar influyen en esa respuesta, y te ayudamos a cuidarlas.",
   "facts_title": "En WA LAM",
   "facts": [
    "Alergias, asma e infecciones de repetición",
-   "Complemento del alergólogo y el neumólogo",
+   "Microbiota, sueño, estrés y respiración",
    "Primera visita: 60 min · 90 €"
   ],
   "wa": "Hola, me gustaría información sobre el acompañamiento de las alergias, el asma o las infecciones de repetición.",
@@ -416,7 +416,7 @@
    "h2": "Un sistema inmunitario que necesita equilibrio",
    "paras": [
     "En las alergias y el asma, el sistema inmunitario reacciona en exceso frente a sustancias inofensivas, como el polen o los ácaros, y mantiene una inflamación de las vías respiratorias. En las infecciones de repetición ocurre lo contrario: las defensas no responden con la eficacia necesaria.",
-    "Gran parte del sistema inmunitario se educa en el intestino, en contacto con la microbiota. Dormir poco, el estrés sostenido, una alimentación pobre en vegetales y una respiración alterada mantienen ese desequilibrio. Actuar sobre ellos ayuda a tus defensas, siempre junto a la medicación que te hayan pautado."
+    "Gran parte del sistema inmunitario se educa en el intestino, en contacto con la microbiota. Dormir poco, el estrés sostenido, una alimentación pobre en vegetales y una respiración alterada mantienen ese desequilibrio. Actuar sobre ellos ayuda a tus defensas."
    ]
   },
   "cards": {
@@ -478,7 +478,7 @@
   "faq": [
    [
     "¿Puedo dejar mi medicación para el asma?",
-    "No. Nunca debes dejar ni reducir los inhaladores ni otros tratamientos sin indicación de tu médico. Nuestro acompañamiento es siempre un complemento."
+    "No. Nunca debes dejar ni reducir los inhaladores ni otros tratamientos sin indicación de tu médico. Trabajamos a la vez la respiración, el sueño y la microbiota para que te encuentres mejor."
    ],
    [
     "¿Qué tiene que ver la microbiota con las alergias?",
@@ -503,14 +503,14 @@
   "seo": {
    "kw": "alergias e infecciones de repetición Barcelona",
    "kws": [
-    "asma tratamiento complementario Barcelona",
+    "asma medicina integrativa Barcelona",
     "infecciones de repetición sistema inmunitario",
     "rinitis alérgica medicina integrativa",
     "microbiota y alergias",
     "ejercicios de respiración asma"
    ],
    "ca_kw": "al·lèrgies i infeccions de repetició Barcelona",
-   "quick": "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), acompañamos las alergias, el asma y las infecciones de repetición cuidando la microbiota, la alimentación, el sueño, el estrés y la respiración. Siempre como complemento del alergólogo o el neumólogo y sin modificar tu medicación.",
+   "quick": "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), acompañamos las alergias, el asma y las infecciones de repetición cuidando la microbiota, la alimentación, el sueño, el estrés y la respiración.",
    "entity": [
     "MedicalCondition",
     "Alergia, asma e infecciones recurrentes"
@@ -533,13 +533,10 @@
    "Alergias, asma e infecciones": "Al·lèrgies, asma i infeccions",
    "Alergias, asma e infecciones de repetición: sistema inmunitario, microbiota, sueño y respiración.": "Al·lèrgies, asma i infeccions de repetició: sistema immunitari, microbiota, son i respiració.",
    "Alergias, asma e infecciones en Barcelona | WA LAM": "Al·lèrgies, asma i infeccions a Barcelona | WA LAM",
-   "Alergias, asma e infecciones de repetición en Sarrià–Sant Gervasi, Barcelona: microbiota, sueño, estrés y respiración, como complemento del alergólogo.": "Al·lèrgies, asma i infeccions de repetició a Sarrià–Sant Gervasi, Barcelona: microbiota, son, estrès i respiració, com a complement de l'al·lergòleg.",
    "Alergias, asma e infecciones de repetición en Barcelona": "Al·lèrgies, asma i infeccions de repetició a Barcelona",
    "Cuidar el sistema inmunitario de forma global · Sarrià–Sant Gervasi": "Cuidar el sistema immunitari de manera global · Sarrià–Sant Gervasi",
-   "Las alergias, el asma y las infecciones que se repiten tienen algo en común: un sistema inmunitario que no responde de forma equilibrada. La microbiota, la alimentación, el sueño, el estrés y la forma de respirar influyen en esa respuesta. Las cuidamos como complemento del seguimiento por el alergólogo o el neumólogo.": "Les al·lèrgies, l'asma i les infeccions que es repeteixen tenen una cosa en comú: un sistema immunitari que no respon de manera equilibrada. La microbiota, l'alimentació, el son, l'estrès i la manera de respirar influeixen en aquesta resposta. Les cuidem com a complement del seguiment per l'al·lergòleg o el pneumòleg.",
    "En WA LAM": "A WA LAM",
    "Alergias, asma e infecciones de repetición": "Al·lèrgies, asma i infeccions de repetició",
-   "Complemento del alergólogo y el neumólogo": "Complement de l'al·lergòleg i el pneumòleg",
    "Primera visita: 60 min · 90 €": "Primera visita: 60 min · 90 €",
    "Hola, me gustaría información sobre el acompañamiento de las alergias, el asma o las infecciones de repetición.": "Hola, m'agradaria informació sobre l'acompanyament de les al·lèrgies, l'asma o les infeccions de repetició.",
    "Cuando tus defensas no encuentran el equilibrio": "Quan les teves defenses no troben l'equilibri",
@@ -550,7 +547,6 @@
    "Si tienes dificultad para respirar que no mejora con tu inhalador de rescate, labios azulados, dificultad para hablar, o hinchazón de labios, lengua o garganta tras un alérgeno, llama al 112 o acude a urgencias.": "Si tens dificultat per respirar que no millora amb el teu inhalador de rescat, llavis blavosos, dificultat per parlar, o inflor de llavis, llengua o gola després d'un al·lergen, truca al 112 o ves a urgències.",
    "Un sistema inmunitario que necesita equilibrio": "Un sistema immunitari que necessita equilibri",
    "En las alergias y el asma, el sistema inmunitario reacciona en exceso frente a sustancias inofensivas, como el polen o los ácaros, y mantiene una inflamación de las vías respiratorias. En las infecciones de repetición ocurre lo contrario: las defensas no responden con la eficacia necesaria.": "En les al·lèrgies i l'asma, el sistema immunitari reacciona en excés davant de substàncies inofensives, com el pol·len o els àcars, i manté una inflamació de les vies respiratòries. En les infeccions de repetició passa el contrari: les defenses no responen amb l'eficàcia necessària.",
-   "Gran parte del sistema inmunitario se educa en el intestino, en contacto con la microbiota. Dormir poco, el estrés sostenido, una alimentación pobre en vegetales y una respiración alterada mantienen ese desequilibrio. Actuar sobre ellos ayuda a tus defensas, siempre junto a la medicación que te hayan pautado.": "Gran part del sistema immunitari s'educa a l'intestí, en contacte amb la microbiota. Dormir poc, l'estrès sostingut, una alimentació pobra en vegetals i una respiració alterada mantenen aquest desequilibri. Actuar-hi ajuda les teves defenses, sempre al costat de la medicació que t'hagin pautat.",
    "Cómo lo abordamos": "Com ho abordem",
    "Valoración": "Valoració",
    "Tu historia inmunitaria": "La teva història immunitària",
@@ -571,7 +567,6 @@
    "Estudio experimental (Sleep)": "Estudi experimental (Sleep)",
    "Las personas que dormían menos horas tuvieron más probabilidades de desarrollar un resfriado tras la exposición al virus (Prather et al., Sleep, 2015).": "Les persones que dormien menys hores van tenir més probabilitats de desenvolupar un refredat després de l'exposició al virus (Prather et al., Sleep, 2015).",
    "¿Puedo dejar mi medicación para el asma?": "Puc deixar la meva medicació per a l'asma?",
-   "No. Nunca debes dejar ni reducir los inhaladores ni otros tratamientos sin indicación de tu médico. Nuestro acompañamiento es siempre un complemento.": "No. Mai no has de deixar ni reduir els inhaladors ni altres tractaments sense indicació del teu metge. El nostre acompanyament és sempre un complement.",
    "¿Qué tiene que ver la microbiota con las alergias?": "Què hi té a veure la microbiota amb les al·lèrgies?",
    "La microbiota intestinal participa en la educación del sistema inmunitario. Cuidarla con la alimentación forma parte de un abordaje global.": "La microbiota intestinal participa en l'educació del sistema immunitari. Cuidar-la amb l'alimentació forma part d'un abordatge global.",
    "¿Atendéis a personas con infecciones de orina de repetición?": "Ateneu persones amb infeccions d'orina de repetició?",
@@ -579,7 +574,12 @@
    "¿Cuándo es mejor empezar?": "Quan és millor començar?",
    "Cualquier momento es bueno, pero en las alergias estacionales conviene empezar unas semanas antes de la temporada de polen.": "Qualsevol moment és bo, però en les al·lèrgies estacionals convé començar unes setmanes abans de la temporada de pol·len.",
    "Cuida tus defensas desde la raíz": "Cuida les teves defenses des de l'arrel",
-   "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), acompañamos las alergias, el asma y las infecciones de repetición cuidando la microbiota, la alimentación, el sueño, el estrés y la respiración. Siempre como complemento del alergólogo o el neumólogo y sin modificar tu medicación.": "A WA LAM, a Sarrià–Sant Gervasi (Barcelona), acompanyem les al·lèrgies, l'asma i les infeccions de repetició cuidant la microbiota, l'alimentació, el son, l'estrès i la respiració. Sempre com a complement de l'al·lergòleg o el pneumòleg i sense modificar la teva medicació."
+   "Alergias, asma e infecciones de repetición en Sarrià–Sant Gervasi, Barcelona: microbiota, sueño, estrés y respiración para equilibrar tus defensas.": "Al·lèrgies, asma i infeccions de repetició a Sarrià–Sant Gervasi, Barcelona: microbiota, son, estrès i respiració per equilibrar les teves defenses.",
+   "Las alergias, el asma y las infecciones que se repiten tienen algo en común: un sistema inmunitario que no responde de forma equilibrada. La microbiota, la alimentación, el sueño, el estrés y la forma de respirar influyen en esa respuesta, y te ayudamos a cuidarlas.": "Les al·lèrgies, l'asma i les infeccions que es repeteixen tenen una cosa en comú: un sistema immunitari que no respon de manera equilibrada. La microbiota, l'alimentació, el son, l'estrès i la manera de respirar influeixen en aquesta resposta, i t'ajudem a cuidar-les.",
+   "Microbiota, sueño, estrés y respiración": "Microbiota, son, estrès i respiració",
+   "Gran parte del sistema inmunitario se educa en el intestino, en contacto con la microbiota. Dormir poco, el estrés sostenido, una alimentación pobre en vegetales y una respiración alterada mantienen ese desequilibrio. Actuar sobre ellos ayuda a tus defensas.": "Gran part del sistema immunitari s'educa a l'intestí, en contacte amb la microbiota. Dormir poc, l'estrès sostingut, una alimentació pobra en vegetals i una respiració alterada mantenen aquest desequilibri. Actuar-hi ajuda les teves defenses.",
+   "No. Nunca debes dejar ni reducir los inhaladores ni otros tratamientos sin indicación de tu médico. Trabajamos a la vez la respiración, el sueño y la microbiota para que te encuentres mejor.": "No. Mai no has de deixar ni reduir els inhaladors ni altres tractaments sense indicació del teu metge. Treballem alhora la respiració, el son i la microbiota perquè et trobis millor.",
+   "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), acompañamos las alergias, el asma y las infecciones de repetición cuidando la microbiota, la alimentación, el sueño, el estrés y la respiración.": "A WA LAM, a Sarrià–Sant Gervasi (Barcelona), acompanyem les al·lèrgies, l'asma i les infeccions de repetició cuidant la microbiota, l'alimentació, el son, l'estrès i la respiració."
   }
  },
  {
@@ -678,8 +678,8 @@
     "El agotamiento físico y emocional nace de una sobrecarga sostenida y mejora cuando se recupera la regulación. La [fatiga crónica](fatiga-cronica-agotamiento) es un cansancio persistente que no cede con el descanso y requiere otro tipo de abordaje."
    ],
    [
-    "¿Sustituye a la psicoterapia?",
-    "No. Si hay depresión, ansiedad intensa o un trauma, es importante el acompañamiento de un profesional de salud mental. Nuestro trabajo puede complementarlo."
+    "¿Qué debo traer a la primera visita?",
+    "Solo tus ganas de entender qué te pasa. Si tienes analíticas recientes, tráelas. Hablaremos de tu sueño, tu energía, tu trabajo y tu estrés para diseñar un plan a tu ritmo."
    ],
    [
     "¿Necesito estar de baja para empezar?",
@@ -707,7 +707,7 @@
     "mindfulness para el burnout"
    ],
    "ca_kw": "esgotament emocional Barcelona",
-   "quick": "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), acompañamos el agotamiento físico y emocional, el burnout y el estrés laboral sostenido. Trabajamos la regulación del sistema nervioso con mindfulness, sueño, movimiento y alimentación, como complemento del seguimiento médico.",
+   "quick": "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), acompañamos el agotamiento físico y emocional, el burnout y el estrés laboral sostenido. Trabajamos la regulación del sistema nervioso con mindfulness, sueño, movimiento y alimentación.",
    "entity": [
     "MedicalCondition",
     "Burnout (agotamiento físico y emocional)"
@@ -770,14 +770,14 @@
    "En 29 estudios con personas sanas, el programa MBSR redujo el estrés, la ansiedad y el malestar psicológico y mejoró la calidad de vida (Khoury et al., J Psychosom Res, 2015).": "En 29 estudis amb persones sanes, el programa MBSR va reduir l'estrès, l'ansietat i el malestar psicològic i va millorar la qualitat de vida (Khoury et al., J Psychosom Res, 2015).",
    "¿En qué se diferencia del síndrome de fatiga crónica?": "En què es diferencia de la síndrome de fatiga crònica?",
    "El agotamiento físico y emocional nace de una sobrecarga sostenida y mejora cuando se recupera la regulación. La [fatiga crónica](fatiga-cronica-agotamiento) es un cansancio persistente que no cede con el descanso y requiere otro tipo de abordaje.": "L'esgotament físic i emocional neix d'una sobrecàrrega sostinguda i millora quan es recupera la regulació. La [fatiga crònica](fatiga-cronica-agotamiento) és un cansament persistent que no cedeix amb el descans i requereix un altre tipus d'abordatge.",
-   "¿Sustituye a la psicoterapia?": "Substitueix la psicoteràpia?",
-   "No. Si hay depresión, ansiedad intensa o un trauma, es importante el acompañamiento de un profesional de salud mental. Nuestro trabajo puede complementarlo.": "No. Si hi ha depressió, ansietat intensa o un trauma, és important l'acompanyament d'un professional de salut mental. La nostra feina el pot complementar.",
    "¿Necesito estar de baja para empezar?": "He d'estar de baixa per començar?",
    "No. Muchas personas empiezan mientras siguen trabajando; ajustamos el plan a tu ritmo y a tu energía.": "No. Moltes persones comencen mentre continuen treballant; ajustem el pla al teu ritme i a la teva energia.",
    "¿Cuánto tarda en notarse la mejoría?": "Quant triga a notar-se la millora?",
    "Depende de cada persona y de cuánto tiempo llevas al límite. En la primera visita valoramos tu situación y te proponemos un plan.": "Depèn de cada persona i de quant de temps fa que vius al límit. A la primera visita valorem la teva situació i et proposem un pla.",
    "Date el espacio para recuperarte": "Dona't l'espai per recuperar-te",
-   "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), acompañamos el agotamiento físico y emocional, el burnout y el estrés laboral sostenido. Trabajamos la regulación del sistema nervioso con mindfulness, sueño, movimiento y alimentación, como complemento del seguimiento médico.": "A WA LAM, a Sarrià–Sant Gervasi (Barcelona), acompanyem l'esgotament físic i emocional, el burnout i l'estrès laboral sostingut. Treballem la regulació del sistema nerviós amb mindfulness, son, moviment i alimentació, com a complement del seguiment mèdic."
+   "¿Qué debo traer a la primera visita?": "Què he de portar a la primera visita?",
+   "Solo tus ganas de entender qué te pasa. Si tienes analíticas recientes, tráelas. Hablaremos de tu sueño, tu energía, tu trabajo y tu estrés para diseñar un plan a tu ritmo.": "Només les ganes d'entendre què et passa. Si tens analítiques recents, porta-les. Parlarem del teu son, la teva energia, la teva feina i el teu estrès per dissenyar un pla al teu ritme.",
+   "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), acompañamos el agotamiento físico y emocional, el burnout y el estrés laboral sostenido. Trabajamos la regulación del sistema nervioso con mindfulness, sueño, movimiento y alimentación.": "A WA LAM, a Sarrià–Sant Gervasi (Barcelona), acompanyem l'esgotament físic i emocional, el burnout i l'estrès laboral sostingut. Treballem la regulació del sistema nerviós amb mindfulness, son, moviment i alimentació."
   }
  }
 ]

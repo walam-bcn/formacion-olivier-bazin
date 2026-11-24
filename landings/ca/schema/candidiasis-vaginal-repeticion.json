@@ -7,7 +7,9 @@
         "MedicalBusiness"
       ],
       "@id": "https://www.walambcn.com/#clinica",
-      "name": "WA LAM · Salud integrativa",
+      "name": "WA LAM",
+      "alternateName": "Wa Lam · Medicina integrativa",
+      "hasMap": "https://www.google.com/maps/search/?api=1&query=Wa%20Lam%2C%20Carrer%20del%20Bisbe%20Sivilla%2044%2C%2008022%20Barcelona",
       "url": "https://www.walambcn.com",
       "telephone": "+34675716409",
       "email": "contacto@walambcn.com",
@@ -146,7 +148,9 @@
           "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/reflexologia-podal"
         }
       ],
-      "sameAs": []
+      "sameAs": [
+        "https://www.google.com/maps/search/?api=1&query=Wa%20Lam%2C%20Carrer%20del%20Bisbe%20Sivilla%2044%2C%2008022%20Barcelona"
+      ]
     },
     {
       "@type": "BreadcrumbList",
@@ -177,7 +181,7 @@
       "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/candidiasi-vaginal-repeticio#webpage",
       "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/candidiasi-vaginal-repeticio",
       "name": "Candidiasi vaginal de repetició a Barcelona | WA LAM",
-      "description": "Candidiasi vaginal de repetició a Sarrià–Sant Gervasi, Barcelona: hàbits, microbiota i estrès com a complement del ginecòleg. Atenció només a dones.",
+      "description": "Candidiasi vaginal de repetició a Sarrià–Sant Gervasi, Barcelona: hàbits, microbiota i estrès per reduir les recaigudes. Atenció només a dones.",
       "inLanguage": "ca-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -192,7 +196,7 @@
       },
       "lastReviewed": "2026-11-18",
       "dateModified": "2026-11-18",
-      "keywords": "candidiasis vaginal de repetición Barcelona, candidiasis recurrente, vulvovaginitis de repetición, cándida vaginal microbiota, candidiasis y estrés, candidiasis vaginal tratamiento complementario",
+      "keywords": "candidiasis vaginal de repetición Barcelona, candidiasis recurrente, vulvovaginitis de repetición, cándida vaginal microbiota, candidiasis y estrés, candidiasis vaginal recurrente Barcelona",
       "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/candidiasis-vaginal-repeticion.png",
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -244,10 +248,10 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Substitueix el tractament antifúngic?",
+          "name": "Quant de temps triga a notar-se la millora?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. El tractament el pauta el teu ginecòleg. L'acompanyament és complementari i se centra en els factors que afavoreixen les recaigudes."
+            "text": "Depèn de cada cas. Els canvis d'hàbits i d'alimentació es valoren al llarg d'uns mesos, observant si els episodis s'espaien i són més lleus."
           }
         },
         {

@@ -7,7 +7,9 @@
         "MedicalBusiness"
       ],
       "@id": "https://www.walambcn.com/#clinica",
-      "name": "WA LAM · Salud integrativa",
+      "name": "WA LAM",
+      "alternateName": "Wa Lam · Medicina integrativa",
+      "hasMap": "https://www.google.com/maps/search/?api=1&query=Wa%20Lam%2C%20Carrer%20del%20Bisbe%20Sivilla%2044%2C%2008022%20Barcelona",
       "url": "https://www.walambcn.com",
       "telephone": "+34675716409",
       "email": "contacto@walambcn.com",
@@ -146,7 +148,9 @@
           "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/reflexologia-podal"
         }
       ],
-      "sameAs": []
+      "sameAs": [
+        "https://www.google.com/maps/search/?api=1&query=Wa%20Lam%2C%20Carrer%20del%20Bisbe%20Sivilla%2044%2C%2008022%20Barcelona"
+      ]
     },
     {
       "@type": "BreadcrumbList",
@@ -177,7 +181,7 @@
       "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/hipotiroidismo-hashimoto#webpage",
       "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/hipotiroidismo-hashimoto",
       "name": "Hipotiroidismo y Hashimoto en Barcelona | WA LAM",
-      "description": "Hipotiroidismo leve y tiroiditis de Hashimoto en Sarrià–Sant Gervasi, Barcelona: alimentación, intestino, sueño y estrés como complemento del endocrino.",
+      "description": "Hipotiroidismo leve y tiroiditis de Hashimoto en Sarrià–Sant Gervasi, Barcelona: alimentación, intestino, sueño y estrés para recuperar tu energía.",
       "inLanguage": "es-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -238,10 +242,10 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "¿Tengo que dejar o cambiar mi medicación?",
+          "name": "¿Qué debo traer a la primera visita?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. La medicación y las analíticas de control son competencia de tu endocrino. El acompañamiento es complementario y no modifica tu tratamiento."
+            "text": "Tus analíticas recientes de tiroides (TSH, T4 libre y anticuerpos), y si las tienes, de hierro, vitamina D y vitamina B12. Con ellas y tu historia preparamos un plan a tu medida."
           }
         },
         {

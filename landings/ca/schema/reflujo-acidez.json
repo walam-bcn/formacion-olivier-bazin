@@ -7,7 +7,9 @@
         "MedicalBusiness"
       ],
       "@id": "https://www.walambcn.com/#clinica",
-      "name": "WA LAM · Salud integrativa",
+      "name": "WA LAM",
+      "alternateName": "Wa Lam · Medicina integrativa",
+      "hasMap": "https://www.google.com/maps/search/?api=1&query=Wa%20Lam%2C%20Carrer%20del%20Bisbe%20Sivilla%2044%2C%2008022%20Barcelona",
       "url": "https://www.walambcn.com",
       "telephone": "+34675716409",
       "email": "contacto@walambcn.com",
@@ -146,7 +148,9 @@
           "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/reflexologia-podal"
         }
       ],
-      "sameAs": []
+      "sameAs": [
+        "https://www.google.com/maps/search/?api=1&query=Wa%20Lam%2C%20Carrer%20del%20Bisbe%20Sivilla%2044%2C%2008022%20Barcelona"
+      ]
     },
     {
       "@type": "BreadcrumbList",
@@ -253,10 +257,10 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "He de deixar la medicació per al reflux?",
+          "name": "Quant de temps triga a notar-se la millora?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. La medicació la pauta i l'ajusta el teu metge. El nostre acompanyament és un complement centrat en els hàbits que influeixen en el reflux."
+            "text": "Amb els canvis d'horaris i d'alimentació, moltes persones noten menys acidesa en poques setmanes. Ajustem el pla amb tu fins a trobar el que funciona millor en el teu cas."
           }
         },
         {
@@ -280,7 +284,7 @@
           "name": "Ateneu la gastritis i les digestions pesades?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí, la gastritis funcional i la dispèpsia, com a complement del seguiment mèdic. Si tens senyals d'alarma, primer t'ha de valorar el teu metge."
+            "text": "Sí, la gastritis funcional i la dispèpsia. Si tens senyals d'alarma, primer t'ha de valorar el teu metge."
           }
         }
       ]

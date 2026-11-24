@@ -7,7 +7,9 @@
         "MedicalBusiness"
       ],
       "@id": "https://www.walambcn.com/#clinica",
-      "name": "WA LAM · Salud integrativa",
+      "name": "WA LAM",
+      "alternateName": "Wa Lam · Medicina integrativa",
+      "hasMap": "https://www.google.com/maps/search/?api=1&query=Wa%20Lam%2C%20Carrer%20del%20Bisbe%20Sivilla%2044%2C%2008022%20Barcelona",
       "url": "https://www.walambcn.com",
       "telephone": "+34675716409",
       "email": "contacto@walambcn.com",
@@ -146,7 +148,9 @@
           "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/reflexologia-podal"
         }
       ],
-      "sameAs": []
+      "sameAs": [
+        "https://www.google.com/maps/search/?api=1&query=Wa%20Lam%2C%20Carrer%20del%20Bisbe%20Sivilla%2044%2C%2008022%20Barcelona"
+      ]
     },
     {
       "@type": "BreadcrumbList",
@@ -177,7 +181,7 @@
       "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/hipotiroidisme-hashimoto#webpage",
       "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/hipotiroidisme-hashimoto",
       "name": "Hipotiroïdisme i Hashimoto a Barcelona | WA LAM",
-      "description": "Hipotiroïdisme lleu i tiroïditis de Hashimoto a Sarrià–Sant Gervasi, Barcelona: alimentació, intestí, son i estrès com a complement de l'endocrí.",
+      "description": "Hipotiroïdisme lleu i tiroïditis de Hashimoto a Sarrià–Sant Gervasi, Barcelona: alimentació, intestí, son i estrès per recuperar la teva energia.",
       "inLanguage": "ca-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -238,10 +242,10 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "He de deixar o canviar la meva medicació?",
+          "name": "Què he de portar a la primera visita?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. La medicació i les analítiques de control són competència del teu endocrí. L'acompanyament és complementari i no modifica el teu tractament."
+            "text": "Les teves analítiques recents de tiroide (TSH, T4 lliure i anticossos) i, si les tens, de ferro, vitamina D i vitamina B12. Amb elles i la teva història preparem un pla a la teva mida."
           }
         },
         {

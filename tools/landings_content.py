@@ -2532,3 +2532,12 @@ from new_pages import integrate_pages as _np_int  # noqa: E402
 _np_int(PAGES)
 from new_pages import integrate_areas as _np_areas  # noqa: E402
 _np_areas(PAGES)
+
+# Portada: botón de WhatsApp bajo «Qué es la medicina integrativa»; Slow medicine en grande
+for _p in PAGES:
+    if _p["slug"] == "medicina-integrativa-barcelona":
+        for _b in _p["blocks"]:
+            if _b.get("_id") == "que-es-la-medicina-integrativa":
+                _b["wa_btn"] = _p["wa"]
+            if _b.get("h2") == "Una medicina sin prisas":
+                _b["h2"] = "Slow medicine"; _b["eyebrow"] = ""; _b["intro"] = "Una medicina sin prisas"; _b["_id"] = "slow-medicine"

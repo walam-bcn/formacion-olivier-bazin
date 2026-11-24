@@ -7,7 +7,9 @@
         "MedicalBusiness"
       ],
       "@id": "https://www.walambcn.com/#clinica",
-      "name": "WA LAM · Salud integrativa",
+      "name": "WA LAM",
+      "alternateName": "Wa Lam · Medicina integrativa",
+      "hasMap": "https://www.google.com/maps/search/?api=1&query=Wa%20Lam%2C%20Carrer%20del%20Bisbe%20Sivilla%2044%2C%2008022%20Barcelona",
       "url": "https://www.walambcn.com",
       "telephone": "+34675716409",
       "email": "contacto@walambcn.com",
@@ -146,7 +148,9 @@
           "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/reflexologia-podal"
         }
       ],
-      "sameAs": []
+      "sameAs": [
+        "https://www.google.com/maps/search/?api=1&query=Wa%20Lam%2C%20Carrer%20del%20Bisbe%20Sivilla%2044%2C%2008022%20Barcelona"
+      ]
     },
     {
       "@type": "BreadcrumbList",
@@ -277,10 +281,10 @@
         },
         {
           "@type": "Question",
-          "name": "¿Sustituye a las pruebas del digestivo?",
+          "name": "¿Cuánto tiempo tarda en notarse la mejoría?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. Es un complemento del seguimiento médico. Si tus síntomas necesitan otras pruebas, te lo indicaremos."
+            "text": "Muchas personas notan cambios en la digestión en pocas semanas. La microbiota se reequilibra de forma progresiva, por eso trabajamos por fases y revisamos el plan en cada visita."
           }
         }
       ]

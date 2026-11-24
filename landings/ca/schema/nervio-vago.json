@@ -1,0 +1,311 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": [
+        "MedicalClinic",
+        "MedicalBusiness"
+      ],
+      "@id": "https://www.walambcn.com/#clinica",
+      "name": "WA LAM",
+      "alternateName": "Wa Lam · Medicina integrativa",
+      "hasMap": "https://www.google.com/maps/search/?api=1&query=Wa%20Lam%2C%20Carrer%20del%20Bisbe%20Sivilla%2044%2C%2008022%20Barcelona",
+      "url": "https://www.walambcn.com",
+      "telephone": "+34675716409",
+      "email": "contacto@walambcn.com",
+      "image": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/medicina-integrativa-barcelona.png",
+      "priceRange": "€€",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Carrer del Bisbe Sivilla, 44, local",
+        "postalCode": "08022",
+        "addressLocality": "Barcelona",
+        "addressRegion": "Cataluña",
+        "addressCountry": "ES"
+      },
+      "openingHours": [
+        "Mo-Fr 09:00-21:00"
+      ],
+      "founder": {
+        "@type": "Person",
+        "name": "Rosa María Rodríguez Valls",
+        "url": "https://www.walambcn.com/curriculum"
+      },
+      "foundingDate": "2004",
+      "areaServed": [
+        {
+          "@type": "Place",
+          "name": "Sarrià, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Sant Gervasi–Galvany, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Sant Gervasi–la Bonanova, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "les Tres Torres, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "el Putxet i el Farró, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Vallvidrera, el Tibidabo i les Planes, Barcelona"
+        },
+        {
+          "@type": "City",
+          "name": "Barcelona"
+        }
+      ],
+      "medicalSpecialty": [
+        "Physiotherapy",
+        "Musculoskeletal"
+      ],
+      "availableService": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Programes re:trace",
+          "url": "https://www.walambcn.com/ca/programes-re-trace"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Osteopatia",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/osteopatia-sarria-sant-gervasi"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Osteopatia visceral",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/osteopatia-visceral-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Osteopatia craniosacral",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/osteopatia-craniosacral-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Manipulacions neuroviscerals",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/manipulacions-neuroviscerals"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Pèrdua de pes",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/perdua-de-pes"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Deixar de fumar amb acupuntura",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/acupuntura-deixar-de-fumar"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Acupuntura i medicina tradicional xinesa",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/acupuntura-medicina-tradicional-xinesa"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "PNIE",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/pni-pnie-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Nutrició i salut intestinal",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/nutricio-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Drenatge limfàtic manual",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/drenatge-limfatic-manual"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Drenatge limfàtic en l'embaràs",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/drenatge-limfatic-embaras"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Drenatge limfàtic manual postoperatori",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/drenatge-limfatic-postoperatori"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Drenatge limfàtic per al limfedema",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/drenatge-limfatic-limfedema"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Massatges",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/massatges-sarria-sant-gervasi"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Reflexologia podal",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/reflexologia-podal"
+        }
+      ],
+      "sameAs": [
+        "https://www.google.com/maps/search/?api=1&query=Wa%20Lam%2C%20Carrer%20del%20Bisbe%20Sivilla%2044%2C%2008022%20Barcelona"
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/nervi-vague#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Inicio",
+          "item": "https://www.walambcn.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "En què et puc ajudar?",
+          "item": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Nervi vague",
+          "item": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/nervi-vague"
+        }
+      ]
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/nervi-vague#webpage",
+      "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/nervi-vague",
+      "name": "Nervi vague i sistema nerviós a Barcelona | WA LAM",
+      "description": "Nervi vague i regulació del sistema nerviós a Sarrià–Sant Gervasi, Barcelona: to vagal, estrès, digestió i descans amb un enfocament integratiu.",
+      "inLanguage": "ca-ES",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "WA LAM",
+        "url": "https://www.walambcn.com"
+      },
+      "breadcrumb": {
+        "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/nervi-vague#breadcrumb"
+      },
+      "publisher": {
+        "@id": "https://www.walambcn.com/#clinica"
+      },
+      "lastReviewed": "2026-11-18",
+      "dateModified": "2026-11-18",
+      "keywords": "nervio vago Barcelona, tono vagal, cómo estimular el nervio vago, teoría polivagal Barcelona, variabilidad de la frecuencia cardiaca y estrés, osteopatía nervio vago Barcelona",
+      "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/nervio-vago.png",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".quick p",
+          "h1"
+        ]
+      },
+      "audience": {
+        "@type": "Patient"
+      },
+      "reviewedBy": {
+        "@type": "Person",
+        "name": "Rosa María Rodríguez Valls",
+        "jobTitle": "Osteópata D.O. y máster en medicina integrativa",
+        "worksFor": {
+          "@id": "https://www.walambcn.com/#clinica"
+        }
+      },
+      "about": {
+        "@type": "MedicalCondition",
+        "name": "Desregulación del sistema nervioso autónomo",
+        "possibleTreatment": [
+          {
+            "@type": "MedicalTherapy",
+            "name": "Osteopatia craniosacral"
+          }
+        ]
+      },
+      "citation": [
+        {
+          "@type": "ScholarlyArticle",
+          "name": "The inflammatory reflex",
+          "url": "https://doi.org/10.1038/nature01321",
+          "sameAs": "https://doi.org/10.1038/nature01321"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Effects of voluntary slow breathing on heart rate and heart rate variability: A systematic review and a meta-analysis",
+          "url": "https://doi.org/10.1016/j.neubiorev.2022.104711",
+          "sameAs": "https://doi.org/10.1016/j.neubiorev.2022.104711"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Alterations in Resting-State Functional Connectivity Link Mindfulness Meditation With Reduced Interleukin-6: A Randomized Controlled Trial",
+          "url": "https://doi.org/10.1016/j.biopsych.2016.01.008",
+          "sameAs": "https://doi.org/10.1016/j.biopsych.2016.01.008"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Osteopathic manipulative treatment and its relationship to autonomic nervous system activity as demonstrated by heart rate variability: a repeated measures study",
+          "url": "https://doi.org/10.1186/1750-4732-2-7",
+          "sameAs": "https://doi.org/10.1186/1750-4732-2-7"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/nervi-vague#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Què és el to vagal?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "És la influència que exerceix el nervi vague sobre l'organisme en repòs. Un bon to vagal s'associa a una capacitat més gran per recuperar la calma després de l'estrès, i es pot estimar amb la variabilitat de la freqüència cardíaca."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Com s'estimula el nervi vague de manera natural?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Amb la respiració lenta i diafragmàtica, l'exhalació allargada, el mindfulness, el moviment suau com el ioga o el qigong, l'exercici regular, un bon descans i el contacte social. Són pràctiques senzilles que, mantingudes en el temps, afavoreixen el to vagal."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Què és la teoria polivagal?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "És un model proposat per Stephen Porges que descriu com el sistema nerviós alterna entre estats de seguretat, de mobilització i de bloqueig segons com percep l'entorn. És una guia útil per entendre les reaccions del cos davant l'estrès i per orientar les pràctiques que afavoreixen la calma."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "L'osteopatia treballa el nervi vague?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "L'osteopatia cranial i visceral utilitza tècniques suaus sobre les zones relacionades amb el vague, com la base del crani, la regió cervical alta, el diafragma i l'abdomen, per reduir la tensió i afavorir la resposta de relaxació. La integrem amb la respiració i els hàbits."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Em pot ajudar amb l'ansietat o amb la digestió?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Regular el sistema nerviós et pot ajudar a viure amb menys tensió i a millorar les digestions relacionades amb l'estrès. Treballem tots dos aspectes de manera conjunta, amb respiració, teràpia manual, alimentació i hàbits."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quantes sessions calen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Depèn de cada persona. Després de la primera visita et proposem un pla, que sol combinar unes poques sessions inicials amb pràctiques per a casa, perquè la regularitat és el que sosté els canvis."
+          }
+        }
+      ]
+    }
+  ]
+}
