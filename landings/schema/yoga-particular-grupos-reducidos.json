@@ -176,7 +176,7 @@
       "@type": "WebPage",
       "@id": "https://www.walambcn.com/academia-vida-saludable-barcelona/yoga#webpage",
       "url": "https://www.walambcn.com/academia-vida-saludable-barcelona/yoga",
-      "name": "Yoga particular y online en Barcelona | WA LAM",
+      "name": "Yoga terapéutico en Barcelona · Particular y online | WA LAM",
       "description": "Clases de yoga particulares en Sarrià–Sant Gervasi (Barcelona) o online con la membresía de WA LAM: yoga terapéutico adaptado.",
       "inLanguage": "es-ES",
       "isPartOf": {
@@ -192,7 +192,7 @@
       },
       "lastReviewed": "2026-11-18",
       "dateModified": "2026-11-18",
-      "keywords": "yoga particular Barcelona, clases de yoga Sarrià Sant Gervasi, yoga online, yoga terapéutico Barcelona, yoga dolor de espalda",
+      "keywords": "yoga particular Barcelona, clases de yoga Sarrià Sant Gervasi, yoga online, yoga terapéutico para la espalda, yoga dolor de espalda",
       "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/yoga-particular-grupos-reducidos.png",
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -213,7 +213,7 @@
     {
       "@type": "Course",
       "@id": "https://www.walambcn.com/academia-vida-saludable-barcelona/yoga#curso",
-      "name": "Yoga particular y online",
+      "name": "Yoga terapéutico en Barcelona",
       "description": "Clases de yoga particulares en Sarrià–Sant Gervasi (Barcelona) o online con la membresía de WA LAM: yoga terapéutico adaptado.",
       "provider": {
         "@type": "Organization",

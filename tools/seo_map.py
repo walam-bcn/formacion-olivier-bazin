@@ -329,9 +329,9 @@ SEO = {
     },
     "yoga-particular-grupos-reducidos": {
         "kw": "yoga particular Barcelona",
-        "kws": ["clases de yoga Sarrià Sant Gervasi", "yoga online", "yoga terapéutico Barcelona", "yoga dolor de espalda"],
+        "kws": ["clases de yoga Sarrià Sant Gervasi", "yoga online", "yoga terapéutico para la espalda", "yoga dolor de espalda"],
         "ca": "ioga particular Barcelona",
-        "title": "Yoga particular y online en Barcelona | WA LAM",
+        "title": "Yoga terapéutico en Barcelona · Particular y online | WA LAM",
         "desc": "Clases de yoga particulares en Sarrià–Sant Gervasi (Barcelona) o online con la membresía de WA LAM: yoga terapéutico adaptado.",
         "quick": "En WA LAM enseñamos yoga como ejercicio terapéutico adaptado, en clases particulares o en línea con la membresía de la Healthy Lifestyle Academy. Según la revisión Cochrane de 2022, en dolor lumbar crónico el yoga ofrece mejoras pequeñas frente a no hacer ejercicio y resultados similares a otros ejercicios de espalda.",
         "entity": None,

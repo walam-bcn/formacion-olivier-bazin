@@ -2415,3 +2415,28 @@ for _p in PAGES:
     if _p["slug"] in _BLOG_INTRO:
         _k = next((n for n, b in enumerate(_p["blocks"]) if b.get("type") == "pro"), len(_p["blocks"]))
         _p["blocks"].insert(_k, _blog_block(_p["slug"]))
+
+# Salud pélvica: motivos de consulta, primera visita y formación separada (comparativa SEO)
+_PELV_VISITA = {"type": "steps", "eyebrow": "Primera visita", "h2": "Cómo es la primera visita",
+    "items": [("Tu historia", "Hablamos de tus síntomas, de cuándo empezaron, de tus partos, cirugías o caídas y de cómo afectan a tu vida diaria."),
+              ("La valoración", "Exploración externa de la pelvis, el abdomen, la columna y el diafragma. Nunca realizamos exploraciones internas."),
+              ("El plan", "Te explicamos qué factores creemos que intervienen y te proponemos un tratamiento, complementario al seguimiento de tu ginecóloga o tu médico."),
+              ("Cómo pedir cita", "Escríbenos por WhatsApp o llámanos. La primera visita dura 60 minutos y cuesta 90 €.")]}
+for _p in PAGES:
+    if _p["slug"] == "suelo-pelvico-dolor-pelvico":
+        _bl = _p["blocks"]
+        _mot = next(b for b in _bl if b.get("h2") == "Motivos de consulta en salud pélvica")
+        _form = next(b for b in _bl if b.get("h2") == "Formación urogenital con Olivier Bazin")
+        _rest = [b for b in _bl if b not in (_mot, _form) and b.get("h2") != "Qué acompañamos"]
+        _mot["h2"] = "Motivos de consulta"
+        _k = next(n for n, b in enumerate(_rest) if b.get("type") == "explain") + 1
+        _p["blocks"] = _rest[:_k] + [_mot, _PELV_VISITA] + _rest[_k:] + [_form]
+    if _p["slug"] == "yoga-particular-grupos-reducidos":
+        _p["h1"] = "Yoga terapéutico en Barcelona"
+        _p["blocks"][1:1] = [
+            {"type": "explain", "eyebrow": "Para quién", "h2": "A quién va dirigido",
+             "paras": ["Personas que quieren moverse mejor sin exigencias: con dolor de espalda o rigidez, que vuelven a la actividad tras una lesión, que viven con estrés o que nunca han practicado yoga. Si tienes dolor reciente o intenso, te recomendamos una valoración previa."]},
+            {"type": "steps", "eyebrow": "La sesión", "h2": "Cómo es una sesión",
+             "items": [("Inicio", "Comentamos cómo estás ese día y adaptamos la práctica."),
+                       ("Práctica", "Respiración, movilidad, fuerza y equilibrio, con las modificaciones que necesites."),
+                       ("Cierre", "Relajación guiada y pautas sencillas para practicar en casa.")]}]
