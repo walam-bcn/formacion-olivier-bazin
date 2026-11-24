@@ -165,7 +165,7 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "¿En qué te puedo ayudar?",
+          "name": "¿En qué le puedo ayudar?",
           "item": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona"
         },
         {
@@ -181,7 +181,7 @@
       "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/contracturas-desgarros-musculares#webpage",
       "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/contracturas-desgarros-musculares",
       "name": "Contracturas y desgarros en Barcelona | WA LAM",
-      "description": "Contracturas, desgarros musculares y esguinces leves en Sarrià–Sant Gervasi, Barcelona: recuperación activa, terapia manual y vuelta segura a tu actividad.",
+      "description": "Contracturas, sobrecargas y roturas fibrilares en Sarrià–Sant Gervasi, Barcelona: valoración clínica, carga progresiva y vuelta segura a su actividad.",
       "inLanguage": "es-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -196,7 +196,7 @@
       },
       "lastReviewed": "2026-11-18",
       "dateModified": "2026-11-18",
-      "keywords": "contractura muscular Barcelona, rotura fibrilar tratamiento Barcelona, desgarro muscular recuperación, esguince de tobillo leve Barcelona, osteopatía contractura Sarrià, lesión deportiva Sant Gervasi",
+      "keywords": "contractura muscular Barcelona, rotura fibrilar tratamiento Barcelona, desgarro muscular recuperación, sobrecarga muscular Barcelona, contractura cervical, lesión deportiva Sant Gervasi",
       "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/contracturas-desgarros-musculares.png",
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -222,11 +222,11 @@
         "possibleTreatment": [
           {
             "@type": "MedicalTherapy",
-            "name": "Osteopatía"
+            "name": "Masajes"
           },
           {
             "@type": "MedicalTherapy",
-            "name": "Masajes"
+            "name": "Osteopatía"
           }
         ]
       },
@@ -242,12 +242,6 @@
           "name": "The effectiveness of exercise interventions to prevent sports injuries: a systematic review and meta-analysis of randomised controlled trials",
           "url": "https://doi.org/10.1136/bjsports-2013-092538",
           "sameAs": "https://doi.org/10.1136/bjsports-2013-092538"
-        },
-        {
-          "@type": "ScholarlyArticle",
-          "name": "Diagnosis, treatment and prevention of ankle sprains: update of an evidence-based clinical guideline",
-          "url": "https://doi.org/10.1136/bjsports-2017-098106",
-          "sameAs": "https://doi.org/10.1136/bjsports-2017-098106"
         }
       ]
     },
@@ -260,7 +254,7 @@
           "name": "¿Es mejor el reposo absoluto tras una rotura fibrilar?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Los primeros días conviene proteger la zona, pero el músculo se recupera mejor con una carga progresiva y bien dosificada. Te indicamos qué hacer en cada fase."
+            "text": "Los primeros días conviene proteger la zona. Después, el músculo se repara mejor con una carga progresiva y bien dosificada."
           }
         },
         {
@@ -268,15 +262,15 @@
           "name": "¿Cuándo podré volver a hacer deporte?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Depende del tipo de lesión y de tu actividad. Marcamos criterios claros de fuerza, movilidad y ausencia de dolor para que la vuelta sea segura."
+            "text": "Depende del grado de la lesión y de su actividad. La vuelta se decide con criterios de fuerza, movilidad y ausencia de dolor."
           }
         },
         {
           "@type": "Question",
-          "name": "¿Atendéis esguinces de tobillo?",
+          "name": "¿Es mejor aplicar calor o frío?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí, los esguinces leves y las molestias que quedan tras un esguince. Si no puedes apoyar el pie, primero debe valorarte un médico."
+            "text": "En una rotura reciente, frío durante los primeros días. En una contractura, el calor local suele aliviar la tensión."
           }
         },
         {
@@ -284,7 +278,15 @@
           "name": "¿Por qué se repiten mis contracturas?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Suelen influir la sobrecarga, las posturas mantenidas, la falta de fuerza, el estrés y el descanso. Revisamos todos estos factores para reducir las recaídas."
+            "text": "Suelen influir la sobrecarga, las posturas mantenidas, la falta de fuerza, el estrés y el descanso. Por eso se revisan todos estos factores."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Y si lo que tengo es una torcedura de tobillo?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Las lesiones de ligamentos se tratan de forma específica. Puede consultar la página de esguinces."
           }
         }
       ]

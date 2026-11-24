@@ -405,6 +405,10 @@ h1,h2,h3,h4,.btn,.btn-tq,.faq summary,b,strong,.explain .txt b,.card h3,.step h3
 .card li a,.card li a.inl{font-weight:400!important;color:var(--pet)!important;text-decoration:none!important;border-bottom:1px solid rgba(12,191,194,.5)}
 .card li a:hover{color:#0a9a9c!important}
 #en-que-te-puedo-ayudar{padding-bottom:30px!important}
+.ilist{text-align:left!important;max-width:none!important;margin:10px 0 0!important;list-style:none!important;padding:0}
+.ilist li{font-weight:400!important;position:relative;padding:5px 0 5px 22px!important}
+.ilist li::before{content:"";position:absolute;left:4px;top:15px;width:7px;height:7px;border-radius:50%;background:var(--tq)}
+.explain p.k{text-align:left!important}
 .hero-dna{background-color:#dcebf2!important;background-position:center!important;background-size:cover!important;color:var(--pet)}
 .hero-dna h1,.hero-dna .hs,.hero-dna .lead,.hero-dna .eyebrow,.hero-dna .crumbs,.hero-dna .crumbs a{color:var(--pet)!important;text-shadow:0 0 18px rgba(255,255,255,.9)}
 .hero-dna .hcard{background:rgba(255,255,255,.72);border-color:rgba(29,63,64,.18)}

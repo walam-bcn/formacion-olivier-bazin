@@ -165,7 +165,7 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "¿En qué te puedo ayudar?",
+          "name": "¿En qué le puedo ayudar?",
           "item": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona"
         },
         {
@@ -181,7 +181,7 @@
       "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/dolor-musculoesqueletico#webpage",
       "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/dolor-musculoesqueletico",
       "name": "Dolor musculoesquelético en Barcelona | WA LAM",
-      "description": "Dolor musculoesquelético en Sarrià–Sant Gervasi: contracturas, sobrecargas, roturas fibrilares, esguinces, tortícolis y lesiones deportivas.",
+      "description": "Dolor musculoesquelético en Sarrià–Sant Gervasi, Barcelona: contracturas, roturas fibrilares, esguinces y lesiones deportivas. Diagnóstico y tratamiento.",
       "inLanguage": "es-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -219,12 +219,7 @@
       "about": {
         "@type": "MedicalCondition",
         "name": "Dolor musculoesquelético",
-        "possibleTreatment": [
-          {
-            "@type": "MedicalTherapy",
-            "name": "Osteopatía"
-          }
-        ]
+        "possibleTreatment": []
       },
       "citation": [
         {
@@ -247,18 +242,34 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "¿Cuándo debo consultar por un dolor muscular?",
+          "name": "¿Qué diferencia hay entre una contractura y una rotura fibrilar?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Si el dolor dura más de unas semanas, se repite o te impide hacer tu actividad habitual."
+            "text": "En la contractura el músculo está tenso y dolorido, pero sin rotura de fibras, y suele mejorar en pocos días. En la rotura fibrilar hay un daño parcial de las fibras: el dolor es súbito e intenso, puede aparecer un hematoma y la recuperación lleva varias semanas."
           }
         },
         {
           "@type": "Question",
-          "name": "¿Atendéis lesiones deportivas?",
+          "name": "¿Frío o calor?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí: sobrecargas, contracturas, roturas fibrilares y esguinces, con una vuelta progresiva a la actividad."
+            "text": "En las primeras 48–72 horas tras una lesión aguda, frío local. En las contracturas y en la fase de recuperación, el calor ayuda a relajar la musculatura."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuándo puedo volver a hacer deporte?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cuando la zona ya no duele en las actividades diarias y se han recuperado la fuerza y la movilidad. La vuelta debe ser progresiva, y los plazos dependen del tipo y del grado de la lesión."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuándo debo consultar por un dolor muscular?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Si el dolor dura más de dos o tres semanas, se repite o le impide hacer su actividad habitual. Ante una deformidad, la imposibilidad de apoyar o una pérdida de fuerza, acuda a urgencias."
           }
         },
         {
@@ -266,7 +277,7 @@
           "name": "¿En qué se diferencia del dolor articular y miofascial?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "El dolor musculoesquelético se centra en el músculo y las lesiones agudas o por sobrecarga; el dolor articular y miofascial incluye la artrosis, las tendinopatías, la fibromialgia y los síndromes miofasciales."
+            "text": "Esta página se centra en las lesiones musculares y de ligamentos, agudas o por sobrecarga. El dolor articular y miofascial incluye la artrosis, las tendinopatías y los puntos gatillo."
           }
         }
       ]

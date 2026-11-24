@@ -165,7 +165,7 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "En què et puc ajudar?",
+          "name": "En què puc ser-li útil?",
           "item": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona"
         },
         {
@@ -181,7 +181,7 @@
       "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/dolor-articular-miofascial#webpage",
       "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/dolor-articular-miofascial",
       "name": "Dolor articular i miofascial a Barcelona | WA LAM",
-      "description": "Artrosi de genoll, maluc i espatlla, tendinopaties, fibromiàlgia i dolor miofascial a Sarrià–Sant Gervasi, Barcelona. Tècniques manuals i exercici.",
+      "description": "Dolor articular i miofascial a Sarrià–Sant Gervasi, Barcelona: artrosi, tendinopaties i punts gallet. Causes, diagnòstic, tractament i consells.",
       "inLanguage": "ca-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -196,7 +196,7 @@
       },
       "lastReviewed": "2026-11-18",
       "dateModified": "2026-11-18",
-      "keywords": "dolor articular Barcelona, artrosi de genoll tractament Barcelona, dolor miofascial, tendinopatia Sarrià, fibromiàlgia tractament integratiu, dolor d'espatlla crònic",
+      "keywords": "dolor articular Barcelona, artrosi de genoll tractament Barcelona, dolor miofascial, puntos gatillo tratamiento, tendinopatia Sarrià, dolor d'espatlla crònic",
       "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/dolor-articular-miofascial.png",
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -218,17 +218,8 @@
       },
       "about": {
         "@type": "MedicalCondition",
-        "name": "Artrosi",
-        "possibleTreatment": [
-          {
-            "@type": "MedicalTherapy",
-            "name": "Osteopatia"
-          },
-          {
-            "@type": "MedicalTherapy",
-            "name": "Acupuntura i medicina tradicional xinesa"
-          }
-        ]
+        "name": "Dolor articular i miofascial",
+        "possibleTreatment": []
       },
       "citation": [
         {
@@ -251,10 +242,10 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Quines disciplines intervenen en l'abordatge del dolor?",
+          "name": "Quina diferència hi ha entre artrosi i artritis?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "L'osteopatia i l'acupuntura, integrades en un pla individual. Quan cal un programa de fisioteràpia, fem la derivació a un fisioterapeuta col·legiat."
+            "text": "L'artrosi és un procés degeneratiu del cartílag, amb un dolor que empitjora amb l'ús. L'artritis és una inflamació de l'articulació, amb inflor, calor i rigidesa matinal prolongada, i requereix una valoració mèdica per conèixer-ne la causa."
           }
         },
         {
@@ -262,23 +253,31 @@
           "name": "Puc fer exercici si tinc artrosi?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí. L'exercici adaptat és un dels tractaments més eficaços en l'artrosi. L'ajustem a la teva articulació, al teu nivell i al teu dolor."
+            "text": "Sí. L'exercici adaptat és una de les mesures amb més suport científic en l'artrosi. L'ajustem a la seva articulació, al seu nivell físic i a la fase del seu dolor."
           }
         },
         {
           "@type": "Question",
-          "name": "Ateneu el dolor esportiu?",
+          "name": "Què és un punt gallet?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí: tendinopaties, sobrecàrregues i dolor muscular relacionat amb l'esport, amb un pla de retorn progressiu a l'activitat."
+            "text": "És una zona hipersensible dins d'un múscul, palpable com un nòdul o una banda tensa. En pressionar-la reprodueix el dolor de la persona, de vegades a distància del mateix punt."
           }
         },
         {
           "@type": "Question",
-          "name": "I la fibromiàlgia?",
+          "name": "És el mateix el dolor miofascial que la fibromiàlgia?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí, amb un abordatge que combina activitat física gradual, regulació del son i de l'estrès, tècniques manuals i nutrició antiinflamatòria."
+            "text": "No. El dolor miofascial és regional i es relaciona amb punts gallet concrets; la fibromiàlgia cursa amb dolor generalitzat, fatiga i son no reparador."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Necessito una radiografia abans de la primera visita?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No és imprescindible. Si disposa de proves o informes recents, porti'ls; si calguessin altres proves, l'hi indicarem."
           }
         }
       ]

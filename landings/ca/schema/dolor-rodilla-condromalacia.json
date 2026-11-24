@@ -165,7 +165,7 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "En què et puc ajudar?",
+          "name": "En què puc ser-li útil?",
           "item": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona"
         },
         {
@@ -181,7 +181,7 @@
       "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/dolor-genoll-condromalacia#webpage",
       "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/dolor-genoll-condromalacia",
       "name": "Dolor de genoll i condromalàcia a Barcelona | WA LAM",
-      "description": "Dolor de genoll i condromalàcia rotuliana a Sarrià–Sant Gervasi, Barcelona: dolor patel·lofemoral en pujar escales o córrer. Exercici i teràpia manual.",
+      "description": "Dolor de genoll i condromalàcia rotuliana a Sarrià–Sant Gervasi, Barcelona: dolor patel·lofemoral en pujar escales o córrer. Valoració i pla per fases.",
       "inLanguage": "ca-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -219,12 +219,7 @@
       "about": {
         "@type": "MedicalCondition",
         "name": "Dolor patelofemoral",
-        "possibleTreatment": [
-          {
-            "@type": "MedicalTherapy",
-            "name": "Osteopatia"
-          }
-        ]
+        "possibleTreatment": []
       },
       "citation": [
         {
@@ -250,7 +245,7 @@
           "name": "La condromalàcia és el mateix que l'artrosi?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. La condromalàcia afecta el cartílag de la ròtula i és freqüent en persones joves i actives. Si el teu cas és de desgast articular, consulta artrosi."
+            "text": "No. La condromalàcia afecta el cartílag de la ròtula i és freqüent en persones joves i actives. Si el seu cas correspon a un desgast articular, pot consultar la pàgina d'artrosi."
           }
         },
         {
@@ -258,12 +253,12 @@
           "name": "He de deixar de córrer?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Normalment no cal deixar-ho del tot. Ajustem el volum i la intensitat mentre enforteixes, i planifiquem el retorn progressiu."
+            "text": "Normalment no cal deixar-ho del tot. S'ajusten el volum i la intensitat mentre s'enforteix la musculatura, i es planifica un retorn progressiu."
           }
         },
         {
           "@type": "Question",
-          "name": "Per què treballeu el maluc si em fa mal el genoll?",
+          "name": "Per què es treballa el maluc si em fa mal el genoll?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "La força del maluc influeix en com s'alinea el genoll en recolzar. Enfortir-lo redueix la càrrega sobre la ròtula."
@@ -271,10 +266,18 @@
         },
         {
           "@type": "Question",
-          "name": "Quant de temps trigaré a notar millora?",
+          "name": "Quant triga a millorar?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Depèn de cada cas. A la primera visita valorem el teu genoll i et proposem un pla amb objectius clars."
+            "text": "Depèn de cada cas. Amb un programa d'exercici constant se sol notar una millora progressiva al llarg de les primeres setmanes. A la primera visita es fixen objectius concrets."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Són útils les genolleres o les plantilles?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "En casos seleccionats poden alleujar el dolor a curt termini i facilitar l'exercici, que continua sent la base del tractament."
           }
         }
       ]

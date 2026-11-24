@@ -165,7 +165,7 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "En què et puc ajudar?",
+          "name": "En què puc ser-li útil?",
           "item": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona"
         },
         {
@@ -181,7 +181,7 @@
       "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/esquincos#webpage",
       "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/esquincos",
       "name": "Recuperació d'esquinços a Barcelona | WA LAM",
-      "description": "Recuperació d'esquinços de turmell, genoll i canell a Sarrià–Sant Gervasi, Barcelona: teràpia manual, propiocepció, retorn a l'activitat i prevenció.",
+      "description": "Esquinços de turmell, genoll i canell a Sarrià–Sant Gervasi, Barcelona: valoració clínica, propiocepció, força i retorn segur a l'activitat.",
       "inLanguage": "ca-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -238,6 +238,12 @@
           "name": "Effect of unsupervised home based proprioceptive training on recurrences of ankle sprain: randomised controlled trial",
           "url": "https://doi.org/10.1136/bmj.b2684",
           "sameAs": "https://doi.org/10.1136/bmj.b2684"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Diagnosis, treatment and prevention of ankle sprains: update of an evidence-based clinical guideline",
+          "url": "https://doi.org/10.1136/bjsports-2017-098106",
+          "sameAs": "https://doi.org/10.1136/bjsports-2017-098106"
         }
       ]
     },
@@ -250,7 +256,7 @@
           "name": "Quan puc començar la recuperació?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Un cop descartada una fractura i passats els primers dies d'inflamació. La mobilització precoç i progressiva afavoreix una recuperació millor."
+            "text": "Un cop descartada una fractura, des dels primers dies. La mobilització precoç i progressiva afavoreix una millor evolució."
           }
         },
         {
@@ -258,15 +264,15 @@
           "name": "Què és la propiocepció?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "És la capacitat del sistema nerviós de saber en quina posició es troba una articulació. Després d'un esquinç s'altera, i entrenar-la ajuda a evitar noves torçades."
+            "text": "És la capacitat del sistema nerviós per percebre la posició d'una articulació. Després d'un esquinç s'altera, i entrenar-la ajuda a prevenir noves torçades."
           }
         },
         {
           "@type": "Question",
-          "name": "Atendeu esquinços de genoll i de canell?",
+          "name": "També es tracten els esquinços de genoll i de canell?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí, en la fase de recuperació. Si hi ha sospita de trencament dels lligaments encreuats o d'inestabilitat important, primer t'ha de valorar el teu metge. Si et preocupa el genoll, consulta també dolor de genoll."
+            "text": "Sí, en la fase de recuperació. Si se sospita un trencament dels lligaments encreuats o una inestabilitat important, cal abans una valoració traumatològica. Si li preocupa el genoll, consulti també dolor de genoll."
           }
         },
         {
@@ -274,7 +280,15 @@
           "name": "Quan puc tornar a fer esport?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Quan recuperis la mobilitat, la força i l'equilibri, i toleris els gestos del teu esport sense dolor. Ho planifiquem amb tu per etapes."
+            "text": "Quan hagi recuperat la mobilitat, la força i l'equilibri, i toleri sense dolor els gestos del seu esport. El retorn es planifica per etapes."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Què és un esquinç mal curat?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "És el que deixa dolor, inflor o sensació d'inestabilitat setmanes després de la lesió. Sol millorar amb un programa específic de força i propiocepció."
           }
         }
       ]

@@ -165,7 +165,7 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "En què et puc ajudar?",
+          "name": "En què puc ser-li útil?",
           "item": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona"
         },
         {
@@ -181,7 +181,7 @@
       "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/ciatica#webpage",
       "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/ciatica",
       "name": "Ciàtica a Barcelona · Dolor irradiat | WA LAM",
-      "description": "Ciàtica a Sarrià–Sant Gervasi, Barcelona: dolor irradiat a la cama per hèrnia discal. Acupuntura, teràpia manual suau i exercici progressiu per alleujar el nervi.",
+      "description": "Ciàtica i dolor irradiat a la cama a Sarrià–Sant Gervasi, Barcelona. Valoració clínica i un pla per fases per calmar el nervi i moure's millor.",
       "inLanguage": "ca-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -196,7 +196,7 @@
       },
       "lastReviewed": "2026-11-18",
       "dateModified": "2026-11-18",
-      "keywords": "ciática Barcelona, tratamiento ciática Barcelona, dolor nervio ciático, hernia discal ciática, acupuntura ciática Barcelona, osteópata ciática Sarrià",
+      "keywords": "ciática Barcelona, tratamiento ciática Barcelona, dolor nervio ciático, lumbociática tratamiento, ciática hernia discal, acupuntura ciática Barcelona",
       "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/ciatica.png",
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -223,10 +223,6 @@
           {
             "@type": "MedicalTherapy",
             "name": "Acupuntura i medicina tradicional xinesa"
-          },
-          {
-            "@type": "MedicalTherapy",
-            "name": "Osteopatia"
           }
         ]
       },
@@ -251,10 +247,10 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Quant de temps triga a notar-se la millora?",
+          "name": "Quant triga a millorar la ciàtica?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Moltes persones noten alleujament les primeres setmanes. El nervi necessita temps per calmar-se, per això avancem per fases i ajustem el pla segons com respons."
+            "text": "La majoria de les persones nota millora les primeres setmanes. El nervi necessita temps per calmar-se, per això avancem per fases i ajustem el pla segons la seva evolució."
           }
         },
         {
@@ -262,7 +258,7 @@
           "name": "És millor fer repòs?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "En general no. Mantenir-se actiu dins del que toleres afavoreix la recuperació més que el repòs prolongat al llit."
+            "text": "En general, no. Mantenir-se actiu dins del que és tolerable afavoreix la recuperació més que el repòs prolongat al llit."
           }
         },
         {
@@ -270,7 +266,15 @@
           "name": "Puc venir si tinc una hèrnia discal diagnosticada?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí. Porta les teves proves a la primera visita. Si hi ha pèrdua de força o alteracions de la sensibilitat que avancen, primer t'ha de valorar el teu metge."
+            "text": "Sí. Porti les seves proves a la primera visita i les revisem juntament amb la seva història clínica i l'exploració."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "La ciàtica sempre necessita cirurgia?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. La majoria dels casos millora amb tractament conservador. La cirurgia es planteja davant un dèficit neurològic progressiu, una síndrome de cua de cavall o un dolor intens que no respon després de diverses setmanes."
           }
         },
         {
@@ -278,7 +282,7 @@
           "name": "Quantes sessions necessitaré?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Depèn de cada cas. A la primera visita valorem la teva situació i et proposem un pla amb objectius clars."
+            "text": "Depèn de cada cas. A la primera visita valorem la seva situació i li proposem un pla amb objectius clars i revisions periòdiques."
           }
         }
       ]

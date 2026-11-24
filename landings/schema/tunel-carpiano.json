@@ -165,7 +165,7 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "¿En qué te puedo ayudar?",
+          "name": "¿En qué le puedo ayudar?",
           "item": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona"
         },
         {
@@ -181,7 +181,7 @@
       "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/tunel-carpiano#webpage",
       "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/tunel-carpiano",
       "name": "Síndrome del túnel carpiano en Barcelona | WA LAM",
-      "description": "Síndrome del túnel carpiano en Sarrià–Sant Gervasi, Barcelona: hormigueo nocturno en la mano, férula, movilización neural, terapia manual y acupuntura.",
+      "description": "Síndrome del túnel carpiano en Sarrià–Sant Gervasi, Barcelona: hormigueo en la mano, causas, diagnóstico y abordaje integrativo con el método re:trace.",
       "inLanguage": "es-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -260,7 +260,7 @@
           "name": "¿Cuándo hay que operar el túnel carpiano?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "La decisión corresponde a tu médico. Se valora sobre todo cuando hay pérdida de fuerza, atrofia o una afectación importante del nervio en las pruebas."
+            "text": "La cirugía se valora sobre todo cuando hay pérdida de fuerza, atrofia del músculo de la base del pulgar o una afectación importante del nervio en el electromiograma, o si el tratamiento conservador no ha sido suficiente."
           }
         },
         {
@@ -268,7 +268,7 @@
           "name": "¿Sirve la férula nocturna?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Mantener la muñeca en posición neutra durante la noche reduce la presión sobre el nervio y suele aliviar el hormigueo nocturno."
+            "text": "Sí. Mantener la muñeca en posición neutra durante la noche reduce la presión sobre el nervio y suele aliviar el hormigueo nocturno."
           }
         },
         {
@@ -276,7 +276,7 @@
           "name": "¿Puede tener relación con el cuello?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí. El nervio mediano nace en la región cervical, y la tensión en el cuello o el hombro puede sumar síntomas. Por eso valoramos todo el recorrido. Si también tienes dolor cervical, consulta cervicalgia."
+            "text": "El nervio mediano se origina en las raíces cervicales, y la tensión en el cuello o el hombro puede sumar síntomas. Por eso se valora todo su recorrido. Si también tiene dolor cervical, consulte cervicalgia."
           }
         },
         {
@@ -284,7 +284,7 @@
           "name": "¿Es frecuente en el embarazo o la menopausia?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí, los cambios hormonales y la retención de líquidos lo favorecen. En el embarazo suele mejorar tras el parto."
+            "text": "Sí. Los cambios hormonales y la retención de líquidos lo favorecen. En el embarazo suele mejorar en las semanas posteriores al parto."
           }
         }
       ]

@@ -165,7 +165,7 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "¿En qué te puedo ayudar?",
+          "name": "¿En qué le puedo ayudar?",
           "item": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona"
         },
         {
@@ -181,7 +181,7 @@
       "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/fibromialgia#webpage",
       "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/fibromialgia",
       "name": "Fibromialgia en Barcelona | WA LAM",
-      "description": "Fibromialgia en Sarrià–Sant Gervasi, Barcelona: dolor generalizado, sueño y fatiga. Ejercicio adaptado, acupuntura, mindfulness y educación en dolor.",
+      "description": "Fibromialgia en Sarrià–Sant Gervasi, Barcelona: dolor generalizado, fatiga y sueño no reparador. Valoración clínica completa y plan integrativo por fases.",
       "inLanguage": "es-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -242,26 +242,26 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "¿Se puede mejorar la fibromialgia?",
+          "name": "¿La fibromialgia tiene tratamiento?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí, es posible reducir el dolor y la fatiga y recuperar actividad. Trabajamos con objetivos realistas y un plan que se ajusta a cómo respondes."
+            "text": "Sí. Un abordaje que combine educación, ejercicio gradual, regulación del estrés y cuidado del sueño puede reducir el dolor y la fatiga y mejorar la calidad de vida. Trabajamos con objetivos realistas y un plan que se ajusta a su evolución."
           }
         },
         {
           "@type": "Question",
-          "name": "¿El ejercicio no empeora el dolor?",
+          "name": "¿El ejercicio puede empeorar el dolor?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Si se dosifica bien, no. Empezamos en un nivel cómodo y aumentamos de forma gradual, respetando los días de más dolor."
+            "text": "Si se dosifica bien, no. Se empieza por un nivel cómodo y se aumenta de forma progresiva, respetando los días de más dolor. Es normal notar alguna molestia al principio, que suele disminuir con la constancia."
           }
         },
         {
           "@type": "Question",
-          "name": "¿La acupuntura es adecuada si tengo mucha sensibilidad?",
+          "name": "¿Por qué las pruebas salen normales si tengo tanto dolor?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí. Adaptamos el número de agujas, la estimulación y la duración de la sesión a tu tolerancia."
+            "text": "Porque la fibromialgia no se debe a una lesión de los tejidos, sino a un procesamiento alterado del dolor en el sistema nervioso. Que las pruebas sean normales no significa que el dolor no sea real."
           }
         },
         {
@@ -269,7 +269,7 @@
           "name": "¿Qué debo traer a la primera visita?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Tus informes y analíticas recientes, la lista de lo que tomas y, si puedes, unas notas sobre cómo varían tu dolor, tu sueño y tu energía a lo largo de la semana."
+            "text": "Sus informes médicos, las analíticas recientes y la lista de la medicación que toma. Si le es posible, unas notas sobre cómo varían su dolor, su sueño y su energía a lo largo de la semana."
           }
         }
       ]

@@ -165,7 +165,7 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "¿En qué te puedo ayudar?",
+          "name": "¿En qué le puedo ayudar?",
           "item": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona"
         },
         {
@@ -181,7 +181,7 @@
       "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/esguinces#webpage",
       "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/esguinces",
       "name": "Recuperación de esguinces en Barcelona | WA LAM",
-      "description": "Recuperación de esguinces de tobillo, rodilla y muñeca en Sarrià–Sant Gervasi, Barcelona: terapia manual, propiocepción, vuelta a la actividad y prevención.",
+      "description": "Esguinces de tobillo, rodilla y muñeca en Sarrià–Sant Gervasi, Barcelona: valoración clínica, propiocepción, fuerza y vuelta segura a la actividad.",
       "inLanguage": "es-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -238,6 +238,12 @@
           "name": "Effect of unsupervised home based proprioceptive training on recurrences of ankle sprain: randomised controlled trial",
           "url": "https://doi.org/10.1136/bmj.b2684",
           "sameAs": "https://doi.org/10.1136/bmj.b2684"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Diagnosis, treatment and prevention of ankle sprains: update of an evidence-based clinical guideline",
+          "url": "https://doi.org/10.1136/bjsports-2017-098106",
+          "sameAs": "https://doi.org/10.1136/bjsports-2017-098106"
         }
       ]
     },
@@ -250,7 +256,7 @@
           "name": "¿Cuándo puedo empezar la recuperación?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Una vez descartada una fractura y pasados los primeros días de inflamación. La movilización temprana y progresiva favorece una mejor recuperación."
+            "text": "Una vez descartada una fractura, desde los primeros días. La movilización temprana y progresiva favorece una mejor evolución."
           }
         },
         {
@@ -258,15 +264,15 @@
           "name": "¿Qué es la propiocepción?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Es la capacidad del sistema nervioso de saber en qué posición está una articulación. Tras un esguince se altera, y entrenarla ayuda a evitar nuevas torceduras."
+            "text": "Es la capacidad del sistema nervioso para percibir la posición de una articulación. Tras un esguince se altera, y entrenarla ayuda a prevenir nuevas torceduras."
           }
         },
         {
           "@type": "Question",
-          "name": "¿Atendéis esguinces de rodilla y de muñeca?",
+          "name": "¿También se tratan los esguinces de rodilla y de muñeca?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí, en la fase de recuperación. Si hay sospecha de rotura de los ligamentos cruzados o de inestabilidad importante, primero debe valorarte tu médico. Si te preocupa la rodilla, consulta también dolor de rodilla."
+            "text": "Sí, en la fase de recuperación. Si se sospecha una rotura de los ligamentos cruzados o una inestabilidad importante, se requiere antes una valoración traumatológica. Si le preocupa la rodilla, consulte también dolor de rodilla."
           }
         },
         {
@@ -274,7 +280,15 @@
           "name": "¿Cuándo puedo volver a hacer deporte?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Cuando recuperes la movilidad, la fuerza y el equilibrio, y toleres los gestos de tu deporte sin dolor. Lo planificamos contigo por etapas."
+            "text": "Cuando haya recuperado la movilidad, la fuerza y el equilibrio, y tolere sin dolor los gestos de su deporte. La vuelta se planifica por etapas."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué es un esguince mal curado?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Es el que deja dolor, hinchazón o sensación de inestabilidad semanas después de la lesión. Suele mejorar con un programa específico de fuerza y propiocepción."
           }
         }
       ]

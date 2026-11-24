@@ -165,7 +165,7 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "¿En qué te puedo ayudar?",
+          "name": "¿En qué le puedo ayudar?",
           "item": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona"
         },
         {
@@ -181,7 +181,7 @@
       "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/neuralgia-trigemino#webpage",
       "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/neuralgia-trigemino",
       "name": "Neuralgia del trigémino en Barcelona | WA LAM",
-      "description": "Neuralgia del trigémino y dolor facial en Sarrià–Sant Gervasi, Barcelona: osteopatía craneal y de la ATM, acupuntura y regulación del estrés y del sueño.",
+      "description": "Neuralgia del trigémino y dolor facial en Sarrià–Sant Gervasi, Barcelona: síntomas, causas, diagnóstico y un abordaje integrativo con el método re:trace.",
       "inLanguage": "es-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -253,18 +253,18 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "¿Cómo es la primera visita?",
+          "name": "¿Es lo mismo que un dolor de muelas?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Dura 60 minutos. Revisamos tu historia, cómo es tu dolor, los puntos gatillo, la mandíbula, el cuello, el sueño y el estrés, y te proponemos un plan adaptado a ti."
+            "text": "No. Puede confundirse porque el dolor se nota a menudo en los dientes o la mandíbula, pero es un dolor de origen nervioso, en descargas breves y desencadenado por estímulos leves. Por eso es importante el diagnóstico neurológico."
           }
         },
         {
           "@type": "Question",
-          "name": "¿La osteopatía es adecuada si tengo puntos gatillo?",
+          "name": "¿La terapia manual es adecuada si tengo puntos gatillo?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí, con técnicas suaves y adaptadas. Evitamos estimular los puntos gatillo y trabajamos la región cervical, la mandíbula y el cráneo a un ritmo que respeta tu dolor."
+            "text": "Sí, con técnicas suaves y adaptadas. Se evita estimular los puntos gatillo y se trabaja la región cervical, la mandíbula y el cráneo a un ritmo que respeta su dolor."
           }
         },
         {
@@ -272,7 +272,7 @@
           "name": "¿Puede ayudar la acupuntura?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "La acupuntura se ha asociado con una mejoría del dolor en la neuralgia del trigémino. La utilizamos con puntos a distancia cuando la cara está muy sensible."
+            "text": "La acupuntura se ha asociado con una mejoría del dolor en la neuralgia del trigémino primaria. Cuando la cara está muy sensible, se utilizan puntos a distancia."
           }
         },
         {
@@ -280,15 +280,15 @@
           "name": "¿Qué relación tiene con el bruxismo y la mandíbula?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No son lo mismo, pero la tensión mandibular y el bruxismo pueden sumar dolor y sensibilidad en la cara. Por eso valoramos también la articulación temporomandibular."
+            "text": "No son lo mismo, pero la tensión mandibular y el bruxismo pueden sumar dolor y sensibilidad en la cara. Por eso se valora también la articulación temporomandibular."
           }
         },
         {
           "@type": "Question",
-          "name": "¿Cuándo debo consultar con urgencia?",
+          "name": "¿La neuralgia del trigémino puede desaparecer?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Si el dolor facial es nuevo y tienes más de 50 años, o aparecen pérdida de sensibilidad, debilidad en la cara, alteraciones de la visión o fiebre, consulta con tu médico sin demora."
+            "text": "Es frecuente que alterne periodos de crisis con fases de remisión de semanas o meses. El tratamiento busca controlar las crisis y mejorar la calidad de vida."
           }
         }
       ]

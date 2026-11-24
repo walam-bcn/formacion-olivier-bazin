@@ -165,7 +165,7 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "En què et puc ajudar?",
+          "name": "En què puc ser-li útil?",
           "item": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona"
         },
         {
@@ -181,7 +181,7 @@
       "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/lumbalgia-dolor-lumbar#webpage",
       "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/lumbalgia-dolor-lumbar",
       "name": "Lumbàlgia i dolor lumbar a Barcelona | WA LAM",
-      "description": "Lumbàlgia a Sarrià–Sant Gervasi, Barcelona: dolor lumbar agut o crònic i hèrnia de disc incipient. Abordatge integratiu amb osteopatia i acupuntura.",
+      "description": "Lumbàlgia aguda i crònica a Sarrià–Sant Gervasi, Barcelona. Valoració clínica completa i un pla per fases per recuperar el moviment amb seguretat.",
       "inLanguage": "ca-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -196,7 +196,7 @@
       },
       "lastReviewed": "2026-11-18",
       "dateModified": "2026-11-18",
-      "keywords": "lumbalgia Barcelona, dolor lumbar Barcelona, dolor de espalda baja Sarrià, hernia de disco tratamiento Barcelona, osteópata lumbalgia Barcelona, acupuntura dolor lumbar Barcelona",
+      "keywords": "lumbalgia Barcelona, dolor lumbar Barcelona, tratamiento lumbalgia crónica, dolor de espalda baja Sarrià, lumbalgia aguda qué hacer, dolor lumbar Sant Gervasi",
       "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/lumbalgia-dolor-lumbar.png",
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -219,16 +219,7 @@
       "about": {
         "@type": "MedicalCondition",
         "name": "Lumbàlgia",
-        "possibleTreatment": [
-          {
-            "@type": "MedicalTherapy",
-            "name": "Osteopatia"
-          },
-          {
-            "@type": "MedicalTherapy",
-            "name": "Acupuntura i medicina tradicional xinesa"
-          }
-        ]
+        "possibleTreatment": []
       },
       "citation": [
         {
@@ -257,26 +248,34 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Tracteu l'hèrnia de disc?",
+          "name": "Puc venir en plena fase aguda?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Acompanyem el dolor associat a una hèrnia de disc incipient o a una protrusió amb teràpia manual, exercici adaptat i educació en dolor. Si hi ha pèrdua de força o de sensibilitat, primer t'ha de valorar el teu metge."
+            "text": "Sí. En la fase aguda l'objectiu és alleujar el dolor i ajudar-lo a mantenir-se actiu dins del que és tolerable, que és el que més afavoreix la recuperació."
           }
         },
         {
           "@type": "Question",
-          "name": "Puc venir amb una lumbàlgia aguda?",
+          "name": "Necessito una ressonància abans de la primera visita?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí. A la fase aguda busquem alleujar el dolor i ajudar-te a mantenir-te actiu dins del que toleres, que és el que més afavoreix la recuperació."
+            "text": "No és imprescindible. En la majoria de les lumbàlgies el diagnòstic és clínic. Si ja disposa de proves, porti-les i les revisem juntament amb la seva història."
           }
         },
         {
           "@type": "Question",
-          "name": "Necessito una ressonància abans de venir?",
+          "name": "És millor fer repòs?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No és imprescindible. Si ja tens proves, porta-les a la primera visita i les revisem juntament amb la teva història clínica."
+            "text": "El repòs al llit prolongat ja no es recomana. És preferible un repòs relatiu: reduir el que més fa mal i mantenir la resta de l'activitat."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Per què torna el dolor cada cert temps?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Les recaigudes són habituals i solen relacionar-se amb la pèrdua de força, la inactivitat, l'estrès o el mal descans. Treballar aquests factors redueix la probabilitat de nous episodis."
           }
         },
         {
@@ -284,7 +283,7 @@
           "name": "Quantes sessions necessitaré?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Depèn de cada cas. A la primera visita valorem la teva situació i et proposem un pla amb objectius clars."
+            "text": "Depèn de cada cas. A la primera visita valorem la seva situació i li proposem un pla amb objectius clars i revisions periòdiques."
           }
         }
       ]

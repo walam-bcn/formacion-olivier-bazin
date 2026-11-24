@@ -165,7 +165,7 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "¿En qué te puedo ayudar?",
+          "name": "¿En qué le puedo ayudar?",
           "item": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona"
         },
         {
@@ -181,7 +181,7 @@
       "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/dolor-persistente-cronico#webpage",
       "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/dolor-persistente-cronico",
       "name": "Dolor crónico y persistente en Barcelona | WA LAM",
-      "description": "Valoración integrativa del dolor crónico en Sarrià–Sant Gervasi, Barcelona: ejercicio terapéutico, osteopatía, MBSR y hábitos, según guías clínicas.",
+      "description": "Dolor crónico y persistente en Sarrià–Sant Gervasi, Barcelona: valoración clínica, ejercicio terapéutico, mindfulness MBSR y regulación del dolor.",
       "inLanguage": "es-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -239,12 +239,6 @@
           "name": "Effect of Mindfulness-Based Stress Reduction vs Cognitive Behavioral Therapy or Usual Care on Back Pain and Functional Limitations in Adults With Chronic Low Back Pain: A Randomized Clinical Trial",
           "url": "https://doi.org/10.1001/jama.2016.2323",
           "sameAs": "https://doi.org/10.1001/jama.2016.2323"
-        },
-        {
-          "@type": "ScholarlyArticle",
-          "name": "Benefits and harms of spinal manipulative therapy for the treatment of chronic low back pain: systematic review and meta-analysis of randomised controlled trials",
-          "url": "https://doi.org/10.1136/bmj.l689",
-          "sameAs": "https://doi.org/10.1136/bmj.l689"
         }
       ]
     },
@@ -254,42 +248,42 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "¿Qué disciplinas intervienen en el abordaje del dolor?",
+          "name": "¿Por qué me sigue doliendo si la lesión ya se ha curado?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "La osteopatía y la acupuntura, integradas en un plan individual. Cuando se requiere un programa de fisioterapia, realizamos la derivación a un fisioterapeuta colegiado."
+            "text": "Porque, cuando el dolor se mantiene, el sistema nervioso puede sensibilizarse y seguir generando dolor aunque los tejidos se hayan recuperado. El dolor es real, y se puede trabajar sobre los mecanismos que lo mantienen."
           }
         },
         {
           "@type": "Question",
-          "name": "¿Qué se considera dolor crónico o persistente?",
+          "name": "¿Qué es el programa MBSR?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "En general, el dolor que dura más de tres meses o que persiste más allá del tiempo habitual de curación de un tejido. Puede ser continuo o aparecer por episodios."
+            "text": "Es un programa de reducción del estrés basado en mindfulness, de 8 semanas, creado por Jon Kabat-Zinn en la Universidad de Massachusetts para personas con dolor crónico. Enseña a relacionarse de otra manera con el dolor y a regular la respuesta de estrés."
           }
         },
         {
           "@type": "Question",
-          "name": "Mis pruebas están bien, pero me sigue doliendo. ¿Es normal?",
+          "name": "¿Es seguro hacer ejercicio con dolor crónico?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Es más frecuente de lo que parece. Las pruebas de imagen muestran estructuras, pero no miden la sensibilidad del sistema nervioso. Que no aparezca una lesión no quiere decir que tu dolor no sea real."
+            "text": "Sí, siempre que se adapte y se aumente de forma progresiva. Moverse con una pauta adecuada es una de las medidas más eficaces y no supone dañar los tejidos."
           }
         },
         {
           "@type": "Question",
-          "name": "¿Necesito informe médico para venir?",
+          "name": "¿Cuánto tiempo tarda en notarse la mejoría?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No es imprescindible, pero si tienes pruebas o informes, tráelos a la primera consulta. Nos ayudan a valorar mejor tu caso."
+            "text": "Depende de cada caso. Muchas personas notan cambios en el sueño, la energía o la tolerancia a la actividad en las primeras semanas; la reducción del dolor suele ser progresiva."
           }
         },
         {
           "@type": "Question",
-          "name": "¿Cuántas sesiones voy a necesitar?",
+          "name": "¿Qué debo traer a la primera visita?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Depende de cada caso. Tras la primera valoración te proponemos un plan con objetivos y momentos de revisión, para que sepas en todo momento cómo avanzamos."
+            "text": "Sus informes médicos, las pruebas realizadas y la lista de la medicación que toma. Si le es posible, unas notas sobre cómo varía su dolor a lo largo de la semana."
           }
         }
       ]

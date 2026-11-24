@@ -165,7 +165,7 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "¿En qué te puedo ayudar?",
+          "name": "¿En qué le puedo ayudar?",
           "item": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona"
         },
         {
@@ -181,7 +181,7 @@
       "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/dolor-rodilla-condromalacia#webpage",
       "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/dolor-rodilla-condromalacia",
       "name": "Dolor de rodilla y condromalacia en Barcelona | WA LAM",
-      "description": "Dolor de rodilla y condromalacia rotuliana en Sarrià–Sant Gervasi, Barcelona: dolor patelofemoral al subir escaleras o correr. Ejercicio y terapia manual.",
+      "description": "Dolor de rodilla y condromalacia rotuliana en Sarrià–Sant Gervasi, Barcelona: dolor patelofemoral al subir escaleras o correr. Valoración y plan por fases.",
       "inLanguage": "es-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -219,12 +219,7 @@
       "about": {
         "@type": "MedicalCondition",
         "name": "Dolor patelofemoral",
-        "possibleTreatment": [
-          {
-            "@type": "MedicalTherapy",
-            "name": "Osteopatía"
-          }
-        ]
+        "possibleTreatment": []
       },
       "citation": [
         {
@@ -250,7 +245,7 @@
           "name": "¿La condromalacia es lo mismo que la artrosis?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. La condromalacia afecta al cartílago de la rótula y es frecuente en personas jóvenes y activas. Si tu caso es de desgaste articular, consulta artrosis."
+            "text": "No. La condromalacia afecta al cartílago de la rótula y es frecuente en personas jóvenes y activas. Si su caso corresponde a un desgaste articular, puede consultar la página de artrosis."
           }
         },
         {
@@ -258,12 +253,12 @@
           "name": "¿Tengo que dejar de correr?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Normalmente no hace falta dejarlo del todo. Ajustamos el volumen y la intensidad mientras fortaleces, y planificamos la vuelta progresiva."
+            "text": "Normalmente no es necesario dejarlo del todo. Se ajustan el volumen y la intensidad mientras se fortalece la musculatura, y se planifica una vuelta progresiva."
           }
         },
         {
           "@type": "Question",
-          "name": "¿Por qué trabajáis la cadera si me duele la rodilla?",
+          "name": "¿Por qué se trabaja la cadera si me duele la rodilla?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "La fuerza de la cadera influye en cómo se alinea la rodilla al apoyar. Fortalecerla reduce la carga sobre la rótula."
@@ -271,10 +266,18 @@
         },
         {
           "@type": "Question",
-          "name": "¿Cuánto tiempo tardaré en notar mejoría?",
+          "name": "¿Cuánto tarda en mejorar?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Depende de cada caso. En la primera visita valoramos tu rodilla y te proponemos un plan con objetivos claros."
+            "text": "Depende de cada caso. Con un programa de ejercicio constante suele notarse una mejoría progresiva a lo largo de las primeras semanas. En la primera visita se fijan objetivos concretos."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Son útiles las rodilleras o las plantillas?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "En casos seleccionados pueden aliviar el dolor a corto plazo y facilitar el ejercicio, que sigue siendo la base del tratamiento."
           }
         }
       ]

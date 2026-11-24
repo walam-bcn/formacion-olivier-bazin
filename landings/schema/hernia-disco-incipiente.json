@@ -165,7 +165,7 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "¿En qué te puedo ayudar?",
+          "name": "¿En qué le puedo ayudar?",
           "item": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona"
         },
         {
@@ -181,7 +181,7 @@
       "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/hernia-disco-incipiente#webpage",
       "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/hernia-disco-incipiente",
       "name": "Hernia de disco y protrusión en Barcelona | WA LAM",
-      "description": "Hernia de disco incipiente y protrusión discal en Sarrià–Sant Gervasi, Barcelona: ejercicio, terapia manual, acupuntura y educación en dolor.",
+      "description": "Hernia de disco incipiente y protrusión discal en Sarrià–Sant Gervasi, Barcelona. Valoración clínica completa y tratamiento conservador por fases.",
       "inLanguage": "es-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -196,7 +196,7 @@
       },
       "lastReviewed": "2026-11-18",
       "dateModified": "2026-11-18",
-      "keywords": "hernia de disco Barcelona, protrusión discal tratamiento, hernia discal lumbar sin cirugía, hernia cervical tratamiento conservador, ejercicios hernia de disco, acupuntura hernia discal Barcelona",
+      "keywords": "hernia de disco Barcelona, protrusión discal tratamiento, hernia discal lumbar sin cirugía, hernia cervical tratamiento conservador, ejercicios hernia de disco, hernia discal Sarrià",
       "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/hernia-disco-incipiente.png",
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -251,7 +251,7 @@
           "name": "¿Una hernia de disco puede mejorar sin cirugía?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí. Muchas hernias mejoran con tratamiento conservador, y una parte se reabsorbe con el tiempo. La cirugía se reserva para casos concretos que valora tu médico."
+            "text": "Sí. Muchas hernias mejoran con tratamiento conservador, y una parte se reabsorbe con el tiempo. La cirugía se reserva para casos concretos, como un déficit neurológico progresivo."
           }
         },
         {
@@ -259,15 +259,23 @@
           "name": "¿Puedo hacer ejercicio con una protrusión?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí, y es una parte central del tratamiento. Lo adaptamos a tus síntomas y lo progresamos poco a poco."
+            "text": "Sí, y es una parte central del tratamiento. Lo adaptamos a sus síntomas y lo progresamos poco a poco."
           }
         },
         {
           "@type": "Question",
-          "name": "¿Tratáis también la hernia cervical?",
+          "name": "¿Tratan también la hernia cervical?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí, con el mismo enfoque: valoración, terapia manual suave, ejercicio y acupuntura. Si el dolor irradia al brazo con pérdida de fuerza, primero debe valorarte tu médico."
+            "text": "Sí, con el mismo enfoque por fases. Si el dolor se irradia al brazo con pérdida de fuerza que avanza, consulte antes con su médico de forma preferente."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué diferencia hay entre protrusión y hernia?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "En la protrusión el disco se abomba sin que se rompa el anillo externo. En la hernia, parte del núcleo sale a través del anillo. Ambas pueden no dar síntomas y se valoran siempre junto con la exploración."
           }
         },
         {
@@ -275,7 +283,7 @@
           "name": "¿Necesito una resonancia?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No siempre. Si ya la tienes, tráela a la primera visita. Si hay señales de alarma, tu médico decidirá qué pruebas hacer."
+            "text": "No siempre. Si ya la tiene, tráigala a la primera visita. Se indica cuando hay signos de alarma, déficit neurológico o el dolor no mejora tras varias semanas."
           }
         }
       ]

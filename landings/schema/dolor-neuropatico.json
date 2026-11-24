@@ -165,7 +165,7 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "¿En qué te puedo ayudar?",
+          "name": "¿En qué le puedo ayudar?",
           "item": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona"
         },
         {
@@ -180,8 +180,8 @@
       "@type": "MedicalWebPage",
       "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/dolor-neuropatico#webpage",
       "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/dolor-neuropatico",
-      "name": "Dolor neuropático en Barcelona · Acompañamiento | WA LAM",
-      "description": "Ciática, neuralgias, dolor postherpético y neuropatía en Sarrià–Sant Gervasi, Barcelona. Acompañamiento integrativo complementario al tratamiento médico.",
+      "name": "Dolor neuropático en Barcelona | WA LAM",
+      "description": "Dolor neuropático en Sarrià–Sant Gervasi, Barcelona: ciática, neuralgias, dolor postherpético y neuropatía. Valoración clínica y plan integrativo.",
       "inLanguage": "es-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -224,9 +224,9 @@
       "citation": [
         {
           "@type": "ScholarlyArticle",
-          "name": "Acupuncture for neuropathic pain in adults",
-          "url": "https://doi.org/10.1002/14651858.CD012057.pub2",
-          "sameAs": "https://doi.org/10.1002/14651858.CD012057.pub2"
+          "name": "Neuropathic pain in the general population: A systematic review of epidemiological studies",
+          "url": "https://doi.org/10.1016/j.pain.2013.11.013",
+          "sameAs": "https://doi.org/10.1016/j.pain.2013.11.013"
         },
         {
           "@type": "ScholarlyArticle",
@@ -242,34 +242,34 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "¿Qué disciplinas intervienen en el abordaje del dolor?",
+          "name": "¿En qué se diferencia el dolor neuropático de otros dolores?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "La osteopatía y la acupuntura, integradas en un plan individual. Cuando se requiere un programa de fisioterapia, realizamos la derivación a un fisioterapeuta colegiado."
+            "text": "En que no se debe a una lesión de músculos, articulaciones u otros tejidos, sino de los propios nervios. Por eso se percibe de otra forma (quemazón, descargas, hormigueo) y responde peor a los analgésicos habituales."
           }
         },
         {
           "@type": "Question",
-          "name": "¿Sustituye a mi tratamiento médico?",
+          "name": "¿La ciática es un dolor neuropático?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. El acompañamiento es complementario y no modifica la medicación prescrita."
+            "text": "Sí, cuando hay irritación o compresión de una raíz nerviosa. El dolor baja por la pierna, a menudo por debajo de la rodilla, y puede acompañarse de hormigueo o adormecimiento en el pie. Encontrará más información en ciática."
           }
         },
         {
           "@type": "Question",
-          "name": "¿Atendéis la ciática?",
+          "name": "¿Por qué el dolor empeora por la noche?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí, como complemento del seguimiento médico, con movilidad, ejercicio adaptado y técnicas manuales cuando están indicadas."
+            "text": "Durante la noche hay menos estímulos que distraigan la atención y el sistema nervioso percibe más las señales de dolor. Además, el mal descanso aumenta la sensibilidad al día siguiente; por eso cuidamos tanto el sueño."
           }
         },
         {
           "@type": "Question",
-          "name": "¿Y el síndrome de dolor regional complejo?",
+          "name": "¿Qué debo traer a la primera visita?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Solo como acompañamiento complementario y siempre en paralelo al seguimiento por la unidad del dolor."
+            "text": "Sus informes médicos, las pruebas realizadas (electromiograma, resonancia o analíticas) y la lista de la medicación que toma."
           }
         }
       ]

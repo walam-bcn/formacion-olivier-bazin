@@ -18,10 +18,12 @@ EYEBROW = {
 
 
 def load():
-    out = []
+    out = {}
     for f in sorted(DIR.glob("batch*.json")):
-        out += json.loads(f.read_text())
-    return out
+        for d in json.loads(f.read_text()):
+            out.pop(d["slug"], None)
+            out[d["slug"]] = d  # la versión más reciente (lotes M = reescritura médica) prevalece
+    return list(out.values())
 
 
 def _page(d):

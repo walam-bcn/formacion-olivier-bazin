@@ -165,7 +165,7 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "En què et puc ajudar?",
+          "name": "En què puc ser-li útil?",
           "item": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona"
         },
         {
@@ -181,7 +181,7 @@
       "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/bruxisme-dolor-mandibular-atm#webpage",
       "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/bruxisme-dolor-mandibular-atm",
       "name": "Bruxisme i dolor mandibular a Barcelona | WA LAM",
-      "description": "Bruxisme i dolor mandibular a Sarrià–Sant Gervasi, Barcelona: trastorns de l'ATM, tensió i estrès. Abordatge integratiu amb teràpia manual i relaxació.",
+      "description": "Bruxisme i dolor mandibular (ATM) a Sarrià–Sant Gervasi, Barcelona: símptomes, causes, diagnòstic i un abordatge integratiu amb el mètode re:trace.",
       "inLanguage": "ca-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -256,7 +256,7 @@
           "name": "He de deixar d'utilitzar la fèrula?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. Si el teu dentista t'ha indicat una fèrula de descàrrega, continua utilitzant-la. Treballem la musculatura, la tensió i l'estrès perquè la mandíbula es relaxi també durant el dia."
+            "text": "No. Si el seu dentista li ha indicat una fèrula de descàrrega, convé continuar utilitzant-la. L'abordatge de la musculatura, la tensió i l'estrès ajuda que la mandíbula es relaxi també durant el dia."
           }
         },
         {
@@ -264,7 +264,7 @@
           "name": "L'estrès influeix en el bruxisme?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí, molt. Per això hi incloem eines per reduir l'activació del sistema nerviós. Consulta també la nostra pàgina d'estrès i ansietat."
+            "text": "Sí, de manera important. Per això el pla inclou eines per reduir l'activació del sistema nerviós. També pot consultar la nostra pàgina d'estrès i ansietat."
           }
         },
         {
@@ -272,15 +272,15 @@
           "name": "El dolor de mandíbula pot provocar mal de cap?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí. La sobrecàrrega dels músculs de la masticació pot provocar dolor a les temples i cefalea en despertar."
+            "text": "Sí. La sobrecàrrega dels músculs de la masticació pot provocar dolor a les temples i cefalea en despertar-se, i sovint s'associa a tensió al coll."
           }
         },
         {
           "@type": "Question",
-          "name": "Quantes sessions necessitaré?",
+          "name": "Són greus els espetecs de la mandíbula?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Depèn de cada cas. A la primera visita valorem la teva situació i et proposem un pla amb objectius clars."
+            "text": "Els espetecs aïllats, sense dolor ni bloqueig, són freqüents i no solen requerir tractament. Convé valorar-los si s'acompanyen de dolor o de limitació en obrir la boca."
           }
         }
       ]

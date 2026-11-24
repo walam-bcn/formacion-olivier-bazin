@@ -165,7 +165,7 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "En què et puc ajudar?",
+          "name": "En què puc ser-li útil?",
           "item": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona"
         },
         {
@@ -181,7 +181,7 @@
       "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/cervicalgia-dolor-coll#webpage",
       "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/cervicalgia-dolor-coll",
       "name": "Cervicàlgia i dolor de coll a Barcelona | WA LAM",
-      "description": "Cervicàlgia a Sarrià–Sant Gervasi, Barcelona: dolor de coll, torticoli i fuetada cervical. Abordatge integratiu amb teràpia manual i acupuntura.",
+      "description": "Cervicàlgia i dolor de coll a Sarrià–Sant Gervasi, Barcelona. Valoració clínica i un pla per fases per alleujar el dolor i recuperar la mobilitat.",
       "inLanguage": "ca-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -196,7 +196,7 @@
       },
       "lastReviewed": "2026-11-18",
       "dateModified": "2026-11-18",
-      "keywords": "cervicalgia Barcelona, dolor de cuello Barcelona, tortícolis tratamiento Barcelona, latigazo cervical Barcelona, osteópata cervicales Sarrià, acupuntura dolor cervical Barcelona",
+      "keywords": "cervicalgia Barcelona, dolor de cuello Barcelona, dolor cervical crónico, rigidez de cuello tratamiento, latigazo cervical Barcelona, cervicalgia Sarrià",
       "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/cervicalgia-dolor-cuello.png",
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -219,12 +219,7 @@
       "about": {
         "@type": "MedicalCondition",
         "name": "Cervicàlgia",
-        "possibleTreatment": [
-          {
-            "@type": "MedicalTherapy",
-            "name": "Osteopatia"
-          }
-        ]
+        "possibleTreatment": []
       },
       "citation": [
         {
@@ -253,18 +248,18 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Què faig si tinc una torticoli?",
+          "name": "Què puc fer si tinc un torticoli?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Mantén el coll en moviment suau dins del que toleres i aplica-hi calor local. Si en pocs dies no millora, una valoració ajuda a recuperar la mobilitat abans."
+            "text": "Mantingui el coll en moviment suau dins del que és tolerable i apliqui calor local. Sol millorar en pocs dies; si no és així, una valoració ajuda a recuperar la mobilitat. Pot consultar també la nostra pàgina de torticoli."
           }
         },
         {
           "@type": "Question",
-          "name": "Atendeu la fuetada cervical després d'un accident?",
+          "name": "Atenen el dolor de coll després d'un cop de fuet cervical?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí. Un cop descartades lesions pel teu metge, treballem amb teràpia manual suau i exercici progressiu per recuperar la mobilitat del coll."
+            "text": "Sí. Un cop descartades lesions mitjançant la valoració mèdica d'urgències, treballem amb mobilitat suau i exercici progressiu per recuperar el coll."
           }
         },
         {
@@ -272,7 +267,15 @@
           "name": "El dolor de coll pot provocar mal de cap?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí. La tensió cervical pot irradiar-se al clatell i al cap. Si els mals de cap són freqüents, consulta també la nostra pàgina de cefalees i migranya."
+            "text": "Sí. La tensió cervical es pot irradiar al clatell i al cap (cefalea cervicogènica). Si les cefalees són freqüents, consulti també la nostra pàgina de cefalees i migranya."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Necessito una radiografia o una ressonància?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "En la majoria dels casos no és necessària. Es reserva per a situacions concretes, com un traumatisme o símptomes neurològics. Si ja té proves, porti-les a la primera visita."
           }
         },
         {
@@ -280,7 +283,7 @@
           "name": "Quantes sessions necessitaré?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Depèn de cada cas. A la primera visita valorem la teva situació i et proposem un pla amb objectius clars."
+            "text": "Depèn de cada cas. A la primera visita valorem la seva situació i li proposem un pla amb objectius clars i revisions periòdiques."
           }
         }
       ]

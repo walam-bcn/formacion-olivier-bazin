@@ -165,7 +165,7 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "¿En qué te puedo ayudar?",
+          "name": "¿En qué le puedo ayudar?",
           "item": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona"
         },
         {
@@ -181,7 +181,7 @@
       "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/bruxismo-dolor-mandibular-atm#webpage",
       "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/bruxismo-dolor-mandibular-atm",
       "name": "Bruxismo y dolor mandibular en Barcelona | WA LAM",
-      "description": "Bruxismo y dolor mandibular en Sarrià–Sant Gervasi, Barcelona: trastornos de la ATM, tensión y estrés. Abordaje integrativo con terapia manual y relajación.",
+      "description": "Bruxismo y dolor mandibular (ATM) en Sarrià–Sant Gervasi, Barcelona: síntomas, causas, diagnóstico y un abordaje integrativo con el método re:trace.",
       "inLanguage": "es-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -256,7 +256,7 @@
           "name": "¿Tengo que dejar de usar la férula?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. Si tu dentista te ha indicado una férula de descarga, sigue usándola. Trabajamos la musculatura, la tensión y el estrés para que la mandíbula se relaje también durante el día."
+            "text": "No. Si su dentista le ha indicado una férula de descarga, conviene seguir usándola. El abordaje de la musculatura, la tensión y el estrés ayuda a que la mandíbula se relaje también durante el día."
           }
         },
         {
@@ -264,7 +264,7 @@
           "name": "¿El estrés influye en el bruxismo?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí, mucho. Por eso incluimos herramientas para reducir la activación del sistema nervioso. Consulta también nuestra página de estrés y ansiedad."
+            "text": "Sí, de forma importante. Por eso el plan incluye herramientas para reducir la activación del sistema nervioso. Puede consultar también nuestra página de estrés y ansiedad."
           }
         },
         {
@@ -272,15 +272,15 @@
           "name": "¿El dolor de mandíbula puede dar dolor de cabeza?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí. La sobrecarga de los músculos de la masticación puede provocar dolor en las sienes y cefalea al despertar."
+            "text": "Sí. La sobrecarga de los músculos de la masticación puede provocar dolor en las sienes y cefalea al despertar, y a menudo se asocia a tensión en el cuello."
           }
         },
         {
           "@type": "Question",
-          "name": "¿Cuántas sesiones necesitaré?",
+          "name": "¿Son graves los chasquidos de la mandíbula?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Depende de cada caso. En la primera visita valoramos tu situación y te proponemos un plan con objetivos claros."
+            "text": "Los chasquidos aislados, sin dolor ni bloqueo, son frecuentes y no suelen requerir tratamiento. Conviene valorarlos si se acompañan de dolor o de limitación al abrir la boca."
           }
         }
       ]

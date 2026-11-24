@@ -165,7 +165,7 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "¿En qué te puedo ayudar?",
+          "name": "¿En qué le puedo ayudar?",
           "item": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona"
         },
         {
@@ -181,7 +181,7 @@
       "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/lumbalgia-dolor-lumbar#webpage",
       "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/lumbalgia-dolor-lumbar",
       "name": "Lumbalgia y dolor lumbar en Barcelona | WA LAM",
-      "description": "Lumbalgia en Sarrià–Sant Gervasi, Barcelona: dolor lumbar agudo o crónico y hernia de disco incipiente. Abordaje integrativo con osteopatía y acupuntura.",
+      "description": "Lumbalgia aguda y crónica en Sarrià–Sant Gervasi, Barcelona. Valoración clínica completa y un plan por fases para recuperar el movimiento con seguridad.",
       "inLanguage": "es-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -196,7 +196,7 @@
       },
       "lastReviewed": "2026-11-18",
       "dateModified": "2026-11-18",
-      "keywords": "lumbalgia Barcelona, dolor lumbar Barcelona, dolor de espalda baja Sarrià, hernia de disco tratamiento Barcelona, osteópata lumbalgia Barcelona, acupuntura dolor lumbar Barcelona",
+      "keywords": "lumbalgia Barcelona, dolor lumbar Barcelona, tratamiento lumbalgia crónica, dolor de espalda baja Sarrià, lumbalgia aguda qué hacer, dolor lumbar Sant Gervasi",
       "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/lumbalgia-dolor-lumbar.png",
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -219,16 +219,7 @@
       "about": {
         "@type": "MedicalCondition",
         "name": "Lumbalgia",
-        "possibleTreatment": [
-          {
-            "@type": "MedicalTherapy",
-            "name": "Osteopatía"
-          },
-          {
-            "@type": "MedicalTherapy",
-            "name": "Acupuntura y medicina tradicional china"
-          }
-        ]
+        "possibleTreatment": []
       },
       "citation": [
         {
@@ -257,26 +248,34 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "¿Tratáis la hernia de disco?",
+          "name": "¿Puedo acudir en plena fase aguda?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Acompañamos el dolor asociado a una hernia de disco incipiente o a una protrusión con terapia manual, ejercicio adaptado y educación en dolor. Si hay pérdida de fuerza o de sensibilidad, primero debe valorarte tu médico."
+            "text": "Sí. En la fase aguda el objetivo es aliviar el dolor y ayudarle a mantenerse activo dentro de lo tolerable, que es lo que más favorece la recuperación."
           }
         },
         {
           "@type": "Question",
-          "name": "¿Puedo venir con una lumbalgia aguda?",
+          "name": "¿Necesito una resonancia antes de la primera visita?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí. En la fase aguda buscamos aliviar el dolor y ayudarte a mantenerte activo dentro de lo que toleras, que es lo que más favorece la recuperación."
+            "text": "No es imprescindible. En la mayoría de las lumbalgias el diagnóstico es clínico. Si ya dispone de pruebas, tráigalas y las revisamos junto con su historia."
           }
         },
         {
           "@type": "Question",
-          "name": "¿Necesito una resonancia antes de venir?",
+          "name": "¿Es mejor hacer reposo?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No es imprescindible. Si ya tienes pruebas, tráelas a la primera visita y las revisamos junto con tu historia clínica."
+            "text": "El reposo en cama prolongado ya no se recomienda. Es preferible un reposo relativo: reducir lo que más duele y mantener el resto de la actividad."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Por qué vuelve el dolor cada cierto tiempo?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Las recaídas son habituales y suelen relacionarse con la pérdida de fuerza, la inactividad, el estrés o el mal descanso. Trabajar estos factores reduce la probabilidad de nuevos episodios."
           }
         },
         {
@@ -284,7 +283,7 @@
           "name": "¿Cuántas sesiones necesitaré?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Depende de cada caso. En la primera visita valoramos tu situación y te proponemos un plan con objetivos claros."
+            "text": "Depende de cada caso. En la primera visita valoramos su situación y le proponemos un plan con objetivos claros y revisiones periódicas."
           }
         }
       ]

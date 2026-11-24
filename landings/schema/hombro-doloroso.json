@@ -165,7 +165,7 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "¿En qué te puedo ayudar?",
+          "name": "¿En qué le puedo ayudar?",
           "item": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona"
         },
         {
@@ -181,7 +181,7 @@
       "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/hombro-doloroso#webpage",
       "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/hombro-doloroso",
       "name": "Hombro doloroso en Barcelona | WA LAM",
-      "description": "Hombro doloroso en Sarrià–Sant Gervasi, Barcelona: capsulitis o hombro congelado, bursitis y tendinitis del manguito rotador. Abordaje integrativo.",
+      "description": "Hombro doloroso en Sarrià–Sant Gervasi, Barcelona: tendinopatía del manguito rotador, bursitis y hombro congelado. Valoración clínica y plan por fases.",
       "inLanguage": "es-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -196,7 +196,7 @@
       },
       "lastReviewed": "2026-11-18",
       "dateModified": "2026-11-18",
-      "keywords": "dolor de hombro Barcelona, hombro congelado tratamiento, capsulitis adhesiva Barcelona, tendinitis manguito rotador, bursitis de hombro, dolor de hombro por la noche",
+      "keywords": "dolor de hombro Barcelona, hombro congelado tratamiento, capsulitis adhesiva Barcelona, tendinopatía manguito rotador, bursitis de hombro, dolor de hombro por la noche",
       "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/hombro-doloroso.png",
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -223,10 +223,6 @@
           {
             "@type": "MedicalTherapy",
             "name": "Osteopatía"
-          },
-          {
-            "@type": "MedicalTherapy",
-            "name": "Acupuntura y medicina tradicional china"
           }
         ]
       },
@@ -254,7 +250,7 @@
           "name": "¿Cuánto dura un hombro congelado?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "La capsulitis evoluciona por fases y puede durar meses. Un plan adaptado a cada fase ayuda a controlar el dolor y a recuperar movilidad."
+            "text": "La capsulitis adhesiva evoluciona por fases y puede durar de uno a tres años. Un plan adaptado a cada fase ayuda a controlar el dolor y a recuperar la movilidad."
           }
         },
         {
@@ -262,7 +258,7 @@
           "name": "¿Debo dejar de mover el hombro si me duele?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No conviene inmovilizarlo. Buscamos el movimiento que tu hombro tolera y lo ampliamos poco a poco."
+            "text": "No es aconsejable inmovilizarlo. Se busca el movimiento que el hombro tolera y se amplía de forma progresiva."
           }
         },
         {
@@ -270,15 +266,23 @@
           "name": "¿Necesito una ecografía o una resonancia?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No siempre. Si ya tienes pruebas, tráelas a la primera visita. Si sospechamos una rotura importante, te recomendaremos que te valore tu médico."
+            "text": "No siempre. Si ya dispone de pruebas, tráigalas a la primera visita. Si la exploración sugiere una rotura importante, le recomendaremos completar el estudio con una prueba de imagen."
           }
         },
         {
           "@type": "Question",
-          "name": "¿Puede venir el dolor de hombro del cuello?",
+          "name": "¿El dolor de hombro puede venir del cuello?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí, a veces. Por eso valoramos también la columna cervical y la dorsal."
+            "text": "Sí, en algunos casos. Por eso se explora también la columna cervical y la dorsal."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué relación tiene con la diabetes?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Las personas con diabetes tienen más riesgo de capsulitis adhesiva. Un buen control metabólico forma parte del abordaje."
           }
         }
       ]

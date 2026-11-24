@@ -165,7 +165,7 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "¿En qué te puedo ayudar?",
+          "name": "¿En qué le puedo ayudar?",
           "item": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona"
         },
         {
@@ -181,7 +181,7 @@
       "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/dorsalgia-dolor-espalda-alta#webpage",
       "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/dorsalgia-dolor-espalda-alta",
       "name": "Dorsalgia y dolor de espalda alta en Barcelona | WA LAM",
-      "description": "Dorsalgia en Sarrià–Sant Gervasi, Barcelona: dolor entre los omóplatos y en la espalda alta por postura, respiración o tensión. Abordaje integrativo.",
+      "description": "Dorsalgia y dolor entre los omóplatos en Sarrià–Sant Gervasi, Barcelona. Valoración clínica completa y un plan por fases para la postura y la respiración.",
       "inLanguage": "es-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -196,7 +196,7 @@
       },
       "lastReviewed": "2026-11-18",
       "dateModified": "2026-11-18",
-      "keywords": "dorsalgia Barcelona, dolor de espalda alta Barcelona, dolor entre omóplatos, dolor dorsal tratamiento Barcelona, osteópata espalda Sarrià, tensión espalda estrés",
+      "keywords": "dorsalgia Barcelona, dolor de espalda alta Barcelona, dolor entre omóplatos, dolor dorsal tratamiento, dolor espalda alta estrés, dorsalgia Sarrià",
       "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/dorsalgia-dolor-espalda-alta.png",
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -259,15 +259,23 @@
           "name": "¿Qué relación tiene la respiración con el dolor dorsal?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Las costillas y la columna dorsal se mueven con cada respiración. Una respiración superficial y tensa sobrecarga la zona; recuperar una respiración amplia ayuda a soltarla."
+            "text": "La columna dorsal y las costillas se mueven con cada respiración. Una respiración superficial y tensa sobrecarga la zona; recuperar una respiración amplia ayuda a aliviarla."
           }
         },
         {
           "@type": "Question",
-          "name": "¿El estrés puede causar dolor de espalda alta?",
+          "name": "¿El estrés puede provocar dolor de espalda alta?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí. El estrés mantiene los músculos del cuello y la espalda alta en tensión. Si te sientes desbordado, consulta también nuestra página de estrés y ansiedad."
+            "text": "Sí. El estrés mantiene en tensión la musculatura del cuello y de la espalda alta y altera la respiración. Puede consultar también nuestra página de estrés y ansiedad."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuándo debo preocuparme por un dolor entre los omóplatos?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Si se acompaña de dolor en el pecho, falta de aire o sudoración, llame al 112. Si es constante, no cambia con el movimiento o se asocia a fiebre o pérdida de peso, consulte con su médico."
           }
         },
         {
@@ -275,7 +283,7 @@
           "name": "¿Cuántas sesiones necesitaré?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Depende de cada caso. En la primera visita valoramos tu situación y te proponemos un plan con objetivos claros."
+            "text": "Depende de cada caso. En la primera visita valoramos su situación y le proponemos un plan con objetivos claros y revisiones periódicas."
           }
         }
       ]

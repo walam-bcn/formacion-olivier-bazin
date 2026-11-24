@@ -165,7 +165,7 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "En què et puc ajudar?",
+          "name": "En què puc ser-li útil?",
           "item": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona"
         },
         {
@@ -181,7 +181,7 @@
       "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/dorsalgia-dolor-esquena-alta#webpage",
       "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/dorsalgia-dolor-esquena-alta",
       "name": "Dorsàlgia i dolor d'esquena alta a Barcelona | WA LAM",
-      "description": "Dorsàlgia a Sarrià–Sant Gervasi, Barcelona: dolor entre els omòplats i a l'esquena alta per postura, respiració o tensió. Abordatge integratiu.",
+      "description": "Dorsàlgia i dolor entre els omòplats a Sarrià–Sant Gervasi, Barcelona. Valoració clínica completa i un pla per fases per a la postura i la respiració.",
       "inLanguage": "ca-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -196,7 +196,7 @@
       },
       "lastReviewed": "2026-11-18",
       "dateModified": "2026-11-18",
-      "keywords": "dorsalgia Barcelona, dolor de espalda alta Barcelona, dolor entre omóplatos, dolor dorsal tratamiento Barcelona, osteópata espalda Sarrià, tensión espalda estrés",
+      "keywords": "dorsalgia Barcelona, dolor de espalda alta Barcelona, dolor entre omóplatos, dolor dorsal tratamiento, dolor espalda alta estrés, dorsalgia Sarrià",
       "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/dorsalgia-dolor-espalda-alta.png",
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -259,15 +259,23 @@
           "name": "Quina relació té la respiració amb el dolor dorsal?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Les costelles i la columna dorsal es mouen amb cada respiració. Una respiració superficial i tensa sobrecarrega la zona; recuperar una respiració àmplia ajuda a alliberar-la."
+            "text": "La columna dorsal i les costelles es mouen amb cada respiració. Una respiració superficial i tensa sobrecarrega la zona; recuperar una respiració àmplia ajuda a alleujar-la."
           }
         },
         {
           "@type": "Question",
-          "name": "L'estrès pot causar dolor d'esquena alta?",
+          "name": "L'estrès pot provocar dolor d'esquena alta?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí. L'estrès manté els músculs del coll i l'esquena alta en tensió. Si et sents desbordat, consulta també la nostra pàgina d'estrès i ansietat."
+            "text": "Sí. L'estrès manté en tensió la musculatura del coll i de l'esquena alta i altera la respiració. Pot consultar també la nostra pàgina d'estrès i ansietat."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quan m'he de preocupar per un dolor entre els omòplats?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Si s'acompanya de dolor al pit, falta d'aire o suor, truqui al 112. Si és constant, no canvia amb el moviment o s'associa a febre o pèrdua de pes, consulti el seu metge."
           }
         },
         {
@@ -275,7 +283,7 @@
           "name": "Quantes sessions necessitaré?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Depèn de cada cas. A la primera visita valorem la teva situació i et proposem un pla amb objectius clars."
+            "text": "Depèn de cada cas. A la primera visita valorem la seva situació i li proposem un pla amb objectius clars i revisions periòdiques."
           }
         }
       ]

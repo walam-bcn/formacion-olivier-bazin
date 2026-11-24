@@ -165,7 +165,7 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "¿En qué te puedo ayudar?",
+          "name": "¿En qué le puedo ayudar?",
           "item": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona"
         },
         {
@@ -181,7 +181,7 @@
       "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/torticolis#webpage",
       "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/torticolis",
       "name": "Tortícolis en Barcelona | WA LAM",
-      "description": "Tortícolis y dolor agudo de cuello en Sarrià–Sant Gervasi, Barcelona: terapia manual suave, calor, movilidad y pautas de postura y estrés para recuperarte.",
+      "description": "Tortícolis y dolor agudo de cuello en Sarrià–Sant Gervasi, Barcelona: síntomas, causas, signos de alarma y un abordaje integrativo con el método re:trace.",
       "inLanguage": "es-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -250,7 +250,7 @@
           "name": "¿Cuánto dura una tortícolis?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "La mayoría mejora en pocos días o en una o dos semanas. El tratamiento suave y mantener el movimiento ayudan a acortar ese tiempo."
+            "text": "La mayoría mejora en pocos días y se resuelve en una o dos semanas. Mantener el movimiento y aplicar calor local ayudan a acortar ese tiempo."
           }
         },
         {
@@ -258,7 +258,7 @@
           "name": "¿Es mejor el frío o el calor?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "En la tortícolis suele aliviar más el calor local, porque ayuda a relajar la musculatura. Aplícalo unos 15–20 minutos, varias veces al día."
+            "text": "En la tortícolis suele aliviar más el calor local, porque ayuda a relajar la musculatura. Puede aplicarlo unos 15–20 minutos, varias veces al día."
           }
         },
         {
@@ -271,10 +271,10 @@
         },
         {
           "@type": "Question",
-          "name": "¿Por qué me vuelve a pasar?",
+          "name": "¿Por qué se repite?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Los episodios repetidos suelen relacionarse con posturas mantenidas, falta de movilidad dorsal, mal descanso o estrés. Trabajamos esos factores para espaciarlos."
+            "text": "Los episodios repetidos suelen relacionarse con posturas mantenidas, falta de movilidad dorsal, mal descanso o estrés. Trabajar esos factores ayuda a espaciarlos."
           }
         }
       ]

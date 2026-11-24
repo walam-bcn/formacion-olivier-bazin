@@ -165,7 +165,7 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "En què et puc ajudar?",
+          "name": "En què puc ser-li útil?",
           "item": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona"
         },
         {
@@ -181,7 +181,7 @@
       "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/dolor-musculoesqueletic#webpage",
       "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/dolor-musculoesqueletic",
       "name": "Dolor musculoesquelètic a Barcelona | WA LAM",
-      "description": "Dolor musculoesquelètic a Sarrià–Sant Gervasi: contractures, sobrecàrregues, trencaments fibril·lars, esquinços, torticoli i lesions esportives.",
+      "description": "Dolor musculoesquelètic a Sarrià–Sant Gervasi, Barcelona: contractures, trencaments fibril·lars, esquinços i lesions esportives. Diagnòstic i tractament.",
       "inLanguage": "ca-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -219,12 +219,7 @@
       "about": {
         "@type": "MedicalCondition",
         "name": "Dolor musculoesquelètic",
-        "possibleTreatment": [
-          {
-            "@type": "MedicalTherapy",
-            "name": "Osteopatia"
-          }
-        ]
+        "possibleTreatment": []
       },
       "citation": [
         {
@@ -247,18 +242,34 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Quan he de consultar per un dolor muscular?",
+          "name": "Quina diferència hi ha entre una contractura i un trencament fibril·lar?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Si el dolor dura més d'unes quantes setmanes, es repeteix o t'impedeix fer la teva activitat habitual."
+            "text": "En la contractura el múscul està tens i adolorit, però sense trencament de fibres, i sol millorar en pocs dies. En el trencament fibril·lar hi ha un dany parcial de les fibres: el dolor és sobtat i intens, pot aparèixer un hematoma i la recuperació requereix diverses setmanes."
           }
         },
         {
           "@type": "Question",
-          "name": "Ateneu lesions esportives?",
+          "name": "Fred o calor?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí: sobrecàrregues, contractures, trencaments fibril·lars i esquinços, amb un retorn progressiu a l'activitat."
+            "text": "En les primeres 48–72 hores després d'una lesió aguda, fred local. En les contractures i en la fase de recuperació, la calor ajuda a relaxar la musculatura."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quan puc tornar a fer esport?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Quan la zona ja no fa mal en les activitats diàries i s'han recuperat la força i la mobilitat. La tornada ha de ser progressiva, i els terminis depenen del tipus i del grau de la lesió."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quan he de consultar per un dolor muscular?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Si el dolor dura més de dues o tres setmanes, es repeteix o li impedeix fer la seva activitat habitual. Davant d'una deformitat, la impossibilitat de recolzar o una pèrdua de força, vagi a urgències."
           }
         },
         {
@@ -266,7 +277,7 @@
           "name": "En què es diferencia del dolor articular i miofascial?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "El dolor musculoesquelètic se centra en el múscul i les lesions agudes o per sobrecàrrega; el dolor articular i miofascial inclou l'artrosi, les tendinopaties, la fibromiàlgia i les síndromes miofascials."
+            "text": "Aquesta pàgina se centra en les lesions musculars i de lligaments, agudes o per sobrecàrrega. El dolor articular i miofascial inclou l'artrosi, les tendinopaties i els punts gallet."
           }
         }
       ]

@@ -165,7 +165,7 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "En què et puc ajudar?",
+          "name": "En què puc ser-li útil?",
           "item": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona"
         },
         {
@@ -181,7 +181,7 @@
       "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/sindrome-tunel-carpia#webpage",
       "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/sindrome-tunel-carpia",
       "name": "Síndrome del túnel carpià a Barcelona | WA LAM",
-      "description": "Síndrome del túnel carpià a Sarrià–Sant Gervasi, Barcelona: formigueig nocturn a la mà, fèrula, mobilització neural, teràpia manual i acupuntura.",
+      "description": "Síndrome del túnel carpià a Sarrià–Sant Gervasi, Barcelona: formigueig a la mà, causes, diagnòstic i abordatge integratiu amb el mètode re:trace.",
       "inLanguage": "ca-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -260,7 +260,7 @@
           "name": "Quan cal operar el túnel carpià?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "La decisió correspon al teu metge. Es valora sobretot quan hi ha pèrdua de força, atròfia o una afectació important del nervi a les proves."
+            "text": "La cirurgia es valora sobretot quan hi ha pèrdua de força, atròfia del múscul de la base del polze o una afectació important del nervi a l'electromiograma, o si el tractament conservador no ha estat suficient."
           }
         },
         {
@@ -268,7 +268,7 @@
           "name": "Serveix la fèrula nocturna?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Mantenir el canell en posició neutra durant la nit redueix la pressió sobre el nervi i sol alleujar el formigueig nocturn."
+            "text": "Sí. Mantenir el canell en posició neutra durant la nit redueix la pressió sobre el nervi i sol alleujar el formigueig nocturn."
           }
         },
         {
@@ -276,15 +276,15 @@
           "name": "Pot tenir relació amb el coll?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí. El nervi medià neix a la regió cervical, i la tensió al coll o a l'espatlla pot sumar símptomes. Per això en valorem tot el recorregut. Si també tens dolor cervical, consulta cervicàlgia."
+            "text": "El nervi medià s'origina a les arrels cervicals, i la tensió al coll o a l'espatlla pot sumar símptomes. Per això se'n valora tot el recorregut. Si també té dolor cervical, consulti cervicàlgia."
           }
         },
         {
           "@type": "Question",
-          "name": "És freqüent durant l'embaràs o la menopausa?",
+          "name": "És freqüent en l'embaràs o la menopausa?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí, els canvis hormonals i la retenció de líquids l'afavoreixen. En l'embaràs sol millorar després del part."
+            "text": "Sí. Els canvis hormonals i la retenció de líquids l'afavoreixen. En l'embaràs sol millorar en les setmanes posteriors al part."
           }
         }
       ]

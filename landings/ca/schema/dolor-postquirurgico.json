@@ -165,7 +165,7 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "En què et puc ajudar?",
+          "name": "En què puc ser-li útil?",
           "item": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona"
         },
         {
@@ -180,8 +180,8 @@
       "@type": "MedicalWebPage",
       "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/dolor-postquirurgic#webpage",
       "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/dolor-postquirurgic",
-      "name": "Dolor postquirúrgic a Barcelona · Recuperació | WA LAM",
-      "description": "Dolor postquirúrgic persistent a Sarrià–Sant Gervasi: per què el dolor es manté després d'una cirurgia i com afecta la recuperació i la qualitat de vida.",
+      "name": "Dolor postquirúrgic a Barcelona | WA LAM",
+      "description": "Dolor postquirúrgic persistent a Sarrià–Sant Gervasi, Barcelona: per què es manté després d'una operació, com es diagnostica i com es tracta.",
       "inLanguage": "ca-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -196,7 +196,7 @@
       },
       "lastReviewed": "2026-11-18",
       "dateModified": "2026-11-18",
-      "keywords": "dolor postquirúrgic Barcelona, recuperació després de cirurgia Barcelona, dolor després d'operació de genoll, drenatge limfàtic postoperatori, cicatriu dolorosa, recuperació cirurgia estètica",
+      "keywords": "dolor postquirúrgic Barcelona, recuperació després de cirurgia Barcelona, dolor després d'operació de genoll, cicatriu dolorosa, dolor crónico postoperatorio, drenatge limfàtic postoperatori",
       "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/dolor-postquirurgico.png",
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -218,7 +218,7 @@
       },
       "about": {
         "@type": "MedicalCondition",
-        "name": "Dolor postoperatori",
+        "name": "Dolor postquirúrgico persistente",
         "possibleTreatment": [
           {
             "@type": "MedicalTherapy",
@@ -235,12 +235,6 @@
         },
         {
           "@type": "ScholarlyArticle",
-          "name": "Efficacy and safety of transcutaneous electrical nerve stimulation (TENS) for acute and chronic pain in adults: a systematic review and meta-analysis of 381 studies (the meta-TENS study)",
-          "url": "https://doi.org/10.1136/bmjopen-2021-051073",
-          "sameAs": "https://doi.org/10.1136/bmjopen-2021-051073"
-        },
-        {
-          "@type": "ScholarlyArticle",
           "name": "The Efficacy of Acupuncture in Post-Operative Pain Management: A Systematic Review and Meta-Analysis",
           "url": "https://doi.org/10.1371/journal.pone.0150367",
           "sameAs": "https://doi.org/10.1371/journal.pone.0150367"
@@ -253,18 +247,10 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Quines disciplines intervenen en l'abordatge del dolor?",
+          "name": "És normal tenir dolor mesos després d'una operació?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "L'osteopatia i l'acupuntura, integrades en un pla individual. Quan cal un programa de fisioteràpia, fem la derivació a un fisioterapeuta col·legiat."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "És normal tenir dolor mesos després d'operar-me?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "És més freqüent del que es creu: entre un 10 % i un 50 % de les persones mantenen dolor després de cirurgies habituals. Convé valorar-ho per evitar que es cronifiqui."
+            "text": "És més freqüent del que es creu: entre el 10 % i el 50 % de les persones mantenen algun grau de dolor després de cirurgies habituals. Convé valorar-lo aviat per evitar que es cronifiqui."
           }
         },
         {
@@ -272,15 +258,31 @@
           "name": "Quan puc començar després de l'operació?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Depèn de la intervenció i del que indiqui el teu cirurgià."
+            "text": "Depèn del tipus d'intervenció i dels terminis que li indiqui el seu cirurgià. A la primera visita valorem en quina fase de la recuperació es troba."
           }
         },
         {
           "@type": "Question",
-          "name": "I després d'una cirurgia oncològica?",
+          "name": "Per què em molesta la cicatriu al frec?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí, sempre amb autorització mèdica signada. Més informació a dolor oncològic."
+            "text": "És freqüent quan s'han lesionat petits nervis de la pell durant la cirurgia. Aquesta hipersensibilitat (al·lodínia) sol millorar amb un treball progressiu sobre la cicatriu i la regulació del dolor."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Atenen el dolor després d'una cirurgia oncològica?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí, sempre amb l'autorització del seu metge. Trobarà més informació a dolor oncològic."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Què he de portar a la primera visita?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "L'informe quirúrgic i les proves o informes mèdics recents que tingui. Ens ajuden a conèixer bé el seu cas."
           }
         }
       ]

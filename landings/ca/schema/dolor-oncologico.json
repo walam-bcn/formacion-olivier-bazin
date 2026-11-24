@@ -165,7 +165,7 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "En què et puc ajudar?",
+          "name": "En què puc ser-li útil?",
           "item": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona"
         },
         {
@@ -180,8 +180,8 @@
       "@type": "MedicalWebPage",
       "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/dolor-oncologic#webpage",
       "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/dolor-oncologic",
-      "name": "Dolor oncològic · Acompanyament integratiu | WA LAM",
-      "description": "Dolor oncològic a Sarrià–Sant Gervasi: dolor durant el tractament del càncer i després, i el seu impacte en la qualitat de vida. Acompanyament amb autorització mèdica.",
+      "name": "Dolor oncològic a Barcelona | WA LAM",
+      "description": "Dolor oncològic a Sarrià–Sant Gervasi, Barcelona: dolor durant i després del tractament del càncer. Atenció amb autorització mèdica i pla per fases.",
       "inLanguage": "ca-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -196,7 +196,7 @@
       },
       "lastReviewed": "2026-11-18",
       "dateModified": "2026-11-18",
-      "keywords": "dolor oncològic tractament integratiu Barcelona, dolor després del tractament del càncer, neuropatia per quimioteràpia, dolor després del càncer de mama, oncologia integrativa Barcelona",
+      "keywords": "dolor oncológico Barcelona, dolor després del tractament del càncer, neuropatia per quimioteràpia, dolor després del càncer de mama, oncologia integrativa Barcelona, acupuntura dolor oncológico",
       "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/dolor-oncologico.png",
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -253,18 +253,10 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Quines disciplines intervenen en l'abordatge del dolor?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "L'osteopatia i l'acupuntura, integrades en un pla individual. Quan cal un programa de fisioteràpia, fem la derivació a un fisioterapeuta col·legiat."
-          }
-        },
-        {
-          "@type": "Question",
           "name": "Què necessito per començar?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Un document signat pel teu metge que autoritzi el tractament. Sense aquesta autorització no et podem atendre."
+            "text": "Un document signat pel seu metge que autoritzi el tractament. És un requisit per a tots els pacients oncològics i ens permet tenir cura de la seva seguretat des del primer dia."
           }
         },
         {
@@ -272,7 +264,7 @@
           "name": "Puc venir durant la quimioteràpia o la radioteràpia?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Depèn de la teva situació i del que indiqui el teu metge. L'acompanyament s'adapta a cada fase del tractament."
+            "text": "Depèn de la seva situació i del que indiqui el seu metge. El pla s'adapta a cada fase del tractament i a com es trobi en cada moment."
           }
         },
         {
@@ -280,15 +272,23 @@
           "name": "I si el tractament ja ha acabat però el dolor continua?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "És freqüent: prop de quatre de cada deu persones mantenen dolor després del tractament. També et podem acompanyar en aquesta etapa, amb autorització mèdica."
+            "text": "És freqüent: prop de quatre de cada deu persones mantenen dolor després d'acabar el tractament. També l'atenem en aquesta etapa, amb l'autorització del seu metge."
           }
         },
         {
           "@type": "Question",
-          "name": "Substitueix el meu tractament oncològic?",
+          "name": "Què és la neuropatia per quimioteràpia?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. És un acompanyament complementari per alleujar el dolor i millorar la qualitat de vida."
+            "text": "És l'afectació dels nervis perifèrics per alguns fàrmacs. Es manifesta amb formigueig, adormiment, cremor o dolor a mans i peus, i en moltes persones millora de manera progressiva després del tractament."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Atenen el limfedema després d'una cirurgia oncològica?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí, amb autorització mèdica. Trobarà més informació a drenatge limfàtic en el limfedema."
           }
         }
       ]

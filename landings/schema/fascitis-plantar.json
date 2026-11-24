@@ -165,7 +165,7 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "¿En qué te puedo ayudar?",
+          "name": "¿En qué le puedo ayudar?",
           "item": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona"
         },
         {
@@ -181,7 +181,7 @@
       "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/fascitis-plantar#webpage",
       "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/fascitis-plantar",
       "name": "Fascitis plantar en Barcelona | WA LAM",
-      "description": "Fascitis plantar y dolor en el talón en Sarrià–Sant Gervasi, Barcelona: valoración, carga progresiva, terapia manual y acupuntura para volver a caminar.",
+      "description": "Fascitis plantar y dolor de talón en Sarrià–Sant Gervasi, Barcelona: síntomas, causas, diagnóstico y abordaje integrativo por fases con el método re:trace.",
       "inLanguage": "es-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -256,7 +256,7 @@
           "name": "¿Cuánto tarda en mejorar la fascitis plantar?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Depende del tiempo de evolución y de la carga diaria. Muchas personas notan mejoría en pocas semanas si ajustan la carga y hacen los ejercicios con constancia."
+            "text": "Depende del tiempo de evolución y de la carga diaria. Muchas personas notan mejoría en pocas semanas al ajustar la carga y hacer los ejercicios con constancia; la recuperación completa puede llevar varios meses."
           }
         },
         {
@@ -264,7 +264,15 @@
           "name": "¿Tengo que dejar de caminar o de correr?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No suele ser necesario dejarlo del todo. Ajustamos el volumen y la intensidad para que el tejido se recupere mientras mantienes la actividad."
+            "text": "Habitualmente no es necesario dejarlo del todo. Se ajustan el volumen y la intensidad para que el tejido se recupere mientras usted mantiene la actividad."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿El espolón calcáneo es la causa del dolor?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No necesariamente. El espolón es un hallazgo frecuente en la radiografía, también en personas sin dolor, y no suele cambiar el tratamiento."
           }
         },
         {
@@ -272,15 +280,7 @@
           "name": "¿Necesito plantillas?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No siempre. En la valoración vemos si una plantilla o un cambio de calzado pueden ayudarte en la fase de más dolor."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "¿Y si tengo un espolón calcáneo?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "El espolón es un hallazgo frecuente en la radiografía, también en personas sin dolor. El abordaje es el mismo: carga progresiva, terapia manual y ejercicio."
+            "text": "No siempre. En la valoración se estudia si una plantilla, una talonera o un cambio de calzado pueden ayudarle en la fase de más dolor."
           }
         }
       ]

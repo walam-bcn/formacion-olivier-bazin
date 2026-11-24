@@ -165,7 +165,7 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "En què et puc ajudar?",
+          "name": "En què puc ser-li útil?",
           "item": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona"
         },
         {
@@ -181,7 +181,7 @@
       "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/espatlla-dolorosa#webpage",
       "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/espatlla-dolorosa",
       "name": "Espatlla dolorosa a Barcelona | WA LAM",
-      "description": "Espatlla dolorosa a Sarrià–Sant Gervasi, Barcelona: capsulitis o espatlla congelada, bursitis i tendinitis del manegot dels rotadors. Abordatge integratiu.",
+      "description": "Espatlla dolorosa a Sarrià–Sant Gervasi, Barcelona: tendinopatia del manegot dels rotadors, bursitis i espatlla congelada. Valoració clínica i pla per fases.",
       "inLanguage": "ca-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -196,7 +196,7 @@
       },
       "lastReviewed": "2026-11-18",
       "dateModified": "2026-11-18",
-      "keywords": "dolor de hombro Barcelona, hombro congelado tratamiento, capsulitis adhesiva Barcelona, tendinitis manguito rotador, bursitis de hombro, dolor de hombro por la noche",
+      "keywords": "dolor de hombro Barcelona, hombro congelado tratamiento, capsulitis adhesiva Barcelona, tendinopatía manguito rotador, bursitis de hombro, dolor de hombro por la noche",
       "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/hombro-doloroso.png",
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -223,10 +223,6 @@
           {
             "@type": "MedicalTherapy",
             "name": "Osteopatia"
-          },
-          {
-            "@type": "MedicalTherapy",
-            "name": "Acupuntura i medicina tradicional xinesa"
           }
         ]
       },
@@ -254,7 +250,7 @@
           "name": "Quant dura una espatlla congelada?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "La capsulitis evoluciona per fases i pot durar mesos. Un pla adaptat a cada fase ajuda a controlar el dolor i a recuperar mobilitat."
+            "text": "La capsulitis adhesiva evoluciona per fases i pot durar d'un a tres anys. Un pla adaptat a cada fase ajuda a controlar el dolor i a recuperar la mobilitat."
           }
         },
         {
@@ -262,7 +258,7 @@
           "name": "He de deixar de moure l'espatlla si em fa mal?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No convé immobilitzar-la. Busquem el moviment que la teva espatlla tolera i l'ampliem a poc a poc."
+            "text": "No és aconsellable immobilitzar-la. Es busca el moviment que l'espatlla tolera i s'amplia de manera progressiva."
           }
         },
         {
@@ -270,15 +266,23 @@
           "name": "Necessito una ecografia o una ressonància?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No sempre. Si ja tens proves, porta-les a la primera visita. Si sospitem un trencament important, et recomanarem que et valori el teu metge."
+            "text": "No sempre. Si ja disposa de proves, porti-les a la primera visita. Si l'exploració suggereix un trencament important, li recomanarem completar l'estudi amb una prova d'imatge."
           }
         },
         {
           "@type": "Question",
-          "name": "Pot venir el dolor d'espatlla del coll?",
+          "name": "El dolor d'espatlla pot venir del coll?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí, de vegades. Per això valorem també la columna cervical i la dorsal."
+            "text": "Sí, en alguns casos. Per això s'explora també la columna cervical i la dorsal."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quina relació té amb la diabetis?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Les persones amb diabetis tenen més risc de capsulitis adhesiva. Un bon control metabòlic forma part de l'abordatge."
           }
         }
       ]

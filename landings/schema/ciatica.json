@@ -165,7 +165,7 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "¿En qué te puedo ayudar?",
+          "name": "¿En qué le puedo ayudar?",
           "item": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona"
         },
         {
@@ -181,7 +181,7 @@
       "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/ciatica#webpage",
       "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/ciatica",
       "name": "Ciática en Barcelona · Dolor irradiado | WA LAM",
-      "description": "Ciática en Sarrià–Sant Gervasi, Barcelona: dolor irradiado a la pierna por hernia discal. Acupuntura, terapia manual suave y ejercicio progresivo para aliviar el nervio.",
+      "description": "Ciática y dolor irradiado a la pierna en Sarrià–Sant Gervasi, Barcelona. Valoración clínica y un plan por fases para calmar el nervio y moverse mejor.",
       "inLanguage": "es-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -196,7 +196,7 @@
       },
       "lastReviewed": "2026-11-18",
       "dateModified": "2026-11-18",
-      "keywords": "ciática Barcelona, tratamiento ciática Barcelona, dolor nervio ciático, hernia discal ciática, acupuntura ciática Barcelona, osteópata ciática Sarrià",
+      "keywords": "ciática Barcelona, tratamiento ciática Barcelona, dolor nervio ciático, lumbociática tratamiento, ciática hernia discal, acupuntura ciática Barcelona",
       "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/ciatica.png",
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -223,10 +223,6 @@
           {
             "@type": "MedicalTherapy",
             "name": "Acupuntura y medicina tradicional china"
-          },
-          {
-            "@type": "MedicalTherapy",
-            "name": "Osteopatía"
           }
         ]
       },
@@ -251,10 +247,10 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "¿Cuánto tiempo tarda en notarse la mejoría?",
+          "name": "¿Cuánto tarda en mejorar la ciática?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Muchas personas notan alivio en las primeras semanas. El nervio necesita tiempo para calmarse, por eso avanzamos por fases y ajustamos el plan según cómo respondes."
+            "text": "La mayoría de las personas nota mejoría en las primeras semanas. El nervio necesita tiempo para calmarse, por lo que avanzamos por fases y ajustamos el plan según su evolución."
           }
         },
         {
@@ -262,15 +258,23 @@
           "name": "¿Es mejor hacer reposo?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "En general no. Mantenerse activo dentro de lo que toleras favorece la recuperación más que el reposo prolongado en cama."
+            "text": "En general, no. Mantenerse activo dentro de lo tolerable favorece la recuperación más que el reposo prolongado en cama."
           }
         },
         {
           "@type": "Question",
-          "name": "¿Puedo venir si tengo una hernia discal diagnosticada?",
+          "name": "¿Puedo acudir si tengo una hernia discal diagnosticada?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí. Trae tus pruebas a la primera visita. Si hay pérdida de fuerza o alteraciones de la sensibilidad que avanzan, primero debe valorarte tu médico."
+            "text": "Sí. Traiga sus pruebas a la primera visita y las revisamos junto con su historia clínica y la exploración."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿La ciática siempre necesita cirugía?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. La mayoría de los casos mejora con tratamiento conservador. La cirugía se plantea ante un déficit neurológico progresivo, un síndrome de cola de caballo o un dolor intenso que no responde tras varias semanas."
           }
         },
         {
@@ -278,7 +282,7 @@
           "name": "¿Cuántas sesiones necesitaré?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Depende de cada caso. En la primera visita valoramos tu situación y te proponemos un plan con objetivos claros."
+            "text": "Depende de cada caso. En la primera visita valoramos su situación y le proponemos un plan con objetivos claros y revisiones periódicas."
           }
         }
       ]

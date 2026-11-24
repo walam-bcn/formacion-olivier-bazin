@@ -165,7 +165,7 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "¿En qué te puedo ayudar?",
+          "name": "¿En qué le puedo ayudar?",
           "item": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona"
         },
         {
@@ -180,8 +180,8 @@
       "@type": "MedicalWebPage",
       "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/cefaleas-migrana#webpage",
       "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/cefaleas-migrana",
-      "name": "Migraña y cefaleas en Barcelona · Sarrià–Sant Gervasi | WA LAM",
-      "description": "Migraña, cefalea tensional y cefalea cervicogénica en Sarrià–Sant Gervasi, Barcelona. Acupuntura preventiva, técnicas manuales y regulación del estrés.",
+      "name": "Migraña y cefaleas en Barcelona | WA LAM",
+      "description": "Migraña, cefalea tensional y cefalea cervicogénica en Sarrià–Sant Gervasi, Barcelona. Valoración clínica y un plan preventivo integrativo por fases.",
       "inLanguage": "es-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -232,6 +232,18 @@
           "name": "Acupuncture for the prevention of episodic migraine",
           "url": "https://doi.org/10.1002/14651858.CD001218.pub3",
           "sameAs": "https://doi.org/10.1002/14651858.CD001218.pub3"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Acupuncture for the prevention of tension-type headache",
+          "url": "https://doi.org/10.1002/14651858.CD007587.pub2",
+          "sameAs": "https://doi.org/10.1002/14651858.CD007587.pub2"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Global, regional, and national burden of migraine and tension-type headache, 1990–2016: a systematic analysis for the Global Burden of Disease Study 2016",
+          "url": "https://doi.org/10.1016/S1474-4422(18)30322-3",
+          "sameAs": "https://doi.org/10.1016/S1474-4422(18)30322-3"
         }
       ]
     },
@@ -241,10 +253,10 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "¿Qué disciplinas intervienen en el abordaje del dolor?",
+          "name": "¿Cómo sé si tengo migraña o cefalea tensional?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "La osteopatía y la acupuntura, integradas en un plan individual. Cuando se requiere un programa de fisioterapia, realizamos la derivación a un fisioterapeuta colegiado."
+            "text": "La migraña suele ser pulsátil, de un lado, empeora al moverse y se acompaña de náuseas o molestia con la luz y el ruido. La cefalea tensional es una presión en ambos lados, más leve y sin náuseas. La valoración clínica permite diferenciarlas y descartar otras causas."
           }
         },
         {
@@ -252,23 +264,23 @@
           "name": "¿La acupuntura sirve para la migraña?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Según la revisión Cochrane de 2016, una pauta de al menos seis sesiones puede reducir la frecuencia de la migraña episódica, con resultados comparables a los fármacos preventivos."
+            "text": "La revisión Cochrane de 2016 concluyó que una pauta de al menos seis sesiones de acupuntura reduce la frecuencia de la migraña episódica, con resultados comparables a los de los fármacos preventivos."
           }
         },
         {
           "@type": "Question",
-          "name": "¿Tengo que dejar mi medicación?",
+          "name": "¿Qué papel tiene la alimentación?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. Cualquier cambio en la medicación lo decide tu médico."
+            "text": "El ayuno, el alcohol o algunos alimentos pueden desencadenar crisis en personas sensibles, aunque no en todas. El diario de cefaleas ayuda a identificar sus desencadenantes y a evitar restricciones innecesarias."
           }
         },
         {
           "@type": "Question",
-          "name": "¿Atendéis la cefalea cervicogénica?",
+          "name": "¿Qué debo traer a la primera visita?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí, con técnicas manuales de la región cervical, ejercicio y regulación del estrés."
+            "text": "Sus informes médicos, la lista de la medicación que toma y, si lo tiene, un registro de sus dolores de cabeza de las últimas semanas."
           }
         }
       ]

@@ -165,7 +165,7 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "¿En qué te puedo ayudar?",
+          "name": "¿En qué le puedo ayudar?",
           "item": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona"
         },
         {
@@ -181,7 +181,7 @@
       "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/dolor-articular-miofascial#webpage",
       "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/dolor-articular-miofascial",
       "name": "Dolor articular y miofascial en Barcelona | WA LAM",
-      "description": "Artrosis de rodilla, cadera y hombro, tendinopatías, fibromialgia y dolor miofascial en Sarrià–Sant Gervasi, Barcelona. Técnicas manuales y ejercicio.",
+      "description": "Dolor articular y miofascial en Sarrià–Sant Gervasi, Barcelona: artrosis, tendinopatías y puntos gatillo. Causas, diagnóstico, tratamiento y consejos.",
       "inLanguage": "es-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -196,7 +196,7 @@
       },
       "lastReviewed": "2026-11-18",
       "dateModified": "2026-11-18",
-      "keywords": "dolor articular Barcelona, artrosis de rodilla tratamiento Barcelona, dolor miofascial, tendinopatía Sarrià, fibromialgia tratamiento integrativo, dolor de hombro crónico",
+      "keywords": "dolor articular Barcelona, artrosis de rodilla tratamiento Barcelona, dolor miofascial, puntos gatillo tratamiento, tendinopatía Sarrià, dolor de hombro crónico",
       "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/dolor-articular-miofascial.png",
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -218,17 +218,8 @@
       },
       "about": {
         "@type": "MedicalCondition",
-        "name": "Artrosis",
-        "possibleTreatment": [
-          {
-            "@type": "MedicalTherapy",
-            "name": "Osteopatía"
-          },
-          {
-            "@type": "MedicalTherapy",
-            "name": "Acupuntura y medicina tradicional china"
-          }
-        ]
+        "name": "Dolor articular y miofascial",
+        "possibleTreatment": []
       },
       "citation": [
         {
@@ -251,10 +242,10 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "¿Qué disciplinas intervienen en el abordaje del dolor?",
+          "name": "¿Qué diferencia hay entre artrosis y artritis?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "La osteopatía y la acupuntura, integradas en un plan individual. Cuando se requiere un programa de fisioterapia, realizamos la derivación a un fisioterapeuta colegiado."
+            "text": "La artrosis es un proceso degenerativo del cartílago, con un dolor que empeora con el uso. La artritis es una inflamación de la articulación, con hinchazón, calor y rigidez matutina prolongada, y requiere una valoración médica para conocer su causa."
           }
         },
         {
@@ -262,23 +253,31 @@
           "name": "¿Puedo hacer ejercicio si tengo artrosis?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí. El ejercicio adaptado es uno de los tratamientos más eficaces en la artrosis. Lo ajustamos a tu articulación, tu nivel y tu dolor."
+            "text": "Sí. El ejercicio adaptado es una de las medidas con más respaldo científico en la artrosis. Lo ajustamos a su articulación, a su nivel físico y a la fase de su dolor."
           }
         },
         {
           "@type": "Question",
-          "name": "¿Atendéis el dolor deportivo?",
+          "name": "¿Qué es un punto gatillo?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí: tendinopatías, sobrecargas y dolor muscular relacionado con el deporte, con un plan de vuelta progresiva a la actividad."
+            "text": "Es una zona hipersensible dentro de un músculo, palpable como un nódulo o una banda tensa. Al presionarla reproduce el dolor de la persona, a veces a distancia del propio punto."
           }
         },
         {
           "@type": "Question",
-          "name": "¿Y la fibromialgia?",
+          "name": "¿Es lo mismo el dolor miofascial que la fibromialgia?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí, con un abordaje que combina actividad física gradual, regulación del sueño y del estrés, técnicas manuales y nutrición antiinflamatoria."
+            "text": "No. El dolor miofascial es regional y se relaciona con puntos gatillo concretos; la fibromialgia cursa con dolor generalizado, fatiga y sueño no reparador."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Necesito una radiografía antes de la primera visita?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No es imprescindible. Si dispone de pruebas o informes recientes, tráigalos; si hicieran falta otras pruebas, se lo indicaremos."
           }
         }
       ]

@@ -165,7 +165,7 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "En què et puc ajudar?",
+          "name": "En què puc ser-li útil?",
           "item": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona"
         },
         {
@@ -181,7 +181,7 @@
       "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/contractures-estrips-musculars#webpage",
       "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/contractures-estrips-musculars",
       "name": "Contractures i estrips a Barcelona | WA LAM",
-      "description": "Contractures, estrips musculars i esquinços lleus a Sarrià–Sant Gervasi, Barcelona: recuperació activa, teràpia manual i retorn segur a la teva activitat.",
+      "description": "Contractures, sobrecàrregues i trencaments fibril·lars a Sarrià–Sant Gervasi, Barcelona: valoració clínica, càrrega progressiva i retorn segur a l'activitat.",
       "inLanguage": "ca-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -196,7 +196,7 @@
       },
       "lastReviewed": "2026-11-18",
       "dateModified": "2026-11-18",
-      "keywords": "contractura muscular Barcelona, rotura fibrilar tratamiento Barcelona, desgarro muscular recuperación, esguince de tobillo leve Barcelona, osteopatía contractura Sarrià, lesión deportiva Sant Gervasi",
+      "keywords": "contractura muscular Barcelona, rotura fibrilar tratamiento Barcelona, desgarro muscular recuperación, sobrecarga muscular Barcelona, contractura cervical, lesión deportiva Sant Gervasi",
       "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/contracturas-desgarros-musculares.png",
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -222,11 +222,11 @@
         "possibleTreatment": [
           {
             "@type": "MedicalTherapy",
-            "name": "Osteopatia"
+            "name": "Massatges"
           },
           {
             "@type": "MedicalTherapy",
-            "name": "Massatges"
+            "name": "Osteopatia"
           }
         ]
       },
@@ -242,12 +242,6 @@
           "name": "The effectiveness of exercise interventions to prevent sports injuries: a systematic review and meta-analysis of randomised controlled trials",
           "url": "https://doi.org/10.1136/bjsports-2013-092538",
           "sameAs": "https://doi.org/10.1136/bjsports-2013-092538"
-        },
-        {
-          "@type": "ScholarlyArticle",
-          "name": "Diagnosis, treatment and prevention of ankle sprains: update of an evidence-based clinical guideline",
-          "url": "https://doi.org/10.1136/bjsports-2017-098106",
-          "sameAs": "https://doi.org/10.1136/bjsports-2017-098106"
         }
       ]
     },
@@ -260,7 +254,7 @@
           "name": "És millor el repòs absolut després d'un trencament fibril·lar?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Els primers dies convé protegir la zona, però el múscul es recupera millor amb una càrrega progressiva i ben dosificada. T'indiquem què fer en cada fase."
+            "text": "Els primers dies convé protegir la zona. Després, el múscul es repara millor amb una càrrega progressiva i ben dosificada."
           }
         },
         {
@@ -268,15 +262,15 @@
           "name": "Quan podré tornar a fer esport?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Depèn del tipus de lesió i de la teva activitat. Marquem criteris clars de força, mobilitat i absència de dolor perquè el retorn sigui segur."
+            "text": "Depèn del grau de la lesió i de la seva activitat. El retorn es decideix amb criteris de força, mobilitat i absència de dolor."
           }
         },
         {
           "@type": "Question",
-          "name": "Ateneu esquinços de turmell?",
+          "name": "És millor aplicar calor o fred?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí, els esquinços lleus i les molèsties que queden després d'un esquinç. Si no pots recolzar el peu, primer t'ha de valorar un metge."
+            "text": "En un trencament recent, fred durant els primers dies. En una contractura, la calor local sol alleujar la tensió."
           }
         },
         {
@@ -284,7 +278,15 @@
           "name": "Per què es repeteixen les meves contractures?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Hi solen influir la sobrecàrrega, les postures mantingudes, la manca de força, l'estrès i el descans. Revisem tots aquests factors per reduir les recaigudes."
+            "text": "Hi solen influir la sobrecàrrega, les postures mantingudes, la manca de força, l'estrès i el descans. Per això es revisen tots aquests factors."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "I si el que tinc és una torçada de turmell?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Les lesions de lligaments es tracten de manera específica. Pot consultar la pàgina d'esquinços."
           }
         }
       ]

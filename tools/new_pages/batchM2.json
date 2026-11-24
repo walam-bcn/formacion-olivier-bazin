@@ -1,0 +1,1304 @@
+[
+ {
+  "slug": "artrosis",
+  "ca_slug": "artrosi",
+  "nav": "Artrosis",
+  "card": "Dolor y rigidez articular en rodilla, cadera, manos o columna, con un plan por fases centrado en el movimiento.",
+  "title": "Artrosis en Barcelona | WA LAM",
+  "desc": "Artrosis de rodilla, cadera, manos y columna en Sarrià–Sant Gervasi, Barcelona: valoración clínica, ejercicio terapéutico y un plan integrativo por fases.",
+  "h1": "Artrosis en Barcelona: dolor y rigidez articular",
+  "sub": "Rodilla, cadera, manos y columna · Sarrià–Sant Gervasi",
+  "lead": "La artrosis es la enfermedad articular más frecuente. Afecta sobre todo a rodillas, caderas, manos y columna, y se manifiesta con dolor al moverse y rigidez. Un plan de movimiento y hábitos bien dosificado le ayuda a mantener la función y a reducir el dolor.",
+  "facts_title": "En WA LAM",
+  "facts": [
+   "Rodilla, cadera, manos y columna",
+   "Plan por fases con el método re:trace",
+   "Primera visita: 60 min · 90 €"
+  ],
+  "wa": "Hola, me gustaría información sobre el abordaje de la artrosis.",
+  "mirror": {
+   "h2": "¿Se reconoce en estos síntomas?",
+   "qs": [
+    "¿Le duele la rodilla o la cadera al caminar, subir escaleras o levantarse de una silla?",
+    "¿Nota rigidez al levantarse por la mañana que mejora en menos de media hora?",
+    "¿Tiene dolor o nódulos en los dedos y le cuesta abrir un bote o girar una llave?",
+    "¿Percibe crujidos en la articulación o un dolor que empeora al final del día?"
+   ],
+   "close": "Consulte a su médico sin demora o acuda a urgencias si una articulación se hincha de forma brusca, está roja y caliente, aparece fiebre o no puede apoyar la pierna tras una caída."
+  },
+  "explain": {
+   "h2": "¿Qué es la artrosis?",
+   "paras": [
+    "La artrosis u osteoartritis es una enfermedad degenerativa de la articulación. Se caracteriza por la pérdida progresiva del cartílago que recubre los extremos de los huesos, con cambios en el hueso subcondral, la membrana sinovial y los ligamentos. Popularmente se conoce como «desgaste» articular.",
+    "Cursa con dolor de tipo mecánico, que aparece con el uso y se alivia con el reposo, y con rigidez matutina breve, habitualmente de menos de 30 minutos. Evoluciona lentamente, a lo largo de años, con periodos de más y de menos dolor.",
+    "Es la enfermedad articular más frecuente y su prevalencia aumenta a partir de los 50 años, sobre todo en mujeres. Los cambios radiológicos son muy habituales con la edad y no siempre se corresponden con la intensidad del dolor."
+   ]
+  },
+  "sections": [
+   {
+    "h2": "Causas y factores de riesgo",
+    "paras": [
+     "La artrosis no tiene una causa única. Resulta de la combinación de factores generales y locales que alteran el equilibrio entre la carga que recibe la articulación y su capacidad de reparación."
+    ],
+    "list_title": "Principales factores de riesgo",
+    "list": [
+     "Edad, a partir de los 50 años",
+     "Sexo femenino y cambios hormonales de la menopausia",
+     "Sobrepeso y obesidad, sobre todo en rodilla y cadera",
+     "Lesiones articulares previas: fracturas, roturas de menisco o de ligamentos",
+     "Sobrecarga mecánica repetida por el trabajo o el deporte",
+     "Debilidad muscular y factores genéticos"
+    ]
+   },
+   {
+    "h2": "¿Cómo se diagnostica?",
+    "paras": [
+     "El diagnóstico es fundamentalmente clínico. Se basa en la historia de los síntomas (cuándo aparece el dolor, cuánto dura la rigidez, qué actividades limita) y en la exploración de la articulación: movilidad, crepitación, inflamación, alineación y fuerza muscular.",
+     "La radiografía puede confirmar el estrechamiento del espacio articular y los osteofitos, aunque no siempre es necesaria. Los análisis y otras pruebas se reservan para descartar otras enfermedades, como la artritis inflamatoria o la gota."
+    ]
+   },
+   {
+    "h2": "Tratamiento",
+    "paras": [
+     "El tratamiento es escalonado y empieza siempre por las medidas conservadoras: información sobre la enfermedad, ejercicio terapéutico de fuerza y movilidad, control del peso y adaptación de las actividades. Son la base del tratamiento en cualquier fase.",
+     "Cuando el dolor lo requiere, pueden añadirse analgésicos o antiinflamatorios durante periodos limitados. Las infiltraciones se reservan para los brotes que no responden, y la prótesis articular se plantea en fases avanzadas con dolor y limitación importantes."
+    ]
+   },
+   {
+    "h2": "Recomendaciones para el día a día",
+    "paras": [
+     "Algunos hábitos sencillos ayudan a proteger la articulación y a controlar el dolor."
+    ],
+    "list": [
+     "Mantenerse activo cada día: caminar, nadar o ir en bicicleta son buenas opciones.",
+     "Fortalecer la musculatura que rodea la articulación con ejercicios adaptados a su nivel.",
+     "Repartir las tareas exigentes a lo largo del día y alternar actividad y descanso.",
+     "Cuidar el peso corporal para reducir la carga sobre rodillas y caderas.",
+     "Utilizar calzado cómodo y con buena amortiguación.",
+     "Aplicar calor local para la rigidez y frío si la articulación está inflamada."
+    ]
+   }
+  ],
+  "cards": {
+   "h2": "Cómo lo abordamos en WA LAM",
+   "items": [
+    {
+     "k": "Método re:trace",
+     "h": "Un plan integrativo por fases",
+     "p": "Abordamos la artrosis con el [método re:trace](programas-re-trace): una valoración clínica completa y un plan por fases que integra todo lo que influye en su caso."
+    },
+    {
+     "k": "Movimiento y fuerza",
+     "h": "Ejercicio terapéutico progresivo",
+     "p": "Pautamos ejercicio de fuerza y movilidad adaptado a cada articulación para reducir el dolor y mantener la función."
+    },
+    {
+     "k": "Peso e inflamación",
+     "h": "Alimentación y composición corporal",
+     "p": "Cuando conviene, trabajamos la alimentación y el peso para disminuir la carga articular y la inflamación de bajo grado."
+    }
+   ]
+  },
+  "evidence": {
+   "h2": "Qué dice la evidencia",
+   "items": [
+    [
+     "Revisión Cochrane",
+     "En la artrosis de rodilla, el ejercicio terapéutico reduce el dolor y mejora la función física (Fransen et al., Cochrane, 2015)."
+    ],
+    [
+     "Guía clínica (ACR)",
+     "La guía del American College of Rheumatology recomienda el ejercicio, la pérdida de peso, el tai chi y la acupuntura en la artrosis de rodilla, cadera y mano (Kolasinski et al., Arthritis Care Res, 2020)."
+    ],
+    [
+     "Ensayo clínico (JAMA)",
+     "En personas con sobrepeso y artrosis de rodilla, la combinación de dieta y ejercicio redujo el dolor y mejoró la función (Messier et al., JAMA, 2013)."
+    ]
+   ],
+   "refs": [
+    {
+     "t": "Fransen M, McConnell S, Harmer AR, Van der Esch M, Simic M, Bennell KL, 2015. «Exercise for osteoarthritis of the knee». Cochrane Database of Systematic Reviews.",
+     "doi": "10.1002/14651858.CD004376.pub3"
+    },
+    {
+     "t": "Kolasinski SL, Neogi T, Hochberg MC, et al., 2020. «2019 American College of Rheumatology/Arthritis Foundation Guideline for the Management of Osteoarthritis of the Hand, Hip, and Knee». Arthritis Care & Research.",
+     "doi": "10.1002/acr.24131"
+    },
+    {
+     "t": "Messier SP, Mihalko SL, Legault C, et al., 2013. «Effects of intensive diet and exercise on knee joint loads, inflammation, and clinical outcomes among overweight and obese adults with knee osteoarthritis: the IDEA randomized clinical trial». JAMA.",
+     "doi": "10.1001/jama.2013.277669"
+    }
+   ]
+  },
+  "faq": [
+   [
+    "¿Puedo hacer ejercicio si tengo artrosis?",
+    "Sí. El ejercicio adaptado es uno de los pilares del tratamiento. Se ajusta a la articulación afectada, a su condición física y al dolor de cada momento."
+   ],
+   [
+    "¿Perder peso alivia el dolor?",
+    "En la artrosis de rodilla y de cadera, reducir el exceso de peso disminuye la carga sobre la articulación y suele mejorar el dolor y la función."
+   ],
+   [
+    "¿La artrosis de manos y de columna también se puede tratar?",
+    "Sí. Cada localización requiere un plan propio. Si el dolor es sobre todo lumbar, puede consultar también la página de [lumbalgia](lumbalgia-dolor-lumbar)."
+   ],
+   [
+    "¿Tiene sentido si ya me han propuesto una prótesis?",
+    "Sí. Llegar a la cirugía con más fuerza y movilidad favorece la recuperación posterior."
+   ],
+   [
+    "¿Es normal que me duela más con el frío?",
+    "Muchas personas notan más rigidez con el frío y la humedad. El calor local y mantener la actividad suelen aliviarla."
+   ]
+  ],
+  "related": [
+   "dolor-rodilla-condromalacia",
+   "hombro-doloroso",
+   "perdida-de-peso-sarria-sant-gervasi",
+   "dolor-articular-miofascial"
+  ],
+  "cta_h2": "Le ayudamos a moverse con menos dolor",
+  "seo": {
+   "kw": "artrosis Barcelona",
+   "kws": [
+    "artrosis de rodilla tratamiento",
+    "artrosis de cadera ejercicios",
+    "artrosis de manos",
+    "rigidez articular",
+    "dolor articular Barcelona"
+   ],
+   "ca_kw": "artrosi Barcelona",
+   "quick": "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), abordamos la artrosis de rodilla, cadera, manos y columna con el método re:trace: valoración clínica completa, ejercicio terapéutico y un plan por fases. El objetivo es reducir el dolor y la rigidez y mantener la movilidad.",
+   "entity": [
+    "MedicalCondition",
+    "Artrosis"
+   ]
+  },
+  "research": [
+   "Personas con artrosis diagnosticada que buscan aliviar el dolor y mantener la movilidad.",
+   [
+    "artrosis de rodilla tratamiento Barcelona",
+    "ejercicios para la artrosis de cadera",
+    "rigidez articular por la mañana"
+   ],
+   [
+    "artrosi genoll Barcelona",
+    "artrosi tractament"
+   ],
+   "Clínicas de traumatología, fisioterapia y medicina regenerativa, y portales de salud generalistas."
+  ],
+  "ca": {
+   "Artrosis": "Artrosi",
+   "Dolor y rigidez articular en rodilla, cadera, manos o columna, con un plan por fases centrado en el movimiento.": "Dolor i rigidesa articular al genoll, el maluc, les mans o la columna, amb un pla per fases centrat en el moviment.",
+   "Artrosis en Barcelona | WA LAM": "Artrosi a Barcelona | WA LAM",
+   "Artrosis de rodilla, cadera, manos y columna en Sarrià–Sant Gervasi, Barcelona: valoración clínica, ejercicio terapéutico y un plan integrativo por fases.": "Artrosi de genoll, maluc, mans i columna a Sarrià–Sant Gervasi, Barcelona: valoració clínica, exercici terapèutic i un pla integratiu per fases.",
+   "Artrosis en Barcelona: dolor y rigidez articular": "Artrosi a Barcelona: dolor i rigidesa articular",
+   "Rodilla, cadera, manos y columna · Sarrià–Sant Gervasi": "Genoll, maluc, mans i columna · Sarrià–Sant Gervasi",
+   "La artrosis es la enfermedad articular más frecuente. Afecta sobre todo a rodillas, caderas, manos y columna, y se manifiesta con dolor al moverse y rigidez. Un plan de movimiento y hábitos bien dosificado le ayuda a mantener la función y a reducir el dolor.": "L'artrosi és la malaltia articular més freqüent. Afecta sobretot els genolls, els malucs, les mans i la columna, i es manifesta amb dolor en moure's i rigidesa. Un pla de moviment i hàbits ben dosificat l'ajuda a mantenir la funció i a reduir el dolor.",
+   "En WA LAM": "A WA LAM",
+   "Rodilla, cadera, manos y columna": "Genoll, maluc, mans i columna",
+   "Plan por fases con el método re:trace": "Pla per fases amb el mètode re:trace",
+   "Primera visita: 60 min · 90 €": "Primera visita: 60 min · 90 €",
+   "Hola, me gustaría información sobre el abordaje de la artrosis.": "Hola, m'agradaria informació sobre l'abordatge de l'artrosi.",
+   "¿Se reconoce en estos síntomas?": "Es reconeix en aquests símptomes?",
+   "¿Le duele la rodilla o la cadera al caminar, subir escaleras o levantarse de una silla?": "Li fa mal el genoll o el maluc en caminar, pujar escales o aixecar-se d'una cadira?",
+   "¿Nota rigidez al levantarse por la mañana que mejora en menos de media hora?": "Nota rigidesa en llevar-se al matí que millora en menys de mitja hora?",
+   "¿Tiene dolor o nódulos en los dedos y le cuesta abrir un bote o girar una llave?": "Té dolor o nòduls als dits i li costa obrir un pot o girar una clau?",
+   "¿Percibe crujidos en la articulación o un dolor que empeora al final del día?": "Percep cruixits a l'articulació o un dolor que empitjora al final del dia?",
+   "Consulte a su médico sin demora o acuda a urgencias si una articulación se hincha de forma brusca, está roja y caliente, aparece fiebre o no puede apoyar la pierna tras una caída.": "Consulti el seu metge sense demora o vagi a urgències si una articulació s'inflama de manera brusca, està vermella i calenta, apareix febre o no pot recolzar la cama després d'una caiguda.",
+   "¿Qué es la artrosis?": "Què és l'artrosi?",
+   "La artrosis u osteoartritis es una enfermedad degenerativa de la articulación. Se caracteriza por la pérdida progresiva del cartílago que recubre los extremos de los huesos, con cambios en el hueso subcondral, la membrana sinovial y los ligamentos. Popularmente se conoce como «desgaste» articular.": "L'artrosi o osteoartritis és una malaltia degenerativa de l'articulació. Es caracteritza per la pèrdua progressiva del cartílag que recobreix els extrems dels ossos, amb canvis en l'os subcondral, la membrana sinovial i els lligaments. Popularment es coneix com a «desgast» articular.",
+   "Cursa con dolor de tipo mecánico, que aparece con el uso y se alivia con el reposo, y con rigidez matutina breve, habitualmente de menos de 30 minutos. Evoluciona lentamente, a lo largo de años, con periodos de más y de menos dolor.": "Cursa amb dolor de tipus mecànic, que apareix amb l'ús i s'alleuja amb el repòs, i amb rigidesa matinal breu, habitualment de menys de 30 minuts. Evoluciona lentament, al llarg d'anys, amb períodes de més i de menys dolor.",
+   "Es la enfermedad articular más frecuente y su prevalencia aumenta a partir de los 50 años, sobre todo en mujeres. Los cambios radiológicos son muy habituales con la edad y no siempre se corresponden con la intensidad del dolor.": "És la malaltia articular més freqüent i la seva prevalença augmenta a partir dels 50 anys, sobretot en dones. Els canvis radiològics són molt habituals amb l'edat i no sempre es corresponen amb la intensitat del dolor.",
+   "Causas y factores de riesgo": "Causes i factors de risc",
+   "La artrosis no tiene una causa única. Resulta de la combinación de factores generales y locales que alteran el equilibrio entre la carga que recibe la articulación y su capacidad de reparación.": "L'artrosi no té una causa única. Resulta de la combinació de factors generals i locals que alteren l'equilibri entre la càrrega que rep l'articulació i la seva capacitat de reparació.",
+   "Principales factores de riesgo": "Principals factors de risc",
+   "Edad, a partir de los 50 años": "Edat, a partir dels 50 anys",
+   "Sexo femenino y cambios hormonales de la menopausia": "Sexe femení i canvis hormonals de la menopausa",
+   "Sobrepeso y obesidad, sobre todo en rodilla y cadera": "Sobrepès i obesitat, sobretot al genoll i al maluc",
+   "Lesiones articulares previas: fracturas, roturas de menisco o de ligamentos": "Lesions articulars prèvies: fractures, trencaments de menisc o de lligaments",
+   "Sobrecarga mecánica repetida por el trabajo o el deporte": "Sobrecàrrega mecànica repetida per la feina o l'esport",
+   "Debilidad muscular y factores genéticos": "Debilitat muscular i factors genètics",
+   "¿Cómo se diagnostica?": "Com es diagnostica?",
+   "El diagnóstico es fundamentalmente clínico. Se basa en la historia de los síntomas (cuándo aparece el dolor, cuánto dura la rigidez, qué actividades limita) y en la exploración de la articulación: movilidad, crepitación, inflamación, alineación y fuerza muscular.": "El diagnòstic és fonamentalment clínic. Es basa en la història dels símptomes (quan apareix el dolor, quant dura la rigidesa, quines activitats limita) i en l'exploració de l'articulació: mobilitat, crepitació, inflamació, alineació i força muscular.",
+   "La radiografía puede confirmar el estrechamiento del espacio articular y los osteofitos, aunque no siempre es necesaria. Los análisis y otras pruebas se reservan para descartar otras enfermedades, como la artritis inflamatoria o la gota.": "La radiografia pot confirmar l'estrenyiment de l'espai articular i els osteòfits, tot i que no sempre és necessària. Les anàlisis i altres proves es reserven per descartar altres malalties, com l'artritis inflamatòria o la gota.",
+   "Tratamiento": "Tractament",
+   "El tratamiento es escalonado y empieza siempre por las medidas conservadoras: información sobre la enfermedad, ejercicio terapéutico de fuerza y movilidad, control del peso y adaptación de las actividades. Son la base del tratamiento en cualquier fase.": "El tractament és esglaonat i comença sempre per les mesures conservadores: informació sobre la malaltia, exercici terapèutic de força i mobilitat, control del pes i adaptació de les activitats. Són la base del tractament en qualsevol fase.",
+   "Cuando el dolor lo requiere, pueden añadirse analgésicos o antiinflamatorios durante periodos limitados. Las infiltraciones se reservan para los brotes que no responden, y la prótesis articular se plantea en fases avanzadas con dolor y limitación importantes.": "Quan el dolor ho requereix, s'hi poden afegir analgèsics o antiinflamatoris durant períodes limitats. Les infiltracions es reserven per als brots que no responen, i la pròtesi articular es planteja en fases avançades amb dolor i limitació importants.",
+   "Recomendaciones para el día a día": "Recomanacions per al dia a dia",
+   "Algunos hábitos sencillos ayudan a proteger la articulación y a controlar el dolor.": "Alguns hàbits senzills ajuden a protegir l'articulació i a controlar el dolor.",
+   "Mantenerse activo cada día: caminar, nadar o ir en bicicleta son buenas opciones.": "Mantenir-se actiu cada dia: caminar, nedar o anar en bicicleta són bones opcions.",
+   "Fortalecer la musculatura que rodea la articulación con ejercicios adaptados a su nivel.": "Enfortir la musculatura que envolta l'articulació amb exercicis adaptats al seu nivell.",
+   "Repartir las tareas exigentes a lo largo del día y alternar actividad y descanso.": "Repartir les tasques exigents al llarg del dia i alternar activitat i descans.",
+   "Cuidar el peso corporal para reducir la carga sobre rodillas y caderas.": "Tenir cura del pes corporal per reduir la càrrega sobre els genolls i els malucs.",
+   "Utilizar calzado cómodo y con buena amortiguación.": "Utilitzar calçat còmode i amb bon esmorteïment.",
+   "Aplicar calor local para la rigidez y frío si la articulación está inflamada.": "Aplicar calor local per a la rigidesa i fred si l'articulació està inflamada.",
+   "Cómo lo abordamos en WA LAM": "Com ho abordem a WA LAM",
+   "Método re:trace": "Mètode re:trace",
+   "Un plan integrativo por fases": "Un pla integratiu per fases",
+   "Abordamos la artrosis con el [método re:trace](programas-re-trace): una valoración clínica completa y un plan por fases que integra todo lo que influye en su caso.": "Abordem l'artrosi amb el [mètode re:trace](programas-re-trace): una valoració clínica completa i un pla per fases que integra tot allò que influeix en el seu cas.",
+   "Movimiento y fuerza": "Moviment i força",
+   "Ejercicio terapéutico progresivo": "Exercici terapèutic progressiu",
+   "Pautamos ejercicio de fuerza y movilidad adaptado a cada articulación para reducir el dolor y mantener la función.": "Pautem exercici de força i mobilitat adaptat a cada articulació per reduir el dolor i mantenir la funció.",
+   "Peso e inflamación": "Pes i inflamació",
+   "Alimentación y composición corporal": "Alimentació i composició corporal",
+   "Cuando conviene, trabajamos la alimentación y el peso para disminuir la carga articular y la inflamación de bajo grado.": "Quan convé, treballem l'alimentació i el pes per disminuir la càrrega articular i la inflamació de baix grau.",
+   "Qué dice la evidencia": "Què diu l'evidència",
+   "Revisión Cochrane": "Revisió Cochrane",
+   "En la artrosis de rodilla, el ejercicio terapéutico reduce el dolor y mejora la función física (Fransen et al., Cochrane, 2015).": "En l'artrosi de genoll, l'exercici terapèutic redueix el dolor i millora la funció física (Fransen et al., Cochrane, 2015).",
+   "Guía clínica (ACR)": "Guia clínica (ACR)",
+   "La guía del American College of Rheumatology recomienda el ejercicio, la pérdida de peso, el tai chi y la acupuntura en la artrosis de rodilla, cadera y mano (Kolasinski et al., Arthritis Care Res, 2020).": "La guia de l'American College of Rheumatology recomana l'exercici, la pèrdua de pes, el tai-txi i l'acupuntura en l'artrosi de genoll, maluc i mà (Kolasinski et al., Arthritis Care Res, 2020).",
+   "Ensayo clínico (JAMA)": "Assaig clínic (JAMA)",
+   "En personas con sobrepeso y artrosis de rodilla, la combinación de dieta y ejercicio redujo el dolor y mejoró la función (Messier et al., JAMA, 2013).": "En persones amb sobrepès i artrosi de genoll, la combinació de dieta i exercici va reduir el dolor i va millorar la funció (Messier et al., JAMA, 2013).",
+   "¿Puedo hacer ejercicio si tengo artrosis?": "Puc fer exercici si tinc artrosi?",
+   "Sí. El ejercicio adaptado es uno de los pilares del tratamiento. Se ajusta a la articulación afectada, a su condición física y al dolor de cada momento.": "Sí. L'exercici adaptat és un dels pilars del tractament. S'ajusta a l'articulació afectada, a la seva condició física i al dolor de cada moment.",
+   "¿Perder peso alivia el dolor?": "Perdre pes alleuja el dolor?",
+   "En la artrosis de rodilla y de cadera, reducir el exceso de peso disminuye la carga sobre la articulación y suele mejorar el dolor y la función.": "En l'artrosi de genoll i de maluc, reduir l'excés de pes disminueix la càrrega sobre l'articulació i sol millorar el dolor i la funció.",
+   "¿La artrosis de manos y de columna también se puede tratar?": "L'artrosi de mans i de columna també es pot tractar?",
+   "Sí. Cada localización requiere un plan propio. Si el dolor es sobre todo lumbar, puede consultar también la página de [lumbalgia](lumbalgia-dolor-lumbar).": "Sí. Cada localització requereix un pla propi. Si el dolor és sobretot lumbar, pot consultar també la pàgina de [lumbàlgia](lumbalgia-dolor-lumbar).",
+   "¿Tiene sentido si ya me han propuesto una prótesis?": "Té sentit si ja m'han proposat una pròtesi?",
+   "Sí. Llegar a la cirugía con más fuerza y movilidad favorece la recuperación posterior.": "Sí. Arribar a la cirurgia amb més força i mobilitat afavoreix la recuperació posterior.",
+   "¿Es normal que me duela más con el frío?": "És normal que em faci més mal amb el fred?",
+   "Muchas personas notan más rigidez con el frío y la humedad. El calor local y mantener la actividad suelen aliviarla.": "Moltes persones noten més rigidesa amb el fred i la humitat. La calor local i mantenir l'activitat solen alleujar-la.",
+   "Le ayudamos a moverse con menos dolor": "L'ajudem a moure's amb menys dolor",
+   "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), abordamos la artrosis de rodilla, cadera, manos y columna con el método re:trace: valoración clínica completa, ejercicio terapéutico y un plan por fases. El objetivo es reducir el dolor y la rigidez y mantener la movilidad.": "A WA LAM, a Sarrià–Sant Gervasi (Barcelona), abordem l'artrosi de genoll, maluc, mans i columna amb el mètode re:trace: valoració clínica completa, exercici terapèutic i un pla per fases. L'objectiu és reduir el dolor i la rigidesa i mantenir la mobilitat."
+  }
+ },
+ {
+  "slug": "hombro-doloroso",
+  "ca_slug": "espatlla-dolorosa",
+  "nav": "Hombro doloroso",
+  "card": "Tendinopatía del manguito rotador, bursitis subacromial y capsulitis adhesiva u hombro congelado.",
+  "title": "Hombro doloroso en Barcelona | WA LAM",
+  "desc": "Hombro doloroso en Sarrià–Sant Gervasi, Barcelona: tendinopatía del manguito rotador, bursitis y hombro congelado. Valoración clínica y plan por fases.",
+  "h1": "Hombro doloroso en Barcelona: tendinopatía, bursitis y capsulitis",
+  "sub": "Recuperar el movimiento del hombro · Sarrià–Sant Gervasi",
+  "lead": "El dolor de hombro es uno de los motivos de consulta musculoesquelética más frecuentes. Limita gestos cotidianos como vestirse, peinarse o dormir sobre ese lado. Las causas más habituales son la tendinopatía del manguito rotador, la bursitis subacromial y la capsulitis adhesiva.",
+  "facts_title": "En WA LAM",
+  "facts": [
+   "Manguito rotador, bursitis y capsulitis",
+   "Movilidad y fuerza por fases",
+   "Primera visita: 60 min · 90 €"
+  ],
+  "wa": "Hola, me gustaría información sobre el abordaje del dolor de hombro.",
+  "mirror": {
+   "h2": "¿Se reconoce en estos síntomas?",
+   "qs": [
+    "¿Le duele el hombro al levantar el brazo por encima de la cabeza o al llevarlo hacia atrás?",
+    "¿El dolor le despierta por la noche o le impide dormir sobre ese lado?",
+    "¿Nota el hombro cada vez más rígido, incluso cuando otra persona intenta moverlo?",
+    "¿Le cuesta ponerse una chaqueta, abrocharse una prenda por detrás o alcanzar un estante alto?"
+   ],
+   "close": "Acuda a urgencias si el dolor de hombro se acompaña de dolor en el pecho, falta de aire o sudoración, o si tras una caída no puede levantar el brazo o aprecia una deformidad. Consulte sin demora si hay fiebre o el hombro está rojo y caliente."
+  },
+  "explain": {
+   "h2": "¿Qué es el hombro doloroso?",
+   "paras": [
+    "El hombro doloroso es el término que agrupa las afecciones que causan dolor en la articulación del hombro y en los tejidos que la rodean. La más frecuente es la tendinopatía del manguito rotador, a menudo asociada a una bursitis subacromial: dolor en la cara anterior y lateral del hombro al elevar el brazo, con un arco doloroso entre los 60 y los 120 grados.",
+    "La capsulitis adhesiva, conocida como hombro congelado, es la inflamación y retracción de la cápsula articular. Limita el movimiento en todas las direcciones y evoluciona en tres fases (dolorosa, de rigidez y de recuperación) que pueden durar entre uno y tres años.",
+    "El dolor de hombro afecta cada año a una parte importante de la población adulta, con mayor frecuencia a partir de los 40 años. La mayoría de los casos mejora con un tratamiento conservador bien orientado."
+   ]
+  },
+  "sections": [
+   {
+    "h2": "Causas y factores de riesgo",
+    "paras": [
+     "Los tendones del manguito rotador se irritan cuando la carga supera su capacidad de adaptación. En la capsulitis influyen, además, factores metabólicos y hormonales."
+    ],
+    "list_title": "Factores que se asocian al hombro doloroso",
+    "list": [
+     "Gestos repetidos con el brazo por encima de la cabeza, en el trabajo o el deporte",
+     "Edad a partir de los 40 años y cambios degenerativos del tendón",
+     "Pérdida de fuerza y de control del omóplato",
+     "Postura mantenida con los hombros adelantados y la columna dorsal rígida",
+     "Diabetes y alteraciones del tiroides, en la capsulitis adhesiva",
+     "Inmovilización prolongada tras una lesión o una cirugía"
+    ]
+   },
+   {
+    "h2": "¿Cómo se diagnostica?",
+    "paras": [
+     "El diagnóstico se basa en la historia clínica y en la exploración: localización del dolor, movilidad activa y pasiva, fuerza de cada tendón y pruebas específicas. Que el movimiento pasivo también esté limitado orienta hacia una capsulitis.",
+     "La ecografía o la resonancia magnética se solicitan si se sospecha una rotura del tendón, tras un traumatismo o si el dolor no mejora con el tratamiento inicial. También se explora el cuello, porque algunos dolores de hombro proceden de la columna cervical."
+    ]
+   },
+   {
+    "h2": "Tratamiento",
+    "paras": [
+     "El tratamiento inicial es conservador. Consiste en modificar temporalmente las actividades que provocan dolor, sin inmovilizar el hombro, y en un programa de ejercicio de carga progresiva para los tendones y de movilidad para la cápsula.",
+     "La terapia manual ayuda a reducir el dolor y a ganar movilidad. En los periodos de más dolor pueden indicarse analgésicos o antiinflamatorios y, en casos seleccionados, una infiltración. La cirugía se reserva para las roturas completas de origen traumático o cuando el tratamiento conservador no ha dado resultado tras varios meses."
+    ]
+   },
+   {
+    "h2": "Recomendaciones para el día a día",
+    "paras": [
+     "Estas pautas ayudan a proteger el hombro mientras se recupera."
+    ],
+    "list": [
+     "Mantener el hombro en movimiento dentro de un rango sin dolor intenso.",
+     "Evitar durante un tiempo cargar peso con el brazo extendido o por encima de la cabeza.",
+     "Dormir boca arriba o sobre el lado sano, con una almohada que apoye el brazo.",
+     "Hacer pausas frecuentes si trabaja con el ordenador y revisar la altura de la pantalla.",
+     "Aplicar calor local antes de los ejercicios de movilidad y frío si el dolor aumenta tras la actividad.",
+     "Realizar a diario los ejercicios pautados, de forma constante y progresiva."
+    ]
+   }
+  ],
+  "cards": {
+   "h2": "Cómo lo abordamos en WA LAM",
+   "items": [
+    {
+     "k": "Método re:trace",
+     "h": "Un plan integrativo por fases",
+     "p": "Abordamos el hombro doloroso con el [método re:trace](programas-re-trace): una valoración clínica completa y un plan por fases que integra todo lo que influye en su caso."
+    },
+    {
+     "k": "Movilidad y fuerza",
+     "h": "Ejercicio adaptado a cada fase",
+     "p": "Ajustamos la carga a la fase en que está su hombro: movilidad en la capsulitis y fortalecimiento progresivo del manguito rotador."
+    },
+    {
+     "k": "Omóplato, cuello y postura",
+     "h": "Más allá de la articulación",
+     "p": "Valoramos y tratamos con terapia manual la columna dorsal, el cuello y el control del omóplato, que influyen en la carga del hombro."
+    }
+   ]
+  },
+  "evidence": {
+   "h2": "Qué dice la evidencia",
+   "items": [
+    [
+     "Revisión sistemática (Scand J Rheumatol)",
+     "El dolor de hombro es uno de los problemas musculoesqueléticos más frecuentes en la población general (Luime et al., Scand J Rheumatol, 2004)."
+    ],
+    [
+     "Metaanálisis (Br J Sports Med)",
+     "En el dolor subacromial del hombro, el ejercicio redujo el dolor, y la terapia manual añadida al ejercicio aportó un alivio adicional a corto plazo (Steuri et al., Br J Sports Med, 2017)."
+    ]
+   ],
+   "refs": [
+    {
+     "t": "Luime JJ, Koes BW, Hendriksen IJ, et al., 2004. «Prevalence and incidence of shoulder pain in the general population; a systematic review». Scandinavian Journal of Rheumatology.",
+     "doi": "10.1080/03009740310004667"
+    },
+    {
+     "t": "Steuri R, Sattelmayer M, Elsig S, et al., 2017. «Effectiveness of conservative interventions including exercise, manual therapy and medical management in adults with shoulder impingement: a systematic review and meta-analysis of RCTs». British Journal of Sports Medicine.",
+     "doi": "10.1136/bjsports-2016-096515"
+    }
+   ]
+  },
+  "faq": [
+   [
+    "¿Cuánto dura un hombro congelado?",
+    "La capsulitis adhesiva evoluciona por fases y puede durar de uno a tres años. Un plan adaptado a cada fase ayuda a controlar el dolor y a recuperar la movilidad."
+   ],
+   [
+    "¿Debo dejar de mover el hombro si me duele?",
+    "No es aconsejable inmovilizarlo. Se busca el movimiento que el hombro tolera y se amplía de forma progresiva."
+   ],
+   [
+    "¿Necesito una ecografía o una resonancia?",
+    "No siempre. Si ya dispone de pruebas, tráigalas a la primera visita. Si la exploración sugiere una rotura importante, le recomendaremos completar el estudio con una prueba de imagen."
+   ],
+   [
+    "¿El dolor de hombro puede venir del cuello?",
+    "Sí, en algunos casos. Por eso se explora también la [columna cervical](cervicalgia-dolor-cuello) y la dorsal."
+   ],
+   [
+    "¿Qué relación tiene con la diabetes?",
+    "Las personas con diabetes tienen más riesgo de capsulitis adhesiva. Un buen control metabólico forma parte del abordaje."
+   ]
+  ],
+  "related": [
+   "cervicalgia-dolor-cuello",
+   "dorsalgia-dolor-espalda-alta",
+   "dolor-articular-miofascial",
+   "osteopatia-sarria-sant-gervasi"
+  ],
+  "cta_h2": "Le ayudamos a recuperar el movimiento del hombro",
+  "seo": {
+   "kw": "dolor de hombro Barcelona",
+   "kws": [
+    "hombro congelado tratamiento",
+    "capsulitis adhesiva Barcelona",
+    "tendinopatía manguito rotador",
+    "bursitis de hombro",
+    "dolor de hombro por la noche"
+   ],
+   "ca_kw": "dolor d'espatlla Barcelona",
+   "quick": "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), abordamos el hombro doloroso (tendinopatía del manguito rotador, bursitis y capsulitis adhesiva) con el método re:trace: valoración clínica, ejercicio por fases y terapia manual. El objetivo es aliviar el dolor y recuperar la movilidad y la fuerza.",
+   "entity": [
+    "MedicalCondition",
+    "Hombro doloroso"
+   ]
+  },
+  "research": [
+   "Personas con dolor y rigidez de hombro que buscan tratamiento conservador en Barcelona.",
+   [
+    "hombro congelado tratamiento Barcelona",
+    "tendinitis del hombro qué hacer",
+    "dolor de hombro al levantar el brazo"
+   ],
+   [
+    "espatlla congelada tractament",
+    "dolor d'espatlla Barcelona"
+   ],
+   "Clínicas de fisioterapia y traumatología con páginas por patología y portales de salud generalistas."
+  ],
+  "ca": {
+   "Hombro doloroso": "Espatlla dolorosa",
+   "Tendinopatía del manguito rotador, bursitis subacromial y capsulitis adhesiva u hombro congelado.": "Tendinopatia del manegot dels rotadors, bursitis subacromial i capsulitis adhesiva o espatlla congelada.",
+   "Hombro doloroso en Barcelona | WA LAM": "Espatlla dolorosa a Barcelona | WA LAM",
+   "Hombro doloroso en Sarrià–Sant Gervasi, Barcelona: tendinopatía del manguito rotador, bursitis y hombro congelado. Valoración clínica y plan por fases.": "Espatlla dolorosa a Sarrià–Sant Gervasi, Barcelona: tendinopatia del manegot dels rotadors, bursitis i espatlla congelada. Valoració clínica i pla per fases.",
+   "Hombro doloroso en Barcelona: tendinopatía, bursitis y capsulitis": "Espatlla dolorosa a Barcelona: tendinopatia, bursitis i capsulitis",
+   "Recuperar el movimiento del hombro · Sarrià–Sant Gervasi": "Recuperar el moviment de l'espatlla · Sarrià–Sant Gervasi",
+   "El dolor de hombro es uno de los motivos de consulta musculoesquelética más frecuentes. Limita gestos cotidianos como vestirse, peinarse o dormir sobre ese lado. Las causas más habituales son la tendinopatía del manguito rotador, la bursitis subacromial y la capsulitis adhesiva.": "El dolor d'espatlla és un dels motius de consulta musculoesquelètica més freqüents. Limita gestos quotidians com vestir-se, pentinar-se o dormir sobre aquell costat. Les causes més habituals són la tendinopatia del manegot dels rotadors, la bursitis subacromial i la capsulitis adhesiva.",
+   "En WA LAM": "A WA LAM",
+   "Manguito rotador, bursitis y capsulitis": "Manegot dels rotadors, bursitis i capsulitis",
+   "Movilidad y fuerza por fases": "Mobilitat i força per fases",
+   "Primera visita: 60 min · 90 €": "Primera visita: 60 min · 90 €",
+   "Hola, me gustaría información sobre el abordaje del dolor de hombro.": "Hola, m'agradaria informació sobre l'abordatge del dolor d'espatlla.",
+   "¿Se reconoce en estos síntomas?": "Es reconeix en aquests símptomes?",
+   "¿Le duele el hombro al levantar el brazo por encima de la cabeza o al llevarlo hacia atrás?": "Li fa mal l'espatlla en aixecar el braç per sobre del cap o en portar-lo cap enrere?",
+   "¿El dolor le despierta por la noche o le impide dormir sobre ese lado?": "El dolor el desperta a la nit o li impedeix dormir sobre aquell costat?",
+   "¿Nota el hombro cada vez más rígido, incluso cuando otra persona intenta moverlo?": "Nota l'espatlla cada vegada més rígida, fins i tot quan una altra persona intenta moure-la?",
+   "¿Le cuesta ponerse una chaqueta, abrocharse una prenda por detrás o alcanzar un estante alto?": "Li costa posar-se una jaqueta, cordar-se una peça per darrere o arribar a un prestatge alt?",
+   "Acuda a urgencias si el dolor de hombro se acompaña de dolor en el pecho, falta de aire o sudoración, o si tras una caída no puede levantar el brazo o aprecia una deformidad. Consulte sin demora si hay fiebre o el hombro está rojo y caliente.": "Vagi a urgències si el dolor d'espatlla s'acompanya de dolor al pit, falta d'aire o suor, o si després d'una caiguda no pot aixecar el braç o hi aprecia una deformitat. Consulti sense demora si té febre o l'espatlla està vermella i calenta.",
+   "¿Qué es el hombro doloroso?": "Què és l'espatlla dolorosa?",
+   "El hombro doloroso es el término que agrupa las afecciones que causan dolor en la articulación del hombro y en los tejidos que la rodean. La más frecuente es la tendinopatía del manguito rotador, a menudo asociada a una bursitis subacromial: dolor en la cara anterior y lateral del hombro al elevar el brazo, con un arco doloroso entre los 60 y los 120 grados.": "L'espatlla dolorosa és el terme que agrupa les afeccions que causen dolor a l'articulació de l'espatlla i als teixits que l'envolten. La més freqüent és la tendinopatia del manegot dels rotadors, sovint associada a una bursitis subacromial: dolor a la cara anterior i lateral de l'espatlla en elevar el braç, amb un arc dolorós entre els 60 i els 120 graus.",
+   "La capsulitis adhesiva, conocida como hombro congelado, es la inflamación y retracción de la cápsula articular. Limita el movimiento en todas las direcciones y evoluciona en tres fases (dolorosa, de rigidez y de recuperación) que pueden durar entre uno y tres años.": "La capsulitis adhesiva, coneguda com a espatlla congelada, és la inflamació i retracció de la càpsula articular. Limita el moviment en totes les direccions i evoluciona en tres fases (dolorosa, de rigidesa i de recuperació) que poden durar entre un i tres anys.",
+   "El dolor de hombro afecta cada año a una parte importante de la población adulta, con mayor frecuencia a partir de los 40 años. La mayoría de los casos mejora con un tratamiento conservador bien orientado.": "El dolor d'espatlla afecta cada any una part important de la població adulta, amb més freqüència a partir dels 40 anys. La majoria dels casos millora amb un tractament conservador ben orientat.",
+   "Causas y factores de riesgo": "Causes i factors de risc",
+   "Los tendones del manguito rotador se irritan cuando la carga supera su capacidad de adaptación. En la capsulitis influyen, además, factores metabólicos y hormonales.": "Els tendons del manegot dels rotadors s'irriten quan la càrrega supera la seva capacitat d'adaptació. En la capsulitis hi influeixen, a més, factors metabòlics i hormonals.",
+   "Factores que se asocian al hombro doloroso": "Factors que s'associen a l'espatlla dolorosa",
+   "Gestos repetidos con el brazo por encima de la cabeza, en el trabajo o el deporte": "Gestos repetits amb el braç per sobre del cap, a la feina o en l'esport",
+   "Edad a partir de los 40 años y cambios degenerativos del tendón": "Edat a partir dels 40 anys i canvis degeneratius del tendó",
+   "Pérdida de fuerza y de control del omóplato": "Pèrdua de força i de control de l'omòplat",
+   "Postura mantenida con los hombros adelantados y la columna dorsal rígida": "Postura mantinguda amb les espatlles avançades i la columna dorsal rígida",
+   "Diabetes y alteraciones del tiroides, en la capsulitis adhesiva": "Diabetis i alteracions de la tiroide, en la capsulitis adhesiva",
+   "Inmovilización prolongada tras una lesión o una cirugía": "Immobilització perllongada després d'una lesió o una cirurgia",
+   "¿Cómo se diagnostica?": "Com es diagnostica?",
+   "El diagnóstico se basa en la historia clínica y en la exploración: localización del dolor, movilidad activa y pasiva, fuerza de cada tendón y pruebas específicas. Que el movimiento pasivo también esté limitado orienta hacia una capsulitis.": "El diagnòstic es basa en la història clínica i en l'exploració: localització del dolor, mobilitat activa i passiva, força de cada tendó i proves específiques. Que el moviment passiu també estigui limitat orienta cap a una capsulitis.",
+   "La ecografía o la resonancia magnética se solicitan si se sospecha una rotura del tendón, tras un traumatismo o si el dolor no mejora con el tratamiento inicial. También se explora el cuello, porque algunos dolores de hombro proceden de la columna cervical.": "L'ecografia o la ressonància magnètica se sol·liciten si se sospita un trencament del tendó, després d'un traumatisme o si el dolor no millora amb el tractament inicial. També s'explora el coll, perquè alguns dolors d'espatlla procedeixen de la columna cervical.",
+   "Tratamiento": "Tractament",
+   "El tratamiento inicial es conservador. Consiste en modificar temporalmente las actividades que provocan dolor, sin inmovilizar el hombro, y en un programa de ejercicio de carga progresiva para los tendones y de movilidad para la cápsula.": "El tractament inicial és conservador. Consisteix a modificar temporalment les activitats que provoquen dolor, sense immobilitzar l'espatlla, i en un programa d'exercici de càrrega progressiva per als tendons i de mobilitat per a la càpsula.",
+   "La terapia manual ayuda a reducir el dolor y a ganar movilidad. En los periodos de más dolor pueden indicarse analgésicos o antiinflamatorios y, en casos seleccionados, una infiltración. La cirugía se reserva para las roturas completas de origen traumático o cuando el tratamiento conservador no ha dado resultado tras varios meses.": "La teràpia manual ajuda a reduir el dolor i a guanyar mobilitat. En els períodes de més dolor es poden indicar analgèsics o antiinflamatoris i, en casos seleccionats, una infiltració. La cirurgia es reserva per als trencaments complets d'origen traumàtic o quan el tractament conservador no ha donat resultat després de diversos mesos.",
+   "Recomendaciones para el día a día": "Recomanacions per al dia a dia",
+   "Estas pautas ayudan a proteger el hombro mientras se recupera.": "Aquestes pautes ajuden a protegir l'espatlla mentre es recupera.",
+   "Mantener el hombro en movimiento dentro de un rango sin dolor intenso.": "Mantenir l'espatlla en moviment dins d'un rang sense dolor intens.",
+   "Evitar durante un tiempo cargar peso con el brazo extendido o por encima de la cabeza.": "Evitar durant un temps carregar pes amb el braç estès o per sobre del cap.",
+   "Dormir boca arriba o sobre el lado sano, con una almohada que apoye el brazo.": "Dormir de panxa enlaire o sobre el costat sa, amb un coixí que recolzi el braç.",
+   "Hacer pausas frecuentes si trabaja con el ordenador y revisar la altura de la pantalla.": "Fer pauses freqüents si treballa amb l'ordinador i revisar l'alçada de la pantalla.",
+   "Aplicar calor local antes de los ejercicios de movilidad y frío si el dolor aumenta tras la actividad.": "Aplicar calor local abans dels exercicis de mobilitat i fred si el dolor augmenta després de l'activitat.",
+   "Realizar a diario los ejercicios pautados, de forma constante y progresiva.": "Fer cada dia els exercicis pautats, de manera constant i progressiva.",
+   "Cómo lo abordamos en WA LAM": "Com ho abordem a WA LAM",
+   "Método re:trace": "Mètode re:trace",
+   "Un plan integrativo por fases": "Un pla integratiu per fases",
+   "Abordamos el hombro doloroso con el [método re:trace](programas-re-trace): una valoración clínica completa y un plan por fases que integra todo lo que influye en su caso.": "Abordem l'espatlla dolorosa amb el [mètode re:trace](programas-re-trace): una valoració clínica completa i un pla per fases que integra tot allò que influeix en el seu cas.",
+   "Movilidad y fuerza": "Mobilitat i força",
+   "Ejercicio adaptado a cada fase": "Exercici adaptat a cada fase",
+   "Ajustamos la carga a la fase en que está su hombro: movilidad en la capsulitis y fortalecimiento progresivo del manguito rotador.": "Ajustem la càrrega a la fase en què es troba la seva espatlla: mobilitat en la capsulitis i enfortiment progressiu del manegot dels rotadors.",
+   "Omóplato, cuello y postura": "Omòplat, coll i postura",
+   "Más allá de la articulación": "Més enllà de l'articulació",
+   "Valoramos y tratamos con terapia manual la columna dorsal, el cuello y el control del omóplato, que influyen en la carga del hombro.": "Valorem i tractem amb teràpia manual la columna dorsal, el coll i el control de l'omòplat, que influeixen en la càrrega de l'espatlla.",
+   "Qué dice la evidencia": "Què diu l'evidència",
+   "Revisión sistemática (Scand J Rheumatol)": "Revisió sistemàtica (Scand J Rheumatol)",
+   "El dolor de hombro es uno de los problemas musculoesqueléticos más frecuentes en la población general (Luime et al., Scand J Rheumatol, 2004).": "El dolor d'espatlla és un dels problemes musculoesquelètics més freqüents en la població general (Luime et al., Scand J Rheumatol, 2004).",
+   "Metaanálisis (Br J Sports Med)": "Metaanàlisi (Br J Sports Med)",
+   "En el dolor subacromial del hombro, el ejercicio redujo el dolor, y la terapia manual añadida al ejercicio aportó un alivio adicional a corto plazo (Steuri et al., Br J Sports Med, 2017).": "En el dolor subacromial de l'espatlla, l'exercici va reduir el dolor, i la teràpia manual afegida a l'exercici va aportar un alleujament addicional a curt termini (Steuri et al., Br J Sports Med, 2017).",
+   "¿Cuánto dura un hombro congelado?": "Quant dura una espatlla congelada?",
+   "La capsulitis adhesiva evoluciona por fases y puede durar de uno a tres años. Un plan adaptado a cada fase ayuda a controlar el dolor y a recuperar la movilidad.": "La capsulitis adhesiva evoluciona per fases i pot durar d'un a tres anys. Un pla adaptat a cada fase ajuda a controlar el dolor i a recuperar la mobilitat.",
+   "¿Debo dejar de mover el hombro si me duele?": "He de deixar de moure l'espatlla si em fa mal?",
+   "No es aconsejable inmovilizarlo. Se busca el movimiento que el hombro tolera y se amplía de forma progresiva.": "No és aconsellable immobilitzar-la. Es busca el moviment que l'espatlla tolera i s'amplia de manera progressiva.",
+   "¿Necesito una ecografía o una resonancia?": "Necessito una ecografia o una ressonància?",
+   "No siempre. Si ya dispone de pruebas, tráigalas a la primera visita. Si la exploración sugiere una rotura importante, le recomendaremos completar el estudio con una prueba de imagen.": "No sempre. Si ja disposa de proves, porti-les a la primera visita. Si l'exploració suggereix un trencament important, li recomanarem completar l'estudi amb una prova d'imatge.",
+   "¿El dolor de hombro puede venir del cuello?": "El dolor d'espatlla pot venir del coll?",
+   "Sí, en algunos casos. Por eso se explora también la [columna cervical](cervicalgia-dolor-cuello) y la dorsal.": "Sí, en alguns casos. Per això s'explora també la [columna cervical](cervicalgia-dolor-cuello) i la dorsal.",
+   "¿Qué relación tiene con la diabetes?": "Quina relació té amb la diabetis?",
+   "Las personas con diabetes tienen más riesgo de capsulitis adhesiva. Un buen control metabólico forma parte del abordaje.": "Les persones amb diabetis tenen més risc de capsulitis adhesiva. Un bon control metabòlic forma part de l'abordatge.",
+   "Le ayudamos a recuperar el movimiento del hombro": "L'ajudem a recuperar el moviment de l'espatlla",
+   "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), abordamos el hombro doloroso (tendinopatía del manguito rotador, bursitis y capsulitis adhesiva) con el método re:trace: valoración clínica, ejercicio por fases y terapia manual. El objetivo es aliviar el dolor y recuperar la movilidad y la fuerza.": "A WA LAM, a Sarrià–Sant Gervasi (Barcelona), abordem l'espatlla dolorosa (tendinopatia del manegot dels rotadors, bursitis i capsulitis adhesiva) amb el mètode re:trace: valoració clínica, exercici per fases i teràpia manual. L'objectiu és alleujar el dolor i recuperar la mobilitat i la força."
+  }
+ },
+ {
+  "slug": "dolor-rodilla-condromalacia",
+  "ca_slug": "dolor-genoll-condromalacia",
+  "nav": "Dolor de rodilla y condromalacia",
+  "card": "Dolor en la parte anterior de la rodilla, condromalacia rotuliana y síndrome de dolor patelofemoral.",
+  "title": "Dolor de rodilla y condromalacia en Barcelona | WA LAM",
+  "desc": "Dolor de rodilla y condromalacia rotuliana en Sarrià–Sant Gervasi, Barcelona: dolor patelofemoral al subir escaleras o correr. Valoración y plan por fases.",
+  "h1": "Dolor de rodilla y condromalacia rotuliana en Barcelona",
+  "sub": "Dolor patelofemoral · Sarrià–Sant Gervasi",
+  "lead": "El dolor en la parte delantera de la rodilla, alrededor o detrás de la rótula, es muy habitual en personas activas y en quienes pasan muchas horas sentadas. Suele corresponder a un síndrome de dolor patelofemoral o a una condromalacia rotuliana. Con un plan de fuerza y control de la carga, la mayoría de las personas recupera su actividad.",
+  "facts_title": "En WA LAM",
+  "facts": [
+   "Condromalacia y dolor patelofemoral",
+   "Fuerza de cadera y rodilla, carga progresiva",
+   "Primera visita: 60 min · 90 €"
+  ],
+  "wa": "Hola, me gustaría información sobre el abordaje del dolor de rodilla.",
+  "mirror": {
+   "h2": "¿Se reconoce en estos síntomas?",
+   "qs": [
+    "¿Le duele la rodilla al bajar escaleras, agacharse o ponerse en cuclillas?",
+    "¿Aparece el dolor tras pasar mucho rato con las rodillas dobladas, por ejemplo en el cine o en el coche?",
+    "¿Percibe crujidos o sensación de roce detrás de la rótula?",
+    "¿El dolor reaparece cada vez que aumenta el entrenamiento o corre cuesta abajo?"
+   ],
+   "close": "Acuda a urgencias o consulte a su médico sin demora si la rodilla se bloquea, falla de forma repentina, se hincha mucho tras un golpe o un giro, o está roja y caliente con fiebre."
+  },
+  "explain": {
+   "h2": "¿Qué es la condromalacia rotuliana?",
+   "paras": [
+    "La condromalacia rotuliana es el reblandecimiento y deterioro del cartílago que recubre la cara posterior de la rótula. Forma parte del síndrome de dolor patelofemoral, el dolor de la articulación entre la rótula y el fémur, conocido también como dolor anterior de rodilla o «rodilla del corredor».",
+    "Se manifiesta con un dolor difuso alrededor o detrás de la rótula, que se agrava al subir o bajar escaleras, al agacharse y tras mucho tiempo sentado («signo del cine»). Suele evolucionar en brotes, y el grado de lesión del cartílago no siempre se corresponde con la intensidad del dolor.",
+    "Es una de las causas más frecuentes de dolor de rodilla en adolescentes, adultos jóvenes y personas que practican deporte, y es más habitual en mujeres."
+   ]
+  },
+  "sections": [
+   {
+    "h2": "Causas y factores de riesgo",
+    "paras": [
+     "El dolor aparece cuando la articulación patelofemoral recibe más carga de la que tolera en ese momento. Influyen tanto la cantidad de carga como la forma en que la rodilla se alinea al moverse."
+    ],
+    "list_title": "Factores de riesgo",
+    "list": [
+     "Aumentos bruscos del volumen o la intensidad del entrenamiento",
+     "Debilidad del cuádriceps y de la musculatura de la cadera",
+     "Alteraciones de la alineación de la rótula o del apoyo del pie",
+     "Deportes con saltos, carrera o cambios de dirección",
+     "Acortamiento de isquiotibiales, cuádriceps o gemelos",
+     "Sobrepeso y traumatismos previos en la rodilla"
+    ]
+   },
+   {
+    "h2": "¿Cómo se diagnostica?",
+    "paras": [
+     "El diagnóstico es clínico. Se basa en la descripción del dolor y en la exploración de la rodilla: palpación de la rótula, movilidad, fuerza de cuádriceps y cadera, alineación al apoyar y análisis de gestos como la sentadilla o el escalón.",
+     "Las pruebas de imagen no son necesarias en la mayoría de los casos. La radiografía o la resonancia se reservan para descartar otras lesiones (menisco, ligamentos, artrosis) o cuando el dolor no mejora con el tratamiento."
+    ]
+   },
+   {
+    "h2": "Tratamiento",
+    "paras": [
+     "El tratamiento es conservador en la gran mayoría de los casos. Su base es el fortalecimiento de cuádriceps y cadera, el trabajo de flexibilidad y el ajuste temporal de las actividades que provocan dolor, con una vuelta progresiva a la carrera, el salto o las escaleras.",
+     "En las fases de más dolor pueden ayudar el frío local, los analgésicos y, en casos seleccionados, el vendaje o las plantillas. La terapia manual contribuye a reducir el dolor y facilita el ejercicio. La cirugía es excepcional."
+    ]
+   },
+   {
+    "h2": "Recomendaciones para el día a día",
+    "paras": [
+     "Estos consejos ayudan a reducir la carga sobre la rótula en el día a día."
+    ],
+    "list": [
+     "Aumentar el entrenamiento de forma gradual, sin cambios bruscos de volumen.",
+     "Fortalecer cuádriceps y glúteos con regularidad, siguiendo la pauta indicada.",
+     "Evitar temporalmente las sentadillas profundas y bajar escaleras con carga.",
+     "Levantarse y estirar las piernas con frecuencia en los trayectos largos o en el trabajo de oficina.",
+     "Usar calzado adecuado para su actividad y su tipo de pisada.",
+     "Aplicar frío local unos 15 minutos tras la actividad si aparece dolor."
+    ]
+   }
+  ],
+  "cards": {
+   "h2": "Cómo lo abordamos en WA LAM",
+   "items": [
+    {
+     "k": "Método re:trace",
+     "h": "Un plan integrativo por fases",
+     "p": "Abordamos el dolor de rodilla y la condromalacia con el [método re:trace](programas-re-trace): una valoración clínica completa y un plan por fases que integra todo lo que influye en su caso."
+    },
+    {
+     "k": "Fuerza y carga",
+     "h": "Cuádriceps, cadera y vuelta a la actividad",
+     "p": "Pautamos un fortalecimiento progresivo y ajustamos la carga para que la rodilla vuelva a tolerar escaleras, carrera o salto."
+    },
+    {
+     "k": "Alineación y apoyo",
+     "h": "Cómo se mueve la rodilla",
+     "p": "Valoramos el apoyo del pie, la cadera y el gesto deportivo, y tratamos con terapia manual las estructuras que aumentan la presión sobre la rótula."
+    }
+   ]
+  },
+  "evidence": {
+   "h2": "Qué dice la evidencia",
+   "items": [
+    [
+     "Metaanálisis (PLoS One)",
+     "El dolor patelofemoral es frecuente en la población general y especialmente en adolescentes y personas activas (Smith et al., PLoS One, 2018)."
+    ],
+    [
+     "Consenso internacional (Br J Sports Med)",
+     "El consenso internacional sobre dolor patelofemoral recomienda el ejercicio de cadera y rodilla para reducir el dolor y mejorar la función (Crossley et al., Br J Sports Med, 2016)."
+    ]
+   ],
+   "refs": [
+    {
+     "t": "Smith BE, Selfe J, Thacker D, et al., 2018. «Incidence and prevalence of patellofemoral pain: A systematic review and meta-analysis». PLoS One.",
+     "doi": "10.1371/journal.pone.0190892"
+    },
+    {
+     "t": "Crossley KM, van Middelkoop M, Callaghan MJ, et al., 2016. «2016 Patellofemoral pain consensus statement from the 4th International Patellofemoral Pain Research Retreat, Manchester. Part 2: recommended physical interventions (exercise, taping, bracing, foot orthoses and combined interventions)». British Journal of Sports Medicine.",
+     "doi": "10.1136/bjsports-2016-096268"
+    }
+   ]
+  },
+  "faq": [
+   [
+    "¿La condromalacia es lo mismo que la artrosis?",
+    "No. La condromalacia afecta al cartílago de la rótula y es frecuente en personas jóvenes y activas. Si su caso corresponde a un desgaste articular, puede consultar la página de [artrosis](artrosis)."
+   ],
+   [
+    "¿Tengo que dejar de correr?",
+    "Normalmente no es necesario dejarlo del todo. Se ajustan el volumen y la intensidad mientras se fortalece la musculatura, y se planifica una vuelta progresiva."
+   ],
+   [
+    "¿Por qué se trabaja la cadera si me duele la rodilla?",
+    "La fuerza de la cadera influye en cómo se alinea la rodilla al apoyar. Fortalecerla reduce la carga sobre la rótula."
+   ],
+   [
+    "¿Cuánto tarda en mejorar?",
+    "Depende de cada caso. Con un programa de ejercicio constante suele notarse una mejoría progresiva a lo largo de las primeras semanas. En la primera visita se fijan objetivos concretos."
+   ],
+   [
+    "¿Son útiles las rodilleras o las plantillas?",
+    "En casos seleccionados pueden aliviar el dolor a corto plazo y facilitar el ejercicio, que sigue siendo la base del tratamiento."
+   ]
+  ],
+  "related": [
+   "artrosis",
+   "esguinces",
+   "contracturas-desgarros-musculares",
+   "dolor-musculoesqueletico"
+  ],
+  "cta_h2": "Le ayudamos a volver a su actividad con confianza",
+  "seo": {
+   "kw": "dolor de rodilla Barcelona",
+   "kws": [
+    "condromalacia rotuliana tratamiento",
+    "dolor patelofemoral",
+    "dolor de rodilla al bajar escaleras",
+    "rodilla del corredor",
+    "ejercicios condromalacia"
+   ],
+   "ca_kw": "dolor de genoll Barcelona",
+   "quick": "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), abordamos el dolor de rodilla y la condromalacia rotuliana con el método re:trace: valoración clínica, fortalecimiento progresivo y terapia manual. El objetivo es reducir el dolor patelofemoral y volver a su actividad con confianza.",
+   "entity": [
+    "MedicalCondition",
+    "Dolor patelofemoral"
+   ]
+  },
+  "research": [
+   "Personas activas o sedentarias con dolor en la parte delantera de la rodilla que buscan tratamiento conservador en Barcelona.",
+   [
+    "condromalacia rotuliana tratamiento Barcelona",
+    "dolor de rodilla al bajar escaleras",
+    "ejercicios para el dolor patelofemoral"
+   ],
+   [
+    "condromalàcia rotuliana",
+    "dolor de genoll Barcelona"
+   ],
+   "Clínicas de fisioterapia deportiva y traumatología, y blogs de running."
+  ],
+  "ca": {
+   "Dolor de rodilla y condromalacia": "Dolor de genoll i condromalàcia",
+   "Dolor en la parte anterior de la rodilla, condromalacia rotuliana y síndrome de dolor patelofemoral.": "Dolor a la part anterior del genoll, condromalàcia rotuliana i síndrome de dolor patel·lofemoral.",
+   "Dolor de rodilla y condromalacia en Barcelona | WA LAM": "Dolor de genoll i condromalàcia a Barcelona | WA LAM",
+   "Dolor de rodilla y condromalacia rotuliana en Sarrià–Sant Gervasi, Barcelona: dolor patelofemoral al subir escaleras o correr. Valoración y plan por fases.": "Dolor de genoll i condromalàcia rotuliana a Sarrià–Sant Gervasi, Barcelona: dolor patel·lofemoral en pujar escales o córrer. Valoració i pla per fases.",
+   "Dolor de rodilla y condromalacia rotuliana en Barcelona": "Dolor de genoll i condromalàcia rotuliana a Barcelona",
+   "Dolor patelofemoral · Sarrià–Sant Gervasi": "Dolor patel·lofemoral · Sarrià–Sant Gervasi",
+   "El dolor en la parte delantera de la rodilla, alrededor o detrás de la rótula, es muy habitual en personas activas y en quienes pasan muchas horas sentadas. Suele corresponder a un síndrome de dolor patelofemoral o a una condromalacia rotuliana. Con un plan de fuerza y control de la carga, la mayoría de las personas recupera su actividad.": "El dolor a la part davantera del genoll, al voltant o darrere de la ròtula, és molt habitual en persones actives i en les que passen moltes hores assegudes. Sol correspondre a una síndrome de dolor patel·lofemoral o a una condromalàcia rotuliana. Amb un pla de força i control de la càrrega, la majoria de les persones recupera la seva activitat.",
+   "En WA LAM": "A WA LAM",
+   "Condromalacia y dolor patelofemoral": "Condromalàcia i dolor patel·lofemoral",
+   "Fuerza de cadera y rodilla, carga progresiva": "Força de maluc i genoll, càrrega progressiva",
+   "Primera visita: 60 min · 90 €": "Primera visita: 60 min · 90 €",
+   "Hola, me gustaría información sobre el abordaje del dolor de rodilla.": "Hola, m'agradaria informació sobre l'abordatge del dolor de genoll.",
+   "¿Se reconoce en estos síntomas?": "Es reconeix en aquests símptomes?",
+   "¿Le duele la rodilla al bajar escaleras, agacharse o ponerse en cuclillas?": "Li fa mal el genoll en baixar escales, ajupir-se o posar-se a la gatzoneta?",
+   "¿Aparece el dolor tras pasar mucho rato con las rodillas dobladas, por ejemplo en el cine o en el coche?": "Apareix el dolor després de passar molta estona amb els genolls doblegats, per exemple al cinema o al cotxe?",
+   "¿Percibe crujidos o sensación de roce detrás de la rótula?": "Percep cruixits o sensació de fregament darrere de la ròtula?",
+   "¿El dolor reaparece cada vez que aumenta el entrenamiento o corre cuesta abajo?": "El dolor reapareix cada vegada que augmenta l'entrenament o corre costa avall?",
+   "Acuda a urgencias o consulte a su médico sin demora si la rodilla se bloquea, falla de forma repentina, se hincha mucho tras un golpe o un giro, o está roja y caliente con fiebre.": "Vagi a urgències o consulti el seu metge sense demora si el genoll es bloqueja, falla de manera sobtada, s'inflama molt després d'un cop o un gir, o està vermell i calent amb febre.",
+   "¿Qué es la condromalacia rotuliana?": "Què és la condromalàcia rotuliana?",
+   "La condromalacia rotuliana es el reblandecimiento y deterioro del cartílago que recubre la cara posterior de la rótula. Forma parte del síndrome de dolor patelofemoral, el dolor de la articulación entre la rótula y el fémur, conocido también como dolor anterior de rodilla o «rodilla del corredor».": "La condromalàcia rotuliana és l'estovament i deteriorament del cartílag que recobreix la cara posterior de la ròtula. Forma part de la síndrome de dolor patel·lofemoral, el dolor de l'articulació entre la ròtula i el fèmur, conegut també com a dolor anterior de genoll o «genoll del corredor».",
+   "Se manifiesta con un dolor difuso alrededor o detrás de la rótula, que se agrava al subir o bajar escaleras, al agacharse y tras mucho tiempo sentado («signo del cine»). Suele evolucionar en brotes, y el grado de lesión del cartílago no siempre se corresponde con la intensidad del dolor.": "Es manifesta amb un dolor difús al voltant o darrere de la ròtula, que s'agreuja en pujar o baixar escales, en ajupir-se i després de molt temps assegut («signe del cinema»). Sol evolucionar en brots, i el grau de lesió del cartílag no sempre es correspon amb la intensitat del dolor.",
+   "Es una de las causas más frecuentes de dolor de rodilla en adolescentes, adultos jóvenes y personas que practican deporte, y es más habitual en mujeres.": "És una de les causes més freqüents de dolor de genoll en adolescents, adults joves i persones que practiquen esport, i és més habitual en dones.",
+   "Causas y factores de riesgo": "Causes i factors de risc",
+   "El dolor aparece cuando la articulación patelofemoral recibe más carga de la que tolera en ese momento. Influyen tanto la cantidad de carga como la forma en que la rodilla se alinea al moverse.": "El dolor apareix quan l'articulació patel·lofemoral rep més càrrega de la que tolera en aquell moment. Hi influeixen tant la quantitat de càrrega com la manera com el genoll s'alinea en moure's.",
+   "Factores de riesgo": "Factors de risc",
+   "Aumentos bruscos del volumen o la intensidad del entrenamiento": "Augments bruscos del volum o la intensitat de l'entrenament",
+   "Debilidad del cuádriceps y de la musculatura de la cadera": "Debilitat del quàdriceps i de la musculatura del maluc",
+   "Alteraciones de la alineación de la rótula o del apoyo del pie": "Alteracions de l'alineació de la ròtula o del suport del peu",
+   "Deportes con saltos, carrera o cambios de dirección": "Esports amb salts, carrera o canvis de direcció",
+   "Acortamiento de isquiotibiales, cuádriceps o gemelos": "Escurçament d'isquiotibials, quàdriceps o bessons",
+   "Sobrepeso y traumatismos previos en la rodilla": "Sobrepès i traumatismes previs al genoll",
+   "¿Cómo se diagnostica?": "Com es diagnostica?",
+   "El diagnóstico es clínico. Se basa en la descripción del dolor y en la exploración de la rodilla: palpación de la rótula, movilidad, fuerza de cuádriceps y cadera, alineación al apoyar y análisis de gestos como la sentadilla o el escalón.": "El diagnòstic és clínic. Es basa en la descripció del dolor i en l'exploració del genoll: palpació de la ròtula, mobilitat, força de quàdriceps i maluc, alineació en recolzar i anàlisi de gestos com l'esquat o l'esglaó.",
+   "Las pruebas de imagen no son necesarias en la mayoría de los casos. La radiografía o la resonancia se reservan para descartar otras lesiones (menisco, ligamentos, artrosis) o cuando el dolor no mejora con el tratamiento.": "Les proves d'imatge no són necessàries en la majoria dels casos. La radiografia o la ressonància es reserven per descartar altres lesions (menisc, lligaments, artrosi) o quan el dolor no millora amb el tractament.",
+   "Tratamiento": "Tractament",
+   "El tratamiento es conservador en la gran mayoría de los casos. Su base es el fortalecimiento de cuádriceps y cadera, el trabajo de flexibilidad y el ajuste temporal de las actividades que provocan dolor, con una vuelta progresiva a la carrera, el salto o las escaleras.": "El tractament és conservador en la gran majoria dels casos. La seva base és l'enfortiment de quàdriceps i maluc, el treball de flexibilitat i l'ajust temporal de les activitats que provoquen dolor, amb un retorn progressiu a la carrera, el salt o les escales.",
+   "En las fases de más dolor pueden ayudar el frío local, los analgésicos y, en casos seleccionados, el vendaje o las plantillas. La terapia manual contribuye a reducir el dolor y facilita el ejercicio. La cirugía es excepcional.": "En les fases de més dolor poden ajudar el fred local, els analgèsics i, en casos seleccionats, l'embenat o les plantilles. La teràpia manual contribueix a reduir el dolor i facilita l'exercici. La cirurgia és excepcional.",
+   "Recomendaciones para el día a día": "Recomanacions per al dia a dia",
+   "Estos consejos ayudan a reducir la carga sobre la rótula en el día a día.": "Aquests consells ajuden a reduir la càrrega sobre la ròtula en el dia a dia.",
+   "Aumentar el entrenamiento de forma gradual, sin cambios bruscos de volumen.": "Augmentar l'entrenament de manera gradual, sense canvis bruscos de volum.",
+   "Fortalecer cuádriceps y glúteos con regularidad, siguiendo la pauta indicada.": "Enfortir quàdriceps i glutis amb regularitat, seguint la pauta indicada.",
+   "Evitar temporalmente las sentadillas profundas y bajar escaleras con carga.": "Evitar temporalment els esquats profunds i baixar escales amb càrrega.",
+   "Levantarse y estirar las piernas con frecuencia en los trayectos largos o en el trabajo de oficina.": "Aixecar-se i estirar les cames sovint en els trajectes llargs o a la feina d'oficina.",
+   "Usar calzado adecuado para su actividad y su tipo de pisada.": "Fer servir calçat adequat per a la seva activitat i el seu tipus de trepitjada.",
+   "Aplicar frío local unos 15 minutos tras la actividad si aparece dolor.": "Aplicar fred local uns 15 minuts després de l'activitat si apareix dolor.",
+   "Cómo lo abordamos en WA LAM": "Com ho abordem a WA LAM",
+   "Método re:trace": "Mètode re:trace",
+   "Un plan integrativo por fases": "Un pla integratiu per fases",
+   "Abordamos el dolor de rodilla y la condromalacia con el [método re:trace](programas-re-trace): una valoración clínica completa y un plan por fases que integra todo lo que influye en su caso.": "Abordem el dolor de genoll i la condromalàcia amb el [mètode re:trace](programas-re-trace): una valoració clínica completa i un pla per fases que integra tot allò que influeix en el seu cas.",
+   "Fuerza y carga": "Força i càrrega",
+   "Cuádriceps, cadera y vuelta a la actividad": "Quàdriceps, maluc i retorn a l'activitat",
+   "Pautamos un fortalecimiento progresivo y ajustamos la carga para que la rodilla vuelva a tolerar escaleras, carrera o salto.": "Pautem un enfortiment progressiu i ajustem la càrrega perquè el genoll torni a tolerar escales, carrera o salt.",
+   "Alineación y apoyo": "Alineació i suport",
+   "Cómo se mueve la rodilla": "Com es mou el genoll",
+   "Valoramos el apoyo del pie, la cadera y el gesto deportivo, y tratamos con terapia manual las estructuras que aumentan la presión sobre la rótula.": "Valorem el suport del peu, el maluc i el gest esportiu, i tractem amb teràpia manual les estructures que augmenten la pressió sobre la ròtula.",
+   "Qué dice la evidencia": "Què diu l'evidència",
+   "Metaanálisis (PLoS One)": "Metaanàlisi (PLoS One)",
+   "El dolor patelofemoral es frecuente en la población general y especialmente en adolescentes y personas activas (Smith et al., PLoS One, 2018).": "El dolor patel·lofemoral és freqüent en la població general i especialment en adolescents i persones actives (Smith et al., PLoS One, 2018).",
+   "Consenso internacional (Br J Sports Med)": "Consens internacional (Br J Sports Med)",
+   "El consenso internacional sobre dolor patelofemoral recomienda el ejercicio de cadera y rodilla para reducir el dolor y mejorar la función (Crossley et al., Br J Sports Med, 2016).": "El consens internacional sobre dolor patel·lofemoral recomana l'exercici de maluc i genoll per reduir el dolor i millorar la funció (Crossley et al., Br J Sports Med, 2016).",
+   "¿La condromalacia es lo mismo que la artrosis?": "La condromalàcia és el mateix que l'artrosi?",
+   "No. La condromalacia afecta al cartílago de la rótula y es frecuente en personas jóvenes y activas. Si su caso corresponde a un desgaste articular, puede consultar la página de [artrosis](artrosis).": "No. La condromalàcia afecta el cartílag de la ròtula i és freqüent en persones joves i actives. Si el seu cas correspon a un desgast articular, pot consultar la pàgina d'[artrosi](artrosis).",
+   "¿Tengo que dejar de correr?": "He de deixar de córrer?",
+   "Normalmente no es necesario dejarlo del todo. Se ajustan el volumen y la intensidad mientras se fortalece la musculatura, y se planifica una vuelta progresiva.": "Normalment no cal deixar-ho del tot. S'ajusten el volum i la intensitat mentre s'enforteix la musculatura, i es planifica un retorn progressiu.",
+   "¿Por qué se trabaja la cadera si me duele la rodilla?": "Per què es treballa el maluc si em fa mal el genoll?",
+   "La fuerza de la cadera influye en cómo se alinea la rodilla al apoyar. Fortalecerla reduce la carga sobre la rótula.": "La força del maluc influeix en com s'alinea el genoll en recolzar. Enfortir-lo redueix la càrrega sobre la ròtula.",
+   "¿Cuánto tarda en mejorar?": "Quant triga a millorar?",
+   "Depende de cada caso. Con un programa de ejercicio constante suele notarse una mejoría progresiva a lo largo de las primeras semanas. En la primera visita se fijan objetivos concretos.": "Depèn de cada cas. Amb un programa d'exercici constant se sol notar una millora progressiva al llarg de les primeres setmanes. A la primera visita es fixen objectius concrets.",
+   "¿Son útiles las rodilleras o las plantillas?": "Són útils les genolleres o les plantilles?",
+   "En casos seleccionados pueden aliviar el dolor a corto plazo y facilitar el ejercicio, que sigue siendo la base del tratamiento.": "En casos seleccionats poden alleujar el dolor a curt termini i facilitar l'exercici, que continua sent la base del tractament.",
+   "Le ayudamos a volver a su actividad con confianza": "L'ajudem a tornar a la seva activitat amb confiança",
+   "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), abordamos el dolor de rodilla y la condromalacia rotuliana con el método re:trace: valoración clínica, fortalecimiento progresivo y terapia manual. El objetivo es reducir el dolor patelofemoral y volver a su actividad con confianza.": "A WA LAM, a Sarrià–Sant Gervasi (Barcelona), abordem el dolor de genoll i la condromalàcia rotuliana amb el mètode re:trace: valoració clínica, enfortiment progressiu i teràpia manual. L'objectiu és reduir el dolor patel·lofemoral i tornar a la seva activitat amb confiança."
+  }
+ },
+ {
+  "slug": "contracturas-desgarros-musculares",
+  "ca_slug": "contractures-estrips-musculars",
+  "nav": "Contracturas y desgarros",
+  "card": "Contracturas, sobrecargas y roturas fibrilares, con una vuelta progresiva y segura a la actividad.",
+  "title": "Contracturas y desgarros en Barcelona | WA LAM",
+  "desc": "Contracturas, sobrecargas y roturas fibrilares en Sarrià–Sant Gervasi, Barcelona: valoración clínica, carga progresiva y vuelta segura a su actividad.",
+  "h1": "Contracturas y desgarros musculares en Barcelona",
+  "sub": "Lesiones musculares y vuelta a la actividad · Sarrià–Sant Gervasi",
+  "lead": "Las contracturas y las roturas fibrilares son las lesiones musculares más frecuentes, tanto en el deporte como en la vida diaria. Condicionan el trabajo, el ejercicio y el descanso. Una recuperación bien guiada favorece que el músculo repare correctamente y reduce las recaídas.",
+  "facts_title": "En WA LAM",
+  "facts": [
+   "Contracturas y sobrecargas",
+   "Roturas fibrilares (desgarros)",
+   "Vuelta progresiva a la actividad",
+   "Primera visita: 60 min · 90 €"
+  ],
+  "wa": "Hola, me gustaría información sobre una contractura o una lesión muscular.",
+  "mirror": {
+   "h2": "¿Se reconoce en estos síntomas?",
+   "qs": [
+    "¿Tiene una contractura en el cuello, la espalda o las piernas que reaparece una y otra vez?",
+    "¿Notó un pinchazo súbito, «como una pedrada», al correr o al hacer un esfuerzo?",
+    "¿Le duele el músculo al estirarlo o al contraerlo contra resistencia?",
+    "¿Le preocupa retomar el deporte por miedo a volver a lesionarse?"
+   ],
+   "close": "Acuda a urgencias si tras un golpe o un esfuerzo aparece un hematoma muy extenso, una deformidad o un hundimiento visible, o si no puede apoyar ni mover la extremidad. Consulte sin demora si una pantorrilla se hincha, enrojece y duele sin causa aparente, porque debe descartarse una trombosis."
+  },
+  "explain": {
+   "h2": "¿Qué son las contracturas y los desgarros musculares?",
+   "paras": [
+    "Una contractura es un aumento mantenido e involuntario del tono de una zona del músculo, sin rotura de fibras. Se percibe como un nudo doloroso a la palpación y suele deberse a fatiga, sobrecarga o posturas mantenidas. En las clasificaciones de lesión muscular se considera de grado 0.",
+    "Un desgarro o rotura fibrilar es la rotura parcial de fibras musculares por un estiramiento o una contracción que superan la capacidad del músculo. Cursa con dolor súbito y, a veces, hematoma. Se clasifica por grados: el grado I afecta a pocas fibras, el grado II a una parte mayor del músculo y el grado III, poco frecuente, es una rotura completa.",
+    "Son muy frecuentes en isquiotibiales, gemelos, cuádriceps y aductores. Una contractura suele resolverse en días; la recuperación de una rotura fibrilar de grado II se estima entre tres y ocho semanas."
+   ]
+  },
+  "sections": [
+   {
+    "h2": "Causas y factores de riesgo",
+    "paras": [
+     "Las lesiones musculares aparecen cuando la demanda supera la capacidad del músculo en ese momento, ya sea por un gesto brusco o por una sobrecarga mantenida."
+    ],
+    "list_title": "Factores de riesgo",
+    "list": [
+     "Fatiga muscular y falta de recuperación entre esfuerzos",
+     "Calentamiento insuficiente antes de la actividad",
+     "Aumento brusco de la carga de entrenamiento",
+     "Lesión muscular previa, sobre todo si la recuperación fue incompleta",
+     "Déficit de fuerza o desequilibrios entre grupos musculares",
+     "Posturas mantenidas, estrés sostenido y descanso insuficiente"
+    ]
+   },
+   {
+    "h2": "¿Cómo se diagnostica?",
+    "paras": [
+     "El diagnóstico se basa en cómo se produjo la lesión y en la exploración: localización del dolor, palpación, respuesta al estiramiento y a la contracción contra resistencia, y fuerza.",
+     "La ecografía o la resonancia magnética permiten precisar el grado y la extensión de una rotura fibrilar y orientar los plazos de recuperación. En una contractura no suelen ser necesarias."
+    ]
+   },
+   {
+    "h2": "Tratamiento",
+    "paras": [
+     "En los primeros días de una rotura fibrilar se recomienda proteger la zona, con reposo relativo, frío local y compresión. Después, el tratamiento se basa en la carga progresiva: ejercicios de movilidad, fortalecimiento y, finalmente, gestos específicos del deporte o del trabajo.",
+     "En las contracturas, el calor local, la terapia manual y el ejercicio suave ayudan a normalizar el tono muscular. La vuelta a la actividad completa se decide con criterios de fuerza, movilidad y ausencia de dolor, no solo por el tiempo transcurrido."
+    ]
+   },
+   {
+    "h2": "Recomendaciones para el día a día",
+    "paras": [
+     "Estas pautas ayudan a prevenir nuevas lesiones y a recuperarse mejor."
+    ],
+    "list": [
+     "Calentar de forma progresiva antes del ejercicio.",
+     "Aumentar la intensidad y el volumen del entrenamiento de forma gradual.",
+     "Incluir ejercicios de fuerza en su rutina semanal.",
+     "Respetar el descanso y el sueño entre sesiones exigentes.",
+     "Mantener una buena hidratación y una alimentación con suficiente proteína.",
+     "Evitar el reposo absoluto prolongado tras una lesión y retomar el movimiento según la pauta indicada."
+    ]
+   }
+  ],
+  "cards": {
+   "h2": "Cómo lo abordamos en WA LAM",
+   "items": [
+    {
+     "k": "Método re:trace",
+     "h": "Un plan integrativo por fases",
+     "p": "Abordamos las contracturas y los desgarros musculares con el [método re:trace](programas-re-trace): una valoración clínica completa y un plan por fases que integra todo lo que influye en su caso."
+    },
+    {
+     "k": "Carga progresiva",
+     "h": "Del reposo relativo a la actividad completa",
+     "p": "Diseñamos una progresión de movilidad, fuerza y gesto específico adaptada a la fase de la lesión, con criterios claros para volver."
+    },
+    {
+     "k": "Tensión y recuperación",
+     "h": "Por qué se repiten las contracturas",
+     "p": "Revisamos la sobrecarga, la postura, el estrés y el descanso, y trabajamos con terapia manual para reducir la tensión mantenida."
+    }
+   ]
+  },
+  "evidence": {
+   "h2": "Qué dice la evidencia",
+   "items": [
+    [
+     "Global Burden of Disease (The Lancet)",
+     "Los trastornos musculoesqueléticos son el grupo de problemas de salud que más contribuye a la necesidad de rehabilitación en el mundo, con 2.410 millones de personas que podrían beneficiarse de ella (Cieza et al., The Lancet, 2020)."
+    ],
+    [
+     "Metaanálisis (Br J Sports Med)",
+     "En 25 ensayos con más de 26.000 participantes, el entrenamiento de fuerza redujo las lesiones deportivas a menos de un tercio y casi redujo a la mitad las lesiones por sobrecarga (Lauersen et al., Br J Sports Med, 2013)."
+    ]
+   ],
+   "refs": [
+    {
+     "t": "Cieza A, Causey K, Kamenov K, et al., 2020. «Global estimates of the need for rehabilitation based on the Global Burden of Disease study 2019: a systematic analysis for the Global Burden of Disease Study 2019». The Lancet.",
+     "doi": "10.1016/S0140-6736(20)32340-0"
+    },
+    {
+     "t": "Lauersen JB, Bertelsen DM, Andersen LB, 2013. «The effectiveness of exercise interventions to prevent sports injuries: a systematic review and meta-analysis of randomised controlled trials». British Journal of Sports Medicine.",
+     "doi": "10.1136/bjsports-2013-092538"
+    }
+   ]
+  },
+  "faq": [
+   [
+    "¿Es mejor el reposo absoluto tras una rotura fibrilar?",
+    "Los primeros días conviene proteger la zona. Después, el músculo se repara mejor con una carga progresiva y bien dosificada."
+   ],
+   [
+    "¿Cuándo podré volver a hacer deporte?",
+    "Depende del grado de la lesión y de su actividad. La vuelta se decide con criterios de fuerza, movilidad y ausencia de dolor."
+   ],
+   [
+    "¿Es mejor aplicar calor o frío?",
+    "En una rotura reciente, frío durante los primeros días. En una contractura, el calor local suele aliviar la tensión."
+   ],
+   [
+    "¿Por qué se repiten mis contracturas?",
+    "Suelen influir la sobrecarga, las posturas mantenidas, la falta de fuerza, el estrés y el descanso. Por eso se revisan todos estos factores."
+   ],
+   [
+    "¿Y si lo que tengo es una torcedura de tobillo?",
+    "Las lesiones de ligamentos se tratan de forma específica. Puede consultar la página de [esguinces](esguinces)."
+   ]
+  ],
+  "related": [
+   "esguinces",
+   "dolor-musculoesqueletico",
+   "masajes-sarria-sant-gervasi",
+   "osteopatia-sarria-sant-gervasi"
+  ],
+  "cta_h2": "Le ayudamos a recuperar su movimiento paso a paso",
+  "seo": {
+   "kw": "contractura muscular Barcelona",
+   "kws": [
+    "rotura fibrilar tratamiento Barcelona",
+    "desgarro muscular recuperación",
+    "sobrecarga muscular Barcelona",
+    "contractura cervical",
+    "lesión deportiva Sant Gervasi"
+   ],
+   "ca_kw": "contractura muscular Barcelona",
+   "quick": "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), abordamos las contracturas, las sobrecargas y las roturas fibrilares con el método re:trace: valoración clínica, carga progresiva y terapia manual. El objetivo es que el músculo se recupere bien y reducir las recaídas.",
+   "entity": [
+    "MedicalCondition",
+    "Lesión muscular (contractura y rotura fibrilar)"
+   ]
+  },
+  "research": [
+   "Personas con una contractura o un desgarro reciente que buscan recuperarse y volver al deporte o al trabajo sin recaídas.",
+   [
+    "contractura muscular que no se va",
+    "rotura fibrilar cuánto tarda en curar",
+    "tratamiento contractura Barcelona"
+   ],
+   [
+    "contractura muscular tractament Barcelona",
+    "trencament fibril·lar recuperació"
+   ],
+   "Clínicas de fisioterapia y centros deportivos de la zona alta de Barcelona, con páginas centradas en técnicas pasivas."
+  ],
+  "ca": {
+   "Contracturas y desgarros": "Contractures i estrips",
+   "Contracturas, sobrecargas y roturas fibrilares, con una vuelta progresiva y segura a la actividad.": "Contractures, sobrecàrregues i trencaments fibril·lars, amb un retorn progressiu i segur a l'activitat.",
+   "Contracturas y desgarros en Barcelona | WA LAM": "Contractures i estrips a Barcelona | WA LAM",
+   "Contracturas, sobrecargas y roturas fibrilares en Sarrià–Sant Gervasi, Barcelona: valoración clínica, carga progresiva y vuelta segura a su actividad.": "Contractures, sobrecàrregues i trencaments fibril·lars a Sarrià–Sant Gervasi, Barcelona: valoració clínica, càrrega progressiva i retorn segur a l'activitat.",
+   "Contracturas y desgarros musculares en Barcelona": "Contractures i estrips musculars a Barcelona",
+   "Lesiones musculares y vuelta a la actividad · Sarrià–Sant Gervasi": "Lesions musculars i retorn a l'activitat · Sarrià–Sant Gervasi",
+   "Las contracturas y las roturas fibrilares son las lesiones musculares más frecuentes, tanto en el deporte como en la vida diaria. Condicionan el trabajo, el ejercicio y el descanso. Una recuperación bien guiada favorece que el músculo repare correctamente y reduce las recaídas.": "Les contractures i els trencaments fibril·lars són les lesions musculars més freqüents, tant en l'esport com en la vida diària. Condicionen la feina, l'exercici i el descans. Una recuperació ben guiada afavoreix que el múscul es repari correctament i redueix les recaigudes.",
+   "En WA LAM": "A WA LAM",
+   "Contracturas y sobrecargas": "Contractures i sobrecàrregues",
+   "Roturas fibrilares (desgarros)": "Trencaments fibril·lars (estrips)",
+   "Vuelta progresiva a la actividad": "Retorn progressiu a l'activitat",
+   "Primera visita: 60 min · 90 €": "Primera visita: 60 min · 90 €",
+   "Hola, me gustaría información sobre una contractura o una lesión muscular.": "Hola, m'agradaria informació sobre una contractura o una lesió muscular.",
+   "¿Se reconoce en estos síntomas?": "Es reconeix en aquests símptomes?",
+   "¿Tiene una contractura en el cuello, la espalda o las piernas que reaparece una y otra vez?": "Té una contractura al coll, l'esquena o les cames que reapareix una vegada i una altra?",
+   "¿Notó un pinchazo súbito, «como una pedrada», al correr o al hacer un esfuerzo?": "Va notar una punxada sobtada, «com una pedrada», en córrer o en fer un esforç?",
+   "¿Le duele el músculo al estirarlo o al contraerlo contra resistencia?": "Li fa mal el múscul en estirar-lo o en contraure'l contra resistència?",
+   "¿Le preocupa retomar el deporte por miedo a volver a lesionarse?": "Li preocupa reprendre l'esport per por de tornar a lesionar-se?",
+   "Acuda a urgencias si tras un golpe o un esfuerzo aparece un hematoma muy extenso, una deformidad o un hundimiento visible, o si no puede apoyar ni mover la extremidad. Consulte sin demora si una pantorrilla se hincha, enrojece y duele sin causa aparente, porque debe descartarse una trombosis.": "Vagi a urgències si després d'un cop o un esforç apareix un hematoma molt extens, una deformitat o un enfonsament visible, o si no pot recolzar ni moure l'extremitat. Consulti sense demora si un panxell s'inflama, s'envermelleix i fa mal sense causa aparent, perquè cal descartar una trombosi.",
+   "¿Qué son las contracturas y los desgarros musculares?": "Què són les contractures i els estrips musculars?",
+   "Una contractura es un aumento mantenido e involuntario del tono de una zona del músculo, sin rotura de fibras. Se percibe como un nudo doloroso a la palpación y suele deberse a fatiga, sobrecarga o posturas mantenidas. En las clasificaciones de lesión muscular se considera de grado 0.": "Una contractura és un augment mantingut i involuntari del to d'una zona del múscul, sense trencament de fibres. Es percep com un nus dolorós a la palpació i sol ser deguda a fatiga, sobrecàrrega o postures mantingudes. En les classificacions de lesió muscular es considera de grau 0.",
+   "Un desgarro o rotura fibrilar es la rotura parcial de fibras musculares por un estiramiento o una contracción que superan la capacidad del músculo. Cursa con dolor súbito y, a veces, hematoma. Se clasifica por grados: el grado I afecta a pocas fibras, el grado II a una parte mayor del músculo y el grado III, poco frecuente, es una rotura completa.": "Un estrip o trencament fibril·lar és el trencament parcial de fibres musculars per un estirament o una contracció que superen la capacitat del múscul. Cursa amb dolor sobtat i, de vegades, hematoma. Es classifica per graus: el grau I afecta poques fibres, el grau II una part més gran del múscul i el grau III, poc freqüent, és un trencament complet.",
+   "Son muy frecuentes en isquiotibiales, gemelos, cuádriceps y aductores. Una contractura suele resolverse en días; la recuperación de una rotura fibrilar de grado II se estima entre tres y ocho semanas.": "Són molt freqüents als isquiotibials, els bessons, el quàdriceps i els adductors. Una contractura se sol resoldre en dies; la recuperació d'un trencament fibril·lar de grau II s'estima entre tres i vuit setmanes.",
+   "Causas y factores de riesgo": "Causes i factors de risc",
+   "Las lesiones musculares aparecen cuando la demanda supera la capacidad del músculo en ese momento, ya sea por un gesto brusco o por una sobrecarga mantenida.": "Les lesions musculars apareixen quan la demanda supera la capacitat del múscul en aquell moment, ja sigui per un gest brusc o per una sobrecàrrega mantinguda.",
+   "Factores de riesgo": "Factors de risc",
+   "Fatiga muscular y falta de recuperación entre esfuerzos": "Fatiga muscular i manca de recuperació entre esforços",
+   "Calentamiento insuficiente antes de la actividad": "Escalfament insuficient abans de l'activitat",
+   "Aumento brusco de la carga de entrenamiento": "Augment brusc de la càrrega d'entrenament",
+   "Lesión muscular previa, sobre todo si la recuperación fue incompleta": "Lesió muscular prèvia, sobretot si la recuperació va ser incompleta",
+   "Déficit de fuerza o desequilibrios entre grupos musculares": "Dèficit de força o desequilibris entre grups musculars",
+   "Posturas mantenidas, estrés sostenido y descanso insuficiente": "Postures mantingudes, estrès sostingut i descans insuficient",
+   "¿Cómo se diagnostica?": "Com es diagnostica?",
+   "El diagnóstico se basa en cómo se produjo la lesión y en la exploración: localización del dolor, palpación, respuesta al estiramiento y a la contracción contra resistencia, y fuerza.": "El diagnòstic es basa en com es va produir la lesió i en l'exploració: localització del dolor, palpació, resposta a l'estirament i a la contracció contra resistència, i força.",
+   "La ecografía o la resonancia magnética permiten precisar el grado y la extensión de una rotura fibrilar y orientar los plazos de recuperación. En una contractura no suelen ser necesarias.": "L'ecografia o la ressonància magnètica permeten precisar el grau i l'extensió d'un trencament fibril·lar i orientar els terminis de recuperació. En una contractura no solen ser necessàries.",
+   "Tratamiento": "Tractament",
+   "En los primeros días de una rotura fibrilar se recomienda proteger la zona, con reposo relativo, frío local y compresión. Después, el tratamiento se basa en la carga progresiva: ejercicios de movilidad, fortalecimiento y, finalmente, gestos específicos del deporte o del trabajo.": "En els primers dies d'un trencament fibril·lar es recomana protegir la zona, amb repòs relatiu, fred local i compressió. Després, el tractament es basa en la càrrega progressiva: exercicis de mobilitat, enfortiment i, finalment, gestos específics de l'esport o de la feina.",
+   "En las contracturas, el calor local, la terapia manual y el ejercicio suave ayudan a normalizar el tono muscular. La vuelta a la actividad completa se decide con criterios de fuerza, movilidad y ausencia de dolor, no solo por el tiempo transcurrido.": "En les contractures, la calor local, la teràpia manual i l'exercici suau ajuden a normalitzar el to muscular. El retorn a l'activitat completa es decideix amb criteris de força, mobilitat i absència de dolor, no només pel temps transcorregut.",
+   "Recomendaciones para el día a día": "Recomanacions per al dia a dia",
+   "Estas pautas ayudan a prevenir nuevas lesiones y a recuperarse mejor.": "Aquestes pautes ajuden a prevenir noves lesions i a recuperar-se millor.",
+   "Calentar de forma progresiva antes del ejercicio.": "Escalfar de manera progressiva abans de l'exercici.",
+   "Aumentar la intensidad y el volumen del entrenamiento de forma gradual.": "Augmentar la intensitat i el volum de l'entrenament de manera gradual.",
+   "Incluir ejercicios de fuerza en su rutina semanal.": "Incloure exercicis de força en la seva rutina setmanal.",
+   "Respetar el descanso y el sueño entre sesiones exigentes.": "Respectar el descans i la son entre sessions exigents.",
+   "Mantener una buena hidratación y una alimentación con suficiente proteína.": "Mantenir una bona hidratació i una alimentació amb prou proteïna.",
+   "Evitar el reposo absoluto prolongado tras una lesión y retomar el movimiento según la pauta indicada.": "Evitar el repòs absolut perllongat després d'una lesió i reprendre el moviment segons la pauta indicada.",
+   "Cómo lo abordamos en WA LAM": "Com ho abordem a WA LAM",
+   "Método re:trace": "Mètode re:trace",
+   "Un plan integrativo por fases": "Un pla integratiu per fases",
+   "Abordamos las contracturas y los desgarros musculares con el [método re:trace](programas-re-trace): una valoración clínica completa y un plan por fases que integra todo lo que influye en su caso.": "Abordem les contractures i els estrips musculars amb el [mètode re:trace](programas-re-trace): una valoració clínica completa i un pla per fases que integra tot allò que influeix en el seu cas.",
+   "Carga progresiva": "Càrrega progressiva",
+   "Del reposo relativo a la actividad completa": "Del repòs relatiu a l'activitat completa",
+   "Diseñamos una progresión de movilidad, fuerza y gesto específico adaptada a la fase de la lesión, con criterios claros para volver.": "Dissenyem una progressió de mobilitat, força i gest específic adaptada a la fase de la lesió, amb criteris clars per tornar.",
+   "Tensión y recuperación": "Tensió i recuperació",
+   "Por qué se repiten las contracturas": "Per què es repeteixen les contractures",
+   "Revisamos la sobrecarga, la postura, el estrés y el descanso, y trabajamos con terapia manual para reducir la tensión mantenida.": "Revisem la sobrecàrrega, la postura, l'estrès i el descans, i treballem amb teràpia manual per reduir la tensió mantinguda.",
+   "Qué dice la evidencia": "Què diu l'evidència",
+   "Global Burden of Disease (The Lancet)": "Global Burden of Disease (The Lancet)",
+   "Los trastornos musculoesqueléticos son el grupo de problemas de salud que más contribuye a la necesidad de rehabilitación en el mundo, con 2.410 millones de personas que podrían beneficiarse de ella (Cieza et al., The Lancet, 2020).": "Els trastorns musculoesquelètics són el grup de problemes de salut que més contribueix a la necessitat de rehabilitació al món, amb 2.410 milions de persones que se'n podrien beneficiar (Cieza et al., The Lancet, 2020).",
+   "Metaanálisis (Br J Sports Med)": "Metaanàlisi (Br J Sports Med)",
+   "En 25 ensayos con más de 26.000 participantes, el entrenamiento de fuerza redujo las lesiones deportivas a menos de un tercio y casi redujo a la mitad las lesiones por sobrecarga (Lauersen et al., Br J Sports Med, 2013).": "En 25 assajos amb més de 26.000 participants, l'entrenament de força va reduir les lesions esportives a menys d'un terç i gairebé va reduir a la meitat les lesions per sobrecàrrega (Lauersen et al., Br J Sports Med, 2013).",
+   "¿Es mejor el reposo absoluto tras una rotura fibrilar?": "És millor el repòs absolut després d'un trencament fibril·lar?",
+   "Los primeros días conviene proteger la zona. Después, el músculo se repara mejor con una carga progresiva y bien dosificada.": "Els primers dies convé protegir la zona. Després, el múscul es repara millor amb una càrrega progressiva i ben dosificada.",
+   "¿Cuándo podré volver a hacer deporte?": "Quan podré tornar a fer esport?",
+   "Depende del grado de la lesión y de su actividad. La vuelta se decide con criterios de fuerza, movilidad y ausencia de dolor.": "Depèn del grau de la lesió i de la seva activitat. El retorn es decideix amb criteris de força, mobilitat i absència de dolor.",
+   "¿Es mejor aplicar calor o frío?": "És millor aplicar calor o fred?",
+   "En una rotura reciente, frío durante los primeros días. En una contractura, el calor local suele aliviar la tensión.": "En un trencament recent, fred durant els primers dies. En una contractura, la calor local sol alleujar la tensió.",
+   "¿Por qué se repiten mis contracturas?": "Per què es repeteixen les meves contractures?",
+   "Suelen influir la sobrecarga, las posturas mantenidas, la falta de fuerza, el estrés y el descanso. Por eso se revisan todos estos factores.": "Hi solen influir la sobrecàrrega, les postures mantingudes, la manca de força, l'estrès i el descans. Per això es revisen tots aquests factors.",
+   "¿Y si lo que tengo es una torcedura de tobillo?": "I si el que tinc és una torçada de turmell?",
+   "Las lesiones de ligamentos se tratan de forma específica. Puede consultar la página de [esguinces](esguinces).": "Les lesions de lligaments es tracten de manera específica. Pot consultar la pàgina d'[esquinços](esguinces).",
+   "Le ayudamos a recuperar su movimiento paso a paso": "L'ajudem a recuperar el seu moviment pas a pas",
+   "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), abordamos las contracturas, las sobrecargas y las roturas fibrilares con el método re:trace: valoración clínica, carga progresiva y terapia manual. El objetivo es que el músculo se recupere bien y reducir las recaídas.": "A WA LAM, a Sarrià–Sant Gervasi (Barcelona), abordem les contractures, les sobrecàrregues i els trencaments fibril·lars amb el mètode re:trace: valoració clínica, càrrega progressiva i teràpia manual. L'objectiu és que el múscul es recuperi bé i reduir les recaigudes."
+  }
+ },
+ {
+  "slug": "esguinces",
+  "ca_slug": "esquincos",
+  "nav": "Esguinces",
+  "card": "Esguinces de tobillo, rodilla y muñeca: recuperación de la movilidad y la estabilidad, y prevención de recaídas.",
+  "title": "Recuperación de esguinces en Barcelona | WA LAM",
+  "desc": "Esguinces de tobillo, rodilla y muñeca en Sarrià–Sant Gervasi, Barcelona: valoración clínica, propiocepción, fuerza y vuelta segura a la actividad.",
+  "h1": "Esguinces en Barcelona: recuperación y prevención de recaídas",
+  "sub": "Tobillo, rodilla y muñeca · Sarrià–Sant Gervasi",
+  "lead": "Un esguince es una lesión de los ligamentos que estabilizan una articulación, con mayor frecuencia el tobillo. Tras la fase aguda, una recuperación activa devuelve la movilidad, la fuerza y la estabilidad. Cuando se descuida, el esguince tiende a repetirse.",
+  "facts_title": "En WA LAM",
+  "facts": [
+   "Tobillo, rodilla y muñeca",
+   "Propiocepción y vuelta progresiva a la actividad",
+   "Primera visita: 60 min · 90 €"
+  ],
+  "wa": "Hola, me gustaría información sobre la recuperación de un esguince.",
+  "mirror": {
+   "h2": "¿Se reconoce en estos síntomas?",
+   "qs": [
+    "¿Han pasado semanas desde la torcedura y todavía nota dolor o hinchazón?",
+    "¿Siente que el tobillo «falla» al caminar por terrenos irregulares?",
+    "¿Se ha torcido el mismo tobillo varias veces?",
+    "¿Le da inseguridad volver a correr, saltar o hacer deporte?"
+   ],
+   "close": "Acuda a urgencias si tras la torcedura no puede dar cuatro pasos apoyando el pie, hay deformidad, dolor intenso al presionar el hueso o la articulación se bloquea: debe descartarse una fractura o una rotura completa."
+  },
+  "explain": {
+   "h2": "¿Qué es un esguince?",
+   "paras": [
+    "Un esguince es la distensión o rotura de uno o varios ligamentos, las bandas fibrosas que unen los huesos de una articulación. El más frecuente es el esguince lateral de tobillo, que se produce por un giro del pie hacia dentro (inversión forzada).",
+    "Se clasifica en tres grados: grado I, distensión sin rotura; grado II, rotura parcial, el más habitual; y grado III, rotura completa con inestabilidad. La recuperación aproximada oscila entre tres y seis semanas según el grado, y puede prolongarse en los casos más graves.",
+    "Es una de las lesiones más frecuentes en el deporte y en la vida diaria. Una parte de las personas desarrolla inestabilidad crónica o nuevos esguinces cuando no se recuperan la fuerza y la propiocepción."
+   ]
+  },
+  "sections": [
+   {
+    "h2": "Causas y factores de riesgo",
+    "paras": [
+     "El esguince se produce cuando la articulación se ve forzada más allá de su rango normal. Algunos factores aumentan el riesgo de que ocurra o de que se repita."
+    ],
+    "list_title": "Factores de riesgo",
+    "list": [
+     "Esguinces previos en la misma articulación",
+     "Deportes con saltos, giros y cambios de dirección",
+     "Terrenos irregulares y calzado inadecuado",
+     "Déficit de equilibrio y de fuerza en el tobillo y la cadera",
+     "Fatiga muscular al final de la actividad",
+     "Recuperación incompleta de una lesión anterior"
+    ]
+   },
+   {
+    "h2": "¿Cómo se diagnostica?",
+    "paras": [
+     "El diagnóstico se basa en el mecanismo de la lesión y en la exploración: localización del dolor, hinchazón, hematoma, capacidad de apoyo y estabilidad de la articulación.",
+     "La radiografía se indica cuando se sospecha una fractura, por ejemplo si no es posible apoyar o si duele al presionar determinadas zonas del hueso. La ecografía o la resonancia se reservan para lesiones graves o que no evolucionan bien."
+    ]
+   },
+   {
+    "h2": "Tratamiento",
+    "paras": [
+     "En las primeras 48 a 72 horas se recomienda proteger la articulación, con reposo relativo, frío local, compresión y elevación. En los esguinces de grado II y III puede ser necesaria una inmovilización parcial durante unos días.",
+     "Después, el tratamiento se basa en la movilización precoz, el ejercicio de fuerza y el entrenamiento de la propiocepción y el equilibrio, con una vuelta progresiva a la actividad. La terapia manual ayuda a recuperar la movilidad articular. La cirugía se reserva para casos seleccionados de rotura completa o inestabilidad persistente."
+    ]
+   },
+   {
+    "h2": "Recomendaciones para el día a día",
+    "paras": [
+     "Estas pautas favorecen la recuperación y reducen el riesgo de un nuevo esguince."
+    ],
+    "list": [
+     "Retomar el apoyo y el movimiento de forma progresiva en cuanto el dolor lo permita.",
+     "Practicar a diario ejercicios de equilibrio, por ejemplo sobre un solo pie.",
+     "Fortalecer la musculatura del tobillo, la pierna y la cadera.",
+     "Usar calzado estable y adecuado para cada actividad.",
+     "Valorar una tobillera o un vendaje funcional al volver al deporte.",
+     "Completar el programa de ejercicios aunque el dolor haya desaparecido."
+    ]
+   }
+  ],
+  "cards": {
+   "h2": "Cómo lo abordamos en WA LAM",
+   "items": [
+    {
+     "k": "Método re:trace",
+     "h": "Un plan integrativo por fases",
+     "p": "Abordamos la recuperación de los esguinces con el [método re:trace](programas-re-trace): una valoración clínica completa y un plan por fases que integra todo lo que influye en su caso."
+    },
+    {
+     "k": "Propiocepción y fuerza",
+     "h": "Estabilidad para volver a moverse",
+     "p": "Entrenamos el equilibrio, el control y la fuerza con una progresión que llega hasta los gestos de su deporte o de su actividad diaria."
+    },
+    {
+     "k": "Movilidad y prevención",
+     "h": "Evitar el esguince de repetición",
+     "p": "Recuperamos con terapia manual la movilidad del tobillo y revisamos las compensaciones en rodilla y cadera, con criterios claros para la vuelta."
+    }
+   ]
+  },
+  "evidence": {
+   "h2": "Qué dice la evidencia",
+   "items": [
+    [
+     "Revisión de revisiones (Br J Sports Med)",
+     "En el esguince agudo de tobillo, el ejercicio y la terapia manual mejoran el dolor, la inflamación y la función, y el entrenamiento neuromuscular y las tobilleras ayudan a prevenir las recaídas (Doherty et al., Br J Sports Med, 2016)."
+    ],
+    [
+     "Ensayo clínico (BMJ)",
+     "En 522 deportistas con un esguince de tobillo reciente, un programa de propiocepción en casa de ocho semanas redujo las recaídas durante el año siguiente del 33 % al 22 % (Hupperets et al., BMJ, 2009)."
+    ],
+    [
+     "Guía clínica (Br J Sports Med)",
+     "La guía actualizada sobre el esguince de tobillo recomienda los programas de ejercicio supervisado para recuperar la estabilidad de la articulación y prevenir nuevos esguinces (Vuurberg et al., Br J Sports Med, 2018)."
+    ]
+   ],
+   "refs": [
+    {
+     "t": "Doherty C, Bleakley C, Delahunt E, Holden S, 2016. «Treatment and prevention of acute and recurrent ankle sprain: an overview of systematic reviews with meta-analysis». British Journal of Sports Medicine.",
+     "doi": "10.1136/bjsports-2016-096178"
+    },
+    {
+     "t": "Hupperets MDW, Verhagen EALM, van Mechelen W, 2009. «Effect of unsupervised home based proprioceptive training on recurrences of ankle sprain: randomised controlled trial». BMJ.",
+     "doi": "10.1136/bmj.b2684"
+    },
+    {
+     "t": "Vuurberg G, Hoorntje A, Wink LM, et al., 2018. «Diagnosis, treatment and prevention of ankle sprains: update of an evidence-based clinical guideline». British Journal of Sports Medicine.",
+     "doi": "10.1136/bjsports-2017-098106"
+    }
+   ]
+  },
+  "faq": [
+   [
+    "¿Cuándo puedo empezar la recuperación?",
+    "Una vez descartada una fractura, desde los primeros días. La movilización temprana y progresiva favorece una mejor evolución."
+   ],
+   [
+    "¿Qué es la propiocepción?",
+    "Es la capacidad del sistema nervioso para percibir la posición de una articulación. Tras un esguince se altera, y entrenarla ayuda a prevenir nuevas torceduras."
+   ],
+   [
+    "¿También se tratan los esguinces de rodilla y de muñeca?",
+    "Sí, en la fase de recuperación. Si se sospecha una rotura de los ligamentos cruzados o una inestabilidad importante, se requiere antes una valoración traumatológica. Si le preocupa la rodilla, consulte también [dolor de rodilla](dolor-rodilla-condromalacia)."
+   ],
+   [
+    "¿Cuándo puedo volver a hacer deporte?",
+    "Cuando haya recuperado la movilidad, la fuerza y el equilibrio, y tolere sin dolor los gestos de su deporte. La vuelta se planifica por etapas."
+   ],
+   [
+    "¿Qué es un esguince mal curado?",
+    "Es el que deja dolor, hinchazón o sensación de inestabilidad semanas después de la lesión. Suele mejorar con un programa específico de fuerza y propiocepción."
+   ]
+  ],
+  "related": [
+   "contracturas-desgarros-musculares",
+   "dolor-rodilla-condromalacia",
+   "fascitis-plantar",
+   "osteopatia-sarria-sant-gervasi"
+  ],
+  "cta_h2": "Le ayudamos a volver a moverse con seguridad",
+  "seo": {
+   "kw": "recuperación esguince Barcelona",
+   "kws": [
+    "esguince de tobillo recuperación",
+    "esguince mal curado",
+    "propiocepción tobillo",
+    "esguince de rodilla tratamiento",
+    "esguince de muñeca Barcelona"
+   ],
+   "ca_kw": "recuperació esquinç Barcelona",
+   "quick": "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), abordamos la recuperación de esguinces de tobillo, rodilla y muñeca con el método re:trace: valoración clínica, propiocepción, fuerza y terapia manual. El objetivo es recuperar la estabilidad y prevenir nuevas lesiones.",
+   "entity": [
+    "MedicalCondition",
+    "Esguince"
+   ]
+  },
+  "research": [
+   "Personas que se han torcido un tobillo u otra articulación y quieren recuperarse bien y evitar recaídas.",
+   [
+    "esguince de tobillo recuperación Barcelona",
+    "esguince mal curado tratamiento",
+    "ejercicios propiocepción tobillo"
+   ],
+   [
+    "esquinç de turmell recuperació",
+    "esquinç mal curat"
+   ],
+   "Fisioterapeutas deportivos y mutuas, con contenido muy centrado en la fase aguda."
+  ],
+  "ca": {
+   "Esguinces": "Esquinços",
+   "Esguinces de tobillo, rodilla y muñeca: recuperación de la movilidad y la estabilidad, y prevención de recaídas.": "Esquinços de turmell, genoll i canell: recuperació de la mobilitat i l'estabilitat, i prevenció de recaigudes.",
+   "Recuperación de esguinces en Barcelona | WA LAM": "Recuperació d'esquinços a Barcelona | WA LAM",
+   "Esguinces de tobillo, rodilla y muñeca en Sarrià–Sant Gervasi, Barcelona: valoración clínica, propiocepción, fuerza y vuelta segura a la actividad.": "Esquinços de turmell, genoll i canell a Sarrià–Sant Gervasi, Barcelona: valoració clínica, propiocepció, força i retorn segur a l'activitat.",
+   "Esguinces en Barcelona: recuperación y prevención de recaídas": "Esquinços a Barcelona: recuperació i prevenció de recaigudes",
+   "Tobillo, rodilla y muñeca · Sarrià–Sant Gervasi": "Turmell, genoll i canell · Sarrià–Sant Gervasi",
+   "Un esguince es una lesión de los ligamentos que estabilizan una articulación, con mayor frecuencia el tobillo. Tras la fase aguda, una recuperación activa devuelve la movilidad, la fuerza y la estabilidad. Cuando se descuida, el esguince tiende a repetirse.": "Un esquinç és una lesió dels lligaments que estabilitzen una articulació, amb més freqüència el turmell. Després de la fase aguda, una recuperació activa retorna la mobilitat, la força i l'estabilitat. Quan es descuida, l'esquinç tendeix a repetir-se.",
+   "En WA LAM": "A WA LAM",
+   "Tobillo, rodilla y muñeca": "Turmell, genoll i canell",
+   "Propiocepción y vuelta progresiva a la actividad": "Propiocepció i retorn progressiu a l'activitat",
+   "Primera visita: 60 min · 90 €": "Primera visita: 60 min · 90 €",
+   "Hola, me gustaría información sobre la recuperación de un esguince.": "Hola, m'agradaria informació sobre la recuperació d'un esquinç.",
+   "¿Se reconoce en estos síntomas?": "Es reconeix en aquests símptomes?",
+   "¿Han pasado semanas desde la torcedura y todavía nota dolor o hinchazón?": "Han passat setmanes des de la torçada i encara nota dolor o inflor?",
+   "¿Siente que el tobillo «falla» al caminar por terrenos irregulares?": "Sent que el turmell «falla» en caminar per terrenys irregulars?",
+   "¿Se ha torcido el mismo tobillo varias veces?": "S'ha torçat el mateix turmell diverses vegades?",
+   "¿Le da inseguridad volver a correr, saltar o hacer deporte?": "Li fa inseguretat tornar a córrer, saltar o fer esport?",
+   "Acuda a urgencias si tras la torcedura no puede dar cuatro pasos apoyando el pie, hay deformidad, dolor intenso al presionar el hueso o la articulación se bloquea: debe descartarse una fractura o una rotura completa.": "Vagi a urgències si després de la torçada no pot fer quatre passos recolzant el peu, hi ha deformitat, dolor intens en pressionar l'os o l'articulació es bloqueja: cal descartar una fractura o un trencament complet.",
+   "¿Qué es un esguince?": "Què és un esquinç?",
+   "Un esguince es la distensión o rotura de uno o varios ligamentos, las bandas fibrosas que unen los huesos de una articulación. El más frecuente es el esguince lateral de tobillo, que se produce por un giro del pie hacia dentro (inversión forzada).": "Un esquinç és la distensió o el trencament d'un o diversos lligaments, les bandes fibroses que uneixen els ossos d'una articulació. El més freqüent és l'esquinç lateral de turmell, que es produeix per un gir del peu cap endins (inversió forçada).",
+   "Se clasifica en tres grados: grado I, distensión sin rotura; grado II, rotura parcial, el más habitual; y grado III, rotura completa con inestabilidad. La recuperación aproximada oscila entre tres y seis semanas según el grado, y puede prolongarse en los casos más graves.": "Es classifica en tres graus: grau I, distensió sense trencament; grau II, trencament parcial, el més habitual; i grau III, trencament complet amb inestabilitat. La recuperació aproximada oscil·la entre tres i sis setmanes segons el grau, i es pot allargar en els casos més greus.",
+   "Es una de las lesiones más frecuentes en el deporte y en la vida diaria. Una parte de las personas desarrolla inestabilidad crónica o nuevos esguinces cuando no se recuperan la fuerza y la propiocepción.": "És una de les lesions més freqüents en l'esport i en la vida diària. Una part de les persones desenvolupa inestabilitat crònica o nous esquinços quan no es recuperen la força i la propiocepció.",
+   "Causas y factores de riesgo": "Causes i factors de risc",
+   "El esguince se produce cuando la articulación se ve forzada más allá de su rango normal. Algunos factores aumentan el riesgo de que ocurra o de que se repita.": "L'esquinç es produeix quan l'articulació es veu forçada més enllà del seu rang normal. Alguns factors augmenten el risc que passi o que es repeteixi.",
+   "Factores de riesgo": "Factors de risc",
+   "Esguinces previos en la misma articulación": "Esquinços previs a la mateixa articulació",
+   "Deportes con saltos, giros y cambios de dirección": "Esports amb salts, girs i canvis de direcció",
+   "Terrenos irregulares y calzado inadecuado": "Terrenys irregulars i calçat inadequat",
+   "Déficit de equilibrio y de fuerza en el tobillo y la cadera": "Dèficit d'equilibri i de força al turmell i al maluc",
+   "Fatiga muscular al final de la actividad": "Fatiga muscular al final de l'activitat",
+   "Recuperación incompleta de una lesión anterior": "Recuperació incompleta d'una lesió anterior",
+   "¿Cómo se diagnostica?": "Com es diagnostica?",
+   "El diagnóstico se basa en el mecanismo de la lesión y en la exploración: localización del dolor, hinchazón, hematoma, capacidad de apoyo y estabilidad de la articulación.": "El diagnòstic es basa en el mecanisme de la lesió i en l'exploració: localització del dolor, inflor, hematoma, capacitat de suport i estabilitat de l'articulació.",
+   "La radiografía se indica cuando se sospecha una fractura, por ejemplo si no es posible apoyar o si duele al presionar determinadas zonas del hueso. La ecografía o la resonancia se reservan para lesiones graves o que no evolucionan bien.": "La radiografia s'indica quan se sospita una fractura, per exemple si no és possible recolzar o si fa mal en pressionar determinades zones de l'os. L'ecografia o la ressonància es reserven per a lesions greus o que no evolucionen bé.",
+   "Tratamiento": "Tractament",
+   "En las primeras 48 a 72 horas se recomienda proteger la articulación, con reposo relativo, frío local, compresión y elevación. En los esguinces de grado II y III puede ser necesaria una inmovilización parcial durante unos días.": "En les primeres 48 a 72 hores es recomana protegir l'articulació, amb repòs relatiu, fred local, compressió i elevació. En els esquinços de grau II i III pot ser necessària una immobilització parcial durant uns dies.",
+   "Después, el tratamiento se basa en la movilización precoz, el ejercicio de fuerza y el entrenamiento de la propiocepción y el equilibrio, con una vuelta progresiva a la actividad. La terapia manual ayuda a recuperar la movilidad articular. La cirugía se reserva para casos seleccionados de rotura completa o inestabilidad persistente.": "Després, el tractament es basa en la mobilització precoç, l'exercici de força i l'entrenament de la propiocepció i l'equilibri, amb un retorn progressiu a l'activitat. La teràpia manual ajuda a recuperar la mobilitat articular. La cirurgia es reserva per a casos seleccionats de trencament complet o inestabilitat persistent.",
+   "Recomendaciones para el día a día": "Recomanacions per al dia a dia",
+   "Estas pautas favorecen la recuperación y reducen el riesgo de un nuevo esguince.": "Aquestes pautes afavoreixen la recuperació i redueixen el risc d'un nou esquinç.",
+   "Retomar el apoyo y el movimiento de forma progresiva en cuanto el dolor lo permita.": "Reprendre el suport i el moviment de manera progressiva tan aviat com el dolor ho permeti.",
+   "Practicar a diario ejercicios de equilibrio, por ejemplo sobre un solo pie.": "Practicar cada dia exercicis d'equilibri, per exemple sobre un sol peu.",
+   "Fortalecer la musculatura del tobillo, la pierna y la cadera.": "Enfortir la musculatura del turmell, la cama i el maluc.",
+   "Usar calzado estable y adecuado para cada actividad.": "Fer servir calçat estable i adequat per a cada activitat.",
+   "Valorar una tobillera o un vendaje funcional al volver al deporte.": "Valorar una turmellera o un embenat funcional en tornar a l'esport.",
+   "Completar el programa de ejercicios aunque el dolor haya desaparecido.": "Completar el programa d'exercicis encara que el dolor hagi desaparegut.",
+   "Cómo lo abordamos en WA LAM": "Com ho abordem a WA LAM",
+   "Método re:trace": "Mètode re:trace",
+   "Un plan integrativo por fases": "Un pla integratiu per fases",
+   "Abordamos la recuperación de los esguinces con el [método re:trace](programas-re-trace): una valoración clínica completa y un plan por fases que integra todo lo que influye en su caso.": "Abordem la recuperació dels esquinços amb el [mètode re:trace](programas-re-trace): una valoració clínica completa i un pla per fases que integra tot allò que influeix en el seu cas.",
+   "Propiocepción y fuerza": "Propiocepció i força",
+   "Estabilidad para volver a moverse": "Estabilitat per tornar a moure's",
+   "Entrenamos el equilibrio, el control y la fuerza con una progresión que llega hasta los gestos de su deporte o de su actividad diaria.": "Entrenem l'equilibri, el control i la força amb una progressió que arriba fins als gestos del seu esport o de la seva activitat diària.",
+   "Movilidad y prevención": "Mobilitat i prevenció",
+   "Evitar el esguince de repetición": "Evitar l'esquinç de repetició",
+   "Recuperamos con terapia manual la movilidad del tobillo y revisamos las compensaciones en rodilla y cadera, con criterios claros para la vuelta.": "Recuperem amb teràpia manual la mobilitat del turmell i revisem les compensacions al genoll i al maluc, amb criteris clars per al retorn.",
+   "Qué dice la evidencia": "Què diu l'evidència",
+   "Revisión de revisiones (Br J Sports Med)": "Revisió de revisions (Br J Sports Med)",
+   "En el esguince agudo de tobillo, el ejercicio y la terapia manual mejoran el dolor, la inflamación y la función, y el entrenamiento neuromuscular y las tobilleras ayudan a prevenir las recaídas (Doherty et al., Br J Sports Med, 2016).": "En l'esquinç agut de turmell, l'exercici i la teràpia manual milloren el dolor, la inflamació i la funció, i l'entrenament neuromuscular i les turmelleres ajuden a prevenir les recaigudes (Doherty et al., Br J Sports Med, 2016).",
+   "Ensayo clínico (BMJ)": "Assaig clínic (BMJ)",
+   "En 522 deportistas con un esguince de tobillo reciente, un programa de propiocepción en casa de ocho semanas redujo las recaídas durante el año siguiente del 33 % al 22 % (Hupperets et al., BMJ, 2009).": "En 522 esportistes amb un esquinç de turmell recent, un programa de propiocepció a casa de vuit setmanes va reduir les recaigudes durant l'any següent del 33 % al 22 % (Hupperets et al., BMJ, 2009).",
+   "Guía clínica (Br J Sports Med)": "Guia clínica (Br J Sports Med)",
+   "La guía actualizada sobre el esguince de tobillo recomienda los programas de ejercicio supervisado para recuperar la estabilidad de la articulación y prevenir nuevos esguinces (Vuurberg et al., Br J Sports Med, 2018).": "La guia actualitzada sobre l'esquinç de turmell recomana els programes d'exercici supervisat per recuperar l'estabilitat de l'articulació i prevenir nous esquinços (Vuurberg et al., Br J Sports Med, 2018).",
+   "¿Cuándo puedo empezar la recuperación?": "Quan puc començar la recuperació?",
+   "Una vez descartada una fractura, desde los primeros días. La movilización temprana y progresiva favorece una mejor evolución.": "Un cop descartada una fractura, des dels primers dies. La mobilització precoç i progressiva afavoreix una millor evolució.",
+   "¿Qué es la propiocepción?": "Què és la propiocepció?",
+   "Es la capacidad del sistema nervioso para percibir la posición de una articulación. Tras un esguince se altera, y entrenarla ayuda a prevenir nuevas torceduras.": "És la capacitat del sistema nerviós per percebre la posició d'una articulació. Després d'un esquinç s'altera, i entrenar-la ajuda a prevenir noves torçades.",
+   "¿También se tratan los esguinces de rodilla y de muñeca?": "També es tracten els esquinços de genoll i de canell?",
+   "Sí, en la fase de recuperación. Si se sospecha una rotura de los ligamentos cruzados o una inestabilidad importante, se requiere antes una valoración traumatológica. Si le preocupa la rodilla, consulte también [dolor de rodilla](dolor-rodilla-condromalacia).": "Sí, en la fase de recuperació. Si se sospita un trencament dels lligaments encreuats o una inestabilitat important, cal abans una valoració traumatològica. Si li preocupa el genoll, consulti també [dolor de genoll](dolor-rodilla-condromalacia).",
+   "¿Cuándo puedo volver a hacer deporte?": "Quan puc tornar a fer esport?",
+   "Cuando haya recuperado la movilidad, la fuerza y el equilibrio, y tolere sin dolor los gestos de su deporte. La vuelta se planifica por etapas.": "Quan hagi recuperat la mobilitat, la força i l'equilibri, i toleri sense dolor els gestos del seu esport. El retorn es planifica per etapes.",
+   "¿Qué es un esguince mal curado?": "Què és un esquinç mal curat?",
+   "Es el que deja dolor, hinchazón o sensación de inestabilidad semanas después de la lesión. Suele mejorar con un programa específico de fuerza y propiocepción.": "És el que deixa dolor, inflor o sensació d'inestabilitat setmanes després de la lesió. Sol millorar amb un programa específic de força i propiocepció.",
+   "Le ayudamos a volver a moverse con seguridad": "L'ajudem a tornar a moure's amb seguretat",
+   "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), abordamos la recuperación de esguinces de tobillo, rodilla y muñeca con el método re:trace: valoración clínica, propiocepción, fuerza y terapia manual. El objetivo es recuperar la estabilidad y prevenir nuevas lesiones.": "A WA LAM, a Sarrià–Sant Gervasi (Barcelona), abordem la recuperació d'esquinços de turmell, genoll i canell amb el mètode re:trace: valoració clínica, propiocepció, força i teràpia manual. L'objectiu és recuperar l'estabilitat i prevenir noves lesions."
+  }
+ }
+]

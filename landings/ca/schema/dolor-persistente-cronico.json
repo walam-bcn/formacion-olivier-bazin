@@ -165,7 +165,7 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "En què et puc ajudar?",
+          "name": "En què puc ser-li útil?",
           "item": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona"
         },
         {
@@ -181,7 +181,7 @@
       "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/dolor-persistent-cronic#webpage",
       "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/dolor-persistent-cronic",
       "name": "Dolor crònic i persistent a Barcelona | WA LAM",
-      "description": "Valoració integrativa del dolor crònic a Sarrià–Sant Gervasi, Barcelona: exercici terapèutic, osteopatia, MBSR i hàbits, segons guies clíniques.",
+      "description": "Dolor crònic i persistent a Sarrià–Sant Gervasi, Barcelona: valoració clínica, exercici terapèutic, mindfulness MBSR i regulació del dolor.",
       "inLanguage": "ca-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -239,12 +239,6 @@
           "name": "Effect of Mindfulness-Based Stress Reduction vs Cognitive Behavioral Therapy or Usual Care on Back Pain and Functional Limitations in Adults With Chronic Low Back Pain: A Randomized Clinical Trial",
           "url": "https://doi.org/10.1001/jama.2016.2323",
           "sameAs": "https://doi.org/10.1001/jama.2016.2323"
-        },
-        {
-          "@type": "ScholarlyArticle",
-          "name": "Benefits and harms of spinal manipulative therapy for the treatment of chronic low back pain: systematic review and meta-analysis of randomised controlled trials",
-          "url": "https://doi.org/10.1136/bmj.l689",
-          "sameAs": "https://doi.org/10.1136/bmj.l689"
         }
       ]
     },
@@ -254,50 +248,42 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Quines disciplines intervenen en l'abordatge del dolor?",
+          "name": "Per què em continua fent mal si la lesió ja s'ha curat?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "L'osteopatia i l'acupuntura, integrades en un pla individual. Quan cal un programa de fisioteràpia, fem la derivació a un fisioterapeuta col·legiat."
+            "text": "Perquè, quan el dolor es manté, el sistema nerviós es pot sensibilitzar i continuar generant dolor encara que els teixits s'hagin recuperat. El dolor és real, i es pot treballar sobre els mecanismes que el mantenen."
           }
         },
         {
           "@type": "Question",
-          "name": "Què es considera dolor crònic o persistent?",
+          "name": "Què és el programa MBSR?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "En general, el dolor que dura més de tres mesos o que persisteix més enllà del temps habitual de curació d'un teixit. Pot ser continu o aparèixer per episodis."
+            "text": "És un programa de reducció de l'estrès basat en mindfulness, de 8 setmanes, creat per Jon Kabat-Zinn a la Universitat de Massachusetts per a persones amb dolor crònic. Ensenya a relacionar-se d'una altra manera amb el dolor i a regular la resposta d'estrès."
           }
         },
         {
           "@type": "Question",
-          "name": "Les meves proves estan bé, però em continua fent mal. És normal?",
+          "name": "És segur fer exercici amb dolor crònic?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "És més freqüent del que sembla. Les proves d'imatge mostren estructures, però no mesuren la sensibilitat del sistema nerviós. Que no aparegui una lesió no vol dir que el teu dolor no sigui real."
+            "text": "Sí, sempre que s'adapti i s'augmenti de manera progressiva. Moure's amb una pauta adequada és una de les mesures més eficaces i no suposa danyar els teixits."
           }
         },
         {
           "@type": "Question",
-          "name": "Necessito un informe mèdic per venir?",
+          "name": "Quant de temps triga a notar-se la millora?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No és imprescindible, però si tens proves o informes, porta'ls a la primera consulta. Ens ajuden a valorar millor el teu cas."
+            "text": "Depèn de cada cas. Moltes persones noten canvis en el son, l'energia o la tolerància a l'activitat les primeres setmanes; la reducció del dolor sol ser progressiva."
           }
         },
         {
           "@type": "Question",
-          "name": "Quantes sessions necessitaré?",
+          "name": "Què he de portar a la primera visita?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Depèn de cada cas. Després de la primera valoració et proposem un pla amb objectius i moments de revisió, perquè sàpigues en tot moment com avancem."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Qui m'atendrà?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "T'atén sempre Rosa María Rodríguez Valls, osteòpata D.O., des de la primera valoració fins al seguiment."
+            "text": "Els seus informes mèdics, les proves realitzades i la llista de la medicació que pren. Si li és possible, unes notes sobre com varia el seu dolor al llarg de la setmana."
           }
         }
       ]
