@@ -2489,3 +2489,6 @@ for _p in PAGES:
             if _b.get("type") == "explain":
                 _b["quote"] = "Tu cerebro también envejece. Puedes cuidarlo."
                 break
+for _p in PAGES:
+    if _p["slug"] == "curso-mindfulness-mbsr-barcelona":
+        _p["h1"] = "Curso de mindfulness MBSR de 8 semanas, online y en Barcelona"

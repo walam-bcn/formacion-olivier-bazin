@@ -239,7 +239,7 @@
     {
       "@type": "Course",
       "@id": "https://www.walambcn.com/ca/academia-vida-saludable-barcelona/formacio-mindfulness#curso",
-      "name": "Curs de mindfulness MBSR de 8 setmanes a Barcelona",
+      "name": "Curs de mindfulness MBSR de 8 setmanes, en línia i a Barcelona",
       "description": "Curs MBSR de 8 setmanes de WA LAM, en línia o presencial a Barcelona: programa oficial de reducció de l'estrès basat en mindfulness.",
       "provider": {
         "@type": "Organization",
