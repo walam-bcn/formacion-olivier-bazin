@@ -2648,3 +2648,10 @@ for _p in PAGES:
     elif _p["group"] == "motivo" and not any(b.get("h2") == "Mi forma de trabajar" for b in _p["blocks"]):
         _ev = next((k for k, b in enumerate(_p["blocks"]) if b.get("type") == "evidence"), len(_p["blocks"]))
         _p["blocks"].insert(_ev, _steps)
+
+# Osteopatía: definición de Jean-Pierre Barral
+for _p in PAGES:
+    if _p["slug"] == "osteopatia-sarria-sant-gervasi":
+        _e = next((b for b in _p["blocks"] if b.get("type") == "explain"), None)
+        if _e is not None:
+            _e["quote"] = "«El concepto de la osteopatía es la movilidad: devolver movilidad al cuerpo». Jean-Pierre Barral"
