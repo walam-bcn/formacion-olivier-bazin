@@ -2853,3 +2853,12 @@ def _extra_sections():
 
 _extra_sections()
 _place_figs()
+
+# Títulos en forma de pregunta (25 nov 2026), en dolencias, microbiota y osteopatía
+from h2_questions import to_question as _toq  # noqa: E402
+for _p in PAGES:
+    if _p["group"] not in ("motivo", "servicio"):
+        continue
+    for _b in _p["blocks"]:
+        if _b.get("h2"):
+            _b["h2"] = _toq(_p["slug"], _b["h2"])
