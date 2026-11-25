@@ -197,7 +197,7 @@ HOME_LIST = [
         ("Hígado graso", "salud-metabolica"), ("Hipertensión", "salud-metabolica"), ("Prevención cardiovascular", "salud-metabolica"),
         ("Resistencia a la insulina", "salud-metabolica"), ("Síndrome metabólico", "salud-metabolica"), ("Sobrepeso y obesidad", "perdida-de-peso-sarria-sant-gervasi"),
         ("Tabaquismo", "dejar-de-fumar-acupuntura")]),
-    ("Agotamiento, estrés y sueño", [
+    ("Agotamiento, ansiedad, estrés y sueño", [
         ("Estrés", "estres-ansiedad"), ("Ansiedad", "estres-ansiedad"), ("Estrés crónico", "cortisol-estres-cronico"), ("Shock emocional", "agotamiento-fisico-emocional"),
         ("Insomnio", "sueno-insomnio"), ("Trastornos del sueño", "sueno-insomnio"), ("Cansancio extremo", "fatiga-cronica-agotamiento"),
         ("Fatiga crónica", "fatiga-cronica-agotamiento"), ("Estado de ánimo bajo", "agotamiento-fisico-emocional")]),
@@ -241,7 +241,7 @@ AREA_BLOCKS = [
     ("04 · Metabolismo", "Metabolismo y salud cardiovascular", "Factores de riesgo que dependen en gran medida del estilo de vida.",
      "%s, con la nutrición, el ejercicio y la prevención." % RT,
      ["[Método re:trace](programas-re-trace)", "[Nutrición y salud intestinal](nutricion-salud-intestinal)", "[Longevidad y prevención](prevencion-longevidad)"]),
-    ("05 · Sistema nervioso", "Agotamiento, estrés y sueño", "Cuando el sistema nervioso, el sueño y la capacidad de adaptación están comprometidos.",
+    ("05 · Sistema nervioso", "Agotamiento, ansiedad, estrés y sueño", "Cuando el sistema nervioso, el sueño y la capacidad de adaptación están comprometidos.",
      "%s, con el mindfulness para la salud, la osteopatía y la PNIE." % RT,
      ["[Método re:trace](programas-re-trace)", "[Mindfulness para la salud](mindfulness-barcelona)", "[Osteopatía](osteopatia-sarria-sant-gervasi)", "[PNIE](pni-pnie-barcelona)"]),
     ("06 · Salud de la mujer", "Ginecología", "Etapas y procesos específicos de la salud femenina.",
