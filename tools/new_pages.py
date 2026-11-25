@@ -285,6 +285,14 @@ AREA_EXTRA = [
 ]
 
 
+# «Nuestro abordaje» redactado por Rosa, área por área (n = índice en AREA_BLOCKS); un solo botón: re:trace
+ABORD_ROSA = {
+    0: ("Cómo abordamos el dolor musculoesquelético", [
+        "En WA LAM abordamos el dolor musculoesquelético con nuestro método de medicina integrativa [re:trace](programas-re-trace). En la primera visita valoramos la localización del dolor, la movilidad de la zona afectada y cómo los síntomas repercuten en sus actividades cotidianas. Cuando su historia clínica lo indica, ampliamos la valoración a aspectos como la calidad del sueño, la presencia de insomnio, el estrés, la salud digestiva y la alimentación.",
+        "A partir de esta valoración, diseñamos un tratamiento personalizado. En algunos casos, una sola sesión puede ser suficiente. Si el dolor persiste, reaparece o sigue limitando su movilidad, le proponemos un plan de tratamiento que ajustamos según su evolución."]),
+}
+
+
 def integrate_home_areas(PAGES, primer_contacto=None):
     known = {p["slug"] for p in PAGES}
     for p in PAGES:
@@ -308,6 +316,8 @@ def integrate_home_areas(PAGES, primer_contacto=None):
             _key = lambda t: _ud.normalize("NFD", t[0]).encode("ascii", "ignore").decode().lower()
             ind = [f"[{lab}]({s})" if s in known else lab for lab, s in sorted(items + extra, key=_key)]
             abord = {"k": "Nuestro abordaje", "h": "Cómo lo abordamos", "p": ptxt, "li": [x for x in li if x.split("](")[1][:-1] in known]}
+            if n in ABORD_ROSA:
+                abord = {"k": "Nuestro abordaje", "h": ABORD_ROSA[n][0], "paras": ABORD_ROSA[n][1], "li": ["[Método re:trace](programas-re-trace)"]}
             if n == 0:
                 half = (len(ind) + 1) // 2
                 its = [{"k": "Indicaciones", "h": "Motivos de consulta frecuentes", "li": ind[:half]},

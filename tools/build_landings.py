@@ -608,6 +608,7 @@ def cards(c, cls="cards"):
     for it in c["items"]:
         k = f'<span class="k">{fmt(it["k"])}</span>' if it.get("k") else ""
         txt = f"<p>{fmt(it['p'])}</p>" if it.get("p") else ""
+        txt += "".join(f"<p>{fmt(x)}</p>" for x in it.get("paras", []))
         li = "".join(f"<li>{fmt(x)}</li>" for x in it.get("li", []))
         li = f"<ul>{li}</ul>" if li else ""
         post = ""
@@ -615,7 +616,7 @@ def cards(c, cls="cards"):
             q = it["post"]
             pl = "".join(f"<li>{fmt(x)}</li>" for x in q.get("li", []))
             post = (f'<div class="cpost"><span class="k">{fmt(q.get("k", ""))}</span><h3>{fmt(q.get("h", ""))}</h3>'
-                    + (f"<p>{fmt(q['p'])}</p>" if q.get("p") else "") + (f"<ul>{pl}</ul>" if pl else "") + "</div>")
+                    + (f"<p>{fmt(q['p'])}</p>" if q.get("p") else "") + "".join(f"<p>{fmt(x)}</p>" for x in q.get("paras", [])) + (f"<ul>{pl}</ul>" if pl else "") + "</div>")
         h3 = f'<h3>{fmt(it["h"])}</h3>' if it.get("h") else ""
         items.append(f'<div class="card">{k}{h3}{txt}{li}{post}</div>')
     g = "grid g2" if len(c["items"]) in (2, 4) else "grid"
