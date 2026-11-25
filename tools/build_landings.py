@@ -413,7 +413,7 @@ h1,h2,h3,h4,.btn,.btn-tq,.faq summary,b,strong,.explain .txt b,.card h3,.step h3
 .ilist li{font-weight:400!important;position:relative;padding:5px 0 5px 22px!important}
 .ilist li::before{content:"";position:absolute;left:4px;top:15px;width:7px;height:7px;border-radius:50%;background:var(--tq)}
 .explain p.k{text-align:left!important}
-.cont .cbtns{justify-content:center;gap:12px;flex-wrap:wrap}.cont .btn-map{background:transparent;color:#fff;border:1px solid #fff}.cont .btn-map:hover{background:#fff;color:#222}.cont .gmb{margin:18px auto 0!important}.nl{padding:56px 0!important;background:#fff}.nlbox{display:flex;align-items:center;justify-content:space-between;gap:28px;flex-wrap:wrap;border:1px solid #2ec4c4;border-radius:14px;padding:28px 32px;max-width:980px;margin:0 auto}.nltx{flex:1 1 380px}.nl h2{font-size:24px!important;margin:0 0 6px!important;text-align:left!important}.nl p{margin:0!important;text-align:left!important}.soc{display:flex;justify-content:center;gap:14px;margin:18px 0 0}.soc .sico{display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;border-radius:50%;border:1px solid rgba(255,255,255,.7);color:#fff;transition:background .2s,color .2s}.soc .sico:hover{background:#fff;color:#1D3F40}.fsoc{display:inline-flex;gap:10px;margin-left:12px;vertical-align:middle}.fsoc .sico{display:inline-flex;color:rgba(242,241,238,.8)}.fsoc .sico:hover{color:#fff}.fsoc svg{width:18px;height:18px}.hero-dna{background-color:#dcebf2!important;background-position:center!important;background-size:cover!important;color:var(--pet)}
+.cont .cbtns{justify-content:center;gap:12px;flex-wrap:wrap}.cont .btn-map{background:transparent;color:#fff;border:1px solid #fff}.cont .btn-map:hover{background:#fff;color:#222}.cont .gmb{margin:18px auto 0!important}.nl{padding:56px 0!important;background:#fff}.nlbox{display:flex;align-items:center;justify-content:space-between;gap:28px;flex-wrap:wrap;border:1px solid #2ec4c4;border-radius:14px;padding:28px 32px;max-width:980px;margin:0 auto}.nltx{flex:1 1 380px}.nl h2{font-size:24px!important;margin:0 0 6px!important;text-align:left!important}.nl p{margin:0!important;text-align:left!important}.soc{display:flex;justify-content:center;gap:14px;margin:18px 0 0}.soc .sico{display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;border-radius:50%;border:1px solid rgba(255,255,255,.7);color:#fff;transition:background .2s,color .2s}.soc .sico:hover{background:#fff;color:#1D3F40}.fsoc{display:inline-flex;gap:10px;margin-left:12px;vertical-align:middle}.fsoc .sico{display:inline-flex;color:rgba(242,241,238,.8)}.fsoc .sico:hover{color:#fff}.fsoc svg{width:18px;height:18px}.lonb{padding:48px 0!important;background:#f3f7f6}.lonbox{max-width:860px;margin:0 auto;text-align:center}.lonb h2{margin:6px 0 12px!important}.lonb p{margin:0 auto 10px!important;max-width:760px}.lonb .slogan{font-style:italic;color:#1D3F40;opacity:.85;margin-top:14px!important}.hero-dna{background-color:#dcebf2!important;background-position:center!important;background-size:cover!important;color:var(--pet)}
 .hero-dna h1,.hero-dna .hs,.hero-dna .lead,.hero-dna .eyebrow,.hero-dna .crumbs,.hero-dna .crumbs a{color:var(--pet)!important;text-shadow:0 0 18px rgba(255,255,255,.9)}
 .hero-dna .hcard{background:rgba(255,255,255,.72);border-color:rgba(29,63,64,.18)}
 .hero-dna .hcard .k,.hero-dna .hcard li{color:var(--pet)}
@@ -829,7 +829,25 @@ _BONO_RE = [
 def fix_bonos(s):
     for pat, rep in _BONO_RE:
         s = re.sub(pat, rep, s)
-    return s.replace("dispone de un bono", "dispone de un bono").replace("disposa d'un bo", "disposa d'un bo")
+    s = s.replace("dispone de un bono", "dispone de un bono").replace("disposa d'un bo", "disposa d'un bo")
+    from terms_fix import fix_terms
+    return fix_terms(s, LANG)
+
+
+LON_SLUG, NEU_SLUG = "prevencion-longevidad", "neurolongevidad-salud-cognitiva"
+LON_TXT = {
+    "all": "En WA LAM cuidamos su salud a largo plazo con la **[medicina de longevidad](prevencion-longevidad)**: prevención, metabolismo, sueño, movimiento y gestión del estrés. Y protegemos también el cerebro con la **[neurolongevidad](neurolongevidad-salud-cognitiva)**: memoria, atención y regulación del sistema nervioso.",
+    LON_SLUG: "La longevidad también se juega en el cerebro: descubra nuestro enfoque de **[neurolongevidad y salud cognitiva](neurolongevidad-salud-cognitiva)**.",
+    NEU_SLUG: "La salud del cerebro forma parte de un cuidado más amplio: conozca nuestro programa de **[longevidad y prevención](prevencion-longevidad)**.",
+}
+
+def lonband(p):
+    """Bloque «Longevidad y neurolongevidad» con enlaces internos a las dos páginas pilar, en todas las landings."""
+    txt = LON_TXT.get(p["slug"], LON_TXT["all"])
+    return f"""<section class="lonb"><div class="wrap"><div class="lonbox">
+<span class="eyebrow">{tr("Longevidad")}</span><h2>{tr("Longevidad y neurolongevidad en WA LAM")}</h2>
+<p>{fmt(tr(txt))}</p><p class="slogan">{tr("Más años de vida, y más vida en cada año.")}</p>
+</div></div></section>"""
 
 
 def page(p):
@@ -868,6 +886,7 @@ def page(p):
         k = seq[-1].rfind("</div></section>")
         seq[-1] = seq[-1][:k] + f'<div class="note"><p>{tr(NOTE_ES)}</p></div>' + seq[-1][k:]
     parts += [quick(p)] + seq
+    parts.append(lonband(p))
     parts.append(contact(p))
     parts.append(JS + "</body></html>")
     return "\n".join(x for x in parts if x)
@@ -1065,12 +1084,12 @@ def main():
     if not PREVIEW:
         sd = out / "schema"; sd.mkdir(exist_ok=True)
         for p in PAGES:
-            (sd / f"{p['slug']}.json").write_text(json.dumps(schema(p), ensure_ascii=False, indent=2), encoding="utf-8")
+            (sd / f"{p['slug']}.json").write_text(fix_bonos(json.dumps(schema(p), ensure_ascii=False, indent=2)), encoding="utf-8")
         import csv
         with open(out / ("seo-wix-ca.csv" if LANG == "ca" else "seo-wix.csv"), "w", newline="", encoding="utf-8") as f:
             w = csv.writer(f); w.writerow(["url", "title", "meta_description", "h1", "palabra_clave", "secundarias", "catalan"])
             for p in PAGES:
-                S = SEO[p["slug"]]; w.writerow(["/" + p["slug"], S["title"], S["desc"], plain(p["h1"]), S["kw"], "; ".join(S["kws"]), S["ca"]])
+                S = SEO[p["slug"]]; w.writerow(["/" + p["slug"], S["title"], fix_bonos(S["desc"]), plain(p["h1"]), S["kw"], "; ".join(S["kws"]), S["ca"]])
     rows = []
     for g in ("home", "motivo", "servicio", "academia"):
         G = GROUPS[g]

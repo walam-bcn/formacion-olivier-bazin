@@ -240,7 +240,7 @@ AREA_BLOCKS = [
      ["[Longevidad y prevención](prevencion-longevidad)", "[Nutrición y salud intestinal](nutricion-salud-intestinal)"]),
     ("05 · Sistema nervioso", "Agotamiento, estrés y sueño", "Situaciones en las que el sistema nervioso, el sueño y la capacidad de adaptación están comprometidos.",
      "Regulación del sistema nervioso con mindfulness, respiración, acupuntura, osteopatía craneal y hábitos de sueño, y revisión de los factores físicos que contribuyen a la fatiga.",
-     ["[Mindfulness](mindfulness-barcelona)", "[Curso MBSR](curso-mindfulness-mbsr-barcelona)", "[Yoga terapéutico](yoga-particular-grupos-reducidos)", "[Qigong (chi kung)](qigong-barcelona)", "[Estiramientos](clases-estiramientos)"]),
+     ["[Mindfulness](mindfulness-barcelona)", "[Neurolongevidad y salud cognitiva](neurolongevidad-salud-cognitiva)", "[Curso MBSR](curso-mindfulness-mbsr-barcelona)", "[Yoga terapéutico](yoga-particular-grupos-reducidos)", "[Qigong (chi kung)](qigong-barcelona)", "[Estiramientos](clases-estiramientos)"]),
     ("06 · Salud de la mujer", "Ginecología y salud pélvica", "Etapas y procesos específicos de la salud femenina.",
      "Nutrición, microbiota, regulación del estrés, acupuntura y osteopatía urogenital de abordaje externo.",
      ["[Osteopatía urogenital](suelo-pelvico-dolor-pelvico)", "[Drenaje en el embarazo](drenaje-linfatico-embarazo)"]),

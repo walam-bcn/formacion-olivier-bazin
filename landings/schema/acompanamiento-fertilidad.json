@@ -227,7 +227,7 @@
       "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/acompanamiento-fertilidad#webpage",
       "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/acompanamiento-fertilidad",
       "name": "Acompañamiento integrativo en fertilidad | WA LAM",
-      "description": "Acompañamiento integrativo en fertilidad, complementario al seguimiento ginecológico o de reproducción: hábitos, estrés y bienestar, basado en evidencia.",
+      "description": "Acompañamiento integrativo en fertilidad, en coordinación con el seguimiento ginecológico o de reproducción: hábitos, estrés y bienestar, basado en evidencia.",
       "inLanguage": "es-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -282,7 +282,7 @@
           "name": "¿Esto sustituye a un tratamiento de fertilidad?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. Es un acompañamiento complementario. Las decisiones diagnósticas y de tratamiento corresponden a su ginecóloga o a su clínica de reproducción."
+            "text": "No. Es un acompañamiento integrativo, en coordinación con su equipo médico. Las decisiones diagnósticas y de tratamiento corresponden a su ginecóloga o a su clínica de reproducción."
           }
         },
         {
@@ -290,7 +290,7 @@
           "name": "¿Qué aporta la acupuntura durante un tratamiento de fertilidad?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Puede ayudarle a gestionar el estrés y a cuidar su bienestar durante el proceso, como complemento del seguimiento de su clínica de reproducción."
+            "text": "Puede ayudarle a gestionar el estrés y a cuidar su bienestar durante el proceso, en coordinación con su clínica de reproducción."
           }
         },
         {

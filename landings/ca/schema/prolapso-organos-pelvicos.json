@@ -227,7 +227,7 @@
       "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/prolapse-organs-pelvians#webpage",
       "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/prolapse-organs-pelvians",
       "name": "Prolapse d'òrgans pèlvics a Barcelona | WA LAM",
-      "description": "Prolapse d'òrgans pèlvics a Sarrià–Sant Gervasi, Barcelona: sensació de pes o bony vaginal. Abordatge osteopàtic extern complementari a la fisioteràpia i la ginecologia.",
+      "description": "Prolapse d'òrgans pèlvics a Sarrià–Sant Gervasi, Barcelona: sensació de pes o bony vaginal. Abordatge osteopàtic extern, en coordinació amb la fisioteràpia i la ginecologia.",
       "inLanguage": "ca-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -291,7 +291,7 @@
           "name": "Substitueix la fisioteràpia de sòl pelvià o la cirurgia?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. L'entrenament del sòl pelvià és el tractament conservador de referència i, en els casos que ho requereixen, la ginecòloga valora altres opcions. El nostre abordatge és complementari."
+            "text": "No. L'entrenament del sòl pelvià és el tractament conservador de referència i, en els casos que ho requereixen, la ginecòloga valora altres opcions. Treballem en coordinació amb la seva ginecòloga."
           }
         },
         {

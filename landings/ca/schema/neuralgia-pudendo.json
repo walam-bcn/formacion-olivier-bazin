@@ -227,7 +227,7 @@
       "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/neuralgia-pudend#webpage",
       "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/neuralgia-pudend",
       "name": "Neuràlgia del pudend a Barcelona · Dolor perineal | WA LAM",
-      "description": "Neuràlgia del pudend i dolor neural pèlvic a Sarrià–Sant Gervasi, Barcelona: dolor perineal que empitjora en seure. Abordatge osteopàtic extern complementari.",
+      "description": "Neuràlgia del pudend i dolor neural pèlvic a Sarrià–Sant Gervasi, Barcelona: dolor perineal que empitjora en seure. Abordatge osteopàtic extern i integratiu.",
       "inLanguage": "ca-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -285,7 +285,7 @@
           "name": "Com sé si tinc neuràlgia del pudend?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "El diagnòstic el fa un metge especialista a partir dels seus símptomes i de l'exploració. A WA LAM l'acompanyament és complementari."
+            "text": "El diagnòstic el fa un metge especialista a partir dels seus símptomes i de l'exploració. A WA LAM treballem en coordinació amb el seu metge."
           }
         },
         {

@@ -227,7 +227,7 @@
       "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/dolor-menstrual-endometriosi#webpage",
       "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/dolor-menstrual-endometriosi",
       "name": "Dolor menstrual i endometriosi a Barcelona | WA LAM",
-      "description": "Dolor menstrual, síndrome premenstrual i dolor associat a l'endometriosi a Sarrià–Sant Gervasi, Barcelona. Acompanyament complementari al seguiment ginecològic.",
+      "description": "Dolor menstrual, síndrome premenstrual i dolor associat a l'endometriosi a Sarrià–Sant Gervasi, Barcelona. Acompanyament integratiu, en coordinació amb el seguiment ginecològic.",
       "inLanguage": "ca-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -291,7 +291,7 @@
           "name": "Tracteu l'endometriosi?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "L'endometriosi es diagnostica i es tracta a ginecologia. A WA LAM acompanyem el dolor associat de manera complementària a aquest seguiment."
+            "text": "L'endometriosi es diagnostica i es tracta a ginecologia. A WA LAM acompanyem el dolor associat en coordinació amb aquest seguiment."
           }
         },
         {

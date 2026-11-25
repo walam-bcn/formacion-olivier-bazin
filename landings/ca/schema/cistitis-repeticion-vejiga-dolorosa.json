@@ -227,7 +227,7 @@
       "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/cistitis-repeticio-bufeta-dolorosa#webpage",
       "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/cistitis-repeticio-bufeta-dolorosa",
       "name": "Cistitis de repetició i bufeta dolorosa a Barcelona | WA LAM",
-      "description": "Cistitis de repetició, cistàlgia i síndrome de bufeta dolorosa a Sarrià–Sant Gervasi, Barcelona. Acompanyament complementari al seguiment urològic i ginecològic.",
+      "description": "Cistitis de repetició, cistàlgia i síndrome de bufeta dolorosa a Sarrià–Sant Gervasi, Barcelona. Acompanyament integratiu, en coordinació amb el seguiment urològic i ginecològic.",
       "inLanguage": "ca-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -285,7 +285,7 @@
           "name": "Substitueix el tractament antibiòtic?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. Les infeccions urinàries s'han de tractar segons indiqui el seu metge. El nostre acompanyament és complementari."
+            "text": "No. Les infeccions urinàries s'han de tractar segons indiqui el seu metge. Treballem en coordinació amb el seu metge."
           }
         },
         {

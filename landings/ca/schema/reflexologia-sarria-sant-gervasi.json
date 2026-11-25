@@ -227,7 +227,7 @@
       "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/reflexologia-podal#webpage",
       "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/reflexologia-podal",
       "name": "Reflexologia podal a Barcelona | WA LAM",
-      "description": "Reflexologia podal a Sarrià–Sant Gervasi, Barcelona: pressió als peus per a l'estrès, la tensió i el descans. Sessió de 60 min · 70 €, paquet de 10.",
+      "description": "Reflexologia podal a Sarrià–Sant Gervasi, Barcelona: pressió als peus per a l'estrès, la tensió i el descans. Sessió de 60 min · 70 €, bo de 10 + 1 de regal.",
       "inLanguage": "ca-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -320,7 +320,7 @@
         }
       ],
       "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/reflexologia-podal",
-      "description": "Reflexologia podal a Sarrià–Sant Gervasi, Barcelona: pressió als peus per a l'estrès, la tensió i el descans. Sessió de 60 min · 70 €, paquet de 10."
+      "description": "Reflexologia podal a Sarrià–Sant Gervasi, Barcelona: pressió als peus per a l'estrès, la tensió i el descans. Sessió de 60 min · 70 €, bo de 10 + 1 de regal."
     },
     {
       "@type": "FAQPage",
@@ -363,7 +363,7 @@
           "name": "Quant costa i tenen targetes regal?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "La sessió de 60 minuts costa 70 €. Disposa d'un paquet de 10 sessions i de targetes regal: escrigui'ns per WhatsApp."
+            "text": "La sessió de 60 minuts costa 70 €. Disposa d'un bo de 10 sessions + 1 de regal i de targetes regal: escrigui'ns per WhatsApp."
           }
         }
       ]

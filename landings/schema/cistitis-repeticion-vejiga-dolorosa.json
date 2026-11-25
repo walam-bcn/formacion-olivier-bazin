@@ -227,7 +227,7 @@
       "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/cistitis-repeticion-vejiga-dolorosa#webpage",
       "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/cistitis-repeticion-vejiga-dolorosa",
       "name": "Cistitis de repetición y vejiga dolorosa en Barcelona | WA LAM",
-      "description": "Cistitis de repetición, cistalgia y síndrome de vejiga dolorosa en Sarrià–Sant Gervasi, Barcelona. Acompañamiento complementario al seguimiento urológico y ginecológico.",
+      "description": "Cistitis de repetición, cistalgia y síndrome de vejiga dolorosa en Sarrià–Sant Gervasi, Barcelona. Acompañamiento integrativo, en coordinación con el seguimiento urológico y ginecológico.",
       "inLanguage": "es-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -285,7 +285,7 @@
           "name": "¿Sustituye al tratamiento antibiótico?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. Las infecciones urinarias deben tratarse según indique su médico. Nuestro acompañamiento es complementario."
+            "text": "No. Las infecciones urinarias deben tratarse según indique su médico. Trabajamos en coordinación con su médico."
           }
         },
         {

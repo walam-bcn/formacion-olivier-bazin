@@ -334,7 +334,7 @@ BLOCKS = [
  grp("05 · Sistema nervioso", "Fatiga, estado de ánimo y sueño", "Situaciones en las que el sistema nervioso, el sueño y la capacidad de adaptación están comprometidos.",
      ["Fatiga persistente", "Agotamiento físico y emocional", "Estado de ánimo bajo", "Reacción a un acontecimiento vital estresante", "Insomnio", "Otros trastornos del sueño"],
      "Regulación del sistema nervioso autónomo con mindfulness, respiración, acupuntura y hábitos de sueño, y revisión de los factores físicos que contribuyen a la fatiga.",
-     ["[Estrés y ansiedad](estres-ansiedad)", "[Sueño e insomnio](sueno-insomnio)", "[Curso MBSR](curso-mindfulness-mbsr-barcelona)"],
+     ["[Estrés y ansiedad](estres-ansiedad)", "[Sueño e insomnio](sueno-insomnio)", "[Neurolongevidad y salud cognitiva](neurolongevidad-salud-cognitiva)", "[Curso MBSR](curso-mindfulness-mbsr-barcelona)"],
      "Si los síntomas depresivos son intensos o persistentes, realizamos la derivación al profesional de salud mental correspondiente."),
  grp("06 · Salud de la mujer", "Salud de la mujer", "Etapas y procesos específicos de la salud femenina.",
      ["Menopausia y sofocos", "Síndrome de ovario poliquístico", "Acné de origen hormonal", "Candidiasis vaginal de repetición", "Cistitis de repetición",
