@@ -2870,3 +2870,21 @@ for _p in PAGES:
     for _b in _p["blocks"]:
         if _b.get("h2"):
             _b["h2"] = _toq(_p["slug"], _b["h2"])
+
+# Medicina integrativa (25 nov 2026, revisión de Rosa): sin repeticiones
+for _p in PAGES:
+    if _p["slug"] != "medicina-integrativa-barcelona":
+        continue
+    _bl = _p["blocks"]
+    for _b in _bl:
+        if _b.get("_id") == "que-es-la-medicina-integrativa":
+            _b["list_title"] = "Le ayudamos a"
+            _b["list"] = list(_p.get("facts", []))
+    _5p = next((b for b in _bl if b.get("h2") == "Basada en la medicina 5P"), None)
+    for _b in _bl:
+        if _b.get("_id") == "slow-medicine" and _5p:
+            _b["intro"] = "Una medicina sin prisas: tiempo para escucharle, entender su historia y explicarle qué ocurre y por qué. Basada en los cinco principios de la medicina 5P."
+            _b["items"] = [dict(it) for it in _5p["items"]]
+        if _b.get("h2") == "¿Por qué WA LAM?":
+            _b["items"] = [it for it in _b["items"] if it["h"] not in ("Abordaje personalizado", "Una visión médica integrativa", "Método re:trace")]
+    _bl[:] = [b for b in _bl if b.get("_id") != "te-ayudamos" and b.get("h2") not in ("Del primer contacto a un plan claro", "Basada en la medicina 5P")]
