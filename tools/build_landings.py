@@ -1072,6 +1072,11 @@ def add_vago(p, seq):
     return seq
 
 
+def chipsblk(b):
+    ch = "".join(f'<a class="chip" href="{url(sl)}">{fmt(lab)}</a>' for lab, sl in b["items"] if sl in BYSLUG)
+    return f'<section class="dir chipsblk"><div class="wrap">{sec_head(b.get("eyebrow", ""), b["h2"], b.get("intro"))}<div class="chips" style="justify-content:center">{ch}</div></div></section>'
+
+
 def page(p):
     parts = [head(p), nav(p), hero(p)]
     body, items, toc_items = [], [], []
@@ -1082,7 +1087,7 @@ def page(p):
                                            "items": [{"h": f, "p": ""} for f in fx]})
     for blk in blocks:
         t = blk["type"]
-        h = {"mirror": mirror, "explain": explain, "cards": cards, "steps": steps, "evidence": evidence, "hubcards": hubcards, "pack": pack, "linkgroups": linkgroups, "visit": visit, "phases": phases, "techniques": techniques, "audience": audience, "figure": figure}.get(t)
+        h = {"mirror": mirror, "explain": explain, "cards": cards, "steps": steps, "evidence": evidence, "hubcards": hubcards, "pack": pack, "linkgroups": linkgroups, "visit": visit, "phases": phases, "techniques": techniques, "audience": audience, "figure": figure, "chips": chipsblk}.get(t)
         if t == "pro":
             out = pro(blk, p); sid = "ficha"; label = tr("Ficha y reserva")
         else:

@@ -2888,3 +2888,12 @@ for _p in PAGES:
         if _b.get("h2") == "¿Por qué WA LAM?":
             _b["items"] = [it for it in _b["items"] if it["h"] not in ("Abordaje personalizado", "Una visión médica integrativa", "Método re:trace")]
     _bl[:] = [b for b in _bl if b.get("_id") != "te-ayudamos" and b.get("h2") not in ("Del primer contacto a un plan claro", "Basada en la medicina 5P")]
+
+# Osteopatía (Rosa, 25 nov 2026): botones a bebés y niños, fascia y trauma dentro de la página
+for _p in PAGES:
+    if _p["slug"] == "osteopatia-sarria-sant-gervasi":
+        _bl = _p["blocks"]
+        _k = next((i for i, b in enumerate(_bl) if b.get("type") == "techniques"), len(_bl) - 1) + 1
+        _bl.insert(_k, {"type": "chips", "eyebrow": "Más sobre osteopatía", "h2": "Osteopatía para cada necesidad", "_id": "mas-osteopatia",
+                        "items": [("Osteopatía en bebés y niños", "osteopatia-bebes-ninos"), ("Fascia y liberación miofascial", "osteopatia-fascia-barcelona"),
+                                  ("Trauma físico y emocional", "osteopatia-trauma")]})
