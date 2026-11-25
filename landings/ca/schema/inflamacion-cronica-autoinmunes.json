@@ -264,7 +264,7 @@
       },
       "about": {
         "@type": "MedicalCondition",
-        "name": "Inflamación crónica y enfermedades autoinmunes",
+        "name": "Inflamació crònica i malalties autoimmunes",
         "possibleTreatment": [
           {
             "@type": "MedicalTherapy",

@@ -97,7 +97,7 @@ PAGES.append({
     "sub": "Un enfoque clínico que mira a la persona entera, no solo al síntoma",
     "lead": "En WA LAM acompañamos a personas que quieren entender su salud y cuidarla. Unimos la osteopatía, la acupuntura, la nutrición y el mindfulness en tratamientos personalizados, con tiempo, escucha activa y rigor clínico.",
     "facts_title": "Te ayudamos a",
-    "facts": ["Entender qué le pasa a tu cuerpo y por qué", "Mejorar tu energía, tu equilibrio emocional y tu salud", "Prevenir y tratar desequilibrios desde una visión global"],
+    "facts": ["Entender qué le pasa a tu cuerpo y por qué", "Mejorar tu energía, tu equilibrio emocional y tu salud", "Prevenir y tratar desequilibrios desde una visión global e integrativa"],
     "cta2": ("Qué es la medicina integrativa", "#que-es-la-medicina-integrativa"),
     "wa": "Hola, me gustaría información sobre la medicina integrativa en WA LAM.",
     "blocks": [
