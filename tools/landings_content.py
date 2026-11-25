@@ -2903,7 +2903,7 @@ _NAV_FIX = {"hernia-disco-incipiente": "Hernias de disco incipientes y protrusi�
             "dolor-rodilla-condromalacia": "Dolor de rodilla y condromalacia rotuliana",
             "tunel-carpiano": "Síndrome del túnel carpiano",
             "osteoporosis": "Osteoporosis y salud ósea",
-            "bruxismo-dolor-mandibular-atm": "Problemas de la ATM, bruxismo y dolor mandibular",
+            "bruxismo-dolor-mandibular-atm": "Bruxismo, dolor mandibular y ATM",
             "contracturas-desgarros-musculares": "Contracturas y desgarros musculares"}
 for _p in PAGES:
     if _p["slug"] in _NAV_FIX:

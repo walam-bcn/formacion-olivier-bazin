@@ -166,12 +166,12 @@ def integrate_areas(PAGES):
 HOME_LIST = [
     # Lista exacta de «Sobre mí» de walambcn.com (25 nov 2026): no añadir motivos que no estén en la web de Rosa
     ("Patologías musculoesqueléticas y osteoarticulares", [
-        ("Artrosis", "artrosis"), ("Bursitis", "bursitis-capsulitis-tendinitis"), ("Capsulitis", "bursitis-capsulitis-tendinitis"), ("Tendinitis", "bursitis-capsulitis-tendinitis"), ("Cervicalgia", "cervicalgia-dolor-cuello"),
+        ("Artrosis", "artrosis"), ("Bursitis", "hombro-doloroso"), ("Capsulitis", "hombro-doloroso"), ("Tendinitis", "hombro-doloroso"), ("Cervicalgia", "cervicalgia-dolor-cuello"),
         ("Dolor de rodilla y condromalacia rotuliana", "dolor-rodilla-condromalacia"), ("Contracturas y desgarros musculares", "contracturas-desgarros-musculares"),
         ("Dorsalgia", "dorsalgia-dolor-espalda-alta"), ("Esguinces", "esguinces"), ("Esguince cervical", "cervicalgia-dolor-cuello"),
         ("Fascitis plantar", "fascitis-plantar"), ("Fibromialgia", "fibromialgia"), ("Hernias de disco incipientes y protrusión", "hernia-disco-incipiente"),
         ("Lumbalgia", "lumbalgia-dolor-lumbar"), ("Neuralgia de Arnold", "cervicalgia-dolor-cuello"), ("Osteoporosis y salud ósea", "osteoporosis"),
-        ("Problemas de la ATM, bruxismo y dolor mandibular", "bruxismo-dolor-mandibular-atm"), ("Sarcopenia", "osteoporosis"), ("Síndrome del túnel carpiano", "tunel-carpiano"),
+        ("Problemas de la ATM", "bruxismo-dolor-mandibular-atm"), ("Bruxismo y dolor mandibular", "bruxismo-dolor-mandibular-atm"), ("Sarcopenia", "osteoporosis"), ("Síndrome del túnel carpiano", "tunel-carpiano"),
         ("Hombro doloroso", "hombro-doloroso"), ("Tortícolis", "torticolis"),
         # añadidos por Rosa (25 nov 2026)
         ("Ciática", "ciatica"), ("Neuralgia del trigémino", "neuralgia-trigemino"),
@@ -265,7 +265,7 @@ WORK_STEPS = [
 # Rosa (25 nov 2026): los botones del directorio pasan también a la lista de su área en medicina integrativa
 AREA_EXTRA = [
     ["lumbalgia-dolor-lumbar", "cervicalgia-dolor-cuello", "dorsalgia-dolor-espalda-alta", "ciatica", "hernia-disco-incipiente", "artrosis", "hombro-doloroso",
-     "dolor-rodilla-condromalacia", "torticolis", "tunel-carpiano", "bursitis-capsulitis-tendinitis", "fascitis-plantar", "osteoporosis",
+     "dolor-rodilla-condromalacia", "torticolis", "tunel-carpiano", "fascitis-plantar", "osteoporosis",
      "dolor-persistente-cronico", "dolor-musculoesqueletico", "dolor-articular-miofascial", "contracturas-desgarros-musculares", "esguinces",
      "lesiones-deportivas", "fibromialgia", "cicatrices-adherencias", "dolor-postquirurgico", "dolor-oncologico",
      "cefaleas-migrana", "neuralgia-trigemino", "dolor-neuropatico", "bruxismo-dolor-mandibular-atm", "vertigo-mareo", "acufenos"],
