@@ -411,3 +411,203 @@ def escala_bristol(tr):
 
 
 FIGS["escala_bristol"] = escala_bristol
+
+
+# ---------------------------------------------------------------- 9. nervio vago: qué hace
+TERRA = "#C98B6B"   # terracota suave
+SKY = "#8FB8C4"     # azul suave
+SKYL = "#DCEBEE"
+
+
+def _organ(kind, x, y, s=1.0):
+    t = f'transform="translate({x},{y}) scale({s})"'
+    st = f'fill="{SKYL}" stroke="{SKY}" stroke-width="1.4"'
+    if kind == "brain":
+        return (f'<g {t}><path d="M-40 6 C-46 -20 -24 -40 0 -36 C24 -42 48 -22 42 4 C40 22 22 28 0 26 C-20 30 -38 24 -40 6Z" {st}/>'
+                f'<path d="M-24 -18 C-14 -10 -26 0 -12 6 M2 -30 C-4 -16 10 -10 4 2 M22 -20 C14 -8 28 0 18 12" fill="none" stroke="{SKY}" stroke-width="1.1"/></g>')
+    if kind == "face":
+        return (f'<g {t}><path d="M-14 -26 C10 -30 26 -14 24 6 L30 14 L22 18 L22 28 C10 32 -6 28 -14 18 C-22 4 -24 -18 -14 -26Z" {st}/>'
+                f'<path d="M8 2 L16 2 M10 20 L18 20" stroke="{SKY}" stroke-width="1.2"/></g>')
+    if kind == "larynx":
+        return f'<g {t}><rect x="-8" y="-14" width="16" height="28" rx="6" {st}/><path d="M-6 -4 H6 M-6 4 H6" stroke="{SKY}"/></g>'
+    if kind == "lungs":
+        return (f'<g {t}><path d="M-6 -30 C-30 -24 -44 10 -38 34 C-28 42 -10 36 -6 20Z" {st}/>'
+                f'<path d="M6 -30 C30 -24 44 10 38 34 C28 42 10 36 6 20Z" {st}/></g>')
+    if kind == "heart":
+        return (f'<g {t}><path d="M0 26 C-30 6 -32 -18 -14 -24 C-4 -27 0 -18 0 -14 C0 -18 6 -27 16 -24 C34 -18 30 6 0 26Z" {st}/></g>')
+    if kind == "stomach":
+        return (f'<g {t}><path d="M-10 -26 C-14 -6 -30 0 -26 16 C-20 32 14 30 24 14 C30 2 20 -6 10 -2 C4 0 2 -12 4 -26Z" {st}/></g>')
+    if kind == "liver":
+        return (f'<g {t}><path d="M-34 -6 C-30 -22 20 -26 34 -14 C40 -6 30 8 10 12 C-10 16 -36 14 -34 -6Z" {st}/></g>')
+    if kind == "gut":
+        return (f'<g {t}><path d="M-28 22 V-16 C-28 -24 28 -24 28 -16 V22" fill="none" stroke="{SKY}" stroke-width="7" stroke-linecap="round" opacity=".55"/>'
+                f'<path d="M-14 -6 C-4 -14 6 -2 14 -8 M-16 4 C-6 -4 6 10 16 2 M-14 14 C-4 6 6 20 14 12" fill="none" stroke="{SKY}" stroke-width="3.2" stroke-linecap="round" opacity=".85"/></g>')
+    return ""
+
+
+def nervio_vago_funciones(tr):
+    W, H = 900, 760
+    cx = 450
+    b = [f'<rect width="{W}" height="{H}" fill="#fff"/>',
+         _t(W / 2, 40, tr("¿Qué hace el nervio vago?"), 20, 400, PET, "middle")]
+    # tronco del nervio
+    b.append(f'<path d="M{cx} 120 C{cx-6} 200 {cx+8} 260 {cx} 330 C{cx-8} 420 {cx+10} 500 {cx} 600 L{cx} 660" '
+             f'fill="none" stroke="{TERRA}" stroke-width="3.2" stroke-linecap="round"/>')
+    org = [("brain", cx, 92, 1.0), ("face", cx + 46, 180, 0.8), ("larynx", cx + 4, 230, 1.0), ("lungs", cx - 60, 330, 0.85),
+           ("heart", cx + 50, 360, 0.75), ("stomach", cx + 56, 470, 0.85), ("liver", cx - 60, 470, 0.8), ("gut", cx, 640, 1.0)]
+    # ramas
+    for k, x, y, s in org[1:]:
+        if k in ("larynx", "gut"):
+            continue
+        sx = cx
+        sy = y - 10 if k != "face" else 170
+        b.append(f'<path d="M{sx} {sy} C{(sx+x)/2} {sy-10} {(sx+x)/2} {y} {x - (30 if x > cx else -30)} {y}" '
+                 f'fill="none" stroke="{TERRA}" stroke-width="1.8" stroke-linecap="round"/>')
+    for k, x, y, s in org:
+        b.append(_organ(k, x, y, s))
+    labels = [
+        (40, 120, tr("Estado de ánimo"), tr("Modula la respuesta al estrés y el sistema límbico")),
+        (40, 270, tr("Respiración"), tr("Coordina el ritmo respiratorio con el cardiaco")),
+        (40, 520, tr("Inflamación"), tr("Reflejo antiinflamatorio a través de la acetilcolina")),
+        (40, 620, tr("Digestión"), tr("Motilidad, enzimas y esfínteres, en diálogo con el intestino")),
+        (W - 40, 150, tr("Cara y voz"), tr("Expresión facial y tono de voz, con el nervio facial")),
+        (W - 40, 250, tr("Habla"), tr("Cuerdas vocales coordinadas con la respiración")),
+        (W - 40, 400, tr("Corazón"), tr("Enlentece el pulso y favorece la calma (freno vagal)")),
+    ]
+    for x, y, h, s in labels:
+        a = "start" if x < cx else "end"
+        b.append(_t(x, y, h.upper(), 13, 500, "#0a8f91", a, 'letter-spacing="1.5"'))
+        b.append(_t(x, y + 20, s, 13, 300, PET, a))
+    b.append(_t(W / 2, H - 14, tr("Ilustración conceptual: no representa la anatomía con exactitud"), 11, 300, "#7d9192", "middle"))
+    return _svg(W, H, "".join(b), tr("Funciones del nervio vago"))
+
+
+# ---------------------------------------------------------------- 10. nervio vago: anatomía
+def nervio_vago_anatomia(tr):
+    W, H = 760, 800
+    cx = 380
+    b = [f'<rect width="{W}" height="{H}" fill="#fff"/>',
+         _t(W / 2, 40, tr("Anatomía del nervio vago"), 20, 400, PET, "middle"),
+         f'<rect x="230" y="70" width="300" height="680" rx="24" fill="none" stroke="{SKY}" stroke-width="2"/>']
+    # tronco cerebral y dos ramas que convergen
+    b.append(_organ("brain", cx, 120, 1.15))
+    b.append(f'<path d="M{cx-10} 150 C{cx-26} 230 {cx-20} 280 {cx-8} 330 M{cx+10} 150 C{cx+26} 230 {cx+20} 280 {cx+8} 330" '
+             f'fill="none" stroke="{TERRA}" stroke-width="2.6" stroke-linecap="round"/>')
+    b.append(f'<path d="M{cx} 330 C{cx-10} 420 {cx+10} 520 {cx} 690" fill="none" stroke="{TERRA}" stroke-width="3" stroke-linecap="round"/>')
+    org = [("lungs", cx, 300, 1.15, tr("Pulmones"), "L", 270), ("heart", cx + 30, 360, 0.75, tr("Corazón"), "R", 360),
+           ("liver", cx - 50, 450, 0.9, tr("Hígado y vesícula"), "L", 450), ("stomach", cx + 50, 455, 0.85, tr("Estómago, bazo y páncreas"), "R", 455),
+           ("gut", cx, 610, 1.3, tr("Intestino delgado y grueso"), "R", 610)]
+    for k, x, y, s, lab, side, ly in org:
+        b.append(_organ(k, x, y, s))
+        if side == "L":
+            b.append(f'<path d="M{x-40} {ly} L200 {ly}" stroke="{SAGE}" stroke-width=".8"/>')
+            b.append(_t(195, ly + 4, lab, 13, 300, PET, "end"))
+        else:
+            b.append(f'<path d="M{x+40} {ly} L560 {ly}" stroke="{SAGE}" stroke-width=".8"/>')
+            b.append(_t(565, ly + 4, lab, 13, 300, PET))
+    for kx in (cx - 34, cx + 34):
+        b.append(f'<ellipse cx="{kx}" cy="540" rx="11" ry="17" fill="{SKYL}" stroke="{SKY}" stroke-width="1.3"/>')
+    b.append(f'<path d="M{cx+46} 540 L560 540" stroke="{SAGE}" stroke-width=".8"/>')
+    b.append(_t(565, 544, tr("Riñones"), 13, 300, PET))
+    b.append(f'<path d="M{cx-40} 120 L200 120" stroke="{SAGE}" stroke-width=".8"/>')
+    b.append(_t(195, 116, tr("Tronco cerebral"), 13, 300, PET, "end"))
+    b.append(_t(195, 134, tr("X par craneal"), 12, 300, "#0a8f91", "end"))
+    b.append(_t(W / 2, 772, tr("Dos ramas, derecha e izquierda, que convergen por encima del tórax. Los órganos pélvicos dependen de los nervios sacros (S2–S4)."), 11, 300, "#5d7778", "middle"))
+    return _svg(W, H, "".join(b), tr("Anatomía del nervio vago"))
+
+
+# ---------------------------------------------------------------- 11. métodos naturales
+def nervio_vago_metodos(tr):
+    W, H = 820, 620
+    cx, cy = 410, 320
+    b = [f'<rect width="{W}" height="{H}" fill="#fff"/>',
+         _t(W / 2, 40, tr("Hábitos que favorecen la actividad del nervio vago"), 18, 400, PET, "middle"),
+         f'<circle cx="{cx}" cy="{cy}" r="118" fill="none" stroke="{SKY}" stroke-width="10" opacity=".45"/>',
+         f'<circle cx="{cx}" cy="{cy}" r="100" fill="none" stroke="{SKY}" stroke-width="2"/>',
+         _t(cx, cy - 10, tr("Métodos naturales"), 17, 400, PET, "middle"),
+         _t(cx, cy + 14, tr("para estimular"), 15, 300, PET, "middle"),
+         _t(cx, cy + 36, tr("el nervio vago"), 15, 300, PET, "middle")]
+    import math
+    items = [(tr("Respiración lenta"), '<path d="M-10 6 C-22 -8 -14 -20 -2 -14 M10 6 C22 -8 14 -20 2 -14 M0 -20 V8"/>'),
+             (tr("Sueño reparador"), '<path d="M6 -14 A12 12 0 1 0 14 6 A10 10 0 0 1 6 -14Z"/>'),
+             (tr("Luz natural"), '<circle r="7"/><path d="M0 -16 V-12 M0 12 V16 M-16 0 H-12 M12 0 H16 M-11 -11 l3 3 M8 8 l3 3 M-11 11 l3 -3 M8 -8 l3 -3"/>'),
+             (tr("Gárgaras"), '<path d="M-8 -14 H8 L6 14 H-6 Z M-4 -4 H4"/>'),
+             (tr("Movimiento diario"), '<circle cx="2" cy="-14" r="3"/><path d="M1 -10 L-3 2 L4 8 L2 16 M-3 2 L-10 6 M1 -8 L8 -2"/>'),
+             (tr("Cantar o tararear"), '<path d="M-4 10 V-12 L10 -16 V6"/><circle cx="-8" cy="10" r="4"/><circle cx="6" cy="6" r="4"/>'),
+             (tr("Risa y conexión social"), '<circle cx="-7" cy="-6" r="5"/><circle cx="7" cy="-6" r="5"/><path d="M-14 12 C-12 2 -2 2 0 12 C2 2 12 2 14 12"/>'),
+             (tr("Frío moderado"), '<path d="M0 -14 V14 M-12 -7 L12 7 M-12 7 L12 -7"/>'),
+             (tr("Yoga y meditación"), '<circle cy="-12" r="3"/><path d="M0 -8 V2 M-12 10 C-6 4 6 4 12 10 M-10 -2 L0 0 L10 -2"/>')]
+    n = len(items)
+    for i, (lab, icon) in enumerate(items):
+        ang = -math.pi / 2 + i * 2 * math.pi / n
+        x, y = cx + 215 * math.cos(ang), cy + 200 * math.sin(ang)
+        b.append(f'<circle cx="{x:.0f}" cy="{y:.0f}" r="30" fill="{SKYL}"/>')
+        b.append(f'<g transform="translate({x:.0f},{y:.0f})" fill="none" stroke="{TERRA}" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">{icon}</g>')
+        b.append(_t(x, y + 50, lab, 13, 300, PET, "middle"))
+    return _svg(W, H, "".join(b), tr("Métodos naturales para estimular el nervio vago"))
+
+
+# ---------------------------------------------------------------- 12. sistema de implicación social
+def nervio_vago_social(tr):
+    W, H = 800, 460
+    b = [f'<rect width="{W}" height="{H}" fill="#fff"/>']
+    hx = 230
+    b.append(f'<path d="M{hx+60} 60 C{hx-30} 50 {hx-80} 120 {hx-70} 190 L{hx-88} 220 L{hx-70} 232 L{hx-74} 262 C{hx-70} 290 {hx-40} 300 {hx-10} 296 '
+             f'L{hx-6} 340 C{hx+20} 380 {hx+60} 400 {hx+90} 420 M{hx+60} 60 C{hx+150} 70 {hx+170} 170 {hx+130} 250 C{hx+110} 290 {hx+110} 330 {hx+130} 420" '
+             f'fill="#fff" stroke="{SKY}" stroke-width="1.6"/>')
+    # tronco y ramas a cara, oído, garganta
+    b.append(f'<path d="M{hx+70} 230 C{hx+70} 300 {hx+60} 360 {hx+64} 420" stroke="{TERRA}" stroke-width="3" fill="none"/>')
+    for d in (f"M{hx+68} 240 C{hx+30} 230 {hx-10} 210 {hx-50} 200", f"M{hx+68} 250 C{hx+20} 260 {hx-20} 270 {hx-50} 262",
+              f"M{hx+70} 230 C{hx+90} 210 {hx+110} 200 {hx+110} 180", f"M{hx+66} 290 C{hx+40} 300 {hx+20} 320 {hx} 330",
+              f"M{hx+70} 240 C{hx+40} 200 {hx+20} 160 {hx-30} 140"):
+        b.append(f'<path d="{d}" stroke="{TERRA}" stroke-width="1.6" fill="none"/>')
+    b.append(_t(470, 90, tr("Sistema de implicación social"), 18, 400, PET))
+    txt = [tr("El complejo vagal ventral trabaja junto a los"), tr("pares craneales V, VII, IX, X y XI."), "",
+           tr("Coordina la expresión de la cara, el tono de la voz,"), tr("la escucha y la mirada con el ritmo del corazón."), "",
+           tr("Cuando el sistema nervioso percibe seguridad,"), tr("favorece la calma, la conexión y la corregulación."),
+           tr("Con el estrés crónico dominan"), tr("las respuestas de defensa.")]
+    for i, line in enumerate(txt):
+        b.append(_t(470, 130 + i * 24, line, 14, 300, PET))
+    b.append(_t(470, 380, tr("Modelo propuesto por Stephen Porges (teoría polivagal)"), 12, 300, "#0a8f91"))
+    return _svg(W, H, "".join(b), tr("Sistema de implicación social y nervio vago"))
+
+
+FIGS.update({"nervio_vago_funciones": nervio_vago_funciones, "nervio_vago_anatomia": nervio_vago_anatomia,
+             "nervio_vago_metodos": nervio_vago_metodos, "nervio_vago_social": nervio_vago_social})
+
+
+# ---------------------------------------------------------------- 13. estados del sistema nervioso autónomo
+def estados_sna(tr):
+    W, H = 900, 820
+    b = [f'<rect width="{W}" height="{H}" fill="#fff"/>',
+         _t(W / 2, 40, tr("Estados del sistema nervioso autónomo"), 20, 400, PET, "middle"),
+         _t(W / 2, 62, tr("Según la teoría polivagal de Stephen Porges"), 13, 300, "#5d7778", "middle")]
+    C = [(450, 300, SKY, "#eef5f6"), (330, 520, "#C9A4AE", "#f7eef0"), (570, 520, "#D9C38E", "#faf5ea")]
+    for x, y, st, fl in C:
+        b.append(f'<circle cx="{x}" cy="{y}" r="205" fill="{fl}" fill-opacity=".55" stroke="{st}" stroke-width="2"/>')
+    def block(x, y, title, sub1, sub2, lines, anchor="middle"):
+        out = [_t(x, y, title, 17, 500, PET, anchor, 'letter-spacing="1.5"'),
+               _t(x, y + 20, sub1, 12, 400, "#0a8f91", anchor)]
+        if sub2:
+            out.append(_t(x, y + 36, sub2, 12, 400, "#0a8f91", anchor))
+        yy = y + (58 if sub2 else 42)
+        for ln in lines:
+            out.append(_t(x, yy, ln, 11.5, 300, PET, anchor)); yy += 16
+        return "".join(out)
+    b.append(block(450, 150, tr("EN RELAJACIÓN"), tr("Sistema nervioso parasimpático"), tr("Vía vagal ventral"),
+                   [tr("Frecuencia cardiaca y tono muscular normales"), tr("Calma, conexión, curiosidad,"), tr("creatividad y esperanza")]))
+    b.append(block(250, 520, tr("EN INMOVILIZACIÓN"), tr("Parasimpático"), tr("Vía vagal dorsal"),
+                   [tr("Pulso bajo, tono y energía bajos"), tr("Con seguridad: tranquilidad,"), tr("ensoñación, meditación"),
+                    tr("Sin seguridad: desánimo,"), tr("soledad, desesperanza")]))
+    b.append(block(655, 520, tr("EN MOVILIZACIÓN"), tr("Sistema nervioso simpático"), "",
+                   [tr("Más pulso, tensión y tono muscular"), tr("Con seguridad: energía, juego,"), tr("motivación"),
+                    tr("Sin seguridad: lucha o huida,"), tr("estrés, ansiedad, miedo")]))
+    b.append(_t(355, 400, tr("Quietud"), 12, 500, PET, "middle")); b.append(_t(355, 416, tr("e intimidad"), 12, 300, PET, "middle"))
+    b.append(_t(545, 400, tr("Juego, baile,"), 12, 500, PET, "middle")); b.append(_t(545, 416, tr("deporte"), 12, 300, PET, "middle"))
+    b.append(_t(450, 600, tr("Congelación"), 12, 500, PET, "middle")); b.append(_t(450, 616, tr("defensiva"), 12, 300, PET, "middle"))
+    b.append(_t(W / 2, H - 40, tr("Los estados no son compartimentos: se combinan en estados híbridos."), 12, 300, "#5d7778", "middle"))
+    b.append(_t(W / 2, H - 22, tr("La regulación sana es la flexibilidad para pasar de uno a otro y volver a la calma."), 12, 300, "#5d7778", "middle"))
+    return _svg(W, H, "".join(b), tr("Estados del sistema nervioso autónomo según la teoría polivagal"))
+
+
+FIGS["estados_sna"] = estados_sna

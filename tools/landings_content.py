@@ -2805,7 +2805,12 @@ FIG_PLACE = {
     "diarrea-cronica": [("escala_bristol", "¿Qué es", "")],
     "estrenimiento": [("escala_bristol", "¿Qué es", "")],
     "colon-irritable-sibo": [("escala_bristol", "¿Qué es", "")],
-    "pni-pnie-barcelona": [("eje_intestino_disco", "dolor de espalda", "")],
+    "pni-pnie-barcelona": [("eje_intestino_disco", "dolor de espalda", ""), ("estados_sna", "simpático", "")],
+    "nervio-vago": [("nervio_vago_anatomia", "¿Qué es", ""), ("nervio_vago_funciones", "¿Qué hace", ""),
+                    ("estados_sna", "polivagal", ""), ("nervio_vago_social", "implicación social", ""),
+                    ("nervio_vago_metodos", "estimular", "")],
+    "estres-ansiedad": [("estados_sna", "¿Qué es", "")],
+    "sueno-insomnio": [("nervio_vago_metodos", "prevenir", "")],
 }
 
 
