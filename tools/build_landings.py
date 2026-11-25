@@ -464,7 +464,7 @@ def head(p):
 <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{html.escape(title)}"><meta name="twitter:description" content="{html.escape(desc)}"><meta name="twitter:image" content="{og}">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&display=swap" rel="stylesheet">
-<style>{CSS}{CLINIC_CSS}{AUD_CSS}</style>
+<style>{CSS}{CLINIC_CSS}{AUD_CSS}{FIG_CSS}</style>
 <script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>
 </head><body>"""
 
@@ -690,7 +690,17 @@ def evidence(e):
         its.append(f'<div class="evi"><span class="lv">{fmt(lv)}</span><p>{fmt(t)}{btn}</p></div>')
     if not its:
         return ""
-    return f'<section class="evid"><div class="wrap">{sec_head(e.get("eyebrow", ""), e["h2"], e.get("intro"))}<div class="ev">{"".join(its)}</div></div></section>'
+    refs = e.get("refs") or []
+    rl = ""
+    if refs:
+        lis = []
+        for r in refs:
+            t = r.get("t", "") if isinstance(r, dict) else str(r)
+            d = r.get("doi") if isinstance(r, dict) else None
+            link = f' <a href="https://doi.org/{html.escape(d)}" target="_blank" rel="noopener">doi:{html.escape(d)}</a>' if d else ""
+            lis.append(f"<li>{html.escape(t)}{link}</li>")
+        rl = f'<div class="reflist"><h3>{tr("Referencias")}</h3><ol>{"".join(lis)}</ol></div>'
+    return f'<section class="evid"><div class="wrap">{sec_head(e.get("eyebrow", ""), e["h2"], e.get("intro"))}<div class="ev">{"".join(its)}</div>{rl}</div></section>'
 
 
 def faq(items, title=None):
@@ -795,10 +805,11 @@ def quick(p):
 
 
 def toc(items):
-    if len(items) < 3:
+    items = [(i, t) for i, t in items if t]
+    if len(items) < 4:
         return ""
-    lis = "".join(f'<a href="#{i}">{html.escape(t)}</a>' for i, t in items)
-    return f'<nav class="toc" aria-label="{tr('En esta página')}"><div class="wrap"><span class="k">{tr('En esta página')}</span><div class="chips">{lis}</div></div></nav>'
+    lis = "".join(f'<li><a href="#{i}">{html.escape(t)}</a></li>' for i, t in items)
+    return f'<nav class="toc2" aria-label="{tr("Tabla de contenido")}"><div class="wrap"><h2>{tr("Tabla de contenido")}</h2><ol>{lis}</ol></div></nav>'
 
 
 def local(p):
@@ -993,6 +1004,13 @@ def audience(b):
 
 
 AUD_CSS = """
+.toc2{background:#fff;padding:34px 0 10px}.toc2 h2{font-size:1.45rem;margin:0 0 12px;color:var(--pet)}
+.toc2 ol{margin:0;padding-left:22px;columns:2;column-gap:40px}.toc2 li{margin:0 0 7px;break-inside:avoid}
+.toc2 a{color:#5fa9a4;text-decoration:none;font-size:.98rem}.toc2 a:hover{color:#0a8f91;text-decoration:underline}
+.reflist{margin:34px auto 0;max-width:900px;text-align:left}.reflist h3{font-size:1.1rem;color:var(--pet);margin:0 0 10px}
+.reflist ol{margin:0;padding-left:22px}.reflist li{color:#6fa8a3;font-size:.86rem;line-height:1.6;margin-bottom:8px}
+.reflist a{color:#5fa9a4;word-break:break-all}
+@media(max-width:760px){.toc2 ol{columns:1}}
 .abox>input{position:absolute;opacity:0;pointer-events:none}
 .atabs{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin:26px 0 22px}
 .atabs label{cursor:pointer;border:1.5px solid var(--tq);color:#0a8f91;border-radius:999px;padding:9px 18px;font-weight:600;font-size:.95rem;background:#fff}
@@ -1002,9 +1020,27 @@ AUD_CSS = """
 """
 
 
+from figures import FIGS  # noqa: E402
+
+
+def figure(b):
+    fn = FIGS.get(b.get("fig"))
+    if not fn:
+        return ""
+    cap = f'<figcaption>{fmt(b["caption"])}</figcaption>' if b.get("caption") else ""
+    return f'<section class="figblk"><div class="wrap"><figure class="wlfig">{fn(tr)}{cap}</figure></div></section>'
+
+
+FIG_CSS = """
+.figblk{padding:24px 0 34px}.wlfig{max-width:860px;margin:0 auto;text-align:center}
+.wlfig .figsvg{width:100%;height:auto;display:block;border-radius:6px}
+.wlfig figcaption{font-size:.85rem;color:#5d7778;margin-top:10px;font-weight:300}
+"""
+
+
 def page(p):
     parts = [head(p), nav(p), hero(p)]
-    body, items = [], []
+    body, items, toc_items = [], [], []
     blocks = list(p["blocks"])
     fx = [f for f in p.get("facts", []) if not plain(f).startswith(("Atiende", "Atienden", "Profesional", "Realiza la consulta", "Acupuntor", "Te atiende"))]
     if p["group"] != "home" and fx:
@@ -1012,7 +1048,7 @@ def page(p):
                                            "items": [{"h": f, "p": ""} for f in fx]})
     for blk in blocks:
         t = blk["type"]
-        h = {"mirror": mirror, "explain": explain, "cards": cards, "steps": steps, "evidence": evidence, "hubcards": hubcards, "pack": pack, "linkgroups": linkgroups, "visit": visit, "phases": phases, "techniques": techniques, "audience": audience}.get(t)
+        h = {"mirror": mirror, "explain": explain, "cards": cards, "steps": steps, "evidence": evidence, "hubcards": hubcards, "pack": pack, "linkgroups": linkgroups, "visit": visit, "phases": phases, "techniques": techniques, "audience": audience, "figure": figure}.get(t)
         if t == "pro":
             out = pro(blk, p); sid = "ficha"; label = tr("Ficha y reserva")
         else:
@@ -1023,6 +1059,8 @@ def page(p):
                 out = out.replace('<section class="', f'<section id="{sid}" class="', 1)
         if t != "hubcards":
             items.append((sid, label if t != "evidence" else tr("Evidencia científica")))
+            if t not in ("pro", "figure") and blk.get("h2") and blk.get("_id") != "datos-clave":
+                toc_items.append((sid, plain(tr(blk["h2"]) if False else blk["h2"])))
         body.append(out)
     if p["group"] in ("motivo", "servicio"):
         pass
@@ -1037,7 +1075,9 @@ def page(p):
     if p["group"] in ("motivo", "servicio") and seq:
         k = seq[-1].rfind("</div></section>")
         seq[-1] = seq[-1][:k] + f'<div class="note"><p>{tr(NOTE_ES)}</p></div>' + seq[-1][k:]
-    parts += [quick(p)] + seq
+    if p.get("faq"):
+        toc_items.append(("preguntas-frecuentes", tr("Preguntas frecuentes")))
+    parts += [quick(p)] + ([toc(toc_items)] if p["group"] in ("motivo", "servicio") else []) + seq
     parts.append(directory(p))
     parts.append(lonband(p))
     parts.append(contact(p))

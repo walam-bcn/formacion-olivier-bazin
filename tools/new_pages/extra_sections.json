@@ -1,0 +1,769 @@
+{
+ "salud-digestiva-microbiota": {
+  "sections": [
+   {
+    "h2": "Microbiota y dolor de espalda: el eje intestino–disco",
+    "paras": [
+     "Puede parecer extraño que una página sobre salud digestiva hable del dolor de espalda. Sin embargo, en los últimos años varios grupos de investigación han empezado a estudiar una posible relación entre el estado del intestino y la salud de los **discos intervertebrales**. Se la conoce como **eje intestino–disco** y, aunque todavía es una **hipótesis emergente**, ayuda a entender por qué el dolor de espalda no siempre se explica solo por la postura o por el esfuerzo. Antes de explicarla conviene aclarar algunos términos.",
+     "El **disco intervertebral** es la estructura que separa una vértebra de la siguiente. Actúa como un amortiguador y, a la vez, permite que la columna se doble y gire. Tiene dos partes: el **núcleo pulposo**, un centro gelatinoso muy rico en agua que reparte las presiones, y el **anillo fibroso**, una serie de láminas de fibras dispuestas en capas, como las de una cebolla, que rodean y contienen el núcleo. Cuando el anillo se fisura y el núcleo se desplaza aparecen la protrusión y la [hernia discal](hernia-disco-incipiente). El disco del adulto es la estructura sin vasos sanguíneos más grande del cuerpo: se nutre por difusión a través de las placas de cartílago que lo unen a las vértebras.",
+     "La **microbiota intestinal** es el conjunto de microorganismos, sobre todo bacterias, que viven en el intestino. Se calcula que una persona adulta alberga unos **38 billones de bacterias**, una cifra del mismo orden que el número de células humanas del cuerpo (Sender et al., PLoS Biology, 2016). Esta comunidad participa en la digestión, produce sustancias que regulan la inflamación y entrena al sistema inmunitario. Se habla de **disbiosis** cuando el equilibrio de esa comunidad se altera: disminuyen las bacterias beneficiosas, proliferan otras con potencial inflamatorio o se pierde diversidad.",
+     "Durante décadas se consideró que el disco sano era **estéril**. En 2020, un equipo indio analizó con secuenciación genética (16S ARNr) 24 discos lumbares: 8 sanos, procedentes de donantes de órganos, 8 herniados y 8 degenerados. Detectaron en total 424 especies bacterianas, y **355 de ellas en los discos sanos**. En los discos normales abundaban bacterias consideradas protectoras, mientras que en los degenerados y herniados predominaban posibles patógenos (Rajasekaran et al., European Spine Journal, 2020). Los propios autores afirman que el hallazgo pone en duda la idea de un disco sano estéril. Conviene matizar que estudios posteriores con técnicas parecidas no siempre han obtenido las mismas bacterias, de modo que es un campo todavía en desarrollo.",
+     "¿Cómo podrían llegar bacterias o sus productos a un disco que no tiene vasos? Una revisión publicada en 2022 propuso el concepto de **eje intestino–disco** y describió tres mecanismos posibles (Li et al., European Spine Journal, 2022). El primero es el **paso de bacterias** a través de una barrera intestinal debilitada hasta la sangre y, desde ahí, hasta el disco. El segundo es la **regulación del sistema inmunitario**: una microbiota alterada mantiene una inflamación de bajo grado en todo el organismo que también alcanza el disco. El tercero son los **nutrientes y metabolitos** que la microbiota produce o ayuda a absorber y que difunden hasta el interior del disco.",
+     "En este punto entra en juego la llamada **barrera hemato-discal**. Como el núcleo pulposo apenas tiene contacto con la sangre, el sistema inmunitario prácticamente no lo vigila: es un tejido «inmunoprivilegiado». Eso protege al disco en condiciones normales, pero también significa que, si algún microorganismo o una molécula inflamatoria consigue entrar, por ejemplo a través de pequeñas lesiones de la placa vertebral, puede permanecer allí con poca resistencia y favorecer un ambiente inflamatorio que acelere la **degeneración discal**. Es una hipótesis plausible, pero todavía no se ha demostrado en personas que la disbiosis cause la degeneración del disco.",
+     "También hay datos de asociación entre la microbiota y el dolor de espalda en sí. En un estudio australiano con 36 adultos con sobrepeso u obesidad, las 14 personas que referían dolor de espalda tenían una composición de la microbiota distinta de las 22 que no lo tenían, con más abundancia del género *Adlercreutzia*, a pesar de que su dieta y su actividad física eran similares. Ese género se relacionaba además con el índice de masa corporal y con marcadores inflamatorios (Dekker Nitert et al., Frontiers in Endocrinology, 2020). Es un estudio pequeño y transversal: muestra una **asociación**, no que la microbiota provoque el dolor.",
+     "La lectura prudente de todo esto es que el intestino podría ser una pieza más en el dolor de espalda persistente, sobre todo cuando coinciden **inflamación de bajo grado**, problemas digestivos, sobrepeso o estrés mantenido. No se trata de explicar todos los dolores de espalda por la microbiota, sino de no dejar fuera del razonamiento clínico un sistema que influye en la inflamación de todo el cuerpo. Desde la visión osteopática, que considera el cuerpo como un conjunto, encaja con la idea de valorar a la vez la columna, las vísceras y el estilo de vida."
+    ],
+    "list_title": "Prevención en tres ejes que se refuerzan entre sí:",
+    "list": [
+     "**Alimentación:** una dieta variada, rica en fibra de verduras, legumbres, fruta y cereales integrales, con alimentos fermentados si se toleran, alimenta a las bacterias beneficiosas; limitar los ultraprocesados, el exceso de azúcar y el alcohol reduce los estímulos inflamatorios.",
+     "**Terapia manual y movimiento:** mantener la movilidad de la columna, la pelvis y el abdomen, y moverse a diario, favorece la nutrición del disco por difusión y el buen funcionamiento digestivo; el ejercicio regular también se asocia a una microbiota más diversa.",
+     "**Gestión del estrés:** el estrés crónico altera la barrera intestinal y la microbiota a través del eje intestino–cerebro y, a la vez, aumenta la tensión muscular y la sensibilidad al dolor; dormir bien, respirar con calma y reservar tiempo para el descanso actúan sobre los dos extremos del eje.",
+     "Consultar con el médico si el dolor de espalda se acompaña de fiebre, pérdida de peso sin causa, sangre en las heces o cambios persistentes del ritmo intestinal."
+    ]
+   },
+   {
+    "h2": "El dolor también es una señal: intestino y sistema nervioso",
+    "paras": [
+     "Solemos pensar en el dolor solo como un problema que hay que hacer desaparecer. Pero el dolor es, ante todo, una **señal de alarma** del sistema nervioso, y en el intestino esa señal parece cumplir además una función protectora directa. Las neuronas que detectan estímulos dañinos se llaman **nociceptores**: avisan al cerebro de que algo va mal, pero también liberan sustancias en el propio tejido que se comunican con las células vecinas.",
+     "Un estudio de la Universidad de Harvard publicado en la revista *Cell* en 2022 lo mostró en **ratones**. Los nociceptores del intestino están situados junto a las **células caliciformes**, las encargadas de fabricar el **moco** que recubre y protege la pared intestinal. Cuando se activan, liberan un mensajero llamado **CGRP** (péptido relacionado con el gen de la calcitonina), que actúa sobre un receptor de las células caliciformes (RAMP1) y estimula la secreción de moco (Yang et al., Cell, 2022).",
+     "Los ratones a los que se eliminaron esos nociceptores tenían una capa de moco más fina, una microbiota alterada (**disbiosis**) y una colitis más grave cuando se les provocaba una inflamación intestinal. Al administrarles CGRP, quedaban de nuevo protegidos. Además, las propias bacterias intestinales y algunos estímulos de la dieta activaban esa liberación de CGRP. Es decir, en este modelo animal, las neuronas del dolor forman parte del sistema de defensa de la barrera intestinal.",
+     "Hay que recordar que se trata de un **estudio en animales** y que no puede trasladarse sin más a las personas. Aun así, aporta una idea útil para entender el dolor digestivo y el dolor en general: el dolor no es solo un síntoma molesto, sino información sobre lo que ocurre en el cuerpo. Por eso, además del alivio que el médico considere oportuno con la medicación, conviene **buscar el origen** del dolor y cuidar los factores que mantienen la barrera intestinal en buen estado.",
+     "Este hallazgo encaja con lo que se sabe del **eje intestino–sistema nervioso** y del [nervio vago](nervio-vago): el intestino y el sistema nervioso están en diálogo constante, en ambas direcciones. El estrés, el sueño, la alimentación y la microbiota influyen en ese diálogo, y por eso las molestias digestivas, el dolor y el estado de ánimo se relacionan con tanta frecuencia."
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "t": "Sender R, Fuchs S, Milo R, 2016. «Revised estimates for the number of human and bacteria cells in the body». PLoS Biology 14(8):e1002533.",
+    "doi": "10.1371/journal.pbio.1002533"
+   },
+   {
+    "t": "Rajasekaran S, Soundararajan DCR, Tangavel C, et al., 2020. «Human intervertebral discs harbour a unique microbiome and dysbiosis determines health and disease». European Spine Journal 29(7):1621-1640.",
+    "doi": "10.1007/s00586-020-06446-z"
+   },
+   {
+    "t": "Li W, Lai K, Chopra N, Zheng Z, Das A, Diwan AD, 2022. «Gut-disc axis: a cause of intervertebral disc degeneration and low back pain?». European Spine Journal 31(4):917-925.",
+    "doi": "10.1007/s00586-022-07152-8"
+   },
+   {
+    "t": "Dekker Nitert M, Mousa A, Barrett HL, Naderpoor N, de Courten B, 2020. «Altered gut microbiota composition is associated with back pain in overweight and obese individuals». Frontiers in Endocrinology 11:605.",
+    "doi": "10.3389/fendo.2020.00605"
+   },
+   {
+    "t": "Yang D, Jacobson A, Meerschaert KA, et al. (Chiu IM), 2022. «Nociceptor neurons direct goblet cells via a CGRP-RAMP1 axis to drive mucus production and gut barrier protection». Cell 185(22):4190-4205.",
+    "doi": "10.1016/j.cell.2022.09.024"
+   }
+  ],
+  "evidence_items": [
+   [
+    "Microbiota (PLoS Biology)",
+    "Un adulto de referencia alberga unos 38 billones de bacterias, un número del mismo orden que el de sus células humanas (Sender et al., 2016)."
+   ],
+   [
+    "Disco no estéril (Eur Spine J)",
+    "En 24 discos lumbares se detectaron 424 especies bacterianas, 355 de ellas en discos sanos (Rajasekaran et al., 2020)."
+   ],
+   [
+    "Eje intestino–disco (Eur Spine J)",
+    "Una revisión de 2022 propone 3 mecanismos por los que la microbiota podría influir en la degeneración discal: paso de bacterias, regulación inmunitaria y metabolitos (Li et al., 2022)."
+   ],
+   [
+    "Asociación con dolor de espalda (Front Endocrinol)",
+    "En 36 adultos con sobrepeso, los 14 con dolor de espalda tenían una microbiota diferente, con más Adlercreutzia, que los 22 sin dolor (Dekker Nitert et al., 2020)."
+   ],
+   [
+    "Dolor y barrera intestinal (Cell, ratones)",
+    "En ratones, los nociceptores liberan CGRP que estimula el moco protector; sin ellos aparecen disbiosis y colitis más grave (Yang et al., 2022)."
+   ]
+  ]
+ },
+ "pni-pnie-barcelona": {
+  "sections": [
+   {
+    "h2": "Microbiota y dolor de espalda: el eje intestino–disco",
+    "paras": [
+     "Puede parecer extraño que una página sobre salud digestiva hable del dolor de espalda. Sin embargo, en los últimos años varios grupos de investigación han empezado a estudiar una posible relación entre el estado del intestino y la salud de los **discos intervertebrales**. Se la conoce como **eje intestino–disco** y, aunque todavía es una **hipótesis emergente**, ayuda a entender por qué el dolor de espalda no siempre se explica solo por la postura o por el esfuerzo. Antes de explicarla conviene aclarar algunos términos.",
+     "El **disco intervertebral** es la estructura que separa una vértebra de la siguiente. Actúa como un amortiguador y, a la vez, permite que la columna se doble y gire. Tiene dos partes: el **núcleo pulposo**, un centro gelatinoso muy rico en agua que reparte las presiones, y el **anillo fibroso**, una serie de láminas de fibras dispuestas en capas, como las de una cebolla, que rodean y contienen el núcleo. Cuando el anillo se fisura y el núcleo se desplaza aparecen la protrusión y la [hernia discal](hernia-disco-incipiente). El disco del adulto es la estructura sin vasos sanguíneos más grande del cuerpo: se nutre por difusión a través de las placas de cartílago que lo unen a las vértebras.",
+     "La **microbiota intestinal** es el conjunto de microorganismos, sobre todo bacterias, que viven en el intestino. Se calcula que una persona adulta alberga unos **38 billones de bacterias**, una cifra del mismo orden que el número de células humanas del cuerpo (Sender et al., PLoS Biology, 2016). Esta comunidad participa en la digestión, produce sustancias que regulan la inflamación y entrena al sistema inmunitario. Se habla de **disbiosis** cuando el equilibrio de esa comunidad se altera: disminuyen las bacterias beneficiosas, proliferan otras con potencial inflamatorio o se pierde diversidad.",
+     "Durante décadas se consideró que el disco sano era **estéril**. En 2020, un equipo indio analizó con secuenciación genética (16S ARNr) 24 discos lumbares: 8 sanos, procedentes de donantes de órganos, 8 herniados y 8 degenerados. Detectaron en total 424 especies bacterianas, y **355 de ellas en los discos sanos**. En los discos normales abundaban bacterias consideradas protectoras, mientras que en los degenerados y herniados predominaban posibles patógenos (Rajasekaran et al., European Spine Journal, 2020). Los propios autores afirman que el hallazgo pone en duda la idea de un disco sano estéril. Conviene matizar que estudios posteriores con técnicas parecidas no siempre han obtenido las mismas bacterias, de modo que es un campo todavía en desarrollo.",
+     "¿Cómo podrían llegar bacterias o sus productos a un disco que no tiene vasos? Una revisión publicada en 2022 propuso el concepto de **eje intestino–disco** y describió tres mecanismos posibles (Li et al., European Spine Journal, 2022). El primero es el **paso de bacterias** a través de una barrera intestinal debilitada hasta la sangre y, desde ahí, hasta el disco. El segundo es la **regulación del sistema inmunitario**: una microbiota alterada mantiene una inflamación de bajo grado en todo el organismo que también alcanza el disco. El tercero son los **nutrientes y metabolitos** que la microbiota produce o ayuda a absorber y que difunden hasta el interior del disco.",
+     "En este punto entra en juego la llamada **barrera hemato-discal**. Como el núcleo pulposo apenas tiene contacto con la sangre, el sistema inmunitario prácticamente no lo vigila: es un tejido «inmunoprivilegiado». Eso protege al disco en condiciones normales, pero también significa que, si algún microorganismo o una molécula inflamatoria consigue entrar, por ejemplo a través de pequeñas lesiones de la placa vertebral, puede permanecer allí con poca resistencia y favorecer un ambiente inflamatorio que acelere la **degeneración discal**. Es una hipótesis plausible, pero todavía no se ha demostrado en personas que la disbiosis cause la degeneración del disco.",
+     "También hay datos de asociación entre la microbiota y el dolor de espalda en sí. En un estudio australiano con 36 adultos con sobrepeso u obesidad, las 14 personas que referían dolor de espalda tenían una composición de la microbiota distinta de las 22 que no lo tenían, con más abundancia del género *Adlercreutzia*, a pesar de que su dieta y su actividad física eran similares. Ese género se relacionaba además con el índice de masa corporal y con marcadores inflamatorios (Dekker Nitert et al., Frontiers in Endocrinology, 2020). Es un estudio pequeño y transversal: muestra una **asociación**, no que la microbiota provoque el dolor.",
+     "La lectura prudente de todo esto es que el intestino podría ser una pieza más en el dolor de espalda persistente, sobre todo cuando coinciden **inflamación de bajo grado**, problemas digestivos, sobrepeso o estrés mantenido. No se trata de explicar todos los dolores de espalda por la microbiota, sino de no dejar fuera del razonamiento clínico un sistema que influye en la inflamación de todo el cuerpo. Desde la visión osteopática, que considera el cuerpo como un conjunto, encaja con la idea de valorar a la vez la columna, las vísceras y el estilo de vida."
+    ],
+    "list_title": "Prevención en tres ejes que se refuerzan entre sí:",
+    "list": [
+     "**Alimentación:** una dieta variada, rica en fibra de verduras, legumbres, fruta y cereales integrales, con alimentos fermentados si se toleran, alimenta a las bacterias beneficiosas; limitar los ultraprocesados, el exceso de azúcar y el alcohol reduce los estímulos inflamatorios.",
+     "**Terapia manual y movimiento:** mantener la movilidad de la columna, la pelvis y el abdomen, y moverse a diario, favorece la nutrición del disco por difusión y el buen funcionamiento digestivo; el ejercicio regular también se asocia a una microbiota más diversa.",
+     "**Gestión del estrés:** el estrés crónico altera la barrera intestinal y la microbiota a través del eje intestino–cerebro y, a la vez, aumenta la tensión muscular y la sensibilidad al dolor; dormir bien, respirar con calma y reservar tiempo para el descanso actúan sobre los dos extremos del eje.",
+     "Consultar con el médico si el dolor de espalda se acompaña de fiebre, pérdida de peso sin causa, sangre en las heces o cambios persistentes del ritmo intestinal."
+    ]
+   },
+   {
+    "h2": "El dolor también es una señal: intestino y sistema nervioso",
+    "paras": [
+     "Solemos pensar en el dolor solo como un problema que hay que hacer desaparecer. Pero el dolor es, ante todo, una **señal de alarma** del sistema nervioso, y en el intestino esa señal parece cumplir además una función protectora directa. Las neuronas que detectan estímulos dañinos se llaman **nociceptores**: avisan al cerebro de que algo va mal, pero también liberan sustancias en el propio tejido que se comunican con las células vecinas.",
+     "Un estudio de la Universidad de Harvard publicado en la revista *Cell* en 2022 lo mostró en **ratones**. Los nociceptores del intestino están situados junto a las **células caliciformes**, las encargadas de fabricar el **moco** que recubre y protege la pared intestinal. Cuando se activan, liberan un mensajero llamado **CGRP** (péptido relacionado con el gen de la calcitonina), que actúa sobre un receptor de las células caliciformes (RAMP1) y estimula la secreción de moco (Yang et al., Cell, 2022).",
+     "Los ratones a los que se eliminaron esos nociceptores tenían una capa de moco más fina, una microbiota alterada (**disbiosis**) y una colitis más grave cuando se les provocaba una inflamación intestinal. Al administrarles CGRP, quedaban de nuevo protegidos. Además, las propias bacterias intestinales y algunos estímulos de la dieta activaban esa liberación de CGRP. Es decir, en este modelo animal, las neuronas del dolor forman parte del sistema de defensa de la barrera intestinal.",
+     "Hay que recordar que se trata de un **estudio en animales** y que no puede trasladarse sin más a las personas. Aun así, aporta una idea útil para entender el dolor digestivo y el dolor en general: el dolor no es solo un síntoma molesto, sino información sobre lo que ocurre en el cuerpo. Por eso, además del alivio que el médico considere oportuno con la medicación, conviene **buscar el origen** del dolor y cuidar los factores que mantienen la barrera intestinal en buen estado.",
+     "Este hallazgo encaja con lo que se sabe del **eje intestino–sistema nervioso** y del [nervio vago](nervio-vago): el intestino y el sistema nervioso están en diálogo constante, en ambas direcciones. El estrés, el sueño, la alimentación y la microbiota influyen en ese diálogo, y por eso las molestias digestivas, el dolor y el estado de ánimo se relacionan con tanta frecuencia."
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "t": "Sender R, Fuchs S, Milo R, 2016. «Revised estimates for the number of human and bacteria cells in the body». PLoS Biology 14(8):e1002533.",
+    "doi": "10.1371/journal.pbio.1002533"
+   },
+   {
+    "t": "Rajasekaran S, Soundararajan DCR, Tangavel C, et al., 2020. «Human intervertebral discs harbour a unique microbiome and dysbiosis determines health and disease». European Spine Journal 29(7):1621-1640.",
+    "doi": "10.1007/s00586-020-06446-z"
+   },
+   {
+    "t": "Li W, Lai K, Chopra N, Zheng Z, Das A, Diwan AD, 2022. «Gut-disc axis: a cause of intervertebral disc degeneration and low back pain?». European Spine Journal 31(4):917-925.",
+    "doi": "10.1007/s00586-022-07152-8"
+   },
+   {
+    "t": "Dekker Nitert M, Mousa A, Barrett HL, Naderpoor N, de Courten B, 2020. «Altered gut microbiota composition is associated with back pain in overweight and obese individuals». Frontiers in Endocrinology 11:605.",
+    "doi": "10.3389/fendo.2020.00605"
+   },
+   {
+    "t": "Yang D, Jacobson A, Meerschaert KA, et al. (Chiu IM), 2022. «Nociceptor neurons direct goblet cells via a CGRP-RAMP1 axis to drive mucus production and gut barrier protection». Cell 185(22):4190-4205.",
+    "doi": "10.1016/j.cell.2022.09.024"
+   }
+  ],
+  "evidence_items": [
+   [
+    "Microbiota (PLoS Biology)",
+    "Un adulto de referencia alberga unos 38 billones de bacterias, un número del mismo orden que el de sus células humanas (Sender et al., 2016)."
+   ],
+   [
+    "Disco no estéril (Eur Spine J)",
+    "En 24 discos lumbares se detectaron 424 especies bacterianas, 355 de ellas en discos sanos (Rajasekaran et al., 2020)."
+   ],
+   [
+    "Eje intestino–disco (Eur Spine J)",
+    "Una revisión de 2022 propone 3 mecanismos por los que la microbiota podría influir en la degeneración discal: paso de bacterias, regulación inmunitaria y metabolitos (Li et al., 2022)."
+   ],
+   [
+    "Asociación con dolor de espalda (Front Endocrinol)",
+    "En 36 adultos con sobrepeso, los 14 con dolor de espalda tenían una microbiota diferente, con más Adlercreutzia, que los 22 sin dolor (Dekker Nitert et al., 2020)."
+   ],
+   [
+    "Dolor y barrera intestinal (Cell, ratones)",
+    "En ratones, los nociceptores liberan CGRP que estimula el moco protector; sin ellos aparecen disbiosis y colitis más grave (Yang et al., 2022)."
+   ]
+  ]
+ },
+ "osteopatia-sarria-sant-gervasi": {
+  "sections": [
+   {
+    "h2": "Dolor crónico y osteopatía",
+    "paras": [
+     "Se habla de **dolor crónico** cuando el dolor persiste o reaparece durante **más de tres meses**. La clasificación de la Asociación Internacional para el Estudio del Dolor, incorporada a la CIE-11 de la OMS, distingue dos grandes situaciones: el dolor crónico **secundario**, que es síntoma de otra enfermedad, como la artrosis, y el dolor crónico **primario**, como la fibromialgia o la lumbalgia inespecífica, en el que el dolor se considera un problema de salud en sí mismo (Treede et al., Pain, 2019). Este matiz es importante: cuando el dolor dura meses, ya no basta con buscar una lesión en el lugar donde duele.",
+     "Una de las claves para entenderlo es la **sensibilización central**. Cuando los receptores del dolor envían señales de forma repetida, las neuronas de la médula espinal y del cerebro pueden volverse más excitables y amplificar la información que reciben. El resultado es un sistema de alarma «con el volumen alto»: estímulos que antes no dolían, como un roce o una presión ligera, empiezan a doler; el dolor se extiende a zonas más amplias y tarda más en calmarse. Esta forma de plasticidad del sistema nervioso se ha descrito en la fibromialgia, la artrosis, el dolor musculoesquelético generalizado, la cefalea, los trastornos de la articulación temporomandibular y el dolor visceral (Woolf, Pain, 2011).",
+     "El dolor crónico también deja huella en el **cerebro**. Las técnicas de imagen muestran cambios en la actividad de las áreas que procesan el dolor, la llamada **«matriz del dolor»**: el tálamo, la ínsula, la corteza cingulada, la corteza somatosensorial y la prefrontal. Mediante **espectroscopia por resonancia magnética** se pueden medir además los **neurometabolitos**, sustancias que reflejan el funcionamiento de las neuronas, como el N-acetilaspartato, la colina o el glutamato, y en personas con lumbalgia crónica se han descrito alteraciones en esas regiones. Nada de esto significa que el dolor sea «imaginario»: es real y tiene una base biológica en el propio sistema nervioso.",
+     "La buena noticia es que esos cambios no son necesariamente permanentes, y que el tratamiento manual no actúa solo sobre el músculo o la articulación. Un ensayo clínico iraní con 25 personas con lumbalgia crónica inespecífica comparó la manipulación lumbar y sacroilíaca con una intervención simulada. Tras el tratamiento, el grupo de manipulación mostró aumentos significativos de N-acetilaspartato en el tálamo, la ínsula y la corteza prefrontal dorsolateral, y de colina en el tálamo, la ínsula y la corteza somatosensorial, frente al grupo simulado, en el que no hubo cambios. Los autores concluyen que la manipulación influye en el sistema nervioso central y que ello se acompaña de menos dolor y discapacidad (Didehdar et al., Irish Journal of Medical Science, 2020). Es un estudio pequeño, que debe confirmarse con muestras mayores, pero apunta en la misma dirección que otros trabajos.",
+     "Los modelos actuales sobre cómo actúa la terapia manual coinciden en esa idea. El estímulo mecánico de las manos desencadena respuestas en tres niveles: en el **tejido** donde se aplica, en la **médula espinal**, donde modula la transmisión de las señales de dolor, y en el **cerebro**, donde activa sistemas que lo inhiben (Bialosky et al., Manual Therapy, 2009). La revisión posterior de este modelo añade que el resultado depende también de la interacción entre el paciente, el terapeuta y el contexto, como las expectativas y la confianza, y que los efectos de cada técnica por separado son modestos, por lo que conviene integrarlas en un plan con ejercicio y educación (Bialosky et al., JOSPT, 2018).",
+     "Ya en 1965 Ronald Melzack y Patrick Wall propusieron la **teoría de la compuerta**: en la médula espinal existe un mecanismo que regula cuánta señal de dolor sube al cerebro, según el equilibrio entre las fibras nerviosas finas, que transmiten el dolor, y las gruesas, que transmiten tacto, presión y movimiento, además del control que el propio cerebro ejerce desde arriba (Melzack y Wall, Science, 1965). Por eso frotarse un golpe alivia, y por eso el tacto, la presión y la movilización suave pueden «cerrar la compuerta» al dolor. Es una de las bases conceptuales de la terapia manual.",
+     "En cuanto a los resultados clínicos, en la lumbalgia crónica la manipulación vertebral produce efectos **similares** a los de otras terapias recomendadas sobre el dolor y una mejora **pequeña pero clínicamente relevante** de la función, según un metaanálisis de 47 ensayos con más de 9.000 participantes (Rubinstein et al., BMJ, 2019). En un ensayo con 455 personas con lumbalgia crónica, el tratamiento manual osteopático aumentó la probabilidad de una mejoría moderada del dolor a las 12 semanas frente a un tratamiento simulado (RR 1,38) y los pacientes usaron menos fármacos con receta (Licciardone et al., Annals of Family Medicine, 2013).",
+     "El osteópata trabaja con **todo el cuerpo**, no solo con la columna. En el dolor crónico eso permite valorar a la vez las zonas que duelen, las compensaciones que el cuerpo ha ido acumulando, la respiración, la tensión visceral y el nivel de estrés, y acompañar el tratamiento manual con **educación sobre el dolor** y un **ejercicio progresivo**, que son las dos herramientas que más recomiendan las guías. Entender por qué el sistema nervioso se ha sensibilizado ayuda a perder el miedo al movimiento, que es uno de los factores que más mantienen el dolor."
+    ],
+    "list_title": "Señales de que el sistema nervioso puede estar sensibilizado:",
+    "list": [
+     "El dolor dura más de tres meses o reaparece una y otra vez",
+     "Duele más de lo que cabría esperar por la lesión, o duele sin que las pruebas encuentren una causa clara",
+     "El dolor se extiende a zonas cada vez más amplias o cambia de sitio",
+     "Roces o presiones ligeras resultan molestos",
+     "Empeora con el estrés, el cansancio o el mal sueño",
+     "Se acompaña de fatiga, dificultad de concentración o ánimo bajo"
+    ]
+   },
+   {
+    "h2": "Dolor en brazos y piernas que nace en la columna",
+    "paras": [
+     "Cuando duele el hombro, la rodilla o la muñeca, lo natural es pensar que el problema está en el hombro, la rodilla o la muñeca. Muchas veces es así, pero no siempre. La columna vertebral aloja la médula espinal y de ella salen las **raíces nerviosas** que llevan la sensibilidad y las órdenes motoras a brazos y piernas. Si una de esas raíces, o las articulaciones y los discos que la rodean, se irritan, el cerebro puede percibir el dolor lejos de la columna, en el territorio que ese nervio inerva. Es lo que se llama **dolor referido** o irradiado.",
+     "Las raíces cervicales bajas, de **C5 a T1**, forman el plexo braquial y dan la sensibilidad y la fuerza del hombro, el brazo, el antebrazo y la mano. Las raíces lumbares y sacras, de **L4 a S1** principalmente, forman el nervio ciático y otros nervios de la pierna, y llegan a la cadera, el muslo, la rodilla, la pierna y el pie. Por eso una irritación en el cuello puede sentirse como un dolor de hombro o un hormigueo en los dedos, y una irritación lumbar puede notarse en la cadera, la rodilla o el talón, a veces **sin dolor de espalda**.",
+     "¿Con qué frecuencia ocurre? El estudio **EXPOSS** (*Extremity Pain of Spinal Source*), publicado en 2020 en el *Journal of Manual & Manipulative Therapy*, lo investigó en centros de rehabilitación de varios países. Incluyó a **369 pacientes** con dolor **aislado** en un brazo o una pierna que, además, estaban convencidos de que su dolor **no** venía de la columna. Se les valoró con un proceso estandarizado de diferenciación mecánica (método McKenzie) que comprueba si el dolor del miembro cambia al mover y cargar la columna (Rosedale et al., 2020).",
+     "El resultado sorprendió: en el **43,5 %** de los participantes el dolor tenía un **origen vertebral**, es decir, respondía a la intervención sobre la columna. Además, ese grupo evolucionó **mejor en todos los indicadores** (dolor, función y valoración global del cambio) que el grupo cuyo dolor era realmente local y se trató solo en la extremidad. Los autores concluyen que la columna es una fuente frecuente de dolor en las extremidades y que conviene explorarla siempre para asegurarse de tratar el origen del problema.",
+     "Las cifras variaron según la región. El origen vertebral fue más frecuente cuanto más cerca del tronco estaba el dolor, pero no fue raro en ninguna zona. Es importante leerlas con su matiz: proceden de un único estudio, con una clasificación hecha con un método concreto de valoración mecánica y no con osteopatía, y con un número de pacientes pequeño en algunas regiones. Aun así, el mensaje es claro y coincide con la experiencia clínica.",
+     "Por eso el osteópata **valora siempre la columna y el conjunto del cuerpo**, aunque el paciente consulte por el codo o por el pie. La osteopatía parte de una visión global: además de la articulación que duele, explora la región vertebral de la que salen sus nervios, la movilidad de las articulaciones vecinas, las cadenas musculares y fasciales que las conectan y las compensaciones posturales. Tratar solo la zona dolorosa cuando el origen está en otra parte explica muchos casos de dolor que «no termina de irse» o que vuelve una y otra vez.",
+     "Conviene recordar que un dolor que baja por el brazo o la pierna con **pérdida de fuerza**, **hormigueo o adormecimiento progresivos**, o alteraciones del control de la orina o las heces requiere valoración médica sin demora. En la mayoría de los casos, sin embargo, se trata de una irritación mecánica que responde bien a un tratamiento conservador. Puede leer más en las páginas de [cervicalgia](cervicalgia-dolor-cuello), [lumbalgia](lumbalgia-dolor-lumbar) y [ciática](ciatica)."
+    ],
+    "list_title": "Porcentaje de dolor de origen vertebral por región en el estudio EXPOSS:",
+    "list": [
+     "Brazo y antebrazo: 83,3 % (10 de 12 pacientes)",
+     "Muslo y pierna: 72,2 % (13 de 18)",
+     "Cadera: 71,0 % (22 de 31)",
+     "Hombro: 47,6 % (40 de 84)",
+     "Codo: 44,0 % (11 de 25)",
+     "Mano y muñeca: 38,5 % (10 de 26)",
+     "Tobillo y pie: 29,2 % (14 de 48)",
+     "Rodilla: 25,6 % (20 de 78)"
+    ]
+   },
+   {
+    "h2": "Cuando el dolor de espalda viene de una víscera",
+    "paras": [
+     "El osteópata no mira solo la columna. Los órganos del tórax, el abdomen y la pelvis están unidos a ella por ligamentos y fascias, y comparten con ella los mismos segmentos de la médula espinal. Las fibras sensitivas de las vísceras **convergen** en la médula sobre las mismas neuronas que reciben la información de la piel y los músculos, y por eso el cerebro puede atribuir a la espalda un dolor que nace en un órgano: es el **dolor referido visceral**, un fenómeno fisiológico bien establecido (Gebhart y Bielefeldt, Comprehensive Physiology, 2016; Cerveró, Revista Dor, 2014).",
+     "Algunos ejemplos clásicos: el hígado, la vesícula y el diafragma pueden referir dolor al **hombro derecho** a través del nervio frénico (raíces C3 a C5); el estómago, el páncreas y el corazón, a la **zona dorsal**; el riñón y el colon, a la **zona lumbar**; y el útero y los órganos pélvicos, al **sacro**. Jean-Pierre Barral, creador de la osteopatía visceral, añade en su modelo que un órgano con poca movilidad, por adherencias, cicatrices o inflamaciones pasadas, crea líneas de tensión que el cuerpo compensa y que pueden acabar en la columna.",
+     "Por eso la historia clínica pregunta por la digestión, la respiración, el ciclo menstrual y las operaciones previas, y la exploración incluye, cuando procede, la palpación del abdomen. Y por eso también un dolor de espalda con fiebre, dolor torácico, sangre en la orina o las heces, pérdida de peso o un dolor que no cambia con el movimiento requiere primero valoración médica. Puede leer más en [osteopatía visceral](osteopatia-visceral-barcelona)."
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "t": "Treede RD, Rief W, Barke A, et al., 2019. «Chronic pain as a symptom or a disease: the IASP Classification of Chronic Pain for the International Classification of Diseases (ICD-11)». Pain 160(1):19-27.",
+    "doi": "10.1097/j.pain.0000000000001384"
+   },
+   {
+    "t": "Woolf CJ, 2011. «Central sensitization: implications for the diagnosis and treatment of pain». Pain 152(3 Suppl):S2-S15.",
+    "doi": "10.1016/j.pain.2010.09.030"
+   },
+   {
+    "t": "Didehdar D, Kamali F, Kordi Yoosefinejad A, Lotfi M, 2020. «The effect of spinal manipulation on brain neurometabolites in chronic nonspecific low back pain patients: a randomized clinical trial». Irish Journal of Medical Science 189(2):543-550.",
+    "doi": "10.1007/s11845-019-02140-2"
+   },
+   {
+    "t": "Bialosky JE, Bishop MD, Price DD, Robinson ME, George SZ, 2009. «The mechanisms of manual therapy in the treatment of musculoskeletal pain: a comprehensive model». Manual Therapy 14(5):531-538.",
+    "doi": "10.1016/j.math.2008.09.001"
+   },
+   {
+    "t": "Bialosky JE, Beneciuk JM, Bishop MD, et al., 2018. «Unraveling the mechanisms of manual therapy: modeling an approach». Journal of Orthopaedic & Sports Physical Therapy 48(1):8-18.",
+    "doi": "10.2519/jospt.2018.7476"
+   },
+   {
+    "t": "Melzack R, Wall PD, 1965. «Pain mechanisms: a new theory». Science 150(3699):971-979.",
+    "doi": "10.1126/science.150.3699.971"
+   },
+   {
+    "t": "Rubinstein SM, de Zoete A, van Middelkoop M, et al., 2019. «Benefits and harms of spinal manipulative therapy for the treatment of chronic low back pain: systematic review and meta-analysis of randomised controlled trials». BMJ 364:l689.",
+    "doi": "10.1136/bmj.l689"
+   },
+   {
+    "t": "Licciardone JC, Minotti DE, Gatchel RJ, Kearns CM, Singh KP, 2013. «Osteopathic manual treatment and ultrasound therapy for chronic low back pain: a randomized controlled trial». Annals of Family Medicine 11(2):122-129.",
+    "doi": "10.1370/afm.1468"
+   },
+   {
+    "t": "Rosedale R, Rastogi R, Kidd J, Lynch G, Supp G, Robbins SM, 2020. «A study exploring the prevalence of Extremity Pain of Spinal Source (EXPOSS)». Journal of Manual & Manipulative Therapy 28(4):222-230.",
+    "doi": "10.1080/10669817.2019.1661706"
+   },
+   {
+    "t": "Gebhart GF, Bielefeldt K, 2016. «Physiology of visceral pain». Comprehensive Physiology 6(4):1609-1633.",
+    "doi": "10.1002/cphy.c150049"
+   },
+   {
+    "t": "Cerveró F, 2014. «Pathophysiology of visceral pain». Revista Dor 15(2):133-138.",
+    "doi": "10.5935/1806-0013.20140032"
+   }
+  ],
+  "evidence_items": [
+   [
+    "Definición (Pain, IASP/CIE-11)",
+    "El dolor crónico es el que persiste o reaparece durante más de 3 meses (Treede et al., 2019)."
+   ],
+   [
+    "Neurometabolitos (Ir J Med Sci)",
+    "En 25 personas con lumbalgia crónica, la manipulación aumentó el N-acetilaspartato en tálamo, ínsula y corteza prefrontal frente a la simulación (Didehdar et al., 2020)."
+   ],
+   [
+    "Manipulación (BMJ)",
+    "En 47 ensayos con 9.211 participantes, la manipulación vertebral tuvo efectos similares a otras terapias recomendadas y mejoró la función de forma pequeña pero relevante (Rubinstein et al., 2019)."
+   ],
+   [
+    "Osteopatía (Ann Fam Med)",
+    "En 455 personas con lumbalgia crónica, el tratamiento osteopático aumentó la probabilidad de mejoría moderada del dolor a 12 semanas (RR 1,38) (Licciardone et al., 2013)."
+   ],
+   [
+    "Origen vertebral (J Man Manip Ther)",
+    "En 369 pacientes con dolor aislado de una extremidad, el 43,5 % tenía un origen en la columna y evolucionó mejor al tratarla (Rosedale et al., 2020)."
+   ],
+   [
+    "Fisiología del dolor visceral (Compr Physiol)",
+    "La inervación visceral es escasa y doble, y converge en la médula con la somática; por eso el dolor visceral es difuso y se refiere a la piel y los músculos (Gebhart y Bielefeldt, 2016)."
+   ]
+  ]
+ },
+ "osteopatia-visceral-barcelona": {
+  "sections": [
+   {
+    "h2": "Cuando el dolor de espalda viene de una víscera",
+    "paras": [
+     "No todo dolor de espalda nace en la espalda. Delante de la columna se sitúan los órganos del tórax, el abdomen y la pelvis, y todos ellos están unidos a ella por ligamentos, membranas y fascias, y comparten con ella los mismos segmentos de la médula espinal. Por eso un órgano irritado puede manifestarse como dolor en el cuello, entre los omóplatos, en la zona lumbar o en el sacro. Es lo que se conoce como **dolor referido visceral**, y explica que algunas personas con dolor de espalda persistente mejoren cuando se tiene en cuenta lo que ocurre «por delante».",
+     "La fisiología lo explica con claridad. Los órganos tienen una inervación **escasa y doble**: pocas fibras sensitivas, que viajan junto con los nervios del sistema nervioso autónomo y llegan a la médula espinal por varios segmentos a la vez. Por eso el dolor visceral es **difuso**, mal localizado y se acompaña a menudo de náuseas, sudoración o malestar general. Además, en la médula esas fibras **convergen** sobre las mismas neuronas que reciben la información de la piel y los músculos de ese segmento: es la **convergencia viscerosomática**. El cerebro, acostumbrado a recibir señales de la superficie del cuerpo, atribuye el dolor a la zona de piel o músculo que corresponde a ese segmento (Gebhart y Bielefeldt, Comprehensive Physiology, 2016).",
+     "Con el tiempo, un dolor visceral mantenido puede producir **sensibilización periférica y central**: el órgano se vuelve más sensible a estímulos normales, como la distensión, y las neuronas de la médula amplifican las señales. A ello se suman reflejos que aumentan la tensión de los músculos de la pared y de la espalda del mismo segmento. El dolor visceral tiene mecanismos propios, distintos de los del dolor muscular o articular, en los que influyen la motilidad y la secreción del órgano y la hipersensibilidad central, como ocurre en el síndrome del intestino irritable (Cerveró, Revista Dor, 2014).",
+     "La osteopatía visceral desarrollada por **Jean-Pierre Barral** parte de esta relación entre órganos y columna. Barral trabajaba como fisioterapeuta en el hospital de enfermedades pulmonares de Grenoble y, junto al neumólogo y disector Dr. Arnaud, estudió en cadáveres los patrones de tensión de los tejidos. Según relata, en una disección observó diferencias en la columna cervical del mismo lado en que el pulmón presentaba una retracción: fue su primera pista de que un órgano podía crear **líneas de tensión** que alcanzaban la columna. Más tarde, un paciente al que trataba con manipulaciones vertebrales le contó que su dolor de espalda había mejorado después de que «un anciano le empujara algo en el abdomen», y Barral empezó a explorar la movilidad de las vísceras.",
+     "En su modelo, cada órgano necesita **moverse** para funcionar bien: se desliza sobre los órganos vecinos, sobre los músculos, las costillas y la columna con cada respiración, unas 24.000 veces al día según Barral, y con cada latido del corazón. Barral distingue la **movilidad**, que es la capacidad del órgano de desplazarse libremente en su entorno anatómico, de la **motilidad**, un movimiento propio del tejido. Cuando una adherencia, una cicatriz, una inflamación pasada o un traumatismo reducen esa movilidad, el órgano crea un punto fijo alrededor del cual el resto del cuerpo debe compensar, y esas compensaciones, repetidas miles de veces al día, pueden acabar en la columna. «La vida y el movimiento están entrelazados», resume Barral.",
+     "A partir de la anatomía y de la fisiología del dolor referido, y de las relaciones que describe Barral, puede trazarse un mapa orientativo por regiones. Conviene leerlo con su matiz: los patrones de dolor referido son hechos fisiológicos bien establecidos, mientras que las relaciones mecánicas entre órganos concretos y vértebras concretas forman parte del **modelo de Barral** y de la experiencia clínica, y no se han demostrado en estudios controlados.",
+     "**Cuello y hombro derecho.** El **nervio frénico**, que nace de las raíces cervicales **C3 a C5**, inerva el diafragma y también la pleura, el pericardio y la cápsula del hígado. Por eso una irritación del diafragma, del hígado o de la **vesícula biliar** puede sentirse en el hombro derecho o en la base del cuello, en el territorio cutáneo de C4: es un dolor referido clásico en medicina. En el modelo de Barral, la cúpula de la pleura, que envuelve el vértice del pulmón, está suspendida de la columna cervical baja y dorsal alta (C6, C7 y T1) por pequeños ligamentos, y el pericardio se une a esa misma zona; de ahí que se valoren el **pulmón, la pleura y el corazón** en cuellos y hombros rígidos que no mejoran, como en la observación fundacional de Barral.",
+     "**Región dorsal.** El **estómago** refiere dolor a la zona epigástrica y, a menudo, entre los omóplatos; el **páncreas** produce un dolor profundo que atraviesa hacia la espalda, a la altura de la zona dorsal baja; la vesícula puede referir bajo la escápula derecha, y el **corazón**, a la cara interna del brazo izquierdo, al pecho, al cuello, a la mandíbula y a la zona interescapular. Por eso un dolor dorsal que aparece con el esfuerzo, con la digestión o en ayunas merece siempre atención médica antes que cualquier otro enfoque.",
+     "**Región lumbar.** El **riñón** se apoya sobre el músculo psoas y el cuadrado lumbar, y su dolor se nota en el flanco y la zona lumbar, a veces hacia la ingle. Según Barral, un riñón con poca movilidad sobre el psoas podría irritar alguno de los nervios que pasan por esa zona, como el ilioinguinal. El **colon** y el intestino delgado también refieren dolor a la zona lumbar baja; en el modelo de Barral, la raíz del mesenterio, que cruza por delante de la tercera y cuarta vértebras lumbares, puede limitar la movilidad de ese tramo de la columna, y el ciego y el colon sigmoide se relacionan con las articulaciones sacroilíacas derecha e izquierda, respectivamente.",
+     "**Región lumbosacra y pelvis.** El **útero**, los ovarios, la vejiga y el recto refieren dolor al sacro, a la zona lumbar baja y a la parte baja del abdomen. Por eso el dolor lumbar que varía con el ciclo menstrual, que empeora con la menstruación o que se acompaña de molestias urinarias o intestinales orienta a un componente pélvico. Barral describe también la conexión fascial entre la vejiga y la cadera. Puede leer más en la página de [dolor pélvico](dolor-pelvico-barcelona).",
+     "**Cicatrices y adherencias.** Una apendicectomía, una cesárea, una laparoscopia o una inflamación abdominal previa pueden dejar **adherencias**, uniones fibrosas entre tejidos que normalmente se deslizan. En el modelo de Barral, esas adherencias crean puntos fijos que tiran del tejido circundante y modifican los ejes de movimiento; por ejemplo, una cicatriz de apendicectomía se relaciona con tensiones en la primera vértebra lumbar. Por eso en la historia clínica se pregunta siempre por las operaciones, las caídas y los golpes previos, aunque hayan pasado años. Puede ampliar información en [cicatrices y adherencias](cicatrices-adherencias).",
+     "En la práctica, la valoración combina la **historia clínica**, que busca relaciones entre el dolor y la digestión, la respiración, el ciclo menstrual o las cirugías previas, con la **escucha manual** descrita por Barral: una palpación suave que primero orienta hacia la región de mayor tensión (escucha general) y después explora con detalle los tejidos de esa zona (escucha local), diferenciando si la restricción está en una articulación, una fascia, un ligamento visceral o el propio órgano. Para Barral, el lugar del dolor es solo un dato dentro de una historia más amplia, y la columna, las vísceras y el cráneo forman parte del mismo cuerpo. Puede leer más en [manipulaciones neuroviscerales](manipulaciones-neuroviscerales)."
+    ],
+    "list_title": "Señales de alarma: consulte con su médico o acuda a urgencias si el dolor de espalda se acompaña de:",
+    "list": [
+     "Dolor en el pecho, el brazo izquierdo, el cuello o la mandíbula, sobre todo con el esfuerzo, con falta de aire o sudoración",
+     "Fiebre, escalofríos o malestar general",
+     "Dolor lumbar en el flanco con fiebre, sangre en la orina o dolor al orinar",
+     "Dolor abdominal intenso, vómitos persistentes o abdomen duro",
+     "Coloración amarilla de la piel o de los ojos, orina muy oscura o heces muy claras",
+     "Sangre en las heces, heces negras o cambios persistentes del ritmo intestinal",
+     "Pérdida de peso sin causa aparente",
+     "Sangrado vaginal anómalo o dolor pélvico intenso y repentino",
+     "Dolor que no cambia con el movimiento ni con la postura, o que despierta por la noche de forma constante"
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "t": "Gebhart GF, Bielefeldt K, 2016. «Physiology of visceral pain». Comprehensive Physiology 6(4):1609-1633.",
+    "doi": "10.1002/cphy.c150049"
+   },
+   {
+    "t": "Cerveró F, 2014. «Pathophysiology of visceral pain». Revista Dor 15(2):133-138.",
+    "doi": "10.5935/1806-0013.20140032"
+   }
+  ],
+  "evidence_items": [
+   [
+    "Fisiología del dolor visceral (Compr Physiol)",
+    "La inervación visceral es escasa y doble, y converge en la médula con la somática; por eso el dolor visceral es difuso y se refiere a la piel y los músculos (Gebhart y Bielefeldt, 2016)."
+   ],
+   [
+    "Mecanismos propios (Rev Dor)",
+    "El dolor visceral depende de la motilidad y la secreción del órgano y de la hipersensibilidad central, también en síndromes funcionales como el intestino irritable (Cerveró, 2014)."
+   ]
+  ]
+ },
+ "hombro-doloroso": {
+  "sections": [
+   {
+    "h2": "¿Y si el dolor viene de la columna?",
+    "paras": [
+     "No todo dolor de hombro nace en el hombro. La articulación del hombro recibe sus nervios de la parte baja del cuello, sobre todo de la **raíz C5**, que da la sensibilidad de la cara externa del hombro y del brazo y la fuerza del deltoides y de parte del manguito rotador. Cuando una raíz cervical, una articulación facetaria o un disco del cuello se irritan, el dolor puede sentirse **en el hombro** y no en el cuello, y confundirse con una tendinopatía o una bursitis.",
+     "En 2020 se publicó el estudio **EXPOSS** (*Extremity Pain of Spinal Source*) en el *Journal of Manual & Manipulative Therapy*. Incluyó a **369 pacientes** de centros de rehabilitación de varios países con dolor **aislado** en un brazo o una pierna que estaban convencidos de que su dolor no tenía nada que ver con la espalda. Tras una valoración mecánica estandarizada (método McKenzie), en el **43,5 %** de los casos el dolor resultó tener un **origen vertebral**: cambiaba al mover y cargar la columna, y esos pacientes evolucionaron mejor cuando se trató la columna que los que tenían un problema puramente local (Rosedale et al., 2020). En el **hombro**, el porcentaje fue del **47,6 %**: casi la mitad de los 84 pacientes con dolor de hombro tenían en realidad un origen cervical o dorsal alto. Es una de las regiones en las que la columna pesa más.",
+     "Las raíces de **C5 a T1** forman el plexo braquial, que inerva todo el miembro superior: C5 el hombro y la cara externa del brazo, C6 el borde externo del antebrazo y el pulgar, C7 el dedo medio, C8 el meñique y T1 la cara interna del antebrazo. Un dolor de hombro que **baja por el brazo** más allá del codo, que se acompaña de **hormigueo** en los dedos o que cambia al girar o inclinar el cuello orienta a un origen cervical. También lo hace un hombro que duele sin que movimientos concretos del brazo lo reproduzcan con claridad.",
+     "Además, el hombro depende de la **columna dorsal** y de las **costillas**: si la parte alta de la espalda está rígida o encorvada, como ocurre con la [cabeza adelantada](cervicalgia-dolor-cuello), el omóplato pierde su recorrido y el espacio bajo el acromion se reduce al elevar el brazo. Por eso mejorar la movilidad dorsal suele formar parte del tratamiento de un hombro doloroso.",
+     "Desde la visión osteopática también se tiene en cuenta el **dolor referido visceral**: el diafragma, el hígado y la vesícula pueden referir dolor al hombro derecho, y el corazón al hombro y brazo izquierdos. Un dolor de hombro que aparece con el esfuerzo y se acompaña de opresión en el pecho, falta de aire o sudoración necesita atención médica urgente.",
+     "Por todo ello, el osteópata explora siempre el **cuello, la columna dorsal y las costillas** además del propio hombro, y compara cómo responde el dolor a los movimientos de cada zona. Así se evita tratar durante meses un tendón cuando el origen está unos centímetros más arriba.",
+     "Puede ampliar información en la página de [cervicalgia](cervicalgia-dolor-cuello)."
+    ],
+    "list_title": "Pistas de que el dolor de hombro puede venir del cuello:",
+    "list": [
+     "El dolor baja por el brazo por debajo del codo",
+     "Hormigueo, adormecimiento o pérdida de fuerza en el brazo o la mano",
+     "El dolor cambia al mover el cuello o al mantener posturas con la cabeza adelantada",
+     "Rigidez de cuello o de la parte alta de la espalda asociada",
+     "El hombro no mejora con el tratamiento local"
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "t": "Rosedale R, Rastogi R, Kidd J, Lynch G, Supp G, Robbins SM, 2020. «A study exploring the prevalence of Extremity Pain of Spinal Source (EXPOSS)». Journal of Manual & Manipulative Therapy 28(4):222-230.",
+    "doi": "10.1080/10669817.2019.1661706"
+   }
+  ],
+  "evidence_items": [
+   [
+    "Origen cervical (J Man Manip Ther)",
+    "En el estudio EXPOSS, el 47,6 % de los dolores de hombro aislados tenían un origen vertebral (Rosedale et al., 2020)."
+   ]
+  ]
+ },
+ "tunel-carpiano": {
+  "sections": [
+   {
+    "h2": "¿Y si el dolor viene de la columna?",
+    "paras": [
+     "El hormigueo y el adormecimiento de los dedos son los síntomas típicos del síndrome del túnel carpiano, pero no son exclusivos de él. El **nervio mediano**, que se comprime en la muñeca, nace en el cuello, de las **raíces C6 a T1**, y recorre todo el brazo antes de llegar a la mano. Cualquier irritación a lo largo de ese trayecto, empezando por la columna cervical, puede producir síntomas muy parecidos en la mano.",
+     "En 2020 se publicó el estudio **EXPOSS** (*Extremity Pain of Spinal Source*) en el *Journal of Manual & Manipulative Therapy*. Incluyó a **369 pacientes** de centros de rehabilitación de varios países con dolor **aislado** en un brazo o una pierna que estaban convencidos de que su dolor no tenía nada que ver con la espalda. Tras una valoración mecánica estandarizada (método McKenzie), en el **43,5 %** de los casos el dolor resultó tener un **origen vertebral**: cambiaba al mover y cargar la columna, y esos pacientes evolucionaron mejor cuando se trató la columna que los que tenían un problema puramente local (Rosedale et al., 2020). En la **mano y la muñeca**, el porcentaje de origen vertebral fue del **38,5 %**, y en el **codo** del **44 %**. Más de un tercio de los dolores de mano y muñeca tenían, por tanto, un componente cervical.",
+     "Las raíces de **C5 a T1** inervan todo el miembro superior. La **C6** da la sensibilidad del pulgar y del borde externo del antebrazo, la **C7** la del dedo medio y la **C8** la del meñique y el anular. Una radiculopatía C6 o C7 puede imitar un túnel carpiano, y ambos problemas pueden **coexistir**: un nervio irritado en el cuello parece volverse más vulnerable a la compresión en la muñeca. Por eso el diagnóstico diferencial incluye siempre la exploración del cuello.",
+     "Hay detalles que orientan. En el túnel carpiano los síntomas suelen limitarse a los dedos pulgar, índice, medio y mitad del anular, empeoran por la noche y al flexionar la muñeca, y el meñique queda libre. Si el hormigueo afecta también al meñique, sube por el antebrazo, se acompaña de dolor de cuello o cambia al mover la cabeza, conviene pensar en un origen cervical o en otros puntos de compresión, como el codo o la salida torácica, entre la clavícula y la primera costilla.",
+     "El electromiograma ayuda a localizar dónde se comprime el nervio, pero la exploración clínica sigue siendo fundamental. El osteópata valora la muñeca y también el **codo, el hombro, la primera costilla y la columna cervical y dorsal alta**, es decir, todo el recorrido del nervio, para identificar los puntos que lo están irritando.",
+     "Las posturas mantenidas frente al ordenador, con la cabeza adelantada, los hombros cerrados y las muñecas en extensión, cargan a la vez el cuello y la muñeca. Por eso las recomendaciones ergonómicas y los ejercicios de movilidad cervical forman parte de la prevención del túnel carpiano.",
+     "Puede ampliar información en la página de [cervicalgia](cervicalgia-dolor-cuello)."
+    ],
+    "list_title": "Pistas de que el hormigueo de la mano puede venir del cuello:",
+    "list": [
+     "El hormigueo afecta también al meñique o sube por el antebrazo",
+     "Hay dolor o rigidez de cuello al mismo tiempo",
+     "Los síntomas cambian al girar o inclinar la cabeza",
+     "Pérdida de fuerza en el hombro o el brazo, no solo en la mano",
+     "Síntomas en las dos manos con dolor cervical"
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "t": "Rosedale R, Rastogi R, Kidd J, Lynch G, Supp G, Robbins SM, 2020. «A study exploring the prevalence of Extremity Pain of Spinal Source (EXPOSS)». Journal of Manual & Manipulative Therapy 28(4):222-230.",
+    "doi": "10.1080/10669817.2019.1661706"
+   }
+  ],
+  "evidence_items": [
+   [
+    "Origen cervical (J Man Manip Ther)",
+    "En el estudio EXPOSS, el 38,5 % de los dolores de mano y muñeca y el 44 % de los de codo tenían un origen vertebral (Rosedale et al., 2020)."
+   ]
+  ]
+ },
+ "fascitis-plantar": {
+  "sections": [
+   {
+    "h2": "¿Y si el dolor viene de la columna?",
+    "paras": [
+     "El dolor en la planta del pie y en el talón se atribuye casi siempre a la fascia plantar. Sin embargo, el pie recibe sus nervios de la parte baja de la espalda: la **raíz S1** da la sensibilidad del talón, la planta y el borde externo del pie, la **L5** la del dorso del pie y el dedo gordo, y la **L4** la de la cara interna de la pierna. Una irritación de estas raíces en la columna lumbar puede sentirse como un dolor de talón muy parecido al de la fascitis.",
+     "En 2020 se publicó el estudio **EXPOSS** (*Extremity Pain of Spinal Source*) en el *Journal of Manual & Manipulative Therapy*. Incluyó a **369 pacientes** de centros de rehabilitación de varios países con dolor **aislado** en un brazo o una pierna que estaban convencidos de que su dolor no tenía nada que ver con la espalda. Tras una valoración mecánica estandarizada (método McKenzie), en el **43,5 %** de los casos el dolor resultó tener un **origen vertebral**: cambiaba al mover y cargar la columna, y esos pacientes evolucionaron mejor cuando se trató la columna que los que tenían un problema puramente local (Rosedale et al., 2020). En el **tobillo y el pie**, el origen vertebral se encontró en el **29,2 %** de los casos: casi uno de cada tres. En la **rodilla** fue del 25,6 % y en la **cadera** del 71 %.",
+     "Las raíces de **L4 a S1** forman, junto con otras, el **nervio ciático** y sus ramas, que llegan hasta la planta del pie. Un dolor de talón que **quema** o se acompaña de **hormigueo**, que se extiende por la planta o la pantorrilla, que no tiene el típico dolor de los primeros pasos de la mañana o que coincide con molestias lumbares o en la nalga orienta a un origen lumbar o a un atrapamiento nervioso, como el del túnel tarsiano.",
+     "Además de la columna, el pie forma parte de una **cadena** que sube por la rodilla y la cadera hasta la pelvis. Cuando el pie se hunde hacia dentro en exceso, la tibia rota y la rodilla tiende a irse hacia dentro; si la cadera tiene poca fuerza, sobre todo el glúteo medio, la pelvis cae al apoyar y la carga sobre el pie y la fascia aumenta. Y al revés: una rodilla o una cadera rígidas o dolorosas cambian la forma de pisar. Por eso la valoración no termina en el tobillo.",
+     "La rigidez de la **pantorrilla** y del tendón de Aquiles, muy relacionada con la fascitis, también se vincula con esta cadena: la fascia plantar y el tendón de Aquiles están en continuidad a través del talón, y los músculos posteriores de la pierna dependen de la movilidad de la cadera y de la pelvis.",
+     "El osteópata explora el pie, pero también el **tobillo, la rodilla, la cadera, la pelvis y la columna lumbar**, y observa cómo se reparte el peso al caminar. Así se distingue una fascitis puramente local de un dolor de talón con componente lumbar o mecánico de toda la extremidad, y se trata cada parte.",
+     "Puede ampliar información en las páginas de [lumbalgia](lumbalgia-dolor-lumbar), [ciática](ciatica) y [dolor de rodilla](dolor-rodilla-condromalacia)."
+    ],
+    "list_title": "Pistas de que el dolor de pie puede tener un origen lumbar:",
+    "list": [
+     "Dolor de talón que quema, con hormigueo o adormecimiento",
+     "Dolor que sube por la pantorrilla o se acompaña de molestias en la nalga o la zona lumbar",
+     "Ausencia del dolor típico en los primeros pasos de la mañana",
+     "Síntomas que cambian al estar mucho rato sentado o al inclinarse hacia delante",
+     "Pérdida de fuerza al ponerse de puntillas o de talones"
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "t": "Rosedale R, Rastogi R, Kidd J, Lynch G, Supp G, Robbins SM, 2020. «A study exploring the prevalence of Extremity Pain of Spinal Source (EXPOSS)». Journal of Manual & Manipulative Therapy 28(4):222-230.",
+    "doi": "10.1080/10669817.2019.1661706"
+   }
+  ],
+  "evidence_items": [
+   [
+    "Origen lumbar (J Man Manip Ther)",
+    "En el estudio EXPOSS, el 29,2 % de los dolores aislados de tobillo y pie tenían un origen vertebral (Rosedale et al., 2020)."
+   ]
+  ]
+ },
+ "dolor-articular-miofascial": {
+  "sections": [
+   {
+    "h2": "¿Y si el dolor viene de la columna?",
+    "paras": [
+     "El dolor muscular y articular se localiza a menudo en una zona concreta: un nudo en el trapecio, un dolor en el codo, una molestia en la cadera. Pero el lugar donde duele no siempre es el lugar donde se origina el problema. Los **puntos gatillo miofasciales** refieren dolor a distancia, y algo parecido ocurre con la columna: una articulación o una raíz nerviosa irritada puede provocar dolor y tensión muscular en la extremidad.",
+     "En 2020 se publicó el estudio **EXPOSS** (*Extremity Pain of Spinal Source*) en el *Journal of Manual & Manipulative Therapy*. Incluyó a **369 pacientes** de centros de rehabilitación de varios países con dolor **aislado** en un brazo o una pierna que estaban convencidos de que su dolor no tenía nada que ver con la espalda. Tras una valoración mecánica estandarizada (método McKenzie), en el **43,5 %** de los casos el dolor resultó tener un **origen vertebral**: cambiaba al mover y cargar la columna, y esos pacientes evolucionaron mejor cuando se trató la columna que los que tenían un problema puramente local (Rosedale et al., 2020).",
+     "Las cifras variaron según la región: **83,3 %** en brazo y antebrazo, **72,2 %** en muslo y pierna, **71 %** en la cadera, **47,6 %** en el hombro, **44 %** en el codo, **38,5 %** en la mano y la muñeca, **29,2 %** en el tobillo y el pie y **25,6 %** en la rodilla. Son datos de un único estudio, con un método de valoración concreto y pocos pacientes en algunas regiones, pero el mensaje es consistente: la columna es una fuente frecuente de dolor en las extremidades.",
+     "La explicación está en la anatomía. Las raíces cervicales de **C5 a T1** forman el plexo braquial e inervan el hombro, el brazo, el codo, la muñeca y la mano. Las raíces lumbares y sacras de **L4 a S1** forman el nervio ciático y otros nervios de la pierna, que llegan a la cadera, la rodilla, la pierna y el pie. Si una de esas raíces, o las articulaciones y los discos que la rodean, se irritan, el dolor puede percibirse en el territorio del nervio y no en la espalda.",
+     "En el dolor miofascial la relación funciona en ambos sentidos. Una raíz nerviosa irritada aumenta la excitabilidad de los músculos que inerva, que se contraen de forma defensiva y desarrollan zonas sensibles; y esos músculos tensos, a su vez, alteran la mecánica de la columna. Por eso es frecuente que un trapecio o un glúteo que «no se sueltan» mejoren cuando se trabaja la región vertebral correspondiente.",
+     "El osteópata valora siempre la **columna y el conjunto del cuerpo**, además de los músculos y las articulaciones que duelen: busca las cadenas musculares y fasciales que unen unas zonas con otras, las compensaciones posturales y la región vertebral de la que salen los nervios de la zona dolorosa. Esta visión global evita tratar solo el síntoma.",
+     "Puede ampliar información en las páginas de [cervicalgia](cervicalgia-dolor-cuello), [lumbalgia](lumbalgia-dolor-lumbar) y [dolor persistente](dolor-persistente-cronico)."
+    ],
+    "list_title": "Pistas de que el dolor de una extremidad puede venir de la columna:",
+    "list": [
+     "El dolor se extiende a lo largo del brazo o de la pierna, más allá de la articulación",
+     "Hormigueo, adormecimiento, quemazón o pérdida de fuerza",
+     "Los síntomas cambian al mover el cuello o la espalda, o con posturas mantenidas",
+     "Hay rigidez o molestias en la columna, aunque sean leves",
+     "El dolor no mejora con el tratamiento de la zona que duele"
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "t": "Rosedale R, Rastogi R, Kidd J, Lynch G, Supp G, Robbins SM, 2020. «A study exploring the prevalence of Extremity Pain of Spinal Source (EXPOSS)». Journal of Manual & Manipulative Therapy 28(4):222-230.",
+    "doi": "10.1080/10669817.2019.1661706"
+   }
+  ],
+  "evidence_items": [
+   [
+    "Origen vertebral (J Man Manip Ther)",
+    "En 369 pacientes con dolor aislado de una extremidad, el 43,5 % tenía un origen en la columna y evolucionó mejor al tratarla (Rosedale et al., 2020)."
+   ]
+  ]
+ },
+ "lesiones-deportivas": {
+  "sections": [
+   {
+    "h2": "¿Y si el dolor viene de la columna?",
+    "paras": [
+     "En el deporte se tiende a pensar que cada lesión es local: un tirón en el isquiotibial, una tendinopatía en el hombro, un dolor en la rodilla del corredor. Muchas lo son. Pero la columna es el eje que transmite las fuerzas entre el tronco y las extremidades, y de ella salen los nervios que controlan los músculos. Un problema vertebral puede manifestarse como una «lesión» en el brazo o en la pierna.",
+     "En 2020 se publicó el estudio **EXPOSS** (*Extremity Pain of Spinal Source*) en el *Journal of Manual & Manipulative Therapy*. Incluyó a **369 pacientes** de centros de rehabilitación de varios países con dolor **aislado** en un brazo o una pierna que estaban convencidos de que su dolor no tenía nada que ver con la espalda. Tras una valoración mecánica estandarizada (método McKenzie), en el **43,5 %** de los casos el dolor resultó tener un **origen vertebral**: cambiaba al mover y cargar la columna, y esos pacientes evolucionaron mejor cuando se trató la columna que los que tenían un problema puramente local (Rosedale et al., 2020).",
+     "Las cifras variaron según la región: **83,3 %** en brazo y antebrazo, **72,2 %** en muslo y pierna, **71 %** en la cadera, **47,6 %** en el hombro, **44 %** en el codo, **38,5 %** en la mano y la muñeca, **29,2 %** en el tobillo y el pie y **25,6 %** en la rodilla. Son datos de un único estudio, con un método de valoración concreto y pocos pacientes en algunas regiones, pero el mensaje es consistente: la columna es una fuente frecuente de dolor en las extremidades.",
+     "La explicación está en la anatomía. Las raíces cervicales de **C5 a T1** forman el plexo braquial e inervan el hombro, el brazo, el codo, la muñeca y la mano. Las raíces lumbares y sacras de **L4 a S1** forman el nervio ciático y otros nervios de la pierna, que llegan a la cadera, la rodilla, la pierna y el pie. Si una de esas raíces, o las articulaciones y los discos que la rodean, se irritan, el dolor puede percibirse en el territorio del nervio y no en la espalda.",
+     "Hay ejemplos frecuentes en la práctica deportiva. Algunos **tirones de isquiotibiales** que recidivan una y otra vez se relacionan con una irritación de las raíces lumbares o con una tensión del nervio ciático; un dolor de **hombro** en nadadores, tenistas o jugadores de pádel puede tener un componente cervical o dorsal; y la rigidez de la columna dorsal limita la rotación del tronco, lo que obliga al hombro, el codo o la cadera a compensar.",
+     "Por eso, en una lesión deportiva que tarda en recuperarse o que reaparece, el osteópata explora siempre la **columna, la pelvis y las cadenas musculares** que unen la zona lesionada con el resto del cuerpo, además del propio tejido lesionado. Identificar un origen vertebral permite tratar la causa y planificar una vuelta al deporte más segura.",
+     "Puede ampliar información en las páginas de [lumbalgia](lumbalgia-dolor-lumbar), [cervicalgia](cervicalgia-dolor-cuello) y [ciática](ciatica)."
+    ],
+    "list_title": "Pistas de que el dolor de una extremidad puede venir de la columna:",
+    "list": [
+     "El dolor se extiende a lo largo del brazo o de la pierna, más allá de la articulación",
+     "Hormigueo, adormecimiento, quemazón o pérdida de fuerza",
+     "Los síntomas cambian al mover el cuello o la espalda, o con posturas mantenidas",
+     "Hay rigidez o molestias en la columna, aunque sean leves",
+     "El dolor no mejora con el tratamiento de la zona que duele"
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "t": "Rosedale R, Rastogi R, Kidd J, Lynch G, Supp G, Robbins SM, 2020. «A study exploring the prevalence of Extremity Pain of Spinal Source (EXPOSS)». Journal of Manual & Manipulative Therapy 28(4):222-230.",
+    "doi": "10.1080/10669817.2019.1661706"
+   }
+  ],
+  "evidence_items": [
+   [
+    "Origen vertebral (J Man Manip Ther)",
+    "En 369 pacientes con dolor aislado de una extremidad, el 43,5 % tenía un origen en la columna y evolucionó mejor al tratarla (Rosedale et al., 2020)."
+   ]
+  ]
+ },
+ "fibromialgia": {
+  "sections": [
+   {
+    "h2": "¿Le duele más cuando cambia el tiempo?",
+    "paras": [
+     "«Mañana llueve, me lo dicen las articulaciones». Es una de las frases que más se oyen en consulta, y muchas personas con fibromialgia la reconocen como propia: los días de frío húmedo, de viento o justo antes de una tormenta, el dolor y el cansancio parecen aumentar. No es una manía. La percepción es real, y la ciencia lleva décadas intentando explicar por qué ocurre, aunque con resultados que no siempre coinciden.",
+     "Una primera explicación es la **presión atmosférica**. Cuando baja la presión, como ocurre antes de la lluvia, los tejidos del cuerpo están sometidos a menos presión externa y pueden expandirse ligeramente. En músculos, tendones, cápsulas articulares o tejido cicatricial ya sensibles, ese pequeño cambio podría estimular las terminaciones nerviosas. En un sistema nervioso **sensibilizado**, como ocurre en la fibromialgia, estímulos mínimos pueden bastar para que se perciba más dolor.",
+     "La segunda es el **frío**. Con el frío, el cuerpo prioriza mantener el calor en los órganos vitales y reduce el flujo de sangre hacia las extremidades; los músculos se tensan, pierden flexibilidad y el líquido de las articulaciones se vuelve más viscoso, lo que aumenta la sensación de rigidez. En personas con fenómeno de Raynaud, las manos y los pies reaccionan aún más. Además, en invierno solemos movernos menos, y la falta de movimiento por sí sola empeora la rigidez y el dolor.",
+     "La tercera tiene que ver con el **estado de ánimo**. Los días grises, cortos y lluviosos se asocian a más cansancio, peor humor y, en algunas personas, dolor de cabeza. Y el malestar emocional amplifica la percepción del dolor a través de los mismos circuitos cerebrales que lo modulan. No significa que el dolor sea «psicológico», sino que el cerebro integra a la vez la información del cuerpo y el estado emocional.",
+     "¿Qué dicen los estudios? Algunos encuentran relación. En 200 personas con artrosis de rodilla, los cambios de presión atmosférica y el descenso de la temperatura se asociaron de forma independiente a más dolor (McAlindon et al., American Journal of Medicine, 2007). En 810 personas mayores con artrosis de seis países europeos, la humedad se relacionó con el dolor articular, sobre todo cuando además hacía frío (Timmermans et al., Journal of Rheumatology, 2015). En el proyecto británico «Cloudy with a Chance of Pain», 2.658 personas con dolor crónico registraron su dolor a diario con una aplicación durante 15 meses, y se observaron relaciones **modestas** con la humedad, la presión y el viento (Dixon et al., npj Digital Medicine, 2019).",
+     "Otros estudios no encuentran relación. En más de 11 millones de consultas de personas mayores en Estados Unidos, no hubo más visitas por dolor articular o de espalda los días de lluvia (Jena et al., BMJ, 2017). En 981 personas con lumbalgia aguda en Sídney, ni la lluvia, ni la humedad, ni el viento, ni la presión aumentaron el riesgo de un nuevo episodio (Beilken et al., Pain Medicine, 2017). Y en la fibromialgia en concreto, un estudio con 333 mujeres que anotaron su dolor y su cansancio durante 28 días encontró efectos del tiempo pequeños y poco frecuentes, aunque **algunas pacientes sí eran más sensibles** a ciertas condiciones, por ejemplo a la presión muy alta o muy baja (Bossema et al., Arthritis Care & Research, 2013).",
+     "La conclusión honesta es que **la ciencia no es concluyente**: no parece que el tiempo afecte a todo el mundo por igual, pero hay personas claramente más sensibles, y en ellas la combinación de frío, humedad, cambios de presión y menos actividad puede notarse. Lo útil es conocer el propio patrón y anticiparse, sin culpar al tiempo de todo ni resignarse a sufrir cada invierno."
+    ],
+    "list_title": "Qué puede hacer los días de frío, humedad o cambio de tiempo:",
+    "list": [
+     "Abrigarse por capas y proteger especialmente el cuello, las manos y los pies",
+     "Aplicar calor local suave en las zonas rígidas: una ducha caliente por la mañana ayuda a arrancar",
+     "No dejar de moverse: si no apetece salir, hacer en casa un rato de movilidad y estiramientos suaves",
+     "Mantener horarios de sueño regulares y aprovechar la luz natural de las horas centrales del día",
+     "Llevar un diario sencillo de dolor y tiempo durante unas semanas para descubrir si usted es sensible y a qué",
+     "Planificar las tareas más exigentes para los días en que se encuentra mejor"
+    ]
+   },
+   {
+    "h2": "Dolor crónico: cuando el sistema nervioso se sensibiliza",
+    "paras": [
+     "La fibromialgia es el ejemplo más claro de lo que hoy se entiende por **dolor crónico primario**: un dolor generalizado y persistente en el que las pruebas no muestran una lesión que lo explique, pero que no por ello es menos real. Para entenderlo hay que mirar menos a los músculos y más al **sistema nervioso**, que es quien produce la experiencia del dolor.",
+     "Se habla de **dolor crónico** cuando el dolor persiste o reaparece durante **más de tres meses**. La clasificación de la Asociación Internacional para el Estudio del Dolor, incorporada a la CIE-11 de la OMS, distingue dos grandes situaciones: el dolor crónico **secundario**, que es síntoma de otra enfermedad, como la artrosis, y el dolor crónico **primario**, como la fibromialgia o la lumbalgia inespecífica, en el que el dolor se considera un problema de salud en sí mismo (Treede et al., Pain, 2019). Este matiz es importante: cuando el dolor dura meses, ya no basta con buscar una lesión en el lugar donde duele.",
+     "Una de las claves para entenderlo es la **sensibilización central**. Cuando los receptores del dolor envían señales de forma repetida, las neuronas de la médula espinal y del cerebro pueden volverse más excitables y amplificar la información que reciben. El resultado es un sistema de alarma «con el volumen alto»: estímulos que antes no dolían, como un roce o una presión ligera, empiezan a doler; el dolor se extiende a zonas más amplias y tarda más en calmarse. Esta forma de plasticidad del sistema nervioso se ha descrito en la fibromialgia, la artrosis, el dolor musculoesquelético generalizado, la cefalea, los trastornos de la articulación temporomandibular y el dolor visceral (Woolf, Pain, 2011).",
+     "El dolor crónico también deja huella en el **cerebro**. Las técnicas de imagen muestran cambios en la actividad de las áreas que procesan el dolor, la llamada **«matriz del dolor»**: el tálamo, la ínsula, la corteza cingulada, la corteza somatosensorial y la prefrontal. Mediante **espectroscopia por resonancia magnética** se pueden medir además los **neurometabolitos**, sustancias que reflejan el funcionamiento de las neuronas, como el N-acetilaspartato, la colina o el glutamato, y en personas con lumbalgia crónica se han descrito alteraciones en esas regiones. Nada de esto significa que el dolor sea «imaginario»: es real y tiene una base biológica en el propio sistema nervioso.",
+     "La buena noticia es que esos cambios no son necesariamente permanentes, y que el tratamiento manual no actúa solo sobre el músculo o la articulación. Un ensayo clínico iraní con 25 personas con lumbalgia crónica inespecífica comparó la manipulación lumbar y sacroilíaca con una intervención simulada. Tras el tratamiento, el grupo de manipulación mostró aumentos significativos de N-acetilaspartato en el tálamo, la ínsula y la corteza prefrontal dorsolateral, y de colina en el tálamo, la ínsula y la corteza somatosensorial, frente al grupo simulado, en el que no hubo cambios. Los autores concluyen que la manipulación influye en el sistema nervioso central y que ello se acompaña de menos dolor y discapacidad (Didehdar et al., Irish Journal of Medical Science, 2020). Es un estudio pequeño, que debe confirmarse con muestras mayores, pero apunta en la misma dirección que otros trabajos.",
+     "Los modelos actuales sobre cómo actúa la terapia manual coinciden en esa idea. El estímulo mecánico de las manos desencadena respuestas en tres niveles: en el **tejido** donde se aplica, en la **médula espinal**, donde modula la transmisión de las señales de dolor, y en el **cerebro**, donde activa sistemas que lo inhiben (Bialosky et al., Manual Therapy, 2009). La revisión posterior de este modelo añade que el resultado depende también de la interacción entre el paciente, el terapeuta y el contexto, como las expectativas y la confianza, y que los efectos de cada técnica por separado son modestos, por lo que conviene integrarlas en un plan con ejercicio y educación (Bialosky et al., JOSPT, 2018).",
+     "Ya en 1965 Ronald Melzack y Patrick Wall propusieron la **teoría de la compuerta**: en la médula espinal existe un mecanismo que regula cuánta señal de dolor sube al cerebro, según el equilibrio entre las fibras nerviosas finas, que transmiten el dolor, y las gruesas, que transmiten tacto, presión y movimiento, además del control que el propio cerebro ejerce desde arriba (Melzack y Wall, Science, 1965). Por eso frotarse un golpe alivia, y por eso el tacto, la presión y la movilización suave pueden «cerrar la compuerta» al dolor. Es una de las bases conceptuales de la terapia manual.",
+     "En cuanto a los resultados clínicos, en la lumbalgia crónica la manipulación vertebral produce efectos **similares** a los de otras terapias recomendadas sobre el dolor y una mejora **pequeña pero clínicamente relevante** de la función, según un metaanálisis de 47 ensayos con más de 9.000 participantes (Rubinstein et al., BMJ, 2019). En un ensayo con 455 personas con lumbalgia crónica, el tratamiento manual osteopático aumentó la probabilidad de una mejoría moderada del dolor a las 12 semanas frente a un tratamiento simulado (RR 1,38) y los pacientes usaron menos fármacos con receta (Licciardone et al., Annals of Family Medicine, 2013).",
+     "El osteópata trabaja con **todo el cuerpo**, no solo con la columna. En el dolor crónico eso permite valorar a la vez las zonas que duelen, las compensaciones que el cuerpo ha ido acumulando, la respiración, la tensión visceral y el nivel de estrés, y acompañar el tratamiento manual con **educación sobre el dolor** y un **ejercicio progresivo**, que son las dos herramientas que más recomiendan las guías. Entender por qué el sistema nervioso se ha sensibilizado ayuda a perder el miedo al movimiento, que es uno de los factores que más mantienen el dolor."
+    ],
+    "list_title": "Señales de que el sistema nervioso puede estar sensibilizado:",
+    "list": [
+     "El dolor dura más de tres meses o reaparece una y otra vez",
+     "Duele más de lo que cabría esperar por la lesión, o duele sin que las pruebas encuentren una causa clara",
+     "El dolor se extiende a zonas cada vez más amplias o cambia de sitio",
+     "Roces o presiones ligeras resultan molestos",
+     "Empeora con el estrés, el cansancio o el mal sueño",
+     "Se acompaña de fatiga, dificultad de concentración o ánimo bajo"
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "t": "McAlindon T, Formica M, Schmid CH, Fletcher J, 2007. «Changes in barometric pressure and ambient temperature influence osteoarthritis pain». The American Journal of Medicine 120(5):429-434.",
+    "doi": "10.1016/j.amjmed.2006.07.036"
+   },
+   {
+    "t": "Timmermans EJ, Schaap LA, Herbolsheimer F, et al., 2015. «The influence of weather conditions on joint pain in older people with osteoarthritis: results from the European Project on OSteoArthritis». The Journal of Rheumatology 42(10):1885-1892.",
+    "doi": "10.3899/jrheum.141594"
+   },
+   {
+    "t": "Dixon WG, Beukenhorst AL, Yimer BB, et al., 2019. «How the weather affects the pain of citizen scientists using a smartphone app». npj Digital Medicine 2:105.",
+    "doi": "10.1038/s41746-019-0180-3"
+   },
+   {
+    "t": "Jena AB, Olenski AR, Molitor D, Miller N, 2017. «Association between rainfall and diagnoses of joint or back pain: retrospective claims analysis». BMJ 359:j5326.",
+    "doi": "10.1136/bmj.j5326"
+   },
+   {
+    "t": "Beilken K, Hancock MJ, Maher CG, Li Q, Steffens D, 2017. «Acute low back pain? Do not blame the weather. A case-crossover study». Pain Medicine 18(6):1139-1144.",
+    "doi": "10.1093/pm/pnw126"
+   },
+   {
+    "t": "Bossema ER, van Middendorp H, Jacobs JWG, Bijlsma JWJ, Geenen R, 2013. «Influence of weather on daily symptoms of pain and fatigue in female patients with fibromyalgia: a multilevel regression analysis». Arthritis Care & Research 65(7):1019-1025.",
+    "doi": "10.1002/acr.22008"
+   },
+   {
+    "t": "Treede RD, Rief W, Barke A, et al., 2019. «Chronic pain as a symptom or a disease: the IASP Classification of Chronic Pain for the International Classification of Diseases (ICD-11)». Pain 160(1):19-27.",
+    "doi": "10.1097/j.pain.0000000000001384"
+   },
+   {
+    "t": "Woolf CJ, 2011. «Central sensitization: implications for the diagnosis and treatment of pain». Pain 152(3 Suppl):S2-S15.",
+    "doi": "10.1016/j.pain.2010.09.030"
+   },
+   {
+    "t": "Didehdar D, Kamali F, Kordi Yoosefinejad A, Lotfi M, 2020. «The effect of spinal manipulation on brain neurometabolites in chronic nonspecific low back pain patients: a randomized clinical trial». Irish Journal of Medical Science 189(2):543-550.",
+    "doi": "10.1007/s11845-019-02140-2"
+   },
+   {
+    "t": "Bialosky JE, Bishop MD, Price DD, Robinson ME, George SZ, 2009. «The mechanisms of manual therapy in the treatment of musculoskeletal pain: a comprehensive model». Manual Therapy 14(5):531-538.",
+    "doi": "10.1016/j.math.2008.09.001"
+   },
+   {
+    "t": "Bialosky JE, Beneciuk JM, Bishop MD, et al., 2018. «Unraveling the mechanisms of manual therapy: modeling an approach». Journal of Orthopaedic & Sports Physical Therapy 48(1):8-18.",
+    "doi": "10.2519/jospt.2018.7476"
+   },
+   {
+    "t": "Melzack R, Wall PD, 1965. «Pain mechanisms: a new theory». Science 150(3699):971-979.",
+    "doi": "10.1126/science.150.3699.971"
+   },
+   {
+    "t": "Rubinstein SM, de Zoete A, van Middelkoop M, et al., 2019. «Benefits and harms of spinal manipulative therapy for the treatment of chronic low back pain: systematic review and meta-analysis of randomised controlled trials». BMJ 364:l689.",
+    "doi": "10.1136/bmj.l689"
+   },
+   {
+    "t": "Licciardone JC, Minotti DE, Gatchel RJ, Kearns CM, Singh KP, 2013. «Osteopathic manual treatment and ultrasound therapy for chronic low back pain: a randomized controlled trial». Annals of Family Medicine 11(2):122-129.",
+    "doi": "10.1370/afm.1468"
+   }
+  ],
+  "evidence_items": [
+   [
+    "Artrosis de rodilla (Am J Med)",
+    "En 200 personas, los cambios de presión y el descenso de temperatura se asociaron de forma independiente a más dolor (McAlindon et al., 2007)."
+   ],
+   [
+    "Cloudy with a Chance of Pain (npj Digit Med)",
+    "En 2.658 personas con dolor crónico seguidas 15 meses, el dolor se relacionó de forma modesta con humedad, presión y viento (Dixon et al., 2019)."
+   ],
+   [
+    "Lluvia (BMJ)",
+    "En más de 11,6 millones de consultas de mayores de 65 años no se halló relación entre lluvia y visitas por dolor articular o de espalda (Jena et al., 2017)."
+   ],
+   [
+    "Fibromialgia (Arthritis Care Res)",
+    "En 333 mujeres con fibromialgia, el tiempo solo tuvo efectos pequeños en el 10 % de los análisis, aunque algunas eran más sensibles (Bossema et al., 2013)."
+   ],
+   [
+    "Definición (Pain, IASP/CIE-11)",
+    "El dolor crónico es el que persiste o reaparece durante más de 3 meses (Treede et al., 2019)."
+   ],
+   [
+    "Neurometabolitos (Ir J Med Sci)",
+    "En 25 personas con lumbalgia crónica, la manipulación aumentó el N-acetilaspartato en tálamo, ínsula y corteza prefrontal frente a la simulación (Didehdar et al., 2020)."
+   ]
+  ]
+ },
+ "acufenos": {
+  "sections": [
+   {
+    "h2": "Acúfenos, cuello y mandíbula",
+    "paras": [
+     "En la mayoría de las personas el acúfeno se relaciona con el oído o con una pérdida de audición, y por eso la primera valoración debe hacerla siempre el **médico otorrinolaringólogo**, con una exploración del oído y una audiometría. Pero existe un tipo de acúfeno, llamado **somatosensorial** o **somático**, en el que el sonido cambia de volumen o de tono al mover la mandíbula, apretar los dientes, girar la cabeza o presionar ciertos músculos del cuello. En estas personas, el cuello y la mandíbula pueden formar parte del problema.",
+     "La explicación es neurológica. En el tronco cerebral, las vías auditivas reciben también información de los nervios que llevan la sensibilidad de la cara, la mandíbula y la parte alta del cuello (el trigémino y las primeras raíces cervicales). Cuando esa información somatosensorial está alterada, por tensión muscular mantenida, un problema de la articulación temporomandibular o una disfunción cervical, puede modular la actividad de las vías auditivas. La neuroplasticidad parece desempeñar un papel central (Ralli et al., Journal of International Medical Research, 2017).",
+     "Los estudios de asociación lo apoyan, con prudencia. Una revisión sistemática que reunió 22 estudios encontró que las personas con acúfenos refieren problemas cervicales con más frecuencia que las que no los tienen (odds ratio 2,6) y que la relación entre acúfenos y **trastornos temporomandibulares** es **bidireccional**, con odds ratios entre 2,3 y 6,7. Los autores advierten de que la calidad de los estudios es limitada y que la evidencia es débil (Bousema et al., Trends in Hearing, 2018).",
+     "En cuanto al tratamiento, en un ensayo con 38 personas con acúfeno y dolor de cuello, seis semanas de terapia física cervical (12 sesiones) tuvieron un efecto positivo sobre las molestias del acúfeno; los autores piden estudios más grandes para confirmarlo (Michiels et al., Manual Therapy, 2016). También se han descrito mejorías del acúfeno al tratar los trastornos de la articulación temporomandibular en personas que los padecen (Ralli et al., 2017).",
+     "La **articulación temporomandibular** (ATM), que une la mandíbula con el cráneo justo delante del oído, comparte inervación y musculatura con la parte alta del cuello. El **bruxismo** (apretar o rechinar los dientes) y algunos problemas de la mordida pueden aumentar la tensión de los músculos masticadores y cervicales, y producir dolor delante del oído, sensación de oído taponado, dolor de cabeza o rigidez de cuello. El llamado **test de Meersseman**, que consiste en colocar unos rollos de algodón entre los molares y observar si cambian la postura o los síntomas, se usa para orientar si la mordida puede estar influyendo y derivar entonces al **odontólogo**. Conviene saber que la relación entre mordida y postura es **controvertida**: las revisiones no han encontrado una relación predecible entre ambas (Manfredini et al., Journal of Oral Rehabilitation, 2012), de modo que la mordida rara vez es la única causa y siempre se valora en conjunto.",
+     "La postura de **cabeza adelantada**, tan frecuente con el móvil y el ordenador, suma carga a todo este sistema. Cuando la cabeza se desplaza por delante de los hombros, los músculos de la nuca y los suboccipitales, en la base del cráneo, trabajan de forma continua para sostenerla, y la mandíbula tiende a cambiar de posición. Una revisión sistemática encontró que los adultos con dolor de cuello tienen más cabeza adelantada que los que no lo tienen, y que a mayor adelantamiento hay más dolor y más discapacidad; al tratarse de estudios transversales, muestran asociación y no causa (Mahmoud et al., Current Reviews in Musculoskeletal Medicine, 2019). En algunas personas, esa sobrecarga de la base del cráneo se acompaña de acúfenos que se modifican con los movimientos del cuello.",
+     "Desde la osteopatía, la valoración incluye por eso el **cuello, la articulación temporomandibular, la columna dorsal alta y la postura de la cabeza**, siempre después de la valoración médica u otorrinolaringológica y en coordinación con ella y con el odontólogo cuando hay bruxismo o problemas de mordida. El objetivo es mejorar la movilidad y reducir la tensión de las estructuras que pueden estar alimentando los síntomas, con expectativas realistas: no todos los acúfenos tienen un componente cervical o mandibular, y cuando lo tienen, la evidencia disponible todavía es limitada. Puede leer más en las páginas de [cervicalgia](cervicalgia-dolor-cuello) y [bruxismo y dolor mandibular](bruxismo-dolor-mandibular-atm)."
+    ],
+    "list_title": "Pistas de que el acúfeno puede tener un componente cervical o mandibular:",
+    "list": [
+     "El sonido cambia de volumen o de tono al apretar los dientes, abrir la boca o mover la mandíbula",
+     "Cambia al girar o inclinar la cabeza, o al presionar músculos del cuello o la cara",
+     "Coincide con dolor de cuello, dolor delante del oído o bruxismo",
+     "Empeora con posturas mantenidas frente a pantallas o con el estrés",
+     "La audición es normal en la audiometría",
+     "Consulte sin demora si el acúfeno es pulsátil, aparece en un solo oído de forma brusca o se acompaña de pérdida de audición repentina o vértigo"
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "t": "Ralli M, Greco A, Turchetta R, Altissimi G, de Vincentiis M, Cianfrone G, 2017. «Somatosensory tinnitus: current evidence and future perspectives». Journal of International Medical Research 45(3):933-947.",
+    "doi": "10.1177/0300060517707673"
+   },
+   {
+    "t": "Bousema EJ, Koops EA, van Dijk P, Dijkstra PU, 2018. «Association between subjective tinnitus and cervical spine or temporomandibular disorders: a systematic review». Trends in Hearing 22:2331216518800640.",
+    "doi": "10.1177/2331216518800640"
+   },
+   {
+    "t": "Michiels S, Van de Heyning P, Truijen S, Hallemans A, De Hertogh W, 2016. «Does multi-modal cervical physical therapy improve tinnitus in patients with cervicogenic somatic tinnitus?». Manual Therapy 26:125-131.",
+    "doi": "10.1016/j.math.2016.08.005"
+   },
+   {
+    "t": "Manfredini D, Castroflorio T, Perinetti G, Guarda-Nardini L, 2012. «Dental occlusion, body posture and temporomandibular disorders: where we are now and where we are heading for». Journal of Oral Rehabilitation 39(6):463-471.",
+    "doi": "10.1111/j.1365-2842.2012.02291.x"
+   },
+   {
+    "t": "Mahmoud NF, Hassan KA, Abdelmajeed SF, Moustafa IM, Silva AG, 2019. «The relationship between forward head posture and neck pain: a systematic review and meta-analysis». Current Reviews in Musculoskeletal Medicine 12(4):562-577.",
+    "doi": "10.1007/s12178-019-09594-y"
+   }
+  ],
+  "evidence_items": [
+   [
+    "Acúfeno y cuello (Trends Hear)",
+    "Las personas con acúfenos refieren problemas cervicales con más frecuencia (OR 2,6); con los trastornos temporomandibulares la relación es bidireccional (OR 2,3-6,7) (Bousema et al., 2018)."
+   ],
+   [
+    "Terapia cervical (Man Ther)",
+    "En 38 personas con acúfeno y dolor de cuello, 12 sesiones de terapia física cervical en 6 semanas mejoraron las molestias del acúfeno (Michiels et al., 2016)."
+   ],
+   [
+    "Cabeza adelantada (Curr Rev Musculoskelet Med)",
+    "En 15 estudios transversales, una mayor cabeza adelantada se asoció a más dolor (r = −0,55) y más discapacidad cervical (Mahmoud et al., 2019)."
+   ]
+  ]
+ },
+ "vertigo-mareo": {
+  "sections": [
+   {
+    "h2": "Mareo, cuello y mandíbula",
+    "paras": [
+     "El mareo y el vértigo tienen muchas causas posibles, la mayoría relacionadas con el oído interno (como el vértigo posicional paroxístico benigno), y algunas con la circulación, la tensión arterial o el sistema nervioso central. Por eso la primera valoración debe hacerla siempre el **médico** o el **otorrinolaringólogo**. Una vez descartadas esas causas, existe un tipo de mareo en el que el cuello desempeña un papel: el **mareo cervicogénico**.",
+     "El equilibrio no depende solo del oído interno y de la vista. Los músculos y las articulaciones de la parte alta del cuello tienen una enorme densidad de **receptores propioceptivos** que informan constantemente al cerebro de la posición de la cabeza respecto al tronco. Si esa información llega alterada, por dolor, tensión muscular mantenida o rigidez articular, no coincide con la que envían el oído y los ojos, y el cerebro lo interpreta como inestabilidad. El resultado suele ser una sensación de **inestabilidad o aturdimiento**, más que un giro violento del entorno, que aparece o empeora con los movimientos o las posturas del cuello y se acompaña de dolor cervical.",
+     "Es un diagnóstico de exclusión y la evidencia es todavía limitada. Una revisión sistemática de 2005 encontró que los nueve estudios disponibles mostraban mejoría del mareo tras la terapia manual, pero todos eran de baja calidad metodológica (Reid y Rivett, Manual Therapy, 2005). Una revisión posterior, con cuatro ensayos aleatorizados, concluyó que la terapia manual es **potencialmente eficaz** en el mareo cervicogénico, con un nivel de evidencia moderado, y pidió más investigación por el escaso número de estudios (Yaseen et al., Journal of Physical Therapy Science, 2018).",
+     "La **articulación temporomandibular** (ATM), que une la mandíbula con el cráneo justo delante del oído, comparte inervación y musculatura con la parte alta del cuello. El **bruxismo** (apretar o rechinar los dientes) y algunos problemas de la mordida pueden aumentar la tensión de los músculos masticadores y cervicales, y producir dolor delante del oído, sensación de oído taponado, dolor de cabeza o rigidez de cuello. El llamado **test de Meersseman**, que consiste en colocar unos rollos de algodón entre los molares y observar si cambian la postura o los síntomas, se usa para orientar si la mordida puede estar influyendo y derivar entonces al **odontólogo**. Conviene saber que la relación entre mordida y postura es **controvertida**: las revisiones no han encontrado una relación predecible entre ambas (Manfredini et al., Journal of Oral Rehabilitation, 2012), de modo que la mordida rara vez es la única causa y siempre se valora en conjunto.",
+     "La postura de **cabeza adelantada**, tan frecuente con el móvil y el ordenador, suma carga a todo este sistema. Cuando la cabeza se desplaza por delante de los hombros, los músculos de la nuca y los suboccipitales, en la base del cráneo, trabajan de forma continua para sostenerla, y la mandíbula tiende a cambiar de posición. Una revisión sistemática encontró que los adultos con dolor de cuello tienen más cabeza adelantada que los que no lo tienen, y que a mayor adelantamiento hay más dolor y más discapacidad; al tratarse de estudios transversales, muestran asociación y no causa (Mahmoud et al., Current Reviews in Musculoskeletal Medicine, 2019). En algunas personas, esa sobrecarga de la base del cráneo se acompaña de mareo o inestabilidad.",
+     "Desde la osteopatía, la valoración incluye por eso el **cuello, la articulación temporomandibular, la columna dorsal alta y la postura de la cabeza**, siempre después de la valoración médica u otorrinolaringológica y en coordinación con ella y con el odontólogo cuando hay bruxismo o problemas de mordida. El objetivo es mejorar la movilidad y reducir la tensión de las estructuras que pueden estar alimentando los síntomas, con expectativas realistas: no todos los mareos tienen un componente cervical o mandibular, y cuando lo tienen, la evidencia disponible todavía es limitada. Puede leer más en las páginas de [cervicalgia](cervicalgia-dolor-cuello) y [bruxismo y dolor mandibular](bruxismo-dolor-mandibular-atm)."
+    ],
+    "list_title": "Pistas de que el mareo puede tener un componente cervical:",
+    "list": [
+     "Sensación de inestabilidad o aturdimiento más que de giro",
+     "Aparece o empeora con movimientos o posturas mantenidas del cuello",
+     "Se acompaña de dolor o rigidez de cuello, o de dolor de cabeza en la nuca",
+     "Coincide con bruxismo o dolor de la mandíbula",
+     "Las pruebas del oído interno no explican los síntomas",
+     "Acuda a urgencias si el mareo se acompaña de dificultad para hablar, visión doble, debilidad o adormecimiento de un lado del cuerpo, dolor de cabeza intenso y súbito o pérdida de conocimiento"
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "t": "Reid SA, Rivett DA, 2005. «Manual therapy treatment of cervicogenic dizziness: a systematic review». Manual Therapy 10(1):4-13.",
+    "doi": "10.1016/j.math.2004.03.006"
+   },
+   {
+    "t": "Yaseen K, Hendrick P, Ismail A, Felemban M, Alshehri MA, 2018. «The effectiveness of manual therapy in treating cervicogenic dizziness: a systematic review». Journal of Physical Therapy Science 30(1):96-102.",
+    "doi": "10.1589/jpts.30.96"
+   },
+   {
+    "t": "Manfredini D, Castroflorio T, Perinetti G, Guarda-Nardini L, 2012. «Dental occlusion, body posture and temporomandibular disorders: where we are now and where we are heading for». Journal of Oral Rehabilitation 39(6):463-471.",
+    "doi": "10.1111/j.1365-2842.2012.02291.x"
+   },
+   {
+    "t": "Mahmoud NF, Hassan KA, Abdelmajeed SF, Moustafa IM, Silva AG, 2019. «The relationship between forward head posture and neck pain: a systematic review and meta-analysis». Current Reviews in Musculoskeletal Medicine 12(4):562-577.",
+    "doi": "10.1007/s12178-019-09594-y"
+   }
+  ],
+  "evidence_items": [
+   [
+    "Mareo cervicogénico (Man Ther)",
+    "Los 9 estudios revisados mostraron mejoría del mareo tras terapia manual, aunque todos eran de baja calidad metodológica (Reid y Rivett, 2005)."
+   ],
+   [
+    "Terapia manual (J Phys Ther Sci)",
+    "Con 4 ensayos aleatorizados, la terapia manual se considera potencialmente eficaz en el mareo cervicogénico, con evidencia moderada (Yaseen et al., 2018)."
+   ],
+   [
+    "Cabeza adelantada (Curr Rev Musculoskelet Med)",
+    "En 15 estudios transversales, una mayor cabeza adelantada se asoció a más dolor (r = −0,55) y más discapacidad cervical (Mahmoud et al., 2019)."
+   ]
+  ]
+ }
+}

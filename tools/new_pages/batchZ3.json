@@ -1,0 +1,886 @@
+[
+ {
+  "slug": "lumbalgia-dolor-lumbar",
+  "ca_slug": "lumbalgia-dolor-lumbar",
+  "nav": "Lumbalgia",
+  "card": "Dolor en la parte baja de la espalda: qué es, por qué aparece, qué tipos hay, cómo se valora y cómo se trata.",
+  "title": "Lumbalgia y dolor lumbar en Barcelona | WA LAM",
+  "desc": "Qué es la lumbalgia, sus causas, síntomas y tipos, la hernia discal lumbar y la relación con la microbiota. Valoración y tratamiento conservador en Sarrià–Sant Gervasi, Barcelona.",
+  "h1": "Lumbalgia y dolor lumbar en Barcelona",
+  "sub": "Qué es, por qué aparece y cómo se valora · Sarrià–Sant Gervasi",
+  "lead": "La lumbalgia, también llamada dolor lumbar o lumbago, es el dolor en la parte baja de la espalda. Es la primera causa de años vividos con discapacidad en el mundo y, sin embargo, en la gran mayoría de los casos no se debe a una enfermedad grave. Entender de dónde viene el dolor, qué lo mantiene y qué se puede hacer cada día es el primer paso para recuperar el movimiento.",
+  "facts_title": "En WA LAM",
+  "facts": [
+   "Lumbalgia aguda, subaguda y crónica",
+   "Hernia discal lumbar y dolor irradiado",
+   "Anamnesis y exploración palpatoria",
+   "Primera visita: 60 min · 90 €"
+  ],
+  "wa": "Hola, me gustaría información sobre el tratamiento de la lumbalgia.",
+  "mirror": {
+   "h2": "¿Se reconoce en estos síntomas?",
+   "qs": [
+    "¿Le cuesta incorporarse de la cama, ponerse de pie tras estar sentado o agacharse a atarse los zapatos?",
+    "¿Nota la zona lumbar rígida por la mañana o cargada al final del día?",
+    "¿El dolor se extiende hacia la nalga, la ingle o la parte posterior del muslo?",
+    "¿Los episodios se repiten cada cierto tiempo o el dolor dura ya más de tres meses?"
+   ],
+   "close": "Si nota alguna de las señales de alarma que explicamos más abajo, consulte primero con su médico o acuda a urgencias."
+  },
+  "explain": {
+   "h2": "¿Qué es la lumbalgia?",
+   "paras": [
+    "La **lumbalgia** es el dolor que se localiza entre el borde inferior de las últimas costillas y el pliegue de los glúteos. Puede quedarse en la zona lumbar o extenderse hacia la nalga, la ingle o el muslo. Igual que ocurre con el dolor de cuello, no es un diagnóstico en sí mismo, sino un **síntoma**: indica dónde duele. La valoración clínica sirve para entender por qué duele y qué lo mantiene.",
+    "La columna lumbar está formada por cinco vértebras, las más grandes de la columna, que se apoyan sobre el sacro y la pelvis. Entre cada dos vértebras se sitúa un **disco intervertebral**, que amortigua y permite el movimiento, y por detrás, dos pequeñas articulaciones facetarias. A su alrededor hay ligamentos, la fascia toracolumbar y una musculatura profunda (multífidos, transverso del abdomen, cuadrado lumbar, psoas) que estabiliza el tronco. Por los agujeros de conjunción salen las raíces nerviosas que forman, entre otros, el nervio ciático. Cualquiera de estas estructuras puede generar dolor.",
+    "En la mayoría de las personas el dolor lumbar se acompaña de una **contractura defensiva**: los músculos se tensan para proteger la zona, lo que aumenta la rigidez y la sensación de bloqueo. Es una respuesta normal del cuerpo, no un signo de lesión grave, y suele ceder a medida que se recupera el movimiento.",
+    "Según su duración, la lumbalgia se considera **aguda** cuando dura menos de 6 semanas, **subaguda** entre 6 y 12 semanas, y **crónica** cuando supera las 12 semanas. Según su origen, se distingue la lumbalgia **inespecífica**, la más frecuente, de la **específica**, en la que se identifica una causa concreta. Más abajo explicamos ambos tipos."
+   ]
+  },
+  "sections": [
+   {
+    "h2": "¿Es frecuente?",
+    "paras": [
+     "Muchísimo. Según el estudio Global Burden of Disease, en 2020 unos **619 millones de personas** tenían dolor lumbar en el mundo, y se prevé que en 2050 sean 843 millones. La lumbalgia sigue siendo la primera causa mundial de años vividos con discapacidad, y el 38,8 % de esa discapacidad se atribuye a factores modificables: las condiciones de trabajo, el tabaco y el exceso de peso (Ferreira et al., Lancet Rheumatology, 2023).",
+     "En España, la Encuesta Nacional de Salud de 2017 muestra que la padece el **17,1 % de los hombres y el 24,5 % de las mujeres**. Su coste se estima en 8.945,6 millones de euros al año, el 0,68 % del PIB, y tres cuartas partes de ese coste (74,5 %) corresponden al absentismo y al presentismo laboral, es decir, a trabajar con dolor y rendir menos (Alonso-García y Sarría-Santamera, Spine, 2020). Es, por tanto, un problema que afecta a la salud, a la vida laboral y a la calidad de vida de muchas familias."
+    ]
+   },
+   {
+    "h2": "Causas: por qué duele la zona lumbar",
+    "paras": [
+     "En casi todas las personas con dolor lumbar no es posible señalar una única lesión que explique el dolor (Hartvigsen et al., Lancet, 2018). Lo habitual es que coincidan varios factores: una **sobrecarga** de músculos, ligamentos, articulaciones facetarias o disco por un esfuerzo mal hecho o repetido, un periodo de **sedentarismo** que ha restado fuerza y resistencia a la musculatura del tronco, posturas mantenidas durante horas, el exceso de peso, el estrés o un descanso insuficiente.",
+     "Hay también causas estructurales identificables: la **lesión del disco** (protrusión o hernia discal), la artrosis de las articulaciones facetarias, la estenosis del canal lumbar en personas mayores, la escoliosis, las secuelas de traumatismos y caídas o algunas **enfermedades inflamatorias** como la espondilitis anquilosante. Con mucha menos frecuencia, el dolor se debe a una fractura por osteoporosis, a una infección de la columna (por estafilococos, estreptococos o bacterias gramnegativas) o a un tumor; por eso existen las señales de alarma.",
+     "Por último, no todo dolor lumbar nace en la columna. Los riñones, el intestino, el páncreas, los órganos pélvicos o la aorta pueden referir dolor a la zona lumbar. El **cólico renal** es el ejemplo clásico de diagnóstico diferencial: un dolor muy intenso en un lado de la espalda que se irradia hacia la ingle. Más abajo dedicamos un apartado al dolor visceral referido."
+    ]
+   },
+   {
+    "h2": "Factores de riesgo",
+    "paras": [
+     "Algunos factores aumentan la probabilidad de sufrir lumbalgia o de que el dolor se mantenga. Muchos dependen de los hábitos y, por tanto, se pueden modificar. En una revisión de estudios observacionales, el sedentarismo se asoció a más dolor lumbar en adultos (OR 1,24), y pasar mucho tiempo sentado (OR 1,42) o conduciendo (OR 2,03) también; en niños, las pantallas y la consola se asociaron igualmente a más dolor lumbar (Baradaran Mahdavi et al., Health Promotion Perspectives, 2021). Son asociaciones, no prueban que la causa sea estar sentado, pero apuntan en la misma dirección que la experiencia clínica.",
+     "Los factores psicosociales pesan tanto como los mecánicos. En un estudio con 7.262 trabajadores españoles, el 7,4 % tuvo una baja por lumbalgia en 18 meses, y los factores psicosociales y económicos predecían mejor la baja que los clínicos (Seco-Calvo et al., Occupational and Environmental Medicine, 2025)."
+    ],
+    "list_title": "Factores que se asocian a un mayor riesgo:",
+    "list": [
+     "Sedentarismo y pérdida de fuerza y tono de la musculatura del tronco y de las piernas",
+     "Muchas horas sentado o conduciendo, sin pausas",
+     "Levantar o cargar peso con mala técnica, torsiones repetidas y vibración en el trabajo",
+     "Movimientos bruscos tras mucho tiempo en la misma postura, caídas y traumatismos",
+     "Malos hábitos posturales mantenidos en el trabajo y en casa",
+     "Sobrepeso y tabaquismo",
+     "Estrés sostenido, sueño de mala calidad y miedo a moverse",
+     "Episodios previos de dolor lumbar"
+    ]
+   },
+   {
+    "h2": "Síntomas",
+    "paras": [
+     "El síntoma principal es un **dolor sordo** en la parte baja de la espalda, que puede ser difuso o centrarse en un lado. Con frecuencia se acompaña de rigidez, espasmos musculares y una zona dolorosa a la palpación. Muchas personas describen dificultad para moverse, para incorporarse de la cama o para ponerse de pie después de estar sentadas, y la sensación de quedarse «bloqueadas» al agacharse.",
+     "El dolor puede **irradiarse** a la nalga, la ingle o la parte posterior del muslo, sin pasar en general de la rodilla. Es el llamado **dolor referido**, que procede de estructuras de la espalda como las articulaciones facetarias, la articulación sacroilíaca, los músculos o el disco. Es distinto del **dolor radicular** o [ciática](ciatica), que nace de la irritación de una raíz nerviosa, baja por debajo de la rodilla hasta el pie y suele acompañarse de hormigueo, adormecimiento o pérdida de fuerza. Distinguir uno del otro orienta la valoración y el pronóstico."
+    ],
+    "list_title": "Síntomas habituales de la lumbalgia:",
+    "list": [
+     "Dolor sordo o punzante en la zona lumbar, a veces más en un lado",
+     "Rigidez, sobre todo por la mañana o tras estar mucho tiempo quieto",
+     "Espasmos o contracturas musculares",
+     "Dificultad para agacharse, girarse, incorporarse o ponerse de pie",
+     "Dolor que se extiende a la nalga, la ingle o el muslo",
+     "Zona dolorosa al presionar los músculos o las vértebras",
+     "Dolor que aumenta al permanecer mucho tiempo sentado o de pie"
+    ]
+   },
+   {
+    "h2": "Tipos de lumbalgia: inespecífica y específica",
+    "paras": [
+     "La **lumbalgia inespecífica** es aquella en la que no es posible atribuir el dolor a una lesión anatómica concreta. Supone alrededor del **90 % de los casos** que se atienden en atención primaria, mientras que las causas graves representan menos del 1 % (Traeger et al., CMAJ, 2017). Que sea «inespecífica» no significa que el dolor no sea real ni que no se pueda hacer nada: significa que lo explican varios factores a la vez, mecánicos, de hábitos, de control del movimiento y de sensibilidad del sistema nervioso, y que su pronóstico suele ser bueno.",
+     "La **lumbalgia específica** es la que tiene una causa identificada: una hernia discal con compresión de una raíz nerviosa, una estenosis de canal, una espondilolistesis (deslizamiento de una vértebra sobre otra), una fractura, una enfermedad inflamatoria como la espondilitis anquilosante o, de forma excepcional, una infección o un tumor. Algunas requieren valoración médica y pruebas antes de cualquier tratamiento manual.",
+     "Las pruebas de imagen ayudan poco a separar ambos tipos si no hay señales de alarma, porque los cambios degenerativos son muy frecuentes en personas sin dolor. En una revisión de 33 estudios con 3.110 personas sin síntomas, la degeneración discal aparecía en el 37 % a los 20 años y en el 96 % a los 80, y las protrusiones discales, entre el 29 % y el 43 % según la edad (Brinjikji et al., AJNR, 2015). Por eso la imagen siempre se interpreta junto con la clínica."
+    ]
+   },
+   {
+    "h2": "Hernias discales lumbares y ciática",
+    "paras": [
+     "El disco intervertebral tiene dos partes: un **anillo fibroso** exterior, formado por láminas de fibras cruzadas, y un **núcleo pulposo** central, gelatinoso y rico en agua, que reparte la presión como un cojín. Con los años, o por esfuerzos repetidos en flexión y torsión, el anillo puede agrietarse. Si el núcleo empuja el anillo sin romperlo se habla de **protrusión**; si sale a través de él, de **hernia** o extrusión. En la columna lumbar, las hernias aparecen sobre todo entre la cuarta y la quinta vértebra lumbar y entre la quinta y el sacro.",
+     "Una hernia puede no dar ningún síntoma, causar dolor lumbar o, si irrita una raíz nerviosa, provocar una **ciática verdadera**: dolor que baja por la pierna, hormigueo, alteraciones de la sensibilidad y, a veces, pérdida de fuerza. La irritación no es solo mecánica: el material del núcleo provoca una reacción inflamatoria alrededor de la raíz. Esa misma reacción es la que ayuda al cuerpo a reabsorber la hernia: en una revisión sistemática, la regresión espontánea se observó en el 70 % de las extrusiones y en el 96 % de los fragmentos secuestrados, y en el 41 % de las protrusiones (Chiu et al., Clinical Rehabilitation, 2015).",
+     "Por eso, salvo que haya señales de alarma, el planteamiento inicial de una hernia discal lumbar es **conservador**: mantenerse activo, calmar la irritación del nervio, mejorar la mecánica de la zona y repartir mejor las cargas sobre el disco, y recuperar fuerza y control. La cirugía se reserva para una minoría: el síndrome de cola de caballo, la pérdida de fuerza progresiva o el dolor intenso que no responde tras varias semanas. Explicamos la ciática y la hernia discal con más detalle en nuestra página de [ciática y hernia discal](ciatica) y en la de [hernia de disco incipiente](hernia-disco-incipiente)."
+    ],
+    "list_title": "Señales de alarma de la cola de caballo (acuda a urgencias):",
+    "list": [
+     "Adormecimiento o pérdida de sensibilidad en la zona genital, el periné o la cara interna de los muslos («en silla de montar»)",
+     "Dificultad para orinar, retención de orina o pérdida del control de la orina",
+     "Pérdida del control de las deposiciones",
+     "Pérdida de fuerza en las piernas que avanza o afecta a ambas piernas",
+     "Pérdida de fuerza del suelo pélvico o alteraciones de la erección de aparición reciente junto con dolor lumbar o ciático"
+    ]
+   },
+   {
+    "h2": "Dolor de cadera y de pierna que nace en la zona lumbar",
+    "paras": [
+     "Un error frecuente es tratar solo la zona que duele. Muchas personas con dolor en la cadera, la ingle, el muslo o incluso la rodilla no relacionan sus síntomas con la espalda, y sin embargo la columna lumbar puede ser su origen. Las raíces nerviosas lumbares y las estructuras de la espalda pueden referir dolor a distancia, y una zona lumbar rígida altera además la forma de caminar y el reparto de cargas en la cadera y la rodilla.",
+     "El estudio internacional **EXPOSS** lo cuantificó. Incluyó a 369 pacientes de centros de rehabilitación de Reino Unido, Canadá, Estados Unidos, Nueva Zelanda y Alemania con dolor aislado en una extremidad, que creían que no tenía nada que ver con la columna. Tras una valoración mecánica estandarizada (método McKenzie), el **43,5 %** tenía un origen vertebral: sus síntomas respondían a movimientos de la columna, y evolucionaron mejor que los del grupo con origen en la propia extremidad (Rosedale et al., Journal of Manual & Manipulative Therapy, 2020).",
+     "En la pierna, la proporción fue especialmente alta en la **cadera: el 71 %** de los pacientes con dolor de cadera tenía un origen lumbar. En la rodilla fue del 25,6 % y en el tobillo y el pie, de alrededor del 29 %. Por eso, ante un dolor de cadera, de ingle o de pierna que no evoluciona como se espera, conviene valorar siempre la columna lumbar y la pelvis. Es la misma lógica de la osteopatía: el cuerpo funciona como un conjunto, y el lugar del dolor no siempre es el lugar del problema. Si le duele la rodilla, puede consultar también nuestra página de [dolor de rodilla](dolor-rodilla-condromalacia) o la de [artrosis](artrosis)."
+    ]
+   },
+   {
+    "h2": "Cuando el dolor de espalda viene de una víscera",
+    "paras": [
+     "No todo dolor lumbar nace en la columna. Los órganos internos tienen una **inervación escasa y doble**, y por eso sus sensaciones son difusas, difíciles de localizar y se **refieren** con frecuencia a la piel y a los músculos de la espalda (Gebhart y Bielefeldt, Comprehensive Physiology, 2016). La explicación fisiológica es la **convergencia viscerosomática**: las fibras nerviosas que llegan de un órgano entran en la médula por los mismos segmentos que las que llegan de una zona de la espalda y terminan sobre las mismas neuronas. El cerebro, que está mucho más acostumbrado a recibir señales de la piel y los músculos que de las vísceras, interpreta como dolor de espalda una señal que en realidad procede de un órgano. El dolor visceral tiene además mecanismos propios: la motilidad y la secreción del órgano y la hipersensibilidad del sistema nervioso central influyen en él, también en trastornos funcionales como el colon irritable (Cerveró, Revista Dor, 2014).",
+     "En la zona lumbar, los ejemplos más claros son estos. El **riñón** y el uréter refieren dolor a la zona lumbar y al flanco: el **cólico renal** produce un dolor muy intenso en un costado, que llega en oleadas, baja hacia la ingle y a menudo se acompaña de náuseas; una infección renal da además fiebre. El **colon y el intestino** pueden referir dolor a la parte baja de la espalda, sobre todo cuando hay estreñimiento persistente, gases o colon irritable. El **útero y los órganos pélvicos** (ovarios, vejiga, recto, próstata) refieren dolor a la zona lumbar baja y al sacro, como ocurre en el dolor menstrual intenso o en la endometriosis. El **páncreas** produce un dolor en la parte alta del abdomen que atraviesa hacia la espalda, a la altura de la transición dorsolumbar. Y, de forma excepcional, un aneurisma de aorta abdominal puede manifestarse como dolor lumbar intenso: es una urgencia.",
+     "Las **cicatrices abdominales** y las **adherencias** merecen un apartado propio. Una cesárea, una apendicectomía, una histerectomía o una laparoscopia dejan, además de la cicatriz visible, una zona de tejido más rígido en profundidad, que une capas que deberían deslizarse entre sí. Las adherencias se forman también tras infecciones o inflamaciones abdominales y pélvicas. Muchas personas con lumbalgia no relacionan su dolor con una cirugía abdominal de hace años, y por eso en la anamnesis se pregunta siempre por ellas. Puede leer más en nuestra página de [cicatrices y adherencias](cicatrices-adherencias).",
+     "Jean-Pierre Barral desarrolló la manipulación visceral a partir de esta relación entre los órganos y la columna. Cuenta que un paciente al que trataba con técnicas vertebrales le explicó que su dolor de espalda había mejorado después de que «un anciano le empujara algo en el abdomen»; ese caso despertó su interés por la relación entre las vísceras y la columna y le llevó a explorar el abdomen de sus pacientes con dolor de espalda. Con un radiólogo de Grenoble documentó después, con radioscopia y ecografía, cambios en la posición y el movimiento de las vísceras antes y después de la manipulación. Para Barral, «la vida y el movimiento están entrelazados»: los órganos se mueven miles de veces al día con la respiración y el latido, deslizándose entre ellos y sobre la pared posterior del abdomen.",
+     "**Según su modelo**, cuando un órgano pierde movilidad por una adherencia, una cicatriz, una inflamación, un traumatismo o una enfermedad antigua, crea un punto fijo alrededor del cual el resto del cuerpo tiene que adaptarse, y esa tensión, repetida miles de veces al día, puede acabar transmitiéndose a la columna. Barral y sus discípulos describen relaciones concretas en la zona lumbar: el **riñón** se apoya sobre el psoas y el cuadrado lumbar, dos músculos clave de la espalda baja, y un riñón descendido podría irritar alguno de los nervios que pasan por delante del psoas, como el ilioinguinal; la raíz del mesenterio del intestino delgado cruza por delante de la tercera y la cuarta vértebras lumbares; el ciego y el colon sigmoide se relacionan con la articulación sacroilíaca derecha e izquierda, respectivamente, y una cicatriz antigua de apendicectomía podría mantener una irritación en la zona de la primera vértebra lumbar. Son relaciones que se apoyan en la anatomía y en la experiencia clínica, pero que no se han demostrado en ensayos controlados, y así deben entenderse.",
+     "En la práctica, esta visión se traduce en algo sencillo: una lumbalgia que no cambia con el movimiento ni con la postura, que se relaciona con las comidas, la digestión, la micción o el ciclo menstrual, o que empezó después de una cirugía o de una infección abdominal, invita a explorar también el abdomen y la pelvis con la **escucha manual**. Y obliga, antes que nada, a descartar con su médico un problema orgánico. Puede leer más en nuestra página de [osteopatía visceral](osteopatia-visceral-barcelona)."
+    ],
+    "list_title": "Señales de alarma de origen visceral (consulte con su médico o acuda a urgencias):",
+    "list": [
+     "Dolor muy intenso en un costado, en oleadas, que baja hacia la ingle, con náuseas o vómitos (posible cólico renal)",
+     "Dolor lumbar con fiebre, escalofríos o escozor al orinar, o sangre en la orina",
+     "Dolor abdominal o lumbar súbito, intenso o pulsátil, sobre todo en mayores de 60 años, fumadores o hipertensos",
+     "Dolor en la parte alta del abdomen que atraviesa hacia la espalda, con vómitos, tras comidas copiosas o alcohol",
+     "Sangre en las heces, heces negras o un cambio persistente del ritmo intestinal",
+     "Sangrado vaginal anormal, dolor pélvico intenso o dolor lumbar en el embarazo con contracciones o pérdidas",
+     "Dolor que no cambia con ningún movimiento ni postura y despierta por la noche",
+     "Pérdida de peso sin causa aparente, cansancio intenso o pérdida de apetito"
+    ]
+   },
+   {
+    "h2": "Microbiota y dolor de espalda: el eje intestino–disco",
+    "paras": [
+     "Antes de explicar esta relación conviene aclarar algunos términos. El **disco intervertebral** es el cojín entre dos vértebras: su **núcleo pulposo** central amortigua la presión y su **anillo fibroso** lo contiene y da estabilidad. Es la estructura sin vasos sanguíneos más grande del cuerpo y se nutre por difusión a través de las placas de las vértebras, por lo que el sistema inmunitario apenas lo vigila. La **microbiota** es el conjunto de microorganismos que viven en el cuerpo, sobre todo en el intestino: en una persona adulta se calculan unos 38 billones de bacterias, una cifra del mismo orden que la de células humanas (Sender et al., PLoS Biology, 2016). La **disbiosis** es un desequilibrio de esa comunidad, y los **probióticos** son microorganismos vivos que se administran con el fin de aportar un beneficio.",
+     "Durante décadas se pensó que el disco sano era estéril. Un estudio publicado en European Spine Journal analizó con secuenciación genética (16S rRNA) 24 discos lumbares: 8 discos sanos en resonancia, procedentes de donantes de órganos, 8 discos herniados y 8 degenerados. Encontró ADN bacteriano en todos ellos, también en los sanos. En los discos sanos predominaban bacterias consideradas protectoras, y en los herniados y degenerados, bacterias potencialmente patógenas. Los autores concluyen que el disco tiene su propia microbiota y que su desequilibrio podría relacionarse con la salud o la enfermedad del disco (Rajasekaran et al., European Spine Journal, 2020).",
+     "A partir de hallazgos como este se ha propuesto el concepto de **eje intestino–disco**. Una revisión de 2022 describe tres mecanismos posibles por los que la microbiota intestinal podría influir en la degeneración del disco y en el dolor lumbar: el paso de bacterias a través de la barrera intestinal hasta el disco, la regulación del sistema inmunitario de la mucosa y del resto del cuerpo, y los nutrientes y metabolitos que se forman en el intestino y llegan al disco por difusión (Li et al., European Spine Journal, 2022). Cuando hay disbiosis, la barrera intestinal puede volverse más permeable y favorecer una inflamación de bajo grado; al disco, con su escasa vigilancia inmunitaria y su barrera propia entre la sangre y el disco, le costaría defenderse de esos estímulos.",
+     "Es importante decirlo con claridad: se trata de una **hipótesis emergente**. Hay asociaciones y mecanismos plausibles, pero todavía no se ha demostrado que la microbiota cause la degeneración discal ni que modificarla cure el dolor de espalda, y los distintos estudios sobre la microbiota del disco no siempre coinciden en las bacterias que encuentran. Lo que sí tiene sentido es cuidar a la vez los tres ejes que la evidencia relaciona con la inflamación y con el dolor: la alimentación, el movimiento y el estrés. Si además tiene molestias digestivas, puede consultar nuestras páginas de [salud digestiva y microbiota](salud-digestiva-microbiota) y de [PNI](pni-pnie-barcelona)."
+    ],
+    "list_title": "Hábitos que cuidan a la vez la microbiota y la espalda:",
+    "list": [
+     "Una alimentación rica en verduras, legumbres, fruta, frutos secos y alimentos fermentados, que aportan fibra y diversidad a la microbiota",
+     "Reducir los ultraprocesados, el azúcar y el alcohol, que favorecen la inflamación de bajo grado",
+     "Moverse cada día: el ejercicio regular se asocia a una microbiota más diversa y nutre el disco con el movimiento",
+     "Dormir bien y gestionar el estrés, que influye en la barrera intestinal y en la sensibilidad al dolor",
+     "No fumar: el tabaco empeora la nutrición del disco y es un factor de riesgo de lumbalgia",
+     "Consultar con su médico antes de tomar suplementos o probióticos por su cuenta"
+    ]
+   },
+   {
+    "h2": "La inflamación aguda: parte normal de la recuperación",
+    "paras": [
+     "Solemos pensar en la inflamación como algo que hay que apagar cuanto antes. Sin embargo, la **inflamación aguda** forma parte del proceso normal de reparación de los tejidos: atrae células de defensa, limpia los restos de la lesión y prepara la cicatrización. Un estudio de la Universidad McGill publicado en Science Translational Medicine ha abierto una línea de investigación interesante sobre el paso del dolor agudo al crónico.",
+     "Los investigadores siguieron durante 3 meses a **98 personas con lumbalgia aguda** y analizaron la actividad genética de sus células inmunitarias en sangre. En quienes se recuperaron observaron miles de cambios dinámicos, con una respuesta inflamatoria intensa y transitoria dirigida por los **neutrófilos**, que luego se resolvía; en quienes desarrollaron dolor persistente no se observaron esos cambios. En ratones, tratar el dolor muy pronto con un corticoide o con un antiinflamatorio no esteroideo alivió el dolor a corto plazo, pero lo prolongó en el tiempo, algo que no ocurrió con otros analgésicos. Por último, en los datos del UK Biobank, las personas con dolor de espalda agudo que tomaban antiinflamatorios tenían un mayor riesgo de que el dolor persistiera (Parisien et al., Science Translational Medicine, 2022).",
+     "Estos resultados hay que leerlos con **prudencia**. La parte humana es observacional y muestra una asociación, no una causa: es posible que quienes tienen un dolor más intenso o más persistente tomen más antiinflamatorios. La parte que demuestra el efecto es un estudio en animales. No es una razón para dejar ningún medicamento: la medicación la decide su médico, que conoce su caso. Lo que sí transmite es un mensaje útil: la inflamación aguda no es solo un enemigo, el dolor tiene una función protectora y, además de aliviarlo, conviene buscar su causa y favorecer la recuperación natural de los tejidos con movimiento progresivo, calor y terapia manual."
+    ]
+   },
+   {
+    "h2": "Dolor crónico: cuando el sistema nervioso se sensibiliza",
+    "paras": [
+     "Cuando la lumbalgia dura más de tres meses, el dolor deja de depender solo del estado de los tejidos. El sistema nervioso aprende el dolor: las neuronas de la médula y del cerebro se vuelven más sensibles, amplifican las señales que llegan de la espalda y pueden generar dolor con estímulos que antes no dolían. Es lo que se conoce como **sensibilización central**. Por eso hay personas con mucho dolor y una resonancia casi normal, y otras con grandes cambios en la imagen y poco dolor.",
+     "La neurociencia ha mostrado que el dolor crónico se acompaña de **cambios en el cerebro**. Con espectroscopia por resonancia magnética, una técnica que mide la concentración de sustancias químicas cerebrales (neurometabolitos), se han descrito alteraciones en las áreas que procesan el dolor, la llamada «matriz del dolor», en personas con lumbalgia crónica. Un ensayo aleatorizado con grupo de simulación, publicado en el Irish Journal of Medical Science, estudió qué ocurría tras tres sesiones de manipulación lumbar y sacroilíaca en pacientes con lumbalgia crónica inespecífica: en el grupo tratado aumentaron el N-acetilaspartato, un marcador de la salud de las neuronas, en el tálamo, la ínsula y la corteza prefrontal dorsolateral, y la colina en el tálamo, la ínsula y la corteza somatosensorial (Didehdar et al., Ir J Med Sci, 2020). Es un estudio pequeño, pero apoya la idea de que la terapia manual no actúa solo sobre la articulación, sino también sobre el **sistema nervioso central**.",
+     "Esta idea no es nueva. La **teoría de la compuerta** del dolor, propuesta por Melzack y Wall en 1965, explicó que las señales de movimiento, presión y tacto que entran en la médula pueden modular el paso de las señales de dolor hacia el cerebro (Melzack y Wall, Science, 1965). Los modelos actuales describen que el estímulo mecánico de la terapia manual desencadena respuestas en los nervios periféricos, la médula y el cerebro que reducen el dolor (Bialosky et al., Manual Therapy, 2009).",
+     "En la práctica clínica, el tratamiento osteopático ha mostrado reducir el dolor y mejorar la función en la lumbalgia crónica. Un metaanálisis de ensayos clínicos encontró una reducción del dolor clínicamente relevante a los 3 meses (Franke et al., BMC Musculoskeletal Disorders, 2014), y un ensayo con 455 pacientes mostró que una mejoría moderada del dolor a las 12 semanas era un 38 % más probable con tratamiento osteopático que con un tratamiento simulado (Licciardone et al., Annals of Family Medicine, 2013). En el dolor crónico, el objetivo no es solo aliviar un tejido, sino ayudar a un sistema nervioso sensibilizado a recuperar la confianza en el movimiento. Puede leer más en nuestra página de [dolor persistente](dolor-persistente-cronico)."
+    ]
+   },
+   {
+    "h2": "Señales de alarma: cuándo consultar con su médico",
+    "paras": [
+     "Son poco frecuentes, pero obligan a descartar otras causas antes de cualquier tratamiento manual. Ante las tres primeras, acuda a urgencias:"
+    ],
+    "list": [
+     "Adormecimiento en la zona genital o entre los muslos, dificultad para orinar o pérdida del control de la orina o de las deposiciones",
+     "Pérdida de fuerza en una o ambas piernas que avanza, o pie que «cae» al caminar",
+     "Dolor abdominal o lumbar muy intenso, súbito y pulsátil, sobre todo en personas mayores o con hipertensión",
+     "Fiebre, malestar general o una infección reciente",
+     "Pérdida de peso sin causa aparente o antecedentes de cáncer",
+     "Dolor nocturno intenso que no cede con el reposo ni con los cambios de postura",
+     "Dolor tras un traumatismo importante o, en personas con osteoporosis, tras un esfuerzo leve",
+     "Rigidez matutina prolongada que mejora con el ejercicio, en menores de 40 años, que puede indicar una enfermedad inflamatoria",
+     "Dolor relacionado con la orina, las comidas o el ciclo menstrual"
+    ]
+   },
+   {
+    "h2": "¿Cómo se valora? La anamnesis",
+    "paras": [
+     "La valoración empieza siempre por una **anamnesis detallada**, que es la parte más importante del diagnóstico. Se pregunta cómo y cuándo empezó el dolor, si hubo un esfuerzo, una caída o un movimiento brusco, qué posturas y movimientos lo empeoran o lo alivian, cómo se comporta por la mañana, a lo largo del día y por la noche, si baja por la pierna y hasta dónde, y si hay hormigueo, adormecimiento o pérdida de fuerza.",
+     "También se recogen el trabajo, la actividad física, el descanso, el nivel de estrés y las creencias sobre el dolor, que influyen mucho en la evolución. Se pregunta por antecedentes como cirugías abdominales o pélvicas, cesáreas, cicatrices, partos, traumatismos antiguos y problemas digestivos, urinarios o ginecológicos, por su relación con el dolor visceral referido. En algunos casos se utiliza un cuestionario breve para medir cómo afecta el dolor a la vida diaria y seguir su evolución. La anamnesis permite reconocer las señales de alarma, distinguir el dolor referido del radicular y decidir qué estructuras conviene explorar."
+    ]
+   },
+   {
+    "h2": "La exploración: la palpación como herramienta diagnóstica",
+    "paras": [
+     "La exploración física empieza observando la postura, la forma de caminar y la movilidad de la columna lumbar en flexión, extensión, inclinaciones y rotaciones. Después se realiza una **exploración ortopédica** de la pelvis, la articulación sacroilíaca y las caderas, y una **exploración neurológica** de las piernas: fuerza, sensibilidad, reflejos y pruebas de tensión del nervio, como la elevación de la pierna recta, cuando hay dolor irradiado.",
+     "La **palpación** es la herramienta central de la osteopatía. Permite apreciar la temperatura, la tensión y la movilidad de músculos, fascias, articulaciones y vísceras, y localizar las zonas que han perdido movimiento. Jean-Pierre Barral describe la **escucha manual**: con la mano apoyada sin presión, primero sobre el conjunto del cuerpo y después de forma local, se percibe hacia dónde se dirige la tensión de los tejidos. Así se distingue si el origen de una lumbalgia está en la propia columna, en la pelvis, en las caderas o en un órgano abdominal, y se decide qué tejido tratar.",
+     "Las pruebas de imagen, como la radiografía o la resonancia magnética, no son necesarias en la mayoría de los casos. Se reservan para las señales de alarma, los déficits neurológicos, los traumatismos o una evolución que no es la esperada. Si ya dispone de pruebas, tráigalas a la primera visita."
+    ]
+   },
+   {
+    "h2": "Tratamiento: primero, conservador",
+    "paras": [
+     "Las guías de práctica clínica coinciden en que el tratamiento inicial de la lumbalgia es **conservador** y no farmacológico: educación para el autocuidado, retomar la actividad normal y el ejercicio. La serie de The Lancet sobre lumbalgia recuerda además que en la práctica se abusa del **reposo**, de las pruebas de imagen y de los tratamientos invasivos (Foster et al., Lancet, 2018). El reposo en cama no se recomienda, porque retrasa la recuperación: es preferible reducir lo que más duele y mantener el resto de la actividad, empezando por caminar.",
+     "La guía británica NICE recomienda animar a continuar con las actividades normales y considerar la terapia manual (manipulación, movilización o técnicas de partes blandas) **dentro de un plan que incluya ejercicio** (NICE NG59, 2016, actualizada en 2020). Una revisión de 47 ensayos con más de 9.000 participantes mostró que la manipulación vertebral tiene efectos similares a los de otras terapias recomendadas en el dolor y produce una mejora funcional pequeña pero clínicamente relevante en la lumbalgia crónica (Rubinstein et al., BMJ, 2019).",
+     "Los fármacos que indique su médico pueden aliviar a corto plazo, y el frío o el calor dan un alivio temporal, aunque su efecto a largo plazo es limitado. Por eso conviene, además, buscar la causa y trabajar los factores que mantienen el dolor. Tratar una lumbalgia es una **estrategia a medio plazo, no un acto puntual**: un ensayo con trabajadores de baja por lumbalgia crónica mostró que un programa integrado de adaptación del puesto de trabajo y actividad progresiva redujo la mediana hasta la reincorporación de 208 a 88 días (Lambeek et al., BMJ, 2010). La técnica manual no se decide de antemano: se elige en cada caso tras la anamnesis y la exploración, según el tejido implicado, la fase del dolor y la edad y el estado de cada persona. Las infiltraciones o la cirugía se reservan para casos seleccionados con una causa definida."
+    ]
+   },
+   {
+    "h2": "Educación y participación del paciente",
+    "paras": [
+     "Entender qué le pasa es parte del tratamiento. Saber que la mayoría de las lumbalgias no se deben a una lesión grave, que el dolor no siempre significa daño, que los hallazgos de la resonancia son frecuentes en personas sin dolor y que moverse es seguro reduce el miedo y la tensión con la que se protege la espalda. Las guías clínicas, como la británica NICE, sitúan la información y el autocuidado en la base de cualquier plan.",
+     "La persona con lumbalgia no es un receptor pasivo de un tratamiento, sino la protagonista de su recuperación. Aprender a dosificar la actividad en los días malos, conocer los movimientos y posturas que le alivian, mantener un programa de ejercicio y reconocer las señales tempranas de sobrecarga, como la rigidez matutina o la molestia lumbar al final del día, le permite gestionar los episodios por sí misma y reduce la probabilidad de recaídas. El objetivo de cada sesión es también que salga entendiendo mejor su espalda."
+    ]
+   },
+   {
+    "h2": "Ejercicio y prevención",
+    "paras": [
+     "El ejercicio es el tratamiento con más respaldo en la lumbalgia y la mejor forma de prevenirla. Una revisión de 21 ensayos con más de 30.000 participantes mostró que el **ejercicio combinado con educación reduce un 45 % el riesgo** de un nuevo episodio de lumbalgia (RR 0,55), y el ejercicio solo, un 35 % (RR 0,65); en cambio, la educación sola, las fajas y las plantillas no lo previenen (Steffens et al., JAMA Internal Medicine, 2016). Otra revisión recomienda combinar ejercicios de fuerza con estiramientos o ejercicio aeróbico, de 2 a 3 veces por semana (Shiri et al., American Journal of Epidemiology, 2018).",
+     "¿Por qué influye tanto? La musculatura profunda del tronco y los **extensores de la columna** sostienen la zona lumbar y reparten las cargas; cuando pierden fuerza y resistencia, los discos, los ligamentos y las articulaciones soportan más esfuerzo. El disco, que no tiene vasos sanguíneos, se nutre con el movimiento: la alternancia de carga y descarga actúa como una esponja que expulsa e incorpora líquido. Y el ejercicio regular reduce la sensibilidad del sistema nervioso al dolor, mejora el sueño y el estado de ánimo, y ayuda a controlar el peso.",
+     "La prevención funciona como el cepillado de los dientes: es un hábito diario, no algo que se hace cuando ya duele. El dolor suele ser la última señal de un proceso en el que el cuerpo llevaba tiempo compensando. Cuidar la espalda con ejercicio de por vida, pausas frecuentes, buena técnica al cargar peso y revisiones periódicas cuando se tiende a las recaídas es más eficaz que esperar a la próxima crisis. Para empezar, puede apoyarse en nuestras [clases de estiramientos](clases-estiramientos) o en [yoga en grupos reducidos](yoga-particular-grupos-reducidos)."
+    ]
+   },
+   {
+    "h2": "Recomendaciones para el día a día",
+    "paras": [],
+    "list": [
+     "Manténgase activo: camine a diario, aunque sea en tramos cortos durante los días de más dolor.",
+     "Evite permanecer sentado más de 45–60 minutos seguidos; levántese, camine unos pasos y cambie de postura.",
+     "Al levantar peso, acerque la carga al cuerpo, flexione las rodillas y evite girar el tronco mientras carga.",
+     "Haga ejercicios de fuerza para el tronco, los glúteos y las piernas 2 o 3 veces por semana, incluidos los extensores de la espalda.",
+     "Al levantarse de la cama, gire primero de lado y empújese con los brazos para incorporarse.",
+     "Cuide el descanso: un sueño reparador reduce la sensibilidad al dolor.",
+     "Si el calor le alivia, aplíquelo 15–20 minutos en la zona lumbar antes de moverse.",
+     "Cuide la alimentación y la microbiota: más verdura, legumbres y fibra, menos ultraprocesados.",
+     "No espere a que duela: si nota rigidez matutina o molestias lumbares al final del día, son señales tempranas que conviene atender."
+    ]
+   }
+  ],
+  "evidence": {
+   "h2": "Qué dice la evidencia",
+   "items": [
+    [
+     "Carga global (Lancet Rheumatology)",
+     "En 2020, unos 619 millones de personas tenían dolor lumbar; es la primera causa mundial de años vividos con discapacidad (Ferreira et al., 2023)."
+    ],
+    [
+     "España (Spine)",
+     "La lumbalgia afecta al 17,1 % de los hombres y al 24,5 % de las mujeres y cuesta 8.945,6 millones de euros al año (Alonso-García y Sarría-Santamera, 2020)."
+    ],
+    [
+     "Lumbalgia inespecífica (CMAJ)",
+     "Alrededor del 90 % de las lumbalgias en atención primaria son inespecíficas, y las causas graves suponen menos del 1 % (Traeger et al., 2017)."
+    ],
+    [
+     "Imagen (AJNR)",
+     "La degeneración discal aparece en el 37 % de las personas sin síntomas a los 20 años y en el 96 % a los 80 (Brinjikji et al., 2015)."
+    ],
+    [
+     "Hernia discal (Clin Rehabil)",
+     "Con tratamiento conservador, el 70 % de las extrusiones discales lumbares y el 96 % de los secuestros muestran regresión espontánea (Chiu et al., 2015)."
+    ],
+    [
+     "Origen vertebral (J Man Manip Ther)",
+     "El 43,5 % de los dolores aislados de extremidades tenía origen en la columna, y el 71 % en el caso de la cadera (Rosedale et al., 2020)."
+    ],
+    [
+     "Microbiota del disco (Eur Spine J)",
+     "Se detectó ADN bacteriano en los 24 discos lumbares analizados, incluidos los sanos, con predominio de bacterias protectoras en estos (Rajasekaran et al., 2020)."
+    ],
+    [
+     "Dolor visceral (Compr Physiol)",
+     "La inervación de las vísceras es escasa y doble, por lo que su dolor es difuso y se refiere con frecuencia a estructuras somáticas como la espalda (Gebhart y Bielefeldt, 2016)."
+    ],
+    [
+     "Inflamación aguda (Sci Transl Med)",
+     "En 98 personas con lumbalgia aguda, una respuesta inflamatoria transitoria de los neutrófilos se asoció a la recuperación (Parisien et al., 2022)."
+    ],
+    [
+     "Osteopatía (Ann Fam Med)",
+     "En 455 pacientes con lumbalgia crónica, una mejoría moderada del dolor fue un 38 % más probable con tratamiento osteopático que con simulación (Licciardone et al., 2013)."
+    ],
+    [
+     "Prevención (JAMA Intern Med)",
+     "El ejercicio combinado con educación reduce un 45 % el riesgo de un nuevo episodio de lumbalgia (Steffens et al., 2016)."
+    ]
+   ],
+   "refs": [
+    {
+     "t": "Ferreira ML, de Luca K, Haile LM, et al. (GBD 2021 Low Back Pain Collaborators), 2023. «Global, regional, and national burden of low back pain, 1990–2020, its attributable risk factors, and projections to 2050: a systematic analysis of the Global Burden of Disease Study 2021». The Lancet Rheumatology.",
+     "doi": "10.1016/S2665-9913(23)00098-X"
+    },
+    {
+     "t": "Alonso-García M, Sarría-Santamera A, 2020. «The economic and social burden of low back pain in Spain: a national assessment of the economic and social impact of low back pain in Spain». Spine.",
+     "doi": "10.1097/BRS.0000000000003476"
+    },
+    {
+     "t": "Hartvigsen J, Hancock MJ, Kongsted A, et al., 2018. «What low back pain is and why we need to pay attention». The Lancet.",
+     "doi": "10.1016/S0140-6736(18)30480-X"
+    },
+    {
+     "t": "Traeger A, Buchbinder R, Harris I, Maher C, 2017. «Diagnosis and management of low-back pain in primary care». CMAJ.",
+     "doi": "10.1503/cmaj.170527"
+    },
+    {
+     "t": "Foster NE, Anema JR, Cherkin D, et al., 2018. «Prevention and treatment of low back pain: evidence, challenges, and promising directions». The Lancet.",
+     "doi": "10.1016/S0140-6736(18)30489-6"
+    },
+    {
+     "t": "Brinjikji W, Luetmer PH, Comstock B, et al., 2015. «Systematic literature review of imaging features of spinal degeneration in asymptomatic populations». American Journal of Neuroradiology.",
+     "doi": "10.3174/ajnr.A4173"
+    },
+    {
+     "t": "Chiu CC, Chuang TY, Chang KH, Wu CH, Lin PW, Hsu WY, 2015. «The probability of spontaneous regression of lumbar herniated disc: a systematic review». Clinical Rehabilitation.",
+     "doi": "10.1177/0269215514540919"
+    },
+    {
+     "t": "Rosedale R, Rastogi R, Kidd J, Lynch G, Supp G, Robbins SM, 2020. «A study exploring the prevalence of Extremity Pain of Spinal Source (EXPOSS)». Journal of Manual & Manipulative Therapy.",
+     "doi": "10.1080/10669817.2019.1661706"
+    },
+    {
+     "t": "Gebhart GF, Bielefeldt K, 2016. «Physiology of visceral pain». Comprehensive Physiology.",
+     "doi": "10.1002/cphy.c150049"
+    },
+    {
+     "t": "Cerveró F, 2014. «Pathophysiology of visceral pain». Revista Dor.",
+     "doi": "10.5935/1806-0013.20140032"
+    },
+    {
+     "t": "Rajasekaran S, Soundararajan DCR, Tangavel C, et al., 2020. «Human intervertebral discs harbour a unique microbiome and dysbiosis determines health and disease». European Spine Journal.",
+     "doi": "10.1007/s00586-020-06446-z"
+    },
+    {
+     "t": "Li W, Lai K, Chopra N, Zheng Z, Das A, Diwan AD, 2022. «Gut-disc axis: a cause of intervertebral disc degeneration and low back pain?». European Spine Journal.",
+     "doi": "10.1007/s00586-022-07152-8"
+    },
+    {
+     "t": "Sender R, Fuchs S, Milo R, 2016. «Revised estimates for the number of human and bacteria cells in the body». PLoS Biology.",
+     "doi": "10.1371/journal.pbio.1002533"
+    },
+    {
+     "t": "Parisien M, Lima LV, Dagostino C, et al., 2022. «Acute inflammatory response via neutrophil activation protects against the development of chronic pain». Science Translational Medicine.",
+     "doi": "10.1126/scitranslmed.abj9954"
+    },
+    {
+     "t": "Didehdar D, Kamali F, Kordi Yoosefinejad A, Lotfi M, 2020. «The effect of spinal manipulation on brain neurometabolites in chronic nonspecific low back pain patients: a randomized clinical trial». Irish Journal of Medical Science.",
+     "doi": "10.1007/s11845-019-02140-2"
+    },
+    {
+     "t": "Melzack R, Wall PD, 1965. «Pain mechanisms: a new theory». Science.",
+     "doi": "10.1126/science.150.3699.971"
+    },
+    {
+     "t": "Bialosky JE, Bishop MD, Price DD, Robinson ME, George SZ, 2009. «The mechanisms of manual therapy in the treatment of musculoskeletal pain: a comprehensive model». Manual Therapy.",
+     "doi": "10.1016/j.math.2008.09.001"
+    },
+    {
+     "t": "Franke H, Franke JD, Fryer G, 2014. «Osteopathic manipulative treatment for nonspecific low back pain: a systematic review and meta-analysis». BMC Musculoskeletal Disorders.",
+     "doi": "10.1186/1471-2474-15-286"
+    },
+    {
+     "t": "Licciardone JC, Minotti DE, Gatchel RJ, Kearns CM, Singh KP, 2013. «Osteopathic manual treatment and ultrasound therapy for chronic low back pain: a randomized controlled trial». Annals of Family Medicine.",
+     "doi": "10.1370/afm.1468"
+    },
+    {
+     "t": "Rubinstein SM, de Zoete A, van Middelkoop M, Assendelft WJJ, de Boer MR, van Tulder MW, 2019. «Benefits and harms of spinal manipulative therapy for the treatment of chronic low back pain: systematic review and meta-analysis of randomised controlled trials». BMJ.",
+     "doi": "10.1136/bmj.l689"
+    },
+    {
+     "t": "Lambeek LC, van Mechelen W, Knol DL, Loisel P, Anema JR, 2010. «Randomised controlled trial of integrated care to reduce disability from chronic low back pain in working and private life». BMJ.",
+     "doi": "10.1136/bmj.c1035"
+    },
+    {
+     "t": "Steffens D, Maher CG, Pereira LSM, et al., 2016. «Prevention of low back pain: a systematic review and meta-analysis». JAMA Internal Medicine.",
+     "doi": "10.1001/jamainternmed.2015.7431"
+    },
+    {
+     "t": "Shiri R, Coggon D, Falah-Hassani K, 2018. «Exercise for the prevention of low back pain: systematic review and meta-analysis of controlled trials». American Journal of Epidemiology.",
+     "doi": "10.1093/aje/kwx337"
+    },
+    {
+     "t": "Baradaran Mahdavi S, Riahi R, Vahdatpour B, Kelishadi R, 2021. «Association between sedentary behavior and low back pain; a systematic review and meta-analysis». Health Promotion Perspectives.",
+     "doi": "10.34172/hpp.2021.50"
+    },
+    {
+     "t": "National Institute for Health and Care Excellence (NICE), 2016 (actualizada en 2020). «Low back pain and sciatica in over 16s: assessment and management» (NG59). Londres: NICE.",
+     "doi": ""
+    }
+   ]
+  },
+  "faq": [
+   [
+    "¿Puedo acudir en plena fase aguda?",
+    "Sí. En la fase aguda el objetivo es aliviar el dolor y ayudarle a mantenerse activo dentro de lo tolerable, que es lo que más favorece la recuperación. Antes se descartan las señales de alarma."
+   ],
+   [
+    "¿Es mejor hacer reposo?",
+    "El reposo en cama ya no se recomienda, porque retrasa la recuperación. Es preferible un reposo relativo: reducir lo que más duele, caminar en tramos cortos y mantener el resto de la actividad."
+   ],
+   [
+    "¿Necesito una resonancia antes de la primera visita?",
+    "No es imprescindible. En la mayoría de las lumbalgias el diagnóstico es clínico, y muchos hallazgos de la resonancia aparecen también en personas sin dolor. Si ya dispone de pruebas, tráigalas y se revisan junto con su historia."
+   ],
+   [
+    "Tengo una hernia discal lumbar, ¿tendré que operarme?",
+    "En la mayoría de los casos, no. Muchas hernias mejoran con tratamiento conservador y una parte importante se reabsorbe de forma espontánea. La cirugía se plantea ante un síndrome de cola de caballo, una pérdida de fuerza progresiva o un dolor intenso que no responde tras varias semanas. Más información en [ciática y hernia discal](ciatica)."
+   ],
+   [
+    "¿Puede un problema digestivo causar dolor lumbar?",
+    "Sí. Los riñones, el intestino o los órganos pélvicos pueden referir dolor a la zona lumbar. Además, se investiga la relación entre la microbiota intestinal y el disco intervertebral, aunque por ahora es una hipótesis. Un dolor que se relaciona con las comidas, la orina o el ciclo menstrual debe valorarlo su médico."
+   ],
+   [
+    "Me duele la cadera, ¿puede venir de la espalda?",
+    "Puede. En el estudio EXPOSS, el 71 % de los pacientes con dolor aislado de cadera tenía un origen lumbar. Por eso, ante un dolor de cadera o de pierna que no mejora, conviene valorar también la columna lumbar y la pelvis."
+   ],
+   [
+    "¿Por qué vuelve el dolor cada cierto tiempo?",
+    "Las recaídas son habituales y suelen relacionarse con la pérdida de fuerza, la inactividad, el estrés o el mal descanso. El ejercicio regular, sobre todo si se acompaña de educación, reduce de forma clara la probabilidad de nuevos episodios."
+   ],
+   [
+    "¿Cuántas sesiones necesitaré?",
+    "Depende de cada caso. En la primera visita se valora su situación y se propone un plan con objetivos claros y revisiones periódicas."
+   ]
+  ],
+  "related": [
+   "ciatica",
+   "hernia-disco-incipiente",
+   "dorsalgia-dolor-espalda-alta",
+   "dolor-persistente-cronico"
+  ],
+  "cta_h2": "Recupere el movimiento de su espalda",
+  "seo": {
+   "kw": "lumbalgia Barcelona",
+   "kws": [
+    "dolor lumbar Barcelona",
+    "tratamiento lumbalgia crónica",
+    "dolor de espalda baja Sarrià",
+    "lumbalgia aguda qué hacer",
+    "dolor lumbar Sant Gervasi",
+    "hernia discal lumbar Barcelona"
+   ],
+   "ca_kw": "lumbàlgia Barcelona",
+   "quick": "La lumbalgia es el dolor en la parte baja de la espalda, entre las últimas costillas y los glúteos, que puede extenderse a la nalga o al muslo. En alrededor del 90 % de los casos es inespecífica, es decir, no se debe a una lesión grave, y su tratamiento inicial es conservador, con movimiento, terapia manual y ejercicio. En Sarrià–Sant Gervasi (Barcelona) se valora con una anamnesis detallada y una exploración palpatoria osteopática.",
+   "entity": [
+    "MedicalCondition",
+    "Lumbalgia"
+   ]
+  },
+  "research": [
+   "Personas con dolor lumbar agudo, recurrente o crónico, con o sin hernia discal, que quieren entender qué les pasa y buscan un tratamiento conservador en Barcelona.",
+   [
+    "lumbalgia tratamiento Barcelona",
+    "dolor lumbar crónico Barcelona",
+    "lumbalgia aguda qué hacer",
+    "hernia discal lumbar tratamiento conservador"
+   ],
+   [
+    "lumbàlgia tractament Barcelona",
+    "dolor lumbar Barcelona"
+   ],
+   "Unidades de columna hospitalarias, clínicas de fisioterapia y osteopatía con fichas breves y portales de salud con información general."
+  ],
+  "ca": {}
+ },
+ {
+  "slug": "ciatica",
+  "ca_slug": "ciatica",
+  "nav": "Ciática",
+  "card": "Dolor que baja de la zona lumbar o el glúteo por la pierna: qué es la ciática, sus orígenes y la hernia discal.",
+  "title": "Ciática y hernia discal en Barcelona | WA LAM",
+  "desc": "Qué es la ciática, el nervio ciático y sus orígenes: hernia discal, estenosis, sacroilíaca o piramidal. Señales de alarma y tratamiento conservador en Sarrià–Sant Gervasi, Barcelona.",
+  "h1": "Ciática y hernia discal en Barcelona",
+  "sub": "Dolor que baja por la pierna · Sarrià–Sant Gervasi",
+  "lead": "La ciática es el dolor que recorre el trayecto del nervio ciático, desde la zona lumbar o el glúteo hasta la pierna y, a veces, el pie. Su causa más frecuente es una hernia discal lumbar que irrita una raíz nerviosa. Aunque puede ser muy intensa, la mayoría de los casos mejora con un tratamiento conservador, y muchas hernias se reabsorben con el tiempo.",
+  "facts_title": "En WA LAM",
+  "facts": [
+   "Ciática y dolor irradiado a la pierna",
+   "Hernia y protrusión discal lumbar",
+   "Anamnesis y exploración neurológica y palpatoria",
+   "Primera visita: 60 min · 90 €"
+  ],
+  "wa": "Hola, me gustaría información sobre el tratamiento de la ciática.",
+  "mirror": {
+   "h2": "¿Se reconoce en estos síntomas?",
+   "qs": [
+    "¿Siente un dolor punzante que nace en el glúteo y baja por la parte posterior o externa de la pierna?",
+    "¿Nota hormigueo, adormecimiento o quemazón en la pantorrilla o en el pie?",
+    "¿El dolor aumenta al toser, estornudar o permanecer sentado?",
+    "¿Nota el pie más débil, tropieza o le cuesta ponerse de puntillas o de talones?"
+   ],
+   "close": "Si presenta alguna de las señales de alarma que explicamos más abajo, consulte primero con su médico o acuda a urgencias."
+  },
+  "explain": {
+   "h2": "¿Qué es la ciática?",
+   "paras": [
+    "La **ciática** es el dolor que sigue el recorrido del nervio ciático. Suele describirse como un dolor punzante que nace en el glúteo y se irradia por la parte posterior o externa de la pierna hasta la pantorrilla y el pie. Puede acompañarse de hormigueo en los pies, pérdida de sensibilidad o, al contrario, hipersensibilidad de la piel en algunas zonas de la pierna. Cuando se asocia a dolor lumbar se habla de **lumbociática**.",
+    "Más que una enfermedad, la ciática es un **síntoma**: indica que una raíz nerviosa lumbar o sacra está inflamada o comprimida. En la literatura médica se llama también dolor radicular o síndrome radicular lumbosacro, y se habla de **radiculopatía** cuando la afectación de la raíz produce un déficit neurológico, como debilidad o adormecimiento (Jensen et al., BMJ, 2019). Por eso se considera una forma de [dolor neuropático](dolor-neuropatico).",
+    "Conviene distinguirla de la **pseudociática** o dolor referido: un dolor en la nalga y el muslo que procede de las articulaciones de la espalda, de la articulación sacroilíaca o de los músculos, que no sigue el trayecto de un nervio y que rara vez pasa de la rodilla. Según su duración, la ciática se considera aguda en las primeras 6 semanas y crónica cuando persiste más de 12 semanas."
+   ]
+  },
+  "sections": [
+   {
+    "h2": "¿Es frecuente?",
+    "paras": [
+     "La ciática es una causa frecuente de dolor y de discapacidad. Comparada con la lumbalgia, suele ser más persistente e intensa y consume más recursos sanitarios. Las cifras de frecuencia varían mucho según cómo se defina: en una revisión de 23 estudios, la prevalencia oscilaba entre el 1,2 % y el 43 %, sobre todo por las diferencias en la definición y en la forma de recoger los datos (Konstantinou y Dunn, Spine, 2008).",
+     "Aparece con más frecuencia entre los 30 y los 50 años, la etapa en la que el disco intervertebral empieza a perder agua y elasticidad pero el núcleo todavía conserva presión suficiente para desplazarse. En las personas mayores es más habitual que el origen sea un estrechamiento del canal vertebral."
+    ]
+   },
+   {
+    "h2": "El nervio ciático: anatomía",
+    "paras": [
+     "El nervio ciático es el **nervio más grueso y más largo del cuerpo**: en su punto más ancho tiene aproximadamente el grosor de un dedo pulgar. Se forma en la pelvis a partir de cinco raíces nerviosas, las que salen entre las vértebras **L4, L5, S1, S2 y S3**, que se unen en el plexo sacro. Sale de la pelvis por la escotadura ciática, pasa por debajo (y a veces a través) del músculo piramidal o piriforme, desciende por la parte posterior del muslo y, por encima de la rodilla, se divide en el nervio tibial y el nervio peroneo común, que llegan hasta el pie.",
+     "Es un nervio mixto. Su parte **motora** controla los isquiotibiales, en la parte posterior del muslo, los músculos de la pantorrilla y los de la planta del pie, que permiten doblar la rodilla, ponerse de puntillas o levantar la punta del pie al caminar. Su parte **sensitiva** recoge el tacto, el frío, el calor y el dolor de gran parte de la pierna y del pie. Por eso su irritación puede producir desde un dolor leve hasta un ardor insoportable, y también hormigueo, adormecimiento o pérdida de fuerza.",
+     "Cada raíz tiene su territorio. La irritación de la raíz **L5** suele dar dolor en la cara externa de la pierna y el dorso del pie, hasta el dedo gordo, y debilidad para levantar la punta del pie. La de la raíz **S1** da dolor en la parte posterior de la pierna, el talón y el borde externo del pie, y debilidad para ponerse de puntillas. El recorrido del dolor ayuda, por tanto, a saber qué raíz está afectada."
+    ]
+   },
+   {
+    "h2": "Orígenes de la ciática",
+    "paras": [
+     "En alrededor del **90 % de los casos**, la ciática se debe a una hernia discal que comprime una raíz nerviosa; la estenosis lumbar y, con mucha menos frecuencia, los tumores son otras causas posibles (Koes et al., BMJ, 2007). Junto a ellas, hay otros orígenes que producen un dolor parecido y que conviene diferenciar en la valoración."
+    ],
+    "list_title": "Principales orígenes del dolor ciático:",
+    "list": [
+     "**Hernia o protrusión discal lumbar**: el núcleo del disco se desplaza y comprime o inflama una raíz, sobre todo L5 o S1. Es la causa más frecuente.",
+     "**Enfermedad degenerativa del disco y artrosis**: con los años, el disco pierde altura y las articulaciones y los ligamentos se engrosan, lo que reduce el espacio del canal vertebral o de los agujeros de conjunción (**estenosis**). Es típico el dolor en las piernas al caminar, que mejora al sentarse o al inclinarse hacia delante.",
+     "**Disfunción de la articulación sacroilíaca**: produce un dolor profundo en la nalga y la pierna que no sigue un dermatoma concreto; es una de las causas más frecuentes de pseudociática.",
+     "**Síndrome del piramidal o piriforme**: el nervio ciático pasa muy cerca de este músculo del glúteo, y en algunas personas lo atraviesa por variaciones anatómicas. Su tensión puede irritarlo y dar un dolor o un adormecimiento que empieza en el glúteo y es más intenso por encima de la rodilla.",
+     "**Embarazo**: el aumento de peso, el cambio del centro de gravedad, la mayor laxitud de los ligamentos y la presión del útero pueden provocar dolor lumbar, pélvico y ciático, que suele mejorar después del parto.",
+     "**Traumatismos**: una caída sobre el glúteo, un accidente o una fractura pueden lesionar el nervio o las estructuras que lo rodean.",
+     "**Otras causas menos frecuentes**: la espondilolistesis (deslizamiento de una vértebra), los quistes de las articulaciones facetarias y, de forma excepcional, las infecciones o los tumores."
+    ]
+   },
+   {
+    "h2": "Factores de riesgo",
+    "paras": [
+     "Los factores que favorecen la ciática son, en gran parte, los mismos que favorecen la degeneración del disco y la [lumbalgia](lumbalgia-dolor-lumbar). Algunos no dependen de nosotros, como la edad o la genética, pero muchos se pueden modificar con hábitos."
+    ],
+    "list": [
+     "Edad entre 30 y 50 años y cambios degenerativos del disco",
+     "Trabajos con carga, flexión y torsión repetidas o vibración, como la conducción profesional",
+     "Permanecer muchas horas sentado",
+     "Sedentarismo y poca fuerza de la musculatura del tronco y de los glúteos",
+     "Sobrepeso y tabaquismo, que empeoran la nutrición del disco",
+     "Episodios previos de dolor lumbar o ciático",
+     "Embarazo"
+    ]
+   },
+   {
+    "h2": "Síntomas",
+    "paras": [
+     "El síntoma principal es el **dolor en la pierna**, que a menudo es más intenso que el dolor lumbar. Suele afectar a una sola pierna y aumentar al toser, estornudar, hacer fuerza o permanecer sentado, porque estas acciones aumentan la presión sobre el disco y la raíz. Muchas personas encuentran alivio al caminar despacio o al tumbarse de lado con las rodillas flexionadas.",
+     "Si la compresión del nervio es importante o se mantiene, pueden aparecer trastornos de las habilidades motoras: pérdida de fuerza en el pie, tropiezos o dificultad para caminar de puntillas o de talones. En la mayoría de los casos esta discapacidad es temporal, pero una pérdida de fuerza que avanza debe valorarse sin demora, porque si se mantiene puede dejar secuelas."
+    ],
+    "list_title": "Síntomas habituales de la ciática:",
+    "list": [
+     "Dolor punzante o en forma de descarga eléctrica desde el glúteo hacia la pierna",
+     "Dolor que pasa por debajo de la rodilla y puede llegar al pie",
+     "Hormigueo, adormecimiento o quemazón en la pierna o el pie",
+     "Pérdida de sensibilidad o, al contrario, piel hipersensible en algunas zonas",
+     "Debilidad para levantar la punta del pie o para ponerse de puntillas",
+     "Dolor que empeora al estar sentado, al toser o al estornudar",
+     "Dificultad para caminar, dormir o encontrar una postura cómoda"
+    ]
+   },
+   {
+    "h2": "Hernia discal y ciática: cómo se forma una hernia",
+    "paras": [
+     "Para entender la hernia discal hay que conocer el disco. Entre cada dos vértebras hay un **disco intervertebral** con dos partes: el **anillo fibroso**, una envoltura exterior formada por láminas de fibras de colágeno cruzadas, como las capas de una cebolla, y el **núcleo pulposo**, un centro gelatinoso y rico en agua que reparte la presión cuando nos movemos o cargamos peso. El disco funciona como un amortiguador y da flexibilidad a la columna.",
+     "Con el paso de los años el disco pierde agua y el anillo se vuelve menos resistente. Es un **deterioro natural** que en la mayoría de las personas no da síntomas. A ello se suman las causas que podemos controlar, como los esfuerzos mal hechos, levantar peso con la espalda doblada y girada, el sedentarismo o el tabaco, y las que no, como la genética o un traumatismo. Las presiones repetidas en flexión y torsión pueden **agrietar el anillo** desde dentro hacia fuera.",
+     "Cuando el núcleo empuja el anillo debilitado pero sigue contenido por él, se forma un abultamiento llamado **protrusión discal**. Cuando el núcleo atraviesa el anillo y sale hacia el canal vertebral se habla de **hernia discal** o extrusión, y si un fragmento se separa del disco, de **secuestro**. En la columna lumbar, la hernia suele salir hacia atrás y hacia un lado, justo donde pasa la raíz nerviosa, y aparece sobre todo en los niveles L4-L5 y L5-S1. Las hernias son más frecuentes en la zona lumbar y en la cervical, las dos regiones con más movilidad. Si le han diagnosticado una protrusión, puede leer también nuestra página de [hernia de disco incipiente y protrusión discal](hernia-disco-incipiente).",
+     "Un hallazgo de imagen no equivale a un diagnóstico. En una revisión de 33 estudios con 3.110 personas **sin ningún síntoma**, se encontraron protrusiones discales en el 29 % de las personas de 20 años y en el 43 % de las de 80, y abultamientos discales en el 30 % y el 84 %, respectivamente (Brinjikji et al., AJNR, 2015). Muchas hernias y protrusiones son, por tanto, «mudas»: lo que importa es si encajan con los síntomas y la exploración."
+    ]
+   },
+   {
+    "h2": "Efectos de la hernia discal: sensitivos y motores",
+    "paras": [
+     "Cuando el núcleo pulposo se desplaza hacia la raíz nerviosa produce una **ciática verdadera**. El dolor no se debe solo a la presión mecánica: el material del núcleo, que normalmente está aislado del sistema inmunitario, provoca una **reacción inflamatoria** alrededor de la raíz que la sensibiliza. Por eso algunas hernias pequeñas duelen mucho y otras grandes apenas molestan.",
+     "Los efectos pueden ser **sensitivos**, como el hormigueo, el adormecimiento o las alteraciones de la sensibilidad en el territorio de la raíz, y **motores**, como la pérdida de fuerza en los músculos que dependen de ella o la disminución de los reflejos. En casos raros, una hernia grande en el centro del canal comprime varias raíces a la vez, las de la llamada **cola de caballo**, que controlan la vejiga, el intestino, el suelo pélvico y la función sexual. Es una urgencia quirúrgica que hay que reconocer a tiempo."
+    ],
+    "list_title": "Síntomas de compresión nerviosa que obligan a consultar de inmediato:",
+    "list": [
+     "Hormigueo o adormecimiento que se extiende o empeora",
+     "Pérdida de fuerza en la pierna o el pie que avanza",
+     "Incontinencia o, al contrario, dificultad para orinar",
+     "Pérdida de fuerza del suelo pélvico o del control de las deposiciones",
+     "Alteraciones de la erección de aparición reciente",
+     "Adormecimiento en la zona genital, el periné o la cara interna de los muslos («en silla de montar»)"
+    ]
+   },
+   {
+    "h2": "¿Hay que operar una hernia discal? La regresión espontánea",
+    "paras": [
+     "Una de las noticias más tranquilizadoras para quien tiene una hernia discal es que **el cuerpo puede reabsorberla**. La misma respuesta inflamatoria que irrita la raíz atrae células que van eliminando el material herniado. En una revisión sistemática de 31 estudios con pacientes tratados de forma conservadora y con al menos dos pruebas de imagen, la regresión espontánea se observó en el **96 % de los secuestros**, el **70 % de las extrusiones**, el 41 % de las protrusiones y el 13 % de los abultamientos discales. La desaparición completa se produjo en el 43 % de los secuestros y en el 15 % de las extrusiones (Chiu et al., Clinical Rehabilitation, 2015). Paradójicamente, las hernias más grandes y expulsadas son las que con más probabilidad se reabsorben.",
+     "La evolución clínica acompaña a estos datos. En un ensayo clínico con 283 personas con ciática intensa de 6 a 12 semanas de evolución, la cirugía precoz alivió antes el dolor de pierna, pero al cabo de un año los resultados fueron similares a los del tratamiento conservador prolongado: en ambos grupos el **95 % refería recuperación**, y solo el 39 % de los asignados al tratamiento conservador acabó operándose (Peul et al., New England Journal of Medicine, 2007).",
+     "Por eso, en ausencia de señales de alarma, el planteamiento recomendado es **conservador primero**. La cirugía tiene su lugar y, en algunos casos, es urgente: el síndrome de cola de caballo, la pérdida de fuerza importante o progresiva y el dolor incapacitante que no responde tras varias semanas de tratamiento bien hecho. La decisión corresponde al especialista, junto con el paciente."
+    ]
+   },
+   {
+    "h2": "La pelvis, el glúteo y el resto del cuerpo",
+    "paras": [
+     "Desde la osteopatía, la ciática se valora en el conjunto del cuerpo. El nervio ciático atraviesa la pelvis y el glúteo, rodeado de músculos, fascias y articulaciones, y cualquier tensión a lo largo de su recorrido puede irritarlo o hacerlo más sensible. Una articulación sacroilíaca bloqueada, un músculo piramidal en tensión o una cadera rígida pueden mantener un dolor ciático o imitarlo, aunque exista una hernia en la resonancia.",
+     "Jean-Pierre Barral desarrolló además la idea de que los nervios necesitan **deslizarse** entre los tejidos que los rodean cuando nos movemos: en su modelo, un nervio que ha perdido esa capacidad de deslizamiento, por una cicatriz, una inflamación antigua o una tensión muscular mantenida, se vuelve más sensible a la tracción y a la compresión. Por eso, en la valoración se explora también el recorrido del nervio por el glúteo y la parte posterior del muslo, y no solo el nivel de la columna donde aparece la hernia.",
+     "Esta visión global encaja con lo que muestran los estudios sobre el dolor de extremidades: en el estudio EXPOSS, el **71 %** de los pacientes con dolor aislado de cadera tenía un origen lumbar (Rosedale et al., Journal of Manual & Manipulative Therapy, 2020). La columna, la pelvis y la pierna funcionan como una sola unidad."
+    ]
+   },
+   {
+    "h2": "Cuando el dolor de espalda viene de una víscera",
+    "paras": [
+     "Un dolor en la parte baja de la espalda, la nalga o el muslo no siempre nace en la columna ni en el nervio ciático. Los órganos del abdomen y de la pelvis tienen una inervación escasa y doble, y sus señales son difusas y se **refieren** con frecuencia a la espalda (Gebhart y Bielefeldt, Comprehensive Physiology, 2016). La causa es la **convergencia viscerosomática**: las fibras que vienen de un órgano entran en la médula por los mismos segmentos que las de la piel y los músculos de la espalda y comparten neuronas con ellas, de modo que el cerebro atribuye a la espalda un dolor que procede de una víscera. El dolor visceral tiene además mecanismos propios, en los que influyen la motilidad del órgano y la hipersensibilidad del sistema nervioso central (Cerveró, Revista Dor, 2014).",
+     "Los ejemplos más relevantes para quien tiene dolor lumbar o en la pierna son el **riñón** y el uréter, que refieren dolor al flanco y a la zona lumbar y, en el cólico renal, a la ingle y a la cara interna del muslo; el **colon** y el recto, que pueden referir dolor a la zona lumbar baja y al sacro; el **útero, los ovarios y la vejiga**, que refieren dolor a la zona lumbar baja, al sacro y a veces a la parte alta de los muslos, como ocurre en la endometriosis o en el dolor menstrual intenso, y el **páncreas**, que da un dolor que atraviesa del abdomen a la espalda. En el embarazo, el peso del útero y los cambios de la pelvis se suman a todo ello.",
+     "Las **cicatrices abdominales y pélvicas**, como las de una cesárea, una apendicectomía o una histerectomía, y las **adherencias** que dejan las cirugías y las infecciones, forman tejido rígido en profundidad. **Según el modelo de Barral**, ese tejido actúa como un punto fijo alrededor del cual tienen que adaptarse la pelvis y la columna lumbar. Barral y sus discípulos describen, por ejemplo, que el ciego y el colon sigmoide se relacionan con la articulación sacroilíaca derecha e izquierda, que un riñón descendido sobre el psoas podría irritar alguno de los nervios que pasan por delante de este músculo, como el ilioinguinal, que da dolor en la ingle, y que una cicatriz antigua de apendicectomía podría mantener una irritación en la zona de la primera vértebra lumbar. Son relaciones basadas en la anatomía y en la experiencia clínica, no demostradas en ensayos controlados.",
+     "Barral cuenta que su interés por estas relaciones nació de un paciente al que trataba la columna y cuyo dolor de espalda había mejorado después de que «un anciano le empujara algo en el abdomen». En la práctica, una ciática o una pseudociática que no cambia con el movimiento, que se relaciona con la digestión, la micción o el ciclo menstrual, o que comenzó tras una cirugía abdominal, invita a explorar también el abdomen y la pelvis con la **escucha manual**, después de descartar con su médico un problema orgánico. Puede leer más en nuestras páginas de [osteopatía visceral](osteopatia-visceral-barcelona) y de [dolor pélvico](dolor-pelvico-barcelona)."
+    ],
+    "list_title": "Señales de alarma de origen visceral (consulte con su médico o acuda a urgencias):",
+    "list": [
+     "Dolor muy intenso en un costado, en oleadas, que baja hacia la ingle, con náuseas o vómitos",
+     "Dolor lumbar con fiebre, escalofríos, escozor al orinar o sangre en la orina",
+     "Dolor abdominal o lumbar súbito e intenso, sobre todo en mayores de 60 años, fumadores o hipertensos",
+     "Sangre en las heces o un cambio persistente del ritmo intestinal",
+     "Sangrado vaginal anormal, dolor pélvico intenso o, en el embarazo, contracciones o pérdidas",
+     "Dolor que no cambia con ningún movimiento ni postura, pérdida de peso o cansancio intenso"
+    ]
+   },
+   {
+    "h2": "Microbiota y disco intervertebral",
+    "paras": [
+     "Una línea de investigación reciente relaciona la salud del disco con la microbiota. Un estudio que analizó 24 discos lumbares, sanos, herniados y degenerados, encontró ADN bacteriano en todos ellos, con predominio de bacterias protectoras en los discos sanos y de bacterias potencialmente patógenas en los herniados y degenerados (Rajasekaran et al., European Spine Journal, 2020). A partir de estos hallazgos se ha propuesto un **eje intestino–disco**: un desequilibrio de la microbiota intestinal podría favorecer una inflamación de bajo grado que alcance el disco, que apenas tiene vigilancia inmunitaria (Li et al., European Spine Journal, 2022).",
+     "Es una **hipótesis emergente** y todavía no se ha demostrado que cause la degeneración del disco ni la ciática. Sin embargo, refuerza la idea de cuidar a la vez la alimentación, el movimiento y el estrés. Lo explicamos con detalle en nuestra página de [lumbalgia](lumbalgia-dolor-lumbar) y en la de [salud digestiva y microbiota](salud-digestiva-microbiota)."
+    ]
+   },
+   {
+    "h2": "Señales de alarma: cuándo consultar con su médico",
+    "paras": [
+     "Son poco frecuentes, pero requieren atención médica antes de cualquier tratamiento manual. Ante las cuatro primeras, acuda a urgencias:"
+    ],
+    "list": [
+     "Adormecimiento en la zona genital, el periné o la cara interna de los muslos («en silla de montar»)",
+     "Dificultad para orinar, retención de orina o pérdida del control de la orina o de las deposiciones",
+     "Pérdida de fuerza en la pierna que avanza, pie que «cae» al caminar o síntomas en ambas piernas",
+     "Pérdida de fuerza del suelo pélvico o alteraciones de la erección de aparición reciente junto con dolor ciático",
+     "Fiebre, malestar general o una infección reciente",
+     "Pérdida de peso sin causa aparente o antecedentes de cáncer",
+     "Dolor nocturno intenso que no cede con ninguna postura",
+     "Dolor tras un traumatismo importante"
+    ]
+   },
+   {
+    "h2": "¿Cómo se valora? La anamnesis",
+    "paras": [
+     "La valoración empieza por una **anamnesis detallada**: cómo empezó el dolor, si hubo un esfuerzo o una caída, por dónde baja exactamente y hasta dónde llega, si hay hormigueo, adormecimiento o pérdida de fuerza, qué posturas lo empeoran o lo alivian y cómo se comporta al estar sentado, al caminar y por la noche. El recorrido del dolor orienta hacia la raíz afectada y ayuda a distinguir una ciática verdadera de una pseudociática.",
+     "También se pregunta por el trabajo, la actividad física, el descanso y el estrés, por embarazos y partos, cirugías abdominales o pélvicas, cicatrices y problemas digestivos o urinarios, y por las pruebas y los tratamientos que ya ha recibido. La anamnesis permite, sobre todo, reconocer las señales de alarma que requieren derivación médica."
+    ]
+   },
+   {
+    "h2": "La exploración: neurológica y palpatoria",
+    "paras": [
+     "La exploración incluye una **valoración neurológica** de las piernas: la fuerza de los distintos grupos musculares, la sensibilidad, los reflejos rotuliano y aquíleo y las pruebas de tensión del nervio, como la **elevación de la pierna recta** (maniobra de Lasègue), que reproduce el dolor cuando la raíz está irritada. Se valoran también la movilidad de la columna lumbar, la pelvis, la articulación sacroilíaca y las caderas.",
+     "La **palpación** completa la exploración. Permite valorar la tensión del glúteo y del músculo piramidal, la movilidad de la sacroilíaca y de las vértebras lumbares, y el estado de los tejidos a lo largo del recorrido del nervio. La **escucha manual** de Barral, con la mano apoyada sin presión, ayuda a percibir hacia dónde se dirige la tensión de los tejidos y a decidir si conviene explorar también la pelvis o el abdomen.",
+     "La resonancia magnética se reserva para los casos con déficit neurológico importante, señales de alarma o dolor que no mejora tras varias semanas, o cuando se plantea una infiltración o una cirugía. Si ya tiene pruebas, tráigalas a la primera visita."
+    ]
+   },
+   {
+    "h2": "Tratamiento: primero, conservador",
+    "paras": [
+     "Las guías clínicas recientes de Dinamarca, Estados Unidos y Reino Unido destacan el papel del **tratamiento conservador** en la ciática (Jensen et al., BMJ, 2019). Incluye explicar el buen pronóstico de la mayoría de los casos, mantenerse activo dentro de lo tolerable y evitar el reposo en cama prolongado. El miedo y el dolor frenan la actividad física, pero moverse de forma adaptada sigue siendo la mejor opción para que el nervio se recupere.",
+     "Su médico puede indicar analgésicos, antiinflamatorios o fármacos para el dolor neuropático en las fases de más intensidad; conviene, además, buscar la causa y trabajar los factores que mantienen la irritación del nervio. La guía británica NICE recomienda considerar la terapia manual, como la manipulación, la movilización o las técnicas de partes blandas, **dentro de un plan que incluya ejercicio** (NICE NG59, 2016, actualizada en 2020). En el embarazo, el tratamiento osteopático ha mostrado reducir el dolor lumbar y pélvico y mejorar la función (Franke et al., Journal of Bodywork and Movement Therapies, 2017).",
+     "El planteamiento suele avanzar por etapas: primero, reducir la irritación de la raíz y el dolor; después, mejorar la mecánica de la columna lumbar, la pelvis y la cadera para repartir mejor las cargas sobre el disco; por último, estabilizar con ejercicios de fuerza y control y prevenir las recaídas. La técnica manual no se decide de antemano: se elige en cada caso tras la anamnesis y la exploración. Las infiltraciones epidurales o la cirugía se reservan para el dolor intenso que no responde o para el déficit neurológico progresivo."
+    ]
+   },
+   {
+    "h2": "Ejercicio y prevención",
+    "paras": [
+     "En la ciática el ejercicio se adapta a la sensibilidad del nervio: el objetivo de las primeras semanas no es estirar con fuerza, sino **descomprimir y movilizar suavemente** la zona lumbar y dejar que el nervio se deslice sin irritarlo. Algunas posturas suelen aliviar. La **postura del niño** del yoga, de rodillas con las nalgas sobre los talones y el tronco inclinado hacia delante con los brazos estirados, abre el espacio de la parte posterior de las vértebras lumbares y relaja la musculatura. Tumbarse boca arriba con las piernas apoyadas sobre una silla, con caderas y rodillas a 90 grados, descarga la presión sobre el disco.",
+     "Hay que escuchar la respuesta: un ejercicio es adecuado si el dolor de la pierna se mantiene o se **centraliza**, es decir, se retira hacia la zona lumbar; si el dolor baja más por la pierna o aumenta el hormigueo, conviene detenerlo y consultarlo. Cuando el dolor se calma, se incorporan ejercicios de fuerza para el tronco, los glúteos y las piernas, y el ejercicio aeróbico, como caminar, nadar o la bicicleta estática.",
+     "Para prevenir nuevos episodios sirven los mismos principios que en la lumbalgia: el ejercicio combinado con educación reduce un 45 % el riesgo de un nuevo episodio de dolor lumbar (Steffens et al., JAMA Internal Medicine, 2016). El disco se nutre con el movimiento, y una musculatura fuerte reparte mejor las cargas. Las pausas frecuentes cuando se pasa mucho tiempo sentado, una buena técnica al levantar peso, no fumar y mantener un peso saludable cuidan el disco a largo plazo."
+    ],
+    "list_title": "Ejercicios suaves que suelen aliviar (sin forzar):",
+    "list": [
+     "Postura del niño: 30–60 segundos respirando con calma, 3 o 4 veces",
+     "Tumbado boca arriba con las piernas sobre una silla, caderas y rodillas a 90 grados, unos minutos varias veces al día",
+     "Rodillas al pecho, primero una y luego las dos, sin tirar con fuerza",
+     "Basculación suave de la pelvis tumbado boca arriba con las rodillas dobladas",
+     "Paseos cortos varias veces al día, aumentando poco a poco la distancia"
+    ]
+   },
+   {
+    "h2": "Recomendaciones para el día a día",
+    "paras": [],
+    "list": [
+     "Manténgase activo: camine en tramos cortos varias veces al día.",
+     "Evite estar sentado mucho tiempo; si tiene que hacerlo, levántese cada 30–45 minutos.",
+     "Para dormir, pruebe de lado con una almohada entre las rodillas o boca arriba con un cojín bajo las rodillas.",
+     "Al toser o estornudar, apoye las manos o flexione ligeramente las rodillas para reducir la presión sobre el disco.",
+     "Al levantar peso, acerque la carga al cuerpo, doble las rodillas y no gire el tronco.",
+     "Aplique calor en la zona lumbar y el glúteo si le alivia.",
+     "Retome el ejercicio de forma gradual y deje los movimientos que hacen bajar el dolor por la pierna.",
+     "Consulte de inmediato si aparecen las señales de alarma descritas más arriba."
+    ]
+   }
+  ],
+  "evidence": {
+   "h2": "Qué dice la evidencia",
+   "items": [
+    [
+     "Causa más frecuente (BMJ)",
+     "En alrededor del 90 % de los casos, la ciática se debe a una hernia discal con compresión de una raíz nerviosa (Koes et al., 2007)."
+    ],
+    [
+     "Frecuencia (Spine)",
+     "La prevalencia de la ciática oscila entre el 1,2 % y el 43 % según la definición utilizada en 23 estudios (Konstantinou y Dunn, 2008)."
+    ],
+    [
+     "Regresión espontánea (Clin Rehabil)",
+     "Con tratamiento conservador, se reabsorbe el 96 % de los secuestros discales, el 70 % de las extrusiones y el 41 % de las protrusiones (Chiu et al., 2015)."
+    ],
+    [
+     "Hernias sin síntomas (AJNR)",
+     "Entre el 29 % y el 43 % de las personas sin dolor presentan protrusiones discales en la imagen, según la edad (Brinjikji et al., 2015)."
+    ],
+    [
+     "Cirugía o conservador (NEJM)",
+     "En 283 personas con ciática intensa, el 95 % refería recuperación al año tanto con cirugía precoz como con tratamiento conservador prolongado (Peul et al., 2007)."
+    ],
+    [
+     "Guías clínicas (BMJ)",
+     "Las guías de Dinamarca, Estados Unidos y Reino Unido destacan el tratamiento conservador como primera opción en la ciática (Jensen et al., 2019)."
+    ],
+    [
+     "Origen vertebral (J Man Manip Ther)",
+     "El 71 % de los pacientes con dolor aislado de cadera tenía un origen en la columna lumbar (Rosedale et al., 2020)."
+    ],
+    [
+     "Dolor visceral (Compr Physiol)",
+     "El dolor de los órganos es difuso y se refiere con frecuencia a la espalda por la escasa y doble inervación visceral (Gebhart y Bielefeldt, 2016)."
+    ],
+    [
+     "Embarazo (J Bodyw Mov Ther)",
+     "El tratamiento osteopático redujo el dolor lumbar y pélvico y mejoró la función durante el embarazo (Franke et al., 2017)."
+    ]
+   ],
+   "refs": [
+    {
+     "t": "Koes BW, van Tulder MW, Peul WC, 2007. «Diagnosis and treatment of sciatica». BMJ.",
+     "doi": "10.1136/bmj.39223.428495.BE"
+    },
+    {
+     "t": "Jensen RK, Kongsted A, Kjaer P, Koes B, 2019. «Diagnosis and treatment of sciatica». BMJ.",
+     "doi": "10.1136/bmj.l6273"
+    },
+    {
+     "t": "Konstantinou K, Dunn KM, 2008. «Sciatica: review of epidemiological studies and prevalence estimates». Spine.",
+     "doi": "10.1097/BRS.0b013e318183a4a2"
+    },
+    {
+     "t": "Chiu CC, Chuang TY, Chang KH, Wu CH, Lin PW, Hsu WY, 2015. «The probability of spontaneous regression of lumbar herniated disc: a systematic review». Clinical Rehabilitation.",
+     "doi": "10.1177/0269215514540919"
+    },
+    {
+     "t": "Brinjikji W, Luetmer PH, Comstock B, et al., 2015. «Systematic literature review of imaging features of spinal degeneration in asymptomatic populations». American Journal of Neuroradiology.",
+     "doi": "10.3174/ajnr.A4173"
+    },
+    {
+     "t": "Peul WC, van Houwelingen HC, van den Hout WB, et al., 2007. «Surgery versus prolonged conservative treatment for sciatica». New England Journal of Medicine.",
+     "doi": "10.1056/NEJMoa064039"
+    },
+    {
+     "t": "Rosedale R, Rastogi R, Kidd J, Lynch G, Supp G, Robbins SM, 2020. «A study exploring the prevalence of Extremity Pain of Spinal Source (EXPOSS)». Journal of Manual & Manipulative Therapy.",
+     "doi": "10.1080/10669817.2019.1661706"
+    },
+    {
+     "t": "Gebhart GF, Bielefeldt K, 2016. «Physiology of visceral pain». Comprehensive Physiology.",
+     "doi": "10.1002/cphy.c150049"
+    },
+    {
+     "t": "Cerveró F, 2014. «Pathophysiology of visceral pain». Revista Dor.",
+     "doi": "10.5935/1806-0013.20140032"
+    },
+    {
+     "t": "Rajasekaran S, Soundararajan DCR, Tangavel C, et al., 2020. «Human intervertebral discs harbour a unique microbiome and dysbiosis determines health and disease». European Spine Journal.",
+     "doi": "10.1007/s00586-020-06446-z"
+    },
+    {
+     "t": "Li W, Lai K, Chopra N, Zheng Z, Das A, Diwan AD, 2022. «Gut-disc axis: a cause of intervertebral disc degeneration and low back pain?». European Spine Journal.",
+     "doi": "10.1007/s00586-022-07152-8"
+    },
+    {
+     "t": "Franke H, Franke JD, Belz S, Fryer G, 2017. «Osteopathic manipulative treatment for low back and pelvic girdle pain during and after pregnancy: a systematic review and meta-analysis». Journal of Bodywork and Movement Therapies.",
+     "doi": "10.1016/j.jbmt.2017.05.014"
+    },
+    {
+     "t": "Steffens D, Maher CG, Pereira LSM, et al., 2016. «Prevention of low back pain: a systematic review and meta-analysis». JAMA Internal Medicine.",
+     "doi": "10.1001/jamainternmed.2015.7431"
+    },
+    {
+     "t": "National Institute for Health and Care Excellence (NICE), 2016 (actualizada en 2020). «Low back pain and sciatica in over 16s: assessment and management» (NG59). Londres: NICE.",
+     "doi": ""
+    }
+   ]
+  },
+  "faq": [
+   [
+    "¿Cuánto tarda en mejorar la ciática?",
+    "La mayoría de las personas nota mejoría en las primeras semanas, aunque el nervio puede necesitar varios meses para calmarse del todo. Por eso se avanza por etapas y se ajusta el plan según la evolución."
+   ],
+   [
+    "¿Qué diferencia hay entre una protrusión y una hernia discal?",
+    "En la protrusión, el núcleo del disco abomba el anillo fibroso sin romperlo. En la hernia, el núcleo atraviesa el anillo y sale hacia el canal vertebral. Ninguna de las dos produce síntomas necesariamente; lo importante es si encajan con la clínica."
+   ],
+   [
+    "¿Una hernia discal desaparece sola?",
+    "Puede. Con tratamiento conservador, una revisión sistemática observó regresión espontánea en el 70 % de las extrusiones y en el 96 % de los fragmentos secuestrados. Las hernias más grandes son, paradójicamente, las que más se reabsorben."
+   ],
+   [
+    "¿La ciática siempre necesita cirugía?",
+    "No. La mayoría de los casos mejora con tratamiento conservador. La cirugía se plantea ante un síndrome de cola de caballo, una pérdida de fuerza importante o progresiva o un dolor intenso que no responde tras varias semanas."
+   ],
+   [
+    "¿Es mejor hacer reposo?",
+    "En general, no. Mantenerse activo dentro de lo tolerable favorece la recuperación más que el reposo en cama. Caminar en tramos cortos suele ser bien tolerado."
+   ],
+   [
+    "¿Puede ser ciática si me duele solo el glúteo?",
+    "Puede ser una ciática incipiente, pero también un dolor referido de la articulación sacroilíaca o un síndrome del piramidal. La exploración ayuda a diferenciarlos, porque el tratamiento cambia."
+   ],
+   [
+    "Estoy embarazada y tengo ciática, ¿puedo consultar?",
+    "Sí. El dolor lumbar, pélvico y ciático es frecuente en el embarazo. Se valora con las adaptaciones necesarias para cada trimestre y se coordina con su ginecólogo o matrona cuando hace falta."
+   ],
+   [
+    "¿Puedo acudir si tengo una hernia discal diagnosticada?",
+    "Sí. Traiga sus pruebas a la primera visita; se revisan junto con su historia clínica y la exploración."
+   ]
+  ],
+  "related": [
+   "hernia-disco-incipiente",
+   "lumbalgia-dolor-lumbar",
+   "dolor-neuropatico",
+   "dolor-persistente-cronico"
+  ],
+  "cta_h2": "Dé el primer paso para aliviar su pierna",
+  "seo": {
+   "kw": "ciática Barcelona",
+   "kws": [
+    "tratamiento ciática Barcelona",
+    "dolor nervio ciático",
+    "lumbociática tratamiento",
+    "ciática hernia discal",
+    "hernia discal",
+    "hernia discal Barcelona",
+    "hernia discal lumbar tratamiento conservador"
+   ],
+   "ca_kw": "ciàtica Barcelona",
+   "quick": "La ciática es el dolor que recorre el trayecto del nervio ciático, desde el glúteo hasta la pierna y el pie, y suele acompañarse de hormigueo o adormecimiento. En alrededor del 90 % de los casos se debe a una hernia discal lumbar que irrita una raíz nerviosa. La mayoría mejora con tratamiento conservador, y muchas hernias se reabsorben de forma espontánea.",
+   "entity": [
+    "MedicalCondition",
+    "Ciática"
+   ]
+  },
+  "research": [
+   "Personas con dolor que baja por la pierna, con o sin hernia discal diagnosticada, que quieren entender su origen y buscan un tratamiento conservador en Barcelona.",
+   [
+    "ciática tratamiento Barcelona",
+    "dolor nervio ciático qué hacer",
+    "hernia discal tratamiento conservador",
+    "hernia discal se reabsorbe"
+   ],
+   [
+    "ciàtica tractament Barcelona",
+    "dolor del nervi ciàtic",
+    "hèrnia discal Barcelona"
+   ],
+   "Unidades de columna y traumatología con contenido quirúrgico, portales de salud generalistas y clínicas de fisioterapia con fichas breves."
+  ],
+  "ca": {}
+ }
+]

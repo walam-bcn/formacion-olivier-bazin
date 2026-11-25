@@ -2790,3 +2790,66 @@ for _p in PAGES:
     _p["blocks"] = _nb
     _p["lead"] = "La osteopatía es una disciplina de terapia manual que valora y trata la movilidad de los tejidos del cuerpo: articulaciones, músculos, fascias, vísceras y sistema nervioso. Cada tratamiento parte de una anamnesis y una exploración palpatoria detalladas."
     _p["sub"] = "Osteopatía estructural, visceral y craneosacral · Barcelona"
+
+# Ilustraciones propias (25 nov 2026): (figura, fragmento del H2 tras el que va, pie)
+FIG_PLACE = {
+    "osteopatia-sarria-sant-gervasi": [("columna_organos", "¿Qué hace un osteópata?", "Cada nivel de la columna se relaciona con órganos concretos a través del sistema nervioso autónomo."),
+                                       ("menos_mas", "Las tres fases", "")],
+    "osteopatia-visceral-barcelona": [("columna_organos", "víscera", "Niveles de la columna relacionados con cada órgano.")],
+    "cervicalgia-dolor-cuello": [("cabeza_adelantada", "cabeza adelantada", ""), ("cabeza_adelantada_zonas", "cabeza adelantada", "")],
+    "cefaleas-migrana": [("cabeza_adelantada_zonas", "postura", "")],
+    "ciatica": [("nervio_ciatico", "¿Qué es", ""), ("disco_progresion", "ernia", ""), ("sintomas_compresion", "ernia", "")],
+    "lumbalgia-dolor-lumbar": [("disco_progresion", "ernia", ""), ("sintomas_compresion", "ernia", ""), ("eje_intestino_disco", "icrobiota", "")],
+    "hernia-disco-incipiente": [("disco_progresion", "¿Qué es", ""), ("sintomas_compresion", "fectos", ""), ("eje_intestino_disco", "icrobiota", "")],
+    "salud-digestiva-microbiota": [("eje_intestino_disco", "dolor de espalda", "")],
+    "pni-pnie-barcelona": [("eje_intestino_disco", "dolor de espalda", "")],
+}
+
+
+def _place_figs():
+    for _p in PAGES:
+        for fig, frag, cap in FIG_PLACE.get(_p["slug"], []):
+            bl = _p["blocks"]
+            k = next((i for i, b in enumerate(bl) if frag.lower() in str(b.get("h2", "")).lower()), None)
+            if k is None:
+                continue
+            j = k + 1
+            while j < len(bl) and bl[j].get("type") == "figure":
+                j += 1
+            bl.insert(j, {"type": "figure", "fig": fig, "caption": cap, "_id": f"fig-{fig}"})
+
+
+
+# Apartados añadidos a páginas existentes (material de Rosa, 25 nov 2026)
+def _extra_sections():
+    import json as _j
+    from pathlib import Path as _P
+    fx = _P(__file__).with_name("new_pages") / "extra_sections.json"
+    if not fx.exists():
+        return
+    ex = _j.loads(fx.read_text(encoding="utf-8"))
+    for _p in PAGES:
+        e = ex.get(_p["slug"])
+        if not e:
+            continue
+        bl = _p["blocks"]
+        have = " ".join(str(b.get("h2", "")).lower() for b in bl)
+        new = []
+        for sec in e.get("sections", []):
+            if sec["h2"].lower() in have or ("víscera" in sec["h2"].lower() and "víscera" in have):
+                continue
+            blk = {"type": "explain", "eyebrow": "", "h2": sec["h2"], "paras": sec.get("paras", [])}
+            if sec.get("list"):
+                blk["list_title"] = sec.get("list_title", ""); blk["list"] = sec["list"]
+            new.append(blk)
+        k = next((i for i, b in enumerate(bl) if b.get("type") in ("visit", "phases", "steps", "pro", "evidence")), len(bl))
+        bl[k:k] = new
+        ev = next((b for b in bl if b.get("type") == "evidence"), None)
+        if ev is not None:
+            ev["items"] = list(ev.get("items", [])) + [tuple(x) for x in e.get("evidence_items", [])]
+            dois = {r.get("doi") for r in ev.get("refs", []) if isinstance(r, dict)}
+            ev["refs"] = list(ev.get("refs", [])) + [r for r in e.get("refs", []) if r.get("doi") not in dois]
+
+
+_extra_sections()
+_place_figs()
