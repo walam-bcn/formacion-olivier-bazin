@@ -2958,3 +2958,14 @@ for _p in PAGES:
     _fe = next((u[0] for u in _units if u[0].get("type") == "explain"), None)
     _units = sorted(enumerate(_units), key=lambda iu: (_rank(iu[1][0], _fe), iu[0]))
     _p["blocks"] = [b for _, u in _units for b in u]
+
+# Rosa (25 nov 2026): fuera «¿Cómo es la primera visita?» (ya se explica en diagnóstico/exploración)
+# y fuera el precio en las páginas de motivos de consulta.
+for _p in (PAGES if isinstance(PAGES, list) else PAGES.values()):
+    if _p.get("group") == "home":
+        continue
+    _p["blocks"] = [b for b in _p.get("blocks", []) if b.get("type") != "visit"]
+    if _p.get("group") == "motivo":
+        for _b in _p["blocks"]:
+            if _b.get("type") == "pro" and _b.get("rows"):
+                _b["rows"] = [r for r in _b["rows"] if "Precio" not in str(r) and "Preu" not in str(r)]
