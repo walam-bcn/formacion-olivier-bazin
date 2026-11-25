@@ -1,0 +1,1166 @@
+[
+ {
+  "slug": "hernia-disco-incipiente",
+  "ca_slug": "hernia-disc-incipient",
+  "nav": "Hernia de disco y protrusión",
+  "card": "Protrusión y hernia discal lumbar o cervical: qué son, por qué aparecen, cuándo preocuparse y cómo se tratan de forma conservadora.",
+  "title": "Hernia de disco y protrusión discal en Barcelona | WA LAM",
+  "desc": "Qué es una hernia de disco o una protrusión discal, por qué aparece, qué síntomas da y cómo se valora y se trata de forma conservadora en Sarrià–Sant Gervasi, Barcelona.",
+  "h1": "Hernia de disco incipiente y protrusión discal en Barcelona",
+  "sub": "Lumbar y cervical · Qué es, por qué aparece y cómo se trata · Sarrià–Sant Gervasi",
+  "lead": "Una protrusión o una hernia de disco es un desplazamiento del material del disco intervertebral más allá de su límite normal. Puede causar dolor en la espalda o en el cuello y, a veces, dolor, hormigueo o pérdida de fuerza en una pierna o un brazo. Es un diagnóstico que asusta, pero la mayoría de las hernias evoluciona bien con un tratamiento conservador, y muchas se reducen por sí solas con el tiempo.",
+  "facts_title": "En WA LAM",
+  "facts": [
+   "Protrusión y hernia discal lumbar y cervical",
+   "Anamnesis, exploración neurológica y palpación",
+   "Tratamiento conservador con osteopatía y ejercicio",
+   "Primera visita: 60 min · 90 €"
+  ],
+  "wa": "Hola, me gustaría información sobre el tratamiento de la hernia de disco o la protrusión discal.",
+  "mirror": {
+   "h2": "¿Se reconoce en estos síntomas?",
+   "qs": [
+    "¿Le han informado en una resonancia de una protrusión o una hernia de disco y no sabe qué significa?",
+    "¿El dolor de espalda o de cuello baja hacia la pierna, por debajo de la rodilla, o hacia el brazo y la mano?",
+    "¿Nota hormigueo, adormecimiento o menos fuerza en un pie o en una mano?",
+    "¿Ha dejado de moverse o de hacer ejercicio por miedo a que la hernia empeore?"
+   ],
+   "close": "Si nota alguna de las señales de alarma que explicamos más abajo, consulte primero con su médico o acuda a urgencias."
+  },
+  "explain": {
+   "h2": "¿Qué es una hernia de disco?",
+   "paras": [
+    "Entre cada dos vértebras hay un **disco intervertebral**, un cojinete que amortigua las cargas y permite que la columna se doble y gire. Tiene dos partes: un **núcleo pulposo** central, gelatinoso y rico en agua, y un **anillo fibroso** que lo rodea, formado por capas de fibras de colágeno cruzadas como las de un neumático. Por arriba y por abajo, las placas terminales de las vértebras lo cierran y le aportan nutrientes, ya que el disco adulto apenas tiene vasos sanguíneos propios.",
+    "Cuando el anillo se debilita o se agrieta, el material del disco puede desplazarse hacia fuera. La nomenclatura consensuada por las sociedades norteamericanas de columna y de neurorradiología distingue varios grados (Fardon et al., 2014). En el **abombamiento discal** (*bulging*) el disco sobresale de forma difusa, en buena parte de su contorno; es muy frecuente con la edad. En la **protrusión**, el material desplazado ocupa una zona localizada y su base es más ancha que la parte que sobresale. En la **extrusión**, el material sale a través del anillo y la parte desplazada es más ancha que su base. En el **secuestro**, un fragmento se separa del disco. Lo que en la calle se llama «hernia de disco incipiente» suele corresponder a una protrusión.",
+    "Según su posición, la hernia puede ser central, posterolateral (la más habitual, porque el ligamento que refuerza el disco por detrás es más débil a los lados), foraminal o extraforaminal. Esa posición decide qué estructura puede irritar: la médula o el saco dural en el centro, o una **raíz nerviosa** concreta a los lados. Las hernias son más frecuentes en la columna lumbar, sobre todo en los niveles L4-L5 y L5-S1, y en la cervical, en C5-C6 y C6-C7, que son los segmentos que más se mueven y más carga soportan."
+   ]
+  },
+  "sections": [
+   {
+    "h2": "¿Por qué tengo una hernia discal?",
+    "paras": [
+     "Es la primera pregunta de casi todas las personas que reciben el diagnóstico. La respuesta más honesta es que una hernia es, sobre todo, un **cambio en la estructura del disco**. Con los años el núcleo pierde agua y el anillo pierde elasticidad, de forma parecida a como la piel pierde tersura. Ese envejecimiento natural hace que el anillo tolere peor las cargas y que, en un momento dado, ceda.",
+     "Sin embargo, las hernias no son exclusivas de las personas mayores. Son frecuentes entre los 30 y los 50 años, cuando el núcleo todavía conserva presión pero el anillo ya ha acumulado microlesiones. En personas jóvenes intervienen factores que no se pueden controlar, como la predisposición genética, la forma de la columna o el sexo, y otros que sí se pueden modificar, como el sedentarismo, el tabaco, el exceso de peso, las posturas mantenidas durante horas o la falta de fuerza y resistencia de la musculatura del tronco.",
+     "Por eso, más que buscar un único culpable, conviene entender la hernia como el resultado de una **relación entre la carga que recibe el disco y su capacidad para tolerarla**. Esa idea es útil, porque sobre buena parte de esa relación sí se puede actuar."
+    ]
+   },
+   {
+    "h2": "¿Es frecuente? ¿Todas las hernias duelen?",
+    "paras": [
+     "Una de las informaciones más tranquilizadoras para quien acaba de leer su resonancia es saber cuántas personas sin ningún dolor tienen los mismos hallazgos. Una revisión sistemática de 33 estudios con 3.110 personas **sin síntomas** encontró que la prevalencia de protrusión discal pasa del 29 % a los 20 años al 43 % a los 80; la del abombamiento discal, del 30 % al 84 %, y la de la degeneración discal, del 37 % al 96 % (Brinjikji et al., AJNR, 2015). Los autores concluyen que muchos de estos rasgos forman parte del envejecimiento normal y que la imagen debe interpretarse siempre junto a la clínica.",
+     "Dicho de otro modo: tener una protrusión en la resonancia no significa que esa protrusión sea la causa del dolor. A veces lo es, sobre todo cuando los síntomas de la pierna o del brazo coinciden con la raíz que la hernia toca. Otras veces es un hallazgo casual, y el dolor procede de otras estructuras de la espalda, de la pelvis o incluso de un órgano. Por eso en la valoración se busca que la historia, la exploración y la imagen cuenten la misma historia."
+    ]
+   },
+   {
+    "h2": "¿Qué la desencadena?",
+    "paras": [
+     "Muchas personas recuerdan el momento exacto: al levantar una caja girando el tronco, al agacharse a recoger algo o tras un golpe. Los **traumatismos**, las caídas y los **esfuerzos mal ejecutados**, sobre todo los que combinan flexión del tronco, rotación y carga, aumentan bruscamente la presión dentro del disco y pueden terminar de abrir una grieta en el anillo. Esos mismos gestos, repetidos, también agravan una hernia que ya existía.",
+     "En otras ocasiones no hay un desencadenante claro. El anillo se va fisurando poco a poco por microtraumatismos repetidos, como horas de conducción con vibración, trabajos con cargas o largas jornadas sentado, y el dolor aparece un día sin motivo aparente, a veces al levantarse por la mañana, cuando el disco está más hidratado y tiene más presión."
+    ],
+    "list_title": "Factores que se asocian a un mayor riesgo:",
+    "list": [
+     "Edad entre los 30 y los 50 años y predisposición familiar",
+     "Trabajos con cargas repetidas, torsiones o vibración (conducción profesional, maquinaria)",
+     "Muchas horas sentado y poca actividad física",
+     "Debilidad y poca resistencia de la musculatura del tronco y de la cadera",
+     "Sobrepeso",
+     "Tabaco, que empeora la nutrición del disco",
+     "Episodios previos de lumbalgia o cervicalgia"
+    ]
+   },
+   {
+    "h2": "¿Cómo se forma y por qué duele?",
+    "paras": [
+     "La secuencia típica empieza con pequeñas fisuras en las capas internas del anillo fibroso, provocadas por la combinación de **torsión y presión**. El núcleo pulposo se va abriendo camino por esas grietas hacia la periferia. Mientras el anillo externo resiste, se forma una **protrusión** o abultamiento; si el anillo se rompe del todo, el material sale y se habla de **extrusión** o, si un fragmento se desprende, de secuestro.",
+     "El dolor no se explica solo por la presión mecánica sobre el nervio. El núcleo pulposo es un tejido que el sistema inmunitario no «conoce», porque normalmente queda aislado en el interior del disco. Cuando entra en contacto con la raíz nerviosa desencadena una **reacción inflamatoria** local que sensibiliza el nervio. Por eso una hernia pequeña puede doler mucho y una grande, poco o nada. Esa misma reacción tiene un lado favorable: las células inflamatorias se encargan de ir reabsorbiendo el material herniado, y es una de las razones por las que muchas hernias se reducen con el tiempo.",
+     "Las hernias aparecen sobre todo en la columna lumbar y en la cervical. La dorsal, rígida y protegida por las costillas, se afecta mucho menos. Solo una minoría de personas presenta una compresión grave de la médula o de las raíces de la cola de caballo que obligue a una cirugía urgente; en el resto, el tiempo, el movimiento bien dosificado y el tratamiento conservador son los principales aliados."
+    ]
+   },
+   {
+    "h2": "¿Cuáles son los síntomas?",
+    "paras": [
+     "Una hernia puede no dar ningún síntoma, producir solo dolor local en la espalda o el cuello, o irritar una raíz nerviosa. En este último caso aparece la **radiculopatía**: un dolor que recorre la pierna o el brazo siguiendo el territorio de esa raíz, a menudo más intenso que el dolor de espalda. En la zona lumbar es la **ciática verdadera**, que suele bajar por detrás o por fuera de la pierna hasta por debajo de la rodilla, a veces hasta el pie. Puede consultar más sobre ella en nuestra página de [ciática](ciatica).",
+     "Además del dolor, la irritación de la raíz puede provocar **trastornos sensitivos**, como hormigueo, adormecimiento, sensación de quemazón o de piel acorchada, y **trastornos motores**, como pérdida de fuerza en un grupo muscular o reflejos disminuidos. Toser, estornudar o hacer fuerza en el baño puede aumentar el dolor, porque sube la presión dentro del canal vertebral.",
+     "En casos poco frecuentes, una hernia lumbar grande puede comprimir varias raíces de la cola de caballo y afectar a la vejiga, al intestino, al suelo pélvico o a la función sexual. Esos síntomas no son para esperar: son **señales de alarma** que requieren atención urgente y que detallamos más abajo."
+    ],
+    "list_title": "Orientación según la raíz afectada (lo más habitual):",
+    "list": [
+     "L4: dolor en la cara anterior del muslo y la parte interna de la pierna; menos fuerza al extender la rodilla; reflejo rotuliano disminuido",
+     "L5: dolor por la cara externa de la pierna hasta el dorso del pie y el dedo gordo; dificultad para caminar sobre los talones",
+     "S1: dolor por detrás de la pierna hasta la planta y el borde externo del pie; dificultad para ponerse de puntillas; reflejo aquíleo disminuido",
+     "C6: dolor hacia el borde externo del antebrazo, el pulgar y el índice; menos fuerza en el bíceps",
+     "C7: dolor hacia la cara posterior del brazo y el dedo medio; menos fuerza en el tríceps"
+    ]
+   },
+   {
+    "h2": "¿Qué ocurre cuando la hernia está en el cuello?",
+    "paras": [
+     "En el cuello, la compresión o la inflamación de una raíz nerviosa se llama **radiculopatía cervical**. Puede deberse a una hernia discal, más típica en personas de mediana edad, pero con frecuencia se debe a cambios degenerativos: el disco pierde altura, las articulaciones crecen y el **agujero de conjunción**, el orificio por el que sale la raíz, se estrecha. Por eso muchas personas mayores con dolor de brazo tienen más artrosis que hernia propiamente dicha.",
+     "El síntoma característico es un dolor que baja por el hombro, el brazo y a veces la mano, que puede ser **más intenso que el propio dolor de cuello**. Se acompaña de hormigueo en algunos dedos, debilidad de ciertos músculos y reflejos disminuidos. Algunas personas notan alivio al apoyar la mano sobre la cabeza, porque esa postura relaja la raíz.",
+     "El diagnóstico combina la exploración clínica y, cuando procede, la **resonancia magnética**. Igual que en la columna lumbar, la resonancia cervical muestra hallazgos en muchas personas sin síntomas, así que siempre se correlaciona con la exploración. El **electromiograma** puede ayudar a confirmar qué raíz está afectada y descartar otros problemas, como un atrapamiento del nervio en la muñeca. Si no hay una urgencia neurológica, el tratamiento inicial es conservador: cambios en los hábitos, ejercicio y terapia manual. Una revisión sistemática de 17 ensayos clínicos concluyó que la terapia manual redujo el dolor y la discapacidad cervical a corto plazo en la radiculopatía cervical (Borrella-Andrés et al., 2021). La cirugía, a veces urgente, se reserva para la compresión de la médula o para déficits importantes que progresan: pérdida de reflejos, de sensibilidad o atrofia muscular. Si el dolor se queda sobre todo en el cuello, puede consultar nuestra página de [cervicalgia](cervicalgia-dolor-cuello)."
+    ]
+   },
+   {
+    "h2": "¿Una hernia puede desaparecer sola?",
+    "paras": [
+     "Sí, y con más frecuencia de lo que mucha gente piensa. Una revisión sistemática sobre la **regresión espontánea** de la hernia discal lumbar en pacientes tratados de forma conservadora calculó que el material herniado se reduce en el 96 % de los secuestros, el 70 % de las extrusiones, el 41 % de las protrusiones y el 13 % de los abombamientos. La desaparición completa se observó en el 43 % de los secuestros y el 15 % de las extrusiones (Chiu et al., Clin Rehabil, 2015).",
+     "Un metaanálisis posterior, con 38 estudios y 2.219 pacientes con hernia lumbar sintomática tratados sin cirugía, estimó una tasa global de regresión del 63 % (Wang et al., BMC Musculoskelet Disord, 2020). Paradójicamente, las hernias más aparatosas en la imagen, las extruidas y secuestradas, son las que más tienden a reabsorberse, porque quedan más expuestas a las células que limpian el material.",
+     "Esto no significa que haya que esperar sin hacer nada, ni que la imagen tenga que mejorar para que mejore el dolor: con frecuencia los síntomas mejoran antes que la resonancia. Significa que, en ausencia de señales de alarma, hay tiempo para un tratamiento conservador bien planteado."
+    ]
+   },
+   {
+    "h2": "¿Y si el dolor de espalda viene de una víscera?",
+    "paras": [
+     "Que la resonancia muestre una hernia no garantiza que todo el dolor proceda de ella. Ya hemos visto que muchas personas sin dolor tienen protrusiones. Hay otra fuente de dolor de espalda que a menudo se pasa por alto: los **órganos**. El riñón, el intestino, el páncreas, el útero o la vesícula pueden «proyectar» dolor a la espalda o al cuello, y una hernia casual en la imagen puede hacer que se atribuya a la columna un dolor que en realidad tiene otro origen.",
+     "La fisiología lo explica. Los órganos tienen una inervación escasa y doble, y por eso sus sensaciones son difusas, difíciles de localizar y tienden a **referirse a estructuras somáticas**, es decir, a la piel, los músculos y las articulaciones (Gebhart y Bielefeldt, 2016). Las fibras sensitivas de una víscera llegan a la médula por los mismos segmentos que las de una zona de la espalda y **convergen sobre las mismas neuronas** del asta dorsal. El cerebro, acostumbrado a recibir señales de la espalda y muy pocas del órgano, interpreta el mensaje como si viniera de la pared del cuerpo. El dolor visceral tiene además mecanismos propios y puede acompañarse de una hipersensibilidad del sistema nervioso central que lo mantiene en el tiempo (Cerveró, 2014).",
+     "Algunos ejemplos clásicos de dolor referido: el **riñón** y el uréter refieren dolor a la zona lumbar y al flanco, a veces hacia la ingle; el **colon**, los órganos pélvicos y el **útero** pueden referir dolor a la zona lumbar baja y al sacro; el **estómago** y el **páncreas**, a la región dorsal, entre las escápulas; el **hígado** y la **vesícula**, a través del diafragma y del nervio frénico, que nace de las raíces cervicales C3 a C5, al hombro derecho y al cuello. Por eso un dolor de cuello o de hombro que no se comporta como uno mecánico también merece esta mirada.",
+     "Jean-Pierre Barral, osteópata y fisioterapeuta francés, construyó su método sobre esta relación entre órganos y columna. Según su propio relato, mientras trabajaba como fisioterapeuta en un hospital de enfermedades pulmonares de Grenoble, observó en una disección cambios en la columna cervical del mismo lado de una retracción del pulmón. Más tarde, un paciente al que trataba la espalda le contó que había notado alivio después de que alguien le presionara el abdomen, y eso le llevó a estudiar la relación entre las vísceras y la columna. En su modelo, cada órgano tiene una **movilidad** propia y está unido a la columna y a la pared del cuerpo por ligamentos y fascias. Así, la cúpula de la pleura está suspendida de la columna cervical baja (C6 a T1) por pequeños ligamentos, la raíz del mesenterio del intestino delgado cruza la columna lumbar a la altura de L3-L4, y el ciego y el sigma se relacionan, respectivamente, con las articulaciones sacroilíacas derecha e izquierda. Según Barral, una adherencia, una cicatriz abdominal, una infección o una cirugía pueden reducir esa movilidad y crear líneas de tensión a las que la columna tiene que adaptarse, miles de veces al día con cada respiración.",
+     "Estas relaciones forman parte del modelo de Barral y se exploran mediante la palpación; no son diagnósticos médicos. Lo que sí está bien establecido es la fisiología del dolor referido, que obliga a tener presentes los órganos cuando un dolor de espalda no sigue un patrón mecánico. Algunas pistas orientan hacia un origen visceral: el dolor **no cambia** con la postura ni con el movimiento, empeora con las comidas, con la micción o con la menstruación, se acompaña de náuseas, fiebre, sudoración o cambios en el ritmo intestinal, o aparece por la noche sin relación con la actividad. En esos casos, lo primero es la valoración médica. Puede leer más sobre este enfoque en nuestra página de [osteopatía visceral](osteopatia-visceral-barcelona)."
+    ],
+    "list_title": "Consulte con su médico sin demora si el dolor de espalda se acompaña de:",
+    "list": [
+     "Fiebre, escalofríos o sensación de enfermedad general",
+     "Dolor cólico en el flanco que se irradia a la ingle, o sangre en la orina",
+     "Dolor abdominal o lumbar intenso y pulsátil, sobre todo en mayores de 50 años",
+     "Sangre en las heces, heces negras o cambios persistentes del ritmo intestinal",
+     "Pérdida de peso sin causa aparente o antecedentes de cáncer",
+     "Dolor torácico, en el hombro o entre las escápulas con el esfuerzo, o falta de aire",
+     "Coloración amarillenta de la piel o los ojos",
+     "Dolor pélvico intenso, sangrado anormal o posibilidad de embarazo"
+    ]
+   },
+   {
+    "h2": "¿Tiene que ver la microbiota con el disco intervertebral?",
+    "paras": [
+     "Durante décadas se consideró que el disco sano era un tejido **estéril**. Esa idea está cambiando. Antes de explicar por qué, conviene aclarar tres términos. La **microbiota** es el conjunto de bacterias, virus y hongos que viven en nuestro cuerpo, sobre todo en el intestino. La **disbiosis** es una alteración del equilibrio de esa comunidad. Los **probióticos** son microorganismos vivos que se toman con la intención de mejorar ese equilibrio.",
+     "En 2020, un equipo de cirujanos de columna analizó con técnicas de secuenciación genética discos lumbares de tres grupos: discos sanos en la resonancia, procedentes de donantes de órganos, discos degenerados y discos herniados. Encontraron material genético bacteriano en todos ellos, también en los discos sanos, y una composición diferente en los discos enfermos (Rajasekaran et al., Eur Spine J, 2020). Los autores lo interpretan como un desafío a la idea de esterilidad del disco y proponen que la disbiosis podría participar en la degeneración. Es un estudio pequeño, de 24 discos, y otros grupos han tenido dificultades para reproducir este tipo de análisis en tejidos con tan pocas bacterias, así que debe leerse como una línea de investigación abierta.",
+     "A partir de estos hallazgos se ha propuesto el concepto de **eje intestino-disco**. Una revisión plantea tres mecanismos posibles por los que la microbiota intestinal podría influir en el disco: el paso de bacterias a través de una barrera intestinal más permeable hasta el disco; la regulación del sistema inmunitario, tanto en la mucosa intestinal como en el resto del cuerpo, y la producción y absorción de nutrientes y metabolitos que llegan al disco por difusión (Li et al., Eur Spine J, 2022). El disco es un tejido casi sin vasos y con poca vigilancia inmunitaria, protegido por una especie de **barrera hemato-discal**; si esa barrera se altera, por ejemplo tras una lesión del anillo, el entorno del disco podría volverse más vulnerable a la inflamación.",
+     "Conviene ser prudentes. Hoy se trata de una **hipótesis**, no de una causa demostrada, y un ensayo clínico con un probiótico en personas con lumbalgia crónica y cambios de Modic no mostró beneficio. Lo que sí tiene sentido es cuidar los tres ejes que influyen en la inflamación general del cuerpo: una **alimentación** rica en fibra, verduras, legumbres y alimentos poco procesados; el **movimiento** y el trabajo manual sobre los tejidos, y la **gestión del estrés** y del descanso. Puede ampliar este tema en nuestras páginas de [salud digestiva y microbiota](salud-digestiva-microbiota) y de [PNI](pni-pnie-barcelona)."
+    ]
+   },
+   {
+    "h2": "¿Por qué a veces el dolor se cronifica?",
+    "paras": [
+     "En la mayoría de las personas, el dolor de una hernia mejora en semanas o pocos meses. En algunas, sin embargo, persiste más allá de los tres meses aunque la hernia se haya reducido. En esos casos el problema ya no está solo en el disco: el **sistema nervioso** se ha sensibilizado. Las neuronas de la médula y del cerebro que procesan el dolor se vuelven más reactivas y amplifican las señales, de modo que estímulos que antes no dolían empiezan a doler. Es lo que se conoce como **sensibilización central**.",
+     "Los estudios con neuroimagen muestran que en el dolor lumbar crónico cambian el funcionamiento y la química de las áreas cerebrales que procesan el dolor. Un pequeño ensayo clínico aleatorizado con 25 personas con lumbalgia crónica inespecífica comparó la manipulación lumbopélvica con una manipulación simulada. A las cinco semanas, el grupo tratado mostró cambios en los neurometabolitos de áreas como el tálamo, medidos con espectroscopia por resonancia magnética, junto con menos dolor y discapacidad (Didehdar et al., Ir J Med Sci, 2020). Es un estudio pequeño y preliminar, pero apoya la idea de que la terapia manual no actúa solo sobre la articulación, sino también sobre la forma en que el sistema nervioso procesa el dolor.",
+     "La teoría de la compuerta, propuesta en 1965, ya planteaba que la información que llega desde los receptores del movimiento y la presión puede modular, a nivel de la médula, la transmisión de las señales de dolor (Melzack y Wall, 1965). Entender que el dolor persistente no equivale a más daño ayuda a perder el miedo al movimiento, que a menudo es lo que mantiene el problema. Puede leer más en nuestra página de [dolor persistente](dolor-persistente-cronico)."
+    ]
+   },
+   {
+    "h2": "¿Cómo se entiende la hernia desde la osteopatía?",
+    "paras": [
+     "El disco no trabaja solo. Recibe las cargas que le llegan desde arriba y desde abajo, y la forma en que se reparten depende de cómo se mueven la pelvis, las caderas, las articulaciones sacroilíacas, la columna dorsal, el diafragma y las costillas. Una cadera rígida, por ejemplo, obliga a la columna lumbar a doblarse más cada vez que nos agachamos; una columna dorsal bloqueada hace que la lumbar y la cervical giren más de lo que deberían.",
+     "Desde la osteopatía, el objetivo es **mejorar la mecánica de la zona y repartir mejor los esfuerzos** que recibe el disco afectado, además de valorar las otras fuentes posibles de dolor que hemos descrito: articulaciones, músculos, fascia, nervios y vísceras. El osteópata trabaja sobre todo el cuerpo, no solo sobre la columna, y esa mirada de conjunto permite buscar por qué un segmento concreto soporta más carga de la que le corresponde."
+    ]
+   },
+   {
+    "h2": "¿Cuándo debo consultar con el médico?",
+    "paras": [
+     "Son poco frecuentes, pero requieren valoración médica antes de cualquier tratamiento manual. Las tres primeras pueden indicar un **síndrome de cola de caballo** y son motivo de **urgencias**:"
+    ],
+    "list": [
+     "Dificultad para orinar, retención de orina o pérdida del control de la orina o de las heces",
+     "Adormecimiento en la zona genital, el periné o la cara interna de los muslos (anestesia «en silla de montar»)",
+     "Pérdida de fuerza en una o ambas piernas que avanza rápidamente, o pie que cae al caminar",
+     "Pérdida de fuerza del suelo pélvico o disfunción eréctil de aparición reciente junto con dolor lumbar",
+     "Torpeza en las manos, alteraciones del equilibrio o al caminar (posible compresión de la médula cervical)",
+     "Fiebre, pérdida de peso sin causa o antecedentes de cáncer",
+     "Dolor tras un traumatismo importante o en personas con osteoporosis",
+     "Dolor nocturno intenso que no cede con ninguna postura"
+    ]
+   },
+   {
+    "h2": "¿Cómo se diagnostica? La anamnesis",
+    "paras": [
+     "La valoración empieza por una **anamnesis detallada**, es decir, una conversación ordenada sobre su dolor. Se pregunta cuándo y cómo empezó, si hubo un esfuerzo o un golpe, dónde duele exactamente, hasta dónde baja el dolor, si hay hormigueo o pérdida de fuerza, qué posturas lo empeoran o lo alivian, cómo se comporta por la mañana, a lo largo del día y por la noche, y si aumenta al toser o estornudar.",
+     "También se recogen su trabajo, su actividad física, el descanso, el estrés, las cirugías y cicatrices previas, los problemas digestivos, urinarios o ginecológicos y la medicación que toma. Esta información permite reconocer las señales de alarma, distinguir un dolor radicular de un dolor referido y decidir qué estructuras conviene explorar. Si tiene una resonancia u otras pruebas, tráigalas: se leen junto con lo que usted cuenta."
+    ]
+   },
+   {
+    "h2": "¿Qué se explora? La palpación como herramienta diagnóstica",
+    "paras": [
+     "La exploración incluye la observación de la postura y de la forma de moverse, la movilidad de la columna y de las caderas y una **exploración neurológica**: fuerza de los distintos grupos musculares, sensibilidad, reflejos y maniobras que ponen en tensión las raíces nerviosas, como la elevación de la pierna estirada en la hernia lumbar o las pruebas de compresión del agujero de conjunción en la cervical.",
+     "La **palpación** es el centro de la exploración osteopática. Barral la llama **escucha manual** (*listening*): una palpación atenta que busca diferencias de tensión, densidad y movilidad en los tejidos. Distingue una escucha general, que orienta hacia la región del cuerpo que más llama la atención, y una escucha local, que precisa qué estructura está implicada: la articulación, el músculo, la fascia, el nervio o la víscera. En su modelo, sentir algo no basta: hay que identificar qué tejido se está percibiendo, y eso exige un conocimiento anatómico preciso.",
+     "Las pruebas de imagen no son necesarias en la mayoría de los casos. La resonancia se indica cuando hay déficit neurológico, señales de alarma, un dolor que no mejora tras varias semanas de tratamiento conservador o cuando se plantea una infiltración o una cirugía."
+    ]
+   },
+   {
+    "h2": "¿Cómo se trata? Primero, de forma conservadora",
+    "paras": [
+     "El primer profesional al que se acude influye en el camino que se sigue. En un estudio prospectivo con 1.885 trabajadores del estado de Washington de baja por una lesión de espalda, el 9,2 % fue operado de la columna lumbar en los tres años siguientes. El factor que más se asoció a la cirugía, incluso tras ajustar por la gravedad, fue haber consultado primero a un cirujano: el 42,7 % de quienes lo hicieron acabaron operados (Keeney et al., Spine, 2013). Es una asociación, no una prueba de causa, pero invita a empezar, cuando no hay señales de alarma, por un **tratamiento conservador**.",
+     "Las guías de práctica clínica coinciden en ese enfoque: explicar el diagnóstico y su buen pronóstico, **mantenerse activo** y retomar la actividad habitual, y basar el tratamiento en el ejercicio. El reposo en cama no se recomienda, porque retrasa la recuperación. La guía británica NICE propone considerar la terapia manual, como la manipulación, la movilización o las técnicas de tejidos blandos, dentro de un programa que incluya ejercicio. En la práctica se abusa de las pruebas de imagen, el reposo, las infiltraciones y la cirugía (Foster et al., Lancet, 2018).",
+     "La medicación para el dolor la decide su médico, y en las fases más agudas puede facilitar el movimiento. Además, conviene buscar por qué ese disco se ha sobrecargado. La terapia manual busca mejorar la movilidad de la zona y de las regiones vecinas para repartir mejor las cargas, y el ejercicio progresivo, estabilizar y reforzar la musculatura del tronco. Las infiltraciones y la cirugía, como la microdiscectomía, se reservan para el dolor radicular intenso que no mejora tras un periodo razonable o para los déficits neurológicos importantes o progresivos. La decisión se toma siempre con el médico especialista."
+    ]
+   },
+   {
+    "h2": "¿Qué puedo hacer para prevenirlo? Ejercicio y hábitos",
+    "paras": [
+     "El movimiento es parte del tratamiento, no algo que haya que dejar para cuando el dolor desaparezca. El disco se nutre por difusión: con el movimiento y los cambios de carga entra y sale líquido, como en una esponja. Por eso pasar muchas horas quieto, sentado o tumbado, no lo protege. En prevención, un metaanálisis de 21 ensayos con más de 30.000 personas mostró que el ejercicio combinado con educación reduce el riesgo de un nuevo episodio de lumbalgia en torno a un 45 % (RR 0,55), mientras que las fajas y las plantillas no previenen (Steffens et al., JAMA Intern Med, 2016).",
+     "Los ejercicios deben adaptarse a cada persona y a la fase en que se encuentre. Una regla útil: si al hacer un ejercicio el dolor de la pierna o del brazo **se aleja hacia el pie o la mano**, conviene parar y consultarlo; si se concentra hacia la espalda o disminuye, suele ser buena señal. Estos son algunos ejemplos habituales, que conviene revisar con su terapeuta antes de empezar:"
+    ],
+    "list_title": "Ejemplos de ejercicios (siempre sin provocar dolor intenso):",
+    "list": [
+     "**Caminar** cada día, empezando por paseos cortos y llanos y alargándolos poco a poco",
+     "**Postura del niño**: de rodillas, sentarse sobre los talones y llevar los brazos y el tronco hacia delante para descargar suavemente la zona lumbar; 5 a 8 respiraciones lentas",
+     "**Báscula pélvica** tumbado boca arriba con las rodillas dobladas: aplanar y arquear suavemente la zona lumbar, 10 repeticiones",
+     "**Gato-camello** a cuatro patas: redondear y extender la espalda de forma lenta y en un rango cómodo",
+     "**Puente de glúteos**: elevar la pelvis desde tumbado con los pies apoyados, 2 o 3 series de 10",
+     "**Cuadrupedia con brazo y pierna contrarios**: a cuatro patas, estirar un brazo y la pierna opuesta manteniendo la espalda estable, 5 a 8 por lado",
+     "**Plancha lateral** con las rodillas apoyadas, de 10 a 20 segundos por lado",
+     "Para la hernia cervical: **retracción cervical** (llevar la barbilla hacia atrás, como haciendo papada, sin inclinar la cabeza) y ejercicios suaves de los músculos de los omóplatos"
+    ]
+   },
+   {
+    "h2": "¿Qué puedo hacer en el día a día?",
+    "paras": [
+     "Pequeños cambios de rutina reducen la carga sobre el disco y ayudan a que la recuperación avance."
+    ],
+    "list": [
+     "Manténgase activo dentro de lo tolerable; evite el reposo en cama prolongado.",
+     "Si trabaja sentado, levántese y camine unos minutos cada 30 o 45 minutos.",
+     "Al levantar peso, acerque la carga al cuerpo, doble las caderas y las rodillas y evite girar el tronco a la vez.",
+     "Por la mañana, cuando el disco está más hidratado, evite agacharse con fuerza nada más levantarse.",
+     "Ajuste la pantalla a la altura de los ojos y evite pasar horas con la cabeza inclinada hacia el móvil.",
+     "Duerma de lado con una almohada entre las rodillas o boca arriba con un cojín bajo ellas si le resulta más cómodo.",
+     "Cuide el peso corporal, la alimentación y el descanso.",
+     "Si fuma, considere dejarlo: el tabaco empeora la nutrición del disco."
+    ]
+   }
+  ],
+  "evidence": {
+   "h2": "¿Qué dice la evidencia?",
+   "items": [
+    [
+     "Hernias sin dolor (AJNR)",
+     "En personas sin síntomas, la protrusión discal aparece en el 29 % a los 20 años y en el 43 % a los 80, y la degeneración discal pasa del 37 % al 96 % (Brinjikji et al., 2015)."
+    ],
+    [
+     "Regresión espontánea (Clin Rehabil)",
+     "Con tratamiento conservador, el material herniado se redujo en el 96 % de los secuestros, el 70 % de las extrusiones y el 41 % de las protrusiones (Chiu et al., 2015)."
+    ],
+    [
+     "Metaanálisis (BMC Musculoskelet Disord)",
+     "En 38 estudios con 2.219 pacientes tratados sin cirugía, la hernia lumbar sintomática se redujo en el 63 % de los casos (Wang et al., 2020)."
+    ],
+    [
+     "Primer profesional (Spine)",
+     "De 1.885 trabajadores con lesión de espalda, el 42,7 % de quienes consultaron primero a un cirujano fueron operados, frente al 9,2 % del total (Keeney et al., 2013)."
+    ],
+    [
+     "Radiculopatía cervical (BioMed Res Int)",
+     "En 17 ensayos clínicos, la terapia manual redujo el dolor y la discapacidad cervical a corto plazo en la radiculopatía cervical (Borrella-Andrés et al., 2021)."
+    ],
+    [
+     "Prevención (JAMA Intern Med)",
+     "El ejercicio combinado con educación redujo un 45 % el riesgo de un nuevo episodio de lumbalgia en 21 ensayos con más de 30.000 personas (Steffens et al., 2016)."
+    ],
+    [
+     "Guías (Lancet)",
+     "Las guías recomiendan empezar por educación, actividad y ejercicio, y advierten del abuso de la imagen, el reposo y la cirugía (Foster et al., 2018)."
+    ],
+    [
+     "Microbiota del disco (Eur Spine J)",
+     "Se detectó material genético bacteriano en 24 discos lumbares, también en discos sanos de donantes, con diferencias en los discos degenerados y herniados (Rajasekaran et al., 2020)."
+    ],
+    [
+     "Dolor referido visceral (Compr Physiol)",
+     "La inervación escasa y doble de los órganos explica que su dolor sea difuso y se refiera a la pared del cuerpo, como la espalda (Gebhart y Bielefeldt, 2016)."
+    ],
+    [
+     "Sistema nervioso (Ir J Med Sci)",
+     "En 25 personas con lumbalgia crónica, la manipulación lumbopélvica cambió neurometabolitos cerebrales y redujo el dolor y la discapacidad a las 5 semanas (Didehdar et al., 2020)."
+    ]
+   ],
+   "refs": [
+    {
+     "t": "Brinjikji W, Luetmer PH, Comstock B, et al., 2015. «Systematic literature review of imaging features of spinal degeneration in asymptomatic populations». American Journal of Neuroradiology 36(4):811-816.",
+     "doi": "10.3174/ajnr.A4173"
+    },
+    {
+     "t": "Chiu CC, Chuang TY, Chang KH, Wu CH, Lin PW, Hsu WY, 2015. «The probability of spontaneous regression of lumbar herniated disc: a systematic review». Clinical Rehabilitation 29(2):184-195.",
+     "doi": "10.1177/0269215514540919"
+    },
+    {
+     "t": "Wang Y, Dai G, Jiang L, Liao S, 2020. «The incidence of regression after the non-surgical treatment of symptomatic lumbar disc herniation: a systematic review and meta-analysis». BMC Musculoskeletal Disorders 21:530.",
+     "doi": "10.1186/s12891-020-03548-z"
+    },
+    {
+     "t": "Fardon DF, Williams AL, Dohring EJ, Murtagh FR, Gabriel Rothman SL, Sze GK, 2014. «Lumbar disc nomenclature: version 2.0». The Spine Journal 14(11):2525-2545.",
+     "doi": "10.1016/j.spinee.2014.04.022"
+    },
+    {
+     "t": "Keeney BJ, Fulton-Kehoe D, Turner JA, Wickizer TM, Chan KCG, Franklin GM, 2013. «Early predictors of lumbar spine surgery after occupational back injury: results from a prospective study of workers in Washington State». Spine 38(11):953-964.",
+     "doi": "10.1097/BRS.0b013e3182814ed5"
+    },
+    {
+     "t": "Borrella-Andrés S, Marqués-García I, Lucha-López MO, et al., 2021. «Manual therapy as a management of cervical radiculopathy: a systematic review». BioMed Research International 2021:9936981.",
+     "doi": "10.1155/2021/9936981"
+    },
+    {
+     "t": "Steffens D, Maher CG, Pereira LSM, et al., 2016. «Prevention of low back pain: a systematic review and meta-analysis». JAMA Internal Medicine 176(2):199-208.",
+     "doi": "10.1001/jamainternmed.2015.7431"
+    },
+    {
+     "t": "Foster NE, Anema JR, Cherkin D, et al., 2018. «Prevention and treatment of low back pain: evidence, challenges, and promising directions». The Lancet 391(10137):2368-2383.",
+     "doi": "10.1016/S0140-6736(18)30489-6"
+    },
+    {
+     "t": "Rajasekaran S, Soundararajan DCR, Tangavel C, et al., 2020. «Human intervertebral discs harbour a unique microbiome and dysbiosis determines health and disease». European Spine Journal 29(7):1621-1640.",
+     "doi": "10.1007/s00586-020-06446-z"
+    },
+    {
+     "t": "Li W, Lai K, Chopra N, Zheng Z, Das A, Diwan AD, 2022. «Gut-disc axis: a cause of intervertebral disc degeneration and low back pain?». European Spine Journal 31(4):917-925.",
+     "doi": "10.1007/s00586-022-07152-8"
+    },
+    {
+     "t": "Gebhart GF, Bielefeldt K, 2016. «Physiology of visceral pain». Comprehensive Physiology 6(4):1609-1633.",
+     "doi": "10.1002/cphy.c150049"
+    },
+    {
+     "t": "Cerveró F, 2014. «Pathophysiology of visceral pain». Revista Dor 15(2):133-138.",
+     "doi": "10.5935/1806-0013.20140032"
+    },
+    {
+     "t": "Didehdar D, Kamali F, Kordi Yoosefinejad A, Lotfi M, 2020. «The effect of spinal manipulation on brain neurometabolites in chronic nonspecific low back pain patients: a randomized clinical trial». Irish Journal of Medical Science 189(2):543-550.",
+     "doi": "10.1007/s11845-019-02140-2"
+    },
+    {
+     "t": "Melzack R, Wall PD, 1965. «Pain mechanisms: a new theory». Science 150(3699):971-979.",
+     "doi": "10.1126/science.150.3699.971"
+    }
+   ]
+  },
+  "faq": [
+   [
+    "¿Una hernia de disco puede mejorar sin cirugía?",
+    "Sí. La mayoría de las hernias evoluciona bien con un tratamiento conservador, y en muchas el material herniado se reduce con el tiempo: un metaanálisis estimó una regresión del 63 % en pacientes tratados sin cirugía. La cirugía se reserva para casos concretos, como un déficit neurológico importante o progresivo o un dolor de pierna intenso que no mejora."
+   ],
+   [
+    "¿Qué diferencia hay entre protrusión y hernia?",
+    "En la protrusión, el disco sobresale de forma localizada sin que el material atraviese por completo el anillo fibroso. En la extrusión, que es lo que se suele llamar hernia propiamente dicha, el núcleo sale a través del anillo. Ambas pueden no dar síntomas, por eso se valoran siempre junto con la exploración."
+   ],
+   [
+    "Tengo una hernia en la resonancia, ¿es la causa de mi dolor?",
+    "No necesariamente. Muchas personas sin dolor tienen protrusiones en la resonancia, y su frecuencia aumenta con la edad. El dolor puede venir de otras estructuras de la espalda, de la pelvis o incluso de un órgano. La historia clínica y la exploración ayudan a saber si la hernia explica sus síntomas."
+   ],
+   [
+    "¿Puedo hacer ejercicio con una hernia discal?",
+    "Sí, y es una parte central del tratamiento. Se adapta a sus síntomas y a la fase en que se encuentre, y se progresa poco a poco. Caminar suele ser un buen punto de partida. Si un ejercicio hace que el dolor baje más hacia el pie o la mano, conviene modificarlo."
+   ],
+   [
+    "¿Es seguro el tratamiento manual si tengo una hernia?",
+    "Antes de cualquier tratamiento se hace una anamnesis y una exploración neurológica para descartar señales de alarma. Las técnicas se eligen según la fase, la localización y la tolerancia de cada persona, y no todas las técnicas son adecuadas en todos los casos."
+   ],
+   [
+    "¿Tratan también la hernia cervical?",
+    "Sí. Si el dolor se irradia al brazo con pérdida de fuerza que avanza, o nota torpeza en las manos o al caminar, consulte antes con su médico de forma preferente. Puede leer más en nuestra página de [cervicalgia](cervicalgia-dolor-cuello)."
+   ],
+   [
+    "¿Necesito una resonancia?",
+    "No siempre. Se indica cuando hay señales de alarma, déficit neurológico, un dolor que no mejora tras varias semanas o cuando se plantea una infiltración o una cirugía. Si ya la tiene, tráigala a la primera visita."
+   ],
+   [
+    "¿La alimentación influye en una hernia de disco?",
+    "La relación entre la microbiota intestinal y el disco es una hipótesis en estudio, no una causa demostrada. Aun así, una alimentación poco procesada y rica en fibra, el control del peso y no fumar favorecen un entorno menos inflamatorio y una mejor nutrición del disco."
+   ]
+  ],
+  "related": [
+   "ciatica",
+   "lumbalgia-dolor-lumbar",
+   "cervicalgia-dolor-cuello",
+   "dolor-neuropatico"
+  ],
+  "cta_h2": "Un plan claro para su espalda",
+  "seo": {
+   "kw": "hernia de disco Barcelona",
+   "kws": [
+    "protrusión discal tratamiento",
+    "hernia discal lumbar sin cirugía",
+    "hernia cervical tratamiento conservador",
+    "ejercicios hernia de disco",
+    "hernia discal Sarrià"
+   ],
+   "ca_kw": "hèrnia de disc Barcelona",
+   "quick": "Una hernia de disco es el desplazamiento del núcleo del disco intervertebral a través de su anillo fibroso; en la protrusión, el disco sobresale de forma localizada sin romperlo. Son frecuentes en la columna lumbar y cervical, a menudo no dan síntomas y muchas se reducen con el tiempo. Su tratamiento inicial, también en Sarrià–Sant Gervasi (Barcelona), es conservador.",
+   "entity": [
+    "MedicalCondition",
+    "Hernia de disco"
+   ]
+  },
+  "research": [
+   "Personas con un diagnóstico reciente de protrusión o hernia discal que buscan un tratamiento conservador en Barcelona.",
+   [
+    "hernia de disco tratamiento sin cirugía Barcelona",
+    "protrusión discal L5 S1 ejercicios",
+    "hernia cervical tratamiento"
+   ],
+   [
+    "hèrnia discal tractament Barcelona",
+    "protrusió discal exercicis"
+   ],
+   "Unidades de columna y clínicas de traumatología, con predominio de contenido quirúrgico e infiltraciones."
+  ],
+  "ca": {}
+ },
+ {
+  "slug": "artrosis",
+  "ca_slug": "artrosi",
+  "nav": "Artrosis",
+  "card": "Dolor y rigidez en rodilla, cadera, manos o columna: qué es la artrosis, por qué aparece y por qué el movimiento bien dosificado es parte del tratamiento.",
+  "title": "Artrosis en Barcelona: rodilla, cadera y columna | WA LAM",
+  "desc": "Qué es la artrosis, por qué aparece, por qué duele más con el frío y cómo se trata de forma conservadora con ejercicio, carga bien dosificada y terapia manual en Sarrià–Sant Gervasi, Barcelona.",
+  "h1": "Artrosis en Barcelona: dolor y rigidez articular",
+  "sub": "Rodilla, cadera, manos y columna · Sarrià–Sant Gervasi",
+  "lead": "La artrosis es la enfermedad articular más frecuente. Afecta sobre todo a rodillas, caderas, manos y columna, y se manifiesta con dolor al moverse y rigidez. Durante años se ha explicado como un desgaste inevitable e irreversible, pero hoy sabemos que la articulación responde al movimiento y a la carga bien dosificada, y que el ejercicio es la base de su tratamiento.",
+  "facts_title": "En WA LAM",
+  "facts": [
+   "Artrosis de rodilla, cadera, manos y columna",
+   "Anamnesis y exploración palpatoria",
+   "Terapia manual integrada en un plan de ejercicio",
+   "Primera visita: 60 min · 90 €"
+  ],
+  "wa": "Hola, me gustaría información sobre el abordaje de la artrosis.",
+  "mirror": {
+   "h2": "¿Se reconoce en estos síntomas?",
+   "qs": [
+    "¿Le duele la rodilla o la cadera al caminar, subir escaleras o levantarse de una silla?",
+    "¿Nota rigidez al levantarse por la mañana o tras estar sentado, que mejora al cabo de unos minutos de moverse?",
+    "¿Tiene dolor o nódulos en los dedos y le cuesta abrir un bote o girar una llave?",
+    "¿Siente que las articulaciones le avisan cuando va a cambiar el tiempo?"
+   ],
+   "close": "Si presenta alguna de las señales de alarma que explicamos más abajo, consulte primero con su médico."
+  },
+  "explain": {
+   "h2": "¿Qué es la artrosis?",
+   "paras": [
+    "La artrosis, también llamada osteoartritis, es una enfermedad de **toda la articulación**. Durante mucho tiempo se describió solo como la pérdida del cartílago que recubre los extremos de los huesos, de ahí la idea popular de «desgaste». Hoy se sabe que afecta también al hueso que hay bajo el cartílago (hueso subcondral), a la membrana sinovial que produce el líquido articular, a los ligamentos, a los meniscos en la rodilla y a los músculos que mueven y protegen la articulación. El cuerpo intenta repararla y, en ese proceso, aparecen los osteofitos o «picos de loro».",
+    "Una articulación sana combina un cartílago liso y elástico, que permite que las superficies se deslicen casi sin rozamiento, un líquido sinovial que lubrica y nutre, y una cápsula y unos ligamentos llenos de **receptores** que informan al sistema nervioso de la posición y la carga. El cartílago no tiene vasos sanguíneos: se nutre gracias a la compresión y descompresión que produce el movimiento, como una esponja que se exprime y se vuelve a empapar.",
+    "Se distingue la **artrosis primaria**, sin una causa concreta, relacionada con la edad y la predisposición, y la **artrosis secundaria**, que aparece tras una fractura, una lesión de menisco o de ligamentos, una displasia o una enfermedad inflamatoria. Según su extensión puede ser localizada, en una o pocas articulaciones, o generalizada. Las localizaciones más frecuentes son la **rodilla**, la **cadera**, las **manos** (sobre todo la base del pulgar y las articulaciones de los dedos), la **columna** cervical y lumbar y el dedo gordo del pie. La radiografía permite clasificar su grado, pero el grado radiológico **no siempre coincide** con la intensidad del dolor ni con la capacidad de la persona."
+   ]
+  },
+  "sections": [
+   {
+    "h2": "¿Es frecuente?",
+    "paras": [
+     "Mucho. Según el estudio Global Burden of Disease, en 2020 unos **595 millones de personas** tenían artrosis en el mundo, el 7,6 % de la población, un 132 % más de casos que en 1990. La rodilla es la localización más frecuente, y en mayores de 70 años la artrosis es la séptima causa de años vividos con discapacidad. Para 2050 se prevé que los casos de artrosis de rodilla aumenten un 75 % y los de cadera, un 79 % (Steinmetz et al., Lancet Rheumatology, 2023).",
+     "Ese mismo análisis atribuye al **exceso de peso** alrededor del 20 % de la carga de artrosis y subraya que, además de las prótesis para las fases avanzadas, se puede y se debe hacer mucho más para evitar que las personas lleguen a esas fases. La prevención y el tratamiento conservador tienen, por tanto, un papel central."
+    ]
+   },
+   {
+    "h2": "¿Por qué aparece y por qué duele?",
+    "paras": [
+     "La artrosis no tiene una causa única. Aparece cuando se rompe el equilibrio entre la **carga** que recibe la articulación y su **capacidad para adaptarse y repararse**. Ese equilibrio se puede romper por exceso, como con el sobrepeso, una lesión antigua o una sobrecarga repetida en el trabajo o el deporte, pero también por defecto: una articulación que se usa poco, o que se usa siempre de la misma forma, recibe menos estímulo para mantenerse sana.",
+     "Con el tiempo, el cartílago pierde grosor y elasticidad, el hueso subcondral se vuelve más denso y reactivo, la membrana sinovial puede inflamarse y la cápsula se retrae. La articulación pierde **movimiento**, los músculos que la rodean se debilitan y aparece un dolor que al principio es intermitente, ligado al uso, y en fases más avanzadas puede volverse más constante. El cartílago no tiene nervios: el dolor procede del hueso, de la sinovial, de la cápsula, de los ligamentos y de los músculos, y está muy influido por cómo el sistema nervioso procesa esas señales.",
+     "En la **columna**, la artrosis de las articulaciones posteriores y la pérdida de altura de los discos pueden estrechar los orificios por los que salen las raíces nerviosas o el propio canal vertebral (**estenosis**). Entonces puede aparecer irritación de los nervios, con dolor que baja por la pierna como una [ciática](ciatica), hormigueo, adormecimiento o cansancio de las piernas al caminar que se alivia al sentarse o al inclinarse hacia delante."
+    ],
+    "list_title": "Factores que se asocian a la artrosis:",
+    "list": [
+     "Edad, sobre todo a partir de los 50 años, y sexo femenino",
+     "Predisposición genética y antecedentes familiares",
+     "Sobrepeso, sobre todo en rodilla y cadera",
+     "Lesiones previas: fracturas, roturas de menisco o de ligamentos, traumatismos",
+     "Lesiones deportivas mal recuperadas y sobrecarga repetida por el trabajo o el deporte de alta exigencia",
+     "Sedentarismo, debilidad muscular y poco uso de la articulación",
+     "Posturas mantenidas y alteraciones en el reparto de cargas (alineación de la rodilla, forma de caminar)"
+    ]
+   },
+   {
+    "h2": "¿Cuáles son los síntomas?",
+    "paras": [
+     "El síntoma principal es un **dolor de tipo mecánico**, que aparece o aumenta con el uso de la articulación y mejora con el reposo. Al principio solo molesta con esfuerzos concretos, como bajar escaleras o caminar mucho rato; con el tiempo puede aparecer con actividades más sencillas. La **rigidez** es típica al levantarse por la mañana o tras estar un rato sentado, y suele ceder en menos de media hora de movimiento.",
+     "Otros síntomas habituales son los **crujidos** al moverse, la pérdida de movilidad (no poder doblar del todo la rodilla, cruzar las piernas o ponerse los calcetines si la cadera está afectada), episodios de hinchazón, sensación de inestabilidad o de que la rodilla «falla» y, en las manos, nódulos en los dedos y pérdida de fuerza para abrir botes o girar llaves. La artrosis evoluciona a lo largo de años, con periodos de más y de menos dolor."
+    ]
+   },
+   {
+    "h2": "¿Es la artrosis una sentencia para toda la vida?",
+    "paras": [
+     "Muchas personas llegan a consulta convencidas de que la artrosis es «crónica, degenerativa, para toda la vida e irreversible», y de que lo mejor es moverse poco para no gastar más la articulación. Esa creencia es comprensible, pero no se ajusta a lo que sabemos. El cartílago y el hueso son tejidos vivos que **necesitan estímulo mecánico**: con el movimiento y la carga adecuada se nutren y se adaptan, y con la inactividad se debilitan.",
+     "Los estudios lo respaldan. Una revisión sistemática de ensayos clínicos que analizó con resonancia el efecto del ejercicio con carga sobre la rodilla concluyó que **no es perjudicial para el cartílago** en personas con artrosis o en riesgo de padecerla (Bricca et al., Br J Sports Med, 2019). Otro metaanálisis con más de 114.000 personas encontró artrosis de cadera o rodilla en el 3,5 % de los corredores recreativos, frente al 10,2 % de las personas sedentarias y el 13,3 % de los corredores de competición (Alentorn-Geli et al., JOSPT, 2017). Es una asociación, no una prueba de causa, pero sugiere que tanto la inactividad como el exceso de carga se relacionan con la artrosis, y que el término medio protege.",
+     "También ayuda saber que la imagen no lo es todo. Dos personas con la misma radiografía pueden tener vidas muy distintas: una camina kilómetros sin dolor y otra apenas sale de casa. La fuerza muscular, el control del movimiento, el peso, el descanso, el estado de ánimo y las creencias sobre el dolor influyen tanto como el grado de artrosis. Por eso, aunque la artrosis no se cura, su evolución y su impacto **sí se pueden modificar**."
+    ]
+   },
+   {
+    "h2": "¿Qué papel tiene el sistema nervioso en la articulación?",
+    "paras": [
+     "Las articulaciones no son solo piezas mecánicas. Los ligamentos, la cápsula, los tendones y los músculos contienen **mecanorreceptores**, pequeños sensores que informan continuamente al sistema nervioso central de la posición, la velocidad y la carga de cada articulación. Con esa información, llamada **propiocepción**, el cerebro coordina el sistema postural: decide qué músculos activar, con qué fuerza y en qué momento, para que la articulación trabaje protegida.",
+     "Estos receptores se adaptan a los hábitos. Si una rodilla se mueve poco, o duele y se protege cojeando, la información que envía se empobrece y el control se vuelve menos preciso. Una revisión sobre la propiocepción en la artrosis de rodilla señaló que su precisión está disminuida en estas personas, a veces en ambas rodillas aunque solo una duela, que esa pérdida podría ser un factor de riesgo para que empeoren el dolor y la limitación funcional, y que el **ejercicio parece mejorarla** (Knoop et al., Osteoarthritis Cartilage, 2011).",
+     "Por eso el tratamiento no se limita a fortalecer: incluye ejercicios de equilibrio, de control del movimiento y de apoyo en distintas superficies, que «reeducan» la comunicación entre la articulación y el sistema nervioso."
+    ]
+   },
+   {
+    "h2": "¿Conviene evitar la carga y los impactos?",
+    "paras": [
+     "Durante años se recomendó a las personas con artrosis evitar los impactos y descansar. Hoy sabemos que el **reposo prolongado no protege** la articulación. Los estímulos razonables de impacto y aceleración, como caminar, apoyar el peso del cuerpo sobre los pies, subir escaleras o, en definitiva, «luchar contra la gravedad», estimulan el hueso y el cartílago y mantienen la fuerza de los músculos que amortiguan la carga.",
+     "La clave está en la **dosis**. Poca carga debilita; demasiada, de golpe, irrita. Una orientación práctica que se usa con frecuencia es aceptar durante el ejercicio un dolor leve o moderado, que no supere aproximadamente un 4 o 5 sobre 10 y que vuelva a su nivel habitual en menos de 24 horas. Si el dolor o la hinchazón aumentan al día siguiente, se reduce la carga, pero no se abandona el movimiento.",
+     "Caminar con una buena postura, apoyando todo el pie y dejando que la cadera y la columna acompañen el paso, es probablemente el ejercicio más sencillo y accesible. A él se suman el trabajo de fuerza, la bicicleta, el agua para las fases de más dolor y, cuando la articulación lo tolera, actividades con algo más de impacto."
+    ]
+   },
+   {
+    "h2": "¿Le duelen las articulaciones cuando cambia el tiempo?",
+    "paras": [
+     "«Mañana llueve, me lo dice la rodilla.» Es una de las frases que más se oyen en consulta, y quien la dice no exagera. En un estudio europeo con 810 personas mayores con artrosis de rodilla, cadera o manos, el dolor articular se relacionó con la **humedad**, y ese efecto era mayor cuando además hacía frío (Timmermans et al., J Rheumatol, 2015). Otro estudio con 200 personas con artrosis de rodilla encontró que los cambios de presión atmosférica y la temperatura se asociaban, de forma independiente, a la intensidad del dolor (McAlindon et al., Am J Med, 2007).",
+     "¿Por qué podría ocurrir? Hay varias explicaciones posibles, ninguna demostrada del todo. Cuando baja la **presión atmosférica**, antes de la lluvia, los tejidos de alrededor de la articulación (cápsula, tendones, cicatrices) podrían expandirse ligeramente y estimular unos nervios que, en una articulación con artrosis, ya están más sensibles. Con el **frío**, el cuerpo prioriza el riego del corazón y los pulmones y llega menos sangre a las extremidades, los músculos se tensan y pierden flexibilidad, y el líquido sinovial podría volverse más espeso, lo que se percibe como rigidez. Además, los días grises y fríos nos movemos menos, dormimos peor y el ánimo baja, y todo ello **amplifica la percepción del dolor**.",
+     "La ciencia, sin embargo, no es unánime. Un estudio con 2.658 personas con dolor crónico que registraron su dolor a diario con una aplicación móvil durante 15 meses encontró relaciones **significativas pero modestas** con la humedad, la presión y el viento (Dixon et al., npj Digit Med, 2019). Un metaanálisis de 14 estudios concluyó que los factores meteorológicos se asocian al dolor de la artrosis, con más dolor a menor temperatura (Wang et al., Ann Med, 2023). En cambio, un análisis de más de 11 millones de visitas médicas de personas mayores en Estados Unidos no encontró más consultas por dolor articular o de espalda los días de lluvia (Jena et al., BMJ, 2017).",
+     "La conclusión honesta es que la relación existe para muchas personas, pero es pequeña y varía de unas a otras: hay quien es más sensible a los cambios de tiempo y quien no nota nada. Lo importante es que el tiempo no daña la articulación; cambia la forma en que se siente. Y eso permite anticiparse."
+    ],
+    "list_title": "Qué puede hacer cuando llega el frío o la humedad:",
+    "list": [
+     "Abríguese bien las articulaciones que más le molestan: rodilleras de lana, guantes, capas de ropa",
+     "Aplique calor local suave por la mañana o antes de moverse para aliviar la rigidez",
+     "No deje de moverse: si no puede salir, haga sus ejercicios en casa o camine en interiores",
+     "Empiece la actividad con unos minutos de movilidad suave antes de exigir a la articulación",
+     "Cuide el sueño y el ánimo en los meses oscuros: también influyen en el dolor"
+    ]
+   },
+   {
+    "h2": "¿Puede el dolor de cadera o de rodilla nacer en la columna?",
+    "paras": [
+     "No todo dolor en una articulación con artrosis viene de esa articulación. Un estudio internacional con 369 pacientes que consultaban por dolor aislado en una extremidad, convencidos de que no tenía nada que ver con la espalda, encontró que en el **43,5 %** el origen estaba en la columna: el dolor respondía a la intervención sobre la columna, y estas personas evolucionaron mejor que las que tenían un origen local (Rosedale et al., J Man Manip Ther, 2020). Por regiones, el origen vertebral fue especialmente frecuente en el dolor de **cadera (71 %)** y estuvo presente en una de cada cuatro personas con dolor de **rodilla (25,6 %)**.",
+     "Esto tiene una consecuencia práctica muy clara en la artrosis. Una radiografía de cadera o de rodilla con cambios degenerativos es casi la norma a partir de cierta edad, pero eso no garantiza que el dolor venga de ahí. La artrosis lumbar, con irritación de las raíces L3 y L4, puede referir dolor a la ingle, al muslo y a la rodilla; y la propia artrosis de cadera refiere con frecuencia dolor a la rodilla. Valorar siempre la columna y la cadera evita tratar durante meses una articulación que no es la responsable. Puede leer más sobre el dolor lumbar en nuestra página de [lumbalgia](lumbalgia-dolor-lumbar).",
+     "Aunque la clasificación de ese estudio se hizo con un método de fisioterapia concreto, la idea de fondo coincide con la visión osteopática: el lugar donde duele es un dato importante, pero no siempre es el lugar donde se origina el problema."
+    ]
+   },
+   {
+    "h2": "¿Por qué a veces el dolor de la artrosis se cronifica?",
+    "paras": [
+     "En algunas personas con artrosis, el dolor deja de guardar relación con lo que se ve en la radiografía: duele más de lo esperable, se extiende a zonas vecinas o aparece con estímulos que antes no dolían. Es la señal de que el **sistema nervioso se ha sensibilizado**: las neuronas que procesan el dolor en la médula y en el cerebro se han vuelto más reactivas y amplifican las señales que llegan de la articulación.",
+     "La teoría de la compuerta, formulada en 1965, ya planteaba que la información que llega desde los receptores del movimiento y la presión puede modular en la médula la transmisión de las señales de dolor (Melzack y Wall, 1965). Es una de las razones por las que el movimiento, el ejercicio y la terapia manual pueden aliviar el dolor sin que cambie la estructura de la articulación. Entender que más dolor no significa necesariamente más daño ayuda a perder el miedo a moverse. Puede leer más en nuestra página de [dolor persistente](dolor-persistente-cronico)."
+    ]
+   },
+   {
+    "h2": "¿Cómo se entiende la artrosis desde la osteopatía?",
+    "paras": [
+     "Una articulación con artrosis no vive aislada. La rodilla recibe las cargas que le llegan desde la cadera, la pelvis, el tobillo y el pie; la cadera depende de cómo se mueven la columna lumbar y la pelvis; las manos, del hombro, el codo y la columna cervical. Una cadera rígida aumenta la carga sobre la rodilla y la columna; un pie que apoya mal cambia la forma en que la rodilla absorbe cada paso.",
+     "Desde la osteopatía, el objetivo es entender cómo se reparten las cargas en el conjunto del cuerpo y por qué una articulación concreta soporta más de lo que le corresponde. El osteópata trabaja sobre todo el cuerpo, no solo sobre la articulación dolorosa, y valora también la columna, la pelvis, la fascia y, cuando la historia lo sugiere, las vísceras que pueden referir dolor a la zona."
+    ]
+   },
+   {
+    "h2": "¿Cuándo debo consultar con el médico?",
+    "paras": [
+     "Algunos síntomas no encajan con una artrosis y obligan a descartar otras causas antes de cualquier tratamiento manual:"
+    ],
+    "list": [
+     "Articulación hinchada, roja y caliente, sobre todo si aparece de forma brusca o con fiebre",
+     "Imposibilidad de apoyar la pierna tras una caída o un traumatismo",
+     "Rigidez matutina que dura más de una hora, o dolor e hinchazón en varias articulaciones a la vez (posible enfermedad inflamatoria)",
+     "Dolor nocturno intenso que no cede con el reposo ni con los cambios de postura",
+     "Pérdida de peso sin causa aparente, fiebre o antecedentes de cáncer",
+     "Pérdida de fuerza en las piernas, alteraciones de la sensibilidad o problemas para controlar la orina o las heces",
+     "Deformidad rápida de una articulación o bloqueo completo"
+    ]
+   },
+   {
+    "h2": "¿Cómo se diagnostica? La anamnesis",
+    "paras": [
+     "La valoración empieza por una **anamnesis detallada**: qué articulaciones duelen, desde cuándo, cómo es el dolor a lo largo del día y de la noche, cuánto dura la rigidez por la mañana, qué actividades limita, si hubo lesiones o cirugías previas, cómo es su actividad física y su trabajo y qué tratamientos ha probado.",
+     "También se recogen el peso y su evolución, el descanso, el estado de ánimo, otras enfermedades y la medicación. Con esa información se reconocen las señales de alarma, se distingue un dolor de la articulación de uno referido desde la columna y se fijan objetivos concretos: volver a caminar una distancia, subir escaleras sin miedo o retomar una actividad que se había dejado."
+    ]
+   },
+   {
+    "h2": "¿Qué se explora? La palpación como herramienta diagnóstica",
+    "paras": [
+     "La exploración incluye la observación de la postura y de la marcha, la movilidad activa y pasiva de la articulación, la presencia de derrame o crujidos, la fuerza de la musculatura que la rodea y pruebas funcionales como levantarse de una silla, subir un escalón o mantener el equilibrio sobre una pierna. Se exploran también la columna, la pelvis y las articulaciones vecinas.",
+     "La **palpación** es el centro de la exploración osteopática. Barral la llama **escucha manual** (*listening*): una palpación atenta que busca diferencias de tensión, densidad y movilidad en los tejidos. Distingue una escucha general, que orienta hacia la región del cuerpo que más llama la atención, y una escucha local, que precisa qué estructura está implicada: la cápsula, el ligamento, el menisco, el músculo, el nervio o el vaso. En su modelo, identificar qué tejido se percibe exige un conocimiento anatómico preciso.",
+     "El diagnóstico de la artrosis es sobre todo clínico. La radiografía puede confirmarlo, aunque no siempre es necesaria, y otras pruebas se reservan para descartar enfermedades como la artritis inflamatoria o la gota."
+    ]
+   },
+   {
+    "h2": "¿Cómo se trata? Primero, de forma conservadora",
+    "paras": [
+     "Las guías internacionales coinciden: la base del tratamiento de la artrosis es **conservadora**. Las guías de la Osteoarthritis Research Society International sitúan como tratamientos centrales la **educación** sobre la enfermedad y el **ejercicio estructurado**, con control del peso cuando hay sobrepeso en la artrosis de rodilla (Bannuru et al., Osteoarthritis Cartilage, 2019). Las revisiones Cochrane muestran que el ejercicio reduce el dolor y mejora la función tanto en la artrosis de rodilla (Fransen et al., 2015) como en la de cadera, con beneficios que se mantienen entre tres y seis meses después de terminar el programa (Fransen et al., 2014).",
+     "La **terapia manual** también tiene su lugar. Una revisión sistemática encontró evidencia, todavía limitada, de que la terapia manual mejora el dolor y la función en la artrosis de cadera, con resultados superiores al ejercicio solo a corto y largo plazo en el ensayo disponible; en la rodilla, la evidencia era insuficiente para sacar conclusiones (French et al., Man Ther, 2011). En un ensayo clínico con 206 personas con artrosis de cadera o rodilla, añadir terapia manual a la atención habitual mejoró los síntomas y la función al cabo de un año (Abbott et al., Osteoarthritis Cartilage, 2013). La terapia manual da los mejores resultados integrada en un **programa de varias semanas** que incluya ejercicio.",
+     "La medicación para el dolor y las infiltraciones las decide su médico, y en los brotes pueden facilitar que la persona siga moviéndose. Además, conviene buscar por qué la articulación se sobrecarga. La prótesis es un tratamiento muy eficaz en las fases avanzadas de cadera y rodilla, cuando el dolor y la limitación son importantes; llegar a ella con más fuerza y movilidad favorece la recuperación posterior."
+    ]
+   },
+   {
+    "h2": "¿Cuál es el plan? ¿Cuánto dura el proceso?",
+    "paras": [
+     "La artrosis no se aborda en una sesión. El objetivo es que la articulación vuelva a tolerar progresivamente más movimiento y más carga, y eso requiere un proceso. Cada plan se adapta a la persona, pero suele seguir unas fases parecidas:"
+    ],
+    "list": [
+     "**Semanas 1 a 2: entender y calmar.** Explicar qué ocurre en la articulación, reducir la irritación con terapia manual y movilidad suave, ajustar las actividades que más la sobrecargan sin dejar de moverse.",
+     "**Semanas 3 a 6: recuperar movilidad y control.** Trabajar la movilidad de la articulación y de las vecinas (cadera, columna, tobillo), empezar ejercicios de fuerza progresiva y de equilibrio y propiocepción.",
+     "**Semanas 6 a 12: volver a cargar.** Aumentar la carga y, si se tolera, introducir algo de impacto: caminar más rápido, subir escaleras, cuestas, bicicleta con resistencia.",
+     "**Después: mantener.** Integrar el ejercicio en la rutina de forma permanente y hacer revisiones periódicas, sobre todo en los cambios de estación o tras un brote."
+    ]
+   },
+   {
+    "h2": "¿Por qué cuesta tanto volver a moverse?",
+    "paras": [
+     "Para muchas personas con artrosis, lo más difícil no es el ejercicio en sí, sino **volver a confiar** en la articulación después de meses o años protegiéndola. El dolor enseña al cuerpo a moverse menos, y el miedo a empeorar refuerza esa tendencia. Romper ese círculo requiere empezar por poco, comprobar que el movimiento no hace daño y avanzar a un ritmo que la articulación pueda seguir.",
+     "Ese cambio influye en mucho más que la articulación: caminar más mejora el sueño, el ánimo, el control del peso, la tensión arterial y la autonomía. Por eso el ejercicio y los hábitos son el centro del tratamiento, no un añadido."
+    ]
+   },
+   {
+    "h2": "¿Qué puedo hacer para prevenirlo? Ejercicio y hábitos",
+    "paras": [
+     "El ejercicio más eficaz es el que se hace con regularidad. Las guías recomiendan combinar fuerza, ejercicio aeróbico, movilidad y equilibrio, adaptados a la articulación afectada y al momento de cada persona. Para prevenir o frenar la artrosis, los factores modificables más importantes son el **peso corporal**, la **fuerza muscular**, la **actividad física diaria** y una buena recuperación de las lesiones articulares."
+    ],
+    "list_title": "Ejemplos de ejercicios habituales (siempre con un dolor tolerable):",
+    "list": [
+     "**Sentarse y levantarse de una silla** sin ayuda de las manos, 2 o 3 series de 8 a 12",
+     "**Extensión de rodilla sentado**, con o sin un peso ligero en el tobillo",
+     "**Puente de glúteos** y **abducción de cadera** tumbado de lado para fortalecer la cadera",
+     "**Subir y bajar un escalón** de forma controlada",
+     "**Equilibrio sobre una pierna** junto a un apoyo, 20 a 30 segundos por lado",
+     "**Caminar** a diario, aumentando poco a poco la distancia y el ritmo",
+     "**Bicicleta estática** o ejercicio en el agua en las fases de más dolor",
+     "Para las manos: abrir y cerrar el puño, oponer el pulgar a cada dedo, apretar una pelota blanda"
+    ]
+   },
+   {
+    "h2": "¿Qué puedo hacer en el día a día?",
+    "paras": [
+     "Algunos hábitos sencillos ayudan a proteger la articulación y a controlar el dolor."
+    ],
+    "list": [
+     "Muévase cada día: caminar, nadar o ir en bicicleta son buenas opciones.",
+     "Reparta las tareas exigentes a lo largo del día y alterne actividad y descanso.",
+     "Cuide el peso corporal: cada kilo de menos reduce la carga sobre rodillas y caderas.",
+     "Utilice calzado cómodo, estable y con buena amortiguación.",
+     "Aplique calor local para la rigidez y frío unos minutos si la articulación está hinchada.",
+     "En días de frío y humedad, abrigue las articulaciones y no renuncie a moverse.",
+     "Evite pasar muchas horas sentado: levántese y dé unos pasos con frecuencia.",
+     "Si un brote le obliga a reducir la actividad, retómela de forma progresiva en cuanto pueda."
+    ]
+   }
+  ],
+  "evidence": {
+   "h2": "¿Qué dice la evidencia?",
+   "items": [
+    [
+     "Carga global (Lancet Rheumatology)",
+     "En 2020, 595 millones de personas tenían artrosis, el 7,6 % de la población mundial; la rodilla es la localización más frecuente (Steinmetz et al., 2023)."
+    ],
+    [
+     "Guía clínica (OARSI)",
+     "La educación y el ejercicio estructurado son los tratamientos centrales de la artrosis de rodilla, cadera y poliarticular, con control del peso en la rodilla (Bannuru et al., 2019)."
+    ],
+    [
+     "Ejercicio en la rodilla (Cochrane)",
+     "En 44 ensayos, el ejercicio redujo el dolor de la artrosis de rodilla en 12 puntos sobre 100 y mejoró la función en 10 puntos (Fransen et al., 2015)."
+    ],
+    [
+     "Ejercicio en la cadera (Cochrane)",
+     "Evidencia de alta calidad de 9 ensayos con 549 personas: el ejercicio reduce el dolor y mejora la función en la artrosis de cadera (Fransen et al., 2014)."
+    ],
+    [
+     "Terapia manual (Osteoarthritis Cartilage)",
+     "En 206 personas con artrosis de cadera o rodilla, añadir terapia manual a la atención habitual mejoró la escala WOMAC en 28,5 puntos al año (Abbott et al., 2013)."
+    ],
+    [
+     "Cartílago y carga (Br J Sports Med)",
+     "En 9 ensayos con resonancia, el ejercicio con carga sobre la rodilla no resultó perjudicial para el cartílago (Bricca et al., 2019)."
+    ],
+    [
+     "Correr y artrosis (JOSPT)",
+     "La artrosis de cadera o rodilla afectaba al 3,5 % de los corredores recreativos frente al 10,2 % de las personas sedentarias (Alentorn-Geli et al., 2017)."
+    ],
+    [
+     "Origen en la columna (J Man Manip Ther)",
+     "En el 43,5 % de 369 personas con dolor aislado en una extremidad el origen era vertebral; en la cadera, el 71 % (Rosedale et al., 2020)."
+    ],
+    [
+     "Tiempo y dolor (Ann Med)",
+     "Un metaanálisis de 14 estudios asoció los factores meteorológicos al dolor de la artrosis, con más dolor a menor temperatura (Wang et al., 2023)."
+    ],
+    [
+     "Tiempo y consultas (BMJ)",
+     "En más de 11 millones de visitas médicas de mayores, no hubo más consultas por dolor articular los días de lluvia (Jena et al., 2017)."
+    ]
+   ],
+   "refs": [
+    {
+     "t": "Steinmetz JD, Culbreth GT, Haile LM, et al. (GBD 2021 Osteoarthritis Collaborators), 2023. «Global, regional, and national burden of osteoarthritis, 1990–2020 and projections to 2050: a systematic analysis for the Global Burden of Disease Study 2021». The Lancet Rheumatology 5(9):e508-e522.",
+     "doi": "10.1016/S2665-9913(23)00163-7"
+    },
+    {
+     "t": "Bannuru RR, Osani MC, Vaysbrot EE, et al., 2019. «OARSI guidelines for the non-surgical management of knee, hip, and polyarticular osteoarthritis». Osteoarthritis and Cartilage 27(11):1578-1589.",
+     "doi": "10.1016/j.joca.2019.06.011"
+    },
+    {
+     "t": "Fransen M, McConnell S, Harmer AR, et al., 2015. «Exercise for osteoarthritis of the knee: a Cochrane systematic review». British Journal of Sports Medicine 49(24):1554-1557.",
+     "doi": "10.1136/bjsports-2015-095424"
+    },
+    {
+     "t": "Fransen M, McConnell S, Hernandez-Molina G, Reichenbach S, 2014. «Exercise for osteoarthritis of the hip». Cochrane Database of Systematic Reviews CD007912.",
+     "doi": "10.1002/14651858.CD007912.pub2"
+    },
+    {
+     "t": "French HP, Brennan A, White B, Cusack T, 2011. «Manual therapy for osteoarthritis of the hip or knee – a systematic review». Manual Therapy 16(2):109-117.",
+     "doi": "10.1016/j.math.2010.10.011"
+    },
+    {
+     "t": "Abbott JH, Robertson MC, Chapple C, et al., 2013. «Manual therapy, exercise therapy, or both, in addition to usual care, for osteoarthritis of the hip or knee: a randomized controlled trial. 1: clinical effectiveness». Osteoarthritis and Cartilage 21(4):525-534.",
+     "doi": "10.1016/j.joca.2012.12.014"
+    },
+    {
+     "t": "Bricca A, Juhl CB, Steultjens M, Wirth W, Roos EM, 2019. «Impact of exercise on articular cartilage in people at risk of, or with established, knee osteoarthritis: a systematic review of randomised controlled trials». British Journal of Sports Medicine 53(15):940-947.",
+     "doi": "10.1136/bjsports-2017-098661"
+    },
+    {
+     "t": "Alentorn-Geli E, Samuelsson K, Musahl V, et al., 2017. «The association of recreational and competitive running with hip and knee osteoarthritis: a systematic review and meta-analysis». Journal of Orthopaedic & Sports Physical Therapy 47(6):373-390.",
+     "doi": "10.2519/jospt.2017.7137"
+    },
+    {
+     "t": "Knoop J, Steultjens MPM, van der Leeden M, et al., 2011. «Proprioception in knee osteoarthritis: a narrative review». Osteoarthritis and Cartilage 19(4):381-388.",
+     "doi": "10.1016/j.joca.2011.01.003"
+    },
+    {
+     "t": "Rosedale R, Rastogi R, Kidd J, Lynch G, Supp G, Robbins SM, 2020. «A study exploring the prevalence of Extremity Pain of Spinal Source (EXPOSS)». Journal of Manual & Manipulative Therapy 28(4):222-230.",
+     "doi": "10.1080/10669817.2019.1661706"
+    },
+    {
+     "t": "Timmermans EJ, Schaap LA, Herbolsheimer F, et al., 2015. «The influence of weather conditions on joint pain in older people with osteoarthritis: results from the European Project on OSteoArthritis». The Journal of Rheumatology 42(10):1885-1892.",
+     "doi": "10.3899/jrheum.141594"
+    },
+    {
+     "t": "McAlindon T, Formica M, Schmid CH, Fletcher J, 2007. «Changes in barometric pressure and ambient temperature influence osteoarthritis pain». The American Journal of Medicine 120(5):429-434.",
+     "doi": "10.1016/j.amjmed.2006.07.036"
+    },
+    {
+     "t": "Dixon WG, Beukenhorst AL, Yimer BB, et al., 2019. «How the weather affects the pain of citizen scientists using a smartphone app». npj Digital Medicine 2:105.",
+     "doi": "10.1038/s41746-019-0180-3"
+    },
+    {
+     "t": "Wang L, Xu Q, Chen Y, et al., 2023. «Associations between weather conditions and osteoarthritis pain: a systematic review and meta-analysis». Annals of Medicine 55(1):2196439.",
+     "doi": "10.1080/07853890.2023.2196439"
+    },
+    {
+     "t": "Jena AB, Olenski AR, Molitor D, Miller N, 2017. «Association between rainfall and diagnoses of joint or back pain: retrospective claims analysis». BMJ 359:j5326.",
+     "doi": "10.1136/bmj.j5326"
+    },
+    {
+     "t": "Melzack R, Wall PD, 1965. «Pain mechanisms: a new theory». Science 150(3699):971-979.",
+     "doi": "10.1126/science.150.3699.971"
+    }
+   ]
+  },
+  "faq": [
+   [
+    "¿La artrosis tiene cura?",
+    "La artrosis no se cura en el sentido de que el cartílago vuelva a ser como antes, pero su evolución y su impacto sí se pueden modificar. Con ejercicio, control del peso y un buen reparto de cargas, muchas personas reducen el dolor y recuperan actividades que habían dejado."
+   ],
+   [
+    "¿Puedo hacer ejercicio si tengo artrosis?",
+    "Sí. El ejercicio adaptado es el pilar del tratamiento, y los estudios con resonancia indican que el ejercicio con carga no perjudica el cartílago. Se ajusta a la articulación afectada, a su condición física y al dolor de cada momento."
+   ],
+   [
+    "¿Es malo caminar o correr con artrosis de rodilla?",
+    "Caminar es uno de los mejores ejercicios para la artrosis. Correr de forma recreativa no se asocia a más artrosis; en las personas que ya la tienen, la tolerancia al impacto depende de cada caso y se introduce de forma progresiva."
+   ],
+   [
+    "¿Por qué me duele más cuando va a llover?",
+    "Muchas personas con artrosis notan más dolor con la humedad, el frío o los cambios de presión, y los estudios encuentran una relación real aunque modesta y variable de unas personas a otras. El tiempo no daña la articulación: cambia cómo se siente. Abrigarse, aplicar calor y mantenerse activo ayuda."
+   ],
+   [
+    "¿Perder peso alivia el dolor?",
+    "En la artrosis de rodilla y de cadera, reducir el exceso de peso disminuye la carga sobre la articulación y suele mejorar el dolor y la función. Las guías lo incluyen entre los tratamientos centrales de la artrosis de rodilla."
+   ],
+   [
+    "Me duele la rodilla y tengo artrosis, ¿puede venir de otro sitio?",
+    "Sí. La artrosis de cadera y los problemas de la columna lumbar refieren con frecuencia dolor a la rodilla. En un estudio, una de cada cuatro personas con dolor de rodilla tenía un origen vertebral. Por eso se valoran siempre la columna y la cadera."
+   ],
+   [
+    "¿Tiene sentido si ya me han propuesto una prótesis?",
+    "Sí. Llegar a la cirugía con más fuerza, movilidad y confianza al moverse favorece la recuperación posterior, y en algunas personas permite aplazar la decisión. La indicación de la prótesis la valora el traumatólogo."
+   ],
+   [
+    "¿La artrosis de manos y de columna también se puede tratar?",
+    "Sí. Cada localización requiere un plan propio. Si el dolor es sobre todo lumbar o baja por la pierna, puede consultar también nuestras páginas de [lumbalgia](lumbalgia-dolor-lumbar) y [ciática](ciatica)."
+   ]
+  ],
+  "related": [
+   "dolor-rodilla-condromalacia",
+   "hombro-doloroso",
+   "perdida-de-peso-sarria-sant-gervasi",
+   "dolor-articular-miofascial"
+  ],
+  "cta_h2": "Vuelva a moverse con menos dolor",
+  "seo": {
+   "kw": "artrosis Barcelona",
+   "kws": [
+    "artrosis de rodilla tratamiento",
+    "artrosis de cadera ejercicios",
+    "artrosis de manos",
+    "rigidez articular",
+    "dolor articular Barcelona"
+   ],
+   "ca_kw": "artrosi Barcelona",
+   "quick": "La artrosis es una enfermedad de toda la articulación que afecta al cartílago, al hueso subcondral, a la membrana sinovial y a los tejidos que la rodean, y se manifiesta con dolor al moverse y rigidez. Es la enfermedad articular más frecuente, sobre todo en rodilla, cadera, manos y columna. Su tratamiento de base, también en Sarrià–Sant Gervasi (Barcelona), es conservador: educación, ejercicio y carga bien dosificada.",
+   "entity": [
+    "MedicalCondition",
+    "Artrosis"
+   ]
+  },
+  "research": [
+   "Personas con artrosis diagnosticada que buscan aliviar el dolor y mantener la movilidad.",
+   [
+    "artrosis de rodilla tratamiento Barcelona",
+    "ejercicios para la artrosis de cadera",
+    "rigidez articular por la mañana"
+   ],
+   [
+    "artrosi genoll Barcelona",
+    "artrosi tractament"
+   ],
+   "Clínicas de traumatología, fisioterapia y medicina regenerativa, y portales de salud generalistas."
+  ],
+  "ca": {}
+ },
+ {
+  "slug": "dolor-rodilla-condromalacia",
+  "ca_slug": "dolor-genoll-condromalacia",
+  "nav": "Dolor de rodilla y condromalacia",
+  "card": "Dolor de rodilla, condromalacia rotuliana, meniscos, quiste de Baker o cintilla iliotibial: por qué la rodilla no va sola y cómo se trata de forma conservadora.",
+  "title": "Dolor de rodilla y condromalacia en Barcelona | WA LAM",
+  "desc": "Dolor de rodilla y condromalacia rotuliana en Sarrià–Sant Gervasi, Barcelona: causas, por qué influyen la cadera, el pie y la columna, cómo se valora y cómo se trata con ejercicio y terapia manual.",
+  "h1": "Dolor de rodilla y condromalacia rotuliana en Barcelona",
+  "sub": "Dolor patelofemoral, meniscos y más · Sarrià–Sant Gervasi",
+  "lead": "La rodilla es una pieza clave para caminar, subir escaleras, agacharse o hacer deporte, y cuando duele se nota en todo el día. El dolor puede venir de la propia rodilla, como en la condromalacia rotuliana o en una lesión de menisco, pero también de cómo trabajan la cadera, el pie o la columna. Entender de dónde viene es el primer paso para tratarlo.",
+  "facts_title": "En WA LAM",
+  "facts": [
+   "Condromalacia, dolor patelofemoral y otras causas de dolor de rodilla",
+   "Valoración de la cadera, el pie y la columna",
+   "Tratamiento conservador con osteopatía y ejercicio",
+   "Primera visita: 60 min · 90 €"
+  ],
+  "wa": "Hola, me gustaría información sobre el abordaje del dolor de rodilla.",
+  "mirror": {
+   "h2": "¿Se reconoce en estos síntomas?",
+   "qs": [
+    "¿Le duele la rodilla al bajar escaleras, agacharse o tras pasar mucho rato sentado con las piernas dobladas?",
+    "¿Percibe crujidos, sensación de roce detrás de la rótula o una hinchazón en la parte de atrás de la rodilla?",
+    "¿El dolor aparece en la cara externa de la rodilla cuando lleva un rato corriendo o en bicicleta?",
+    "¿Le duele la rodilla y, a la vez, nota molestias en la cadera, la zona lumbar o el pie?"
+   ],
+   "close": "Si presenta alguna de las señales de alarma que explicamos más abajo, consulte primero con su médico o acuda a urgencias."
+  },
+  "explain": {
+   "h2": "¿Qué es el dolor de rodilla y qué es la condromalacia?",
+   "paras": [
+    "La rodilla está formada por dos articulaciones: la **femorotibial**, entre el fémur y la tibia, que soporta el peso del cuerpo, y la **patelofemoral**, entre la rótula y el fémur, que funciona como una polea para el cuádriceps. Entre el fémur y la tibia se sitúan los dos **meniscos**, interno y externo, unos cojinetes de fibrocartílago que reparten la carga y estabilizan. Los **ligamentos cruzados**, anterior y posterior, controlan el deslizamiento de la tibia, y los **ligamentos colaterales**, los movimientos laterales. Alrededor hay una cápsula, varias bolsas serosas y potentes músculos y tendones, como el cuádriceps, los isquiotibiales (entre ellos el bíceps femoral) y la cintilla iliotibial.",
+    "La **condromalacia rotuliana** es el reblandecimiento y deterioro del cartílago de la cara posterior de la rótula. Forma parte del **síndrome de dolor patelofemoral**, el dolor alrededor o detrás de la rótula, conocido también como dolor anterior de rodilla o «rodilla del corredor». Se agrava al subir o bajar escaleras, al agacharse, al correr cuesta abajo y tras mucho tiempo sentado con las rodillas dobladas («signo del cine»). El grado de lesión del cartílago no siempre se corresponde con la intensidad del dolor.",
+    "Es útil clasificar el dolor de rodilla según **dónde** duele, porque orienta sobre su origen: el dolor **anterior** sugiere un problema patelofemoral o del tendón rotuliano; el **interno**, el menisco interno, el ligamento colateral interno, la pata de ganso o una artrosis; el **externo**, la cintilla iliotibial o el menisco externo; y el **posterior**, un quiste de Baker, los isquiotibiales o los gemelos. Y siempre hay que tener en cuenta el dolor que **llega a la rodilla desde otro sitio**, como la cadera o la columna lumbar."
+   ]
+  },
+  "sections": [
+   {
+    "h2": "¿Es frecuente?",
+    "paras": [
+     "El dolor de rodilla es uno de los motivos de consulta musculoesquelética más habituales. Solo el dolor patelofemoral tiene, según un metaanálisis, una **prevalencia anual del 22,7 %** en la población general y del **28,9 % en adolescentes**, y es especialmente frecuente en personas que corren y en chicas adolescentes deportistas (Smith et al., PLoS One, 2018).",
+     "En edades más avanzadas predominan los cambios degenerativos: la rodilla es la localización más frecuente de la [artrosis](artrosis), que en 2020 afectaba a unos 595 millones de personas en el mundo (Steinmetz et al., Lancet Rheumatology, 2023). Y las roturas de menisco son tan frecuentes con la edad que muchas veces aparecen en la resonancia sin dar ningún síntoma, como veremos más abajo."
+    ]
+   },
+   {
+    "h2": "¿Quién tiene más riesgo?",
+    "paras": [
+     "El dolor de rodilla suele aparecer cuando se combinan varios factores que aumentan la carga sobre la articulación o reducen su capacidad para tolerarla."
+    ],
+    "list": [
+     "Aumentos bruscos del volumen o la intensidad del entrenamiento, o cambios de superficie o de calzado",
+     "Debilidad del cuádriceps y de la musculatura de la cadera, sobre todo de los glúteos",
+     "Alteraciones del apoyo del pie, tobillos rígidos tras esguinces antiguos",
+     "Deportes con saltos, carrera, giros o cambios de dirección",
+     "Rigidez de cuádriceps, isquiotibiales, gemelos o cintilla iliotibial",
+     "Lesiones previas de menisco o ligamentos",
+     "Sobrepeso, que multiplica la carga en cada escalón",
+     "Dolor lumbar, de cadera o cojera por otra causa que cambian la forma de caminar"
+    ]
+   },
+   {
+    "h2": "¿Cuáles son los síntomas?",
+    "paras": [
+     "Los síntomas dependen de la causa. En el dolor patelofemoral, el dolor es difuso alrededor o detrás de la rótula y aumenta con las escaleras, las sentadillas y el tiempo sentado. En las lesiones de menisco, el dolor se localiza en la interlínea interna o externa, con hinchazón, chasquidos o bloqueos. En la cintilla iliotibial, el dolor es externo y aparece con la carrera o la bicicleta. El quiste de Baker da tensión o bulto en la parte posterior.",
+     "También pueden aparecer crujidos, sensación de inestabilidad o de que la rodilla falla, rigidez por la mañana y dificultad para doblarla o estirarla del todo. Cuando el dolor se acompaña de molestias lumbares o en la nalga, hormigueo o cambios de sensibilidad en la pierna, conviene pensar en un origen en la columna."
+    ]
+   },
+   {
+    "h2": "¿Por qué influyen la cadera, la pelvis, el tobillo y el pie?",
+    "paras": [
+     "La rodilla está entre dos articulaciones muy móviles, la cadera y el tobillo, y en buena medida **obedece** a lo que pasa por encima y por debajo de ella. Si la cadera no controla bien el muslo, al bajar un escalón o al aterrizar de un salto el fémur tiende a girar hacia dentro y la rodilla se va hacia el interior (lo que se llama valgo dinámico). La rótula deja entonces de deslizar por el centro de su surco y la presión se concentra en una parte del cartílago.",
+     "Algo parecido ocurre desde abajo. Un pie que se hunde en exceso al apoyar, un tobillo rígido tras un esguince antiguo o una pisada que cambia por un dolor en otro sitio modifican la forma en que la tibia gira y en que la rodilla absorbe cada paso. La **pelvis** también influye: una diferencia de movilidad entre ambos lados, una sacroilíaca bloqueada o una cojera por un dolor lumbar alteran la marcha y el **reparto del peso**, y la rodilla de un lado acaba recibiendo más carga.",
+     "El dolor en sí también cambia la forma de moverse. Una rodilla dolorosa hace que el cerebro modifique el patrón de marcha para protegerla, y esa adaptación, útil al principio, puede mantenerse cuando ya no hace falta y sobrecargar otras zonas. Por eso la valoración de una rodilla dolorosa incluye siempre la cadera, la pelvis, la columna lumbar, el tobillo y el pie. El consenso internacional sobre dolor patelofemoral recomienda, de hecho, combinar ejercicios de **cadera y de rodilla** como base del tratamiento (Collins et al., Br J Sports Med, 2018)."
+    ]
+   },
+   {
+    "h2": "¿Qué es la propiocepción y por qué importa en la rodilla?",
+    "paras": [
+     "La estabilidad de la rodilla no depende solo de los ligamentos. La cápsula, los meniscos, los ligamentos y los músculos contienen receptores que informan constantemente al sistema nervioso central de la posición y la carga de la articulación. Con esa información, la **propiocepción**, el cerebro activa los músculos en el momento justo para proteger la rodilla en cada paso, en cada giro y en cada aterrizaje.",
+     "Tras una lesión, una cirugía o un periodo de dolor, esa comunicación se altera: la rodilla «se siente» menos, responde más tarde y es más fácil que vuelva a lesionarse o que falle. En la artrosis de rodilla se ha descrito una menor precisión propioceptiva, que el ejercicio parece mejorar (Knoop et al., Osteoarthritis Cartilage, 2011). Por eso los ejercicios de **equilibrio, estabilización y control** son imprescindibles en la recuperación, junto con el trabajo de fuerza."
+    ]
+   },
+   {
+    "h2": "¿Por qué aparece la condromalacia y el dolor patelofemoral?",
+    "paras": [
+     "El dolor patelofemoral aparece cuando la articulación entre la rótula y el fémur recibe **más carga de la que tolera** en ese momento. Influyen la cantidad de carga, como un aumento brusco del entrenamiento, muchas escaleras o largas horas sentado con las rodillas dobladas, y la forma en que la rótula se alinea al moverse, que depende de la fuerza del cuádriceps y de la cadera, de la flexibilidad de los músculos del muslo y de la pierna y del apoyo del pie.",
+     "La condromalacia describe el estado del cartílago, pero el dolor no procede del cartílago, que no tiene nervios, sino del hueso que hay debajo, de la grasa que hay bajo el tendón rotuliano, de la membrana sinovial y de los tejidos de alrededor de la rótula. Por eso dos personas con el mismo grado de condromalacia pueden tener síntomas muy distintos, y por eso el tratamiento busca sobre todo devolver a la articulación su **tolerancia a la carga**.",
+     "Es más frecuente en mujeres, en adolescentes y en personas que practican deportes con carrera, saltos o cambios de dirección. Suele evolucionar en brotes ligados a la actividad. No es lo mismo que la artrosis de rodilla, aunque ambas pueden coincidir en personas mayores."
+    ]
+   },
+   {
+    "h2": "¿Qué ocurre con los meniscos y los ligamentos cruzados?",
+    "paras": [
+     "Las **lesiones de menisco** pueden ser traumáticas, típicas de personas jóvenes que giran sobre la rodilla con el pie apoyado, o degenerativas, frecuentes a partir de los 40 o 50 años, a veces sin un traumatismo claro. Pueden dar dolor en la interlínea articular, hinchazón, chasquidos y, si un fragmento se desplaza, bloqueo de la rodilla.",
+     "Es importante saber que muchas roturas de menisco **no duelen**. En un estudio con resonancia en 991 personas de 50 a 90 años, elegidas al azar en la población general, el 61 % de quienes tenían una rotura de menisco no había tenido dolor, molestias ni rigidez en el último mes (Englund et al., N Engl J Med, 2008). En las roturas degenerativas, un ensayo clínico con 140 personas de mediana edad comparó 12 semanas de ejercicio supervisado con la cirugía artroscópica: a los dos años no hubo diferencias clínicamente relevantes, y el grupo de ejercicio ganó más fuerza en el muslo (Kise et al., BMJ, 2016).",
+     "Las roturas del **ligamento cruzado anterior** suelen producirse en deportes con giros, frenadas o aterrizajes, con un chasquido, dolor intenso, hinchazón rápida y sensación de inestabilidad. Requieren valoración médica para decidir entre tratamiento conservador o cirugía, y en ambos casos la rehabilitación con fuerza y propiocepción es la parte más larga e importante. Puede consultar también nuestra página de [lesiones deportivas](lesiones-deportivas)."
+    ]
+   },
+   {
+    "h2": "¿Qué es el quiste de Baker?",
+    "paras": [
+     "El **quiste de Baker** o quiste poplíteo es una acumulación de líquido sinovial en una bolsa situada en la parte posterior de la rodilla, entre los tendones del gemelo interno y del semimembranoso. Casi siempre es **secundario** a otro problema dentro de la rodilla, como una artrosis o una rotura de menisco, que hace que se produzca más líquido del habitual; ese líquido escapa hacia atrás y queda retenido.",
+     "Se nota como un bulto o una tensión detrás de la rodilla, que aumenta al estirar del todo la pierna o al agacharse. Muchas veces mejora cuando se trata la causa de fondo. Si el quiste se rompe, puede dar dolor e hinchazón en la pantorrilla parecidos a los de una trombosis venosa; ante una pantorrilla hinchada, caliente y dolorosa hay que consultar al médico sin demora para descartarla."
+    ]
+   },
+   {
+    "h2": "¿Y si el dolor no viene de la articulación? Cintilla iliotibial, bíceps femoral y ciática",
+    "paras": [
+     "No todo dolor de rodilla es estructural ni procede del interior de la articulación. El **síndrome de la cintilla iliotibial** da dolor en la cara externa de la rodilla, típico en corredores y ciclistas, que aparece al cabo de un tiempo de actividad y obliga a parar. La cintilla es una banda de fascia que nace del **tensor de la fascia lata** y del glúteo mayor, en la cadera, y llega hasta la tibia: su sobrecarga suele estar relacionada con cómo controla la cadera el movimiento de la pierna.",
+     "Las **tendinopatías del bíceps femoral**, el isquiotibial externo, dan dolor en la parte posterior y externa de la rodilla, cerca de su inserción en la cabeza del peroné, sobre todo en personas que corren o hacen sprints. Los tendones de la **pata de ganso**, en la cara interna, también pueden irritarse.",
+     "Y a veces el dolor de rodilla es un **dolor irradiado** desde la columna. Una irritación de la raíz L3 o L4 puede dar dolor en la cara anterior del muslo y la rodilla; una [ciática](ciatica) puede bajar por detrás de la rodilla hacia la pantorrilla. En esos casos el dolor suele acompañarse de molestias lumbares o en la nalga, hormigueo o cambios de sensibilidad, y no empeora tanto con los gestos propios de la rodilla."
+    ]
+   },
+   {
+    "h2": "¿Puede el dolor de rodilla nacer en la columna o en la cadera?",
+    "paras": [
+     "Un estudio internacional con 369 pacientes que consultaban por dolor aislado en una extremidad, convencidos de que no tenía nada que ver con la espalda, encontró que en el **43,5 %** el dolor tenía un origen en la columna: respondía a la intervención sobre la columna, y esas personas evolucionaron mejor que las que tenían un origen local (Rosedale et al., J Man Manip Ther, 2020). En el caso de la **rodilla**, el origen vertebral se identificó en **el 25,6 %** de los participantes, una de cada cuatro personas, y en la cadera llegó al 71 %.",
+     "La **cadera** es la otra gran fuente de dolor referido a la rodilla. La articulación de la cadera y la rodilla comparten inervación a través de los nervios femoral y obturador, y una artrosis de cadera puede manifestarse durante meses solo como dolor de rodilla, sobre todo en la cara interna o anterior del muslo. Es un error clásico tratar una rodilla durante mucho tiempo sin explorar la cadera.",
+     "Aunque la clasificación de aquel estudio se hizo con un método de fisioterapia concreto, la conclusión coincide con la visión osteopática: el lugar donde duele no siempre es el lugar donde se origina el problema, y en todo dolor de rodilla conviene valorar la columna lumbar y la cadera. Puede leer más sobre el dolor lumbar en nuestra página de [lumbalgia](lumbalgia-dolor-lumbar)."
+    ]
+   },
+   {
+    "h2": "¿Le duele la rodilla cuando va a llover?",
+    "paras": [
+     "Muchas personas con dolor de rodilla, sobre todo si tienen artrosis, notan que la rodilla «avisa» de los cambios de tiempo. No es imaginación: un estudio con 200 personas con artrosis de rodilla encontró que los cambios de presión atmosférica y la temperatura se asociaban a la intensidad del dolor (McAlindon et al., Am J Med, 2007). Con el frío y la humedad, los tejidos de alrededor de la articulación pierden flexibilidad, llega menos sangre a las piernas y nos movemos menos, y todo ello hace que la rodilla se sienta más rígida y sensible.",
+     "La relación, sin embargo, es modesta y varía de unas personas a otras, y algunos estudios grandes no la encuentran. El tiempo no daña la rodilla: cambia cómo se siente. En los días fríos ayuda abrigarla, aplicar calor suave antes de moverse y no renunciar al ejercicio. Lo explicamos con más detalle en nuestra página de [artrosis](artrosis)."
+    ]
+   },
+   {
+    "h2": "¿Cómo se entiende la rodilla desde la osteopatía?",
+    "paras": [
+     "Desde la osteopatía, la rodilla se valora como un eslabón de una cadena que va desde el pie hasta la columna. El objetivo es entender por qué esa rodilla recibe más carga de la que tolera: si la cadera ha perdido movilidad, si la pelvis o la sacroilíaca no se mueven de forma simétrica, si el tobillo está rígido o si la columna lumbar está irritando un nervio que llega a la rodilla.",
+     "El osteópata trabaja sobre todo el cuerpo, no solo sobre la articulación dolorosa. Esa mirada global, junto con el trabajo de fuerza y control del movimiento, permite que la mejoría se mantenga en el tiempo y no dependa únicamente de calmar el dolor local."
+    ]
+   },
+   {
+    "h2": "¿Cuándo debo consultar con el médico?",
+    "paras": [
+     "Algunos síntomas requieren valoración médica antes de cualquier tratamiento manual:"
+    ],
+    "list": [
+     "Rodilla bloqueada que no se puede estirar del todo",
+     "Hinchazón importante e inmediata tras un golpe o un giro, o imposibilidad de apoyar",
+     "Sensación de que la rodilla falla de forma repetida tras una torcedura",
+     "Rodilla roja, caliente e hinchada, sobre todo con fiebre",
+     "Pantorrilla hinchada, caliente y dolorosa (hay que descartar una trombosis)",
+     "Dolor de rodilla con pérdida de fuerza, hormigueo o adormecimiento en la pierna",
+     "Dolor nocturno intenso sin causa aparente o en niños y adolescentes con dolor persistente o cojera",
+     "Deformidad tras un traumatismo"
+    ]
+   },
+   {
+    "h2": "¿Cómo se diagnostica? La anamnesis",
+    "paras": [
+     "La valoración empieza por una **anamnesis detallada**: dónde duele exactamente, cómo y cuándo empezó, si hubo un golpe o un giro, si la rodilla se hinchó, se bloqueó o falló, qué actividades lo provocan (escaleras, carrera, estar sentado, agacharse) y cómo ha evolucionado.",
+     "También se pregunta por el deporte y el volumen de entrenamiento, el calzado, el trabajo, lesiones antiguas de tobillo, cadera o espalda, dolor lumbar y cualquier cambio reciente en la forma de caminar. Esa información orienta hacia una causa local o referida y permite reconocer las señales de alarma."
+    ]
+   },
+   {
+    "h2": "¿Qué se explora? La palpación como herramienta diagnóstica",
+    "paras": [
+     "La exploración incluye la observación de la postura, la marcha y gestos como la sentadilla, el escalón o el salto; la movilidad de la rodilla, la presencia de derrame, la palpación de la rótula, los meniscos, los ligamentos y los tendones; pruebas específicas de meniscos y ligamentos; y la valoración de la fuerza del cuádriceps y de la cadera. Se exploran también la cadera, la columna lumbar, el tobillo y el pie, y, si hay sospecha de origen vertebral, la sensibilidad, los reflejos y las maniobras de tensión neural.",
+     "La **palpación** es el centro de la exploración osteopática. Barral la llama **escucha manual** (*listening*): una palpación atenta que busca diferencias de tensión, densidad y movilidad en los tejidos. Distingue una escucha general, que orienta hacia la región del cuerpo que más llama la atención, y una escucha local, que precisa qué estructura está implicada: la cápsula, el menisco, el ligamento, el tendón, el nervio o el vaso.",
+     "Las pruebas de imagen no son necesarias en la mayoría de los casos. La radiografía o la resonancia se reservan para sospechas de lesión de ligamentos o de menisco con bloqueo o inestabilidad, para traumatismos o cuando el dolor no mejora con el tratamiento. Recuerde que muchos hallazgos de la resonancia, como las roturas degenerativas de menisco, también aparecen en personas sin dolor."
+    ]
+   },
+   {
+    "h2": "¿Cómo se trata? Primero, de forma conservadora",
+    "paras": [
+     "La mayoría de los dolores de rodilla se tratan de forma **conservadora**. En el dolor patelofemoral, el consenso internacional recomienda el ejercicio terapéutico, en especial la combinación de ejercicios de cadera y de rodilla, las intervenciones combinadas y, en casos seleccionados, las plantillas, para mejorar el dolor y la función (Crossley et al., 2016; Collins et al., 2018). Las movilizaciones aplicadas de forma aislada no son suficientes: la terapia manual tiene sentido dentro de un programa con ejercicio.",
+     "En las roturas degenerativas de menisco, el ejercicio supervisado ofrece resultados similares a la cirugía artroscópica a dos años (Kise et al., BMJ, 2016). En la artrosis de rodilla, la educación y el ejercicio son los tratamientos centrales. La terapia manual busca mejorar la movilidad de la rodilla y de las articulaciones de las que depende, la cadera, la pelvis, el tobillo y la columna, para que la carga se reparta mejor; el ejercicio devuelve la fuerza y el control.",
+     "La medicación para el dolor y las infiltraciones las decide su médico. La cirugía se reserva para situaciones concretas, como una rodilla bloqueada por un fragmento de menisco, una inestabilidad por rotura de ligamento cruzado en personas activas o una artrosis avanzada con mucha limitación."
+    ]
+   },
+   {
+    "h2": "¿Qué puedo hacer para prevenirlo? Ejercicio y hábitos",
+    "paras": [
+     "El ejercicio diario es imprescindible, tanto para recuperarse como para evitar recaídas. Fortalecer el cuádriceps y los glúteos reduce la carga sobre la rótula; trabajar el equilibrio mejora el control de la rodilla; mantener la flexibilidad de los músculos del muslo y la pierna facilita que la rótula deslice bien. Y aumentar la carga de forma gradual, en lugar de a saltos, es la mejor prevención en quienes hacen deporte.",
+     "Al principio puede ser necesario reducir temporalmente las actividades que más irritan, como las sentadillas profundas, correr cuesta abajo o subir muchas escaleras, pero sin dejar de moverse. Durante el ejercicio se acepta un dolor leve, que no supere aproximadamente un 3 o 4 sobre 10 y que no aumente al día siguiente."
+    ],
+    "list_title": "Ejemplos de ejercicios habituales:",
+    "list": [
+     "**Abducción de cadera** tumbado de lado y **puente de glúteos**, 2 o 3 series de 10 a 15",
+     "**Extensión de rodilla sentado** en el último tramo del movimiento, con un peso ligero",
+     "**Sentadilla parcial** apoyado en la pared, sin pasar de 45 a 60 grados al principio",
+     "**Subir un escalón** de frente y de lado, controlando que la rodilla no se vaya hacia dentro",
+     "**Equilibrio sobre una pierna**, primero en suelo firme y después sobre un cojín",
+     "**Estiramientos** de cuádriceps, isquiotibiales, gemelos y de la cara externa de la cadera, 30 segundos cada uno",
+     "**Bicicleta estática** con el sillín alto para mantener la movilidad sin sobrecargar la rótula"
+    ]
+   },
+   {
+    "h2": "¿Qué puedo hacer en el día a día?",
+    "paras": [
+     "Estos consejos ayudan a reducir la carga sobre la rodilla en el día a día."
+    ],
+    "list": [
+     "Aumente el entrenamiento de forma gradual, sin cambios bruscos de volumen, superficie o calzado.",
+     "Fortalezca cuádriceps y glúteos con regularidad, siguiendo la pauta indicada.",
+     "En trayectos largos o en la oficina, estire las piernas y levántese con frecuencia.",
+     "Al bajar escaleras, apóyese en la barandilla en las fases de más dolor y baje despacio.",
+     "Use un calzado adecuado para su actividad y su tipo de pisada, y renuévelo cuando pierda amortiguación.",
+     "Cuide el peso corporal: cada kilo de menos se nota en cada escalón.",
+     "Aplique frío local unos 15 minutos tras la actividad si la rodilla está irritada, y calor suave si está rígida.",
+     "Si además le duele la espalda, la cadera o el pie, coméntelo: puede estar relacionado."
+    ]
+   }
+  ],
+  "evidence": {
+   "h2": "¿Qué dice la evidencia?",
+   "items": [
+    [
+     "Frecuencia (PLoS One)",
+     "La prevalencia anual del dolor patelofemoral es del 22,7 % en la población general y del 28,9 % en adolescentes (Smith et al., 2018)."
+    ],
+    [
+     "Origen en la columna (J Man Manip Ther)",
+     "En el 25,6 % de las personas con dolor aislado de rodilla el origen era vertebral; en el conjunto de las extremidades, el 43,5 % (Rosedale et al., 2020)."
+    ],
+    [
+     "Meniscos sin dolor (N Engl J Med)",
+     "El 61 % de las personas de 50 a 90 años con rotura de menisco en la resonancia no había tenido dolor ni rigidez en el último mes (Englund et al., 2008)."
+    ],
+    [
+     "Ejercicio o cirugía (BMJ)",
+     "En 140 personas con rotura degenerativa de menisco, 12 semanas de ejercicio dieron resultados similares a la artroscopia a dos años (Kise et al., 2016)."
+    ],
+    [
+     "Consenso 2016 (Br J Sports Med)",
+     "El consenso internacional recomienda el ejercicio de cadera y rodilla para reducir el dolor patelofemoral y mejorar la función (Crossley et al., 2016)."
+    ],
+    [
+     "Consenso 2018 (Br J Sports Med)",
+     "Un panel de 41 expertos recomendó combinar ejercicios de cadera y de rodilla, intervenciones combinadas y plantillas en el dolor patelofemoral (Collins et al., 2018)."
+    ],
+    [
+     "Propiocepción (Osteoarthritis Cartilage)",
+     "La precisión propioceptiva está disminuida en la artrosis de rodilla y el ejercicio parece mejorarla (Knoop et al., 2011)."
+    ],
+    [
+     "Tiempo y dolor (Am J Med)",
+     "En 200 personas con artrosis de rodilla, los cambios de presión atmosférica y la temperatura se asociaron a la intensidad del dolor (McAlindon et al., 2007)."
+    ]
+   ],
+   "refs": [
+    {
+     "t": "Smith BE, Selfe J, Thacker D, et al., 2018. «Incidence and prevalence of patellofemoral pain: a systematic review and meta-analysis». PLoS One 13(1):e0190892.",
+     "doi": "10.1371/journal.pone.0190892"
+    },
+    {
+     "t": "Rosedale R, Rastogi R, Kidd J, Lynch G, Supp G, Robbins SM, 2020. «A study exploring the prevalence of Extremity Pain of Spinal Source (EXPOSS)». Journal of Manual & Manipulative Therapy 28(4):222-230.",
+     "doi": "10.1080/10669817.2019.1661706"
+    },
+    {
+     "t": "Englund M, Guermazi A, Gale D, et al., 2008. «Incidental meniscal findings on knee MRI in middle-aged and elderly persons». New England Journal of Medicine 359(11):1108-1115.",
+     "doi": "10.1056/NEJMoa0800777"
+    },
+    {
+     "t": "Kise NJ, Risberg MA, Stensrud S, Ranstam J, Engebretsen L, Roos EM, 2016. «Exercise therapy versus arthroscopic partial meniscectomy for degenerative meniscal tear in middle aged patients: randomised controlled trial with two year follow-up». BMJ 354:i3740.",
+     "doi": "10.1136/bmj.i3740"
+    },
+    {
+     "t": "Crossley KM, van Middelkoop M, Callaghan MJ, et al., 2016. «2016 Patellofemoral pain consensus statement from the 4th International Patellofemoral Pain Research Retreat, Manchester. Part 2: recommended physical interventions (exercise, taping, bracing, foot orthoses and combined interventions)». British Journal of Sports Medicine 50(14):844-852.",
+     "doi": "10.1136/bjsports-2016-096268"
+    },
+    {
+     "t": "Collins NJ, Barton CJ, van Middelkoop M, et al., 2018. «2018 Consensus statement on exercise therapy and physical interventions (orthoses, taping and manual therapy) to treat patellofemoral pain: recommendations from the 5th International Patellofemoral Pain Research Retreat, Gold Coast, Australia, 2017». British Journal of Sports Medicine 52(18):1170-1178.",
+     "doi": "10.1136/bjsports-2018-099397"
+    },
+    {
+     "t": "Knoop J, Steultjens MPM, van der Leeden M, et al., 2011. «Proprioception in knee osteoarthritis: a narrative review». Osteoarthritis and Cartilage 19(4):381-388.",
+     "doi": "10.1016/j.joca.2011.01.003"
+    },
+    {
+     "t": "Steinmetz JD, Culbreth GT, Haile LM, et al. (GBD 2021 Osteoarthritis Collaborators), 2023. «Global, regional, and national burden of osteoarthritis, 1990–2020 and projections to 2050: a systematic analysis for the Global Burden of Disease Study 2021». The Lancet Rheumatology 5(9):e508-e522.",
+     "doi": "10.1016/S2665-9913(23)00163-7"
+    },
+    {
+     "t": "McAlindon T, Formica M, Schmid CH, Fletcher J, 2007. «Changes in barometric pressure and ambient temperature influence osteoarthritis pain». The American Journal of Medicine 120(5):429-434.",
+     "doi": "10.1016/j.amjmed.2006.07.036"
+    }
+   ]
+  },
+  "faq": [
+   [
+    "¿La condromalacia es lo mismo que la artrosis?",
+    "No. La condromalacia afecta al cartílago de la rótula y es frecuente en personas jóvenes y activas; la artrosis es una enfermedad de toda la articulación, más habitual con la edad. Pueden coincidir en personas mayores. Si su caso corresponde a un desgaste articular, puede consultar la página de [artrosis](artrosis)."
+   ],
+   [
+    "¿Por qué se valora la cadera, el pie o la espalda si me duele la rodilla?",
+    "Porque la rodilla depende de lo que ocurre por encima y por debajo de ella. La cadera controla la alineación del muslo, el pie cambia la forma de absorber cada paso y la columna lumbar puede irradiar dolor a la rodilla: en un estudio, una de cada cuatro personas con dolor de rodilla tenía un origen vertebral."
+   ],
+   [
+    "Tengo una rotura de menisco en la resonancia, ¿necesito operarme?",
+    "No necesariamente. Muchas roturas degenerativas de menisco no dan síntomas, y en un ensayo clínico el ejercicio supervisado dio resultados similares a la artroscopia a dos años. La cirugía se valora sobre todo si la rodilla se bloquea o si la lesión es traumática en una persona joven."
+   ],
+   [
+    "¿Tengo que dejar de correr?",
+    "Normalmente no es necesario dejarlo del todo. Se ajustan el volumen y la intensidad mientras se fortalece la musculatura de la cadera y de la rodilla, y se planifica una vuelta progresiva."
+   ],
+   [
+    "¿Qué es ese bulto detrás de la rodilla?",
+    "Puede ser un quiste de Baker, una acumulación de líquido que suele deberse a otro problema dentro de la rodilla, como una artrosis o una lesión de menisco. Si la pantorrilla se hincha, se calienta y duele, consulte al médico sin demora para descartar una trombosis."
+   ],
+   [
+    "¿Por qué me duele la rodilla cuando cambia el tiempo?",
+    "Muchas personas lo notan, sobre todo si tienen artrosis. Con el frío y los cambios de presión los tejidos se vuelven más rígidos y sensibles. El tiempo no daña la rodilla; abrigarla, aplicar calor y seguir moviéndose suele ayudar."
+   ],
+   [
+    "¿Son útiles las rodilleras o las plantillas?",
+    "En casos seleccionados pueden aliviar el dolor a corto plazo y facilitar el ejercicio, que sigue siendo la base del tratamiento. El consenso internacional considera las plantillas útiles en algunas personas con dolor patelofemoral."
+   ],
+   [
+    "¿Cuánto tarda en mejorar?",
+    "Depende de la causa y de cada persona. Con un programa de ejercicio constante suele notarse una mejoría progresiva a lo largo de las primeras semanas. En la primera visita se fijan objetivos concretos."
+   ]
+  ],
+  "related": [
+   "artrosis",
+   "esguinces",
+   "contracturas-desgarros-musculares",
+   "dolor-musculoesqueletico"
+  ],
+  "cta_h2": "Vuelva a su actividad con confianza",
+  "seo": {
+   "kw": "dolor de rodilla Barcelona",
+   "kws": [
+    "condromalacia rotuliana tratamiento",
+    "dolor patelofemoral",
+    "dolor de rodilla al bajar escaleras",
+    "rodilla del corredor",
+    "ejercicios condromalacia"
+   ],
+   "ca_kw": "dolor de genoll Barcelona",
+   "quick": "El dolor de rodilla puede proceder de la propia articulación, como en la condromalacia rotuliana, el dolor patelofemoral o las lesiones de menisco, o llegar desde la cadera, el pie o la columna lumbar. La condromalacia es el reblandecimiento del cartílago de la cara posterior de la rótula. Su tratamiento inicial, también en Sarrià–Sant Gervasi (Barcelona), es conservador y se basa en el ejercicio de cadera y rodilla.",
+   "entity": [
+    "MedicalCondition",
+    "Dolor patelofemoral"
+   ]
+  },
+  "research": [
+   "Personas activas o sedentarias con dolor en la parte delantera de la rodilla que buscan tratamiento conservador en Barcelona.",
+   [
+    "condromalacia rotuliana tratamiento Barcelona",
+    "dolor de rodilla al bajar escaleras",
+    "ejercicios para el dolor patelofemoral"
+   ],
+   [
+    "condromalàcia rotuliana",
+    "dolor de genoll Barcelona"
+   ],
+   "Clínicas de fisioterapia deportiva y traumatología, y blogs de running."
+  ],
+  "ca": {}
+ }
+]

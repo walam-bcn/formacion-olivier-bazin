@@ -1,0 +1,1221 @@
+[
+ {
+  "slug": "cefaleas-migrana",
+  "ca_slug": "cefalees-migranya",
+  "nav": "Migraña y dolor de cabeza",
+  "card": "Migraña, cefalea tensional y cefalea cervicogénica: qué son, qué relación tienen con el cuello y cómo se valoran.",
+  "title": "Migraña y dolor de cabeza en Barcelona | WA LAM",
+  "desc": "Migraña, cefalea tensional y cefalea cervicogénica: tipos, relación con el cuello y la postura, señales de alarma y tratamiento conservador en Sarrià–Sant Gervasi, Barcelona.",
+  "h1": "Migraña y dolor de cabeza en Barcelona",
+  "sub": "Migraña, cefalea tensional y cervicogénica · Sarrià–Sant Gervasi",
+  "lead": "La migraña y la cefalea tensional son las causas más frecuentes de dolor de cabeza recurrente. Muchas personas que las padecen no saben que su cuello puede participar en el dolor: la parte alta de la columna cervical y la cabeza comparten vías nerviosas. Entender esa relación, después de que el médico haya descartado otras causas, ayuda a plantear un tratamiento conservador y a prevenir las crisis.",
+  "facts_title": "En WA LAM",
+  "facts": [
+   "Migraña, cefalea tensional y cervicogénica",
+   "Valoración del cuello, la mandíbula y la postura",
+   "Anamnesis y exploración palpatoria",
+   "Primera visita: 60 min · 90 €"
+  ],
+  "wa": "Hola, me gustaría información sobre el tratamiento de la migraña o el dolor de cabeza.",
+  "mirror": {
+   "h2": "¿Se reconoce en estos síntomas?",
+   "qs": [
+    "¿Tiene dolores de cabeza varias veces al mes que le obligan a cambiar sus planes?",
+    "¿El dolor empieza en la nuca o en la base del cráneo y sube hacia la frente o el ojo?",
+    "¿Nota el cuello rígido o cargado antes o durante las crisis de migraña?",
+    "¿El dolor de cabeza aumenta tras muchas horas ante la pantalla o mirando el móvil?"
+   ],
+   "close": "Si su dolor de cabeza encaja con alguna de las señales de alarma que explicamos más abajo, consulte primero con su médico o acuda a urgencias."
+  },
+  "explain": {
+   "h2": "¿Qué son la migraña y el dolor de cabeza?",
+   "paras": [
+    "El dolor de cabeza, que en lenguaje médico se llama **cefalea**, es uno de los síntomas más frecuentes de la consulta médica. No es un diagnóstico único: bajo esa palabra se agrupan más de doscientos tipos distintos, que la Sociedad Internacional de Cefaleas ordena en su clasificación internacional (ICHD-3). La primera gran división separa las **cefaleas primarias**, en las que el dolor de cabeza es el problema en sí mismo, de las **cefaleas secundarias**, en las que el dolor es la consecuencia de otra causa, como un problema del cuello, de la mandíbula, una infección o el uso excesivo de analgésicos.",
+    "La **migraña** es una cefalea primaria de base neurológica y genética. Cursa en crisis de 4 a 72 horas de un dolor que suele ser pulsátil, a menudo de un solo lado, de intensidad moderada o intensa, que empeora con la actividad física y se acompaña de náuseas o vómitos y de molestia con la luz (fotofobia) y el ruido (fonofobia). Algunas personas presentan antes del dolor un **aura**: síntomas transitorios, sobre todo visuales (destellos, líneas en zigzag, zonas sin visión) o sensitivos (hormigueo), que duran entre 5 y 60 minutos.",
+    "Para entender por qué el cuello puede intervenir, conviene conocer un poco de anatomía. Las estructuras de la cabeza que pueden doler, como las meninges y los vasos que las recorren, transmiten el dolor sobre todo a través del **nervio trigémino**. Las estructuras de la parte alta del cuello, en cambio, lo hacen a través de los tres primeros nervios cervicales (C1, C2 y C3). Ambos sistemas llegan a una misma zona del tronco del encéfalo y de la médula cervical alta, el **núcleo trigeminocervical**, donde sus señales se mezclan. Esta convergencia es la base de que un problema del cuello pueda sentirse en la cabeza y de que la migraña se acompañe a menudo de dolor y rigidez de nuca.",
+    "Según su frecuencia, la migraña se considera **episódica** cuando el dolor aparece menos de 15 días al mes y **crónica** cuando aparece 15 días o más al mes durante más de tres meses, con características de migraña al menos 8 de esos días. Esta distinción es importante, porque la migraña crónica suele asociarse a más alteraciones del cuello, más discapacidad y más consumo de fármacos."
+   ]
+  },
+  "sections": [
+   {
+    "h2": "¿Es frecuente el dolor de cabeza?",
+    "paras": [
+     "Las cefaleas son uno de los problemas de salud más comunes del mundo. Según el estudio Global Burden of Disease, en 2016 casi tres mil millones de personas tenían migraña o cefalea tensional: unos 1.890 millones con cefalea tensional y unos 1.040 millones con migraña (Stovner et al., Lancet Neurology, 2018).",
+     "Aunque la cefalea tensional es más frecuente, la migraña produce mucha más discapacidad: ese mismo año causó 45,1 millones de años vividos con discapacidad, frente a 7,2 millones de la cefalea tensional. La carga es mayor en las **mujeres de 15 a 49 años**, justo en la etapa de más actividad laboral y familiar, en la que la migraña y la cefalea tensional supusieron el 11,2 % de todos los años vividos con discapacidad.",
+     "El dolor de cuello acompaña con mucha frecuencia a estas cefaleas. Un metaanálisis de 33 estudios clínicos mostró que las personas con migraña tienen un grado de discapacidad por dolor de cuello mayor que las personas con cefalea tensional, y que en la migraña crónica esa discapacidad es todavía mayor que en la episódica (Al-Khazali et al., Cephalalgia, 2024)."
+    ]
+   },
+   {
+    "h2": "¿Qué tipos de dolor de cabeza existen?",
+    "paras": [
+     "Distinguir el tipo de cefalea es el primer paso, porque cada una tiene un comportamiento, unos desencadenantes y un tratamiento propios. Es frecuente, además, que una misma persona tenga más de un tipo: por ejemplo, migraña y episodios de cefalea tensional, o una migraña que empeora cuando el cuello está cargado.",
+     "La **cefalea tensional** es la más común. Se describe como una presión o un peso, como una banda que aprieta alrededor de la cabeza, en ambos lados, de intensidad leve o moderada. No empeora con la actividad física habitual y no suele acompañarse de náuseas. Puede ser episódica o crónica y se relaciona con la tensión y la sensibilidad de los músculos pericraneales, del cuello y de la mandíbula.",
+     "La **cefalea cervicogénica** es una cefalea secundaria: el dolor nace en estructuras del cuello, sobre todo las articulaciones y los músculos de la parte alta de la columna cervical, y se proyecta a la cabeza. Suele ser de un solo lado, empezar en la nuca y extenderse hacia la frente, la sien o alrededor del ojo, y empeorar con determinados movimientos o posturas del cuello."
+    ],
+    "list_title": "Los tipos de cefalea que más se ven en consulta:",
+    "list": [
+     "**Migraña sin aura:** crisis de dolor pulsátil, a menudo de un lado, con náuseas y molestia con la luz y el ruido.",
+     "**Migraña con aura:** síntomas visuales o sensitivos transitorios que preceden o acompañan al dolor.",
+     "**Cefalea tensional:** presión bilateral, leve o moderada, sin náuseas, que no empeora al moverse.",
+     "**Cefalea cervicogénica:** dolor de un lado que nace en la nuca y se relaciona con los movimientos del cuello.",
+     "**Cefalea atribuida a un trastorno temporomandibular:** dolor en la sien o delante del oído que aumenta al masticar o al apretar los dientes.",
+     "**Cefalea por uso excesivo de medicación:** dolor de cabeza casi diario que aparece cuando se toman analgésicos con demasiada frecuencia.",
+     "**Cefalea en racimos:** dolor muy intenso alrededor de un ojo, con lagrimeo y congestión nasal, en periodos de crisis diarias."
+    ]
+   },
+   {
+    "h2": "«¿Por qué no me lo habían dicho antes?»",
+    "paras": [
+     "Es una frase que se oye a menudo en consulta. Muchas personas llevan años con migraña o con dolores de cabeza frecuentes, han pasado por varias consultas y conocen bien sus desencadenantes, pero nadie les ha explicado que **su cuello puede formar parte del problema**. Descubren esa relación cuando, al explorar la parte alta de la columna cervical, se reproduce el dolor de cabeza que conocen tan bien, o cuando comprueban que sus crisis empeoran en las épocas de más tensión en la nuca.",
+     "No se trata de decir que la migraña «viene del cuello». La migraña es una enfermedad neurológica, con una predisposición genética clara, y su diagnóstico y su tratamiento farmacológico corresponden al médico. Pero el cuello puede actuar como un **amplificador**: una columna cervical alta rígida, unos músculos suboccipitales sobrecargados o una postura mantenida con la cabeza adelantada envían al sistema nervioso un flujo constante de señales que pueden facilitar las crisis o hacer que duren más.",
+     "Entender esa relación cambia la manera de vivir el dolor de cabeza. Abre la puerta a medidas que dependen de uno mismo, como la postura ante la pantalla, el ejercicio de la musculatura profunda del cuello o la organización de las pausas, y a valorar el cuello como una pieza más del conjunto, junto con el sueño, el estrés, las hormonas o la alimentación."
+    ]
+   },
+   {
+    "h2": "¿Por qué el cuello puede doler en la cabeza? El complejo trigémino-cervical",
+    "paras": [
+     "El **complejo trigémino-cervical** es el lugar donde se cruzan las vías del dolor de la cabeza y del cuello. Las fibras del nervio trigémino, que recogen la sensibilidad de la cara, la frente y las meninges, descienden hasta la médula cervical alta. Allí se encuentran con las fibras de los nervios C1, C2 y C3, que recogen la sensibilidad de las articulaciones, los ligamentos y los músculos de la parte alta del cuello. Ambas entradas hacen relevo en las mismas neuronas, de manera que el cerebro no siempre puede distinguir de dónde procede la señal.",
+     "Esta convergencia explica el **dolor referido** del cuello a la cabeza: un estímulo doloroso en una articulación cervical alta puede sentirse en la frente o detrás del ojo. Es la base anatómica de la cefalea cervicogénica descrita por Bogduk y Govind en su revisión en Lancet Neurology (2009).",
+     "La relación funciona también en sentido contrario. En un estudio experimental en ratas, la estimulación dolorosa de la duramadre, una de las meninges, sensibilizó las neuronas del asta dorsal de C2: después de esa estimulación respondían con más intensidad a los estímulos procedentes de los músculos de la nuca y del nervio occipital mayor (Bartsch y Goadsby, Brain, 2003). Al ser un estudio en animales, no puede trasladarse directamente a las personas, pero ofrece una explicación plausible de por qué muchas personas con migraña notan el cuello más sensible y rígido durante las crisis.",
+     "En la práctica, esto significa que cabeza y cuello se influyen mutuamente. Un cuello sobrecargado puede facilitar el dolor de cabeza y una crisis de migraña puede hacer que el cuello duela. Por eso, en la valoración de una persona con dolor de cabeza frecuente, la exploración de la columna cervical tiene sentido."
+    ]
+   },
+   {
+    "h2": "¿Qué dicen los estudios sobre la migraña y el cuello?",
+    "paras": [
+     "La relación entre la migraña y la columna cervical se ha estudiado con detalle en la última década. Los trabajos más citados proceden de grupos de investigación en neurología y fisioterapia de Brasil, España, Alemania e Israel, y comparan a personas con migraña con personas sin dolor de cabeza mediante exploraciones físicas estandarizadas, a menudo realizadas por evaluadores que no sabían a qué grupo pertenecía cada participante.",
+     "**Movilidad de la parte alta del cuello (Ferracini et al., 2017).** En un estudio con 55 mujeres con migraña episódica, 16 con migraña crónica y 22 mujeres sin migraña, las que tenían migraña mostraron menos rotación cervical y una movilidad más restringida de las primeras vértebras cervicales en el test de flexión-rotación. En la mitad de las pacientes con migraña, la exploración manual de las articulaciones cervicales altas reproducía un dolor parecido al de sus crisis. No hubo diferencias entre migraña episódica y crónica (European Journal of Physical and Rehabilitation Medicine).",
+     "**Disfunciones musculoesqueléticas del cuello (Luedtke et al., 2018).** Un fisioterapeuta que desconocía el diagnóstico exploró a 138 personas con migraña frecuente o crónica, reclutadas en una unidad especializada en cefaleas, y a 73 personas sin migraña. El **93 %** de los pacientes con migraña presentaba al menos tres disfunciones musculoesqueléticas del cuello o de la zona dorsal, como puntos gatillo, restricción en el test de flexión-rotación o alteraciones de la musculatura flexora profunda. Los autores concluyen que estas disfunciones apoyan una interacción recíproca entre el sistema trigeminal y el cervical (Cephalalgia).",
+     "**Amplitud de movimiento del cuello (Bevilaqua-Grossi et al., 2009).** En 45 mujeres, las que tenían migraña transformada (crónica) presentaban menos extensión, menos inclinación lateral izquierda y menos rotación derecha que las mujeres sin migraña; también las que tenían migraña episódica mostraban una rotación reducida (Headache).",
+     "**Puntos gatillo y postura (Tali et al., 2014).** Un estudio de casos y controles con 20 personas con migraña episódica y 20 personas sin migraña encontró más **puntos gatillo miofasciales** en el esternocleidomastoideo y el trapecio superior del grupo con migraña. Estos puntos son zonas sensibles dentro del músculo que pueden referir dolor a la cabeza (Journal of Bodywork and Movement Therapies).",
+     "**Actividad muscular del cuello (Florencio et al., 2016).** Mediante electromiografía de superficie, las mujeres con migraña crónica mostraron una actividad mayor de los músculos extensores superficiales del cuello (esplenio de la cabeza y trapecio superior) mientras realizaban un ejercicio suave de flexión cráneo-cervical. Es decir, al intentar activar la musculatura profunda de la parte delantera del cuello, los músculos de la nuca no se relajaban como lo hacen en las personas sin migraña. Esta diferencia no apareció en la migraña episódica (Journal of Electromyography and Kinesiology).",
+     "Todos estos estudios comparan grupos en un momento dado, por lo que muestran **asociación, no causalidad**: no permiten afirmar que el cuello cause la migraña. Lo que sí muestran, de forma constante, es que el cuello de la persona con migraña funciona de manera distinta y que merece la pena explorarlo. En algunas radiografías de personas con dolor de cabeza se observa también una pérdida de la curva cervical, aunque este hallazgo es frecuente en personas sin síntomas y tampoco permite establecer una relación de causa."
+    ]
+   },
+   {
+    "h2": "¿Cómo influye la cabeza adelantada en el dolor de cabeza?",
+    "paras": [
+     "La **postura de cabeza adelantada** es un desequilibrio de la posición de la cabeza sobre los hombros: la cabeza se desplaza hacia delante respecto al tronco, la parte alta del cuello se extiende para mantener la mirada horizontal y la parte baja se flexiona. Se desarrolla con los hábitos posturales, las muchas horas ante el ordenador o el móvil y la pérdida de fuerza de algunos grupos musculares, sobre todo los flexores profundos del cuello y los músculos que estabilizan los omóplatos.",
+     "Una imagen ayuda a entenderlo: la cabeza se apoya sobre la columna como una pelota de golf sobre su soporte, pero pesa como una bola de bolera, unos 4 o 5 kilos. Mientras está bien centrada, la carga se reparte de forma eficiente. Cuando se adelanta, los músculos de la nuca deben trabajar de forma continua para sostenerla. Un modelo biomecánico teórico estimó que la carga que soporta la columna cervical pasa de unos 5 kilos con la cabeza neutra a unos 12 kilos con 15 grados de inclinación, unos 18 kilos con 30 grados y unos 27 kilos con 60 grados, la postura típica al mirar el móvil (Hansraj, Surgical Technology International, 2014). Son cálculos aproximados, pero ilustran bien por qué la nuca se fatiga.",
+     "Esta postura mantenida aumenta la tensión de los **músculos suboccipitales**, los pequeños músculos que unen la base del cráneo con las dos primeras vértebras, y de las estructuras que los rodean, entre ellas el nervio occipital mayor. Es una de las razones por las que se relaciona con la cefalea tensional y la cefalea cervicogénica. En el caso del dolor de cuello, una revisión sistemática de 15 estudios encontró que los adultos con cervicalgia tienen más cabeza adelantada que las personas sin dolor y que, a mayor adelantamiento, más dolor y más discapacidad (Mahmoud et al., Current Reviews in Musculoskeletal Medicine, 2019). De nuevo, se trata de una asociación.",
+     "Los indicadores que orientan hacia esta postura son una actitud cifótica, con hombros adelantados y espalda alta redondeada, la tensión y el dolor en la base del cuello, la debilidad de la musculatura del cuello, los hombros y la espalda, y, en la radiografía, la pérdida de la curva cervical. Se asocia con dolor de cabeza, dolor cervical y dorsal y rigidez en la base del cuello, y en algunas personas con sensación de mareo o con [acúfenos](acufenos). Cuanto antes se detecta, más fácil es modificarla con trabajo de movilidad, recomendaciones posturales y ejercicios de tonificación. Puede leer más sobre ella en nuestra página de [cervicalgia](cervicalgia-dolor-cuello)."
+    ]
+   },
+   {
+    "h2": "¿Qué papel tienen los músculos y las articulaciones en la cefalea tensional y la cervicogénica?",
+    "paras": [
+     "En la cefalea tensional y en la cefalea cervicogénica el componente musculoesquelético es más evidente que en la migraña. En la tensional, los músculos pericraneales, cervicales y masticatorios suelen estar más sensibles a la presión, y la sensibilización de las vías del dolor contribuye a que el dolor se mantenga. En la cervicogénica, el origen está en las articulaciones, los ligamentos y los músculos de la columna cervical alta, y a menudo influye también la movilidad de la columna dorsal, que condiciona la posición del cuello.",
+     "Las cefaleas son muy incapacitantes y los fármacos no siempre bastan para controlarlas: algunas personas los toleran mal, otras necesitan tomarlos con tanta frecuencia que corren el riesgo de desarrollar una cefalea por uso excesivo de medicación. Por eso las guías y la investigación prestan atención a los tratamientos no farmacológicos, siempre como parte de un plan acordado con el médico, que es quien decide la medicación.",
+     "La terapia manual ha mostrado resultados favorables en estas cefaleas. En un ensayo clínico pragmático con 82 personas con cefalea tensional crónica, la terapia manual dirigida a la columna cervical y dorsal y a la postura redujo la frecuencia del dolor de cabeza en 6,4 días más que la atención habitual del médico de familia a las 8 semanas, con beneficios que se mantenían a las 26 semanas (Castien et al., Cephalalgia, 2011). En la cefalea cervicogénica, un ensayo con 200 participantes mostró que tanto la terapia manipulativa como un programa de ejercicio de baja carga para la musculatura profunda del cuello redujeron la frecuencia y la intensidad del dolor, con efectos mantenidos a los 12 meses (Jull et al., Spine, 2002).",
+     "Estos enfoques comparten una visión global: no se limitan al punto que duele, sino que valoran la postura, la columna dorsal, la mandíbula y la manera en que la persona usa su cuerpo. Son conservadores, no requieren cirugía y, bien indicados y aplicados por profesionales formados, tienen pocos efectos adversos."
+    ]
+   },
+   {
+    "h2": "¿Por qué aparece la migraña? Causas y desencadenantes",
+    "paras": [
+     "La migraña tiene una base genética y neurológica: el cerebro de la persona con migraña es más sensible a los cambios, tanto internos como externos. Sobre esa predisposición actúan los **desencadenantes**, distintos en cada persona, que no causan la enfermedad pero facilitan las crisis. En la cefalea tensional y en la cervicogénica pesan más los factores musculoesqueléticos, posturales y de estrés.",
+     "A menudo no hay un solo desencadenante, sino una suma: una semana de poco sueño, estrés laboral, muchas horas ante la pantalla y una comida que se retrasa pueden sumar lo suficiente para que aparezca una crisis que ninguno de esos factores habría provocado por sí solo. Por eso un **diario de cefaleas** resulta tan útil."
+    ],
+    "list_title": "Desencadenantes frecuentes:",
+    "list": [
+     "Cambios en el horario de sueño, tanto dormir poco como dormir más de lo habitual.",
+     "Estrés, y también la relajación que sigue a un periodo de estrés (la «migraña de fin de semana»).",
+     "Cambios hormonales, como la menstruación.",
+     "Ayuno o comidas irregulares, deshidratación, alcohol y algunos alimentos en personas sensibles.",
+     "Posturas mantenidas del cuello, pantallas y tensión en la nuca y la mandíbula.",
+     "Luces intensas, ruidos fuertes, olores penetrantes y, en algunas personas, los cambios de tiempo."
+    ]
+   },
+   {
+    "h2": "¿Quién tiene más riesgo?",
+    "paras": [
+     "Además de los desencadenantes de cada crisis, hay factores que hacen más probable que el dolor de cabeza sea frecuente o que una migraña episódica evolucione hacia una forma crónica. Algunos no se pueden modificar, como el sexo o la herencia, pero muchos sí, y son el objetivo de la prevención."
+    ],
+    "list_title": "Factores que se asocian a cefaleas más frecuentes:",
+    "list": [
+     "Antecedentes familiares de migraña.",
+     "Sexo femenino y edad entre los 15 y los 50 años.",
+     "Uso frecuente de analgésicos para el dolor de cabeza.",
+     "Sueño insuficiente, ronquido o apnea del sueño.",
+     "Estrés sostenido, ansiedad o estado de ánimo bajo.",
+     "Sedentarismo, sobrepeso y consumo elevado de cafeína.",
+     "Dolor de cuello, bruxismo o trastornos de la articulación temporomandibular."
+    ]
+   },
+   {
+    "h2": "¿Cuáles son los síntomas?",
+    "paras": [
+     "Los síntomas permiten orientar el tipo de cefalea, aunque se solapan con frecuencia. En la migraña, la crisis puede ir precedida durante horas de síntomas premonitorios como cansancio, bostezos, rigidez de cuello, irritabilidad o apetencia por algunos alimentos; después llega el aura, si la hay, la fase de dolor y, por último, una fase de agotamiento que puede durar uno o dos días. La rigidez o el dolor de cuello aparece en muchas personas con migraña, antes, durante o después del dolor de cabeza."
+    ],
+    "list_title": "Síntomas que conviene anotar y comentar en la valoración:",
+    "list": [
+     "Localización: un lado, ambos lados, nuca, frente, sien o alrededor del ojo.",
+     "Carácter del dolor: pulsátil, opresivo, punzante o como una banda.",
+     "Duración e intensidad de los episodios y cuántos días al mes aparecen.",
+     "Náuseas, vómitos, molestia con la luz, el ruido o los olores.",
+     "Síntomas visuales o sensitivos antes del dolor (aura).",
+     "Rigidez o dolor de cuello y dolor que aumenta con los movimientos de la cabeza.",
+     "Dolor en la mandíbula, chasquidos al abrir la boca o bruxismo."
+    ]
+   },
+   {
+    "h2": "¿Le duele más la cabeza cuando cambia el tiempo?",
+    "paras": [
+     "Muchas personas con migraña aseguran que notan la llegada de un frente o de una bajada de presión antes de que el parte meteorológico la anuncie. No es una impresión aislada: los cambios de tiempo figuran entre los desencadenantes que más se mencionan. Las explicaciones propuestas apuntan a que los cambios de presión atmosférica, temperatura y humedad podrían influir en un sistema nervioso especialmente sensible, y a que el tiempo gris y lluvioso afecta también al ánimo, al sueño y al nivel de actividad, que modulan la percepción del dolor.",
+     "La ciencia, sin embargo, no es concluyente. En un estudio que siguió durante un año a 100 personas con migraña, comparando sus crisis con la presión, la humedad y la temperatura cada cuatro horas, solo un subgrupo mostró una sensibilidad clara al tiempo; en el conjunto de los participantes no apareció una relación significativa (Hoffmann et al., Annals of Clinical and Translational Neurology, 2015). Es decir, hay personas meteorosensibles y otras que no lo son.",
+     "Si usted es una de ellas, el tiempo no se puede cambiar, pero sí lo que depende de usted: en las épocas de más cambios, cuide aún más el sueño, la hidratación y las comidas regulares, y mantenga el cuello en movimiento y abrigado en los días fríos."
+    ]
+   },
+   {
+    "h2": "¿Cómo se entiende el dolor de cabeza desde la osteopatía?",
+    "paras": [
+     "Desde la osteopatía, el dolor de cabeza se valora dentro del conjunto del cuerpo. La columna cervical alta se relaciona con la base del cráneo y con la mandíbula, a través de los músculos masticatorios y de los que unen el hueso hioides con el esternón y la escápula. La columna cervical depende a su vez de la columna dorsal y de las primeras costillas, que condicionan la posición de la cabeza, y de la respiración: cuando el diafragma trabaja poco, los músculos accesorios del cuello, como los escalenos y el esternocleidomastoideo, asumen parte del trabajo respiratorio y se sobrecargan.",
+     "Jean-Pierre Barral, osteópata y fisioterapeuta francés, insistió en que los tejidos del cuerpo están unidos por la fascia y en que una tensión en una región puede repercutir en otra alejada. En su modelo, un dolor de cabeza que se acompaña de molestias digestivas, de una cicatriz antigua o de una restricción del tórax invita a explorar también esos tejidos. No se trata de buscar una causa única, sino de entender qué factores, sumados, mantienen la sobrecarga del cuello y de la cabeza en cada persona."
+    ]
+   },
+   {
+    "h2": "¿Cuándo debo consultar con el médico? Nota importante sobre las señales de alarma",
+    "paras": [
+     "La gran mayoría de los dolores de cabeza son primarios y benignos, aunque puedan ser muy molestos. Sin embargo, algunos se deben a causas que requieren atención médica urgente. Antes de cualquier tratamiento manual, toda persona con dolor de cabeza debe haber sido valorada por su médico, y ante cualquiera de estas señales hay que consultar sin demora o acudir a urgencias:"
+    ],
+    "list": [
+     "Dolor de cabeza súbito y muy intenso, que alcanza su máximo en segundos o minutos («el peor de mi vida»).",
+     "Dolor de cabeza con fiebre, rigidez de nuca o manchas en la piel.",
+     "Alteraciones de la visión, del habla, de la fuerza o de la sensibilidad que no corresponden a un aura conocida, confusión o somnolencia.",
+     "Un dolor de cabeza nuevo después de los 50 años.",
+     "Un cambio claro en el patrón habitual del dolor de cabeza o un empeoramiento progresivo.",
+     "Dolor de cabeza tras un golpe en la cabeza o el cuello.",
+     "Dolor que empeora al toser, al hacer esfuerzos o al tumbarse, o que despierta por la noche.",
+     "Dolor de cabeza en personas con cáncer, inmunodepresión o durante el embarazo y el posparto."
+    ]
+   },
+   {
+    "h2": "¿Cómo se diagnostica? La anamnesis",
+    "paras": [
+     "El diagnóstico de la migraña y de las cefaleas es fundamentalmente clínico y corresponde al médico, que aplica los criterios de la clasificación internacional y decide si son necesarias pruebas de imagen. La valoración osteopática parte de ese diagnóstico y empieza siempre por una **anamnesis detallada**: cuándo empezaron los dolores de cabeza, cómo son, cuánto duran, con qué frecuencia aparecen, qué los desencadena y qué los alivia, y qué tratamientos ha recibido.",
+     "Se pregunta también por el cuello, la mandíbula y la postura: si el dolor empieza en la nuca, si se acompaña de rigidez, si aprieta los dientes, cuántas horas pasa ante una pantalla o mirando el móvil, cómo duerme y en qué postura, si ha tenido latigazos cervicales u otros traumatismos y qué nivel de estrés soporta. Se recogen además los antecedentes de cirugías, cicatrices y problemas digestivos u hormonales.",
+     "Un **diario de cefaleas** de las últimas semanas es de gran ayuda: permite conocer la frecuencia real de las crisis, el consumo de analgésicos y la relación con el sueño, la menstruación, la comida o el trabajo. La anamnesis sirve además para comprobar que no hay señales de alarma y para decidir qué estructuras conviene explorar."
+    ]
+   },
+   {
+    "h2": "¿Cómo se explora? La palpación",
+    "paras": [
+     "La exploración comienza por la observación de la postura de la cabeza, el cuello, los hombros y la espalda, y por la movilidad activa y pasiva del cuello en todas las direcciones. Se completan pruebas específicas de la columna cervical alta, como el **test de flexión-rotación**, que valora la movilidad entre la primera y la segunda vértebra cervical y que, como hemos visto, suele estar limitada en las personas con migraña y con cefalea cervicogénica. También se valora la resistencia de la musculatura flexora profunda del cuello y la movilidad de la columna dorsal y de la mandíbula.",
+     "La **palpación** es el centro de la exploración osteopática. Permite localizar las articulaciones cervicales altas sensibles y comprobar si su presión reproduce el dolor de cabeza habitual, identificar puntos gatillo en el trapecio, el esternocleidomastoideo, los suboccipitales o los músculos masticatorios, y percibir diferencias de tensión y movilidad en la fascia. Barral llama a esta palpación **escucha manual**: una escucha general que orienta hacia la región que más llama la atención en el conjunto del cuerpo y una escucha local que precisa qué estructura está implicada, ya sea una articulación, un músculo, la fascia, un nervio o una víscera.",
+     "Esta exploración no busca diagnosticar la migraña, que es tarea médica, sino entender qué papel tienen el cuello, la mandíbula y la postura en el dolor de cabeza de cada persona."
+    ]
+   },
+   {
+    "h2": "¿Cómo se trata?",
+    "paras": [
+     "El tratamiento de la migraña tiene dos objetivos: aliviar las crisis cuando aparecen y reducir su frecuencia e intensidad. El tratamiento de las crisis y, cuando las crisis son frecuentes o incapacitantes, el tratamiento preventivo con fármacos los decide el médico. Junto a ellos, conviene buscar y tratar los factores que mantienen o facilitan el dolor de cabeza, entre ellos los musculoesqueléticos.",
+     "Las medidas no farmacológicas tienen un papel destacado en la prevención: la regularidad del sueño y de las comidas, el ejercicio aeróbico, la gestión del estrés y la identificación de los desencadenantes. En la cefalea tensional y en la cervicogénica, la terapia manual dirigida al cuello, la columna dorsal y la postura, y el ejercicio de la musculatura profunda del cuello, han mostrado reducir la frecuencia y la intensidad del dolor (Castien et al., 2011; Jull et al., 2002). En la migraña, una revisión sistemática de los estudios sobre tratamiento osteopático sugiere que podría reducir el número de crisis mensuales y el consumo de fármacos, aunque los autores califican la evidencia de preliminar y de bajo nivel (Cerritelli et al., Journal of Pain Research, 2017).",
+     "La técnica no se decide de antemano: se elige en cada caso después de la anamnesis y la exploración, según el tipo de cefalea, la fase del dolor, los tejidos implicados y la edad y el estado de cada persona. En las fases de crisis intensa de migraña, el reposo en un lugar oscuro y tranquilo y el tratamiento indicado por el médico son lo prioritario; el trabajo manual se plantea fuera de las crisis, con un objetivo preventivo."
+    ]
+   },
+   {
+    "h2": "¿Qué puedo hacer para prevenirlo? Ejercicio y prevención",
+    "paras": [
+     "La prevención es la parte del tratamiento que más depende de usted, y la que más puede cambiar la frecuencia de los dolores de cabeza a medio plazo. No hay que esperar a la siguiente crisis: el dolor suele ser la última señal de una sobrecarga que el cuerpo llevaba tiempo compensando. Igual que el cepillado de los dientes, los hábitos que protegen el cuello y el sistema nervioso funcionan cuando se convierten en rutina.",
+     "El **ejercicio aeróbico** regular y moderado, como caminar a buen paso, nadar o ir en bicicleta, de 30 a 40 minutos tres veces por semana, se asocia a menos crisis de migraña y ayuda a regular el sueño y el estrés. Conviene empezar de forma suave y aumentar poco a poco, porque un esfuerzo brusco e intenso puede desencadenar una crisis en algunas personas.",
+     "El **ejercicio específico del cuello** busca recuperar la resistencia de los flexores profundos, los músculos que estabilizan la parte delantera de la columna cervical y que suelen estar debilitados cuando la cabeza se adelanta. El ejercicio básico consiste en asentir de forma muy suave con la cabeza, como diciendo «sí» sin levantarla de la almohada, y mantener la posición unos segundos sin tensar la nuca. Se combina con ejercicios para los músculos de los omóplatos, movilidad de la columna dorsal y estiramientos suaves del trapecio y de los músculos suboccipitales.",
+     "Por último, la **postura** se trabaja como un hábito, no como una posición rígida. Cambiar la postura no es «ponerse recto», sino modificar patrones neuromusculares profundos con ejercicio, pausas y una organización adecuada del puesto de trabajo."
+    ]
+   },
+   {
+    "h2": "¿Qué puedo hacer en el día a día?",
+    "paras": [
+     "Pequeños cambios mantenidos en el tiempo ayudan a reducir la frecuencia y la intensidad de los dolores de cabeza:"
+    ],
+    "list": [
+     "Mantenga horarios regulares de sueño, también los fines de semana.",
+     "No se salte comidas y beba agua a lo largo del día.",
+     "Coloque la pantalla a la altura de los ojos y sostenga el móvil a la altura de la cara en lugar de bajar la cabeza.",
+     "Haga una pausa breve cada 30 a 45 minutos para mover el cuello, los hombros y la espalda.",
+     "Lleve un diario de cefaleas para identificar sus desencadenantes y el consumo de analgésicos.",
+     "Vigile si aprieta los dientes durante el día: labios juntos, dientes separados y lengua en el paladar.",
+     "Utilice una almohada que mantenga el cuello alineado con la columna y evite dormir boca abajo.",
+     "Si toma analgésicos más de 10 a 15 días al mes, coméntelo con su médico."
+    ]
+   }
+  ],
+  "evidence": {
+   "h2": "¿Qué dice la evidencia?",
+   "items": [
+    [
+     "Carga global (Lancet Neurology)",
+     "En 2016, unos 1.040 millones de personas tenían migraña y 1.890 millones cefalea tensional; la migraña causó 45,1 millones de años vividos con discapacidad (Stovner et al., 2018)."
+    ],
+    [
+     "Disfunción cervical (Cephalalgia)",
+     "El 93 % de 138 pacientes con migraña frecuente o crónica presentaba al menos tres disfunciones musculoesqueléticas del cuello o la zona dorsal (Luedtke et al., 2018)."
+    ],
+    [
+     "Columna cervical alta (Eur J Phys Rehabil Med)",
+     "En el 50 % de las mujeres con migraña, la exploración manual de las articulaciones cervicales altas reproducía un dolor parecido al de sus crisis (Ferracini et al., 2017)."
+    ],
+    [
+     "Movilidad cervical (Headache)",
+     "Las mujeres con migraña crónica tenían menos extensión cervical que las mujeres sin migraña: 59,3 frente a 68,1 grados (Bevilaqua-Grossi et al., 2009)."
+    ],
+    [
+     "Actividad muscular (J Electromyogr Kinesiol)",
+     "En la migraña crónica, los extensores superficiales del cuello mostraron más actividad durante la flexión cráneo-cervical que en la migraña episódica y en los controles (Florencio et al., 2016)."
+    ],
+    [
+     "Puntos gatillo (J Bodyw Mov Ther)",
+     "En 20 personas con migraña episódica se encontraron más puntos gatillo en el esternocleidomastoideo y el trapecio que en 20 controles (Tali et al., 2014)."
+    ],
+    [
+     "Cefalea tensional (Cephalalgia)",
+     "En 82 personas con cefalea tensional crónica, la terapia manual redujo la frecuencia del dolor de cabeza 6,4 días más que la atención habitual a las 8 semanas (Castien et al., 2011)."
+    ],
+    [
+     "Cefalea cervicogénica (Spine)",
+     "En 200 participantes, la terapia manipulativa y el ejercicio de baja carga redujeron la frecuencia y la intensidad de la cefalea, con efectos mantenidos a los 12 meses (Jull et al., 2002)."
+    ],
+    [
+     "Cuello y migraña (Cephalalgia)",
+     "Un metaanálisis de 33 estudios mostró más discapacidad por dolor de cuello en la migraña que en la cefalea tensional, y 5,5 puntos más en la migraña crónica que en la episódica (Al-Khazali et al., 2024)."
+    ],
+    [
+     "Osteopatía y migraña (J Pain Res)",
+     "Cinco estudios sugieren que el tratamiento osteopático podría reducir las crisis mensuales y el consumo de fármacos, con evidencia preliminar de bajo nivel (Cerritelli et al., 2017)."
+    ]
+   ],
+   "refs": [
+    {
+     "t": "Headache Classification Committee of the International Headache Society (IHS), 2018. «The International Classification of Headache Disorders, 3rd edition». Cephalalgia.",
+     "doi": "10.1177/0333102417738202"
+    },
+    {
+     "t": "Stovner LJ, Nichols E, Steiner TJ, et al. (GBD 2016 Headache Collaborators), 2018. «Global, regional, and national burden of migraine and tension-type headache, 1990–2016: a systematic analysis for the Global Burden of Disease Study 2016». The Lancet Neurology.",
+     "doi": "10.1016/S1474-4422(18)30322-3"
+    },
+    {
+     "t": "Ferracini GN, Florencio LL, Dach F, Bevilaqua-Grossi D, Palacios-Ceña M, Ordás-Bandera C, Chaves TC, Speciali JG, Fernández-de-las-Peñas C, 2017. «Musculoskeletal disorders of the upper cervical spine in women with episodic or chronic migraine». European Journal of Physical and Rehabilitation Medicine.",
+     "doi": "10.23736/S1973-9087.17.04393-3"
+    },
+    {
+     "t": "Luedtke K, Starke W, May A, 2018. «Musculoskeletal dysfunction in migraine patients». Cephalalgia.",
+     "doi": "10.1177/0333102417716934"
+    },
+    {
+     "t": "Bevilaqua-Grossi D, Pegoretti KS, Goncalves MC, Speciali JG, Bordini CA, Bigal ME, 2009. «Cervical mobility in women with migraine». Headache.",
+     "doi": "10.1111/j.1526-4610.2008.01233.x"
+    },
+    {
+     "t": "Tali D, Menahem I, Vered E, Kalichman L, 2014. «Upper cervical mobility, posture and myofascial trigger points in subjects with episodic migraine: case-control study». Journal of Bodywork and Movement Therapies.",
+     "doi": "10.1016/j.jbmt.2014.01.006"
+    },
+    {
+     "t": "Florencio LL, Oliveira AS, Lemos TW, Carvalho GF, Dach F, Bigal ME, Falla D, Fernández-de-las-Peñas C, Bevilaqua-Grossi D, 2016. «Patients with chronic, but not episodic, migraine display altered activity of their neck extensor muscles». Journal of Electromyography and Kinesiology.",
+     "doi": "10.1016/j.jelekin.2016.06.003"
+    },
+    {
+     "t": "Bogduk N, Govind J, 2009. «Cervicogenic headache: an assessment of the evidence on clinical diagnosis, invasive tests, and treatment». The Lancet Neurology.",
+     "doi": "10.1016/S1474-4422(09)70209-1"
+    },
+    {
+     "t": "Bartsch T, Goadsby PJ, 2003. «Increased responses in trigeminocervical nociceptive neurons to cervical input after stimulation of the dura mater». Brain.",
+     "doi": "10.1093/brain/awg190"
+    },
+    {
+     "t": "Castien RF, van der Windt DA, Grooten A, Dekker J, 2011. «Effectiveness of manual therapy for chronic tension-type headache: a pragmatic, randomised, clinical trial». Cephalalgia.",
+     "doi": "10.1177/0333102410377362"
+    },
+    {
+     "t": "Jull G, Trott P, Potter H, et al., 2002. «A randomized controlled trial of exercise and manipulative therapy for cervicogenic headache». Spine.",
+     "doi": "10.1097/00007632-200209010-00004"
+    },
+    {
+     "t": "Mahmoud NF, Hassan KA, Abdelmajeed SF, Moustafa IM, Silva AG, 2019. «The relationship between forward head posture and neck pain: a systematic review and meta-analysis». Current Reviews in Musculoskeletal Medicine.",
+     "doi": "10.1007/s12178-019-09594-y"
+    },
+    {
+     "t": "Al-Khazali HM, Al-Sayegh Z, Younis S, et al., 2024. «Systematic review and meta-analysis of Neck Disability Index and Numeric Pain Rating Scale in patients with migraine and tension-type headache». Cephalalgia.",
+     "doi": "10.1177/03331024241274266"
+    },
+    {
+     "t": "Hoffmann J, Schirra T, Lo H, Neeb L, Reuter U, Martus P, 2015. «The influence of weather on migraine – are migraine attacks predictable?». Annals of Clinical and Translational Neurology.",
+     "doi": "10.1002/acn3.139"
+    },
+    {
+     "t": "Cerritelli F, Lacorte E, Ruffini N, Vanacore N, 2017. «Osteopathy for primary headache patients: a systematic review». Journal of Pain Research.",
+     "doi": "10.2147/JPR.S130501"
+    }
+   ]
+  },
+  "faq": [
+   [
+    "¿Cómo sé si tengo migraña o cefalea tensional?",
+    "La migraña suele ser pulsátil, de un lado, empeora al moverse y se acompaña de náuseas o molestia con la luz y el ruido. La cefalea tensional es una presión en ambos lados, más leve y sin náuseas. El diagnóstico corresponde a su médico; la valoración osteopática ayuda a entender el papel del cuello y la postura."
+   ],
+   [
+    "¿Puede el cuello provocar dolor de cabeza?",
+    "Sí. Las estructuras de la parte alta del cuello comparten vías nerviosas con la cabeza en el complejo trigémino-cervical, por lo que pueden referir dolor a la nuca, la frente o detrás del ojo. Es lo que ocurre en la cefalea cervicogénica, y el cuello también influye en muchas migrañas."
+   ],
+   [
+    "¿Por qué nadie me había hablado de la relación entre la migraña y el cuello?",
+    "Porque la migraña se ha estudiado sobre todo como enfermedad neurológica, y lo es. La investigación sobre su relación con la columna cervical es más reciente. Hoy sabemos que el cuello de la persona con migraña suele funcionar de forma distinta y que merece la pena valorarlo."
+   ],
+   [
+    "¿Tengo que dejar la medicación si empiezo un tratamiento manual?",
+    "No. La medicación la decide su médico y no debe modificarla por su cuenta. El trabajo sobre el cuello, la postura y los hábitos busca actuar sobre los factores que facilitan las crisis, de forma coordinada con el tratamiento médico."
+   ],
+   [
+    "¿Se puede tratar durante una crisis de migraña?",
+    "En plena crisis intensa lo prioritario es el reposo y el tratamiento indicado por su médico. El trabajo manual se plantea entre crisis, con un objetivo preventivo."
+   ],
+   [
+    "¿Mirar el móvil puede darme dolor de cabeza?",
+    "Mantener la cabeza inclinada mucho tiempo sobrecarga la nuca y los músculos suboccipitales, lo que se relaciona con la cefalea tensional y la cervicogénica. Sostener el móvil a la altura de los ojos y hacer pausas ayuda."
+   ],
+   [
+    "¿Apretar los dientes tiene relación con el dolor de cabeza?",
+    "Sí. El bruxismo y los trastornos de la articulación temporomandibular pueden producir dolor en las sienes y cefalea al despertar. Puede leer más en nuestra página de [bruxismo y dolor mandibular](bruxismo-dolor-mandibular-atm)."
+   ],
+   [
+    "¿Qué debo traer a la primera visita?",
+    "Sus informes médicos, la lista de la medicación que toma y, si lo tiene, un diario de sus dolores de cabeza de las últimas semanas."
+   ]
+  ],
+  "related": [
+   "cervicalgia-dolor-cuello",
+   "bruxismo-dolor-mandibular-atm",
+   "vertigo-mareo",
+   "dolor-persistente-cronico"
+  ],
+  "cta_h2": "Entienda qué papel tiene su cuello en su dolor de cabeza",
+  "seo": {
+   "kw": "migraña Barcelona",
+   "kws": [
+    "dolor de cabeza Barcelona",
+    "cefalea tensional",
+    "cefalea cervicogénica",
+    "migraña y cervicales",
+    "osteópata migraña Barcelona"
+   ],
+   "ca_kw": "migranya Barcelona",
+   "quick": "La migraña es una cefalea primaria de base neurológica que cursa en crisis de dolor pulsátil con náuseas y molestia con la luz y el ruido; la cefalea tensional es una presión bilateral más leve, y la cervicogénica nace en la parte alta del cuello. La columna cervical y la cabeza comparten vías nerviosas en el complejo trigémino-cervical, por lo que el cuello puede intervenir en el dolor de cabeza.",
+   "entity": [
+    "MedicalCondition",
+    "Migraña"
+   ]
+  },
+  "research": [
+   "Personas con migraña o dolores de cabeza frecuentes en Barcelona que quieren entender la relación con el cuello y la postura y buscan un tratamiento conservador.",
+   [
+    "migraña tratamiento Barcelona",
+    "dolor de cabeza y cervicales",
+    "cefalea tensional tratamiento"
+   ],
+   [
+    "migranya tractament Barcelona",
+    "mal de cap i cervicals"
+   ],
+   "Unidades de cefalea hospitalarias, neurología privada y clínicas de fisioterapia y osteopatía con páginas breves."
+  ],
+  "ca": {}
+ },
+ {
+  "slug": "bruxismo-dolor-mandibular-atm",
+  "ca_slug": "bruxisme-dolor-mandibular-atm",
+  "nav": "Bruxismo y dolor mandibular",
+  "card": "Apretar o rechinar los dientes, dolor de mandíbula y trastornos de la articulación temporomandibular (ATM).",
+  "title": "Bruxismo y dolor mandibular (ATM) en Barcelona | WA LAM",
+  "desc": "Bruxismo y dolor de la articulación temporomandibular (ATM): qué son, relación con el cuello, la cefalea y los acúfenos, señales de alarma y tratamiento conservador en Sarrià–Sant Gervasi, Barcelona.",
+  "h1": "Bruxismo y dolor mandibular (ATM) en Barcelona",
+  "sub": "Mandíbula, cuello y postura · Sarrià–Sant Gervasi",
+  "lead": "El bruxismo consiste en apretar o rechinar los dientes, de día o durante el sueño. La sobrecarga de los músculos de la masticación y de la articulación temporomandibular (ATM) puede causar dolor al masticar, chasquidos, dolor de cabeza al despertar y tensión en el cuello. La mandíbula no funciona sola: se relaciona con el cuello, la postura y el sistema nervioso, y en la mayoría de los casos responde a un tratamiento conservador coordinado con el odontólogo.",
+  "facts_title": "En WA LAM",
+  "facts": [
+   "Bruxismo diurno y nocturno",
+   "Dolor de la ATM y de los músculos de la masticación",
+   "Valoración de la mandíbula, el cuello y la postura",
+   "Primera visita: 60 min · 90 €"
+  ],
+  "wa": "Hola, me gustaría información sobre el tratamiento del bruxismo y el dolor mandibular.",
+  "mirror": {
+   "h2": "¿Se reconoce en estos síntomas?",
+   "qs": [
+    "¿Se despierta con la mandíbula cansada, dolor de cabeza o los dientes sensibles?",
+    "¿Le han dicho que rechina los dientes por la noche, o se sorprende apretándolos durante el día?",
+    "¿Nota chasquidos, dolor o dificultad al abrir la boca o al masticar?",
+    "¿Siente dolor delante del oído, en las sienes o en el cuello, o un pitido en el oído?"
+   ],
+   "close": "Si presenta alguna de las señales de alarma que explicamos más abajo, consulte primero con su médico o su dentista."
+  },
+  "explain": {
+   "h2": "¿Qué son el bruxismo y el trastorno de la ATM?",
+   "paras": [
+    "El **bruxismo** es una actividad repetida de los músculos de la masticación que consiste en apretar o rechinar los dientes, o en mantener la mandíbula tensa o empujada hacia delante. Puede aparecer durante el sueño (**bruxismo del sueño**), a menudo con ruido de rechinamiento que oye la pareja, o en vigilia (**bruxismo de vigilia**), casi siempre como un apretamiento silencioso e inconsciente mientras se trabaja, se conduce o se está concentrado. Más que una enfermedad, se considera una conducta que, según su intensidad, puede no tener consecuencias o sobrecargar los dientes, los músculos y la articulación.",
+    "La **articulación temporomandibular (ATM)** une la mandíbula con el hueso temporal del cráneo, justo delante del oído; puede notarla si coloca los dedos ahí y abre la boca. Es una de las articulaciones más utilizadas del cuerpo: interviene al masticar, hablar, tragar y bostezar. Entre el cóndilo de la mandíbula y la fosa del hueso temporal se sitúa un **disco articular** de fibrocartílago que se desliza hacia delante al abrir la boca. La mueven los **músculos de la masticación**: el masetero, en el ángulo de la mandíbula; el temporal, en la sien; y los pterigoideos, en la profundidad. Las dos ATM funcionan siempre a la vez, por lo que cualquier asimetría en una afecta a la otra.",
+    "Los **trastornos temporomandibulares (TTM)** son un conjunto de alteraciones de la ATM y de los músculos que la mueven. Los criterios diagnósticos internacionales (DC/TMD) distinguen dos grandes grupos. Los **trastornos dolorosos** incluyen el dolor miofascial de los músculos masticatorios, el más frecuente, la artralgia o dolor de la propia articulación y la cefalea atribuida a un TTM. Los **trastornos intraarticulares** son los desplazamientos del disco, con reducción (el disco se recoloca al abrir y produce un chasquido) o sin reducción (puede limitar la apertura de la boca), y la enfermedad degenerativa o artrosis de la ATM.",
+    "Bruxismo y TTM están relacionados, pero no son lo mismo. Muchas personas con bruxismo no tienen dolor, y muchas personas con TTM no aprietan los dientes. Cuando coinciden, el bruxismo actúa como un factor de sobrecarga que puede mantener o empeorar el dolor."
+   ]
+  },
+  "sections": [
+   {
+    "h2": "¿Son frecuentes el bruxismo y los trastornos de la ATM?",
+    "paras": [
+     "Los trastornos de la ATM son muy comunes. Un metaanálisis de 21 estudios que utilizaron criterios diagnósticos estandarizados estimó que los TTM articulares afectan al 31,1 % de los adultos y personas mayores y al 11,3 % de los niños y adolescentes (Valesan et al., Clinical Oral Investigations, 2021). No todos estos casos tienen dolor: muchos se limitan a chasquidos sin otras molestias.",
+     "Cuando el dolor se cronifica, el impacto es importante. La guía de práctica clínica publicada en el BMJ en 2023 señala que el dolor crónico asociado a los TTM afecta a entre el 6 % y el 9 % de los adultos y que es el segundo trastorno de dolor musculoesquelético crónico más frecuente después del dolor lumbar (Busse et al., BMJ, 2023).",
+     "En cuanto al bruxismo, una revisión sistemática de estudios epidemiológicos estimó que el bruxismo del sueño afecta a alrededor del 13 % de los adultos y el de vigilia, a entre un 22 % y un 31 % (Manfredini et al., Journal of Orofacial Pain, 2013). Es más frecuente en adultos jóvenes y de mediana edad y tiende a disminuir con los años."
+    ]
+   },
+   {
+    "h2": "¿Por qué aparecen?",
+    "paras": [
+     "El origen del bruxismo y de los TTM es **multifactorial**. Hoy se considera que el bruxismo del sueño está regulado sobre todo por el sistema nervioso central: se asocia a microdespertares durante el sueño, a la activación del sistema nervioso simpático y a factores como el estrés, el consumo de estimulantes, algunos fármacos y los trastornos respiratorios del sueño. El bruxismo de vigilia se relaciona más con el estrés, la concentración y los hábitos.",
+     "En los TTM intervienen la sobrecarga mecánica de la articulación y de los músculos, como apretar los dientes, masticar chicle o comer alimentos muy duros, los traumatismos sobre la mandíbula, incluidos el latigazo cervical o una apertura forzada de la boca en el dentista, las alteraciones de la postura de la cabeza y el cuello y la sensibilidad del sistema nervioso al dolor. Durante décadas se atribuyó un papel central a la mordida u oclusión dental; como veremos más abajo, la investigación actual le concede un peso mucho menor.",
+     "Como en otros dolores persistentes, en los TTM crónicos tiene un papel importante la **sensibilización central**: el sistema nervioso se vuelve más reactivo y amplifica las señales de dolor, lo que explica que algunas personas con TTM tengan también otros dolores, como cefalea, dolor de cuello o fibromialgia."
+    ]
+   },
+   {
+    "h2": "¿Quién tiene más riesgo?",
+    "paras": [
+     "Algunos factores se asocian a un mayor riesgo de bruxismo o de dolor mandibular. Muchos se pueden modificar, y son el objetivo de las medidas de prevención."
+    ],
+    "list_title": "Factores que se asocian a un mayor riesgo:",
+    "list": [
+     "Estrés, ansiedad y tensión emocional sostenida.",
+     "Trastornos del sueño, como el ronquido o la apnea del sueño.",
+     "Consumo de cafeína, alcohol o tabaco, sobre todo por la tarde y la noche.",
+     "Algunos fármacos, como ciertos antidepresivos, que el médico valorará si es necesario.",
+     "Hábitos como masticar chicle, morderse las uñas o los labios, morder bolígrafos o apoyar la mandíbula en la mano.",
+     "Postura de cabeza adelantada y muchas horas ante pantallas.",
+     "Traumatismos previos en la mandíbula o en el cuello, como un latigazo cervical.",
+     "Otros dolores persistentes, como el dolor de cuello o la cefalea."
+    ]
+   },
+   {
+    "h2": "¿Cuáles son los síntomas?",
+    "paras": [
+     "Los síntomas varían mucho de una persona a otra. Algunas solo notan cansancio en la mandíbula al despertar; otras tienen un dolor que se extiende a la cara, la sien, el oído o el cuello y que limita la masticación. Es frecuente que el dolor empeore por la mañana, en el bruxismo del sueño, o al final del día, en el bruxismo de vigilia."
+    ],
+    "list_title": "Síntomas habituales:",
+    "list": [
+     "Dolor o cansancio en la mandíbula, las mejillas o las sienes, sobre todo al despertar o al masticar.",
+     "Chasquidos, crujidos o roces al abrir o cerrar la boca.",
+     "Dificultad para abrir la boca del todo, sensación de que la mandíbula se traba o se desvía.",
+     "Dolor de cabeza en las sienes o al despertar.",
+     "Dolor delante del oído, sensación de oído taponado o pitidos (acúfenos).",
+     "Dientes sensibles, desgastados o con pequeñas fracturas, y marcas en la lengua o en las mejillas.",
+     "Tensión o dolor en el cuello y los hombros."
+    ]
+   },
+   {
+    "h2": "¿Qué relación hay entre la ATM y el cuello?",
+    "paras": [
+     "La mandíbula cuelga del cráneo, y el cráneo se apoya sobre la columna cervical. Mandíbula, cabeza y cuello forman una unidad funcional: cada vez que abre la boca, los músculos de la nuca se activan para estabilizar la cabeza, y la posición de la cabeza modifica a su vez la posición de reposo de la mandíbula. Los músculos que unen el hueso hioides con la mandíbula, el esternón y la escápula conectan además la mandíbula con el tórax y la cintura escapular.",
+     "Esta relación también es nerviosa. La sensibilidad de la ATM y de los músculos masticatorios llega al cerebro a través del nervio trigémino, que converge con los nervios de la parte alta del cuello en el **complejo trigémino-cervical**. Por eso un problema mandibular puede sentirse en el cuello y en la cabeza, y una sobrecarga cervical puede aumentar la sensibilidad de la mandíbula. Puede leer más sobre este mecanismo en nuestra página de [migraña y dolor de cabeza](cefaleas-migrana).",
+     "Los estudios confirman esta conexión. Un metaanálisis de estudios observacionales encontró una asociación clínicamente relevante entre la discapacidad del cuello y la de la mandíbula en las personas con TTM, y evidencia moderada de que tienen el cuello más sensible a la presión y una movilidad cervical reducida (Cuenca-Martínez et al., Journal of Clinical Medicine, 2020). Ese mismo análisis, sin embargo, no encontró diferencias en la alineación cervical ni en la posición cráneo-cervical medidas en radiografías: la relación parece más funcional y de sensibilidad que de «colocación».",
+     "Un pequeño estudio con 19 personas con dolor miofascial de la ATM observó que un tratamiento dirigido exclusivamente a la columna cervical, con movilización y ejercicio, se acompañó de menos dolor, más apertura de la boca y menos sensibilidad en los músculos masetero y temporal, con mejoría mantenida a las 12 semanas (La Touche et al., Journal of Oral Rehabilitation, 2009). No tenía grupo control, por lo que sus resultados deben tomarse con prudencia, pero apuntan en la misma dirección: en el dolor mandibular, el cuello merece una valoración."
+    ]
+   },
+   {
+    "h2": "¿Qué son las adaptaciones ascendentes y descendentes?",
+    "paras": [
+     "En la práctica clínica se habla de dos maneras en que la mandíbula y el resto del cuerpo pueden influirse. En las **adaptaciones descendentes**, un problema de la mandíbula, como un apretamiento intenso, una ATM dolorosa o una mordida alterada, se acompaña de compensaciones en el cuello, la cintura escapular y la postura. En las **adaptaciones ascendentes**, el origen de la sobrecarga está más abajo, por ejemplo en la pisada, una diferencia de longitud de las piernas o una asimetría de la pelvis, y el cuerpo compensa hacia arriba hasta llegar al cuello y la mandíbula.",
+     "Este modelo es útil para recordar que **la maloclusión no siempre es la causa primaria** del dolor. Una persona con dolor mandibular puede tener una mordida aparentemente normal y una sobrecarga del cuello que mantiene la tensión de los músculos masticatorios; otra puede tener una mordida imperfecta y no sentir ningún dolor. Hay que ser honestos, eso sí: estas cadenas de adaptación se describen sobre todo a partir de la experiencia clínica, y su comprobación científica es todavía limitada.",
+     "Por eso la valoración no se limita a la boca: incluye el cuello, la columna dorsal, la respiración, la pelvis y los pies, y se coordina con el odontólogo cuando hay dudas sobre la oclusión."
+    ]
+   },
+   {
+    "h2": "¿Qué es el test de Meersseman?",
+    "paras": [
+     "El **test de Meersseman** es una prueba clínica sencilla que se utiliza en algunas consultas para orientar si la oclusión dental podría estar influyendo en la postura o en los síntomas de una persona. Se colocan dos pequeños rollos de algodón entre los molares, uno a cada lado, de forma que los dientes no contacten directamente al cerrar. La persona camina o se mueve unos minutos con ellos y después se repiten algunas pruebas de movilidad, de postura o de dolor que se habían hecho antes.",
+     "Si con los algodones cambian de forma clara la movilidad del cuello, la postura o el dolor, se interpreta que la manera en que encajan los dientes podría estar participando en el problema, y se recomienda la valoración por un **odontólogo o estomatólogo**. Si no cambia nada, la oclusión probablemente no es el factor principal.",
+     "Conviene ser prudentes con su interpretación: es una prueba orientativa, que no está validada científicamente como herramienta diagnóstica y cuyo resultado depende de la experiencia de quien la realiza. No sirve para diagnosticar una maloclusión, que es competencia del odontólogo, sino como un argumento más para decidir cuándo conviene derivar."
+    ]
+   },
+   {
+    "h2": "¿Influye la mordida en la postura? Lo que sabemos y lo que no",
+    "paras": [
+     "La idea de que una mordida desequilibrada produce trastornos de la ATM y alteraciones de la postura de todo el cuerpo ha sido muy popular. La investigación de las últimas décadas, sin embargo, **no la respalda**, y es importante decirlo con claridad.",
+     "Una revisión de la literatura concluyó que no existe una relación predecible entre la oclusión dental y la postura corporal, que el dolor de los TTM no se asocia a alteraciones ocluso-posturales medibles y que los aparatos de posturografía o electromiografía no están justificados para diagnosticarlos (Manfredini et al., Journal of Oral Rehabilitation, 2012). Una revisión sistemática posterior de 25 estudios no encontró una asociación clínicamente relevante entre los rasgos de la oclusión y los TTM, y sus autores proponen abandonar el modelo que situaba la mordida en el centro del problema (Manfredini et al., Journal of Oral Rehabilitation, 2017).",
+     "¿Qué significa esto en la práctica? Que no conviene empezar por tratamientos irreversibles sobre los dientes con la esperanza de resolver un dolor de mandíbula o de cuello. La relación entre mandíbula, cuello y postura existe, pero es sobre todo **funcional y neurológica**: se debe a la actividad muscular, a la sensibilidad del sistema nervioso y a los hábitos, más que a cómo encajan los dientes. En algunos casos concretos la oclusión puede influir, y para eso está la valoración del odontólogo."
+    ]
+   },
+   {
+    "h2": "¿Qué relación tienen con los acúfenos, el dolor de cabeza y el dolor de cuello?",
+    "paras": [
+     "Los TTM rara vez vienen solos. Uno de los síntomas acompañantes más llamativos son los **acúfenos**, los pitidos o zumbidos en el oído. La ATM está muy cerca del oído medio y comparte inervación con algunas de sus estructuras. Un metaanálisis encontró que las personas con TTM tienen 4,45 veces más probabilidades de presentar acúfenos que las personas sin TTM (Mottaghi et al., Journal of Oral Rehabilitation, 2019), y otra revisión sistemática situó la prevalencia mediana de acúfenos en el 42,3 % de las personas con TTM, frente al 12 % de las personas sin TTM (Skog et al., Journal of Oral Rehabilitation, 2019). Esta segunda revisión observó también que tratar los síntomas del TTM podría mejorar los acúfenos, aunque con un nivel de evidencia bajo. Puede leer más en nuestra página de [acúfenos](acufenos).",
+     "La asociación se extiende al cuello: una revisión de 22 estudios encontró que las personas con acúfenos refieren con más frecuencia problemas cervicales y que la relación entre acúfenos y TTM es bidireccional, aunque la calidad de los estudios es limitada (Bousema et al., Trends in Hearing, 2018). Algunas personas con problemas de la columna cervical alta y de la mandíbula describen también sensación de inestabilidad o mareo; en ese caso conviene valorar el cuello y descartar otras causas con el médico (vea [vértigo y mareo](vertigo-mareo)).",
+     "La relación con el **dolor de cabeza** está reconocida en la clasificación internacional de las cefaleas, que incluye la cefalea atribuida a un trastorno temporomandibular: un dolor en la sien o delante del oído que aumenta al masticar, al apretar los dientes o al mover la mandíbula. La sobrecarga de los músculos temporales y maseteros, y la de los músculos suboccipitales cuando el cuello se tensa a la vez, explica muchas cefaleas tensionales al despertar. Y el **dolor de cuello** acompaña con tanta frecuencia al dolor mandibular que conviene valorarlos juntos (vea [cervicalgia](cervicalgia-dolor-cuello))."
+    ]
+   },
+   {
+    "h2": "¿Por qué algunos dolores de mandíbula se resuelven y otros no?",
+    "paras": [
+     "Una investigación de la Universidad McGill, publicada en 2022, aportó una pista interesante sobre por qué algunos dolores agudos se resuelven y otros se cronifican. Los investigadores siguieron durante tres meses a 98 personas con dolor lumbar agudo y analizaron la actividad de sus células inmunitarias. Las que se recuperaron presentaban al principio una respuesta inflamatoria intensa, impulsada por los **neutrófilos**, que después se resolvía; en las que el dolor persistió, esa respuesta no apareció. Los resultados se reprodujeron en un segundo grupo de 64 personas con **trastornos temporomandibulares** (Parisien et al., Science Translational Medicine, 2022).",
+     "En experimentos con ratones, el mismo equipo observó que bloquear la inflamación al inicio con un corticoide o un antiinflamatorio prolongaba el dolor, a pesar de aliviarlo a corto plazo. En los datos del UK Biobank, las personas con dolor de espalda agudo que tomaban antiinflamatorios tenían más riesgo de que el dolor persistiera. Los autores advierten que estos datos en humanos son una asociación, no una prueba de causa, y que no permiten hacer recomendaciones de tratamiento.",
+     "El mensaje útil es que la **inflamación aguda forma parte del proceso normal de recuperación** y no siempre es un enemigo. La decisión sobre los antiinflamatorios corresponde a su médico o a su dentista, y no debe dejar de tomar lo que le hayan pautado. Pero este estudio refuerza la importancia de no limitarse a calmar el síntoma y de favorecer los procesos naturales de resolución con movimiento suave y con la búsqueda de lo que mantiene la sobrecarga."
+    ]
+   },
+   {
+    "h2": "¿Cómo se entiende la mandíbula desde la osteopatía?",
+    "paras": [
+     "Desde la osteopatía, la mandíbula se valora como parte de un sistema que incluye el cráneo, la columna cervical, el hueso hioides, la lengua, la respiración y la postura. Una respiración bucal, una lengua que no descansa en el paladar o un diafragma con poca movilidad modifican la posición de la mandíbula y la actividad de los músculos del cuello.",
+     "Jean-Pierre Barral, osteópata y fisioterapeuta francés, describió cómo la fascia une regiones alejadas del cuerpo y cómo una tensión mantenida en una zona, como una cicatriz, el tórax o el abdomen, puede reflejarse en otra. En su modelo, un dolor mandibular que no evoluciona como se espera invita a explorar también el cuello, la columna dorsal y los tejidos relacionados con ellos, sin dar por hecho que el origen está siempre en la boca."
+    ]
+   },
+   {
+    "h2": "¿Cuándo debo consultar con el médico o el dentista?",
+    "paras": [
+     "La mayoría de los dolores mandibulares tienen un origen muscular o articular benigno. Algunas situaciones, sin embargo, requieren una valoración médica u odontológica antes de cualquier tratamiento manual:"
+    ],
+    "list": [
+     "La mandíbula se bloquea y no puede abrir o cerrar la boca.",
+     "Dolor con fiebre, inflamación de la cara o del cuello, o un dolor de muelas intenso.",
+     "Pérdida de sensibilidad en la cara, la lengua o los labios.",
+     "Dolor de mandíbula que aparece con el esfuerzo o junto con dolor en el pecho, falta de aire o sudoración: acuda a urgencias.",
+     "Dolor en la sien con dolor al masticar, alteraciones de la visión o malestar general en personas mayores de 50 años.",
+     "Un bulto o una lesión en la boca que no cura en dos semanas.",
+     "Dolor tras un traumatismo en la cara o la mandíbula.",
+     "Pérdida de peso sin causa aparente o antecedentes de cáncer."
+    ]
+   },
+   {
+    "h2": "¿Cómo se diagnostica? La anamnesis",
+    "paras": [
+     "La valoración empieza por una **anamnesis detallada**: cuándo empezó el dolor, si hubo un traumatismo o un tratamiento dental prolongado, en qué momentos del día aparece, qué lo empeora (masticar, hablar, bostezar) y qué lo alivia. Se pregunta si le han dicho que rechina los dientes, si se despierta con la mandíbula cansada o con dolor de cabeza, si nota chasquidos o bloqueos y si tiene acúfenos, mareo o dolor de cuello.",
+     "También se recogen el descanso y la calidad del sueño, el ronquido, el nivel de estrés, el consumo de cafeína, los hábitos como el chicle o morder objetos, las horas ante la pantalla y los tratamientos dentales y de ortodoncia previos. Si utiliza una férula, conviene que la traiga a la primera visita.",
+     "La anamnesis permite reconocer las señales de alarma, orientar si predomina el componente muscular, articular o de bruxismo y decidir qué estructuras conviene explorar."
+    ]
+   },
+   {
+    "h2": "¿Cómo se explora? La palpación",
+    "paras": [
+     "La exploración incluye la observación de la cara, la postura de la cabeza y el cuello y la manera de respirar. Se mide la apertura de la boca, que normalmente permite introducir tres dedos entre los incisivos, y se observa si la mandíbula se desvía al abrir, si hay chasquidos o roces y en qué momento del movimiento aparecen. Se explora además la movilidad del cuello, la columna dorsal y, cuando procede, la pelvis y los pies.",
+     "La **palpación** es el centro de la exploración. Permite localizar puntos sensibles en el masetero, el temporal y los pterigoideos, valorar el movimiento de los cóndilos delante del oído, comprobar si la presión reproduce el dolor habitual y explorar los músculos del cuello y de la base del cráneo. Barral llama a esta palpación **escucha manual**: una escucha general que orienta hacia la región que más llama la atención en el conjunto del cuerpo, y una escucha local que precisa si la estructura implicada es una articulación, un músculo, la fascia, un nervio o una víscera.",
+     "Cuando se sospecha que la oclusión puede intervenir, pruebas orientativas como el test de Meersseman ayudan a decidir la derivación al odontólogo. Las pruebas de imagen, como la resonancia magnética de la ATM, se reservan para los casos con bloqueo, dolor persistente o sospecha de lesión articular, y las solicita el médico o el odontólogo."
+    ]
+   },
+   {
+    "h2": "¿Cómo se trata?",
+    "paras": [
+     "La mayoría de los TTM y de los dolores por bruxismo mejoran con un tratamiento conservador. La guía de práctica clínica del BMJ sobre el dolor crónico asociado a los TTM recomienda con fuerza, entre otras opciones, la terapia cognitivo-conductual, la movilización realizada por un terapeuta, el tratamiento manual de los puntos gatillo, el ejercicio postural supervisado, los ejercicios y estiramientos de la mandíbula supervisados y los cuidados habituales: ejercicios en casa, información y tranquilización. Recomienda de forma condicional la manipulación, sola o con ejercicio postural (Busse et al., BMJ, 2023).",
+     "Esa misma guía desaconseja de forma condicional las férulas oclusales reversibles como tratamiento del dolor crónico y desaconseja con fuerza los tratamientos irreversibles sobre los dientes. Esto no significa que la férula no tenga utilidad: el odontólogo puede indicarla para **proteger los dientes** del desgaste que produce el bruxismo, y si la tiene pautada conviene seguir usándola.",
+     "El **trabajo conjunto con el odontólogo o estomatólogo** es esencial. El odontólogo valora la oclusión, el desgaste dental y la necesidad de una férula o de ortodoncia; la valoración osteopática se ocupa de la mandíbula, el cuello, la postura y el resto del cuerpo. Cuando ambos enfoques se coordinan, se evita tanto atribuirlo todo a los dientes como pasar por alto un problema dental.",
+     "La técnica manual no se decide de antemano: se elige en cada caso después de la anamnesis y la exploración, según el tejido implicado, la fase del dolor y el estado de cada persona. Los fármacos los decide el médico o el dentista, y las intervenciones sobre la articulación se reservan para casos concretos que no responden al tratamiento conservador."
+    ]
+   },
+   {
+    "h2": "¿Qué puedo hacer para prevenirlo? Ejercicio y prevención",
+    "paras": [
+     "La prevención del dolor mandibular se basa en reducir la sobrecarga diaria y en recuperar un movimiento libre y coordinado de la mandíbula y el cuello. No hay que esperar a que la mandíbula se bloquee: el cansancio al despertar, los chasquidos que aparecen por primera vez o la tensión en las sienes son señales tempranas que conviene atender.",
+     "La primera medida es conocer la **posición de reposo de la mandíbula**: labios juntos, dientes separados y la punta de la lengua apoyada suavemente en el paladar, detrás de los incisivos superiores. Los dientes solo deberían tocarse al tragar y al masticar. Muchas personas descubren que pasan horas con los dientes en contacto sin darse cuenta; colocar pequeños recordatorios en el ordenador o el móvil ayuda a detectar el apretamiento y a soltarlo.",
+     "Los **ejercicios de la mandíbula** buscan una apertura recta, controlada y sin dolor. Uno sencillo consiste en abrir y cerrar la boca despacio frente a un espejo, con la lengua en el paladar, intentando que la mandíbula baje sin desviarse. Se combinan con **ejercicios del cuello**, como la flexión cráneo-cervical suave (asentir sin levantar la cabeza de la almohada) y la movilidad de la columna dorsal, porque una cabeza adelantada aumenta la tensión de los músculos masticatorios.",
+     "Por último, el **descanso y la gestión del estrés** influyen directamente en el bruxismo del sueño: una rutina regular, reducir los estimulantes por la tarde y dedicar unos minutos a relajarse antes de acostarse son medidas sencillas con un efecto real. Si ronca o se despierta cansado, coméntelo con su médico para descartar una apnea del sueño."
+    ]
+   },
+   {
+    "h2": "¿Qué puedo hacer en el día a día?",
+    "paras": [
+     "Pequeños gestos diarios ayudan a reducir la sobrecarga de la mandíbula:"
+    ],
+    "list": [
+     "Mantenga los labios juntos y los dientes separados, con la lengua apoyada en el paladar.",
+     "Evite el chicle, morder bolígrafos o uñas y los alimentos muy duros en las fases de dolor.",
+     "Corte los alimentos en trozos pequeños y mastique por ambos lados.",
+     "Reduzca la cafeína y el alcohol, sobre todo por la tarde y por la noche.",
+     "Coloque la pantalla a la altura de los ojos para no adelantar la cabeza.",
+     "Evite apoyar la mandíbula en la mano y dormir boca abajo.",
+     "Aplique calor local suave en la mandíbula y las sienes cuando note tensión.",
+     "Si su dentista le ha indicado una férula, úsela de forma regular y llévela a sus revisiones."
+    ]
+   }
+  ],
+  "evidence": {
+   "h2": "¿Qué dice la evidencia?",
+   "items": [
+    [
+     "Prevalencia (Clin Oral Investig)",
+     "Los TTM articulares afectan al 31,1 % de los adultos y al 11,3 % de los niños y adolescentes, según un metaanálisis de 21 estudios (Valesan et al., 2021)."
+    ],
+    [
+     "Bruxismo (J Orofac Pain)",
+     "El bruxismo del sueño afecta a alrededor del 13 % de los adultos y el de vigilia, a entre el 22 % y el 31 % (Manfredini et al., 2013)."
+    ],
+    [
+     "Guía clínica (BMJ)",
+     "El dolor crónico por TTM afecta al 6–9 % de los adultos; se recomiendan con fuerza la movilización, el tratamiento manual de puntos gatillo y el ejercicio mandibular y postural supervisado (Busse et al., 2023)."
+    ],
+    [
+     "Cuello y mandíbula (J Clin Med)",
+     "En las personas con TTM, la discapacidad del cuello se asocia a la de la mandíbula, con evidencia moderada de menor umbral de dolor a la presión y menor movilidad cervical (Cuenca-Martínez et al., 2020)."
+    ],
+    [
+     "Acúfenos (J Oral Rehabil)",
+     "Las personas con TTM tienen 4,45 veces más probabilidades de presentar acúfenos que las personas sin TTM (Mottaghi et al., 2019)."
+    ],
+    [
+     "Acúfenos (J Oral Rehabil)",
+     "La prevalencia mediana de acúfenos fue del 42,3 % en personas con TTM, frente al 12 % en personas sin TTM (Skog et al., 2019)."
+    ],
+    [
+     "Oclusión y postura (J Oral Rehabil)",
+     "No se ha encontrado una relación predecible entre la oclusión dental y la postura corporal ni entre la oclusión y el dolor de los TTM (Manfredini et al., 2012 y 2017)."
+    ],
+    [
+     "Inflamación y cronificación (Sci Transl Med)",
+     "En 98 personas con dolor lumbar agudo y 64 con TTM, una respuesta inflamatoria inicial de neutrófilos que se resolvía se asoció a la recuperación del dolor (Parisien et al., 2022)."
+    ]
+   ],
+   "refs": [
+    {
+     "t": "Valesan LF, Da-Cas CD, Réus JC, Denardin ACS, Garanhani RR, Bonotto D, et al., 2021. «Prevalence of temporomandibular joint disorders: a systematic review and meta-analysis». Clinical Oral Investigations.",
+     "doi": "10.1007/s00784-020-03710-w"
+    },
+    {
+     "t": "Manfredini D, Winocur E, Guarda-Nardini L, Paesani D, Lobbezoo F, 2013. «Epidemiology of bruxism in adults: a systematic review of the literature». Journal of Orofacial Pain.",
+     "doi": "10.11607/jop.921"
+    },
+    {
+     "t": "Busse JW, Casassus R, Carrasco-Labra A, et al., 2023. «Management of chronic pain associated with temporomandibular disorders: a clinical practice guideline». BMJ.",
+     "doi": "10.1136/bmj-2023-076227"
+    },
+    {
+     "t": "Cuenca-Martínez F, Herranz-Gómez A, Madroñero-Miguel B, et al., 2020. «Craniocervical and cervical spine features of patients with temporomandibular disorders: a systematic review and meta-analysis of observational studies». Journal of Clinical Medicine.",
+     "doi": "10.3390/jcm9092806"
+    },
+    {
+     "t": "La Touche R, Fernández-de-las-Peñas C, Fernández-Carnero J, et al., 2009. «The effects of manual therapy and exercise directed at the cervical spine on pain and pressure pain sensitivity in patients with myofascial temporomandibular disorders». Journal of Oral Rehabilitation.",
+     "doi": "10.1111/j.1365-2842.2009.01980.x"
+    },
+    {
+     "t": "Manfredini D, Castroflorio T, Perinetti G, Guarda-Nardini L, 2012. «Dental occlusion, body posture and temporomandibular disorders: where we are now and where we are heading for». Journal of Oral Rehabilitation.",
+     "doi": "10.1111/j.1365-2842.2012.02291.x"
+    },
+    {
+     "t": "Manfredini D, Lombardo L, Siciliani G, 2017. «Temporomandibular disorders and dental occlusion. A systematic review of association studies: end of an era?». Journal of Oral Rehabilitation.",
+     "doi": "10.1111/joor.12531"
+    },
+    {
+     "t": "Mottaghi A, Menéndez-Díaz I, Cobo JL, González-Serrano J, Cobo T, 2019. «Is there a higher prevalence of tinnitus in patients with temporomandibular disorders? A systematic review and meta-analysis». Journal of Oral Rehabilitation.",
+     "doi": "10.1111/joor.12706"
+    },
+    {
+     "t": "Skog C, Fjellner J, Ekberg E, Häggman-Henrikson B, 2019. «Tinnitus as a comorbidity to temporomandibular disorders: a systematic review». Journal of Oral Rehabilitation.",
+     "doi": "10.1111/joor.12710"
+    },
+    {
+     "t": "Bousema EJ, Koops EA, van Dijk P, Dijkstra PU, 2018. «Association between subjective tinnitus and cervical spine or temporomandibular disorders: a systematic review». Trends in Hearing.",
+     "doi": "10.1177/2331216518800640"
+    },
+    {
+     "t": "Parisien M, Lima LV, Dagostino C, et al., 2022. «Acute inflammatory response via neutrophil activation protects against the development of chronic pain». Science Translational Medicine.",
+     "doi": "10.1126/scitranslmed.abj9954"
+    },
+    {
+     "t": "Headache Classification Committee of the International Headache Society (IHS), 2018. «The International Classification of Headache Disorders, 3rd edition». Cephalalgia.",
+     "doi": "10.1177/0333102417738202"
+    }
+   ]
+  },
+  "faq": [
+   [
+    "¿Tengo que dejar de usar la férula?",
+    "No. Si su odontólogo le ha indicado una férula de descarga, conviene seguir usándola: protege los dientes del desgaste. La valoración de la mandíbula, el cuello y los hábitos actúa sobre otros factores que mantienen el dolor."
+   ],
+   [
+    "¿Mi mordida es la causa de mi dolor de mandíbula?",
+    "No necesariamente. La investigación actual no ha encontrado una relación clara entre la forma de la mordida y los trastornos de la ATM. La oclusión puede influir en algunos casos, y para valorarla está el odontólogo, pero a menudo pesan más la tensión muscular, el cuello, el estrés y los hábitos."
+   ],
+   [
+    "¿Qué es el test de Meersseman?",
+    "Es una prueba clínica orientativa: se colocan rollos de algodón entre los molares y se observa si cambian la postura, la movilidad o el dolor. Si cambian, se recomienda valorar la oclusión con el odontólogo. No es una prueba diagnóstica validada."
+   ],
+   [
+    "¿El dolor de mandíbula puede dar dolor de cabeza o de oído?",
+    "Sí. La sobrecarga de los músculos de la masticación puede provocar dolor en las sienes y cefalea al despertar, y los trastornos de la ATM se asocian a dolor delante del oído y a acúfenos."
+   ],
+   [
+    "¿El estrés influye en el bruxismo?",
+    "Sí, de forma importante, sobre todo en el bruxismo de vigilia, y también la calidad del sueño. Por eso la prevención incluye el descanso, la reducción de estimulantes y la relajación."
+   ],
+   [
+    "¿Son graves los chasquidos de la mandíbula?",
+    "Los chasquidos aislados, sin dolor ni bloqueo, son frecuentes y no suelen requerir tratamiento. Conviene valorarlos si se acompañan de dolor o de limitación al abrir la boca."
+   ],
+   [
+    "¿Por qué me duele el cuello si el problema está en la mandíbula?",
+    "Porque mandíbula, cabeza y cuello forman una unidad funcional y comparten vías nerviosas. Las personas con trastornos de la ATM suelen tener el cuello más sensible y con menos movilidad, por lo que conviene valorarlos juntos."
+   ],
+   [
+    "¿Qué debo traer a la primera visita?",
+    "Sus informes médicos y odontológicos, las pruebas de imagen si las tiene, la lista de la medicación que toma y su férula, si la utiliza."
+   ]
+  ],
+  "related": [
+   "cervicalgia-dolor-cuello",
+   "cefaleas-migrana",
+   "acufenos",
+   "cortisol-estres-cronico"
+  ],
+  "cta_h2": "Una mandíbula más relajada y un mejor descanso",
+  "seo": {
+   "kw": "bruxismo Barcelona",
+   "kws": [
+    "dolor mandibular Barcelona",
+    "ATM tratamiento Barcelona",
+    "apretar los dientes estrés",
+    "osteópata mandíbula Sarrià",
+    "disfunción temporomandibular Barcelona"
+   ],
+   "ca_kw": "bruxisme Barcelona",
+   "quick": "El bruxismo es la actividad de apretar o rechinar los dientes, durante el sueño o en vigilia. Los trastornos temporomandibulares son alteraciones dolorosas o mecánicas de la articulación que une la mandíbula con el cráneo y de los músculos de la masticación, y se relacionan con el dolor de cuello, la cefalea y los acúfenos.",
+   "entity": [
+    "MedicalCondition",
+    "Bruxismo"
+   ]
+  },
+  "research": [
+   "Personas en Barcelona que aprietan o rechinan los dientes o tienen dolor de mandíbula, chasquidos, cefalea o acúfenos y buscan un tratamiento conservador que valore también el cuello.",
+   [
+    "bruxismo tratamiento Barcelona",
+    "dolor de mandíbula al despertar",
+    "osteópata ATM Barcelona"
+   ],
+   [
+    "bruxisme tractament Barcelona",
+    "dolor de mandíbula Barcelona"
+   ],
+   "Clínicas dentales con férulas y fisioterapeutas especializados en ATM; pocas páginas explican con honestidad la evidencia sobre oclusión y postura."
+  ],
+  "ca": {}
+ },
+ {
+  "slug": "dolor-persistente-cronico",
+  "ca_slug": "dolor-persistent-cronic",
+  "nav": "Dolor persistente y crónico",
+  "card": "Cuando el dolor dura más de tres meses o vuelve una y otra vez: qué ocurre en el sistema nervioso y cómo se valora.",
+  "title": "Dolor crónico y persistente en Barcelona | WA LAM",
+  "desc": "Dolor crónico y persistente: sensibilización central, cambios en el cerebro, papel de la terapia manual y la osteopatía, educación, ejercicio y prevención en Sarrià–Sant Gervasi, Barcelona.",
+  "h1": "Dolor crónico y persistente en Barcelona",
+  "sub": "Cuando el sistema nervioso se sensibiliza · Sarrià–Sant Gervasi",
+  "lead": "El dolor crónico es el que persiste o reaparece durante más de tres meses. Con el tiempo, el dolor deja de depender solo del tejido que se lesionó: el sistema nervioso se vuelve más sensible, el cerebro cambia su manera de procesar las señales y el sueño, el estrés y la actividad pasan a influir en él. Entender estos mecanismos es el primer paso para recuperar el control.",
+  "facts_title": "En WA LAM",
+  "facts": [
+   "Dolor lumbar, cervical, articular y generalizado",
+   "Anamnesis detallada y exploración palpatoria",
+   "Educación, terapia manual y ejercicio",
+   "Primera visita: 60 min · 90 €"
+  ],
+  "wa": "Hola, tengo dolor persistente y me gustaría saber si pueden valorar mi caso.",
+  "mirror": {
+   "h2": "¿Se reconoce en estos síntomas?",
+   "qs": [
+    "¿Tiene un dolor que dura más de tres meses o que vuelve una y otra vez?",
+    "¿Las pruebas no explican del todo la intensidad de lo que siente?",
+    "¿Duerme peor por el dolor y, cuando duerme peor, el dolor aumenta?",
+    "¿Ha reducido su actividad por miedo a que el dolor empeore?"
+   ],
+   "close": "Si su dolor se acompaña de alguna de las señales de alarma que explicamos más abajo, consulte primero con su médico."
+  },
+  "explain": {
+   "h2": "¿Qué es el dolor crónico?",
+   "paras": [
+    "El **dolor crónico**, también llamado **dolor persistente**, es el dolor que dura o reaparece durante **más de tres meses**, más allá del tiempo habitual de curación de los tejidos. Así lo define la Asociación Internacional para el Estudio del Dolor (IASP) en la clasificación que elaboró para la Organización Mundial de la Salud, que lo reconoce por primera vez como un problema de salud en sí mismo y no solo como un síntoma (Treede et al., Pain, 2019).",
+    "Esa clasificación distingue el **dolor crónico primario**, cuando el dolor es el problema principal y no se explica por otra enfermedad, como ocurre en la fibromialgia o en la lumbalgia crónica inespecífica, del **dolor crónico secundario**, que se debe a otra afección. Este último incluye seis grupos: el dolor oncológico, el neuropático, el visceral secundario, el posttraumático y posquirúrgico, la cefalea y el dolor orofacial secundarios y el dolor musculoesquelético secundario, como el de la artrosis.",
+    "Según su mecanismo, se habla de dolor **nociceptivo**, cuando procede de una lesión o una inflamación de los tejidos; **neuropático**, cuando se debe a una lesión de los nervios; y **nociplástico**, cuando se debe a una alteración en el procesamiento del dolor por el sistema nervioso, sin una lesión que lo explique por completo. En muchas personas con dolor persistente se combinan los tres.",
+    "El dolor agudo y el crónico son experiencias muy distintas. El agudo es una alarma útil: avisa de una lesión y desaparece cuando el tejido se cura. El crónico, en cambio, se parece a una alarma que se ha quedado demasiado sensible y sigue sonando aunque el peligro haya pasado. El dolor es real en ambos casos; lo que cambia es el mecanismo que lo mantiene."
+   ]
+  },
+  "sections": [
+   {
+    "h2": "¿Es frecuente el dolor crónico?",
+    "paras": [
+     "El dolor crónico es uno de los problemas de salud más frecuentes. En un estudio nacional con 1.957 personas representativas de la población española, el **16,6 %** tenía dolor crónico, definido como dolor al menos cuatro días por semana durante los últimos tres meses (Dueñas et al., Pain Medicine, 2015).",
+     "Su impacto va mucho más allá del dolor. En ese mismo estudio, más de la mitad de las personas con dolor crónico refería limitaciones en sus actividades diarias, un 30 % se sentía triste o ansiosa a causa del dolor y el 47,2 % decía que el dolor afectaba a su vida familiar. Los investigadores identificaron dos perfiles: uno con dolor generalizado en varias zonas y de muy larga evolución, y otro con dolor localizado en una sola zona y de menor duración.",
+     "Las localizaciones más habituales son la zona lumbar, el cuello, las articulaciones y la cabeza. La lumbalgia, por sí sola, es la primera causa mundial de años vividos con discapacidad, como explicamos en nuestra página de [lumbalgia](lumbalgia-dolor-lumbar)."
+    ]
+   },
+   {
+    "h2": "¿Para qué sirve el dolor? Una señal protectora",
+    "paras": [
+     "Antes de hablar de cómo se cronifica, conviene recordar para qué sirve el dolor. El dolor es una **señal de alarma**: avisa de que algo amenaza la integridad del cuerpo y nos empuja a protegernos. Las personas que nacen sin capacidad de sentir dolor sufren lesiones graves sin darse cuenta. El dolor, por tanto, no es un enemigo en sí mismo, sino un mensaje.",
+     "La investigación reciente ha descubierto que las neuronas del dolor hacen incluso más de lo que se pensaba. En un estudio publicado en la revista Cell en 2022, realizado **en ratones**, investigadores de la Universidad de Harvard observaron que los **nociceptores**, las neuronas que detectan el dolor, liberan una sustancia llamada CGRP que actúa sobre las células caliciformes del intestino, las que producen el moco que protege su pared. Cuando se eliminaban esas neuronas, la capa de moco se adelgazaba, se alteraba la microbiota y los animales desarrollaban una colitis más grave; cuando se activaban, aumentaba la producción de moco (Yang et al., Cell, 2022).",
+     "Al ser un estudio en animales, sus resultados no pueden trasladarse directamente a las personas, pero ilustran una idea importante: el sistema del dolor forma parte de los mecanismos de protección del organismo, también en órganos internos como el intestino, y se relaciona con la [microbiota](salud-digestiva-microbiota) y con el sistema inmunitario.",
+     "De ahí se deriva una consecuencia práctica. Los analgésicos y antiinflamatorios son muy útiles para aliviar el dolor y su uso corresponde a la decisión del médico. Pero calmar la señal no siempre resuelve lo que la provoca, y con el tiempo el cuerpo puede habituarse a la medicación. Por eso, además del alivio, conviene **buscar la causa** y los factores que mantienen el dolor."
+    ]
+   },
+   {
+    "h2": "¿Es mala la inflamación? La inflamación aguda forma parte de la recuperación",
+    "paras": [
+     "Una investigación de la Universidad McGill, publicada en Science Translational Medicine en 2022, aportó una pista sobre por qué algunos dolores agudos se resuelven y otros se cronifican. Los investigadores siguieron durante tres meses a **98 personas con dolor lumbar agudo** y analizaron la actividad de sus células inmunitarias. En las que se recuperaron encontraron miles de cambios dinámicos y una respuesta inflamatoria inicial intensa, impulsada por los **neutrófilos**, que después se resolvía. En las que el dolor persistió, esos cambios no aparecieron. Los resultados se reprodujeron en un segundo grupo de 64 personas con trastornos de la articulación temporomandibular (Parisien et al., 2022).",
+     "En experimentos con ratones, el mismo equipo observó que tratar el dolor muy al principio con un corticoide o un antiinflamatorio lo aliviaba a corto plazo, pero lo prolongaba después, algo que no ocurría con otros analgésicos. Al eliminar los neutrófilos, el dolor tardaba más en resolverse; al inyectarlos, se prevenía su prolongación. En los datos del UK Biobank, las personas con dolor de espalda agudo que tomaban antiinflamatorios tenían más riesgo de que el dolor persistiera.",
+     "Es importante interpretar bien estos resultados. Los datos en humanos muestran una **asociación**, no una relación de causa, y los propios autores no hacen recomendaciones de tratamiento. No debe dejar de tomar la medicación que le haya pautado su médico. El mensaje es otro: la **inflamación aguda forma parte del proceso normal de recuperación**, y el movimiento suave, el calor o el trabajo manual, que estimulan respuestas fisiológicas leves, podrían favorecer esa resolución natural en lugar de frenarla."
+    ]
+   },
+   {
+    "h2": "¿Qué ocurre cuando el sistema nervioso se sensibiliza?",
+    "paras": [
+     "Cuando el dolor se mantiene durante semanas o meses, el sistema nervioso cambia. Las neuronas de la médula espinal y del cerebro que transmiten el dolor se vuelven más excitables: responden con más intensidad a los mismos estímulos, responden a estímulos que antes no dolían y amplían la zona del cuerpo de la que reciben información. Este fenómeno se llama **sensibilización central** y fue descrito por Clifford Woolf como una amplificación de las señales dentro del propio sistema nervioso (Woolf, Pain, 2011).",
+     "La sensibilización central explica experiencias que desconciertan a muchas personas con dolor persistente. La **hiperalgesia** es sentir mucho dolor ante un estímulo que antes producía poco. La **alodinia** es sentir dolor ante un estímulo que no debería doler, como el roce de la ropa o una caricia. También explica que el dolor se extienda a zonas cercanas o incluso alejadas, que cambie de lugar, que empeore con el cansancio, el estrés o el mal sueño y que no se corresponda con lo que muestran las pruebas de imagen.",
+     "Es fundamental entender que **sensibilización no significa que el dolor sea imaginario**. El dolor es real y tiene una base biológica medible. Lo que ocurre es que el sistema de alarma se ha vuelto demasiado sensible. La buena noticia es que el sistema nervioso es plástico: igual que ha aprendido a amplificar el dolor, puede aprender a modularlo de nuevo con el estímulo adecuado."
+    ]
+   },
+   {
+    "h2": "¿Cambia el cerebro con el dolor crónico?",
+    "paras": [
+     "Durante mucho tiempo se buscó la explicación del dolor crónico solo en la columna o en la articulación que dolía. Las técnicas de imagen cerebral han mostrado que el cerebro también participa. Con la **espectroscopia por resonancia magnética**, una técnica que permite medir la concentración de algunas sustancias químicas del cerebro, los **neurometabolitos**, un estudio pionero comparó a 9 personas con dolor lumbar crónico con 11 personas sanas. En las personas con dolor encontró una reducción del N-acetil-aspartato (NAA), un marcador de la salud de las neuronas, y de la glucosa en la corteza prefrontal dorsolateral, además de una relación anómala entre las sustancias de distintas regiones que se correlacionaba con la intensidad del dolor y de la ansiedad (Grachev et al., Pain, 2000).",
+     "Una revisión sistemática que reunió 9 estudios, con 135 personas con lumbalgia crónica y 137 controles, confirmó que el dolor lumbar crónico se acompaña de cambios en la química de varias regiones de la llamada «**matriz del dolor**»: reducción del NAA en la corteza prefrontal dorsolateral, la corteza motora y somatosensorial, la ínsula anterior y la corteza cingulada anterior, y cambios en el glutamato, el mioinositol, la colina y la glucosa en otras zonas (Zhao et al., NeuroImage: Clinical, 2017).",
+     "Estas regiones intervienen en la percepción del dolor, en las emociones que lo acompañan, en la atención y en la capacidad de modularlo. Los hallazgos ayudan a entender por qué el dolor crónico se relaciona con el ánimo, la concentración y el sueño, y por qué su tratamiento debe dirigirse también al sistema nervioso central, no solo a la zona que duele."
+    ]
+   },
+   {
+    "h2": "¿Cómo actúan la osteopatía y la terapia manual en el dolor crónico?",
+    "paras": [
+     "La terapia manual se ha explicado tradicionalmente por sus efectos locales sobre las articulaciones, los músculos y la fascia. Hoy se sabe que una parte importante de sus efectos se produce en el **sistema nervioso**. El modelo de Bialosky y colaboradores propone que el estímulo mecánico de la terapia manual desencadena respuestas neurofisiológicas en tres niveles: en los tejidos periféricos, en la médula espinal y en el cerebro, donde activa mecanismos que inhiben el dolor (Bialosky et al., Manual Therapy, 2009). La actualización de ese modelo añade que el efecto depende también de la interacción entre el paciente, el terapeuta y el contexto, y reconoce que los efectos medidos en los ensayos son moderados, por lo que defiende tratamientos guiados por los mecanismos de cada persona (Bialosky et al., JOSPT, 2018).",
+     "Un ensayo clínico aleatorizado publicado en el Irish Journal of Medical Science exploró este efecto central de forma directa. Veinticinco personas con dolor lumbar crónico inespecífico recibieron manipulación lumbopélvica o una manipulación simulada. A las 5 semanas, el grupo tratado presentaba **menos dolor y menos discapacidad** que el grupo simulado y, en la espectroscopia por resonancia magnética, un **aumento del NAA** en el tálamo, la ínsula y la corteza prefrontal dorsolateral, y de la colina en el tálamo, la ínsula y la corteza somatosensorial; en el grupo simulado los metabolitos no cambiaron (Didehdar et al., 2020). Es un estudio pequeño, que necesita confirmarse con muestras mayores, pero muestra que la manipulación vertebral se acompaña de cambios en las mismas regiones cerebrales que se alteran en el dolor crónico.",
+     "En la práctica clínica, la manipulación vertebral reduce el dolor y mejora la función en la lumbalgia crónica con una eficacia similar a la de otros tratamientos recomendados, y produce una mejora funcional pequeña pero clínicamente relevante (Rubinstein et al., BMJ, 2019). Una revisión de revisiones sistemáticas sobre el tratamiento osteopático manipulativo, que reúne 55 ensayos y 3.740 participantes, encontró que supera a los comparadores en dolor y función en la lumbalgia aguda y crónica, la cervicalgia crónica y el **dolor crónico no oncológico**, aunque la calidad metodológica de las revisiones era baja (Bagagiolo et al., BMJ Open, 2022).",
+     "La osteopatía aporta además una visión del cuerpo como un conjunto, que encaja bien con el dolor crónico: el osteópata trabaja con las manos sobre las articulaciones, los músculos, la fascia y las vísceras de todo el cuerpo, y no solo sobre la columna. En una persona con dolor persistente, ese estímulo manual, repetido y bien dosificado, es una forma de enviar al sistema nervioso información de movimiento y seguridad que contribuye a modular el dolor."
+    ]
+   },
+   {
+    "h2": "¿Por qué el tacto y el movimiento alivian el dolor? La teoría de la compuerta",
+    "paras": [
+     "Cuando se da un golpe en la mano, lo primero que hace es frotarse la zona. Ese gesto instintivo tiene una explicación científica. En 1965, Ronald Melzack y Patrick Wall publicaron en la revista Science la **teoría de la compuerta del dolor**: en el asta dorsal de la médula espinal existe un mecanismo que funciona como una puerta y regula cuánta información de dolor llega al cerebro (Melzack y Wall, Science, 1965).",
+     "Las señales de dolor viajan por fibras nerviosas finas. Las señales de tacto, presión, vibración y movimiento viajan por fibras gruesas, más rápidas. Cuando las fibras gruesas se activan, por ejemplo al frotar, al presionar o al mover una articulación, «cierran» parcialmente la puerta y reducen la transmisión del dolor. El cerebro, además, puede abrir o cerrar esa puerta desde arriba, según la atención, las emociones o las expectativas.",
+     "Aunque el conocimiento del dolor ha avanzado mucho desde entonces, la teoría de la compuerta sigue siendo una base conceptual para entender cómo la **mecanorrecepción**, es decir, el movimiento, la presión y la terapia manual, puede modular la nocicepción. Explica también por qué la inmovilidad prolongada empeora el dolor: al reducir las señales de movimiento, la puerta queda más abierta."
+    ]
+   },
+   {
+    "h2": "¿Por qué se mantiene el dolor?",
+    "paras": [
+     "El dolor crónico se entiende desde el **modelo biopsicosocial**: en su aparición y su mantenimiento influyen factores biológicos, psicológicos y sociales que se refuerzan entre sí. Una lesión inicial puede haberse curado, pero el miedo a moverse, el mal sueño, el estrés y la inactividad mantienen el sistema nervioso en alerta y el dolor se perpetúa.",
+     "A menudo se instaura un **círculo vicioso**: el dolor lleva a moverse menos; la inactividad debilita los músculos y reduce la tolerancia al esfuerzo; dormir mal aumenta la sensibilidad al dolor; y la preocupación por lo que pueda pasar refuerza la sensación de amenaza. Romper ese círculo por varios puntos a la vez es la base del tratamiento."
+    ],
+    "list_title": "Factores que contribuyen a que el dolor se mantenga:",
+    "list": [
+     "Lesiones o enfermedades previas que no se resolvieron por completo.",
+     "Sueño insuficiente o de mala calidad.",
+     "Estrés sostenido, ansiedad o estado de ánimo bajo.",
+     "Inactividad, reposo prolongado y miedo al movimiento (kinesiofobia).",
+     "Creencias catastrofistas sobre el dolor, como pensar que cada dolor significa un daño.",
+     "Sobrepeso, tabaquismo y sedentarismo.",
+     "Condiciones laborales o sociales difíciles y falta de apoyo."
+    ]
+   },
+   {
+    "h2": "¿Cuáles son los síntomas?",
+    "paras": [
+     "Además del dolor, el dolor crónico suele acompañarse de otros síntomas que forman parte del mismo cuadro y que conviene contar en la consulta, porque orientan sobre los mecanismos implicados."
+    ],
+    "list_title": "Síntomas frecuentes en el dolor persistente:",
+    "list": [
+     "Dolor que cambia de intensidad o de lugar, o que se extiende a otras zonas.",
+     "Dolor desproporcionado ante estímulos leves, o dolor al roce (alodinia).",
+     "Rigidez, sobre todo por la mañana o tras estar quieto.",
+     "Cansancio y sensación de falta de energía.",
+     "Sueño poco reparador.",
+     "Dificultad de concentración y de memoria.",
+     "Irritabilidad, tristeza o ansiedad relacionadas con el dolor."
+    ]
+   },
+   {
+    "h2": "¿Le duele más cuando cambia el tiempo?",
+    "paras": [
+     "«Va a llover, me lo dicen las rodillas». Es una frase que muchas personas con dolor crónico repiten convencidas, y que a menudo se toma a broma. Sin embargo, hay explicaciones plausibles. Cuando baja la presión atmosférica, como ocurre antes de la lluvia, los tejidos del cuerpo, como los músculos, los tendones o el tejido cicatricial, podrían expandirse ligeramente y estimular unas terminaciones nerviosas que, en el dolor crónico, están especialmente sensibles. El frío reduce además el flujo de sangre hacia las extremidades, hace que el líquido sinovial de las articulaciones sea más espeso y aumenta la tensión muscular, lo que se traduce en más rigidez.",
+     "El tiempo influye también en el ánimo: los días grises y lluviosos invitan a moverse menos, a quedarse en casa y pueden producir cansancio o tristeza, y el malestar emocional amplifica la percepción del dolor.",
+     "¿Qué dice la ciencia? Durante años los resultados fueron contradictorios: algunos estudios encontraban relación y otros no. El estudio más amplio hasta la fecha, «Cloudy with a Chance of Pain», analizó durante 15 meses los datos diarios que 2.658 personas con dolor crónico registraron en una aplicación del móvil. Encontró una relación **significativa pero modesta** entre el dolor y la humedad relativa, la presión atmosférica y la velocidad del viento, que se mantenía al tener en cuenta el ánimo y la actividad física (Dixon et al., npj Digital Medicine, 2019). Es decir, la sensación de muchas personas tiene una base, aunque el efecto es pequeño y varía de una persona a otra.",
+     "En los meses fríos y en los días de cambio de tiempo, ayuda abrigarse bien, aplicar calor local en las zonas más rígidas y, sobre todo, no dejar de moverse: el movimiento es la mejor manera de mantener las articulaciones lubricadas y los músculos flexibles."
+    ]
+   },
+   {
+    "h2": "¿Qué relación hay entre la microbiota y el dolor?",
+    "paras": [
+     "La relación entre el intestino y el dolor es uno de los campos de investigación más activos. La **microbiota intestinal**, el conjunto de microorganismos que viven en el intestino, se comunica con el sistema nervioso y con el sistema inmunitario. Una revisión publicada en el British Journal of Anaesthesia describe cómo los productos de la microbiota pueden modular la sensibilidad de los nociceptores y la inflamación, tanto en el dolor visceral como en el inflamatorio y el neuropático, y plantea que el eje intestino-cerebro podría ser una diana terapéutica en el futuro (Guo et al., 2019).",
+     "En el caso del dolor de espalda, un estudio que analizó el material genético de discos intervertebrales humanos encontró que los discos, considerados hasta hace poco estériles, albergan una comunidad propia de microorganismos, y que su composición difería entre los discos sanos y los degenerados (Rajasekaran et al., European Spine Journal, 2020). A partir de estos hallazgos se ha propuesto la hipótesis de un **eje intestino-disco**, según la cual una disbiosis intestinal podría favorecer la inflamación y la degeneración discal. Es una hipótesis emergente, que todavía no permite recomendar tratamientos concretos.",
+     "Lo que sí está al alcance de todos es cuidar la microbiota con una alimentación variada, rica en verduras, legumbres, frutas y fibra, y con una buena gestión del estrés y del sueño, hábitos que además favorecen el control del dolor. Puede leer más en nuestra página de [salud digestiva y microbiota](salud-digestiva-microbiota)."
+    ]
+   },
+   {
+    "h2": "¿Cómo se entiende el dolor crónico desde la osteopatía?",
+    "paras": [
+     "La osteopatía entiende el cuerpo como una unidad en la que las estructuras se relacionan entre sí a través de las articulaciones, los músculos, la fascia, los nervios y los vasos. En el dolor persistente, esta visión es especialmente útil, porque el dolor rara vez depende de una sola pieza: un dolor lumbar antiguo puede haber modificado la manera de caminar, la cadera y el cuello, y una tensión visceral o una cicatriz pueden mantener una zona en alerta.",
+     "Jean-Pierre Barral, osteópata y fisioterapeuta francés, describió cómo las vísceras pueden **referir dolor** a zonas de la pared del cuerpo inervadas por los mismos segmentos medulares: el estómago o la vesícula a la espalda alta, el intestino o los órganos pélvicos a la zona lumbar. En su modelo, un dolor que no evoluciona como se espera invita a explorar también los tejidos relacionados con él. Puede leer más en nuestra página de [osteopatía visceral](osteopatia-visceral-barcelona)."
+    ]
+   },
+   {
+    "h2": "¿Cuándo debo consultar con el médico?",
+    "paras": [
+     "Antes de atribuir un dolor persistente a la sensibilización del sistema nervioso hay que descartar otras causas. Consulte con su médico sin demora si presenta alguna de estas señales:"
+    ],
+    "list": [
+     "Fiebre o malestar general junto con el dolor.",
+     "Pérdida de peso sin causa aparente o antecedentes de cáncer.",
+     "Dolor nocturno intenso que no cede con el reposo ni con los cambios de postura.",
+     "Pérdida de fuerza, hormigueo o adormecimiento progresivos.",
+     "Dificultad para controlar la orina o las heces, o pérdida de sensibilidad en la zona genital: acuda a urgencias.",
+     "Inflamación, enrojecimiento y calor en una articulación.",
+     "Rigidez matutina prolongada que mejora con el movimiento en personas jóvenes, que puede indicar una enfermedad inflamatoria.",
+     "Un dolor que cambia claramente de características o empeora de forma progresiva."
+    ]
+   },
+   {
+    "h2": "¿Cómo se diagnostica? La anamnesis",
+    "paras": [
+     "En el dolor persistente, la **anamnesis** es la parte más importante de la valoración y requiere tiempo. Se recoge la historia completa del dolor: cómo y cuándo empezó, cómo ha evolucionado, dónde se localiza y si se ha extendido, qué lo empeora y qué lo alivia, cómo se comporta a lo largo del día y de la semana y qué tratamientos y pruebas ha recibido, con qué resultado.",
+     "Se pregunta también por el sueño, el nivel de estrés, el estado de ánimo, la actividad física, el trabajo, la alimentación, las molestias digestivas y los antecedentes de cirugías, cicatrices, traumatismos y otras enfermedades. Interesa especialmente lo que la persona piensa sobre su dolor y lo que ha dejado de hacer por miedo a empeorar, porque esas creencias influyen en la evolución.",
+     "La anamnesis sirve para descartar señales de alarma, orientar qué mecanismos predominan en cada caso (nociceptivo, neuropático o nociplástico) y decidir qué estructuras conviene explorar. Unas notas sobre cómo varía el dolor a lo largo de una o dos semanas son de gran ayuda."
+    ]
+   },
+   {
+    "h2": "¿Cómo se explora? La palpación",
+    "paras": [
+     "La exploración valora la postura, la manera de moverse, la movilidad de las articulaciones de la zona dolorosa y de las regiones relacionadas y, cuando procede, una exploración neurológica básica de la fuerza, la sensibilidad y los reflejos. Se observa también cómo responde el cuerpo al tacto y a la presión, porque una sensibilidad aumentada en zonas amplias orienta hacia la sensibilización central.",
+     "La **palpación** es el centro de la exploración osteopática. Barral la llama **escucha manual**: una palpación que busca diferencias de tensión, densidad, movilidad y temperatura en los tejidos. Distingue una escucha general, que orienta hacia la región que más llama la atención en el conjunto del cuerpo, y una escucha local, que precisa la estructura implicada: la articulación, el músculo, la fascia, el nervio, la víscera o el vaso. En el dolor crónico, la palpación debe ser especialmente cuidadosa y progresiva, respetando la sensibilidad de cada persona.",
+     "Las pruebas de imagen se reservan para los casos con señales de alarma o con dudas diagnósticas. Muchos hallazgos de imagen, como el desgaste discal o articular, son frecuentes en personas sin dolor y no siempre explican los síntomas."
+    ]
+   },
+   {
+    "h2": "¿Por qué es importante entender el dolor?",
+    "paras": [
+     "Uno de los cambios más importantes en el tratamiento del dolor crónico en los últimos veinte años ha sido reconocer el valor de la **educación**. Comprender qué es el dolor, por qué persiste y cómo funciona la sensibilización reduce el miedo y cambia la manera de afrontarlo. Moseley y Butler, dos de los investigadores que más han desarrollado este enfoque, lo llaman «explicar el dolor» (Moseley y Butler, Journal of Pain, 2015).",
+     "La evidencia lo respalda. Una revisión sistemática de 13 ensayos clínicos concluyó que la educación en neurociencia del dolor, en personas con dolor musculoesquelético crónico, reduce el dolor, mejora el conocimiento sobre él, mejora la función, reduce la discapacidad y los factores psicosociales, facilita el movimiento y disminuye el uso de recursos sanitarios (Louw et al., Physiotherapy Theory and Practice, 2016).",
+     "Educar no significa decir que el dolor «está en la cabeza». Significa explicar que el dolor es una respuesta de protección del sistema nervioso, que puede activarse aunque no haya un daño nuevo, y que el cuerpo es más fuerte y adaptable de lo que el dolor hace creer. Con esa información, la persona pasa de ser un receptor pasivo de tratamientos a participar activamente en su recuperación: entiende por qué se le pide moverse, puede autogestionar las recaídas y deja de interpretar cada molestia como una señal de daño."
+    ]
+   },
+   {
+    "h2": "¿Cómo se trata?",
+    "paras": [
+     "El tratamiento del dolor crónico es **multidisciplinar y escalonado**. Las guías clínicas recomiendan empezar por medidas no farmacológicas: educación sobre el dolor, ejercicio terapéutico y, en el dolor lumbar, terapia manual siempre como parte de un programa que incluya ejercicio (NICE NG59). La medicación la decide el médico y, cuando estas medidas no son suficientes, las unidades del dolor valoran técnicas intervencionistas.",
+     "El **ejercicio terapéutico** es una de las medidas con más respaldo. Una revisión Cochrane de 249 ensayos concluyó que reduce el dolor y mejora la función en el dolor lumbar crónico frente a no recibir tratamiento, la atención habitual o el placebo (Hayden et al., 2021). Una revisión de revisiones Cochrane sobre la actividad física en distintos tipos de dolor crónico encontró que puede mejorar la intensidad del dolor y la función física, con pocos efectos adversos, aunque la calidad de la evidencia es baja (Geneen et al., 2017).",
+     "La **terapia manual** contribuye a reducir el dolor y a recuperar la movilidad, y, como hemos visto, actúa también sobre el sistema nervioso central. Su papel es facilitar el movimiento y la participación activa, no hacerla innecesaria.",
+     "La técnica no se decide de antemano: se elige en cada caso después de la anamnesis y la exploración, según los mecanismos que predominan, los tejidos implicados, la sensibilidad de la persona y su momento vital. El plan se revisa de forma periódica, con objetivos concretos y alcanzables."
+    ]
+   },
+   {
+    "h2": "¿Qué puedo hacer para prevenirlo? Ejercicio y prevención",
+    "paras": [
+     "La mejor manera de tratar el dolor crónico es evitar que se instaure. La **prevención** empieza mucho antes del dolor: el dolor suele ser la última señal de una sobrecarga que el cuerpo llevaba tiempo compensando. Rigidez al levantarse, cansancio al final del día o una molestia que aparece siempre con la misma postura son avisos tempranos que conviene atender. Como el cepillado de los dientes, el cuidado de la columna y de las articulaciones funciona cuando se convierte en un hábito diario y se acompaña de revisiones periódicas.",
+     "En la prevención del dolor lumbar, el ejercicio combinado con educación reduce el riesgo de un nuevo episodio en un 45 % y el ejercicio solo, en un 35 %; la educación sola, las fajas y las plantillas no previenen (Steffens et al., JAMA Internal Medicine, 2016). Cuando el dolor ya es persistente, el ejercicio se plantea de forma **gradual**: se parte de lo que la persona puede hacer hoy sin que el dolor se dispare y se aumenta poco a poco, con metas pequeñas. Un poco de dolor durante el ejercicio no significa daño, y el objetivo es que el sistema nervioso vuelva a asociar el movimiento con seguridad.",
+     "Un programa equilibrado combina ejercicio aeróbico suave, como caminar, nadar o ir en bicicleta; fuerza para los grandes grupos musculares, dos o tres veces por semana; y movilidad y estiramientos. Lo más eficaz es el ejercicio que se mantiene en el tiempo, así que conviene elegir actividades que resulten agradables.",
+     "El **sueño**, la gestión del **estrés** y la **alimentación** completan la prevención. Dormir bien reduce la sensibilidad al dolor; los periodos de estrés sostenido la aumentan; y una dieta variada, de tipo mediterráneo, rica en verduras, legumbres, pescado y aceite de oliva, cuida la microbiota y el peso. Cambiar estos hábitos influye en muchas cosas a la vez, y no solo en el dolor."
+    ]
+   },
+   {
+    "h2": "¿Qué puedo hacer en el día a día?",
+    "paras": [
+     "Algunos hábitos ayudan a romper el círculo entre dolor, inactividad y mal descanso:"
+    ],
+    "list": [
+     "Mantenga la actividad dentro de lo tolerable: el reposo prolongado suele empeorar el dolor.",
+     "Aumente el ejercicio de forma gradual, con metas pequeñas y alcanzables.",
+     "Reparta las tareas a lo largo del día y alterne posturas, en lugar de hacerlo todo los días buenos y parar los malos.",
+     "Cuide la regularidad del sueño y de los horarios.",
+     "Dedique cada día unos minutos a respirar con calma o a una actividad que le relaje.",
+     "Siga una alimentación variada, rica en verduras, legumbres, pescado y aceite de oliva.",
+     "Abríguese y aplique calor local en los días fríos o de cambio de tiempo.",
+     "Anote qué actividades, horarios o situaciones modifican su dolor y compártalo en la consulta."
+    ]
+   }
+  ],
+  "evidence": {
+   "h2": "¿Qué dice la evidencia?",
+   "items": [
+    [
+     "Prevalencia en España (Pain Med)",
+     "El 16,6 % de una muestra representativa de 1.957 personas tenía dolor crónico; el 47,2 % de ellas decía que afectaba a su vida familiar (Dueñas et al., 2015)."
+    ],
+    [
+     "Cerebro y dolor lumbar (NeuroImage Clin)",
+     "En 9 estudios con 135 personas con lumbalgia crónica se observaron reducciones del NAA en la corteza prefrontal, la ínsula y la cingulada anterior (Zhao et al., 2017)."
+    ],
+    [
+     "Manipulación y neurometabolitos (Ir J Med Sci)",
+     "En 25 personas con lumbalgia crónica, la manipulación lumbopélvica redujo el dolor y la discapacidad a las 5 semanas y aumentó el NAA en el tálamo, la ínsula y la corteza prefrontal frente a la simulación (Didehdar et al., 2020)."
+    ],
+    [
+     "Manipulación vertebral (BMJ)",
+     "En 47 ensayos con 9.211 participantes con lumbalgia crónica, la manipulación tuvo efectos similares a otros tratamientos recomendados y una mejora funcional pequeña pero relevante (Rubinstein et al., 2019)."
+    ],
+    [
+     "Osteopatía (BMJ Open)",
+     "Una revisión de 9 revisiones sistemáticas con 55 ensayos y 3.740 participantes encontró que el tratamiento osteopático supera a los comparadores en dolor y función en el dolor crónico no oncológico (Bagagiolo et al., 2022)."
+    ],
+    [
+     "Inflamación y cronificación (Sci Transl Med)",
+     "En 98 personas con dolor lumbar agudo, una respuesta inflamatoria inicial de neutrófilos que se resolvía se asoció a la recuperación; en las que cronificaron no apareció (Parisien et al., 2022)."
+    ],
+    [
+     "Educación (Physiother Theory Pract)",
+     "En 13 ensayos, la educación en neurociencia del dolor redujo el dolor y la discapacidad y mejoró la función en el dolor musculoesquelético crónico (Louw et al., 2016)."
+    ],
+    [
+     "Ejercicio (Cochrane)",
+     "En 249 ensayos, el ejercicio terapéutico redujo el dolor y mejoró la función en el dolor lumbar crónico (Hayden et al., 2021)."
+    ],
+    [
+     "Prevención (JAMA Intern Med)",
+     "El ejercicio combinado con educación redujo el riesgo de un nuevo episodio de dolor lumbar en un 45 % (RR 0,55) (Steffens et al., 2016)."
+    ],
+    [
+     "Tiempo y dolor (npj Digit Med)",
+     "En 2.658 personas con dolor crónico seguidas 15 meses, el dolor se relacionó de forma modesta con la humedad, la presión y el viento (Dixon et al., 2019)."
+    ]
+   ],
+   "refs": [
+    {
+     "t": "Treede RD, Rief W, Barke A, et al., 2019. «Chronic pain as a symptom or a disease: the IASP Classification of Chronic Pain for the International Classification of Diseases (ICD-11)». Pain.",
+     "doi": "10.1097/j.pain.0000000000001384"
+    },
+    {
+     "t": "Dueñas M, Salazar A, Ojeda B, Fernández-Palacín F, Micó JA, Torres LM, Failde I, 2015. «A nationwide study of chronic pain prevalence in the general Spanish population: identifying clinical subgroups through cluster analysis». Pain Medicine.",
+     "doi": "10.1111/pme.12640"
+    },
+    {
+     "t": "Yang D, Jacobson A, Meerschaert KA, et al., 2022. «Nociceptor neurons direct goblet cells via a CGRP-RAMP1 axis to drive mucus production and gut barrier protection». Cell.",
+     "doi": "10.1016/j.cell.2022.09.024"
+    },
+    {
+     "t": "Parisien M, Lima LV, Dagostino C, et al., 2022. «Acute inflammatory response via neutrophil activation protects against the development of chronic pain». Science Translational Medicine.",
+     "doi": "10.1126/scitranslmed.abj9954"
+    },
+    {
+     "t": "Woolf CJ, 2011. «Central sensitization: implications for the diagnosis and treatment of pain». Pain.",
+     "doi": "10.1016/j.pain.2010.09.030"
+    },
+    {
+     "t": "Grachev ID, Fredrickson BE, Apkarian AV, 2000. «Abnormal brain chemistry in chronic back pain: an in vivo proton magnetic resonance spectroscopy study». Pain.",
+     "doi": "10.1016/S0304-3959(00)00340-7"
+    },
+    {
+     "t": "Zhao X, Xu M, Jorgenson K, Kong J, 2017. «Neurochemical changes in patients with chronic low back pain detected by proton magnetic resonance spectroscopy: a systematic review». NeuroImage: Clinical.",
+     "doi": "10.1016/j.nicl.2016.11.006"
+    },
+    {
+     "t": "Didehdar D, Kamali F, Yoosefinejad AK, Lotfi M, 2020. «The effect of spinal manipulation on brain neurometabolites in chronic nonspecific low back pain patients: a randomized clinical trial». Irish Journal of Medical Science.",
+     "doi": "10.1007/s11845-019-02140-2"
+    },
+    {
+     "t": "Bialosky JE, Bishop MD, Price DD, Robinson ME, George SZ, 2009. «The mechanisms of manual therapy in the treatment of musculoskeletal pain: a comprehensive model». Manual Therapy.",
+     "doi": "10.1016/j.math.2008.09.001"
+    },
+    {
+     "t": "Bialosky JE, Beneciuk JM, Bishop MD, et al., 2018. «Unraveling the mechanisms of manual therapy: modeling an approach». Journal of Orthopaedic & Sports Physical Therapy.",
+     "doi": "10.2519/jospt.2018.7476"
+    },
+    {
+     "t": "Rubinstein SM, de Zoete A, van Middelkoop M, Assendelft WJJ, de Boer MR, van Tulder MW, 2019. «Benefits and harms of spinal manipulative therapy for the treatment of chronic low back pain: systematic review and meta-analysis of randomised controlled trials». BMJ.",
+     "doi": "10.1136/bmj.l689"
+    },
+    {
+     "t": "Bagagiolo D, Rosa D, Borrelli F, 2022. «Efficacy and safety of osteopathic manipulative treatment: an overview of systematic reviews». BMJ Open.",
+     "doi": "10.1136/bmjopen-2021-053468"
+    },
+    {
+     "t": "Melzack R, Wall PD, 1965. «Pain mechanisms: a new theory». Science.",
+     "doi": "10.1126/science.150.3699.971"
+    },
+    {
+     "t": "Dixon WG, Beukenhorst AL, Yimer BB, et al., 2019. «How the weather affects the pain of citizen scientists using a smartphone app». npj Digital Medicine.",
+     "doi": "10.1038/s41746-019-0180-3"
+    },
+    {
+     "t": "Guo R, Chen LH, Xing C, Liu T, 2019. «Pain regulation by gut microbiota: molecular mechanisms and therapeutic potential». British Journal of Anaesthesia.",
+     "doi": "10.1016/j.bja.2019.07.026"
+    },
+    {
+     "t": "Rajasekaran S, Soundararajan DCR, Tangavel C, et al., 2020. «Human intervertebral discs harbour a unique microbiome and dysbiosis determines health and disease». European Spine Journal.",
+     "doi": "10.1007/s00586-020-06446-z"
+    },
+    {
+     "t": "Moseley GL, Butler DS, 2015. «Fifteen years of explaining pain: the past, present, and future». Journal of Pain.",
+     "doi": "10.1016/j.jpain.2015.05.005"
+    },
+    {
+     "t": "Louw A, Zimney K, Puentedura EJ, Diener I, 2016. «The efficacy of pain neuroscience education on musculoskeletal pain: a systematic review of the literature». Physiotherapy Theory and Practice.",
+     "doi": "10.1080/09593985.2016.1194646"
+    },
+    {
+     "t": "Hayden JA, Ellis J, Ogilvie R, Malmivaara A, van Tulder MW, 2021. «Exercise therapy for chronic low back pain». Cochrane Database of Systematic Reviews.",
+     "doi": "10.1002/14651858.CD009790.pub2"
+    },
+    {
+     "t": "Geneen LJ, Moore RA, Clarke C, Martin D, Colvin LA, Smith BH, 2017. «Physical activity and exercise for chronic pain in adults: an overview of Cochrane Reviews». Cochrane Database of Systematic Reviews.",
+     "doi": "10.1002/14651858.CD011279.pub3"
+    },
+    {
+     "t": "Steffens D, Maher CG, Pereira LSM, et al., 2016. «Prevention of low back pain: a systematic review and meta-analysis». JAMA Internal Medicine.",
+     "doi": "10.1001/jamainternmed.2015.7431"
+    }
+   ]
+  },
+  "faq": [
+   [
+    "¿Por qué me sigue doliendo si la lesión ya se ha curado?",
+    "Porque, cuando el dolor se mantiene, el sistema nervioso puede sensibilizarse y seguir generando dolor aunque los tejidos se hayan recuperado. El dolor es real, y se puede trabajar sobre los mecanismos que lo mantienen."
+   ],
+   [
+    "¿El dolor crónico está en mi cabeza?",
+    "No en el sentido de que sea imaginario. El dolor crónico se acompaña de cambios medibles en la médula espinal y en el cerebro, como la sensibilización central y cambios en los neurometabolitos. Entenderlos ayuda a tratarlo mejor."
+   ],
+   [
+    "¿Puede la osteopatía ayudar en el dolor crónico?",
+    "La terapia manual actúa sobre los tejidos y también sobre el sistema nervioso central, y las revisiones muestran mejoras del dolor y la función en el dolor crónico no oncológico. Da mejores resultados cuando forma parte de un plan con educación y ejercicio."
+   ],
+   [
+    "¿Debo dejar los antiinflamatorios?",
+    "No sin consultarlo con su médico, que es quien decide la medicación. La investigación sugiere que la inflamación aguda forma parte de la recuperación, pero son estudios preliminares; lo importante es, además, buscar la causa del dolor."
+   ],
+   [
+    "¿Es seguro hacer ejercicio con dolor crónico?",
+    "Sí, siempre que se adapte y se aumente de forma progresiva. Moverse con una pauta adecuada es una de las medidas más eficaces y no supone dañar los tejidos, aunque al principio aparezcan algunas molestias."
+   ],
+   [
+    "¿Por qué me duele más cuando cambia el tiempo?",
+    "El estudio más amplio hasta la fecha encontró una relación modesta entre el dolor y la humedad, la presión y el viento. Algunas personas son más sensibles; abrigarse, aplicar calor y mantenerse activo ayuda."
+   ],
+   [
+    "¿Cuánto tiempo tarda en notarse la mejoría?",
+    "Depende de cada caso. Muchas personas notan cambios en el sueño, la energía o la tolerancia a la actividad en las primeras semanas; la reducción del dolor suele ser progresiva."
+   ],
+   [
+    "¿Qué debo traer a la primera visita?",
+    "Sus informes médicos, las pruebas realizadas y la lista de la medicación que toma. Si le es posible, unas notas sobre cómo varía su dolor a lo largo de la semana."
+   ]
+  ],
+  "related": [
+   "fibromialgia",
+   "lumbalgia-dolor-lumbar",
+   "salud-digestiva-microbiota",
+   "dolor-neuropatico"
+  ],
+  "cta_h2": "Pida su primera visita y valoremos su caso de forma global",
+  "seo": {
+   "kw": "dolor crónico Barcelona",
+   "kws": [
+    "tratamiento dolor crónico Barcelona",
+    "dolor persistente",
+    "dolor lumbar crónico tratamiento",
+    "sensibilización central",
+    "osteopatía dolor crónico Barcelona"
+   ],
+   "ca_kw": "dolor crònic Barcelona",
+   "quick": "El dolor crónico es el que dura o reaparece durante más de tres meses, más allá del tiempo normal de curación de los tejidos. A menudo se mantiene por una sensibilización del sistema nervioso central, que amplifica las señales de dolor, y se acompaña de cambios en la química del cerebro.",
+   "entity": [
+    "MedicalCondition",
+    "Dolor crónico"
+   ]
+  },
+  "research": [
+   "Personas con dolor de más de tres meses (lumbar, cervical, articular o generalizado) en Barcelona que quieren entender por qué persiste y buscan un abordaje conservador que no se limite a la medicación.",
+   [
+    "tratamiento dolor crónico Barcelona",
+    "por qué no se me quita el dolor",
+    "sensibilización central qué es"
+   ],
+   [
+    "dolor crònic tractament Barcelona",
+    "dolor persistent"
+   ],
+   "Unidades del dolor hospitalarias, clínicas de fisioterapia y centros de medicina integrativa con información general."
+  ],
+  "ca": {}
+ }
+]
