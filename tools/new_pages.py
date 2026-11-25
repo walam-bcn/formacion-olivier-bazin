@@ -166,7 +166,7 @@ def integrate_areas(PAGES):
 HOME_LIST = [
     # Lista exacta de «Sobre mí» de walambcn.com (25 nov 2026): no añadir motivos que no estén en la web de Rosa
     ("Patologías musculoesqueléticas y osteoarticulares", [
-        ("Artrosis", "artrosis"), ("Bursitis, capsulitis y tendinitis", "bursitis-capsulitis-tendinitis"), ("Cervicalgia", "cervicalgia-dolor-cuello"),
+        ("Artrosis", "artrosis"), ("Bursitis", "bursitis-capsulitis-tendinitis"), ("Capsulitis", "bursitis-capsulitis-tendinitis"), ("Tendinitis", "bursitis-capsulitis-tendinitis"), ("Cervicalgia", "cervicalgia-dolor-cuello"),
         ("Dolor de rodilla y condromalacia rotuliana", "dolor-rodilla-condromalacia"), ("Contracturas y desgarros musculares", "contracturas-desgarros-musculares"),
         ("Dorsalgia", "dorsalgia-dolor-espalda-alta"), ("Esguinces", "esguinces"), ("Esguince cervical", "cervicalgia-dolor-cuello"),
         ("Fascitis plantar", "fascitis-plantar"), ("Fibromialgia", "fibromialgia"), ("Hernias de disco incipientes y protrusión", "hernia-disco-incipiente"),
@@ -301,7 +301,9 @@ def integrate_home_areas(PAGES, primer_contacto=None):
         for n, ((ey, h2, intro, ptxt, li), (_, items)) in enumerate(zip(AREA_BLOCKS, HOME_LIST)):
             have = {s for _, s in items if s}
             extra = [(navs[s], s) for s in AREA_EXTRA[n] if s in known and s not in have]
-            ind = [f"[{lab}]({s})" if s in known else lab for lab, s in items + extra]
+            import unicodedata as _ud
+            _key = lambda t: _ud.normalize("NFD", t[0]).encode("ascii", "ignore").decode().lower()
+            ind = [f"[{lab}]({s})" if s in known else lab for lab, s in sorted(items + extra, key=_key)]
             abord = {"k": "Nuestro abordaje", "h": "Cómo lo abordamos", "p": ptxt, "li": [x for x in li if x.split("](")[1][:-1] in known]}
             if n == 0:
                 half = (len(ind) + 1) // 2
