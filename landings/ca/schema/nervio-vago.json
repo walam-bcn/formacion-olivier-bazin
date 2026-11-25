@@ -159,11 +159,6 @@
         },
         {
           "@type": "MedicalTherapy",
-          "name": "Nervi vague i teoria polivagal",
-          "url": "https://www.walambcn.com/ca/osteopatia-nervi-vague-teoria-polivagal"
-        },
-        {
-          "@type": "MedicalTherapy",
           "name": "Fàscia i alliberament miofascial",
           "url": "https://www.walambcn.com/ca/osteopatia-fascia-barcelona"
         },
@@ -191,6 +186,11 @@
           "@type": "MedicalTherapy",
           "name": "Reiki",
           "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/reiki-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Nervi vague i teoria polivagal",
+          "url": "https://www.walambcn.com/ca/osteopatia-nervi-vague-teoria-polivagal"
         }
       ],
       "sameAs": [
@@ -242,7 +242,7 @@
       },
       "lastReviewed": "2026-11-18",
       "dateModified": "2026-11-18",
-      "keywords": "osteopatía nervio vago Barcelona, nervio vago y ansiedad, nervio vago ansiedad síntomas, nervio vago ansiedad ejercicios, teoría polivagal aplicada al trauma, osteopatía nervio vago",
+      "keywords": "osteopatía nervio vago Barcelona, nervio vago y ansiedad, teoría polivagal, nervio vago ansiedad síntomas, nervio vago ansiedad ejercicios, teoría polivagal aplicada al trauma, osteopatía nervio vago",
       "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/nervio-vago.png",
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -269,9 +269,33 @@
       "citation": [
         {
           "@type": "ScholarlyArticle",
-          "name": "Vagus Nerve as Modulator of the Brain–Gut Axis in Psychiatric and Inflammatory Disorders",
-          "url": "https://doi.org/10.3389/fpsyt.2018.00044",
-          "sameAs": "https://doi.org/10.3389/fpsyt.2018.00044"
+          "name": "Orienting in a defensive world: mammalian modifications of our evolutionary heritage. A Polyvagal Theory",
+          "url": "https://doi.org/10.1111/j.1469-8986.1995.tb01213.x",
+          "sameAs": "https://doi.org/10.1111/j.1469-8986.1995.tb01213.x"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "The polyvagal theory: phylogenetic substrates of a social nervous system",
+          "url": "https://doi.org/10.1016/S0167-8760(01)00162-3",
+          "sameAs": "https://doi.org/10.1016/S0167-8760(01)00162-3"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "The polyvagal perspective",
+          "url": "https://doi.org/10.1016/j.biopsycho.2006.06.009",
+          "sameAs": "https://doi.org/10.1016/j.biopsycho.2006.06.009"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "The polyvagal theory: new insights into adaptive reactions of the autonomic nervous system",
+          "url": "https://doi.org/10.3949/ccjm.76.s2.17",
+          "sameAs": "https://doi.org/10.3949/ccjm.76.s2.17"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Polyvagal Theory: a science of safety",
+          "url": "https://doi.org/10.3389/fnint.2022.871227",
+          "sameAs": "https://doi.org/10.3389/fnint.2022.871227"
         },
         {
           "@type": "ScholarlyArticle",
@@ -281,9 +305,63 @@
         },
         {
           "@type": "ScholarlyArticle",
+          "name": "Vagus Nerve as Modulator of the Brain–Gut Axis in Psychiatric and Inflammatory Disorders",
+          "url": "https://doi.org/10.3389/fpsyt.2018.00044",
+          "sameAs": "https://doi.org/10.3389/fpsyt.2018.00044"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "The inflammatory reflex",
+          "url": "https://doi.org/10.1038/nature01321",
+          "sameAs": "https://doi.org/10.1038/nature01321"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Vagus nerve stimulation attenuates the systemic inflammatory response to endotoxin",
+          "url": "https://doi.org/10.1038/35013070",
+          "sameAs": "https://doi.org/10.1038/35013070"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Nicotinic acetylcholine receptor α7 subunit is an essential regulator of inflammation",
+          "url": "https://doi.org/10.1038/nature01339",
+          "sameAs": "https://doi.org/10.1038/nature01339"
+        },
+        {
+          "@type": "ScholarlyArticle",
           "name": "The vagus nerve and the inflammatory reflex—linking immunity and metabolism",
           "url": "https://doi.org/10.1038/nrendo.2012.189",
           "sameAs": "https://doi.org/10.1038/nrendo.2012.189"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Vagus nerve stimulation inhibits cytokine production and attenuates disease severity in rheumatoid arthritis",
+          "url": "https://doi.org/10.1073/pnas.1605635113",
+          "sameAs": "https://doi.org/10.1073/pnas.1605635113"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Vagus nerve stimulation: from epilepsy to the cholinergic anti-inflammatory pathway",
+          "url": "https://doi.org/10.1111/nmo.12076",
+          "sameAs": "https://doi.org/10.1111/nmo.12076"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "A model of neurovisceral integration in emotion regulation and dysregulation",
+          "url": "https://doi.org/10.1016/S0165-0327(00)00338-4",
+          "sameAs": "https://doi.org/10.1016/S0165-0327(00)00338-4"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Claude Bernard and the heart–brain connection: further elaboration of a model of neurovisceral integration",
+          "url": "https://doi.org/10.1016/j.neubiorev.2008.08.004",
+          "sameAs": "https://doi.org/10.1016/j.neubiorev.2008.08.004"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Heart Rate Variability and Cardiac Vagal Tone in Psychophysiological Research – Recommendations for Experiment Planning, Data Analysis, and Data Reporting",
+          "url": "https://doi.org/10.3389/fpsyg.2017.00213",
+          "sameAs": "https://doi.org/10.3389/fpsyg.2017.00213"
         },
         {
           "@type": "ScholarlyArticle",
@@ -293,16 +371,130 @@
         },
         {
           "@type": "ScholarlyArticle",
+          "name": "How Breath-Control Can Change Your Life: A Systematic Review on Psycho-Physiological Correlates of Slow Breathing",
+          "url": "https://doi.org/10.3389/fnhum.2018.00353",
+          "sameAs": "https://doi.org/10.3389/fnhum.2018.00353"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "How positive emotions build physical health: perceived positive social connections account for the upward spiral between positive emotions and vagal tone",
+          "url": "https://doi.org/10.1177/0956797612470827",
+          "sameAs": "https://doi.org/10.1177/0956797612470827"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Music structure determines heart rate variability of singers",
+          "url": "https://doi.org/10.3389/fpsyg.2013.00334",
+          "sameAs": "https://doi.org/10.3389/fpsyg.2013.00334"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Effects of Cold Stimulation on Cardiac-Vagal Activation in Healthy Participants: Randomized Controlled Trial",
+          "url": "https://doi.org/10.2196/10257",
+          "sameAs": "https://doi.org/10.2196/10257"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Anxiety Disorders are Associated with Reduced Heart Rate Variability: A Meta-Analysis",
+          "url": "https://doi.org/10.3389/fpsyt.2014.00080",
+          "sameAs": "https://doi.org/10.3389/fpsyt.2014.00080"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Meta-analytic evidence for decreased heart rate variability in chronic pain implicating parasympathetic nervous system dysregulation",
+          "url": "https://doi.org/10.1097/j.pain.0000000000000360",
+          "sameAs": "https://doi.org/10.1097/j.pain.0000000000000360"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Central sensitization: implications for the diagnosis and treatment of pain",
+          "url": "https://doi.org/10.1016/j.pain.2010.09.030",
+          "sameAs": "https://doi.org/10.1016/j.pain.2010.09.030"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "The association of sleep and pain: an update and a path forward",
+          "url": "https://doi.org/10.1016/j.jpain.2013.08.007",
+          "sameAs": "https://doi.org/10.1016/j.jpain.2013.08.007"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Sleep disturbance, sleep duration, and inflammation: a systematic review and meta-analysis of cohort studies and experimental sleep deprivation",
+          "url": "https://doi.org/10.1016/j.biopsych.2015.05.014",
+          "sameAs": "https://doi.org/10.1016/j.biopsych.2015.05.014"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Ingestion of Lactobacillus strain regulates emotional behavior and central GABA receptor expression in a mouse via the vagus nerve",
+          "url": "https://doi.org/10.1073/pnas.1102999108",
+          "sameAs": "https://doi.org/10.1073/pnas.1102999108"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Psychological stress and corticotropin-releasing hormone increase intestinal permeability in humans by a mast cell-dependent mechanism",
+          "url": "https://doi.org/10.1136/gutjnl-2013-305690",
+          "sameAs": "https://doi.org/10.1136/gutjnl-2013-305690"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Physiology of visceral pain",
+          "url": "https://doi.org/10.1002/cphy.c150049",
+          "sameAs": "https://doi.org/10.1002/cphy.c150049"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Pathophysiology of visceral pain",
+          "url": "https://doi.org/10.5935/1806-0013.20140032",
+          "sameAs": "https://doi.org/10.5935/1806-0013.20140032"
+        },
+        {
+          "@type": "ScholarlyArticle",
           "name": "Osteopathic manipulative treatment and its relationship to autonomic nervous system activity as demonstrated by heart rate variability: a repeated measures study",
           "url": "https://doi.org/10.1186/1750-4732-2-7",
           "sameAs": "https://doi.org/10.1186/1750-4732-2-7"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "The nerve supply of the human auricle",
+          "url": "https://doi.org/10.1002/ca.1089",
+          "sameAs": "https://doi.org/10.1002/ca.1089"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Non-invasive Access to the Vagus Nerve Central Projections via Electrical Stimulation of the External Ear: fMRI Evidence in Humans",
+          "url": "https://doi.org/10.1016/j.brs.2014.11.018",
+          "sameAs": "https://doi.org/10.1016/j.brs.2014.11.018"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Critical Review of Transcutaneous Vagus Nerve Stimulation: Challenges for Translation to Clinical Practice",
+          "url": "https://doi.org/10.3389/fnins.2020.00284",
+          "sameAs": "https://doi.org/10.3389/fnins.2020.00284"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Vagus nerve stimulation paired with rehabilitation for upper limb motor function after ischaemic stroke (VNS-REHAB): a randomised, blinded, pivotal, device trial",
+          "url": "https://doi.org/10.1016/S0140-6736(21)00475-X",
+          "sameAs": "https://doi.org/10.1016/S0140-6736(21)00475-X"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Association between sedentary behavior and low back pain; a systematic review and meta-analysis",
+          "url": "https://doi.org/10.34172/hpp.2021.50",
+          "sameAs": "https://doi.org/10.34172/hpp.2021.50"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "World Health Organization 2020 guidelines on physical activity and sedentary behaviour",
+          "url": "https://doi.org/10.1136/bjsports-2020-102955",
+          "sameAs": "https://doi.org/10.1136/bjsports-2020-102955"
         }
       ]
     },
     {
       "@type": "Service",
       "@id": "https://www.walambcn.com/ca/osteopatia-nervi-vague-teoria-polivagal#servicio",
-      "name": "Osteopatia, nervi vague i teoria polivagal",
+      "name": "Nervio vago y teoría polivagal en Barcelona",
       "serviceType": "Nervi vague i teoria polivagal",
       "provider": {
         "@id": "https://www.walambcn.com/#clinica"
@@ -346,42 +538,58 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Què vol dir estimular el nervi vague?",
+          "name": "¿Dónde está el nervio vago?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Vol dir afavorir l'activitat de la branca parasimpàtica del sistema nerviós, la que redueix la freqüència cardíaca i facilita la calma i la digestió. En el dia a dia s'aconsegueix amb pràctiques senzilles, com la respiració lenta, el moviment suau o el descans, que augmenten el to vagal."
+            "text": "Sale del tronco del encéfalo, en la base del cráneo, desciende por los dos lados del cuello junto a la arteria carótida, atraviesa el tórax, donde da ramas al corazón y los pulmones, cruza el diafragma junto al esófago y se distribuye por el estómago, el hígado, el páncreas y el intestino. Tiene además una pequeña rama en la oreja."
           }
         },
         {
           "@type": "Question",
-          "name": "Quina relació té amb la digestió?",
+          "name": "¿Qué síntomas da un nervio vago «alterado»?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "El nervi vague estimula la secreció de sucs digestius, el moviment de l'intestí i la sensació de sacietat, i comunica l'estat de l'intestí amb el cervell. Per això l'estrès es nota sovint a l'estómac i, a la inversa, les molèsties digestives influeixen en com se sent."
+            "text": "Más que una alteración del nervio, lo habitual es un tono vagal bajo o una regulación poco flexible, asociada a dificultad para desconectar, digestiones irregulares, respiración alta, palpitaciones y sueño ligero. Las lesiones reales del vago son poco frecuentes y producen ronquera, dificultad para tragar o alteraciones del ritmo cardiaco, que deben estudiarse por el médico."
           }
         },
         {
           "@type": "Question",
-          "name": "Quin paper poden tenir l'osteopatia cranial i la visceral en una consulta per molèsties físiques?",
+          "name": "¿El nervio vago tiene relación con la ansiedad?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Permeten valorar i tractar amb tècniques suaus la base del crani, la regió cervical alta, el diafragma i l'abdomen, zones relacionades amb el nervi vague. L'objectiu és millorar la mobilitat dels teixits, reduir la tensió i afavorir la resposta de relaxació."
+            "text": "Sí. La ansiedad se asocia a un tono vagal más bajo, medido con la variabilidad de la frecuencia cardiaca, y muchos síntomas de ansiedad, como el nudo en el estómago, las náuseas o las palpitaciones, tienen que ver con la regulación autonómica en la que participa el vago. Es una relación de ida y vuelta, no una causa única."
           }
         },
         {
           "@type": "Question",
-          "name": "Té relació el nervi vague amb el fetge?",
+          "name": "¿Qué es la teoría polivagal en pocas palabras?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí. La branca hepàtica del vague transmet sobretot senyals metabòlics i inflamatoris. El dolor d'origen hepàtic, en canvi, sol notar-se a l'espatlla dreta a través del nervi frènic; per això, des de l'osteopatia visceral, es valoren junts el fetge, el diafragma i la regió cervical."
+            "text": "Es el modelo propuesto por Stephen Porges que explica cómo el sistema nervioso autónomo regula nuestro estado según las señales de seguridad o amenaza. Describe tres estados (implicación social, movilización e inmovilización), además de estados híbridos, y tres principios: la jerarquía de los circuitos, la neurocepción y la corregulación."
           }
         },
         {
           "@type": "Question",
-          "name": "Quins exercicis ajuden el nervi vague?",
+          "name": "¿Se puede «resetear» el nervio vago?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "La respiració lenta i diafragmàtica, a unes sis respiracions per minut i amb una exhalació més llarga que la inhalació, és l'exercici més senzill. També hi ajuden l'exercici físic regular, el ioga, el qigong, la pràctica de mindfulness, un bon descans i el contacte amb altres persones."
+            "text": "No existe un botón de reinicio. Lo que sí se puede hacer es favorecer, con regularidad, una regulación más flexible del sistema nervioso mediante la respiración lenta, el sueño, el movimiento, la conexión con otras personas y entornos que transmitan seguridad. Los cambios son graduales."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuánto tiempo hay que practicar la respiración lenta para notar algo?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Muchas personas notan más calma durante la propia práctica, y los estudios observan cambios en la variabilidad cardiaca ya durante la sesión. Para que el efecto se mantenga, lo importante es practicar a diario, aunque sean 5–10 minutos, durante varias semanas."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿La osteopatía puede actuar sobre el nervio vago?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "La osteopatía trabaja con técnicas manuales suaves sobre las zonas por las que pasa el nervio vago o con las que se relaciona: la base del cráneo, el cuello, el tórax, el diafragma y el abdomen. Un estudio pequeño observó una respuesta vagal tras una técnica cervical suave, pero la evidencia es todavía limitada y no permite hablar de un efecto específico sobre una enfermedad."
           }
         },
         {
@@ -389,7 +597,7 @@
           "name": "Quantes sessions calen?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Depèn de cada persona i dels seus símptomes. Després de la primera visita li proposem un pla, que sol combinar unes poques sessions amb pràctiques per fer a casa."
+            "text": "Depende de cada persona, de sus síntomas y del tiempo de evolución. Tras la primera visita se propone un plan, que suele combinar unas pocas sesiones con pautas de respiración, sueño y movimiento para practicar en casa."
           }
         }
       ]

@@ -159,11 +159,6 @@
         },
         {
           "@type": "MedicalTherapy",
-          "name": "Nervi vague i teoria polivagal",
-          "url": "https://www.walambcn.com/ca/osteopatia-nervi-vague-teoria-polivagal"
-        },
-        {
-          "@type": "MedicalTherapy",
           "name": "Fàscia i alliberament miofascial",
           "url": "https://www.walambcn.com/ca/osteopatia-fascia-barcelona"
         },
@@ -191,6 +186,11 @@
           "@type": "MedicalTherapy",
           "name": "Reiki",
           "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/reiki-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Nervi vague i teoria polivagal",
+          "url": "https://www.walambcn.com/ca/osteopatia-nervi-vague-teoria-polivagal"
         }
       ],
       "sameAs": [

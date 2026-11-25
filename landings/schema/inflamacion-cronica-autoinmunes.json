@@ -159,11 +159,6 @@
         },
         {
           "@type": "MedicalTherapy",
-          "name": "Nervio vago y teoría polivagal",
-          "url": "https://www.walambcn.com/osteopatia-nervio-vago-teoria-polivagal"
-        },
-        {
-          "@type": "MedicalTherapy",
           "name": "Fascia y liberación miofascial",
           "url": "https://www.walambcn.com/osteopatia-fascia-barcelona"
         },
@@ -191,6 +186,11 @@
           "@type": "MedicalTherapy",
           "name": "Reiki",
           "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/reiki"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Nervio vago y teoría polivagal",
+          "url": "https://www.walambcn.com/osteopatia-nervio-vago-teoria-polivagal"
         }
       ],
       "sameAs": [
