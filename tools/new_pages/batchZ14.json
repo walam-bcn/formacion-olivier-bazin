@@ -276,6 +276,26 @@
     ]
    },
    {
+    "h2": "¿Se puede prevenir que el insomnio se vuelva crónico?",
+    "paras": [
+     "Sí, y el momento de actuar es **al principio**. Casi todos los insomnios crónicos empiezan como un insomnio agudo: unas semanas de mal sueño por una preocupación, un duelo, un cambio de trabajo, un dolor, un viaje o la llegada de un bebé. En la mayoría de las personas el sueño se normaliza cuando pasa el desencadenante. En otras no, y la razón suele estar en lo que se hace para compensar las malas noches: acostarse antes o quedarse más tiempo en la cama, hacer siestas largas, aumentar el café para aguantar el día, tomar una copa para dormirse o pasar la noche pendiente del reloj. Son conductas comprensibles, pero **mantienen el problema** cuando el motivo inicial ya ha desaparecido.",
+     "Este proceso se suele explicar con tres tipos de factores: los **predisponentes** (una tendencia a la hiperactivación, la ansiedad, el cronotipo vespertino, la edad o los cambios hormonales), los **desencadenantes** (el acontecimiento que inicia las malas noches) y los **perpetuadores** (los hábitos y los pensamientos que lo mantienen). Los dos primeros no siempre se pueden cambiar; los perpetuadores, sí. Por eso las primeras semanas son decisivas: corregir pronto esos hábitos evita que el cerebro aprenda a asociar la cama con estar despierto y que el sistema de estrés se quede activado.",
+     "La prevención también implica **reconocer las fases de riesgo**. Una etapa de estrés sostenido, un periodo de turnos o de viajes frecuentes, la perimenopausia, un dolor que empieza o un cambio digestivo son momentos en que conviene proteger el sueño de forma activa, antes de que se desregulen el ritmo del cortisol, la inflamación o la microbiota, que a su vez empeoran el descanso. Si sabe que está en una de esas etapas, cuide especialmente la regularidad de horarios, la luz de la mañana, la alimentación y la regulación del sistema nervioso con respiración lenta o **[meditación](mindfulness-barcelona)**.",
+     "Y no hay que esperar a que el problema dure meses para consultar. Si después de dos o tres semanas de mejorar los hábitos el sueño no se recupera, o si el mal dormir empieza a afectar al rendimiento, al ánimo o al dolor, es el momento de valorarlo. El objetivo es corregir lo que se puede corregir, mejorar lo demás y evitar que avance."
+    ],
+    "list_title": "Qué hacer ante las primeras semanas de mal sueño:",
+    "list": [
+     "Detecte las señales precoces: tardar más de 30 minutos en dormirse, despertares de madrugada o cansancio al levantarse varias noches por semana",
+     "Mantenga la hora de levantarse aunque haya dormido mal; no alargue el tiempo en la cama",
+     "Evite compensar con siestas largas, más cafeína por la tarde o alcohol por la noche",
+     "Mantenga el ejercicio diario y la luz natural por la mañana, también en las semanas difíciles",
+     "Pautas de alimentación orientativas: cenas ligeras y regulares, sin excesos de azúcar ni comidas muy tardías",
+     "Ergonomía digital: móvil y pantallas fuera del dormitorio y sin uso en la última hora del día",
+     "Gestione el estrés durante el día, no solo al acostarse: respiración lenta, pausas, actividad física",
+     "Si el problema persiste más de dos o tres semanas, o afecta a su día, consulte: es más fácil revertirlo al principio"
+    ]
+   },
+   {
     "h2": "¿Cómo se trabaja el insomnio en WA LAM?",
     "paras": [
      "El insomnio se aborda desde la [PNIE](pni-pnie-barcelona), que busca el origen y el mecanismo del mal dormir: el estrés y el cortisol, las hormonas, la inflamación, la microbiota y los hábitos de luz y horarios. Se integra en el marco de la [medicina integrativa](medicina-integrativa-barcelona), que combina la medicina convencional con otras herramientas basadas en la evidencia, como la nutrición, el ejercicio y la gestión del estrés, y que coordina la derivación al médico o a una unidad del sueño cuando hace falta.",
@@ -454,12 +474,12 @@
     "Cuando le cuesta dormirse, mantener el sueño o se despierta demasiado pronto al menos tres noches por semana durante tres meses, y eso afecta a su día."
    ],
    [
-    "Duermo ocho horas y me levanto agotado. ¿Por qué?",
-    "Puede deberse a un sueño fragmentado, a un ritmo circadiano desajustado, al estrés y el cortisol, a cambios hormonales, al alcohol nocturno o a un trastorno como la apnea del sueño. Conviene revisar estos factores y, si se sospecha apnea, consultar con una unidad del sueño."
+    "Llevo unas semanas durmiendo mal, ¿debo esperar a que se pase?",
+    "Si hay un motivo claro y el sueño mejora en unos días, no suele ser necesario hacer nada más. Pero si pasan dos o tres semanas, conviene actuar: mantener la hora de levantarse, evitar siestas largas, cafeína tardía y alcohol, y consultar si no mejora. En esta fase es cuando más fácil resulta evitar que se cronifique."
    ],
    [
-    "¿Cuántas horas debo dormir?",
-    "Las guías recomiendan que los adultos duerman 7 horas o más por noche de forma habitual. La mejor referencia personal es cómo se siente durante el día."
+    "Duermo ocho horas y me levanto agotado. ¿Por qué?",
+    "Puede deberse a un sueño fragmentado, a un ritmo circadiano desajustado, al estrés y el cortisol, a cambios hormonales, al alcohol nocturno o a un trastorno como la apnea del sueño. Conviene revisar estos factores y, si se sospecha apnea, consultar con una unidad del sueño."
    ],
    [
     "¿Sirven las gafas de luz azul?",

@@ -245,7 +245,7 @@
     "paras": [
      "SIBO son las siglas en inglés de **sobrecrecimiento bacteriano del intestino delgado** (*Small Intestinal Bacterial Overgrowth*). Para entenderlo, imagine el intestino como una ciudad organizada: cada barrio tiene su población. El colon alberga la inmensa mayoría de las bacterias, mientras que el intestino delgado, donde se absorben los nutrientes, tiene muchas menos. En el SIBO, bacterias que deberían estar en el colon, o en mucha menor cantidad, crecen en exceso en el intestino delgado.",
      "Muchas de ellas son **patógenos facultativos**: bacterias normales que solo causan problemas cuando crecen de más o se instalan donde no toca. Fermentan los alimentos antes de tiempo y producen gases, hinchazón muy marcada tras las comidas, dolor, diarrea o estreñimiento, y a veces malabsorción de nutrientes como la vitamina B12 o el hierro. Favorecen el SIBO un vaciamiento intestinal lento, la disminución del ácido del estómago, cirugías abdominales, algunas enfermedades y fármacos. Puede cronificarse y reaparecer si no se corrige la causa.",
-     "El SIBO se ha puesto «de moda» en redes sociales, lo que ha generado confusión. La guía del Colegio Americano de Gastroenterología lo define por un crecimiento de más de 1.000 unidades formadoras de colonias por mililitro en el aspirado del intestino delgado, y acepta como alternativa el test del aliento, en el que se considera positivo un aumento del hidrógeno de al menos 20 partes por millón en los primeros 90 minutos (Pimentel et al., American Journal of Gastroenterology, 2020). Su diagnóstico y tratamiento corresponden al médico. Más información en [colon irritable y SIBO](colon-irritable-sibo)."
+     "El SIBO se ha puesto «de moda» en redes sociales, lo que ha generado confusión. La guía del Colegio Americano de Gastroenterología lo define por un crecimiento de más de 1.000 unidades formadoras de colonias por mililitro en el aspirado del intestino delgado, y acepta también el test del aliento, en el que se considera positivo un aumento del hidrógeno de al menos 20 partes por millón en los primeros 90 minutos (Pimentel et al., American Journal of Gastroenterology, 2020). Su diagnóstico y tratamiento corresponden al médico. Más información en [colon irritable y SIBO](colon-irritable-sibo)."
     ]
    },
    {
@@ -289,6 +289,26 @@
      "Pulso acelerado o ansiedad",
      "Ganas de comer dulce o confundir la sed con el hambre",
      "Orinar poco o una orina oscura (lo normal es un amarillo pálido)"
+    ]
+   },
+   {
+    "h2": "¿Se puede proteger la microbiota antes de que aparezca el problema?",
+    "paras": [
+     "Sí, y es probablemente lo más útil que se puede hacer. La disbiosis, el aumento de la permeabilidad, el SIBO o una intolerancia a la histamina rara vez aparecen de un día para otro: suelen ir precedidos de una **fase de riesgo** en la que el sistema todavía se está adaptando. Reconocer esas fases y actuar en ellas permite corregir lo corregible, mejorar lo que ya empieza a fallar y evitar que el problema progrese o se cronifique.",
+     "Las fases de riesgo más habituales son cuatro. La primera es una **etapa de estrés sostenido**: el cortisol y la activación del sistema simpático alteran la motilidad intestinal, la secreción de moco y la barrera, y con ello el entorno de las bacterias. La segunda es un **sueño alterado**: dormir poco, a deshoras, el trabajo a turnos o los viajes con cambio horario desajustan los ritmos circadianos, que la microbiota también sigue. La tercera son los **antibióticos** y otros fármacos que influyen en la microbiota, como los protectores de estómago, que suelen ser necesarios y los decide el médico, pero que justifican cuidarla especialmente mientras se toman y después. La cuarta son los **cambios bruscos de alimentación**: viajes, mudanzas, dietas muy restrictivas, épocas de comer deprisa o de muchos ultraprocesados.",
+     "Hay una quinta situación que merece atención: la **gastroenteritis**. En una revisión sistemática de 45 estudios, alrededor del 10 % de las personas que habían sufrido una infección intestinal tenía colon irritable un año después, con un riesgo unas cuatro veces mayor que quienes no la habían pasado; el sexo femenino, una infección grave, el malestar psicológico y el uso de antibióticos durante el episodio se asociaron a más riesgo (Klem et al., Gastroenterology, 2017). Es una asociación, pero indica que el periodo posterior a una gastroenteritis es un buen momento para cuidar el intestino y vigilar los síntomas. También el embarazo, el posparto, la menopausia o el periodo tras una cirugía son etapas de cambio en las que conviene estar atento.",
+     "Actuar antes significa, en primer lugar, **detectar las señales precoces**: un cambio en la forma de las heces en la escala de Bristol, una hinchazón que antes no existía, más gases, alimentos que empiezan a sentar mal, reflujo, peor descanso o un cansancio que no se explica. En segundo lugar, si sabe que está atravesando una etapa de estrés, de mal sueño o de antibióticos, se trata de **cuidar especialmente** la alimentación, el sueño y la regulación del sistema nervioso para proteger la microbiota y evitar que el sistema se desregule. Y en tercer lugar, consultar pronto: valorar a tiempo unos síntomas leves suele ser más sencillo que abordar un cuadro instaurado desde hace años."
+    ],
+    "list_title": "Qué hacer en una fase de riesgo (orientativo; se individualiza en consulta):",
+    "list": [
+     "**Estrés sostenido:** mantener horarios de comida regulares, comer sentado y con calma, reservar cada día un momento de respiración lenta o relajación y no renunciar al ejercicio moderado",
+     "**Sueño alterado:** recuperar un horario regular también el fin de semana, luz natural por la mañana, cenar pronto y evitar pantallas antes de dormir (ver [sueño e insomnio](sueno-insomnio))",
+     "**Antibióticos:** tomarlos tal como los prescribe el médico y, durante y después, priorizar la fibra variada, el almidón resistente y los fermentados si se toleran; si se plantea un probiótico, su indicación la individualiza un profesional",
+     "**Cambios de dieta o viajes:** mantener una base de verduras, legumbres y fruta, beber agua suficiente y evitar las restricciones prolongadas sin motivo",
+     "**Tras una gastroenteritis:** reintroducir los alimentos de forma progresiva, vigilar la evolución de las heces y consultar si los síntomas persisten más de unas semanas",
+     "**Ejercicio:** moverse a diario, con ejercicio aeróbico y de fuerza adaptado, que se asocia a una microbiota más diversa y regula el sistema nervioso",
+     "**Ergonomía y pantallas:** hacer pausas para levantarse y caminar, y limitar el móvil y las pantallas por la noche, que roban horas de sueño",
+     "**Revisiones:** si ya ha tenido problemas digestivos, una valoración periódica permite ajustar las pautas antes de que reaparezcan"
     ]
    },
    {
@@ -529,6 +549,10 @@
     {
      "t": "Levitt MD, Duane WC, 1972. «Floating stools — flatus versus fat». New England Journal of Medicine 286:973-975.",
      "doi": "10.1056/NEJM197205042861804"
+    },
+    {
+     "t": "Klem F, Wadhwa A, Prokop LJ, et al., 2017. «Prevalence, risk factors, and outcomes of irritable bowel syndrome after infectious enteritis: a systematic review and meta-analysis». Gastroenterology 152(5):1042-1054.",
+     "doi": "10.1053/j.gastro.2016.12.039"
     },
     {
      "t": "Arasaradnam RP, Brown S, Forbes A, et al., 2018. «Guidelines for the investigation of chronic diarrhoea in adults: British Society of Gastroenterology, 3rd edition». Gut.",
