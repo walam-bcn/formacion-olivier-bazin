@@ -226,8 +226,8 @@
       "@type": "MedicalWebPage",
       "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/ciatica#webpage",
       "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/ciatica",
-      "name": "Ciática en Barcelona · Dolor irradiado | WA LAM",
-      "description": "Ciática y dolor irradiado a la pierna en Sarrià–Sant Gervasi, Barcelona. Valoración clínica y un plan por fases para calmar el nervio y moverse mejor.",
+      "name": "Ciática y hernia discal en Barcelona | WA LAM",
+      "description": "Qué es la ciática, el nervio ciático y sus orígenes: hernia discal, estenosis, sacroilíaca o piramidal. Señales de alarma y tratamiento conservador en Sarrià–Sant Gervasi, Barcelona.",
       "inLanguage": "es-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -242,7 +242,7 @@
       },
       "lastReviewed": "2026-11-18",
       "dateModified": "2026-11-18",
-      "keywords": "ciática Barcelona, tratamiento ciática Barcelona, dolor nervio ciático, lumbociática tratamiento, ciática hernia discal, acupuntura ciática Barcelona",
+      "keywords": "ciática Barcelona, tratamiento ciática Barcelona, dolor nervio ciático, lumbociática tratamiento, ciática hernia discal, hernia discal, hernia discal Barcelona, hernia discal lumbar tratamiento conservador",
       "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/ciatica.png",
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -265,12 +265,7 @@
       "about": {
         "@type": "MedicalCondition",
         "name": "Ciática",
-        "possibleTreatment": [
-          {
-            "@type": "MedicalTherapy",
-            "name": "Acupuntura y medicina tradicional china"
-          }
-        ]
+        "possibleTreatment": []
       },
       "citation": [
         {
@@ -281,9 +276,81 @@
         },
         {
           "@type": "ScholarlyArticle",
-          "name": "Acupuncture vs Sham Acupuncture for Chronic Sciatica From Herniated Disk: A Randomized Clinical Trial",
-          "url": "https://doi.org/10.1001/jamainternmed.2024.5463",
-          "sameAs": "https://doi.org/10.1001/jamainternmed.2024.5463"
+          "name": "Diagnosis and treatment of sciatica",
+          "url": "https://doi.org/10.1136/bmj.l6273",
+          "sameAs": "https://doi.org/10.1136/bmj.l6273"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Sciatica: review of epidemiological studies and prevalence estimates",
+          "url": "https://doi.org/10.1097/BRS.0b013e318183a4a2",
+          "sameAs": "https://doi.org/10.1097/BRS.0b013e318183a4a2"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "The probability of spontaneous regression of lumbar herniated disc: a systematic review",
+          "url": "https://doi.org/10.1177/0269215514540919",
+          "sameAs": "https://doi.org/10.1177/0269215514540919"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Systematic literature review of imaging features of spinal degeneration in asymptomatic populations",
+          "url": "https://doi.org/10.3174/ajnr.A4173",
+          "sameAs": "https://doi.org/10.3174/ajnr.A4173"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Surgery versus prolonged conservative treatment for sciatica",
+          "url": "https://doi.org/10.1056/NEJMoa064039",
+          "sameAs": "https://doi.org/10.1056/NEJMoa064039"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "A study exploring the prevalence of Extremity Pain of Spinal Source (EXPOSS)",
+          "url": "https://doi.org/10.1080/10669817.2019.1661706",
+          "sameAs": "https://doi.org/10.1080/10669817.2019.1661706"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Physiology of visceral pain",
+          "url": "https://doi.org/10.1002/cphy.c150049",
+          "sameAs": "https://doi.org/10.1002/cphy.c150049"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Pathophysiology of visceral pain",
+          "url": "https://doi.org/10.5935/1806-0013.20140032",
+          "sameAs": "https://doi.org/10.5935/1806-0013.20140032"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Human intervertebral discs harbour a unique microbiome and dysbiosis determines health and disease",
+          "url": "https://doi.org/10.1007/s00586-020-06446-z",
+          "sameAs": "https://doi.org/10.1007/s00586-020-06446-z"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Gut-disc axis: a cause of intervertebral disc degeneration and low back pain?",
+          "url": "https://doi.org/10.1007/s00586-022-07152-8",
+          "sameAs": "https://doi.org/10.1007/s00586-022-07152-8"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Osteopathic manipulative treatment for low back and pelvic girdle pain during and after pregnancy: a systematic review and meta-analysis",
+          "url": "https://doi.org/10.1016/j.jbmt.2017.05.014",
+          "sameAs": "https://doi.org/10.1016/j.jbmt.2017.05.014"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Prevention of low back pain: a systematic review and meta-analysis",
+          "url": "https://doi.org/10.1001/jamainternmed.2015.7431",
+          "sameAs": "https://doi.org/10.1001/jamainternmed.2015.7431"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Low back pain and sciatica in over 16s: assessment and management",
+          "url": "https://doi.org/",
+          "sameAs": "https://doi.org/"
         }
       ]
     },
@@ -296,23 +363,23 @@
           "name": "¿Cuánto tarda en mejorar la ciática?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "La mayoría de las personas nota mejoría en las primeras semanas. El nervio necesita tiempo para calmarse, por lo que avanzamos por fases y ajustamos el plan según su evolución."
+            "text": "La mayoría de las personas nota mejoría en las primeras semanas, aunque el nervio puede necesitar varios meses para calmarse del todo. Por eso se avanza por etapas y se ajusta el plan según la evolución."
           }
         },
         {
           "@type": "Question",
-          "name": "¿Es mejor hacer reposo?",
+          "name": "¿Qué diferencia hay entre una protrusión y una hernia discal?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "En general, no. Mantenerse activo dentro de lo tolerable favorece la recuperación más que el reposo prolongado en cama."
+            "text": "En la protrusión, el núcleo del disco abomba el anillo fibroso sin romperlo. En la hernia, el núcleo atraviesa el anillo y sale hacia el canal vertebral. Ninguna de las dos produce síntomas necesariamente; lo importante es si encajan con la clínica."
           }
         },
         {
           "@type": "Question",
-          "name": "¿Puedo acudir si tengo una hernia discal diagnosticada?",
+          "name": "¿Una hernia discal desaparece sola?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí. Traiga sus pruebas a la primera visita y las revisamos junto con su historia clínica y la exploración."
+            "text": "Puede. Con tratamiento conservador, una revisión sistemática observó regresión espontánea en el 70 % de las extrusiones y en el 96 % de los fragmentos secuestrados. Las hernias más grandes son, paradójicamente, las que más se reabsorben."
           }
         },
         {
@@ -320,15 +387,39 @@
           "name": "¿La ciática siempre necesita cirugía?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. La mayoría de los casos mejora con tratamiento conservador. La cirugía se plantea ante un déficit neurológico progresivo, un síndrome de cola de caballo o un dolor intenso que no responde tras varias semanas."
+            "text": "No. La mayoría de los casos mejora con tratamiento conservador. La cirugía se plantea ante un síndrome de cola de caballo, una pérdida de fuerza importante o progresiva o un dolor intenso que no responde tras varias semanas."
           }
         },
         {
           "@type": "Question",
-          "name": "¿Cuántas sesiones necesitaré?",
+          "name": "¿Es mejor hacer reposo?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Depende de cada caso. En la primera visita valoramos su situación y le proponemos un plan con objetivos claros y revisiones periódicas."
+            "text": "En general, no. Mantenerse activo dentro de lo tolerable favorece la recuperación más que el reposo en cama. Caminar en tramos cortos suele ser bien tolerado."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Puede ser ciática si me duele solo el glúteo?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Puede ser una ciática incipiente, pero también un dolor referido de la articulación sacroilíaca o un síndrome del piramidal. La exploración ayuda a diferenciarlos, porque el tratamiento cambia."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Estoy embarazada y tengo ciática, ¿puedo consultar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. El dolor lumbar, pélvico y ciático es frecuente en el embarazo. Se valora con las adaptaciones necesarias para cada trimestre y se coordina con su ginecólogo o matrona cuando hace falta."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Puedo acudir si tengo una hernia discal diagnosticada?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. Traiga sus pruebas a la primera visita; se revisan junto con su historia clínica y la exploración."
           }
         }
       ]

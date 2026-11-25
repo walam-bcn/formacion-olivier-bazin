@@ -279,6 +279,90 @@
           "name": "Aerobic exercise training for adults with fibromyalgia",
           "url": "https://doi.org/10.1002/14651858.CD012700",
           "sameAs": "https://doi.org/10.1002/14651858.CD012700"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Changes in barometric pressure and ambient temperature influence osteoarthritis pain",
+          "url": "https://doi.org/10.1016/j.amjmed.2006.07.036",
+          "sameAs": "https://doi.org/10.1016/j.amjmed.2006.07.036"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "The influence of weather conditions on joint pain in older people with osteoarthritis: results from the European Project on OSteoArthritis",
+          "url": "https://doi.org/10.3899/jrheum.141594",
+          "sameAs": "https://doi.org/10.3899/jrheum.141594"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "How the weather affects the pain of citizen scientists using a smartphone app",
+          "url": "https://doi.org/10.1038/s41746-019-0180-3",
+          "sameAs": "https://doi.org/10.1038/s41746-019-0180-3"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Association between rainfall and diagnoses of joint or back pain: retrospective claims analysis",
+          "url": "https://doi.org/10.1136/bmj.j5326",
+          "sameAs": "https://doi.org/10.1136/bmj.j5326"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Acute low back pain? Do not blame the weather. A case-crossover study",
+          "url": "https://doi.org/10.1093/pm/pnw126",
+          "sameAs": "https://doi.org/10.1093/pm/pnw126"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Influence of weather on daily symptoms of pain and fatigue in female patients with fibromyalgia: a multilevel regression analysis",
+          "url": "https://doi.org/10.1002/acr.22008",
+          "sameAs": "https://doi.org/10.1002/acr.22008"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Chronic pain as a symptom or a disease: the IASP Classification of Chronic Pain for the International Classification of Diseases (ICD-11)",
+          "url": "https://doi.org/10.1097/j.pain.0000000000001384",
+          "sameAs": "https://doi.org/10.1097/j.pain.0000000000001384"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Central sensitization: implications for the diagnosis and treatment of pain",
+          "url": "https://doi.org/10.1016/j.pain.2010.09.030",
+          "sameAs": "https://doi.org/10.1016/j.pain.2010.09.030"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "The effect of spinal manipulation on brain neurometabolites in chronic nonspecific low back pain patients: a randomized clinical trial",
+          "url": "https://doi.org/10.1007/s11845-019-02140-2",
+          "sameAs": "https://doi.org/10.1007/s11845-019-02140-2"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "The mechanisms of manual therapy in the treatment of musculoskeletal pain: a comprehensive model",
+          "url": "https://doi.org/10.1016/j.math.2008.09.001",
+          "sameAs": "https://doi.org/10.1016/j.math.2008.09.001"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Unraveling the mechanisms of manual therapy: modeling an approach",
+          "url": "https://doi.org/10.2519/jospt.2018.7476",
+          "sameAs": "https://doi.org/10.2519/jospt.2018.7476"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Pain mechanisms: a new theory",
+          "url": "https://doi.org/10.1126/science.150.3699.971",
+          "sameAs": "https://doi.org/10.1126/science.150.3699.971"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Benefits and harms of spinal manipulative therapy for the treatment of chronic low back pain: systematic review and meta-analysis of randomised controlled trials",
+          "url": "https://doi.org/10.1136/bmj.l689",
+          "sameAs": "https://doi.org/10.1136/bmj.l689"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Osteopathic manual treatment and ultrasound therapy for chronic low back pain: a randomized controlled trial",
+          "url": "https://doi.org/10.1370/afm.1468",
+          "sameAs": "https://doi.org/10.1370/afm.1468"
         }
       ]
     },

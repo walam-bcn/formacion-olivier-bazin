@@ -290,6 +290,30 @@
           "name": "Vestibular rehabilitation for unilateral peripheral vestibular dysfunction",
           "url": "https://doi.org/10.1002/14651858.CD005397.pub4",
           "sameAs": "https://doi.org/10.1002/14651858.CD005397.pub4"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Manual therapy treatment of cervicogenic dizziness: a systematic review",
+          "url": "https://doi.org/10.1016/j.math.2004.03.006",
+          "sameAs": "https://doi.org/10.1016/j.math.2004.03.006"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "The effectiveness of manual therapy in treating cervicogenic dizziness: a systematic review",
+          "url": "https://doi.org/10.1589/jpts.30.96",
+          "sameAs": "https://doi.org/10.1589/jpts.30.96"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Dental occlusion, body posture and temporomandibular disorders: where we are now and where we are heading for",
+          "url": "https://doi.org/10.1111/j.1365-2842.2012.02291.x",
+          "sameAs": "https://doi.org/10.1111/j.1365-2842.2012.02291.x"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "The relationship between forward head posture and neck pain: a systematic review and meta-analysis",
+          "url": "https://doi.org/10.1007/s12178-019-09594-y",
+          "sameAs": "https://doi.org/10.1007/s12178-019-09594-y"
         }
       ]
     },

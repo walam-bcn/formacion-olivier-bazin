@@ -296,6 +296,66 @@
           "name": "Manual therapy for unsettled, distressed and excessively crying infants: a systematic review and meta-analyses",
           "url": "https://doi.org/10.1136/bmjopen-2017-019040",
           "sameAs": "https://doi.org/10.1136/bmjopen-2017-019040"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Chronic pain as a symptom or a disease: the IASP Classification of Chronic Pain for the International Classification of Diseases (ICD-11)",
+          "url": "https://doi.org/10.1097/j.pain.0000000000001384",
+          "sameAs": "https://doi.org/10.1097/j.pain.0000000000001384"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Central sensitization: implications for the diagnosis and treatment of pain",
+          "url": "https://doi.org/10.1016/j.pain.2010.09.030",
+          "sameAs": "https://doi.org/10.1016/j.pain.2010.09.030"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "The effect of spinal manipulation on brain neurometabolites in chronic nonspecific low back pain patients: a randomized clinical trial",
+          "url": "https://doi.org/10.1007/s11845-019-02140-2",
+          "sameAs": "https://doi.org/10.1007/s11845-019-02140-2"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "The mechanisms of manual therapy in the treatment of musculoskeletal pain: a comprehensive model",
+          "url": "https://doi.org/10.1016/j.math.2008.09.001",
+          "sameAs": "https://doi.org/10.1016/j.math.2008.09.001"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Unraveling the mechanisms of manual therapy: modeling an approach",
+          "url": "https://doi.org/10.2519/jospt.2018.7476",
+          "sameAs": "https://doi.org/10.2519/jospt.2018.7476"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Pain mechanisms: a new theory",
+          "url": "https://doi.org/10.1126/science.150.3699.971",
+          "sameAs": "https://doi.org/10.1126/science.150.3699.971"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Osteopathic manual treatment and ultrasound therapy for chronic low back pain: a randomized controlled trial",
+          "url": "https://doi.org/10.1370/afm.1468",
+          "sameAs": "https://doi.org/10.1370/afm.1468"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "A study exploring the prevalence of Extremity Pain of Spinal Source (EXPOSS)",
+          "url": "https://doi.org/10.1080/10669817.2019.1661706",
+          "sameAs": "https://doi.org/10.1080/10669817.2019.1661706"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Physiology of visceral pain",
+          "url": "https://doi.org/10.1002/cphy.c150049",
+          "sameAs": "https://doi.org/10.1002/cphy.c150049"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Pathophysiology of visceral pain",
+          "url": "https://doi.org/10.5935/1806-0013.20140032",
+          "sameAs": "https://doi.org/10.5935/1806-0013.20140032"
         }
       ]
     },

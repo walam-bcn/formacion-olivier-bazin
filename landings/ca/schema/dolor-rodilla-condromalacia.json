@@ -227,7 +227,7 @@
       "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/dolor-genoll-condromalacia#webpage",
       "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/dolor-genoll-condromalacia",
       "name": "Dolor de genoll i condromalàcia a Barcelona | WA LAM",
-      "description": "Dolor de genoll i condromalàcia rotuliana a Sarrià–Sant Gervasi, Barcelona: dolor patel·lofemoral en pujar escales o córrer. Valoració i pla per fases.",
+      "description": "Dolor de rodilla y condromalacia rotuliana en Sarrià–Sant Gervasi, Barcelona: causas, por qué influyen la cadera, el pie y la columna, cómo se valora y cómo se trata con ejercicio y terapia manual.",
       "inLanguage": "ca-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -270,15 +270,57 @@
       "citation": [
         {
           "@type": "ScholarlyArticle",
-          "name": "Incidence and prevalence of patellofemoral pain: A systematic review and meta-analysis",
+          "name": "Incidence and prevalence of patellofemoral pain: a systematic review and meta-analysis",
           "url": "https://doi.org/10.1371/journal.pone.0190892",
           "sameAs": "https://doi.org/10.1371/journal.pone.0190892"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "A study exploring the prevalence of Extremity Pain of Spinal Source (EXPOSS)",
+          "url": "https://doi.org/10.1080/10669817.2019.1661706",
+          "sameAs": "https://doi.org/10.1080/10669817.2019.1661706"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Incidental meniscal findings on knee MRI in middle-aged and elderly persons",
+          "url": "https://doi.org/10.1056/NEJMoa0800777",
+          "sameAs": "https://doi.org/10.1056/NEJMoa0800777"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Exercise therapy versus arthroscopic partial meniscectomy for degenerative meniscal tear in middle aged patients: randomised controlled trial with two year follow-up",
+          "url": "https://doi.org/10.1136/bmj.i3740",
+          "sameAs": "https://doi.org/10.1136/bmj.i3740"
         },
         {
           "@type": "ScholarlyArticle",
           "name": "2016 Patellofemoral pain consensus statement from the 4th International Patellofemoral Pain Research Retreat, Manchester. Part 2: recommended physical interventions (exercise, taping, bracing, foot orthoses and combined interventions)",
           "url": "https://doi.org/10.1136/bjsports-2016-096268",
           "sameAs": "https://doi.org/10.1136/bjsports-2016-096268"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "2018 Consensus statement on exercise therapy and physical interventions (orthoses, taping and manual therapy) to treat patellofemoral pain: recommendations from the 5th International Patellofemoral Pain Research Retreat, Gold Coast, Australia, 2017",
+          "url": "https://doi.org/10.1136/bjsports-2018-099397",
+          "sameAs": "https://doi.org/10.1136/bjsports-2018-099397"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Proprioception in knee osteoarthritis: a narrative review",
+          "url": "https://doi.org/10.1016/j.joca.2011.01.003",
+          "sameAs": "https://doi.org/10.1016/j.joca.2011.01.003"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Global, regional, and national burden of osteoarthritis, 1990–2020 and projections to 2050: a systematic analysis for the Global Burden of Disease Study 2021",
+          "url": "https://doi.org/10.1016/S2665-9913(23)00163-7",
+          "sameAs": "https://doi.org/10.1016/S2665-9913(23)00163-7"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Changes in barometric pressure and ambient temperature influence osteoarthritis pain",
+          "url": "https://doi.org/10.1016/j.amjmed.2006.07.036",
+          "sameAs": "https://doi.org/10.1016/j.amjmed.2006.07.036"
         }
       ]
     },
@@ -291,7 +333,23 @@
           "name": "La condromalàcia és el mateix que l'artrosi?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. La condromalàcia afecta el cartílag de la ròtula i és freqüent en persones joves i actives. Si el seu cas correspon a un desgast articular, pot consultar la pàgina d'artrosi."
+            "text": "No. La condromalacia afecta al cartílago de la rótula y es frecuente en personas jóvenes y activas; la artrosis es una enfermedad de toda la articulación, más habitual con la edad. Pueden coincidir en personas mayores. Si su caso corresponde a un desgaste articular, puede consultar la página de artrosis."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Por qué se valora la cadera, el pie o la espalda si me duele la rodilla?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Porque la rodilla depende de lo que ocurre por encima y por debajo de ella. La cadera controla la alineación del muslo, el pie cambia la forma de absorber cada paso y la columna lumbar puede irradiar dolor a la rodilla: en un estudio, una de cada cuatro personas con dolor de rodilla tenía un origen vertebral."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Tengo una rotura de menisco en la resonancia, ¿necesito operarme?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No necesariamente. Muchas roturas degenerativas de menisco no dan síntomas, y en un ensayo clínico el ejercicio supervisado dio resultados similares a la artroscopia a dos años. La cirugía se valora sobre todo si la rodilla se bloquea o si la lesión es traumática en una persona joven."
           }
         },
         {
@@ -299,23 +357,23 @@
           "name": "He de deixar de córrer?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Normalment no cal deixar-ho del tot. S'ajusten el volum i la intensitat mentre s'enforteix la musculatura, i es planifica un retorn progressiu."
+            "text": "Normalmente no es necesario dejarlo del todo. Se ajustan el volumen y la intensidad mientras se fortalece la musculatura de la cadera y de la rodilla, y se planifica una vuelta progresiva."
           }
         },
         {
           "@type": "Question",
-          "name": "Per què es treballa el maluc si em fa mal el genoll?",
+          "name": "¿Qué es ese bulto detrás de la rodilla?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "La força del maluc influeix en com s'alinea el genoll en recolzar. Enfortir-lo redueix la càrrega sobre la ròtula."
+            "text": "Puede ser un quiste de Baker, una acumulación de líquido que suele deberse a otro problema dentro de la rodilla, como una artrosis o una lesión de menisco. Si la pantorrilla se hincha, se calienta y duele, consulte al médico sin demora para descartar una trombosis."
           }
         },
         {
           "@type": "Question",
-          "name": "Quant triga a millorar?",
+          "name": "¿Por qué me duele la rodilla cuando cambia el tiempo?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Depèn de cada cas. Amb un programa d'exercici constant se sol notar una millora progressiva al llarg de les primeres setmanes. A la primera visita es fixen objectius concrets."
+            "text": "Muchas personas lo notan, sobre todo si tienen artrosis. Con el frío y los cambios de presión los tejidos se vuelven más rígidos y sensibles. El tiempo no daña la rodilla; abrigarla, aplicar calor y seguir moviéndose suele ayudar."
           }
         },
         {
@@ -323,7 +381,15 @@
           "name": "Són útils les genolleres o les plantilles?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "En casos seleccionats poden alleujar el dolor a curt termini i facilitar l'exercici, que continua sent la base del tractament."
+            "text": "En casos seleccionados pueden aliviar el dolor a corto plazo y facilitar el ejercicio, que sigue siendo la base del tratamiento. El consenso internacional considera las plantillas útiles en algunas personas con dolor patelofemoral."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quant triga a millorar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Depende de la causa y de cada persona. Con un programa de ejercicio constante suele notarse una mejoría progresiva a lo largo de las primeras semanas. En la primera visita se fijan objetivos concretos."
           }
         }
       ]

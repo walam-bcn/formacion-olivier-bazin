@@ -217,7 +217,7 @@
         {
           "@type": "ListItem",
           "position": 3,
-          "name": "Hèrnia de disc incipient",
+          "name": "Hernia de disco y protrusión",
           "item": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/hernia-disc-incipient"
         }
       ]
@@ -226,8 +226,8 @@
       "@type": "MedicalWebPage",
       "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/hernia-disc-incipient#webpage",
       "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/hernia-disc-incipient",
-      "name": "Hèrnia de disc i protrusió a Barcelona | WA LAM",
-      "description": "Hèrnia de disc incipient i protrusió discal a Sarrià–Sant Gervasi, Barcelona. Valoració clínica completa i tractament conservador per fases.",
+      "name": "Hernia de disco y protrusión discal en Barcelona | WA LAM",
+      "description": "Qué es una hernia de disco o una protrusión discal, por qué aparece, qué síntomas da y cómo se valora y se trata de forma conservadora en Sarrià–Sant Gervasi, Barcelona.",
       "inLanguage": "ca-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -270,21 +270,87 @@
       "citation": [
         {
           "@type": "ScholarlyArticle",
-          "name": "The probability of spontaneous regression of lumbar herniated disc: a systematic review",
-          "url": "https://doi.org/10.1177/0269215514540919",
-          "sameAs": "https://doi.org/10.1177/0269215514540919"
-        },
-        {
-          "@type": "ScholarlyArticle",
           "name": "Systematic literature review of imaging features of spinal degeneration in asymptomatic populations",
           "url": "https://doi.org/10.3174/ajnr.A4173",
           "sameAs": "https://doi.org/10.3174/ajnr.A4173"
         },
         {
           "@type": "ScholarlyArticle",
-          "name": "Noninvasive Treatments for Acute, Subacute, and Chronic Low Back Pain: A Clinical Practice Guideline From the American College of Physicians",
-          "url": "https://doi.org/10.7326/M16-2367",
-          "sameAs": "https://doi.org/10.7326/M16-2367"
+          "name": "The probability of spontaneous regression of lumbar herniated disc: a systematic review",
+          "url": "https://doi.org/10.1177/0269215514540919",
+          "sameAs": "https://doi.org/10.1177/0269215514540919"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "The incidence of regression after the non-surgical treatment of symptomatic lumbar disc herniation: a systematic review and meta-analysis",
+          "url": "https://doi.org/10.1186/s12891-020-03548-z",
+          "sameAs": "https://doi.org/10.1186/s12891-020-03548-z"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Lumbar disc nomenclature: version 2.0",
+          "url": "https://doi.org/10.1016/j.spinee.2014.04.022",
+          "sameAs": "https://doi.org/10.1016/j.spinee.2014.04.022"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Early predictors of lumbar spine surgery after occupational back injury: results from a prospective study of workers in Washington State",
+          "url": "https://doi.org/10.1097/BRS.0b013e3182814ed5",
+          "sameAs": "https://doi.org/10.1097/BRS.0b013e3182814ed5"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Manual therapy as a management of cervical radiculopathy: a systematic review",
+          "url": "https://doi.org/10.1155/2021/9936981",
+          "sameAs": "https://doi.org/10.1155/2021/9936981"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Prevention of low back pain: a systematic review and meta-analysis",
+          "url": "https://doi.org/10.1001/jamainternmed.2015.7431",
+          "sameAs": "https://doi.org/10.1001/jamainternmed.2015.7431"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Prevention and treatment of low back pain: evidence, challenges, and promising directions",
+          "url": "https://doi.org/10.1016/S0140-6736(18)30489-6",
+          "sameAs": "https://doi.org/10.1016/S0140-6736(18)30489-6"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Human intervertebral discs harbour a unique microbiome and dysbiosis determines health and disease",
+          "url": "https://doi.org/10.1007/s00586-020-06446-z",
+          "sameAs": "https://doi.org/10.1007/s00586-020-06446-z"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Gut-disc axis: a cause of intervertebral disc degeneration and low back pain?",
+          "url": "https://doi.org/10.1007/s00586-022-07152-8",
+          "sameAs": "https://doi.org/10.1007/s00586-022-07152-8"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Physiology of visceral pain",
+          "url": "https://doi.org/10.1002/cphy.c150049",
+          "sameAs": "https://doi.org/10.1002/cphy.c150049"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Pathophysiology of visceral pain",
+          "url": "https://doi.org/10.5935/1806-0013.20140032",
+          "sameAs": "https://doi.org/10.5935/1806-0013.20140032"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "The effect of spinal manipulation on brain neurometabolites in chronic nonspecific low back pain patients: a randomized clinical trial",
+          "url": "https://doi.org/10.1007/s11845-019-02140-2",
+          "sameAs": "https://doi.org/10.1007/s11845-019-02140-2"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Pain mechanisms: a new theory",
+          "url": "https://doi.org/10.1126/science.150.3699.971",
+          "sameAs": "https://doi.org/10.1126/science.150.3699.971"
         }
       ]
     },
@@ -297,23 +363,7 @@
           "name": "Una hèrnia de disc pot millorar sense cirurgia?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí. Moltes hèrnies milloren amb tractament conservador, i una part es reabsorbeix amb el temps. La cirurgia es reserva per a casos concrets, com un dèficit neurològic progressiu."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Puc fer exercici amb una protrusió?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Sí, i és una part central del tractament. L'adaptem als seus símptomes i el progressem a poc a poc."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Tracten també l'hèrnia cervical?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Sí, amb el mateix enfocament per fases. Si el dolor s'irradia al braç amb pèrdua de força que avança, consulti abans el seu metge de manera preferent."
+            "text": "Sí. La mayoría de las hernias evoluciona bien con un tratamiento conservador, y en muchas el material herniado se reduce con el tiempo: un metaanálisis estimó una regresión del 63 % en pacientes tratados sin cirugía. La cirugía se reserva para casos concretos, como un déficit neurológico importante o progresivo o un dolor de pierna intenso que no mejora."
           }
         },
         {
@@ -321,7 +371,39 @@
           "name": "Quina diferència hi ha entre protrusió i hèrnia?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "En la protrusió el disc es bomba sense que es trenqui l'anell extern. En l'hèrnia, part del nucli surt a través de l'anell. Totes dues poden no donar símptomes i es valoren sempre juntament amb l'exploració."
+            "text": "En la protrusión, el disco sobresale de forma localizada sin que el material atraviese por completo el anillo fibroso. En la extrusión, que es lo que se suele llamar hernia propiamente dicha, el núcleo sale a través del anillo. Ambas pueden no dar síntomas, por eso se valoran siempre junto con la exploración."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Tengo una hernia en la resonancia, ¿es la causa de mi dolor?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No necesariamente. Muchas personas sin dolor tienen protrusiones en la resonancia, y su frecuencia aumenta con la edad. El dolor puede venir de otras estructuras de la espalda, de la pelvis o incluso de un órgano. La historia clínica y la exploración ayudan a saber si la hernia explica sus síntomas."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Puedo hacer ejercicio con una hernia discal?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí, y es una parte central del tratamiento. Se adapta a sus síntomas y a la fase en que se encuentre, y se progresa poco a poco. Caminar suele ser un buen punto de partida. Si un ejercicio hace que el dolor baje más hacia el pie o la mano, conviene modificarlo."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Es seguro el tratamiento manual si tengo una hernia?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Antes de cualquier tratamiento se hace una anamnesis y una exploración neurológica para descartar señales de alarma. Las técnicas se eligen según la fase, la localización y la tolerancia de cada persona, y no todas las técnicas son adecuadas en todos los casos."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Tracten també l'hèrnia cervical?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. Si el dolor se irradia al brazo con pérdida de fuerza que avanza, o nota torpeza en las manos o al caminar, consulte antes con su médico de forma preferente. Puede leer más en nuestra página de cervicalgia."
           }
         },
         {
@@ -329,7 +411,15 @@
           "name": "Necessito una ressonància?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No sempre. Si ja la té, porti-la a la primera visita. S'indica quan hi ha signes d'alarma, dèficit neurològic o el dolor no millora després de diverses setmanes."
+            "text": "No siempre. Se indica cuando hay señales de alarma, déficit neurológico, un dolor que no mejora tras varias semanas o cuando se plantea una infiltración o una cirugía. Si ya la tiene, tráigala a la primera visita."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿La alimentación influye en una hernia de disco?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "La relación entre la microbiota intestinal y el disco es una hipótesis en estudio, no una causa demostrada. Aun así, una alimentación poco procesada y rica en fibra, el control del peso y no fumar favorecen un entorno menos inflamatorio y una mejor nutrición del disco."
           }
         }
       ]

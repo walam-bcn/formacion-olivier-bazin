@@ -227,7 +227,7 @@
       "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/dorsalgia-dolor-espalda-alta#webpage",
       "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/dorsalgia-dolor-espalda-alta",
       "name": "Dorsalgia y dolor de espalda alta en Barcelona | WA LAM",
-      "description": "Dorsalgia y dolor entre los omóplatos en Sarrià–Sant Gervasi, Barcelona. Valoración clínica completa y un plan por fases para la postura y la respiración.",
+      "description": "Qué es la dorsalgia, la anatomía de la columna dorsal, sus tipos y causas (postura, Scheuermann, osteoporosis, neuralgia intercostal, dolor visceral) y su tratamiento conservador en Sarrià–Sant Gervasi, Barcelona.",
       "inLanguage": "es-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -276,15 +276,69 @@
         },
         {
           "@type": "ScholarlyArticle",
+          "name": "Scheuermann's kyphosis: update on pathophysiology and surgical treatment",
+          "url": "https://doi.org/10.1530/EOR-22-0063",
+          "sameAs": "https://doi.org/10.1530/EOR-22-0063"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Worldwide prevalence and incidence of osteoporotic vertebral fractures",
+          "url": "https://doi.org/10.1007/s00198-017-3909-3",
+          "sameAs": "https://doi.org/10.1007/s00198-017-3909-3"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Hyperkyphotic posture predicts mortality in older community-dwelling men and women: a prospective study",
+          "url": "https://doi.org/10.1111/j.1532-5415.2004.52458.x",
+          "sameAs": "https://doi.org/10.1111/j.1532-5415.2004.52458.x"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Targeted spine strengthening exercise and posture training program to reduce hyperkyphosis in older adults: results from the study of hyperkyphosis, exercise, and function (SHEAF) randomized controlled trial",
+          "url": "https://doi.org/10.1007/s00198-017-4109-x",
+          "sameAs": "https://doi.org/10.1007/s00198-017-4109-x"
+        },
+        {
+          "@type": "ScholarlyArticle",
           "name": "Effect of two contrasting types of physical exercise on chronic neck muscle pain",
           "url": "https://doi.org/10.1002/art.23256",
           "sameAs": "https://doi.org/10.1002/art.23256"
         },
         {
           "@type": "ScholarlyArticle",
-          "name": "Mindfulness Meditation for Chronic Pain: Systematic Review and Meta-analysis",
-          "url": "https://doi.org/10.1007/s12160-016-9844-2",
-          "sameAs": "https://doi.org/10.1007/s12160-016-9844-2"
+          "name": "A study exploring the prevalence of Extremity Pain of Spinal Source (EXPOSS)",
+          "url": "https://doi.org/10.1080/10669817.2019.1661706",
+          "sameAs": "https://doi.org/10.1080/10669817.2019.1661706"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Thoracic spine thrust manipulation improves pain, range of motion, and self-reported function in patients with mechanical neck pain: a systematic review",
+          "url": "https://doi.org/10.2519/jospt.2011.3670",
+          "sameAs": "https://doi.org/10.2519/jospt.2011.3670"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Osteopathic manipulative treatment for nonspecific low back pain: a systematic review and meta-analysis",
+          "url": "https://doi.org/10.1186/1471-2474-15-286",
+          "sameAs": "https://doi.org/10.1186/1471-2474-15-286"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Physiology of visceral pain",
+          "url": "https://doi.org/10.1002/cphy.c150049",
+          "sameAs": "https://doi.org/10.1002/cphy.c150049"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Pathophysiology of visceral pain",
+          "url": "https://doi.org/10.5935/1806-0013.20140032",
+          "sameAs": "https://doi.org/10.5935/1806-0013.20140032"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "2021 AHA/ACC/ASE/CHEST/SAEM/SCCT/SCMR Guideline for the Evaluation and Diagnosis of Chest Pain",
+          "url": "https://doi.org/10.1016/j.jacc.2021.07.053",
+          "sameAs": "https://doi.org/10.1016/j.jacc.2021.07.053"
         }
       ]
     },
@@ -292,6 +346,22 @@
       "@type": "FAQPage",
       "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/dorsalgia-dolor-espalda-alta#faq",
       "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Cuándo debo preocuparme por un dolor entre los omóplatos?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Si se acompaña de dolor u opresión en el pecho, falta de aire, sudoración o dolor que se irradia al brazo o a la mandíbula, llame al 112. Si es constante, no cambia con el movimiento, se relaciona con las comidas o se asocia a fiebre o pérdida de peso, consulte con su médico."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Un dolor de espalda alta puede venir del estómago o de la vesícula?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. Los órganos comparten vías nerviosas con la espalda, y el dolor de la vesícula, el estómago, el páncreas o el esófago puede sentirse en la zona dorsal. Por eso la valoración pregunta siempre por síntomas digestivos y, si hay sospecha de causa orgánica, se deriva al médico."
+          }
+        },
         {
           "@type": "Question",
           "name": "¿La postura es la causa de mi dolor?",
@@ -305,7 +375,15 @@
           "name": "¿Qué relación tiene la respiración con el dolor dorsal?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "La columna dorsal y las costillas se mueven con cada respiración. Una respiración superficial y tensa sobrecarga la zona; recuperar una respiración amplia ayuda a aliviarla."
+            "text": "La columna dorsal y las costillas se mueven con cada respiración. Una respiración superficial y tensa sobrecarga la zona y una caja torácica rígida puede dar sensación de opresión; recuperar una respiración amplia ayuda a aliviarla."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Tengo osteoporosis, ¿puedo recibir terapia manual?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí, con precauciones: se eligen técnicas suaves y se evita la manipulación de alta velocidad. Un dolor dorsal brusco con osteoporosis debe valorarlo antes el médico para descartar una fractura. El ejercicio de fuerza adaptado es especialmente recomendable."
           }
         },
         {
@@ -313,15 +391,7 @@
           "name": "¿El estrés puede provocar dolor de espalda alta?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí. El estrés mantiene en tensión la musculatura del cuello y de la espalda alta y altera la respiración. Puede consultar también nuestra página de estrés y ansiedad."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "¿Cuándo debo preocuparme por un dolor entre los omóplatos?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Si se acompaña de dolor en el pecho, falta de aire o sudoración, llame al 112. Si es constante, no cambia con el movimiento o se asocia a fiebre o pérdida de peso, consulte con su médico."
+            "text": "Sí. El estrés mantiene en tensión la musculatura del cuello y de la espalda alta y altera la respiración. Puede consultar también la página de estrés y ansiedad."
           }
         },
         {
@@ -329,7 +399,7 @@
           "name": "¿Cuántas sesiones necesitaré?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Depende de cada caso. En la primera visita valoramos su situación y le proponemos un plan con objetivos claros y revisiones periódicas."
+            "text": "Depende del tiempo de evolución, de la causa y de la respuesta de cada persona. Tras la primera visita se propone un plan con objetivos claros, ejercicios para casa y revisiones que se van espaciando."
           }
         }
       ]

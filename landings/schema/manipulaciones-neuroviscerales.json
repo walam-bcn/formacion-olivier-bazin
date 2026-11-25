@@ -275,9 +275,63 @@
         },
         {
           "@type": "ScholarlyArticle",
-          "name": "Evaluation of effectiveness of osteopathic visceral manipulation in patients with chronic mechanical low back pain: A multi-center, single-blind, randomized-controlled study",
+          "name": "A study exploring the prevalence of Extremity Pain of Spinal Source (EXPOSS)",
+          "url": "https://doi.org/10.1080/10669817.2019.1661706",
+          "sameAs": "https://doi.org/10.1080/10669817.2019.1661706"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Anatomic relation between the rectus capitis posterior minor muscle and the dura mater",
+          "url": "https://doi.org/10.1097/00007632-199512000-00003",
+          "sameAs": "https://doi.org/10.1097/00007632-199512000-00003"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "The Vagus Nerve at the Interface of the Microbiota-Gut-Brain Axis",
+          "url": "https://doi.org/10.3389/fnins.2018.00049",
+          "sameAs": "https://doi.org/10.3389/fnins.2018.00049"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Osteopathic manipulative treatment and its relationship to autonomic nervous system activity as demonstrated by heart rate variability: a repeated measures study",
+          "url": "https://doi.org/10.1186/1750-4732-2-7",
+          "sameAs": "https://doi.org/10.1186/1750-4732-2-7"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Variations of high frequency parameter of heart rate variability following osteopathic manipulative treatment in healthy subjects compared to control group and sham therapy: randomized controlled trial",
+          "url": "https://doi.org/10.3389/fnins.2015.00272",
+          "sameAs": "https://doi.org/10.3389/fnins.2015.00272"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Effectiveness of an osteopathic treatment on the autonomic nervous system: a systematic review of the literature",
+          "url": "https://doi.org/10.1186/s40001-019-0394-5",
+          "sameAs": "https://doi.org/10.1186/s40001-019-0394-5"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Effects of Osteopathic Visceral Treatment in Patients with Gastroesophageal Reflux: A Randomized Controlled Trial",
+          "url": "https://doi.org/10.3390/jcm8101738",
+          "sameAs": "https://doi.org/10.3390/jcm8101738"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Evaluation of effectiveness of osteopathic visceral manipulation in patients with chronic mechanical low back pain: a multi-center, single-blind, randomized-controlled study",
           "url": "https://doi.org/10.5606/tftrd.2023.12541",
           "sameAs": "https://doi.org/10.5606/tftrd.2023.12541"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Physiology of visceral pain",
+          "url": "https://doi.org/10.1002/cphy.c150049",
+          "sameAs": "https://doi.org/10.1002/cphy.c150049"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Pathophysiology of visceral pain",
+          "url": "https://doi.org/10.5935/1806-0013.20140032",
+          "sameAs": "https://doi.org/10.5935/1806-0013.20140032"
         }
       ]
     },
@@ -331,7 +385,7 @@
           "name": "¿Es lo mismo que la osteopatía visceral?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. La osteopatía visceral trabaja sobre los órganos y sus fascias; la manipulación neural, sobre los nervios y las meninges. Las dos forman parte del método Barral y suelen combinarse."
+            "text": "No. La osteopatía visceral trabaja sobre los órganos, sus fascias y sus ligamentos; la manipulación neural, sobre los nervios y las meninges, y su vertiente neurovisceral, sobre los nervios que llegan a los órganos. Las dos forman parte del método Barral y a menudo se combinan en la misma sesión."
           }
         },
         {
@@ -339,7 +393,7 @@
           "name": "¿Puede ayudar después de un latigazo cervical?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Es uno de los ámbitos en los que más se aplica. Antes descartamos signos de alarma y, si hace falta, le pedimos que consulte con su médico. Después valoramos la columna, el cráneo, los nervios y las meninges."
+            "text": "Es uno de los ámbitos en los que más se aplica. Antes, el médico debe haber descartado fracturas y lesiones graves. Después se valoran la columna, el cráneo, los nervios, las meninges y, si el cinturón de seguridad presionó el tórax o el abdomen, también los órganos."
           }
         },
         {
@@ -347,7 +401,15 @@
           "name": "¿Duele la manipulación neural?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No suele doler. Las técnicas son muy suaves; algunos puntos del recorrido de un nervio pueden notarse sensibles al palparlos."
+            "text": "No suele doler. Las técnicas son muy suaves; algunos puntos del recorrido de un nervio pueden notarse sensibles al palparlos, y la presión se ajusta en todo momento a lo que usted tolera."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Es lo mismo que los estiramientos neurales que me enseñaron en fisioterapia?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Comparten la idea de devolver movilidad al nervio. La manipulación neural del método Barral añade la palpación directa del nervio a lo largo de su recorrido, el trabajo sobre las meninges y los nervios craneales, y la relación con los órganos."
           }
         },
         {
@@ -360,10 +422,26 @@
         },
         {
           "@type": "Question",
+          "name": "¿Sirve si tengo hormigueo en la mano o en el pie?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Depende de la causa. Primero se descarta, con su médico si hace falta, una enfermedad neurológica o metabólica. Si el hormigueo se relaciona con un nervio comprimido o poco móvil, la manipulación neural puede formar parte del tratamiento, junto con el ejercicio y los cambios de postura."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Necesito una resonancia antes de venir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No suele ser necesaria. Si ya tiene pruebas de imagen o un estudio de los nervios (electromiograma), tráigalos a la primera visita. Si en la valoración aparecen señales de alarma, le pediremos que consulte con su médico."
+          }
+        },
+        {
+          "@type": "Question",
           "name": "¿Cuántas sesiones necesitaré?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Depende de su caso y de cómo responda. Tras la primera sesión le orientamos sobre la frecuencia; a menudo se espacian una o dos semanas."
+            "text": "Depende de su caso, del tiempo de evolución y de cómo responda. Tras la primera visita le proponemos un plan con objetivos y revisiones; a menudo las sesiones se espacian una o dos semanas."
           }
         }
       ]

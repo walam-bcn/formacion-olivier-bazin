@@ -284,6 +284,36 @@
           "name": "The Microbiota-Gut-Brain Axis",
           "url": "https://doi.org/10.1152/physrev.00018.2018",
           "sameAs": "https://doi.org/10.1152/physrev.00018.2018"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Revised estimates for the number of human and bacteria cells in the body",
+          "url": "https://doi.org/10.1371/journal.pbio.1002533",
+          "sameAs": "https://doi.org/10.1371/journal.pbio.1002533"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Human intervertebral discs harbour a unique microbiome and dysbiosis determines health and disease",
+          "url": "https://doi.org/10.1007/s00586-020-06446-z",
+          "sameAs": "https://doi.org/10.1007/s00586-020-06446-z"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Gut-disc axis: a cause of intervertebral disc degeneration and low back pain?",
+          "url": "https://doi.org/10.1007/s00586-022-07152-8",
+          "sameAs": "https://doi.org/10.1007/s00586-022-07152-8"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Altered gut microbiota composition is associated with back pain in overweight and obese individuals",
+          "url": "https://doi.org/10.3389/fendo.2020.00605",
+          "sameAs": "https://doi.org/10.3389/fendo.2020.00605"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Nociceptor neurons direct goblet cells via a CGRP-RAMP1 axis to drive mucus production and gut barrier protection",
+          "url": "https://doi.org/10.1016/j.cell.2022.09.024",
+          "sameAs": "https://doi.org/10.1016/j.cell.2022.09.024"
         }
       ]
     },

@@ -290,6 +290,12 @@
           "name": "The effectiveness of acupuncture for plantar heel pain: a systematic review",
           "url": "https://doi.org/10.1136/acupmed-2012-010183",
           "sameAs": "https://doi.org/10.1136/acupmed-2012-010183"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "A study exploring the prevalence of Extremity Pain of Spinal Source (EXPOSS)",
+          "url": "https://doi.org/10.1080/10669817.2019.1661706",
+          "sameAs": "https://doi.org/10.1080/10669817.2019.1661706"
         }
       ]
     },

@@ -217,7 +217,7 @@
         {
           "@type": "ListItem",
           "position": 3,
-          "name": "Cefaleas y migraña",
+          "name": "Migraña y dolor de cabeza",
           "item": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/cefaleas-migrana"
         }
       ]
@@ -226,8 +226,8 @@
       "@type": "MedicalWebPage",
       "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/cefaleas-migrana#webpage",
       "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/cefaleas-migrana",
-      "name": "Migraña y cefaleas en Barcelona | WA LAM",
-      "description": "Migraña, cefalea tensional y cefalea cervicogénica en Sarrià–Sant Gervasi, Barcelona. Valoración clínica y un plan preventivo integrativo por fases.",
+      "name": "Migraña y dolor de cabeza en Barcelona | WA LAM",
+      "description": "Migraña, cefalea tensional y cefalea cervicogénica: tipos, relación con el cuello y la postura, señales de alarma y tratamiento conservador en Sarrià–Sant Gervasi, Barcelona.",
       "inLanguage": "es-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -242,7 +242,7 @@
       },
       "lastReviewed": "2026-11-18",
       "dateModified": "2026-11-18",
-      "keywords": "migraña tratamiento Barcelona, acupuntura migraña Barcelona, cefalea tensional, cefalea cervicogénica, neuralgia occipital, dolor de cabeza crónico",
+      "keywords": "migraña Barcelona, dolor de cabeza Barcelona, cefalea tensional, cefalea cervicogénica, migraña y cervicales, osteópata migraña Barcelona",
       "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/cefaleas-migrana.png",
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -265,31 +265,98 @@
       "about": {
         "@type": "MedicalCondition",
         "name": "Migraña",
-        "possibleTreatment": [
-          {
-            "@type": "MedicalTherapy",
-            "name": "Acupuntura y medicina tradicional china"
-          }
-        ]
+        "possibleTreatment": []
       },
       "citation": [
         {
           "@type": "ScholarlyArticle",
-          "name": "Acupuncture for the prevention of episodic migraine",
-          "url": "https://doi.org/10.1002/14651858.CD001218.pub3",
-          "sameAs": "https://doi.org/10.1002/14651858.CD001218.pub3"
-        },
-        {
-          "@type": "ScholarlyArticle",
-          "name": "Acupuncture for the prevention of tension-type headache",
-          "url": "https://doi.org/10.1002/14651858.CD007587.pub2",
-          "sameAs": "https://doi.org/10.1002/14651858.CD007587.pub2"
+          "name": "The International Classification of Headache Disorders, 3rd edition",
+          "url": "https://doi.org/10.1177/0333102417738202",
+          "sameAs": "https://doi.org/10.1177/0333102417738202"
         },
         {
           "@type": "ScholarlyArticle",
           "name": "Global, regional, and national burden of migraine and tension-type headache, 1990–2016: a systematic analysis for the Global Burden of Disease Study 2016",
           "url": "https://doi.org/10.1016/S1474-4422(18)30322-3",
           "sameAs": "https://doi.org/10.1016/S1474-4422(18)30322-3"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Musculoskeletal disorders of the upper cervical spine in women with episodic or chronic migraine",
+          "url": "https://doi.org/10.23736/S1973-9087.17.04393-3",
+          "sameAs": "https://doi.org/10.23736/S1973-9087.17.04393-3"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Musculoskeletal dysfunction in migraine patients",
+          "url": "https://doi.org/10.1177/0333102417716934",
+          "sameAs": "https://doi.org/10.1177/0333102417716934"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Cervical mobility in women with migraine",
+          "url": "https://doi.org/10.1111/j.1526-4610.2008.01233.x",
+          "sameAs": "https://doi.org/10.1111/j.1526-4610.2008.01233.x"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Upper cervical mobility, posture and myofascial trigger points in subjects with episodic migraine: case-control study",
+          "url": "https://doi.org/10.1016/j.jbmt.2014.01.006",
+          "sameAs": "https://doi.org/10.1016/j.jbmt.2014.01.006"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Patients with chronic, but not episodic, migraine display altered activity of their neck extensor muscles",
+          "url": "https://doi.org/10.1016/j.jelekin.2016.06.003",
+          "sameAs": "https://doi.org/10.1016/j.jelekin.2016.06.003"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Cervicogenic headache: an assessment of the evidence on clinical diagnosis, invasive tests, and treatment",
+          "url": "https://doi.org/10.1016/S1474-4422(09)70209-1",
+          "sameAs": "https://doi.org/10.1016/S1474-4422(09)70209-1"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Increased responses in trigeminocervical nociceptive neurons to cervical input after stimulation of the dura mater",
+          "url": "https://doi.org/10.1093/brain/awg190",
+          "sameAs": "https://doi.org/10.1093/brain/awg190"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Effectiveness of manual therapy for chronic tension-type headache: a pragmatic, randomised, clinical trial",
+          "url": "https://doi.org/10.1177/0333102410377362",
+          "sameAs": "https://doi.org/10.1177/0333102410377362"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "A randomized controlled trial of exercise and manipulative therapy for cervicogenic headache",
+          "url": "https://doi.org/10.1097/00007632-200209010-00004",
+          "sameAs": "https://doi.org/10.1097/00007632-200209010-00004"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "The relationship between forward head posture and neck pain: a systematic review and meta-analysis",
+          "url": "https://doi.org/10.1007/s12178-019-09594-y",
+          "sameAs": "https://doi.org/10.1007/s12178-019-09594-y"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Systematic review and meta-analysis of Neck Disability Index and Numeric Pain Rating Scale in patients with migraine and tension-type headache",
+          "url": "https://doi.org/10.1177/03331024241274266",
+          "sameAs": "https://doi.org/10.1177/03331024241274266"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "The influence of weather on migraine – are migraine attacks predictable?",
+          "url": "https://doi.org/10.1002/acn3.139",
+          "sameAs": "https://doi.org/10.1002/acn3.139"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Osteopathy for primary headache patients: a systematic review",
+          "url": "https://doi.org/10.2147/JPR.S130501",
+          "sameAs": "https://doi.org/10.2147/JPR.S130501"
         }
       ]
     },
@@ -302,23 +369,55 @@
           "name": "¿Cómo sé si tengo migraña o cefalea tensional?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "La migraña suele ser pulsátil, de un lado, empeora al moverse y se acompaña de náuseas o molestia con la luz y el ruido. La cefalea tensional es una presión en ambos lados, más leve y sin náuseas. La valoración clínica permite diferenciarlas y descartar otras causas."
+            "text": "La migraña suele ser pulsátil, de un lado, empeora al moverse y se acompaña de náuseas o molestia con la luz y el ruido. La cefalea tensional es una presión en ambos lados, más leve y sin náuseas. El diagnóstico corresponde a su médico; la valoración osteopática ayuda a entender el papel del cuello y la postura."
           }
         },
         {
           "@type": "Question",
-          "name": "¿La acupuntura sirve para la migraña?",
+          "name": "¿Puede el cuello provocar dolor de cabeza?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "La revisión Cochrane de 2016 concluyó que una pauta de al menos seis sesiones de acupuntura reduce la frecuencia de la migraña episódica, con resultados comparables a los de los fármacos preventivos."
+            "text": "Sí. Las estructuras de la parte alta del cuello comparten vías nerviosas con la cabeza en el complejo trigémino-cervical, por lo que pueden referir dolor a la nuca, la frente o detrás del ojo. Es lo que ocurre en la cefalea cervicogénica, y el cuello también influye en muchas migrañas."
           }
         },
         {
           "@type": "Question",
-          "name": "¿Qué papel tiene la alimentación?",
+          "name": "¿Por qué nadie me había hablado de la relación entre la migraña y el cuello?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "El ayuno, el alcohol o algunos alimentos pueden desencadenar crisis en personas sensibles, aunque no en todas. El diario de cefaleas ayuda a identificar sus desencadenantes y a evitar restricciones innecesarias."
+            "text": "Porque la migraña se ha estudiado sobre todo como enfermedad neurológica, y lo es. La investigación sobre su relación con la columna cervical es más reciente. Hoy sabemos que el cuello de la persona con migraña suele funcionar de forma distinta y que merece la pena valorarlo."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Tengo que dejar la medicación si empiezo un tratamiento manual?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. La medicación la decide su médico y no debe modificarla por su cuenta. El trabajo sobre el cuello, la postura y los hábitos busca actuar sobre los factores que facilitan las crisis, de forma coordinada con el tratamiento médico."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Se puede tratar durante una crisis de migraña?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "En plena crisis intensa lo prioritario es el reposo y el tratamiento indicado por su médico. El trabajo manual se plantea entre crisis, con un objetivo preventivo."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Mirar el móvil puede darme dolor de cabeza?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mantener la cabeza inclinada mucho tiempo sobrecarga la nuca y los músculos suboccipitales, lo que se relaciona con la cefalea tensional y la cervicogénica. Sostener el móvil a la altura de los ojos y hacer pausas ayuda."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Apretar los dientes tiene relación con el dolor de cabeza?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. El bruxismo y los trastornos de la articulación temporomandibular pueden producir dolor en las sienes y cefalea al despertar. Puede leer más en nuestra página de bruxismo y dolor mandibular."
           }
         },
         {
@@ -326,7 +425,7 @@
           "name": "¿Qué debo traer a la primera visita?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sus informes médicos, la lista de la medicación que toma y, si lo tiene, un registro de sus dolores de cabeza de las últimas semanas."
+            "text": "Sus informes médicos, la lista de la medicación que toma y, si lo tiene, un diario de sus dolores de cabeza de las últimas semanas."
           }
         }
       ]

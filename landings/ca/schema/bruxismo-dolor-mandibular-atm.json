@@ -226,8 +226,8 @@
       "@type": "MedicalWebPage",
       "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/bruxisme-dolor-mandibular-atm#webpage",
       "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/bruxisme-dolor-mandibular-atm",
-      "name": "Bruxisme i dolor mandibular a Barcelona | WA LAM",
-      "description": "Bruxisme i dolor mandibular (ATM) a Sarrià–Sant Gervasi, Barcelona: símptomes, causes, diagnòstic i un abordatge integratiu amb el mètode re:trace.",
+      "name": "Bruxismo y dolor mandibular (ATM) en Barcelona | WA LAM",
+      "description": "Bruxismo y dolor de la articulación temporomandibular (ATM): qué son, relación con el cuello, la cefalea y los acúfenos, señales de alarma y tratamiento conservador en Sarrià–Sant Gervasi, Barcelona.",
       "inLanguage": "ca-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -265,20 +265,9 @@
       "about": {
         "@type": "MedicalCondition",
         "name": "Bruxismo",
-        "possibleTreatment": [
-          {
-            "@type": "MedicalTherapy",
-            "name": "Osteopatia craniosacral"
-          }
-        ]
+        "possibleTreatment": []
       },
       "citation": [
-        {
-          "@type": "ScholarlyArticle",
-          "name": "Management of chronic pain associated with temporomandibular disorders: a clinical practice guideline",
-          "url": "https://doi.org/10.1136/bmj-2023-076227",
-          "sameAs": "https://doi.org/10.1136/bmj-2023-076227"
-        },
         {
           "@type": "ScholarlyArticle",
           "name": "Prevalence of temporomandibular joint disorders: a systematic review and meta-analysis",
@@ -290,6 +279,66 @@
           "name": "Epidemiology of bruxism in adults: a systematic review of the literature",
           "url": "https://doi.org/10.11607/jop.921",
           "sameAs": "https://doi.org/10.11607/jop.921"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Management of chronic pain associated with temporomandibular disorders: a clinical practice guideline",
+          "url": "https://doi.org/10.1136/bmj-2023-076227",
+          "sameAs": "https://doi.org/10.1136/bmj-2023-076227"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Craniocervical and cervical spine features of patients with temporomandibular disorders: a systematic review and meta-analysis of observational studies",
+          "url": "https://doi.org/10.3390/jcm9092806",
+          "sameAs": "https://doi.org/10.3390/jcm9092806"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "The effects of manual therapy and exercise directed at the cervical spine on pain and pressure pain sensitivity in patients with myofascial temporomandibular disorders",
+          "url": "https://doi.org/10.1111/j.1365-2842.2009.01980.x",
+          "sameAs": "https://doi.org/10.1111/j.1365-2842.2009.01980.x"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Dental occlusion, body posture and temporomandibular disorders: where we are now and where we are heading for",
+          "url": "https://doi.org/10.1111/j.1365-2842.2012.02291.x",
+          "sameAs": "https://doi.org/10.1111/j.1365-2842.2012.02291.x"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Temporomandibular disorders and dental occlusion. A systematic review of association studies: end of an era?",
+          "url": "https://doi.org/10.1111/joor.12531",
+          "sameAs": "https://doi.org/10.1111/joor.12531"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Is there a higher prevalence of tinnitus in patients with temporomandibular disorders? A systematic review and meta-analysis",
+          "url": "https://doi.org/10.1111/joor.12706",
+          "sameAs": "https://doi.org/10.1111/joor.12706"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Tinnitus as a comorbidity to temporomandibular disorders: a systematic review",
+          "url": "https://doi.org/10.1111/joor.12710",
+          "sameAs": "https://doi.org/10.1111/joor.12710"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Association between subjective tinnitus and cervical spine or temporomandibular disorders: a systematic review",
+          "url": "https://doi.org/10.1177/2331216518800640",
+          "sameAs": "https://doi.org/10.1177/2331216518800640"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Acute inflammatory response via neutrophil activation protects against the development of chronic pain",
+          "url": "https://doi.org/10.1126/scitranslmed.abj9954",
+          "sameAs": "https://doi.org/10.1126/scitranslmed.abj9954"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "The International Classification of Headache Disorders, 3rd edition",
+          "url": "https://doi.org/10.1177/0333102417738202",
+          "sameAs": "https://doi.org/10.1177/0333102417738202"
         }
       ]
     },
@@ -302,7 +351,31 @@
           "name": "He de deixar d'utilitzar la fèrula?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. Si el seu dentista li ha indicat una fèrula de descàrrega, convé continuar utilitzant-la. L'abordatge de la musculatura, la tensió i l'estrès ajuda que la mandíbula es relaxi també durant el dia."
+            "text": "No. Si su odontólogo le ha indicado una férula de descarga, conviene seguir usándola: protege los dientes del desgaste. La valoración de la mandíbula, el cuello y los hábitos actúa sobre otros factores que mantienen el dolor."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Mi mordida es la causa de mi dolor de mandíbula?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No necesariamente. La investigación actual no ha encontrado una relación clara entre la forma de la mordida y los trastornos de la ATM. La oclusión puede influir en algunos casos, y para valorarla está el odontólogo, pero a menudo pesan más la tensión muscular, el cuello, el estrés y los hábitos."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué es el test de Meersseman?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Es una prueba clínica orientativa: se colocan rollos de algodón entre los molares y se observa si cambian la postura, la movilidad o el dolor. Si cambian, se recomienda valorar la oclusión con el odontólogo. No es una prueba diagnóstica validada."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿El dolor de mandíbula puede dar dolor de cabeza o de oído?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. La sobrecarga de los músculos de la masticación puede provocar dolor en las sienes y cefalea al despertar, y los trastornos de la ATM se asocian a dolor delante del oído y a acúfenos."
           }
         },
         {
@@ -310,15 +383,7 @@
           "name": "L'estrès influeix en el bruxisme?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí, de manera important. Per això el pla inclou eines per reduir l'activació del sistema nerviós. També pot consultar la nostra pàgina d'estrès i ansietat."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "El dolor de mandíbula pot provocar mal de cap?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Sí. La sobrecàrrega dels músculs de la masticació pot provocar dolor a les temples i cefalea en despertar-se, i sovint s'associa a tensió al coll."
+            "text": "Sí, de forma importante, sobre todo en el bruxismo de vigilia, y también la calidad del sueño. Por eso la prevención incluye el descanso, la reducción de estimulantes y la relajación."
           }
         },
         {
@@ -327,6 +392,22 @@
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Els espetecs aïllats, sense dolor ni bloqueig, són freqüents i no solen requerir tractament. Convé valorar-los si s'acompanyen de dolor o de limitació en obrir la boca."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Por qué me duele el cuello si el problema está en la mandíbula?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Porque mandíbula, cabeza y cuello forman una unidad funcional y comparten vías nerviosas. Las personas con trastornos de la ATM suelen tener el cuello más sensible y con menos movilidad, por lo que conviene valorarlos juntos."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Què he de portar a la primera visita?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sus informes médicos y odontológicos, las pruebas de imagen si las tiene, la lista de la medicación que toma y su férula, si la utiliza."
           }
         }
       ]

@@ -227,7 +227,7 @@
       "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/dolor-persistente-cronico#webpage",
       "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/dolor-persistente-cronico",
       "name": "Dolor crónico y persistente en Barcelona | WA LAM",
-      "description": "Dolor crónico y persistente en Sarrià–Sant Gervasi, Barcelona: valoración clínica, ejercicio terapéutico, mindfulness MBSR y regulación del dolor.",
+      "description": "Dolor crónico y persistente: sensibilización central, cambios en el cerebro, papel de la terapia manual y la osteopatía, educación, ejercicio y prevención en Sarrià–Sant Gervasi, Barcelona.",
       "inLanguage": "es-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -242,7 +242,7 @@
       },
       "lastReviewed": "2026-11-18",
       "dateModified": "2026-11-18",
-      "keywords": "dolor crónico Barcelona, tratamiento dolor crónico Barcelona, dolor persistente, dolor lumbar crónico tratamiento, unidad de dolor integrativa Barcelona, sensibilización central",
+      "keywords": "dolor crónico Barcelona, tratamiento dolor crónico Barcelona, dolor persistente, dolor lumbar crónico tratamiento, sensibilización central, osteopatía dolor crónico Barcelona",
       "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/dolor-persistente-cronico.png",
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -270,9 +270,111 @@
       "citation": [
         {
           "@type": "ScholarlyArticle",
-          "name": "Noninvasive Treatments for Acute, Subacute, and Chronic Low Back Pain: A Clinical Practice Guideline From the American College of Physicians",
-          "url": "https://doi.org/10.7326/M16-2367",
-          "sameAs": "https://doi.org/10.7326/M16-2367"
+          "name": "Chronic pain as a symptom or a disease: the IASP Classification of Chronic Pain for the International Classification of Diseases (ICD-11)",
+          "url": "https://doi.org/10.1097/j.pain.0000000000001384",
+          "sameAs": "https://doi.org/10.1097/j.pain.0000000000001384"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "A nationwide study of chronic pain prevalence in the general Spanish population: identifying clinical subgroups through cluster analysis",
+          "url": "https://doi.org/10.1111/pme.12640",
+          "sameAs": "https://doi.org/10.1111/pme.12640"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Nociceptor neurons direct goblet cells via a CGRP-RAMP1 axis to drive mucus production and gut barrier protection",
+          "url": "https://doi.org/10.1016/j.cell.2022.09.024",
+          "sameAs": "https://doi.org/10.1016/j.cell.2022.09.024"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Acute inflammatory response via neutrophil activation protects against the development of chronic pain",
+          "url": "https://doi.org/10.1126/scitranslmed.abj9954",
+          "sameAs": "https://doi.org/10.1126/scitranslmed.abj9954"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Central sensitization: implications for the diagnosis and treatment of pain",
+          "url": "https://doi.org/10.1016/j.pain.2010.09.030",
+          "sameAs": "https://doi.org/10.1016/j.pain.2010.09.030"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Abnormal brain chemistry in chronic back pain: an in vivo proton magnetic resonance spectroscopy study",
+          "url": "https://doi.org/10.1016/S0304-3959(00)00340-7",
+          "sameAs": "https://doi.org/10.1016/S0304-3959(00)00340-7"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Neurochemical changes in patients with chronic low back pain detected by proton magnetic resonance spectroscopy: a systematic review",
+          "url": "https://doi.org/10.1016/j.nicl.2016.11.006",
+          "sameAs": "https://doi.org/10.1016/j.nicl.2016.11.006"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "The effect of spinal manipulation on brain neurometabolites in chronic nonspecific low back pain patients: a randomized clinical trial",
+          "url": "https://doi.org/10.1007/s11845-019-02140-2",
+          "sameAs": "https://doi.org/10.1007/s11845-019-02140-2"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "The mechanisms of manual therapy in the treatment of musculoskeletal pain: a comprehensive model",
+          "url": "https://doi.org/10.1016/j.math.2008.09.001",
+          "sameAs": "https://doi.org/10.1016/j.math.2008.09.001"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Unraveling the mechanisms of manual therapy: modeling an approach",
+          "url": "https://doi.org/10.2519/jospt.2018.7476",
+          "sameAs": "https://doi.org/10.2519/jospt.2018.7476"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Benefits and harms of spinal manipulative therapy for the treatment of chronic low back pain: systematic review and meta-analysis of randomised controlled trials",
+          "url": "https://doi.org/10.1136/bmj.l689",
+          "sameAs": "https://doi.org/10.1136/bmj.l689"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Efficacy and safety of osteopathic manipulative treatment: an overview of systematic reviews",
+          "url": "https://doi.org/10.1136/bmjopen-2021-053468",
+          "sameAs": "https://doi.org/10.1136/bmjopen-2021-053468"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Pain mechanisms: a new theory",
+          "url": "https://doi.org/10.1126/science.150.3699.971",
+          "sameAs": "https://doi.org/10.1126/science.150.3699.971"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "How the weather affects the pain of citizen scientists using a smartphone app",
+          "url": "https://doi.org/10.1038/s41746-019-0180-3",
+          "sameAs": "https://doi.org/10.1038/s41746-019-0180-3"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Pain regulation by gut microbiota: molecular mechanisms and therapeutic potential",
+          "url": "https://doi.org/10.1016/j.bja.2019.07.026",
+          "sameAs": "https://doi.org/10.1016/j.bja.2019.07.026"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Human intervertebral discs harbour a unique microbiome and dysbiosis determines health and disease",
+          "url": "https://doi.org/10.1007/s00586-020-06446-z",
+          "sameAs": "https://doi.org/10.1007/s00586-020-06446-z"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Fifteen years of explaining pain: the past, present, and future",
+          "url": "https://doi.org/10.1016/j.jpain.2015.05.005",
+          "sameAs": "https://doi.org/10.1016/j.jpain.2015.05.005"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "The efficacy of pain neuroscience education on musculoskeletal pain: a systematic review of the literature",
+          "url": "https://doi.org/10.1080/09593985.2016.1194646",
+          "sameAs": "https://doi.org/10.1080/09593985.2016.1194646"
         },
         {
           "@type": "ScholarlyArticle",
@@ -282,9 +384,15 @@
         },
         {
           "@type": "ScholarlyArticle",
-          "name": "Effect of Mindfulness-Based Stress Reduction vs Cognitive Behavioral Therapy or Usual Care on Back Pain and Functional Limitations in Adults With Chronic Low Back Pain: A Randomized Clinical Trial",
-          "url": "https://doi.org/10.1001/jama.2016.2323",
-          "sameAs": "https://doi.org/10.1001/jama.2016.2323"
+          "name": "Physical activity and exercise for chronic pain in adults: an overview of Cochrane Reviews",
+          "url": "https://doi.org/10.1002/14651858.CD011279.pub3",
+          "sameAs": "https://doi.org/10.1002/14651858.CD011279.pub3"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Prevention of low back pain: a systematic review and meta-analysis",
+          "url": "https://doi.org/10.1001/jamainternmed.2015.7431",
+          "sameAs": "https://doi.org/10.1001/jamainternmed.2015.7431"
         }
       ]
     },
@@ -302,10 +410,26 @@
         },
         {
           "@type": "Question",
-          "name": "¿Qué es el programa MBSR?",
+          "name": "¿El dolor crónico está en mi cabeza?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Es un programa de reducción del estrés basado en mindfulness, de 8 semanas, creado por Jon Kabat-Zinn en la Universidad de Massachusetts para personas con dolor crónico. Enseña a relacionarse de otra manera con el dolor y a regular la respuesta de estrés."
+            "text": "No en el sentido de que sea imaginario. El dolor crónico se acompaña de cambios medibles en la médula espinal y en el cerebro, como la sensibilización central y cambios en los neurometabolitos. Entenderlos ayuda a tratarlo mejor."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Puede la osteopatía ayudar en el dolor crónico?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "La terapia manual actúa sobre los tejidos y también sobre el sistema nervioso central, y las revisiones muestran mejoras del dolor y la función en el dolor crónico no oncológico. Da mejores resultados cuando forma parte de un plan con educación y ejercicio."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Debo dejar los antiinflamatorios?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No sin consultarlo con su médico, que es quien decide la medicación. La investigación sugiere que la inflamación aguda forma parte de la recuperación, pero son estudios preliminares; lo importante es, además, buscar la causa del dolor."
           }
         },
         {
@@ -313,7 +437,15 @@
           "name": "¿Es seguro hacer ejercicio con dolor crónico?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí, siempre que se adapte y se aumente de forma progresiva. Moverse con una pauta adecuada es una de las medidas más eficaces y no supone dañar los tejidos."
+            "text": "Sí, siempre que se adapte y se aumente de forma progresiva. Moverse con una pauta adecuada es una de las medidas más eficaces y no supone dañar los tejidos, aunque al principio aparezcan algunas molestias."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Por qué me duele más cuando cambia el tiempo?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "El estudio más amplio hasta la fecha encontró una relación modesta entre el dolor y la humedad, la presión y el viento. Algunas personas son más sensibles; abrigarse, aplicar calor y mantenerse activo ayuda."
           }
         },
         {

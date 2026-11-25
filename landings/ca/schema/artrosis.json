@@ -226,8 +226,8 @@
       "@type": "MedicalWebPage",
       "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/artrosi#webpage",
       "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/artrosi",
-      "name": "Artrosi a Barcelona | WA LAM",
-      "description": "Artrosi de genoll, maluc, mans i columna a Sarrià–Sant Gervasi, Barcelona: valoració clínica, exercici terapèutic i un pla integratiu per fases.",
+      "name": "Artrosis en Barcelona: rodilla, cadera y columna | WA LAM",
+      "description": "Qué es la artrosis, por qué aparece, por qué duele más con el frío y cómo se trata de forma conservadora con ejercicio, carga bien dosificada y terapia manual en Sarrià–Sant Gervasi, Barcelona.",
       "inLanguage": "ca-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -275,21 +275,99 @@
       "citation": [
         {
           "@type": "ScholarlyArticle",
-          "name": "Exercise for osteoarthritis of the knee",
-          "url": "https://doi.org/10.1002/14651858.CD004376.pub3",
-          "sameAs": "https://doi.org/10.1002/14651858.CD004376.pub3"
+          "name": "Global, regional, and national burden of osteoarthritis, 1990–2020 and projections to 2050: a systematic analysis for the Global Burden of Disease Study 2021",
+          "url": "https://doi.org/10.1016/S2665-9913(23)00163-7",
+          "sameAs": "https://doi.org/10.1016/S2665-9913(23)00163-7"
         },
         {
           "@type": "ScholarlyArticle",
-          "name": "2019 American College of Rheumatology/Arthritis Foundation Guideline for the Management of Osteoarthritis of the Hand, Hip, and Knee",
-          "url": "https://doi.org/10.1002/acr.24131",
-          "sameAs": "https://doi.org/10.1002/acr.24131"
+          "name": "OARSI guidelines for the non-surgical management of knee, hip, and polyarticular osteoarthritis",
+          "url": "https://doi.org/10.1016/j.joca.2019.06.011",
+          "sameAs": "https://doi.org/10.1016/j.joca.2019.06.011"
         },
         {
           "@type": "ScholarlyArticle",
-          "name": "Effects of intensive diet and exercise on knee joint loads, inflammation, and clinical outcomes among overweight and obese adults with knee osteoarthritis: the IDEA randomized clinical trial",
-          "url": "https://doi.org/10.1001/jama.2013.277669",
-          "sameAs": "https://doi.org/10.1001/jama.2013.277669"
+          "name": "Exercise for osteoarthritis of the knee: a Cochrane systematic review",
+          "url": "https://doi.org/10.1136/bjsports-2015-095424",
+          "sameAs": "https://doi.org/10.1136/bjsports-2015-095424"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Exercise for osteoarthritis of the hip",
+          "url": "https://doi.org/10.1002/14651858.CD007912.pub2",
+          "sameAs": "https://doi.org/10.1002/14651858.CD007912.pub2"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Manual therapy for osteoarthritis of the hip or knee – a systematic review",
+          "url": "https://doi.org/10.1016/j.math.2010.10.011",
+          "sameAs": "https://doi.org/10.1016/j.math.2010.10.011"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Manual therapy, exercise therapy, or both, in addition to usual care, for osteoarthritis of the hip or knee: a randomized controlled trial. 1: clinical effectiveness",
+          "url": "https://doi.org/10.1016/j.joca.2012.12.014",
+          "sameAs": "https://doi.org/10.1016/j.joca.2012.12.014"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Impact of exercise on articular cartilage in people at risk of, or with established, knee osteoarthritis: a systematic review of randomised controlled trials",
+          "url": "https://doi.org/10.1136/bjsports-2017-098661",
+          "sameAs": "https://doi.org/10.1136/bjsports-2017-098661"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "The association of recreational and competitive running with hip and knee osteoarthritis: a systematic review and meta-analysis",
+          "url": "https://doi.org/10.2519/jospt.2017.7137",
+          "sameAs": "https://doi.org/10.2519/jospt.2017.7137"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Proprioception in knee osteoarthritis: a narrative review",
+          "url": "https://doi.org/10.1016/j.joca.2011.01.003",
+          "sameAs": "https://doi.org/10.1016/j.joca.2011.01.003"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "A study exploring the prevalence of Extremity Pain of Spinal Source (EXPOSS)",
+          "url": "https://doi.org/10.1080/10669817.2019.1661706",
+          "sameAs": "https://doi.org/10.1080/10669817.2019.1661706"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "The influence of weather conditions on joint pain in older people with osteoarthritis: results from the European Project on OSteoArthritis",
+          "url": "https://doi.org/10.3899/jrheum.141594",
+          "sameAs": "https://doi.org/10.3899/jrheum.141594"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Changes in barometric pressure and ambient temperature influence osteoarthritis pain",
+          "url": "https://doi.org/10.1016/j.amjmed.2006.07.036",
+          "sameAs": "https://doi.org/10.1016/j.amjmed.2006.07.036"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "How the weather affects the pain of citizen scientists using a smartphone app",
+          "url": "https://doi.org/10.1038/s41746-019-0180-3",
+          "sameAs": "https://doi.org/10.1038/s41746-019-0180-3"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Associations between weather conditions and osteoarthritis pain: a systematic review and meta-analysis",
+          "url": "https://doi.org/10.1080/07853890.2023.2196439",
+          "sameAs": "https://doi.org/10.1080/07853890.2023.2196439"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Association between rainfall and diagnoses of joint or back pain: retrospective claims analysis",
+          "url": "https://doi.org/10.1136/bmj.j5326",
+          "sameAs": "https://doi.org/10.1136/bmj.j5326"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Pain mechanisms: a new theory",
+          "url": "https://doi.org/10.1126/science.150.3699.971",
+          "sameAs": "https://doi.org/10.1126/science.150.3699.971"
         }
       ]
     },
@@ -299,10 +377,34 @@
       "mainEntity": [
         {
           "@type": "Question",
+          "name": "¿La artrosis tiene cura?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "La artrosis no se cura en el sentido de que el cartílago vuelva a ser como antes, pero su evolución y su impacto sí se pueden modificar. Con ejercicio, control del peso y un buen reparto de cargas, muchas personas reducen el dolor y recuperan actividades que habían dejado."
+          }
+        },
+        {
+          "@type": "Question",
           "name": "Puc fer exercici si tinc artrosi?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí. L'exercici adaptat és un dels pilars del tractament. S'ajusta a l'articulació afectada, a la seva condició física i al dolor de cada moment."
+            "text": "Sí. El ejercicio adaptado es el pilar del tratamiento, y los estudios con resonancia indican que el ejercicio con carga no perjudica el cartílago. Se ajusta a la articulación afectada, a su condición física y al dolor de cada momento."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Es malo caminar o correr con artrosis de rodilla?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Caminar es uno de los mejores ejercicios para la artrosis. Correr de forma recreativa no se asocia a más artrosis; en las personas que ya la tienen, la tolerancia al impacto depende de cada caso y se introduce de forma progresiva."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Por qué me duele más cuando va a llover?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Muchas personas con artrosis notan más dolor con la humedad, el frío o los cambios de presión, y los estudios encuentran una relación real aunque modesta y variable de unas personas a otras. El tiempo no daña la articulación: cambia cómo se siente. Abrigarse, aplicar calor y mantenerse activo ayuda."
           }
         },
         {
@@ -310,15 +412,15 @@
           "name": "Perdre pes alleuja el dolor?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "En l'artrosi de genoll i de maluc, reduir l'excés de pes disminueix la càrrega sobre l'articulació i sol millorar el dolor i la funció."
+            "text": "En la artrosis de rodilla y de cadera, reducir el exceso de peso disminuye la carga sobre la articulación y suele mejorar el dolor y la función. Las guías lo incluyen entre los tratamientos centrales de la artrosis de rodilla."
           }
         },
         {
           "@type": "Question",
-          "name": "L'artrosi de mans i de columna també es pot tractar?",
+          "name": "Me duele la rodilla y tengo artrosis, ¿puede venir de otro sitio?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí. Cada localització requereix un pla propi. Si el dolor és sobretot lumbar, pot consultar també la pàgina de lumbàlgia."
+            "text": "Sí. La artrosis de cadera y los problemas de la columna lumbar refieren con frecuencia dolor a la rodilla. En un estudio, una de cada cuatro personas con dolor de rodilla tenía un origen vertebral. Por eso se valoran siempre la columna y la cadera."
           }
         },
         {
@@ -326,15 +428,15 @@
           "name": "Té sentit si ja m'han proposat una pròtesi?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí. Arribar a la cirurgia amb més força i mobilitat afavoreix la recuperació posterior."
+            "text": "Sí. Llegar a la cirugía con más fuerza, movilidad y confianza al moverse favorece la recuperación posterior, y en algunas personas permite aplazar la decisión. La indicación de la prótesis la valora el traumatólogo."
           }
         },
         {
           "@type": "Question",
-          "name": "És normal que em faci més mal amb el fred?",
+          "name": "L'artrosi de mans i de columna també es pot tractar?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Moltes persones noten més rigidesa amb el fred i la humitat. La calor local i mantenir l'activitat solen alleujar-la."
+            "text": "Sí. Cada localización requiere un plan propio. Si el dolor es sobre todo lumbar o baja por la pierna, puede consultar también nuestras páginas de lumbalgia y ciática."
           }
         }
       ]
