@@ -227,7 +227,7 @@
       "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/fascitis-plantar#webpage",
       "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/fascitis-plantar",
       "name": "Fascitis plantar en Barcelona | WA LAM",
-      "description": "Fascitis plantar y dolor de talón en Sarrià–Sant Gervasi, Barcelona: síntomas, causas, diagnóstico y abordaje integrativo por fases con el método re:trace.",
+      "description": "Qué es la fascitis plantar, la anatomía de la fascia y su relación con el tendón de Aquiles, causas, factores de riesgo, espolón calcáneo, diagnóstico y tratamiento conservador del dolor de talón en Sarrià–Sant Gervasi, Barcelona.",
       "inLanguage": "es-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -242,7 +242,7 @@
       },
       "lastReviewed": "2026-11-18",
       "dateModified": "2026-11-18",
-      "keywords": "fascitis plantar Barcelona, dolor en el talón Barcelona, tratamiento fascitis plantar Sarrià, espolón calcáneo tratamiento, estiramientos fascitis plantar, acupuntura fascitis plantar Barcelona",
+      "keywords": "fascitis plantar Barcelona, dolor en el talón Barcelona, tratamiento fascitis plantar Sarrià, espolón calcáneo tratamiento, estiramientos fascitis plantar, dolor de talón por la mañana",
       "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/fascitis-plantar.png",
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -265,31 +265,80 @@
       "about": {
         "@type": "MedicalCondition",
         "name": "Fascitis plantar",
-        "possibleTreatment": [
-          {
-            "@type": "MedicalTherapy",
-            "name": "Acupuntura y medicina tradicional china"
-          }
-        ]
+        "possibleTreatment": []
       },
       "citation": [
         {
           "@type": "ScholarlyArticle",
-          "name": "Heel pain—plantar fasciitis: revision 2014",
-          "url": "https://doi.org/10.2519/jospt.2014.0303",
-          "sameAs": "https://doi.org/10.2519/jospt.2014.0303"
+          "name": "Plantar heel pain in middle-aged and older adults: population prevalence, associations with health status and lifestyle factors, and frequency of healthcare use",
+          "url": "https://doi.org/10.1186/s12891-019-2718-6",
+          "sameAs": "https://doi.org/10.1186/s12891-019-2718-6"
         },
         {
           "@type": "ScholarlyArticle",
-          "name": "High-load strength training improves outcome in patients with plantar fasciitis: A randomized controlled trial with 12-month follow-up",
+          "name": "Volume of ambulatory care visits and patterns of care for patients diagnosed with plantar fasciitis: a national study of medical doctors",
+          "url": "https://doi.org/10.1177/107110070402500505",
+          "sameAs": "https://doi.org/10.1177/107110070402500505"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Risk factors for plantar fasciitis: a matched case-control study",
+          "url": "https://doi.org/10.2106/00004623-200305000-00015",
+          "sameAs": "https://doi.org/10.2106/00004623-200305000-00015"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Long-term prognosis of plantar fasciitis: a 5- to 15-year follow-up study of 174 patients with ultrasound examination",
+          "url": "https://doi.org/10.1177/2325967118757983",
+          "sameAs": "https://doi.org/10.1177/2325967118757983"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Plantar fascia anatomy and its relationship with Achilles tendon and paratenon",
+          "url": "https://doi.org/10.1111/joa.12111",
+          "sameAs": "https://doi.org/10.1111/joa.12111"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Tissue-specific plantar fascia-stretching exercise enhances outcomes in patients with chronic heel pain: a prospective, randomized study",
+          "url": "https://doi.org/10.2106/00004623-200307000-00013",
+          "sameAs": "https://doi.org/10.2106/00004623-200307000-00013"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "High-load strength training improves outcome in patients with plantar fasciitis: a randomized controlled trial with 12-month follow-up",
           "url": "https://doi.org/10.1111/sms.12313",
           "sameAs": "https://doi.org/10.1111/sms.12313"
         },
         {
           "@type": "ScholarlyArticle",
-          "name": "The effectiveness of acupuncture for plantar heel pain: a systematic review",
-          "url": "https://doi.org/10.1136/acupmed-2012-010183",
-          "sameAs": "https://doi.org/10.1136/acupmed-2012-010183"
+          "name": "Does manual therapy improve pain and function in patients with plantar fasciitis? A systematic review",
+          "url": "https://doi.org/10.1080/10669817.2017.1322736",
+          "sameAs": "https://doi.org/10.1080/10669817.2017.1322736"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Comparative effectiveness of treatment options for plantar heel pain: a systematic review with network meta-analysis",
+          "url": "https://doi.org/10.1136/bjsports-2017-098998",
+          "sameAs": "https://doi.org/10.1136/bjsports-2017-098998"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "The effect of spinal manipulation on brain neurometabolites in chronic nonspecific low back pain patients: a randomized clinical trial",
+          "url": "https://doi.org/10.1007/s11845-019-02140-2",
+          "sameAs": "https://doi.org/10.1007/s11845-019-02140-2"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Pain mechanisms: a new theory",
+          "url": "https://doi.org/10.1126/science.150.3699.971",
+          "sameAs": "https://doi.org/10.1126/science.150.3699.971"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "The mechanisms of manual therapy in the treatment of musculoskeletal pain: a comprehensive model",
+          "url": "https://doi.org/10.1016/j.math.2008.09.001",
+          "sameAs": "https://doi.org/10.1016/j.math.2008.09.001"
         },
         {
           "@type": "ScholarlyArticle",
@@ -305,34 +354,58 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "¿Cuánto tarda en mejorar la fascitis plantar?",
+          "name": "¿Por qué me duele más el talón por la mañana?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Depende del tiempo de evolución y de la carga diaria. Muchas personas notan mejoría en pocas semanas al ajustar la carga y hacer los ejercicios con constancia; la recuperación completa puede llevar varios meses."
+            "text": "Durante la noche el pie descansa en una posición que acorta la fascia y la pantorrilla. Al dar los primeros pasos, la fascia se estira de golpe y duele; tras unos minutos se calienta y el dolor disminuye. Estirar la fascia antes de levantarse ayuda."
           }
         },
         {
           "@type": "Question",
-          "name": "¿Tengo que dejar de caminar o de correr?",
+          "name": "¿Tengo que dejar de correr o de caminar?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Habitualmente no es necesario dejarlo del todo. Se ajustan el volumen y la intensidad para que el tejido se recupere mientras usted mantiene la actividad."
+            "text": "No necesariamente. Conviene reducir temporalmente la actividad que más irrita el talón y mantener otras que no duelan, como la bicicleta o la natación, mientras se trabajan la flexibilidad y la fuerza. La vuelta debe ser progresiva."
           }
         },
         {
           "@type": "Question",
-          "name": "¿El espolón calcáneo es la causa del dolor?",
+          "name": "¿Hay que quitar el espolón calcáneo?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No necesariamente. El espolón es un hallazgo frecuente en la radiografía, también en personas sin dolor, y no suele cambiar el tratamiento."
+            "text": "No. El espolón es una respuesta del hueso a la tracción, no la causa del dolor, y no influye en el pronóstico. El tratamiento se dirige a la fascia, al tobillo y a la carga."
           }
         },
         {
           "@type": "Question",
-          "name": "¿Necesito plantillas?",
+          "name": "¿Sirven las plantillas?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No siempre. En la valoración se estudia si una plantilla, una talonera o un cambio de calzado pueden ayudarle en la fase de más dolor."
+            "text": "Pueden aliviar a algunas personas, sobre todo con pies muy planos o muy cavos, pero no son la base del tratamiento. Lo más eficaz es combinar estiramientos, fuerza, terapia manual y ajustes de la carga."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿El dolor de talón puede venir de la espalda?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. La raíz S1 de la columna lumbar da la sensibilidad del talón y la planta. Un dolor que quema, con hormigueo o asociado a molestias lumbares, orienta a un origen lumbar y obliga a explorar la espalda."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuánto tarda en curarse una fascitis plantar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Muchas mejoran en semanas o pocos meses con un tratamiento activo, pero algunas se alargan si no se corrigen los factores que la mantienen. Tratarla pronto acorta el proceso."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuántas sesiones necesitaré?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Depende del tiempo de evolución, de la causa y de cada persona. Tras la primera visita se propone un plan con objetivos claros, ejercicios para casa y revisiones que se van espaciando."
           }
         }
       ]

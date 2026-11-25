@@ -227,7 +227,7 @@
       "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/torticolis#webpage",
       "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/torticolis",
       "name": "Tortícolis en Barcelona | WA LAM",
-      "description": "Tortícolis y dolor agudo de cuello en Sarrià–Sant Gervasi, Barcelona: síntomas, causas, signos de alarma y un abordaje integrativo con el método re:trace.",
+      "description": "Qué es la tortícolis, la anatomía del cuello, sus tipos (aguda del adulto, postraumática, del lactante, distonía cervical), causas, señales de alarma y tratamiento conservador en Sarrià–Sant Gervasi, Barcelona.",
       "inLanguage": "es-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -275,15 +275,105 @@
       "citation": [
         {
           "@type": "ScholarlyArticle",
-          "name": "Neck Pain: Revision 2017",
-          "url": "https://doi.org/10.2519/jospt.2017.0302",
-          "sameAs": "https://doi.org/10.2519/jospt.2017.0302"
+          "name": "Global, regional, and national burden of neck pain, 1990–2020, and projections to 2050: a systematic analysis of the Global Burden of Disease Study 2021",
+          "url": "https://doi.org/10.1016/S2665-9913(23)00321-1",
+          "sameAs": "https://doi.org/10.1016/S2665-9913(23)00321-1"
         },
         {
           "@type": "ScholarlyArticle",
-          "name": "Acupuncture for Chronic Pain: Update of an Individual Patient Data Meta-Analysis",
-          "url": "https://doi.org/10.1016/j.jpain.2017.11.005",
-          "sameAs": "https://doi.org/10.1016/j.jpain.2017.11.005"
+          "name": "Natural course of acute neck and low back pain in the general population: the HUNT study",
+          "url": "https://doi.org/10.1016/j.pain.2013.03.032",
+          "sameAs": "https://doi.org/10.1016/j.pain.2013.03.032"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Intra-articular inclusions of the cervical synovial joints",
+          "url": "https://doi.org/10.1093/rheumatology/32.8.705",
+          "sameAs": "https://doi.org/10.1093/rheumatology/32.8.705"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Torticollis, facial asymmetry and plagiocephaly in normal newborns",
+          "url": "https://doi.org/10.1136/adc.2007.124123",
+          "sameAs": "https://doi.org/10.1136/adc.2007.124123"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "The prevalence of primary dystonia: a systematic review and meta-analysis",
+          "url": "https://doi.org/10.1002/mds.25244",
+          "sameAs": "https://doi.org/10.1002/mds.25244"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Physical therapy management of congenital muscular torticollis: a 2018 evidence-based clinical practice guideline from the APTA Academy of Pediatric Physical Therapy",
+          "url": "https://doi.org/10.1097/PEP.0000000000000544",
+          "sameAs": "https://doi.org/10.1097/PEP.0000000000000544"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Infantile postural asymmetry and osteopathic treatment: a randomized therapeutic trial",
+          "url": "https://doi.org/10.1017/S001216220600003X",
+          "sameAs": "https://doi.org/10.1017/S001216220600003X"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "The relationship between forward head posture and neck pain: a systematic review and meta-analysis",
+          "url": "https://doi.org/10.1007/s12178-019-09594-y",
+          "sameAs": "https://doi.org/10.1007/s12178-019-09594-y"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Thoracic spine thrust manipulation improves pain, range of motion, and self-reported function in patients with mechanical neck pain: a systematic review",
+          "url": "https://doi.org/10.2519/jospt.2011.3670",
+          "sameAs": "https://doi.org/10.2519/jospt.2011.3670"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Manipulation and mobilization for treating chronic nonspecific neck pain: a systematic review and meta-analysis for an appropriateness panel",
+          "url": "https://doi.org/10.36076/ppj/2019.22.e55",
+          "sameAs": "https://doi.org/10.36076/ppj/2019.22.e55"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Exercise programs may be effective in preventing a new episode of neck pain: a systematic review and meta-analysis",
+          "url": "https://doi.org/10.1016/j.jphys.2018.05.003",
+          "sameAs": "https://doi.org/10.1016/j.jphys.2018.05.003"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Acute inflammatory response via neutrophil activation protects against the development of chronic pain",
+          "url": "https://doi.org/10.1126/scitranslmed.abj9954",
+          "sameAs": "https://doi.org/10.1126/scitranslmed.abj9954"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Physiology of visceral pain",
+          "url": "https://doi.org/10.1002/cphy.c150049",
+          "sameAs": "https://doi.org/10.1002/cphy.c150049"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Pathophysiology of visceral pain",
+          "url": "https://doi.org/10.5935/1806-0013.20140032",
+          "sameAs": "https://doi.org/10.5935/1806-0013.20140032"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "The effect of spinal manipulation on brain neurometabolites in chronic nonspecific low back pain patients: a randomized clinical trial",
+          "url": "https://doi.org/10.1007/s11845-019-02140-2",
+          "sameAs": "https://doi.org/10.1007/s11845-019-02140-2"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Pain mechanisms: a new theory",
+          "url": "https://doi.org/10.1126/science.150.3699.971",
+          "sameAs": "https://doi.org/10.1126/science.150.3699.971"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "The mechanisms of manual therapy in the treatment of musculoskeletal pain: a comprehensive model",
+          "url": "https://doi.org/10.1016/j.math.2008.09.001",
+          "sameAs": "https://doi.org/10.1016/j.math.2008.09.001"
         }
       ]
     },
@@ -296,31 +386,63 @@
           "name": "¿Cuánto dura una tortícolis?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "La mayoría mejora en pocos días y se resuelve en una o dos semanas. Mantener el movimiento y aplicar calor local ayudan a acortar ese tiempo."
+            "text": "La mayoría mejora de forma notable en pocos días y se resuelve en una o dos semanas. Si no mejora en ese plazo, se repite con frecuencia o se acompaña de otros síntomas, conviene valorarla."
           }
         },
         {
           "@type": "Question",
-          "name": "¿Es mejor el frío o el calor?",
+          "name": "¿Es mejor frío o calor?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "En la tortícolis suele aliviar más el calor local, porque ayuda a relajar la musculatura. Puede aplicarlo unos 15–20 minutos, varias veces al día."
+            "text": "En la tortícolis aguda sin golpe previo, el calor local suele aliviar porque relaja la musculatura contraída. Tras un traumatismo reciente, consulte primero."
           }
         },
         {
           "@type": "Question",
-          "name": "¿Debo inmovilizar el cuello?",
+          "name": "¿Debo usar un collarín?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No es recomendable. Mover el cuello con suavidad, dentro de lo que el dolor permita, favorece una recuperación más rápida."
+            "text": "No es recomendable en la tortícolis aguda benigna. Inmovilizar el cuello prolonga la rigidez; es mejor moverlo suavemente dentro de lo que el dolor permite."
           }
         },
         {
           "@type": "Question",
-          "name": "¿Por qué se repite?",
+          "name": "¿Por qué me levanto con el cuello bloqueado?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Los episodios repetidos suelen relacionarse con posturas mantenidas, falta de movilidad dorsal, mal descanso o estrés. Trabajar esos factores ayuda a espaciarlos."
+            "text": "Suele deberse a una postura forzada durante el sueño en un cuello que ya estaba sobrecargado por la postura, el estrés o la falta de movimiento. Revisar la almohada y la postura de dormir ayuda a prevenirlo."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿El estrés puede provocar tortícolis?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. El estrés mantiene los hombros elevados y la musculatura del cuello en tensión, y altera el sueño. Puede consultar también la página de estrés y ansiedad."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mi bebé siempre gira la cabeza hacia el mismo lado, ¿es tortícolis?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Puede ser una tortícolis postural o muscular congénita, frecuentes en las primeras semanas. Conviene que la valore el pediatra y tratarla pronto, porque puede favorecer el aplanamiento de la cabeza."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuándo es urgente un cuello rígido?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Si se acompaña de fiebre, dolor de cabeza intenso, síntomas en los brazos o las piernas, mareo intenso, dificultad para hablar o tragar, o aparece tras un golpe, acuda a urgencias."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuántas sesiones necesitaré?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "En una tortícolis aguda suelen bastar pocas sesiones. Si los episodios se repiten, se propone un plan para tratar lo que los favorece, con ejercicios para casa y revisiones que se van espaciando."
           }
         }
       ]

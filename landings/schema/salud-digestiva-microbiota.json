@@ -279,9 +279,93 @@
       "citation": [
         {
           "@type": "ScholarlyArticle",
-          "name": "The Microbiota-Gut-Brain Axis",
-          "url": "https://doi.org/10.1152/physrev.00018.2018",
-          "sameAs": "https://doi.org/10.1152/physrev.00018.2018"
+          "name": "Revised estimates for the number of human and bacteria cells in the body",
+          "url": "https://doi.org/10.1371/journal.pbio.1002533",
+          "sameAs": "https://doi.org/10.1371/journal.pbio.1002533"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "The International Scientific Association for Probiotics and Prebiotics consensus statement on the scope and appropriate use of the term probiotic",
+          "url": "https://doi.org/10.1038/nrgastro.2014.66",
+          "sameAs": "https://doi.org/10.1038/nrgastro.2014.66"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Expert consensus document: The International Scientific Association for Probiotics and Prebiotics (ISAPP) consensus statement on the definition and scope of prebiotics",
+          "url": "https://doi.org/10.1038/nrgastro.2017.75",
+          "sameAs": "https://doi.org/10.1038/nrgastro.2017.75"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Role of the microbiota in immunity and inflammation",
+          "url": "https://doi.org/10.1016/j.cell.2014.03.011",
+          "sameAs": "https://doi.org/10.1016/j.cell.2014.03.011"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "From dietary fiber to host physiology: short-chain fatty acids as key bacterial metabolites",
+          "url": "https://doi.org/10.1016/j.cell.2016.05.041",
+          "sameAs": "https://doi.org/10.1016/j.cell.2016.05.041"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Commensal microbe-derived butyrate induces the differentiation of colonic regulatory T cells",
+          "url": "https://doi.org/10.1038/nature12721",
+          "sameAs": "https://doi.org/10.1038/nature12721"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Indigenous bacteria from the gut microbiota regulate host serotonin biosynthesis",
+          "url": "https://doi.org/10.1016/j.cell.2015.02.047",
+          "sameAs": "https://doi.org/10.1016/j.cell.2015.02.047"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "American Gut: an open platform for citizen science microbiome research",
+          "url": "https://doi.org/10.1128/mSystems.00031-18",
+          "sameAs": "https://doi.org/10.1128/mSystems.00031-18"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Effect of cooling of cooked white rice on resistant starch content and glycemic response",
+          "url": "https://doi.org/10.6133/apjcn.2015.24.4.13",
+          "sameAs": "https://doi.org/10.6133/apjcn.2015.24.4.13"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Pro-resolving lipid mediators are leads for resolution physiology",
+          "url": "https://doi.org/10.1038/nature13479",
+          "sameAs": "https://doi.org/10.1038/nature13479"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Leaky gut: mechanisms, measurement and clinical implications in humans",
+          "url": "https://doi.org/10.1136/gutjnl-2019-318427",
+          "sameAs": "https://doi.org/10.1136/gutjnl-2019-318427"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Gut microbiota in patients with irritable bowel syndrome—a systematic review",
+          "url": "https://doi.org/10.1053/j.gastro.2019.03.049",
+          "sameAs": "https://doi.org/10.1053/j.gastro.2019.03.049"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Diet rapidly and reproducibly alters the human gut microbiome",
+          "url": "https://doi.org/10.1038/nature12820",
+          "sameAs": "https://doi.org/10.1038/nature12820"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Extensive impact of non-antibiotic drugs on human gut bacteria",
+          "url": "https://doi.org/10.1038/nature25979",
+          "sameAs": "https://doi.org/10.1038/nature25979"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Proton pump inhibitors affect the gut microbiome",
+          "url": "https://doi.org/10.1136/gutjnl-2015-310376",
+          "sameAs": "https://doi.org/10.1136/gutjnl-2015-310376"
         },
         {
           "@type": "ScholarlyArticle",
@@ -291,15 +375,33 @@
         },
         {
           "@type": "ScholarlyArticle",
-          "name": "Gut Microbiota in Patients With Irritable Bowel Syndrome—A Systematic Review",
-          "url": "https://doi.org/10.1053/j.gastro.2019.03.049",
-          "sameAs": "https://doi.org/10.1053/j.gastro.2019.03.049"
+          "name": "The global epidemiology of nonalcoholic fatty liver disease (NAFLD) and nonalcoholic steatohepatitis (NASH): a systematic review",
+          "url": "https://doi.org/10.1097/HEP.0000000000000004",
+          "sameAs": "https://doi.org/10.1097/HEP.0000000000000004"
         },
         {
           "@type": "ScholarlyArticle",
-          "name": "Revised estimates for the number of human and bacteria cells in the body",
-          "url": "https://doi.org/10.1371/journal.pbio.1002533",
-          "sameAs": "https://doi.org/10.1371/journal.pbio.1002533"
+          "name": "A multisociety Delphi consensus statement on new fatty liver disease nomenclature",
+          "url": "https://doi.org/10.1097/HEP.0000000000000520",
+          "sameAs": "https://doi.org/10.1097/HEP.0000000000000520"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Intestinal crosstalk between bile acids and microbiota and its impact on host metabolism",
+          "url": "https://doi.org/10.1016/j.cmet.2016.05.005",
+          "sameAs": "https://doi.org/10.1016/j.cmet.2016.05.005"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "The microbiota-gut-brain axis",
+          "url": "https://doi.org/10.1152/physrev.00018.2018",
+          "sameAs": "https://doi.org/10.1152/physrev.00018.2018"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Microbes, immunity, and behavior: psychoneuroimmunology meets the microbiome",
+          "url": "https://doi.org/10.1038/npp.2016.103",
+          "sameAs": "https://doi.org/10.1038/npp.2016.103"
         },
         {
           "@type": "ScholarlyArticle",
@@ -324,6 +426,78 @@
           "name": "Nociceptor neurons direct goblet cells via a CGRP-RAMP1 axis to drive mucus production and gut barrier protection",
           "url": "https://doi.org/10.1016/j.cell.2022.09.024",
           "sameAs": "https://doi.org/10.1016/j.cell.2022.09.024"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Estrogen–gut microbiome axis: physiological and clinical implications",
+          "url": "https://doi.org/10.1016/j.maturitas.2017.06.025",
+          "sameAs": "https://doi.org/10.1016/j.maturitas.2017.06.025"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Thyroid-gut-axis: how does the microbiota influence thyroid function?",
+          "url": "https://doi.org/10.3390/nu12061769",
+          "sameAs": "https://doi.org/10.3390/nu12061769"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Histamine and histamine intolerance",
+          "url": "https://doi.org/10.1093/ajcn/85.5.1185",
+          "sameAs": "https://doi.org/10.1093/ajcn/85.5.1185"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "ACG Clinical Guideline: small intestinal bacterial overgrowth",
+          "url": "https://doi.org/10.14309/ajg.0000000000000501",
+          "sameAs": "https://doi.org/10.14309/ajg.0000000000000501"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "The gut, the bad and the harmless: Candida albicans as a commensal and opportunistic pathogen in the intestine",
+          "url": "https://doi.org/10.1016/j.mib.2020.05.006",
+          "sameAs": "https://doi.org/10.1016/j.mib.2020.05.006"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Gut microbiome modulates response to anti–PD-1 immunotherapy in melanoma patients",
+          "url": "https://doi.org/10.1126/science.aan4236",
+          "sameAs": "https://doi.org/10.1126/science.aan4236"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Gut microbiome influences efficacy of PD-1–based immunotherapy against epithelial tumors",
+          "url": "https://doi.org/10.1126/science.aan3706",
+          "sameAs": "https://doi.org/10.1126/science.aan3706"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Randomized controlled trial for time-restricted eating in healthy volunteers without obesity",
+          "url": "https://doi.org/10.1038/s41467-022-28662-5",
+          "sameAs": "https://doi.org/10.1038/s41467-022-28662-5"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Stool form scale as a useful guide to intestinal transit time",
+          "url": "https://doi.org/10.3109/00365529709011203",
+          "sameAs": "https://doi.org/10.3109/00365529709011203"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Floating stools — flatus versus fat",
+          "url": "https://doi.org/10.1056/NEJM197205042861804",
+          "sameAs": "https://doi.org/10.1056/NEJM197205042861804"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Prevalence, risk factors, and outcomes of irritable bowel syndrome after infectious enteritis: a systematic review and meta-analysis",
+          "url": "https://doi.org/10.1053/j.gastro.2016.12.039",
+          "sameAs": "https://doi.org/10.1053/j.gastro.2016.12.039"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Guidelines for the investigation of chronic diarrhoea in adults: British Society of Gastroenterology, 3rd edition",
+          "url": "https://doi.org/10.1136/gutjnl-2017-315909",
+          "sameAs": "https://doi.org/10.1136/gutjnl-2017-315909"
         }
       ]
     },
@@ -336,31 +510,63 @@
           "name": "¿Todo el mundo necesita un estudio de microbiota?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. Lo proponemos cuando los síntomas persisten, cuando hay antecedentes como tandas de antibióticos o gastroenteritis, o cuando el resultado puede orientar mejor el plan."
+            "text": "No. Lo indica el profesional cuando los síntomas persisten, cuando hay antecedentes como tandas de antibióticos, gastroenteritis o infecciones de repetición, o cuando el resultado puede orientar mejor el plan. Antes se descartan las señales de alarma, que requieren estudio médico."
           }
         },
         {
           "@type": "Question",
-          "name": "¿Cómo se hace el estudio?",
+          "name": "¿Cómo se hace el estudio de microbiota?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Recoge una pequeña muestra de heces en casa con un kit y la envía a un laboratorio especializado. Cuando llegan los resultados, los revisamos juntos en consulta."
+            "text": "Se recoge en casa una pequeña muestra de heces con un kit y se envía a un laboratorio especializado. Cuando llegan los resultados, se interpretan en consulta junto con los síntomas, la historia y los hábitos de la persona."
           }
         },
         {
           "@type": "Question",
-          "name": "¿Qué hacéis con los resultados?",
+          "name": "¿El estudio de microbiota diagnostica enfermedades?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Los interpretamos junto con sus síntomas y su historia, y los traducimos en un plan por fases de alimentación, descanso y regulación del estrés."
+            "text": "No por sí solo. Describe la composición y la diversidad de la microbiota y, según el perfil, marcadores de digestión e inflamación. Las pruebas diagnósticas, como el test del aliento, la analítica o la colonoscopia, las indica el médico."
           }
         },
         {
           "@type": "Question",
-          "name": "¿Cuánto tiempo tarda en notarse la mejoría?",
+          "name": "¿Debo tomar probióticos?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Muchas personas notan cambios en la digestión en pocas semanas. La microbiota se reequilibra de forma progresiva, por eso trabajamos por fases y revisamos el plan en cada visita."
+            "text": "Existen muchos probióticos y su efecto depende de la cepa y de la persona. No conviene tomarlos por su cuenta: su indicación la individualiza un profesional, y a menudo es más importante alimentar bien a las bacterias que ya tiene, con fibra y variedad vegetal."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuánto tarda en cambiar la microbiota?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "La microbiota responde en pocos días a los cambios de alimentación, pero también vuelve a su estado previo si se abandonan. Por eso se trabaja por fases y con hábitos que se puedan mantener en el tiempo."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿La microbiota puede influir en el dolor?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Se investiga. La microbiota influye en la inflamación de bajo grado y en el sistema nervioso, y se ha propuesto un eje intestino–disco en el dolor de espalda. Es una hipótesis emergente, no una causa demostrada, pero justifica tener en cuenta el intestino en el dolor crónico."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué relación hay entre microbiota, PNIE y nutrición?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "La PNIE estudia cómo se comunican la microbiota, el sistema nervioso, el hormonal y el inmunitario, y busca el origen de los síntomas. La nutrición es una de las herramientas principales para cuidar la microbiota, siempre con pautas individualizadas."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Puedo hacer una dieta muy estricta para «limpiar» el intestino?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No se recomienda por defecto. Las restricciones prolongadas sin motivo empobrecen la microbiota. Algunos cambios temporales y guiados pueden ser útiles en casos concretos, pero siempre con reintroducción progresiva y con un profesional."
           }
         }
       ]

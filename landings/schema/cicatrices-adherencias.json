@@ -227,7 +227,7 @@
       "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/cicatrices-adherencias#webpage",
       "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/cicatrices-adherencias",
       "name": "Cicatrices y adherencias en Barcelona | WA LAM",
-      "description": "Cicatrices y adherencias tras cesárea o cirugía en Sarrià–Sant Gervasi, Barcelona: movilización de la cicatriz y osteopatía visceral del método Barral.",
+      "description": "Cicatrices y adherencias tras cesárea, laparoscopia o cirugía en Sarrià–Sant Gervasi, Barcelona: cómo se forman, por qué pueden doler lejos de donde están, la visión visceral de Barral y qué dice la evidencia.",
       "inLanguage": "es-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -279,21 +279,75 @@
       "citation": [
         {
           "@type": "ScholarlyArticle",
-          "name": "Physical Management of Scar Tissue: A Systematic Review and Meta-Analysis",
-          "url": "https://doi.org/10.1089/acm.2020.0109",
-          "sameAs": "https://doi.org/10.1089/acm.2020.0109"
+          "name": "Wound repair and regeneration",
+          "url": "https://doi.org/10.1038/nature07039",
+          "sameAs": "https://doi.org/10.1038/nature07039"
         },
         {
           "@type": "ScholarlyArticle",
-          "name": "The Role of Massage in Scar Management: A Literature Review",
-          "url": "https://doi.org/10.1111/j.1524-4725.2011.02201.x",
-          "sameAs": "https://doi.org/10.1111/j.1524-4725.2011.02201.x"
+          "name": "Burden of adhesions in abdominal and pelvic surgery: systematic review and met-analysis",
+          "url": "https://doi.org/10.1136/bmj.f5588",
+          "sameAs": "https://doi.org/10.1136/bmj.f5588"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Incidence and severity of chronic pain after caesarean section: a systematic review with meta-analysis",
+          "url": "https://doi.org/10.1097/EJA.0000000000000535",
+          "sameAs": "https://doi.org/10.1097/EJA.0000000000000535"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Attenuation of postoperative adhesions using a modeled manual therapy",
+          "url": "https://doi.org/10.1371/journal.pone.0178407",
+          "sameAs": "https://doi.org/10.1371/journal.pone.0178407"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Physiology of visceral pain",
+          "url": "https://doi.org/10.1002/cphy.c150049",
+          "sameAs": "https://doi.org/10.1002/cphy.c150049"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Pathophysiology of visceral pain",
+          "url": "https://doi.org/10.5935/1806-0013.20140032",
+          "sameAs": "https://doi.org/10.5935/1806-0013.20140032"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Reduced thoracolumbar fascia shear strain in human chronic low back pain",
+          "url": "https://doi.org/10.1186/1471-2474-12-203",
+          "sameAs": "https://doi.org/10.1186/1471-2474-12-203"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "How the weather affects the pain of citizen scientists using a smartphone app",
+          "url": "https://doi.org/10.1038/s41746-019-0180-3",
+          "sameAs": "https://doi.org/10.1038/s41746-019-0180-3"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Acute inflammatory response via neutrophil activation protects against the development of chronic pain",
+          "url": "https://doi.org/10.1126/scitranslmed.abj9954",
+          "sameAs": "https://doi.org/10.1126/scitranslmed.abj9954"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Pain mechanisms: a new theory",
+          "url": "https://doi.org/10.1126/science.150.3699.971",
+          "sameAs": "https://doi.org/10.1126/science.150.3699.971"
         },
         {
           "@type": "ScholarlyArticle",
           "name": "Visceral mobilization can lyse and prevent peritoneal adhesions in a rat model",
           "url": "https://doi.org/10.1016/j.jbmt.2011.02.004",
           "sameAs": "https://doi.org/10.1016/j.jbmt.2011.02.004"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "The role of massage in scar management: a literature review",
+          "url": "https://doi.org/10.1111/j.1524-4725.2011.02201.x",
+          "sameAs": "https://doi.org/10.1111/j.1524-4725.2011.02201.x"
         }
       ]
     },
@@ -306,7 +360,7 @@
           "name": "¿Cuándo puedo empezar a tratar la cicatriz?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "El trabajo directo comienza cuando la herida está bien cerrada y sin signos de infección, habitualmente a partir de las 4 a 6 semanas. Antes se puede trabajar la respiración y la movilidad general."
+            "text": "El trabajo directo comienza cuando la herida está bien cerrada, sin signos de infección y con la autorización del cirujano, a menudo a partir de las 4–6 semanas. Antes se pueden trabajar la respiración, la movilidad general y las zonas alejadas."
           }
         },
         {
@@ -314,7 +368,7 @@
           "name": "¿Se puede tratar una cicatriz antigua?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí. Aunque la cicatriz tenga años, el tejido conserva capacidad de adaptación y la movilización puede mejorar su flexibilidad y las molestias asociadas."
+            "text": "Sí. Aunque la cicatriz tenga años, el tejido conserva capacidad de adaptación, y la movilización puede mejorar su flexibilidad y las molestias asociadas."
           }
         },
         {
@@ -322,7 +376,23 @@
           "name": "¿Una cicatriz de cesárea puede causar dolor de espalda?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Puede contribuir. La tensión de la cicatriz y de las fascias abdominales influye en la postura y en la movilidad lumbar y pélvica. Por eso valoramos la cicatriz junto con la espalda y la pelvis."
+            "text": "Puede contribuir. La tensión de la cicatriz y de la fascia abdominal influye en la postura, la respiración y la movilidad lumbar y pélvica. Por eso se valora la cicatriz junto con la espalda y la pelvis."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Las adherencias se ven en una ecografía o una resonancia?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Por lo general, no. Las pruebas de imagen habituales no muestran bien las adherencias; se sospechan por la historia clínica y la exploración, y solo se confirman con certeza durante una cirugía."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Por qué me molesta la cicatriz cuando va a llover?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "El tejido cicatricial es menos elástico y contiene fibras nerviosas sensibles; los cambios de presión, el frío y la humedad pueden notarse en él. El efecto es real, aunque modesto y distinto en cada persona."
           }
         },
         {
@@ -330,7 +400,15 @@
           "name": "¿El tratamiento es doloroso?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Las técnicas son suaves y se adaptan a la sensibilidad de cada zona. Si nota una molestia, se ajusta la intensidad. Encontrará más información en nuestras páginas de dolor postquirúrgico y fascia."
+            "text": "Las técnicas son suaves y se adaptan a la sensibilidad de cada zona. Si nota una molestia, se ajusta la intensidad. En las cicatrices hipersensibles se empieza alrededor y se avanza poco a poco."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Hace falta tratar todas las cicatrices?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Muchas cicatrices no dan ningún problema. Se valoran cuando hay síntomas locales o a distancia que podrían relacionarse con ellas, o cuando limitan el movimiento."
           }
         },
         {
@@ -338,7 +416,7 @@
           "name": "¿Cuántas sesiones necesitaré?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Depende del tipo de cicatriz, de su antigüedad y de los síntomas. En la primera visita valoramos su caso y le proponemos un plan con revisiones periódicas."
+            "text": "Depende del tipo de cicatriz, de su antigüedad y de los síntomas. Tras la primera visita se propone un plan con pautas de automasaje y ejercicio para casa y revisiones periódicas."
           }
         }
       ]

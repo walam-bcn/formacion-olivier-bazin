@@ -227,7 +227,7 @@
       "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/neuralgia-trigemino#webpage",
       "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/neuralgia-trigemino",
       "name": "Neuralgia del trigémino en Barcelona | WA LAM",
-      "description": "Neuralgia del trigémino y dolor facial en Sarrià–Sant Gervasi, Barcelona: síntomas, causas, diagnóstico y un abordaje integrativo con el método re:trace.",
+      "description": "Qué es la neuralgia del trigémino, el nervio y sus ramas, tipos, desencadenantes, cómo afecta a la vida diaria, cómo se diagnostica y cómo se trata, en Sarrià–Sant Gervasi, Barcelona.",
       "inLanguage": "es-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -242,7 +242,7 @@
       },
       "lastReviewed": "2026-11-18",
       "dateModified": "2026-11-18",
-      "keywords": "neuralgia del trigémino Barcelona, dolor facial Barcelona, tratamiento neuralgia del trigémino Barcelona, acupuntura neuralgia del trigémino, osteopatía dolor facial, dolor facial eléctrico",
+      "keywords": "neuralgia del trigémino Barcelona, dolor facial Barcelona, tratamiento neuralgia del trigémino Barcelona, neuralgia del trigémino síntomas, osteopatía dolor facial, dolor facial eléctrico",
       "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/neuralgia-trigemino.png",
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -265,31 +265,74 @@
       "about": {
         "@type": "MedicalCondition",
         "name": "Neuralgia del trigémino",
-        "possibleTreatment": [
-          {
-            "@type": "MedicalTherapy",
-            "name": "Acupuntura y medicina tradicional china"
-          }
-        ]
+        "possibleTreatment": []
       },
       "citation": [
         {
           "@type": "ScholarlyArticle",
-          "name": "Prevalence of trigeminal neuralgia: A systematic review",
-          "url": "https://doi.org/10.1016/j.adaj.2016.02.014",
-          "sameAs": "https://doi.org/10.1016/j.adaj.2016.02.014"
+          "name": "The International Classification of Headache Disorders, 3rd edition",
+          "url": "https://doi.org/10.1177/0333102417738202",
+          "sameAs": "https://doi.org/10.1177/0333102417738202"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Trigeminal neuralgia: new classification and diagnostic grading for practice and research",
+          "url": "https://doi.org/10.1212/WNL.0000000000002840",
+          "sameAs": "https://doi.org/10.1212/WNL.0000000000002840"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Neuropathic pain in the general population: a systematic review of epidemiological studies",
+          "url": "https://doi.org/10.1016/j.pain.2013.11.013",
+          "sameAs": "https://doi.org/10.1016/j.pain.2013.11.013"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Significance of neurovascular contact in classical trigeminal neuralgia",
+          "url": "https://doi.org/10.1093/brain/awu349",
+          "sameAs": "https://doi.org/10.1093/brain/awu349"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Trigeminal neuralgia – diagnosis and treatment",
+          "url": "https://doi.org/10.1177/0333102416687280",
+          "sameAs": "https://doi.org/10.1177/0333102416687280"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Triggering trigeminal neuralgia",
+          "url": "https://doi.org/10.1177/0333102417721677",
+          "sameAs": "https://doi.org/10.1177/0333102417721677"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Evaluating the impact of trigeminal neuralgia",
+          "url": "https://doi.org/10.1097/j.pain.0000000000000853",
+          "sameAs": "https://doi.org/10.1097/j.pain.0000000000000853"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Patient burden of trigeminal neuralgia: results from a cross-sectional survey of health state impairment and treatment patterns in six European countries",
+          "url": "https://doi.org/10.1111/j.1533-2500.2006.00079.x",
+          "sameAs": "https://doi.org/10.1111/j.1533-2500.2006.00079.x"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Increased responses in trigeminocervical nociceptive neurons to cervical input after stimulation of the dura mater",
+          "url": "https://doi.org/10.1093/brain/awg190",
+          "sameAs": "https://doi.org/10.1093/brain/awg190"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "How the weather affects the pain of citizen scientists using a smartphone app",
+          "url": "https://doi.org/10.1038/s41746-019-0180-3",
+          "sameAs": "https://doi.org/10.1038/s41746-019-0180-3"
         },
         {
           "@type": "ScholarlyArticle",
           "name": "European Academy of Neurology guideline on trigeminal neuralgia",
           "url": "https://doi.org/10.1111/ene.13950",
           "sameAs": "https://doi.org/10.1111/ene.13950"
-        },
-        {
-          "@type": "ScholarlyArticle",
-          "name": "Acupuncture for primary trigeminal neuralgia: A systematic review and PRISMA-compliant meta-analysis",
-          "url": "https://doi.org/10.1016/j.ctcp.2018.12.013",
-          "sameAs": "https://doi.org/10.1016/j.ctcp.2018.12.013"
         }
       ]
     },
@@ -299,42 +342,66 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "¿Es lo mismo que un dolor de muelas?",
+          "name": "¿La neuralgia del trigémino es un problema dental?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. Puede confundirse porque el dolor se nota a menudo en los dientes o la mandíbula, pero es un dolor de origen nervioso, en descargas breves y desencadenado por estímulos leves. Por eso es importante el diagnóstico neurológico."
+            "text": "No, es un dolor del nervio, aunque a menudo se confunde con un dolor de muelas porque afecta a la mandíbula y a los dientes. Por eso muchas personas reciben tratamientos dentales antes del diagnóstico. Si el dentista no encuentra una causa, conviene consultar con el neurólogo."
           }
         },
         {
           "@type": "Question",
-          "name": "¿La terapia manual es adecuada si tengo puntos gatillo?",
+          "name": "¿Es grave?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí, con técnicas suaves y adaptadas. Se evita estimular los puntos gatillo y se trabaja la región cervical, la mandíbula y el cráneo a un ritmo que respeta su dolor."
+            "text": "En la mayoría de los casos no pone en riesgo la vida, pero el dolor es muy intenso y limita mucho. Siempre debe hacerse una resonancia para descartar una causa secundaria, como la esclerosis múltiple o una lesión en la base del cráneo."
           }
         },
         {
           "@type": "Question",
-          "name": "¿Puede ayudar la acupuntura?",
+          "name": "¿Se cura?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "La acupuntura se ha asociado con una mejoría del dolor en la neuralgia del trigémino primaria. Cuando la cara está muy sensible, se utilizan puntos a distancia."
+            "text": "Muchas personas controlan bien las crisis con la medicación y algunas tienen largos periodos sin dolor. Cuando la medicación no basta o no se tolera, la cirugía, especialmente la descompresión microvascular en la forma clásica, puede ofrecer un alivio duradero."
           }
         },
         {
           "@type": "Question",
-          "name": "¿Qué relación tiene con el bruxismo y la mandíbula?",
+          "name": "¿Puede ayudarme la osteopatía?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No son lo mismo, pero la tensión mandibular y el bruxismo pueden sumar dolor y sensibilidad en la cara. Por eso se valora también la articulación temporomandibular."
+            "text": "No trata la causa de la neuralgia ni existen ensayos que lo respalden. Puede ayudar a reducir la tensión del cuello, la mandíbula y los hombros que se acumula por el miedo a las crisis y por el estrés, siempre con técnicas suaves, lejos de las zonas gatillo y coordinado con su neurólogo."
           }
         },
         {
           "@type": "Question",
-          "name": "¿La neuralgia del trigémino puede desaparecer?",
+          "name": "¿Me tocarán la cara?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Es frecuente que alterne periodos de crisis con fases de remisión de semanas o meses. El tratamiento busca controlar las crisis y mejorar la calidad de vida."
+            "text": "Solo si usted lo acepta y lejos de las zonas gatillo. El trabajo se centra habitualmente en el cuello, la base del cráneo, los hombros y la respiración, y se detiene ante cualquier señal de crisis."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿El frío empeora la neuralgia?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "En muchas personas, sí: el viento frío y el agua fría sobre la cara son desencadenantes frecuentes. Protegerse con una bufanda y usar agua templada reduce las crisis."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Puedo hacer ejercicio?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí, y es recomendable. Elija actividades que no expongan la cara al frío ni a golpes, como caminar abrigado, nadar en piscina climatizada o la bicicleta estática."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué debo traer a la primera visita?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Los informes del neurólogo, la resonancia y la lista de la medicación que toma. Si lleva un diario de crisis, tráigalo también."
           }
         }
       ]

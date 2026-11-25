@@ -226,8 +226,8 @@
       "@type": "MedicalWebPage",
       "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/son-insomni#webpage",
       "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/son-insomni",
-      "name": "Insomni i medicina del son a Sarrià–Sant Gervasi",
-      "description": "Insomni, son no reparador i ritme circadiari a Sarrià–Sant Gervasi, Barcelona. El son com a pilar de la salut cerebral i la longevitat.",
+      "name": "Insomni i medicina del son a Sarrià–Sant Gervasi | WA LAM",
+      "description": "Insomni, son no reparador i alteracions del ritme circadiari a Sarrià–Sant Gervasi, Barcelona. El son com a pilar de la salut cerebral i la longevitat.",
       "inLanguage": "ca-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -242,7 +242,7 @@
       },
       "lastReviewed": "2026-11-18",
       "dateModified": "2026-11-18",
-      "keywords": "insomni Barcelona, problemes per dormir Sant Gervasi, tractament insomni Barcelona, son no reparador, ritme circadiari, son i alzheimer, sistema glimfàtic",
+      "keywords": "insomni Barcelona, no puedo dormir, no puedo dormir qué hago, problemes per dormir Sant Gervasi, tractament insomni Barcelona, son no reparador, ritme circadiari, son i alzheimer, sistema glimfàtic",
       "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/sueno-insomnio.png",
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -275,15 +275,69 @@
       "citation": [
         {
           "@type": "ScholarlyArticle",
-          "name": "The European Insomnia Guideline: An update on the diagnosis and treatment of insomnia 2023",
-          "url": "https://doi.org/10.1111/jsr.14035",
-          "sameAs": "https://doi.org/10.1111/jsr.14035"
+          "name": "Prevalence of insomnia and sleep characteristics in the general population of Spain",
+          "url": "https://doi.org/10.1016/j.sleep.2010.02.018",
+          "sameAs": "https://doi.org/10.1016/j.sleep.2010.02.018"
         },
         {
           "@type": "ScholarlyArticle",
-          "name": "Management of Chronic Insomnia Disorder in Adults: A Clinical Practice Guideline From the American College of Physicians",
-          "url": "https://doi.org/10.7326/M15-2175",
-          "sameAs": "https://doi.org/10.7326/M15-2175"
+          "name": "Recommended Amount of Sleep for a Healthy Adult: A Joint Consensus Statement of the American Academy of Sleep Medicine and Sleep Research Society",
+          "url": "https://doi.org/10.5664/jcsm.4758",
+          "sameAs": "https://doi.org/10.5664/jcsm.4758"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Sleep duration and all-cause mortality: a systematic review and meta-analysis of prospective studies",
+          "url": "https://doi.org/10.1093/sleep/33.5.585",
+          "sameAs": "https://doi.org/10.1093/sleep/33.5.585"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Sleep Disturbance, Sleep Duration, and Inflammation: A Systematic Review and Meta-Analysis of Cohort Studies and Experimental Sleep Deprivation",
+          "url": "https://doi.org/10.1016/j.biopsych.2015.05.014",
+          "sameAs": "https://doi.org/10.1016/j.biopsych.2015.05.014"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Cognitive Behavioral Therapy vs. Tai Chi for Late Life Insomnia and Inflammatory Risk: A Randomized Controlled Comparative Efficacy Trial",
+          "url": "https://doi.org/10.5665/sleep.4008",
+          "sameAs": "https://doi.org/10.5665/sleep.4008"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "The influence of blue light on sleep, performance and wellbeing in young adults: A systematic review",
+          "url": "https://doi.org/10.3389/fphys.2022.943108",
+          "sameAs": "https://doi.org/10.3389/fphys.2022.943108"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Evening use of light-emitting eReaders negatively affects sleep, circadian timing, and next-morning alertness",
+          "url": "https://doi.org/10.1073/pnas.1418490112",
+          "sameAs": "https://doi.org/10.1073/pnas.1418490112"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Caffeine Effects on Sleep Taken 0, 3, or 6 Hours before Going to Bed",
+          "url": "https://doi.org/10.5664/jcsm.3170",
+          "sameAs": "https://doi.org/10.5664/jcsm.3170"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Alcohol and Sleep I: Effects on Normal Sleep",
+          "url": "https://doi.org/10.1111/acer.12006",
+          "sameAs": "https://doi.org/10.1111/acer.12006"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Effects of Evening Exercise on Sleep in Healthy Participants: A Systematic Review and Meta-Analysis",
+          "url": "https://doi.org/10.1007/s40279-018-1015-0",
+          "sameAs": "https://doi.org/10.1007/s40279-018-1015-0"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Social Jetlag: Misalignment of Biological and Social Time",
+          "url": "https://doi.org/10.1080/07420520500545979",
+          "sameAs": "https://doi.org/10.1080/07420520500545979"
         },
         {
           "@type": "ScholarlyArticle",
@@ -305,15 +359,21 @@
         },
         {
           "@type": "ScholarlyArticle",
-          "name": "Sleep Disturbance, Sleep Duration, and Inflammation: A Systematic Review and Meta-Analysis of Cohort Studies and Experimental Sleep Deprivation",
-          "url": "https://doi.org/10.1016/j.biopsych.2015.05.014",
-          "sameAs": "https://doi.org/10.1016/j.biopsych.2015.05.014"
+          "name": "European guideline for the diagnosis and treatment of insomnia",
+          "url": "https://doi.org/10.1111/jsr.12594",
+          "sameAs": "https://doi.org/10.1111/jsr.12594"
         },
         {
           "@type": "ScholarlyArticle",
-          "name": "The Glymphatic-Lymphatic Continuum: Opportunities for Osteopathic Manipulative Medicine",
-          "url": "https://doi.org/10.7556/jaoa.2016.033",
-          "sameAs": "https://doi.org/10.7556/jaoa.2016.033"
+          "name": "The European Insomnia Guideline: An update on the diagnosis and treatment of insomnia 2023",
+          "url": "https://doi.org/10.1111/jsr.14035",
+          "sameAs": "https://doi.org/10.1111/jsr.14035"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Management of Chronic Insomnia Disorder in Adults: A Clinical Practice Guideline From the American College of Physicians",
+          "url": "https://doi.org/10.7326/M15-2175",
+          "sameAs": "https://doi.org/10.7326/M15-2175"
         }
       ]
     },
@@ -323,26 +383,50 @@
       "mainEntity": [
         {
           "@type": "Question",
+          "name": "No puedo dormir, ¿qué hago?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No intente forzar el sueño ni mire el reloj. Respire despacio, alargando la espiración, y si pasan unos 20 minutos sin dormirse, levántese, haga algo tranquilo con luz tenue y vuelva a la cama cuando tenga sueño. Durante el día, revise la cafeína, el alcohol, las pantallas, las siestas y la regularidad de sus horarios."
+          }
+        },
+        {
+          "@type": "Question",
           "name": "Quan es considera que tinc insomni crònic?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Quan li costa adormir-se o mantenir el son almenys tres nits per setmana durant tres mesos, i això afecta el seu dia."
+            "text": "Cuando le cuesta dormirse, mantener el sueño o se despierta demasiado pronto al menos tres noches por semana durante tres meses, y eso afecta a su día."
           }
         },
         {
           "@type": "Question",
-          "name": "Dormo vuit hores i em llevo esgotada. Per què?",
+          "name": "Llevo unas semanas durmiendo mal, ¿debo esperar a que se pase?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Pot ser degut a un son fragmentat, a un ritme circadiari desajustat, a l'estrès, a canvis hormonals o a un trastorn com l'apnea. A la primera visita revisem aquests factors i, si cal, l'adrecem a una unitat del son."
+            "text": "Si hay un motivo claro y el sueño mejora en unos días, no suele ser necesario hacer nada más. Pero si pasan dos o tres semanas, conviene actuar: mantener la hora de levantarse, evitar siestas largas, cafeína tardía y alcohol, y consultar si no mejora. En esta fase es cuando más fácil resulta evitar que se cronifique."
           }
         },
         {
           "@type": "Question",
-          "name": "Dormir malament durant anys augmenta el risc d'alzheimer?",
+          "name": "Duermo ocho horas y me levanto agotado. ¿Por qué?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Els estudis observen una associació entre dormir poc a la mitjana edat i un risc més alt de demència, però no demostren una relació causal. Tenir cura del son és, en qualsevol cas, una de les mesures preventives més raonables."
+            "text": "Puede deberse a un sueño fragmentado, a un ritmo circadiano desajustado, al estrés y el cortisol, a cambios hormonales, al alcohol nocturno o a un trastorno como la apnea del sueño. Conviene revisar estos factores y, si se sospecha apnea, consultar con una unidad del sueño."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Sirven las gafas de luz azul?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pueden ser una opción más si usa pantallas por la noche, pero lo esencial es reducir las pantallas antes de dormir, usar luz cálida en casa por la noche y exponerse a la luz natural por la mañana."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Puedo tomar infusiones o plantas para dormir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pueden formar parte de una rutina relajante, pero la evidencia es limitada y no resuelven las causas. Consulte antes con su médico si toma medicación, y nunca tome hierba de San Juan sin hacerlo, por sus interacciones."
           }
         },
         {
@@ -350,23 +434,15 @@
           "name": "He de deixar les pastilles per dormir?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No sense parlar-ne amb el seu metge. Qualsevol canvi en la medicació s'ha de fer amb la seva supervisió."
+            "text": "No sin hablarlo con su médico. Cualquier cambio en la medicación debe hacerse con su supervisión. Además de la medicación, conviene buscar la causa del insomnio y trabajar los hábitos."
           }
         },
         {
           "@type": "Question",
-          "name": "Oferiu teràpia cognitivoconductual per a l'insomni?",
+          "name": "¿Dormir mal aumenta el riesgo de alzhéimer?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "La TCC-I és el tractament de primera elecció. Si necessita un programa complet de TCC-I, el derivem a un psicòleg especialitzat en son."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Quan he d'anar a una unitat del son?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Si ronca fort amb pauses en la respiració, té molta somnolència durant el dia o sent la necessitat de moure les cames a la nit."
+            "text": "Els estudis observen una associació entre dormir poc a la mitjana edat i un risc més alt de demència, però no demostren una relació causal. Tenir cura del son és, en qualsevol cas, una de les mesures preventives més raonables."
           }
         }
       ]

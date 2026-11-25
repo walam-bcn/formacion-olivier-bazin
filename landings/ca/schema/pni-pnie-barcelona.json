@@ -226,8 +226,8 @@
       "@type": "MedicalWebPage",
       "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/pni-pnie-barcelona#webpage",
       "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/pni-pnie-barcelona",
-      "name": "PNIE a Barcelona · Psiconeuroimmunoendocrinologia",
-      "description": "Consulta de PNIE a Sarrià–Sant Gervasi, Barcelona: estrès, son, digestió, inflamació i hàbits, amb una mirada integrativa i basada en evidència.",
+      "name": "PNIE a Barcelona · Psiconeuroimmunoendocrinologia | WA LAM",
+      "description": "Consulta de PNIE (psiconeuroinmunoendocrinología) en Sarrià–Sant Gervasi, Barcelona: estrés, sueño, digestión, microbiota, hormonas e inflamación con una mirada integrativa y basada en la evidencia.",
       "inLanguage": "ca-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -269,21 +269,213 @@
       "citation": [
         {
           "@type": "ScholarlyArticle",
-          "name": "Psychological Stress and the Human Immune System: A Meta-Analytic Study of 30 Years of Inquiry",
+          "name": "Behaviorally conditioned immunosuppression",
+          "url": "https://doi.org/10.1097/00006842-197507000-00007",
+          "sameAs": "https://doi.org/10.1097/00006842-197507000-00007"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Slowing of wound healing by psychological stress",
+          "url": "https://doi.org/10.1016/s0140-6736(95)92899-5",
+          "sameAs": "https://doi.org/10.1016/s0140-6736(95)92899-5"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Stress-induced immune dysfunction: implications for health",
+          "url": "https://doi.org/10.1038/nri1571",
+          "sameAs": "https://doi.org/10.1038/nri1571"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Psychological stress and the human immune system: a meta-analytic study of 30 years of inquiry",
           "url": "https://doi.org/10.1037/0033-2909.130.4.601",
           "sameAs": "https://doi.org/10.1037/0033-2909.130.4.601"
         },
         {
           "@type": "ScholarlyArticle",
-          "name": "Sleep Disturbance, Sleep Duration, and Inflammation: A Systematic Review and Meta-Analysis of Cohort Studies and Experimental Sleep Deprivation",
+          "name": "Psychoneuroimmunoendocrinology: clinical implications",
+          "url": "https://doi.org/10.1186/s40413-017-0151-6",
+          "sameAs": "https://doi.org/10.1186/s40413-017-0151-6"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Microbes, immunity, and behavior: psychoneuroimmunology meets the microbiome",
+          "url": "https://doi.org/10.1038/npp.2016.103",
+          "sameAs": "https://doi.org/10.1038/npp.2016.103"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "The microbiota-gut-brain axis",
+          "url": "https://doi.org/10.1152/physrev.00018.2018",
+          "sameAs": "https://doi.org/10.1152/physrev.00018.2018"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Psychoneuroimmunology or immunopsychiatry?",
+          "url": "https://doi.org/10.1016/S2215-0366(15)00042-5",
+          "sameAs": "https://doi.org/10.1016/S2215-0366(15)00042-5"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Extensive impact of non-antibiotic drugs on human gut bacteria",
+          "url": "https://doi.org/10.1038/nature25979",
+          "sameAs": "https://doi.org/10.1038/nature25979"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Proton pump inhibitors affect the gut microbiome",
+          "url": "https://doi.org/10.1136/gutjnl-2015-310376",
+          "sameAs": "https://doi.org/10.1136/gutjnl-2015-310376"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Childhood maltreatment predicts adult inflammation in a life-course study",
+          "url": "https://doi.org/10.1073/pnas.0610362104",
+          "sameAs": "https://doi.org/10.1073/pnas.0610362104"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Aggression, social stress, and the immune system in humans and animal models",
+          "url": "https://doi.org/10.3389/fnbeh.2018.00056",
+          "sameAs": "https://doi.org/10.3389/fnbeh.2018.00056"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Hostile marital interactions, proinflammatory cytokine production, and wound healing",
+          "url": "https://doi.org/10.1001/archpsyc.62.12.1377",
+          "sameAs": "https://doi.org/10.1001/archpsyc.62.12.1377"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Inflammation and its discontents: the role of cytokines in the pathophysiology of major depression",
+          "url": "https://doi.org/10.1016/j.biopsych.2008.11.029",
+          "sameAs": "https://doi.org/10.1016/j.biopsych.2008.11.029"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Inflammatory mediators in mood disorders: therapeutic opportunities",
+          "url": "https://doi.org/10.1146/annurev-pharmtox-010617-052823",
+          "sameAs": "https://doi.org/10.1146/annurev-pharmtox-010617-052823"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Regulatory T cells as supporters of psychoimmune resilience: toward immunotherapy of major depressive disorder",
+          "url": "https://doi.org/10.3389/fneur.2018.00167",
+          "sameAs": "https://doi.org/10.3389/fneur.2018.00167"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Peripheral alterations in cytokine and chemokine levels after antidepressant drug treatment for major depressive disorder: systematic review and meta-analysis",
+          "url": "https://doi.org/10.1007/s12035-017-0632-1",
+          "sameAs": "https://doi.org/10.1007/s12035-017-0632-1"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "From inflammation to sickness and depression: when the immune system subjugates the brain",
+          "url": "https://doi.org/10.1038/nrn2297",
+          "sameAs": "https://doi.org/10.1038/nrn2297"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "A mechanism converting psychosocial stress into mononuclear cell activation",
+          "url": "https://doi.org/10.1073/pnas.0438019100",
+          "sameAs": "https://doi.org/10.1073/pnas.0438019100"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Stress and neuroinflammation: a systematic review of the effects of stress on microglia and the implications for mental illness",
+          "url": "https://doi.org/10.1007/s00213-016-4218-9",
+          "sameAs": "https://doi.org/10.1007/s00213-016-4218-9"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Leisure sickness: a pilot study on its prevalence, phenomenology, and background",
+          "url": "https://doi.org/10.1159/000065992",
+          "sameAs": "https://doi.org/10.1159/000065992"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Vagus nerve stimulation attenuates the systemic inflammatory response to endotoxin",
+          "url": "https://doi.org/10.1038/35013070",
+          "sameAs": "https://doi.org/10.1038/35013070"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "The inflammatory reflex",
+          "url": "https://doi.org/10.1038/nature01321",
+          "sameAs": "https://doi.org/10.1038/nature01321"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "A distinct vagal anti-inflammatory pathway modulates intestinal muscularis resident macrophages independent of the spleen",
+          "url": "https://doi.org/10.1136/gutjnl-2013-304676",
+          "sameAs": "https://doi.org/10.1136/gutjnl-2013-304676"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Sleep disturbance, sleep duration, and inflammation: a systematic review and meta-analysis of cohort studies and experimental sleep deprivation",
           "url": "https://doi.org/10.1016/j.biopsych.2015.05.014",
           "sameAs": "https://doi.org/10.1016/j.biopsych.2015.05.014"
         },
         {
           "@type": "ScholarlyArticle",
-          "name": "The Microbiota-Gut-Brain Axis",
-          "url": "https://doi.org/10.1152/physrev.00018.2018",
-          "sameAs": "https://doi.org/10.1152/physrev.00018.2018"
+          "name": "Sleep duration and all-cause mortality: a systematic review and meta-analysis of prospective studies",
+          "url": "https://doi.org/10.1093/sleep/33.5.585",
+          "sameAs": "https://doi.org/10.1093/sleep/33.5.585"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Psychoneuroimmunology and cancer: a decade of discovery, paradigm shifts, and methodological innovations",
+          "url": "https://doi.org/10.1016/j.bbi.2013.01.003",
+          "sameAs": "https://doi.org/10.1016/j.bbi.2013.01.003"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Progesterone synthesis in the nervous system: implications for myelination and myelin repair",
+          "url": "https://doi.org/10.3389/fnins.2012.00010",
+          "sameAs": "https://doi.org/10.3389/fnins.2012.00010"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Pro-resolving lipid mediators are leads for resolution physiology",
+          "url": "https://doi.org/10.1038/nature13479",
+          "sameAs": "https://doi.org/10.1038/nature13479"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Acute inflammatory response via neutrophil activation protects against the development of chronic pain",
+          "url": "https://doi.org/10.1126/scitranslmed.abj9954",
+          "sameAs": "https://doi.org/10.1126/scitranslmed.abj9954"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Commensal microbe-derived butyrate induces the differentiation of colonic regulatory T cells",
+          "url": "https://doi.org/10.1038/nature12721",
+          "sameAs": "https://doi.org/10.1038/nature12721"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Effect of cooling of cooked white rice on resistant starch content and glycemic response",
+          "url": "https://doi.org/10.6133/apjcn.2015.24.4.13",
+          "sameAs": "https://doi.org/10.6133/apjcn.2015.24.4.13"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Histamine and histamine intolerance",
+          "url": "https://doi.org/10.1093/ajcn/85.5.1185",
+          "sameAs": "https://doi.org/10.1093/ajcn/85.5.1185"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Stress, atopy and allergy: a re-evaluation from a psychoneuroimmunologic perspective",
+          "url": "https://doi.org/10.4161/derm.3.1.14618",
+          "sameAs": "https://doi.org/10.4161/derm.3.1.14618"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Stool form scale as a useful guide to intestinal transit time",
+          "url": "https://doi.org/10.3109/00365529709011203",
+          "sameAs": "https://doi.org/10.3109/00365529709011203"
         },
         {
           "@type": "ScholarlyArticle",
@@ -356,7 +548,7 @@
         }
       ],
       "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/pni-pnie-barcelona",
-      "description": "Consulta de PNIE a Sarrià–Sant Gervasi, Barcelona: estrès, son, digestió, inflamació i hàbits, amb una mirada integrativa i basada en evidència."
+      "description": "Consulta de PNIE (psiconeuroinmunoendocrinología) en Sarrià–Sant Gervasi, Barcelona: estrés, sueño, digestión, microbiota, hormonas e inflamación con una mirada integrativa y basada en la evidencia."
     },
     {
       "@type": "FAQPage",
@@ -364,26 +556,66 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Quina diferència hi ha entre PNI i PNIE?",
+          "name": "¿Qué hace un profesional de PNIE?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Són pràcticament el mateix. La «E» de PNIE subratlla el paper del sistema endocrí (hormonal), que a la pràctica ja està inclòs a la PNI."
+            "text": "Escucha la historia completa de la persona, relaciona los síntomas entre sí y con los hábitos de vida, y busca el origen y el mecanismo que los mantiene. A partir de ahí propone cambios ordenados en alimentación, descanso, movimiento y gestión del estrés. No diagnostica enfermedades ni receta fármacos, y trabaja en coordinación con el médico."
           }
         },
         {
           "@type": "Question",
-          "name": "He de portar analítiques?",
+          "name": "¿La PNIE está al margen de la medicina convencional?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Si té analítiques recents, porti-les. Si cal alguna prova, li ho indicarem i li explicarem per a què."
+            "text": "No. Es una visión integrativa que tiene en cuenta los niveles fisiológico, psicológico, nutricional y social, y que se basa en la investigación sobre la comunicación entre sistemas. Se aplica en coordinación con la medicina convencional: el diagnóstico y el tratamiento médico los decide su médico."
           }
         },
         {
           "@type": "Question",
-          "name": "És el mateix que nutrició?",
+          "name": "Quant dura i quant costa la primera visita?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "L'alimentació n'és una part important, però la consulta de PNIE també aborda el son, l'estrès, el moviment i els ritmes circadiaris."
+            "text": "La primera visita dura 60 minutos y cuesta 90 €. En ella se recoge la historia clínica completa y se explica, con un esquema, de dónde puede venir el problema y qué conviene trabajar primero."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿En la consulta de PNIE se recetan medicamentos?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. En la consulta de PNIE no se recetan fármacos ni se modifica la medicación que ya toma. Si algún aspecto requiere una valoración o un tratamiento médico, se le indicará que consulte con su médico."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Necesito traer analíticas o pruebas?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Si tiene analíticas, informes o estudios recientes, tráigalos: ayudan a entender el caso. Si conviene completar el estudio, por ejemplo con un análisis de heces o de microbiota, se le explicará para qué sirve y qué información aportará."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Es lo mismo que una consulta de nutrición?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. La alimentación es una parte importante, pero la PNIE abarca también el sueño, el estrés, las emociones, las hormonas, el movimiento y los ritmos de vida. La consulta de nutrición y salud intestinal se centra en la alimentación, y ambas pueden combinarse."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué diferencia hay entre la PNIE y la medicina integrativa?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "La PNIE estudia cómo se comunican el sistema nervioso, el hormonal, el inmune, la microbiota y la conducta, y busca el origen y el mecanismo de los síntomas. La medicina integrativa es el marco clínico que combina la medicina convencional con otras herramientas basadas en la evidencia, centrado en la persona."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuánto tiempo se tarda en notar cambios?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Depende de cada caso, del tiempo de evolución y de los cambios que se puedan introducir. Los hábitos de sueño, alimentación y gestión del estrés suelen necesitar semanas para mostrar su efecto, por eso el plan se organiza por fases y se revisa en las visitas de seguimiento."
           }
         }
       ]

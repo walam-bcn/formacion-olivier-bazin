@@ -227,7 +227,7 @@
       "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/osteoporosis#webpage",
       "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/osteoporosis",
       "name": "Osteoporosis y salud ósea en Barcelona | WA LAM",
-      "description": "Osteoporosis y osteopenia en Sarrià–Sant Gervasi, Barcelona: ejercicio de fuerza, alimentación, equilibrio y prevención de caídas en un plan por fases.",
+      "description": "Qué es la osteoporosis, por qué aparece, las fracturas vertebrales que pasan desapercibidas, el ejercicio de fuerza e impacto que estimula el hueso, la prevención de caídas y el tratamiento conservador en Sarrià–Sant Gervasi, Barcelona.",
       "inLanguage": "es-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -275,9 +275,57 @@
       "citation": [
         {
           "@type": "ScholarlyArticle",
-          "name": "High-Intensity Resistance and Impact Training Improves Bone Mineral Density and Physical Function in Postmenopausal Women With Osteopenia and Osteoporosis: The LIFTMOR Randomized Controlled Trial",
+          "name": "SCOPE 2021: a new scorecard for osteoporosis in Europe",
+          "url": "https://doi.org/10.1007/s11657-020-00871-9",
+          "sameAs": "https://doi.org/10.1007/s11657-020-00871-9"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Osteoporosis in Europe: a compendium of country-specific reports",
+          "url": "https://doi.org/10.1007/s11657-021-00969-8",
+          "sameAs": "https://doi.org/10.1007/s11657-021-00969-8"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Worldwide prevalence and incidence of osteoporotic vertebral fractures",
+          "url": "https://doi.org/10.1007/s00198-017-3909-3",
+          "sameAs": "https://doi.org/10.1007/s00198-017-3909-3"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Hyperkyphotic posture predicts mortality in older community-dwelling men and women: a prospective study",
+          "url": "https://doi.org/10.1111/j.1532-5415.2004.52458.x",
+          "sameAs": "https://doi.org/10.1111/j.1532-5415.2004.52458.x"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Targeted spine strengthening exercise and posture training program to reduce hyperkyphosis in older adults: results from the study of hyperkyphosis, exercise, and function (SHEAF) randomized controlled trial",
+          "url": "https://doi.org/10.1007/s00198-017-4109-x",
+          "sameAs": "https://doi.org/10.1007/s00198-017-4109-x"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Mechanotherapy: how physical therapists' prescription of exercise promotes tissue repair",
+          "url": "https://doi.org/10.1136/bjsm.2008.054239",
+          "sameAs": "https://doi.org/10.1136/bjsm.2008.054239"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "High-intensity resistance and impact training improves bone mineral density and physical function in postmenopausal women with osteopenia and osteoporosis: the LIFTMOR randomized controlled trial",
           "url": "https://doi.org/10.1002/jbmr.3284",
           "sameAs": "https://doi.org/10.1002/jbmr.3284"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Exercise reduces the number of overall and major osteoporotic fractures in adults. Does supervision make a difference? Systematic review and meta-analysis",
+          "url": "https://doi.org/10.1002/jbmr.4683",
+          "sameAs": "https://doi.org/10.1002/jbmr.4683"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Sarcopenia: revised European consensus on definition and diagnosis",
+          "url": "https://doi.org/10.1093/ageing/afy169",
+          "sameAs": "https://doi.org/10.1093/ageing/afy169"
         },
         {
           "@type": "ScholarlyArticle",
@@ -287,9 +335,21 @@
         },
         {
           "@type": "ScholarlyArticle",
-          "name": "Sarcopenia: revised European consensus on definition and diagnosis",
-          "url": "https://doi.org/10.1093/ageing/afy169",
-          "sameAs": "https://doi.org/10.1093/ageing/afy169"
+          "name": "Central sensitization: implications for the diagnosis and treatment of pain",
+          "url": "https://doi.org/10.1016/j.pain.2010.09.030",
+          "sameAs": "https://doi.org/10.1016/j.pain.2010.09.030"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "How the weather affects the pain of citizen scientists using a smartphone app",
+          "url": "https://doi.org/10.1038/s41746-019-0180-3",
+          "sameAs": "https://doi.org/10.1038/s41746-019-0180-3"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Too Fit To Fracture: exercise recommendations for individuals with osteoporosis or osteoporotic vertebral fracture",
+          "url": "https://doi.org/10.1007/s00198-013-2523-2",
+          "sameAs": "https://doi.org/10.1007/s00198-013-2523-2"
         }
       ]
     },
@@ -299,34 +359,66 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "¿Puedo hacer ejercicio de fuerza si tengo osteoporosis?",
+          "name": "¿Puedo hacer ejercicio si tengo osteoporosis?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí. Bien adaptado y progresivo, es una de las medidas más útiles para cuidar el hueso y el músculo. Ajustamos la carga y los movimientos a su densitometría y a su situación."
+            "text": "Sí, y es muy recomendable. El ejercicio de fuerza y de equilibrio fortalece el hueso y el músculo y reduce las caídas y las fracturas. Conviene que sea progresivo y, al principio, supervisado, sobre todo si ha tenido fracturas vertebrales."
           }
         },
         {
           "@type": "Question",
-          "name": "¿Cuánto tiempo tarda en notarse la mejoría?",
+          "name": "¿Caminar es suficiente para los huesos?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "La fuerza y el equilibrio mejoran en pocas semanas de ejercicio regular. Los cambios en el hueso son más lentos y se valoran con la densitometría al cabo de uno o dos años."
+            "text": "Caminar es muy beneficioso, pero no basta por sí solo. El hueso responde mejor a cargas más altas, como el ejercicio de fuerza, y el equilibrio necesita un entrenamiento específico."
           }
         },
         {
           "@type": "Question",
-          "name": "¿Qué relación tiene con la menopausia?",
+          "name": "¿La osteopatía es segura con osteoporosis?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "El descenso de estrógenos acelera la pérdida de hueso en los años posteriores a la menopausia. Es un buen momento para empezar a cuidarlo; puede consultar también salud de la mujer y menopausia."
+            "text": "Sí, adaptada: se eligen técnicas suaves y se evitan las manipulaciones de alta velocidad sobre la columna y las costillas. Un dolor de espalda brusco debe valorarlo antes el médico para descartar una fractura."
           }
         },
         {
           "@type": "Question",
-          "name": "¿Qué debo traer a la primera visita?",
+          "name": "¿La osteoporosis duele?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Su última densitometría, las analíticas recientes y la lista de la medicación que toma."
+            "text": "No por sí misma. Lo que duele son las fracturas y la sobrecarga muscular y postural que dejan. Por eso es importante detectarla antes de la primera fractura."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Puedo tener una fractura vertebral sin saberlo?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. Muchas fracturas vertebrales producen poco dolor o se confunden con un dolor de espalda común. La pérdida de altura o una espalda más curvada pueden ser la única pista."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué alimentos ayudan a los huesos?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Los ricos en calcio, como los lácteos, los frutos secos, las legumbres y las verduras de hoja verde, y una cantidad suficiente de proteínas. La vitamina D procede sobre todo del sol; si es necesario, su médico valorará un suplemento."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Los hombres también tienen osteoporosis?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí, aunque con menos frecuencia y más tarde que las mujeres. En los hombres se diagnostica menos, por lo que conviene consultar ante fracturas por caídas leves o pérdida de altura."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuántas sesiones necesitaré?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Depende de su situación, de si hay dolor o fracturas y de sus objetivos. Tras la primera visita se propone un plan con ejercicios para casa y revisiones que se van espaciando."
           }
         }
       ]

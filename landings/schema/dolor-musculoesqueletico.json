@@ -227,7 +227,7 @@
       "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/dolor-musculoesqueletico#webpage",
       "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/dolor-musculoesqueletico",
       "name": "Dolor musculoesquelético en Barcelona | WA LAM",
-      "description": "Dolor musculoesquelético en Sarrià–Sant Gervasi, Barcelona: contracturas, roturas fibrilares, esguinces y lesiones deportivas. Diagnóstico y tratamiento.",
+      "description": "Qué es el dolor musculoesquelético, sus tipos (agudo, crónico, nociceptivo, neuropático, nociplástico), el dolor referido desde la columna y las vísceras, cuándo consultar y su tratamiento conservador en Sarrià–Sant Gervasi, Barcelona.",
       "inLanguage": "es-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -270,15 +270,177 @@
       "citation": [
         {
           "@type": "ScholarlyArticle",
+          "name": "Chronic pain as a symptom or a disease: the IASP Classification of Chronic Pain for the International Classification of Diseases (ICD-11)",
+          "url": "https://doi.org/10.1097/j.pain.0000000000001384",
+          "sameAs": "https://doi.org/10.1097/j.pain.0000000000001384"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Do we need a third mechanistic descriptor for chronic pain states?",
+          "url": "https://doi.org/10.1097/j.pain.0000000000000507",
+          "sameAs": "https://doi.org/10.1097/j.pain.0000000000000507"
+        },
+        {
+          "@type": "ScholarlyArticle",
           "name": "Global estimates of the need for rehabilitation based on the Global Burden of Disease study 2019: a systematic analysis for the Global Burden of Disease Study 2019",
           "url": "https://doi.org/10.1016/S0140-6736(20)32340-0",
           "sameAs": "https://doi.org/10.1016/S0140-6736(20)32340-0"
         },
         {
           "@type": "ScholarlyArticle",
-          "name": "Acupuncture for Chronic Pain: Update of an Individual Patient Data Meta-Analysis",
-          "url": "https://doi.org/10.1016/j.jpain.2017.11.005",
-          "sameAs": "https://doi.org/10.1016/j.jpain.2017.11.005"
+          "name": "The economic and social burden of low back pain in Spain: a national assessment of the economic and social impact of low back pain in Spain",
+          "url": "https://doi.org/10.1097/BRS.0000000000003476",
+          "sameAs": "https://doi.org/10.1097/BRS.0000000000003476"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "A nationwide study of chronic pain prevalence in the general Spanish population: identifying clinical subgroups through cluster analysis",
+          "url": "https://doi.org/10.1111/pme.12640",
+          "sameAs": "https://doi.org/10.1111/pme.12640"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Association between sedentary behavior and low back pain; a systematic review and meta-analysis",
+          "url": "https://doi.org/10.34172/hpp.2021.50",
+          "sameAs": "https://doi.org/10.34172/hpp.2021.50"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "A study exploring the prevalence of Extremity Pain of Spinal Source (EXPOSS)",
+          "url": "https://doi.org/10.1080/10669817.2019.1661706",
+          "sameAs": "https://doi.org/10.1080/10669817.2019.1661706"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Physiology of visceral pain",
+          "url": "https://doi.org/10.1002/cphy.c150049",
+          "sameAs": "https://doi.org/10.1002/cphy.c150049"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Pathophysiology of visceral pain",
+          "url": "https://doi.org/10.5935/1806-0013.20140032",
+          "sameAs": "https://doi.org/10.5935/1806-0013.20140032"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Proprioception in knee osteoarthritis: a narrative review",
+          "url": "https://doi.org/10.1016/j.joca.2011.01.003",
+          "sameAs": "https://doi.org/10.1016/j.joca.2011.01.003"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "The effectiveness of exercise interventions to prevent sports injuries: a systematic review and meta-analysis of randomised controlled trials",
+          "url": "https://doi.org/10.1136/bjsports-2013-092538",
+          "sameAs": "https://doi.org/10.1136/bjsports-2013-092538"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Mechanotherapy: how physical therapists' prescription of exercise promotes tissue repair",
+          "url": "https://doi.org/10.1136/bjsm.2008.054239",
+          "sameAs": "https://doi.org/10.1136/bjsm.2008.054239"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "High-intensity resistance and impact training improves bone mineral density and physical function in postmenopausal women with osteopenia and osteoporosis: the LIFTMOR randomized controlled trial",
+          "url": "https://doi.org/10.1002/jbmr.3284",
+          "sameAs": "https://doi.org/10.1002/jbmr.3284"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Impact of exercise on articular cartilage in people at risk of, or with established, knee osteoarthritis: a systematic review of randomised controlled trials",
+          "url": "https://doi.org/10.1136/bjsports-2017-098661",
+          "sameAs": "https://doi.org/10.1136/bjsports-2017-098661"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Central sensitization: implications for the diagnosis and treatment of pain",
+          "url": "https://doi.org/10.1016/j.pain.2010.09.030",
+          "sameAs": "https://doi.org/10.1016/j.pain.2010.09.030"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Neurochemical changes in patients with chronic low back pain detected by proton magnetic resonance spectroscopy: a systematic review",
+          "url": "https://doi.org/10.1016/j.nicl.2016.11.006",
+          "sameAs": "https://doi.org/10.1016/j.nicl.2016.11.006"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "The mechanisms of manual therapy in the treatment of musculoskeletal pain: a comprehensive model",
+          "url": "https://doi.org/10.1016/j.math.2008.09.001",
+          "sameAs": "https://doi.org/10.1016/j.math.2008.09.001"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "The effect of spinal manipulation on brain neurometabolites in chronic nonspecific low back pain patients: a randomized clinical trial",
+          "url": "https://doi.org/10.1007/s11845-019-02140-2",
+          "sameAs": "https://doi.org/10.1007/s11845-019-02140-2"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Benefits and harms of spinal manipulative therapy for the treatment of chronic low back pain: systematic review and meta-analysis of randomised controlled trials",
+          "url": "https://doi.org/10.1136/bmj.l689",
+          "sameAs": "https://doi.org/10.1136/bmj.l689"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Efficacy and safety of osteopathic manipulative treatment: an overview of systematic reviews",
+          "url": "https://doi.org/10.1136/bmjopen-2021-053468",
+          "sameAs": "https://doi.org/10.1136/bmjopen-2021-053468"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Pain mechanisms: a new theory",
+          "url": "https://doi.org/10.1126/science.150.3699.971",
+          "sameAs": "https://doi.org/10.1126/science.150.3699.971"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "How the weather affects the pain of citizen scientists using a smartphone app",
+          "url": "https://doi.org/10.1038/s41746-019-0180-3",
+          "sameAs": "https://doi.org/10.1038/s41746-019-0180-3"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "The influence of weather conditions on joint pain in older people with osteoarthritis: results from the European Project on OSteoArthritis",
+          "url": "https://doi.org/10.3899/jrheum.141594",
+          "sameAs": "https://doi.org/10.3899/jrheum.141594"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Association between rainfall and diagnoses of joint or back pain: retrospective claims analysis",
+          "url": "https://doi.org/10.1136/bmj.j5326",
+          "sameAs": "https://doi.org/10.1136/bmj.j5326"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "What does best practice care for musculoskeletal pain look like? Eleven consistent recommendations from high-quality clinical practice guidelines: systematic review",
+          "url": "https://doi.org/10.1136/bjsports-2018-099878",
+          "sameAs": "https://doi.org/10.1136/bjsports-2018-099878"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Osteopathic manipulative treatment for nonspecific low back pain: a systematic review and meta-analysis",
+          "url": "https://doi.org/10.1186/1471-2474-15-286",
+          "sameAs": "https://doi.org/10.1186/1471-2474-15-286"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "World Health Organization 2020 guidelines on physical activity and sedentary behaviour",
+          "url": "https://doi.org/10.1136/bjsports-2020-102955",
+          "sameAs": "https://doi.org/10.1136/bjsports-2020-102955"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Prevention of low back pain: a systematic review and meta-analysis",
+          "url": "https://doi.org/10.1001/jamainternmed.2015.7431",
+          "sameAs": "https://doi.org/10.1001/jamainternmed.2015.7431"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Exercise for the prevention of low back pain: systematic review and meta-analysis of controlled trials",
+          "url": "https://doi.org/10.1093/aje/kwx337",
+          "sameAs": "https://doi.org/10.1093/aje/kwx337"
         }
       ]
     },
@@ -288,42 +450,66 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "¿Qué diferencia hay entre una contractura y una rotura fibrilar?",
+          "name": "¿Qué diferencia hay entre dolor agudo y crónico?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "En la contractura el músculo está tenso y dolorido, pero sin rotura de fibras, y suele mejorar en pocos días. En la rotura fibrilar hay un daño parcial de las fibras: el dolor es súbito e intenso, puede aparecer un hematoma y la recuperación lleva varias semanas."
+            "text": "El agudo dura menos de seis semanas y suele estar ligado a una lesión o sobrecarga concreta. El crónico persiste o se repite durante más de tres meses; en él influye cada vez más la sensibilidad del sistema nervioso, además del tejido."
           }
         },
         {
           "@type": "Question",
-          "name": "¿Frío o calor?",
+          "name": "¿Por qué me duele si las pruebas salen normales?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "En las primeras 48–72 horas tras una lesión aguda, frío local. En las contracturas y en la fase de recuperación, el calor ayuda a relajar la musculatura."
+            "text": "Porque el dolor no depende solo del estado de los tejidos. Un sistema nervioso sensibilizado puede producir un dolor real sin lesión visible, y muchas lesiones visibles no duelen. La valoración clínica es más importante que la imagen."
           }
         },
         {
           "@type": "Question",
-          "name": "¿Cuándo puedo volver a hacer deporte?",
+          "name": "¿Un dolor de hombro o de rodilla puede venir de la columna?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Cuando la zona ya no duele en las actividades diarias y se han recuperado la fuerza y la movilidad. La vuelta debe ser progresiva, y los plazos dependen del tipo y del grado de la lesión."
+            "text": "Sí. En el estudio EXPOSS, el 43,5 % de los dolores aislados de las extremidades tenía un origen vertebral. Por eso la valoración incluye siempre la columna."
           }
         },
         {
           "@type": "Question",
-          "name": "¿Cuándo debo consultar por un dolor muscular?",
+          "name": "¿Es mejor reposo o movimiento?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Si el dolor dura más de dos o tres semanas, se repite o le impide hacer su actividad habitual. Ante una deformidad, la imposibilidad de apoyar o una pérdida de fuerza, acuda a urgencias."
+            "text": "Salvo en las lesiones graves, el movimiento dentro de lo tolerable acelera la recuperación. El reposo prolongado debilita los tejidos y aumenta la sensibilidad al dolor."
           }
         },
         {
           "@type": "Question",
-          "name": "¿En qué se diferencia del dolor articular y miofascial?",
+          "name": "¿El dolor crónico se puede mejorar?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Esta página se centra en las lesiones musculares y de ligamentos, agudas o por sobrecarga. El dolor articular y miofascial incluye la artrosis, las tendinopatías y los puntos gatillo."
+            "text": "Sí. El sistema nervioso es plástico: igual que aprendió a amplificar el dolor, puede aprender a modularlo con educación, ejercicio progresivo y terapia manual. La mejoría suele ser gradual."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Por qué me duele más cuando cambia el tiempo?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "La humedad, la presión y el frío pueden aumentar la rigidez y la sensibilidad de los tejidos, y además nos movemos menos. El efecto es real pero modesto, y el tiempo no daña los tejidos."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Necesito una prueba de imagen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No siempre. Se pide cuando hay señales de alarma, sospecha de fractura o de lesión importante, o cuando el resultado puede cambiar el tratamiento."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuántas sesiones necesitaré?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Depende del origen del dolor, del tiempo de evolución y de la respuesta de cada persona. Tras la primera visita se propone un plan con objetivos claros, ejercicios para casa y revisiones que se van espaciando."
           }
         }
       ]

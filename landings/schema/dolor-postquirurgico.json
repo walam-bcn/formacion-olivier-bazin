@@ -227,7 +227,7 @@
       "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/dolor-postquirurgico#webpage",
       "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/dolor-postquirurgico",
       "name": "Dolor postquirúrgico en Barcelona | WA LAM",
-      "description": "Dolor postquirúrgico persistente en Sarrià–Sant Gervasi, Barcelona: por qué se mantiene tras una operación, cómo se diagnostica y cómo se trata.",
+      "description": "Dolor postquirúrgico persistente en Sarrià–Sant Gervasi, Barcelona: qué es, por qué se mantiene tras una operación (nervios, inflamación, cicatriz, sistema nervioso), quién tiene más riesgo y cómo se trata.",
       "inLanguage": "es-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -275,15 +275,99 @@
       "citation": [
         {
           "@type": "ScholarlyArticle",
+          "name": "The IASP classification of chronic pain for ICD-11: chronic postsurgical or posttraumatic pain",
+          "url": "https://doi.org/10.1097/j.pain.0000000000001413",
+          "sameAs": "https://doi.org/10.1097/j.pain.0000000000001413"
+        },
+        {
+          "@type": "ScholarlyArticle",
           "name": "Persistent postsurgical pain: risk factors and prevention",
           "url": "https://doi.org/10.1016/S0140-6736(06)68700-X",
           "sameAs": "https://doi.org/10.1016/S0140-6736(06)68700-X"
         },
         {
           "@type": "ScholarlyArticle",
-          "name": "The Efficacy of Acupuncture in Post-Operative Pain Management: A Systematic Review and Meta-Analysis",
-          "url": "https://doi.org/10.1371/journal.pone.0150367",
-          "sameAs": "https://doi.org/10.1371/journal.pone.0150367"
+          "name": "Chronic postsurgical pain: a European survey",
+          "url": "https://doi.org/10.1097/EJA.0000000000001974",
+          "sameAs": "https://doi.org/10.1097/EJA.0000000000001974"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "What proportion of patients report long-term pain after total hip or knee replacement for osteoarthritis? A systematic review of prospective studies in unselected patients",
+          "url": "https://doi.org/10.1136/bmjopen-2011-000435",
+          "sameAs": "https://doi.org/10.1136/bmjopen-2011-000435"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Incidence and severity of chronic pain after caesarean section: a systematic review with meta-analysis",
+          "url": "https://doi.org/10.1097/EJA.0000000000000535",
+          "sameAs": "https://doi.org/10.1097/EJA.0000000000000535"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Preoperative anxiety and catastrophizing: a systematic review and meta-analysis of the association with chronic postsurgical pain",
+          "url": "https://doi.org/10.1097/AJP.0b013e31824549d6",
+          "sameAs": "https://doi.org/10.1097/AJP.0b013e31824549d6"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Predictors of persistent pain after breast cancer surgery: a systematic review and meta-analysis of observational studies",
+          "url": "https://doi.org/10.1503/cmaj.151276",
+          "sameAs": "https://doi.org/10.1503/cmaj.151276"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Central sensitization: implications for the diagnosis and treatment of pain",
+          "url": "https://doi.org/10.1016/j.pain.2010.09.030",
+          "sameAs": "https://doi.org/10.1016/j.pain.2010.09.030"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Acute inflammatory response via neutrophil activation protects against the development of chronic pain",
+          "url": "https://doi.org/10.1126/scitranslmed.abj9954",
+          "sameAs": "https://doi.org/10.1126/scitranslmed.abj9954"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Nociceptor neurons direct goblet cells via a CGRP-RAMP1 axis to drive mucus production and gut barrier protection",
+          "url": "https://doi.org/10.1016/j.cell.2022.09.024",
+          "sameAs": "https://doi.org/10.1016/j.cell.2022.09.024"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Neurochemical changes in patients with chronic low back pain detected by proton magnetic resonance spectroscopy: a systematic review",
+          "url": "https://doi.org/10.1016/j.nicl.2016.11.006",
+          "sameAs": "https://doi.org/10.1016/j.nicl.2016.11.006"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "The mechanisms of manual therapy in the treatment of musculoskeletal pain: a comprehensive model",
+          "url": "https://doi.org/10.1016/j.math.2008.09.001",
+          "sameAs": "https://doi.org/10.1016/j.math.2008.09.001"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Unraveling the mechanisms of manual therapy: modeling an approach",
+          "url": "https://doi.org/10.2519/jospt.2018.7476",
+          "sameAs": "https://doi.org/10.2519/jospt.2018.7476"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "The effect of spinal manipulation on brain neurometabolites in chronic nonspecific low back pain patients: a randomized clinical trial",
+          "url": "https://doi.org/10.1007/s11845-019-02140-2",
+          "sameAs": "https://doi.org/10.1007/s11845-019-02140-2"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Efficacy and safety of osteopathic manipulative treatment: an overview of systematic reviews",
+          "url": "https://doi.org/10.1136/bmjopen-2021-053468",
+          "sameAs": "https://doi.org/10.1136/bmjopen-2021-053468"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Physical activity and exercise for chronic pain in adults: an overview of Cochrane Reviews",
+          "url": "https://doi.org/10.1002/14651858.CD011279.pub3",
+          "sameAs": "https://doi.org/10.1002/14651858.CD011279.pub3"
         }
       ]
     },
@@ -296,7 +380,15 @@
           "name": "¿Es normal tener dolor meses después de una operación?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Es más frecuente de lo que se cree: entre el 10 % y el 50 % de las personas mantienen algún grado de dolor tras cirugías habituales. Conviene valorarlo pronto para evitar que se cronifique."
+            "text": "Es más frecuente de lo que se cree: entre el 10 % y el 50 % de las personas mantienen algún grado de dolor tras cirugías habituales. No es «normal» en el sentido de que haya que resignarse: conviene valorarlo pronto para evitar que se cronifique."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Me dicen que la operación ha ido bien, ¿por qué me sigue doliendo?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Una cirugía técnicamente perfecta puede dejar dolor por la lesión de pequeños nervios, por adherencias en la cicatriz, por la pérdida de movilidad o por la sensibilización del sistema nervioso. Que las pruebas sean normales no significa que el dolor no sea real."
           }
         },
         {
@@ -304,7 +396,7 @@
           "name": "¿Cuándo puedo empezar después de la operación?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Depende del tipo de intervención y de los plazos que le indique su cirujano. En la primera visita valoramos en qué fase de la recuperación se encuentra."
+            "text": "Depende del tipo de intervención y de los plazos que le indique su cirujano. El trabajo directo sobre la cicatriz empieza cuando la herida está bien cerrada; antes se puede trabajar la respiración, la movilidad general y las zonas alejadas."
           }
         },
         {
@@ -312,7 +404,23 @@
           "name": "¿Por qué me molesta la cicatriz al roce?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Es frecuente cuando se han lesionado pequeños nervios de la piel durante la cirugía. Esta hipersensibilidad (alodinia) suele mejorar con un trabajo progresivo sobre la cicatriz y la regulación del dolor."
+            "text": "Es frecuente cuando se han lesionado pequeños nervios de la piel. Esta hipersensibilidad, llamada alodinia, suele mejorar con una desensibilización progresiva y con el trabajo sobre la cicatriz y el sistema nervioso."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Debo dejar los antiinflamatorios?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No, si se los ha pautado su médico. Los estudios sobre la inflamación y el dolor crónico son preliminares y muestran asociaciones, no causas. Cualquier cambio en la medicación debe consultarlo con su médico."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Mi cicatriz puede causarme dolor de espalda?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Puede contribuir. Las tensiones de la cicatriz y de la fascia, y los cambios en la forma de moverse tras la cirugía, influyen en la postura y en otras zonas. Por eso la valoración incluye todo el cuerpo."
           }
         },
         {
@@ -320,7 +428,7 @@
           "name": "¿Atienden el dolor tras una cirugía oncológica?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí, siempre con la autorización de su médico. Encontrará más información en dolor oncológico."
+            "text": "Sí, siempre con la autorización firmada de su médico. Encontrará más información en dolor oncológico."
           }
         },
         {
@@ -328,7 +436,7 @@
           "name": "¿Qué debo traer a la primera visita?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "El informe quirúrgico y las pruebas o informes médicos recientes que tenga. Nos ayudan a conocer bien su caso."
+            "text": "El informe quirúrgico y las pruebas o informes médicos recientes que tenga. Ayudan a conocer qué estructuras se intervinieron y cómo ha evolucionado la recuperación."
           }
         }
       ]

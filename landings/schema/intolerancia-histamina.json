@@ -227,7 +227,7 @@
       "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/intolerancia-histamina#webpage",
       "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/intolerancia-histamina",
       "name": "Intolerancia a la histamina en Barcelona | WA LAM",
-      "description": "Intolerancia a la histamina y déficit de DAO en Sarrià–Sant Gervasi, Barcelona: cefalea, síntomas digestivos y de la piel, dieta guiada y microbiota.",
+      "description": "Qué es la intolerancia a la histamina, sus síntomas, el déficit de DAO y sus causas, la dieta baja en histamina y la relación con la microbiota y el estrés. Sarrià–Sant Gervasi, Barcelona.",
       "inLanguage": "es-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -242,7 +242,7 @@
       },
       "lastReviewed": "2026-11-18",
       "dateModified": "2026-11-18",
-      "keywords": "intolerancia a la histamina Barcelona, déficit de DAO, dieta baja en histamina, histamina dolor de cabeza, alimentos ricos en histamina, intolerancia histamina síntomas",
+      "keywords": "intolerancia a la histamina Barcelona, déficit de DAO, dieta baja en histamina, histamina dolor de cabeza, alimentos ricos en histamina, intolerancia histamina síntomas, alimentos liberadores de histamina",
       "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/intolerancia-histamina.png",
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -276,15 +276,81 @@
         },
         {
           "@type": "ScholarlyArticle",
+          "name": "Histamine, histamine intoxication and intolerance",
+          "url": "https://doi.org/10.1016/j.aller.2015.05.001",
+          "sameAs": "https://doi.org/10.1016/j.aller.2015.05.001"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Histamine intolerance and dietary management: a complete review",
+          "url": "https://doi.org/10.1016/j.aller.2016.04.015",
+          "sameAs": "https://doi.org/10.1016/j.aller.2016.04.015"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Serum diamine oxidase activity as a diagnostic test for histamine intolerance",
+          "url": "https://doi.org/10.1007/s00508-013-0354-y",
+          "sameAs": "https://doi.org/10.1007/s00508-013-0354-y"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Serum diamine oxidase activity in patients with histamine intolerance",
+          "url": "https://doi.org/10.1177/0394632015617170",
+          "sameAs": "https://doi.org/10.1177/0394632015617170"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Histamine-reduced diet and increase of serum diamine oxidase correlating to diet compliance in histamine intolerance",
+          "url": "https://doi.org/10.1038/s41430-018-0260-5",
+          "sameAs": "https://doi.org/10.1038/s41430-018-0260-5"
+        },
+        {
+          "@type": "ScholarlyArticle",
           "name": "Evaluation of symptoms and symptom combinations in histamine intolerance",
           "url": "https://doi.org/10.5217/ir.2018.00152",
           "sameAs": "https://doi.org/10.5217/ir.2018.00152"
         },
         {
           "@type": "ScholarlyArticle",
-          "name": "Histamine Intolerance: The Current State of the Art",
+          "name": "Histamine intolerance: the current state of the art",
           "url": "https://doi.org/10.3390/biom10081181",
           "sameAs": "https://doi.org/10.3390/biom10081181"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Scientific Opinion on risk based control of biogenic amine formation in fermented foods",
+          "url": "https://doi.org/10.2903/j.efsa.2011.2393",
+          "sameAs": "https://doi.org/10.2903/j.efsa.2011.2393"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Diamine oxidase from white pea (Lathyrus sativus) combined with catalase protects the human intestinal Caco-2 cell line from histamine damage",
+          "url": "https://doi.org/10.1007/s12010-016-2390-3",
+          "sameAs": "https://doi.org/10.1007/s12010-016-2390-3"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Stress, atopy and allergy: a re-evaluation from a psychoneuroimmunologic perspective",
+          "url": "https://doi.org/10.4161/derm.3.1.14618",
+          "sameAs": "https://doi.org/10.4161/derm.3.1.14618"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Skin reactions to histamine of healthy subjects after hypnotically induced emotions of sadness, anger, and happiness",
+          "url": "https://doi.org/10.1034/j.1398-9995.2001.056008734.x",
+          "sameAs": "https://doi.org/10.1034/j.1398-9995.2001.056008734.x"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Psychoneuroimmunoendocrinology: clinical implications",
+          "url": "https://doi.org/10.1186/s40413-017-0151-6",
+          "sameAs": "https://doi.org/10.1186/s40413-017-0151-6"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "World Health Organization 2020 guidelines on physical activity and sedentary behaviour",
+          "url": "https://doi.org/10.1136/bjsports-2020-102955",
+          "sameAs": "https://doi.org/10.1136/bjsports-2020-102955"
         }
       ]
     },
@@ -294,10 +360,18 @@
       "mainEntity": [
         {
           "@type": "Question",
+          "name": "¿La intolerancia a la histamina es una alergia?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. En la alergia intervienen anticuerpos IgE y la reacción puede ser grave con cantidades mínimas. En la intolerancia no hay IgE: los síntomas dependen de la cantidad de histamina acumulada y de la capacidad de degradarla, sobre todo por la enzima DAO. Por eso se la llama pseudoalergia. Aun así, su médico debe descartar primero una alergia."
+          }
+        },
+        {
+          "@type": "Question",
           "name": "¿Qué alimentos tienen más histamina?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sobre todo los fermentados y curados: vino, cerveza, quesos curados, embutidos, conservas de pescado, chucrut o salsa de soja. Las sobras guardadas varios días también acumulan histamina."
+            "text": "Sobre todo los fermentados, curados y poco frescos: vino, cerveza, quesos curados, embutidos, conservas y ahumados de pescado, chucrut o salsa de soja. Otros, como los cítricos, las fresas o el chocolate, no tienen tanta pero hacen que el cuerpo la libere. Las listas son orientativas y cada persona tiene su umbral."
           }
         },
         {
@@ -305,15 +379,31 @@
           "name": "¿La dieta baja en histamina es para siempre?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. Es una fase temporal. Después reintroducimos alimentos para que su dieta sea lo más amplia posible dentro de su tolerancia."
+            "text": "No. Es una fase temporal. Después se reintroducen los alimentos poco a poco para encontrar su nivel de tolerancia y que la dieta sea lo más amplia posible. Mantener una dieta restrictiva sin necesidad empobrece la alimentación y la microbiota."
           }
         },
         {
           "@type": "Question",
-          "name": "¿Tiene relación con la migraña?",
+          "name": "¿Sirve la analítica de DAO en sangre?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "En algunas personas la histamina es un desencadenante del dolor de cabeza. Si es su caso, puede consultar también cefaleas y migraña."
+            "text": "Puede orientar, y la solicita el médico, pero hay que interpretarla con prudencia: los laboratorios usan puntos de corte distintos y no está claro que refleje la actividad de la enzima en el intestino. Lo más útil es combinarla con la historia clínica, un diario de síntomas y la respuesta a la dieta."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Se puede recuperar la actividad de la DAO?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "En muchos casos, sí. Si la causa es una inflamación intestinal, una gastritis, un SIBO, una disbiosis o la falta de algún cofactor, al resolver el problema digestivo la DAO puede mejorar. En un estudio, la DAO sérica aumentó en quienes siguieron una dieta reducida en histamina."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Tiene relación con la migraña y el dolor de regla?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Puede tenerla. La histamina dilata los vasos y favorece la contracción del útero, y se relaciona con el dolor de cabeza y el dolor menstrual. Si es su caso, puede leer también la página de cefaleas y migraña."
           }
         },
         {
@@ -321,7 +411,15 @@
           "name": "¿Puedo tomar suplementos de DAO?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Pueden ser útiles en algunas personas como apoyo a la dieta. Lo valoramos con usted según su caso."
+            "text": "Existen suplementos de DAO y algunos estudios pequeños sugieren que ayudan a ciertas personas. Su indicación debe individualizarla un profesional según su caso, y nunca deben servir para dejar de buscar por qué la DAO funciona poco."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Por qué empeoro cuando estoy estresado?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Porque los mastocitos, las células que almacenan histamina, responden a los mensajeros del estrés. Es un buen ejemplo de la relación entre emociones, sistema nervioso e inmunidad que estudia la PNIE. Cuidar el sueño y la regulación del estrés forma parte del abordaje."
           }
         }
       ]

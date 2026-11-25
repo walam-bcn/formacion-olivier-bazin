@@ -227,7 +227,7 @@
       "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/contracturas-desgarros-musculares#webpage",
       "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/contracturas-desgarros-musculares",
       "name": "Contracturas y desgarros en Barcelona | WA LAM",
-      "description": "Contracturas, sobrecargas y roturas fibrilares en Sarrià–Sant Gervasi, Barcelona: valoración clínica, carga progresiva y vuelta segura a su actividad.",
+      "description": "Qué son las contracturas, las sobrecargas y las roturas fibrilares, por qué aparecen y se repiten, cuándo consultar y cómo es su recuperación conservadora en Sarrià–Sant Gervasi, Barcelona.",
       "inLanguage": "es-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -279,15 +279,153 @@
       "citation": [
         {
           "@type": "ScholarlyArticle",
+          "name": "Terminology and classification of muscle injuries in sport: the Munich consensus statement",
+          "url": "https://doi.org/10.1136/bjsports-2012-091448",
+          "sameAs": "https://doi.org/10.1136/bjsports-2012-091448"
+        },
+        {
+          "@type": "ScholarlyArticle",
           "name": "Global estimates of the need for rehabilitation based on the Global Burden of Disease study 2019: a systematic analysis for the Global Burden of Disease Study 2019",
           "url": "https://doi.org/10.1016/S0140-6736(20)32340-0",
           "sameAs": "https://doi.org/10.1016/S0140-6736(20)32340-0"
         },
         {
           "@type": "ScholarlyArticle",
+          "name": "Epidemiology of muscle injuries in professional football (soccer)",
+          "url": "https://doi.org/10.1177/0363546510395879",
+          "sameAs": "https://doi.org/10.1177/0363546510395879"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Etiology of myofascial trigger points",
+          "url": "https://doi.org/10.1007/s11916-012-0289-4",
+          "sameAs": "https://doi.org/10.1007/s11916-012-0289-4"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Recalibrating the risk of hamstring strain injury (HSI): a 2020 systematic review and meta-analysis of risk factors for index and recurrent hamstring strain injury in sport",
+          "url": "https://doi.org/10.1136/bjsports-2019-100983",
+          "sameAs": "https://doi.org/10.1136/bjsports-2019-100983"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Chronic lack of sleep is associated with increased sports injuries in adolescent athletes",
+          "url": "https://doi.org/10.1097/BPO.0000000000000151",
+          "sameAs": "https://doi.org/10.1097/BPO.0000000000000151"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Muscle injuries: biology and treatment",
+          "url": "https://doi.org/10.1177/0363546505274714",
+          "sameAs": "https://doi.org/10.1177/0363546505274714"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Mechanotherapy: how physical therapists' prescription of exercise promotes tissue repair",
+          "url": "https://doi.org/10.1136/bjsm.2008.054239",
+          "sameAs": "https://doi.org/10.1136/bjsm.2008.054239"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Acute inflammatory response via neutrophil activation protects against the development of chronic pain",
+          "url": "https://doi.org/10.1126/scitranslmed.abj9954",
+          "sameAs": "https://doi.org/10.1126/scitranslmed.abj9954"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Biochemicals associated with pain and inflammation are elevated in sites near to and remote from active myofascial trigger points",
+          "url": "https://doi.org/10.1016/j.apmr.2007.10.018",
+          "sameAs": "https://doi.org/10.1016/j.apmr.2007.10.018"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Central sensitization: implications for the diagnosis and treatment of pain",
+          "url": "https://doi.org/10.1016/j.pain.2010.09.030",
+          "sameAs": "https://doi.org/10.1016/j.pain.2010.09.030"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Neurochemical changes in patients with chronic low back pain detected by proton magnetic resonance spectroscopy: a systematic review",
+          "url": "https://doi.org/10.1016/j.nicl.2016.11.006",
+          "sameAs": "https://doi.org/10.1016/j.nicl.2016.11.006"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "The effect of spinal manipulation on brain neurometabolites in chronic nonspecific low back pain patients: a randomized clinical trial",
+          "url": "https://doi.org/10.1007/s11845-019-02140-2",
+          "sameAs": "https://doi.org/10.1007/s11845-019-02140-2"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "The mechanisms of manual therapy in the treatment of musculoskeletal pain: a comprehensive model",
+          "url": "https://doi.org/10.1016/j.math.2008.09.001",
+          "sameAs": "https://doi.org/10.1016/j.math.2008.09.001"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "A study exploring the prevalence of Extremity Pain of Spinal Source (EXPOSS)",
+          "url": "https://doi.org/10.1080/10669817.2019.1661706",
+          "sameAs": "https://doi.org/10.1080/10669817.2019.1661706"
+        },
+        {
+          "@type": "ScholarlyArticle",
           "name": "The effectiveness of exercise interventions to prevent sports injuries: a systematic review and meta-analysis of randomised controlled trials",
           "url": "https://doi.org/10.1136/bjsports-2013-092538",
           "sameAs": "https://doi.org/10.1136/bjsports-2013-092538"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "How the weather affects the pain of citizen scientists using a smartphone app",
+          "url": "https://doi.org/10.1038/s41746-019-0180-3",
+          "sameAs": "https://doi.org/10.1038/s41746-019-0180-3"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Physiology of visceral pain",
+          "url": "https://doi.org/10.1002/cphy.c150049",
+          "sameAs": "https://doi.org/10.1002/cphy.c150049"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Early versus delayed rehabilitation after acute muscle injury",
+          "url": "https://doi.org/10.1056/NEJMc1708134",
+          "sameAs": "https://doi.org/10.1056/NEJMc1708134"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Acute hamstring injuries in Swedish elite football: a prospective randomised controlled clinical trial comparing two rehabilitation protocols",
+          "url": "https://doi.org/10.1136/bjsports-2013-092165",
+          "sameAs": "https://doi.org/10.1136/bjsports-2013-092165"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "An evidence-based approach for choosing post-exercise recovery techniques to reduce markers of muscle damage, soreness, fatigue, and inflammation: a systematic review with meta-analysis",
+          "url": "https://doi.org/10.3389/fphys.2018.00403",
+          "sameAs": "https://doi.org/10.3389/fphys.2018.00403"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "What does best practice care for musculoskeletal pain look like? Eleven consistent recommendations from high-quality clinical practice guidelines: systematic review",
+          "url": "https://doi.org/10.1136/bjsports-2018-099878",
+          "sameAs": "https://doi.org/10.1136/bjsports-2018-099878"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "2016 Consensus statement on return to sport from the First World Congress in Sports Physical Therapy, Bern",
+          "url": "https://doi.org/10.1136/bjsports-2016-096278",
+          "sameAs": "https://doi.org/10.1136/bjsports-2016-096278"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Including the Nordic hamstring exercise in injury prevention programmes halves the rate of hamstring injuries: a systematic review and meta-analysis of 8459 athletes",
+          "url": "https://doi.org/10.1136/bjsports-2018-100045",
+          "sameAs": "https://doi.org/10.1136/bjsports-2018-100045"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Effect of specific exercise-based football injury prevention programmes on the overall injury rate in football: a systematic review and meta-analysis of the FIFA 11 and 11+ programmes",
+          "url": "https://doi.org/10.1136/bjsports-2016-097066",
+          "sameAs": "https://doi.org/10.1136/bjsports-2016-097066"
         }
       ]
     },
@@ -297,42 +435,66 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "¿Es mejor el reposo absoluto tras una rotura fibrilar?",
+          "name": "¿Qué diferencia hay entre una contractura y una rotura fibrilar?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Los primeros días conviene proteger la zona. Después, el músculo se repara mejor con una carga progresiva y bien dosificada."
+            "text": "En la contractura no se rompen fibras: una zona del músculo queda tensa y dolorida. En la rotura fibrilar sí hay fibras rotas; el dolor aparece de golpe durante un esfuerzo, obliga a parar y puede dejar un hematoma."
           }
         },
         {
           "@type": "Question",
-          "name": "¿Cuándo podré volver a hacer deporte?",
+          "name": "¿Cuánto tarda en curar una rotura fibrilar?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Depende del grado de la lesión y de su actividad. La vuelta se decide con criterios de fuerza, movilidad y ausencia de dolor."
+            "text": "Depende del tamaño y del músculo. Las roturas pequeñas suelen permitir volver a la actividad en dos a cuatro semanas; las moderadas, en más tiempo. Empezar pronto una carga progresiva acorta la recuperación."
           }
         },
         {
           "@type": "Question",
-          "name": "¿Es mejor aplicar calor o frío?",
+          "name": "¿Es mejor frío o calor?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "En una rotura reciente, frío durante los primeros días. En una contractura, el calor local suele aliviar la tensión."
+            "text": "En las primeras horas de una lesión aguda, el frío puede aliviar el dolor. En las contracturas y en las lesiones de más de unos días, el calor suave suele relajar el músculo y facilitar el movimiento."
           }
         },
         {
           "@type": "Question",
-          "name": "¿Por qué se repiten mis contracturas?",
+          "name": "¿Debo hacer reposo absoluto?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Suelen influir la sobrecarga, las posturas mantenidas, la falta de fuerza, el estrés y el descanso. Por eso se revisan todos estos factores."
+            "text": "No. Tras unos días de reposo relativo, en los que se evitan los gestos que causan dolor intenso, conviene empezar a mover y cargar el músculo de forma progresiva. La inmovilización prolongada favorece la atrofia y una cicatriz peor."
           }
         },
         {
           "@type": "Question",
-          "name": "¿Y si lo que tengo es una torcedura de tobillo?",
+          "name": "¿Por qué se me repite siempre la misma contractura?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Las lesiones de ligamentos se tratan de forma específica. Puede consultar la página de esguinces."
+            "text": "Porque algo la mantiene: una postura, el estrés, el sueño, una falta de fuerza o un problema en la columna que tensa el músculo para protegerse. Tratar solo el músculo alivia, pero no evita que vuelva."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Una contractura puede producir dolor de cabeza?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. Los puntos gatillo del trapecio y de los músculos de la nuca pueden referir dolor a la sien, la frente o detrás del ojo. Puede leer más en migraña y dolor de cabeza."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Estirar previene las lesiones musculares?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Los estudios no muestran que los estiramientos por sí solos prevengan las lesiones. Lo que más protege es el ejercicio de fuerza, el trabajo de equilibrio y un aumento gradual de la carga."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuántas sesiones necesitaré?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Depende del tipo de lesión, del tiempo de evolución y de la respuesta de cada persona. Tras la primera visita se propone un plan con objetivos, ejercicios para casa y revisiones que se van espaciando."
           }
         }
       ]

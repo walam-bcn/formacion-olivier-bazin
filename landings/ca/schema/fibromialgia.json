@@ -227,7 +227,7 @@
       "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/fibromialgia#webpage",
       "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/fibromialgia",
       "name": "Fibromiàlgia a Barcelona | WA LAM",
-      "description": "Fibromiàlgia a Sarrià–Sant Gervasi, Barcelona: dolor generalitzat, fatiga i son no reparador. Valoració clínica completa i pla integratiu per fases.",
+      "description": "Qué es la fibromialgia, por qué aparece (sistema nervioso, sueño, nervios finos, microbiota), cómo se diagnostica y qué recomiendan las guías, en Sarrià–Sant Gervasi, Barcelona.",
       "inLanguage": "ca-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -242,7 +242,7 @@
       },
       "lastReviewed": "2026-11-18",
       "dateModified": "2026-11-18",
-      "keywords": "fibromialgia Barcelona, tratamiento fibromialgia Barcelona, acupuntura fibromialgia, ejercicio para la fibromialgia, mindfulness fibromialgia, dolor generalizado y cansancio",
+      "keywords": "fibromialgia Barcelona, tratamiento fibromialgia Barcelona, fibromialgia síntomas, ejercicio para la fibromialgia, osteopatía fibromialgia, dolor generalizado y cansancio",
       "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/fibromialgia.png",
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -270,6 +270,66 @@
       "citation": [
         {
           "@type": "ScholarlyArticle",
+          "name": "Prevalence of fibromyalgia and associated factors in Spain",
+          "url": "https://doi.org/",
+          "sameAs": "https://doi.org/"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Fibromyalgia: a clinical review",
+          "url": "https://doi.org/10.1001/jama.2014.3266",
+          "sameAs": "https://doi.org/10.1001/jama.2014.3266"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Nociplastic pain: towards an understanding of prevalent pain conditions",
+          "url": "https://doi.org/10.1016/S0140-6736(21)00392-5",
+          "sameAs": "https://doi.org/10.1016/S0140-6736(21)00392-5"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "2016 Revisions to the 2010/2011 fibromyalgia diagnostic criteria",
+          "url": "https://doi.org/10.1016/j.semarthrit.2016.08.012",
+          "sameAs": "https://doi.org/10.1016/j.semarthrit.2016.08.012"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "The role of sleep in pain and fibromyalgia",
+          "url": "https://doi.org/10.1038/nrrheum.2015.56",
+          "sameAs": "https://doi.org/10.1038/nrrheum.2015.56"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Nociceptor neurons direct goblet cells via a CGRP-RAMP1 axis to drive mucus production and gut barrier protection",
+          "url": "https://doi.org/10.1016/j.cell.2022.09.024",
+          "sameAs": "https://doi.org/10.1016/j.cell.2022.09.024"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "A systematic review and meta-analysis of the prevalence of small fiber pathology in fibromyalgia: implications for a new paradigm in fibromyalgia etiopathogenesis",
+          "url": "https://doi.org/10.1016/j.semarthrit.2018.08.003",
+          "sameAs": "https://doi.org/10.1016/j.semarthrit.2018.08.003"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Altered microbiome composition in individuals with fibromyalgia",
+          "url": "https://doi.org/10.1097/j.pain.0000000000001640",
+          "sameAs": "https://doi.org/10.1097/j.pain.0000000000001640"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Craniosacral therapy for chronic pain: a systematic review and meta-analysis of randomized controlled trials",
+          "url": "https://doi.org/10.1186/s12891-019-3017-y",
+          "sameAs": "https://doi.org/10.1186/s12891-019-3017-y"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Efficacy and safety of osteopathic manipulative treatment: an overview of systematic reviews",
+          "url": "https://doi.org/10.1136/bmjopen-2021-053468",
+          "sameAs": "https://doi.org/10.1136/bmjopen-2021-053468"
+        },
+        {
+          "@type": "ScholarlyArticle",
           "name": "EULAR revised recommendations for the management of fibromyalgia",
           "url": "https://doi.org/10.1136/annrheumdis-2016-209724",
           "sameAs": "https://doi.org/10.1136/annrheumdis-2016-209724"
@@ -279,6 +339,12 @@
           "name": "Aerobic exercise training for adults with fibromyalgia",
           "url": "https://doi.org/10.1002/14651858.CD012700",
           "sameAs": "https://doi.org/10.1002/14651858.CD012700"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Effect of tai chi versus aerobic exercise for fibromyalgia: comparative effectiveness randomized controlled trial",
+          "url": "https://doi.org/10.1136/bmj.k851",
+          "sameAs": "https://doi.org/10.1136/bmj.k851"
         },
         {
           "@type": "ScholarlyArticle",
@@ -372,34 +438,66 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "La fibromiàlgia té tractament?",
+          "name": "¿La fibromialgia es una enfermedad real?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí. Un abordatge que combini educació, exercici gradual, regulació de l'estrès i cura del son pot reduir el dolor i la fatiga i millorar la qualitat de vida. Treballem amb objectius realistes i un pla que s'ajusta a la seva evolució."
+            "text": "Sí. Las pruebas habituales son normales, pero el dolor es real y tiene una base biológica: un sistema nervioso que amplifica las señales, y en muchas personas una afectación de los nervios finos de la piel. Está reconocida por la OMS dentro del dolor crónico primario."
           }
         },
         {
           "@type": "Question",
-          "name": "L'exercici pot empitjorar el dolor?",
+          "name": "¿Quién diagnostica la fibromialgia?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Si es dosifica bé, no. Es comença per un nivell còmode i s'augmenta de manera progressiva, respectant els dies de més dolor. És normal notar alguna molèstia al principi, que sol disminuir amb la constància."
+            "text": "El médico, a partir de la historia clínica y de los criterios diagnósticos, después de descartar otras enfermedades con análisis y exploración. No hay una prueba específica que la confirme."
           }
         },
         {
           "@type": "Question",
-          "name": "Per què les proves surten normals si tinc tant de dolor?",
+          "name": "¿El ejercicio no me hará más daño?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Perquè la fibromiàlgia no es deu a una lesió dels teixits, sinó a un processament alterat del dolor en el sistema nerviós. Que les proves siguin normals no vol dir que el dolor no sigui real."
+            "text": "El ejercicio bien dosificado es el tratamiento con mejor respaldo científico. La clave es empezar con poco, ser constante y aumentar gradualmente. Es normal notar algo de molestia al principio; si el dolor aumenta mucho al día siguiente, se reduce la dosis, pero no se abandona."
           }
         },
         {
           "@type": "Question",
-          "name": "Què he de portar a la primera visita?",
+          "name": "¿La fibromialgia se cura?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Els seus informes mèdics, les analítiques recents i la llista de la medicació que pren. Si li és possible, unes notes sobre com varien el seu dolor, el seu son i la seva energia al llarg de la setmana."
+            "text": "No hay una cura definitiva, pero los síntomas pueden mejorar mucho. Con un plan que combine educación, ejercicio, sueño, gestión del estrés y trabajo manual suave, muchas personas recuperan actividad y calidad de vida."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿El trabajo manual es doloroso si tengo fibromialgia?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No debería serlo. Se empieza con un contacto ligero, se adapta la presión a su sensibilidad y se ajusta según cómo responda su cuerpo en los días siguientes."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué tiene que ver la alimentación?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No hay una dieta que cure la fibromialgia, pero una alimentación variada y rica en fibra cuida la microbiota, ayuda a controlar el peso y favorece la energía y el sueño. En personas con fibromialgia se han descrito cambios en la microbiota intestinal."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Por qué me duele más en invierno?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Muchas personas con fibromialgia notan más dolor con el frío, la humedad o los cambios de presión. La ciencia muestra un efecto modesto que varía de una persona a otra; en esta página encontrará un apartado que lo explica y qué puede hacer."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quantes sessions necessitaré?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Depende de cada persona. Tras la primera visita se propone un plan por fases con objetivos concretos, pautas de ejercicio y hábitos para casa y revisiones que se van espaciando a medida que gana autonomía."
           }
         }
       ]

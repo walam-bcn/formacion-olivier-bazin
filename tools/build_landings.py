@@ -1038,6 +1038,39 @@ FIG_CSS = """
 """
 
 
+VAGO_ES = " En esta regulación tiene un papel central el <b><a class=\"inl\" href=\"{u}\">nervio vago</a></b>, la rama principal del sistema nervioso parasimpático: el sistema del descanso, la digestión y la recuperación."
+VAGO_CA = " En aquesta regulació hi té un paper central el <b><a class=\"inl\" href=\"{u}\">nervi vague</a></b>, la branca principal del sistema nerviós parasimpàtic: el sistema del descans, la digestió i la recuperació."
+
+
+def add_vago(p, seq):
+    """Rosa: siempre que se hable de sistema nervioso o estrés, nombrar y enlazar el nervio vago."""
+    if p["slug"] == "nervio-vago":
+        return seq
+    u = url("nervio-vago")
+    if any(f'href="{u}"' in x for x in seq):
+        return seq
+    # 1) enlazar la primera mención de «nervio vago» que no esté ya enlazada
+    pat_link = re.compile(r"(?<![>\w])(nervio vago|nervi vague)(?![^<]*</a>)", re.I)
+    for i, x in enumerate(seq):
+        if 'class="faq"' in x:
+            continue
+        m = pat_link.search(re.sub(r"<[^>]+>", lambda t: " " * len(t.group(0)), x))
+        if m:
+            seq[i] = x[:m.start()] + f'<a class="inl" href="{u}">' + x[m.start():m.end()] + "</a>" + x[m.end():]
+            return seq
+    # 2) si no se nombra, añadir una frase tras el primer párrafo que hable de sistema nervioso o estrés
+    trig = re.compile(r"(?i)sistema nervios|estr[ée]s|estrès")
+    for i, x in enumerate(seq):
+        if 'class="faq"' in x or 'class="evid"' in x:
+            continue
+        for pm in re.finditer(r"<p>(.*?)</p>", x, re.S):
+            if trig.search(re.sub(r"<[^>]+>", "", pm.group(1))):
+                add = (VAGO_CA if LANG == "ca" else VAGO_ES).format(u=u)
+                seq[i] = x[:pm.end() - 4] + add + x[pm.end() - 4:]
+                return seq
+    return seq
+
+
 def page(p):
     parts = [head(p), nav(p), hero(p)]
     body, items, toc_items = [], [], []
@@ -1072,6 +1105,8 @@ def page(p):
         v = _alt[_n[0] % 2]; _n[0] += 1
         return '<section data-bg="' + v + '" '
     seq = [re.sub(r'<section ', _bg, x) for x in seq]
+    if p["group"] != "home":
+        seq = add_vago(p, seq)
     if p["group"] in ("motivo", "servicio") and seq:
         k = seq[-1].rfind("</div></section>")
         seq[-1] = seq[-1][:k] + f'<div class="note"><p>{tr(NOTE_ES)}</p></div>' + seq[-1][k:]

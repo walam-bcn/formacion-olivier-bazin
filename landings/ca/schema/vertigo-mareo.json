@@ -227,7 +227,7 @@
       "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/vertigen-mareig#webpage",
       "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/vertigen-mareig",
       "name": "Vertigen i mareig a Barcelona | WA LAM",
-      "description": "Vertigen, mareig i inestabilitat a Sarrià–Sant Gervasi, Barcelona: vertigen posicional, origen cervical i rehabilitació vestibular amb un pla per fases.",
+      "description": "Qué es el vértigo y el mareo, sus tipos (vértigo posicional, neuritis, migraña vestibular, Ménière, mareo persistente y mareo de origen cervical), sus señales de alarma y su tratamiento conservador en Sarrià–Sant Gervasi, Barcelona.",
       "inLanguage": "ca-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -275,9 +275,15 @@
       "citation": [
         {
           "@type": "ScholarlyArticle",
-          "name": "Clinical Practice Guideline: Benign Paroxysmal Positional Vertigo (Update)",
-          "url": "https://doi.org/10.1177/0194599816689667",
-          "sameAs": "https://doi.org/10.1177/0194599816689667"
+          "name": "Epidemiology of vestibular vertigo: a neurotologic survey of the general population",
+          "url": "https://doi.org/10.1212/01.wnl.0000175987.59991.3d",
+          "sameAs": "https://doi.org/10.1212/01.wnl.0000175987.59991.3d"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Epidemiology of benign paroxysmal positional vertigo: a population based study",
+          "url": "https://doi.org/10.1136/jnnp.2006.100420",
+          "sameAs": "https://doi.org/10.1136/jnnp.2006.100420"
         },
         {
           "@type": "ScholarlyArticle",
@@ -287,9 +293,63 @@
         },
         {
           "@type": "ScholarlyArticle",
+          "name": "Clinical Practice Guideline: Benign Paroxysmal Positional Vertigo (Update)",
+          "url": "https://doi.org/10.1177/0194599816689667",
+          "sameAs": "https://doi.org/10.1177/0194599816689667"
+        },
+        {
+          "@type": "ScholarlyArticle",
           "name": "Vestibular rehabilitation for unilateral peripheral vestibular dysfunction",
           "url": "https://doi.org/10.1002/14651858.CD005397.pub4",
           "sameAs": "https://doi.org/10.1002/14651858.CD005397.pub4"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Diagnostic criteria for persistent postural-perceptual dizziness (PPPD): consensus document of the committee for the Classification of Vestibular Disorders of the Bárány Society",
+          "url": "https://doi.org/10.3233/VES-170622",
+          "sameAs": "https://doi.org/10.3233/VES-170622"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Symptom severity and quality of life in patients with concurrent neck pain and dizziness",
+          "url": "https://doi.org/10.1080/09638288.2019.1571640",
+          "sameAs": "https://doi.org/10.1080/09638288.2019.1571640"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Clinical characteristics in patients with cervicogenic dizziness: a systematic review",
+          "url": "https://doi.org/10.1002/hsr2.134",
+          "sameAs": "https://doi.org/10.1002/hsr2.134"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Neck pain associated with clinical symptoms in dizzy patients: a cross-sectional study",
+          "url": "https://doi.org/10.1002/pri.1815",
+          "sameAs": "https://doi.org/10.1002/pri.1815"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Comparison of Mulligan sustained natural apophyseal glides and Maitland mobilizations for treatment of cervicogenic dizziness: a randomized controlled trial",
+          "url": "https://doi.org/10.2522/ptj.20120483",
+          "sameAs": "https://doi.org/10.2522/ptj.20120483"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Decreased vertebral artery hemodynamics in patients with loss of cervical lordosis",
+          "url": "https://doi.org/10.12659/MSM.897500",
+          "sameAs": "https://doi.org/10.12659/MSM.897500"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Exercise for preventing falls in older people living in the community: an abridged Cochrane systematic review",
+          "url": "https://doi.org/10.1136/bjsports-2019-101512",
+          "sameAs": "https://doi.org/10.1136/bjsports-2019-101512"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Exercise programs may be effective in preventing a new episode of neck pain: a systematic review and meta-analysis",
+          "url": "https://doi.org/10.1016/j.jphys.2018.05.003",
+          "sameAs": "https://doi.org/10.1016/j.jphys.2018.05.003"
         },
         {
           "@type": "ScholarlyArticle",
@@ -326,7 +386,15 @@
           "name": "El vertigen pot venir del coll?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí. El coll informa el cervell de la posició del cap, i la seva alteració pot contribuir al mareig i la inestabilitat (mareig cervicogènic). Es considera un cop descartades altres causes, i sol millorar en treballar la mobilitat cervical. Pot consultar també la nostra pàgina de cervicàlgia."
+            "text": "Puede contribuir. El cuello informa al cerebro de la posición de la cabeza, y cuando esa información llega alterada por el dolor o la rigidez puede producir inestabilidad. Se considera mareo cervicogénico una vez que el médico ha descartado otras causas, y la terapia manual cervical ha mostrado reducirlo en ensayos controlados."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué diferencia hay entre vértigo y mareo?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "El vértigo es una sensación de giro, de uno mismo o del entorno. El mareo es un término más amplio que incluye la inestabilidad, la cabeza ligera o la sensación de desmayo. Cada sensación orienta hacia un origen distinto."
           }
         },
         {
@@ -334,15 +402,7 @@
           "name": "Què és la maniobra d'Epley?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "És una seqüència de canvis de posició del cap i del cos que retorna els cristalls de l'oïda interna al seu lloc en el VPPB. Es fa quan el diagnòstic està confirmat i l'ha indicada el metge."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "L'estrès pot causar mareig?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "L'estrès i l'ansietat poden mantenir o intensificar la sensació d'inestabilitat, sobretot després d'un episodi de vertigen. Per això, la regulació del sistema nerviós forma part de l'abordatge."
+            "text": "Es una secuencia de cambios de posición de la cabeza y del cuerpo que devuelve los cristales del oído interno a su lugar en el vértigo posicional paroxístico benigno. Se realiza cuando el médico ha confirmado el diagnóstico."
           }
         },
         {
@@ -350,7 +410,31 @@
           "name": "És millor fer repòs quan estic marejat?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "En la fase molt aguda pot necessitar descansar unes hores. Després, convé reprendre el moviment de manera gradual: l'activitat ajuda el sistema de l'equilibri a compensar."
+            "text": "Solo en las primeras horas de un vértigo muy intenso. Después conviene retomar el movimiento de forma gradual, porque el sistema del equilibrio necesita estímulos para compensar. Evitar moverse prolonga la inestabilidad."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "L'estrès pot causar mareig?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "El estrés y la ansiedad pueden mantener o intensificar la inestabilidad, sobre todo después de un episodio de vértigo, y forman parte del mareo postural-perceptivo persistente. Puede consultar también la página de estrés y ansiedad."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Puede la mandíbula influir en el mareo?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "En algunas personas sí. La articulación temporomandibular comparte inervación y musculatura con la parte alta del cuello. El test de Meersseman orienta sobre si la mordida influye y, en ese caso, se deriva al odontólogo, aunque la evidencia sobre esta relación no es concluyente."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Necesito haber visto antes al médico o al otorrinolaringólogo?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Es lo recomendable, sobre todo si el vértigo es reciente. Si ya tiene pruebas o un diagnóstico, tráigalos a la primera visita. Ante cualquier señal de alarma, acuda antes a urgencias."
           }
         },
         {
@@ -358,7 +442,7 @@
           "name": "Quantes sessions necessitaré?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Depèn de la causa i de la seva evolució. En la primera visita valorem la seva situació i li proposem un pla amb objectius clars i revisions periòdiques."
+            "text": "Depende de la causa, del tiempo de evolución y de la respuesta de cada persona. Tras la primera visita se propone un plan con objetivos claros, ejercicios para casa y revisiones que se van espaciando."
           }
         }
       ]

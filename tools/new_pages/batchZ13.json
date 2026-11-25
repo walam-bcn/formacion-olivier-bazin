@@ -1,0 +1,864 @@
+[
+ {
+  "slug": "intolerancia-histamina",
+  "ca_slug": "intolerancia-histamina",
+  "nav": "Intolerancia a la histamina",
+  "card": "Dolor de cabeza, molestias digestivas, rojeces o dolor de regla tras ciertos alimentos: qué es la histamina, el déficit de DAO y la dieta baja en histamina.",
+  "title": "Intolerancia a la histamina en Barcelona | WA LAM",
+  "desc": "Qué es la intolerancia a la histamina, sus síntomas, el déficit de DAO y sus causas, la dieta baja en histamina y la relación con la microbiota y el estrés. Sarrià–Sant Gervasi, Barcelona.",
+  "h1": "Intolerancia a la histamina y déficit de DAO en Barcelona",
+  "sub": "Cuando la histamina se acumula · Sarrià–Sant Gervasi",
+  "lead": "Si una picadura de mosquito le deja una gran mancha roja, se ruboriza con facilidad, tiene migrañas, dolor de regla o la tensión baja, quizá haya oído hablar de la histamina. La intolerancia a la histamina aparece cuando el cuerpo no consigue degradar bien la histamina que llega con los alimentos o la que fabrica él mismo, casi siempre por una actividad baja de la enzima DAO. Sus síntomas son tan variados que a menudo se tratan por separado sin ver lo que tienen en común.",
+  "facts_title": "En WA LAM",
+  "facts": [
+   "Síntomas digestivos, de la piel, migraña y dolor de regla",
+   "Déficit de DAO: causas digestivas y cofactores",
+   "Dieta baja en histamina orientativa e individual",
+   "Primera visita: 60 min · 90 €"
+  ],
+  "wa": "Hola, me gustaría información sobre el acompañamiento de la intolerancia a la histamina.",
+  "mirror": {
+   "h2": "¿Se reconoce en estos síntomas?",
+   "qs": [
+    "¿Una picadura de mosquito le deja una roncha grande y roja, o se le marca la piel al rascarse?",
+    "¿Le duele la cabeza o nota ardor, hinchazón o diarrea después de tomar vino, queso curado, embutido, chocolate o zumo de naranja?",
+    "¿Se ruboriza con facilidad con el deporte, los nervios o el agua caliente, y tiene la tensión baja?",
+    "¿Tiene reglas dolorosas, migrañas o congestión nasal sin que nadie haya encontrado una alergia que lo explique?"
+   ],
+   "close": "Si alguna vez nota hinchazón de labios, lengua o garganta, dificultad para respirar o un mareo intenso tras comer, acuda a urgencias. Más abajo explicamos el resto de señales de alarma."
+  },
+  "explain": {
+   "h2": "¿Qué es la intolerancia a la histamina?",
+   "paras": [
+    "La **histamina** es una molécula que el propio cuerpo fabrica y que también llega con muchos alimentos. Es un **mensajero inmunomodulador**: participa en las reacciones alérgicas y en la inflamación, regula la secreción de ácido del estómago, actúa como neurotransmisor en el cerebro y dilata los vasos sanguíneos. Es la responsable de la roncha roja que deja una picadura de mosquito: la piel libera histamina, los vasos se dilatan, la zona se enrojece, se hincha y pica. En condiciones normales, el organismo la usa y la elimina enseguida.",
+    "La **intolerancia a la histamina** aparece cuando hay un desequilibrio entre la histamina que se acumula y la capacidad del cuerpo para degradarla, sobre todo por una actividad insuficiente de la enzima **diaminooxidasa (DAO)** (Maintz y Novak, 2007). Cuando la DAO no da abasto, la histamina de los alimentos atraviesa la mucosa intestinal, pasa a la sangre y actúa en órganos muy distintos. También se conoce como **histaminosis alimentaria** o sensibilidad a la histamina de la dieta.",
+    "No es una alergia. En la alergia alimentaria el sistema inmune fabrica anticuerpos IgE contra una proteína concreta y la reacción puede ser grave incluso con cantidades mínimas. En la intolerancia a la histamina no intervienen las IgE: por eso se habla de **pseudoalergia**. Los síntomas se parecen a los de una alergia, pero dependen de la **cantidad** de histamina acumulada y de la capacidad de cada persona para eliminarla. Puede ser, además, una sensibilidad **temporal**: si mejora la causa que reduce la DAO, la tolerancia puede mejorar.",
+    "Conviene distinguirla de la **intoxicación por histamina**, que le puede ocurrir a cualquier persona sana que come un alimento con muchísima histamina, por ejemplo un pescado mal conservado. En la intolerancia, en cambio, la persona reacciona a cantidades que la mayoría tolera sin problema (Kovacova-Hanuskova et al., 2015). Por eso un mismo zumo de naranja o una onza de chocolate le provocan dolor de cabeza o ardor a una persona y a otra no.",
+    "La histamina tiene **dos fuentes**: la que se ingiere con los alimentos (o la que los alimentos hacen liberar) y la que produce el propio organismo, sobre todo los mastocitos y los basófilos, y también algunas bacterias de la microbiota intestinal. Actúa a través de **cuatro receptores, H1, H2, H3 y H4**, repartidos por distintos tejidos. Los H1 están en los vasos, los bronquios, la piel y el sistema nervioso, y explican el picor, el enrojecimiento, la congestión y el dolor de cabeza. Los H2 están en el estómago y el corazón, y se relacionan con la acidez y las palpitaciones. Los H3 regulan otros neurotransmisores en el cerebro, y los H4 participan en la respuesta inmune. Esta distribución explica por qué los síntomas son tan variados."
+   ]
+  },
+  "sections": [
+   {
+    "h2": "¿Por qué una misma persona tiene migraña, dolor de regla, rubor y tensión baja?",
+    "paras": [
+     "¿Conoce a alguien con dolor de regla, tensión baja, que se ruboriza con facilidad y que tiene migrañas? Es un perfil frecuente en la consulta. Lo habitual es que cada síntoma se haya tratado por separado: un analgésico o un antiinflamatorio para la cabeza y la regla, un antihistamínico para el picor o la rinitis, un anticonceptivo para el dolor menstrual, un refresco con cafeína para la tensión baja. Cada uno de esos tratamientos tiene su indicación, que decide el médico, y puede aliviar mucho. Pero, si se ven los síntomas uno a uno, es fácil no reparar en lo que tienen en común.",
+     "La histamina dilata los vasos sanguíneos, y eso puede bajar la tensión y producir rubor. Dilata también los vasos de las meninges, lo que se relaciona con el **dolor de cabeza y la migraña**. En el útero favorece la contracción del músculo, y se ha descrito su relación con el **dolor menstrual**. En la piel produce enrojecimiento, picor y ronchas. Cuando estos síntomas aparecen juntos y empeoran con ciertos alimentos, con el alcohol o en determinados momentos del ciclo, merece la pena preguntarse por la histamina.",
+     "También hay pistas en la piel: personas que se ponen rojas con el deporte, con la vergüenza o al rascarse, a las que se les queda la piel marcada al pasar una uña (**dermografismo**) o a las que una picadura de mosquito les deja una roncha mucho más grande de lo habitual. Nada de esto es diagnóstico por sí solo, pero ayuda a unir las piezas en la anamnesis."
+    ]
+   },
+   {
+    "h2": "¿Es frecuente?",
+    "paras": [
+     "No hay cifras fiables. La intolerancia a la histamina se diagnostica por exclusión, no existe una prueba de referencia aceptada por todos y los estudios usan criterios distintos, por lo que las estimaciones de frecuencia que circulan varían mucho. Las revisiones recientes coinciden en que el interés por este trastorno ha crecido, pero que todavía hace falta más evidencia para definirlo, diagnosticarlo y tratarlo de forma homogénea (Comas-Basté et al., 2020).",
+     "Lo que sí está bien descrito es la **enorme variedad de síntomas**. En un estudio austríaco con 62 pacientes con actividad de DAO baja que contestaron un cuestionario, la **hinchazón abdominal** fue el síntoma más frecuente y el más molesto, seguido de la plenitud tras las comidas, la diarrea, el dolor abdominal y el estreñimiento. Con solo dos síntomas de una lista de 24, los pacientes presentaban 276 combinaciones distintas (Schnedl et al., 2019). Esta variabilidad explica por qué tantas personas pasan años sin una explicación."
+    ]
+   },
+   {
+    "h2": "¿Cuáles son los síntomas?",
+    "paras": [
+     "Los síntomas aparecen, según la descripción clínica habitual, entre unos minutos y varias horas después de comer alimentos ricos en histamina (algunos autores hablan de entre 2 y 24 horas), y suelen ser más intensos cuando se juntan varios alimentos, alcohol o un periodo de estrés. Se agrupan por sistemas, porque dependen de qué receptores se activen en cada persona.",
+     "Lo más frecuente son las molestias **digestivas**, seguidas de la **piel**, el **dolor de cabeza** y los síntomas **respiratorios**. Pero también pueden aparecer síntomas cardiovasculares, nerviosos y ginecológicos, y dolores musculares y articulares difusos. Muchas personas solo reconocen el patrón cuando escriben un diario de lo que comen y de cómo se encuentran."
+    ],
+    "list_title": "Síntomas que se han relacionado con la intolerancia a la histamina:",
+    "list": [
+     "**Digestivos:** hinchazón, gases, plenitud, dolor o espasmos abdominales, diarrea o alternancia de diarrea y estreñimiento, ardor, reflujo, náuseas y vómitos; a menudo con diagnóstico previo de [colon irritable](colon-irritable-sibo)",
+     "**Piel:** enrojecimiento con las emociones, el deporte o el agua caliente o fría, picor, urticaria, dermografismo, eccema, dermatitis o piel atópica, y grandes ronchas por picaduras",
+     "**Cardiovasculares:** palpitaciones, taquicardia, arritmias y tensión baja por la dilatación de los vasos",
+     "**Respiratorios:** estornudos, rinitis, congestión nasal, tos, broncoespasmo o empeoramiento del asma",
+     "**Sistema nervioso:** dolor de cabeza y [migraña](cefaleas-migrana), mareo, irritabilidad, ansiedad o crisis de pánico, dificultad de atención e insomnio",
+     "**Ginecológicos:** dolor menstrual por la contracción del útero",
+     "**Otros:** dolores musculares y articulares, cansancio y fatiga persistente; se investiga su papel en algunas personas con [fibromialgia](fibromialgia) o [dolor crónico](dolor-persistente-cronico)"
+    ]
+   },
+   {
+    "h2": "¿Cómo elimina el cuerpo la histamina? La DAO y la HNMT",
+    "paras": [
+     "El organismo tiene dos grandes vías para inactivar la histamina. La primera es la **DAO (diaminooxidasa)**, también llamada histaminasa. Es la enzima principal para degradar la histamina que llega con los alimentos y actúa **fuera de las células**: se fabrica en las células maduras de la mucosa intestinal, sobre todo en las vellosidades del intestino delgado y en el colon ascendente, y se libera a la luz del intestino. Funciona como una barrera: neutraliza la histamina de la comida antes de que pase a la sangre (Maintz y Novak, 2007; Comas-Basté et al., 2020).",
+     "La DAO también se expresa en el **riñón** y en la **placenta**. En el embarazo la placenta produce grandes cantidades de DAO, que protegen al feto de la histamina. Es una de las razones por las que algunas mujeres con intolerancia notan que sus síntomas mejoran durante el embarazo.",
+     "La segunda vía es la **HNMT (histamina-N-metiltransferasa)**, que actúa **dentro de las células**, en el citoplasma. Se encarga de la histamina que ya está en los tejidos, por ejemplo en el sistema nervioso, el hígado o los bronquios. Las dos enzimas se reparten el trabajo según dónde actúan: la DAO controla lo que entra por el intestino; la HNMT, lo que ya está dentro.",
+     "Cuando la actividad de la DAO es baja, cantidades moderadas de histamina, que otras personas toleran sin problema, superan la barrera intestinal y producen síntomas. Por eso la DAO es el centro de la explicación y del abordaje de la intolerancia a la histamina."
+    ]
+   },
+   {
+    "h2": "¿Qué papel tiene la catalasa?",
+    "paras": [
+     "Cuando la DAO degrada la histamina se forman tres productos: **imidazol acetaldehído**, **amoniaco** y **peróxido de hidrógeno** (agua oxigenada, H₂O₂). Este último es una especie reactiva de oxígeno: en exceso puede producir estrés oxidativo y dañar las membranas y el ADN de las células. El cuerpo dispone de otra enzima, la **catalasa**, que convierte el peróxido de hidrógeno en agua y oxígeno. En cierto modo, la DAO y la catalasa trabajan en equipo.",
+     "Esta relación se ha estudiado **en el laboratorio**, en un cultivo de células intestinales humanas (línea Caco-2). La histamina a concentraciones altas era tóxica para esas células; la DAO de origen vegetal (de guisante, *Lathyrus sativus*) aumentaba esa toxicidad por el peróxido que genera, y añadir catalasa la anulaba en las células indiferenciadas y la reducía en parte en las diferenciadas (Jumarie et al., 2017). Es un **estudio in vitro**: ayuda a entender el mecanismo, pero no demuestra qué ocurre en una persona ni justifica por sí solo ningún tratamiento.",
+     "Del mismo modo, en estudios de laboratorio con células y en animales se ha observado que algunos compuestos vegetales, como la quercetina y otros polifenoles, reducen la liberación de histamina de los mastocitos. Son datos **preclínicos**, interesantes para la investigación, que no deben presentarse como evidencia de eficacia en personas."
+    ]
+   },
+   {
+    "h2": "¿Por qué baja la actividad de la DAO?",
+    "paras": [
+     "La DAO se fabrica en la mucosa del intestino, así que **cualquier inflamación o daño del epitelio intestinal puede reducir su producción**. En la enfermedad inflamatoria intestinal se ha observado una actividad de DAO disminuida que se corresponde con el grado de daño de la mucosa. Las revisiones también señalan las alteraciones de la microbiota y de la barrera intestinal. No siempre está claro qué va primero: si la DAO baja por la inflamación o si la histamina acumulada contribuye a mantenerla, por lo que conviene hablar de **asociación**.",
+     "La enzima necesita además unos **cofactores** para funcionar: la vitamina B6, la vitamina C, el cobre y el zinc, que pueden valorarse en una analítica. Existen también **variantes genéticas** que reducen la actividad de la DAO. Y hay **fármacos** que la inhiben o que liberan histamina (algunos analgésicos y antiinflamatorios, ciertos antibióticos, mucolíticos, antidepresivos, antihipertensivos como el verapamilo, relajantes musculares o contrastes radiológicos, entre otros). Si toma alguno, no lo deje por su cuenta: coméntelo con su médico, que valorará si hay otras opciones. El **alcohol** inhibe la DAO y, además, muchas bebidas alcohólicas son ricas en histamina."
+    ],
+    "list_title": "Causas que se asocian a una actividad baja de DAO:",
+    "list": [
+     "Déficit de cofactores: vitamina B6, vitamina C, cobre y zinc",
+     "Variantes genéticas que reducen la producción o la actividad de la enzima",
+     "Gastritis y úlcera",
+     "[Colon irritable y SIBO](colon-irritable-sibo) (sobrecrecimiento bacteriano del intestino delgado)",
+     "[Enfermedad inflamatoria intestinal](enfermedad-inflamatoria-intestinal): enfermedad de Crohn y colitis ulcerosa",
+     "Celiaquía y otras causas de daño de las vellosidades intestinales",
+     "Disbiosis: alteraciones de la [microbiota](salud-digestiva-microbiota), incluidas bacterias productoras de histamina",
+     "Fármacos que inhiben la DAO o liberan histamina (siempre a valorar con su médico)",
+     "Alcohol"
+    ]
+   },
+   {
+    "h2": "¿Cuál es la buena noticia?",
+    "paras": [
+     "Que en muchos casos el déficit de DAO **no es fijo**. Si la causa es una inflamación de la mucosa, una gastritis, un SIBO, una disbiosis o la falta de algún cofactor, al resolver el problema digestivo la DAO **puede recuperar su actividad**, y con ella la tolerancia a los alimentos. Por eso no basta con retirar alimentos: además de reducir la histamina de la dieta, conviene buscar por qué la DAO funciona poco.",
+     "En esa búsqueda tiene sentido mirar el intestino en su conjunto. Un **estudio de heces**, cuando lo indica el profesional, permite valorar la microbiota, la presencia de marcadores de inflamación y la salud del epitelio intestinal. La analítica de sangre ayuda a revisar los cofactores. Y la historia clínica orienta hacia otras causas, como el estrés sostenido o los fármacos. Es el enfoque de la [PNIE](pni-pnie-barcelona) y de la [medicina integrativa](medicina-integrativa-barcelona): buscar el mecanismo de fondo en lugar de tratar cada síntoma por su lado."
+    ]
+   },
+   {
+    "h2": "¿Cómo se diagnostica?",
+    "paras": [
+     "No existe una prueba única que confirme la intolerancia a la histamina. El diagnóstico es **clínico y por exclusión**: se sospecha cuando los síntomas se desencadenan con alimentos ricos en histamina, con alcohol o con fármacos que liberan histamina o bloquean la DAO, y se han descartado antes una **alergia** (por IgE), una **mastocitosis** y otras enfermedades digestivas o internas (Maintz y Novak, 2007). Esa parte del estudio corresponde a su médico y, si hace falta, al alergólogo o al digestólogo.",
+     "La **actividad de DAO en sangre** es una prueba que el médico puede solicitar. En un estudio esloveno con 316 personas con sospecha de intolerancia y 55 controles sanos, la actividad de DAO era significativamente menor en los pacientes, y 54 de ellos tenían una actividad muy reducida, por debajo de 40 HDU/ml. Veinte de esas personas siguieron una dieta sin histamina entre 6 y 12 meses, y en todas desaparecieron los síntomas principales (Mušič et al., 2013). En un pequeño estudio italiano, 10 de 14 pacientes con síntomas tras alimentos ricos en histamina tenían una DAO sérica por debajo de 10 U/ml, frente a una media de 39,5 U/ml en personas sanas (Manzotti et al., 2016).",
+     "Hay que interpretar estos valores con **prudencia**. Los laboratorios usan unidades y puntos de corte distintos (en algunos se considera normal más de 80 HDU/ml, reducida entre 40 y 80 y muy reducida por debajo de 40), y no está demostrado que la DAO en sangre refleje fielmente la actividad de la enzima en el intestino. Un valor normal no descarta la intolerancia y uno bajo no la confirma por sí solo. Lo más útil suele ser combinar la historia clínica, un diario de síntomas y la respuesta a una dieta baja en histamina bien hecha durante un tiempo limitado."
+    ]
+   },
+   {
+    "h2": "¿Qué es una dieta baja en histamina y qué dice la evidencia?",
+    "paras": [
+     "La dieta baja en histamina es la **base del manejo** de la intolerancia, según todas las revisiones clínicas. Persigue dos objetivos: reducir la entrada de histamina con los alimentos y evitar los alimentos que liberan histamina del propio cuerpo, para dar tiempo a que se recupere la mucosa intestinal y la actividad de la DAO.",
+     "El estudio más citado es el de **Lackner y colaboradores**, en Austria. Revisaron las historias de 101 pacientes con intolerancia a la histamina y, tras una mediana de **13 meses**, les pasaron un cuestionario para clasificarlos según lo bien que habían seguido una dieta reducida en histamina. La DAO en sangre **aumentó de forma significativa** en quienes la habían seguido de manera estricta u ocasional, y el aumento se correspondía con el grado de cumplimiento; los autores concluyen que la dieta no solo mejora los síntomas, sino que se asocia a un aumento de la DAO sérica (Lackner et al., 2019). Es un estudio retrospectivo y con limitaciones, pero apunta en la misma dirección que la experiencia clínica.",
+     "Es importante entenderla como una **fase temporal y personalizada**, no como una dieta para siempre. Tras unas semanas se reintroducen los alimentos poco a poco para encontrar el **umbral de tolerancia** de cada persona: hay quien tolera el tomate y no el vino, o el chocolate en pequeñas cantidades pero no junto con otros alimentos ricos en histamina. Cada persona tiene un nivel de sensibilidad distinto y la dieta se ajusta según la respuesta. Una dieta restrictiva mantenida sin necesidad empobrece la alimentación y la microbiota, por lo que conviene hacerla con orientación profesional y con el apoyo de [nutrición](nutricion-salud-intestinal) cuando haga falta.",
+     "Sobre los **suplementos de DAO**: existen, y algunos estudios pequeños sugieren que pueden ayudar a ciertas personas. Su indicación, si procede, la individualiza un profesional según cada caso."
+    ]
+   },
+   {
+    "h2": "¿Qué alimentos tienen más histamina?",
+    "paras": [
+     "Las listas que siguen son **orientativas**. El contenido de histamina de un mismo alimento varía mucho según su frescura, su maduración, cómo se ha conservado y cocinado, y las tablas publicadas no coinciden entre sí; una revisión española concluyó que las fuentes disponibles no reflejan un consenso homogéneo y que hace falta unificarlas (San Mauro Martín et al., 2016). Además, cada persona tolera cantidades distintas. No son una pauta cerrada, sino un punto de partida para ajustarlo a usted.",
+     "Hay dos grupos. Los **alimentos ricos en histamina** la aportan directamente; suelen ser fermentados, curados, madurados o poco frescos, porque las bacterias transforman un aminoácido, la histidina, en histamina. Los **alimentos liberadores** contienen poca histamina, pero hacen que el propio cuerpo la libere."
+    ],
+    "list_title": "Alimentos con mucha histamina:",
+    "list": [
+     "Alcohol: vino, cerveza, sidra y cava",
+     "Embutidos y curados: salami, chorizo, jamón serrano y cocido, mortadela, salchichas tipo Frankfurt",
+     "Quesos curados y quesos con moho (azul, roquefort)",
+     "Fermentados: chucrut, encurtidos, salsa de soja, miso, tempeh, tamari, kéfir, yogures, kombucha, té negro, mostaza y vinagre",
+     "Levaduras y sus extractos: pan y bollería de fermentación larga, patés y caldos concentrados",
+     "Pescado azul, conservas de pescado, ahumados y marisco",
+     "Carne picada o refrigerada más de 48 horas, sobras de varios días",
+     "Algunas verduras: espinacas, acelgas, tomate, berenjena y aguacate; setas no frescas",
+     "Chocolate y cacao"
+    ]
+   },
+   {
+    "h2": "¿Qué alimentos liberan histamina?",
+    "paras": [
+     "Los alimentos liberadores son especialmente traicioneros porque no parecen sospechosos: muchas personas se extrañan de que un zumo de naranja o unas fresas les provoquen dolor de cabeza o ardor. Algunos autores incluyen también aquí la soja y sus derivados, los lácteos de vaca o el trigo, que en determinadas personas empeoran los síntomas."
+    ],
+    "list_title": "Alimentos y sustancias que pueden liberar histamina:",
+    "list": [
+     "Cítricos: naranja, limón, mandarina, pomelo y lima",
+     "Otras frutas: fresa, frambuesa, kiwi, piña, papaya, plátano y ciruela",
+     "Frutos secos (nueces, almendras) y cacahuetes",
+     "Tomate, espinacas, pimiento y patata en algunas personas",
+     "Clara de huevo; en menor medida, garbanzos y aceitunas",
+     "Pescado, marisco y carne de cerdo",
+     "Chocolate, regaliz y especias picantes",
+     "Café y té con teína",
+     "Aditivos: glutamato (E-621), benzoatos, sulfitos, nitritos y aspartamo; azúcar blanco y productos muy procesados"
+    ]
+   },
+   {
+    "h2": "¿Qué alimentos se suelen tolerar mejor?",
+    "paras": [
+     "También es orientativa, y lo importante es que la dieta siga siendo variada. La clave está más en la **frescura** que en el tipo de alimento: un pescado blanco recién comprado suele tolerarse; el mismo pescado tras días en la nevera, no tanto. Para quienes necesitan además reducir el gluten, hay cereales y pseudocereales sin gluten como el mijo, la quinoa, el trigo sarraceno, el arroz, el maíz, el amaranto, el teff, el sorgo, la tapioca o la avena certificada. Los fermentados de leche de cabra u oveja (queso fresco, yogur) se toleran en algunas personas, pero conviene probarlos con precaución."
+    ],
+    "list_title": "Alimentos que suelen tolerarse (siempre según la respuesta de cada persona):",
+    "list": [
+     "Frutas: manzana, pera, mango, coco, lichi, granada, uva, melón no muy maduro, sandía, higo, melocotón, cereza, albaricoque, nectarina y algunos frutos del bosque",
+     "Verduras: lechuga, endibia, escarola, berros, canónigos, rúcula, coles, coliflor, lombarda, brócoli, alcachofa, zanahoria, boniato, pepino, calabacín, calabaza, espárragos, remolacha, judías verdes, nabo, rábano, apio, ajo, cebolla y puerro",
+     "Carnes frescas: cordero, ternera, conejo, pollo y pavo",
+     "Pescado blanco fresco, bien conservado",
+     "Yema de huevo",
+     "Legumbres: guisantes, lentejas, habas, judías y azukis",
+     "Semillas de lino, sésamo y cáñamo; algas",
+     "Bebidas vegetales de arroz, mijo, quinoa, avena, sésamo o coco; leche de cabra u oveja",
+     "Infusiones sin teína; algarroba; para endulzar, azúcar integral, miel o estevia con moderación"
+    ]
+   },
+   {
+    "h2": "¿Por qué importan tanto la frescura y la conservación?",
+    "paras": [
+     "La histamina de los alimentos la producen sobre todo **bacterias** que transforman la histidina en histamina. Cuanto más tiempo pasa un alimento a temperatura inadecuada, más madura o fermenta, y más bacterias actúan, más histamina acumula. Y la histamina **no se destruye al cocinar**: congelar, hervir o freír un pescado que ya la ha acumulado no la elimina. Por eso, para una persona con intolerancia, cómo se compra y se guarda la comida es casi tan importante como qué come.",
+     "La Autoridad Europea de Seguridad Alimentaria (EFSA) revisó el riesgo de las aminas biógenas, como la histamina, en los alimentos fermentados. Concluyó que, según la información disponible, 50 mg de histamina por persona y comida no producían efectos en personas sanas, pero que en las personas con intolerancia a la histamina el umbral seguro estaba **por debajo de los límites detectables** (EFSA, 2011). Es decir, la sensibilidad individual cambia mucho la cantidad que se tolera."
+    ],
+    "list_title": "Hábitos que ayudan a reducir la histamina en casa:",
+    "list": [
+     "Comprar el pescado y la carne lo más frescos posible y consumirlos el mismo día o al día siguiente",
+     "Congelar enseguida lo que no se vaya a comer pronto, y descongelar en la nevera, no a temperatura ambiente",
+     "Evitar las sobras de varios días: congelar las raciones recién cocinadas",
+     "Mantener la cadena de frío desde la compra y no dejar la comida fuera de la nevera",
+     "Priorizar los alimentos frescos frente a las conservas, los ahumados y los platos preparados",
+     "Elegir frutas en su punto, no muy maduras",
+     "Anotar en un diario qué come y cómo se encuentra durante las 24 horas siguientes"
+    ]
+   },
+   {
+    "h2": "¿Tienen que ver las emociones y el estrés con la histamina?",
+    "paras": [
+     "Sí, y es uno de los ejemplos más claros de lo que estudia la [PNIE](pni-pnie-barcelona) (psiconeuroinmunoendocrinología): la comunicación entre el sistema nervioso, el hormonal y el inmune. Los **mastocitos**, las células que almacenan histamina, están muy cerca de las terminaciones nerviosas y responden a los mensajeros del estrés. En la piel, la respuesta inmediata al estrés incluye la liberación de neuropéptidos como la sustancia P y la desgranulación de los mastocitos, lo que se conoce como **inflamación neurogénica**.",
+     "Una revisión desde la perspectiva de la psiconeuroinmunología explica que las enfermedades atópicas se caracterizan por un desequilibrio de los ejes del estrés, el eje hipotálamo-hipófisis-suprarrenal y el sistema simpático, junto con mediadores como la sustancia P y el factor de crecimiento nervioso. Ese desequilibrio puede agravar la inflamación alérgica, y los autores proponen revisar opciones como las técnicas de relajación para equilibrar la respuesta al estrés (Liezmann et al., 2011).",
+     "El grupo danés de **Zachariae** lo estudió de forma muy gráfica. Indujeron mediante hipnosis emociones de tristeza, enfado y alegría en 15 voluntarios sanos y midieron la reacción de su piel a una pequeña punción con histamina. Durante la alegría y el enfado, el enrojecimiento (la «llamarada» alrededor de la punción) aumentó significativamente menos que durante la tristeza, aunque no cambió el habón (Zachariae et al., 2001). Es un estudio pequeño, en condiciones de laboratorio, pero coincide con trabajos anteriores que relacionan el estado de ánimo con la reactividad de la piel a la histamina.",
+     "En la práctica, esto ayuda a entender por qué muchas personas notan que sus síntomas empeoran en épocas de estrés, con poco sueño o tras un disgusto, aunque no hayan cambiado la dieta. Cuidar el descanso, regular el sistema nervioso a través de la respiración y el [nervio vago](nervio-vago), y prácticas como el [mindfulness](mindfulness-barcelona), el [yoga](yoga-particular-grupos-reducidos) o el [qigong](qigong-barcelona) forman parte de un abordaje que no se limita al plato."
+    ]
+   },
+   {
+    "h2": "¿Qué relación tiene con la microbiota y con otros problemas digestivos?",
+    "paras": [
+     "Algunas bacterias intestinales son capaces de **producir histamina** a partir de la histidina de la dieta, y otras pueden degradarla. Por eso las revisiones recientes señalan la [microbiota intestinal](salud-digestiva-microbiota) como un factor relevante en la acumulación de histamina (Comas-Basté et al., 2020). Una disbiosis o un sobrecrecimiento bacteriano en el intestino delgado ([SIBO](colon-irritable-sibo)) pueden, a la vez, aumentar la histamina producida dentro del intestino y dañar la mucosa donde se fabrica la DAO.",
+     "La histamina también se ha relacionado con el [colon irritable](colon-irritable-sibo), con la [diarrea crónica](diarrea-cronica) y con la enfermedad inflamatoria intestinal. Algunos estudios han descrito una actividad de DAO menor en pólipos y adenomas de colon, pero son observaciones que no permiten establecer una relación de causa. Además, la intolerancia a la histamina coincide a menudo con otras [intolerancias alimentarias](intolerancias-alimentarias), como la de la fructosa o la lactosa, lo que complica identificar qué alimento produce qué síntoma.",
+     "Este solapamiento es, precisamente, la razón para mirar el intestino como un todo: la microbiota, la mucosa, la inflamación, los cofactores y el sistema nervioso. Es la lógica que une esta página con las de [PNIE](pni-pnie-barcelona), [microbiota](salud-digestiva-microbiota) y [nutrición](nutricion-salud-intestinal)."
+    ]
+   },
+   {
+    "h2": "¿Cuándo debo consultar con mi médico?",
+    "paras": [
+     "La intolerancia a la histamina es un diagnóstico de exclusión, así que es su médico quien debe descartar primero una alergia alimentaria, una mastocitosis, una celiaquía, una enfermedad inflamatoria intestinal u otras causas. Hay situaciones que requieren atención médica sin esperar."
+    ],
+    "list_title": "Acuda a urgencias o consulte con su médico si nota:",
+    "list": [
+     "Hinchazón de labios, lengua, párpados o garganta, o dificultad para respirar o tragar tras comer (urgencias)",
+     "Mareo intenso, desmayo o caída brusca de la tensión (urgencias)",
+     "Urticaria generalizada que aparece de forma súbita",
+     "Sangre en las heces, heces negras, fiebre o diarrea que le despierta por la noche",
+     "Pérdida de peso sin explicación, anemia o cansancio extremo",
+     "Palpitaciones con dolor en el pecho o sensación de falta de aire",
+     "Un primer episodio de migraña muy intensa o distinta de las habituales"
+    ]
+   },
+   {
+    "h2": "¿Cómo se valora en consulta?",
+    "paras": [
+     "La valoración empieza por una **anamnesis** detallada: qué síntomas tiene, desde cuándo, cómo se relacionan con las comidas, el alcohol, el ciclo menstrual, el estrés o el sueño, qué pruebas le han hecho ya, qué medicación toma y cómo va de vientre. Es habitual pedir un **diario de alimentos y síntomas** de una o dos semanas, que suele aclarar más que cualquier tabla. Se revisan las analíticas disponibles, incluidos los cofactores de la DAO, y si se ha descartado una alergia.",
+     "Desde la [osteopatía visceral](osteopatia-visceral-barcelona), la exploración palpatoria del abdomen permite valorar la movilidad de las vísceras, las zonas de tensión y la respuesta de los tejidos. No diagnostica una intolerancia, pero aporta información sobre el estado del sistema digestivo y del diafragma, muy relacionados con la respiración y con el sistema nervioso autónomo. Con todo ello se plantea un plan individual y, si hace falta, la coordinación con su médico."
+    ]
+   },
+   {
+    "h2": "¿Se puede prevenir?",
+    "paras": [
+     "No se puede cambiar la genética, pero sí actuar sobre buena parte de lo que reduce la DAO o aumenta la carga de histamina, y conviene hacerlo **antes de que el sistema se desregule**. Los síntomas de histamina rara vez aparecen de golpe: suelen precederlos fases reconocibles, como una etapa de **estrés sostenido**, semanas de **sueño alterado**, una gastroenteritis o un tratamiento antibiótico, o los primeros **cambios digestivos** (hinchazón, heces más blandas, ardor). Detectar esas señales precoces y consultar entonces permite corregir lo corregible, por ejemplo un déficit de cofactores, una disbiosis o un SIBO incipiente, y evitar que la sensibilidad a los alimentos progrese.",
+     "La **alimentación** es la primera herramienta, con pautas orientativas: priorizar los alimentos frescos y bien conservados, no acumular en la misma comida varios alimentos ricos en histamina, limitar el alcohol y los ultraprocesados, y mantener una dieta variada y rica en verduras y fibra dentro de lo tolerado, porque cuidar la mucosa y la microbiota es cuidar la fábrica de la DAO. No conviene, en cambio, iniciar dietas restrictivas por precaución: empobrecen la microbiota sin beneficio demostrado.",
+     "El **ejercicio terapéutico** y la reducción del **sedentarismo** forman parte de la prevención. La OMS recomienda a los adultos entre 150 y 300 minutos semanales de actividad moderada, ejercicios de fuerza dos o más días a la semana y reducir el tiempo que se pasa sentado (Bull et al., 2020). Con el teletrabajo y muchas horas en casa, la falta de movimiento se asocia a digestiones más lentas, peor sueño y peor regulación metabólica; levantarse a caminar unos minutos cada 30–60 minutos es una medida sencilla. Hay que dosificar la intensidad: en algunas personas el ejercicio muy intenso, con calor o tras comer alimentos ricos en histamina, empeora el rubor y el picor.",
+     "Si sabe que atraviesa una etapa de estrés, es el momento de **proteger el sueño** (horarios regulares, siete a ocho horas, cenas ligeras y tempranas) y de cuidar la **regulación del sistema nervioso** con respiración lenta, [yoga](yoga-particular-grupos-reducidos), [qigong](qigong-barcelona) o [mindfulness](mindfulness-barcelona), porque el estrés y la falta de sueño activan los mastocitos y alteran la microbiota. Y si ya tiene un diagnóstico, las **revisiones periódicas** permiten ajustar la dieta, reintroducir alimentos y comprobar que el problema intestinal de fondo mejora."
+    ],
+    "list_title": "Señales precoces que conviene consultar antes de que el problema avance:",
+    "list": [
+     "Dolor de cabeza, rubor o picor que empiezan a repetirse tras ciertas comidas o con el alcohol",
+     "Hinchazón, ardor o cambios en las heces que duran más de unas semanas",
+     "Empeoramiento de la regla dolorosa, la rinitis o la urticaria sin causa clara",
+     "Síntomas que aparecen tras una gastroenteritis, un antibiótico o una etapa de estrés intenso",
+     "Necesidad creciente de analgésicos o antihistamínicos para llevar una vida normal"
+    ]
+   },
+   {
+    "h2": "¿Qué puedo hacer en mi día a día?",
+    "paras": [
+     "Pequeños cambios mantenidos suelen marcar la diferencia. Lo importante es no obsesionarse con las listas, sino aprender a reconocer las propias señales."
+    ],
+    "list_title": "Recomendaciones prácticas:",
+    "list": [
+     "Lleve un diario de comidas, síntomas, ciclo menstrual, sueño y estrés durante unas semanas",
+     "Priorice los alimentos frescos y cocine en el momento; congele lo que sobre",
+     "Evite juntar en la misma comida varios alimentos ricos en histamina o liberadores (por ejemplo, vino, queso curado y embutido)",
+     "Reduzca o evite el alcohol, sobre todo el vino tinto y la cerveza",
+     "Revise con su médico si algún fármaco que toma puede inhibir la DAO o liberar histamina; no lo suspenda por su cuenta",
+     "Reintroduzca los alimentos de uno en uno y en pequeñas cantidades para conocer su umbral",
+     "Cuide el sueño y busque cada día un momento de calma o de respiración lenta",
+     "Si tiene molestias digestivas persistentes, busque también la causa intestinal"
+    ]
+   }
+  ],
+  "evidence": {
+   "h2": "¿Qué dice la evidencia científica?",
+   "items": [
+    [
+     "Revisión clave (Am J Clin Nutr)",
+     "La intolerancia a la histamina resulta del desequilibrio entre la histamina acumulada y la capacidad de degradarla; la DAO es la enzima principal para la histamina ingerida (Maintz y Novak, 2007)."
+    ],
+    [
+     "Síntomas (Intest Res)",
+     "En 62 pacientes con DAO baja, la hinchazón fue el síntoma más frecuente, y con solo dos síntomas de 24 se registraron 276 combinaciones distintas (Schnedl et al., 2019)."
+    ],
+    [
+     "DAO sérica (Wien Klin Wochenschr)",
+     "De 316 personas con sospecha de intolerancia, 54 tenían una DAO muy reducida (<40 HDU/ml); en las 20 que siguieron 6–12 meses de dieta sin histamina desaparecieron los síntomas principales (Mušič et al., 2013)."
+    ],
+    [
+     "DAO sérica (Int J Immunopathol Pharmacol)",
+     "10 de 14 pacientes tenían una DAO <10 U/ml; la media fue 7,04 U/ml frente a 39,5 U/ml en 34 controles sanos (Manzotti et al., 2016)."
+    ],
+    [
+     "Dieta (Eur J Clin Nutr)",
+     "En 101 pacientes, tras una mediana de 13 meses, la DAO sérica aumentó de forma significativa en quienes siguieron la dieta reducida en histamina, en proporción al cumplimiento (Lackner et al., 2019)."
+    ],
+    [
+     "Alimentos (EFSA Journal)",
+     "50 mg de histamina por comida no producían efectos en personas sanas, pero en la intolerancia el umbral estaba por debajo de los límites detectables (EFSA, 2011)."
+    ],
+    [
+     "Tablas de alimentos (Allergol Immunopathol)",
+     "Las fuentes sobre el contenido de histamina de los alimentos no muestran un consenso homogéneo, por lo que las listas deben usarse como orientación (San Mauro Martín et al., 2016)."
+    ],
+    [
+     "DAO y catalasa, in vitro (Appl Biochem Biotechnol)",
+     "En células intestinales Caco-2, la catalasa anuló el aumento de toxicidad de la histamina causado por el peróxido de la DAO en las células indiferenciadas (Jumarie et al., 2017)."
+    ],
+    [
+     "Emociones (Allergy)",
+     "En 15 voluntarios, la reacción de enrojecimiento a la histamina fue menor durante la alegría y el enfado inducidos que durante la tristeza (Zachariae et al., 2001)."
+    ],
+    [
+     "Actividad física (Br J Sports Med)",
+     "La OMS recomienda a los adultos 150–300 minutos semanales de actividad moderada, ejercicios de fuerza regulares y reducir el tiempo sedentario (Bull et al., 2020)."
+    ]
+   ],
+   "refs": [
+    {
+     "t": "Maintz L, Novak N, 2007. «Histamine and histamine intolerance». American Journal of Clinical Nutrition.",
+     "doi": "10.1093/ajcn/85.5.1185"
+    },
+    {
+     "t": "Kovacova-Hanuskova E, Buday T, Gavliakova S, Plevkova J, 2015. «Histamine, histamine intoxication and intolerance». Allergologia et Immunopathologia.",
+     "doi": "10.1016/j.aller.2015.05.001"
+    },
+    {
+     "t": "San Mauro Martín I, Brachero S, Garicano Vilar E, 2016. «Histamine intolerance and dietary management: a complete review». Allergologia et Immunopathologia.",
+     "doi": "10.1016/j.aller.2016.04.015"
+    },
+    {
+     "t": "Mušič E, Korošec P, Šilar M, Adamič K, Košnik M, Rijavec M, 2013. «Serum diamine oxidase activity as a diagnostic test for histamine intolerance». Wiener klinische Wochenschrift.",
+     "doi": "10.1007/s00508-013-0354-y"
+    },
+    {
+     "t": "Manzotti G, Breda D, Di Gioacchino M, Burastero SE, 2016. «Serum diamine oxidase activity in patients with histamine intolerance». International Journal of Immunopathology and Pharmacology.",
+     "doi": "10.1177/0394632015617170"
+    },
+    {
+     "t": "Lackner S, Malcher V, Enko D, Mangge H, Holasek SJ, Schnedl WJ, 2019. «Histamine-reduced diet and increase of serum diamine oxidase correlating to diet compliance in histamine intolerance». European Journal of Clinical Nutrition.",
+     "doi": "10.1038/s41430-018-0260-5"
+    },
+    {
+     "t": "Schnedl WJ, Lackner S, Enko D, Schenk M, Holasek SJ, Mangge H, 2019. «Evaluation of symptoms and symptom combinations in histamine intolerance». Intestinal Research.",
+     "doi": "10.5217/ir.2018.00152"
+    },
+    {
+     "t": "Comas-Basté O, Sánchez-Pérez S, Veciana-Nogués MT, Latorre-Moratalla M, Vidal-Carou MC, 2020. «Histamine intolerance: the current state of the art». Biomolecules.",
+     "doi": "10.3390/biom10081181"
+    },
+    {
+     "t": "EFSA Panel on Biological Hazards (BIOHAZ), 2011. «Scientific Opinion on risk based control of biogenic amine formation in fermented foods». EFSA Journal.",
+     "doi": "10.2903/j.efsa.2011.2393"
+    },
+    {
+     "t": "Jumarie C, Séïde M, Marcocci L, Pietrangeli P, Mateescu MA, 2017. «Diamine oxidase from white pea (Lathyrus sativus) combined with catalase protects the human intestinal Caco-2 cell line from histamine damage». Applied Biochemistry and Biotechnology.",
+     "doi": "10.1007/s12010-016-2390-3"
+    },
+    {
+     "t": "Liezmann C, Klapp B, Peters EMJ, 2011. «Stress, atopy and allergy: a re-evaluation from a psychoneuroimmunologic perspective». Dermato-Endocrinology.",
+     "doi": "10.4161/derm.3.1.14618"
+    },
+    {
+     "t": "Zachariae R, Jørgensen MM, Egekvist H, Bjerring P, 2001. «Skin reactions to histamine of healthy subjects after hypnotically induced emotions of sadness, anger, and happiness». Allergy.",
+     "doi": "10.1034/j.1398-9995.2001.056008734.x"
+    },
+    {
+     "t": "González-Díaz SN, Arias-Cruz A, Elizondo-Villarreal B, Monge-Ortega OP, 2017. «Psychoneuroimmunoendocrinology: clinical implications». World Allergy Organization Journal.",
+     "doi": "10.1186/s40413-017-0151-6"
+    },
+    {
+     "t": "Bull FC, Al-Ansari SS, Biddle S, et al., 2020. «World Health Organization 2020 guidelines on physical activity and sedentary behaviour». British Journal of Sports Medicine.",
+     "doi": "10.1136/bjsports-2020-102955"
+    }
+   ]
+  },
+  "faq": [
+   [
+    "¿La intolerancia a la histamina es una alergia?",
+    "No. En la alergia intervienen anticuerpos IgE y la reacción puede ser grave con cantidades mínimas. En la intolerancia no hay IgE: los síntomas dependen de la cantidad de histamina acumulada y de la capacidad de degradarla, sobre todo por la enzima DAO. Por eso se la llama pseudoalergia. Aun así, su médico debe descartar primero una alergia."
+   ],
+   [
+    "¿Qué alimentos tienen más histamina?",
+    "Sobre todo los fermentados, curados y poco frescos: vino, cerveza, quesos curados, embutidos, conservas y ahumados de pescado, chucrut o salsa de soja. Otros, como los cítricos, las fresas o el chocolate, no tienen tanta pero hacen que el cuerpo la libere. Las listas son orientativas y cada persona tiene su umbral."
+   ],
+   [
+    "¿La dieta baja en histamina es para siempre?",
+    "No. Es una fase temporal. Después se reintroducen los alimentos poco a poco para encontrar su nivel de tolerancia y que la dieta sea lo más amplia posible. Mantener una dieta restrictiva sin necesidad empobrece la alimentación y la microbiota."
+   ],
+   [
+    "¿Sirve la analítica de DAO en sangre?",
+    "Puede orientar, y la solicita el médico, pero hay que interpretarla con prudencia: los laboratorios usan puntos de corte distintos y no está claro que refleje la actividad de la enzima en el intestino. Lo más útil es combinarla con la historia clínica, un diario de síntomas y la respuesta a la dieta."
+   ],
+   [
+    "¿Se puede recuperar la actividad de la DAO?",
+    "En muchos casos, sí. Si la causa es una inflamación intestinal, una gastritis, un SIBO, una disbiosis o la falta de algún cofactor, al resolver el problema digestivo la DAO puede mejorar. En un estudio, la DAO sérica aumentó en quienes siguieron una dieta reducida en histamina."
+   ],
+   [
+    "¿Tiene relación con la migraña y el dolor de regla?",
+    "Puede tenerla. La histamina dilata los vasos y favorece la contracción del útero, y se relaciona con el dolor de cabeza y el dolor menstrual. Si es su caso, puede leer también la página de [cefaleas y migraña](cefaleas-migrana)."
+   ],
+   [
+    "¿Puedo tomar suplementos de DAO?",
+    "Existen suplementos de DAO y algunos estudios pequeños sugieren que ayudan a ciertas personas. Su indicación debe individualizarla un profesional según su caso, y nunca deben servir para dejar de buscar por qué la DAO funciona poco."
+   ],
+   [
+    "¿Por qué empeoro cuando estoy estresado?",
+    "Porque los mastocitos, las células que almacenan histamina, responden a los mensajeros del estrés. Es un buen ejemplo de la relación entre emociones, sistema nervioso e inmunidad que estudia la [PNIE](pni-pnie-barcelona). Cuidar el sueño y la regulación del estrés forma parte del abordaje."
+   ]
+  ],
+  "related": [
+   "intolerancias-alimentarias",
+   "cefaleas-migrana",
+   "salud-digestiva-microbiota",
+   "alergias-asma-infecciones"
+  ],
+  "cta_h2": "Entender sus síntomas y volver a comer con confianza",
+  "seo": {
+   "kw": "intolerancia a la histamina Barcelona",
+   "kws": [
+    "déficit de DAO",
+    "dieta baja en histamina",
+    "histamina dolor de cabeza",
+    "alimentos ricos en histamina",
+    "intolerancia histamina síntomas",
+    "alimentos liberadores de histamina"
+   ],
+   "ca_kw": "intolerància a la histamina Barcelona",
+   "quick": "La intolerancia a la histamina es una pseudoalergia en la que el cuerpo no degrada bien la histamina de los alimentos, casi siempre por una actividad baja de la enzima DAO del intestino. Provoca síntomas digestivos, de la piel, dolor de cabeza, rubor o dolor de regla, y se diagnostica por exclusión. Su manejo combina una dieta baja en histamina temporal e individual con la búsqueda de la causa intestinal que reduce la DAO.",
+   "entity": [
+    "MedicalCondition",
+    "Intolerancia a la histamina"
+   ]
+  },
+  "research": [
+   "Personas con dolor de cabeza, molestias digestivas, rojeces, dolor de regla o tensión baja tras ciertos alimentos, a veces con un déficit de DAO detectado, que buscan en Barcelona entender la causa y orientarse con la dieta.",
+   [
+    "intolerancia a la histamina síntomas",
+    "déficit de DAO qué comer",
+    "dieta baja en histamina Barcelona",
+    "alimentos ricos en histamina lista"
+   ],
+   [
+    "intolerància a la histamina",
+    "dèficit de DAO Barcelona"
+   ],
+   "Laboratorios de análisis de DAO, nutricionistas, marcas de suplementos de DAO y blogs de alimentación con listas de alimentos."
+  ],
+  "ca": {}
+ },
+ {
+  "slug": "diarrea-cronica",
+  "ca_slug": "diarrea-cronica",
+  "nav": "Diarrea crónica",
+  "card": "Heces blandas o líquidas que se repiten durante semanas: tipos de diarrea, causas, pruebas, señales de alarma y la escala de Bristol.",
+  "title": "Diarrea crónica en Barcelona | WA LAM",
+  "desc": "Qué es la diarrea crónica, la diferencia entre diarrea secretora y osmótica, sus causas (infecciones, inflamación, lactosa, fructosa, sorbitol), las pruebas y las señales de alarma. Sarrià–Sant Gervasi, Barcelona.",
+  "h1": "Diarrea crónica o de repetición en Barcelona",
+  "sub": "Heces blandas que no se resuelven · Sarrià–Sant Gervasi",
+  "lead": "Va al baño tres o cuatro veces al día sin dificultad, pero las heces son blandas, a veces líquidas, y se acompañan de gases. Mucha gente lo considera normal porque «siempre ha sido así». No lo es: cuando las heces son del tipo 5, 6 o 7 de la escala de Bristol durante semanas, el intestino está avisando de que algo no funciona. La diarrea crónica es un síntoma importante y una oportunidad para conocer su intestino y buscar la causa.",
+  "facts_title": "En WA LAM",
+  "facts": [
+   "Diarrea secretora y osmótica",
+   "Intolerancias, microbiota y eje intestino–cerebro",
+   "Anamnesis detallada y coordinación con su médico",
+   "Primera visita: 60 min · 90 €"
+  ],
+  "wa": "Hola, me gustaría información sobre la diarrea crónica.",
+  "mirror": {
+   "h2": "¿Se reconoce en estos síntomas?",
+   "qs": [
+    "¿Sus heces son blandas, pastosas o líquidas desde hace más de cuatro semanas, aunque vaya al baño «con normalidad»?",
+    "¿Necesita tener siempre un baño cerca o se levanta con urgencia antes del desayuno?",
+    "¿Nota gases, hinchazón o retortijones los días que toma lácteos, fruta, zumos o chicles sin azúcar?",
+    "¿Se siente cansado, con la cabeza nublada o le han detectado una anemia que vuelve una y otra vez?"
+   ],
+   "close": "Si hay sangre, fiebre, heces negras o la diarrea le despierta por la noche, consulte antes con su médico. Más abajo detallamos las señales de alarma."
+  },
+  "explain": {
+   "h2": "¿Qué es la diarrea crónica?",
+   "paras": [
+    "La **diarrea** es el aumento de la frecuencia de las deposiciones con heces más blandas o líquidas de lo normal. La Organización Mundial de la Salud habla de diarrea cuando hay tres o más deposiciones blandas o líquidas al día. Lo que más importa no es tanto el número de veces como la **consistencia**: una persona que va dos veces al día con heces bien formadas no tiene diarrea, y otra que va una vez con heces pastosas sí puede tenerla.",
+    "Se considera **crónica** cuando dura **más de cuatro semanas**. La guía de la Sociedad Británica de Gastroenterología la define como una alteración persistente respecto a lo habitual en la persona, con heces de **consistencia entre los tipos 5 y 7 de la escala de Bristol** y una mayor frecuencia, durante más de cuatro semanas (Arasaradnam et al., 2018). Las definiciones antiguas se basaban en el peso de las heces recogidas durante días, algo poco práctico fuera del hospital; la escala de Bristol, en cambio, la puede usar cualquiera en casa.",
+    "Para entender la diarrea hay que recordar qué hace el intestino. Cada día pasan por él varios litros de líquido, entre lo que bebemos y lo que segregan el estómago, el páncreas, el hígado y el propio intestino. El **intestino delgado** absorbe los nutrientes y la mayor parte del agua, y el **colon** termina de absorberla y da forma a las heces. Cuando el intestino segrega más líquido del que absorbe, o cuando en su interior quedan sustancias mal absorbidas que retienen agua, las heces salen blandas o líquidas.",
+    "Según su mecanismo, la diarrea crónica se clasifica en dos grandes tipos: la **diarrea secretora**, en la que el intestino segrega agua y sales por una infección, una inflamación u otra causa, y la **diarrea osmótica**, en la que un alimento mal absorbido arrastra agua hacia el intestino. Hay también diarreas inflamatorias, por mala absorción de grasas o relacionadas con un tránsito acelerado, y con frecuencia **coexisten varios mecanismos** en la misma persona. Más abajo explicamos cómo distinguirlas."
+   ]
+  },
+  "sections": [
+   {
+    "h2": "¿Sus heces son del tipo 5 o 6 de la escala de Bristol?",
+    "paras": [
+     "La **escala de Bristol** clasifica las heces en siete tipos según su forma y consistencia. Se desarrolló en la Universidad de Bristol y se ha comprobado que la forma de las heces es el mejor reflejo sencillo del **tiempo de tránsito intestinal**: en 66 voluntarios, la forma de las heces se correlacionaba con el tiempo de tránsito mejor que el número de deposiciones o el peso de las heces, y cambiaba de manera fiable cuando el tránsito se aceleraba o se enlentecía (Lewis y Heaton, 1997). Cuanto más rápido pasan las heces por el intestino, menos agua se absorbe y más blandas salen.",
+     "Los **tipos 1 y 2** (bolitas duras o salchicha con bultos) indican un tránsito lento y estreñimiento. Los **tipos 3 y 4** (salchicha con grietas o lisa y blanda) son los propios de un intestino que funciona bien: es el objetivo. El **tipo 5** son trozos blandos de bordes definidos, que salen con facilidad; el **tipo 6**, trozos esponjosos de bordes irregulares, una masa pastosa; y el **tipo 7**, heces acuosas sin trozos sólidos.",
+     "Si sus heces son habitualmente del tipo 5, 6 o 7, hay un problema que no está resuelto y conviene buscar el motivo. Es un error frecuente pensar que, si se va de vientre a diario y sin esfuerzo, todo está bien: unas heces poco consistentes, que se deshacen en el agua o se acompañan de gases y urgencia, indican que el intestino **pide ayuda**. Mirar las heces antes de tirar de la cadena es un gesto sencillo que da mucha información.",
+     "Además de la forma, fíjese en otros detalles. Las heces que **flotan**, son muy voluminosas, brillantes, huelen especialmente mal y manchan el inodoro pueden indicar exceso de grasa por mala absorción; las heces **pálidas** y pastosas pueden aparecer en la celiaquía o en problemas del páncreas o de la vía biliar; las heces **negras como el alquitrán** o con **sangre** son una señal de alarma que requiere consulta médica."
+    ]
+   },
+   {
+    "h2": "¿Es frecuente y por qué es importante?",
+    "paras": [
+     "La diarrea crónica es un problema común en los países occidentales: se estima que afecta a alrededor de un 4–5 % de la población en algún momento (Arasaradnam et al., 2018). Detrás de esa cifra hay causas muy distintas, desde una intolerancia a la lactosa hasta una enfermedad inflamatoria intestinal, pasando por el colon irritable, la celiaquía o la malabsorción de ácidos biliares.",
+     "A escala mundial, la diarrea es además un problema de salud pública de primer orden en la infancia. En 2010 fue responsable de alrededor del **9,9 % de las muertes de niños menores de cinco años**, unas 751.000, sobre todo en países de ingresos bajos (Liu et al., 2012). En los niños, la diarrea repetida se ha asociado también a retraso del crecimiento y a peores resultados en el desarrollo. Son datos de contexto mundial, muy distintos de la situación en España, pero recuerdan que la diarrea nunca es un síntoma banal.",
+     "En los adultos, una diarrea que se cronifica afecta a la vida diaria: obliga a planificar los desplazamientos según los baños, altera el sueño, provoca cansancio por la pérdida de líquidos y nutrientes, y genera ansiedad. Por eso merece una valoración ordenada."
+    ]
+   },
+   {
+    "h2": "¿Por qué no basta con cortar la diarrea?",
+    "paras": [
+     "Ante una diarrea, lo habitual es recurrir a una dieta astringente (arroz blanco, manzana, plátano), beber más agua, tomar un antidiarreico o algún remedio casero. En una diarrea aguda de pocos días puede ser suficiente, y los fármacos tienen su indicación, que decide el médico. Pero en la **diarrea crónica** esas medidas alivian el síntoma sin resolver su **origen**: si la causa es una infección persistente, una inflamación, una intolerancia o una mala absorción, la diarrea volverá en cuanto se retiren.",
+     "Además, mantener una dieta astringente durante semanas empobrece la alimentación y la [microbiota](salud-digestiva-microbiota), y cortar la diarrea sin más puede retrasar el diagnóstico de una enfermedad que necesita tratamiento específico. La diarrea es una **oportunidad para conocer el intestino**: obliga a preguntarse qué la produce, cuándo aparece y con qué se relaciona. El objetivo no es solo que desaparezca, sino que las heces vuelvan a ser del tipo 3 o 4 porque el intestino ha recuperado su equilibrio."
+    ]
+   },
+   {
+    "h2": "¿Cuáles son los síntomas de la deshidratación?",
+    "paras": [
+     "Con cada deposición líquida se pierden agua y sales minerales (sodio, potasio, bicarbonato). En una diarrea crónica la pérdida suele ser lenta y se compensa en parte, pero muchas personas viven en una **deshidratación leve** sin saberlo, que explica parte del cansancio y de la falta de concentración. En los niños pequeños, las personas mayores y quienes toman diuréticos, la deshidratación puede ser más rápida y peligrosa.",
+     "Una pista sencilla es el **color de la orina**: lo normal es un amarillo pálido; una orina oscura y escasa indica que falta líquido, y una orina transparente como el agua indica que se está bebiendo mucho. Para reponer, además de agua conviene aportar sales; ante una diarrea abundante, pregunte en la farmacia o a su médico por las soluciones de rehidratación oral."
+    ],
+    "list_title": "Señales de deshidratación a las que conviene estar atento:",
+    "list": [
+     "Fatiga, debilidad y sensación de falta de energía",
+     "Mareo, sobre todo al ponerse de pie",
+     "Piel y mucosas secas, labios agrietados, sed",
+     "Aturdimiento, cabeza nublada y dificultad para concentrarse",
+     "Taquicardia o palpitaciones",
+     "Ansiedad o irritabilidad",
+     "Ganas de comer dulce o confundir la sed con hambre",
+     "Orinar poco y una orina oscura"
+    ]
+   },
+   {
+    "h2": "¿Qué es la diarrea secretora y por qué aparece?",
+    "paras": [
+     "En la **diarrea secretora** el intestino segrega agua y electrolitos hacia su interior en mayor cantidad de la que puede absorber. Lo que la caracteriza es que **no depende de lo que se come**: no mejora con la dieta ni con el ayuno. Las heces son líquidas o pastosas aunque la persona no haya comido, aparecen a menudo **antes del desayuno** y pueden **despertar por la noche**. Las diarreas nocturnas son una pista importante de causa orgánica y se han relacionado con los antiinflamatorios no esteroideos, la diabetes mal controlada, la colitis microscópica, la enfermedad inflamatoria intestinal o el alcohol.",
+     "Sus causas son variadas. Las **infecciones** por virus, bacterias, parásitos u hongos; la **inflamación intestinal**, como la enfermedad de Crohn y la colitis ulcerosa; la **celiaquía**, que atrofia las vellosidades del intestino delgado y da heces pastosas y pálidas; la **insuficiencia pancreática**, con heces grandes, pastosas y grasas que ensucian el inodoro; la radioterapia y la quimioterapia; los laxantes (como el sulfato de magnesio o la glicerina) y algunos antibióticos. En general no se relaciona con un alimento concreto, salvo en la celiaquía cuando se sigue tomando gluten. La diarrea del viajero es un ejemplo típico de diarrea secretora por infección."
+    ],
+    "list_title": "Causas frecuentes de diarrea secretora:",
+    "list": [
+     "Infecciones: parasitarias, víricas, bacterianas o por hongos",
+     "[Enfermedad inflamatoria intestinal](enfermedad-inflamatoria-intestinal): enfermedad de Crohn y colitis ulcerosa; colitis microscópica",
+     "[Celiaquía](intolerancia-gluten), sobre todo si se sigue tomando gluten",
+     "Insuficiencia pancreática exocrina",
+     "Malabsorción de ácidos biliares, por ejemplo tras quitar la vesícula",
+     "Radioterapia y quimioterapia",
+     "Fármacos: laxantes, antibióticos, antiinflamatorios no esteroideos, metformina, entre otros",
+     "Alcohol y diabetes mal controlada",
+     "Hipertiroidismo y otras causas hormonales, menos frecuentes"
+    ]
+   },
+   {
+    "h2": "¿Qué microorganismos pueden causar una diarrea que no se va?",
+    "paras": [
+     "Algunos microorganismos se adhieren a la mucosa intestinal, producen **toxinas** y activan el sistema inmune, que libera mensajeros proinflamatorios. El resultado es un intestino que segrega líquido, absorbe peor los nutrientes y se inflama. Entre los más habituales están bacterias oportunistas como ***Clostridioides difficile***, a menudo tras un tratamiento antibiótico, o ***Campylobacter***; parásitos como ***Giardia*** o ***Cryptosporidium***; virus como el **rotavirus** o el norovirus; y, en determinadas situaciones, hongos como ***Candida***.",
+     "Una infección puede dejar el intestino alterado durante semanas o meses después de curada. Es lo que se conoce como **colon irritable postinfeccioso**, en el que persisten la diarrea, la hipersensibilidad y los cambios de la microbiota. Por eso, ante una diarrea que empezó tras un viaje, una gastroenteritis o un tratamiento antibiótico, conviene contárselo a su médico: orienta las pruebas."
+    ]
+   },
+   {
+    "h2": "¿Puede la inflamación intestinal afectar al resto del cuerpo?",
+    "paras": [
+     "La inflamación del intestino no siempre se queda en el intestino. Los mensajeros inflamatorios pueden llegar a la sangre y a la linfa, y se investiga si, a través del **eje intestino–cerebro**, contribuyen a síntomas como el bajo estado de ánimo, la ansiedad, la fatiga, la migraña o el [dolor crónico](dolor-persistente-cronico). Hoy es una **hipótesis** con base en estudios de laboratorio y en asociaciones observadas en personas, no una relación demostrada de causa y efecto, pero ayuda a entender por qué muchas personas con problemas digestivos se sienten agotadas o con la cabeza nublada.",
+     "Es el campo de estudio de la [PNIE](pni-pnie-barcelona) (psiconeuroinmunoendocrinología), que analiza la comunicación entre el intestino, la [microbiota](salud-digestiva-microbiota), el sistema inmune, el hormonal y el nervioso. El [nervio vago](nervio-vago) es una de las grandes vías de ese diálogo. Y funciona en los dos sentidos: el estrés también acelera el tránsito y aumenta la sensibilidad del intestino, por lo que la diarrea puede empeorar en épocas de [estrés o ansiedad](estres-ansiedad)."
+    ]
+   },
+   {
+    "h2": "¿Por qué la diarrea puede causar anemia?",
+    "paras": [
+     "Cuando la mucosa intestinal está inflamada o las vellosidades están dañadas, se absorben peor el **hierro**, el **ácido fólico**, la **vitamina B12** y otras vitaminas y minerales. Se crea así un círculo vicioso: la inflamación produce mala absorción, la mala absorción produce déficits, y los déficits dificultan la reparación de la mucosa. La celiaquía es un ejemplo clásico: la anemia por falta de hierro puede ser su primera manifestación, incluso sin mucha diarrea.",
+     "Si tiene una **anemia que vuelve** una y otra vez pese a tomar el hierro que le ha pautado su médico, es razonable preguntarse si el intestino está absorbiendo bien. Los suplementos corrigen el déficit, y es importante tomarlos si están indicados; buscar además por qué se produce permite resolver el problema de fondo. En los niños, la mala absorción mantenida puede afectar al crecimiento, por lo que siempre requiere valoración pediátrica."
+    ]
+   },
+   {
+    "h2": "¿Qué es la diarrea osmótica?",
+    "paras": [
+     "La **diarrea osmótica** es, probablemente, la más olvidada. Se produce cuando un alimento **no se absorbe bien en el intestino delgado**. Esas moléculas que se quedan en el interior del intestino atraen agua por ósmosis, y al llegar al colon las bacterias las fermentan y producen gases. El resultado son heces blandas o líquidas, **gases, hinchazón, retortijones** y, a veces, náuseas.",
+     "Lo que la distingue es que aparece **solo los días en que se come ese alimento** y que **mejora con el ayuno** o al ajustar la dieta. Las protagonistas son tres: la **[lactosa](intolerancia-lactosa)**, el azúcar de la leche, cuando falta la enzima lactasa; la **[fructosa](intolerancia-fructosa)**, presente en la fruta, los zumos, la miel y muchos productos endulzados; y el **sorbitol** y otros **polioles** (manitol, xilitol, maltitol, eritritol), que se encuentran en algunas frutas como la ciruela, la pera o la manzana y, sobre todo, en chicles, caramelos y productos «sin azúcar».",
+     "Una revisión sistemática sobre los polioles, con 79 estudios, concluyó que producen síntomas digestivos tanto en personas sanas como en personas con colon irritable, que **aumentan con la dosis consumida**: gases, molestias abdominales y efecto laxante (Lenhart y Chey, 2017). Por eso alguien que masca chicle sin azúcar todo el día o toma muchos productos «light» puede tener diarrea sin sospechar la causa. Las estrategias dietéticas para reducir los alimentos fermentables también son una de las principales herramientas para la hinchazón y la distensión abdominal (Foley et al., 2014), y conviene aplicarlas de forma temporal y con orientación profesional, sin hacer dietas más restrictivas de lo necesario."
+    ]
+   },
+   {
+    "h2": "¿Cómo distinguir una diarrea secretora de una osmótica?",
+    "paras": [
+     "Dos preguntas sencillas orientan mucho: **¿tiene diarrea siempre o solo con ciertos alimentos?** y **¿aparece antes del desayuno o después de comer?** Si la diarrea está presente aunque no coma, por la mañana en ayunas o por la noche, apunta a una diarrea **secretora**. Si aparece tras las comidas, solo algunos días, y se acompaña de muchos gases e hinchazón, apunta a una diarrea **osmótica**. El **test del ayuno**, que se hace siempre bajo indicación y supervisión médica, aprovecha esta diferencia: si la diarrea desaparece con el ayuno, el origen probablemente es alimentario.",
+     "En la práctica, los dos mecanismos **coexisten** a menudo. Una infección inflama la mucosa; la inflamación daña las vellosidades y reduce las enzimas que digieren los azúcares, como la lactasa; y la disbiosis favorece la fermentación. Así, una diarrea secretora puede acabar sumando un componente osmótico. Por eso la anamnesis debe ser cuidadosa y las pruebas, ordenadas."
+    ],
+    "list_title": "Preguntas que ayudan a orientar el tipo de diarrea:",
+    "list": [
+     "¿Tiene diarrea todos los días o solo algunos? ¿Se relaciona con algún alimento?",
+     "¿Aparece antes del desayuno o después de las comidas?",
+     "¿Le despierta por la noche?",
+     "¿Mejora si no come o con una dieta más sencilla?",
+     "¿Empezó tras un viaje, una gastroenteritis, un antibiótico o una operación?",
+     "¿Se acompaña de muchos gases, hinchazón o heces que flotan y manchan?",
+     "¿Ha perdido peso, tiene fiebre, sangre o moco en las heces?",
+     "¿Toma fármacos nuevos, alcohol o productos «sin azúcar»?"
+    ]
+   },
+   {
+    "h2": "¿Cómo se diagnostica? Las pruebas",
+    "paras": [
+     "Las pruebas las indica el médico según la historia de cada persona. La guía británica recomienda en todos los pacientes con diarrea crónica unos **análisis de sangre** de cribado (hemograma, ferritina, proteína C reactiva, función tiroidea y serología de celiaquía) y, según el caso, pruebas en heces y endoscopia (Arasaradnam et al., 2018).",
+     "La **calprotectina fecal** es una proteína de los glóbulos blancos que aumenta en las heces cuando hay inflamación en el intestino. En un metaanálisis, su sensibilidad para detectar una enfermedad inflamatoria intestinal en adultos fue del 93 % y su especificidad del 96 %, y usarla como cribado reduciría un 67 % el número de adultos que necesitan una endoscopia (van Rheenen et al., 2010). La **celiaquía** afecta a alrededor del 1,4 % de la población mundial según la serología y al 0,7 % según la biopsia (Singh et al., 2018), y se estudia con anticuerpos IgA (antitransglutaminasa, antiendomisio) y, si son positivos, una biopsia duodenal, en la que es característico el aumento de linfocitos intraepiteliales (más de 25 por cada 100 células) y la atrofia de las vellosidades.",
+     "Los **test del aliento** miden el hidrógeno y el metano que producen las bacterias al fermentar un azúcar. El consenso norteamericano los considera útiles para diagnosticar la mala absorción de lactosa y fructosa, con dosis estandarizadas de 25 g, y establece criterios para el SIBO (Rezaie et al., 2017); su utilidad para el SIBO es más discutida, y la guía británica no los recomienda con ese fin. El **pH de las heces** ácido es una pista de fermentación de azúcares mal absorbidos: en un estudio con niños, el pH fecal ácido y la grasa en heces fueron más frecuentes en la diarrea osmótica que en la secretora (Castro-Rodríguez et al., 1997). Algunos autores usan como referencia un pH normal de 5,8 a 6,4.",
+     "La **colonoscopia** permite ver el colon y tomar biopsias; detecta pólipos, divertículos, colitis (incluida la microscópica, que solo se ve en la biopsia) e ileítis. Se indica según la edad, los síntomas y las señales de alarma. En personas con sospecha de diarrea funcional, la guía británica propone además estudiar la **malabsorción de ácidos biliares**, una causa infradiagnosticada."
+    ],
+    "list_title": "Pruebas que puede indicar su médico:",
+    "list": [
+     "**Análisis de sangre:** hemograma, hierro y ferritina, vitamina B12 y ácido fólico, proteína C reactiva, función tiroidea y serología de celiaquía",
+     "**Análisis de heces:** cultivo y parásitos, toxina de *C. difficile*, sangre oculta",
+     "**Marcadores de inflamación en heces:** calprotectina, lactoferrina e IgA secretora",
+     "**Elastasa pancreática fecal:** si es baja, orienta a una insuficiencia del páncreas",
+     "**Estudio del microbioma en heces:** disbiosis, parásitos, virus, ácidos biliares secundarios; su indicación la valora el profesional",
+     "**Test del aliento:** lactosa, fructosa y sorbitol; SIBO con las reservas mencionadas",
+     "**pH fecal:** un pH ácido sugiere fermentación de azúcares mal absorbidos",
+     "**Serología de celiaquía** (IgA antitransglutaminasa, antiendomisio) y biopsia duodenal",
+     "**Colonoscopia** con biopsias, y estudio de malabsorción de ácidos biliares",
+     "**Test del ayuno**, siempre bajo supervisión médica"
+    ]
+   },
+   {
+    "h2": "¿Cuándo debo consultar con mi médico?",
+    "paras": [
+     "Una diarrea crónica siempre merece una consulta médica para descartar una causa orgánica. Algunas señales indican que la consulta debe ser **urgente** o que hay que acudir al especialista sin demora."
+    ],
+    "list_title": "Consulte de inmediato si nota:",
+    "list": [
+     "Sangre en las heces o heces negras como el alquitrán",
+     "Moco o pus en las heces",
+     "Fiebre",
+     "Diarrea que dura más de tres días con mal estado general, o signos de deshidratación (mareo, orina muy escasa, confusión)",
+     "Diarreas nocturnas que le despiertan",
+     "Pérdida de peso sin explicación",
+     "Anemia o dolor abdominal intenso y persistente",
+     "Inicio de la diarrea después de los 50 años, o antecedentes familiares de cáncer de colon o de enfermedad inflamatoria intestinal"
+    ]
+   },
+   {
+    "h2": "¿Cómo se valora en consulta? La anamnesis",
+    "paras": [
+     "Una buena **anamnesis** es la herramienta más útil para orientar una diarrea crónica. Se pregunta cuándo empezó y cómo, cuántas veces va al baño, qué tipo de heces tiene según la escala de Bristol, si hay urgencia, gases, dolor, sangre o moco, si aparece antes o después de comer, si le despierta, y con qué alimentos empeora o mejora. Se revisan los viajes recientes, las infecciones, los antibióticos y otros fármacos, el alcohol, el consumo de productos «sin azúcar», las operaciones previas (como la extirpación de la vesícula) y los antecedentes familiares.",
+     "También se pregunta por el resto del cuerpo: el cansancio, el sueño, el estado de ánimo, el estrés, el ciclo menstrual, la piel, los dolores de cabeza o articulares. No es curiosidad: muchos de estos síntomas comparten mecanismos con el intestino. Un **diario de comidas y deposiciones** de una o dos semanas suele aportar más que cualquier prueba aislada, y permite comprobar después si los cambios funcionan."
+    ]
+   },
+   {
+    "h2": "¿Qué aporta la exploración del abdomen?",
+    "paras": [
+     "Desde la [osteopatía visceral](osteopatia-visceral-barcelona), la **palpación** del abdomen permite valorar la movilidad de las vísceras, las zonas de tensión o sensibilidad, la respuesta de los tejidos y la relación con el diafragma y la columna. Jean-Pierre Barral desarrolló la **escucha manual**, una forma de palpación suave que busca las zonas del cuerpo que han perdido movilidad. No es una prueba diagnóstica ni descarta ninguna enfermedad, pero aporta información sobre cómo se comporta el sistema digestivo en su conjunto.",
+     "La evidencia sobre la osteopatía visceral en los problemas digestivos funcionales es todavía preliminar. En un ensayo con 31 pacientes con colon irritable que no había respondido a otros tratamientos, la osteopatía visceral mejoró la diarrea, la distensión y el dolor abdominal frente a un tratamiento simulado, y al año la diarrea, la distensión y el dolor seguían por debajo de los valores iniciales (Attali et al., 2013). Es un estudio pequeño, y sus resultados deben confirmarse."
+    ]
+   },
+   {
+    "h2": "¿Cómo se trata?",
+    "paras": [
+     "El tratamiento depende de la causa, y por eso lo primero es el diagnóstico. Las infecciones, la enfermedad inflamatoria intestinal, la celiaquía, la insuficiencia pancreática o la malabsorción de ácidos biliares tienen tratamientos específicos que indica el médico. Si la diarrea se debe a un fármaco, su médico valorará si se puede ajustar.",
+     "Cuando el origen es una **intolerancia** o una diarrea osmótica, la base es la **alimentación**: identificar el azúcar mal absorbido (lactosa, fructosa, polioles) y reducirlo durante un tiempo, para luego reintroducir y encontrar la tolerancia de cada persona. Las listas de alimentos deben ser orientativas e individualizadas, con el apoyo de [nutrición](nutricion-salud-intestinal) cuando haga falta. En algunas personas también influye la [histamina](intolerancia-histamina).",
+     "En la diarrea funcional y el [colon irritable](colon-irritable-sibo), las guías recomiendan combinar la dieta con la regulación del estrés y del sistema nervioso, el ejercicio y el cuidado de la [microbiota](salud-digestiva-microbiota). Existen probióticos y otros suplementos; su indicación la individualiza un profesional. El enfoque de la [PNIE](pni-pnie-barcelona) y de la [medicina integrativa](medicina-integrativa-barcelona) consiste en mirar el intestino, el sistema inmune y el sistema nervioso como un conjunto, en coordinación con el médico, para que las heces vuelvan a ser del tipo 3 o 4 de forma estable."
+    ]
+   },
+   {
+    "h2": "¿Se puede prevenir?",
+    "paras": [
+     "No todas las diarreas se pueden prevenir, pero muchas diarreas crónicas pasan antes por una **fase de aviso** en la que actuar cambia la evolución. Unas heces que pasan del tipo 4 al 5 durante semanas, gases que antes no estaban, urgencia por las mañanas, o molestias que empiezan tras una gastroenteritis, un viaje, un antibiótico o una etapa de **estrés sostenido** y **sueño alterado** son señales precoces. Consultar en ese momento permite detectar a tiempo una intolerancia, un SIBO, una disbiosis o una inflamación, y evitar que la mucosa se dañe, aparezcan déficits o el intestino se vuelva hipersensible.",
+     "Los **cambios alimenticios**, como pautas orientativas, son la base: comer alimentos frescos y variados con fibra suficiente dentro de lo tolerado, limitar el alcohol, los ultraprocesados y los productos endulzados con polioles, no abusar de los zumos y de la fruta en grandes cantidades de una vez, y masticar bien con horarios regulares. La **higiene** de manos y de los alimentos reduce las infecciones, sobre todo en los viajes, y usar los antibióticos solo cuando los indica el médico protege la microbiota.",
+     "El **ejercicio terapéutico** y la reducción del **sedentarismo** también protegen el intestino. La OMS recomienda a los adultos entre 150 y 300 minutos semanales de actividad moderada, trabajo de fuerza regular y reducir el tiempo sentado (Bull et al., 2020). El teletrabajo y las muchas horas en casa se asocian a digestiones más lentas, a alteraciones del ritmo intestinal y a peor sueño; caminar a diario y levantarse cada 30–60 minutos ayuda a regular el tránsito y el sistema nervioso autónomo. Durante una fase de diarrea activa conviene evitar el ejercicio muy intenso, que acelera aún más el tránsito, y beber suficiente.",
+     "Si sabe que está en una etapa de estrés, cuide especialmente la **alimentación, el sueño** (horarios regulares, siete a ocho horas) y la **regulación del sistema nervioso** con respiración lenta, [yoga](yoga-particular-grupos-reducidos), [qigong](qigong-barcelona), [estiramientos](clases-estiramientos) o [mindfulness](mindfulness-barcelona), porque el eje intestino–cerebro funciona en los dos sentidos y el estrés altera la microbiota y acelera el tránsito. Las **revisiones** con su médico, sobre todo a partir de los 50 años o con antecedentes familiares de cáncer de colon o de enfermedad inflamatoria intestinal, forman parte de la prevención: el objetivo es corregir lo corregible, mejorarlo y evitar que progrese."
+    ],
+    "list_title": "Señales precoces que conviene consultar antes de que el problema avance:",
+    "list": [
+     "Heces de tipo 5 o 6 durante más de dos o tres semanas",
+     "Gases, hinchazón o urgencia nuevos, sobre todo por la mañana",
+     "Molestias que empezaron tras un viaje, una gastroenteritis o un antibiótico",
+     "Cansancio, cabeza nublada o anemia sin explicación",
+     "Diarrea que empeora en cada etapa de estrés o de mal descanso"
+    ]
+   },
+   {
+    "h2": "¿Qué puedo hacer en mi día a día?",
+    "paras": [
+     "Mientras se estudia la causa, algunos gestos ayudan a encontrarse mejor y a recoger información útil para la consulta."
+    ],
+    "list_title": "Recomendaciones prácticas:",
+    "list": [
+     "Observe sus heces y anote cada día su tipo en la escala de Bristol",
+     "Lleve un diario de comidas, deposiciones, síntomas, estrés y sueño durante dos semanas",
+     "Beba a lo largo del día y vigile el color de la orina; reponga también sales si la diarrea es abundante",
+     "Revise los productos «sin azúcar», chicles y caramelos: pueden contener polioles",
+     "Pruebe a separar la fruta y los zumos de las comidas y a no tomar grandes cantidades de una vez",
+     "Coma despacio, mastique bien y haga comidas regulares",
+     "Reduzca el alcohol y el café si nota que empeoran la diarrea",
+     "No mantenga una dieta astringente durante semanas: consulte para buscar la causa"
+    ]
+   }
+  ],
+  "evidence": {
+   "h2": "¿Qué dice la evidencia científica?",
+   "items": [
+    [
+     "Guía clínica (Gut)",
+     "La guía británica define la diarrea crónica como heces de tipo 5 a 7 de Bristol con mayor frecuencia durante más de cuatro semanas, y recomienda análisis de cribado en todos los pacientes (Arasaradnam et al., 2018)."
+    ],
+    [
+     "Escala de Bristol (Scand J Gastroenterol)",
+     "En 66 voluntarios, la forma de las heces se correlacionó con el tiempo de tránsito intestinal (r = −0,54) mejor que la frecuencia o el peso de las heces (Lewis y Heaton, 1997)."
+    ],
+    [
+     "Polioles (Adv Nutr)",
+     "Una revisión sistemática de 79 estudios mostró que los polioles producen gases, molestias abdominales y efecto laxante dependientes de la dosis, en personas sanas y con colon irritable (Lenhart y Chey, 2017)."
+    ],
+    [
+     "Calprotectina (BMJ)",
+     "En adultos, la calprotectina fecal detectó la enfermedad inflamatoria intestinal con una sensibilidad del 93 % y una especificidad del 96 %, y reduciría un 67 % las endoscopias (van Rheenen et al., 2010)."
+    ],
+    [
+     "Celiaquía (Clin Gastroenterol Hepatol)",
+     "La prevalencia mundial de la celiaquía es del 1,4 % según la serología y del 0,7 % según la biopsia (Singh et al., 2018)."
+    ],
+    [
+     "Test del aliento (Am J Gastroenterol)",
+     "El consenso norteamericano estandarizó dosis de 25 g de lactosa y de fructosa, y considera positivo un aumento de hidrógeno de 20 ppm o más (Rezaie et al., 2017)."
+    ],
+    [
+     "Diarrea osmótica (Arch Dis Child)",
+     "En 80 niños con diarrea acuosa, el pH fecal ácido y la grasa en heces fueron más frecuentes en la diarrea osmótica que en la secretora (Castro-Rodríguez et al., 1997)."
+    ],
+    [
+     "Infancia (Lancet)",
+     "En 2010, la diarrea causó el 9,9 % de las muertes en menores de cinco años en el mundo, unas 751.000 (Liu et al., 2012)."
+    ],
+    [
+     "Osteopatía visceral (J Dig Dis)",
+     "En 31 pacientes con colon irritable refractario, la osteopatía visceral mejoró la diarrea, la distensión y el dolor, con efectos que se mantenían al año (Attali et al., 2013)."
+    ],
+    [
+     "Actividad física (Br J Sports Med)",
+     "La OMS recomienda a los adultos 150–300 minutos semanales de actividad moderada, ejercicios de fuerza regulares y reducir el tiempo sedentario (Bull et al., 2020)."
+    ]
+   ],
+   "refs": [
+    {
+     "t": "Arasaradnam RP, Brown S, Forbes A, et al., 2018. «Guidelines for the investigation of chronic diarrhoea in adults: British Society of Gastroenterology, 3rd edition». Gut.",
+     "doi": "10.1136/gutjnl-2017-315909"
+    },
+    {
+     "t": "Lewis SJ, Heaton KW, 1997. «Stool form scale as a useful guide to intestinal transit time». Scandinavian Journal of Gastroenterology.",
+     "doi": "10.3109/00365529709011203"
+    },
+    {
+     "t": "Lenhart A, Chey WD, 2017. «A systematic review of the effects of polyols on gastrointestinal health and irritable bowel syndrome». Advances in Nutrition.",
+     "doi": "10.3945/an.117.015560"
+    },
+    {
+     "t": "Foley A, Burgell R, Barrett JS, Gibson PR, 2014. «Management strategies for abdominal bloating and distension». Gastroenterology & Hepatology (N Y), 10(9):561-571.",
+     "doi": ""
+    },
+    {
+     "t": "van Rheenen PF, Van de Vijver E, Fidler V, 2010. «Faecal calprotectin for screening of patients with suspected inflammatory bowel disease: diagnostic meta-analysis». BMJ.",
+     "doi": "10.1136/bmj.c3369"
+    },
+    {
+     "t": "Singh P, Arora A, Strand TA, et al., 2018. «Global prevalence of celiac disease: systematic review and meta-analysis». Clinical Gastroenterology and Hepatology.",
+     "doi": "10.1016/j.cgh.2017.06.037"
+    },
+    {
+     "t": "Rezaie A, Buresi M, Lembo A, et al., 2017. «Hydrogen and methane-based breath testing in gastrointestinal disorders: the North American Consensus». The American Journal of Gastroenterology.",
+     "doi": "10.1038/ajg.2017.46"
+    },
+    {
+     "t": "Castro-Rodríguez JA, Salazar-Lindo E, León-Barúa R, 1997. «Differentiation of osmotic and secretory diarrhoea by stool carbohydrate and osmolar gap measurements». Archives of Disease in Childhood.",
+     "doi": "10.1136/adc.77.3.201"
+    },
+    {
+     "t": "Liu L, Johnson HL, Cousens S, et al., 2012. «Global, regional, and national causes of child mortality: an updated systematic analysis for 2010 with time trends since 2000». The Lancet.",
+     "doi": "10.1016/S0140-6736(12)60560-1"
+    },
+    {
+     "t": "Attali TV, Bouchoucha M, Benamouzig R, 2013. «Treatment of refractory irritable bowel syndrome with visceral osteopathy: short-term and long-term results of a randomized trial». Journal of Digestive Diseases.",
+     "doi": "10.1111/1751-2980.12098"
+    },
+    {
+     "t": "Bull FC, Al-Ansari SS, Biddle S, et al., 2020. «World Health Organization 2020 guidelines on physical activity and sedentary behaviour». British Journal of Sports Medicine.",
+     "doi": "10.1136/bjsports-2020-102955"
+    }
+   ]
+  },
+  "faq": [
+   [
+    "¿Cuándo se considera crónica una diarrea?",
+    "Cuando las heces blandas o líquidas (tipos 5 a 7 de la escala de Bristol) y una mayor frecuencia se mantienen más de cuatro semanas. Conviene que su médico descarte una causa orgánica."
+   ],
+   [
+    "Voy al baño tres veces al día sin problema, ¿es normal?",
+    "Depende de cómo sean las heces. Si son bien formadas (tipos 3 o 4), puede ser su ritmo normal. Si son blandas, pastosas o se acompañan de gases y urgencia, el intestino está avisando de que algo no funciona y vale la pena buscar el motivo."
+   ],
+   [
+    "¿Qué diferencia hay entre una diarrea secretora y una osmótica?",
+    "La secretora no depende de lo que se come: aparece aunque no coma, por la mañana en ayunas o por la noche. La osmótica aparece solo los días en que se toma un alimento mal absorbido, como la lactosa, la fructosa o el sorbitol, y mejora con el ayuno o ajustando la dieta. A menudo coexisten."
+   ],
+   [
+    "¿Puede ser una intolerancia?",
+    "Muchas veces sí. La lactosa, la fructosa y los polioles de los productos «sin azúcar» son causas frecuentes de diarrea osmótica. Se pueden estudiar con un test del aliento y ajustar la dieta de forma temporal, sin hacerla más restrictiva de lo necesario."
+   ],
+   [
+    "¿El estrés puede darme diarrea?",
+    "Sí. El estrés acelera el tránsito y aumenta la sensibilidad del intestino a través del eje intestino–cerebro. Pero antes de atribuir la diarrea al estrés hay que descartar otras causas."
+   ],
+   [
+    "¿Por qué tengo anemia si tomo hierro?",
+    "Una diarrea crónica puede dificultar la absorción de hierro, ácido fólico y vitaminas, por ejemplo en la celiaquía o en la inflamación intestinal. Es importante seguir el tratamiento que le indique su médico y, además, buscar por qué el intestino no absorbe bien."
+   ],
+   [
+    "¿Qué es la escala de Bristol?",
+    "Una clasificación de las heces en siete tipos según su forma. Los tipos 3 y 4 son los normales; los tipos 5, 6 y 7 indican heces cada vez más blandas y un tránsito más rápido. Es una herramienta sencilla para observar su intestino y explicarlo en consulta."
+   ],
+   [
+    "¿Cuánto se tarda en notar mejoría?",
+    "Depende de la causa. Cuando se identifica una intolerancia, los cambios en la dieta suelen notarse en pocas semanas; otras causas requieren su tratamiento específico. En la primera visita se propone un plan con objetivos y revisiones."
+   ]
+  ],
+  "related": [
+   "colon-irritable-sibo",
+   "intolerancias-alimentarias",
+   "salud-digestiva-microbiota",
+   "estres-ansiedad"
+  ],
+  "cta_h2": "Recupere la tranquilidad en su día a día",
+  "seo": {
+   "kw": "diarrea crónica Barcelona",
+   "kws": [
+    "diarrea de repetición Barcelona",
+    "diarrea funcional tratamiento",
+    "colon irritable diarrea Barcelona",
+    "escala de Bristol heces",
+    "microbiota diarrea Sarrià",
+    "diarrea osmótica y secretora"
+   ],
+   "ca_kw": "diarrea crònica Barcelona",
+   "quick": "La diarrea crónica es la presencia de heces blandas o líquidas, de los tipos 5 a 7 de la escala de Bristol, con mayor frecuencia de deposiciones durante más de cuatro semanas. Puede ser secretora, por infecciones, inflamación u otras causas, u osmótica, por alimentos mal absorbidos como la lactosa, la fructosa o el sorbitol. Requiere buscar su origen, no solo cortar el síntoma; en Sarrià–Sant Gervasi (Barcelona) se valora con una anamnesis detallada en coordinación con el médico.",
+   "entity": [
+    "MedicalCondition",
+    "Diarrea crónica"
+   ]
+  },
+  "research": [
+   "Personas con heces blandas, diarrea o urgencia intestinal que se repite durante semanas, a veces con gases, cansancio o anemia, que buscan en Barcelona entender la causa y un abordaje que no se limite a cortar el síntoma.",
+   [
+    "diarrea crónica causas",
+    "diarrea de repetición qué hacer",
+    "heces blandas todos los días",
+    "escala de Bristol tipo 6"
+   ],
+   [
+    "diarrea crònica causes",
+    "diarrea per estrès"
+   ],
+   "Portales médicos y hospitales con contenido diagnóstico, y blogs de microbiota y probióticos."
+  ],
+  "ca": {}
+ }
+]

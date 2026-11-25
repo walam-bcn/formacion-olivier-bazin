@@ -227,7 +227,7 @@
       "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/dolor-articular-miofascial#webpage",
       "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/dolor-articular-miofascial",
       "name": "Dolor articular i miofascial a Barcelona | WA LAM",
-      "description": "Dolor articular i miofascial a Sarrià–Sant Gervasi, Barcelona: artrosi, tendinopaties i punts gallet. Causes, diagnòstic, tractament i consells.",
+      "description": "Qué es el dolor articular y el dolor miofascial (artrosis, tendinopatías, puntos gatillo, fascia), por qué aparece y se cronifica, cuándo consultar y su tratamiento conservador en Sarrià–Sant Gervasi, Barcelona.",
       "inLanguage": "ca-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -270,15 +270,159 @@
       "citation": [
         {
           "@type": "ScholarlyArticle",
-          "name": "Exercise for osteoarthritis of the knee",
-          "url": "https://doi.org/10.1002/14651858.CD004376.pub3",
-          "sameAs": "https://doi.org/10.1002/14651858.CD004376.pub3"
+          "name": "Global, regional, and national burden of osteoarthritis, 1990–2020 and projections to 2050: a systematic analysis for the Global Burden of Disease Study 2021",
+          "url": "https://doi.org/10.1016/S2665-9913(23)00163-7",
+          "sameAs": "https://doi.org/10.1016/S2665-9913(23)00163-7"
         },
         {
           "@type": "ScholarlyArticle",
-          "name": "Acupuncture for Chronic Pain: Update of an Individual Patient Data Meta-Analysis",
-          "url": "https://doi.org/10.1016/j.jpain.2017.11.005",
-          "sameAs": "https://doi.org/10.1016/j.jpain.2017.11.005"
+          "name": "Global estimates of the need for rehabilitation based on the Global Burden of Disease study 2019: a systematic analysis for the Global Burden of Disease Study 2019",
+          "url": "https://doi.org/10.1016/S0140-6736(20)32340-0",
+          "sameAs": "https://doi.org/10.1016/S0140-6736(20)32340-0"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "A nationwide study of chronic pain prevalence in the general Spanish population: identifying clinical subgroups through cluster analysis",
+          "url": "https://doi.org/10.1111/pme.12640",
+          "sameAs": "https://doi.org/10.1111/pme.12640"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Innervation of the thoracolumbar fascia",
+          "url": "https://doi.org/10.4081/ejtm.2019.8297",
+          "sameAs": "https://doi.org/10.4081/ejtm.2019.8297"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Etiology of myofascial trigger points",
+          "url": "https://doi.org/10.1007/s11916-012-0289-4",
+          "sameAs": "https://doi.org/10.1007/s11916-012-0289-4"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Biochemicals associated with pain and inflammation are elevated in sites near to and remote from active myofascial trigger points",
+          "url": "https://doi.org/10.1016/j.apmr.2007.10.018",
+          "sameAs": "https://doi.org/10.1016/j.apmr.2007.10.018"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Proprioception in knee osteoarthritis: a narrative review",
+          "url": "https://doi.org/10.1016/j.joca.2011.01.003",
+          "sameAs": "https://doi.org/10.1016/j.joca.2011.01.003"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Mechanotherapy: how physical therapists' prescription of exercise promotes tissue repair",
+          "url": "https://doi.org/10.1136/bjsm.2008.054239",
+          "sameAs": "https://doi.org/10.1136/bjsm.2008.054239"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Impact of exercise on articular cartilage in people at risk of, or with established, knee osteoarthritis: a systematic review of randomised controlled trials",
+          "url": "https://doi.org/10.1136/bjsports-2017-098661",
+          "sameAs": "https://doi.org/10.1136/bjsports-2017-098661"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "The association of recreational and competitive running with hip and knee osteoarthritis: a systematic review and meta-analysis",
+          "url": "https://doi.org/10.2519/jospt.2017.7137",
+          "sameAs": "https://doi.org/10.2519/jospt.2017.7137"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "The influence of weather conditions on joint pain in older people with osteoarthritis: results from the European Project on OSteoArthritis",
+          "url": "https://doi.org/10.3899/jrheum.141594",
+          "sameAs": "https://doi.org/10.3899/jrheum.141594"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "How the weather affects the pain of citizen scientists using a smartphone app",
+          "url": "https://doi.org/10.1038/s41746-019-0180-3",
+          "sameAs": "https://doi.org/10.1038/s41746-019-0180-3"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Association between rainfall and diagnoses of joint or back pain: retrospective claims analysis",
+          "url": "https://doi.org/10.1136/bmj.j5326",
+          "sameAs": "https://doi.org/10.1136/bmj.j5326"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Central sensitization: implications for the diagnosis and treatment of pain",
+          "url": "https://doi.org/10.1016/j.pain.2010.09.030",
+          "sameAs": "https://doi.org/10.1016/j.pain.2010.09.030"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Neurochemical changes in patients with chronic low back pain detected by proton magnetic resonance spectroscopy: a systematic review",
+          "url": "https://doi.org/10.1016/j.nicl.2016.11.006",
+          "sameAs": "https://doi.org/10.1016/j.nicl.2016.11.006"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "The mechanisms of manual therapy in the treatment of musculoskeletal pain: a comprehensive model",
+          "url": "https://doi.org/10.1016/j.math.2008.09.001",
+          "sameAs": "https://doi.org/10.1016/j.math.2008.09.001"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "The effect of spinal manipulation on brain neurometabolites in chronic nonspecific low back pain patients: a randomized clinical trial",
+          "url": "https://doi.org/10.1007/s11845-019-02140-2",
+          "sameAs": "https://doi.org/10.1007/s11845-019-02140-2"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Efficacy and safety of osteopathic manipulative treatment: an overview of systematic reviews",
+          "url": "https://doi.org/10.1136/bmjopen-2021-053468",
+          "sameAs": "https://doi.org/10.1136/bmjopen-2021-053468"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Pain mechanisms: a new theory",
+          "url": "https://doi.org/10.1126/science.150.3699.971",
+          "sameAs": "https://doi.org/10.1126/science.150.3699.971"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Physiology of visceral pain",
+          "url": "https://doi.org/10.1002/cphy.c150049",
+          "sameAs": "https://doi.org/10.1002/cphy.c150049"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "What does best practice care for musculoskeletal pain look like? Eleven consistent recommendations from high-quality clinical practice guidelines: systematic review",
+          "url": "https://doi.org/10.1136/bjsports-2018-099878",
+          "sameAs": "https://doi.org/10.1136/bjsports-2018-099878"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Exercise for osteoarthritis of the knee: a Cochrane systematic review",
+          "url": "https://doi.org/10.1136/bjsports-2015-095424",
+          "sameAs": "https://doi.org/10.1136/bjsports-2015-095424"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "OARSI guidelines for the non-surgical management of knee, hip, and polyarticular osteoarthritis",
+          "url": "https://doi.org/10.1016/j.joca.2019.06.011",
+          "sameAs": "https://doi.org/10.1016/j.joca.2019.06.011"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Manual therapy for osteoarthritis of the hip or knee – a systematic review",
+          "url": "https://doi.org/10.1016/j.math.2010.10.011",
+          "sameAs": "https://doi.org/10.1016/j.math.2010.10.011"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Manual therapy, exercise therapy, or both, in addition to usual care, for osteoarthritis of the hip or knee: a randomized controlled trial. 1: clinical effectiveness",
+          "url": "https://doi.org/10.1016/j.joca.2012.12.014",
+          "sameAs": "https://doi.org/10.1016/j.joca.2012.12.014"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Evidence for the use of ischemic compression and dry needling in the management of trigger points of the upper trapezius in patients with neck pain: a systematic review",
+          "url": "https://doi.org/10.1097/PHM.0000000000000266",
+          "sameAs": "https://doi.org/10.1097/PHM.0000000000000266"
         },
         {
           "@type": "ScholarlyArticle",
@@ -294,42 +438,66 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Quina diferència hi ha entre artrosi i artritis?",
+          "name": "¿Qué diferencia hay entre una contractura y un punto gatillo?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "L'artrosi és un procés degeneratiu del cartílag, amb un dolor que empitjora amb l'ús. L'artritis és una inflamació de l'articulació, amb inflor, calor i rigidesa matinal prolongada, i requereix una valoració mèdica per conèixer-ne la causa."
+            "text": "La contractura es una zona del músculo con el tono aumentado de forma mantenida. El punto gatillo es un punto muy sensible dentro de una banda tensa que, al presionarlo, reproduce el dolor habitual y puede referirlo a otra zona. A menudo coexisten."
           }
         },
         {
           "@type": "Question",
-          "name": "Puc fer exercici si tinc artrosi?",
+          "name": "¿Por qué me duele en un sitio si el problema está en otro?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí. L'exercici adaptat és una de les mesures amb més suport científic en l'artrosi. L'ajustem a la seva articulació, al seu nivell físic i a la fase del seu dolor."
+            "text": "Por el dolor referido: los puntos gatillo, la columna y algunas vísceras pueden provocar dolor lejos de su origen, porque comparten vías nerviosas. Por eso la valoración no se limita a la zona que duele."
           }
         },
         {
           "@type": "Question",
-          "name": "Què és un punt gallet?",
+          "name": "Tengo artrosis, ¿debo dejar de hacer ejercicio?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "És una zona hipersensible dins d'un múscul, palpable com un nòdul o una banda tensa. En pressionar-la reprodueix el dolor de la persona, de vegades a distància del mateix punt."
+            "text": "No. El ejercicio adaptado es el tratamiento central de la artrosis: reduce el dolor, mejora la función y no daña el cartílago. Lo importante es ajustar la dosis y progresar poco a poco."
           }
         },
         {
           "@type": "Question",
-          "name": "És el mateix el dolor miofascial que la fibromiàlgia?",
+          "name": "¿Es normal que me duelan más las articulaciones con el frío y la humedad?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. El dolor miofascial és regional i es relaciona amb punts gallet concrets; la fibromiàlgia cursa amb dolor generalitzat, fatiga i son no reparador."
+            "text": "Sí, muchas personas lo notan. El efecto es real pero modesto, y el tiempo no daña la articulación. Abrigarse, aplicar calor suave y no dejar de moverse ayuda a llevarlo mejor."
           }
         },
         {
           "@type": "Question",
-          "name": "Necessito una radiografia abans de la primera visita?",
+          "name": "¿Qué es la fascia y por qué se habla tanto de ella?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No és imprescindible. Si disposa de proves o informes recents, porti'ls; si calguessin altres proves, l'hi indicarem."
+            "text": "Es el tejido conjuntivo que envuelve los músculos y une todo el cuerpo en un continuo. Está muy inervada y transmite tensiones, por lo que puede ser fuente de dolor y de rigidez."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuándo es mejor frío y cuándo calor?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "El calor suave suele aliviar la rigidez y la tensión muscular. El frío puede ayudar en un brote con la articulación caliente e hinchada. Si la articulación está roja y caliente sin causa clara, consulte con su médico."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Un dolor de hombro puede venir del hígado o la vesícula?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Puede ocurrir: el diafragma comparte inervación con el cuello y el hombro, y la irritación de estos órganos puede sentirse en el hombro derecho. Por eso la anamnesis pregunta siempre por síntomas digestivos."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quantes sessions necessitaré?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Depende del tipo de dolor, del tiempo de evolución y de la respuesta de cada persona. Tras la primera visita se propone un plan con objetivos, ejercicios para casa y revisiones que se van espaciando."
           }
         }
       ]

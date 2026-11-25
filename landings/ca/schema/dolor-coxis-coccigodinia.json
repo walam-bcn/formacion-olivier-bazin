@@ -227,7 +227,7 @@
       "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/dolor-coccix-coccigodinia#webpage",
       "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/dolor-coccix-coccigodinia",
       "name": "Dolor de còccix (coccigodínia) a Barcelona | WA LAM",
-      "description": "Dolor de còccix o coccigodínia a Sarrià–Sant Gervasi, Barcelona: dolor en seure, després d'una caiguda o després del part. Abordatge osteopàtic extern i integratiu.",
+      "description": "Qué es la coccigodinia o dolor de coxis, su anatomía, sus causas (caídas, parto, postura sentada), su relación con la pelvis y el suelo pélvico, las señales de alarma y su tratamiento conservador con abordaje externo en Sarrià–Sant Gervasi, Barcelona.",
       "inLanguage": "ca-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -270,9 +270,57 @@
       "citation": [
         {
           "@type": "ScholarlyArticle",
-          "name": "Coccydynia: Tailbone Pain",
+          "name": "Coccydynia: an overview of the anatomy, etiology, and treatment of coccyx pain",
+          "url": "https://doi.org/",
+          "sameAs": "https://doi.org/"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Causes and mechanisms of common coccydynia: role of body mass index and coccygeal trauma",
+          "url": "https://doi.org/10.1097/00007632-200012010-00015",
+          "sameAs": "https://doi.org/10.1097/00007632-200012010-00015"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "The treatment of chronic coccydynia and postcoccygectomy pain with pelvic floor physical therapy",
+          "url": "https://doi.org/10.1016/j.pmrj.2016.08.007",
+          "sameAs": "https://doi.org/10.1016/j.pmrj.2016.08.007"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Coccydynia",
+          "url": "https://doi.org/10.1007/s12178-008-9028-1",
+          "sameAs": "https://doi.org/10.1007/s12178-008-9028-1"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Contemporary management of coccydynia",
+          "url": "https://doi.org/10.14245/ns.2551726.863",
+          "sameAs": "https://doi.org/10.14245/ns.2551726.863"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Coccydynia—the efficacy of available treatment options: a systematic review",
+          "url": "https://doi.org/10.1177/21925682211065389",
+          "sameAs": "https://doi.org/10.1177/21925682211065389"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Coccydynia: tailbone pain",
           "url": "https://doi.org/10.1016/j.pmr.2017.03.006",
           "sameAs": "https://doi.org/10.1016/j.pmr.2017.03.006"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Physiology of visceral pain",
+          "url": "https://doi.org/10.1002/cphy.c150049",
+          "sameAs": "https://doi.org/10.1002/cphy.c150049"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Pathophysiology of visceral pain",
+          "url": "https://doi.org/10.5935/1806-0013.20140032",
+          "sameAs": "https://doi.org/10.5935/1806-0013.20140032"
         }
       ]
     },
@@ -282,18 +330,66 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Pot aparèixer després del part?",
+          "name": "¿Puede aparecer el dolor de coxis después del parto?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí. El part és una de les causes més freqüents de dolor de còccix en la dona."
+            "text": "Sí. El parto vaginal es una de las causas más características, sobre todo si fue difícil o con fórceps. Si el dolor dura más allá de las primeras semanas, conviene valorarlo."
           }
         },
         {
           "@type": "Question",
-          "name": "Feu tractament intern del còccix?",
+          "name": "El tractament és intern?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. El nostre abordatge és sempre extern."
+            "text": "No. El abordaje es siempre externo: se trabaja a través de la pelvis, el sacro, los glúteos, los ligamentos, el abdomen y la respiración."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué cojín es mejor para el dolor de coxis?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Un cojín en cuña con un hueco en la parte posterior, que deja el coxis sin apoyo y reparte el peso sobre los isquiones. Los cojines en forma de rosco suelen descargar menos el coxis."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Por qué me duele más al levantarme de la silla?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Al levantarse, el coxis deja de recibir carga y los músculos y ligamentos que se insertan en él, incluido el suelo pélvico, tiran de él de golpe. Inclinarse hacia delante y apoyarse en los muslos al levantarse lo suaviza."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué relación tiene con el suelo pélvico?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Parte de la musculatura del suelo pélvico se inserta en el coxis. Ante el dolor, tiende a contraerse de forma protectora, y esa tensión mantenida puede perpetuar el dolor y producir molestias al defecar o en las relaciones. Por eso se valora siempre en conjunto."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Necesito una radiografía?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No siempre. La decide el médico, sobre todo para descartar una fractura o una enfermedad grave. Si el dolor persiste, las radiografías dinámicas, sentada y de pie, pueden mostrar si el coxis está luxado o es hipermóvil."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Se cura el dolor de coxis?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "La mayoría de los casos mejora con tratamiento conservador. Cuando se hace persistente, el plan combina medidas posturales, ejercicio, tratamiento manual externo y, si hace falta, opciones médicas escalonadas que decide el especialista."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quantes sessions necessitaré?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Depende del origen del dolor, del tiempo de evolución y de la respuesta de cada persona. Tras la primera visita se propone un plan con objetivos claros, ejercicios para casa y revisiones que se van espaciando."
           }
         }
       ]

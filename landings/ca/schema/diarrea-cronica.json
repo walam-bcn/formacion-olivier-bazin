@@ -227,7 +227,7 @@
       "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/diarrea-cronica#webpage",
       "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/diarrea-cronica",
       "name": "Diarrea crònica a Barcelona | WA LAM",
-      "description": "Diarrea crònica o de repetició a Sarrià–Sant Gervasi, Barcelona: intoleràncies, microbiota i estrès amb un abordatge integratiu i personalitzat.",
+      "description": "Qué es la diarrea crónica, la diferencia entre diarrea secretora y osmótica, sus causas (infecciones, inflamación, lactosa, fructosa, sorbitol), las pruebas y las señales de alarma. Sarrià–Sant Gervasi, Barcelona.",
       "inLanguage": "ca-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -242,7 +242,7 @@
       },
       "lastReviewed": "2026-11-18",
       "dateModified": "2026-11-18",
-      "keywords": "diarrea crónica Barcelona, diarrea de repetición Barcelona, diarrea funcional tratamiento, colon irritable diarrea Barcelona, acupuntura diarrea Barcelona, microbiota diarrea Sarrià",
+      "keywords": "diarrea crónica Barcelona, diarrea de repetición Barcelona, diarrea funcional tratamiento, colon irritable diarrea Barcelona, escala de Bristol heces, microbiota diarrea Sarrià, diarrea osmótica y secretora",
       "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/diarrea-cronica.png",
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -276,15 +276,63 @@
         },
         {
           "@type": "ScholarlyArticle",
-          "name": "Acupuncture for the Treatment of Diarrhea-Predominant Irritable Bowel Syndrome: A Pilot Randomized Clinical Trial",
-          "url": "https://doi.org/10.1001/jamanetworkopen.2022.48817",
-          "sameAs": "https://doi.org/10.1001/jamanetworkopen.2022.48817"
+          "name": "Stool form scale as a useful guide to intestinal transit time",
+          "url": "https://doi.org/10.3109/00365529709011203",
+          "sameAs": "https://doi.org/10.3109/00365529709011203"
         },
         {
           "@type": "ScholarlyArticle",
-          "name": "Mindfulness Training Reduces the Severity of Irritable Bowel Syndrome in Women: Results of a Randomized Controlled Trial",
-          "url": "https://doi.org/10.1038/ajg.2011.184",
-          "sameAs": "https://doi.org/10.1038/ajg.2011.184"
+          "name": "A systematic review of the effects of polyols on gastrointestinal health and irritable bowel syndrome",
+          "url": "https://doi.org/10.3945/an.117.015560",
+          "sameAs": "https://doi.org/10.3945/an.117.015560"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Management strategies for abdominal bloating and distension",
+          "url": "https://doi.org/",
+          "sameAs": "https://doi.org/"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Faecal calprotectin for screening of patients with suspected inflammatory bowel disease: diagnostic meta-analysis",
+          "url": "https://doi.org/10.1136/bmj.c3369",
+          "sameAs": "https://doi.org/10.1136/bmj.c3369"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Global prevalence of celiac disease: systematic review and meta-analysis",
+          "url": "https://doi.org/10.1016/j.cgh.2017.06.037",
+          "sameAs": "https://doi.org/10.1016/j.cgh.2017.06.037"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Hydrogen and methane-based breath testing in gastrointestinal disorders: the North American Consensus",
+          "url": "https://doi.org/10.1038/ajg.2017.46",
+          "sameAs": "https://doi.org/10.1038/ajg.2017.46"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Differentiation of osmotic and secretory diarrhoea by stool carbohydrate and osmolar gap measurements",
+          "url": "https://doi.org/10.1136/adc.77.3.201",
+          "sameAs": "https://doi.org/10.1136/adc.77.3.201"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Global, regional, and national causes of child mortality: an updated systematic analysis for 2010 with time trends since 2000",
+          "url": "https://doi.org/10.1016/S0140-6736(12)60560-1",
+          "sameAs": "https://doi.org/10.1016/S0140-6736(12)60560-1"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Treatment of refractory irritable bowel syndrome with visceral osteopathy: short-term and long-term results of a randomized trial",
+          "url": "https://doi.org/10.1111/1751-2980.12098",
+          "sameAs": "https://doi.org/10.1111/1751-2980.12098"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "World Health Organization 2020 guidelines on physical activity and sedentary behaviour",
+          "url": "https://doi.org/10.1136/bjsports-2020-102955",
+          "sameAs": "https://doi.org/10.1136/bjsports-2020-102955"
         }
       ]
     },
@@ -297,7 +345,23 @@
           "name": "Quan es considera crònica una diarrea?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Quan les deposicions toves o líquides es mantenen més de quatre setmanes. És important que el seu metge descarti abans una causa orgànica."
+            "text": "Cuando las heces blandas o líquidas (tipos 5 a 7 de la escala de Bristol) y una mayor frecuencia se mantienen más de cuatro semanas. Conviene que su médico descarte una causa orgánica."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Voy al baño tres veces al día sin problema, ¿es normal?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Depende de cómo sean las heces. Si son bien formadas (tipos 3 o 4), puede ser su ritmo normal. Si son blandas, pastosas o se acompañan de gases y urgencia, el intestino está avisando de que algo no funciona y vale la pena buscar el motivo."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué diferencia hay entre una diarrea secretora y una osmótica?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "La secretora no depende de lo que se come: aparece aunque no coma, por la mañana en ayunas o por la noche. La osmótica aparece solo los días en que se toma un alimento mal absorbido, como la lactosa, la fructosa o el sorbitol, y mejora con el ayuno o ajustando la dieta. A menudo coexisten."
           }
         },
         {
@@ -305,7 +369,7 @@
           "name": "Pot ser una intolerància?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "De vegades sí. La lactosa, la fructosa o alguns sucres fermentables poden provocar diarrea. L'ajudem a identificar-los sense fer dietes més restrictives del que cal."
+            "text": "Muchas veces sí. La lactosa, la fructosa y los polioles de los productos «sin azúcar» son causas frecuentes de diarrea osmótica. Se pueden estudiar con un test del aliento y ajustar la dieta de forma temporal, sin hacerla más restrictiva de lo necesario."
           }
         },
         {
@@ -313,7 +377,23 @@
           "name": "L'estrès em pot provocar diarrea?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí. L'estrès accelera el trànsit intestinal i augmenta la sensibilitat de l'intestí. Aprendre a regular aquesta resposta sol reduir la urgència."
+            "text": "Sí. El estrés acelera el tránsito y aumenta la sensibilidad del intestino a través del eje intestino–cerebro. Pero antes de atribuir la diarrea al estrés hay que descartar otras causas."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Por qué tengo anemia si tomo hierro?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Una diarrea crónica puede dificultar la absorción de hierro, ácido fólico y vitaminas, por ejemplo en la celiaquía o en la inflamación intestinal. Es importante seguir el tratamiento que le indique su médico y, además, buscar por qué el intestino no absorbe bien."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué es la escala de Bristol?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Una clasificación de las heces en siete tipos según su forma. Los tipos 3 y 4 son los normales; los tipos 5, 6 y 7 indican heces cada vez más blandas y un tránsito más rápido. Es una herramienta sencilla para observar su intestino y explicarlo en consulta."
           }
         },
         {
@@ -321,7 +401,7 @@
           "name": "Quant es triga a notar millora?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Depèn de cada cas. Moltes persones noten canvis en poques setmanes en ajustar l'alimentació i la gestió de l'estrès. A la primera visita li proposem un pla amb objectius clars."
+            "text": "Depende de la causa. Cuando se identifica una intolerancia, los cambios en la dieta suelen notarse en pocas semanas; otras causas requieren su tratamiento específico. En la primera visita se propone un plan con objetivos y revisiones."
           }
         }
       ]

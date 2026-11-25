@@ -227,7 +227,7 @@
       "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/lesions-esportives#webpage",
       "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/lesions-esportives",
       "name": "Lesions esportives a Barcelona | WA LAM",
-      "description": "Lesions esportives i de corredors a Sarrià–Sant Gervasi, Barcelona: tendinopaties, esquinços i sobrecàrregues, amb osteopatia, exercici i tornada segura.",
+      "description": "Lesiones deportivas y de corredores: tipos, por qué aparecen (carga, descanso, propiocepción), cuándo consultar, tratamiento conservador y vuelta segura al deporte en Sarrià–Sant Gervasi, Barcelona.",
       "inLanguage": "ca-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -270,9 +270,69 @@
       "citation": [
         {
           "@type": "ScholarlyArticle",
-          "name": "Incidence of Running-Related Injuries Per 1000 h of running in Different Types of Runners: A Systematic Review and Meta-Analysis",
+          "name": "Incidence of running-related injuries per 1000 h of running in different types of runners: a systematic review and meta-analysis",
           "url": "https://doi.org/10.1007/s40279-015-0333-8",
           "sameAs": "https://doi.org/10.1007/s40279-015-0333-8"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Epidemiology of injuries in men's professional and amateur football (Part I)",
+          "url": "https://doi.org/10.3390/jcm12175569",
+          "sameAs": "https://doi.org/10.3390/jcm12175569"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Epidemiology of muscle injuries in professional football (soccer)",
+          "url": "https://doi.org/10.1177/0363546510395879",
+          "sameAs": "https://doi.org/10.1177/0363546510395879"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "How much is too much? (Part 1) International Olympic Committee consensus statement on load in sport and risk of injury",
+          "url": "https://doi.org/10.1136/bjsports-2016-096581",
+          "sameAs": "https://doi.org/10.1136/bjsports-2016-096581"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "The training-injury prevention paradox: should athletes be training smarter and harder?",
+          "url": "https://doi.org/10.1136/bjsports-2015-095788",
+          "sameAs": "https://doi.org/10.1136/bjsports-2015-095788"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Recalibrating the risk of hamstring strain injury (HSI): a 2020 systematic review and meta-analysis of risk factors for index and recurrent hamstring strain injury in sport",
+          "url": "https://doi.org/10.1136/bjsports-2019-100983",
+          "sameAs": "https://doi.org/10.1136/bjsports-2019-100983"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Chronic lack of sleep is associated with increased sports injuries in adolescent athletes",
+          "url": "https://doi.org/10.1097/BPO.0000000000000151",
+          "sameAs": "https://doi.org/10.1097/BPO.0000000000000151"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Mechanotherapy: how physical therapists' prescription of exercise promotes tissue repair",
+          "url": "https://doi.org/10.1136/bjsm.2008.054239",
+          "sameAs": "https://doi.org/10.1136/bjsm.2008.054239"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Impact of exercise on articular cartilage in people at risk of, or with established, knee osteoarthritis: a systematic review of randomised controlled trials",
+          "url": "https://doi.org/10.1136/bjsports-2017-098661",
+          "sameAs": "https://doi.org/10.1136/bjsports-2017-098661"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "The association of recreational and competitive running with hip and knee osteoarthritis: a systematic review and meta-analysis",
+          "url": "https://doi.org/10.2519/jospt.2017.7137",
+          "sameAs": "https://doi.org/10.2519/jospt.2017.7137"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Effect of unsupervised home based proprioceptive training on recurrences of ankle sprain: randomised controlled trial",
+          "url": "https://doi.org/10.1136/bmj.b2684",
+          "sameAs": "https://doi.org/10.1136/bmj.b2684"
         },
         {
           "@type": "ScholarlyArticle",
@@ -282,9 +342,63 @@
         },
         {
           "@type": "ScholarlyArticle",
+          "name": "Central sensitization: implications for the diagnosis and treatment of pain",
+          "url": "https://doi.org/10.1016/j.pain.2010.09.030",
+          "sameAs": "https://doi.org/10.1016/j.pain.2010.09.030"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Neurochemical changes in patients with chronic low back pain detected by proton magnetic resonance spectroscopy: a systematic review",
+          "url": "https://doi.org/10.1016/j.nicl.2016.11.006",
+          "sameAs": "https://doi.org/10.1016/j.nicl.2016.11.006"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "The mechanisms of manual therapy in the treatment of musculoskeletal pain: a comprehensive model",
+          "url": "https://doi.org/10.1016/j.math.2008.09.001",
+          "sameAs": "https://doi.org/10.1016/j.math.2008.09.001"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "The effect of spinal manipulation on brain neurometabolites in chronic nonspecific low back pain patients: a randomized clinical trial",
+          "url": "https://doi.org/10.1007/s11845-019-02140-2",
+          "sameAs": "https://doi.org/10.1007/s11845-019-02140-2"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Acute inflammatory response via neutrophil activation protects against the development of chronic pain",
+          "url": "https://doi.org/10.1126/scitranslmed.abj9954",
+          "sameAs": "https://doi.org/10.1126/scitranslmed.abj9954"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "How the weather affects the pain of citizen scientists using a smartphone app",
+          "url": "https://doi.org/10.1038/s41746-019-0180-3",
+          "sameAs": "https://doi.org/10.1038/s41746-019-0180-3"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "What does best practice care for musculoskeletal pain look like? Eleven consistent recommendations from high-quality clinical practice guidelines: systematic review",
+          "url": "https://doi.org/10.1136/bjsports-2018-099878",
+          "sameAs": "https://doi.org/10.1136/bjsports-2018-099878"
+        },
+        {
+          "@type": "ScholarlyArticle",
           "name": "2016 Consensus statement on return to sport from the First World Congress in Sports Physical Therapy, Bern",
           "url": "https://doi.org/10.1136/bjsports-2016-096278",
           "sameAs": "https://doi.org/10.1136/bjsports-2016-096278"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Effect of specific exercise-based football injury prevention programmes on the overall injury rate in football: a systematic review and meta-analysis of the FIFA 11 and 11+ programmes",
+          "url": "https://doi.org/10.1136/bjsports-2016-097066",
+          "sameAs": "https://doi.org/10.1136/bjsports-2016-097066"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Including the Nordic hamstring exercise in injury prevention programmes halves the rate of hamstring injuries: a systematic review and meta-analysis of 8459 athletes",
+          "url": "https://doi.org/10.1136/bjsports-2018-100045",
+          "sameAs": "https://doi.org/10.1136/bjsports-2018-100045"
         },
         {
           "@type": "ScholarlyArticle",
@@ -303,39 +417,63 @@
           "name": "He de deixar de córrer si em fa mal?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No sempre. En moltes lesions per sobreús es pot mantenir una activitat adaptada si el dolor és lleu i no empitjora l'endemà. L'orientem sobre quant i com entrenar en cada fase."
+            "text": "No siempre. Si el dolor es leve, no supera 3 o 4 sobre 10 y no empeora al día siguiente, a menudo se puede seguir entrenando con menos carga. Si el dolor aumenta, cojea o le duele en reposo o por la noche, pare y consulte."
           }
         },
         {
           "@type": "Question",
-          "name": "Quines lesions de corredor tracten?",
+          "name": "¿Cuánto tarda en curarse una tendinopatía?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Entre d'altres, la tendinopatia rotuliana i aquil·liana, la síndrome femoropatel·lar, la cinta iliotibial, la periostitis tibial i la fasciïtis plantar. Pot consultar també la nostra pàgina de dolor de genoll."
+            "text": "Suele necesitar semanas o meses, porque el tendón se adapta despacio. Lo que más ayuda es una carga progresiva y constante, no el reposo absoluto."
           }
         },
         {
           "@type": "Question",
-          "name": "Quan puc tornar a entrenar després d'un esquinç?",
+          "name": "¿Por qué me lesiono siempre en la misma pierna?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Depèn del grau. La tornada es decideix per criteris funcionals: mobilitat, força, equilibri i tolerància als salts i els canvis de direcció. Trobarà més informació a la nostra pàgina d'esquinços."
+            "text": "Puede deberse a una lesión antigua mal recuperada, a una asimetría de fuerza o de movilidad, o a un problema en la pelvis o la columna que sobrecarga ese lado. Conviene valorar toda la cadena, no solo la zona que duele."
           }
         },
         {
           "@type": "Question",
-          "name": "I si és un trencament fibril·lar?",
+          "name": "¿Correr desgasta las rodillas?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "En els trencaments musculars es combina la protecció inicial amb la càrrega progressiva des de les primeres fases. Consulti també la nostra pàgina de contractures i estrips."
+            "text": "En los corredores recreativos no se ha visto más artrosis que en los sedentarios, sino menos. El cartílago necesita carga para mantenerse sano; lo que perjudica es la carga excesiva o mal progresada."
           }
         },
         {
           "@type": "Question",
-          "name": "Atenen esportistes que no competeixen?",
+          "name": "¿Sirven los estiramientos para prevenir lesiones?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí. Atenem persones de qualsevol nivell, des de qui comença a córrer fins a qui prepara una competició, i adaptem el pla als seus objectius."
+            "text": "Por sí solos no han demostrado prevenirlas. El ejercicio de fuerza, el trabajo de equilibrio y una progresión gradual de la carga son mucho más eficaces."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Hay que hacerse una resonancia?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No en todos los casos. El diagnóstico es sobre todo clínico. La imagen se pide cuando se sospecha una lesión estructural importante, una fractura o cuando la evolución no es la esperada."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Puede venir mi lesión de la espalda?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "En algunos casos sí. Los nervios de brazos y piernas salen de la columna, y un problema vertebral puede manifestarse como dolor o tensión en una extremidad. Por eso la valoración incluye siempre la columna."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quantes sessions necessitaré?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Depende del tipo de lesión, del tiempo de evolución y de sus objetivos deportivos. Tras la primera visita se propone un plan con objetivos claros, ejercicios para casa y revisiones que se van espaciando."
           }
         }
       ]

@@ -227,7 +227,7 @@
       "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/acufenos#webpage",
       "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/acufenos",
       "name": "Acúfenos o tinnitus en Barcelona | WA LAM",
-      "description": "Acúfenos o tinnitus en Sarrià–Sant Gervasi, Barcelona: valoración de la mandíbula, el cuello, el estrés y el sueño, con un plan clínico por fases.",
+      "description": "Qué son los acúfenos o tinnitus, sus tipos y causas, el acúfeno somatosensorial relacionado con el cuello y la mandíbula, sus señales de alarma y su tratamiento según las guías, en Sarrià–Sant Gervasi, Barcelona.",
       "inLanguage": "es-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -270,9 +270,21 @@
       "citation": [
         {
           "@type": "ScholarlyArticle",
-          "name": "Clinical Practice Guideline: Tinnitus",
-          "url": "https://doi.org/10.1177/0194599814545325",
-          "sameAs": "https://doi.org/10.1177/0194599814545325"
+          "name": "Global prevalence and incidence of tinnitus: a systematic review and meta-analysis",
+          "url": "https://doi.org/10.1001/jamaneurol.2022.2189",
+          "sameAs": "https://doi.org/10.1001/jamaneurol.2022.2189"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Low evidence for tinnitus risk factors: a systematic review and meta-analysis",
+          "url": "https://doi.org/10.1007/s10162-022-00874-y",
+          "sameAs": "https://doi.org/10.1007/s10162-022-00874-y"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Clinical Practice Guideline: Tinnitus Update",
+          "url": "https://doi.org/10.1002/ohn.70417",
+          "sameAs": "https://doi.org/10.1002/ohn.70417"
         },
         {
           "@type": "ScholarlyArticle",
@@ -282,15 +294,33 @@
         },
         {
           "@type": "ScholarlyArticle",
-          "name": "Association Between Subjective Tinnitus and Cervical Spine or Temporomandibular Disorders: A Systematic Review",
-          "url": "https://doi.org/10.1177/2331216518800640",
-          "sameAs": "https://doi.org/10.1177/2331216518800640"
+          "name": "Diagnostic criteria for somatosensory tinnitus: a Delphi process and face-to-face meeting to establish consensus",
+          "url": "https://doi.org/10.1177/2331216518796403",
+          "sameAs": "https://doi.org/10.1177/2331216518796403"
         },
         {
           "@type": "ScholarlyArticle",
           "name": "Somatosensory tinnitus: current evidence and future perspectives",
           "url": "https://doi.org/10.1177/0300060517707673",
           "sameAs": "https://doi.org/10.1177/0300060517707673"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Association between subjective tinnitus and cervical spine or temporomandibular disorders: a systematic review",
+          "url": "https://doi.org/10.1177/2331216518800640",
+          "sameAs": "https://doi.org/10.1177/2331216518800640"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Epidemiology of vestibular vertigo: a neurotologic survey of the general population",
+          "url": "https://doi.org/10.1212/01.wnl.0000175987.59991.3d",
+          "sameAs": "https://doi.org/10.1212/01.wnl.0000175987.59991.3d"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Exercise programs may be effective in preventing a new episode of neck pain: a systematic review and meta-analysis",
+          "url": "https://doi.org/10.1016/j.jphys.2018.05.003",
+          "sameAs": "https://doi.org/10.1016/j.jphys.2018.05.003"
         },
         {
           "@type": "ScholarlyArticle",
@@ -321,7 +351,7 @@
           "name": "¿Los acúfenos pueden estar relacionados con la mandíbula?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí. En el acúfeno somatosensorial, la tensión de la ATM y de los músculos de la masticación puede modificar el sonido. Puede consultar también nuestra página de bruxismo y ATM."
+            "text": "Sí, en algunas personas. En el acúfeno somatosensorial, la tensión de la articulación temporomandibular y de los músculos de la masticación puede modificar el sonido, y la relación entre acúfenos y trastornos temporomandibulares es bidireccional. Puede consultar también la página de bruxismo y dolor mandibular."
           }
         },
         {
@@ -329,7 +359,7 @@
           "name": "¿Y con el cuello?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "También. Las contracturas y la rigidez cervical, o un latigazo previo, pueden influir en la intensidad del acúfeno. Encontrará más información en nuestra página de cervicalgia."
+            "text": "También. Las personas con acúfenos refieren problemas cervicales con más frecuencia, y en algunas el sonido cambia al mover o tensar el cuello. Encontrará más información en la página de cervicalgia."
           }
         },
         {
@@ -337,7 +367,7 @@
           "name": "¿Por qué lo oigo más por la noche?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "En silencio, el cerebro presta más atención al acúfeno. El cansancio y el estrés también aumentan su percepción. Un sonido de fondo suave y una rutina de sueño tranquila ayudan."
+            "text": "En silencio, el cerebro presta más atención al acúfeno, y el cansancio y el estrés aumentan su percepción. Un sonido de fondo suave y una rutina de sueño tranquila ayudan a que destaque menos."
           }
         },
         {
@@ -345,7 +375,15 @@
           "name": "¿Desaparecen los acúfenos?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Algunos remiten, sobre todo si se trata su causa. En otros casos el sonido persiste, pero su intensidad y la molestia que produce pueden disminuir de forma notable con el tratamiento adecuado."
+            "text": "Algunos remiten, sobre todo si se trata su causa. En otros el sonido persiste, pero la molestia que produce puede reducirse de forma notable con la información adecuada, el enriquecimiento sonoro, la terapia cognitivo-conductual y, cuando hay un componente cervical o mandibular, su tratamiento."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué es el test de Meersseman?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Es una prueba sencilla en la que se colocan unos rollos de algodón entre los molares para observar si cambian la postura o los síntomas. Orienta sobre si la mordida puede influir y si conviene derivar al odontólogo, aunque la evidencia sobre esta relación no es concluyente."
           }
         },
         {
@@ -353,7 +391,23 @@
           "name": "¿Necesito una audiometría antes de la primera visita?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Es recomendable que el acúfeno haya sido valorado por un otorrinolaringólogo. Si ya tiene una audiometría u otras pruebas, tráigalas a la primera visita."
+            "text": "Es muy recomendable que el acúfeno haya sido valorado por un otorrinolaringólogo. Si ya tiene una audiometría u otras pruebas, tráigalas a la primera visita."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿El estrés puede empeorar los acúfenos?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. El estrés no suele causarlos por sí solo, pero aumenta la atención hacia el sonido, la tensión de la mandíbula y del cuello y la dificultad para dormir. Puede consultar también la página de estrés y ansiedad."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuántas sesiones necesitaré?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Depende del origen del acúfeno, de si hay un componente cervical o mandibular y de la respuesta de cada persona. Tras la primera visita se propone un plan con objetivos claros, ejercicios para casa y revisiones que se van espaciando."
           }
         }
       ]

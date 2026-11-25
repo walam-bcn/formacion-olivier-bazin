@@ -227,7 +227,7 @@
       "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/sindrome-tunel-carpia#webpage",
       "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/sindrome-tunel-carpia",
       "name": "Síndrome del túnel carpià a Barcelona | WA LAM",
-      "description": "Síndrome del túnel carpià a Sarrià–Sant Gervasi, Barcelona: formigueig a la mà, causes, diagnòstic i abordatge integratiu amb el mètode re:trace.",
+      "description": "Qué es el síndrome del túnel carpiano, la anatomía de la muñeca y del nervio mediano, sus causas (trabajo, embarazo, tiroides, diabetes), síntomas, diagnóstico y tratamiento conservador en Sarrià–Sant Gervasi, Barcelona.",
       "inLanguage": "ca-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -242,7 +242,7 @@
       },
       "lastReviewed": "2026-11-18",
       "dateModified": "2026-11-18",
-      "keywords": "túnel carpiano Barcelona, hormigueo en la mano por la noche, tratamiento túnel carpiano sin cirugía, férula túnel carpiano, acupuntura túnel carpiano, mano dormida Barcelona",
+      "keywords": "túnel carpiano Barcelona, hormigueo en la mano por la noche, tratamiento túnel carpiano sin cirugía, férula túnel carpiano, túnel carpiano embarazo, mano dormida Barcelona",
       "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/tunel-carpiano.png",
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -269,31 +269,69 @@
           {
             "@type": "MedicalTherapy",
             "name": "Osteopatia"
-          },
-          {
-            "@type": "MedicalTherapy",
-            "name": "Acupuntura i medicina tradicional xinesa"
           }
         ]
       },
       "citation": [
         {
           "@type": "ScholarlyArticle",
-          "name": "Carpal tunnel syndrome: clinical features, diagnosis, and management",
-          "url": "https://doi.org/10.1016/S1474-4422(16)30231-9",
-          "sameAs": "https://doi.org/10.1016/S1474-4422(16)30231-9"
+          "name": "Prevalence of carpal tunnel syndrome in a general population",
+          "url": "https://doi.org/10.1001/jama.282.2.153",
+          "sameAs": "https://doi.org/10.1001/jama.282.2.153"
         },
         {
           "@type": "ScholarlyArticle",
-          "name": "Manual Physical Therapy Versus Surgery for Carpal Tunnel Syndrome: A Randomized Parallel-Group Trial",
-          "url": "https://doi.org/10.1016/j.jpain.2015.07.012",
-          "sameAs": "https://doi.org/10.1016/j.jpain.2015.07.012"
+          "name": "Prevalence, course and determinants of carpal tunnel syndrome symptoms during pregnancy: a prospective study",
+          "url": "https://doi.org/10.1111/1471-0528.13360",
+          "sameAs": "https://doi.org/10.1111/1471-0528.13360"
         },
         {
           "@type": "ScholarlyArticle",
-          "name": "Rewiring the primary somatosensory cortex in carpal tunnel syndrome with acupuncture",
-          "url": "https://doi.org/10.1093/brain/awx015",
-          "sameAs": "https://doi.org/10.1093/brain/awx015"
+          "name": "Carpal tunnel syndrome and its relationship to occupation: a meta-analysis",
+          "url": "https://doi.org/10.1093/rheumatology/ker108",
+          "sameAs": "https://doi.org/10.1093/rheumatology/ker108"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Hypothyroidism and carpal tunnel syndrome: a meta-analysis",
+          "url": "https://doi.org/10.1002/mus.24453",
+          "sameAs": "https://doi.org/10.1002/mus.24453"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "The double crush in nerve entrapment syndromes",
+          "url": "https://doi.org/10.1016/S0140-6736(73)93196-6",
+          "sameAs": "https://doi.org/10.1016/S0140-6736(73)93196-6"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Effectiveness of manual therapy versus surgery in pain processing due to carpal tunnel syndrome: a randomized clinical trial",
+          "url": "https://doi.org/10.1002/ejp.1026",
+          "sameAs": "https://doi.org/10.1002/ejp.1026"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Manual therapy versus surgery for carpal tunnel syndrome: 4-year follow-up from a randomized controlled trial",
+          "url": "https://doi.org/10.1093/ptj/pzaa150",
+          "sameAs": "https://doi.org/10.1093/ptj/pzaa150"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "The effect of spinal manipulation on brain neurometabolites in chronic nonspecific low back pain patients: a randomized clinical trial",
+          "url": "https://doi.org/10.1007/s11845-019-02140-2",
+          "sameAs": "https://doi.org/10.1007/s11845-019-02140-2"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Pain mechanisms: a new theory",
+          "url": "https://doi.org/10.1126/science.150.3699.971",
+          "sameAs": "https://doi.org/10.1126/science.150.3699.971"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "The mechanisms of manual therapy in the treatment of musculoskeletal pain: a comprehensive model",
+          "url": "https://doi.org/10.1016/j.math.2008.09.001",
+          "sameAs": "https://doi.org/10.1016/j.math.2008.09.001"
         },
         {
           "@type": "ScholarlyArticle",
@@ -309,34 +347,58 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Quan cal operar el túnel carpià?",
+          "name": "¿El túnel carpiano siempre acaba en cirugía?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "La cirurgia es valora sobretot quan hi ha pèrdua de força, atròfia del múscul de la base del polze o una afectació important del nervi a l'electromiograma, o si el tractament conservador no ha estat suficient."
+            "text": "No. En las formas leves y moderadas el tratamiento conservador suele aliviar los síntomas, y en un ensayo con seguimiento de cuatro años la terapia manual obtuvo resultados similares a la cirugía. La cirugía se reserva para los casos con pérdida de fuerza, atrofia o lesión importante del nervio."
           }
         },
         {
           "@type": "Question",
-          "name": "Serveix la fèrula nocturna?",
+          "name": "¿Por qué se me duerme la mano por la noche?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí. Mantenir el canell en posició neutra durant la nit redueix la pressió sobre el nervi i sol alleujar el formigueig nocturn."
+            "text": "Porque al dormir solemos doblar la muñeca y, al estar tumbados, los tejidos del túnel se hinchan ligeramente; ambas cosas aumentan la presión sobre el nervio. Mantener la muñeca recta, con una férula nocturna si hace falta, suele aliviar."
           }
         },
         {
           "@type": "Question",
-          "name": "Pot tenir relació amb el coll?",
+          "name": "¿Sirve de algo una férula?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "El nervi medià s'origina a les arrels cervicals, i la tensió al coll o a l'espatlla pot sumar símptomes. Per això se'n valora tot el recorregut. Si també té dolor cervical, consulti cervicàlgia."
+            "text": "La férula nocturna en posición neutra alivia los síntomas en muchas personas con formas leves, porque evita que la muñeca se doble durante horas. Es una medida sencilla que conviene combinar con el resto del tratamiento."
           }
         },
         {
           "@type": "Question",
-          "name": "És freqüent en l'embaràs o la menopausa?",
+          "name": "¿El hormigueo de la mano puede venir del cuello?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí. Els canvis hormonals i la retenció de líquids l'afavoreixen. En l'embaràs sol millorar en les setmanes posteriors al part."
+            "text": "Sí. El nervio mediano nace en las raíces cervicales, y una irritación en el cuello puede producir síntomas parecidos o hacer el nervio más vulnerable en la muñeca. Por eso se explora siempre el cuello."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Estoy embarazada y se me duermen las manos, ¿es normal?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Es frecuente: alrededor de un tercio de las embarazadas tiene síntomas, sobre todo en el tercer trimestre, por la retención de líquidos. Suelen mejorar tras el parto. Coménteselo a su médico o matrona."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿El uso del ordenador causa túnel carpiano?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "El trabajo con ordenador puede contribuir si se mantiene la muñeca doblada durante horas, pero los factores laborales más claros son las vibraciones, la fuerza de agarre y los gestos repetidos. Una buena ergonomía y las pausas ayudan a prevenirlo."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quantes sessions necessitaré?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Depende de la gravedad, del tiempo de evolución y de los factores que influyan en cada caso. Tras la primera visita se propone un plan con objetivos claros, ejercicios y pautas para casa y revisiones que se van espaciando."
           }
         }
       ]

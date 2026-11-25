@@ -227,7 +227,7 @@
       "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/dolor-oncologic#webpage",
       "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/dolor-oncologic",
       "name": "Dolor oncològic a Barcelona | WA LAM",
-      "description": "Dolor oncològic a Sarrià–Sant Gervasi, Barcelona: dolor durant i després del tractament del càncer. Atenció amb autorització mèdica i pla per fases.",
+      "description": "Qué es el dolor oncológico, por qué aparece (tumor, cirugía, quimioterapia, radioterapia, hormonoterapia), cómo afecta a la calidad de vida y qué dicen los estudios de referencia. Sarrià–Sant Gervasi, Barcelona.",
       "inLanguage": "ca-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -242,7 +242,7 @@
       },
       "lastReviewed": "2026-11-18",
       "dateModified": "2026-11-18",
-      "keywords": "dolor oncológico Barcelona, dolor després del tractament del càncer, neuropatia per quimioteràpia, dolor després del càncer de mama, oncologia integrativa Barcelona, acupuntura dolor oncológico",
+      "keywords": "dolor oncológico Barcelona, dolor després del tractament del càncer, neuropatia per quimioteràpia, dolor després del càncer de mama, dolor y cáncer calidad de vida, dolor irruptivo",
       "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/dolor-oncologico.png",
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -275,21 +275,99 @@
       "citation": [
         {
           "@type": "ScholarlyArticle",
-          "name": "Update on Prevalence of Pain in Patients With Cancer: Systematic Review and Meta-Analysis",
+          "name": "'Total pain', disciplinary power and the body in the work of Cicely Saunders, 1958–1967",
+          "url": "https://doi.org/10.1016/S0277-9536(99)00098-2",
+          "sameAs": "https://doi.org/10.1016/S0277-9536(99)00098-2"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Update on prevalence of pain in patients with cancer: systematic review and meta-analysis",
           "url": "https://doi.org/10.1016/j.jpainsymman.2015.12.340",
           "sameAs": "https://doi.org/10.1016/j.jpainsymman.2015.12.340"
         },
         {
           "@type": "ScholarlyArticle",
-          "name": "Incidence, prevalence, and predictors of chemotherapy-induced peripheral neuropathy: A systematic review and meta-analysis",
+          "name": "Update on prevalence of pain in patients with cancer 2022: a systematic literature review and meta-analysis",
+          "url": "https://doi.org/10.3390/cancers15030591",
+          "sameAs": "https://doi.org/10.3390/cancers15030591"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Cancer-related pain: a pan-European survey of prevalence, treatment, and patient attitudes",
+          "url": "https://doi.org/10.1093/annonc/mdp001",
+          "sameAs": "https://doi.org/10.1093/annonc/mdp001"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Cancer pain and its impact on diagnosis, survival and quality of life",
+          "url": "https://doi.org/10.1038/nrn1914",
+          "sameAs": "https://doi.org/10.1038/nrn1914"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Central sensitization: implications for the diagnosis and treatment of pain",
+          "url": "https://doi.org/10.1016/j.pain.2010.09.030",
+          "sameAs": "https://doi.org/10.1016/j.pain.2010.09.030"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Prevalence and aetiology of neuropathic pain in cancer patients: a systematic review",
+          "url": "https://doi.org/10.1016/j.pain.2011.10.028",
+          "sameAs": "https://doi.org/10.1016/j.pain.2011.10.028"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Predictors of persistent pain after breast cancer surgery: a systematic review and meta-analysis of observational studies",
+          "url": "https://doi.org/10.1503/cmaj.151276",
+          "sameAs": "https://doi.org/10.1503/cmaj.151276"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Incidence, prevalence, and predictors of chemotherapy-induced peripheral neuropathy: a systematic review and meta-analysis",
           "url": "https://doi.org/10.1016/j.pain.2014.09.020",
           "sameAs": "https://doi.org/10.1016/j.pain.2014.09.020"
         },
         {
           "@type": "ScholarlyArticle",
-          "name": "Integrative Medicine for Pain Management in Oncology: Society for Integrative Oncology–ASCO Guideline",
-          "url": "https://doi.org/10.1200/JCO.22.01357",
-          "sameAs": "https://doi.org/10.1200/JCO.22.01357"
+          "name": "Prevalence of aromatase inhibitor-induced arthralgia in breast cancer: a systematic review and meta-analysis",
+          "url": "https://doi.org/10.1007/s00520-017-3613-z",
+          "sameAs": "https://doi.org/10.1007/s00520-017-3613-z"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Prevalence of breakthrough cancer pain: a systematic review and a pooled analysis of published literature",
+          "url": "https://doi.org/10.1016/j.jpainsymman.2013.02.015",
+          "sameAs": "https://doi.org/10.1016/j.jpainsymman.2013.02.015"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Nociceptor neurons direct goblet cells via a CGRP-RAMP1 axis to drive mucus production and gut barrier protection",
+          "url": "https://doi.org/10.1016/j.cell.2022.09.024",
+          "sameAs": "https://doi.org/10.1016/j.cell.2022.09.024"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Pain, depression, and fatigue as a symptom cluster in advanced cancer",
+          "url": "https://doi.org/10.1016/j.jpainsymman.2010.10.261",
+          "sameAs": "https://doi.org/10.1016/j.jpainsymman.2010.10.261"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Quality of cancer pain management: an update of a systematic review of undertreatment of patients with cancer",
+          "url": "https://doi.org/10.1200/JCO.2014.56.0383",
+          "sameAs": "https://doi.org/10.1200/JCO.2014.56.0383"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Management of cancer pain in adult patients: ESMO Clinical Practice Guidelines",
+          "url": "https://doi.org/10.1093/annonc/mdy152",
+          "sameAs": "https://doi.org/10.1093/annonc/mdy152"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Exercise guidelines for cancer survivors: consensus statement from international multidisciplinary roundtable",
+          "url": "https://doi.org/10.1249/MSS.0000000000002116",
+          "sameAs": "https://doi.org/10.1249/MSS.0000000000002116"
         }
       ]
     },
@@ -302,7 +380,15 @@
           "name": "Què necessito per començar?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Un document signat pel seu metge que autoritzi el tractament. És un requisit per a tots els pacients oncològics i ens permet tenir cura de la seva seguretat des del primer dia."
+            "text": "Un documento firmado por su médico que autorice el tratamiento. Es un requisito para todas las personas con cáncer y permite cuidar su seguridad desde el primer día."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Es normal tener dolor con el cáncer?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Es frecuente, pero no hay que resignarse. Entre la mitad y dos tercios de las personas con cáncer tienen dolor en algún momento, y en la mayoría puede aliviarse de forma importante con un tratamiento adecuado."
           }
         },
         {
@@ -310,7 +396,7 @@
           "name": "Puc venir durant la quimioteràpia o la radioteràpia?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Depèn de la seva situació i del que indiqui el seu metge. El pla s'adapta a cada fase del tractament i a com es trobi en cada moment."
+            "text": "Depende de su situación y de lo que indique su médico. La valoración se adapta a cada fase del tratamiento y a cómo se encuentre en cada momento."
           }
         },
         {
@@ -318,7 +404,7 @@
           "name": "I si el tractament ja ha acabat però el dolor continua?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "És freqüent: prop de quatre de cada deu persones mantenen dolor després d'acabar el tractament. També l'atenem en aquesta etapa, amb l'autorització del seu metge."
+            "text": "Es frecuente: cerca de cuatro de cada diez personas mantienen dolor tras finalizar el tratamiento. Esta etapa también merece atención, siempre con la autorización de su médico."
           }
         },
         {
@@ -326,7 +412,23 @@
           "name": "Què és la neuropatia per quimioteràpia?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "És l'afectació dels nervis perifèrics per alguns fàrmacs. Es manifesta amb formigueig, adormiment, cremor o dolor a mans i peus, i en moltes persones millora de manera progressiva després del tractament."
+            "text": "Es la afectación de los nervios periféricos por algunos fármacos. Se manifiesta con hormigueo, adormecimiento, quemazón o dolor en manos y pies; en muchas personas mejora progresivamente tras el tratamiento, aunque en alrededor de un 30 % persiste a los seis meses."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Un dolor nuevo significa que el cáncer ha avanzado?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No necesariamente: muchos dolores se deben a los tratamientos, a la postura o a la falta de actividad. Pero cualquier dolor nuevo o diferente debe comunicarse al equipo oncológico, que es quien puede valorar su causa."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Puedo hacer ejercicio si tengo dolor?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "En general, sí, y es recomendable: el ejercicio adaptado es seguro y mejora la fatiga, el ánimo y la calidad de vida. Consulte con su equipo médico qué tipo de ejercicio es adecuado en su caso, sobre todo si tiene metástasis óseas."
           }
         },
         {
