@@ -262,6 +262,26 @@ WORK_STEPS = [
 ]
 
 
+# Rosa (25 nov 2026): los botones del directorio pasan también a la lista de su área en medicina integrativa
+AREA_EXTRA = [
+    ["lumbalgia-dolor-lumbar", "cervicalgia-dolor-cuello", "dorsalgia-dolor-espalda-alta", "ciatica", "hernia-disco-incipiente", "artrosis", "hombro-doloroso",
+     "dolor-rodilla-condromalacia", "torticolis", "tunel-carpiano", "fascitis-plantar", "osteoporosis",
+     "dolor-persistente-cronico", "dolor-musculoesqueletico", "dolor-articular-miofascial", "contracturas-desgarros-musculares", "esguinces",
+     "lesiones-deportivas", "fibromialgia", "cicatrices-adherencias", "dolor-postquirurgico", "dolor-oncologico",
+     "cefaleas-migrana", "neuralgia-trigemino", "dolor-neuropatico", "bruxismo-dolor-mandibular-atm", "vertigo-mareo", "acufenos"],
+    ["inflamacion-cronica-autoinmunes", "alergias-asma-infecciones"],
+    ["salud-digestiva-microbiota", "colon-irritable-sibo", "reflujo-acidez", "digestiones-pesadas-gastritis", "gases-hinchazon-abdominal", "estrenimiento",
+     "diarrea-cronica", "enfermedad-inflamatoria-intestinal", "intolerancias-alimentarias", "intolerancia-gluten", "intolerancia-lactosa",
+     "intolerancia-fructosa", "intolerancia-histamina"],
+    ["salud-metabolica", "perdida-de-peso-sarria-sant-gervasi", "dejar-de-fumar-acupuntura"],
+    ["estres-ansiedad", "cortisol-estres-cronico", "sueno-insomnio", "fatiga-cronica-agotamiento", "agotamiento-fisico-emocional"],
+    ["salud-mujer-menopausia", "sindrome-ovario-poliquistico", "acompanamiento-fertilidad", "dolor-menstrual-endometriosis", "candidiasis-vaginal-repeticion",
+     "osteopatia-embarazo-posparto", "suelo-pelvico-dolor-pelvico", "dolor-pelvico-barcelona", "ejercicios-suelo-pelvico", "incontinencia-urinaria-esfuerzo",
+     "prolapso-organos-pelvicos", "cistitis-repeticion-vejiga-dolorosa", "dispareunia-dolor-relaciones", "neuralgia-pudendo", "dolor-coxis-coccigodinia"],
+    ["hipotiroidismo-hashimoto"],
+]
+
+
 def integrate_home_areas(PAGES, primer_contacto=None):
     known = {p["slug"] for p in PAGES}
     for p in PAGES:
@@ -277,9 +297,17 @@ def integrate_home_areas(PAGES, primer_contacto=None):
             new.append(primer_contacto)
         new.append({"type": "explain", "eyebrow": "", "h2": "¿En qué te puedo ayudar?", "_id": "en-que-te-puedo-ayudar",
                     "paras": ["Esta lista orienta sobre los motivos de consulta más frecuentes. Si tu caso no aparece, escríbenos y te diremos si podemos ayudarte."]})
-        for (ey, h2, intro, ptxt, li), (_, items) in zip(AREA_BLOCKS, HOME_LIST):
-            ind = [f"[{lab}]({s})" if s in known else lab for lab, s in items]
-            new.append({"type": "cards", "eyebrow": ey, "h2": h2, "intro": intro,
-                        "items": [{"k": "Indicaciones", "h": "Motivos de consulta frecuentes", "li": ind},
-                                  {"k": "Nuestro abordaje", "h": "Cómo lo abordamos", "p": ptxt, "li": [x for x in li if x.split("](")[1][:-1] in known]}]})
+        navs = {q["slug"]: q["nav"] for q in PAGES}
+        for n, ((ey, h2, intro, ptxt, li), (_, items)) in enumerate(zip(AREA_BLOCKS, HOME_LIST)):
+            have = {s for _, s in items if s}
+            extra = [(navs[s], s) for s in AREA_EXTRA[n] if s in known and s not in have]
+            ind = [f"[{lab}]({s})" if s in known else lab for lab, s in items + extra]
+            abord = {"k": "Nuestro abordaje", "h": "Cómo lo abordamos", "p": ptxt, "li": [x for x in li if x.split("](")[1][:-1] in known]}
+            if n == 0:
+                half = (len(ind) + 1) // 2
+                its = [{"k": "Indicaciones", "h": "Motivos de consulta frecuentes", "li": ind[:half]},
+                       {"k": "", "h": "", "li": ind[half:], "post": abord}]
+            else:
+                its = [{"k": "Indicaciones", "h": "Motivos de consulta frecuentes", "li": ind}, abord]
+            new.append({"type": "cards", "eyebrow": ey, "h2": h2, "intro": intro, "items": its})
         bl[i:i] = new

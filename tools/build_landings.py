@@ -610,7 +610,14 @@ def cards(c, cls="cards"):
         txt = f"<p>{fmt(it['p'])}</p>" if it.get("p") else ""
         li = "".join(f"<li>{fmt(x)}</li>" for x in it.get("li", []))
         li = f"<ul>{li}</ul>" if li else ""
-        items.append(f'<div class="card">{k}<h3>{fmt(it["h"])}</h3>{txt}{li}</div>')
+        post = ""
+        if it.get("post"):
+            q = it["post"]
+            pl = "".join(f"<li>{fmt(x)}</li>" for x in q.get("li", []))
+            post = (f'<div class="cpost"><span class="k">{fmt(q.get("k", ""))}</span><h3>{fmt(q.get("h", ""))}</h3>'
+                    + (f"<p>{fmt(q['p'])}</p>" if q.get("p") else "") + (f"<ul>{pl}</ul>" if pl else "") + "</div>")
+        h3 = f'<h3>{fmt(it["h"])}</h3>' if it.get("h") else ""
+        items.append(f'<div class="card">{k}{h3}{txt}{li}{post}</div>')
     g = "grid g2" if len(c["items"]) in (2, 4) else "grid"
     return f'<section class="{cls}"><div class="wrap">{sec_head(c["eyebrow"], c["h2"], c.get("intro"))}<div class="{g}">{"".join(items)}</div></div></section>'
 
@@ -1005,6 +1012,7 @@ def audience(b):
 
 
 AUD_CSS = """
+.cpost{margin-top:26px;padding-top:20px;border-top:1px solid #dfe6e5}
 .toc2{background:#fff;padding:34px 0 10px}.toc2 h2{font-size:1.45rem;margin:0 0 12px;color:var(--pet)}
 .toc2 ol{margin:0;padding-left:22px;columns:2;column-gap:40px}.toc2 li{margin:0 0 7px;break-inside:avoid}
 .toc2 a{color:#5fa9a4;text-decoration:none;font-size:.98rem}.toc2 a:hover{color:#0a8f91;text-decoration:underline}
