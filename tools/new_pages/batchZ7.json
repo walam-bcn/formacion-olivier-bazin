@@ -1,0 +1,1941 @@
+[
+ {
+  "slug": "hombro-doloroso",
+  "ca_slug": "espatlla-dolorosa",
+  "nav": "Hombro doloroso",
+  "card": "Dolor de hombro: tendinopatía del manguito rotador, bursitis, hombro congelado, dolor que viene del cuello o de una víscera y cómo se trata.",
+  "title": "Hombro doloroso en Barcelona | WA LAM",
+  "desc": "Qué es el hombro doloroso, su anatomía y sus tipos (tendinopatía del manguito rotador, bursitis, capsulitis adhesiva u hombro congelado), causas, dolor referido y tratamiento conservador en Sarrià–Sant Gervasi, Barcelona.",
+  "h1": "Hombro doloroso en Barcelona: tendinopatía, bursitis y capsulitis",
+  "sub": "Recuperar el movimiento del hombro · Sarrià–Sant Gervasi",
+  "lead": "El dolor de hombro es uno de los motivos de consulta musculoesquelética más frecuentes. Limita gestos tan cotidianos como vestirse, peinarse, coger algo de un estante o dormir sobre ese lado. Las causas más habituales son la tendinopatía del manguito rotador, la bursitis subacromial y la capsulitis adhesiva, pero no todo dolor de hombro nace en el hombro: el cuello, la espalda alta y algunos órganos internos también pueden doler ahí.",
+  "facts_title": "En WA LAM",
+  "facts": [
+   "Manguito rotador, bursitis y hombro congelado",
+   "Hombro, omóplato, columna y costillas",
+   "Anamnesis y exploración palpatoria",
+   "Primera visita: 60 min · 90 €"
+  ],
+  "wa": "Hola, me gustaría información sobre el abordaje del dolor de hombro.",
+  "mirror": {
+   "h2": "¿Se reconoce en estos síntomas?",
+   "qs": [
+    "¿Le duele la parte externa del hombro o del brazo al levantarlo, sobre todo entre la altura del pecho y la de la cabeza?",
+    "¿Se despierta por la noche cuando se gira sobre ese hombro?",
+    "¿Le cuesta llevar la mano a la espalda, abrocharse una prenda o meter la mano en el bolsillo de atrás?",
+    "¿Nota el hombro cada vez más rígido, como si se hubiera «congelado», aunque no recuerde ningún golpe?"
+   ],
+   "close": "Si el dolor de hombro se acompaña de opresión en el pecho, falta de aire o fiebre, lea primero las señales de alarma de más abajo."
+  },
+  "explain": {
+   "h2": "¿Qué es el hombro doloroso?",
+   "paras": [
+    "«Hombro doloroso» es el nombre que se da al dolor localizado en la región del hombro, sea cual sea su origen. Como la lumbalgia o la cervicalgia, no es un diagnóstico, sino la descripción de un **síntoma**: indica dónde duele, y la valoración sirve para averiguar qué estructura lo produce y por qué. Puede deberse a un tendón, a la bolsa serosa que lo protege, a la cápsula de la articulación, al cartílago o, en una proporción importante de casos, a estructuras situadas fuera del hombro.",
+    "**Anatomía.** El hombro no es una sola articulación, sino un complejo de cinco que trabajan juntas. La principal es la **glenohumeral**, entre la cabeza del húmero y una cavidad muy poco profunda del omóplato, la glena: es la articulación más móvil del cuerpo y, por eso mismo, la que más depende de los músculos para mantenerse estable. A ella se suman la articulación **acromioclavicular**, la **esternoclavicular**, el deslizamiento del **omóplato sobre las costillas** (articulación escapulotorácica) y el espacio **subacromial**, bajo el techo óseo que forma el acromion. La cápsula articular, los ligamentos y el rodete (labrum) completan la estructura.",
+    "El protagonista de la mayoría de los dolores de hombro es el **manguito rotador**, un conjunto de cuatro músculos que nacen en el omóplato y abrazan la cabeza del húmero: el supraespinoso, el infraespinoso, el redondo menor y el subescapular. Su función es centrar la cabeza del húmero en la glena mientras el deltoides eleva el brazo. Entre el tendón del supraespinoso y el acromion se sitúa la **bolsa subacromial**, una pequeña bolsa que facilita el deslizamiento. El tendón de la porción larga del bíceps recorre también la parte anterior del hombro.",
+    "**Clasificación.** Los cuadros más habituales son la **tendinopatía del manguito rotador**, que incluye lo que antes se llamaba «síndrome subacromial» o «pinzamiento»; las **roturas** parciales o completas del manguito; la **bursitis subacromial**; la **capsulitis adhesiva** u hombro congelado; la **tendinopatía calcificante**, con depósitos de calcio en el tendón; la **artrosis** glenohumeral o acromioclavicular; la **inestabilidad**, tras una luxación o por laxitud, más propia de personas jóvenes; y el **dolor referido**, que se siente en el hombro pero nace en el cuello, en la columna dorsal o en un órgano interno. Se considera **crónico** cuando dura más de tres meses."
+   ]
+  },
+  "sections": [
+   {
+    "h2": "¿Es frecuente el dolor de hombro?",
+    "paras": [
+     "Mucho. Una revisión sistemática de 61 estudios de países de todos los niveles de renta encontró que, en la población general, la prevalencia del dolor de hombro tiene una mediana del **16 %**, con cifras que van del 0,7 % al 55 % según cómo se defina y el periodo que se pregunte. Es más frecuente en mujeres, y cada año aparecen entre 7,7 y 62 casos nuevos por cada 1.000 personas, con una mediana de 37,8 (Lucas et al., BMC Musculoskeletal Disorders, 2022). Una revisión anterior situó la prevalencia a lo largo de la vida entre el 6,7 % y el 66,7 % (Luime et al., Scandinavian Journal of Rheumatology, 2004).",
+     "En atención primaria es el **tercer motivo de consulta musculoesquelética**, después de la espalda y la rodilla, y alrededor del 1 % de los adultos consulta cada año a su médico por un dolor de hombro nuevo. La cronicidad y las recaídas son frecuentes, y profesiones tan distintas como la construcción o la peluquería se asocian a un riesgo mayor (Mitchell et al., BMJ, 2005). Por eso tiene sentido no solo aliviar el episodio, sino entender por qué ha aparecido."
+    ]
+   },
+   {
+    "h2": "¿Por qué aparece el dolor de hombro?",
+    "paras": [
+     "En la mayoría de los casos, el dolor aparece cuando la **carga** que soportan los tendones supera su capacidad de adaptación. Un tendón se fortalece con una carga adecuada y progresiva, pero se irrita cuando la carga aumenta de golpe, como en una mudanza, un fin de semana pintando el techo o la vuelta a la natación o al pádel, o cuando se repite durante horas un mismo gesto con el brazo elevado. Con la edad, además, los tendones del manguito cambian su estructura y toleran peor esos picos.",
+     "El hombro tampoco trabaja solo. Si la **espalda alta** está rígida o encorvada, el omóplato no puede bascular hacia atrás ni rotar hacia arriba al elevar el brazo, y el espacio bajo el acromion se reduce. Si los músculos que controlan el omóplato se fatigan, el manguito trabaja en peores condiciones. Y si el cuello irrita una raíz nerviosa, el dolor puede sentirse en el hombro sin que este tenga ninguna lesión.",
+     "Hay también causas generales. La **diabetes** y los problemas de tiroides se asocian a la capsulitis adhesiva; los periodos de inmovilización, tras una fractura de muñeca o una cirugía, pueden dejar el hombro rígido; y los traumatismos, como una caída sobre la mano o el codo, pueden lesionar un tendón o la articulación acromioclavicular."
+    ],
+    "list_title": "Causas más habituales:",
+    "list": [
+     "Sobrecarga de los tendones del manguito rotador por un aumento brusco de actividad",
+     "Gestos repetidos con el brazo por encima de la cabeza",
+     "Cambios del tendón relacionados con la edad",
+     "Rigidez de la columna dorsal y mal control del omóplato",
+     "Traumatismos: caídas sobre la mano, el codo o el propio hombro",
+     "Inmovilización prolongada del brazo",
+     "Enfermedades generales como la diabetes o los trastornos de tiroides",
+     "Dolor referido desde el cuello, la espalda alta o un órgano interno"
+    ]
+   },
+   {
+    "h2": "¿Quién tiene más riesgo?",
+    "paras": [
+     "Muchos factores se pueden modificar. Las revisiones señalan que levantar cargas pesadas, los movimientos repetidos en posturas forzadas y las vibraciones influyen en los síntomas y en la discapacidad, y que los factores psicosociales, como el estrés o la insatisfacción laboral, también pesan (Mitchell et al., 2005).",
+     "La **diabetes** merece una mención propia. Un metaanálisis de 18 estudios encontró que las personas con diabetes tienen unas **cinco veces más** probabilidades de sufrir una capsulitis adhesiva y que alrededor del 13,4 % la presenta; a la inversa, cerca del 30 % de quienes tienen un hombro congelado tienen diabetes (Zreik et al., Muscles, Ligaments and Tendons Journal, 2016). Por eso, ante un hombro congelado, conviene revisar con el médico el control de la glucosa."
+    ],
+    "list_title": "Factores que se asocian a un mayor riesgo:",
+    "list": [
+     "Edad a partir de los 40–50 años",
+     "Trabajos con los brazos elevados, cargas pesadas o herramientas que vibran",
+     "Deportes de lanzamiento, raqueta o natación con aumentos bruscos de entrenamiento",
+     "Diabetes y enfermedades de tiroides",
+     "Trabajo sedentario con los hombros adelantados y la espalda alta encorvada",
+     "Poca fuerza en la musculatura del manguito y del omóplato",
+     "Estrés y tensión mantenida en el cuello y los hombros",
+     "Lesiones previas del hombro o del cuello"
+    ]
+   },
+   {
+    "h2": "¿Cuáles son los síntomas?",
+    "paras": [
+     "El síntoma típico de la tendinopatía del manguito es un dolor en la **cara externa del hombro y del brazo**, a veces hasta la mitad del brazo, que aparece al elevarlo, sobre todo en un tramo intermedio del movimiento, el llamado **arco doloroso**. Cuesta llevar la mano a la espalda, abrocharse un sujetador, ponerse una chaqueta o alcanzar un estante alto. Por la noche, el dolor aumenta al tumbarse sobre ese lado y puede despertar.",
+     "En la capsulitis adhesiva domina la **rigidez**: el hombro pierde movimiento en todas las direcciones, sobre todo en la rotación externa, y ni el propio paciente ni el terapeuta consiguen moverlo. Cuando el dolor baja por debajo del codo, se acompaña de hormigueo o cambia al mover el cuello, hay que pensar en un origen cervical."
+    ],
+    "list_title": "Síntomas más habituales:",
+    "list": [
+     "Dolor en la cara externa del hombro o del brazo al elevarlo",
+     "Dolor nocturno al tumbarse sobre el hombro afectado",
+     "Dificultad para llevar la mano a la espalda o por encima de la cabeza",
+     "Sensación de debilidad o de que el brazo «no responde»",
+     "Rigidez progresiva en todas las direcciones (capsulitis adhesiva)",
+     "Chasquidos o sensación de roce al mover el brazo",
+     "Tensión asociada en el cuello y en la parte alta de la espalda"
+    ]
+   },
+   {
+    "h2": "¿Qué tipos de hombro doloroso existen?",
+    "paras": [
+     "Distinguir el tipo de problema orienta la valoración y el tratamiento. A menudo coexisten varios: una tendinopatía puede acompañarse de bursitis, y un hombro con artrosis puede sufrir además un dolor de origen cervical."
+    ],
+    "list": [
+     "**Tendinopatía del manguito rotador:** la causa más frecuente. El tendón, sobre todo el del supraespinoso, se vuelve doloroso y menos tolerante a la carga. Duele al elevar el brazo y por la noche.",
+     "**Bursitis subacromial:** irritación de la bolsa que se encuentra entre el manguito y el acromion. Suele acompañar a la tendinopatía.",
+     "**Rotura del manguito rotador:** puede ser traumática, tras una caída, o degenerativa, por desgaste progresivo. Muchas roturas degenerativas no duelen.",
+     "**Tendinopatía calcificante:** depósitos de calcio en el tendón que, en su fase de reabsorción, pueden provocar un dolor muy intenso y brusco.",
+     "**Capsulitis adhesiva u hombro congelado:** la cápsula se inflama y se retrae, y el hombro pierde movimiento activo y pasivo.",
+     "**Artrosis glenohumeral o acromioclavicular:** desgaste del cartílago, más frecuente en mayores o tras lesiones previas.",
+     "**Inestabilidad:** tras una luxación o por laxitud, sobre todo en jóvenes y deportistas.",
+     "**Dolor referido:** se siente en el hombro, pero nace en el cuello, en la columna dorsal o en un órgano interno."
+    ]
+   },
+   {
+    "h2": "¿Qué es el hombro congelado y cuánto dura?",
+    "paras": [
+     "La **capsulitis adhesiva** es una inflamación de la cápsula de la articulación que, con el tiempo, la engrosa y la retrae. Aparece sobre todo entre los 40 y los 60 años, es más frecuente en mujeres y en personas con diabetes, y a menudo surge sin un golpe previo. Clásicamente se describen tres fases que se solapan: una fase **dolorosa**, en la que el dolor aumenta y el movimiento empieza a perderse; una fase de **congelación**, en la que el dolor disminuye pero la rigidez es máxima; y una fase de **descongelación**, en la que el movimiento se recupera poco a poco.",
+     "Su evolución suele ser favorable, pero lenta. En un estudio de seguimiento de 269 hombros congelados en 223 pacientes, a una media de 4,4 años el **59 %** tenía un hombro normal o casi normal; el 41 % seguía con alguna molestia, casi siempre leve, y solo un 6 % conservaba síntomas importantes. Quienes empezaron con síntomas más intensos tuvieron peor pronóstico (Hand et al., Journal of Shoulder and Elbow Surgery, 2008).",
+     "Saber esto tranquiliza y orienta el tratamiento. En la fase dolorosa conviene no forzar, aliviar el dolor y mantener el movimiento que el hombro tolera; en la fase de rigidez, recuperar progresivamente la movilidad de la articulación, del omóplato y de la espalda alta. Mantener el hombro quieto «para que no duela» suele aumentar la rigidez."
+    ]
+   },
+   {
+    "h2": "¿Una rotura del manguito siempre duele?",
+    "paras": [
+     "No, y es una de las cosas que más tranquiliza a los pacientes. En un estudio en el que se hizo una ecografía de ambos hombros a 664 habitantes de un pueblo japonés, el **22,1 %** tenía una rotura completa del manguito rotador, una proporción que aumentaba con la edad: ninguna antes de los 50 años, el 10,7 % en la década de los 50 y el 36,6 % en la de los 80. Lo más llamativo es que **dos de cada tres roturas no daban ningún síntoma** (Minagawa et al., Journal of Orthopaedics, 2013).",
+     "Esto no significa que una rotura no importe, pero sí que la imagen, por sí sola, no explica el dolor. Muchas personas con roturas degenerativas tienen un hombro funcional, y muchas con dolor intenso tienen una ecografía casi normal. Lo que orienta el tratamiento es la combinación de la historia, la exploración y la función: cómo se mueve el hombro, cuánta fuerza conserva y qué actividades necesita recuperar la persona. La excepción son las roturas traumáticas en personas activas, tras una caída con pérdida brusca de fuerza, que deben valorarse pronto por el traumatólogo."
+    ]
+   },
+   {
+    "h2": "¿Qué papel tienen el omóplato, la espalda alta y la propiocepción?",
+    "paras": [
+     "El hombro funciona como una grúa: el brazo es el brazo de la grúa, pero la base es el **omóplato**, que se desliza sobre las costillas, y la base del omóplato es la **columna dorsal**. Al elevar el brazo, el omóplato rota hacia arriba y bascula hacia atrás, y la columna dorsal se extiende ligeramente. Si la espalda alta está rígida o encorvada, como ocurre tras años con la cabeza y los hombros adelantados frente a una pantalla, el omóplato pierde su recorrido y el manguito trabaja en peores condiciones.",
+     "Por eso la valoración osteopática no se limita a la articulación. Una revisión sistemática encontró que la terapia manual aplicada a la **columna dorsal**, sin tratar el propio hombro, redujo el dolor y la discapacidad en el dolor de hombro inespecífico a las 6, 26 y 52 semanas frente a la atención habitual en tres ensayos, aunque la calidad de los estudios era variable (Peek et al., Journal of Manual & Manipulative Therapy, 2015). La relación con el cuello es tan estrecha que la desarrollamos en un apartado propio, más abajo, dedicado al dolor de hombro que nace en la columna.",
+     "El tercer elemento es la **propiocepción**, la información que los receptores de los ligamentos, la cápsula, los tendones y los músculos envían continuamente al sistema nervioso central sobre la posición y el movimiento de la articulación. Con esa información, el cerebro coordina en milésimas de segundo la acción del manguito, del deltoides y de los músculos del omóplato. El dolor altera esa información y el control motor cambia: el brazo se eleva «encogiendo» el hombro, el trapecio superior trabaja de más y el omóplato se despega. Por eso los **ejercicios de control y estabilización** son tan importantes como los de fuerza: el objetivo no es solo un músculo más fuerte, sino un sistema nervioso que vuelva a coordinar bien el movimiento."
+    ]
+   },
+   {
+    "h2": "¿Puede un dolor de hombro venir de una víscera?",
+    "paras": [
+     "Sí, y es una de las razones por las que el hombro merece una valoración cuidadosa. El dolor de los órganos internos es difuso y difícil de localizar, porque las vísceras tienen pocos receptores sensitivos y sus fibras nerviosas llegan a la médula espinal en los mismos segmentos que las de la piel, los músculos y las articulaciones. En la médula, unas y otras **convergen** en las mismas neuronas, y el cerebro atribuye la señal a la zona del cuerpo que mejor conoce: es el **dolor referido** (Gebhart y Bielefeldt, Comprehensive Physiology, 2016). El dolor visceral tiene mecanismos propios y puede acompañarse de hipersensibilidad central (Cerveró, Revista Dor, 2014).",
+     "El hombro tiene un vínculo especial con el interior del tórax y del abdomen: el **nervio frénico**. Nace en el cuello, de las raíces C3, C4 y C5, desciende por el tórax e inerva el diafragma, y recoge además la sensibilidad de la pleura, del pericardio, de la cápsula del hígado y de la vesícula biliar. Esas mismas raíces cervicales dan la sensibilidad de la piel del hombro. Por eso la irritación del diafragma o de un órgano relacionado con él puede sentirse en la parte alta del hombro: la **vesícula biliar** y el **hígado**, en el hombro derecho; el **bazo**, tras un traumatismo abdominal, en el hombro izquierdo; el **corazón**, en el hombro y el brazo izquierdos, el cuello y la mandíbula. Un tumor del vértice del pulmón puede manifestarse como un dolor persistente en el hombro y la parte alta de la espalda.",
+     "Jean-Pierre Barral, osteópata y fisioterapeuta francés, construyó su método a partir de la relación entre los órganos y el aparato locomotor. Trabajando en el hospital de enfermedades pulmonares de Grenoble, estudió en disecciones los patrones de tensión de los tejidos y observó cambios en la columna cervical del lado de una retracción pulmonar. En su modelo, los órganos se mueven continuamente con la respiración y están unidos a la columna y a las costillas por ligamentos y fascias: la cúpula de la pleura, por ejemplo, se fija a la columna cervical baja y a la primera dorsal, y el pericardio, a la columna cervical baja y dorsal alta.",
+     "Según Barral, cuando un órgano pierde su movilidad normal, por adherencias tras una cirugía, una infección como una neumonía o un traumatismo, crea un eje de tensión anómalo que el cuerpo debe compensar. Si se tiene en cuenta que respiramos unas 20.000 veces al día, una pequeña restricción del diafragma o de la pleura se repite miles de veces y podría reflejarse en el cuello y en la cintura escapular. Es una explicación de su modelo, con evidencia todavía limitada sobre la manipulación visceral; la fisiología del dolor referido en la que se apoya, en cambio, está bien establecida.",
+     "En la práctica, la anamnesis pregunta siempre por síntomas digestivos, respiratorios y cardiacos, por la relación del dolor con las comidas o con el esfuerzo y por cirugías abdominales o torácicas. Un dolor de hombro que no cambia con los movimientos del brazo ni del cuello no se comporta como un dolor mecánico y debe hacer pensar en otro origen. Ante cualquier sospecha de causa orgánica, lo primero es la valoración médica. Puede leer más en [osteopatía visceral](osteopatia-visceral-barcelona)."
+    ],
+    "list_title": "Señales de que el dolor de hombro puede tener un origen visceral: consulte sin demora si se acompaña de:",
+    "list": [
+     "Opresión o dolor en el pecho, sobre todo con el esfuerzo, con sudoración o falta de aire (llame al 112)",
+     "Dolor en el hombro izquierdo que se extiende al brazo, al cuello o a la mandíbula",
+     "Dolor en el hombro derecho relacionado con las comidas, con náuseas o color amarillento de la piel",
+     "Dolor en el hombro izquierdo tras un golpe en el abdomen",
+     "Tos persistente, expectoración con sangre o pérdida de peso",
+     "Dolor que no cambia al mover el brazo ni el cuello"
+    ]
+   },
+   {
+    "h2": "¿Qué ocurre cuando el dolor de hombro se hace crónico?",
+    "paras": [
+     "Cuando el dolor dura más de tres meses, deja de depender solo del estado del tendón o de la cápsula. El sistema nervioso **aprende** el dolor: las neuronas de la médula y del cerebro se vuelven más sensibles, amplifican las señales que llegan del hombro y pueden generar dolor con movimientos que antes no dolían. Es lo que se conoce como **sensibilización central**. Por eso hay personas con mucho dolor y una ecografía casi normal, y personas con roturas evidentes y poco dolor.",
+     "La neurociencia ha mostrado que el dolor crónico se acompaña de **cambios en el cerebro**. Con espectroscopia por resonancia magnética, que mide la concentración de sustancias químicas cerebrales (neurometabolitos), se han descrito alteraciones en las áreas que procesan el dolor, la llamada «matriz del dolor». Un ensayo aleatorizado con grupo de simulación, realizado en personas con lumbalgia crónica, observó que tras tres sesiones de manipulación aumentaban marcadores de la salud neuronal en el tálamo, la ínsula y la corteza prefrontal y somatosensorial, junto con una reducción del dolor y la discapacidad (Didehdar et al., Irish Journal of Medical Science, 2020). Es un estudio pequeño y en otra región del cuerpo, pero apoya una idea importante: la terapia manual no actúa solo sobre la articulación, sino también sobre el **sistema nervioso central**.",
+     "La idea tiene una base clásica. La **teoría de la compuerta** del dolor, propuesta por Melzack y Wall en 1965, explicó que las señales de movimiento, presión y tacto que entran en la médula pueden modular el paso de las señales de dolor hacia el cerebro (Melzack y Wall, Science, 1965). Los modelos actuales describen que el estímulo mecánico de la terapia manual desencadena respuestas en los nervios periféricos, la médula y el cerebro que reducen el dolor (Bialosky et al., Manual Therapy, 2009).",
+     "En el hombro crónico hay además un círculo vicioso muy reconocible: el dolor lleva a proteger el brazo, el brazo protegido pierde fuerza y movilidad, y un hombro más débil y rígido tolera peor la carga y duele más. Los tendones necesitan **carga** para mantenerse sanos; el reposo absoluto los debilita. Romper ese círculo con un movimiento progresivo, bien dosificado, que devuelva la confianza al brazo, es tan importante como aliviar el tejido. Puede leer más en [dolor persistente y crónico](dolor-persistente-cronico)."
+    ]
+   },
+   {
+    "h2": "¿Cuándo debo consultar con mi médico?",
+    "paras": [
+     "La mayoría de los dolores de hombro son mecánicos y benignos, pero algunos síntomas requieren una valoración médica antes de cualquier tratamiento manual. Además de las señales de origen visceral descritas más arriba, consulte con su médico si presenta:"
+    ],
+    "list": [
+     "Dolor intenso tras una caída o un golpe, con deformidad o imposibilidad de levantar el brazo",
+     "Pérdida brusca de fuerza tras un esfuerzo o una caída, sobre todo en personas activas",
+     "Hombro caliente, enrojecido o hinchado, con fiebre o malestar general",
+     "Antecedentes de cáncer, pérdida de peso sin causa aparente o dolor nocturno constante que no cede con ningún cambio de postura",
+     "Hormigueo, adormecimiento o pérdida de fuerza progresiva en el brazo o la mano",
+     "Rigidez y dolor en ambos hombros y en las caderas, con cansancio, en personas mayores de 50 años",
+     "Un hombro que se sale de su sitio o da sensación de inestabilidad"
+    ]
+   },
+   {
+    "h2": "¿Cómo se diagnostica? La anamnesis",
+    "paras": [
+     "El diagnóstico empieza escuchando. Se pregunta cómo y cuándo empezó el dolor, si hubo un golpe, un esfuerzo o un aumento de actividad, qué movimientos lo provocan, cómo se comporta por la noche y si se acompaña de rigidez, debilidad, hormigueo o dolor en el cuello. También interesan el trabajo, el deporte, la mano dominante y los gestos que la persona necesita recuperar.",
+     "Se recogen además los antecedentes que pueden explicar un dolor de hombro: diabetes, problemas de tiroides, cirugías del tórax o del abdomen, cicatrices, fracturas previas del brazo, enfermedades cardiacas o pulmonares y episodios anteriores de dolor de cuello. La anamnesis permite reconocer las señales de alarma y distinguir un dolor mecánico de uno que debe valorar el médico."
+    ]
+   },
+   {
+    "h2": "¿Qué aporta la exploración y la palpación?",
+    "paras": [
+     "La exploración compara el movimiento activo, el que la persona hace por sí misma, con el pasivo, el que realiza el terapeuta. Si ambos están limitados en todas las direcciones, sobre todo la rotación externa, se piensa en una capsulitis; si el pasivo es completo pero el activo duele en un arco intermedio, en una tendinopatía. Se valoran la fuerza de cada músculo del manguito, el movimiento del omóplato al elevar el brazo, la movilidad de la columna cervical y dorsal y de las primeras costillas, y se descarta un origen nervioso con una exploración neurológica básica.",
+     "La palpación es el centro de la exploración osteopática. Jean-Pierre Barral la llama **escucha manual**: una palpación que busca diferencias de tensión, densidad, movilidad y temperatura en los tejidos. La escucha general orienta hacia la región que más llama la atención en el conjunto del cuerpo, que en un dolor de hombro puede ser el propio hombro, el cuello, las costillas o incluso el abdomen; la escucha local precisa la estructura implicada, sea la cápsula, un tendón, un ligamento, un nervio o una víscera. En su modelo, la técnica depende siempre del tejido identificado.",
+     "La ecografía y la resonancia magnética se solicitan cuando el resultado puede cambiar la decisión: ante una sospecha de rotura traumática, cuando el dolor no evoluciona como se espera o si hay señales de alarma. La radiografía permite ver la artrosis y las calcificaciones. Como hemos visto, los hallazgos de imagen deben interpretarse siempre junto con la exploración."
+    ]
+   },
+   {
+    "h2": "¿Cómo se trata el hombro doloroso?",
+    "paras": [
+     "La mayoría de los dolores de hombro se tratan de forma **conservadora**. Las guías y las revisiones coinciden en que el ejercicio es la base. Un metaanálisis de ensayos en el dolor subacromial encontró que el ejercicio fue superior a no hacerlo para reducir el dolor y que los **ejercicios específicos** para el hombro fueron más eficaces que los genéricos. La terapia manual fue superior al placebo y, añadida al ejercicio, mejoró el dolor a corto plazo (Steuri et al., British Journal of Sports Medicine, 2017). En la tendinopatía del manguito, añadir terapia manual a un programa de ejercicio redujo el dolor alrededor de un punto en una escala de diez (Desjardins-Charbonneau et al., JOSPT, 2015).",
+     "El tratamiento se adapta al tipo de problema y a su fase. En una tendinopatía irritable se ajusta la carga para calmar el tendón sin dejar de moverlo, y después se progresa hacia ejercicios de fuerza y de control del omóplato. En la capsulitis adhesiva, la prioridad en la fase dolorosa es aliviar y mantener el movimiento tolerable, y en la fase de rigidez, recuperar la movilidad. En todos los casos se valoran y tratan la columna cervical y dorsal y las costillas, que, como hemos visto, influyen en la carga del hombro.",
+     "Los fármacos, las infiltraciones y otras opciones médicas los indica su médico; además, conviene buscar y tratar lo que mantiene el problema. La cirugía se reserva para situaciones concretas, como algunas roturas traumáticas en personas activas, las luxaciones de repetición o los casos que no responden a un tratamiento conservador bien hecho. La técnica manual no se decide de antemano: se elige tras la anamnesis y la exploración, según el tejido implicado, la fase del dolor y la persona."
+    ]
+   },
+   {
+    "h2": "¿Qué puedo hacer para prevenirlo?",
+    "paras": [
+     "El dolor es la última señal de un problema que suele llevar tiempo gestándose. Antes de que el hombro duela, el cuerpo ya estaba compensando: un omóplato que se mueve menos, una espalda alta más rígida, un trapecio que trabaja de más. Escuchar las **señales tempranas**, como una molestia al final del día, un chasquido nuevo o una ligera rigidez al ponerse la chaqueta, y hacer pequeños ajustes en ese momento es mucho más eficaz que esperar a que el dolor obligue a parar. La prevención funciona como el cepillado de los dientes: es un hábito diario, no un tratamiento puntual.",
+     "La base es mantener los tendones **preparados para la carga** que se les va a pedir. Los aumentos bruscos, como pintar una casa en un fin de semana o volver al pádel tras meses sin jugar, son el desencadenante más habitual. Conviene subir la intensidad poco a poco, fortalecer el manguito y la musculatura del omóplato dos o tres veces por semana y cuidar la movilidad de la espalda alta, que es la base sobre la que se mueve el hombro.",
+     "Los hábitos generales también cuentan. Cambiar de postura con frecuencia frente al ordenador, evitar trabajar mucho rato con los brazos por encima de la cabeza sin pausas, controlar la diabetes y moverse a diario mejoran la salud de los tendones y de la cápsula. Si ya ha tenido un episodio, mantener los ejercicios cuando el dolor desaparece es la mejor forma de evitar el siguiente."
+    ],
+    "list_title": "Ejercicios útiles para el hombro (sin dolor y de forma progresiva):",
+    "list": [
+     "Rotación externa con banda elástica, con el codo pegado al cuerpo",
+     "Remo con banda elástica, juntando los omóplatos sin encoger los hombros",
+     "Elevación del brazo en el plano del omóplato, ligeramente por delante del cuerpo, con poco peso",
+     "Flexiones contra la pared llevando el pecho hacia la pared y separándolo al volver",
+     "Apertura del pecho y extensión de la espalda alta sobre un rodillo o tumbado",
+     "Deslizamientos de los brazos por la pared hacia arriba, controlando el omóplato"
+    ]
+   },
+   {
+    "h2": "¿Qué puedo hacer en el día a día?",
+    "paras": [],
+    "list": [
+     "No inmovilice el hombro: muévalo dentro de lo que tolere, aunque sea poco.",
+     "Evite dormir sobre el hombro doloroso; una almohada bajo el brazo puede aliviar si duerme boca arriba.",
+     "Coloque los objetos de uso frecuente a la altura del pecho y evite alcanzar estantes altos de forma repetida.",
+     "Haga pausas cada 30–45 minutos frente al ordenador para mover los hombros y abrir el pecho.",
+     "Acerque la carga al cuerpo al levantar peso y reparta las bolsas entre los dos brazos.",
+     "Aumente de forma progresiva cualquier actividad nueva, deportiva o doméstica.",
+     "Si tiene diabetes, cuide su control: influye en la salud de los tendones y de la cápsula.",
+     "Mantenga los ejercicios de fuerza y movilidad aunque el dolor haya desaparecido."
+    ]
+   }
+  ],
+  "evidence": {
+   "h2": "¿Qué dice la evidencia?",
+   "items": [
+    [
+     "Frecuencia (BMC Musculoskelet Disord)",
+     "En 61 estudios, la prevalencia del dolor de hombro en la población tuvo una mediana del 16 % y la incidencia, de 37,8 casos por 1.000 personas al año (Lucas et al., 2022)."
+    ],
+    [
+     "Atención primaria (BMJ)",
+     "El dolor de hombro es el tercer motivo de consulta musculoesquelética y alrededor del 1 % de los adultos consulta cada año por un dolor nuevo (Mitchell et al., 2005)."
+    ],
+    [
+     "Roturas sin síntomas (J Orthop)",
+     "En 664 personas, el 22,1 % tenía una rotura completa del manguito y dos de cada tres no daban síntomas (Minagawa et al., 2013)."
+    ],
+    [
+     "Diabetes (MLTJ)",
+     "Las personas con diabetes tienen unas 5 veces más probabilidades de sufrir una capsulitis adhesiva; la prevalencia es del 13,4 % (Zreik et al., 2016)."
+    ],
+    [
+     "Hombro congelado (J Shoulder Elbow Surg)",
+     "A una media de 4,4 años, el 59 % de 269 hombros congelados era normal o casi normal y solo un 6 % conservaba síntomas importantes (Hand et al., 2008)."
+    ],
+    [
+     "Ejercicio y terapia manual (Br J Sports Med)",
+     "En el dolor subacromial, el ejercicio redujo el dolor (DME −0,94), los ejercicios específicos superaron a los genéricos y la terapia manual superó al placebo (Steuri et al., 2017)."
+    ],
+    [
+     "Manguito rotador (JOSPT)",
+     "Añadir terapia manual al ejercicio redujo el dolor alrededor de 1 punto sobre 10 en la tendinopatía del manguito (Desjardins-Charbonneau et al., 2015)."
+    ],
+    [
+     "Columna dorsal (J Man Manip Ther)",
+     "En tres ensayos, la terapia manual dorsal redujo el dolor y la discapacidad del hombro a las 6, 26 y 52 semanas frente a la atención habitual (Peek et al., 2015)."
+    ],
+    [
+     "Dolor visceral (Compr Physiol)",
+     "La inervación visceral es escasa y converge con la somática, por lo que el dolor visceral se refiere a estructuras como el hombro (Gebhart y Bielefeldt, 2016)."
+    ],
+    [
+     "Dolor crónico (Ir J Med Sci)",
+     "Tras manipulación vertebral cambiaron neurometabolitos en áreas cerebrales del dolor, con menos dolor y discapacidad (Didehdar et al., 2020)."
+    ]
+   ],
+   "refs": [
+    {
+     "t": "Lucas J, van Doorn P, Hegedus E, Lewis J, van der Windt D, 2022. «A systematic review of the global prevalence and incidence of shoulder pain». BMC Musculoskeletal Disorders.",
+     "doi": "10.1186/s12891-022-05973-8"
+    },
+    {
+     "t": "Luime JJ, Koes BW, Hendriksen IJ, Burdorf A, Verhagen AP, Miedema HS, et al., 2004. «Prevalence and incidence of shoulder pain in the general population; a systematic review». Scandinavian Journal of Rheumatology.",
+     "doi": "10.1080/03009740310004667"
+    },
+    {
+     "t": "Mitchell C, Adebajo A, Hay E, Carr A, 2005. «Shoulder pain: diagnosis and management in primary care». BMJ.",
+     "doi": "10.1136/bmj.331.7525.1124"
+    },
+    {
+     "t": "Minagawa H, Yamamoto N, Abe H, Fukuda M, Seki N, Kikuchi K, et al., 2013. «Prevalence of symptomatic and asymptomatic rotator cuff tears in the general population: from mass-screening in one village». Journal of Orthopaedics.",
+     "doi": "10.1016/j.jor.2013.01.008"
+    },
+    {
+     "t": "Zreik NH, Malik RA, Charalambous CP, 2016. «Adhesive capsulitis of the shoulder and diabetes: a meta-analysis of prevalence». Muscles, Ligaments and Tendons Journal.",
+     "doi": "10.11138/mltj/2016.6.1.026"
+    },
+    {
+     "t": "Hand C, Clipsham K, Rees JL, Carr AJ, 2008. «Long-term outcome of frozen shoulder». Journal of Shoulder and Elbow Surgery.",
+     "doi": "10.1016/j.jse.2007.05.009"
+    },
+    {
+     "t": "Steuri R, Sattelmayer M, Elsig S, Kolly C, Tal A, Taeymans J, et al., 2017. «Effectiveness of conservative interventions including exercise, manual therapy and medical management in adults with shoulder impingement: a systematic review and meta-analysis of RCTs». British Journal of Sports Medicine.",
+     "doi": "10.1136/bjsports-2016-096515"
+    },
+    {
+     "t": "Desjardins-Charbonneau A, Roy JS, Dionne CE, Frémont P, MacDermid JC, Desmeules F, 2015. «The efficacy of manual therapy for rotator cuff tendinopathy: a systematic review and meta-analysis». Journal of Orthopaedic & Sports Physical Therapy.",
+     "doi": "10.2519/jospt.2015.5455"
+    },
+    {
+     "t": "Peek AL, Miller C, Heneghan NR, 2015. «Thoracic manual therapy in the management of non-specific shoulder pain: a systematic review». Journal of Manual & Manipulative Therapy.",
+     "doi": "10.1179/2042618615Y.0000000003"
+    },
+    {
+     "t": "Gebhart GF, Bielefeldt K, 2016. «Physiology of visceral pain». Comprehensive Physiology.",
+     "doi": "10.1002/cphy.c150049"
+    },
+    {
+     "t": "Cerveró F, 2014. «Pathophysiology of visceral pain». Revista Dor.",
+     "doi": "10.5935/1806-0013.20140032"
+    },
+    {
+     "t": "Didehdar D, Kamali F, Kordi Yoosefinejad A, Lotfi M, 2020. «The effect of spinal manipulation on brain neurometabolites in chronic nonspecific low back pain patients: a randomized clinical trial». Irish Journal of Medical Science.",
+     "doi": "10.1007/s11845-019-02140-2"
+    },
+    {
+     "t": "Melzack R, Wall PD, 1965. «Pain mechanisms: a new theory». Science.",
+     "doi": "10.1126/science.150.3699.971"
+    },
+    {
+     "t": "Bialosky JE, Bishop MD, Price DD, Robinson ME, George SZ, 2009. «The mechanisms of manual therapy in the treatment of musculoskeletal pain: a comprehensive model». Manual Therapy.",
+     "doi": "10.1016/j.math.2008.09.001"
+    }
+   ]
+  },
+  "faq": [
+   [
+    "¿Por qué me duele más el hombro por la noche?",
+    "Al tumbarse sobre el lado afectado se comprimen el tendón y la bolsa subacromial, y sin la distracción del día el dolor se percibe más. Dormir boca arriba o sobre el otro lado, con una almohada que sostenga el brazo, suele aliviar."
+   ],
+   [
+    "¿Tengo que hacer reposo absoluto?",
+    "No. El reposo absoluto debilita los tendones y favorece la rigidez, sobre todo en la capsulitis. Lo recomendable es reducir los gestos que más duelen y seguir moviendo el hombro dentro de lo que tolera."
+   ],
+   [
+    "La ecografía dice que tengo una rotura del manguito, ¿me tienen que operar?",
+    "No necesariamente. Muchas roturas degenerativas no dan síntomas y muchas personas con roturas recuperan un hombro funcional con tratamiento conservador. Las roturas traumáticas en personas activas sí deben valorarse pronto por el traumatólogo."
+   ],
+   [
+    "¿Cuánto tarda en curarse un hombro congelado?",
+    "Suele evolucionar durante meses, a veces más de un año, en fases de dolor, rigidez y recuperación. A los cuatro o cinco años la mayoría tiene un hombro normal o casi normal, y el tratamiento busca aliviar y recuperar movilidad durante el proceso."
+   ],
+   [
+    "¿El dolor de hombro puede venir del cuello?",
+    "Sí. Las raíces nerviosas del cuello dan la sensibilidad del hombro, y en un estudio casi la mitad de los dolores de hombro aislados tenían un origen vertebral. Por eso se explora siempre el cuello y la espalda alta."
+   ],
+   [
+    "¿Un dolor en el hombro derecho puede venir de la vesícula?",
+    "Puede. La vesícula, el hígado y el diafragma comparten vías nerviosas con el hombro a través del nervio frénico. Si el dolor se relaciona con las comidas o se acompaña de náuseas, consulte con su médico."
+   ],
+   [
+    "¿Puedo seguir haciendo deporte?",
+    "En general sí, adaptando la carga: reduciendo los gestos por encima de la cabeza o la intensidad mientras el tendón se calma y volviendo de forma progresiva, con ejercicios de fuerza y control del omóplato."
+   ],
+   [
+    "¿Cuántas sesiones necesitaré?",
+    "Depende del tipo de problema, del tiempo de evolución y de cada persona. Tras la primera visita se propone un plan con objetivos claros, ejercicios para casa y revisiones que se van espaciando."
+   ]
+  ],
+  "related": [
+   "cervicalgia-dolor-cuello",
+   "dorsalgia-dolor-espalda-alta",
+   "dolor-articular-miofascial",
+   "osteopatia-sarria-sant-gervasi"
+  ],
+  "cta_h2": "Recupere el movimiento de su hombro",
+  "seo": {
+   "kw": "dolor de hombro Barcelona",
+   "kws": [
+    "hombro congelado tratamiento",
+    "capsulitis adhesiva Barcelona",
+    "tendinopatía manguito rotador",
+    "bursitis de hombro",
+    "dolor de hombro por la noche"
+   ],
+   "ca_kw": "dolor d'espatlla Barcelona",
+   "quick": "El hombro doloroso es el dolor en la región del hombro, causado con mayor frecuencia por una tendinopatía del manguito rotador, una bursitis subacromial o una capsulitis adhesiva (hombro congelado). También puede nacer en el cuello, en la espalda alta o en un órgano interno. En Sarrià–Sant Gervasi (Barcelona) se valora con una anamnesis detallada y una exploración palpatoria del hombro, el omóplato, la columna y las costillas.",
+   "entity": [
+    "MedicalCondition",
+    "Hombro doloroso"
+   ]
+  },
+  "research": [
+   "Personas con dolor y rigidez de hombro, a menudo nocturno, que quieren entender su causa y buscan un tratamiento conservador en Barcelona.",
+   [
+    "hombro congelado tratamiento Barcelona",
+    "tendinitis del hombro qué hacer",
+    "dolor de hombro al levantar el brazo",
+    "dolor de hombro derecho vesícula",
+    "dolor de hombro que viene del cuello"
+   ],
+   [
+    "espatlla congelada tractament",
+    "dolor d'espatlla Barcelona"
+   ],
+   "Clínicas de fisioterapia y traumatología con páginas por patología y portales de salud generalistas."
+  ],
+  "ca": {}
+ },
+ {
+  "slug": "tunel-carpiano",
+  "ca_slug": "sindrome-tunel-carpia",
+  "nav": "Túnel carpiano",
+  "card": "Hormigueo y adormecimiento en los dedos de la mano, sobre todo por la noche: qué es, por qué aparece y cómo se trata.",
+  "title": "Síndrome del túnel carpiano en Barcelona | WA LAM",
+  "desc": "Qué es el síndrome del túnel carpiano, la anatomía de la muñeca y del nervio mediano, sus causas (trabajo, embarazo, tiroides, diabetes), síntomas, diagnóstico y tratamiento conservador en Sarrià–Sant Gervasi, Barcelona.",
+  "h1": "Síndrome del túnel carpiano en Barcelona",
+  "sub": "Hormigueo y adormecimiento en la mano · Sarrià–Sant Gervasi",
+  "lead": "El síndrome del túnel carpiano se produce por la compresión del nervio mediano a su paso por la muñeca. Se manifiesta con hormigueo, adormecimiento o dolor en los primeros dedos de la mano, a menudo durante la noche. En las formas leves y moderadas, el tratamiento conservador suele aliviar los síntomas, y conviene valorar todo el recorrido del nervio, desde el cuello hasta la mano.",
+  "facts_title": "En WA LAM",
+  "facts": [
+   "Hormigueo nocturno y adormecimiento de la mano",
+   "Todo el recorrido del nervio, del cuello a la muñeca",
+   "Anamnesis y exploración palpatoria",
+   "Primera visita: 60 min · 90 €"
+  ],
+  "wa": "Hola, me gustaría información sobre el tratamiento del síndrome del túnel carpiano.",
+  "mirror": {
+   "h2": "¿Se reconoce en estos síntomas?",
+   "qs": [
+    "¿Se despierta por la noche con la mano dormida y necesita sacudirla para que se le pase?",
+    "¿Nota hormigueo en el pulgar, el índice y el dedo medio al conducir, sujetar el móvil o leer?",
+    "¿Se le caen las cosas de las manos o le cuesta abrochar botones o abrir un bote?",
+    "¿Trabaja muchas horas con el ratón, herramientas o gestos repetidos de la muñeca?"
+   ],
+   "close": "Si nota pérdida de fuerza progresiva o la mano dormida de forma constante, lea primero las señales de alarma de más abajo."
+  },
+  "explain": {
+   "h2": "¿Qué es el síndrome del túnel carpiano?",
+   "paras": [
+    "El síndrome del túnel carpiano es la **neuropatía por atrapamiento más frecuente**: el nervio mediano queda comprimido en un canal estrecho de la muñeca, el túnel carpiano, y deja de funcionar con normalidad. El resultado es una combinación de hormigueo, adormecimiento, dolor y, en los casos avanzados, pérdida de fuerza en la mano. No es una lesión de la muñeca en sí, sino un **sufrimiento del nervio** que la atraviesa.",
+    "**Anatomía.** El túnel carpiano es un canal con forma de U formado por los **huesos del carpo**, que constituyen el suelo y las paredes, y cerrado por arriba por un ligamento grueso, el **ligamento transverso del carpo** o retináculo flexor. Por ese espacio, de apenas unos centímetros, pasan el nervio mediano y **nueve tendones** flexores de los dedos: cuatro del flexor superficial, cuatro del flexor profundo y el del flexor largo del pulgar, rodeados de una membrana sinovial que facilita su deslizamiento. Como las paredes no se pueden expandir, cualquier aumento de volumen en su interior, sea por hinchazón de la sinovial, retención de líquidos o cambios en los huesos, aumenta la presión sobre el nervio, que es la estructura más sensible.",
+    "El **nervio mediano** nace en el cuello, de las raíces C6 a T1, recorre todo el brazo y, tras pasar por el túnel, da la sensibilidad de la palma del pulgar, el índice, el dedo medio y la mitad del anular, y la fuerza de los músculos de la base del pulgar (la eminencia tenar), que permiten oponerlo a los demás dedos. Por eso el meñique queda libre en el túnel carpiano: lo inerva otro nervio, el cubital.",
+    "**Clasificación.** Se distingue el síndrome **idiopático**, el más frecuente, sin una causa única identificable, del **secundario** a otras situaciones, como el embarazo, el hipotiroidismo, la diabetes, la artritis reumatoide o una fractura de muñeca. Según su gravedad, clínica y electromiográfica, se clasifica en **leve**, con síntomas intermitentes de predominio nocturno; **moderado**, con síntomas más frecuentes y alteración de la sensibilidad; y **grave**, con adormecimiento constante, pérdida de fuerza y atrofia de la musculatura del pulgar. También puede ser **agudo**, tras un traumatismo, o **crónico**, que es lo habitual."
+   ]
+  },
+  "sections": [
+   {
+    "h2": "¿Es frecuente el túnel carpiano?",
+    "paras": [
+     "Los síntomas en la mano son muy comunes. En un estudio poblacional sueco con 2.466 personas de 25 a 74 años, el **14,4 %** refería dolor, adormecimiento u hormigueo en el territorio del nervio mediano. Al explorarlas, el 3,8 % tenía un síndrome del túnel carpiano clínicamente seguro, y el **2,7 %** lo tenía confirmado a la vez por la clínica y por el estudio de conducción nerviosa (Atroshi et al., JAMA, 1999). Es más frecuente en mujeres y entre los 40 y los 60 años.",
+     "El embarazo es una situación especial. En un estudio prospectivo con 639 embarazadas, el **34 %** refirió síntomas de túnel carpiano durante la gestación, sobre todo a partir de la semana 32, en su mayoría leves o moderados (Meems et al., BJOG, 2015). El síndrome es también una causa importante de baja laboral en trabajos manuales."
+    ]
+   },
+   {
+    "h2": "¿Por qué aparece?",
+    "paras": [
+     "El problema de fondo es un **aumento de la presión** dentro del túnel. El nervio necesita un aporte constante de sangre; cuando la presión sube, primero se reduce la circulación en sus pequeños vasos y aparece el hormigueo, que es reversible; si la presión se mantiene, el nervio se inflama, pierde su capa protectora (la mielina) y, en los casos más avanzados, sufren las propias fibras nerviosas, lo que explica la pérdida de fuerza.",
+     "Esa presión aumenta con las **posturas de la muñeca**: tanto la flexión como la extensión mantenidas estrechan el túnel, y por eso los síntomas aparecen al conducir, al sujetar el móvil o el libro, o al dormir con la muñeca doblada. También la aumentan la **fuerza de agarre** y los gestos repetidos, que engrosan la sinovial de los tendones, y las **vibraciones** de algunas herramientas.",
+     "Por último, influyen factores generales que aumentan el volumen dentro del túnel o hacen el nervio más vulnerable: la retención de líquidos del embarazo y de algunos cambios hormonales, el hipotiroidismo, la diabetes, la artritis reumatoide, el sobrepeso o una fractura de muñeca mal consolidada. A menudo coinciden varios a la vez."
+    ],
+    "list_title": "Causas y situaciones más habituales:",
+    "list": [
+     "Posturas mantenidas de la muñeca en flexión o en extensión",
+     "Trabajos con fuerza de agarre, gestos repetidos o herramientas que vibran",
+     "Embarazo y retención de líquidos",
+     "Cambios hormonales, como la menopausia",
+     "Hipotiroidismo, diabetes y artritis reumatoide",
+     "Fracturas o traumatismos de la muñeca",
+     "Sobrepeso",
+     "Irritación del nervio en otros puntos de su recorrido, desde el cuello"
+    ]
+   },
+   {
+    "h2": "¿Quién tiene más riesgo?",
+    "paras": [
+     "El trabajo tiene un peso claro. Un metaanálisis de 37 estudios encontró que la exposición laboral a **vibraciones**, a una **fuerza de agarre** elevada y a **movimientos repetidos** de la mano aproximadamente duplica el riesgo de túnel carpiano. Con la definición más estricta, que exige alteración en el estudio de conducción nerviosa, el riesgo se multiplicó por 5,4 con las vibraciones, por 4,2 con la fuerza de agarre y por 2,3 con la repetición (Barcenilla et al., Rheumatology, 2011).",
+     "Entre los factores generales, el **hipotiroidismo** se asocia a un riesgo algo mayor: en un metaanálisis de 18 estudios, cuando se tuvieron en cuenta otros factores, la asociación fue modesta, con un riesgo un 44 % mayor (Shiri, Muscle & Nerve, 2014). En el embarazo, las mujeres con más **retención de líquidos** tuvieron casi el doble de probabilidades de presentar síntomas (Meems et al., 2015). Conocer estos factores ayuda a entender por qué el túnel carpiano no es solo un problema local de la muñeca."
+    ],
+    "list_title": "Factores que se asocian a un mayor riesgo:",
+    "list": [
+     "Sexo femenino y edad entre los 40 y los 60 años",
+     "Trabajos con vibraciones, fuerza de agarre o gestos repetidos",
+     "Embarazo, sobre todo en el tercer trimestre",
+     "Hipotiroidismo, diabetes y artritis reumatoide",
+     "Sobrepeso",
+     "Fracturas previas de muñeca",
+     "Dolor o rigidez de cuello asociados",
+     "Antecedentes familiares de túnel carpiano"
+    ]
+   },
+   {
+    "h2": "¿Cuáles son los síntomas?",
+    "paras": [
+     "El síntoma más característico es el **hormigueo** o el adormecimiento en el pulgar, el índice, el dedo medio y la mitad del anular, que aparece sobre todo **por la noche** o al despertar. Muchas personas cuentan que se despiertan con la mano «dormida» y que tienen que sacudirla o moverla para que se les pase. Durante el día, los síntomas aparecen al conducir, al sujetar el teléfono, al leer o al trabajar con la muñeca doblada.",
+     "Puede haber dolor en la muñeca y en la palma, que a veces sube por el antebrazo. Con el tiempo aparece **torpeza**: cuesta abrochar botones, coger monedas o abrir un bote, y se caen los objetos. En las formas avanzadas, el adormecimiento se vuelve constante y la musculatura de la base del pulgar se atrofia, lo que se ve como un hundimiento en esa zona. Si el meñique también se duerme o los síntomas cambian al mover el cuello, hay que pensar en otro origen."
+    ],
+    "list_title": "Síntomas más habituales:",
+    "list": [
+     "Hormigueo o adormecimiento en el pulgar, el índice, el dedo medio y la mitad del anular",
+     "Despertares nocturnos con la mano dormida, que mejoran al sacudirla",
+     "Dolor en la muñeca o la palma que puede subir por el antebrazo",
+     "Torpeza para abrochar botones o coger objetos pequeños",
+     "Caída de objetos de las manos",
+     "Pérdida de fuerza y hundimiento de la base del pulgar en las fases avanzadas"
+    ]
+   },
+   {
+    "h2": "¿Por qué la mano se duerme por la noche?",
+    "paras": [
+     "Es la pregunta que más se repite en la consulta. Durante el sueño, la mayoría de las personas **dobla la muñeca** sin darse cuenta, a menudo con la mano bajo la almohada o recogida contra el pecho, y esa flexión mantenida durante horas aumenta la presión dentro del túnel. Además, al estar tumbados, los líquidos del cuerpo se redistribuyen y la musculatura deja de bombear la sangre de vuelta, de modo que los tejidos del túnel se hinchan ligeramente.",
+     "Al despertar, sacudir la mano o moverla reactiva la circulación y el hormigueo cede. Por eso una **férula nocturna** que mantenga la muñeca en posición neutra, ni doblada ni extendida, alivia a muchas personas en las fases leves. Y por eso conviene revisar la postura de dormir y la de las manos al usar el móvil en la cama."
+    ]
+   },
+   {
+    "h2": "¿Qué relación tiene el túnel carpiano con el embarazo y las hormonas?",
+    "paras": [
+     "En el embarazo aumenta el volumen de líquido del organismo y los tejidos retienen agua, también dentro del túnel carpiano. Por eso los síntomas son tan frecuentes en el tercer trimestre y suelen afectar a las dos manos. En el estudio citado, los síntomas se relacionaron con la retención de líquidos y con peor calidad del sueño, y la mayoría fueron leves o moderados (Meems et al., 2015). En muchos casos mejoran tras el parto, aunque en algunas mujeres persisten durante la lactancia.",
+     "Los cambios hormonales de la **menopausia** y el **hipotiroidismo** también pueden modificar los tejidos del túnel y la sensibilidad del nervio. Es un buen ejemplo de que el cuerpo funciona como un conjunto: una molestia en la mano puede reflejar un cambio general del organismo, y por eso la anamnesis pregunta siempre por el tiroides, la glucosa, el embarazo o la menopausia, y se deriva al médico cuando conviene revisarlos."
+    ]
+   },
+   {
+    "h2": "¿Por qué hay que mirar todo el recorrido del nervio?",
+    "paras": [
+     "Un nervio no es un cable inmóvil. El nervio mediano **se desliza** varios milímetros dentro de sus envolturas cada vez que flexionamos o extendemos la muñeca, el codo o el hombro, y necesita moverse con libertad para mantener su circulación. Si queda «pegado» o comprimido en algún punto de su trayecto, en la muñeca, en el antebrazo, en el codo, bajo los músculos del cuello o entre la clavícula y la primera costilla, pierde parte de esa capacidad.",
+     "En 1973, Upton y McComas propusieron la hipótesis del **doble atrapamiento** (*double crush*): un nervio que sufre una compresión en un punto, por ejemplo en la raíz cervical, se vuelve más vulnerable a una segunda compresión en otro punto de su recorrido, como el túnel carpiano (Upton y McComas, The Lancet, 1973). Aunque el mecanismo exacto se sigue debatiendo, la idea encaja con la experiencia clínica de pacientes con túnel carpiano y dolor de cuello al mismo tiempo. La relación con la columna cervical es tan importante que tiene su propio apartado en esta página.",
+     "Jean-Pierre Barral desarrolló, además de la manipulación visceral, un abordaje específico de los nervios, la **manipulación neural**. En su modelo, se buscan las restricciones locales de un nervio a lo largo de su trayecto y se valora cómo esas fijaciones influyen en el resto del cuerpo, porque, según Barral, el origen de un problema puede estar lejos del lugar donde se siente. Por eso la valoración osteopática de un túnel carpiano no termina en la muñeca: explora el codo, el hombro, la primera costilla, la columna cervical y dorsal alta y la postura de trabajo."
+    ]
+   },
+   {
+    "h2": "¿Qué ocurre cuando el hormigueo se hace crónico?",
+    "paras": [
+     "En el túnel carpiano de larga evolución el problema deja de ser solo local. Las personas con este síndrome muestran a menudo una **hipersensibilidad al dolor generalizada**, a la presión y a la temperatura, también lejos de la muñeca, como manifestación de una **sensibilización central**: el sistema nervioso amplifica las señales y la mano, y a veces todo el brazo, se vuelven más sensibles (Fernández-de-las-Peñas et al., European Journal of Pain, 2017). Por eso hay personas con un electromiograma leve y mucho dolor, y otras con alteraciones importantes y pocas molestias.",
+     "La neurociencia ha mostrado que el dolor crónico se acompaña de **cambios en el cerebro**. Con espectroscopia por resonancia magnética, que mide sustancias químicas cerebrales (neurometabolitos), se han descrito alteraciones en las áreas que procesan el dolor. Un ensayo aleatorizado con grupo de simulación, en personas con lumbalgia crónica, observó que tras tres sesiones de manipulación aumentaban marcadores de la salud neuronal en el tálamo, la ínsula y la corteza, junto con menos dolor y discapacidad (Didehdar et al., Irish Journal of Medical Science, 2020). La **teoría de la compuerta** de Melzack y Wall ya explicó en 1965 que las señales de tacto, presión y movimiento pueden modular en la médula el paso de las señales de dolor (Melzack y Wall, Science, 1965), y los modelos actuales describen efectos de la terapia manual en los nervios periféricos, la médula y el cerebro (Bialosky et al., Manual Therapy, 2009).",
+     "En el propio túnel carpiano, un ensayo con 100 mujeres comparó tres sesiones de terapia manual, que incluían maniobras dirigidas a desensibilizar el sistema nervioso central, con la cirugía. La terapia manual y la cirugía tuvieron efectos similares sobre la sensibilidad generalizada a la presión y el dolor, y la terapia manual redujo más el dolor a los 3 meses (Fernández-de-las-Peñas et al., 2017). Tratar el túnel carpiano crónico es, por tanto, tratar también un sistema nervioso sensibilizado. Puede leer más en [dolor neuropático](dolor-neuropatico)."
+    ]
+   },
+   {
+    "h2": "¿Cuándo debo consultar con mi médico?",
+    "paras": [
+     "Las formas leves y moderadas suelen responder al tratamiento conservador, pero algunos signos indican que el nervio está sufriendo de forma importante o que la causa puede ser otra. Consulte con su médico si presenta:"
+    ],
+    "list": [
+     "Adormecimiento constante, también durante el día, que no cede al mover la mano",
+     "Pérdida de fuerza progresiva o hundimiento de la musculatura de la base del pulgar",
+     "Síntomas tras una caída o una fractura de muñeca",
+     "Hormigueo también en los pies o en ambos lados del cuerpo, que puede indicar una neuropatía general",
+     "Debilidad en el brazo o el hombro, o dolor de cuello con pérdida de fuerza",
+     "Muñeca hinchada, caliente o enrojecida, o rigidez en varias articulaciones de las manos",
+     "Síntomas que no mejoran tras varias semanas de tratamiento conservador"
+    ]
+   },
+   {
+    "h2": "¿Cómo se diagnostica? La anamnesis",
+    "paras": [
+     "La historia clínica es la herramienta más útil. Se pregunta qué dedos se duermen exactamente, si incluye el meñique, en qué momentos aparecen los síntomas, si despiertan por la noche, si mejoran al sacudir la mano y si hay torpeza o caída de objetos. También se recogen el trabajo, las aficiones y los gestos que se repiten con las manos.",
+     "Se pregunta además por los factores generales: embarazo, menopausia, enfermedades del tiroides, diabetes, artritis, fracturas previas de muñeca, sobrepeso y, de forma especial, por el dolor o la rigidez de cuello y por síntomas en el otro brazo o en los pies. Con todo ello se distingue un túnel carpiano típico de otros problemas que lo imitan."
+    ]
+   },
+   {
+    "h2": "¿Qué aporta la exploración y la palpación?",
+    "paras": [
+     "La exploración incluye la sensibilidad de cada dedo, la fuerza de la musculatura del pulgar y unas pruebas sencillas que reproducen los síntomas. En la **prueba de Phalen**, se mantienen las muñecas flexionadas durante un minuto; en la de **Tinel**, se golpea suavemente sobre el túnel; y en la de **compresión carpiana**, se presiona directamente sobre él. Se exploran también el codo, el hombro, la primera costilla, la columna cervical y los reflejos, para descartar otros puntos de compresión.",
+     "La palpación es el centro de la exploración osteopática. Jean-Pierre Barral la llama **escucha manual**: una palpación que busca diferencias de tensión, densidad y movilidad en los tejidos. La escucha general orienta hacia la región que más llama la atención en el conjunto del cuerpo; la escucha local precisa la estructura implicada a lo largo del trayecto del nervio, sea el ligamento del carpo, los tendones, la fascia del antebrazo, los músculos del cuello o la primera costilla.",
+     "El **electromiograma** y el estudio de conducción nerviosa confirman el diagnóstico, cuantifican la gravedad y ayudan a localizar la compresión. Se solicitan sobre todo cuando se plantea una cirugía, si hay pérdida de fuerza o si el diagnóstico es dudoso. La ecografía permite ver el engrosamiento del nervio."
+    ]
+   },
+   {
+    "h2": "¿Cómo se trata el síndrome del túnel carpiano?",
+    "paras": [
+     "En las formas leves y moderadas, el tratamiento es **conservador**: modificar los gestos y las posturas que aumentan la presión en el túnel, usar una férula nocturna que mantenga la muñeca en posición neutra, revisar el puesto de trabajo y tratar los factores generales que contribuyen. Los fármacos y las infiltraciones los indica su médico; además, conviene buscar y tratar lo que mantiene la compresión.",
+     "La terapia manual tiene un respaldo interesante. Un ensayo aleatorizado en un hospital público de Madrid comparó, en 120 mujeres con túnel carpiano, tres sesiones de terapia manual, con maniobras de desensibilización del sistema nervioso central, con la cirugía de liberación del túnel; ambos grupos hicieron además en casa ejercicios de deslizamiento de tendones y nervios. Al año y a los **cuatro años**, los resultados en dolor, función, gravedad de los síntomas y mejoría percibida fueron **similares** en ambos grupos, y la proporción de mujeres que acabaron operándose durante el seguimiento también fue parecida: un 15 % en el grupo de terapia manual y un 13 % en el de cirugía (Fernández-de-las-Peñas et al., Physical Therapy, 2020).",
+     "La cirugía es la opción indicada cuando hay pérdida de fuerza, atrofia de la musculatura del pulgar, adormecimiento constante o lesión importante del nervio en el electromiograma, o cuando el tratamiento conservador no ha funcionado. La técnica manual no se decide de antemano: se elige tras la anamnesis y la exploración, según los puntos del recorrido del nervio implicados, la fase y la persona."
+    ]
+   },
+   {
+    "h2": "¿Qué puedo hacer para prevenirlo?",
+    "paras": [
+     "La prevención empieza antes de que aparezca el hormigueo. Las primeras señales, como una mano que se duerme de vez en cuando al conducir o al despertar, son el momento ideal para actuar: revisar la postura de las muñecas, hacer pausas y mover las manos y el cuello es mucho más eficaz que esperar a que el nervio esté dañado. Como el cepillado de los dientes, se trata de un hábito diario.",
+     "En el trabajo, lo que más protege es reducir la **fuerza de agarre** innecesaria, evitar las posturas extremas de la muñeca, alternar las tareas y hacer **pausas** frecuentes. Con el ordenador, conviene que el antebrazo descanse sobre la mesa, que el teclado y el ratón estén a la altura de los codos y que la muñeca quede recta. Si se usan herramientas que vibran, los guantes antivibración y las pausas son especialmente importantes.",
+     "La postura del cuello y de los hombros también cuenta, porque el nervio nace en la columna cervical y la cabeza adelantada frente a la pantalla carga a la vez el cuello y la muñeca. Y los hábitos generales influyen: mantener un peso saludable, moverse a diario y controlar con su médico el tiroides o la glucosa si es necesario reducen los factores que aumentan la presión en el túnel."
+    ],
+    "list_title": "Ejercicios y gestos útiles (suaves y sin provocar hormigueo):",
+    "list": [
+     "Abrir y cerrar las manos lentamente varias veces cada hora",
+     "Deslizamiento de tendones: pasar por las posiciones de puño, mano en gancho y mano plana",
+     "Estiramiento suave de los flexores de la muñeca con el codo extendido",
+     "Movimientos circulares de las muñecas y de los hombros",
+     "Retracción suave del mentón para alinear la cabeza sobre los hombros",
+     "Apertura del pecho y movilidad de la espalda alta"
+    ]
+   },
+   {
+    "h2": "¿Qué puedo hacer en el día a día?",
+    "paras": [],
+    "list": [
+     "Duerma con la muñeca recta; si es necesario, use una férula nocturna en posición neutra.",
+     "Evite dormir con la mano bajo la almohada o con la muñeca doblada.",
+     "Sujete el móvil con ambas manos o apóyelo, y alterne la mano que lo sostiene.",
+     "Mantenga la muñeca recta al teclear y apoye el antebrazo sobre la mesa.",
+     "Reduzca la fuerza con la que agarra las herramientas, los volantes y los utensilios.",
+     "Haga pausas cada 30–45 minutos para mover las manos, los hombros y el cuello.",
+     "Cuide la postura de la cabeza frente a la pantalla.",
+     "Si está embarazada o en la menopausia y nota hormigueo, coménteselo a su médico."
+    ]
+   }
+  ],
+  "evidence": {
+   "h2": "¿Qué dice la evidencia?",
+   "items": [
+    [
+     "Frecuencia (JAMA)",
+     "En 2.466 personas, el 14,4 % refería síntomas en el territorio del nervio mediano y el 2,7 % tenía un túnel carpiano confirmado clínica y electrofisiológicamente (Atroshi et al., 1999)."
+    ],
+    [
+     "Embarazo (BJOG)",
+     "El 34 % de 639 embarazadas refirió síntomas de túnel carpiano, relacionados con la retención de líquidos y el peor descanso (Meems et al., 2015)."
+    ],
+    [
+     "Trabajo (Rheumatology)",
+     "Las vibraciones, la fuerza de agarre y la repetición multiplicaron el riesgo por 5,4, 4,2 y 2,3, respectivamente, con la definición más estricta (Barcenilla et al., 2011)."
+    ],
+    [
+     "Tiroides (Muscle Nerve)",
+     "Ajustado por otros factores, el hipotiroidismo se asoció a un riesgo un 44 % mayor de túnel carpiano (Shiri, 2014)."
+    ],
+    [
+     "Sensibilización (Eur J Pain)",
+     "En 100 mujeres, la terapia manual y la cirugía redujeron de forma similar la sensibilidad generalizada al dolor; la terapia manual alivió más a los 3 meses (Fernández-de-las-Peñas et al., 2017)."
+    ],
+    [
+     "Terapia manual frente a cirugía (Phys Ther)",
+     "En 120 mujeres, los resultados a 1 y 4 años fueron similares, con tasas de cirugía del 15 % y el 13 % (Fernández-de-las-Peñas et al., 2020)."
+    ],
+    [
+     "Doble atrapamiento (Lancet)",
+     "Se propuso que una compresión proximal del nervio lo hace más vulnerable a una segunda compresión distal (Upton y McComas, 1973)."
+    ],
+    [
+     "Dolor crónico (Ir J Med Sci)",
+     "Tras manipulación vertebral cambiaron neurometabolitos en áreas cerebrales del dolor, con menos dolor y discapacidad (Didehdar et al., 2020)."
+    ]
+   ],
+   "refs": [
+    {
+     "t": "Atroshi I, Gummesson C, Johnsson R, Ornstein E, Ranstam J, Rosén I, 1999. «Prevalence of carpal tunnel syndrome in a general population». JAMA.",
+     "doi": "10.1001/jama.282.2.153"
+    },
+    {
+     "t": "Meems M, Truijens S, Spek V, Visser LH, Pop VJ, 2015. «Prevalence, course and determinants of carpal tunnel syndrome symptoms during pregnancy: a prospective study». BJOG: An International Journal of Obstetrics & Gynaecology.",
+     "doi": "10.1111/1471-0528.13360"
+    },
+    {
+     "t": "Barcenilla A, March LM, Chen JS, Sambrook PN, 2011. «Carpal tunnel syndrome and its relationship to occupation: a meta-analysis». Rheumatology.",
+     "doi": "10.1093/rheumatology/ker108"
+    },
+    {
+     "t": "Shiri R, 2014. «Hypothyroidism and carpal tunnel syndrome: a meta-analysis». Muscle & Nerve.",
+     "doi": "10.1002/mus.24453"
+    },
+    {
+     "t": "Upton AR, McComas AJ, 1973. «The double crush in nerve entrapment syndromes». The Lancet.",
+     "doi": "10.1016/S0140-6736(73)93196-6"
+    },
+    {
+     "t": "Fernández-de-las-Peñas C, Cleland J, Palacios-Ceña M, Fuensalida-Novo S, Alonso-Blanco C, Pareja JA, Alburquerque-Sendín F, 2017. «Effectiveness of manual therapy versus surgery in pain processing due to carpal tunnel syndrome: a randomized clinical trial». European Journal of Pain.",
+     "doi": "10.1002/ejp.1026"
+    },
+    {
+     "t": "Fernández-de-las-Peñas C, Arias-Buría JL, Cleland JA, Pareja JA, Plaza-Manzano G, Ortega-Santiago R, 2020. «Manual therapy versus surgery for carpal tunnel syndrome: 4-year follow-up from a randomized controlled trial». Physical Therapy.",
+     "doi": "10.1093/ptj/pzaa150"
+    },
+    {
+     "t": "Didehdar D, Kamali F, Kordi Yoosefinejad A, Lotfi M, 2020. «The effect of spinal manipulation on brain neurometabolites in chronic nonspecific low back pain patients: a randomized clinical trial». Irish Journal of Medical Science.",
+     "doi": "10.1007/s11845-019-02140-2"
+    },
+    {
+     "t": "Melzack R, Wall PD, 1965. «Pain mechanisms: a new theory». Science.",
+     "doi": "10.1126/science.150.3699.971"
+    },
+    {
+     "t": "Bialosky JE, Bishop MD, Price DD, Robinson ME, George SZ, 2009. «The mechanisms of manual therapy in the treatment of musculoskeletal pain: a comprehensive model». Manual Therapy.",
+     "doi": "10.1016/j.math.2008.09.001"
+    }
+   ]
+  },
+  "faq": [
+   [
+    "¿El túnel carpiano siempre acaba en cirugía?",
+    "No. En las formas leves y moderadas el tratamiento conservador suele aliviar los síntomas, y en un ensayo con seguimiento de cuatro años la terapia manual obtuvo resultados similares a la cirugía. La cirugía se reserva para los casos con pérdida de fuerza, atrofia o lesión importante del nervio."
+   ],
+   [
+    "¿Por qué se me duerme la mano por la noche?",
+    "Porque al dormir solemos doblar la muñeca y, al estar tumbados, los tejidos del túnel se hinchan ligeramente; ambas cosas aumentan la presión sobre el nervio. Mantener la muñeca recta, con una férula nocturna si hace falta, suele aliviar."
+   ],
+   [
+    "¿Sirve de algo una férula?",
+    "La férula nocturna en posición neutra alivia los síntomas en muchas personas con formas leves, porque evita que la muñeca se doble durante horas. Es una medida sencilla que conviene combinar con el resto del tratamiento."
+   ],
+   [
+    "¿El hormigueo de la mano puede venir del cuello?",
+    "Sí. El nervio mediano nace en las raíces cervicales, y una irritación en el cuello puede producir síntomas parecidos o hacer el nervio más vulnerable en la muñeca. Por eso se explora siempre el cuello."
+   ],
+   [
+    "Estoy embarazada y se me duermen las manos, ¿es normal?",
+    "Es frecuente: alrededor de un tercio de las embarazadas tiene síntomas, sobre todo en el tercer trimestre, por la retención de líquidos. Suelen mejorar tras el parto. Coménteselo a su médico o matrona."
+   ],
+   [
+    "¿El uso del ordenador causa túnel carpiano?",
+    "El trabajo con ordenador puede contribuir si se mantiene la muñeca doblada durante horas, pero los factores laborales más claros son las vibraciones, la fuerza de agarre y los gestos repetidos. Una buena ergonomía y las pausas ayudan a prevenirlo."
+   ],
+   [
+    "¿Cuántas sesiones necesitaré?",
+    "Depende de la gravedad, del tiempo de evolución y de los factores que influyan en cada caso. Tras la primera visita se propone un plan con objetivos claros, ejercicios y pautas para casa y revisiones que se van espaciando."
+   ]
+  ],
+  "related": [
+   "dolor-neuropatico",
+   "cervicalgia-dolor-cuello",
+   "osteopatia-sarria-sant-gervasi",
+   "dolor-articular-miofascial"
+  ],
+  "cta_h2": "Recupere el descanso y el uso de su mano",
+  "seo": {
+   "kw": "túnel carpiano Barcelona",
+   "kws": [
+    "hormigueo en la mano por la noche",
+    "tratamiento túnel carpiano sin cirugía",
+    "férula túnel carpiano",
+    "túnel carpiano embarazo",
+    "mano dormida Barcelona"
+   ],
+   "ca_kw": "túnel carpià Barcelona",
+   "quick": "El síndrome del túnel carpiano es la compresión del nervio mediano en la muñeca, que produce hormigueo, adormecimiento y dolor en el pulgar, el índice y el dedo medio, sobre todo por la noche. Se relaciona con las posturas y los esfuerzos de la mano, el embarazo y algunos factores hormonales. En Sarrià–Sant Gervasi (Barcelona) se valora con una anamnesis detallada y una exploración de todo el recorrido del nervio, desde el cuello hasta la muñeca.",
+   "entity": [
+    "MedicalCondition",
+    "Síndrome del túnel carpiano"
+   ]
+  },
+  "research": [
+   "Personas con hormigueo en la mano, a menudo nocturno, que quieren entender su causa y explorar un tratamiento conservador antes de plantearse la cirugía.",
+   [
+    "túnel carpiano tratamiento sin cirugía Barcelona",
+    "mano dormida por la noche",
+    "túnel carpiano embarazo",
+    "hormigueo mano cuello"
+   ],
+   [
+    "túnel carpià tractament Barcelona",
+    "mà adormida de nit"
+   ],
+   "Clínicas de traumatología y fisioterapia, con mucho contenido quirúrgico."
+  ],
+  "ca": {}
+ },
+ {
+  "slug": "fascitis-plantar",
+  "ca_slug": "fasciitis-plantar",
+  "nav": "Fascitis plantar",
+  "card": "Dolor en el talón y la planta del pie, sobre todo en los primeros pasos de la mañana: qué es, por qué aparece y cómo se trata.",
+  "title": "Fascitis plantar en Barcelona | WA LAM",
+  "desc": "Qué es la fascitis plantar, la anatomía de la fascia y su relación con el tendón de Aquiles, causas, factores de riesgo, espolón calcáneo, diagnóstico y tratamiento conservador del dolor de talón en Sarrià–Sant Gervasi, Barcelona.",
+  "h1": "Fascitis plantar en Barcelona",
+  "sub": "Dolor en el talón y la planta del pie · Sarrià–Sant Gervasi",
+  "lead": "La fascitis plantar es la causa más frecuente de dolor en el talón en adultos. Se nota sobre todo en los primeros pasos de la mañana o al levantarse tras un rato sentado. Suele mejorar con tratamiento conservador, pero puede alargarse durante meses si no se corrige lo que la mantiene: la rigidez del tobillo y la pantorrilla, la carga y la forma de pisar.",
+  "facts_title": "En WA LAM",
+  "facts": [
+   "Dolor en el talón y la fascia plantar",
+   "Pie, tobillo, pantorrilla y toda la pierna",
+   "Anamnesis y exploración palpatoria",
+   "Primera visita: 60 min · 90 €"
+  ],
+  "wa": "Hola, me gustaría información sobre el tratamiento de la fascitis plantar.",
+  "mirror": {
+   "h2": "¿Se reconoce en estos síntomas?",
+   "qs": [
+    "¿Le duele el talón al dar los primeros pasos por la mañana, como si pisara una piedra?",
+    "¿El dolor vuelve al levantarse después de estar un rato sentado?",
+    "¿Pasa muchas horas de pie, ha aumentado sus kilómetros caminando o corriendo, o ha ganado peso?",
+    "¿Nota la pantorrilla tensa y le cuesta doblar el tobillo hacia arriba?"
+   ],
+   "close": "Si el dolor de talón quema, se acompaña de hormigueo o apareció tras un golpe o un chasquido, lea primero las señales de alarma de más abajo."
+  },
+  "explain": {
+   "h2": "¿Qué es la fascitis plantar?",
+   "paras": [
+    "La fascitis plantar es un dolor en la parte inferior del talón causado por la sobrecarga de la **fascia plantar** en su inserción en el hueso del talón, el calcáneo. Aunque su nombre termina en «-itis», que sugiere inflamación, en la mayoría de los casos de larga evolución predomina un **cambio degenerativo** de la fascia, con engrosamiento y desorganización de sus fibras, más que una inflamación aguda. Por eso algunos autores prefieren hablar de **fasciopatía plantar** o de dolor plantar del talón.",
+    "**Anatomía.** La fascia plantar, o aponeurosis plantar, es una lámina gruesa de tejido conectivo que nace en la parte interna e inferior del calcáneo y se abre en abanico hasta la base de los dedos. Tiene una banda central, la más gruesa, y dos bandas laterales. Funciona como la **cuerda de un arco**: sostiene la bóveda del pie y, al despegar el talón del suelo y extender los dedos, se tensa y eleva el arco, convirtiendo el pie en una palanca rígida para impulsarse. Es el llamado **mecanismo de molinete**.",
+    "La fascia no está aislada. Un estudio anatómico en cadáveres mostró que está más conectada con el **paratendón del tendón de Aquiles**, la envoltura que lo rodea, que con el propio tendón, a través del periostio del talón, y que se continúa con la fascia de los músculos de la planta. El mismo estudio encontró en la fascia terminaciones nerviosas y **corpúsculos de Pacini y de Ruffini**, receptores de presión y estiramiento, lo que sugiere que participa en la **propiocepción** del pie (Stecco et al., Journal of Anatomy, 2013). La fascia plantar, por tanto, es también un órgano sensorial.",
+    "**Clasificación.** Se distingue la fascitis **aguda**, de pocas semanas de evolución, de la **crónica**, que dura más de tres meses; la **unilateral** de la **bilateral**, más frecuente en enfermedades generales; y la forma **con espolón calcáneo** de la que no lo tiene, aunque el espolón no determina el pronóstico. Con menos frecuencia, la fascia puede romperse de forma parcial o completa. Hay además otros dolores de talón que conviene diferenciar: el síndrome de la almohadilla grasa, el atrapamiento de pequeños nervios del talón, el síndrome del túnel tarsiano, la fractura de estrés del calcáneo, el dolor que nace en la columna lumbar y las entesitis de las enfermedades inflamatorias."
+   ]
+  },
+  "sections": [
+   {
+    "h2": "¿Es frecuente la fascitis plantar?",
+    "paras": [
+     "Es muy frecuente. En Estados Unidos se calculó cerca de **un millón de visitas médicas al año** por fascitis plantar, repartidas entre atención primaria y traumatología (Riddle y Schappert, Foot & Ankle International, 2004). En un estudio poblacional británico con más de 5.000 personas de 50 años o más, el **9,6 %** tenía dolor plantar en el talón en el último mes y el 7,9 % lo tenía de forma incapacitante. Era algo más frecuente en mujeres y en trabajos manuales, y se asociaba al sobrepeso, a menos actividad física y a más ansiedad y depresión (Thomas et al., BMC Musculoskeletal Disorders, 2019).",
+     "Afecta tanto a corredores y deportistas como a personas sedentarias que pasan muchas horas de pie. Aunque la mayoría mejora, se calcula que alrededor del **10 %** desarrolla síntomas persistentes y a menudo incapacitantes (DiGiovanni et al., Journal of Bone and Joint Surgery, 2003)."
+    ]
+   },
+   {
+    "h2": "¿Por qué aparece?",
+    "paras": [
+     "La fascitis plantar aparece cuando la carga repetida sobre la fascia supera su capacidad de adaptación. Cada paso tensa la fascia; si los pasos son demasiados, si se dan sobre superficies duras o si el pie y el tobillo no reparten bien la carga, se producen microlesiones en la inserción del talón que el tejido no llega a reparar.",
+     "El factor más importante es la **rigidez del tobillo y de la pantorrilla**. Cuando el tobillo no se dobla bien hacia arriba (dorsiflexión), al caminar el pie compensa hundiendo el arco y la fascia soporta más tensión en cada paso. A ello se suman el **sobrepeso**, que aumenta la carga, el **trabajo de pie** muchas horas, los aumentos bruscos de actividad, como empezar a correr o caminar mucho más en vacaciones, el calzado muy plano o muy gastado y las formas extremas del pie, tanto plano como cavo.",
+     "No hay que olvidar que el pie forma parte de una cadena. La forma de pisar depende también de la rodilla, la cadera, la pelvis y la columna lumbar, y un dolor de talón puede tener un componente nervioso que nace en la espalda, como se explica en el apartado dedicado a la columna."
+    ],
+    "list_title": "Causas más habituales:",
+    "list": [
+     "Poca flexibilidad del tobillo, de la pantorrilla y del tendón de Aquiles",
+     "Sobrepeso",
+     "Pasar muchas horas de pie, sobre todo en superficies duras",
+     "Aumentos bruscos de la actividad: correr, caminar o saltar más de lo habitual",
+     "Calzado muy plano, rígido o gastado",
+     "Pie plano o cavo y alteraciones en la forma de pisar",
+     "Poca fuerza en la musculatura del pie y de la pantorrilla",
+     "Compensaciones de la rodilla, la cadera o la pelvis"
+    ]
+   },
+   {
+    "h2": "¿Quién tiene más riesgo?",
+    "paras": [
+     "Un estudio de casos y controles cuantificó los tres factores de riesgo principales. Las personas con el tobillo más rígido, que no conseguían doblarlo hacia arriba más allá de la posición neutra, tenían **23 veces más** probabilidades de sufrir fascitis plantar que las que lo doblaban más de 10 grados. Un índice de masa corporal superior a 30 multiplicaba el riesgo por 5,6, y pasar la mayor parte de la jornada laboral de pie, por 3,6. Los autores concluyeron que la falta de flexión del tobillo es el factor de riesgo más importante (Riddle et al., Journal of Bone and Joint Surgery, 2003).",
+     "Es una buena noticia, porque los tres factores son modificables: la flexibilidad del tobillo y de la pantorrilla se puede mejorar, el peso se puede reducir y la carga laboral se puede repartir con pausas, calzado adecuado y cambios de postura."
+    ],
+    "list_title": "Factores que se asocian a un mayor riesgo:",
+    "list": [
+     "Poca flexión del tobillo hacia arriba",
+     "Índice de masa corporal superior a 30",
+     "Trabajo de pie la mayor parte de la jornada",
+     "Edad entre los 40 y los 60 años",
+     "Correr, sobre todo con aumentos rápidos de kilometraje",
+     "Pie plano, pie cavo o una pisada que se hunde hacia dentro",
+     "Poca actividad física general y sedentarismo",
+     "Diabetes y enfermedades inflamatorias articulares"
+    ]
+   },
+   {
+    "h2": "¿Cuáles son los síntomas?",
+    "paras": [
+     "El síntoma típico es un dolor punzante en la **parte interna e inferior del talón**, muy intenso en los **primeros pasos de la mañana**, como si se pisara una piedra o un clavo. Tras unos minutos caminando, el dolor suele disminuir, porque la fascia se calienta y se vuelve más elástica, pero reaparece al levantarse tras estar un rato sentado y aumenta al final de un día de mucha actividad o tras estar mucho tiempo de pie.",
+     "Al presionar la cara interna del talón, la zona duele. Al principio el dolor se limita al talón; con el tiempo puede extenderse por el borde interno de la planta. Si el dolor quema, se acompaña de hormigueo o adormecimiento, no tiene el patrón típico de la mañana o aparece también en reposo y por la noche, hay que pensar en otras causas."
+    ],
+    "list_title": "Síntomas más habituales:",
+    "list": [
+     "Dolor en la parte interna e inferior del talón",
+     "Dolor intenso en los primeros pasos de la mañana",
+     "Dolor al levantarse tras estar sentado un rato",
+     "Mejoría tras unos minutos de caminar y empeoramiento al final del día",
+     "Dolor al presionar el talón o al caminar descalzo sobre superficies duras",
+     "Tensión en la pantorrilla y dificultad para doblar el tobillo"
+    ]
+   },
+   {
+    "h2": "¿Qué es el espolón calcáneo y tiene la culpa del dolor?",
+    "paras": [
+     "El **espolón calcáneo** es una pequeña prolongación ósea en la parte inferior del talón, en la zona donde se insertan la fascia y algunos músculos del pie. Se ve en la radiografía y durante mucho tiempo se le atribuyó el dolor, pero hoy se sabe que es una respuesta del hueso a la tracción mantenida, no la causa del problema. Muchas personas tienen un espolón sin dolor alguno, y muchas personas con fascitis no lo tienen.",
+     "En un estudio danés que siguió entre 5 y 15 años a 174 pacientes con fascitis plantar diagnosticada por ecografía, la presencia de un espolón al inicio **no influyó en el pronóstico**, como tampoco lo hizo el grosor de la fascia (Hansen et al., Orthopaedic Journal of Sports Medicine, 2018). Por eso no es necesario «quitar el espolón»: lo que importa es reducir la tensión sobre la fascia y devolverle su capacidad de soportar carga."
+    ]
+   },
+   {
+    "h2": "¿Cuánto dura una fascitis plantar?",
+    "paras": [
+     "Muchas fascitis mejoran en semanas o pocos meses, sobre todo si se tratan pronto. Pero no siempre se resuelven solas. En el estudio danés citado, realizado en pacientes atendidos en un servicio hospitalario, el 80,5 % seguía con síntomas al año de su inicio y la mitad, a los cinco años; a los diez años, el 54 % estaba libre de síntomas. El riesgo de que se prolongara fue mayor en las **mujeres** y en quienes tenían dolor en **ambos talones** (Hansen et al., 2018).",
+     "Son cifras de una consulta especializada, donde llegan los casos más persistentes, y no deben alarmar. Sí transmiten un mensaje claro: esperar a que el dolor desaparezca por sí solo, sin cambiar lo que lo mantiene, puede alargar el problema durante años. Tratar la fascitis pronto y de forma activa, recuperando la movilidad del tobillo, la fuerza del pie y la tolerancia a la carga, es la mejor forma de acortarla."
+    ]
+   },
+   {
+    "h2": "¿Qué tienen que ver la pantorrilla, el tendón de Aquiles y la propiocepción?",
+    "paras": [
+     "La fascia plantar, el talón y el tendón de Aquiles funcionan como un sistema continuo. Los músculos de la pantorrilla, los gemelos y el sóleo, terminan en el tendón de Aquiles, que se inserta en la parte posterior del calcáneo; la fascia plantar nace en su parte inferior; y, como mostró el estudio anatómico de Stecco, ambos están unidos a través del periostio del talón. En el mismo estudio, las personas con alteraciones del tendón de Aquiles en la resonancia tenían la fascia plantar más gruesa (Stecco et al., 2013). Una pantorrilla rígida tira del talón y aumenta la tensión de la fascia en cada paso; por eso trabajar la pantorrilla y el tobillo es parte esencial del tratamiento.",
+     "El segundo elemento es la **propiocepción**. Los receptores de la fascia, de los ligamentos y de los músculos del pie informan continuamente al sistema nervioso central sobre la presión, el estiramiento y la posición, y con esa información el cerebro ajusta en cada paso la acción de los músculos que sostienen el arco. El dolor y la falta de estímulo, por ejemplo con un calzado muy rígido o con poca actividad, empobrecen esa información, y la musculatura del pie se vuelve más perezosa. Los **ejercicios de fuerza y de control del pie** reeducan ese sistema.",
+     "El tercer elemento es la **carga**. La fascia, como los tendones y los huesos, se adapta al estímulo mecánico: con una carga adecuada y progresiva se fortalece, y con el reposo absoluto pierde capacidad. Un ensayo aleatorizado comparó, en 48 pacientes con fascitis confirmada por ecografía, un programa de estiramientos específicos de la fascia con un programa de **fuerza con carga elevada**, que consistía en elevaciones de talón sobre un escalón con una toalla enrollada bajo los dedos, cada dos días. A los tres meses, el grupo de fuerza tenía una función del pie claramente mejor (Rathleff et al., Scandinavian Journal of Medicine & Science in Sports, 2014)."
+    ]
+   },
+   {
+    "h2": "¿Cómo mira la osteopatía un dolor de talón?",
+    "paras": [
+     "La osteopatía parte de una idea sencilla: el lugar donde duele no siempre es el lugar donde está el origen. En un dolor de talón, la fascia es la estructura que protesta, pero la sobrecarga puede venir de un tobillo que ha perdido movilidad tras un esguince antiguo, de una rodilla que se va hacia dentro, de una cadera con poca fuerza que deja caer la pelvis al apoyar o de una columna lumbar que irrita las raíces nerviosas del pie. Por eso la valoración recorre toda la extremidad y la pelvis, y observa cómo se reparte el peso al caminar.",
+     "Jean-Pierre Barral desarrolló un **abordaje manual articular** que considera cada articulación como un conjunto de hueso, cápsula, ligamentos, nervios y vasos, relacionado además con otras regiones del cuerpo. En su modelo, bajo el dolor o el diagnóstico existe un patrón de compensación cuyo origen está a menudo lejos de donde se siente el dolor, y por eso se evalúa todo el cuerpo y no solo la articulación que duele. Es una forma de razonar que encaja bien con un problema de carga como la fascitis.",
+     "El cuerpo como conjunto incluye también la salud general. El estudio poblacional británico encontró que el dolor de talón se asociaba al sobrepeso, a la poca actividad física y a más ansiedad y depresión, y sus autores recomendaron atender esos factores además del pie, porque pueden dificultar la recuperación (Thomas et al., 2019). Dormir bien, moverse a diario y cuidar la alimentación forman parte del tratamiento."
+    ]
+   },
+   {
+    "h2": "¿Qué ocurre cuando el dolor de talón se hace crónico?",
+    "paras": [
+     "Cuando la fascitis dura más de tres meses, el dolor deja de depender solo del estado de la fascia. El sistema nervioso **aprende** el dolor: las neuronas de la médula y del cerebro se vuelven más sensibles y amplifican las señales que llegan del pie, de modo que pisar, que antes no dolía, empieza a doler. Es lo que se conoce como **sensibilización central**. Por eso a veces la ecografía mejora y el dolor no, o al revés.",
+     "La neurociencia ha mostrado que el dolor crónico se acompaña de **cambios en el cerebro**. Con espectroscopia por resonancia magnética, que mide sustancias químicas cerebrales (neurometabolitos), se han descrito alteraciones en las áreas que procesan el dolor. Un ensayo aleatorizado con grupo de simulación, en personas con lumbalgia crónica, observó que tras tres sesiones de manipulación aumentaban marcadores de la salud neuronal en el tálamo, la ínsula y la corteza, junto con menos dolor y discapacidad (Didehdar et al., Irish Journal of Medical Science, 2020). Es un estudio pequeño y en otra región del cuerpo, pero apoya la idea de que la terapia manual actúa también sobre el **sistema nervioso central**.",
+     "La **teoría de la compuerta** de Melzack y Wall explicó en 1965 que las señales de tacto, presión y movimiento que entran en la médula pueden modular el paso de las señales de dolor hacia el cerebro (Melzack y Wall, Science, 1965), y los modelos actuales describen efectos de la terapia manual en los nervios periféricos, la médula y el cerebro (Bialosky et al., Manual Therapy, 2009). En la fascitis crónica, además de tratar el tejido, el objetivo es devolver al pie la confianza para cargar de forma progresiva. Puede leer más en [dolor persistente y crónico](dolor-persistente-cronico)."
+    ]
+   },
+   {
+    "h2": "¿Cuándo debo consultar con mi médico?",
+    "paras": [
+     "La mayoría de los dolores de talón son mecánicos, pero algunos síntomas indican otro origen y deben valorarse por el médico antes de cualquier tratamiento manual. Consulte si presenta:"
+    ],
+    "list": [
+     "Dolor tras un golpe, una caída o un chasquido brusco en la planta del pie",
+     "Dolor que aumenta con el impacto y al apretar el talón por los lados, sobre todo en corredores (posible fractura de estrés)",
+     "Dolor que quema, con hormigueo o adormecimiento en la planta o los dedos",
+     "Dolor en ambos talones con rigidez lumbar matutina o dolor en otras articulaciones",
+     "Talón hinchado, caliente o enrojecido, o fiebre",
+     "Dolor en reposo y por la noche, sin relación con la carga",
+     "Diabetes con heridas, cambios de color o pérdida de sensibilidad en los pies"
+    ]
+   },
+   {
+    "h2": "¿Cómo se diagnostica? La anamnesis",
+    "paras": [
+     "El diagnóstico de la fascitis plantar es fundamentalmente clínico. Se pregunta dónde duele exactamente, cómo empezó, si hubo un cambio de actividad, de calzado, de peso o de trabajo, si el dolor es mayor en los primeros pasos de la mañana y tras el reposo, y cómo se comporta a lo largo del día.",
+     "Se recogen también los antecedentes que pueden influir o sugerir otra causa: esguinces de tobillo previos, dolor de rodilla, de cadera o lumbar, diabetes, enfermedades inflamatorias, psoriasis, problemas intestinales inflamatorios, y la actividad física y el deporte que practica la persona. Con todo ello se distingue una fascitis típica de otros dolores de talón."
+    ]
+   },
+   {
+    "h2": "¿Qué aporta la exploración y la palpación?",
+    "paras": [
+     "La exploración incluye la palpación de la inserción de la fascia en la cara interna del talón, que reproduce el dolor, y de la almohadilla grasa, los nervios del talón y el tendón de Aquiles. Se mide la flexión del tobillo hacia arriba con la rodilla extendida y doblada, para distinguir la rigidez de los gemelos de la del sóleo, se prueba el mecanismo de molinete extendiendo el dedo gordo y se valoran la fuerza del pie y de la pantorrilla, el apoyo y la forma de caminar. Se exploran también la rodilla, la cadera, la pelvis y la columna lumbar.",
+     "La palpación es el centro de la exploración osteopática. Jean-Pierre Barral la llama **escucha manual**: una palpación que busca diferencias de tensión, densidad y movilidad en los tejidos. La escucha general orienta hacia la región que más llama la atención en el conjunto del cuerpo, que en un dolor de talón puede ser el pie, pero también el tobillo, la rodilla, la pelvis o la zona lumbar; la escucha local precisa la estructura implicada, sea la fascia, una articulación del pie, un ligamento o un nervio.",
+     "Las pruebas de imagen rara vez son necesarias. La **ecografía** muestra el engrosamiento de la fascia y ayuda en los casos dudosos; la radiografía o la resonancia se reservan para sospechas de fractura de estrés, rotura u otras causas."
+    ]
+   },
+   {
+    "h2": "¿Cómo se trata la fascitis plantar?",
+    "paras": [
+     "El tratamiento es **conservador** en la gran mayoría de los casos, y su base es reducir la tensión sobre la fascia mientras se recupera su capacidad de soportar carga. Eso incluye ajustar temporalmente la actividad que más irrita el talón, sin dejar de moverse; recuperar la flexibilidad del tobillo y de la pantorrilla; fortalecer el pie y la pantorrilla de forma progresiva; y revisar el calzado y la forma de pisar.",
+     "Los estiramientos **específicos de la fascia** son eficaces: en un ensayo con 101 pacientes con fascitis crónica, un programa de estiramientos de la fascia sin carga, tirando de los dedos hacia arriba, redujo más el peor dolor y el de los primeros pasos de la mañana que un programa clásico de estiramientos del tendón de Aquiles (DiGiovanni et al., 2003). El fortalecimiento con carga elevada acelera la mejoría de la función (Rathleff et al., 2014). La **terapia manual** también tiene respaldo: una revisión sistemática de siete ensayos encontró que añadir técnicas manuales de las articulaciones y de los tejidos blandos mejoró la función en seis de ellos, de las 4 semanas a los 6 meses, frente a estiramientos, fortalecimiento u otras técnicas, y sus autores recomiendan combinarlas con estiramientos y fortalecimiento (Fraser et al., Journal of Manual & Manipulative Therapy, 2017).",
+     "Un metaanálisis en red de 31 ensayos concluyó que ningún tratamiento ha demostrado ser claramente superior a los demás y que el ejercicio aporta beneficios sobre todo a largo plazo (Babatunde et al., British Journal of Sports Medicine, 2018). Por eso lo más útil suele ser un plan que combine varias medidas y se adapte a cada persona. Los fármacos, las infiltraciones, las ondas de choque o las plantillas a medida los indican el médico o el podólogo cuando conviene; la cirugía se reserva para casos excepcionales. La técnica manual no se decide de antemano: se elige tras la anamnesis y la exploración, según las estructuras implicadas y la fase."
+    ]
+   },
+   {
+    "h2": "¿Qué puedo hacer para prevenirlo?",
+    "paras": [
+     "El dolor de talón suele avisar antes de instalarse: una molestia en los primeros pasos que desaparece enseguida, una pantorrilla cargada tras un día largo o un talón sensible al caminar descalzo. Escuchar esas **señales tempranas** y actuar en ese momento, con estiramientos, una reducción temporal de la carga o un cambio de calzado, es mucho más eficaz que esperar. La prevención es un hábito diario, no un tratamiento puntual.",
+     "Lo que más protege es mantener un **tobillo y una pantorrilla flexibles** y un **pie fuerte**. Unos minutos al día de estiramientos y de ejercicios de fuerza del pie y de la pantorrilla reducen la tensión que soporta la fascia en cada paso. Los aumentos de actividad deben ser progresivos, semana a semana, con periodos de adaptación al cambiar de calzado o de superficie.",
+     "Los hábitos generales cuentan tanto como los ejercicios. Mantener un peso saludable reduce la carga en cada paso; alternar estar de pie con estar sentado y moverse durante la jornada evita la carga estática; y un calzado con cierta amortiguación y un pequeño tacón, cambiado cuando está gastado, reparte mejor la presión. Si ya ha tenido una fascitis, mantener los ejercicios cuando el dolor desaparece es la mejor forma de evitar recaídas."
+    ],
+    "list_title": "Ejercicios útiles para el pie y la pantorrilla:",
+    "list": [
+     "Estiramiento específico de la fascia: sentado, con el pie sobre la rodilla contraria, tire de los dedos hacia arriba durante 10 segundos, 10 veces, antes de los primeros pasos de la mañana",
+     "Estiramiento de gemelos con la rodilla estirada y del sóleo con la rodilla doblada, contra la pared",
+     "Elevaciones de talón lentas sobre un escalón, con una toalla enrollada bajo los dedos, progresando la carga",
+     "Recoger una toalla con los dedos del pie o ejercicios de «pie corto», elevando el arco sin doblar los dedos",
+     "Rodar suavemente la planta del pie sobre una pelota o una botella fría",
+     "Equilibrio sobre un pie, primero con ojos abiertos y después cerrados"
+    ]
+   },
+   {
+    "h2": "¿Qué puedo hacer en el día a día?",
+    "paras": [],
+    "list": [
+     "Estire la fascia y la pantorrilla antes de levantarse de la cama.",
+     "Evite caminar descalzo sobre suelos duros mientras el talón esté sensible.",
+     "Use un calzado con amortiguación y un pequeño tacón, y cámbielo cuando esté gastado.",
+     "Alterne estar de pie con estar sentado y muévase durante la jornada.",
+     "Aumente de forma progresiva los kilómetros al correr o caminar.",
+     "Mantenga un peso saludable para reducir la carga en cada paso.",
+     "Haga los ejercicios de fuerza del pie y la pantorrilla dos o tres veces por semana.",
+     "Si el dolor no mejora en unas semanas, no espere: consulte."
+    ]
+   }
+  ],
+  "evidence": {
+   "h2": "¿Qué dice la evidencia?",
+   "items": [
+    [
+     "Frecuencia (BMC Musculoskelet Disord)",
+     "El 9,6 % de más de 5.000 personas de 50 años o más tenía dolor plantar en el talón en el último mes (Thomas et al., 2019)."
+    ],
+    [
+     "Consultas (Foot Ankle Int)",
+     "Se estimó cerca de un millón de visitas médicas al año por fascitis plantar en Estados Unidos (Riddle y Schappert, 2004)."
+    ],
+    [
+     "Factores de riesgo (J Bone Joint Surg)",
+     "Un tobillo rígido multiplicó el riesgo por 23,3, un IMC superior a 30 por 5,6 y trabajar de pie por 3,6 (Riddle et al., 2003)."
+    ],
+    [
+     "Pronóstico (Orthop J Sports Med)",
+     "En 174 pacientes seguidos de 5 a 15 años, el espolón no influyó en el pronóstico y el riesgo de persistencia fue mayor en mujeres y en dolor bilateral (Hansen et al., 2018)."
+    ],
+    [
+     "Anatomía (J Anat)",
+     "La fascia plantar se conecta con el paratendón de Aquiles y contiene corpúsculos de Pacini y Ruffini, con un papel en la propiocepción del pie (Stecco et al., 2013)."
+    ],
+    [
+     "Estiramientos (J Bone Joint Surg)",
+     "En 101 pacientes, los estiramientos específicos de la fascia redujeron más el dolor de los primeros pasos que los del tendón de Aquiles (DiGiovanni et al., 2003)."
+    ],
+    [
+     "Fuerza (Scand J Med Sci Sports)",
+     "A los 3 meses, la fuerza con carga elevada mejoró la función del pie 29 puntos más que los estiramientos (Rathleff et al., 2014)."
+    ],
+    [
+     "Terapia manual (J Man Manip Ther)",
+     "En 6 de 7 ensayos, añadir terapia manual mejoró la función del pie de las 4 semanas a los 6 meses (Fraser et al., 2017)."
+    ],
+    [
+     "Dolor crónico (Ir J Med Sci)",
+     "Tras manipulación vertebral cambiaron neurometabolitos en áreas cerebrales del dolor, con menos dolor y discapacidad (Didehdar et al., 2020)."
+    ]
+   ],
+   "refs": [
+    {
+     "t": "Thomas MJ, Whittle R, Menz HB, Rathod-Mistry T, Marshall M, Roddy E, 2019. «Plantar heel pain in middle-aged and older adults: population prevalence, associations with health status and lifestyle factors, and frequency of healthcare use». BMC Musculoskeletal Disorders.",
+     "doi": "10.1186/s12891-019-2718-6"
+    },
+    {
+     "t": "Riddle DL, Schappert SM, 2004. «Volume of ambulatory care visits and patterns of care for patients diagnosed with plantar fasciitis: a national study of medical doctors». Foot & Ankle International.",
+     "doi": "10.1177/107110070402500505"
+    },
+    {
+     "t": "Riddle DL, Pulisic M, Pidcoe P, Johnson RE, 2003. «Risk factors for plantar fasciitis: a matched case-control study». Journal of Bone and Joint Surgery (American volume).",
+     "doi": "10.2106/00004623-200305000-00015"
+    },
+    {
+     "t": "Hansen L, Krogh TP, Ellingsen T, Bolvig L, Fredberg U, 2018. «Long-term prognosis of plantar fasciitis: a 5- to 15-year follow-up study of 174 patients with ultrasound examination». Orthopaedic Journal of Sports Medicine.",
+     "doi": "10.1177/2325967118757983"
+    },
+    {
+     "t": "Stecco C, Corradin M, Macchi V, Morra A, Porzionato A, Biz C, et al., 2013. «Plantar fascia anatomy and its relationship with Achilles tendon and paratenon». Journal of Anatomy.",
+     "doi": "10.1111/joa.12111"
+    },
+    {
+     "t": "DiGiovanni BF, Nawoczenski DA, Lintal ME, Moore EA, Murray JC, Wilding GE, Baumhauer JF, 2003. «Tissue-specific plantar fascia-stretching exercise enhances outcomes in patients with chronic heel pain: a prospective, randomized study». Journal of Bone and Joint Surgery (American volume).",
+     "doi": "10.2106/00004623-200307000-00013"
+    },
+    {
+     "t": "Rathleff MS, Mølgaard CM, Fredberg U, Kaalund S, Andersen KB, Jensen TT, et al., 2014. «High-load strength training improves outcome in patients with plantar fasciitis: a randomized controlled trial with 12-month follow-up». Scandinavian Journal of Medicine & Science in Sports.",
+     "doi": "10.1111/sms.12313"
+    },
+    {
+     "t": "Fraser JJ, Corbett R, Donner C, Hertel J, 2017. «Does manual therapy improve pain and function in patients with plantar fasciitis? A systematic review». Journal of Manual & Manipulative Therapy.",
+     "doi": "10.1080/10669817.2017.1322736"
+    },
+    {
+     "t": "Babatunde OO, Legha A, Littlewood C, Chesterton LS, Thomas MJ, Menz HB, et al., 2018. «Comparative effectiveness of treatment options for plantar heel pain: a systematic review with network meta-analysis». British Journal of Sports Medicine.",
+     "doi": "10.1136/bjsports-2017-098998"
+    },
+    {
+     "t": "Didehdar D, Kamali F, Kordi Yoosefinejad A, Lotfi M, 2020. «The effect of spinal manipulation on brain neurometabolites in chronic nonspecific low back pain patients: a randomized clinical trial». Irish Journal of Medical Science.",
+     "doi": "10.1007/s11845-019-02140-2"
+    },
+    {
+     "t": "Melzack R, Wall PD, 1965. «Pain mechanisms: a new theory». Science.",
+     "doi": "10.1126/science.150.3699.971"
+    },
+    {
+     "t": "Bialosky JE, Bishop MD, Price DD, Robinson ME, George SZ, 2009. «The mechanisms of manual therapy in the treatment of musculoskeletal pain: a comprehensive model». Manual Therapy.",
+     "doi": "10.1016/j.math.2008.09.001"
+    }
+   ]
+  },
+  "faq": [
+   [
+    "¿Por qué me duele más el talón por la mañana?",
+    "Durante la noche el pie descansa en una posición que acorta la fascia y la pantorrilla. Al dar los primeros pasos, la fascia se estira de golpe y duele; tras unos minutos se calienta y el dolor disminuye. Estirar la fascia antes de levantarse ayuda."
+   ],
+   [
+    "¿Tengo que dejar de correr o de caminar?",
+    "No necesariamente. Conviene reducir temporalmente la actividad que más irrita el talón y mantener otras que no duelan, como la bicicleta o la natación, mientras se trabajan la flexibilidad y la fuerza. La vuelta debe ser progresiva."
+   ],
+   [
+    "¿Hay que quitar el espolón calcáneo?",
+    "No. El espolón es una respuesta del hueso a la tracción, no la causa del dolor, y no influye en el pronóstico. El tratamiento se dirige a la fascia, al tobillo y a la carga."
+   ],
+   [
+    "¿Sirven las plantillas?",
+    "Pueden aliviar a algunas personas, sobre todo con pies muy planos o muy cavos, pero no son la base del tratamiento. Lo más eficaz es combinar estiramientos, fuerza, terapia manual y ajustes de la carga."
+   ],
+   [
+    "¿El dolor de talón puede venir de la espalda?",
+    "Sí. La raíz S1 de la columna lumbar da la sensibilidad del talón y la planta. Un dolor que quema, con hormigueo o asociado a molestias lumbares, orienta a un origen lumbar y obliga a explorar la espalda."
+   ],
+   [
+    "¿Cuánto tarda en curarse una fascitis plantar?",
+    "Muchas mejoran en semanas o pocos meses con un tratamiento activo, pero algunas se alargan si no se corrigen los factores que la mantienen. Tratarla pronto acorta el proceso."
+   ],
+   [
+    "¿Cuántas sesiones necesitaré?",
+    "Depende del tiempo de evolución, de la causa y de cada persona. Tras la primera visita se propone un plan con objetivos claros, ejercicios para casa y revisiones que se van espaciando."
+   ]
+  ],
+  "related": [
+   "dolor-musculoesqueletico",
+   "dolor-articular-miofascial",
+   "esguinces",
+   "lesiones-deportivas"
+  ],
+  "cta_h2": "Vuelva a caminar con tranquilidad",
+  "seo": {
+   "kw": "fascitis plantar Barcelona",
+   "kws": [
+    "dolor en el talón Barcelona",
+    "tratamiento fascitis plantar Sarrià",
+    "espolón calcáneo tratamiento",
+    "estiramientos fascitis plantar",
+    "dolor de talón por la mañana"
+   ],
+   "ca_kw": "fasciïtis plantar Barcelona",
+   "quick": "La fascitis plantar es el dolor en la parte inferior del talón causado por la sobrecarga de la fascia plantar, la lámina de tejido que sostiene el arco del pie. Duele sobre todo en los primeros pasos de la mañana y se relaciona con la rigidez del tobillo y la pantorrilla, el sobrepeso y el trabajo de pie. En Sarrià–Sant Gervasi (Barcelona) se valora con una anamnesis detallada y una exploración palpatoria del pie, el tobillo y toda la pierna.",
+   "entity": [
+    "MedicalCondition",
+    "Fascitis plantar"
+   ]
+  },
+  "research": [
+   "Personas con dolor en el talón, a menudo por la mañana, que buscan entender la causa y un tratamiento conservador cerca de casa.",
+   [
+    "fascitis plantar tratamiento Barcelona",
+    "dolor talón por la mañana",
+    "espolón calcáneo qué hacer",
+    "ejercicios fascitis plantar"
+   ],
+   [
+    "fasciïtis plantar tractament Barcelona",
+    "dolor al taló al matí"
+   ],
+   "Clínicas de fisioterapia y podología con páginas centradas en ondas de choque y plantillas."
+  ],
+  "ca": {}
+ },
+ {
+  "slug": "torticolis",
+  "ca_slug": "torticoli",
+  "nav": "Tortícolis",
+  "card": "Cuello bloqueado y doloroso que impide girar la cabeza: tipos, causas, tortícolis del bebé, señales de alarma y cómo se trata.",
+  "title": "Tortícolis en Barcelona | WA LAM",
+  "desc": "Qué es la tortícolis, la anatomía del cuello, sus tipos (aguda del adulto, postraumática, del lactante, distonía cervical), causas, señales de alarma y tratamiento conservador en Sarrià–Sant Gervasi, Barcelona.",
+  "h1": "Tortícolis en Barcelona",
+  "sub": "Cuello bloqueado y doloroso · Sarrià–Sant Gervasi",
+  "lead": "La tortícolis es un bloqueo doloroso del cuello que impide girar o inclinar la cabeza con normalidad. Suele aparecer al despertar o tras un gesto brusco y, en la mayoría de los casos, mejora en pocos días. Cuando se repite, conviene buscar lo que la favorece: la postura de la cabeza, la espalda alta, el estrés o, a veces, el interior del tórax.",
+  "facts_title": "En WA LAM",
+  "facts": [
+   "Cuello bloqueado y dolor agudo",
+   "Cuello, espalda alta, costillas y hombros",
+   "Anamnesis y exploración palpatoria",
+   "Primera visita: 60 min · 90 €"
+  ],
+  "wa": "Hola, me gustaría información sobre el tratamiento de la tortícolis.",
+  "mirror": {
+   "h2": "¿Se reconoce en estos síntomas?",
+   "qs": [
+    "¿Se ha levantado con el cuello bloqueado y no puede girar la cabeza hacia un lado?",
+    "¿Tiene la cabeza ligeramente inclinada y cualquier intento de enderezarla le provoca un dolor agudo?",
+    "¿Le ha pasado más de una vez, a menudo en épocas de estrés o de muchas horas de pantalla?",
+    "¿Nota además tensión en los hombros, entre los omóplatos o dolor de cabeza?"
+   ],
+   "close": "Si el cuello rígido se acompaña de fiebre, dolor de cabeza intenso o síntomas en los brazos, lea primero las señales de alarma de más abajo."
+  },
+  "explain": {
+   "h2": "¿Qué es la tortícolis?",
+   "paras": [
+    "La palabra tortícolis significa literalmente «cuello torcido». Describe una postura anómala de la cabeza, inclinada hacia un lado y girada hacia el otro, acompañada de dolor y de una limitación del movimiento. En el adulto, la forma más habitual es la **tortícolis aguda**: un bloqueo doloroso del cuello que aparece de forma brusca, a menudo al despertar, en el que los músculos se contraen para proteger la zona y la cabeza queda «atrapada» en una posición. No es una enfermedad, sino un **síntoma**, y la valoración sirve para entender su origen.",
+    "**Anatomía.** La columna cervical está formada por **siete vértebras**. Las dos primeras, el atlas y el axis, son especiales: entre ellas se produce alrededor de la mitad de la rotación de la cabeza. De la tercera a la séptima, las vértebras se unen por un disco por delante y por dos pequeñas articulaciones posteriores, las **articulaciones facetarias**, a cada lado. Dentro de ellas existen unos pliegues de tejido fibroso y graso, los **meniscoides**, que protegen el cartílago durante el movimiento.",
+    "Alrededor de la columna se organizan los músculos que mueven y sostienen la cabeza: el **esternocleidomastoideo**, que la inclina hacia su lado y la gira hacia el contrario; el **trapecio** y el **angular del omóplato**, que unen el cuello con el hombro; los escalenos, que unen el cuello con las primeras costillas; y los músculos profundos de la nuca. Por el cuello pasan además las raíces nerviosas del brazo, el nervio frénico que baja al diafragma y las arterias que irrigan el cerebro.",
+    "**Clasificación.** Se distinguen varios tipos: la **tortícolis aguda del adulto**, la más frecuente y benigna; la **postraumática**, tras un latigazo cervical o una caída; la **tortícolis muscular congénita** y la **postural del lactante**, en los bebés; la **infecciosa o inflamatoria**, sobre todo en niños, tras una infección de garganta; la **distonía cervical** o tortícolis espasmódica, un trastorno neurológico con contracciones involuntarias mantenidas; y otras formas menos frecuentes, de origen ocular, vestibular o relacionadas con algunos fármacos."
+   ]
+  },
+  "sections": [
+   {
+    "h2": "¿Es frecuente la tortícolis?",
+    "paras": [
+     "La tortícolis aguda forma parte del dolor de cuello, uno de los problemas musculoesqueléticos más comunes. Según el estudio de la Carga Global de Enfermedad, en 2020 **203 millones** de personas en el mundo tenían dolor de cuello, con una prevalencia mayor en mujeres que en hombres y un pico entre los 45 y los 74 años (Wu et al., The Lancet Rheumatology, 2024).",
+     "La evolución natural del dolor de cuello agudo es, en general, favorable. En un estudio poblacional noruego, la intensidad del dolor bajó rápidamente durante el **primer mes** tras un episodio nuevo y cambió poco después; solo una de cada cinco personas buscó ayuda sanitaria. En cambio, el dolor persistió todo el año en quienes tenían dolor en varias zonas del cuerpo al inicio (Vasseljen et al., Pain, 2013).",
+     "En los bebés, la asimetría del cuello es sorprendentemente común: en un estudio con 102 recién nacidos sanos, el **16 %** tenía tortícolis, que se asoció a que el feto hubiera estado «encajado» en la misma posición dentro del útero durante semanas (Stellwagen et al., Archives of Disease in Childhood, 2008). La distonía cervical, en cambio, es rara: su incidencia se estima en torno a un caso por cada 100.000 personas y año (Steeves et al., Movement Disorders, 2012)."
+    ]
+   },
+   {
+    "h2": "¿Por qué se bloquea el cuello?",
+    "paras": [
+     "En la tortícolis aguda del adulto, una de las explicaciones más aceptadas es el **atrapamiento de un meniscoide**. Un estudio anatómico de 210 articulaciones cervicales encontró pliegues fibroadiposos en las articulaciones facetarias y propuso que, tras un movimiento brusco o una postura mantenida, uno de ellos podría quedar pellizcado entre las superficies articulares y desencadenar el bloqueo (Mercer y Bogduk, British Journal of Rheumatology, 1993). El dolor provoca entonces una **contracción defensiva** de los músculos, que inmoviliza la zona y mantiene la cabeza torcida.",
+     "Casi nunca hay una sola causa. El bloqueo suele aparecer en un cuello que ya estaba sobrecargado: horas con la cabeza adelantada frente al ordenador o el móvil, una noche en una postura forzada o con una almohada inadecuada, un gesto brusco tras mucho tiempo quieto, o una época de estrés que mantiene los hombros tensos. Muchas personas lo relacionan con una corriente de aire frío; el frío aumenta la tensión muscular y puede contribuir en un cuello ya cargado.",
+     "Otras veces la causa es distinta: un latigazo cervical en un accidente, una infección de garganta en un niño, un trastorno neurológico como la distonía o, raramente, un problema en el interior del tórax que se refiere al cuello. Por eso la valoración empieza siempre por descartar esas causas."
+    ],
+    "list_title": "Desencadenantes más habituales:",
+    "list": [
+     "Dormir en una postura forzada o con una almohada inadecuada",
+     "Un movimiento brusco tras horas en la misma postura",
+     "Muchas horas con la cabeza adelantada frente a pantallas",
+     "Estrés y tensión mantenida en los hombros",
+     "Exposición al frío en un cuello sobrecargado",
+     "Esfuerzos o cargas pesadas con los brazos",
+     "Traumatismos, como un latigazo cervical"
+    ]
+   },
+   {
+    "h2": "¿Quién tiene más riesgo?",
+    "paras": [
+     "La tortícolis aguda es más frecuente en adultos jóvenes y de mediana edad, en personas con trabajos sedentarios y en quienes ya han tenido episodios previos. Un cuello con poca movilidad, una espalda alta rígida o una postura de cabeza adelantada predisponen a nuevos bloqueos. Un metaanálisis encontró que los adultos con dolor de cuello tienen la cabeza más adelantada que las personas sin dolor, y que una mayor anteriorización se asocia a más dolor y discapacidad, aunque al tratarse de estudios transversales muestran una asociación y no una causa (Mahmoud et al., Current Reviews in Musculoskeletal Medicine, 2019)."
+    ],
+    "list_title": "Factores que se asocian a un mayor riesgo:",
+    "list": [
+     "Trabajo sedentario y uso prolongado del ordenador y del móvil",
+     "Postura de cabeza adelantada y espalda alta encorvada",
+     "Episodios previos de tortícolis o de dolor de cuello",
+     "Estrés, ansiedad y mal descanso",
+     "Bruxismo y tensión en la mandíbula",
+     "Poca fuerza de la musculatura profunda del cuello",
+     "Deportes con giros bruscos o impactos",
+     "Dolor en varias zonas del cuerpo"
+    ]
+   },
+   {
+    "h2": "¿Cuáles son los síntomas?",
+    "paras": [
+     "El síntoma principal es un **dolor agudo** en un lado del cuello que impide girar o inclinar la cabeza hacia ese lado, o hacia el contrario. La cabeza suele quedar ligeramente inclinada y girada, y cualquier intento de enderezarla provoca una punzada. Los músculos del cuello y del hombro están duros y dolorosos al tacto. El dolor puede extenderse hacia la nuca, el hombro o entre los omóplatos, y a veces se acompaña de dolor de cabeza.",
+     "En la tortícolis aguda benigna no hay fiebre, hormigueo ni pérdida de fuerza en los brazos, y el dolor cambia con el movimiento. Lo habitual es que mejore de forma notable en pocos días y que se resuelva en una o dos semanas."
+    ],
+    "list_title": "Síntomas más habituales:",
+    "list": [
+     "Dolor agudo en un lado del cuello",
+     "Imposibilidad de girar o inclinar la cabeza con normalidad",
+     "Cabeza ligeramente inclinada o girada",
+     "Contractura de los músculos del cuello y del hombro",
+     "Dolor que se extiende a la nuca, al hombro o entre los omóplatos",
+     "Dolor de cabeza asociado"
+    ]
+   },
+   {
+    "h2": "¿Qué tipos de tortícolis existen?",
+    "paras": [
+     "Distinguir el tipo es esencial, porque no todas las tortícolis se valoran ni se tratan igual."
+    ],
+    "list": [
+     "**Tortícolis aguda del adulto:** la más frecuente. Bloqueo brusco y doloroso, a menudo al despertar, que mejora en días.",
+     "**Tortícolis postraumática:** tras un latigazo cervical, una caída o un golpe. Requiere descartar lesiones óseas o ligamentosas antes de cualquier tratamiento manual.",
+     "**Tortícolis muscular congénita:** en el bebé, por acortamiento del esternocleidomastoideo. Se nota en las primeras semanas, a veces con un pequeño bulto en el músculo.",
+     "**Tortícolis postural del lactante:** el bebé prefiere girar la cabeza hacia un lado sin acortamiento muscular, a menudo por la posición en el útero o al dormir.",
+     "**Tortícolis infecciosa o inflamatoria:** en niños, tras una infección de garganta o de oído. Se acompaña de fiebre y exige valoración médica urgente.",
+     "**Distonía cervical o tortícolis espasmódica:** trastorno neurológico con contracciones involuntarias y mantenidas que tuercen la cabeza. La trata el neurólogo.",
+     "**Otras formas:** de origen ocular, vestibular o relacionadas con algunos medicamentos."
+    ]
+   },
+   {
+    "h2": "¿Qué tienen que ver la cabeza adelantada y la espalda alta?",
+    "paras": [
+     "La cabeza de un adulto pesa unos cinco kilos, y la columna cervical está diseñada para sostenerla en equilibrio sobre los hombros, como una pelota de golf sobre su soporte. Cuando la cabeza se adelanta, como ocurre tras horas mirando el móvil o el ordenador, los músculos de la nuca y de la parte alta de la espalda deben trabajar mucho más para sostenerla, y las articulaciones de la base del cuello soportan más carga. Con el tiempo, esa postura se asocia a pérdida de la curva cervical, tensión muscular y menos movilidad, el terreno ideal para que un gesto brusco acabe en un bloqueo.",
+     "Cambiar la postura no consiste en «ponerse recto» de vez en cuando: la postura depende de patrones neuromusculares profundos que se reeducan con ejercicio y con hábitos. Y el cuello depende de la **columna dorsal**, su base. Una revisión sistemática de seis ensayos encontró que la manipulación de la columna dorsal mejoró a corto plazo el dolor, la movilidad y la función en personas con dolor de cuello mecánico agudo o subagudo, aunque la calidad de los estudios era limitada (Cross et al., JOSPT, 2011). Recuperar la movilidad de la espalda alta suele aliviar el cuello. Puede leer más en [cervicalgia y dolor de cuello](cervicalgia-dolor-cuello)."
+    ]
+   },
+   {
+    "h2": "¿Y la tortícolis del bebé?",
+    "paras": [
+     "En los bebés, la tortícolis es una consulta frecuente. En la **tortícolis muscular congénita**, el esternocleidomastoideo de un lado está acortado, y el bebé mantiene la cabeza inclinada hacia ese lado y girada hacia el contrario. En la forma **postural**, el bebé prefiere mirar hacia un lado sin que el músculo esté acortado. Ambas se relacionan con la posición dentro del útero en las últimas semanas del embarazo y, a veces, con un parto difícil, y pueden favorecer el aplanamiento de un lado de la cabeza, la **plagiocefalia**.",
+     "Las guías pediátricas recomiendan **detectarla y tratarla pronto**: los bebés con tortícolis deben ser valorados en cuanto se identifica la asimetría, se debe educar a las familias en la prevención y se dispone de criterios para clasificar su gravedad (Kaplan et al., Pediatric Physical Therapy, 2018). Las medidas de posición, como alternar el lado hacia el que se le habla o se le ofrece el pecho, y el tiempo boca abajo mientras está despierto y vigilado, son sencillas y eficaces.",
+     "La osteopatía tiene un papel en este campo. En un ensayo aleatorizado con valoración ciega mediante vídeo, 32 lactantes de 6 a 12 semanas con asimetría postural recibieron tratamiento osteopático o un tratamiento simulado durante cuatro semanas: mejoraron 13 de los 16 bebés tratados, frente a 5 de los 16 del grupo simulado (Philippi et al., Developmental Medicine & Child Neurology, 2006). Es un estudio pequeño, pero sus resultados son prometedores. Cualquier tortícolis en un bebé con fiebre, irritabilidad, vómitos o que no mejora debe valorarla el pediatra. Más información en [osteopatía para bebés y niños](osteopatia-bebes-ninos)."
+    ]
+   },
+   {
+    "h2": "¿Puede un cuello bloqueado venir del tórax o de una víscera?",
+    "paras": [
+     "Es poco frecuente, pero conviene conocerlo. El cuello tiene una relación anatómica estrecha con el interior del tórax. El **nervio frénico** nace de las raíces cervicales C3, C4 y C5, desciende hasta el diafragma y recoge la sensibilidad de la pleura, del pericardio, de la cápsula del hígado y de la vesícula biliar. Como esas mismas raíces dan la sensibilidad de la piel del cuello y del hombro, la irritación de uno de esos órganos puede **referirse** a la base del cuello y a la parte alta del hombro. El dolor visceral es difuso precisamente porque sus fibras convergen en la médula con las de la piel y los músculos (Gebhart y Bielefeldt, Comprehensive Physiology, 2016), y tiene mecanismos propios, incluida la hipersensibilidad central (Cerveró, Revista Dor, 2014).",
+     "La observación que dio origen al método de Jean-Pierre Barral tiene que ver precisamente con el cuello. Trabajando como fisioterapeuta en el hospital de enfermedades pulmonares de Grenoble, estudió en disecciones los patrones de tensión de los tejidos y observó cambios en la **columna cervical** del lado de una retracción del pulmón. En su modelo, la cúpula de la pleura está unida a la columna cervical baja y a la primera vértebra dorsal por varios ligamentos, y el pericardio, a la columna cervical baja y dorsal alta; una adherencia tras una neumonía, una pleuritis o una cirugía torácica podría crear un eje de tensión que el cuello compensa. Si se tiene en cuenta que respiramos unas 20.000 veces al día, una pequeña restricción se repite miles de veces.",
+     "Barral también trabajó de forma específica los **traumatismos**. En su libro sobre el abordaje osteopático del trauma, escrito con Alain Croibier, presta especial atención al latigazo cervical y sostiene que el lugar del dolor es solo un dato dentro de una historia más amplia, que incluye cómo se produjo el golpe y qué tejidos absorbieron la fuerza. Son ideas de su modelo, con evidencia todavía limitada sobre la manipulación visceral; la fisiología del dolor referido, en cambio, está bien establecida. En la práctica, si una tortícolis no se comporta como un problema mecánico o se repite sin explicación, la anamnesis pregunta por síntomas respiratorios, cardiacos y digestivos y por cirugías y cicatrices. Más información en [osteopatía visceral](osteopatia-visceral-barcelona)."
+    ]
+   },
+   {
+    "h2": "¿Es mala la inflamación de los primeros días?",
+    "paras": [
+     "Solemos pensar en la inflamación como algo que hay que apagar cuanto antes. Sin embargo, la **inflamación aguda** forma parte del proceso normal de reparación de los tejidos: atrae células de defensa, limpia y prepara la recuperación. Un estudio de la Universidad McGill publicado en Science Translational Medicine siguió durante tres meses a 98 personas con dolor de espalda agudo y observó que quienes se recuperaban tenían una respuesta inflamatoria intensa y transitoria, dirigida por los **neutrófilos**, que luego se resolvía; en quienes desarrollaron dolor persistente no se observaron esos cambios. En ratones, tratar el dolor muy pronto con un corticoide o un antiinflamatorio lo alivió a corto plazo pero lo prolongó, y en los datos del UK Biobank, quienes tomaban antiinflamatorios tuvieron un mayor riesgo de que el dolor persistiera (Parisien et al., Science Translational Medicine, 2022).",
+     "Estos resultados se refieren a la espalda y hay que leerlos con **prudencia**: la parte humana muestra una asociación, no una causa, y la parte que demuestra el efecto se hizo en animales. No es una razón para dejar ningún medicamento: la medicación la decide su médico, que conoce su caso. Pero sí transmite un mensaje útil para una tortícolis: el dolor tiene una función protectora, la inflamación de los primeros días forma parte de la recuperación, y el **movimiento suave**, el calor y la terapia manual ayudan a que el proceso siga su curso natural."
+    ]
+   },
+   {
+    "h2": "¿Qué pasa si el cuello se bloquea una y otra vez?",
+    "paras": [
+     "Una tortícolis aislada suele ser un episodio sin consecuencias. Cuando se repite, el problema ya no es el bloqueo en sí, sino lo que lo favorece, y el dolor de cuello puede hacerse **crónico**. En el dolor que dura más de tres meses, el sistema nervioso aprende el dolor: las neuronas de la médula y del cerebro se vuelven más sensibles y amplifican las señales que llegan del cuello. Es la **sensibilización central**, y explica por qué un cuello que se ha bloqueado varias veces se vuelve cada vez más reactivo.",
+     "La neurociencia ha mostrado que el dolor crónico se acompaña de **cambios en el cerebro**. Con espectroscopia por resonancia magnética, que mide sustancias químicas cerebrales (neurometabolitos), se han descrito alteraciones en las áreas que procesan el dolor. Un ensayo aleatorizado con grupo de simulación, en personas con lumbalgia crónica, observó que tras tres sesiones de manipulación aumentaban marcadores de la salud neuronal en el tálamo, la ínsula y la corteza, junto con menos dolor y discapacidad (Didehdar et al., Irish Journal of Medical Science, 2020). La **teoría de la compuerta** de Melzack y Wall ya explicó en 1965 que las señales de movimiento, presión y tacto pueden modular en la médula el paso de las señales de dolor (Melzack y Wall, Science, 1965), y los modelos actuales describen efectos de la terapia manual en los nervios periféricos, la médula y el cerebro (Bialosky et al., Manual Therapy, 2009).",
+     "En el dolor de cuello crónico, una revisión sistemática de 47 ensayos con 4.460 pacientes encontró que la manipulación y la movilización reducen el dolor y mejoran la función frente a otras intervenciones, con evidencia de calidad baja a moderada; los enfoques que combinan varias técnicas parecen eficaces, y ninguno de los estudios que registraron efectos adversos describió efectos graves (Coulter et al., Pain Physician, 2019). Puede leer más en [dolor persistente y crónico](dolor-persistente-cronico)."
+    ]
+   },
+   {
+    "h2": "¿Cuándo debo consultar con mi médico?",
+    "paras": [
+     "La mayoría de las tortícolis son benignas, pero un cuello rígido puede ser también el síntoma de un problema serio. Acuda a urgencias o consulte con su médico sin demora si presenta:"
+    ],
+    "list": [
+     "Fiebre con rigidez de nuca, dolor de cabeza intenso o malestar general",
+     "Dolor de cabeza súbito y muy intenso, el peor de su vida",
+     "Dolor de cuello tras una caída, un accidente de tráfico o un golpe en la cabeza",
+     "Hormigueo, pérdida de fuerza o de sensibilidad en los brazos o las piernas, o torpeza al caminar",
+     "Mareo intenso, visión doble, dificultad para hablar o para tragar",
+     "Movimientos involuntarios de la cabeza que se repiten o se mantienen",
+     "En niños, tortícolis con fiebre, dolor de garganta o dificultad para tragar",
+     "En bebés, tortícolis con irritabilidad, vómitos, rechazo del alimento o que no mejora",
+     "Antecedentes de cáncer, pérdida de peso o un dolor que no mejora en una o dos semanas"
+    ]
+   },
+   {
+    "h2": "¿Cómo se diagnostica? La anamnesis",
+    "paras": [
+     "La historia clínica permite distinguir una tortícolis aguda benigna de otras causas. Se pregunta cómo empezó el dolor, si apareció al despertar, tras un gesto o tras un golpe, hacia dónde no puede girar la cabeza, si hay fiebre, dolor de cabeza, mareo o síntomas en los brazos, y si es el primer episodio o se repite.",
+     "Se recogen también los factores que pueden favorecerlo: el trabajo y las horas de pantalla, la postura al dormir y la almohada, el estrés, el bruxismo, los episodios anteriores de dolor de cuello o de espalda alta, los traumatismos antiguos, las cirugías del tórax o del abdomen y las enfermedades respiratorias o digestivas. En los bebés, la historia del embarazo y del parto y la postura habitual del bebé son fundamentales."
+    ]
+   },
+   {
+    "h2": "¿Qué aporta la exploración y la palpación?",
+    "paras": [
+     "La exploración observa la posición de la cabeza y de los hombros, mide qué movimientos están limitados y cuáles son dolorosos, y comprueba la fuerza, la sensibilidad y los reflejos de los brazos para descartar una afectación nerviosa. Se valoran también la columna dorsal, las primeras costillas, la articulación de la mandíbula y los hombros, que con frecuencia participan en el bloqueo.",
+     "La palpación es el centro de la exploración osteopática. Jean-Pierre Barral la llama **escucha manual**: una palpación que busca diferencias de tensión, densidad, movilidad y temperatura en los tejidos. La escucha general orienta hacia la región que más llama la atención en el conjunto del cuerpo, que en una tortícolis puede ser el propio cuello, pero también la espalda alta, las costillas, el diafragma o una cicatriz antigua; la escucha local precisa la estructura implicada, sea una articulación facetaria, un músculo, la fascia o un nervio. En su modelo, la técnica depende del tejido identificado y se evita forzarlo.",
+     "En una tortícolis aguda sin traumatismo ni señales de alarma no se necesitan pruebas de imagen. Se solicitan radiografías, resonancia o análisis cuando hay un traumatismo, fiebre, síntomas neurológicos o un dolor que no evoluciona como se espera."
+    ]
+   },
+   {
+    "h2": "¿Cómo se trata la tortícolis?",
+    "paras": [
+     "La tortícolis aguda benigna tiene buen pronóstico y su tratamiento es **conservador**. La recomendación principal es **mantenerse activo** y mover el cuello suavemente dentro de lo que el dolor permite, sin forzar. Inmovilizarlo con un collarín o quedarse en la cama prolonga la rigidez. El calor local relaja la musculatura y suele aliviar. Los fármacos que su médico pueda indicar alivian el dolor de los primeros días; además, conviene buscar lo que ha favorecido el bloqueo.",
+     "La terapia manual puede aliviar el dolor y devolver el movimiento con rapidez. En la fase aguda se utilizan técnicas suaves sobre el cuello, los hombros, la columna dorsal y las costillas, sin forzar el lado bloqueado. La manipulación de la columna dorsal ha mostrado mejorar a corto plazo el dolor, la movilidad y la función en el dolor de cuello agudo y subagudo (Cross et al., 2011), y en el dolor crónico de cuello la manipulación y la movilización reducen el dolor y mejoran la función (Coulter et al., 2019). La técnica no se decide de antemano: se elige tras la anamnesis y la exploración, según el tejido implicado, la fase y la persona.",
+     "Una vez resuelto el episodio, el objetivo es que no se repita: recuperar la movilidad completa, fortalecer la musculatura profunda del cuello y de la espalda alta, revisar la postura de trabajo y de descanso y atender el estrés y el sueño. En los bebés, el tratamiento combina las medidas de posición, los estiramientos suaves que enseña el profesional a la familia y, cuando procede, la terapia manual."
+    ]
+   },
+   {
+    "h2": "¿Qué puedo hacer para prevenirlo?",
+    "paras": [
+     "El bloqueo es la última señal de un cuello que llevaba tiempo sobrecargado. Antes de una tortícolis suele haber avisos: rigidez al despertar, tensión en los hombros al final del día, un crujido nuevo al girar la cabeza o dolores de cabeza más frecuentes. Escuchar esas **señales tempranas** y hacer pequeños ajustes en la rutina diaria, en la forma de sentarse, de dormir, de moverse y de gestionar el estrés, es la mejor prevención. Como el cepillado de los dientes, es un hábito, no un tratamiento puntual.",
+     "El ejercicio es la medida con mejor respaldo. Una revisión sistemática encontró evidencia de calidad moderada de que los programas de ejercicio reducen el riesgo de un nuevo episodio de dolor de cuello, con una probabilidad unas tres veces menor, mientras que los programas solo ergonómicos no lo reducían (de Campos et al., Journal of Physiotherapy, 2018). Fortalecer la musculatura profunda del cuello y de la espalda alta y mantener la movilidad de la columna dorsal son la base.",
+     "Los hábitos también influyen. Una almohada que mantenga el cuello alineado con la columna, evitar dormir boca abajo con la cabeza girada, colocar la pantalla a la altura de los ojos, hacer pausas frecuentes, no sostener el móvil entre la oreja y el hombro y abrigarse el cuello en los días fríos reducen la sobrecarga. Y el estrés y el mal descanso, que mantienen los hombros elevados y tensos, merecen la misma atención que la postura."
+    ],
+    "list_title": "Ejercicios útiles para el cuello y la espalda alta (sin dolor):",
+    "list": [
+     "Retracción del mentón: deslice la cabeza hacia atrás, como haciendo papada, y mantenga 5 segundos",
+     "Giros e inclinaciones lentas de la cabeza hasta donde no duela",
+     "Encogimientos y círculos de hombros hacia atrás",
+     "Remo con banda elástica, juntando los omóplatos sin elevar los hombros",
+     "Apertura del pecho y extensión de la espalda alta sobre un rodillo o el respaldo de la silla",
+     "Respiración diafragmática lenta para relajar los hombros"
+    ]
+   },
+   {
+    "h2": "¿Qué puedo hacer en el día a día?",
+    "paras": [],
+    "list": [
+     "Durante una tortícolis, mueva el cuello suavemente y aplique calor local; evite el collarín y la cama.",
+     "Use una almohada que mantenga el cuello alineado y evite dormir boca abajo.",
+     "Coloque la pantalla a la altura de los ojos y levante el móvil en lugar de bajar la cabeza.",
+     "Haga pausas cada 30–45 minutos para mover el cuello y los hombros.",
+     "No sujete el teléfono entre la oreja y el hombro.",
+     "Abríguese el cuello en los días fríos y evite las corrientes de aire directas.",
+     "Dedique tiempo a gestionar el estrés y a dormir bien.",
+     "Incorpore ejercicios de fuerza para el cuello y la espalda alta dos o tres veces por semana."
+    ]
+   }
+  ],
+  "evidence": {
+   "h2": "¿Qué dice la evidencia?",
+   "items": [
+    [
+     "Frecuencia (Lancet Rheumatol)",
+     "En 2020, 203 millones de personas en el mundo tenían dolor de cuello, más las mujeres que los hombres (Wu et al., 2024)."
+    ],
+    [
+     "Evolución natural (Pain)",
+     "En un estudio poblacional, el dolor de cuello agudo bajó rápidamente durante el primer mes y solo 1 de cada 5 personas buscó ayuda sanitaria (Vasseljen et al., 2013)."
+    ],
+    [
+     "Mecanismo (Br J Rheumatol)",
+     "En 210 articulaciones cervicales se hallaron meniscoides fibroadiposos cuyo atrapamiento podría explicar la tortícolis (Mercer y Bogduk, 1993)."
+    ],
+    [
+     "Recién nacidos (Arch Dis Child)",
+     "El 16 % de 102 recién nacidos sanos tenía tortícolis, asociada a una posición fija en el útero (Stellwagen et al., 2008)."
+    ],
+    [
+     "Osteopatía en lactantes (Dev Med Child Neurol)",
+     "Mejoraron 13 de 16 lactantes con asimetría postural tratados con osteopatía frente a 5 de 16 con tratamiento simulado (Philippi et al., 2006)."
+    ],
+    [
+     "Columna dorsal (JOSPT)",
+     "En 6 ensayos, la manipulación dorsal mejoró a corto plazo el dolor, la movilidad y la función en el dolor de cuello agudo y subagudo (Cross et al., 2011)."
+    ],
+    [
+     "Dolor de cuello crónico (Pain Physician)",
+     "En 47 ensayos con 4.460 pacientes, la manipulación y la movilización redujeron el dolor y mejoraron la función, sin efectos adversos graves registrados (Coulter et al., 2019)."
+    ],
+    [
+     "Prevención (J Physiother)",
+     "Los programas de ejercicio redujeron el riesgo de un nuevo episodio de dolor de cuello (OR 0,32) (de Campos et al., 2018)."
+    ],
+    [
+     "Inflamación aguda (Sci Transl Med)",
+     "En 98 personas con dolor de espalda agudo, una respuesta inflamatoria transitoria se asoció a la recuperación (Parisien et al., 2022)."
+    ],
+    [
+     "Dolor visceral (Compr Physiol)",
+     "La inervación visceral converge con la somática, por lo que el dolor de los órganos se refiere a estructuras como el cuello y el hombro (Gebhart y Bielefeldt, 2016)."
+    ]
+   ],
+   "refs": [
+    {
+     "t": "Wu AM, Cross M, Elliott JM, Culbreth GT, Haile LM, Steinmetz JD, et al. (GBD 2021 Neck Pain Collaborators), 2024. «Global, regional, and national burden of neck pain, 1990–2020, and projections to 2050: a systematic analysis of the Global Burden of Disease Study 2021». The Lancet Rheumatology.",
+     "doi": "10.1016/S2665-9913(23)00321-1"
+    },
+    {
+     "t": "Vasseljen O, Woodhouse A, Bjørngaard JH, Leivseth L, 2013. «Natural course of acute neck and low back pain in the general population: the HUNT study». Pain.",
+     "doi": "10.1016/j.pain.2013.03.032"
+    },
+    {
+     "t": "Mercer S, Bogduk N, 1993. «Intra-articular inclusions of the cervical synovial joints». British Journal of Rheumatology.",
+     "doi": "10.1093/rheumatology/32.8.705"
+    },
+    {
+     "t": "Stellwagen L, Hubbard E, Chambers C, Jones KL, 2008. «Torticollis, facial asymmetry and plagiocephaly in normal newborns». Archives of Disease in Childhood.",
+     "doi": "10.1136/adc.2007.124123"
+    },
+    {
+     "t": "Steeves TD, Day L, Dykeman J, Jette N, Pringsheim T, 2012. «The prevalence of primary dystonia: a systematic review and meta-analysis». Movement Disorders.",
+     "doi": "10.1002/mds.25244"
+    },
+    {
+     "t": "Kaplan SL, Coulter C, Sargent B, 2018. «Physical therapy management of congenital muscular torticollis: a 2018 evidence-based clinical practice guideline from the APTA Academy of Pediatric Physical Therapy». Pediatric Physical Therapy.",
+     "doi": "10.1097/PEP.0000000000000544"
+    },
+    {
+     "t": "Philippi H, Faldum A, Schleupen A, Pabst B, Jung T, Bergmann H, et al., 2006. «Infantile postural asymmetry and osteopathic treatment: a randomized therapeutic trial». Developmental Medicine & Child Neurology.",
+     "doi": "10.1017/S001216220600003X"
+    },
+    {
+     "t": "Mahmoud NF, Hassan KA, Abdelmajeed SF, Moustafa IM, Silva AG, 2019. «The relationship between forward head posture and neck pain: a systematic review and meta-analysis». Current Reviews in Musculoskeletal Medicine.",
+     "doi": "10.1007/s12178-019-09594-y"
+    },
+    {
+     "t": "Cross KM, Kuenze C, Grindstaff TL, Hertel J, 2011. «Thoracic spine thrust manipulation improves pain, range of motion, and self-reported function in patients with mechanical neck pain: a systematic review». Journal of Orthopaedic & Sports Physical Therapy.",
+     "doi": "10.2519/jospt.2011.3670"
+    },
+    {
+     "t": "Coulter ID, Crawford C, Vernon H, Hurwitz EL, Khorsan R, Suttorp Booth M, Herman PM, 2019. «Manipulation and mobilization for treating chronic nonspecific neck pain: a systematic review and meta-analysis for an appropriateness panel». Pain Physician.",
+     "doi": "10.36076/ppj/2019.22.e55"
+    },
+    {
+     "t": "de Campos TF, Maher CG, Steffens D, Fuller JT, Hancock MJ, 2018. «Exercise programs may be effective in preventing a new episode of neck pain: a systematic review and meta-analysis». Journal of Physiotherapy.",
+     "doi": "10.1016/j.jphys.2018.05.003"
+    },
+    {
+     "t": "Parisien M, Lima LV, Dagostino C, et al., 2022. «Acute inflammatory response via neutrophil activation protects against the development of chronic pain». Science Translational Medicine.",
+     "doi": "10.1126/scitranslmed.abj9954"
+    },
+    {
+     "t": "Gebhart GF, Bielefeldt K, 2016. «Physiology of visceral pain». Comprehensive Physiology.",
+     "doi": "10.1002/cphy.c150049"
+    },
+    {
+     "t": "Cerveró F, 2014. «Pathophysiology of visceral pain». Revista Dor.",
+     "doi": "10.5935/1806-0013.20140032"
+    },
+    {
+     "t": "Didehdar D, Kamali F, Kordi Yoosefinejad A, Lotfi M, 2020. «The effect of spinal manipulation on brain neurometabolites in chronic nonspecific low back pain patients: a randomized clinical trial». Irish Journal of Medical Science.",
+     "doi": "10.1007/s11845-019-02140-2"
+    },
+    {
+     "t": "Melzack R, Wall PD, 1965. «Pain mechanisms: a new theory». Science.",
+     "doi": "10.1126/science.150.3699.971"
+    },
+    {
+     "t": "Bialosky JE, Bishop MD, Price DD, Robinson ME, George SZ, 2009. «The mechanisms of manual therapy in the treatment of musculoskeletal pain: a comprehensive model». Manual Therapy.",
+     "doi": "10.1016/j.math.2008.09.001"
+    }
+   ]
+  },
+  "faq": [
+   [
+    "¿Cuánto dura una tortícolis?",
+    "La mayoría mejora de forma notable en pocos días y se resuelve en una o dos semanas. Si no mejora en ese plazo, se repite con frecuencia o se acompaña de otros síntomas, conviene valorarla."
+   ],
+   [
+    "¿Es mejor frío o calor?",
+    "En la tortícolis aguda sin golpe previo, el calor local suele aliviar porque relaja la musculatura contraída. Tras un traumatismo reciente, consulte primero."
+   ],
+   [
+    "¿Debo usar un collarín?",
+    "No es recomendable en la tortícolis aguda benigna. Inmovilizar el cuello prolonga la rigidez; es mejor moverlo suavemente dentro de lo que el dolor permite."
+   ],
+   [
+    "¿Por qué me levanto con el cuello bloqueado?",
+    "Suele deberse a una postura forzada durante el sueño en un cuello que ya estaba sobrecargado por la postura, el estrés o la falta de movimiento. Revisar la almohada y la postura de dormir ayuda a prevenirlo."
+   ],
+   [
+    "¿El estrés puede provocar tortícolis?",
+    "Sí. El estrés mantiene los hombros elevados y la musculatura del cuello en tensión, y altera el sueño. Puede consultar también la página de [estrés y ansiedad](estres-ansiedad)."
+   ],
+   [
+    "Mi bebé siempre gira la cabeza hacia el mismo lado, ¿es tortícolis?",
+    "Puede ser una tortícolis postural o muscular congénita, frecuentes en las primeras semanas. Conviene que la valore el pediatra y tratarla pronto, porque puede favorecer el aplanamiento de la cabeza."
+   ],
+   [
+    "¿Cuándo es urgente un cuello rígido?",
+    "Si se acompaña de fiebre, dolor de cabeza intenso, síntomas en los brazos o las piernas, mareo intenso, dificultad para hablar o tragar, o aparece tras un golpe, acuda a urgencias."
+   ],
+   [
+    "¿Cuántas sesiones necesitaré?",
+    "En una tortícolis aguda suelen bastar pocas sesiones. Si los episodios se repiten, se propone un plan para tratar lo que los favorece, con ejercicios para casa y revisiones que se van espaciando."
+   ]
+  ],
+  "related": [
+   "cervicalgia-dolor-cuello",
+   "contracturas-desgarros-musculares",
+   "estres-ansiedad",
+   "osteopatia-sarria-sant-gervasi"
+  ],
+  "cta_h2": "Recupere el movimiento de su cuello",
+  "seo": {
+   "kw": "tortícolis Barcelona",
+   "kws": [
+    "cuello bloqueado tratamiento",
+    "tortícolis al despertar",
+    "dolor agudo de cuello",
+    "osteopatía tortícolis Barcelona",
+    "contractura cervical Sarrià"
+   ],
+   "ca_kw": "torticoli Barcelona",
+   "quick": "La tortícolis es un bloqueo doloroso del cuello que impide girar o inclinar la cabeza, con una contracción defensiva de los músculos cervicales. La forma más frecuente, la tortícolis aguda del adulto, suele aparecer al despertar o tras un gesto brusco y mejora en pocos días; también existen formas en el bebé, tras un traumatismo o de origen neurológico. En Sarrià–Sant Gervasi (Barcelona) se valora con una anamnesis detallada y una exploración palpatoria del cuello, la espalda alta y las costillas.",
+   "entity": [
+    "MedicalCondition",
+    "Tortícolis"
+   ]
+  },
+  "research": [
+   "Personas con el cuello bloqueado de forma aguda o con episodios repetidos, y familias de bebés con asimetría del cuello, que buscan entender la causa y un alivio cerca de casa.",
+   [
+    "tortícolis tratamiento Barcelona",
+    "me he levantado con el cuello bloqueado",
+    "osteópata tortícolis",
+    "tortícolis bebé"
+   ],
+   [
+    "torticoli tractament Barcelona",
+    "coll encarcarat"
+   ],
+   "Clínicas de fisioterapia y osteopatía con páginas breves y genéricas."
+  ],
+  "ca": {}
+ },
+ {
+  "slug": "esguinces",
+  "ca_slug": "esquincos",
+  "nav": "Esguinces",
+  "card": "Esguinces de tobillo, rodilla y muñeca: qué son, grados, por qué se repiten, propiocepción y recuperación activa.",
+  "title": "Recuperación de esguinces en Barcelona | WA LAM",
+  "desc": "Qué es un esguince, la anatomía de los ligamentos, grados, esguince de tobillo, rodilla y muñeca, por qué se repite (inestabilidad crónica y propiocepción), señales de alarma y recuperación activa en Sarrià–Sant Gervasi, Barcelona.",
+  "h1": "Esguinces en Barcelona: recuperación y prevención de recaídas",
+  "sub": "Tobillo, rodilla y muñeca · Sarrià–Sant Gervasi",
+  "lead": "Un esguince es una lesión de los ligamentos que estabilizan una articulación, con mayor frecuencia el tobillo. Se suele considerar una lesión menor, pero hasta cuatro de cada diez personas que sufren un primer esguince de tobillo desarrollan una inestabilidad que se repite. Una recuperación activa, que devuelva la movilidad, la fuerza y la propiocepción, marca la diferencia.",
+  "facts_title": "En WA LAM",
+  "facts": [
+   "Tobillo, rodilla y muñeca",
+   "Propiocepción, fuerza y vuelta progresiva a la actividad",
+   "Anamnesis y exploración palpatoria",
+   "Primera visita: 60 min · 90 €"
+  ],
+  "wa": "Hola, me gustaría información sobre la recuperación de un esguince.",
+  "mirror": {
+   "h2": "¿Se reconoce en estos síntomas?",
+   "qs": [
+    "¿Se ha torcido el tobillo más de una vez y nota que «se le va» en terrenos irregulares?",
+    "¿Hace meses de su esguince y todavía tiene el tobillo hinchado, rígido o dolorido al final del día?",
+    "¿Le da miedo saltar, correr o bajar escaleras deprisa desde que se lesionó?",
+    "¿Ha notado que, desde el esguince, le duele la rodilla, la cadera o la espalda del mismo lado?"
+   ],
+   "close": "Si tras la torcedura no puede apoyar el pie o le duele un hueso al presionarlo, lea primero las señales de alarma de más abajo."
+  },
+  "explain": {
+   "h2": "¿Qué es un esguince?",
+   "paras": [
+    "Un esguince es una **lesión de uno o varios ligamentos** producida cuando una articulación se fuerza más allá de su recorrido normal, por ejemplo al torcerse el pie hacia dentro o al girar la rodilla con el pie apoyado. El ligamento se estira en exceso y sus fibras pueden romperse de forma parcial o completa. Es una de las lesiones musculoesqueléticas más frecuentes, tanto en el deporte como en la vida diaria.",
+    "**Anatomía.** Los ligamentos son bandas de tejido conectivo, ricas en colágeno, que unen un hueso con otro y limitan los movimientos excesivos de la articulación. Pero no son simples cuerdas: contienen **mecanorreceptores**, pequeños sensores que informan continuamente al sistema nervioso central de la posición, la velocidad y la tensión de la articulación. Esa información, la **propiocepción**, permite que los músculos reaccionen en milésimas de segundo para proteger la articulación. Por eso un esguince no solo daña una estructura mecánica, sino también un **órgano sensorial**.",
+    "En el **tobillo**, el esguince más habitual afecta a los ligamentos externos: el peroneoastragalino anterior, el más frecuentemente lesionado, el peroneocalcáneo y, en las lesiones graves, el peroneoastragalino posterior. Con menos frecuencia se lesionan el ligamento deltoideo, en la cara interna, o los ligamentos que unen la tibia y el peroné por encima del tobillo (esguince «alto» o de la sindesmosis). En la **rodilla**, se lesionan sobre todo el ligamento lateral interno y los cruzados; en la **muñeca**, los ligamentos entre los huesos del carpo, tras una caída sobre la mano.",
+    "**Clasificación.** Según la gravedad, el esguince se clasifica en **grado I**, con distensión del ligamento sin rotura macroscópica, dolor leve e hinchazón escasa; **grado II**, con rotura parcial, dolor e hinchazón moderados, hematoma y cierta pérdida de función; y **grado III**, con rotura completa, hinchazón importante, gran dificultad para apoyar e inestabilidad de la articulación. Según el tiempo, se distingue el esguince **agudo** de la **inestabilidad crónica**, cuando la articulación sigue fallando más de un año después."
+   ]
+  },
+  "sections": [
+   {
+    "h2": "¿Es frecuente el esguince de tobillo?",
+    "paras": [
+     "Es la lesión más frecuente en las personas físicamente activas y también es muy común en la población general (Gribble et al., British Journal of Sports Medicine, 2016). En Estados Unidos se estimaron más de tres millones de esguinces de tobillo atendidos en urgencias en cinco años, con una incidencia de **2,15 por cada 1.000 personas y año**. El pico se produjo entre los 15 y los 19 años, y casi la mitad de los esguinces ocurrió practicando deporte, sobre todo baloncesto, fútbol americano y fútbol (Waterman et al., Journal of Bone and Joint Surgery, 2010).",
+     "Un metaanálisis de estudios prospectivos encontró una incidencia mayor en las **mujeres** que en los hombres, de 13,6 frente a 6,94 por cada 1.000 exposiciones, y señaló los deportes de pista cubierta y de raqueta como los de mayor riesgo (Doherty et al., Sports Medicine, 2014). Muchos esguinces, además, no llegan nunca a consultarse, por lo que las cifras reales son mayores."
+    ]
+   },
+   {
+    "h2": "¿Por qué se produce un esguince?",
+    "paras": [
+     "El mecanismo más habitual en el tobillo es la **inversión**: el pie se tuerce hacia dentro y hacia abajo al pisar mal, al caer de un salto sobre el pie de otro jugador o al bajar un bordillo. En la rodilla, el esguince se produce al girar el cuerpo con el pie fijo en el suelo o por un golpe lateral; en la muñeca, al caer sobre la mano extendida.",
+     "Más allá del accidente concreto, hay circunstancias que hacen más probable que el pie o la rodilla no reaccionen a tiempo: la **fatiga** al final de un partido o de una caminata, un terreno irregular, un calzado inestable o con tacón, y, sobre todo, una articulación que ya se lesionó y no se rehabilitó del todo. En esa articulación la propiocepción está alterada, los músculos reaccionan más tarde y el siguiente esguince llega con más facilidad."
+    ],
+    "list_title": "Situaciones más habituales:",
+    "list": [
+     "Pisar mal en un terreno irregular, un bordillo o un escalón",
+     "Caer de un salto, sobre todo sobre el pie de otra persona",
+     "Cambios bruscos de dirección en deportes de equipo o de raqueta",
+     "Fatiga muscular al final de la actividad",
+     "Calzado inestable, con tacón o muy gastado",
+     "Caídas sobre la mano extendida (muñeca)",
+     "Giros de la rodilla con el pie apoyado"
+    ]
+   },
+   {
+    "h2": "¿Quién tiene más riesgo?",
+    "paras": [
+     "El factor de riesgo más importante para sufrir un esguince de tobillo es **haber tenido uno antes**. Las tasas de recaída son altas, y una proporción importante de personas desarrolla inestabilidad crónica (Gribble et al., 2016). Los deportes con saltos y cambios de dirección, como el baloncesto, el voleibol, el fútbol o el pádel, multiplican la exposición, y las mujeres tienen una incidencia mayor (Doherty et al., 2014).",
+     "La buena noticia es que buena parte del riesgo es modificable. El equilibrio, la fuerza de la pierna y de la cadera, la movilidad del tobillo y una recuperación completa del esguince anterior son factores sobre los que se puede trabajar."
+    ],
+    "list_title": "Factores que se asocian a un mayor riesgo:",
+    "list": [
+     "Esguinces previos, sobre todo si no se completó la rehabilitación",
+     "Deportes de salto, pista cubierta o raqueta",
+     "Mal equilibrio y propiocepción alterada",
+     "Poca fuerza en la pierna y en la musculatura de la cadera",
+     "Movilidad reducida del tobillo",
+     "Fatiga y entrenamiento sin calentamiento",
+     "Uso frecuente de tacones o calzado inestable",
+     "Hiperlaxitud articular"
+    ]
+   },
+   {
+    "h2": "¿Cuáles son los síntomas?",
+    "paras": [
+     "Tras la torcedura aparece **dolor** en la zona del ligamento lesionado, en el tobillo casi siempre por delante y por debajo del maléolo externo, y una **hinchazón** que puede ser rápida. A las horas o al día siguiente suele aparecer un **hematoma** que baja hacia el pie por efecto de la gravedad. Según el grado, cuesta más o menos apoyar y caminar. A veces se oye o se siente un chasquido en el momento de la lesión.",
+     "Pasada la fase aguda, los síntomas que deben hacer pensar en una recuperación incompleta son la sensación de que el tobillo **«se va»** o falla, las torceduras repetidas, la hinchazón persistente al final del día, la rigidez, la debilidad y el dolor en terrenos irregulares."
+    ],
+    "list_title": "Síntomas más habituales:",
+    "list": [
+     "Dolor sobre el ligamento lesionado",
+     "Hinchazón, a veces inmediata",
+     "Hematoma que aparece a las horas o al día siguiente",
+     "Dificultad para apoyar o caminar",
+     "Rigidez y pérdida de movimiento",
+     "Sensación de inestabilidad o de que la articulación «falla»"
+    ]
+   },
+   {
+    "h2": "¿Por qué un esguince «mal curado» vuelve a repetirse?",
+    "paras": [
+     "Es la gran pregunta de los esguinces. Se calcula que hasta un **40 %** de las personas que sufren un primer esguince lateral de tobillo desarrollan una **inestabilidad crónica**: más de un año después siguen con torceduras repetidas, episodios en los que el tobillo falla y síntomas persistentes como dolor, hinchazón, rigidez, debilidad y peor función (Hertel y Corbett, Journal of Athletic Training, 2019). La inestabilidad crónica se asocia además a menos actividad física, peor calidad de vida y más riesgo de **artrosis** postraumática del tobillo (Gribble et al., 2016).",
+     "La razón no es solo un ligamento laxo. Cuando un ligamento se lesiona, se dañan también sus **mecanorreceptores**, y la información que llega al sistema nervioso central sobre la posición del tobillo se vuelve pobre o confusa. El cerebro se adapta a esa nueva información: una revisión sobre las lesiones ligamentosas resume los cambios observados en la función somatosensorial y en la excitabilidad del sistema motor, y los considera posibles responsables de los déficits funcionales que persisten tras la lesión (Needle et al., Sports Medicine, 2017). Dicho de otra forma, el esguince deja una huella en el **control central del equilibrio**, no solo en el tobillo.",
+     "Los primeros meses son decisivos. En una cohorte de 82 personas seguidas durante un año tras su primer esguince de tobillo, no ser capaz de realizar tareas de salto y aterrizaje a las dos semanas, y tener peor equilibrio dinámico y peor función a los seis meses, predijo quién acabaría con inestabilidad crónica (Doherty et al., American Journal of Sports Medicine, 2016). Por eso la recuperación no termina cuando deja de doler: termina cuando el tobillo vuelve a ser **estable, fuerte y fiable** en las actividades que la persona necesita.",
+     "Estos mismos principios valen para la rodilla. El sistema nervioso central coordina la postura y el equilibrio gracias a los mecanorreceptores de los ligamentos y los tendones, que se adaptan a los hábitos y a las lesiones. Por eso los **ejercicios de refuerzo y de estabilización** son imprescindibles tras cualquier esguince, sea cual sea la articulación."
+    ]
+   },
+   {
+    "h2": "¿Y si el dolor que queda viene de la columna?",
+    "paras": [
+     "Cuando un tobillo o una rodilla siguen doliendo meses después de un esguince, lo lógico es pensar en la propia articulación. Pero no siempre es así. El tobillo, el pie y la rodilla reciben sus nervios de la **columna lumbar**: las raíces L4, L5 y S1 dan la sensibilidad y la fuerza de la pierna y del pie. Una irritación de esas raíces puede sentirse como un dolor en el tobillo, en el pie o en la rodilla, y confundirse con las secuelas de la lesión.",
+     "En 2020 se publicó el estudio **EXPOSS** (*Extremity Pain of Spinal Source*) en el *Journal of Manual & Manipulative Therapy*. Incluyó a **369 pacientes** de centros de rehabilitación de varios países con dolor **aislado** en un brazo o una pierna que estaban convencidos de que su dolor no tenía nada que ver con la espalda. Tras una valoración mecánica estandarizada, el **43,5 %** tenía en realidad un **origen vertebral**: su dolor respondía al tratamiento de la columna, y esos pacientes evolucionaron mejor que los que tenían un problema puramente local tratado en la extremidad (Rosedale et al., 2020).",
+     "Por regiones, el origen vertebral se encontró en el **29,2 %** de los dolores de tobillo y pie, es decir, casi uno de cada tres; en el **25,6 %** de los de rodilla, uno de cada cuatro; y en el 71 % de los de cadera. Son cifras que obligan a explorar siempre la espalda cuando un dolor de la pierna no evoluciona como se espera.",
+     "Hay además una relación mecánica en las dos direcciones. Tras un esguince, cojear durante semanas o apoyar menos un pie cambia el reparto de cargas en la rodilla, la cadera, la pelvis y la zona lumbar, y puede despertar dolores en esas regiones. Y una cadera con poca fuerza, que deja caer la pelvis al apoyar, o una pelvis bloqueada, cambian a su vez la forma de pisar y la estabilidad del tobillo. Por eso la valoración osteopática de un esguince incluye toda la extremidad, la pelvis y la columna lumbar. Puede ampliar información en [lumbalgia](lumbalgia-dolor-lumbar) y [dolor de rodilla](dolor-rodilla-condromalacia)."
+    ],
+    "list_title": "Pistas de que el dolor de tobillo o rodilla puede tener un origen lumbar:",
+    "list": [
+     "El dolor no se corresponde con la zona del ligamento lesionado",
+     "Hormigueo, adormecimiento o quemazón en el pie o la pierna",
+     "El dolor cambia al estar mucho rato sentado, al agacharse o al mover la espalda",
+     "Molestias lumbares o en la nalga del mismo lado",
+     "El tobillo o la rodilla no mejoran con el tratamiento local"
+    ]
+   },
+   {
+    "h2": "¿Hay que apagar la inflamación cuanto antes?",
+    "paras": [
+     "Durante años, el tratamiento de un esguince se resumía en reposo, hielo, compresión y elevación, y en apagar la inflamación lo antes posible. Hoy sabemos que la **inflamación aguda** forma parte del proceso normal de reparación: atrae células de defensa, limpia los restos de la lesión y pone en marcha la cicatrización del ligamento.",
+     "Un estudio de la Universidad McGill publicado en Science Translational Medicine aportó datos interesantes sobre el paso del dolor agudo al crónico. En 98 personas con dolor de espalda agudo, quienes se recuperaban mostraban una respuesta inflamatoria intensa y transitoria, dirigida por los **neutrófilos**, que luego se resolvía; en quienes desarrollaron dolor persistente no se observaron esos cambios. En ratones, tratar el dolor muy pronto con un corticoide o un antiinflamatorio lo alivió a corto plazo pero lo prolongó, y en los datos del UK Biobank, tomar antiinflamatorios se asoció a un mayor riesgo de que el dolor persistiera (Parisien et al., Science Translational Medicine, 2022). En la misma línea, las propuestas actuales para las lesiones de tejidos blandos señalan los posibles efectos de los antiinflamatorios sobre la reparación del tejido (Dubois y Esculier, British Journal of Sports Medicine, 2020), y la guía clínica sobre esguinces de tobillo pide precaución con su uso, porque pueden reducir el dolor y la hinchazón pero también interferir en la curación natural (Vuurberg et al., British Journal of Sports Medicine, 2018).",
+     "Estos resultados hay que leerlos con **prudencia**: la parte humana del estudio de McGill muestra una asociación, no una causa, la parte que demuestra el efecto se hizo en animales, y otras revisiones encuentran que los antiinflamatorios alivian el dolor y la hinchazón tras un esguince. No es una razón para dejar ningún medicamento: la medicación la decide su médico. Lo que sí transmiten es un mensaje útil: la inflamación de los primeros días no es solo un enemigo, y además de aliviar el dolor conviene favorecer la recuperación natural del tejido con **movimiento progresivo** y una carga bien dosificada."
+    ]
+   },
+   {
+    "h2": "¿Cómo mira la osteopatía un esguince?",
+    "paras": [
+     "Un esguince no ocurre solo en el ligamento que duele. En una torcedura de tobillo, la fuerza del traumatismo recorre el pie, el peroné, la rodilla, la cadera y la pelvis, y el cuerpo entero reacciona para no caer. Jean-Pierre Barral y Alain Croibier dedicaron un libro al **abordaje osteopático del traumatismo**, en el que sostienen que el lugar del dolor es solo un dato dentro de una historia más amplia, que incluye cómo se produjo el golpe, en qué dirección actuó la fuerza y qué tejidos la absorbieron.",
+     "Barral desarrolló además un **abordaje manual articular** que considera cada articulación como un conjunto de hueso, cápsula, ligamentos, meniscos, nervios y arterias, relacionado con otras regiones del cuerpo. En su modelo, bajo el dolor existe un patrón de compensación cuyo origen está a menudo lejos de donde se siente, y por eso se evalúa todo el cuerpo y no solo la articulación lesionada. Es una idea especialmente útil en los esguinces de repetición, en los que el tobillo suele ser solo la parte más visible de un problema de control y de reparto de cargas.",
+     "Esta visión amplía el razonamiento clínico habitual sin saltarse ningún paso: primero se descartan las fracturas y las roturas que requieren otro tratamiento; después se valoran el ligamento, la movilidad de las articulaciones del pie y del tobillo, el peroné, la rodilla, la cadera, la pelvis y la columna lumbar, y la forma de caminar y de apoyar."
+    ]
+   },
+   {
+    "h2": "¿Qué ocurre cuando el dolor persiste tras el esguince?",
+    "paras": [
+     "Cuando el dolor dura más de tres meses, deja de depender solo del estado del ligamento. El sistema nervioso **aprende** el dolor: las neuronas de la médula y del cerebro se vuelven más sensibles y amplifican las señales que llegan de la articulación. Es la **sensibilización central**. El modelo actual de la inestabilidad crónica de tobillo integra precisamente estos aspectos: describe cómo la lesión inicial puede dar lugar a una combinación de alteraciones mecánicas, sensitivas y motoras, y utiliza la teoría de la **neuromatriz del dolor** de Melzack para explicar cómo cada persona desarrolla su propio patrón de síntomas (Hertel y Corbett, 2019). El miedo a volver a torcerse el tobillo, por ejemplo, cambia la forma de moverse y forma parte del problema.",
+     "La neurociencia ha mostrado que el dolor crónico se acompaña de **cambios en el cerebro**. Con espectroscopia por resonancia magnética, que mide sustancias químicas cerebrales (neurometabolitos), se han descrito alteraciones en las áreas que procesan el dolor. Un ensayo aleatorizado con grupo de simulación, en personas con lumbalgia crónica, observó que tras tres sesiones de manipulación aumentaban marcadores de la salud neuronal en el tálamo, la ínsula y la corteza, junto con menos dolor y discapacidad (Didehdar et al., Irish Journal of Medical Science, 2020). Es un estudio pequeño y en otra región del cuerpo, pero apoya la idea de que la terapia manual actúa también sobre el **sistema nervioso central**.",
+     "La **teoría de la compuerta** de Melzack y Wall ya explicó en 1965 que las señales de movimiento, presión y tacto que entran en la médula pueden modular el paso de las señales de dolor hacia el cerebro (Melzack y Wall, Science, 1965), y los modelos actuales describen efectos de la terapia manual en los nervios periféricos, la médula y el cerebro (Bialosky et al., Manual Therapy, 2009). Tratar un esguince crónico es, por tanto, devolver al sistema nervioso una información clara y la confianza para moverse. Puede leer más en [dolor persistente y crónico](dolor-persistente-cronico)."
+    ]
+   },
+   {
+    "h2": "¿Cuándo debo consultar con mi médico?",
+    "paras": [
+     "Lo primero tras un esguince es descartar una fractura. Las **reglas de Ottawa** ayudan a decidir cuándo hace falta una radiografía: una revisión de 27 estudios con más de 15.000 pacientes mostró que tienen una sensibilidad cercana al 100 % para descartar fracturas del tobillo y del mediopié, y que su uso reduce entre un 30 % y un 40 % las radiografías innecesarias (Bachmann et al., BMJ, 2003). Consulte con su médico o acuda a urgencias si presenta:"
+    ],
+    "list": [
+     "Imposibilidad de dar cuatro pasos apoyando el pie, justo después de la lesión o en la consulta",
+     "Dolor al presionar el borde posterior o la punta de cualquiera de los dos maléolos",
+     "Dolor al presionar la base del quinto metatarsiano (borde externo del pie) o el escafoides (cara interna del pie)",
+     "Deformidad evidente, pie frío, pálido o adormecido",
+     "En la rodilla: chasquido con hinchazón rápida, bloqueos o sensación de que la rodilla «se sale»",
+     "En la muñeca: dolor al presionar la tabaquera anatómica, en la base del pulgar (posible fractura de escafoides)",
+     "Dolor e hinchazón que no mejoran tras una o dos semanas"
+    ]
+   },
+   {
+    "h2": "¿Cómo se diagnostica? La anamnesis",
+    "paras": [
+     "La historia clínica reconstruye la lesión: cómo se torció la articulación, en qué dirección, si hubo chasquido, si pudo seguir caminando o jugando, cuánto tardó en hincharse y cómo ha evolucionado. También se pregunta por esguinces previos, por la sensación de inestabilidad, por la actividad y el deporte que practica la persona y por sus objetivos de vuelta.",
+     "Se recogen además los dolores que han aparecido después en otras zonas, como la rodilla, la cadera o la espalda, los antecedentes de dolor lumbar y las lesiones antiguas de la misma pierna, que pueden explicar por qué el tobillo falla."
+    ]
+   },
+   {
+    "h2": "¿Qué aporta la exploración y la palpación?",
+    "paras": [
+     "La guía clínica sobre esguinces de tobillo indica que la gravedad de la lesión ligamentosa se valora de forma más fiable con una **exploración diferida**, a los cuatro o cinco días del traumatismo, cuando el dolor y la hinchazón iniciales han disminuido (Vuurberg et al., 2018). La exploración incluye la palpación de cada ligamento, pruebas de estabilidad como el cajón anterior, la movilidad del tobillo, el equilibrio sobre un pie, la fuerza y la forma de caminar, y se completa con la rodilla, la cadera, la pelvis y la columna lumbar.",
+     "La palpación es el centro de la exploración osteopática. Jean-Pierre Barral la llama **escucha manual**: una palpación que busca diferencias de tensión, densidad, movilidad y temperatura en los tejidos. La escucha general orienta hacia la región que más llama la atención en el conjunto del cuerpo, que tras un esguince puede ser el tobillo, pero también el peroné, la rodilla, la pelvis o la zona lumbar; la escucha local precisa la estructura implicada, sea un ligamento, la cápsula, una articulación del pie, un nervio o la fascia.",
+     "La radiografía se solicita según las reglas de Ottawa. La ecografía y la resonancia se reservan para sospechas de lesiones asociadas, como lesiones del cartílago, de los tendones peroneos o de la sindesmosis, o cuando la evolución no es la esperada."
+    ]
+   },
+   {
+    "h2": "¿Cómo se trata un esguince?",
+    "paras": [
+     "La mayoría de los esguinces se tratan de forma **conservadora** y **activa**. En los primeros días se protege la articulación según el dolor, se eleva para reducir la hinchazón y se evita el reposo prolongado. Las propuestas actuales resumen la fase inicial y la posterior en dos palabras: *PEACE* (proteger, elevar, evitar lo que interfiera en la reparación, comprimir y educar) y *LOVE* (carga progresiva, optimismo, ejercicio aeróbico sin dolor y ejercicio específico) (Dubois y Esculier, 2020).",
+     "Moverse pronto funciona. En un ensayo con 101 personas con esguinces de tobillo de grado I y II, añadir ejercicio terapéutico desde la primera semana mejoró la función del tobillo en las dos primeras semanas frente al tratamiento clásico de reposo, hielo, compresión y elevación, y esas personas caminaron más (Bleakley et al., BMJ, 2010). La guía clínica recomienda combinar una tobillera o un vendaje funcional con un **programa de ejercicio supervisado**, preferible a las técnicas pasivas, porque estimula la recuperación de la estabilidad funcional, y reservar la cirugía para los casos que no responden (Vuurberg et al., 2018).",
+     "La **terapia manual** tiene también un lugar: una revisión de revisiones sistemáticas encontró evidencia moderada a favor del ejercicio y de las técnicas de terapia manual para el dolor, la hinchazón y la función tras un esguince agudo, y evidencia fuerte de la movilización precoz (Doherty et al., British Journal of Sports Medicine, 2017). La terapia manual ayuda a recuperar la movilidad del tobillo y del pie y a reducir el dolor, y el ejercicio consolida lo conseguido. La medicación la indica su médico. La técnica no se decide de antemano: se elige tras la anamnesis y la exploración, según el grado, la fase y la persona."
+    ]
+   },
+   {
+    "h2": "¿Qué puedo hacer para prevenirlo?",
+    "paras": [
+     "La mejor prevención de un esguince es **completar la recuperación del anterior**. El entrenamiento de la propiocepción tiene un respaldo sólido: en un ensayo con 522 deportistas que habían sufrido un esguince de tobillo, un programa de ocho semanas de ejercicios de propiocepción en casa, sin supervisión, redujo las recaídas al año del 33 % al 22 %, una reducción del riesgo del **35 %**; bastaba con que nueve personas hicieran el programa para evitar una recaída (Hupperets et al., BMJ, 2009). Las revisiones confirman que el entrenamiento neuromuscular y las tobilleras previenen nuevos esguinces (Doherty et al., 2017).",
+     "No hay que esperar a la próxima torcedura. Las señales tempranas, como un tobillo que se nota inseguro en terrenos irregulares, una hinchazón que vuelve al final del día o el miedo a saltar, indican que el sistema de control todavía no se ha recuperado. Unos minutos al día de ejercicios de equilibrio y de fuerza, integrados en la rutina, como quien se cepilla los dientes, mantienen el tobillo preparado.",
+     "Los hábitos generales también cuentan: calentar antes del deporte, aumentar la intensidad de forma progresiva, cuidar la fuerza de la cadera y de la pierna, usar un calzado estable y adecuado a cada actividad y evitar los tacones altos a diario. Y si un dolor persiste meses después del esguince, merece una valoración, porque puede tener su origen en otra parte de la cadena."
+    ],
+    "list_title": "Ejercicios de propiocepción y fuerza (progresión típica):",
+    "list": [
+     "Equilibrio sobre un pie, primero con ojos abiertos y después cerrados, 30 segundos",
+     "Equilibrio sobre un pie mientras se lanza y recoge una pelota o se mueve la otra pierna",
+     "Equilibrio sobre una superficie inestable, como un cojín o una toalla doblada",
+     "Elevaciones de talón a una pierna, lentas y controladas",
+     "Saltos suaves en el sitio y aterrizajes controlados a una pierna",
+     "Fortalecimiento de la cadera: puente de glúteos y apertura lateral de la pierna con banda elástica"
+    ]
+   },
+   {
+    "h2": "¿Qué puedo hacer en el día a día?",
+    "paras": [],
+    "list": [
+     "En los primeros días, eleve la pierna y proteja el tobillo según el dolor, sin reposo prolongado.",
+     "Empiece a apoyar y a mover el tobillo en cuanto el dolor lo permita.",
+     "No dé por terminada la recuperación cuando deje de doler: entrene el equilibrio y la fuerza.",
+     "Use tobillera o vendaje funcional en el deporte durante los meses siguientes, si se lo recomiendan.",
+     "Caliente antes de la actividad y aumente la intensidad de forma progresiva.",
+     "Use un calzado estable y evite los tacones altos a diario.",
+     "Haga ejercicios de equilibrio unos minutos al día, por ejemplo mientras se lava los dientes.",
+     "Si el tobillo sigue fallando o doliendo meses después, consulte."
+    ]
+   }
+  ],
+  "evidence": {
+   "h2": "¿Qué dice la evidencia?",
+   "items": [
+    [
+     "Frecuencia (J Bone Joint Surg)",
+     "La incidencia de esguinces de tobillo atendidos en urgencias fue de 2,15 por 1.000 personas y año, con un pico entre los 15 y los 19 años (Waterman et al., 2010)."
+    ],
+    [
+     "Sexo y deporte (Sports Med)",
+     "La incidencia fue mayor en mujeres que en hombres (13,6 frente a 6,94 por 1.000 exposiciones), y mayor en deportes de pista cubierta (Doherty et al., 2014)."
+    ],
+    [
+     "Inestabilidad crónica (J Athl Train)",
+     "Hasta un 40 % de las personas con un primer esguince lateral de tobillo desarrolla inestabilidad crónica (Hertel y Corbett, 2019)."
+    ],
+    [
+     "Predictores (Am J Sports Med)",
+     "En 82 personas, no poder saltar y aterrizar a las 2 semanas y un peor equilibrio a los 6 meses predijeron la inestabilidad crónica (Doherty et al., 2016)."
+    ],
+    [
+     "Origen vertebral (J Man Manip Ther)",
+     "El 43,5 % de 369 pacientes con dolor aislado en una extremidad tenía un origen en la columna; en el tobillo y el pie, el 29,2 %, y en la rodilla, el 25,6 % (Rosedale et al., 2020)."
+    ],
+    [
+     "Reglas de Ottawa (BMJ)",
+     "En 27 estudios con más de 15.000 pacientes, las reglas de Ottawa tuvieron una sensibilidad cercana al 100 % para descartar fracturas (Bachmann et al., 2003)."
+    ],
+    [
+     "Ejercicio precoz (BMJ)",
+     "En 101 personas, el ejercicio desde la primera semana mejoró la función del tobillo frente al tratamiento clásico (Bleakley et al., 2010)."
+    ],
+    [
+     "Tratamiento (Br J Sports Med)",
+     "Evidencia moderada a favor del ejercicio y de la terapia manual para el dolor, la hinchazón y la función tras un esguince agudo (Doherty et al., 2017)."
+    ],
+    [
+     "Propiocepción (BMJ)",
+     "Un programa de propiocepción en casa redujo las recaídas un 35 % (22 % frente a 33 %) en 522 deportistas (Hupperets et al., 2009)."
+    ],
+    [
+     "Inflamación aguda (Sci Transl Med)",
+     "En 98 personas con dolor agudo, una respuesta inflamatoria transitoria se asoció a la recuperación (Parisien et al., 2022)."
+    ]
+   ],
+   "refs": [
+    {
+     "t": "Waterman BR, Owens BD, Davey S, Zacchilli MA, Belmont PJ, 2010. «The epidemiology of ankle sprains in the United States». Journal of Bone and Joint Surgery (American volume).",
+     "doi": "10.2106/JBJS.I.01537"
+    },
+    {
+     "t": "Doherty C, Delahunt E, Caulfield B, Hertel J, Ryan J, Bleakley C, 2014. «The incidence and prevalence of ankle sprain injury: a systematic review and meta-analysis of prospective epidemiological studies». Sports Medicine.",
+     "doi": "10.1007/s40279-013-0102-5"
+    },
+    {
+     "t": "Gribble PA, Bleakley CM, Caulfield BM, Docherty CL, Fourchet F, Fong DT, et al., 2016. «Evidence review for the 2016 International Ankle Consortium consensus statement on the prevalence, impact and long-term consequences of lateral ankle sprains». British Journal of Sports Medicine.",
+     "doi": "10.1136/bjsports-2016-096189"
+    },
+    {
+     "t": "Hertel J, Corbett RO, 2019. «An updated model of chronic ankle instability». Journal of Athletic Training.",
+     "doi": "10.4085/1062-6050-344-18"
+    },
+    {
+     "t": "Doherty C, Bleakley C, Hertel J, Caulfield B, Ryan J, Delahunt E, 2016. «Recovery from a first-time lateral ankle sprain and the predictors of chronic ankle instability: a prospective cohort analysis». American Journal of Sports Medicine.",
+     "doi": "10.1177/0363546516628870"
+    },
+    {
+     "t": "Needle AR, Lepley AS, Grooms DR, 2017. «Central nervous system adaptation after ligamentous injury: a summary of theories, evidence, and clinical interpretation». Sports Medicine.",
+     "doi": "10.1007/s40279-016-0666-y"
+    },
+    {
+     "t": "Rosedale R, Rastogi R, Kidd J, Lynch G, Supp G, Robbins SM, 2020. «A study exploring the prevalence of Extremity Pain of Spinal Source (EXPOSS)». Journal of Manual & Manipulative Therapy.",
+     "doi": "10.1080/10669817.2019.1661706"
+    },
+    {
+     "t": "Parisien M, Lima LV, Dagostino C, et al., 2022. «Acute inflammatory response via neutrophil activation protects against the development of chronic pain». Science Translational Medicine.",
+     "doi": "10.1126/scitranslmed.abj9954"
+    },
+    {
+     "t": "Dubois B, Esculier JF, 2020. «Soft-tissue injuries simply need PEACE and LOVE». British Journal of Sports Medicine.",
+     "doi": "10.1136/bjsports-2019-101253"
+    },
+    {
+     "t": "Vuurberg G, Hoorntje A, Wink LM, van der Doelen BFW, van den Bekerom MP, Dekker R, et al., 2018. «Diagnosis, treatment and prevention of ankle sprains: update of an evidence-based clinical guideline». British Journal of Sports Medicine.",
+     "doi": "10.1136/bjsports-2017-098106"
+    },
+    {
+     "t": "Bachmann LM, Kolb E, Koller MT, Steurer J, ter Riet G, 2003. «Accuracy of Ottawa ankle rules to exclude fractures of the ankle and mid-foot: systematic review». BMJ.",
+     "doi": "10.1136/bmj.326.7386.417"
+    },
+    {
+     "t": "Bleakley CM, O'Connor SR, Tully MA, Rocke LG, MacAuley DC, Bradbury I, et al., 2010. «Effect of accelerated rehabilitation on function after ankle sprain: randomised controlled trial». BMJ.",
+     "doi": "10.1136/bmj.c1964"
+    },
+    {
+     "t": "Doherty C, Bleakley C, Delahunt E, Holden S, 2017. «Treatment and prevention of acute and recurrent ankle sprain: an overview of systematic reviews with meta-analysis». British Journal of Sports Medicine.",
+     "doi": "10.1136/bjsports-2016-096178"
+    },
+    {
+     "t": "Hupperets MDW, Verhagen EALM, van Mechelen W, 2009. «Effect of unsupervised home based proprioceptive training on recurrences of ankle sprain: randomised controlled trial». BMJ.",
+     "doi": "10.1136/bmj.b2684"
+    },
+    {
+     "t": "Didehdar D, Kamali F, Kordi Yoosefinejad A, Lotfi M, 2020. «The effect of spinal manipulation on brain neurometabolites in chronic nonspecific low back pain patients: a randomized clinical trial». Irish Journal of Medical Science.",
+     "doi": "10.1007/s11845-019-02140-2"
+    },
+    {
+     "t": "Melzack R, Wall PD, 1965. «Pain mechanisms: a new theory». Science.",
+     "doi": "10.1126/science.150.3699.971"
+    },
+    {
+     "t": "Bialosky JE, Bishop MD, Price DD, Robinson ME, George SZ, 2009. «The mechanisms of manual therapy in the treatment of musculoskeletal pain: a comprehensive model». Manual Therapy.",
+     "doi": "10.1016/j.math.2008.09.001"
+    }
+   ]
+  },
+  "faq": [
+   [
+    "¿Tengo que hacer reposo tras un esguince?",
+    "Solo los primeros días y según el dolor. El reposo prolongado retrasa la recuperación; moverse y apoyar de forma progresiva desde la primera semana mejora la función del tobillo."
+   ],
+   [
+    "¿Hielo o calor?",
+    "En las primeras horas, el frío puede aliviar el dolor. Hoy se sabe que la inflamación inicial forma parte de la reparación, por lo que lo más importante es proteger, elevar y empezar a moverse pronto."
+   ],
+   [
+    "¿Cuánto tarda en curarse un esguince de tobillo?",
+    "Un esguince leve puede mejorar en una o dos semanas; uno moderado o grave, en varias semanas o meses. El ligamento tarda más en recuperar su resistencia que el dolor en desaparecer, por eso conviene completar la rehabilitación."
+   ],
+   [
+    "¿Qué es un esguince mal curado?",
+    "Es un esguince que deja secuelas: el tobillo se tuerce con facilidad, falla, se hincha o duele meses después. Suele deberse a una recuperación incompleta de la propiocepción, la fuerza y la movilidad, y se puede trabajar aunque haya pasado tiempo."
+   ],
+   [
+    "¿Necesito una radiografía?",
+    "Solo si se cumplen las reglas de Ottawa: no poder dar cuatro pasos o dolor al presionar puntos concretos de los huesos del tobillo y del pie. En los demás casos no suele hacer falta."
+   ],
+   [
+    "¿Puedo volver a hacer deporte?",
+    "Sí, cuando el tobillo tenga una movilidad completa, buena fuerza y buen equilibrio, y pueda saltar y cambiar de dirección sin dolor ni miedo. La vuelta debe ser progresiva y, en los primeros meses, con tobillera o vendaje si se lo recomiendan."
+   ],
+   [
+    "¿Un esguince de tobillo puede afectar a la rodilla o a la espalda?",
+    "Puede. Cojear durante semanas cambia el reparto de cargas en la rodilla, la cadera y la zona lumbar. Además, algunos dolores de tobillo y de rodilla que persisten tienen en realidad un origen en la columna lumbar."
+   ],
+   [
+    "¿Cuántas sesiones necesitaré?",
+    "Depende del grado del esguince, del tiempo transcurrido y de los objetivos de cada persona. Tras la primera visita se propone un plan con objetivos claros, ejercicios para casa y revisiones que se van espaciando."
+   ]
+  ],
+  "related": [
+   "contracturas-desgarros-musculares",
+   "dolor-rodilla-condromalacia",
+   "fascitis-plantar",
+   "osteopatia-sarria-sant-gervasi"
+  ],
+  "cta_h2": "Vuelva a moverse con seguridad",
+  "seo": {
+   "kw": "recuperación esguince Barcelona",
+   "kws": [
+    "esguince de tobillo recuperación",
+    "esguince mal curado",
+    "propiocepción tobillo",
+    "esguince de rodilla tratamiento",
+    "esguince de muñeca Barcelona"
+   ],
+   "ca_kw": "recuperació esquinç Barcelona",
+   "quick": "Un esguince es una lesión de los ligamentos que estabilizan una articulación, producida al forzarla más allá de su recorrido normal; el más frecuente es el de tobillo. Se clasifica en tres grados y, si la recuperación es incompleta, puede dejar una inestabilidad crónica con torceduras repetidas. En Sarrià–Sant Gervasi (Barcelona) se valora con una anamnesis detallada y una exploración palpatoria de la articulación, toda la extremidad, la pelvis y la columna lumbar.",
+   "entity": [
+    "MedicalCondition",
+    "Esguince"
+   ]
+  },
+  "research": [
+   "Personas que se han torcido un tobillo u otra articulación, o que sufren esguinces de repetición, y quieren recuperarse bien y evitar recaídas.",
+   [
+    "esguince de tobillo recuperación Barcelona",
+    "esguince mal curado tratamiento",
+    "ejercicios propiocepción tobillo",
+    "tobillo inestable"
+   ],
+   [
+    "esquinç de turmell recuperació",
+    "esquinç mal curat"
+   ],
+   "Fisioterapeutas deportivos y mutuas, con contenido muy centrado en la fase aguda."
+  ],
+  "ca": {}
+ }
+]
