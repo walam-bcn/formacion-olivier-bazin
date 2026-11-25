@@ -942,15 +942,15 @@ def phases(b):
            '<path d="M40 20V260H620" fill="none" stroke="#1D3F40" stroke-width="2"/>'
            '<path d="M612 254l8 6-8 6M34 28l6-8 6 8" fill="none" stroke="#1D3F40" stroke-width="2"/>'
            '<path d="M233 40V258M426 40V258" stroke="#1D3F40" stroke-opacity=".25" stroke-width="1"/>'
-           '<path d="M50 245C110 245 150 200 233 190" fill="none" stroke="#E08E6D" stroke-width="7" stroke-dasharray="14 10" stroke-linecap="round"/>'
-           '<path d="M233 190C300 185 330 120 380 125S410 150 426 140" fill="none" stroke="#C9B66B" stroke-width="7" stroke-dasharray="14 10" stroke-linecap="round"/>'
+           '<path d="M50 245C110 245 150 200 233 190" fill="none" stroke="#1D3F40" stroke-opacity=".55" stroke-width="7" stroke-dasharray="14 10" stroke-linecap="round"/>'
+           '<path d="M233 190C300 185 330 120 380 125S410 150 426 140" fill="none" stroke="#5FC9CB" stroke-width="7" stroke-dasharray="14 10" stroke-linecap="round"/>'
            '<path d="M426 140C500 100 560 80 610 40" fill="none" stroke="#0CBFC2" stroke-width="7" stroke-dasharray="14 10" stroke-linecap="round"/>'
            f'<text x="70" y="215" class="phl" transform="rotate(-18 70 215)">{html.escape(labs[0])}</text>'
            f'<text x="255" y="160" class="phl" transform="rotate(-20 255 160)">{html.escape(labs[1])}</text>'
            f'<text x="440" y="110" class="phl" transform="rotate(-25 440 110)">{html.escape(labs[2])}</text>'
            f'<text x="330" y="290" class="pha" text-anchor="middle">{html.escape(ax_x.upper())}</text>'
            f'<text x="18" y="140" class="pha" text-anchor="middle" transform="rotate(-90 18 140)">{html.escape(ax_y.upper())}</text></svg>')
-    cols = ["#E08E6D", "#B8A24E", "#0a9fa2"]
+    cols = ["#4A6B6C", "#0A8F91", "#0CBFC2"]
     acc = "".join(f'<details class="phd"{" open" if i == 0 else ""}><summary style="color:{cols[i % 3]}">{fmt(it["h"])}</summary>'
                   + "".join(f"<p>{fmt(x)}</p>" for x in it["paras"]) + "</details>" for i, it in enumerate(b["items"]))
     return f'<section class="phases"><div class="wrap">{sec_head(b.get("eyebrow", ""), b["h2"], b.get("intro"))}<div class="phfig">{svg}</div><div class="phacc">{acc}</div></div></section>'
@@ -966,7 +966,7 @@ def techniques(b):
 CLINIC_CSS = """
 .visit .vgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:34px 28px;margin-top:34px;text-align:center}
 .vit h3{font-size:1.02rem;margin:14px 0 6px;color:var(--pet)}.vit p{font-size:.93rem;line-height:1.55;margin:0;color:#3d5556}
-.vic{display:inline-flex;width:78px;height:78px;border-radius:50%;background:#7FA8A0;color:#fff;align-items:center;justify-content:center}
+.vic{display:inline-flex;width:78px;height:78px;border-radius:50%;background:#E2F6F6;color:#0A8F91;align-items:center;justify-content:center}
 .vic svg{width:38px;height:38px}
 .vnote{text-align:center;margin-top:30px;font-weight:600;color:var(--pet)}
 .phfig{max-width:760px;margin:26px auto 10px}.phsvg{width:100%;height:auto;display:block}
@@ -978,9 +978,9 @@ CLINIC_CSS = """
 .phd summary::after{content:"+";position:absolute;right:0;top:12px;color:#9fb3b1;font-size:1.4rem}
 .phd[open] summary::after{content:"–"}
 .phd p{margin:0 0 14px;line-height:1.65}
-.techs .tpanel{background:#7FA8A0;color:#fff;border-radius:4px;padding:34px 38px;max-width:900px;margin:0 auto}
-.techs h2{color:#fff;margin-top:0}.techs h3{color:#fff;font-size:1.15rem;margin:22px 0 8px}
-.techs p,.techs li{line-height:1.7}.techs ul{margin:0;padding-left:20px}.techs a.inl{color:#fff;text-decoration:underline}
+.techs .tpanel{background:#E2F6F6;color:var(--pet);border-left:4px solid var(--tq);border-radius:4px;padding:34px 38px;max-width:900px;margin:0 auto}
+.techs h2{color:var(--pet);margin-top:0}.techs h3{color:var(--pet);font-size:1.15rem;margin:22px 0 8px}
+.techs p,.techs li{line-height:1.7}.techs ul{margin:0;padding-left:20px}.techs a.inl{color:#0a8f91;text-decoration:underline}
 @media(max-width:760px){.visit .vgrid{grid-template-columns:1fr 1fr;gap:26px 16px}.techs .tpanel{padding:24px 20px}.phd summary{font-size:1.08rem}}
 """
 

@@ -8,10 +8,10 @@ import html
 
 PET = "#1D3F40"   # petróleo
 TQ = "#0CBFC2"    # turquesa
-SAGE = "#7FA8A0"  # salvia
+SAGE = "#5FC9CB"  # salvia
 SAND = "#F2F1EE"  # piedra
-CORAL = "#E08E6D"
-BONE = "#E9E4D8"
+CORAL = "#4A6B6C"
+BONE = "#E2F6F6"
 
 FONT = "font-family:Montserrat,system-ui,sans-serif"
 
@@ -129,9 +129,9 @@ def _vertebra_top(x, y, stage, tr):
     # médula
     g.append(f'<ellipse cx="0" cy="58" rx="13" ry="10" fill="{SAND}" stroke="{PET}" stroke-width="1"/>')
     # raíces nerviosas
-    g.append(f'<path d="M-11 60 C-30 66 -44 70 -64 66 M11 60 C30 66 44 70 64 66" stroke="#C9B66B" stroke-width="3" fill="none" stroke-linecap="round"/>')
+    g.append(f'<path d="M-11 60 C-30 66 -44 70 -64 66 M11 60 C30 66 44 70 64 66" stroke="#0CBFC2" stroke-width="3" fill="none" stroke-linecap="round"/>')
     # anillo fibroso
-    g.append(f'<ellipse cx="0" cy="0" rx="62" ry="44" fill="#F7EFE6" stroke="{PET}" stroke-width="1.2"/>')
+    g.append(f'<ellipse cx="0" cy="0" rx="62" ry="44" fill="#F2F1EE" stroke="{PET}" stroke-width="1.2"/>')
     for r in (52, 42):
         g.append(f'<ellipse cx="0" cy="0" rx="{r}" ry="{r*0.7:.0f}" fill="none" stroke="{SAGE}" stroke-width=".8" opacity=".7"/>')
     # núcleo
@@ -163,8 +163,8 @@ def disco_progresion(tr):
     b.append(f'<path d="M500 340 L450 205" stroke="{SAGE}" stroke-width=".8"/>')
     b.append(_t(885, 350, tr("La hernia presiona la raíz nerviosa"), 12, 300, CORAL, "end"))
     b.append(f'<path d="M800 338 L782 218" stroke="{CORAL}" stroke-width=".8"/>')
-    b.append(_t(260, 312, tr("Raíz nerviosa"), 12, 300, "#9a8a3c"))
-    b.append(f'<path d="M258 304 L222 210" stroke="#C9B66B" stroke-width=".8"/>')
+    b.append(_t(260, 312, tr("Raíz nerviosa"), 12, 300, "#0A8F91"))
+    b.append(f'<path d="M258 304 L222 210" stroke="#0CBFC2" stroke-width=".8"/>')
     return _svg(W, H, "".join(b), tr("Evolución de un disco: normal, protrusión y hernia"))
 
 
@@ -189,7 +189,7 @@ def sintomas_compresion(tr):
     b.append(f'<circle cx="{sx}" cy="{c["L4"]:.0f}" r="20" fill="{CORAL}" opacity=".18"/>')
     b.append(f'<circle cx="{sx}" cy="{c["L4"]:.0f}" r="7" fill="{CORAL}" opacity=".6"/>')
     # trayecto ciático
-    b.append(f'<path d="M{sx+8} {c["L5"]:.0f} C{sx+40} {bottom+20} {sx+50} 420 {sx+62} 536" stroke="#C9B66B" stroke-width="2.5" fill="none" stroke-dasharray="6 5"/>')
+    b.append(f'<path d="M{sx+8} {c["L5"]:.0f} C{sx+40} {bottom+20} {sx+50} 420 {sx+62} 536" stroke="#0CBFC2" stroke-width="2.5" fill="none" stroke-dasharray="6 5"/>')
     b.append(_t(40, 64, tr("Cuando una hernia comprime una raíz nerviosa"), 18, 400))
     sint = [(tr("Hormigueo"), PET), (tr("Pérdida de sensibilidad"), PET), (tr("Dolor que baja por la pierna"), PET),
             (tr("Pérdida de fuerza"), PET)]
@@ -301,7 +301,7 @@ def eje_intestino_disco(tr):
     b.append(f'<path d="M500 180 L580 180" stroke="{SAGE}" stroke-width="1.5" marker-end="url(#ar2)"/>')
     # disco
     b.append(f'<rect x="620" y="110" width="150" height="34" rx="10" fill="{BONE}" stroke="{PET}" stroke-width="1"/>')
-    b.append(f'<ellipse cx="695" cy="180" rx="75" ry="24" fill="#F7EFE6" stroke="{PET}" stroke-width="1"/>')
+    b.append(f'<ellipse cx="695" cy="180" rx="75" ry="24" fill="#F2F1EE" stroke="{PET}" stroke-width="1"/>')
     b.append(f'<ellipse cx="695" cy="180" rx="28" ry="10" fill="{TQ}" opacity=".5"/>')
     b.append(f'<rect x="620" y="216" width="150" height="34" rx="10" fill="{BONE}" stroke="{PET}" stroke-width="1"/>')
     b.append(_t(695, 80, tr("Disco intervertebral"), 16, 400, PET, "middle"))
@@ -333,11 +333,11 @@ def nervio_ciatico(tr):
     # raíces L4–S3 que convergen
     roots_y = [40 + 26*3 + 11, 40 + 26*4 + 11, y + 14, y + 30, y + 46]
     for ry in roots_y:
-        b.append(f'<path d="M{cx-18} {ry} C{cx-50} {ry+10} {cx-70} {y+50} {cx-92} {y+76}" stroke="#C9B66B" stroke-width="2" fill="none"/>')
+        b.append(f'<path d="M{cx-18} {ry} C{cx-50} {ry+10} {cx-70} {y+50} {cx-92} {y+76}" stroke="#0CBFC2" stroke-width="2" fill="none"/>')
     # nervio ciático
     b.append(f'<path d="M{cx-92} {y+76} C{cx-104} {y+150} {cx-100} {y+250} {cx-98} {y+310} C{cx-96} {y+380} {cx-80} {y+440} {cx-74} {y+500}" '
-             f'stroke="#C9B66B" stroke-width="5" fill="none" stroke-linecap="round"/>')
-    b.append(f'<path d="M{cx-98} {y+312} C{cx-120} {y+380} {cx-126} {y+440} {cx-130} {y+500}" stroke="#C9B66B" stroke-width="3" fill="none" stroke-linecap="round"/>')
+             f'stroke="#0CBFC2" stroke-width="5" fill="none" stroke-linecap="round"/>')
+    b.append(f'<path d="M{cx-98} {y+312} C{cx-120} {y+380} {cx-126} {y+440} {cx-130} {y+500}" stroke="#0CBFC2" stroke-width="3" fill="none" stroke-linecap="round"/>')
     labels = [(roots_y[0], tr("Raíces L4 a S3"), tr("se unen para formar el nervio")),
               (y + 62, tr("Músculo piramidal"), tr("el nervio pasa por debajo o a través")),
               (y + 200, tr("Nervio ciático"), tr("el más grueso y largo del cuerpo")),
@@ -365,7 +365,7 @@ FIGS = {
 # ---------------------------------------------------------------- 8. escala de Bristol
 def escala_bristol(tr):
     W, H = 860, 640
-    BR1, BR2 = "#B89A7A", "#8C6E52"
+    BR1, BR2 = "#BDB6AA", "#8F877A"
     b = [f'<rect width="{W}" height="{H}" fill="#fff"/>',
          _t(W / 2, 38, tr("Escala de Bristol"), 20, 400, PET, "middle"),
          _t(W / 2, 60, tr("Una forma sencilla de describir la consistencia de las heces"), 13, 300, "#5d7778", "middle")]
@@ -374,7 +374,7 @@ def escala_bristol(tr):
         (tr("Tipo 2"), tr("Forma de salchicha, con bultos"), tr("Estreñimiento leve"), CORAL),
         (tr("Tipo 3"), tr("Salchicha con grietas en la superficie"), tr("Normal"), "#0a9fa2"),
         (tr("Tipo 4"), tr("Salchicha lisa y blanda"), tr("Normal"), "#0a9fa2"),
-        (tr("Tipo 5"), tr("Trozos blandos de bordes definidos"), tr("Tendencia a heces blandas"), "#B8A24E"),
+        (tr("Tipo 5"), tr("Trozos blandos de bordes definidos"), tr("Tendencia a heces blandas"), "#5FC9CB"),
         (tr("Tipo 6"), tr("Trozos esponjosos de bordes irregulares"), tr("Diarrea leve"), CORAL),
         (tr("Tipo 7"), tr("Acuosas, sin trozos sólidos"), tr("Diarrea"), CORAL),
     ]
@@ -414,9 +414,9 @@ FIGS["escala_bristol"] = escala_bristol
 
 
 # ---------------------------------------------------------------- 9. nervio vago: qué hace
-TERRA = "#C98B6B"   # terracota suave
-SKY = "#8FB8C4"     # azul suave
-SKYL = "#DCEBEE"
+TERRA = "#0A8F91"   # terracota suave
+SKY = "#6FD3D5"     # azul suave
+SKYL = "#E2F6F6"
 
 
 def _organ(kind, x, y, s=1.0):
@@ -582,7 +582,7 @@ def estados_sna(tr):
     b = [f'<rect width="{W}" height="{H}" fill="#fff"/>',
          _t(W / 2, 40, tr("Estados del sistema nervioso autónomo"), 20, 400, PET, "middle"),
          _t(W / 2, 62, tr("Según la teoría polivagal de Stephen Porges"), 13, 300, "#5d7778", "middle")]
-    C = [(450, 300, SKY, "#eef5f6"), (330, 520, "#C9A4AE", "#f7eef0"), (570, 520, "#D9C38E", "#faf5ea")]
+    C = [(450, 300, SKY, "#F2F1EE"), (330, 520, "#1D3F40", "#eef3f3"), (570, 520, "#0CBFC2", "#e6f8f8")]
     for x, y, st, fl in C:
         b.append(f'<circle cx="{x}" cy="{y}" r="205" fill="{fl}" fill-opacity=".55" stroke="{st}" stroke-width="2"/>')
     def block(x, y, title, sub1, sub2, lines, anchor="middle"):
