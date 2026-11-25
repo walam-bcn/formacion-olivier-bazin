@@ -69,7 +69,7 @@
       "availableService": [
         {
           "@type": "MedicalTherapy",
-          "name": "Programes re:trace",
+          "name": "Programes RE:TRACE",
           "url": "https://www.walambcn.com/ca/programes-re-trace"
         },
         {
@@ -217,7 +217,7 @@
         {
           "@type": "ListItem",
           "position": 3,
-          "name": "Formació en el mètode re:trace",
+          "name": "Formació en el mètode RE:TRACE",
           "item": "https://www.walambcn.com/ca/academia-vida-saludable-barcelona/formacio-re-trace"
         }
       ]
@@ -226,8 +226,8 @@
       "@type": "WebPage",
       "@id": "https://www.walambcn.com/ca/academia-vida-saludable-barcelona/formacio-re-trace#webpage",
       "url": "https://www.walambcn.com/ca/academia-vida-saludable-barcelona/formacio-re-trace",
-      "name": "Formació en el mètode re:trace · Medicina integrativa | WA LAM",
-      "description": "Formació de nou mesos en el mètode re:trace per a professionals de la salut: medicina integrativa, longevitat i neurolongevitat aplicades a la pràctica clínica.",
+      "name": "Formació en el mètode RE:TRACE · Medicina integrativa | WA LAM",
+      "description": "Formació de nou mesos en el mètode RE:TRACE per a professionals de la salut: medicina integrativa, longevitat i neurolongevitat aplicades a la pràctica clínica.",
       "inLanguage": "ca-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -242,7 +242,7 @@
       },
       "lastReviewed": "2026-11-18",
       "dateModified": "2026-11-18",
-      "keywords": "formació medicina integrativa Barcelona, formació re:trace, formació longevitat professionals, curs medicina integrativa, formació neurolongevitat",
+      "keywords": "formació medicina integrativa Barcelona, formació RE:TRACE, formació longevitat professionals, curs medicina integrativa, formació neurolongevitat",
       "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/formacion-re-trace.png",
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -263,8 +263,8 @@
     {
       "@type": "Course",
       "@id": "https://www.walambcn.com/ca/academia-vida-saludable-barcelona/formacio-re-trace#curso",
-      "name": "Formació en el mètode re:trace",
-      "description": "Formació de nou mesos en el mètode re:trace per a professionals de la salut: medicina integrativa, longevitat i neurolongevitat aplicades a la pràctica clínica.",
+      "name": "Formació en el mètode RE:TRACE",
+      "description": "Formació de nou mesos en el mètode RE:TRACE per a professionals de la salut: medicina integrativa, longevitat i neurolongevitat aplicades a la pràctica clínica.",
       "provider": {
         "@type": "Organization",
         "name": "WA LAM · Healthy Lifestyle Academy",

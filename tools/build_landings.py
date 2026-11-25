@@ -850,7 +850,9 @@ def fix_bonos(s):
         s = re.sub(pat, rep, s)
     s = s.replace("dispone de un bono", "dispone de un bono").replace("disposa d'un bo", "disposa d'un bo")
     from terms_fix import fix_terms
-    return fix_terms(s, LANG)
+    s = fix_terms(s, LANG)
+    # Rosa (25 nov 2026): la marca se escribe siempre RE:TRACE, en mayúsculas (las URL usan re-trace y no cambian)
+    return re.sub(r"re:trace", "RE:TRACE", s, flags=re.I)
 
 
 # Directorio «Más información» por áreas: botones discretos hacia cada landing

@@ -69,7 +69,7 @@
       "availableService": [
         {
           "@type": "MedicalTherapy",
-          "name": "Programes re:trace",
+          "name": "Programes RE:TRACE",
           "url": "https://www.walambcn.com/ca/programes-re-trace"
         },
         {
@@ -217,7 +217,7 @@
         {
           "@type": "ListItem",
           "position": 3,
-          "name": "Programes re:trace",
+          "name": "Programes RE:TRACE",
           "item": "https://www.walambcn.com/ca/programes-re-trace"
         }
       ]
@@ -226,8 +226,8 @@
       "@type": "MedicalWebPage",
       "@id": "https://www.walambcn.com/ca/programes-re-trace#webpage",
       "url": "https://www.walambcn.com/ca/programes-re-trace",
-      "name": "Programes re:trace de longevitat a Barcelona | WA LAM",
-      "description": "Programes re:trace: Premium Barcelona (12 setmanes, 6.000 €), Immersive Weekends, Private Experience i Exclusive Retreats. Avaluació avançada de salut i longevitat.",
+      "name": "Programes RE:TRACE de longevitat a Barcelona | WA LAM",
+      "description": "Programes RE:TRACE: Premium Barcelona (12 setmanes, 6.000 €), Immersive Weekends, Private Experience i Exclusive Retreats. Avaluació avançada de salut i longevitat.",
       "inLanguage": "ca-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -242,7 +242,7 @@
       },
       "lastReviewed": "2026-11-18",
       "dateModified": "2026-11-18",
-      "keywords": "programa de longevitat Barcelona, programa medicina integrativa Barcelona, retir de longevitat, avaluació de longevitat Barcelona, programa salut de precisió, re:trace",
+      "keywords": "programa de longevitat Barcelona, programa medicina integrativa Barcelona, retir de longevitat, avaluació de longevitat Barcelona, programa salut de precisió, RE:TRACE",
       "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/programas-re-trace.png",
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -270,8 +270,8 @@
     {
       "@type": "Service",
       "@id": "https://www.walambcn.com/ca/programes-re-trace#servicio",
-      "name": "Programes re:trace",
-      "serviceType": "Programes re:trace",
+      "name": "Programes RE:TRACE",
+      "serviceType": "Programes RE:TRACE",
       "provider": {
         "@id": "https://www.walambcn.com/#clinica"
       },
@@ -306,7 +306,7 @@
         }
       ],
       "url": "https://www.walambcn.com/ca/programes-re-trace",
-      "description": "Programes re:trace: Premium Barcelona (12 setmanes, 6.000 €), Immersive Weekends, Private Experience i Exclusive Retreats. Avaluació avançada de salut i longevitat."
+      "description": "Programes RE:TRACE: Premium Barcelona (12 setmanes, 6.000 €), Immersive Weekends, Private Experience i Exclusive Retreats. Avaluació avançada de salut i longevitat."
     },
     {
       "@type": "FAQPage",
@@ -314,7 +314,7 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Quin programa re:trace em convé?",
+          "name": "Quin programa RE:TRACE em convé?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Depèn de la seva disponibilitat i del seu lloc de residència. Si viu a Barcelona, el Premium és el format de referència; si no pot venir cada setmana, Immersive Weekends concentra la feina en tres caps de setmana; si busca una intervenció intensiva i individual, Private Experience; i si prefereix una experiència en grup reduït, Exclusive Retreats."
