@@ -145,7 +145,7 @@ def integrate_areas(PAGES):
     for p in PAGES:
         if p["slug"] == "medicina-integrativa-barcelona" and not any(b.get("type") == "linkgroups" for b in p["blocks"]):
             i = next((k for k, b in enumerate(p["blocks"]) if b.get("_id") == "te-ayudamos"), 0) + 1
-            p["blocks"].insert(i, {"type": "linkgroups", "eyebrow": "", "h2": "En qué te puedo ayudar", "_id": "en-que-te-puedo-ayudar",
+            p["blocks"].insert(i, {"type": "linkgroups", "eyebrow": "", "h2": "¿En qué te puedo ayudar?", "_id": "en-que-te-puedo-ayudar",
                                    "intro": "Estos son los motivos de consulta más frecuentes, ordenados por áreas.",
                                    "groups": groups, "all": "en-que-podemos-ayudarte"})
         if p["slug"] == "en-que-podemos-ayudarte":
@@ -272,7 +272,7 @@ def integrate_home_areas(PAGES, primer_contacto=None):
         new = [{"type": "steps", "eyebrow": "", "h2": "Mi forma de trabajar", "intro": "Un enfoque integrativo", "_id": "mi-forma-de-trabajar", "items": WORK_STEPS}]
         if primer_contacto:
             new.append(primer_contacto)
-        new.append({"type": "explain", "eyebrow": "", "h2": "En qué te puedo ayudar", "_id": "en-que-te-puedo-ayudar",
+        new.append({"type": "explain", "eyebrow": "", "h2": "¿En qué te puedo ayudar?", "_id": "en-que-te-puedo-ayudar",
                     "paras": ["Esta lista orienta sobre los motivos de consulta más frecuentes. Si tu caso no aparece, escríbenos y te diremos si podemos ayudarte."]})
         for (ey, h2, intro, ptxt, li), (_, items) in zip(AREA_BLOCKS, HOME_LIST):
             ind = [f"[{lab}]({s})" if s in known else lab for lab, s in items]
