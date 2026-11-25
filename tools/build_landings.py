@@ -413,7 +413,7 @@ h1,h2,h3,h4,.btn,.btn-tq,.faq summary,b,strong,.explain .txt b,.card h3,.step h3
 .ilist li{font-weight:400!important;position:relative;padding:5px 0 5px 22px!important}
 .ilist li::before{content:"";position:absolute;left:4px;top:15px;width:7px;height:7px;border-radius:50%;background:var(--tq)}
 .explain p.k{text-align:left!important}
-.cont .cbtns{justify-content:center;gap:12px;flex-wrap:wrap}.cont .btn-map{background:transparent;color:#fff;border:1px solid #fff}.cont .btn-map:hover{background:#fff;color:#222}.cont .gmb{margin:18px auto 0!important}.nl{padding:56px 0!important;background:#fff}.nlbox{display:flex;align-items:center;justify-content:space-between;gap:28px;flex-wrap:wrap;border:1px solid #2ec4c4;border-radius:14px;padding:28px 32px;max-width:980px;margin:0 auto}.nltx{flex:1 1 380px}.nl h2{font-size:24px!important;margin:0 0 6px!important;text-align:left!important}.nl p{margin:0!important;text-align:left!important}.soc{display:flex;justify-content:center;gap:14px;margin:18px 0 0}.soc .sico{display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;border-radius:50%;border:1px solid rgba(255,255,255,.7);color:#fff;transition:background .2s,color .2s}.soc .sico:hover{background:#fff;color:#1D3F40}.fsoc{display:inline-flex;gap:10px;margin-left:12px;vertical-align:middle}.fsoc .sico{display:inline-flex;color:rgba(242,241,238,.8)}.fsoc .sico:hover{color:#fff}.fsoc svg{width:18px;height:18px}.lonb{padding:48px 0!important;background:#f3f7f6}.lonbox{max-width:860px;margin:0 auto;text-align:center}.lonb h2{margin:6px 0 12px!important}.lonb p{margin:0 auto 10px!important;max-width:760px}.lonb .slogan{font-style:italic;color:#1D3F40;opacity:.85;margin-top:14px!important}.hero-dna{background-color:#dcebf2!important;background-position:center!important;background-size:cover!important;color:var(--pet)}
+.cont .cbtns{justify-content:center;gap:12px;flex-wrap:wrap}.cont .btn-map{background:transparent;color:#fff;border:1px solid #fff}.cont .btn-map:hover{background:#fff;color:#222}.cont .gmb{margin:18px auto 0!important}.nl{padding:56px 0!important;background:#fff}.nlbox{display:flex;align-items:center;justify-content:space-between;gap:28px;flex-wrap:wrap;border:1px solid #2ec4c4;border-radius:14px;padding:28px 32px;max-width:980px;margin:0 auto}.nltx{flex:1 1 380px}.nl h2{font-size:24px!important;margin:0 0 6px!important;text-align:left!important}.nl p{margin:0!important;text-align:left!important}.soc{display:flex;justify-content:center;gap:14px;margin:18px 0 0}.soc .sico{display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;border-radius:50%;border:1px solid rgba(255,255,255,.7);color:#fff;transition:background .2s,color .2s}.soc .sico:hover{background:#fff;color:#1D3F40}.fsoc{display:inline-flex;gap:10px;margin-left:12px;vertical-align:middle}.fsoc .sico{display:inline-flex;color:rgba(242,241,238,.8)}.fsoc .sico:hover{color:#fff}.fsoc svg{width:18px;height:18px}.lonb{padding:48px 0!important;background:#f3f7f6}.lonbox{max-width:860px;margin:0 auto;text-align:center}.lonb h2{margin:6px 0 12px!important}.lonb p{margin:0 auto 10px!important;max-width:760px}.lonb .slogan{font-style:italic;color:#1D3F40;opacity:.85;margin-top:14px!important}.dir{background:#fff}.dirbox{max-width:none;margin:0}.dirarea{margin:0 0 18px}.dirarea h3{font-size:15px!important;margin:0 0 8px!important;color:#1D3F40;text-align:left}.chips{display:flex;flex-wrap:wrap;gap:8px}.chip{display:inline-block;border:1px solid #2ec4c4;color:#0f8f8f;background:transparent;border-radius:999px;padding:5px 13px;font-size:.84rem;line-height:1.3;text-decoration:none;transition:background .15s,color .15s}a.chip:hover{background:#2ec4c4;color:#fff}.chip.cur{background:#2ec4c4;color:#fff}.dirmore{margin-top:6px}.dirmore summary{cursor:pointer;color:#0f8f8f;font-weight:600;margin:6px 0 16px;list-style-position:inside}.hero-dna{background-color:#dcebf2!important;background-position:center!important;background-size:cover!important;color:var(--pet)}
 .hero-dna h1,.hero-dna .hs,.hero-dna .lead,.hero-dna .eyebrow,.hero-dna .crumbs,.hero-dna .crumbs a{color:var(--pet)!important;text-shadow:0 0 18px rgba(255,255,255,.9)}
 .hero-dna .hcard{background:rgba(255,255,255,.72);border-color:rgba(29,63,64,.18)}
 .hero-dna .hcard .k,.hero-dna .hcard li{color:var(--pet)}
@@ -834,6 +834,53 @@ def fix_bonos(s):
     return fix_terms(s, LANG)
 
 
+# Directorio «Más información» por áreas: botones discretos hacia cada landing
+DIR_AREAS = [
+    ("Espalda y articulaciones", ["lumbalgia-dolor-lumbar", "cervicalgia-dolor-cuello", "dorsalgia-dolor-espalda-alta", "ciatica", "hernia-disco-incipiente", "artrosis", "hombro-doloroso", "dolor-rodilla-condromalacia", "torticolis", "tunel-carpiano", "fascitis-plantar", "osteoporosis"]),
+    ("Músculos, lesiones y dolor", ["dolor-persistente-cronico", "dolor-musculoesqueletico", "dolor-articular-miofascial", "contracturas-desgarros-musculares", "esguinces", "lesiones-deportivas", "fibromialgia", "cicatrices-adherencias", "dolor-postquirurgico", "dolor-oncologico"]),
+    ("Cabeza y sistema nervioso", ["cefaleas-migrana", "neuralgia-trigemino", "dolor-neuropatico", "bruxismo-dolor-mandibular-atm", "vertigo-mareo", "acufenos"]),
+    ("Aparato digestivo", ["salud-digestiva-microbiota", "colon-irritable-sibo", "reflujo-acidez", "digestiones-pesadas-gastritis", "gases-hinchazon-abdominal", "estrenimiento", "diarrea-cronica", "enfermedad-inflamatoria-intestinal", "intolerancias-alimentarias", "intolerancia-gluten", "intolerancia-lactosa", "intolerancia-fructosa", "intolerancia-histamina"]),
+    ("Inflamación, inmunidad y metabolismo", ["inflamacion-cronica-autoinmunes", "alergias-asma-infecciones", "salud-metabolica", "hipotiroidismo-hashimoto", "perdida-de-peso-sarria-sant-gervasi", "dejar-de-fumar-acupuntura"]),
+    ("Estrés, sueño y energía", ["estres-ansiedad", "cortisol-estres-cronico", "sueno-insomnio", "fatiga-cronica-agotamiento", "agotamiento-fisico-emocional"]),
+    ("Salud de la mujer y suelo pélvico", ["salud-mujer-menopausia", "sindrome-ovario-poliquistico", "acompanamiento-fertilidad", "dolor-menstrual-endometriosis", "candidiasis-vaginal-repeticion", "osteopatia-embarazo-posparto", "suelo-pelvico-dolor-pelvico", "dolor-pelvico-barcelona", "ejercicios-suelo-pelvico", "incontinencia-urinaria-esfuerzo", "prolapso-organos-pelvicos", "cistitis-repeticion-vejiga-dolorosa", "dispareunia-dolor-relaciones", "neuralgia-pudendo", "dolor-coxis-coccigodinia"]),
+    ("Longevidad y prevención", ["prevencion-longevidad", "neurolongevidad-salud-cognitiva", "programas-re-trace"]),
+    ("Osteopatía", ["osteopatia-sarria-sant-gervasi", "osteopatia-visceral-barcelona", "osteopatia-craneosacral-barcelona", "manipulaciones-neuroviscerales", "osteopatia-fascia-barcelona", "nervio-vago", "osteopatia-trauma", "osteopatia-bebes-ninos"]),
+    ("Medicina integrativa, nutrición y acupuntura", ["medicina-integrativa-barcelona", "pni-pnie-barcelona", "nutricion-salud-intestinal", "acupuntura-medicina-tradicional-china"]),
+    ("Masaje y drenaje linfático", ["masajes-sarria-sant-gervasi", "drenaje-linfatico-manual", "drenaje-linfatico-embarazo", "drenaje-linfatico-postoperatorio", "drenaje-linfatico-linfedema", "reflexologia-sarria-sant-gervasi", "reiki-barcelona"]),
+    ("Mindfulness y movimiento", ["mindfulness-barcelona", "curso-mindfulness-mbsr-barcelona", "yoga-particular-grupos-reducidos", "qigong-barcelona", "clases-estiramientos", "retiros-mindfulness-meditacion-silencio", "vacaciones-con-sentido"]),
+]
+DIR_HUB = "medicina-integrativa-barcelona"
+
+def _chips(slugs, cur):
+    out = []
+    for s in slugs:
+        if s not in BYSLUG:
+            continue
+        lab = html.escape(plain(BYSLUG[s]["nav"]))
+        out.append(f'<span class="chip cur" aria-current="page">{lab}</span>' if s == cur else f'<a class="chip" href="{url(s)}">{lab}</a>')
+    return '<div class="chips">' + "".join(out) + "</div>"
+
+def directory(p):
+    cur = p["slug"]
+    def area(name, slugs):
+        return f'<div class="dirarea"><h3>{tr(name)}</h3>{_chips(slugs, cur)}</div>'
+    if cur == DIR_HUB:
+        head_ = sec_head(tr("Más información"), tr("¿Quiere saber más? Conozca cada motivo de consulta"),
+                         tr("Pulse sobre cualquier tema para ver cómo lo abordamos en WA LAM."))
+        body_ = "".join(area(n, sl) for n, sl in DIR_AREAS)
+    else:
+        mine = [(n, sl) for n, sl in DIR_AREAS if cur in sl]
+        rest = [(n, sl) for n, sl in DIR_AREAS if cur not in sl]
+        if p["group"] == "motivo":
+            h2, intro = tr("Entienda mejor lo que le pasa"), tr("Si quiere saber más sobre su caso o sobre otros motivos de consulta, aquí tiene toda la información, ordenada por áreas.")
+        else:
+            h2, intro = tr("Descubra en qué podemos ayudarle"), tr("Toda la información sobre los motivos de consulta y las terapias de WA LAM, ordenada por áreas.")
+        head_ = sec_head(tr("Más información"), h2, intro)
+        body_ = "".join(area(n, sl) for n, sl in mine) + \
+            f'<details class="dirmore"><summary>{tr("Ver todas las áreas")}</summary>' + "".join(area(n, sl) for n, sl in rest) + "</details>"
+    return f'<section class="dir" id="mas-informacion"><div class="wrap">{head_}<div class="dirbox">{body_}</div></div></section>'
+
+
 LON_SLUG, NEU_SLUG = "prevencion-longevidad", "neurolongevidad-salud-cognitiva"
 LON_TXT = {
     "all": "En WA LAM cuidamos su salud a largo plazo con la **[medicina de longevidad](prevencion-longevidad)**: prevención, metabolismo, sueño, movimiento y gestión del estrés. Y protegemos también el cerebro con la **[neurolongevidad](neurolongevidad-salud-cognitiva)**: memoria, atención y regulación del sistema nervioso.",
@@ -886,6 +933,7 @@ def page(p):
         k = seq[-1].rfind("</div></section>")
         seq[-1] = seq[-1][:k] + f'<div class="note"><p>{tr(NOTE_ES)}</p></div>' + seq[-1][k:]
     parts += [quick(p)] + seq
+    parts.append(directory(p))
     parts.append(lonband(p))
     parts.append(contact(p))
     parts.append(JS + "</body></html>")
