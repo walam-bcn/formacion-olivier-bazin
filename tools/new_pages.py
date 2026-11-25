@@ -293,6 +293,8 @@ ABORD_ROSA = {
     0: ("Cómo abordamos el dolor musculoesquelético", [
         "En WA LAM abordamos el dolor musculoesquelético con nuestro método de medicina integrativa [re:trace](programas-re-trace). En la primera visita valoramos la localización del dolor, la movilidad de la zona afectada y cómo los síntomas repercuten en sus actividades cotidianas. Cuando su historia clínica lo indica, ampliamos la valoración a aspectos como la calidad del sueño, la presencia de insomnio, el estrés, la salud digestiva y la alimentación.",
         "A partir de esta valoración, diseñamos un tratamiento personalizado. En algunos casos, una sola sesión puede ser suficiente. Si el dolor persiste, reaparece o sigue limitando su movilidad, le proponemos un plan de tratamiento que ajustamos según su evolución."]),
+    1: ("Cómo lo abordamos", [
+        "La nutrición y la microbiota intestinal son dos pilares de la valoración desde la **[psiconeuroinmunoendocrinología (PNIE)](pni-pnie-barcelona)**. En el método **[re:trace](programas-re-trace)**, la historia clínica y los antecedentes familiares orientan qué pruebas pueden ayudar a precisar la valoración. Según su caso, podemos complementarla con análisis de marcadores inflamatorios o, cuando exista una indicación clínica, con estudios genéticos. Estos resultados, junto con la valoración inicial, guían el plan personalizado."]),
 }
 
 
