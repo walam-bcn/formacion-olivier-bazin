@@ -1,0 +1,603 @@
+[
+ {
+  "slug": "pni-pnie-barcelona",
+  "ca_slug": "pni-pnie-barcelona",
+  "group": "servicio",
+  "nav": "PNIE",
+  "card": "Psiconeuroinmunoendocrinología: cómo se comunican el sistema nervioso, las hormonas, la inmunidad y la microbiota, y por qué importa en el dolor, la digestión, el ánimo y el sueño.",
+  "title": "PNIE en Barcelona · Psiconeuroinmunoendocrinología | WA LAM",
+  "desc": "Consulta de PNIE (psiconeuroinmunoendocrinología) en Sarrià–Sant Gervasi, Barcelona: estrés, sueño, digestión, microbiota, hormonas e inflamación con una mirada integrativa y basada en la evidencia.",
+  "h1": "Psiconeuroinmunoendocrinología (PNIE) en Barcelona",
+  "sub": "Qué es, de dónde viene, cómo se relacionan intestino, cerebro, hormonas e inmunidad · Sarrià–Sant Gervasi",
+  "lead": "La PNIE (psiconeuroinmunoendocrinología) estudia cómo se comunican el sistema nervioso, el sistema hormonal, el sistema inmune y la microbiota intestinal, y cómo influyen en ellos el estrés, el sueño, la alimentación, las emociones y la conducta. Ayuda a entender por qué síntomas que parecen independientes, como una digestión difícil, un dolor que no se va, el cansancio o la ansiedad, aparecen a menudo juntos, y a buscar su origen en lugar de tratarlos uno por uno.",
+  "facts_title": "En WA LAM",
+  "facts": [
+   "Consulta de PNIE (psiconeuroinmunoendocrinología)",
+   "Digestión, dolor crónico, cansancio, ánimo, hormonas y sueño",
+   "Primera visita: 60 min · 90 €",
+   "No se recetan fármacos · coordinación con su médico"
+  ],
+  "wa": "Hola, me gustaría información sobre la consulta de PNIE.",
+  "explain": {
+   "h2": "¿Qué es la PNIE (psiconeuroinmunoendocrinología)?",
+   "paras": [
+    "La **psiconeuroinmunoendocrinología (PNIE)** es una disciplina integrativa que estudia la relación entre el **sistema nervioso**, el **sistema endocrino** (las hormonas), el **sistema inmune** y la **conducta**, y que en los últimos años ha incorporado un nuevo protagonista: la **microbiota intestinal**. Su nombre resume sus piezas: *psico* (mente, emociones y conducta), *neuro* (sistema nervioso), *inmuno* (defensas e inflamación) y *endocrino* (hormonas).",
+    "La idea central es que estos sistemas no funcionan por separado, sino que **hablan entre sí de forma continua y recíproca**. El cerebro influye en el sistema inmune a través de los nervios y de las hormonas del estrés; el sistema inmune informa al cerebro mediante mensajeros llamados citoquinas, que cambian el estado de ánimo, el sueño o el apetito; las hormonas modulan la inflamación y la percepción del dolor; y la microbiota del intestino participa en todo ese diálogo.",
+    "Por eso la PNIE mira a la persona en su conjunto. Un problema digestivo puede influir en el ánimo, una etapa de estrés puede alterar el ciclo menstrual o la piel, y un sueño de mala calidad puede mantener una inflamación de bajo grado que, a su vez, aumenta la sensibilidad al dolor. Entender esas conexiones permite buscar el **origen** de los síntomas y no solo aliviarlos.",
+    "En esta página se explica de dónde viene la PNIE, qué ha descubierto sobre el intestino y el cerebro, las emociones y el sistema inmune, el cortisol, el nervio vago, el sueño, las hormonas o la microbiota, y cómo es una consulta de PNIE."
+   ]
+  },
+  "mirror": {
+   "h2": "¿Le suena alguna de estas situaciones?",
+   "qs": [
+    "¿Tiene molestias digestivas, como hinchazón, estreñimiento o diarrea, que empeoran cuando está estresado o duerme mal?",
+    "¿Convive con dolor crónico, dolores de cabeza o cansancio y, además, con problemas digestivos o de ánimo, y visita a un especialista distinto para cada cosa?",
+    "¿Enferma, le da una migraña o se le carga la espalda justo cuando empieza las vacaciones?",
+    "¿Siente que, desde una infección o una etapa de mucho estrés, ya no ha recuperado su energía ni su sueño?"
+   ],
+   "close": "Antes de seguir, revise las señales de alarma que explicamos más abajo: algunas necesitan una valoración médica primero."
+  },
+  "sections": [
+   {
+    "h2": "¿De dónde viene la PNIE?",
+    "paras": [
+     "La PNIE nace en los años setenta en un laboratorio de la Universidad de Rochester. El psicólogo **Robert Ader** y el inmunólogo **Nicholas Cohen** daban a unas ratas agua con sacarina junto con una inyección de ciclofosfamida, un fármaco que deprime el sistema inmune. Días después, a algunos animales solo les dieron la sacarina, sin el fármaco, y comprobaron que su respuesta de anticuerpos también disminuía: el sistema inmune había «aprendido» a responder a una señal que procesaba el cerebro (Ader y Cohen, Psychosomatic Medicine, 1975). Era un **estudio en animales**, pero rompió una idea muy asentada: que el sistema inmune funcionaba de forma autónoma, sin relación con el sistema nervioso.",
+     "En las décadas siguientes, el inmunólogo **Ronald Glaser** y la psicóloga **Janice Kiecolt-Glaser**, de la Universidad Estatal de Ohio, llevaron esa idea a las personas. Uno de sus trabajos más conocidos comparó a 13 mujeres que cuidaban de un familiar con alzhéimer con 13 mujeres de edad e ingresos similares. A todas se les hizo una pequeña herida estandarizada en la piel: en las cuidadoras tardó de media 48,7 días en cerrarse, frente a 39,3 días en el grupo de comparación, es decir, **unos 9 días más** (Kiecolt-Glaser et al., Lancet, 1995). El grupo era pequeño, pero el mensaje se ha confirmado después muchas veces: el estrés mantenido se traduce en cambios medibles del sistema inmune (Glaser y Kiecolt-Glaser, Nature Reviews Immunology, 2005).",
+     "Un metaanálisis que reunió más de 300 estudios realizados durante 30 años ordenó ese conocimiento: los estresores agudos, de minutos, ponen en marcha algunos mecanismos de defensa de forma adaptativa, mientras que los **estresores crónicos** se asocian a una supresión de la inmunidad celular y humoral (Segerstrom y Miller, Psychological Bulletin, 2004). Con los años se añadió de forma explícita el **sistema endocrino** (las hormonas), y de ahí la «E» de PNIE: psico-neuro-inmuno-endocrinología. Una revisión publicada en *World Allergy Organization Journal* describe la PNIE como el estudio de las interacciones entre la psique, las funciones nerviosas y endocrinas y la respuesta inmune, y repasa su aplicación clínica en enfermedades alérgicas, autoinmunes, reumáticas, endocrinas o cardiovasculares (González-Díaz et al., 2017).",
+     "El último gran giro llegó con el estudio del **microbioma**. Gracias a la metagenómica, que permite leer el ADN del conjunto de microorganismos del intestino, se ha visto que la diversidad de la microbiota y la proporción de sus grandes grupos (filos) cambian en muchas enfermedades. Una revisión de Timothy Dinan y John Cryan, de la University College Cork, lo resumió en su título: la psiconeuroinmunología «se encuentra con el microbioma» (Neuropsychopharmacology, 2017). El eje intestino–cerebro se ha convertido en uno de los protagonistas de la neurociencia, y algunos autores hablan ya de **inmunopsiquiatría** para referirse a la relación entre inflamación y salud mental (Pariante, Lancet Psychiatry, 2015). Es lo que Xevi Verdaguer, uno de los grandes divulgadores de la PNIE en España, llama un nuevo paradigma de salud: **microorganismos, inmunidad y comportamiento**."
+    ]
+   },
+   {
+    "h2": "¿Para qué sirve la PNIE?",
+    "paras": [
+     "La PNIE sirve, ante todo, para **buscar el origen** de un problema de salud y **entender el mecanismo** que lo mantiene, en lugar de poner un parche a cada síntoma por separado. Cuando alguien tiene a la vez molestias digestivas, dolor de cabeza, cansancio y ansiedad, la pregunta no es solo qué tomar para cada cosa, sino qué tienen en común: un sueño que no repara, un estrés sostenido, una microbiota alterada, un desequilibrio hormonal o una inflamación de bajo grado que no termina de resolverse.",
+     "Para ello combina varios niveles de análisis: el **fisiológico** (digestión, hormonas, inmunidad, analíticas), el **psicológico** (estrés, emociones, forma de afrontar los problemas), el **nutricional** (qué, cuándo y cómo se come) y el **social** (trabajo, relaciones, apoyo, ritmo de vida). Con todo ello se construye una hipótesis de por qué aparecen los síntomas y se ordena qué conviene cambiar primero.",
+     "Lo que la PNIE no hace es diagnosticar ni tratar enfermedades con fármacos: eso corresponde al médico. Su papel es ofrecer una lectura global que ayude a la persona a entender lo que le pasa y a modificar los hábitos que influyen en su salud, siempre en **coordinación con la medicina convencional**."
+    ]
+   },
+   {
+    "h2": "¿Qué diferencia hay entre la PNIE y la medicina integrativa?",
+    "paras": [
+     "Son dos conceptos cercanos que a menudo se confunden, pero no son lo mismo, y el propio Xevi Verdaguer los distingue. La **PNIE** es una disciplina que estudia la **comunicación entre el sistema nervioso, el sistema hormonal, el sistema inmune, la microbiota y la conducta**. Su pregunta central es «¿por qué?»: busca el origen y el mecanismo de los síntomas, cómo una situación de estrés acaba alterando la digestión o cómo una inflamación intestinal puede influir en el estado de ánimo.",
+     "La [medicina integrativa](medicina-integrativa-barcelona) es el **marco clínico amplio** que combina la medicina convencional con otras herramientas basadas en la evidencia, como la nutrición, el ejercicio, la gestión del estrés o las terapias manuales, y que pone a la persona en el centro. Su pregunta es «¿qué hacemos y cómo lo coordinamos?»: integra diagnósticos, tratamientos médicos y cambios de estilo de vida en un plan común.",
+     "Dicho de forma sencilla, la PNIE aporta el **mapa de cómo se relacionan los sistemas del cuerpo** y la medicina integrativa aporta la **forma de trabajar en equipo** con ese mapa. Por eso se entienden bien juntas: el conocimiento de la PNIE ayuda a elegir qué cambios de hábitos tienen sentido para cada persona, y el marco integrativo asegura que esos cambios se coordinen con su médico y con el resto de profesionales que la atienden."
+    ]
+   },
+   {
+    "h2": "¿Por qué en una consulta de PNIE le preguntan cómo va de vientre?",
+    "paras": [
+     "Quien acude por primera vez a una consulta de PNIE suele sorprenderse con algunas preguntas. «Vengo por cansancio, ¿por qué me preguntan cómo voy de vientre?». «Vengo por tristeza o ansiedad, ¿por qué quieren saber cómo son mis reglas?». «¿Qué importa cómo nací, si fue por parto o por cesárea, si tomé lactancia materna o cómo fue mi infancia?». Son preguntas lógicas desde la PNIE, porque cada una informa de un sistema que influye en los demás.",
+     "El **ritmo intestinal** y la forma de las heces dan pistas sobre la microbiota, la digestión y la inflamación del intestino, que dialogan con el cerebro. El **ciclo menstrual** refleja el equilibrio hormonal, y hormonas como la progesterona actúan también sobre el sistema nervioso y el estado de ánimo. El **tipo de parto, la lactancia y las primeras etapas de la vida** influyen en cómo se forma la microbiota: una revisión del eje microbiota–intestino–cerebro recoge entre esos factores la infección, el modo de nacimiento, los antibióticos, la alimentación temprana, el estrés y la genética (Cryan et al., Physiological Reviews, 2019). Y las **experiencias de la infancia** dejan huella en la respuesta al estrés y en la inflamación de la edad adulta, como se explica más abajo.",
+     "Por eso la entrevista es larga y abarca mucho más que el motivo de consulta: digestión, sueño, energía, dolor, piel, alergias, ciclo hormonal, estado de ánimo, medicación, analíticas e historia vital. No es curiosidad: es la forma de ver el conjunto."
+    ]
+   },
+   {
+    "h2": "¿Cómo se comunican el intestino y el cerebro?",
+    "paras": [
+     "La microbiota intestinal, el sistema inmune y el sistema nervioso mantienen un **diálogo constante** y en ambas direcciones. Por ese diálogo circulan señales que influyen en el estado de ánimo, la memoria, la salud emocional, la conducta y también en las hormonas. La microbiota y el cerebro se comunican por varias vías: el sistema inmune, el metabolismo del triptófano (precursor de la serotonina), el [nervio vago](nervio-vago), el sistema nervioso entérico y metabolitos bacterianos como los **ácidos grasos de cadena corta** (Cryan et al., Physiological Reviews, 2019). Ese equilibrio no es fijo: se mantiene o se pierde según los hábitos de cada día.",
+     "En consulta se ve con mucha frecuencia un patrón con el que muchas personas se identifican. Alguien con **estreñimiento o [colon irritable](colon-irritable-sibo)** que, además, tiene [dolor crónico](dolor-persistente-cronico), cansancio y [dolores de cabeza](cefaleas-migrana). O una chica joven con la **regla irregular o dolorosa**, problemas digestivos, ansiedad y, a la vez, acné o alergias. Lo habitual es visitar a un especialista distinto para cada cosa: el digestivo para el intestino, el ginecólogo para la regla, el dermatólogo para la piel y el psicólogo para la ansiedad. Cada uno trata bien su parte, pero nadie se pregunta qué conecta todos esos síntomas.",
+     "La PNIE parte precisamente de esa pregunta. Si el intestino está inflamado, si la microbiota ha perdido diversidad o si el estrés mantiene activado el eje hormonal del estrés, es posible que varios síntomas aparentemente independientes compartan un mismo origen. No siempre es así, y por eso cada caso se estudia de forma individual, pero tenerlo en cuenta cambia la forma de abordar el problema.",
+     "Sobre la microbiota se puede influir de varias maneras: con la **alimentación**, con **suplementos o medicamentos** cuando están indicados, con el **ejercicio físico**, con la **gestión del estrés** y, en casos muy concretos, con el **trasplante de microbiota fecal**, que es una técnica médica indicada sobre todo en la infección recurrente por *Clostridioides difficile*. Encontrará más información en las páginas de [microbiota](salud-digestiva-microbiota) y de [nutrición y salud intestinal](nutricion-salud-intestinal)."
+    ]
+   },
+   {
+    "h2": "¿Qué rompe el equilibrio intestinal?",
+    "paras": [
+     "La microbiota no depende solo de lo que comemos. Las **hormonas sexuales** (estrógenos y testosterona) influyen en su composición y, a la vez, la microbiota participa en el metabolismo de esas hormonas. Los **tóxicos ambientales** y los **medicamentos** también la modifican, y no solo los antibióticos. En un estudio de laboratorio se analizaron cerca de 1.200 compuestos frente a 40 cepas representativas de bacterias intestinales humanas: el **27 % de los fármacos no antibióticos** frenó el crecimiento de al menos una cepa (Maier et al., Nature, 2018). Es un estudio **in vitro** y no indica que esos fármacos sean perjudiciales, pero muestra que la medicación forma parte del contexto de la microbiota.",
+     "En personas, un estudio con 1.815 participantes de tres cohortes encontró que quienes tomaban **inhibidores de la bomba de protones** (los protectores de estómago) tenían menos diversidad bacteriana y cambios en el 20 % de los grupos bacterianos analizados, con más bacterias de origen oral en las heces (Imhann et al., Gut, 2016). Es una **asociación**, y la decisión sobre cualquier medicamento corresponde siempre al médico; lo que aporta la PNIE es tener en cuenta ese factor al estudiar el caso.",
+     "El **estrés en la infancia** es otro elemento clave. En el estudio de Dunedin, que siguió a una cohorte de nacimiento hasta los 32 años, las personas que habían sufrido maltrato en la infancia tenían un 80 % más de riesgo de presentar una proteína C reactiva elevada en la edad adulta (riesgo relativo 1,80), independientemente de otros factores de riesgo, del estrés adulto y de los hábitos de salud (Danese et al., PNAS, 2007). La experiencia temprana parece «programar» la respuesta inflamatoria, lo que se asocia a más riesgo de inflamación y de depresión años después.",
+     "Por último, el **estrés social** (conflictos, aislamiento, sentirse subordinado o amenazado) se relaciona con ansiedad, depresión e incluso conductas agresivas, y el sistema inmune participa en esa relación a través de las citoquinas, las moléculas mensajeras de la inflamación (Takahashi et al., Frontiers in Behavioral Neuroscience, 2018)."
+    ]
+   },
+   {
+    "h2": "¿Pueden las emociones y las discusiones cambiar el sistema inmune?",
+    "paras": [
+     "Sí, y es uno de los hallazgos más llamativos de la PNIE. Las **citoquinas** son proteínas que usan las células inmunes para comunicarse; algunas, como la interleucina 6 (IL-6), la interleucina 1β (IL-1β) o el factor de necrosis tumoral alfa (TNF-α), promueven la inflamación, y la proteína C reactiva (PCR) es un marcador que la refleja en sangre. Pues bien, sus niveles cambian con las relaciones y con las emociones.",
+     "En un experimento con 42 parejas, cada pareja pasó dos estancias de 24 horas en una unidad de investigación. En la primera mantuvieron una conversación de **apoyo mutuo**; en la segunda, discutieron un **desacuerdo** de su relación. Tras la discusión, unas pequeñas heridas experimentales cicatrizaron más despacio que tras la conversación de apoyo. Las parejas con conductas más hostiles curaron al **60 % de la velocidad** de las parejas poco hostiles y, a la mañana siguiente de la discusión, mostraron mayores aumentos de IL-6 y TNF-α en sangre (Kiecolt-Glaser et al., Archives of General Psychiatry, 2005). El **apoyo social**, en cambio, se asociaba a un perfil más favorable. Muchas personas reconocen además que basta con anticipar una conversación difícil para notar el estómago encogido o el cuello tenso: la respuesta de estrés se pone en marcha antes incluso del conflicto.",
+     "La relación aparece también en la conducta. Las personas con rasgos más agresivos presentan niveles más altos de citoquinas inflamatorias y alteraciones de la respuesta inmune, como una cicatrización más lenta (Takahashi et al., 2018). En la **depresión**, un subgrupo de pacientes muestra un sistema inmune desequilibrado, con más IL-6 y otras citoquinas (Miller et al., Biological Psychiatry, 2009; Pfau et al., Annual Review of Pharmacology and Toxicology, 2018), y se investiga el papel de los linfocitos T reguladores, las células que frenan la inflamación (Ellul et al., Frontiers in Neurology, 2018).",
+     "Este conocimiento no va en contra de la medicación, al contrario: un metaanálisis de 45 estudios con 1.517 pacientes encontró que el tratamiento antidepresivo se acompaña de un descenso de la IL-6 y del TNF-α (Köhler et al., Molecular Neurobiology, 2018). Lo que aporta la PNIE es la idea de que, junto al tratamiento que indique el médico, conviene cuidar también los factores que mantienen la inflamación: el sueño, el estrés, la alimentación, el intestino y las relaciones."
+    ]
+   },
+   {
+    "h2": "¿Por qué siento que no levanto cabeza? La conducta de enfermedad",
+    "paras": [
+     "Cuando tenemos una gripe, nos sentimos cansados, sin apetito, sin ganas de ver a nadie, con sueño y sin capacidad de disfrutar de nada. No es solo el virus: es el sistema inmune que, a través de las citoquinas, «avisa» al cerebro para que el cuerpo ahorre energía y se dedique a defenderse. Se llama **conducta de enfermedad** (en inglés, *sickness behaviour*), y la describió el investigador Robert Dantzer: es una respuesta adaptativa ante virus, bacterias, hongos o parásitos (Dantzer et al., Nature Reviews Neuroscience, 2008).",
+     "El problema aparece cuando esa señal no se apaga. Si la inflamación de bajo grado se mantiene, por una infección que no se ha resuelto del todo, una disbiosis, un estrés crónico o un mal descanso, la persona puede seguir sintiendo **cansancio, apatía, falta de apetito, tendencia a aislarse, somnolencia y anhedonia** (dificultad para disfrutar). Dantzer y su equipo describen cómo, en algunas personas, esa conducta de enfermedad puede evolucionar hacia síntomas depresivos. Es una de las respuestas posibles a la pregunta «¿mi estado de ánimo puede tener que ver con mi intestino?».",
+     "¿Cómo llegan las citoquinas al cerebro? Por dos vías principales. La **vía nerviosa**: las fibras sensitivas del [nervio vago](nervio-vago) detectan la inflamación en el abdomen y la comunican directamente al tronco cerebral. Y la **vía humoral**: las citoquinas circulan por la sangre y actúan en zonas donde la barrera hematoencefálica es más permeable, o atraviesan esa barrera mediante transportadores. Una vez en el cerebro, la IL-1β aumenta el metabolismo de la serotonina y la noradrenalina, estimula la hormona liberadora de corticotropina (CRF), que activa el **eje hipotálamo–hipófisis–suprarrenal** (el eje del estrés), y pone en marcha el factor NF-κB, un interruptor central de la inflamación.",
+     "El circuito funciona también en sentido contrario. El estrés, la ira o el miedo activan a la vez las citoquinas, el eje hipotálamo–hipófisis–suprarrenal y el **eje simpático–adrenomedular**, con liberación de cortisol, prolactina, hormona del crecimiento, noradrenalina y adrenalina. En un experimento con voluntarios sanos, una prueba de estrés de laboratorio de pocos minutos activó el NF-κB de las células inmunes de la sangre en 17 de 19 personas, en paralelo con el aumento de catecolaminas y cortisol (Bierhaus et al., PNAS, 2003). En estudios con **animales**, el estrés psicosocial aumenta la activación de la microglía, las células inmunes del cerebro (Calcia et al., Psychopharmacology, 2016)."
+    ]
+   },
+   {
+    "h2": "¿Por qué enfermo justo el primer día de vacaciones? El cortisol",
+    "paras": [
+     "El **cortisol** es la principal hormona del estrés y tiene un efecto antiinflamatorio potente: reduce la producción de citoquinas inflamatorias y frena la respuesta inmune. Por eso los médicos utilizan la cortisona, su versión farmacológica, en muchas enfermedades inflamatorias y autoinmunes. En dosis justas y durante poco tiempo, el estrés agudo puede incluso proteger, porque prepara al organismo para responder. El estrés crónico, en cambio, desordena ese sistema: el metaanálisis de Segerstrom y Miller asoció los estresores crónicos a la supresión de la inmunidad celular y humoral (2004).",
+     "Esto ayuda a entender una experiencia muy común: después de semanas de presión en el trabajo, llega el primer día de vacaciones y aparece la fiebre, el resfriado, la **migraña** o una contractura. Una explicación que se propone desde la PNIE es que, mientras dura el estrés, el cortisol alto mantiene la inflamación «a raya»; cuando baja de golpe, el sistema inmune se «despierta» y se manifiestan síntomas que estaban contenidos. Es una hipótesis razonable, aunque el mecanismo exacto no está demostrado.",
+     "Lo que sí está descrito es el fenómeno. En una muestra representativa de 1.893 adultos neerlandeses, alrededor del **3 %** se reconocía en la descripción de enfermar los fines de semana o en vacaciones; los síntomas más frecuentes eran **dolor de cabeza o migraña, cansancio, dolores musculares y náuseas**, y en vacaciones también infecciones como resfriados o cuadros gripales. Las personas afectadas se diferenciaban sobre todo por una mayor carga de trabajo, un elevado sentido de la responsabilidad y la **dificultad para desconectar** (Vingerhoets et al., Psychotherapy and Psychosomatics, 2002). La conclusión práctica es que conviene repartir el descanso a lo largo del año, y no acumular toda la tensión para soltarla de golpe en agosto."
+    ]
+   },
+   {
+    "h2": "¿Qué papel tienen el simpático y el parasimpático? El reflejo antiinflamatorio del nervio vago",
+    "paras": [
+     "El sistema nervioso autónomo tiene dos ramas que funcionan como un acelerador y un freno. El **simpático** es el sistema de «lucha o huida»: acelera el corazón, moviliza energía y, en el terreno inmune, favorece la producción de **citoquinas inflamatorias**; el experimento de Bierhaus mostró que la noradrenalina activa el NF-κB de las células inmunes. El **parasimpático** es el sistema de la calma, la digestión y la reparación, y su principal representante es el [nervio vago](nervio-vago), que favorece un perfil **antiinflamatorio**.",
+     "A comienzos de los años 2000, el equipo del neurocirujano Kevin Tracey describió el **reflejo antiinflamatorio colinérgico**. En ratas con una inflamación sistémica grave provocada por endotoxina bacteriana, la estimulación eléctrica del nervio vago redujo el TNF-α en sangre y evitó el shock; en el laboratorio, la acetilcolina, el neurotransmisor del vago, frenaba la liberación de TNF por los macrófagos (Borovikova et al., Nature, 2000). Tracey lo describió como un circuito reflejo: el vago detecta la inflamación y responde enviando una señal que la modera (Tracey, Nature, 2002).",
+     "En el intestino, un estudio en **ratones** mostró que este efecto antiinflamatorio del vago actúa sobre los macrófagos residentes de la pared intestinal a través de neuronas del sistema nervioso entérico, sin necesidad del bazo, y que mejoraba la inflamación y el tránsito tras una cirugía abdominal (Matteoli et al., Gut, 2014). Son estudios en animales, pero explican por qué el equilibrio entre simpático y parasimpático interesa tanto en PNIE.",
+     "En la vida diaria, el tono parasimpático se cuida con hábitos sencillos: respiración lenta y diafragmática, sueño suficiente, comidas tranquilas, contacto social, naturaleza y actividades que relajan, como el [mindfulness](mindfulness-barcelona), el [yoga](yoga-particular-grupos-reducidos) o el [qigong](qigong-barcelona). No son fórmulas mágicas, sino formas de dar al cuerpo más tiempo en «modo reparación»."
+    ]
+   },
+   {
+    "h2": "¿Por qué dormir mal inflama?",
+    "paras": [
+     "El sueño es uno de los reguladores más potentes del sistema inmune. Un metaanálisis de **72 estudios con unos 50.000 participantes** encontró que las alteraciones del sueño, como la mala calidad o el insomnio, se asocian a niveles más altos de **PCR e IL-6**, dos marcadores de inflamación, mientras que no se observó relación con el TNF-α. Dormir poco se asoció a más PCR, y dormir en exceso, a más PCR e IL-6 (Irwin, Olmstead y Carroll, Biological Psychiatry, 2016). Los efectos son pequeños y proceden en su mayoría de estudios observacionales, pero los autores proponen considerar el mal dormir como un factor de riesgo conductual de inflamación. Entre los mecanismos que se estudian están la activación de receptores inmunes como TLR4 y la vía del NF-κB.",
+     "La duración del sueño también se relaciona con la salud a largo plazo. Un metaanálisis de 16 estudios prospectivos, con casi 1,4 millones de personas y más de 112.000 fallecimientos, observó que dormir poco (por lo general, menos de 7 horas) se asociaba a un **12 % más de riesgo de mortalidad**, y dormir mucho (más de 8 o 9 horas), a un **30 % más** (Cappuccio et al., Sleep, 2010). Es una **asociación**: dormir mucho puede ser también consecuencia de una enfermedad, no su causa. La recomendación general para adultos se sitúa en torno a 7–8 horas por noche.",
+     "No cuenta solo la cantidad, sino la continuidad. Un sueño continuo, sin despertares frecuentes, se acompaña de menos actividad del sistema simpático y de marcadores inflamatorios más bajos, mientras que un sueño fragmentado mantiene el organismo en un estado de alerta. Por eso, en PNIE, mejorar el descanso es casi siempre una prioridad, y las intervenciones que mejoran el sueño, como la terapia cognitivo-conductual para el insomnio, la actividad física o prácticas como el taichí, se estudian también por su posible efecto sobre la inflamación. Encontrará más información en la página de [sueño e insomnio](sueno-insomnio)."
+    ]
+   },
+   {
+    "h2": "¿Qué son los psicobióticos?",
+    "paras": [
+     "Algunas bacterias intestinales fabrican o modulan **moléculas neuroactivas**, sustancias capaces de actuar sobre el sistema nervioso, como el GABA, precursores de la serotonina o ácidos grasos de cadena corta. Dinan y Cryan propusieron llamar **psicobióticos** a las bacterias vivas que, al ingerirse, aportan un beneficio para la salud mental a través de su interacción con la microbiota; más tarde, el concepto se amplió a cualquier influencia externa, como la fibra prebiótica, cuyo efecto sobre el cerebro esté mediado por las bacterias (Dinan y Cryan, Neuropsychopharmacology, 2017; Cryan et al., 2019).",
+     "La idea de fondo es que la microbiota influye en el equilibrio entre simpático y parasimpático y, a través de él, en la inmunidad y en las hormonas. La investigación en animales es abundante y la investigación en personas está en marcha, con resultados todavía preliminares. Por eso conviene ser prudente: no existe un probiótico «para la ansiedad» que sirva a todo el mundo, y la indicación de cualquier suplemento debe individualizarla un profesional.",
+     "Lo que sí cambia este conocimiento es el tipo de preguntas que se hacen en consulta. Ante una persona con ansiedad o tristeza persistente, la PNIE pregunta también: **¿cómo va de vientre?** Y ante una persona con colon irritable: **¿cómo está su salud emocional?** Las dos preguntas forman parte del mismo eje."
+    ]
+   },
+   {
+    "h2": "¿Hacia dónde va la PNIE?",
+    "paras": [
+     "El futuro de la PNIE pasa por entender con más detalle cómo los **metabolitos y las enzimas de las bacterias** dialogan con el sistema inmune, con el cerebro y con la conducta. Los ácidos grasos de cadena corta, los ácidos biliares transformados por la microbiota, los derivados del triptófano o los fragmentos de la pared bacteriana son algunas de las moléculas que se investigan como mensajeros de ese diálogo (Cryan et al., 2019). La revisión de Dinan y Cryan describe además cómo cambia la microbiota desde la infancia hasta la vejez y cómo podría modificarse para mejorar la salud mental.",
+     "También se estudia su papel en enfermedades concretas, como la psoriasis, la enfermedad coronaria o el cáncer, donde los factores biológicos y conductuales influyen en la evolución y en la tolerancia a los tratamientos (McDonald et al., Brain, Behavior, and Immunity, 2013). Es un campo en plena expansión, y muchas de sus aplicaciones son todavía hipótesis que se están comprobando.",
+     "Mientras tanto, la PNIE ofrece un mensaje práctico: la salud depende de muchas piezas a la vez. Xevi Verdaguer lo resume con una pregunta: **¿cuántas cosas hacemos para estar bien?** Más que buscar un único remedio, se trata de **sumar**: dormir mejor, moverse cada día, comer más variado y con más fibra, cuidar las relaciones, reservar momentos de calma. Cada hábito suma un poco y, juntos, cambian el terreno sobre el que aparecen los síntomas."
+    ]
+   },
+   {
+    "h2": "¿Qué papel tienen las hormonas?",
+    "paras": [
+     "La «E» de PNIE recuerda que las hormonas forman parte del mismo sistema de comunicación. Un buen ejemplo es la **progesterona**. Se conoce sobre todo como hormona reproductora: la producen los ovarios en la segunda mitad del ciclo, tras la ovulación (el cuerpo lúteo), la placenta durante el embarazo y, en menor cantidad, las glándulas suprarrenales; en los hombres, las suprarrenales y los testículos. Pero el sistema nervioso también la fabrica en sus propias células (neuronas y glía), y allí se estudian sus efectos neuroprotectores y su papel en la reparación de la mielina (Schumacher et al., Frontiers in Neuroscience, 2012).",
+     "En el cerebro, la progesterona se transforma en **alopregnanolona**, una molécula que estimula el receptor GABA-A, el principal sistema de «freno» del sistema nervioso. El GABA participa en la calma, el descanso y el sueño, en la regulación de la tensión arterial y del ritmo cardiaco, en la percepción del dolor, en el tono muscular y en la motilidad intestinal. Por eso Xevi Verdaguer habla de la progesterona como una hormona antiinflamatoria y calmante: cuando falta, la actividad gabaérgica disminuye y puede predominar el sistema simpático.",
+     "¿Por qué puede faltar progesterona? Entre los factores que se describen están el **estrés crónico** (el cortisol y la progesterona comparten precursores y el estrés altera la ovulación), los trastornos de la **tiroides** (véase [hipotiroidismo y Hashimoto](hipotiroidismo-hashimoto)), los ciclos sin ovulación y una **fase lútea corta**. En la [salud de la mujer y la menopausia](salud-mujer-menopausia) se explica con más detalle. Desde la PNIE se trabaja sobre el estilo de vida (descanso, ejercicio moderado, alimentación suficiente y variada, exposición al sol, gestión del estrés), y el estudio hormonal y cualquier tratamiento los decide el médico o el ginecólogo."
+    ],
+    "list_title": "Algunas señales que pueden relacionarse con un déficit de progesterona y que conviene comentar con el ginecólogo:",
+    "list": [
+     "Ciclos cortos, de 24 días o menos.",
+     "Manchado marrón varios días antes de la regla o durante la segunda mitad del ciclo.",
+     "Temperatura basal que no sube tras la ovulación y sensación de frío.",
+     "Dolor de regla, tensión mamaria, hinchazón o dolor lumbar premenstrual.",
+     "Reglas abundantes, miomas, mamas fibroquísticas o endometriosis.",
+     "Ansiedad, irritabilidad, insomnio o bruxismo en los días previos a la regla.",
+     "Dificultad para quedarse embarazada o abortos tempranos."
+    ]
+   },
+   {
+    "h2": "¿Por qué algunas personas no se recuperan igual? La resolución de la inflamación",
+    "paras": [
+     "Muchas personas cuentan en consulta que, después de un virus, una infección como la COVID o una etapa de mucho estrés, «ya no han vuelto a ser las mismas»: «nunca he recuperado mi energía», «no tengo la fuerza muscular que tenía», «mi sueño ya no es igual». Una de las claves para entenderlo es que **inflamarse es normal; lo que no es normal es no resolver la inflamación**.",
+     "La inflamación aguda es una respuesta de defensa necesaria: durante unos días aparecen dolor, rojez e hinchazón, y después sigue una fase de reparación que puede durar semanas. Durante mucho tiempo se pensó que la inflamación se apagaba sola, de forma pasiva. Hoy se sabe que su final es un proceso **activo**, dirigido por unas moléculas llamadas **mediadores especializados pro-resolución**: resolvinas, protectinas y maresinas, que el cuerpo fabrica a partir de los ácidos grasos omega-3 (Serhan, Nature, 2014). Si ese «programa de cierre» falla, la inflamación se queda atascada en un nivel bajo pero persistente.",
+     "Un estudio con 98 personas con lumbalgia aguda, seguidas durante tres meses, aporta una pista interesante: quienes se recuperaron presentaron una respuesta inflamatoria transitoria, impulsada por los neutrófilos, y miles de cambios en la actividad de sus genes inmunes, mientras que en quienes el dolor persistió no se observaron esos cambios (Parisien et al., Science Translational Medicine, 2022). Es decir, una inflamación bien hecha y bien cerrada forma parte de la recuperación. Encontrará más sobre ello en las páginas de [dolor crónico](dolor-persistente-cronico) y de [inflamación crónica](inflamacion-cronica-autoinmunes).",
+     "Los omega-3 del pescado azul, las nueces o las semillas de lino y chía son la materia prima de las resolvinas, pero tomarlos no garantiza que el cuerpo las fabrique. Según Xevi Verdaguer, hay factores que dificultan la resolución: dormir poco o con interrupciones, las apneas del sueño, el insomnio, la menopausia (por la bajada de estrógenos), el sobrepeso, la glucosa elevada y la diabetes tipo 2 (véase [salud metabólica](salud-metabolica)). También se estudia la relación entre una microbiota oral e intestinal desordenada y problemas como la periodontitis, la enfermedad cardiovascular o el cáncer de colon, aunque se trata de asociaciones. La idea fuerza es que la clave no es evitar la inflamación, sino aprender a resolverla."
+    ]
+   },
+   {
+    "h2": "¿Qué es el almidón resistente y qué tiene que ver con el sistema inmune?",
+    "paras": [
+     "El **almidón resistente** es una parte del almidón que no se digiere en el intestino delgado y llega al colon, donde las bacterias lo fermentan y producen ácidos grasos de cadena corta, sobre todo **butirato**. En **ratones**, el butirato producido por la microbiota favorece la formación de **linfocitos T reguladores** en el colon, las células que frenan la inflamación (Furusawa et al., Nature, 2013). Por eso Xevi Verdaguer lo relaciona con el sistema inmune y con el equilibrio hormonal y emocional.",
+     "Hay un truco de cocina sencillo: cuando un alimento rico en almidón (patata, boniato, arroz, pasta, legumbres) se cocina y después se **enfría en la nevera**, parte de su almidón se reorganiza y se vuelve resistente. En un estudio, el arroz blanco enfriado 24 horas a 4 °C y recalentado tenía 1,65 g de almidón resistente por 100 g, frente a 0,64 g en el arroz recién hecho, y produjo una respuesta de glucosa menor en 15 adultos sanos (Sonia et al., Asia Pacific Journal of Clinical Nutrition, 2015). Las legumbres de bote, la ensalada de patata o la pasta del día anterior son ejemplos cotidianos. Son orientaciones generales; la pauta concreta se individualiza en la consulta de [nutrición y salud intestinal](nutricion-salud-intestinal)."
+    ]
+   },
+   {
+    "h2": "¿Qué relación hay entre la histamina y las emociones?",
+    "paras": [
+     "La **histamina** es un mensajero químico imprescindible: participa en la defensa inmune, en la secreción de ácido del estómago, en la vigilia y en la atención. Cuando se acumula, porque se libera en exceso o porque la enzima que la degrada en el intestino (la diaminooxidasa o DAO) no funciona bien, puede producir síntomas muy variados: picor, enrojecimiento, migraña, hinchazón abdominal, ansiedad o dolor de regla (Maintz y Novak, American Journal of Clinical Nutrition, 2007). Quien se enrojece con facilidad con el deporte o la vergüenza, o a quien una picadura de mosquito le deja una gran roncha, conoce bien algunos de esos efectos.",
+     "La histamina es también un buen ejemplo de PNIE. Los **mastocitos**, las células que la almacenan, responden a mensajeros del estrés como la sustancia P y la hormona liberadora de corticotropina, y en la piel el estrés puede desencadenar la llamada inflamación neurógena. Una revisión desde la perspectiva psiconeuroinmunológica describe cómo las enfermedades atópicas se acompañan de un desequilibrio de los ejes del estrés (Liezmann et al., Dermato-Endocrinology, 2011). Por eso las emociones pueden empeorar el picor, la urticaria o los síntomas digestivos. Encontrará más información en la página de [intolerancia a la histamina](intolerancia-histamina)."
+    ]
+   },
+   {
+    "h2": "¿Qué dicen sus heces de su salud?",
+    "paras": [
+     "En PNIE se presta mucha atención a cómo son las heces, porque ofrecen información sencilla y diaria sobre la digestión y la microbiota. La herramienta más usada es la **escala de Bristol**, que clasifica las heces en siete tipos: de los tipos 1 y 2 (bolitas duras o heces duras y grumosas, propias del estreñimiento) a los tipos 6 y 7 (pastosas o líquidas). Lo deseable son los tipos **3 y 4**: heces formadas, blandas y fáciles de expulsar. En 66 voluntarios, la forma de las heces se relacionó con el tiempo de tránsito intestinal mejor que la frecuencia o el peso (r = −0,54) (Lewis y Heaton, Scandinavian Journal of Gastroenterology, 1997).",
+     "Ir al baño cada día no basta: unas heces poco consistentes con gases frecuentes, o unas heces que flotan y manchan, indican que algo no se está digiriendo bien. Las páginas de [microbiota](salud-digestiva-microbiota), [diarrea crónica](diarrea-cronica) y [estreñimiento](estrenimiento) lo explican en detalle. Si aparece sangre, heces negras o un cambio persistente del ritmo intestinal, hay que consultar con el médico."
+    ]
+   },
+   {
+    "h2": "¿Qué temas estudia la PNIE sobre la microbiota?",
+    "paras": [
+     "La Dra. de la Puerta, especialista en microbiota, dedica sus conferencias y artículos a preguntas que interesan directamente a la PNIE. En la página de [microbiota](salud-digestiva-microbiota) se desarrollan una a una; aquí las resumimos:"
+    ],
+    "list": [
+     "**¿Qué patologías funcionales se asocian a la disbiosis?** Molestias como el colon irritable, la hinchazón o las infecciones de repetición se relacionan con una microbiota desequilibrada; recuperar la homeostasis intestinal es parte del abordaje.",
+     "**¿Qué relación hay entre la homeostasis intestinal y la inflamación?** Una microbiota diversa produce metabolitos antiinflamatorios; la disbiosis mantiene un «ruido inflamatorio» de fondo.",
+     "**¿Por qué la microbiota es imprescindible para el sistema inmune?** La mayor parte de las células inmunes se entrenan en contacto con el intestino.",
+     "**¿Qué tiene que ver con el metabolismo?** Peso, glucosa e [hígado graso](salud-metabolica) se relacionan con el diálogo entre microbiota y metabolismo.",
+     "**¿Qué son la disbiosis y la permeabilidad intestinal?** Cuando las uniones entre las células del intestino se aflojan, pasan sustancias que activan el sistema inmune.",
+     "**¿Cómo influye la nutrición?** La fibra, la variedad y los alimentos poco procesados alimentan a las bacterias beneficiosas; véase [nutrición y salud intestinal](nutricion-salud-intestinal).",
+     "**¿Por qué sentimos mariposas en el estómago?** Las emociones cambian la motilidad intestinal a través del nervio vago y de los neurotransmisores.",
+     "**¿Qué es el SIBO?** El sobrecrecimiento bacteriano en el intestino delgado se explica en [colon irritable y SIBO](colon-irritable-sibo).",
+     "**Cándida, ¿amiga o enemiga?** Una levadura habitual que puede volverse invasiva según el medio; véase [candidiasis de repetición](candidiasis-vaginal-repeticion).",
+     "**¿Qué relación hay entre microbiota y tiroides?** La conversión de hormonas, la absorción de minerales y la autoinmunidad dependen en parte del intestino; véase [hipotiroidismo y Hashimoto](hipotiroidismo-hashimoto)."
+    ]
+   },
+   {
+    "h2": "¿Puede la microbiota influir en el dolor de espalda? El eje intestino–disco",
+    "paras": [
+     "Puede parecer extraño que una página sobre PNIE hable del dolor de espalda. Sin embargo, en los últimos años varios grupos de investigación han empezado a estudiar una posible relación entre el estado del intestino y la salud de los **discos intervertebrales**. Se la conoce como **eje intestino–disco** y, aunque todavía es una **hipótesis emergente**, ayuda a entender por qué el dolor de espalda no siempre se explica solo por la postura o por el esfuerzo. Antes de explicarla conviene aclarar algunos términos.",
+     "El **disco intervertebral** es la estructura que separa una vértebra de la siguiente. Actúa como un amortiguador y, a la vez, permite que la columna se doble y gire. Tiene dos partes: el **núcleo pulposo**, un centro gelatinoso muy rico en agua que reparte las presiones, y el **anillo fibroso**, una serie de láminas de fibras dispuestas en capas, como las de una cebolla, que rodean y contienen el núcleo. Cuando el anillo se fisura y el núcleo se desplaza aparecen la protrusión y la [hernia discal](hernia-disco-incipiente). El disco del adulto es la estructura sin vasos sanguíneos más grande del cuerpo: se nutre por difusión a través de las placas de cartílago que lo unen a las vértebras.",
+     "La **microbiota intestinal** es el conjunto de microorganismos, sobre todo bacterias, que viven en el intestino. Se calcula que una persona adulta alberga unos **38 billones de bacterias**, una cifra del mismo orden que el número de células humanas del cuerpo (Sender et al., PLoS Biology, 2016). Esta comunidad participa en la digestión, produce sustancias que regulan la inflamación y entrena al sistema inmunitario. Se habla de **disbiosis** cuando el equilibrio de esa comunidad se altera: disminuyen las bacterias beneficiosas, proliferan otras con potencial inflamatorio o se pierde diversidad.",
+     "Durante décadas se consideró que el disco sano era **estéril**. En 2020, un equipo indio analizó con secuenciación genética (16S ARNr) 24 discos lumbares: 8 sanos, procedentes de donantes de órganos, 8 herniados y 8 degenerados. Detectaron en total 424 especies bacterianas, y **355 de ellas en los discos sanos**. En los discos normales abundaban bacterias consideradas protectoras, mientras que en los degenerados y herniados predominaban posibles patógenos (Rajasekaran et al., European Spine Journal, 2020). Los propios autores afirman que el hallazgo pone en duda la idea de un disco sano estéril. Conviene matizar que estudios posteriores con técnicas parecidas no siempre han obtenido las mismas bacterias, de modo que es un campo todavía en desarrollo.",
+     "¿Cómo podrían llegar bacterias o sus productos a un disco que no tiene vasos? Una revisión publicada en 2022 propuso el concepto de **eje intestino–disco** y describió tres mecanismos posibles (Li et al., European Spine Journal, 2022). El primero es el **paso de bacterias** a través de una barrera intestinal debilitada hasta la sangre y, desde ahí, hasta el disco. El segundo es la **regulación del sistema inmunitario**: una microbiota alterada mantiene una inflamación de bajo grado en todo el organismo que también alcanza el disco. El tercero son los **nutrientes y metabolitos** que la microbiota produce o ayuda a absorber y que difunden hasta el interior del disco.",
+     "En este punto entra en juego la llamada **barrera hemato-discal**. Como el núcleo pulposo apenas tiene contacto con la sangre, el sistema inmunitario prácticamente no lo vigila: es un tejido «inmunoprivilegiado». Eso protege al disco en condiciones normales, pero también significa que, si algún microorganismo o una molécula inflamatoria consigue entrar, por ejemplo a través de pequeñas lesiones de la placa vertebral, puede permanecer allí con poca resistencia y favorecer un ambiente inflamatorio que acelere la **degeneración discal**. Es una hipótesis plausible, pero todavía no se ha demostrado en personas que la disbiosis cause la degeneración del disco.",
+     "También hay datos de asociación entre la microbiota y el dolor de espalda en sí. En un estudio australiano con 36 adultos con sobrepeso u obesidad, las 14 personas que referían dolor de espalda tenían una composición de la microbiota distinta de las 22 que no lo tenían, con más abundancia del género *Adlercreutzia*, a pesar de que su dieta y su actividad física eran similares. Ese género se relacionaba además con el índice de masa corporal y con marcadores inflamatorios (Dekker Nitert et al., Frontiers in Endocrinology, 2020). Es un estudio pequeño y transversal: muestra una **asociación**, no que la microbiota provoque el dolor.",
+     "La lectura prudente de todo esto es que el intestino podría ser una pieza más en el dolor de espalda persistente, sobre todo cuando coinciden **inflamación de bajo grado**, problemas digestivos, sobrepeso o estrés mantenido. No se trata de explicar todos los dolores de espalda por la microbiota, sino de no dejar fuera del razonamiento clínico un sistema que influye en la inflamación de todo el cuerpo. Desde la visión osteopática, que considera el cuerpo como un conjunto, encaja con la idea de valorar a la vez la columna, las vísceras y el estilo de vida. Encontrará más información en la página de [lumbalgia](lumbalgia-dolor-lumbar)."
+    ],
+    "list_title": "Prevención en tres ejes que se refuerzan entre sí:",
+    "list": [
+     "**Alimentación:** una dieta variada, rica en fibra de verduras, legumbres, fruta y cereales integrales, con alimentos fermentados si se toleran, alimenta a las bacterias beneficiosas; limitar los ultraprocesados, el exceso de azúcar y el alcohol reduce los estímulos inflamatorios.",
+     "**Terapia manual y movimiento:** mantener la movilidad de la columna, la pelvis y el abdomen, y moverse a diario, favorece la nutrición del disco por difusión y el buen funcionamiento digestivo; el ejercicio regular también se asocia a una microbiota más diversa.",
+     "**Gestión del estrés:** el estrés crónico altera la barrera intestinal y la microbiota a través del eje intestino–cerebro y, a la vez, aumenta la tensión muscular y la sensibilidad al dolor; dormir bien, respirar con calma y reservar tiempo para el descanso actúan sobre los dos extremos del eje.",
+     "Consultar con el médico si el dolor de espalda se acompaña de fiebre, pérdida de peso sin causa, sangre en las heces o cambios persistentes del ritmo intestinal."
+    ]
+   },
+   {
+    "h2": "¿Por qué el dolor también es una señal? Intestino y sistema nervioso",
+    "paras": [
+     "Solemos pensar en el dolor solo como un problema que hay que hacer desaparecer. Pero el dolor es, ante todo, una **señal de alarma** del sistema nervioso, y en el intestino esa señal parece cumplir además una función protectora directa. Las neuronas que detectan estímulos dañinos se llaman **nociceptores**: avisan al cerebro de que algo va mal, pero también liberan sustancias en el propio tejido que se comunican con las células vecinas.",
+     "Un estudio de la Universidad de Harvard publicado en la revista *Cell* en 2022 lo mostró en **ratones**. Los nociceptores del intestino están situados junto a las **células caliciformes**, las encargadas de fabricar el **moco** que recubre y protege la pared intestinal. Cuando se activan, liberan un mensajero llamado **CGRP** (péptido relacionado con el gen de la calcitonina), que actúa sobre un receptor de las células caliciformes (RAMP1) y estimula la secreción de moco (Yang et al., Cell, 2022).",
+     "Los ratones a los que se eliminaron esos nociceptores tenían una capa de moco más fina, una microbiota alterada (**disbiosis**) y una colitis más grave cuando se les provocaba una inflamación intestinal. Al administrarles CGRP, quedaban de nuevo protegidos. Además, las propias bacterias intestinales y algunos estímulos de la dieta activaban esa liberación de CGRP. Es decir, en este modelo animal, las neuronas del dolor forman parte del sistema de defensa de la barrera intestinal.",
+     "Hay que recordar que se trata de un **estudio en animales** y que no puede trasladarse sin más a las personas. Aun así, aporta una idea útil para entender el dolor digestivo y el dolor en general: el dolor no es solo un síntoma molesto, sino información sobre lo que ocurre en el cuerpo. Por eso, además del alivio que el médico considere oportuno con la medicación, conviene **buscar el origen** del dolor y cuidar los factores que mantienen la barrera intestinal en buen estado.",
+     "Este hallazgo encaja con lo que se sabe del **eje intestino–sistema nervioso** y del [nervio vago](nervio-vago): el intestino y el sistema nervioso están en diálogo constante, en ambas direcciones. El estrés, el sueño, la alimentación y la microbiota influyen en ese diálogo, y por eso las molestias digestivas, el dolor y el estado de ánimo se relacionan con tanta frecuencia."
+    ]
+   },
+   {
+    "h2": "¿A quién va dirigida la PNIE?",
+    "paras": [
+     "La PNIE está pensada para personas con síntomas que se repiten o se cronifican, sobre todo cuando afectan a varios sistemas a la vez y las pruebas habituales no terminan de explicarlos. También para quienes, con un diagnóstico ya establecido y en tratamiento médico, quieren entender qué hábitos influyen en su evolución. Va dirigida a adultos de cualquier edad, y en la adolescencia, con el acompañamiento de la familia, en problemas como los digestivos, los del ciclo o el acné."
+    ],
+    "list_title": "Perfiles frecuentes en consulta:",
+    "list": [
+     "**Digestivo:** hinchazón, gases, estreñimiento, diarrea, [colon irritable o SIBO](colon-irritable-sibo), reflujo, [intolerancias e histamina](intolerancia-histamina).",
+     "**Dolor crónico:** [dolor persistente](dolor-persistente-cronico), [lumbalgia](lumbalgia-dolor-lumbar) que vuelve, [fibromialgia](fibromialgia), [migrañas](cefaleas-migrana).",
+     "**Cansancio y fatiga:** falta de energía que no mejora con el descanso o que empezó tras una infección.",
+     "**Ánimo y estrés:** ansiedad, tristeza, irritabilidad, sensación de estar siempre en alerta ([estrés y ansiedad](estres-ansiedad)).",
+     "**Hormonas y ciclo:** reglas dolorosas o irregulares, síndrome premenstrual, síndrome de ovario poliquístico, perimenopausia y [menopausia](salud-mujer-menopausia), [tiroides](hipotiroidismo-hashimoto).",
+     "**Piel y alergias:** acné, dermatitis, urticaria, rinitis o alergias que empeoran con el estrés.",
+     "**Autoinmunidad e inflamación:** enfermedades autoinmunes en tratamiento médico e [inflamación crónica](inflamacion-cronica-autoinmunes) de bajo grado.",
+     "**Sueño:** insomnio, despertares nocturnos, sueño que no repara ([sueño e insomnio](sueno-insomnio)).",
+     "**Metabolismo:** sobrepeso, glucosa alterada, hígado graso ([salud metabólica](salud-metabolica)).",
+     "**Infecciones de repetición:** cistitis, [candidiasis](candidiasis-vaginal-repeticion) o resfriados frecuentes."
+    ]
+   },
+   {
+    "h2": "¿Cómo es una consulta de PNIE en WA LAM?",
+    "paras": [
+     "La **primera visita dura 60 minutos y cuesta 90 €**. Se dedica a escuchar: el motivo de consulta, la historia de los síntomas y su evolución, la digestión y la forma de las heces, el sueño, la energía, el dolor, el ciclo hormonal, el estado de ánimo, la alimentación, la actividad física, la medicación y la historia vital, desde el nacimiento hasta hoy. Si tiene analíticas o informes recientes, conviene traerlos.",
+     "Como dice Xevi Verdaguer, **todo empieza con un dibujo**. Con la información recogida se hace un esquema que muestra de dónde puede venir el problema, cómo se relacionan los síntomas entre sí y qué conviene ir trabajando y en qué orden. Ese dibujo no es una promesa de lo que va a pasar, sino una forma clara de entender el propio caso y de saber por qué se propone cada cambio.",
+     "A partir de ahí se plantea un plan por fases, realista y adaptado a la vida de cada persona: cambios en la alimentación, el descanso, el movimiento y la gestión del estrés. Si es útil completar el estudio, por ejemplo con un análisis de heces o de microbiota, se explica para qué sirve y qué información aportará. En la consulta de PNIE **no se recetan fármacos** y no se modifica ninguna medicación: cualquier decisión sobre el tratamiento médico corresponde a su médico, con quien se procura mantener la **coordinación**."
+    ]
+   },
+   {
+    "h2": "¿Es segura la PNIE? Precauciones",
+    "paras": [
+     "La PNIE trabaja sobre hábitos de vida, por lo que es un abordaje seguro cuando se aplica con criterio. Aun así, hay precauciones importantes. La primera es no retrasar el diagnóstico médico: ante síntomas nuevos, intensos o con señales de alarma, la prioridad es el médico. La segunda es no abandonar ni modificar por cuenta propia ninguna medicación.",
+     "Los **suplementos** no son inocuos por ser «naturales»: pueden interactuar con fármacos (anticoagulantes, antidepresivos, anticonceptivos, tratamientos para la tiroides) o estar desaconsejados en el embarazo, la lactancia o algunas enfermedades. WA LAM no recomienda productos ni marcas: existen suplementos, y su indicación debe individualizarla un profesional. Del mismo modo, las dietas muy restrictivas o el ayuno no son adecuados para todo el mundo, por ejemplo en el embarazo, en personas con diabetes en tratamiento o con antecedentes de trastornos de la conducta alimentaria."
+    ]
+   },
+   {
+    "h2": "¿Cuándo debo consultar con mi médico?",
+    "paras": [
+     "Algunos síntomas necesitan una valoración médica antes de cualquier otro abordaje, o de forma urgente:"
+    ],
+    "list": [
+     "Sangre en las heces, heces negras o vómitos con sangre.",
+     "Pérdida de peso sin causa aparente o fiebre persistente.",
+     "Diarrea que dura más de unos días, despierta por la noche o se acompaña de fiebre.",
+     "Dolor abdominal intenso, brusco o que no cede.",
+     "Dificultad para tragar, vómitos persistentes o anemia.",
+     "Cambio persistente del ritmo intestinal a partir de los 50 años.",
+     "Cansancio extremo con palidez, falta de aire o palpitaciones.",
+     "Tristeza profunda, desesperanza o ideas de hacerse daño: en ese caso, busque ayuda de inmediato."
+    ]
+   },
+   {
+    "h2": "¿Qué puedo hacer desde hoy? Piense en sumar",
+    "paras": [
+     "Más allá de la consulta, hay hábitos que actúan a la vez sobre el sistema nervioso, el inmune, el hormonal y la microbiota. Son orientaciones generales, que luego se ajustan a cada persona:"
+    ],
+    "list": [
+     "**Dormir 7–8 horas** con horarios regulares, también el fin de semana, y exponerse a la luz natural por la mañana.",
+     "**Moverse cada día:** caminar, subir escaleras, hacer ejercicio de fuerza y actividades que le gusten; véanse las [clases de estiramientos](clases-estiramientos) o el [yoga](yoga-particular-grupos-reducidos).",
+     "**Comer variado y con fibra:** verduras, legumbres, fruta, frutos secos y cereales integrales; probar el almidón resistente de los alimentos cocinados y enfriados.",
+     "**Comer con calma**, sentado y masticando bien: la digestión empieza en modo parasimpático.",
+     "**Cuidar las relaciones:** el apoyo social se asocia a una respuesta inmune más favorable.",
+     "**Repartir el descanso** a lo largo del año, sin acumular toda la tensión para las vacaciones.",
+     "**Respirar despacio** unos minutos al día o practicar [mindfulness](mindfulness-barcelona) o [qigong](qigong-barcelona) para activar el freno parasimpático.",
+     "**Observar sus heces** con la escala de Bristol y anotar cómo se relacionan con lo que come, el estrés y el sueño."
+    ]
+   }
+  ],
+  "evidence": {
+   "h2": "¿Qué dice la evidencia?",
+   "items": [
+    [
+     "Origen de la PNIE (Psychosom Med)",
+     "En ratas, asociar sacarina a un inmunosupresor bastó después para reducir la respuesta de anticuerpos solo con la sacarina (Ader y Cohen, 1975)."
+    ],
+    [
+     "Estrés y heridas (Lancet)",
+     "Las cuidadoras de familiares con alzhéimer tardaron 48,7 días en cicatrizar una pequeña herida, frente a 39,3 días en el grupo de comparación (Kiecolt-Glaser et al., 1995)."
+    ],
+    [
+     "Estrés crónico (Psychological Bulletin)",
+     "Metaanálisis de más de 300 estudios en 30 años: los estresores crónicos se asocian a supresión de la inmunidad celular y humoral (Segerstrom y Miller, 2004)."
+    ],
+    [
+     "Discusiones de pareja (Arch Gen Psychiatry)",
+     "En 42 parejas, las más hostiles cicatrizaron al 60 % de la velocidad de las poco hostiles y elevaron más la IL-6 y el TNF-α tras discutir (Kiecolt-Glaser et al., 2005)."
+    ],
+    [
+     "Infancia e inflamación (PNAS)",
+     "El maltrato en la infancia se asoció a un riesgo 1,80 veces mayor de PCR elevada a los 32 años (Danese et al., 2007)."
+    ],
+    [
+     "Sueño e inflamación (Biol Psychiatry)",
+     "72 estudios con unos 50.000 participantes: el mal dormir se asocia a más PCR e IL-6 (Irwin et al., 2016)."
+    ],
+    [
+     "Duración del sueño (Sleep)",
+     "En 1,38 millones de personas, dormir poco se asoció a un 12 % más de mortalidad y dormir mucho a un 30 % más (Cappuccio et al., 2010)."
+    ],
+    [
+     "Nervio vago (Nature, ratas)",
+     "La estimulación del nervio vago redujo el TNF-α y evitó el shock por endotoxina: el reflejo antiinflamatorio colinérgico (Borovikova et al., 2000)."
+    ],
+    [
+     "Estrés en vacaciones (Psychother Psychosom)",
+     "Alrededor del 3 % de 1.893 adultos se reconocía en enfermar los fines de semana o en vacaciones, sobre todo con cefalea, cansancio y dolor muscular (Vingerhoets et al., 2002)."
+    ],
+    [
+     "Medicamentos y microbiota (Nature, in vitro)",
+     "El 27 % de los fármacos no antibióticos frenó el crecimiento de al menos una cepa de bacterias intestinales humanas (Maier et al., 2018)."
+    ],
+    [
+     "Disco no estéril (Eur Spine J)",
+     "En 24 discos lumbares se detectaron 424 especies bacterianas, 355 de ellas en discos sanos (Rajasekaran et al., 2020)."
+    ],
+    [
+     "Eje intestino–disco (Eur Spine J)",
+     "Una revisión de 2022 propone 3 mecanismos por los que la microbiota podría influir en la degeneración discal: paso de bacterias, regulación inmunitaria y metabolitos (Li et al., 2022)."
+    ]
+   ],
+   "refs": [
+    {
+     "t": "Ader R, Cohen N, 1975. «Behaviorally conditioned immunosuppression». Psychosomatic Medicine 37(4):333-340.",
+     "doi": "10.1097/00006842-197507000-00007"
+    },
+    {
+     "t": "Kiecolt-Glaser JK, Marucha PT, Mercado AM, Malarkey WB, Glaser R, 1995. «Slowing of wound healing by psychological stress». Lancet 346(8984):1194-1196.",
+     "doi": "10.1016/s0140-6736(95)92899-5"
+    },
+    {
+     "t": "Glaser R, Kiecolt-Glaser JK, 2005. «Stress-induced immune dysfunction: implications for health». Nature Reviews Immunology 5(3):243-251.",
+     "doi": "10.1038/nri1571"
+    },
+    {
+     "t": "Segerstrom SC, Miller GE, 2004. «Psychological stress and the human immune system: a meta-analytic study of 30 years of inquiry». Psychological Bulletin 130(4):601-630.",
+     "doi": "10.1037/0033-2909.130.4.601"
+    },
+    {
+     "t": "González-Díaz SN, Arias-Cruz A, Elizondo-Villarreal B, Monge-Ortega OP, 2017. «Psychoneuroimmunoendocrinology: clinical implications». World Allergy Organization Journal 10(1):19.",
+     "doi": "10.1186/s40413-017-0151-6"
+    },
+    {
+     "t": "Dinan TG, Cryan JF, 2017. «Microbes, immunity, and behavior: psychoneuroimmunology meets the microbiome». Neuropsychopharmacology 42(1):178-192.",
+     "doi": "10.1038/npp.2016.103"
+    },
+    {
+     "t": "Cryan JF, O'Riordan KJ, Cowan CSM, et al., 2019. «The microbiota-gut-brain axis». Physiological Reviews 99(4):1877-2013.",
+     "doi": "10.1152/physrev.00018.2018"
+    },
+    {
+     "t": "Pariante CM, 2015. «Psychoneuroimmunology or immunopsychiatry?». Lancet Psychiatry 2(3):197-199.",
+     "doi": "10.1016/S2215-0366(15)00042-5"
+    },
+    {
+     "t": "Maier L, Pruteanu M, Kuhn M, et al., 2018. «Extensive impact of non-antibiotic drugs on human gut bacteria». Nature 555(7698):623-628.",
+     "doi": "10.1038/nature25979"
+    },
+    {
+     "t": "Imhann F, Bonder MJ, Vich Vila A, et al., 2016. «Proton pump inhibitors affect the gut microbiome». Gut 65(5):740-748.",
+     "doi": "10.1136/gutjnl-2015-310376"
+    },
+    {
+     "t": "Danese A, Pariante CM, Caspi A, Taylor A, Poulton R, 2007. «Childhood maltreatment predicts adult inflammation in a life-course study». PNAS 104(4):1319-1324.",
+     "doi": "10.1073/pnas.0610362104"
+    },
+    {
+     "t": "Takahashi A, Flanigan ME, McEwen BS, Russo SJ, 2018. «Aggression, social stress, and the immune system in humans and animal models». Frontiers in Behavioral Neuroscience 12:56.",
+     "doi": "10.3389/fnbeh.2018.00056"
+    },
+    {
+     "t": "Kiecolt-Glaser JK, Loving TJ, Stowell JR, et al., 2005. «Hostile marital interactions, proinflammatory cytokine production, and wound healing». Archives of General Psychiatry 62(12):1377-1384.",
+     "doi": "10.1001/archpsyc.62.12.1377"
+    },
+    {
+     "t": "Miller AH, Maletic V, Raison CL, 2009. «Inflammation and its discontents: the role of cytokines in the pathophysiology of major depression». Biological Psychiatry 65(9):732-741.",
+     "doi": "10.1016/j.biopsych.2008.11.029"
+    },
+    {
+     "t": "Pfau ML, Ménard C, Russo SJ, 2018. «Inflammatory mediators in mood disorders: therapeutic opportunities». Annual Review of Pharmacology and Toxicology 58:411-428.",
+     "doi": "10.1146/annurev-pharmtox-010617-052823"
+    },
+    {
+     "t": "Ellul P, Mariotti-Ferrandiz E, Leboyer M, Klatzmann D, 2018. «Regulatory T cells as supporters of psychoimmune resilience: toward immunotherapy of major depressive disorder». Frontiers in Neurology 9:167.",
+     "doi": "10.3389/fneur.2018.00167"
+    },
+    {
+     "t": "Köhler CA, Freitas TH, Stubbs B, et al., 2018. «Peripheral alterations in cytokine and chemokine levels after antidepressant drug treatment for major depressive disorder: systematic review and meta-analysis». Molecular Neurobiology 55(5):4195-4206.",
+     "doi": "10.1007/s12035-017-0632-1"
+    },
+    {
+     "t": "Dantzer R, O'Connor JC, Freund GG, Johnson RW, Kelley KW, 2008. «From inflammation to sickness and depression: when the immune system subjugates the brain». Nature Reviews Neuroscience 9(1):46-56.",
+     "doi": "10.1038/nrn2297"
+    },
+    {
+     "t": "Bierhaus A, Wolf J, Andrassy M, et al., 2003. «A mechanism converting psychosocial stress into mononuclear cell activation». PNAS 100(4):1920-1925.",
+     "doi": "10.1073/pnas.0438019100"
+    },
+    {
+     "t": "Calcia MA, Bonsall DR, Bloomfield PS, et al., 2016. «Stress and neuroinflammation: a systematic review of the effects of stress on microglia and the implications for mental illness». Psychopharmacology 233(9):1637-1650.",
+     "doi": "10.1007/s00213-016-4218-9"
+    },
+    {
+     "t": "Vingerhoets AJJM, Van Huijgevoort M, Van Heck GL, 2002. «Leisure sickness: a pilot study on its prevalence, phenomenology, and background». Psychotherapy and Psychosomatics 71(6):311-317.",
+     "doi": "10.1159/000065992"
+    },
+    {
+     "t": "Borovikova LV, Ivanova S, Zhang M, et al., 2000. «Vagus nerve stimulation attenuates the systemic inflammatory response to endotoxin». Nature 405(6785):458-462.",
+     "doi": "10.1038/35013070"
+    },
+    {
+     "t": "Tracey KJ, 2002. «The inflammatory reflex». Nature 420(6917):853-859.",
+     "doi": "10.1038/nature01321"
+    },
+    {
+     "t": "Matteoli G, Gomez-Pinilla PJ, Nemethova A, et al., 2014. «A distinct vagal anti-inflammatory pathway modulates intestinal muscularis resident macrophages independent of the spleen». Gut 63(6):938-948.",
+     "doi": "10.1136/gutjnl-2013-304676"
+    },
+    {
+     "t": "Irwin MR, Olmstead R, Carroll JE, 2016. «Sleep disturbance, sleep duration, and inflammation: a systematic review and meta-analysis of cohort studies and experimental sleep deprivation». Biological Psychiatry 80(1):40-52.",
+     "doi": "10.1016/j.biopsych.2015.05.014"
+    },
+    {
+     "t": "Cappuccio FP, D'Elia L, Strazzullo P, Miller MA, 2010. «Sleep duration and all-cause mortality: a systematic review and meta-analysis of prospective studies». Sleep 33(5):585-592.",
+     "doi": "10.1093/sleep/33.5.585"
+    },
+    {
+     "t": "McDonald PG, O'Connell M, Lutgendorf SK, 2013. «Psychoneuroimmunology and cancer: a decade of discovery, paradigm shifts, and methodological innovations». Brain, Behavior, and Immunity 30 Suppl:S1-S9.",
+     "doi": "10.1016/j.bbi.2013.01.003"
+    },
+    {
+     "t": "Schumacher M, Hussain R, Gago N, et al., 2012. «Progesterone synthesis in the nervous system: implications for myelination and myelin repair». Frontiers in Neuroscience 6:10.",
+     "doi": "10.3389/fnins.2012.00010"
+    },
+    {
+     "t": "Serhan CN, 2014. «Pro-resolving lipid mediators are leads for resolution physiology». Nature 510(7503):92-101.",
+     "doi": "10.1038/nature13479"
+    },
+    {
+     "t": "Parisien M, Lima LV, Dagostino C, et al., 2022. «Acute inflammatory response via neutrophil activation protects against the development of chronic pain». Science Translational Medicine 14(644):eabj9954.",
+     "doi": "10.1126/scitranslmed.abj9954"
+    },
+    {
+     "t": "Furusawa Y, Obata Y, Fukuda S, et al., 2013. «Commensal microbe-derived butyrate induces the differentiation of colonic regulatory T cells». Nature 504(7480):446-450.",
+     "doi": "10.1038/nature12721"
+    },
+    {
+     "t": "Sonia S, Witjaksono F, Ridwan R, 2015. «Effect of cooling of cooked white rice on resistant starch content and glycemic response». Asia Pacific Journal of Clinical Nutrition 24(4):620-625.",
+     "doi": "10.6133/apjcn.2015.24.4.13"
+    },
+    {
+     "t": "Maintz L, Novak N, 2007. «Histamine and histamine intolerance». American Journal of Clinical Nutrition 85(5):1185-1196.",
+     "doi": "10.1093/ajcn/85.5.1185"
+    },
+    {
+     "t": "Liezmann C, Klapp B, Peters EMJ, 2011. «Stress, atopy and allergy: a re-evaluation from a psychoneuroimmunologic perspective». Dermato-Endocrinology 3(1):37-40.",
+     "doi": "10.4161/derm.3.1.14618"
+    },
+    {
+     "t": "Lewis SJ, Heaton KW, 1997. «Stool form scale as a useful guide to intestinal transit time». Scandinavian Journal of Gastroenterology 32(9):920-924.",
+     "doi": "10.3109/00365529709011203"
+    },
+    {
+     "t": "Sender R, Fuchs S, Milo R, 2016. «Revised estimates for the number of human and bacteria cells in the body». PLoS Biology 14(8):e1002533.",
+     "doi": "10.1371/journal.pbio.1002533"
+    },
+    {
+     "t": "Rajasekaran S, Soundararajan DCR, Tangavel C, et al., 2020. «Human intervertebral discs harbour a unique microbiome and dysbiosis determines health and disease». European Spine Journal 29(7):1621-1640.",
+     "doi": "10.1007/s00586-020-06446-z"
+    },
+    {
+     "t": "Li W, Lai K, Chopra N, Zheng Z, Das A, Diwan AD, 2022. «Gut-disc axis: a cause of intervertebral disc degeneration and low back pain?». European Spine Journal 31(4):917-925.",
+     "doi": "10.1007/s00586-022-07152-8"
+    },
+    {
+     "t": "Dekker Nitert M, Mousa A, Barrett HL, Naderpoor N, de Courten B, 2020. «Altered gut microbiota composition is associated with back pain in overweight and obese individuals». Frontiers in Endocrinology 11:605.",
+     "doi": "10.3389/fendo.2020.00605"
+    },
+    {
+     "t": "Yang D, Jacobson A, Meerschaert KA, et al. (Chiu IM), 2022. «Nociceptor neurons direct goblet cells via a CGRP-RAMP1 axis to drive mucus production and gut barrier protection». Cell 185(22):4190-4205.",
+     "doi": "10.1016/j.cell.2022.09.024"
+    }
+   ]
+  },
+  "faq": [
+   [
+    "¿Qué hace un profesional de PNIE?",
+    "Escucha la historia completa de la persona, relaciona los síntomas entre sí y con los hábitos de vida, y busca el origen y el mecanismo que los mantiene. A partir de ahí propone cambios ordenados en alimentación, descanso, movimiento y gestión del estrés. No diagnostica enfermedades ni receta fármacos, y trabaja en coordinación con el médico."
+   ],
+   [
+    "¿La PNIE está al margen de la medicina convencional?",
+    "No. Es una visión integrativa que tiene en cuenta los niveles fisiológico, psicológico, nutricional y social, y que se basa en la investigación sobre la comunicación entre sistemas. Se aplica en coordinación con la medicina convencional: el diagnóstico y el tratamiento médico los decide su médico."
+   ],
+   [
+    "¿Cuánto dura y cuánto cuesta la primera visita?",
+    "La primera visita dura 60 minutos y cuesta 90 €. En ella se recoge la historia clínica completa y se explica, con un esquema, de dónde puede venir el problema y qué conviene trabajar primero."
+   ],
+   [
+    "¿En la consulta de PNIE se recetan medicamentos?",
+    "No. En la consulta de PNIE no se recetan fármacos ni se modifica la medicación que ya toma. Si algún aspecto requiere una valoración o un tratamiento médico, se le indicará que consulte con su médico."
+   ],
+   [
+    "¿Necesito traer analíticas o pruebas?",
+    "Si tiene analíticas, informes o estudios recientes, tráigalos: ayudan a entender el caso. Si conviene completar el estudio, por ejemplo con un análisis de heces o de microbiota, se le explicará para qué sirve y qué información aportará."
+   ],
+   [
+    "¿Es lo mismo que una consulta de nutrición?",
+    "No. La alimentación es una parte importante, pero la PNIE abarca también el sueño, el estrés, las emociones, las hormonas, el movimiento y los ritmos de vida. La consulta de [nutrición y salud intestinal](nutricion-salud-intestinal) se centra en la alimentación, y ambas pueden combinarse."
+   ],
+   [
+    "¿Qué diferencia hay entre la PNIE y la medicina integrativa?",
+    "La PNIE estudia cómo se comunican el sistema nervioso, el hormonal, el inmune, la microbiota y la conducta, y busca el origen y el mecanismo de los síntomas. La [medicina integrativa](medicina-integrativa-barcelona) es el marco clínico que combina la medicina convencional con otras herramientas basadas en la evidencia, centrado en la persona."
+   ],
+   [
+    "¿Cuánto tiempo se tarda en notar cambios?",
+    "Depende de cada caso, del tiempo de evolución y de los cambios que se puedan introducir. Los hábitos de sueño, alimentación y gestión del estrés suelen necesitar semanas para mostrar su efecto, por eso el plan se organiza por fases y se revisa en las visitas de seguimiento."
+   ]
+  ],
+  "related": [
+   "salud-digestiva-microbiota",
+   "nutricion-salud-intestinal",
+   "estres-ansiedad",
+   "prevencion-longevidad"
+  ],
+  "cta_h2": "Entienda cómo se relacionan sus síntomas",
+  "seo": {
+   "kw": "PNIE Barcelona",
+   "kws": [
+    "PNI Barcelona",
+    "psiconeuroinmunoendocrinología Barcelona",
+    "consulta PNIE",
+    "psiconeuroinmunoendocrinología",
+    "inflamación de bajo grado"
+   ],
+   "ca_kw": "PNIE Barcelona",
+   "quick": "La PNIE (psiconeuroinmunoendocrinología) es la disciplina que estudia cómo se comunican el sistema nervioso, el hormonal, el inmune y la microbiota intestinal, y cómo influyen en ellos el estrés, el sueño, la alimentación y las emociones. Busca el origen común de síntomas digestivos, dolor crónico, cansancio, alteraciones del ánimo o del ciclo hormonal. Consulta disponible en Sarrià–Sant Gervasi (Barcelona).",
+   "entity": [
+    "MedicalTherapy",
+    "Psiconeuroinmunoendocrinología clínica"
+   ]
+  },
+  "research": [
+   "Personas con síntomas digestivos, dolor crónico, cansancio, ansiedad, alteraciones hormonales o del sueño que quieren entender qué es la PNIE, cómo se relacionan sus síntomas y dónde hay una consulta de PNIE en Barcelona.",
+   [
+    "PNIE Barcelona",
+    "qué es la psiconeuroinmunoendocrinología",
+    "psiconeuroinmunoendocrinología Barcelona",
+    "consulta PNIE Sant Gervasi",
+    "diferencia PNIE medicina integrativa"
+   ],
+   [
+    "PNIE Barcelona",
+    "psiconeuroimmunoendocrinologia"
+   ],
+   "Perfiles de Doctoralia (PNIE en Barcelona, no en Sant Gervasi) y directorios de psicología."
+  ],
+  "ca": {}
+ }
+]

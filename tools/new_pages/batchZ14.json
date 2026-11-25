@@ -1,0 +1,523 @@
+[
+ {
+  "slug": "sueno-insomnio",
+  "ca_slug": "son-insomni",
+  "nav": "Sueño e insomnio",
+  "card": "No puedo dormir: causas del insomnio, guía práctica, sueño profundo, ritmo circadiano, luz azul y cuándo consultar.",
+  "title": "Insomnio y medicina del sueño en Sarrià–Sant Gervasi | WA LAM",
+  "desc": "Insomnio, sueño no reparador y alteraciones del ritmo circadiano en Sarrià–Sant Gervasi, Barcelona. El sueño como pilar de la salud cerebral y la longevidad.",
+  "h1": "Sueño e insomnio en Barcelona",
+  "sub": "No puedo dormir: por qué ocurre y qué se puede hacer · Sarrià–Sant Gervasi",
+  "lead": "«No puedo dormir» es una de las frases que más se repiten en consulta. El sueño no es solo descanso: es uno de los procesos de mantenimiento más importantes del organismo. Durante la noche el cerebro consolida la memoria, regula las emociones y restablece el equilibrio del metabolismo, las hormonas y la inmunidad. Entender qué le impide dormir, desde los hábitos y la luz hasta el estrés, las hormonas o el ritmo circadiano, es el primer paso para recuperar un descanso reparador.",
+  "facts_title": "En WA LAM",
+  "facts": [
+   "Valoración del patrón de sueño con diario de sueño y cuestionarios validados",
+   "Ritmo circadiano, luz, horarios y hábitos",
+   "PNIE, medicina integrativa y método re:trace",
+   "Primera visita: 60 min · 90 €",
+   "Derivación a una unidad del sueño cuando procede"
+  ],
+  "wa": "Hola, tengo problemas para dormir y me gustaría saber cómo podéis ayudarme.",
+  "mirror": {
+   "h2": "¿Se reconoce en estas situaciones?",
+   "qs": [
+    "¿Tarda más de media hora en dormirse, aunque se acueste agotado o agotada?",
+    "¿Se despierta de madrugada y ya no consigue volver a conciliar el sueño?",
+    "¿Duerme siete u ocho horas y aun así se levanta cansado, sin energía?",
+    "¿Su mente se activa justo cuando apaga la luz, o sus horarios cambian mucho entre semana y el fin de semana?"
+   ],
+   "close": "Si ronca con pausas en la respiración o tiene mucha somnolencia de día, lea más abajo cuándo consultar con su médico."
+  },
+  "explain": {
+   "h2": "¿Qué es el insomnio?",
+   "paras": [
+    "El **insomnio** es la dificultad para **conciliar el sueño**, para **mantenerlo** durante la noche o el hecho de **despertarse demasiado pronto** sin poder volver a dormir, a pesar de tener la oportunidad y el tiempo para descansar. Lo que lo distingue de una simple mala noche es que repercute en el día: cansancio, irritabilidad, dificultad para concentrarse, somnolencia o sensación de no rendir. No se mide solo en horas, sino en cómo se siente la persona al día siguiente.",
+    "Para entenderlo conviene saber cómo está organizado el sueño. A lo largo de la noche se suceden **ciclos de unos 90 minutos**, en los que se alternan el **sueño no REM** (con una fase de sueño ligero, N1 y N2, y una fase de **sueño profundo** o de ondas lentas, N3) y el **sueño REM**, la fase de los sueños más vívidos, importante para la memoria y el procesamiento emocional. En la primera mitad de la noche predomina el sueño profundo, y en la segunda, el sueño REM. Por eso un despertar a las cuatro de la madrugada o un sueño muy fragmentado restan sobre todo fases concretas, y sus efectos se acumulan.",
+    "Según su duración, se habla de **insomnio agudo** o de corta duración, que aparece ante un acontecimiento estresante, un viaje o una enfermedad y suele resolverse en días o semanas, y de **insomnio crónico**, cuando las dificultades se presentan **al menos tres noches por semana durante tres meses o más** y afectan a la vida diaria. Según el momento de la noche, se distingue el **insomnio de conciliación** (tardar en dormirse), el **de mantenimiento** (despertares frecuentes o prolongados) y el **de despertar precoz**. Muchas personas combinan varios.",
+    "El insomnio puede presentarse solo o acompañar a otros problemas: dolor, ansiedad, depresión, cambios hormonales como la menopausia, reflujo, problemas respiratorios o fármacos. También existe el **sueño no reparador**: dormir aparentemente lo suficiente y levantarse sin energía, que puede deberse a un sueño fragmentado, a un ritmo circadiano desajustado o a trastornos como la apnea del sueño. Por eso, más que «intentar dormir más», el objetivo es comprender qué mantiene al sistema nervioso en alerta."
+   ]
+  },
+  "sections": [
+   {
+    "h2": "¿Es frecuente el insomnio?",
+    "paras": [
+     "Mucho. En un estudio con **4.065 personas** representativas de la población española de 15 años o más, el **20,8 %** refería al menos un síntoma de insomnio tres noches por semana o más, y el **6,4 %** cumplía los criterios diagnósticos de trastorno de insomnio. Era más frecuente en las mujeres que en los hombres (23,9 % frente a 17,6 %) y aumentaba con la edad. El síntoma más habitual no era tardar en dormirse, sino **la dificultad para mantener el sueño** (Ohayon y Sagales, Sleep Medicine, 2010).",
+     "Es decir, alrededor de una de cada cinco personas duerme mal de forma habitual. Aun así, muchas no lo consultan porque piensan que es normal, que «siempre han dormido mal» o que solo se arregla con pastillas. Conocer las causas y los hábitos que influyen permite actuar antes de que el problema se cronifique."
+    ]
+   },
+   {
+    "h2": "No puedo dormir, ¿qué hago para que me dé sueño?",
+    "paras": [
+     "Es la pregunta de muchas noches. Lo primero es saber que el sueño **no se puede forzar**: cuanto más se intenta dormir, más se activa el sistema nervioso. El sueño aparece cuando coinciden dos condiciones: suficiente **presión de sueño** acumulada durante el día y un **reloj biológico** que indica que es de noche. Lo que sí se puede hacer es crear las condiciones para que llegue.",
+     "Antes de buscar soluciones, conviene hacerse una pregunta sencilla: **¿tiene últimamente alguno de estos hábitos que no le dejan dormir?** Un café a media tarde, una copa de vino para relajarse, el móvil en la cama, una siesta larga, una cena copiosa, un entrenamiento intenso a última hora o un dormitorio con luz y ruido. Los repasamos uno a uno en el siguiente apartado, porque a menudo no hay una sola causa, sino varias que se suman.",
+     "Si una noche no consigue dormirse, **no mire el reloj**: calcular las horas que quedan aumenta la ansiedad y aleja el sueño. Si pasa un rato largo (unos 20 minutos) dando vueltas, es preferible levantarse, ir a otra habitación con luz tenue y hacer algo tranquilo, como leer en papel, hasta notar sueño, y entonces volver a la cama. Así la cama vuelve a asociarse con dormir y no con estar despierto, una idea que forma parte de la terapia cognitivo-conductual para el insomnio.",
+     "Otras herramientas útiles en ese momento son la **respiración lenta** (más abajo explicamos la respiración 4–pausa–4), la relajación muscular progresiva o una práctica breve de **[meditación](mindfulness-barcelona)**. No buscan «obligar» al cuerpo a dormir, sino bajar la activación para que el sueño pueda aparecer por sí solo."
+    ],
+    "list_title": "Qué hacer en una noche en que no llega el sueño:",
+    "list": [
+     "No mire el reloj ni el móvil",
+     "Respire despacio, alargando la espiración",
+     "Si pasan unos 20 minutos, levántese, vaya a otra habitación con luz tenue y haga algo tranquilo",
+     "Evite las pantallas, la comida y las bebidas con cafeína o alcohol",
+     "Vuelva a la cama solo cuando note sueño",
+     "Al día siguiente, levántese a su hora habitual, aunque haya dormido poco"
+    ]
+   },
+   {
+    "h2": "¿Por qué no puedo dormir? Las 8 causas más habituales",
+    "paras": [
+     "**1. La cafeína y otros estimulantes.** La cafeína bloquea la adenosina, la sustancia que se acumula durante el día y genera presión de sueño. Está en el café, el té, los refrescos de cola, las bebidas energéticas y el chocolate, y su efecto dura muchas horas. En un estudio, una dosis alta de cafeína tomada **seis horas antes de acostarse** redujo el tiempo total de sueño en **más de una hora**, y los participantes ni siquiera lo percibieron (Drake et al., Journal of Clinical Sleep Medicine, 2013). Por eso, aunque uno «duerma igual» con el café de la tarde, el sueño puede ser más ligero. Cada persona metaboliza la cafeína a una velocidad distinta, pero en general conviene evitarla a partir de media tarde.",
+     "**2. El alcohol.** Al principio actúa como sedante y ayuda a dormirse antes, por eso muchas personas lo usan para relajarse. Sin embargo, en la segunda mitad de la noche **fragmenta el sueño** y provoca despertares, y a dosis moderadas y altas **reduce el sueño REM** y retrasa su aparición (Ebrahim et al., Alcoholism: Clinical and Experimental Research, 2013). El resultado es un sueño menos reparador, aunque se haya dormido rápido. Además, relaja la musculatura de la garganta y puede empeorar los ronquidos y las apneas.",
+     "**3. Las pantallas antes de dormir.** Los móviles, las tabletas y los ordenadores emiten luz rica en longitudes de onda cortas (luz azul), la que más informa al cerebro de que es de día. En un estudio con 12 adultos, leer varias noches en un libro electrónico con pantalla iluminada, frente a un libro de papel, hizo que tardaran más en dormirse, tuvieran menos sueño por la noche, **segregaran menos melatonina**, retrasaran su reloj biológico y se levantaran menos despejados al día siguiente (Chang et al., PNAS, 2015). A la luz se suma el contenido: mensajes, noticias o series que mantienen la mente activa.",
+     "**4. Los horarios irregulares.** El reloj biológico funciona mejor con regularidad. Acostarse y levantarse a horas muy distintas entre semana y el fin de semana produce el llamado **jet lag social**, como si se viajara a otro huso horario cada viernes y se volviera cada lunes (Wittmann et al., Chronobiology International, 2006). El lunes por la noche cuesta dormirse y el martes por la mañana cuesta levantarse. Los turnos de trabajo y las guardias son la forma más extrema de este desajuste.",
+     "**5. Las siestas largas o tardías.** Una siesta breve puede ser reparadora, pero una siesta de más de media hora o a última hora de la tarde **reduce la presión de sueño** acumulada, y por la noche el cuerpo ya no tiene tanta necesidad de dormir. En personas con insomnio, a menudo es mejor evitarlas o limitarlas.",
+     "**6. Las comidas pesadas, grasas o picantes antes de dormir.** Una cena copiosa obliga al aparato digestivo a trabajar cuando el cuerpo debería prepararse para el descanso, eleva la temperatura corporal y favorece el malestar, la pesadez y el **reflujo** al tumbarse (más información en [reflujo y acidez](reflujo-acidez)). Tampoco ayuda acostarse con hambre: si la hay, mejor algo ligero, como un yogur o una pieza de fruta.",
+     "**7. El ejercicio intenso justo antes de acostarse.** El ejercicio regular es uno de los mejores aliados del sueño. Lo que puede interferir es un entrenamiento **muy intenso** que termina poco antes de ir a dormir, porque aumenta la activación, la frecuencia cardiaca y la temperatura corporal. Una revisión de 23 estudios concluyó que el ejercicio por la tarde-noche, en general, **no empeora el sueño** e incluso aumenta ligeramente el sueño profundo; solo el ejercicio vigoroso que acaba una hora o menos antes de acostarse podría dificultar la conciliación, una observación basada en muy pocos datos (Stutz et al., Sports Medicine, 2019). La recomendación práctica es moverse a diario y dejar lo más intenso para unas horas antes.",
+     "**8. Un dormitorio inadecuado.** Un colchón incómodo, una habitación ruidosa, con luz que entra por la ventana o la de los aparatos, o demasiado calurosa, dificultan tanto conciliar el sueño como mantenerlo. El cuerpo necesita bajar ligeramente su temperatura para dormirse, y un dormitorio caliente lo impide. También influye usar la habitación para trabajar o ver series: el cerebro deja de asociarla con el descanso. Más abajo explicamos cómo debe ser el dormitorio.",
+     "A estas ocho causas se suma, casi siempre, una novena: **el estrés y las preocupaciones**. Una mente que repasa el día o anticipa el siguiente mantiene activo el sistema nervioso simpático y eleva el cortisol en el momento en que debería bajar. Por eso las técnicas de respiración, relajación y **[meditación](mindfulness-barcelona)** forman parte de cualquier plan para dormir mejor. Más información en [estrés y ansiedad](estres-ansiedad) y [cortisol y estrés crónico](cortisol-estres-cronico)."
+    ]
+   },
+   {
+    "h2": "¿Cuántas horas hay que dormir?",
+    "paras": [
+     "Las sociedades científicas de medicina del sueño recomiendan que los adultos duerman **7 horas o más por noche de forma habitual**. Dormir menos de 7 horas de manera regular se asocia a aumento de peso, diabetes, hipertensión, enfermedad cardiovascular, depresión y mayor mortalidad. Dormir más de 9 horas puede ser adecuado en adultos jóvenes, al recuperar una deuda de sueño o durante una enfermedad (Watson et al., Journal of Clinical Sleep Medicine, 2015).",
+     "Dormir mucho tampoco es necesariamente mejor. En un metaanálisis de 16 estudios con más de **1,3 millones de personas**, tanto dormir poco como dormir mucho se asociaron a una mayor mortalidad: un **12 %** más en quienes dormían poco y un **30 %** más en quienes dormían muchas horas (Cappuccio et al., Sleep, 2010). Son asociaciones: dormir en exceso puede ser un reflejo de otras enfermedades, más que su causa.",
+     "Las necesidades varían de una persona a otra. Una buena referencia práctica es cómo se siente durante el día: si se despierta sin despertador los días libres, se mantiene despejado por la mañana y no necesita cafeína para funcionar, probablemente duerme lo suficiente."
+    ]
+   },
+   {
+    "h2": "¿Cómo puedo mejorar mi sueño? Guía práctica",
+    "paras": [
+     "Los hábitos que favorecen el sueño se conocen como **higiene del sueño**. Por sí solos no siempre resuelven un insomnio crónico, pero son la base sobre la que funciona cualquier otro tratamiento, y en muchas personas con un insomnio leve o reciente marcan una diferencia clara. Lo importante es aplicarlos con constancia durante varias semanas, porque el reloj biológico necesita tiempo para reajustarse.",
+     "La pieza central es la **regularidad**: acostarse y levantarse a la misma hora todos los días, también el fin de semana. Y la segunda, la **luz de la mañana**: salir al exterior en la primera hora del día, idealmente al amanecer o poco después, porque la luz solar de la mañana, rica en luz azul de onda corta, sincroniza el reloj circadiano del hipotálamo (el núcleo supraquiasmático). Cuando el reloj está bien sincronizado por la mañana, la luz artificial y las pantallas de la noche le afectan menos."
+    ],
+    "list_title": "Guía práctica para dormir mejor:",
+    "list": [
+     "**Rutina regular:** misma hora de acostarse y de levantarse, también el fin de semana",
+     "**Luz natural por la mañana:** salga al exterior en la primera hora del día, aunque esté nublado",
+     "**Ambiente adecuado:** dormitorio tranquilo, oscuro y fresco, con cortinas opacas, tapones o un ventilador o humidificador si lo necesita",
+     "**Pantallas fuera al menos 1 hora antes de dormir:** la luz azul retrasa la melatonina y el contenido activa la mente",
+     "**Siestas cortas y tempranas:** de 20 a 30 minutos y antes de las 15 h, o ninguna si le cuesta dormir por la noche",
+     "**Cafeína y alcohol, lejos de la hora de dormir:** evite el café, el té y los refrescos con cafeína desde media tarde, y el alcohol por la noche",
+     "**Ni hambre ni exceso de comida:** cene ligero y con tiempo; si tiene hambre, algo suave, como un yogur o fruta",
+     "**Ejercicio regular:** a diario, pero sin entrenamientos intensos en las 3 horas previas a acostarse, porque suben la energía y la temperatura corporal",
+     "**Rutina de relajación:** leer, música suave, un baño caliente, respiración profunda o **[meditación](mindfulness-barcelona)**",
+     "**No mire el reloj:** si se despierta, mejor relajarse, cambiar de postura o levantarse un rato",
+     "**Pida ayuda si persiste:** su médico o un especialista en sueño pueden valorar la terapia cognitivo-conductual para el insomnio (TCC-I) o, si son necesarios, fármacos"
+    ]
+   },
+   {
+    "h2": "¿Cómo debe ser el dormitorio para dormir bien?",
+    "paras": [
+     "El dormitorio es el escenario del sueño, y pequeños cambios tienen un efecto notable. La temperatura es uno de los factores más infravalorados: para dormirse, el cuerpo necesita que su temperatura interna descienda ligeramente, y una habitación entre **17 y 19 °C** lo facilita. Ventilar antes de acostarse renueva el aire y ayuda a bajar la temperatura.",
+     "La **oscuridad** es igual de importante, porque la luz, incluso tenue, frena la producción de melatonina. Las cortinas opacas o un antifaz son útiles en ciudad, donde las farolas y los letreros iluminan las habitaciones. El **ruido** se puede reducir con tapones o, si se prefiere, con un sonido de fondo constante, como ruido blanco o sonidos ambientales, que tapa los ruidos bruscos de la calle.",
+     "Por último, el dormitorio debería ser un lugar **solo para descansar**. Trabajar, revisar facturas o ver series en la cama hace que el cerebro lo asocie con estar alerta. El orden, la limpieza, los colores suaves y una ropa de cama cómoda contribuyen a una sensación de calma. Algunos aromas, como la lavanda o la manzanilla, se usan para relajarse, aunque la evidencia sobre su efecto en el sueño es limitada."
+    ],
+    "list_title": "Claves para un dormitorio que invite a dormir:",
+    "list": [
+     "Colchón, almohada y sábanas cómodos, adecuados a su postura y a la estación",
+     "Temperatura de 17 a 19 °C y ventilación antes de acostarse",
+     "Oscuridad: cortinas opacas o antifaz, sin luces de aparatos",
+     "Silencio: tapones o ruido blanco si hay ruido exterior",
+     "Sin pantallas, trabajo ni facturas: la cama, para dormir",
+     "Orden, limpieza y colores suaves",
+     "Aromas como la lavanda o la manzanilla, si le resultan agradables (evidencia limitada)"
+    ]
+   },
+   {
+    "h2": "¿Qué es el sueño profundo y para qué sirve?",
+    "paras": [
+     "El **sueño profundo**, también llamado sueño de ondas lentas o sueño delta (fase N3), es la fase en la que la actividad cerebral se vuelve más lenta y sincronizada, cuesta más despertarse y el cuerpo entra en su modo de **reparación física y mental**. Durante el sueño profundo se libera la mayor parte de la **hormona del crecimiento**, que interviene en la regeneración de los tejidos y la masa muscular, se favorece la **regeneración celular**, se apoya el funcionamiento del **sistema inmunitario** y se consolidan los recuerdos de lo aprendido durante el día.",
+     "También se ha propuesto que el sueño profundo ayuda a **limpiar los residuos metabólicos del cerebro** a través del llamado **sistema glinfático**. En 2013, un estudio **en ratones** observó que durante el sueño el espacio entre las células cerebrales aumentaba un 60 % y se aceleraba la eliminación de beta-amiloide, una proteína relacionada con la enfermedad de Alzheimer (Xie et al., Science, 2013). En 2024, otro estudio, también **en ratones**, obtuvo el resultado contrario: la eliminación era menor durante el sueño (Miao et al., Nature Neuroscience, 2024). El debate sigue abierto y no se ha confirmado en humanos.",
+     "Lo que sí muestran los estudios en personas es una **asociación** entre dormir poco y la salud cognitiva. En el seguimiento de **7.959 personas durante 25 años**, dormir seis horas o menos a los 50 y a los 60 años se asoció a un mayor riesgo de demencia que dormir siete horas, y dormir poco de forma persistente, a un riesgo un **30 %** mayor (Sabia et al., Nature Communications, 2021). No demuestra que dormir poco cause demencia, pero refuerza el sueño como objetivo preventivo. Más información en [salud cognitiva](neurolongevidad-salud-cognitiva).",
+     "Cuando falta sueño profundo de forma continuada, es habitual notar **fatiga**, peor memoria y concentración, más apetito y tendencia a **ganar peso**, y a largo plazo se asocia a un mayor riesgo de enfermedades crónicas. La buena noticia es que el sueño profundo responde a los hábitos: la regularidad, el ejercicio diurno, evitar el alcohol y la cafeína tardía y un dormitorio fresco y oscuro lo favorecen."
+    ]
+   },
+   {
+    "h2": "¿Cómo mejorar el sueño profundo? 7 consejos",
+    "paras": [
+     "Estos siete consejos resumen lo que favorece un sueño profundo y continuado. Ninguno es mágico por separado; su efecto aparece cuando se combinan y se mantienen en el tiempo."
+    ],
+    "list_title": "Siete consejos para un sueño más profundo:",
+    "list": [
+     "**1. Duerma las horas suficientes:** las guías recomiendan 7 horas o más en adultos, a la misma hora todos los días",
+     "**2. Cuide el entorno:** cama cómoda, 17–19 °C, silencio y oscuridad total",
+     "**3. Evite la cafeína y la nicotina por la tarde:** café, té, refrescos y chocolate, y el tabaco, a partir de las 17 h; la nicotina también es un estimulante",
+     "**4. Siga una rutina antes de acostarse:** un baño caliente, leer o **[meditar](mindfulness-barcelona)** le indican al cuerpo que se acerca la hora de dormir",
+     "**5. Haga ejercicio regular:** a diario, pero no intenso justo antes de acostarse",
+     "**6. Practique la respiración lenta:** por ejemplo, la respiración 4–pausa–4 que explicamos a continuación",
+     "**7. Estírese suavemente antes de dormir:** con respiración lenta y atención a la relajación muscular, como en los [estiramientos](clases-estiramientos), el [yoga](yoga-particular-grupos-reducidos) o el [qigong](qigong-barcelona)"
+    ]
+   },
+   {
+    "h2": "¿Cómo se hace la respiración 4–pausa–4?",
+    "paras": [
+     "Respirar despacio es una de las formas más directas de pasar del modo de alerta al modo de calma. Cuando la respiración se hace lenta y la espiración se alarga, aumenta la actividad del sistema nervioso parasimpático, en el que el [nervio vago](nervio-vago) tiene un papel central, y disminuyen la frecuencia cardiaca y la sensación de activación. Es una técnica sencilla, sin efectos adversos, que se puede hacer en la cama.",
+     "Túmbese boca arriba o de lado, con una mano en el abdomen. **Inspire por la nariz contando hasta 4**, notando cómo se eleva el abdomen; haga una **pausa breve**, sin forzar; y **espire lentamente durante 4 segundos** o algo más, notando cómo el abdomen desciende. Repita durante 5 a 10 minutos. Si se distrae, vuelva a contar sin juzgarse. Con la práctica puede alargar la espiración a 5 o 6 segundos, siempre que resulte cómodo.",
+     "Esta respiración es también una puerta de entrada a la **[meditación](mindfulness-barcelona)**: atender a la respiración, notar los pensamientos y volver a ella sin pelearse con ellos. Practicarla durante el día, y no solo cuando no se puede dormir, hace que por la noche resulte más fácil."
+    ]
+   },
+   {
+    "h2": "¿Qué estiramientos ayudan a dormir?",
+    "paras": [
+     "No se trata de hacer ejercicio antes de acostarse, sino de **estiramientos suaves y conscientes**, acompañados de una respiración lenta y de atención a cómo se relaja cada zona. Ayudan a soltar la tensión acumulada en el cuello, los hombros, la espalda y las caderas, que en muchas personas aumenta con el estrés y las horas sentadas, y envían al cuerpo la señal de que el día ha terminado.",
+     "Bastan entre 5 y 10 minutos. Cada postura se mantiene de 30 a 60 segundos, sin rebotes ni dolor, respirando despacio. Si tiene alguna lesión o dolor persistente, consulte antes qué movimientos le convienen. Para aprender a hacerlos con seguridad y crear una rutina, pueden ayudarle las clases de [estiramientos](clases-estiramientos), de [yoga](yoga-particular-grupos-reducidos) o de [qigong](qigong-barcelona), prácticas que combinan movimiento lento, respiración y atención."
+    ],
+    "list_title": "Una rutina suave antes de dormir (orientativa):",
+    "list": [
+     "Inclinaciones suaves del cuello hacia cada lado, dejando caer el hombro contrario",
+     "Círculos lentos de hombros hacia atrás, soltando la tensión al espirar",
+     "Postura del niño: de rodillas, sentado sobre los talones, con el tronco y los brazos hacia delante",
+     "Tumbado boca arriba, llevar las rodillas al pecho y balancearse suavemente",
+     "Rotación suave del tronco tumbado: rodillas dobladas que caen hacia un lado y luego hacia el otro",
+     "Piernas apoyadas en la pared durante unos minutos, con respiración lenta"
+    ]
+   },
+   {
+    "h2": "¿Qué es el ritmo circadiano?",
+    "paras": [
+     "Los **ritmos circadianos** son ciclos de aproximadamente **24 horas** que regulan muchos procesos del organismo: el sueño y la vigilia, la temperatura corporal, la liberación de hormonas, el apetito, la digestión, el estado de alerta y el rendimiento cognitivo. Están dirigidos por un **reloj central**, el **núcleo supraquiasmático** del hipotálamo, que responde sobre todo a la **luz y la oscuridad** que llegan a través de los ojos, y que sincroniza a su vez los relojes de cada órgano.",
+     "Dos hormonas marcan el compás. La **melatonina**, que produce la glándula pineal cuando oscurece, prepara al cuerpo para dormir; la luz, sobre todo la azul, frena su secreción. El **cortisol**, en cambio, alcanza su pico en las primeras horas de la mañana para ayudarnos a despertar y estar alerta, y desciende a lo largo del día. A la vez, la temperatura corporal baja por la noche y sube por la mañana. Cuando estas curvas están bien sincronizadas, por la noche aparece el sueño y por la mañana, la energía.",
+     "El ritmo circadiano es **único en cada persona**: depende de la genética, la edad y el ambiente. Hay personas que rinden mejor temprano y otras que se activan por la noche. Esta preferencia natural se llama **cronotipo**, y conocerla ayuda a organizar el sueño y el día con menos esfuerzo."
+    ]
+   },
+   {
+    "h2": "¿Cómo saber cuál es mi ritmo circadiano?",
+    "paras": [
+     "Conocer el propio ritmo circadiano es más sencillo de lo que parece y no requiere pruebas complejas: basta con observarse durante un tiempo y anotar. Estos siete pasos le ayudarán a identificarlo.",
+     "En cuanto al **cronotipo**, se suelen distinguir tres grandes perfiles: el **matutino** o «alondra», que se despierta temprano con energía y tiene sueño pronto por la noche; el **vespertino** o «búho», que rinde más por la tarde y la noche y al que le cuesta madrugar; y el **intermedio**, el más frecuente. Existen cuestionarios validados para determinarlo, como el cuestionario de matutinidad-vespertinidad de Horne y Östberg o el cuestionario de cronotipo de Múnich. Los cronotipos más tardíos son los que más sufren el jet lag social, porque los horarios de trabajo y de estudio les obligan a vivir adelantados respecto a su reloj (Wittmann et al., Chronobiology International, 2006)."
+    ],
+    "list_title": "Siete pasos para conocer su ritmo circadiano:",
+    "list": [
+     "**1. Observe sus patrones de sueño:** durante al menos una semana, anote en un **diario de sueño** a qué hora se acuesta, cuánto tarda en dormirse, si se despierta, a qué hora se levanta y cómo ha descansado",
+     "**2. Registre su energía a lo largo del día:** anote en qué momentos se siente más despierto y concentrado, y cuándo aparecen el cansancio o la somnolencia",
+     "**3. Identifique su cronotipo:** matutino («alondra»), vespertino («búho») o intermedio, con ayuda de un cuestionario validado",
+     "**4. Experimente con sus horarios:** ajuste poco a poco la hora de acostarse y de levantarse, y programe las tareas más exigentes en sus horas de más energía",
+     "**5. Mantenga un horario regular:** también los fines de semana, para evitar el jet lag social",
+     "**6. Controle la exposición a la luz:** luz natural de día, sobre todo por la mañana, y poca luz artificial brillante y pocas pantallas por la noche",
+     "**7. Consulte con un especialista en medicina del sueño** si, pese a todo, los problemas persisten"
+    ]
+   },
+   {
+    "h2": "¿Tengo el ritmo circadiano alterado?",
+    "paras": [
+     "Hablamos de un **ritmo circadiano alterado** cuando el reloj interno deja de estar sincronizado con el ciclo de luz y oscuridad o con los horarios que la persona necesita seguir. Puede ocurrir de forma pasajera, como en el jet lag, o mantenerse en el tiempo, como en el trabajo por turnos o en los llamados síndromes de **retraso de fase** (dormirse y despertarse muy tarde) y de **avance de fase** (dormirse y despertarse muy temprano), más frecuente en personas mayores.",
+     "**¿Cuáles son los factores de riesgo?** El principal es la **luz artificial y azul** por la noche, junto con los **turnos de trabajo** nocturnos o rotativos, los **viajes** con cambio de huso horario, la **edad** (con los años disminuye la producción de melatonina), un **estilo de vida con horarios irregulares**, otros **trastornos del sueño** (apnea obstructiva, insomnio, síndrome de piernas inquietas), algunas **enfermedades crónicas** como la depresión, el trastorno bipolar, el alzhéimer o el párkinson (con las que se asocia en ambos sentidos), la **genética** y el consumo de **cafeína, alcohol u otras sustancias**. Muchos de estos factores se pueden prevenir con buenos hábitos de sueño, luz natural de día, poca luz azul por la noche y el tratamiento de los trastornos del sueño o de las enfermedades que lo alteran.",
+     "**¿Cuáles son los síntomas?** El más evidente es el **insomnio**, junto con la **somnolencia durante el día**. Es frecuente una **fatiga crónica**, es decir, agotamiento y falta de energía durante todo el día aunque se hayan dormido horas. El **estado de ánimo** se resiente, con irritabilidad, ansiedad o tristeza, y aparecen **problemas de concentración y memoria**: cuesta prestar atención, recordar o tomar decisiones. También se altera el **apetito**, con tendencia a comer en exceso, falta de hambre o antojos poco saludables, y disminuye el **rendimiento** en el trabajo o los estudios. A largo plazo, la desincronización mantenida, como la del trabajo nocturno, se asocia a un mayor riesgo de trastornos metabólicos, cardiovasculares y de salud mental. Más información en [fatiga crónica](fatiga-cronica-agotamiento) y [salud metabólica](salud-metabolica).",
+     "**¿Cómo se diagnostica?** La base es la **observación y el registro** del patrón de sueño y vigilia durante varios días o semanas, con un **diario de sueño** y, en ocasiones, con **actigrafía**, un pequeño dispositivo de muñeca que registra la actividad y el descanso. Cuando el especialista lo considera necesario, puede indicar un estudio de la **melatonina en saliva** a lo largo de la tarde y la noche, que permite conocer el momento en que el cuerpo empieza a segregarla con luz tenue, un marcador fiable de la hora del reloj interno. Con esta información se diferencia un insomnio de un desajuste del ritmo y se orienta el tratamiento."
+    ],
+    "list_title": "Consejos si sospecha que su ritmo está alterado:",
+    "list": [
+     "Rutina regular de sueño, también el fin de semana",
+     "Luz natural durante el día, sobre todo por la mañana",
+     "Menos luz azul por la noche: modo nocturno, filtros y sin pantallas antes de dormir",
+     "Habitación oscura, fresca y tranquila: cortinas opacas, antifaz, tapones",
+     "Sin cafeína, alcohol ni nicotina en las horas previas a acostarse",
+     "Rutina de relajación: lectura, baño caliente, **[meditación](mindfulness-barcelona)** o [yoga](yoga-particular-grupos-reducidos)",
+     "Ejercicio regular durante el día, no intenso cerca de la hora de dormir",
+     "Si persiste, consulte con su médico o con un especialista en sueño"
+    ]
+   },
+   {
+    "h2": "¿Qué diferencia hay entre el jet lag y un ritmo circadiano alterado?",
+    "paras": [
+     "El **jet lag**, o síndrome del cambio rápido de zona horaria, aparece tras un vuelo largo que cruza varios husos horarios. El reloj interno, regulado por el núcleo supraquiasmático del hipotálamo, sigue marcando la hora de origen, y la luz del nuevo destino llega en momentos que no le corresponden. El resultado es un desequilibrio entre el sueño y la vigilia: somnolencia de día, dificultad para dormirse o despertares de madrugada, menos concentración y cambios en la secreción de melatonina. Es **transitorio**: el reloj se va ajustando a razón de, aproximadamente, una hora por día.",
+     "Para prevenirlo ayuda llegar al viaje con buenos hábitos de sueño, ir adaptando poco a poco los horarios en los días previos y, una vez en el destino, exponerse a la **luz solar** en los momentos adecuados para sincronizar el reloj con la nueva hora local.",
+     "El **ritmo circadiano alterado**, en cambio, no se debe a un viaje, sino a una **exposición prolongada** a factores que desincronizan el reloj: la luz artificial y las pantallas por la noche, los cambios constantes de horario laboral o los horarios muy irregulares. Puede derivar en un síndrome de **retraso o de avance de fase** del sueño y en trastornos del sueño nocturno o de somnolencia diurna que no se corrigen solos en unos días, porque la causa sigue presente. Por eso requiere cambiar los hábitos de luz y horarios de forma sostenida y, a veces, la valoración de un especialista."
+    ]
+   },
+   {
+    "h2": "¿La luz azul es buena o mala para el sueño?",
+    "paras": [
+     "Depende del momento del día. La luz azul, la de longitud de onda corta que abunda en la luz solar y en las pantallas, es la señal que más informa al reloj biológico de que es de día. **De día ayuda; de noche perjudica.** Una revisión sistemática de 36 estudios en adultos jóvenes sanos lo resume bien: la exposición a la luz azul redujo el cansancio en la mitad de los estudios que lo analizaron, mejoró el rendimiento cognitivo en más de la mitad, y aumentó la alerta y acortó el tiempo de reacción en algo más de dos tercios. Pero en la otra cara, empeoró la calidad del sueño en una quinta parte de los estudios, acortó su duración en un tercio, redujo la eficiencia del sueño en la mitad y alargó el tiempo para dormirse en casi la mitad (Silvani et al., Frontiers in Physiology, 2022).",
+     "El mensaje práctico es claro: **busque la luz por la mañana y evítela por la noche**. La luz natural de las primeras horas del día sincroniza el reloj, mejora la alerta y facilita que por la noche la melatonina aparezca a su hora. En cambio, la luz intensa y las pantallas en las horas previas a acostarse frenan la melatonina y retrasan el reloj, como se observó al comparar la lectura en pantalla con la lectura en papel (Chang et al., PNAS, 2015).",
+     "Existen gafas con filtro para la luz azul. Pueden ser una opción más para quien usa pantallas por la noche, pero son solo una pequeña parte de la higiene del sueño y no reemplazan lo esencial: menos pantallas, luz más cálida en casa por la noche y más luz natural de día."
+    ],
+    "list_title": "Estrategias para reducir la luz azul por la noche:",
+    "list": [
+     "Un horario sin pantallas de al menos 1 hora antes de acostarse, para favorecer la melatonina",
+     "Modo nocturno, luz nocturna o pantalla cálida en el móvil, la tableta y el ordenador",
+     "Bombillas más cálidas y de menor intensidad en casa por la noche; luces indirectas en lugar de techos muy brillantes",
+     "Luz natural durante el día, sobre todo por la mañana",
+     "Una rutina relajante antes de dormir: leer en papel, relajación, [estiramientos](clases-estiramientos) suaves o un baño caliente",
+     "Gafas con filtro de luz azul, como una opción más, si las pantallas por la noche son inevitables"
+    ]
+   },
+   {
+    "h2": "¿Qué son la terapia de luz y la cronoterapia?",
+    "paras": [
+     "La **terapia de luz brillante** consiste en exponerse a una luz intensa, normalmente por la mañana y durante un tiempo determinado, para adelantar o estabilizar el reloj biológico. Se utiliza en el trastorno afectivo estacional, en algunos trastornos del ritmo circadiano, en el jet lag y en el trabajo por turnos. Su momento, intensidad y duración son decisivos, porque la misma luz aplicada a una hora equivocada puede desplazar el reloj en sentido contrario. La guía europea del insomnio considera que su utilidad en el insomnio todavía debe evaluarse mejor (Riemann et al., Journal of Sleep Research, 2017).",
+     "La **cronoterapia** consiste en desplazar de forma gradual y planificada los horarios de sueño hasta alcanzar el deseado, y se emplea sobre todo en el síndrome de retraso de fase. Ambas técnicas deben hacerse **siempre bajo la indicación y la supervisión de un especialista en medicina del sueño**, que valora antes si el problema es realmente un desajuste del ritmo y descarta otras causas."
+    ]
+   },
+   {
+    "h2": "¿Qué infusiones ayudan a dormir?",
+    "paras": [
+     "Tomar una infusión caliente forma parte de muchas rutinas para acostarse, y el propio ritual de prepararla y tomarla con calma ayuda a desconectar. Las más utilizadas son la manzanilla, la tila, la valeriana, la pasiflora, la melisa, la lavanda, el rooibos (sin cafeína), la menta o la canela con un poco de miel. **Cada persona reacciona de forma distinta**, y lo que a una le relaja a otra no le hace efecto.",
+     "Conviene ser realistas: la evidencia científica sobre las plantas para el insomnio es **limitada y de baja calidad**, con resultados mixtos incluso en la valeriana, la más estudiada, y la guía europea no las recomienda como tratamiento del insomnio crónico (Riemann et al., Journal of Sleep Research, 2017). Pueden acompañar una rutina de relajación, pero no resuelven las causas del mal dormir. Y no hay que olvidar que una infusión es líquido: tomada muy tarde, puede provocar un despertar para ir al baño.",
+     "**Atención a la hierba de San Juan** (hipérico). Aunque a veces se incluye entre las plantas relajantes, **interacciona con muchos medicamentos**: puede reducir la eficacia de los anticonceptivos hormonales, de anticoagulantes y de otros fármacos, y combinada con antidepresivos puede causar efectos adversos graves. No debe tomarse sin consultar antes con su médico o farmacéutico. Lo mismo vale para cualquier planta si está embarazada, en periodo de lactancia o toma medicación habitual."
+    ]
+   },
+   {
+    "h2": "¿Qué relación hay entre el sueño y la inflamación?",
+    "paras": [
+     "Es uno de los temas centrales de la **PNIE** (psiconeuroinmunoendocrinología), que estudia cómo se comunican el sistema nervioso, el hormonal, el inmunitario, la microbiota y la conducta. Dormir mal no solo cansa: se asocia a un estado de **inflamación de bajo grado**. Un metaanálisis de **72 estudios** con unas 50.000 personas observó que las alteraciones del sueño se asociaban a niveles más altos de **proteína C reactiva (PCR)** y de **interleucina 6 (IL-6)**, dos marcadores de inflamación; dormir poco se asoció a una PCR más alta y dormir muchas horas, a ambos marcadores elevados (Irwin et al., Biological Psychiatry, 2016). Son asociaciones, y los estudios experimentales de privación de sueño de pocos días no mostraron el mismo efecto, pero el patrón apunta en una dirección: el sueño insuficiente o alterado de forma mantenida acompaña a una inflamación más activa.",
+     "El mecanismo pasa, en parte, por el sistema nervioso autónomo. El sueño continuo se acompaña de una menor actividad del sistema **simpático** (el de lucha y huida), que favorece las sustancias inflamatorias, y de un mayor predominio del **parasimpático**, que a través del [nervio vago](nervio-vago) ejerce un efecto antiinflamatorio. El cortisol también participa: su ritmo diario se altera cuando el sueño se desordena. Por eso la duración del sueño importa en ambos sentidos: dormir menos de 7 horas y dormir mucho más de 8 o 9 se asocian a una mayor mortalidad en los estudios poblacionales (Cappuccio et al., Sleep, 2010).",
+     "Lo esperanzador es que **tratar el insomnio puede reducir esa inflamación**. En un ensayo con 123 personas mayores con insomnio, la terapia cognitivo-conductual logró más remisiones del insomnio que el taichí (una práctica emparentada con el [qigong](qigong-barcelona)) y que un seminario educativo; la remisión del insomnio se asoció a una PCR más baja a los 16 meses, y el taichí mejoró la calidad del sueño, la fatiga y los síntomas depresivos (Irwin et al., Sleep, 2014).",
+     "La inflamación, además, no solo hay que evitarla: hay que **resolverla**. Inflamarse ante una infección o una lesión es normal; el problema aparece cuando el proceso no se apaga. Entre los factores que dificultan esa resolución destacan dormir poco o con interrupciones, las apneas del sueño, el sobrepeso, la glucosa elevada y la bajada de estrógenos en la menopausia. Por eso el sueño es un pilar en el [dolor crónico](dolor-persistente-cronico), la [inflamación crónica](inflamacion-cronica-autoinmunes), la [salud metabólica](salud-metabolica) y la [salud digestiva y la microbiota](salud-digestiva-microbiota), con las que se relaciona en ambos sentidos."
+    ]
+   },
+   {
+    "h2": "¿Influyen las hormonas y el estrés en el sueño?",
+    "paras": [
+     "Mucho. El **cortisol** debería estar alto por la mañana y bajo por la noche. Con el estrés mantenido, esa curva se aplana o se invierte: cuesta arrancar por la mañana y por la noche aparece un «segundo aire» que impide dormir. Es el perfil de la persona que dice estar agotada todo el día y despejarse justo al acostarse. Más información en [cortisol y estrés crónico](cortisol-estres-cronico).",
+     "En la mujer, las **hormonas sexuales** también influyen. La **progesterona** se transforma en el cerebro en alopregnanolona, que actúa sobre los receptores GABA-A, los mismos que median la calma; por eso, en la fase previa a la regla, en el posparto o en la perimenopausia, cuando la progesterona baja, muchas mujeres notan más ansiedad y peor sueño. En la **menopausia**, los sofocos y los sudores nocturnos fragmentan el descanso. Más información en [salud de la mujer y menopausia](salud-mujer-menopausia).",
+     "Otros factores menos conocidos son la **histamina**, que en el cerebro es un neurotransmisor de vigilia y cuyo exceso puede asociarse a insomnio (más información en [intolerancia a la histamina](intolerancia-histamina)), la función de la [tiroides](hipotiroidismo-hashimoto) y la salud intestinal, que se comunica con el cerebro a través del eje intestino-cerebro. Ver el conjunto, y no cada síntoma por separado, es precisamente el enfoque de la [PNIE](pni-pnie-barcelona)."
+    ]
+   },
+   {
+    "h2": "¿Cómo se trabaja el insomnio en WA LAM?",
+    "paras": [
+     "El insomnio se aborda desde la [PNIE](pni-pnie-barcelona), que busca el origen y el mecanismo del mal dormir: el estrés y el cortisol, las hormonas, la inflamación, la microbiota y los hábitos de luz y horarios. Se integra en el marco de la [medicina integrativa](medicina-integrativa-barcelona), que combina la medicina convencional con otras herramientas basadas en la evidencia, como la nutrición, el ejercicio y la gestión del estrés, y que coordina la derivación al médico o a una unidad del sueño cuando hace falta.",
+     "Para quien necesita un trabajo más estructurado, el [método re:trace](programas-re-trace) incluye el ejercicio, los hábitos de sueño y luz, la alimentación y la regulación del estrés en un mismo plan. Prácticas como la **[meditación](mindfulness-barcelona)**, el [yoga](yoga-particular-grupos-reducidos), el [qigong](qigong-barcelona) o los [estiramientos](clases-estiramientos) pueden formar parte de la rutina para bajar la activación antes de dormir."
+    ]
+   },
+   {
+    "h2": "¿Cómo se valora el insomnio?",
+    "paras": [
+     "La guía europea recomienda que la valoración del insomnio incluya una **entrevista clínica** con la historia del sueño (hábitos, entorno, horarios de trabajo, factores circadianos), **cuestionarios** y **diarios de sueño**, preguntas sobre la salud física y mental y, si está indicado, otras pruebas, como una analítica (Riemann et al., Journal of Sleep Research, 2017). La polisomnografía, el estudio del sueño en una unidad especializada, se reserva para cuando se sospechan otros trastornos, como la apnea o los movimientos periódicos de las piernas.",
+     "En la primera visita se repasan los horarios de acostarse y levantarse, cuánto se tarda en dormirse, los despertares, las siestas, la cafeína, el alcohol y las pantallas, la medicación, el dolor, la digestión, el ciclo menstrual o la menopausia, el estrés y el estado de ánimo. Los cuestionarios validados de calidad del sueño, somnolencia e insomnio permiten medir el punto de partida y comparar después. El **diario de sueño** de una o dos semanas suele ser la herramienta más reveladora: muchas personas descubren en él patrones que no habían percibido."
+    ]
+   },
+   {
+    "h2": "¿Cuándo debo consultar con mi médico?",
+    "paras": [
+     "Si el insomnio dura más de unas semanas, afecta a su día o se acompaña de otros síntomas, conviene consultar con su médico. Las guías clínicas coinciden en que el tratamiento de primera elección del insomnio crónico en adultos es la **terapia cognitivo-conductual para el insomnio (TCC-I)**: la guía europea la recomienda como primera línea en adultos de cualquier edad, con una recomendación fuerte basada en evidencia de alta calidad, y su actualización de 2023 lo mantiene (Riemann et al., Journal of Sleep Research, 2017 y 2023); el American College of Physicians recomienda que todos los adultos con insomnio crónico reciban la TCC-I como tratamiento inicial (Qaseem et al., Annals of Internal Medicine, 2016).",
+     "La TCC-I trabaja los pensamientos y las conductas que mantienen el insomnio: el control de estímulos, la restricción del tiempo en cama, la reestructuración de las preocupaciones sobre el sueño, la relajación y la higiene del sueño. La realizan psicólogos o profesionales formados en sueño. Cuando no es suficiente o no está disponible, el médico puede valorar un tratamiento farmacológico; esa decisión, y cualquier cambio en la medicación que ya tome, corresponde siempre a su médico. Además, conviene buscar la causa de fondo."
+    ],
+    "list_title": "Consulte con su médico o con una unidad del sueño si:",
+    "list": [
+     "Ronca fuerte y alguien ha observado pausas en su respiración mientras duerme",
+     "Tiene mucha somnolencia durante el día o se duerme conduciendo o en situaciones inapropiadas",
+     "Siente una necesidad irresistible de mover las piernas por la noche",
+     "El insomnio dura más de tres meses o empeora pese a mejorar los hábitos",
+     "Se acompaña de tristeza persistente, ansiedad intensa o pensamientos de hacerse daño (en este caso, consulte cuanto antes)",
+     "Aparece tras empezar un medicamento nuevo o se relaciona con dolor, reflujo, sofocos o problemas respiratorios",
+     "Se despierta con dolor de cabeza, sensación de ahogo o con la boca muy seca de forma habitual"
+    ]
+   },
+   {
+    "h2": "¿Qué puedo hacer cada día para dormir mejor?",
+    "paras": [
+     "El sueño de la noche se prepara durante el día. Estas recomendaciones resumen lo esencial de esta página; aplicadas con constancia durante varias semanas, son la base de cualquier mejora. Recuerde que se trata de conclusiones orientativas: cada persona es distinta, y un plan individualizado tiene en cuenta su historia, sus horarios y su salud."
+    ],
+    "list_title": "Recomendaciones para el día a día:",
+    "list": [
+     "Levántese a la misma hora todos los días y salga a la luz natural en la primera hora",
+     "Muévase a diario, mejor de día y al aire libre",
+     "Tome la última cafeína a media tarde y evite el alcohol y el tabaco por la noche",
+     "Cene ligero y con al menos dos horas de margen antes de acostarse",
+     "Baje la intensidad de la luz en casa al anochecer y deje las pantallas una hora antes de dormir",
+     "Cree una rutina de 20 a 30 minutos: baño caliente, lectura, [estiramientos](clases-estiramientos) suaves, respiración 4–pausa–4 o **[meditación](mindfulness-barcelona)**",
+     "Mantenga el dormitorio oscuro, silencioso y a 17–19 °C",
+     "Si no se duerme, no mire el reloj; levántese un rato y vuelva cuando tenga sueño",
+     "Practique la gestión del estrés durante el día, no solo por la noche: **[mindfulness](mindfulness-barcelona)**, [yoga](yoga-particular-grupos-reducidos) o [qigong](qigong-barcelona)"
+    ]
+   }
+  ],
+  "evidence": {
+   "h2": "Qué dice la evidencia",
+   "items": [
+    [
+     "España (Sleep Med)",
+     "El 20,8 % de la población española de 15 años o más refiere síntomas de insomnio tres noches por semana o más, y el 6,4 % cumple criterios de trastorno de insomnio (Ohayon y Sagales, 2010)."
+    ],
+    [
+     "Horas de sueño (J Clin Sleep Med)",
+     "Las sociedades de medicina del sueño recomiendan que los adultos duerman 7 horas o más por noche de forma habitual (Watson et al., 2015)."
+    ],
+    [
+     "Duración y mortalidad (Sleep)",
+     "En 1,38 millones de personas, dormir poco se asoció a un 12 % más de mortalidad y dormir mucho, a un 30 % más (Cappuccio et al., 2010)."
+    ],
+    [
+     "Sueño e inflamación (Biol Psychiatry)",
+     "En 72 estudios con unas 50.000 personas, las alteraciones del sueño se asociaron a una PCR y una IL-6 más altas (Irwin et al., 2016)."
+    ],
+    [
+     "Tratar el insomnio (Sleep)",
+     "En 123 personas mayores con insomnio, la TCC redujo el riesgo de PCR elevada a los 16 meses (OR 0,26) frente a un seminario educativo (Irwin et al., 2014)."
+    ],
+    [
+     "Luz azul (Front Physiol)",
+     "En 36 estudios, la luz azul mejoró la alerta en más de dos tercios, pero redujo la duración del sueño en un tercio y su eficiencia en la mitad (Silvani et al., 2022)."
+    ],
+    [
+     "Pantallas (PNAS)",
+     "En 12 adultos, leer en una pantalla iluminada antes de dormir redujo la melatonina, retrasó el reloj biológico y la conciliación del sueño frente al papel (Chang et al., 2015)."
+    ],
+    [
+     "Cafeína (J Clin Sleep Med)",
+     "Una dosis alta de cafeína tomada 6 horas antes de acostarse redujo el sueño en más de una hora (Drake et al., 2013)."
+    ],
+    [
+     "Ejercicio vespertino (Sports Med)",
+     "En 23 estudios, el ejercicio por la tarde-noche no empeoró el sueño y aumentó 1,3 puntos el porcentaje de sueño profundo (Stutz et al., 2019)."
+    ],
+    [
+     "Sueño y demencia (Nat Commun)",
+     "En 7.959 personas seguidas 25 años, dormir poco de forma persistente en la mediana edad se asoció a un 30 % más de riesgo de demencia (Sabia et al., 2021)."
+    ],
+    [
+     "Guías (J Sleep Res; Ann Intern Med)",
+     "La guía europea y el American College of Physicians recomiendan la TCC-I como tratamiento de primera elección del insomnio crónico (Riemann et al., 2017; Qaseem et al., 2016)."
+    ]
+   ],
+   "refs": [
+    {
+     "t": "Ohayon MM, Sagales T, 2010. «Prevalence of insomnia and sleep characteristics in the general population of Spain». Sleep Medicine.",
+     "doi": "10.1016/j.sleep.2010.02.018"
+    },
+    {
+     "t": "Watson NF, Badr MS, Belenky G, et al., 2015. «Recommended Amount of Sleep for a Healthy Adult: A Joint Consensus Statement of the American Academy of Sleep Medicine and Sleep Research Society». Journal of Clinical Sleep Medicine.",
+     "doi": "10.5664/jcsm.4758"
+    },
+    {
+     "t": "Cappuccio FP, D'Elia L, Strazzullo P, Miller MA, 2010. «Sleep duration and all-cause mortality: a systematic review and meta-analysis of prospective studies». Sleep.",
+     "doi": "10.1093/sleep/33.5.585"
+    },
+    {
+     "t": "Irwin MR, Olmstead R, Carroll JE, 2016. «Sleep Disturbance, Sleep Duration, and Inflammation: A Systematic Review and Meta-Analysis of Cohort Studies and Experimental Sleep Deprivation». Biological Psychiatry.",
+     "doi": "10.1016/j.biopsych.2015.05.014"
+    },
+    {
+     "t": "Irwin MR, Olmstead R, Carrillo C, et al., 2014. «Cognitive Behavioral Therapy vs. Tai Chi for Late Life Insomnia and Inflammatory Risk: A Randomized Controlled Comparative Efficacy Trial». Sleep.",
+     "doi": "10.5665/sleep.4008"
+    },
+    {
+     "t": "Silvani MI, Werder R, Perret C, 2022. «The influence of blue light on sleep, performance and wellbeing in young adults: A systematic review». Frontiers in Physiology.",
+     "doi": "10.3389/fphys.2022.943108"
+    },
+    {
+     "t": "Chang AM, Aeschbach D, Duffy JF, Czeisler CA, 2015. «Evening use of light-emitting eReaders negatively affects sleep, circadian timing, and next-morning alertness». Proceedings of the National Academy of Sciences.",
+     "doi": "10.1073/pnas.1418490112"
+    },
+    {
+     "t": "Drake C, Roehrs T, Shambroom J, Roth T, 2013. «Caffeine Effects on Sleep Taken 0, 3, or 6 Hours before Going to Bed». Journal of Clinical Sleep Medicine.",
+     "doi": "10.5664/jcsm.3170"
+    },
+    {
+     "t": "Ebrahim IO, Shapiro CM, Williams AJ, Fenwick PB, 2013. «Alcohol and Sleep I: Effects on Normal Sleep». Alcoholism: Clinical and Experimental Research.",
+     "doi": "10.1111/acer.12006"
+    },
+    {
+     "t": "Stutz J, Eiholzer R, Spengler CM, 2019. «Effects of Evening Exercise on Sleep in Healthy Participants: A Systematic Review and Meta-Analysis». Sports Medicine.",
+     "doi": "10.1007/s40279-018-1015-0"
+    },
+    {
+     "t": "Wittmann M, Dinich J, Merrow M, Roenneberg T, 2006. «Social Jetlag: Misalignment of Biological and Social Time». Chronobiology International.",
+     "doi": "10.1080/07420520500545979"
+    },
+    {
+     "t": "Xie L, Kang H, Xu Q, et al., 2013. «Sleep Drives Metabolite Clearance from the Adult Brain». Science.",
+     "doi": "10.1126/science.1241224"
+    },
+    {
+     "t": "Miao A, Luo T, Hsieh B, et al., 2024. «Brain clearance is reduced during sleep and anesthesia». Nature Neuroscience.",
+     "doi": "10.1038/s41593-024-01638-y"
+    },
+    {
+     "t": "Sabia S, Fayosse A, Dumurgier J, et al., 2021. «Association of sleep duration in middle and old age with incidence of dementia». Nature Communications.",
+     "doi": "10.1038/s41467-021-22354-2"
+    },
+    {
+     "t": "Riemann D, Baglioni C, Bassetti C, et al., 2017. «European guideline for the diagnosis and treatment of insomnia». Journal of Sleep Research.",
+     "doi": "10.1111/jsr.12594"
+    },
+    {
+     "t": "Riemann D, Espie CA, Altena E, et al., 2023. «The European Insomnia Guideline: An update on the diagnosis and treatment of insomnia 2023». Journal of Sleep Research.",
+     "doi": "10.1111/jsr.14035"
+    },
+    {
+     "t": "Qaseem A, Kansagara D, Forciea MA, Cooke M, Denberg TD, 2016. «Management of Chronic Insomnia Disorder in Adults: A Clinical Practice Guideline From the American College of Physicians». Annals of Internal Medicine.",
+     "doi": "10.7326/M15-2175"
+    }
+   ]
+  },
+  "faq": [
+   [
+    "No puedo dormir, ¿qué hago?",
+    "No intente forzar el sueño ni mire el reloj. Respire despacio, alargando la espiración, y si pasan unos 20 minutos sin dormirse, levántese, haga algo tranquilo con luz tenue y vuelva a la cama cuando tenga sueño. Durante el día, revise la cafeína, el alcohol, las pantallas, las siestas y la regularidad de sus horarios."
+   ],
+   [
+    "¿Cuándo se considera que tengo insomnio crónico?",
+    "Cuando le cuesta dormirse, mantener el sueño o se despierta demasiado pronto al menos tres noches por semana durante tres meses, y eso afecta a su día."
+   ],
+   [
+    "Duermo ocho horas y me levanto agotado. ¿Por qué?",
+    "Puede deberse a un sueño fragmentado, a un ritmo circadiano desajustado, al estrés y el cortisol, a cambios hormonales, al alcohol nocturno o a un trastorno como la apnea del sueño. Conviene revisar estos factores y, si se sospecha apnea, consultar con una unidad del sueño."
+   ],
+   [
+    "¿Cuántas horas debo dormir?",
+    "Las guías recomiendan que los adultos duerman 7 horas o más por noche de forma habitual. La mejor referencia personal es cómo se siente durante el día."
+   ],
+   [
+    "¿Sirven las gafas de luz azul?",
+    "Pueden ser una opción más si usa pantallas por la noche, pero lo esencial es reducir las pantallas antes de dormir, usar luz cálida en casa por la noche y exponerse a la luz natural por la mañana."
+   ],
+   [
+    "¿Puedo tomar infusiones o plantas para dormir?",
+    "Pueden formar parte de una rutina relajante, pero la evidencia es limitada y no resuelven las causas. Consulte antes con su médico si toma medicación, y nunca tome hierba de San Juan sin hacerlo, por sus interacciones."
+   ],
+   [
+    "¿Tengo que dejar las pastillas para dormir?",
+    "No sin hablarlo con su médico. Cualquier cambio en la medicación debe hacerse con su supervisión. Además de la medicación, conviene buscar la causa del insomnio y trabajar los hábitos."
+   ],
+   [
+    "¿Dormir mal aumenta el riesgo de alzhéimer?",
+    "Los estudios observan una asociación entre dormir poco en la mediana edad y un mayor riesgo de demencia, pero no demuestran una relación causal. Cuidar el sueño es, en cualquier caso, una de las medidas preventivas más razonables."
+   ]
+  ],
+  "related": [
+   "neurolongevidad-salud-cognitiva",
+   "estres-ansiedad",
+   "osteopatia-craneosacral-barcelona",
+   "salud-mujer-menopausia"
+  ],
+  "cta_h2": "Recupere un descanso reparador",
+  "seo": {
+   "kw": "insomnio Barcelona",
+   "kws": [
+    "no puedo dormir",
+    "no puedo dormir qué hago",
+    "problemas para dormir Sant Gervasi",
+    "tratamiento insomnio Barcelona",
+    "sueño no reparador",
+    "ritmo circadiano",
+    "sueño y alzhéimer",
+    "sistema glinfático"
+   ],
+   "ca_kw": "insomni Barcelona",
+   "quick": "El insomnio es la dificultad para conciliar el sueño, mantenerlo o el despertar demasiado temprano, con repercusión durante el día; se considera crónico cuando ocurre al menos tres noches por semana durante tres meses. Afecta a alrededor de una de cada cinco personas en España, y las guías recomiendan dormir 7 horas o más y, como primera elección en el insomnio crónico, la terapia cognitivo-conductual para el insomnio. En Sarrià–Sant Gervasi (Barcelona) se valora el patrón de sueño, el ritmo circadiano y los hábitos.",
+   "entity": [
+    "MedicalCondition",
+    "Insomnio"
+   ]
+  },
+  "research": [
+   "Personas que no pueden dormir, se despiertan de madrugada o se levantan cansadas, con estrés, cambios hormonales u horarios irregulares, que quieren entender las causas y mejorar su sueño en Barcelona.",
+   [
+    "no puedo dormir qué hago",
+    "insomnio tratamiento Barcelona",
+    "cómo saber mi ritmo circadiano",
+    "cómo mejorar el sueño profundo"
+   ],
+   [
+    "no puc dormir",
+    "insomni Barcelona"
+   ],
+   "Unidades del sueño hospitalarias, portales de salud con consejos generales de higiene del sueño y blogs de PNIE con artículos sobre ritmos circadianos."
+  ],
+  "ca": {}
+ }
+]

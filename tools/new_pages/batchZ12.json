@@ -1,0 +1,611 @@
+[
+ {
+  "slug": "salud-digestiva-microbiota",
+  "ca_slug": "salut-digestiva-microbiota",
+  "group": "motivo",
+  "nav": "Microbiota y estudio de microbiota",
+  "card": "Qué es la microbiota, por qué influye en la digestión, la inmunidad, el metabolismo, el ánimo y el dolor, y cuándo conviene estudiarla.",
+  "title": "Microbiota y estudio de microbiota en Barcelona | WA LAM",
+  "desc": "Estudio de microbiota intestinal en Sarrià–Sant Gervasi, Barcelona: disbiosis, cuándo pedirlo y cómo se interpreta en consulta de PNIE con un plan realista.",
+  "h1": "Microbiota y estudio de microbiota en Barcelona",
+  "sub": "Disbiosis y salud intestinal desde la PNIE · Sarrià–Sant Gervasi",
+  "lead": "La microbiota no son «solo unas bacterias». Es un ecosistema de billones de microorganismos que participa en la digestión, la inmunidad, la inflamación, el metabolismo, el estado de ánimo, las hormonas e incluso el dolor. En esta página respondemos, pregunta a pregunta, a todo lo que conviene saber: qué es, qué produce, qué la altera, con qué problemas se relaciona y cuándo tiene sentido estudiarla dentro de la [PNIE](pni-pnie-barcelona).",
+  "facts_title": "En WA LAM",
+  "facts": [
+   "Valoración de la microbiota dentro de la PNIE",
+   "Estudio de microbiota en laboratorio especializado",
+   "Interpretación de resultados y plan por fases",
+   "Primera visita: 60 min · 90 €"
+  ],
+  "wa": "Hola, me gustaría información sobre el estudio de microbiota.",
+  "mirror": {
+   "h2": "¿Se reconoce en estos síntomas?",
+   "qs": [
+    "¿Tiene hinchazón, gases o un ritmo intestinal irregular desde hace tiempo, aunque coma «bien»?",
+    "¿Sus molestias empezaron o empeoraron tras antibióticos, una gastroenteritis o una etapa de mucho estrés?",
+    "¿Nota que la digestión, el ánimo, la piel, el dolor o el cansancio van de la mano?",
+    "¿Sus heces son a menudo blandas, duras o cambiantes y no sabe si eso es normal?"
+   ],
+   "close": "Si nota alguna de las señales de alarma que explicamos más abajo, consulte primero con su médico."
+  },
+  "explain": {
+   "h2": "¿Qué es la microbiota?",
+   "paras": [
+    "La **microbiota** es el conjunto de microorganismos que viven en nuestro cuerpo: bacterias, sobre todo, pero también hongos, arqueas y virus. Hay microbiota en la piel, la boca, las vías respiratorias o la vagina, pero la más numerosa y estudiada es la del **intestino**, en especial la del colon. Se calcula que un adulto de referencia alberga unos **38 billones de bacterias**, una cifra del mismo orden que la de sus propias células, unos 30 billones, y que en conjunto pesan alrededor de 0,2 kg (Sender et al., PLoS Biology, 2016). Esta estimación corrige la idea, muy repetida, de que las bacterias nos superan diez a uno.",
+    "Conviene distinguir algunos términos que a menudo se confunden. El **microbioma** es el conjunto de los genes de esos microorganismos, es decir, su material genético y su capacidad de fabricar sustancias; en el lenguaje cotidiano se usa a veces como sinónimo de microbiota. La **disbiosis** es un desequilibrio de esa comunidad: se pierde diversidad, disminuyen las bacterias beneficiosas o crecen otras con potencial inflamatorio.",
+    "Los **probióticos** son, según el consenso internacional, microorganismos vivos que, administrados en cantidades adecuadas, aportan un beneficio para la salud (Hill et al., Nature Reviews Gastroenterology & Hepatology, 2014). Su efecto depende de la cepa concreta y de la persona, por lo que no todos sirven para lo mismo. Los **prebióticos**, en cambio, son el alimento de las bacterias: sustratos, sobre todo fibras, que los microorganismos utilizan de forma selectiva y que aportan un beneficio para la salud (Gibson et al., Nature Reviews Gastroenterology & Hepatology, 2017).",
+    "La microbiota de cada persona es única, como una huella. Empieza a formarse en el nacimiento, se moldea con el tipo de parto, la lactancia y la alimentación de la infancia, y a lo largo de la vida cambia con la dieta, los fármacos, el estrés, el sueño, la actividad física o las hormonas. Aunque es bastante estable en el adulto, responde a los hábitos, y eso es lo que permite cuidarla."
+   ]
+  },
+  "sections": [
+   {
+    "h2": "¿Por qué la microbiota no son «solo unas bacterias»?",
+    "paras": [
+     "Durante mucho tiempo se pensó en las bacterias del intestino como simples inquilinas, casi siempre asociadas a infecciones. Hoy se sabe que la **microbiota** se comporta como un órgano más: participa en la digestión, fabrica sustancias que pasan a la sangre, entrena al sistema inmunitario, conversa con el sistema nervioso y contribuye a regular las hormonas y el metabolismo. Por eso su estado se relaciona con mucho más que la barriga.",
+     "Basta con repasar lo que se investiga: la **digestión** y el ritmo intestinal, la **inmunidad** y las alergias, la **inflamación de bajo grado**, el **peso y la glucosa**, el **hígado**, el **estado de ánimo** y el estrés, el **dolor**, la **piel**, las **hormonas** femeninas y tiroideas e incluso la respuesta a algunos tratamientos oncológicos. En muchos de estos campos la evidencia procede todavía de estudios en animales o de asociaciones, y así lo indicamos en cada apartado, pero el mensaje de fondo es sólido: el intestino y sus microorganismos influyen en la salud de todo el cuerpo.",
+     "Esta visión es la que comparte la [PNIE](pni-pnie-barcelona) (psiconeuroinmunoendocrinología), que estudia cómo se comunican el sistema nervioso, el hormonal, el inmunitario, la microbiota y la conducta. En consulta se ve a menudo: personas con estreñimiento o colon irritable que además tienen dolor crónico, cansancio y dolores de cabeza; o mujeres con reglas dolorosas o irregulares, molestias digestivas, ansiedad y problemas de piel que visitan a un especialista distinto para cada cosa. Mirar la microbiota ayuda a unir esas piezas.",
+     "A lo largo de esta página respondemos a muchas preguntas, una por cada tema, para que pueda hacerse una idea completa. No se trata de atribuir todos los males a la microbiota ni de prometer que «arreglarla» lo resuelve todo, sino de entender por qué merece la pena cuidarla y cuándo conviene estudiarla."
+    ]
+   },
+   {
+    "h2": "¿Por qué se dice que la microbiota es nuestra aliada evolutiva?",
+    "paras": [
+     "Los seres humanos no hemos evolucionado solos. Durante millones de años, **bacterias, hongos, arqueas y virus** han colonizado nuestras mucosas y han evolucionado con nosotros, en una relación de beneficio mutuo. Nosotros les ofrecemos un hogar templado y alimento; ellas realizan funciones que nuestro cuerpo no sabe hacer por sí mismo.",
+     "El ejemplo más claro es la digestión de la **fibra**. Nuestras enzimas no pueden romper buena parte de los hidratos de carbono complejos de las plantas; las bacterias del colon sí, y a partir de ellos fabrican moléculas que nos nutren y protegen. Además, la microbiota se ha especializado en **modelar el sistema inmunitario**, en participar en la **regulación hormonal** y en **comunicarse con el sistema nervioso**. Los animales criados sin microbiota en condiciones de laboratorio tienen un sistema inmunitario inmaduro, lo que muestra hasta qué punto esta relación es necesaria (Belkaid y Hand, Cell, 2014).",
+     "Esta coevolución explica por qué los cambios rápidos del estilo de vida moderno (dietas pobres en fibra y ricas en ultraprocesados, uso repetido de antibióticos, sedentarismo, estrés crónico, poco contacto con la naturaleza) pueden alterar un equilibrio que tardó milenios en construirse. Recuperar hábitos que la microbiota «reconoce» es, en buena medida, volver a cuidar a una aliada olvidada."
+    ]
+   },
+   {
+    "h2": "¿Qué moléculas produce la microbiota y por qué nos dan salud?",
+    "paras": [
+     "La microbiota no se queda en el intestino: interactúa con el hígado, los huesos, la piel o el cerebro a través de las **moléculas que fabrica**, muchas de las cuales pasan a la sangre. Las más estudiadas son los **ácidos grasos de cadena corta (AGCC)**, que se forman cuando las bacterias fermentan la fibra, sobre todo en el colon ascendente. Los tres principales son el **acetato**, el **propionato** y el **butirato**, que en el colon se encuentran aproximadamente en una proporción de 60:20:20 (Koh et al., Cell, 2016).",
+     "El **butirato** es la principal fuente de energía de las células que recubren el colon (los colonocitos). Ayuda a mantener la barrera intestinal, tiene un efecto antiinflamatorio y, en estudios en ratones, favorece la formación de **linfocitos T reguladores**, las células que frenan las respuestas inmunitarias excesivas (Furusawa et al., Nature, 2013, estudio en ratones). El **propionato** viaja sobre todo al hígado, donde participa en la fabricación de glucosa (gluconeogénesis), y se relaciona con la sensación de saciedad y con el movimiento intestinal (peristaltismo). El **acetato** es el más abundante y se distribuye por todo el cuerpo, donde sirve de sustrato energético y para la síntesis de grasas.",
+     "Pero los AGCC no son las únicas moléculas. La microbiota transforma los **ácidos biliares** en ácidos biliares secundarios, que actúan como señales metabólicas; produce **vitamina K** y varias **vitaminas del grupo B**; metaboliza el **triptófano** de la dieta en compuestos (indoles) que influyen en la barrera intestinal y en la inmunidad; y fabrica o estimula la producción de **neurotransmisores** como el GABA o la serotonina. En ratones sin microbiota, las células intestinales producen alrededor de un 60 % menos de serotonina, y ciertas bacterias formadoras de esporas la restablecen (Yano et al., Cell, 2015, estudio en ratones). Esta serotonina intestinal regula la motilidad y no atraviesa directamente al cerebro, pero muestra hasta qué punto bacterias e intestino trabajan juntos.",
+     "La conclusión práctica es sencilla: lo que comemos alimenta también a nuestras bacterias, y de ese alimento dependen las moléculas que producen. Por eso la fibra y la variedad vegetal, de las que hablamos a continuación, son tan importantes."
+    ]
+   },
+   {
+    "h2": "¿Qué son los prebióticos y por qué son tan importantes como los probióticos?",
+    "paras": [
+     "Se habla mucho de probióticos, pero las bacterias que ya tenemos también **necesitan comer**. Un **prebiótico** es, según el consenso internacional de expertos, un sustrato que los microorganismos del organismo utilizan de forma selectiva y que aporta un beneficio para la salud (Gibson et al., Nature Reviews Gastroenterology & Hepatology, 2017). En la práctica se trata sobre todo de fibras y compuestos vegetales que no digerimos y que llegan intactos al colon.",
+     "Allí las bacterias los fermentan y producen los ácidos grasos de cadena corta (butirato, propionato y acetato) que hemos descrito: regulan la inflamación intestinal y de todo el cuerpo, mantienen la integridad del epitelio, alimentan a los colonocitos y actúan sobre el sistema inmunitario y el eje intestino–cerebro. Sin ese «combustible», incluso las bacterias beneficiosas pierden terreno.",
+     "Cada tipo de prebiótico alimenta a grupos de bacterias distintos. Por eso no existe un alimento milagroso: lo que más se asocia a una microbiota diversa es **variar** las fuentes vegetales. En el American Gut Project, las personas que comían más de 30 tipos de plantas distintos a la semana tenían una microbiota más diversa que las que comían 10 o menos; es una asociación observacional, pero coherente con el resto de la evidencia (McDonald et al., mSystems, 2018). La lista que sigue es orientativa; la tolerancia es individual y, en personas con colon irritable o SIBO, algunos de estos alimentos pueden aumentar los gases y conviene ajustarlos con un profesional de [nutrición](nutricion-salud-intestinal)."
+    ],
+    "list_title": "Tipos de prebióticos y dónde se encuentran (orientativo):",
+    "list": [
+     "**Inulina y fructooligosacáridos (FOS):** alcachofa, achicoria, puerro, cebolla, ajo, espárrago, plátano poco maduro",
+     "**Galactooligosacáridos (GOS):** legumbres como lentejas, garbanzos y alubias",
+     "**Almidón resistente:** patata, arroz, pasta o legumbres cocinados y enfriados, plátano verde (ver el apartado siguiente)",
+     "**Pectinas:** manzana, pera, cítricos, zanahoria",
+     "**Betaglucanos:** avena, cebada y setas",
+     "**Polifenoles:** frutos rojos, cacao puro, aceite de oliva virgen extra, té, especias y hierbas aromáticas",
+     "Introducir los cambios de forma progresiva para que el intestino se adapte, sobre todo si hay tendencia a la hinchazón"
+    ]
+   },
+   {
+    "h2": "¿Por qué conviene enfriar la pasta, el arroz o la patata?",
+    "paras": [
+     "Es uno de los trucos de cocina más sencillos para cuidar la microbiota. El **almidón resistente** es un tipo de almidón que resiste la digestión en el intestino delgado y llega al colon, donde las bacterias lo fermentan y producen **butirato**. Se comporta, por tanto, como una fibra prebiótica.",
+     "Cuando se cocina un alimento rico en almidón (patata, boniato, arroz, pasta, legumbres) y después se **enfría**, parte de ese almidón se reorganiza en una estructura más compacta que nuestras enzimas no pueden romper. Este proceso se llama **retrogradación** y da lugar al almidón resistente de tipo 3. En un estudio con arroz blanco, el contenido de almidón resistente pasó de 0,64 g por 100 g en el arroz recién hecho a 1,30 g tras enfriarlo 10 horas a temperatura ambiente y a 1,65 g tras guardarlo 24 horas en la nevera a 4 °C y recalentarlo. En 15 adultos sanos, este último arroz produjo una subida de glucosa menor que el arroz recién cocinado (Sonia et al., Asia Pacific Journal of Clinical Nutrition, 2015). Es un estudio pequeño, pero ilustra la idea: un mismo alimento puede tener un efecto distinto según cómo se prepare.",
+     "El truco consiste en **cocinar como siempre, enfriar en la nevera alrededor de 24 horas** y comerlo frío o recalentado suavemente. Algunos autores recomiendan no recalentarlo a temperaturas muy altas. Los beneficios que se atribuyen al almidón resistente son una respuesta de la glucosa más estable, más saciedad y un apoyo a la regularidad intestinal y a la microbiota. Los efectos sobre la inmunidad mediados por el butirato y los linfocitos T reguladores proceden, por ahora, de estudios en ratones (Furusawa et al., Nature, 2013).",
+     "No se trata de cambiar toda la alimentación, sino de incorporar hábitos sostenibles. Más vale un gesto pequeño repetido cada semana que un cambio extremo que no se mantiene."
+    ],
+    "list_title": "Ejemplos prácticos:",
+    "list": [
+     "Legumbres de bote, que ya vienen cocinadas y enfriadas, en ensaladas o salteados",
+     "Purés, cremas o verduras con almidón (patata, boniato, calabaza, chirivía, zanahoria) preparados el día anterior",
+     "Pasta, arroz o tortilla de patatas del día siguiente",
+     "Pan congelado y tostado después",
+     "Ensaladas de patata, de arroz o con guisantes",
+     "Plátano poco maduro, más rico en almidón resistente que el maduro"
+    ]
+   },
+   {
+    "h2": "¿Por qué la microbiota es imprescindible para el sistema inmunitario?",
+    "paras": [
+     "El intestino es la mayor superficie de contacto entre el cuerpo y el exterior, y alberga una parte muy importante del sistema inmunitario. Allí este sistema tiene que aprender una tarea delicada: **tolerar** los alimentos y las bacterias beneficiosas y, al mismo tiempo, **defenderse** de los microorganismos dañinos. La microbiota es su principal maestra.",
+     "Desde el nacimiento, el contacto con las bacterias educa a las células inmunitarias. La microbiota estimula la producción de moco y de **inmunoglobulina A** secretora, compite con los patógenos por el espacio y los nutrientes, y produce moléculas como el butirato que favorecen la aparición de linfocitos T reguladores. Una revisión de referencia en la revista *Cell* resume que la microbiota es necesaria para el desarrollo y el funcionamiento normal del sistema inmunitario, y que su alteración se relaciona con enfermedades inflamatorias, alérgicas y autoinmunes (Belkaid y Hand, Cell, 2014).",
+     "Por eso influyen en la inmunidad factores que a primera vista parecen lejanos: el tipo de parto y la lactancia, las tandas de antibióticos en la infancia, la alimentación, el estrés o el sueño. Cuando hay infecciones de repetición, alergias, problemas de piel o enfermedades autoinmunes, la salud intestinal forma parte de la valoración. Puede leer más en [inflamación crónica y autoinmunidad](inflamacion-cronica-autoinmunes) y en [PNIE](pni-pnie-barcelona)."
+    ]
+   },
+   {
+    "h2": "¿Qué relación hay entre la salud intestinal y la inflamación?",
+    "paras": [
+     "Cuando la barrera intestinal está íntegra y la microbiota es diversa, el intestino se mantiene en un estado de equilibrio, la **homeostasis intestinal**. Si ese equilibrio se rompe, el sistema inmunitario de la mucosa recibe estímulos constantes y puede mantenerse una **inflamación de bajo grado**: no da fiebre ni rojez, pero se asocia a cansancio, dolor más persistente, peor sueño y alteraciones metabólicas.",
+     "Conviene aclarar que **inflamarse es normal**. Ante una herida, una infección o un esfuerzo, la inflamación es la forma que tiene el cuerpo de defenderse y empezar a reparar. De forma orientativa, la fase inflamatoria dura unos pocos días (dolor, rojez, hinchazón) y le sigue un periodo más largo de reparación. Lo que no es normal es **no resolver** la inflamación y quedarse atascado en ella. Hoy se sabe que la resolución no es un apagado pasivo, sino un proceso activo dirigido por unas moléculas llamadas **mediadores especializados prorresolución** (resolvinas, protectinas y maresinas), que se fabrican a partir de los ácidos grasos omega-3 (Serhan, Nature, 2014). La idea fuerza es que la clave no está en evitar la inflamación, sino en aprender a resolverla.",
+     "Esto ayuda a entender a las personas que, tras un virus, una infección (por ejemplo, la COVID), una etapa de estrés o una intervención, «ya no vuelven a ser las mismas». Son frases frecuentes en consulta: «nunca más he recuperado mi energía», «no tengo la fuerza muscular que tenía», «mi sueño ya no es igual». En estas situaciones se valora qué factores pueden estar dificultando la resolución. También se investiga la relación entre una microbiota oral e intestinal desordenada y problemas como la periodontitis, la enfermedad cardiovascular o el cáncer de colon; son asociaciones en estudio que refuerzan la idea de que la boca y el intestino forman parte del mismo sistema.",
+     "Los **omega-3** (pescado azul, nueces, semillas de chía y de lino) son la materia prima de las resolvinas, pero tomarlos no garantiza que el cuerpo las fabrique: influyen el sueño, el peso, la glucosa y las hormonas. La relación entre inflamación y dolor se explica también en [dolor persistente o crónico](dolor-persistente-cronico) y en [salud metabólica](salud-metabolica)."
+    ],
+    "list_title": "Factores que, según la experiencia clínica y la investigación, dificultan resolver la inflamación:",
+    "list": [
+     "Dormir poco o con interrupciones, menos de 7–8 horas seguidas, y el insomnio (ver [sueño e insomnio](sueno-insomnio))",
+     "Apneas del sueño",
+     "La menopausia, por la bajada de estrógenos (ver [salud de la mujer y menopausia](salud-mujer-menopausia))",
+     "Sobrepeso u obesidad, glucosa elevada y diabetes tipo 2",
+     "Una alimentación pobre en fibra y en omega-3 y rica en ultraprocesados",
+     "El estrés mantenido y el sedentarismo"
+    ]
+   },
+   {
+    "h2": "Permeabilidad intestinal: ¿su intestino es una barrera o un colador?",
+    "paras": [
+     "La pared del intestino es una **barrera inteligente y selectiva**: debe dejar pasar los nutrientes y el agua, y frenar a las bacterias, las toxinas y los fragmentos de alimentos sin digerir. Está formada por una sola capa de células unidas entre sí por las **uniones estrechas** (*tight junctions*), que funcionan como cremalleras que se abren y se cierran de forma regulada. Por encima, una capa de moco y la inmunoglobulina A añaden protección.",
+     "Cuando esas cremalleras se abren más de la cuenta, por inflamación, estrés crónico, disbiosis, infecciones, alcohol o algunos fármacos, se habla de **hiperpermeabilidad intestinal** o «intestino permeable». Pueden pasar entonces sustancias que activan el sistema inmunitario y alimentan la inflamación. Entre los síntomas que se relacionan con ella figuran la hinchazón, las molestias digestivas, el cansancio, la «niebla mental», los cambios de ánimo y la aparición de intolerancias alimentarias.",
+     "Es importante decirlo con rigor. Una revisión publicada en la revista *Gut* concluye que el aumento de la permeabilidad se ha demostrado en personas con enfermedades como la celiaquía, la enfermedad inflamatoria intestinal o parte de los casos de colon irritable, y que se puede medir, pero que todavía no está probado que sea la causa de muchas de las enfermedades que se le atribuyen ni que existan tratamientos específicos validados (Camilleri, Gut, 2019). Lo razonable es verla como una pieza más del rompecabezas, que mejora cuando se cuidan los factores que la alteran: la microbiota, la alimentación, el estrés y el sueño."
+    ]
+   },
+   {
+    "h2": "¿Qué es la disbiosis y qué trastornos funcionales se asocian a ella?",
+    "paras": [
+     "La **disbiosis** es un desequilibrio de la comunidad microbiana: se pierde diversidad, disminuyen las bacterias beneficiosas o crecen otras con potencial inflamatorio. No es una enfermedad en sí misma, sino un estado que se asocia a muchos problemas de salud y que puede ser causa o consecuencia de ellos.",
+     "Se habla de **trastornos funcionales** cuando hay síntomas reales, a veces muy limitantes, sin una lesión visible en las pruebas habituales. El más conocido es el **síndrome del intestino irritable**. Una revisión sistemática de 24 estudios observó que las personas con colon irritable tienen una microbiota diferente a la de las personas sanas, con más enterobacterias y menos bacterias como *Faecalibacterium* o *Bifidobacterium* (Pittayanon et al., Gastroenterology, 2019). También se relacionan con la disbiosis la hinchazón y los gases persistentes, el estreñimiento o la diarrea crónicos, la dispepsia funcional y las infecciones de repetición, digestivas, urinarias o vaginales.",
+     "Recuperar la homeostasis intestinal y estabilizar la microbiota forma parte del abordaje de estos cuadros. No se trata de prometer que desaparezcan, sino de actuar sobre un factor que contribuye a mantenerlos. Puede leer más en [colon irritable y SIBO](colon-irritable-sibo), [gases e hinchazón](gases-hinchazon-abdominal) y [estreñimiento](estrenimiento)."
+    ]
+   },
+   {
+    "h2": "¿Qué altera la microbiota?",
+    "paras": [
+     "La microbiota es dinámica y responde a lo que hacemos cada día. La **alimentación** es uno de los factores con más peso: en un estudio, cambiar durante unos días a una dieta solo de origen animal o solo vegetal modificó la composición de la microbiota en cuestión de un día, y volvió a su estado previo dos días después de terminar la dieta (David et al., Nature, 2014). Eso significa que los cambios de hábitos tienen efecto, pero también que hay que mantenerlos.",
+     "Los **antibióticos** son el ejemplo clásico, pero no los únicos fármacos que influyen. En un estudio de laboratorio con más de 1.000 medicamentos y 40 cepas de bacterias intestinales, el 24 % de los fármacos dirigidos a dianas humanas inhibió el crecimiento de al menos una cepa (Maier et al., Nature, 2018, estudio in vitro). En población, el uso de inhibidores de la bomba de protones (los protectores de estómago) se asoció a una microbiota menos diversa y con más bacterias propias de la boca (Imhann et al., Gut, 2016). Esto no quiere decir que haya que dejar la medicación: la decide el médico y suele ser necesaria. Quiere decir que conviene tenerlo en cuenta y cuidar la microbiota mientras se toma.",
+     "Además influyen el **estrés** crónico, el **sueño** y los horarios, el **sedentarismo**, el alcohol y el tabaco, las **hormonas** (estrógenos, testosterona, tiroides), el tipo de **parto** y la **lactancia**, y el estrés en la infancia, que en estudios se asocia a cambios en la microbiota y en la inmunidad con más riesgo de inflamación y de problemas emocionales en la edad adulta."
+    ]
+   },
+   {
+    "h2": "¿Cómo influye la alimentación en la microbiota?",
+    "paras": [
+     "La alimentación es la herramienta más directa para modular la microbiota. Una revisión publicada en el *BMJ* resume que la dieta es uno de los principales determinantes de su composición y que los cambios dietéticos modifican las bacterias intestinales y sus efectos sobre la salud (Valdes et al., BMJ, 2018). La fibra, la variedad vegetal y los alimentos fermentados se asocian a una microbiota más diversa; los ultraprocesados, el exceso de azúcar y de alcohol, a lo contrario.",
+     "Dicho esto, no hay una dieta igual para todos. La respuesta a cada alimento depende de la microbiota de partida, de los síntomas y de la historia de cada persona. En colon irritable, SIBO, intolerancias o enfermedad inflamatoria intestinal, algunos alimentos «saludables» pueden sentar mal durante un tiempo. Por eso las pautas se individualizan y se ajustan de forma progresiva con un profesional de [nutrición y salud intestinal](nutricion-salud-intestinal), evitando restricciones prolongadas sin motivo, que a la larga empobrecen la microbiota."
+    ]
+   },
+   {
+    "h2": "¿Qué tiene que ver la microbiota con el metabolismo, el peso y la glucosa?",
+    "paras": [
+     "La microbiota participa en cuánta energía extraemos de los alimentos, en cómo se almacena la grasa y en la regulación de la glucosa. Los ácidos grasos de cadena corta influyen en las hormonas de la saciedad y en la sensibilidad a la insulina; los ácidos biliares secundarios actúan como señales metabólicas; y una barrera intestinal alterada puede dejar pasar fragmentos bacterianos que mantienen la inflamación de bajo grado asociada a la resistencia a la insulina.",
+     "Por eso la salud intestinal se tiene en cuenta en el sobrepeso, la prediabetes y la diabetes tipo 2, el colesterol alto o el hígado graso. Hábitos como enfriar los almidones, aumentar la fibra, moverse a diario y dormir bien actúan a la vez sobre la microbiota y sobre el metabolismo. Puede ampliar la información en [salud metabólica](salud-metabolica)."
+    ]
+   },
+   {
+    "h2": "¿Qué tiene que ver el hígado graso con la microbiota?",
+    "paras": [
+     "El hígado graso es uno de los grandes problemas de salud del siglo XXI. Se define por una acumulación de grasa en más del 5 % de las células del hígado sin un consumo significativo de alcohol, y afecta también a personas que no beben. Una revisión sistemática estimó que alrededor del **30 % de los adultos** del mundo lo tiene (Younossi et al., Hepatology, 2023). En 2023, un consenso internacional cambió su nombre de «hígado graso no alcohólico» a **enfermedad hepática esteatósica asociada a disfunción metabólica** (MASLD, por sus siglas en inglés), para subrayar su relación con el sobrepeso, la glucosa, la tensión arterial y los lípidos (Rinella et al., Hepatology, 2023).",
+     "En la mayoría de las personas no da síntomas, pero en una parte puede progresar a **esteatohepatitis** (inflamación del hígado), a **fibrosis** y **cirrosis** y, en algunos casos, a cáncer de hígado. Por eso se considera un reflejo del desorden metabólico y de la inflamación que lo acompaña.",
+     "El hígado recibe directamente, a través de la vena porta, la sangre que viene del intestino. Si hay disbiosis y aumento de la permeabilidad, le llegan más productos bacterianos que favorecen la inflamación; la microbiota también influye en los ácidos biliares y en la cantidad de grasa que se forma en el hígado. Se habla por eso de un diálogo roto entre intestino, microbiota y metabolismo. Más información en [salud metabólica](salud-metabolica)."
+    ]
+   },
+   {
+    "h2": "¿Qué son los ácidos biliares y qué tienen que ver con la microbiota?",
+    "paras": [
+     "Los **ácidos biliares** se fabrican en el hígado a partir del **colesterol**, se almacenan en la vesícula biliar y se vierten al intestino cuando comemos. Su función más conocida es **emulsionar las grasas**, es decir, romperlas en gotas pequeñas para que las enzimas puedan digerirlas, y permitir la absorción de las **vitaminas liposolubles A, D, E y K**. La mayoría se reabsorbe al final del intestino delgado y vuelve al hígado para reutilizarse.",
+     "La parte que llega al colon la transforma la microbiota en **ácidos biliares secundarios**. Estos no son simples restos: actúan como hormonas que se unen a receptores (como FXR y TGR5) e intervienen en el metabolismo de la glucosa, de las grasas y del gasto energético. A su vez, los ácidos biliares regulan qué bacterias crecen en el intestino. Es un auténtico **diálogo químico** entre la microbiota y el cuerpo (Wahlström et al., Cell Metabolism, 2016).",
+     "Cuando este diálogo se altera pueden aparecer problemas de digestión de las grasas, diarrea por malabsorción de ácidos biliares o cambios metabólicos. Algunos estudios de heces valoran precisamente el exceso de ácidos biliares secundarios."
+    ]
+   },
+   {
+    "h2": "¿Por qué sentimos mariposas en el estómago?",
+    "paras": [
+     "Porque el intestino y el cerebro están conectados en ambas direcciones. El llamado **eje microbiota–intestino–cerebro** se comunica a través del [nervio vago](nervio-vago), de las hormonas, del sistema inmunitario y de las moléculas que fabrica la microbiota (Cryan et al., Physiological Reviews, 2019). Cuando sentimos una emoción intensa, el cerebro libera mensajeros que llegan al intestino y cambian su funcionamiento.",
+     "Cada mensajero tiene su papel. La **dopamina** se asocia a la euforia y la anticipación; la **noradrenalina** a la alerta, la aceleración del pulso y esa inquietud abdominal tan característica; el **cortisol** al nerviosismo; y la **oxitocina** a la calma, la conexión y la modulación del estrés. Estos mensajeros modifican la actividad del nervio vago, la **motilidad intestinal** (el intestino frena o se acelera) y la secreción de moco, y con ello el entorno en el que viven las bacterias.",
+     "La microbiota «detecta» así nuestras emociones a través de los cambios del medio intestinal, y responde modificando su comportamiento y las sustancias que produce. Y el diálogo también funciona al revés: algunas bacterias fabrican moléculas con actividad sobre el sistema nervioso, por lo que se las ha llamado **psicobióticos**, y regulan el equilibrio entre el sistema simpático y el parasimpático (Dinan y Cryan, Neuropsychopharmacology, 2017). Por eso el estrés se nota en la digestión y una digestión alterada influye en el ánimo. Si se pregunta si su estado de ánimo puede tener que ver con su intestino, la respuesta es que forma parte de la ecuación, junto con muchos otros factores. Más información en [estrés y ansiedad](estres-ansiedad) y [PNIE](pni-pnie-barcelona)."
+    ]
+   },
+   {
+    "h2": "¿Puede la microbiota influir en el dolor de espalda? El eje intestino–disco",
+    "paras": [
+     "Puede parecer extraño que una página sobre salud digestiva hable del dolor de espalda. Sin embargo, en los últimos años varios grupos de investigación han empezado a estudiar una posible relación entre el estado del intestino y la salud de los **discos intervertebrales**. Se la conoce como **eje intestino–disco** y, aunque todavía es una **hipótesis emergente**, ayuda a entender por qué el dolor de espalda no siempre se explica solo por la postura o por el esfuerzo. Antes de explicarla conviene aclarar algunos términos.",
+     "El **disco intervertebral** es la estructura que separa una vértebra de la siguiente. Actúa como un amortiguador y, a la vez, permite que la columna se doble y gire. Tiene dos partes: el **núcleo pulposo**, un centro gelatinoso muy rico en agua que reparte las presiones, y el **anillo fibroso**, una serie de láminas de fibras dispuestas en capas, como las de una cebolla, que rodean y contienen el núcleo. Cuando el anillo se fisura y el núcleo se desplaza aparecen la protrusión y la [hernia discal](hernia-disco-incipiente). El disco del adulto es la estructura sin vasos sanguíneos más grande del cuerpo: se nutre por difusión a través de las placas de cartílago que lo unen a las vértebras.",
+     "La **microbiota intestinal** es el conjunto de microorganismos, sobre todo bacterias, que viven en el intestino. Se calcula que una persona adulta alberga unos **38 billones de bacterias**, una cifra del mismo orden que el número de células humanas del cuerpo (Sender et al., PLoS Biology, 2016). Esta comunidad participa en la digestión, produce sustancias que regulan la inflamación y entrena al sistema inmunitario. Se habla de **disbiosis** cuando el equilibrio de esa comunidad se altera: disminuyen las bacterias beneficiosas, proliferan otras con potencial inflamatorio o se pierde diversidad.",
+     "Durante décadas se consideró que el disco sano era **estéril**. En 2020, un equipo indio analizó con secuenciación genética (16S ARNr) 24 discos lumbares: 8 sanos, procedentes de donantes de órganos, 8 herniados y 8 degenerados. Detectaron en total 424 especies bacterianas, y **355 de ellas en los discos sanos**. En los discos normales abundaban bacterias consideradas protectoras, mientras que en los degenerados y herniados predominaban posibles patógenos (Rajasekaran et al., European Spine Journal, 2020). Los propios autores afirman que el hallazgo pone en duda la idea de un disco sano estéril. Conviene matizar que estudios posteriores con técnicas parecidas no siempre han obtenido las mismas bacterias, de modo que es un campo todavía en desarrollo.",
+     "¿Cómo podrían llegar bacterias o sus productos a un disco que no tiene vasos? Una revisión publicada en 2022 propuso el concepto de **eje intestino–disco** y describió tres mecanismos posibles (Li et al., European Spine Journal, 2022). El primero es el **paso de bacterias** a través de una barrera intestinal debilitada hasta la sangre y, desde ahí, hasta el disco. El segundo es la **regulación del sistema inmunitario**: una microbiota alterada mantiene una inflamación de bajo grado en todo el organismo que también alcanza el disco. El tercero son los **nutrientes y metabolitos** que la microbiota produce o ayuda a absorber y que difunden hasta el interior del disco.",
+     "En este punto entra en juego la llamada **barrera hemato-discal**. Como el núcleo pulposo apenas tiene contacto con la sangre, el sistema inmunitario prácticamente no lo vigila: es un tejido «inmunoprivilegiado». Eso protege al disco en condiciones normales, pero también significa que, si algún microorganismo o una molécula inflamatoria consigue entrar, por ejemplo a través de pequeñas lesiones de la placa vertebral, puede permanecer allí con poca resistencia y favorecer un ambiente inflamatorio que acelere la **degeneración discal**. Es una hipótesis plausible, pero todavía no se ha demostrado en personas que la disbiosis cause la degeneración del disco.",
+     "También hay datos de asociación entre la microbiota y el dolor de espalda en sí. En un estudio australiano con 36 adultos con sobrepeso u obesidad, las 14 personas que referían dolor de espalda tenían una composición de la microbiota distinta de las 22 que no lo tenían, con más abundancia del género *Adlercreutzia*, a pesar de que su dieta y su actividad física eran similares. Ese género se relacionaba además con el índice de masa corporal y con marcadores inflamatorios (Dekker Nitert et al., Frontiers in Endocrinology, 2020). Es un estudio pequeño y transversal: muestra una **asociación**, no que la microbiota provoque el dolor.",
+     "La lectura prudente de todo esto es que el intestino podría ser una pieza más en el dolor de espalda persistente, sobre todo cuando coinciden **inflamación de bajo grado**, problemas digestivos, sobrepeso o estrés mantenido. No se trata de explicar todos los dolores de espalda por la microbiota, sino de no dejar fuera del razonamiento clínico un sistema que influye en la inflamación de todo el cuerpo. Desde la visión osteopática, que considera el cuerpo como un conjunto, encaja con la idea de valorar a la vez la columna, las vísceras y el estilo de vida. Si el dolor se ha cronificado, puede leer también [dolor persistente o crónico](dolor-persistente-cronico) y [lumbalgia](lumbalgia-dolor-lumbar)."
+    ],
+    "list_title": "Prevención en tres ejes que se refuerzan entre sí:",
+    "list": [
+     "**Alimentación:** una dieta variada, rica en fibra de verduras, legumbres, fruta y cereales integrales, con alimentos fermentados si se toleran, alimenta a las bacterias beneficiosas; limitar los ultraprocesados, el exceso de azúcar y el alcohol reduce los estímulos inflamatorios.",
+     "**Terapia manual y movimiento:** mantener la movilidad de la columna, la pelvis y el abdomen, y moverse a diario, favorece la nutrición del disco por difusión y el buen funcionamiento digestivo; el ejercicio regular también se asocia a una microbiota más diversa.",
+     "**Gestión del estrés:** el estrés crónico altera la barrera intestinal y la microbiota a través del eje intestino–cerebro y, a la vez, aumenta la tensión muscular y la sensibilidad al dolor; dormir bien, respirar con calma y reservar tiempo para el descanso actúan sobre los dos extremos del eje.",
+     "Consultar con el médico si el dolor de espalda se acompaña de fiebre, pérdida de peso sin causa, sangre en las heces o cambios persistentes del ritmo intestinal."
+    ]
+   },
+   {
+    "h2": "¿Por qué el dolor también es una señal? Intestino y sistema nervioso",
+    "paras": [
+     "Solemos pensar en el dolor solo como un problema que hay que hacer desaparecer. Pero el dolor es, ante todo, una **señal de alarma** del sistema nervioso, y en el intestino esa señal parece cumplir además una función protectora directa. Las neuronas que detectan estímulos dañinos se llaman **nociceptores**: avisan al cerebro de que algo va mal, pero también liberan sustancias en el propio tejido que se comunican con las células vecinas.",
+     "Un estudio de la Universidad de Harvard publicado en la revista *Cell* en 2022 lo mostró en **ratones**. Los nociceptores del intestino están situados junto a las **células caliciformes**, las encargadas de fabricar el **moco** que recubre y protege la pared intestinal. Cuando se activan, liberan un mensajero llamado **CGRP** (péptido relacionado con el gen de la calcitonina), que actúa sobre un receptor de las células caliciformes (RAMP1) y estimula la secreción de moco (Yang et al., Cell, 2022).",
+     "Los ratones a los que se eliminaron esos nociceptores tenían una capa de moco más fina, una microbiota alterada (**disbiosis**) y una colitis más grave cuando se les provocaba una inflamación intestinal. Al administrarles CGRP, quedaban de nuevo protegidos. Además, las propias bacterias intestinales y algunos estímulos de la dieta activaban esa liberación de CGRP. Es decir, en este modelo animal, las neuronas del dolor forman parte del sistema de defensa de la barrera intestinal.",
+     "Hay que recordar que se trata de un **estudio en animales** y que no puede trasladarse sin más a las personas. Aun así, aporta una idea útil para entender el dolor digestivo y el dolor en general: el dolor no es solo un síntoma molesto, sino información sobre lo que ocurre en el cuerpo. Por eso, además del alivio que el médico considere oportuno con la medicación, conviene **buscar el origen** del dolor y cuidar los factores que mantienen la barrera intestinal en buen estado.",
+     "Este hallazgo encaja con lo que se sabe del **eje intestino–sistema nervioso** y del [nervio vago](nervio-vago): el intestino y el sistema nervioso están en diálogo constante, en ambas direcciones. El estrés, el sueño, la alimentación y la microbiota influyen en ese diálogo, y por eso las molestias digestivas, el dolor y el estado de ánimo se relacionan con tanta frecuencia."
+    ]
+   },
+   {
+    "h2": "¿Qué tienen que ver las hormonas con la microbiota? El estroboloma",
+    "paras": [
+     "La relación entre hormonas y microbiota es de ida y vuelta. Se llama **estroboloma** al conjunto de genes bacterianos del intestino capaces de metabolizar los **estrógenos**. Después de usarse, el hígado «empaqueta» los estrógenos para eliminarlos por la bilis; algunas bacterias producen una enzima (la betaglucuronidasa) que los desempaqueta y permite que se reabsorban. Según cómo esté la microbiota, puede circular más o menos estrógeno, con posibles efectos en el ciclo menstrual, la menopausia, la salud ósea o algunas enfermedades dependientes de estrógenos (Baker et al., Maturitas, 2017).",
+     "También la **progesterona** se relaciona con este eje. Un derivado suyo, la alopregnanolona, actúa sobre el mismo receptor cerebral que el GABA, el principal neurotransmisor calmante, por lo que se vincula con la tranquilidad, el sueño y la tolerancia al estrés; y el GABA participa además en la motilidad intestinal. Por eso los síntomas premenstruales, la ansiedad, el insomnio o las molestias digestivas aparecen a menudo juntos. Se desarrolla en [salud de la mujer y menopausia](salud-mujer-menopausia)."
+    ]
+   },
+   {
+    "h2": "¿Qué relación hay entre la microbiota y el tiroides?",
+    "paras": [
+     "El tiroides no funciona de forma aislada. La hipófisis lo estimula con la **TSH**, y el tiroides fabrica sobre todo **T4**, una hormona poco activa que debe convertirse en **T3**, la forma activa, en los tejidos. Esa conversión depende, entre otras cosas, de la inflamación, de la salud intestinal y de la composición de la microbiota. Una revisión sobre el llamado **eje tiroides–intestino** resume varias vías por las que la microbiota puede influir en la función tiroidea (Knezevic et al., Nutrients, 2020).",
+     "Estas vías incluyen la **conversión de las hormonas** tiroideas y su reciclaje entre el hígado y el intestino; la **absorción de minerales** necesarios para el tiroides, como el yodo, el selenio, el zinc y el hierro; la **autoinmunidad**, ya que en la tiroiditis de Hashimoto y en la enfermedad de Graves se han descrito alteraciones de la microbiota; la **permeabilidad intestinal** y la **inflamación**; e incluso la absorción de la medicación tiroidea. Son en su mayoría asociaciones y mecanismos en estudio, pero justifican mirar el intestino cuando hay problemas de tiroides. Más en [hipotiroidismo y Hashimoto](hipotiroidismo-hashimoto)."
+    ]
+   },
+   {
+    "h2": "Histamina: ¿villana o heroína?",
+    "paras": [
+     "La **histamina** tiene mala fama, pero es un mensajero químico imprescindible. Es una amina que el cuerpo fabrica a partir del aminoácido histidina. En el **sistema inmunitario** participa en la inflamación y en la defensa, aumentando la permeabilidad de los vasos para que lleguen las células defensivas; en el **digestivo** estimula el ácido del estómago, la digestión de las proteínas y la motilidad; y en el **nervioso** regula la vigilia, la atención, el apetito y el ánimo, en interacción con la serotonina.",
+     "El problema no es la histamina, sino **cuándo y cuánto** se libera o lo mal que se elimina. La principal enzima que degrada la histamina de los alimentos en el intestino es la **diamino oxidasa (DAO)**. Cuando su actividad es baja, la histamina se acumula y aparecen síntomas como picores, urticaria, enrojecimiento, migrañas, distensión abdominal, diarrea, ansiedad o reglas dolorosas (Maintz y Novak, American Journal of Clinical Nutrition, 2007).",
+     "La DAO se fabrica en las vellosidades del intestino, de modo que cualquier inflamación de la mucosa, la disbiosis, el SIBO, el alcohol o algunos fármacos pueden reducirla; también influyen la genética y los cofactores como la vitamina B6, la vitamina C, el cobre o el zinc. Además, algunas bacterias intestinales producen histamina. La buena noticia es que, cuando se resuelve el problema digestivo, la DAO puede mejorar su actividad. Las listas de alimentos ricos en histamina o liberadores son orientativas, porque cada persona tiene un umbral distinto, y deben individualizarse. Existen suplementos de DAO; su indicación la individualiza un profesional. Lo explicamos en detalle en [intolerancia a la histamina](intolerancia-histamina)."
+    ]
+   },
+   {
+    "h2": "¿Qué es el SIBO?",
+    "paras": [
+     "SIBO son las siglas en inglés de **sobrecrecimiento bacteriano del intestino delgado** (*Small Intestinal Bacterial Overgrowth*). Para entenderlo, imagine el intestino como una ciudad organizada: cada barrio tiene su población. El colon alberga la inmensa mayoría de las bacterias, mientras que el intestino delgado, donde se absorben los nutrientes, tiene muchas menos. En el SIBO, bacterias que deberían estar en el colon, o en mucha menor cantidad, crecen en exceso en el intestino delgado.",
+     "Muchas de ellas son **patógenos facultativos**: bacterias normales que solo causan problemas cuando crecen de más o se instalan donde no toca. Fermentan los alimentos antes de tiempo y producen gases, hinchazón muy marcada tras las comidas, dolor, diarrea o estreñimiento, y a veces malabsorción de nutrientes como la vitamina B12 o el hierro. Favorecen el SIBO un vaciamiento intestinal lento, la disminución del ácido del estómago, cirugías abdominales, algunas enfermedades y fármacos. Puede cronificarse y reaparecer si no se corrige la causa.",
+     "El SIBO se ha puesto «de moda» en redes sociales, lo que ha generado confusión. La guía del Colegio Americano de Gastroenterología lo define por un crecimiento de más de 1.000 unidades formadoras de colonias por mililitro en el aspirado del intestino delgado, y acepta como alternativa el test del aliento, en el que se considera positivo un aumento del hidrógeno de al menos 20 partes por millón en los primeros 90 minutos (Pimentel et al., American Journal of Gastroenterology, 2020). Su diagnóstico y tratamiento corresponden al médico. Más información en [colon irritable y SIBO](colon-irritable-sibo)."
+    ]
+   },
+   {
+    "h2": "Cándida, ¿amiga o enemiga?",
+    "paras": [
+     "*Candida albicans* es una **levadura comensal**: vive de forma habitual en la boca, el intestino y la vagina de muchas personas sanas sin causar problemas. Es, por tanto, una vecina más del ecosistema. El problema aparece cuando cambia de comportamiento.",
+     "La cándida es **dimórfica**: puede adoptar dos formas. La forma de **levadura**, redonda, es la habitual y no invasiva. La forma de **hifa o pseudohifa**, alargada, se adhiere a la mucosa, puede atravesar el epitelio, forma biopelículas que la protegen y libera una toxina que provoca inflamación. Una revisión describe cómo el paso entre comensal y patógeno oportunista depende tanto del hongo como del entorno: el estado de la microbiota, el sistema inmunitario y el medio intestinal (Kumamoto et al., Current Opinion in Microbiology, 2020).",
+     "Entre los factores que favorecen ese cambio están los antibióticos, que reducen las bacterias que la mantienen a raya, los cambios del pH, la falta de ácidos grasos de cadena corta, la inmunidad debilitada, la diabetes mal controlada o algunos tratamientos hormonales. Más que «eliminar la cándida», el objetivo es devolver al ecosistema las condiciones en las que vuelve a ser una comensal tranquila. Si tiene infecciones vaginales de repetición, consulte [candidiasis vaginal de repetición](candidiasis-vaginal-repeticion)."
+    ]
+   },
+   {
+    "h2": "¿Qué papel tiene la microbiota en el cáncer?",
+    "paras": [
+     "Este es un tema que conviene tratar con mucha prudencia. La investigación muestra que la microbiota no es una simple espectadora, sino un **actor activo** que puede influir en la aparición de algunos tumores, en su evolución y en la respuesta al tratamiento. Pero eso no significa que una disbiosis cause cáncer ni que cuidar la microbiota lo prevenga o lo cure.",
+     "Una disbiosis mantenida favorece la inflamación crónica de bajo grado, el aumento de la permeabilidad y una activación inmunitaria constante. Ese «ruido inflamatorio» no causa el cáncer de forma directa, pero puede crear un **terreno más vulnerable**. En el sentido contrario, una microbiota sana produce metabolitos protectores, como los ácidos grasos de cadena corta, que modulan la inflamación, protegen el epitelio y la función de barrera, e intervienen en la expresión de los genes y en la eliminación de células dañadas (apoptosis).",
+     "Lo más llamativo procede de la **inmunoterapia**. En pacientes con melanoma tratados con inmunoterapia anti-PD-1, quienes respondían al tratamiento tenían una microbiota intestinal más diversa y más rica en bacterias de la familia Ruminococcaceae (Gopalakrishnan et al., Science, 2018). En otro estudio con tumores epiteliales, el uso de antibióticos se asoció a peores resultados de la inmunoterapia, y trasplantar la microbiota de pacientes que respondían a ratones mejoró su respuesta (Routy et al., Science, 2018). Son hallazgos que abren líneas de investigación, siempre en coordinación con el equipo de oncología. Si convive con un cáncer y con dolor, puede leer [dolor oncológico](dolor-oncologico)."
+    ]
+   },
+   {
+    "h2": "¿El ayuno intermitente es bueno para la microbiota?",
+    "paras": [
+     "El ayuno no es una moda reciente: forma parte de muchas tradiciones culturales y religiosas, como la Cuaresma, el Yom Kipur o el Ramadán. El llamado **ayuno intermitente** alterna periodos de comida y de ayuno a lo largo del día. Las formas más habituales son el **12/12** (12 horas de ayuno y 12 de comida, la más fisiológica, que equivale a cenar pronto y desayunar a una hora razonable), el **14/10** y el **16/8**.",
+     "La microbiota también tiene **ritmos circadianos**: su composición y su actividad cambian a lo largo del día según cuándo comemos. Por eso el horario de las comidas, y no solo su contenido, podría influir en ella. En un ensayo con 90 voluntarios sanos sin obesidad, comer en una ventana temprana (entre las 6 y las 15 horas) durante 5 semanas mejoró la sensibilidad a la insulina y se asoció a una microbiota más diversa, algo que no ocurrió con la ventana de mediodía (Xie et al., Nature Communications, 2022). Otros estudios no han encontrado cambios relevantes, de modo que la evidencia es todavía limitada y heterogénea; el impacto parece depender de la duración, la regularidad y el horario.",
+     "El ayuno no es adecuado para todo el mundo. No se recomienda durante el embarazo o la lactancia, en personas con antecedentes de trastornos de la conducta alimentaria, en diabéticos tratados con fármacos que pueden bajar la glucosa sin supervisión médica, ni en personas con bajo peso. Si le interesa, conviene valorarlo de forma individual con su médico o con un profesional de [nutrición](nutricion-salud-intestinal)."
+    ]
+   },
+   {
+    "h2": "¿Qué dicen sus heces de su salud?",
+    "paras": [
+     "Puede resultar incómodo, pero mirar las heces es una de las formas más sencillas de conocer el intestino. Por eso en una consulta de PNIE es habitual que se pregunte cómo va de vientre. La herramienta más utilizada es la **escala de Bristol**, que clasifica las heces en siete tipos según su forma y consistencia. Se diseñó en la Universidad de Bristol y se relaciona con el tiempo que tardan los alimentos en recorrer el intestino: las heces duras indican un tránsito lento, y las blandas o líquidas, un tránsito rápido (Lewis y Heaton, Scandinavian Journal of Gastroenterology, 1997).",
+     "Los **tipos 3 y 4** se consideran los ideales. Los **tipos 1 y 2** se asocian al estreñimiento. Los **tipos 5, 6 y 7** indican que algo no termina de estar resuelto y conviene buscar el motivo. Un error frecuente es pensar que todo va bien porque se va de vientre cada día, o incluso tres o cuatro veces al día, sin dificultad. Si las heces son poco consistentes y hay gases, el intestino está pidiendo atención.",
+     "¿Y si flotan? Se suele decir que las heces que flotan contienen grasa, pero un estudio clásico demostró que lo que las hace flotar es sobre todo el **gas** que contienen, relacionado con la fermentación de la microbiota, y no la grasa (Levitt y Duane, New England Journal of Medicine, 1972). Las heces muy voluminosas, pálidas, brillantes, malolientes y que cuesta eliminar del inodoro, en cambio, sí pueden indicar una mala digestión de las grasas y deben comentarse con el médico. También aportan información el olor, el color y la presencia de moco o de restos de alimentos sin digerir.",
+     "Cuando las heces son pastosas o diarreicas de forma persistente, merece la pena entender por qué. La guía británica define la **diarrea crónica** como un cambio persistente respecto a lo habitual, con heces de los tipos 5 a 7 de Bristol y mayor frecuencia, durante más de 4 semanas (Arasaradnam et al., Gut, 2018). Se distinguen dos grandes tipos. La **diarrea secretora** se debe a infecciones (bacterias, virus, parásitos u hongos), a inflamación intestinal como la enfermedad de Crohn o la colitis ulcerosa, a la celiaquía, a la insuficiencia pancreática o a algunos fármacos; no mejora con el ayuno, puede aparecer antes del desayuno y despertar por la noche. La **diarrea osmótica**, la más olvidada, se produce cuando un alimento mal absorbido, como la lactosa, la fructosa o el sorbitol, atrae agua al intestino; aparece solo los días en que se toma ese alimento, se acompaña de gases y distensión, y mejora al ajustar la dieta o en ayuno. Ambas pueden coexistir.",
+     "Por eso, dos preguntas orientan mucho: ¿tiene diarrea siempre o solo con ciertos alimentos? ¿Aparece antes del desayuno o después de comer? Tratar solo el síntoma con una dieta astringente no resuelve el origen. Además, la diarrea mantenida puede llevar a una mala absorción de hierro, ácido fólico o vitaminas y a anemias que se repiten: conviene suplementar cuando el médico lo indique y, a la vez, buscar la causa. Lo explicamos a fondo en [diarrea crónica](diarrea-cronica). Si tiene diarrea, vigile también los signos de deshidratación."
+    ],
+    "list_title": "Signos de deshidratación a los que conviene estar atento:",
+    "list": [
+     "Cansancio, debilidad o mareo",
+     "Piel y mucosas secas, boca seca",
+     "Sensación de cabeza nublada o dificultad para concentrarse",
+     "Pulso acelerado o ansiedad",
+     "Ganas de comer dulce o confundir la sed con el hambre",
+     "Orinar poco o una orina oscura (lo normal es un amarillo pálido)"
+    ]
+   },
+   {
+    "h2": "¿Cuándo debo consultar con mi médico?",
+    "paras": [
+     "La mayoría de las molestias digestivas no se deben a una enfermedad grave, pero hay señales que obligan a consultar con el médico antes de cualquier otro abordaje, y algunas de ellas, de forma urgente:"
+    ],
+    "list": [
+     "Sangre en las heces o heces negras, como alquitrán",
+     "Fiebre, o moco o pus en las heces",
+     "Diarrea que dura más de 3 días o que le despierta por la noche",
+     "Pérdida de peso sin causa aparente o anemia",
+     "Dolor abdominal intenso o que no cede",
+     "Cambio persistente del ritmo intestinal, sobre todo a partir de los 50 años",
+     "Vómitos persistentes o dificultad para tragar",
+     "Antecedentes familiares de cáncer de colon o de enfermedad inflamatoria intestinal"
+    ]
+   },
+   {
+    "h2": "¿Qué puedo hacer cada día para cuidar mi microbiota?",
+    "paras": [
+     "No hace falta una revolución para empezar. La microbiota responde a los hábitos que se repiten, y muchas de estas recomendaciones cuidan a la vez el intestino, el sistema nervioso y el metabolismo. Son orientaciones generales: cada persona necesita ajustarlas a sus síntomas y a su historia, idealmente con un profesional.",
+     "Moverse a diario, dormir lo suficiente y gestionar el estrés son tan importantes como lo que hay en el plato. Prácticas como la respiración lenta, el [mindfulness](mindfulness-barcelona), el [yoga](yoga-particular-grupos-reducidos) o el [qigong](qigong-barcelona) actúan sobre el eje intestino–cerebro a través del nervio vago. En un marco de [medicina integrativa](medicina-integrativa-barcelona), estas herramientas se combinan con la medicina convencional y con la alimentación."
+    ],
+    "list_title": "Recomendaciones para el día a día:",
+    "list": [
+     "Variar los vegetales: intente sumar muchos tipos distintos de verduras, frutas, legumbres, cereales integrales, frutos secos, semillas, hierbas y especias a lo largo de la semana",
+     "Incorporar almidón resistente: patata, arroz, pasta o legumbres cocinados y enfriados",
+     "Incluir alimentos fermentados (yogur, kéfir, chucrut) si se toleran",
+     "Reducir los ultraprocesados, el azúcar añadido y el alcohol, y no fumar",
+     "Comer con calma, masticar bien y respetar un horario regular, con un periodo nocturno de ayuno razonable",
+     "Moverse cada día y evitar pasar muchas horas seguidas sentado",
+     "Dormir 7–9 horas con horarios regulares (ver [sueño e insomnio](sueno-insomnio))",
+     "Dedicar tiempo a la respiración, la relajación o el contacto con la naturaleza",
+     "Usar los antibióticos solo cuando los prescriba el médico, y comentar con él cualquier duda sobre la medicación",
+     "Observar sus heces con la escala de Bristol y consultar si hay cambios persistentes",
+     "No tomar suplementos ni probióticos por su cuenta: existen, pero su indicación la individualiza un profesional"
+    ]
+   },
+   {
+    "h2": "¿Cómo se estudia la microbiota?",
+    "paras": [
+     "La forma habitual de estudiar la microbiota es un **estudio de heces**. La persona recoge en casa una pequeña muestra con un kit y la envía a un laboratorio especializado, que analiza el material genético de los microorganismos para describir qué bacterias hay, en qué proporción y con qué diversidad. Según el perfil, el estudio puede incluir además otros marcadores útiles.",
+     "No todo el mundo necesita un estudio de microbiota. **Lo indica el profesional** cuando los síntomas persisten, cuando hay antecedentes como tandas de antibióticos, gastroenteritis o infecciones de repetición, o cuando el resultado puede orientar mejor el plan. Antes se revisan los síntomas, la historia clínica, la alimentación, la medicación, el estrés y el sueño, y se descartan las señales de alarma, que requieren estudio médico.",
+     "Conviene saber también sus límites. El estudio de microbiota **describe** el ecosistema intestinal, pero no diagnostica enfermedades por sí solo, y no existe todavía una «microbiota ideal» universal con la que compararse. Su valor está en interpretarlo junto con los síntomas y la historia de cada persona, y en traducirlo en cambios concretos y progresivos de alimentación, descanso y gestión del estrés, dentro de la [PNIE](pni-pnie-barcelona) y con el apoyo de [nutrición y salud intestinal](nutricion-salud-intestinal). Las pruebas diagnósticas como el test del aliento, las analíticas de sangre, la colonoscopia o la biopsia corresponden al médico."
+    ],
+    "list_title": "Qué puede valorar un estudio de heces, según el perfil:",
+    "list": [
+     "**Composición y diversidad** de la microbiota y posibles signos de disbiosis",
+     "Presencia de **parásitos**, levaduras como la cándida o virus",
+     "Marcadores de **inflamación** de la mucosa (calprotectina, lactoferrina) e **inmunidad** (IgA secretora)",
+     "Marcadores de **digestión**, como la elastasa pancreática, y de malabsorción, como los ácidos biliares secundarios",
+     "Datos que orientan hacia un posible SIBO o un sobrecrecimiento de hongos, que se confirman con las pruebas que indique el médico"
+    ]
+   }
+  ],
+  "evidence": {
+   "h2": "Qué dice la evidencia",
+   "items": [
+    [
+     "Cuántas bacterias (PLoS Biology)",
+     "Un adulto de referencia alberga unos 38 billones de bacterias frente a unos 30 billones de células humanas, una proporción cercana a 1:1 (Sender et al., 2016)."
+    ],
+    [
+     "Ácidos grasos de cadena corta (Cell)",
+     "Acetato, propionato y butirato se encuentran en el colon en una proporción aproximada de 60:20:20, y el butirato es la principal fuente de energía de los colonocitos (Koh et al., 2016)."
+    ],
+    [
+     "Diversidad vegetal (mSystems)",
+     "Quienes comían más de 30 tipos de plantas a la semana tenían una microbiota más diversa que quienes comían 10 o menos (McDonald et al., 2018; asociación)."
+    ],
+    [
+     "Almidón resistente (Asia Pac J Clin Nutr)",
+     "Enfriar el arroz 24 horas a 4 °C y recalentarlo elevó el almidón resistente de 0,64 a 1,65 g/100 g y redujo la respuesta de glucosa en 15 adultos (Sonia et al., 2015)."
+    ],
+    [
+     "Colon irritable (Gastroenterology)",
+     "Una revisión sistemática de 24 estudios halló una microbiota diferente en el colon irritable, con menos Faecalibacterium y Bifidobacterium (Pittayanon et al., 2019)."
+    ],
+    [
+     "Fármacos (Nature, in vitro)",
+     "El 24 % de los fármacos con dianas humanas inhibió el crecimiento de al menos una de 40 cepas de bacterias intestinales (Maier et al., 2018)."
+    ],
+    [
+     "Hígado graso (Hepatology)",
+     "Alrededor del 30 % de los adultos del mundo tiene hígado graso, hoy llamado MASLD (Younossi et al., 2023)."
+    ],
+    [
+     "Inmunoterapia (Science)",
+     "En pacientes con melanoma, quienes respondían a la inmunoterapia anti-PD-1 tenían una microbiota más diversa (Gopalakrishnan et al., 2018)."
+    ],
+    [
+     "Microbiota del disco (Eur Spine J)",
+     "En 24 discos lumbares se detectaron 424 especies bacterianas, 355 de ellas en discos sanos (Rajasekaran et al., 2020)."
+    ],
+    [
+     "Heces que flotan (NEJM)",
+     "Lo que hace flotar las heces es el gas que contienen, no la grasa (Levitt y Duane, 1972)."
+    ]
+   ],
+   "refs": [
+    {
+     "t": "Sender R, Fuchs S, Milo R, 2016. «Revised estimates for the number of human and bacteria cells in the body». PLoS Biology 14(8):e1002533.",
+     "doi": "10.1371/journal.pbio.1002533"
+    },
+    {
+     "t": "Hill C, Guarner F, Reid G, et al., 2014. «The International Scientific Association for Probiotics and Prebiotics consensus statement on the scope and appropriate use of the term probiotic». Nature Reviews Gastroenterology & Hepatology.",
+     "doi": "10.1038/nrgastro.2014.66"
+    },
+    {
+     "t": "Gibson GR, Hutkins R, Sanders ME, et al., 2017. «Expert consensus document: The International Scientific Association for Probiotics and Prebiotics (ISAPP) consensus statement on the definition and scope of prebiotics». Nature Reviews Gastroenterology & Hepatology.",
+     "doi": "10.1038/nrgastro.2017.75"
+    },
+    {
+     "t": "Belkaid Y, Hand TW, 2014. «Role of the microbiota in immunity and inflammation». Cell.",
+     "doi": "10.1016/j.cell.2014.03.011"
+    },
+    {
+     "t": "Koh A, De Vadder F, Kovatcheva-Datchary P, Bäckhed F, 2016. «From dietary fiber to host physiology: short-chain fatty acids as key bacterial metabolites». Cell.",
+     "doi": "10.1016/j.cell.2016.05.041"
+    },
+    {
+     "t": "Furusawa Y, Obata Y, Fukuda S, et al., 2013. «Commensal microbe-derived butyrate induces the differentiation of colonic regulatory T cells». Nature (estudio en ratones).",
+     "doi": "10.1038/nature12721"
+    },
+    {
+     "t": "Yano JM, Yu K, Donaldson GP, et al., 2015. «Indigenous bacteria from the gut microbiota regulate host serotonin biosynthesis». Cell (estudio en ratones).",
+     "doi": "10.1016/j.cell.2015.02.047"
+    },
+    {
+     "t": "McDonald D, Hyde E, Debelius JW, et al., 2018. «American Gut: an open platform for citizen science microbiome research». mSystems.",
+     "doi": "10.1128/mSystems.00031-18"
+    },
+    {
+     "t": "Sonia S, Witjaksono F, Ridwan R, 2015. «Effect of cooling of cooked white rice on resistant starch content and glycemic response». Asia Pacific Journal of Clinical Nutrition 24(4):620-625.",
+     "doi": "10.6133/apjcn.2015.24.4.13"
+    },
+    {
+     "t": "Serhan CN, 2014. «Pro-resolving lipid mediators are leads for resolution physiology». Nature.",
+     "doi": "10.1038/nature13479"
+    },
+    {
+     "t": "Camilleri M, 2019. «Leaky gut: mechanisms, measurement and clinical implications in humans». Gut.",
+     "doi": "10.1136/gutjnl-2019-318427"
+    },
+    {
+     "t": "Pittayanon R, Lau JT, Yuan Y, et al., 2019. «Gut microbiota in patients with irritable bowel syndrome—a systematic review». Gastroenterology.",
+     "doi": "10.1053/j.gastro.2019.03.049"
+    },
+    {
+     "t": "David LA, Maurice CF, Carmody RN, et al., 2014. «Diet rapidly and reproducibly alters the human gut microbiome». Nature.",
+     "doi": "10.1038/nature12820"
+    },
+    {
+     "t": "Maier L, Pruteanu M, Kuhn M, et al., 2018. «Extensive impact of non-antibiotic drugs on human gut bacteria». Nature (estudio in vitro).",
+     "doi": "10.1038/nature25979"
+    },
+    {
+     "t": "Imhann F, Bonder MJ, Vich Vila A, et al., 2016. «Proton pump inhibitors affect the gut microbiome». Gut.",
+     "doi": "10.1136/gutjnl-2015-310376"
+    },
+    {
+     "t": "Valdes AM, Walter J, Segal E, Spector TD, 2018. «Role of the gut microbiota in nutrition and health». BMJ.",
+     "doi": "10.1136/bmj.k2179"
+    },
+    {
+     "t": "Younossi ZM, Golabi P, Paik JM, et al., 2023. «The global epidemiology of nonalcoholic fatty liver disease (NAFLD) and nonalcoholic steatohepatitis (NASH): a systematic review». Hepatology.",
+     "doi": "10.1097/HEP.0000000000000004"
+    },
+    {
+     "t": "Rinella ME, Lazarus JV, Ratziu V, et al., 2023. «A multisociety Delphi consensus statement on new fatty liver disease nomenclature». Hepatology.",
+     "doi": "10.1097/HEP.0000000000000520"
+    },
+    {
+     "t": "Wahlström A, Sayin SI, Marschall HU, Bäckhed F, 2016. «Intestinal crosstalk between bile acids and microbiota and its impact on host metabolism». Cell Metabolism.",
+     "doi": "10.1016/j.cmet.2016.05.005"
+    },
+    {
+     "t": "Cryan JF, O'Riordan KJ, Cowan CSM, et al., 2019. «The microbiota-gut-brain axis». Physiological Reviews.",
+     "doi": "10.1152/physrev.00018.2018"
+    },
+    {
+     "t": "Dinan TG, Cryan JF, 2017. «Microbes, immunity, and behavior: psychoneuroimmunology meets the microbiome». Neuropsychopharmacology 42:178-192.",
+     "doi": "10.1038/npp.2016.103"
+    },
+    {
+     "t": "Rajasekaran S, Soundararajan DCR, Tangavel C, et al., 2020. «Human intervertebral discs harbour a unique microbiome and dysbiosis determines health and disease». European Spine Journal 29(7):1621-1640.",
+     "doi": "10.1007/s00586-020-06446-z"
+    },
+    {
+     "t": "Li W, Lai K, Chopra N, Zheng Z, Das A, Diwan AD, 2022. «Gut-disc axis: a cause of intervertebral disc degeneration and low back pain?». European Spine Journal 31(4):917-925.",
+     "doi": "10.1007/s00586-022-07152-8"
+    },
+    {
+     "t": "Dekker Nitert M, Mousa A, Barrett HL, Naderpoor N, de Courten B, 2020. «Altered gut microbiota composition is associated with back pain in overweight and obese individuals». Frontiers in Endocrinology 11:605.",
+     "doi": "10.3389/fendo.2020.00605"
+    },
+    {
+     "t": "Yang D, Jacobson A, Meerschaert KA, et al. (Chiu IM), 2022. «Nociceptor neurons direct goblet cells via a CGRP-RAMP1 axis to drive mucus production and gut barrier protection». Cell 185(22):4190-4205 (estudio en ratones).",
+     "doi": "10.1016/j.cell.2022.09.024"
+    },
+    {
+     "t": "Baker JM, Al-Nakkash L, Herbst-Kralovetz MM, 2017. «Estrogen–gut microbiome axis: physiological and clinical implications». Maturitas.",
+     "doi": "10.1016/j.maturitas.2017.06.025"
+    },
+    {
+     "t": "Knezevic J, Starchl C, Tmava Berisha A, Amrein K, 2020. «Thyroid-gut-axis: how does the microbiota influence thyroid function?». Nutrients 12(6):1769.",
+     "doi": "10.3390/nu12061769"
+    },
+    {
+     "t": "Maintz L, Novak N, 2007. «Histamine and histamine intolerance». American Journal of Clinical Nutrition 85(5):1185-1196.",
+     "doi": "10.1093/ajcn/85.5.1185"
+    },
+    {
+     "t": "Pimentel M, Saad RJ, Long MD, Rao SSC, 2020. «ACG Clinical Guideline: small intestinal bacterial overgrowth». American Journal of Gastroenterology 115(2):165-178.",
+     "doi": "10.14309/ajg.0000000000000501"
+    },
+    {
+     "t": "Kumamoto CA, Gresnigt MS, Hube B, 2020. «The gut, the bad and the harmless: Candida albicans as a commensal and opportunistic pathogen in the intestine». Current Opinion in Microbiology.",
+     "doi": "10.1016/j.mib.2020.05.006"
+    },
+    {
+     "t": "Gopalakrishnan V, Spencer CN, Nezi L, et al., 2018. «Gut microbiome modulates response to anti–PD-1 immunotherapy in melanoma patients». Science 359:97-103.",
+     "doi": "10.1126/science.aan4236"
+    },
+    {
+     "t": "Routy B, Le Chatelier E, Derosa L, et al., 2018. «Gut microbiome influences efficacy of PD-1–based immunotherapy against epithelial tumors». Science 359:91-97.",
+     "doi": "10.1126/science.aan3706"
+    },
+    {
+     "t": "Xie Z, Sun Y, Ye Y, et al., 2022. «Randomized controlled trial for time-restricted eating in healthy volunteers without obesity». Nature Communications 13:1003.",
+     "doi": "10.1038/s41467-022-28662-5"
+    },
+    {
+     "t": "Lewis SJ, Heaton KW, 1997. «Stool form scale as a useful guide to intestinal transit time». Scandinavian Journal of Gastroenterology 32(9):920-924.",
+     "doi": "10.3109/00365529709011203"
+    },
+    {
+     "t": "Levitt MD, Duane WC, 1972. «Floating stools — flatus versus fat». New England Journal of Medicine 286:973-975.",
+     "doi": "10.1056/NEJM197205042861804"
+    },
+    {
+     "t": "Arasaradnam RP, Brown S, Forbes A, et al., 2018. «Guidelines for the investigation of chronic diarrhoea in adults: British Society of Gastroenterology, 3rd edition». Gut.",
+     "doi": "10.1136/gutjnl-2017-315909"
+    }
+   ]
+  },
+  "faq": [
+   [
+    "¿Todo el mundo necesita un estudio de microbiota?",
+    "No. Lo indica el profesional cuando los síntomas persisten, cuando hay antecedentes como tandas de antibióticos, gastroenteritis o infecciones de repetición, o cuando el resultado puede orientar mejor el plan. Antes se descartan las señales de alarma, que requieren estudio médico."
+   ],
+   [
+    "¿Cómo se hace el estudio de microbiota?",
+    "Se recoge en casa una pequeña muestra de heces con un kit y se envía a un laboratorio especializado. Cuando llegan los resultados, se interpretan en consulta junto con los síntomas, la historia y los hábitos de la persona."
+   ],
+   [
+    "¿El estudio de microbiota diagnostica enfermedades?",
+    "No por sí solo. Describe la composición y la diversidad de la microbiota y, según el perfil, marcadores de digestión e inflamación. Las pruebas diagnósticas, como el test del aliento, la analítica o la colonoscopia, las indica el médico."
+   ],
+   [
+    "¿Debo tomar probióticos?",
+    "Existen muchos probióticos y su efecto depende de la cepa y de la persona. No conviene tomarlos por su cuenta: su indicación la individualiza un profesional, y a menudo es más importante alimentar bien a las bacterias que ya tiene, con fibra y variedad vegetal."
+   ],
+   [
+    "¿Cuánto tarda en cambiar la microbiota?",
+    "La microbiota responde en pocos días a los cambios de alimentación, pero también vuelve a su estado previo si se abandonan. Por eso se trabaja por fases y con hábitos que se puedan mantener en el tiempo."
+   ],
+   [
+    "¿La microbiota puede influir en el dolor?",
+    "Se investiga. La microbiota influye en la inflamación de bajo grado y en el sistema nervioso, y se ha propuesto un eje intestino–disco en el dolor de espalda. Es una hipótesis emergente, no una causa demostrada, pero justifica tener en cuenta el intestino en el [dolor crónico](dolor-persistente-cronico)."
+   ],
+   [
+    "¿Qué relación hay entre microbiota, PNIE y nutrición?",
+    "La [PNIE](pni-pnie-barcelona) estudia cómo se comunican la microbiota, el sistema nervioso, el hormonal y el inmunitario, y busca el origen de los síntomas. La [nutrición](nutricion-salud-intestinal) es una de las herramientas principales para cuidar la microbiota, siempre con pautas individualizadas."
+   ],
+   [
+    "¿Puedo hacer una dieta muy estricta para «limpiar» el intestino?",
+    "No se recomienda por defecto. Las restricciones prolongadas sin motivo empobrecen la microbiota. Algunos cambios temporales y guiados pueden ser útiles en casos concretos, pero siempre con reintroducción progresiva y con un profesional."
+   ]
+  ],
+  "related": [
+   "pni-pnie-barcelona",
+   "nutricion-salud-intestinal",
+   "colon-irritable-sibo",
+   "inflamacion-cronica-autoinmunes"
+  ],
+  "cta_h2": "Entienda su microbiota con un plan a su medida",
+  "seo": {
+   "kw": "estudio de microbiota Barcelona",
+   "kws": [
+    "análisis de microbiota intestinal Barcelona",
+    "disbiosis intestinal tratamiento",
+    "test de microbiota heces",
+    "PNIE microbiota Barcelona",
+    "microbiota intestinal Sarrià"
+   ],
+   "ca_kw": "estudi de microbiota Barcelona",
+   "quick": "La microbiota intestinal es el conjunto de billones de microorganismos que viven en el intestino y que participan en la digestión, la inmunidad, la inflamación, el metabolismo y la comunicación con el cerebro. La disbiosis es un desequilibrio de ese ecosistema que se asocia a trastornos digestivos funcionales y a otros problemas de salud. En Sarrià–Sant Gervasi (Barcelona), el estudio de microbiota en heces se indica de forma individual y se interpreta dentro de una consulta de PNIE.",
+   "entity": [
+    "MedicalCondition",
+    "Disbiosis intestinal"
+   ]
+  },
+  "research": [
+   "Personas con molestias digestivas o síntomas generales que buscan dónde hacerse un estudio de microbiota y quién se lo interprete.",
+   [
+    "estudio de microbiota Barcelona",
+    "análisis de microbiota intestinal precio",
+    "disbiosis intestinal qué es"
+   ],
+   [
+    "estudi de microbiota Barcelona",
+    "disbiosi intestinal"
+   ],
+   "Consultas de PNIE y nutrición, laboratorios que venden kits directamente y clínicas digestivas privadas."
+  ],
+  "ca": {}
+ }
+]
