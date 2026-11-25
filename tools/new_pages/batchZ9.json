@@ -1,0 +1,2202 @@
+[
+ {
+  "slug": "fibromialgia",
+  "ca_slug": "fibromialgia",
+  "nav": "Fibromialgia",
+  "card": "Dolor generalizado, fatiga y sueño no reparador: qué es la fibromialgia, por qué aparece, cómo se diagnostica y qué ayuda de verdad.",
+  "title": "Fibromialgia en Barcelona | WA LAM",
+  "desc": "Qué es la fibromialgia, por qué aparece (sistema nervioso, sueño, nervios finos, microbiota), cómo se diagnostica y qué recomiendan las guías, en Sarrià–Sant Gervasi, Barcelona.",
+  "h1": "Fibromialgia en Barcelona",
+  "sub": "Dolor generalizado, fatiga y descanso · Sarrià–Sant Gervasi",
+  "lead": "La fibromialgia es un síndrome de dolor crónico generalizado que suele acompañarse de cansancio, sueño no reparador y dificultades de concentración. Las pruebas habituales son normales, pero el dolor es real: nace de un sistema nervioso que amplifica las señales. Entender qué ocurre es el primer paso para recuperar el control.",
+  "facts_title": "En WA LAM",
+  "facts": [
+   "Dolor generalizado, fatiga y sueño",
+   "Anamnesis completa y exploración palpatoria",
+   "Ejercicio gradual y hábitos de cada día",
+   "Primera visita: 60 min · 90 €"
+  ],
+  "wa": "Hola, me gustaría información sobre el abordaje de la fibromialgia.",
+  "mirror": {
+   "h2": "¿Se reconoce en estos síntomas?",
+   "qs": [
+    "¿Le duele «todo el cuerpo», a veces en un sitio y a veces en otro, desde hace más de tres meses?",
+    "¿Se levanta cansado aunque haya dormido muchas horas?",
+    "¿Le molestan un abrazo, el roce de la ropa o una presión que antes no le dolía?",
+    "¿Le cuesta concentrarse o recordar cosas, como si tuviera la cabeza «en niebla»?"
+   ],
+   "close": "Si además tiene fiebre, pérdida de peso o rigidez articular marcada, lea las señales de alarma de más abajo."
+  },
+  "explain": {
+   "h2": "¿Qué es la fibromialgia?",
+   "paras": [
+    "La fibromialgia es un síndrome caracterizado por **dolor musculoesquelético generalizado y persistente**, que se acompaña con frecuencia de **fatiga**, **sueño no reparador**, problemas de memoria y concentración y alteraciones del estado de ánimo. No es una enfermedad de los músculos ni de las articulaciones: los análisis y las radiografías suelen ser normales. Se entiende hoy como un trastorno del **procesamiento del dolor**, en el que el sistema nervioso central amplifica las señales que recibe (Clauw, JAMA, 2014).",
+    "**Anatomía del dolor.** Para entenderla hay que mirar el recorrido de una señal dolorosa. Los **nociceptores**, terminaciones nerviosas repartidas por la piel, los músculos, las articulaciones y las vísceras, detectan estímulos potencialmente dañinos. La señal viaja por fibras nerviosas finas hasta el **asta dorsal de la médula espinal**, donde se filtra, y de ahí sube al tálamo y a varias regiones del cerebro que le dan intensidad, localización y significado emocional. El cerebro, a su vez, envía señales descendentes que pueden frenar o facilitar el dolor. En la fibromialgia, el freno funciona peor y el acelerador está más activo.",
+    "La Asociación Internacional para el Estudio del Dolor llama a este mecanismo **dolor nociplástico**: un dolor que surge de una alteración de la nocicepción sin que haya una lesión de los tejidos ni del sistema nervioso que lo explique. Es el tercer gran tipo de dolor, junto al nociceptivo (por lesión o inflamación de un tejido) y al neuropático (por lesión de un nervio), y está presente en la fibromialgia, en parte de las lumbalgias crónicas, en el colon irritable o en algunas cefaleas (Fitzcharles et al., The Lancet, 2021). En la clasificación de la OMS, la fibromialgia forma parte del **dolor crónico primario**.",
+    "**Tipos y formas de presentación.** La fibromialgia puede aparecer sola o junto a otras enfermedades dolorosas, como la artrosis, la artritis reumatoide o el lupus; los criterios actuales permiten diagnosticarla aunque exista otra enfermedad (Wolfe et al., Seminars in Arthritis and Rheumatism, 2016). En la práctica se observan perfiles distintos: personas en las que predomina el dolor, otras en las que pesan más la fatiga y el mal sueño, y otras con mucha sensibilidad al tacto, al frío o al ruido. Reconocer el perfil de cada persona orienta el plan."
+   ]
+  },
+  "sections": [
+   {
+    "h2": "¿Es frecuente la fibromialgia?",
+    "paras": [
+     "Sí. Según la revisión de Clauw publicada en JAMA, la fibromialgia afecta a entre el **2 % y el 8 %** de la población, según los criterios utilizados (Clauw, 2014). En España, el estudio EPISER 2016 de la Sociedad Española de Reumatología, con 4.916 adultos de 78 municipios, estimó una prevalencia del **2,45 %**, prácticamente igual que en el año 2000 y similar a la del conjunto de Europa (Font Gayà et al., Clinical and Experimental Rheumatology, 2020).",
+     "En ese mismo estudio, el **sexo femenino** fue el factor más asociado: las mujeres tenían unas diez veces más probabilidad de presentarla que los hombres, y la obesidad se asoció a un 68 % más de frecuencia. Es una asociación, no una causa, pero recuerda que el peso, el sedentarismo y el sueño forman parte del mismo círculo."
+    ]
+   },
+   {
+    "h2": "¿Por qué aparece la fibromialgia?",
+    "paras": [
+     "No hay una causa única. La fibromialgia surge de la combinación de una **predisposición** individual, en parte genética, y de **factores desencadenantes** que mantienen el sistema nervioso en alerta: una infección, un accidente o una cirugía, un periodo de estrés intenso, un duelo, una enfermedad dolorosa previa o años de sueño de mala calidad. Muchas personas recuerdan un momento a partir del cual «todo empezó a doler».",
+     "El mecanismo central es la **amplificación del dolor** en el sistema nervioso. Las personas con fibromialgia perciben como dolorosos estímulos de presión, calor o frío que otras personas apenas notan, y sus sistemas internos de control del dolor funcionan peor. Junto al dolor aparecen fatiga, problemas de memoria y de sueño y alteraciones del ánimo, porque todos dependen de los mismos circuitos cerebrales (Clauw, 2014).",
+     "En los últimos años se han añadido dos piezas al rompecabezas: la afectación de las **fibras nerviosas finas** de la piel y la relación con la **microbiota intestinal**. Las explicamos a continuación."
+    ],
+    "list_title": "Factores que intervienen en su aparición:",
+    "list": [
+     "Predisposición genética y antecedentes familiares de dolor crónico",
+     "Infecciones, traumatismos, accidentes o cirugías",
+     "Estrés sostenido, situaciones traumáticas o duelos",
+     "Sueño no reparador durante mucho tiempo",
+     "Otras enfermedades dolorosas, como la artrosis o las enfermedades reumáticas inflamatorias",
+     "Sedentarismo y pérdida de condición física"
+    ]
+   },
+   {
+    "h2": "¿Quién tiene más riesgo?",
+    "paras": [
+     "La fibromialgia puede aparecer a cualquier edad, también en adolescentes y personas mayores, pero es más habitual en mujeres adultas. Algunos factores se pueden modificar y otros no; conocerlos ayuda a entender por qué el plan incluye hábitos y no solo tratamiento del dolor."
+    ],
+    "list_title": "Factores asociados a un mayor riesgo:",
+    "list": [
+     "Ser mujer",
+     "Tener familiares con fibromialgia u otros dolores crónicos",
+     "Padecer otra enfermedad dolorosa o reumática",
+     "Obesidad y sedentarismo",
+     "Trastornos del sueño mantenidos",
+     "Ansiedad, depresión o estrés crónico",
+     "Antecedentes de traumatismos físicos o emocionales"
+    ]
+   },
+   {
+    "h2": "¿Cuáles son los síntomas?",
+    "paras": [
+     "El síntoma principal es el **dolor generalizado**: en ambos lados del cuerpo, por encima y por debajo de la cintura y en la columna. Muchas personas lo describen como un dolor sordo y profundo, «como si tuviera agujetas o gripe», que cambia de intensidad y de lugar. Suele empeorar con el frío, el estrés, el esfuerzo excesivo o una mala noche.",
+     "A menudo se acompaña de **rigidez** por la mañana, **hipersensibilidad** al tacto (alodinia) y a otros estímulos, como la luz o el ruido, y de la llamada **«fibroniebla»**: dificultad para concentrarse, encontrar palabras o recordar. La fatiga no mejora del todo con el descanso. Pueden coexistir cefaleas, colon irritable, dolor pélvico o mandibular, hormigueos o sensación de hinchazón en manos y pies sin que haya hinchazón visible."
+    ],
+    "list_title": "Síntomas más habituales:",
+    "list": [
+     "Dolor generalizado durante más de tres meses",
+     "Fatiga y sensación de falta de energía",
+     "Sueño poco reparador",
+     "Rigidez matutina",
+     "Dolor al roce o a la presión ligera",
+     "Dificultad de concentración y de memoria",
+     "Cefaleas, molestias digestivas o dolor mandibular",
+     "Ánimo bajo o ansiedad relacionados con el dolor"
+    ]
+   },
+   {
+    "h2": "¿Qué relación hay entre el sueño y el dolor?",
+    "paras": [
+     "Dormir mal y sentir dolor se alimentan mutuamente. Durante el sueño profundo el sistema nervioso se recupera y se regulan mecanismos que controlan el dolor; cuando el sueño es superficial o se interrumpe con frecuencia, al día siguiente el umbral del dolor baja y aumentan la fatiga y la dificultad para concentrarse. A su vez, el dolor dificulta conciliar el sueño y provoca despertares. La revisión de Choy sitúa este círculo en el centro de la fibromialgia (Choy, Nature Reviews Rheumatology, 2015).",
+     "Por eso el sueño no es un detalle, sino un objetivo del tratamiento. Unos horarios regulares, la luz natural por la mañana, la actividad física durante el día y una rutina tranquila antes de acostarse ayudan a romper ese círculo. Si sospecha que ronca mucho o que deja de respirar durante la noche, comuníquelo a su médico. Puede leer más en nuestra página de [sueño e insomnio](sueno-insomnio)."
+    ]
+   },
+   {
+    "h2": "Si el dolor es una alarma, ¿por qué no se apaga?",
+    "paras": [
+     "El dolor es, ante todo, una **señal de protección**. Avisa de que algo puede dañar el cuerpo y nos lleva a cuidarnos. La investigación reciente ha mostrado que las neuronas del dolor protegen incluso más de lo que se creía: en un estudio publicado en Cell, realizado **en ratones**, los nociceptores del intestino liberaban una sustancia llamada CGRP que estimulaba la producción del moco que protege la pared intestinal; sin esas neuronas, la barrera se debilitaba, la microbiota se alteraba y la inflamación intestinal era más grave (Yang et al., Cell, 2022). Al ser un estudio en animales no se puede trasladar directamente a las personas, pero ilustra que el sistema del dolor forma parte de las defensas del organismo.",
+     "En la fibromialgia, esa alarma se ha vuelto **demasiado sensible**: suena con estímulos que no suponen peligro y tarda en apagarse. No significa que el dolor sea imaginario, sino que el problema está en el sistema de alarma más que en el lugar que duele. Los analgésicos y los fármacos que su médico considere oportunos pueden aliviar el dolor; además, conviene **buscar y tratar lo que mantiene la alarma encendida**: el sueño, el estrés, la inactividad, el miedo al movimiento o otros dolores asociados.",
+     "En esta misma página encontrará un apartado dedicado a la **sensibilización del sistema nervioso** y a cómo actúan el tacto y el movimiento sobre ella, y otro sobre por qué muchas personas notan más dolor **cuando cambia el tiempo**."
+    ]
+   },
+   {
+    "h2": "¿Pueden estar afectados los nervios finos de la piel?",
+    "paras": [
+     "Durante años se pensó que en la fibromialgia los nervios periféricos eran normales. Hoy sabemos que, en una parte de las personas, no es así. Una revisión sistemática con metaanálisis reunió 8 estudios con 222 participantes y encontró **patología de fibras finas** en el **49 %** de las personas con fibromialgia: el 45 % cuando se estudiaba con biopsia de piel y el 59 % con microscopía confocal de la córnea (Grayston et al., Seminars in Arthritis and Rheumatism, 2019).",
+     "Las fibras finas son las que transmiten el dolor, la temperatura y algunas funciones automáticas, como la sudoración. Su afectación podría explicar los hormigueos, la quemazón o la sensibilidad al frío que describen muchas pacientes, y que a veces se confunden con otros problemas. No todas las personas la presentan ni se sabe todavía si es causa o consecuencia, pero el hallazgo refuerza una idea importante: **la fibromialgia tiene una base biológica**. Si predominan la quemazón o los hormigueos, puede leer también nuestra página de [dolor neuropático](dolor-neuropatico)."
+    ]
+   },
+   {
+    "h2": "¿Qué tiene que ver el intestino con la fibromialgia?",
+    "paras": [
+     "Un estudio canadiense publicado en la revista Pain comparó la **microbiota intestinal** de 77 mujeres con fibromialgia con la de 79 mujeres sin ella. Encontró diferencias en varias especies bacterianas, que se relacionaban con la intensidad del dolor, la fatiga y el mal sueño más que con la dieta, la edad o la medicación. Las pacientes tenían además niveles distintos en la sangre de **butirato y propionato**, sustancias que producen las bacterias intestinales. Con la composición de la microbiota, un algoritmo distinguía a pacientes y controles con una precisión del 87,8 % (Minerbi et al., Pain, 2019).",
+     "Es una **asociación**: no demuestra que la microbiota cause la fibromialgia ni permite recomendar un probiótico concreto. Pero encaja con lo que se sabe del eje intestino-cerebro y con la frecuencia con que las personas con fibromialgia sufren también colon irritable, hinchazón o estreñimiento. Una alimentación variada, rica en verduras, legumbres, frutas y fibra, y la gestión del estrés y del sueño cuidan la microbiota y, al mismo tiempo, el sistema nervioso. Más información en [salud digestiva y microbiota](salud-digestiva-microbiota)."
+    ]
+   },
+   {
+    "h2": "¿Cómo se entiende la fibromialgia desde la osteopatía?",
+    "paras": [
+     "La osteopatía entiende el cuerpo como un **conjunto de relaciones**: las articulaciones, los músculos, la fascia, las vísceras, los nervios y los vasos se influyen entre sí. En la fibromialgia esta visión es útil, porque el dolor no depende de una sola pieza. Con los años, el cuerpo acumula compensaciones: una respiración corta y alta, unos hombros siempre tensos, una mandíbula apretada, un abdomen rígido o una cicatriz antigua que mantienen zonas en alerta.",
+     "Jean-Pierre Barral, osteópata francés, desarrolló la **escucha manual**: una palpación lenta y atenta que busca diferencias de tensión, densidad, movilidad y temperatura en los tejidos. Su idea central es que «el concepto de la osteopatía es la movilidad: devolver movilidad al cuerpo». Barral describe además el cuerpo como portador de una gran memoria, en el que choques físicos o emocionales pueden dejar huellas que se manifiestan tiempo después; plantea que la emoción, cuando aparece en consulta, debe acogerse «con la misma sensibilidad y el mismo respeto» con que se trabajan los tejidos. Es su interpretación clínica, no un hecho demostrado, pero describe bien la experiencia de muchas personas con fibromialgia.",
+     "En cuanto a la evidencia, un metaanálisis de 10 ensayos con 681 pacientes con dolor crónico, entre ellos personas con fibromialgia, encontró que la terapia craneosacral, una técnica manual muy suave, redujo la intensidad del dolor y la discapacidad frente a una intervención simulada, con efectos que se mantenían a los seis meses y sin efectos adversos graves (Haller et al., BMC Musculoskeletal Disorders, 2020). Una revisión de revisiones sistemáticas sobre el tratamiento osteopático manipulativo encontró resultados favorables en el **dolor crónico no oncológico**, aunque la calidad de las revisiones era baja (Bagagiolo et al., BMJ Open, 2022). En la fibromialgia, el trabajo manual tiene sentido si es suave, progresivo y va unido al ejercicio y a la educación."
+    ]
+   },
+   {
+    "h2": "¿Cuándo debo consultar con mi médico?",
+    "paras": [
+     "El diagnóstico de fibromialgia lo establece el médico, después de descartar otras enfermedades que pueden producir dolor generalizado y cansancio, como el hipotiroidismo, la anemia, el déficit de vitamina D, las enfermedades reumáticas inflamatorias o algunos efectos de medicamentos. Consulte también si aparece alguno de estos signos:"
+    ],
+    "list": [
+     "Fiebre, sudoración nocturna o pérdida de peso sin causa aparente",
+     "Articulaciones hinchadas, calientes o enrojecidas",
+     "Rigidez matutina de más de una hora en hombros y caderas, sobre todo a partir de los 50 años",
+     "Debilidad muscular real, no solo cansancio",
+     "Manchas en la piel, úlceras en la boca o caída llamativa del pelo",
+     "Hormigueos o pérdida de sensibilidad que avanzan",
+     "Tristeza intensa, desesperanza o pensamientos de hacerse daño: pida ayuda sin esperar"
+    ]
+   },
+   {
+    "h2": "¿Cómo se diagnostica? La anamnesis",
+    "paras": [
+     "No existe un análisis ni una prueba de imagen que confirme la fibromialgia. El diagnóstico es **clínico** y se basa en la historia del paciente. Los criterios revisados en 2016 exigen un **dolor generalizado** en al menos cuatro de las cinco regiones del cuerpo, presente durante al menos **tres meses**, y una puntuación suficiente en dos escalas: el índice de dolor generalizado, que cuenta las zonas dolorosas, y la escala de gravedad de los síntomas, que valora la fatiga, el sueño no reparador y los problemas cognitivos. El diagnóstico es válido aunque exista otra enfermedad (Wolfe et al., 2016).",
+     "En una valoración osteopática, la anamnesis recoge además cuándo y cómo empezó todo, qué acontecimientos lo precedieron (infecciones, cirugías, accidentes, periodos de estrés), cómo es el sueño, la digestión, el ciclo menstrual o la menopausia, el nivel de actividad, los tratamientos que ya ha probado y qué cosas alivian o empeoran el dolor. Es una conversación sin prisas: escuchar bien es la primera parte del tratamiento."
+    ]
+   },
+   {
+    "h2": "¿Qué se explora? La palpación como herramienta diagnóstica",
+    "paras": [
+     "Antiguamente el diagnóstico se basaba en contar los «puntos gatillo» dolorosos a la presión; los criterios actuales ya no los usan, porque el dolor es generalizado y variable. La exploración sigue siendo importante para valorar la postura, la respiración, la movilidad de la columna y de las articulaciones y para descartar signos de otras enfermedades.",
+     "La palpación osteopática se adapta a la sensibilidad de cada persona: empieza con un contacto ligero y aumenta la presión solo si el cuerpo lo tolera. La **escucha general**, con las manos apoyadas en distintas regiones, orienta hacia las zonas de mayor tensión; la **escucha local** precisa qué estructura está implicada, ya sea una articulación, un músculo, la fascia, el diafragma o una víscera. La exploración permite también identificar qué zonas toleran el contacto y cuáles necesitan más tiempo."
+    ]
+   },
+   {
+    "h2": "¿Cómo se trata la fibromialgia?",
+    "paras": [
+     "Las recomendaciones de la Liga Europea contra el Reumatismo (EULAR) indican que el tratamiento debe empezar por **medidas no farmacológicas** y que la primera es la **educación**: entender qué es la fibromialgia y por qué duele. De todas las intervenciones evaluadas, **el ejercicio físico fue la única que obtuvo una recomendación fuerte**. Otras medidas, como la terapia cognitivo-conductual, la hidroterapia o las terapias de movimiento meditativo como el taichí, el qigong o el yoga, recibieron recomendaciones débiles a favor. Los fármacos se reservan para casos concretos y los decide el médico (Macfarlane et al., Annals of the Rheumatic Diseases, 2017).",
+     "La revisión Cochrane sobre el ejercicio aeróbico, con 13 ensayos y 839 personas, concluyó que mejora probablemente la calidad de vida y puede reducir el dolor (alrededor de un 11 % en términos absolutos) y mejorar la función física, mejoras que alcanzaban relevancia clínica (Bidonde et al., Cochrane, 2017). En un ensayo con 226 personas con fibromialgia, el **taichí** practicado durante 24 semanas mejoró los síntomas más que el ejercicio aeróbico de igual duración y frecuencia (Wang et al., BMJ, 2018).",
+     "El tratamiento, por tanto, no es una técnica, sino un **plan**: educación, ejercicio dosificado, cuidado del sueño, gestión del estrés y, cuando ayuda, trabajo manual suave que facilite moverse. La clave es la **progresión**: empezar por poco, sin provocar brotes, y aumentar poco a poco. El objetivo no es solo que duela menos, sino recuperar actividades y confianza."
+    ]
+   },
+   {
+    "h2": "¿Qué puedo hacer para prevenir los brotes? Ejercicio y hábitos",
+    "paras": [
+     "El ejercicio es el tratamiento con mejor respaldo, pero en la fibromialgia hay que saber dosificarlo. Un esfuerzo excesivo un día bueno suele pagarse con dos días malos; por eso conviene aplicar la **regla de la constancia**: hacer cada día una cantidad parecida, aunque sea pequeña, y aumentar un 10 % cada semana o cada dos semanas si el cuerpo lo tolera. Caminar, nadar o hacer bicicleta estática en agua templada o en casa son buenos puntos de partida.",
+     "Después se añade **fuerza**, con bandas elásticas o el propio peso, dos o tres veces por semana, y **movilidad** suave. El movimiento lento y consciente, como el taichí o el qigong, combina las tres cosas y ayuda además a regular la respiración y el estrés. Un ritmo de vida más ordenado, con pausas, horarios de sueño estables y menos sobrecarga, protege frente a los brotes tanto como el ejercicio.",
+     "La alimentación también influye: perder peso si hay obesidad, reducir los ultraprocesados y el alcohol, y priorizar verduras, legumbres, pescado y frutos secos ayuda a la energía, al sueño y a la microbiota."
+    ],
+    "list_title": "Hábitos que ayudan:",
+    "list": [
+     "Moverse cada día, aunque sea poco, mejor que mucho un solo día",
+     "Aumentar la actividad de forma gradual, un 10 % cada vez",
+     "Fortalecer la musculatura dos o tres veces por semana",
+     "Practicar movimiento lento y consciente, como el taichí o el qigong",
+     "Mantener horarios regulares de sueño",
+     "Exponerse a la luz natural por la mañana",
+     "Planificar pausas y repartir las tareas pesadas a lo largo de la semana"
+    ]
+   },
+   {
+    "h2": "¿Qué puedo hacer en el día a día?",
+    "paras": [],
+    "list": [
+     "Lleve un diario sencillo de dolor, sueño y actividad: ayuda a reconocer qué lo empeora y qué lo alivia.",
+     "Use calor local, como una ducha templada o una manta eléctrica, en las zonas más rígidas.",
+     "Divida las tareas en partes y alterne las que requieren esfuerzo con otras más ligeras.",
+     "Cuide la postura frente a las pantallas y cambie de posición cada 30–45 minutos.",
+     "Practique unos minutos de respiración lenta y diafragmática varias veces al día.",
+     "Abríguese en los días fríos y húmedos.",
+     "Mantenga el contacto social y las actividades que le gustan, adaptándolas si hace falta.",
+     "Hable con su entorno sobre la fibromialgia: comprender reduce la sensación de aislamiento."
+    ]
+   }
+  ],
+  "evidence": {
+   "h2": "Qué dice la evidencia",
+   "items": [
+    [
+     "Prevalencia en España (Clin Exp Rheumatol)",
+     "El estudio EPISER 2016, con 4.916 adultos, estimó una prevalencia de fibromialgia del 2,45 %, mucho más frecuente en mujeres (Font Gayà et al., 2020)."
+    ],
+    [
+     "Revisión clínica (JAMA)",
+     "La fibromialgia afecta al 2–8 % de la población y se entiende como un estado de amplificación central del dolor (Clauw, 2014)."
+    ],
+    [
+     "Dolor nociplástico (The Lancet)",
+     "La fibromialgia es el ejemplo típico de dolor nociplástico, debido a una alteración de la nocicepción sin lesión que lo explique (Fitzcharles et al., 2021)."
+    ],
+    [
+     "Fibras finas (Semin Arthritis Rheum)",
+     "En 8 estudios con 222 participantes, el 49 % de las personas con fibromialgia presentaba patología de fibras nerviosas finas (Grayston et al., 2019)."
+    ],
+    [
+     "Microbiota (Pain)",
+     "En 77 mujeres con fibromialgia y 79 controles, la composición de la microbiota distinguía a ambos grupos con una precisión del 87,8 % (Minerbi et al., 2019)."
+    ],
+    [
+     "Guía EULAR (Ann Rheum Dis)",
+     "El ejercicio fue la única intervención con recomendación fuerte en el tratamiento de la fibromialgia (Macfarlane et al., 2017)."
+    ],
+    [
+     "Ejercicio aeróbico (Cochrane)",
+     "En 13 ensayos con 839 personas, el ejercicio aeróbico redujo el dolor alrededor de un 11 % y mejoró la calidad de vida y la función (Bidonde et al., 2017)."
+    ],
+    [
+     "Taichí (BMJ)",
+     "En 226 personas con fibromialgia, 24 semanas de taichí mejoraron los síntomas más que el ejercicio aeróbico de igual dosis (Wang et al., 2018)."
+    ],
+    [
+     "Terapia manual suave (BMC Musculoskelet Disord)",
+     "En 10 ensayos con 681 pacientes con dolor crónico, incluida la fibromialgia, la terapia craneosacral redujo el dolor frente a simulación, con efectos a 6 meses (Haller et al., 2020)."
+    ]
+   ],
+   "refs": [
+    {
+     "t": "Font Gayà T, Bordoy Ferrer C, Juan Mas A, Seoane-Mato D, et al., 2020. «Prevalence of fibromyalgia and associated factors in Spain». Clinical and Experimental Rheumatology 38(Suppl 123):S47-S52.",
+     "doi": ""
+    },
+    {
+     "t": "Clauw DJ, 2014. «Fibromyalgia: a clinical review». JAMA.",
+     "doi": "10.1001/jama.2014.3266"
+    },
+    {
+     "t": "Fitzcharles MA, Cohen SP, Clauw DJ, Littlejohn G, Usui C, Häuser W, 2021. «Nociplastic pain: towards an understanding of prevalent pain conditions». The Lancet.",
+     "doi": "10.1016/S0140-6736(21)00392-5"
+    },
+    {
+     "t": "Wolfe F, Clauw DJ, Fitzcharles MA, et al., 2016. «2016 Revisions to the 2010/2011 fibromyalgia diagnostic criteria». Seminars in Arthritis and Rheumatism.",
+     "doi": "10.1016/j.semarthrit.2016.08.012"
+    },
+    {
+     "t": "Choy EHS, 2015. «The role of sleep in pain and fibromyalgia». Nature Reviews Rheumatology.",
+     "doi": "10.1038/nrrheum.2015.56"
+    },
+    {
+     "t": "Yang D, Jacobson A, Meerschaert KA, et al., 2022. «Nociceptor neurons direct goblet cells via a CGRP-RAMP1 axis to drive mucus production and gut barrier protection». Cell.",
+     "doi": "10.1016/j.cell.2022.09.024"
+    },
+    {
+     "t": "Grayston R, Czanner G, Elhadd K, Goebel A, Frank B, Üçeyler N, Malik RA, Alam U, 2019. «A systematic review and meta-analysis of the prevalence of small fiber pathology in fibromyalgia: implications for a new paradigm in fibromyalgia etiopathogenesis». Seminars in Arthritis and Rheumatism.",
+     "doi": "10.1016/j.semarthrit.2018.08.003"
+    },
+    {
+     "t": "Minerbi A, Gonzalez E, Brereton NJB, et al., 2019. «Altered microbiome composition in individuals with fibromyalgia». Pain.",
+     "doi": "10.1097/j.pain.0000000000001640"
+    },
+    {
+     "t": "Haller H, Lauche R, Sundberg T, Dobos G, Cramer H, 2020. «Craniosacral therapy for chronic pain: a systematic review and meta-analysis of randomized controlled trials». BMC Musculoskeletal Disorders.",
+     "doi": "10.1186/s12891-019-3017-y"
+    },
+    {
+     "t": "Bagagiolo D, Rosa D, Borrelli F, 2022. «Efficacy and safety of osteopathic manipulative treatment: an overview of systematic reviews». BMJ Open.",
+     "doi": "10.1136/bmjopen-2021-053468"
+    },
+    {
+     "t": "Macfarlane GJ, Kronisch C, Dean LE, et al., 2017. «EULAR revised recommendations for the management of fibromyalgia». Annals of the Rheumatic Diseases.",
+     "doi": "10.1136/annrheumdis-2016-209724"
+    },
+    {
+     "t": "Bidonde J, Busch AJ, Schachter CL, et al., 2017. «Aerobic exercise training for adults with fibromyalgia». Cochrane Database of Systematic Reviews.",
+     "doi": "10.1002/14651858.CD012700"
+    },
+    {
+     "t": "Wang C, Schmid CH, Fielding RA, et al., 2018. «Effect of tai chi versus aerobic exercise for fibromyalgia: comparative effectiveness randomized controlled trial». BMJ.",
+     "doi": "10.1136/bmj.k851"
+    }
+   ]
+  },
+  "faq": [
+   [
+    "¿La fibromialgia es una enfermedad real?",
+    "Sí. Las pruebas habituales son normales, pero el dolor es real y tiene una base biológica: un sistema nervioso que amplifica las señales, y en muchas personas una afectación de los nervios finos de la piel. Está reconocida por la OMS dentro del dolor crónico primario."
+   ],
+   [
+    "¿Quién diagnostica la fibromialgia?",
+    "El médico, a partir de la historia clínica y de los criterios diagnósticos, después de descartar otras enfermedades con análisis y exploración. No hay una prueba específica que la confirme."
+   ],
+   [
+    "¿El ejercicio no me hará más daño?",
+    "El ejercicio bien dosificado es el tratamiento con mejor respaldo científico. La clave es empezar con poco, ser constante y aumentar gradualmente. Es normal notar algo de molestia al principio; si el dolor aumenta mucho al día siguiente, se reduce la dosis, pero no se abandona."
+   ],
+   [
+    "¿La fibromialgia se cura?",
+    "No hay una cura definitiva, pero los síntomas pueden mejorar mucho. Con un plan que combine educación, ejercicio, sueño, gestión del estrés y trabajo manual suave, muchas personas recuperan actividad y calidad de vida."
+   ],
+   [
+    "¿El trabajo manual es doloroso si tengo fibromialgia?",
+    "No debería serlo. Se empieza con un contacto ligero, se adapta la presión a su sensibilidad y se ajusta según cómo responda su cuerpo en los días siguientes."
+   ],
+   [
+    "¿Qué tiene que ver la alimentación?",
+    "No hay una dieta que cure la fibromialgia, pero una alimentación variada y rica en fibra cuida la microbiota, ayuda a controlar el peso y favorece la energía y el sueño. En personas con fibromialgia se han descrito cambios en la microbiota intestinal."
+   ],
+   [
+    "¿Por qué me duele más en invierno?",
+    "Muchas personas con fibromialgia notan más dolor con el frío, la humedad o los cambios de presión. La ciencia muestra un efecto modesto que varía de una persona a otra; en esta página encontrará un apartado que lo explica y qué puede hacer."
+   ],
+   [
+    "¿Cuántas sesiones necesitaré?",
+    "Depende de cada persona. Tras la primera visita se propone un plan por fases con objetivos concretos, pautas de ejercicio y hábitos para casa y revisiones que se van espaciando a medida que gana autonomía."
+   ]
+  ],
+  "related": [
+   "dolor-persistente-cronico",
+   "fatiga-cronica-agotamiento",
+   "sueno-insomnio",
+   "dolor-neuropatico"
+  ],
+  "cta_h2": "Pida su primera visita y entienda su dolor",
+  "seo": {
+   "kw": "fibromialgia Barcelona",
+   "kws": [
+    "tratamiento fibromialgia Barcelona",
+    "fibromialgia síntomas",
+    "ejercicio para la fibromialgia",
+    "osteopatía fibromialgia",
+    "dolor generalizado y cansancio"
+   ],
+   "ca_kw": "fibromiàlgia Barcelona",
+   "quick": "La fibromialgia es un síndrome de dolor crónico generalizado, acompañado de fatiga, sueño no reparador y dificultades de concentración, debido a una amplificación del dolor en el sistema nervioso. Afecta al 2,45 % de los adultos en España, sobre todo a mujeres. En Sarrià–Sant Gervasi (Barcelona) se valora con una anamnesis detallada y una exploración palpatoria osteopática, y el plan prioriza la educación y el ejercicio progresivo, como recomiendan las guías.",
+   "entity": [
+    "MedicalCondition",
+    "Fibromialgia"
+   ]
+  },
+  "research": [
+   "Personas diagnosticadas de fibromialgia, o con dolor generalizado y fatiga, que quieren entender qué les ocurre y buscan un abordaje global cerca de casa en Barcelona.",
+   [
+    "tratamiento fibromialgia Barcelona",
+    "fibromialgia síntomas y causas",
+    "ejercicio para fibromialgia",
+    "osteopatía fibromialgia Barcelona",
+    "fibromialgia y sueño"
+   ],
+   [
+    "fibromiàlgia tractament Barcelona",
+    "fibromiàlgia símptomes"
+   ],
+   "Unidades hospitalarias de fibromialgia, asociaciones de pacientes y clínicas de fisioterapia con páginas genéricas."
+  ],
+  "ca": {}
+ },
+ {
+  "slug": "dolor-neuropatico",
+  "ca_slug": "dolor-neuropatic",
+  "nav": "Dolor neuropático",
+  "card": "Quemazón, descargas y hormigueo: qué es el dolor neuropático, por qué aparece, cómo se diagnostica y qué ayuda.",
+  "title": "Dolor neuropático en Barcelona | WA LAM",
+  "desc": "Qué es el dolor neuropático (ciática, neuralgias, neuropatía diabética, dolor postherpético), por qué aparece, cómo se diagnostica y cómo se trata, en Sarrià–Sant Gervasi, Barcelona.",
+  "h1": "Dolor neuropático en Barcelona",
+  "sub": "Ciática, neuralgias y neuropatías · Sarrià–Sant Gervasi",
+  "lead": "El dolor neuropático aparece cuando se lesiona o enferma el propio sistema nervioso. Se percibe como quemazón, descargas eléctricas, pinchazos u hormigueo, a menudo empeora por la noche y no responde bien a los analgésicos habituales. Saber reconocerlo cambia la forma de tratarlo.",
+  "facts_title": "En WA LAM",
+  "facts": [
+   "Ciática, neuralgias y neuropatías",
+   "Anamnesis, exploración neurológica y palpatoria",
+   "Movimiento, nervios y sistema nervioso central",
+   "Primera visita: 60 min · 90 €"
+  ],
+  "wa": "Hola, me gustaría información sobre el abordaje del dolor neuropático.",
+  "mirror": {
+   "h2": "¿Se reconoce en estos síntomas?",
+   "qs": [
+    "¿Siente quemazón, calambres eléctricos o pinchazos que recorren una pierna, un brazo o una zona concreta?",
+    "¿Le molesta el roce de la ropa o de las sábanas sobre la zona dolorida?",
+    "¿Nota hormigueo, acorchamiento o sensación de «guante» o «calcetín» en manos o pies?",
+    "¿El dolor empeora por la noche o con el frío y los analgésicos habituales apenas le alivian?"
+   ],
+   "close": "Si nota pérdida de fuerza o alteraciones al orinar, consulte las señales de alarma de más abajo."
+  },
+  "explain": {
+   "h2": "¿Qué es el dolor neuropático?",
+   "paras": [
+    "La Asociación Internacional para el Estudio del Dolor define el dolor neuropático como el **dolor causado por una lesión o una enfermedad del sistema nervioso somatosensorial**, es decir, de la parte del sistema nervioso que recoge y transmite las sensaciones (Jensen et al., Pain, 2011). A diferencia del dolor nociceptivo, que avisa de un daño en un tejido como un músculo o una articulación, en el dolor neuropático el problema está en el **propio cable**: el nervio, la raíz nerviosa, la médula o el cerebro.",
+    "**Anatomía.** El sistema somatosensorial empieza en las terminaciones nerviosas de la piel, los músculos y las vísceras. Las señales viajan por los **nervios periféricos**, que se agrupan en **raíces nerviosas** al llegar a la columna, pasan por los **ganglios** situados junto a las vértebras y entran en la **médula espinal**, desde donde ascienden al tálamo y a la corteza cerebral. Una lesión en cualquier punto de ese recorrido puede producir dolor neuropático, y el dolor se nota en el territorio que ese nervio recoge, aunque la lesión esté lejos: una raíz comprimida en la zona lumbar duele en la pierna.",
+    "**Clasificación.** Se distingue el dolor neuropático **periférico**, cuando la lesión afecta a nervios, raíces o ganglios, y el **central**, cuando afecta a la médula o al cerebro. Muchos dolores son **mixtos**: en una ciática por hernia discal, por ejemplo, conviven un componente nociceptivo del disco y las articulaciones y un componente neuropático de la raíz. En la nueva clasificación de la OMS, el dolor neuropático crónico es el que dura más de tres meses."
+   ]
+  },
+  "sections": [
+   {
+    "h2": "¿Es frecuente el dolor neuropático?",
+    "paras": [
+     "Más de lo que se piensa. Una revisión sistemática de los estudios realizados en la población general concluyó que la mejor estimación de la prevalencia del dolor con características neuropáticas se sitúa **entre el 6,9 % y el 10 %** (van Hecke et al., Pain, 2014). En la encuesta francesa que dio origen a la primera de esas cifras, con 23.712 personas, el 31,7 % tenía dolor crónico y el **6,9 %** presentaba dolor con características neuropáticas, moderado o intenso en el 5,1 %. Era más frecuente entre los 50 y los 64 años, en profesiones manuales y en zonas rurales, se localizaba sobre todo en las piernas y era más intenso y duradero que el dolor crónico sin esas características (Bouhassira et al., Pain, 2008).",
+     "Su impacto también es mayor. En una encuesta canadiense, las personas con dolor con rasgos neuropáticos tenían más dolor, más limitaciones para moverse y para sus actividades habituales y peor calidad de vida que las personas con otros dolores crónicos (Toth et al., Pain Medicine, 2009)."
+    ]
+   },
+   {
+    "h2": "¿Qué ocurre en un nervio lesionado?",
+    "paras": [
+     "Un nervio sano transmite señales cuando algo lo estimula y permanece en silencio el resto del tiempo. Cuando se lesiona, ya sea por compresión, por un corte, por una infección como el herpes zóster o por una enfermedad metabólica como la diabetes, su funcionamiento cambia. Las fibras dañadas acumulan canales de sodio anómalos y empiezan a generar **descargas espontáneas**, sin que nada las provoque: es la descarga eléctrica que la persona siente «de la nada». Si se pierde la vaina de mielina que aísla las fibras, las señales pueden «saltar» de unas fibras a otras.",
+     "El sistema nervioso central también se adapta. Ante el bombardeo de señales anómalas, las neuronas de la médula espinal se vuelven más excitables, responden con más intensidad y amplían su campo de recepción, y los mecanismos que normalmente frenan el dolor pierden fuerza. Este fenómeno, la **sensibilización central**, explica que el roce de la ropa duela (alodinia), que un pinchazo leve se viva como intenso (hiperalgesia) y que el dolor persista aunque la causa inicial haya mejorado (Woolf, Pain, 2011).",
+     "Por eso el dolor neuropático tiene dos caras: síntomas «en positivo», como la quemazón, las descargas o el hormigueo, y síntomas «en negativo», como el acorchamiento o la pérdida de sensibilidad, que reflejan las fibras que ya no transmiten."
+    ]
+   },
+   {
+    "h2": "¿Por qué aparece? Las causas más frecuentes",
+    "paras": [
+     "El dolor neuropático no es una enfermedad, sino la consecuencia común de enfermedades muy distintas. En la consulta de dolor musculoesquelético, la causa más frecuente es la **compresión de una raíz nerviosa** en la columna, como ocurre en la [ciática](ciatica) o en la radiculopatía cervical, y los **atrapamientos** de nervios periféricos, como el [túnel carpiano](tunel-carpiano). La revisión de van Hecke recoge además tasas de aparición de la neuralgia postherpética de 3,9 a 42 casos por 100.000 personas y año, y de la neuropatía diabética dolorosa de 15,3 a 72,3 (van Hecke et al., 2014)."
+    ],
+    "list_title": "Causas habituales de dolor neuropático:",
+    "list": [
+     "Compresión de raíces nerviosas por hernia discal o estenosis del canal: ciática y radiculopatía cervical",
+     "Atrapamientos de nervios periféricos: túnel carpiano, nervio cubital, meralgia parestésica, neuroma de Morton",
+     "Neuropatía diabética",
+     "Neuralgia postherpética, tras un herpes zóster",
+     "[Neuralgia del trigémino](neuralgia-trigemino) y otras neuralgias de la cara",
+     "Lesión de nervios durante una cirugía: [dolor postquirúrgico](dolor-postquirurgico)",
+     "Neuropatía por quimioterapia",
+     "Déficit de vitamina B12, consumo excesivo de alcohol y algunos fármacos",
+     "Causas centrales: ictus, esclerosis múltiple o lesión medular"
+    ]
+   },
+   {
+    "h2": "¿Quién tiene más riesgo?",
+    "paras": [
+     "El riesgo aumenta con la edad y con las enfermedades que dañan los nervios. Algunos factores se pueden modificar: el buen control de la glucosa, el abandono del tabaco y del exceso de alcohol o la actividad física protegen la salud de los nervios."
+    ],
+    "list_title": "Factores asociados a un mayor riesgo:",
+    "list": [
+     "Diabetes, sobre todo si el control de la glucosa es irregular",
+     "Edad a partir de los 50 años",
+     "Hernias discales y estenosis de canal",
+     "Herpes zóster, especialmente en personas mayores",
+     "Tratamientos de quimioterapia",
+     "Cirugías con riesgo de lesión nerviosa, como la de mama, tórax o hernia inguinal",
+     "Consumo excesivo de alcohol y déficit de vitamina B12",
+     "Trabajos manuales con gestos repetidos o vibraciones"
+    ]
+   },
+   {
+    "h2": "¿Cuáles son los síntomas?",
+    "paras": [
+     "El dolor neuropático se reconoce sobre todo por **cómo se describe**. Las palabras que usan las personas, como quemazón, descarga, calambre, pinchazos, hormigueo o acorchamiento, son tan características que forman parte de los cuestionarios diagnósticos. El dolor se localiza en el **territorio del nervio** afectado: una franja de la pierna en la ciática, los dedos pulgar, índice y medio en el túnel carpiano, una banda en el costado tras un herpes o los pies y las manos «en calcetín y guante» en la neuropatía diabética.",
+     "Es frecuente que empeore por la noche, en reposo o con el frío, que altere el sueño y que se acompañe de cansancio, irritabilidad y ánimo bajo."
+    ],
+    "list_title": "Síntomas característicos:",
+    "list": [
+     "Quemazón o sensación de calor intenso",
+     "Descargas eléctricas o calambres que recorren un trayecto",
+     "Pinchazos, como agujas",
+     "Hormigueo, acorchamiento o sensación de «piel dormida»",
+     "Dolor al roce de la ropa o de las sábanas (alodinia)",
+     "Dolor desproporcionado ante un estímulo leve (hiperalgesia)",
+     "Pérdida de sensibilidad o de fuerza en la zona",
+     "Empeoramiento nocturno"
+    ]
+   },
+   {
+    "h2": "¿Por qué este dolor deja de ser una alarma útil?",
+    "paras": [
+     "El dolor habitual es una **alarma protectora**: avisa de una lesión para que la cuidemos. Las neuronas del dolor participan incluso en la defensa de los órganos internos; en un estudio en **ratones** publicado en Cell, los nociceptores del intestino estimulaban la producción del moco que protege su pared, y sin ellos la barrera intestinal se debilitaba (Yang et al., Cell, 2022). Es un trabajo en animales, pero recuerda que el dolor forma parte de los sistemas de protección del organismo.",
+     "El dolor neuropático es distinto: la alarma se ha **averiado**. El nervio dispara señales de peligro sin que exista una amenaza real en el tejido, o las amplifica. Por eso los analgésicos comunes, que actúan sobre la inflamación de los tejidos, suelen servir de poco, y el médico recurre a fármacos específicos que actúan sobre la excitabilidad del sistema nervioso. Su elección y su dosis corresponden siempre al médico.",
+     "Además del alivio, conviene **buscar la causa** y los factores que mantienen el nervio irritado: una raíz comprimida por una postura o por una pérdida de movilidad de la columna, un nervio que no se desliza bien entre los músculos o la fascia, una glucosa mal controlada o un sueño insuficiente que mantiene alta la sensibilización."
+    ]
+   },
+   {
+    "h2": "¿Por qué el tacto y el movimiento pueden aliviar el dolor?",
+    "paras": [
+     "En 1965, Ronald Melzack y Patrick Wall propusieron la **teoría de la compuerta del dolor**: en el asta dorsal de la médula espinal existe un mecanismo que regula cuánta información dolorosa llega al cerebro, según el equilibrio entre las fibras finas, que transmiten el dolor, y las gruesas, que transmiten el tacto, la presión, la vibración y el movimiento. Cuando se activan las fibras gruesas, la compuerta se cierra parcialmente; el cerebro puede además abrirla o cerrarla desde arriba (Melzack y Wall, Science, 1965). Es la razón por la que frotarse un golpe alivia.",
+     "La teoría ayuda a entender por qué el contacto manual, la presión mantenida y la movilización suave pueden modular el dolor. En el dolor neuropático, sin embargo, hay un matiz: cuando existe **alodinia**, el propio tacto puede doler, porque las señales de las fibras gruesas se han «cruzado» con las del dolor en la médula sensibilizada. En esos casos el contacto se introduce de forma muy gradual, primero lejos de la zona más sensible, para que el sistema nervioso vuelva a interpretar el tacto como algo seguro."
+    ]
+   },
+   {
+    "h2": "¿Cómo actúan la osteopatía y la terapia manual sobre el sistema nervioso?",
+    "paras": [
+     "Cuando el dolor se mantiene, el cerebro también cambia. Una revisión de estudios con espectroscopia por resonancia magnética, una técnica que mide sustancias químicas del cerebro llamadas **neurometabolitos**, encontró que en el dolor lumbar crónico, que a menudo tiene un componente radicular, se reducen marcadores de salud neuronal como el N-acetil-aspartato en regiones de la llamada **«matriz del dolor»**, como la corteza prefrontal, la ínsula y la corteza cingulada (Zhao et al., NeuroImage: Clinical, 2017).",
+     "El modelo de Bialosky propone que el estímulo de la terapia manual actúa en tres niveles: en el tejido, en la médula espinal y en el cerebro, donde activa sistemas que inhiben el dolor (Bialosky et al., Manual Therapy, 2009); su actualización añade que el efecto depende también del contexto y de la relación entre paciente y terapeuta, y que los efectos medidos son moderados (Bialosky et al., JOSPT, 2018). En un ensayo con 25 personas con lumbalgia crónica, la manipulación lumbopélvica redujo el dolor y la discapacidad a las 5 semanas y se acompañó de un aumento de N-acetil-aspartato en el tálamo, la ínsula y la corteza prefrontal, cambios que no aparecieron con la manipulación simulada (Didehdar et al., Irish Journal of Medical Science, 2020). Es un estudio pequeño, pero apunta a que el trabajo manual actúa sobre el sistema nervioso central y no solo sobre el lugar donde se aplica.",
+     "El osteópata trabaja con las manos sobre todo el cuerpo, no solo sobre la columna. En el dolor neuropático, eso permite valorar el recorrido completo del nervio, desde la columna hasta la mano o el pie, y las estructuras que lo rodean."
+    ]
+   },
+   {
+    "h2": "¿Le duele más con el frío o cuando cambia el tiempo?",
+    "paras": [
+     "Muchas personas con dolor de origen nervioso notan que el dolor aumenta con el frío, la humedad o antes de una tormenta. Hay explicaciones plausibles: el frío reduce el riego sanguíneo de las manos y los pies, donde los nervios ya están sensibles, tensa la musculatura y hace que se mueva menos; los descensos de presión atmosférica podrían modificar ligeramente el volumen de los tejidos que rodean nervios irritados o cicatrices; y los días grises influyen en el ánimo, que a su vez modula el dolor.",
+     "El estudio más amplio, con 2.658 personas con dolor crónico que registraron su dolor a diario durante 15 meses en una aplicación del móvil, encontró una relación **real pero modesta** entre el dolor y la humedad, la presión atmosférica y el viento (Dixon et al., npj Digital Medicine, 2019). En invierno ayuda abrigar bien las manos, los pies y el cuello, mantener los pies calientes si hay neuropatía, aplicar calor suave en las zonas tensas, con precaución si la sensibilidad está alterada, y no dejar de moverse."
+    ]
+   },
+   {
+    "h2": "¿Cómo se entiende el dolor neuropático desde la osteopatía?",
+    "paras": [
+     "Un nervio no es un cable rígido: necesita **deslizarse** entre los músculos, la fascia y las articulaciones a cada movimiento. El nervio mediano, por ejemplo, se desplaza varios milímetros al estirar el brazo, y el ciático acompaña cada flexión de la cadera. Si en algún punto del recorrido pierde esa capacidad, por una cicatriz, una tensión mantenida, una inflamación o una pérdida de movilidad de la columna, puede irritarse con gestos cotidianos.",
+     "Jean-Pierre Barral, después de desarrollar la manipulación visceral, dedicó parte de su trabajo a los **nervios periféricos y craneales** y a las meninges, las membranas que envuelven el cerebro y la médula. En su modelo, la palpación busca las zonas donde el nervio ha perdido movilidad y examina a la vez cómo esa fijación local afecta al resto del cuerpo, porque el lugar del dolor es solo un dato dentro de una historia más amplia.",
+     "En la evidencia científica, la **movilización neural**, que mueve el nervio y las estructuras que lo rodean de forma controlada, se ha estudiado en 40 ensayos: mejoró el dolor y la discapacidad en la lumbalgia crónica y el dolor en el dolor cervicobraquial crónico, mientras que en otras afecciones el efecto sigue siendo incierto (Basson et al., JOSPT, 2017)."
+    ]
+   },
+   {
+    "h2": "¿Cuándo debo consultar con mi médico?",
+    "paras": [
+     "El diagnóstico de la causa del dolor neuropático corresponde al médico, que puede solicitar análisis, pruebas de imagen o un electromiograma. Consulte sin demora, o acuda a urgencias, si presenta:"
+    ],
+    "list": [
+     "Pérdida de fuerza en una pierna, un brazo o la mano, o dificultad para levantar el pie al caminar",
+     "Pérdida de control de la orina o de las heces, o acorchamiento en la zona genital o entre las piernas",
+     "Síntomas que avanzan rápidamente en días o semanas",
+     "Dolor en banda acompañado de lesiones en la piel en forma de vesículas (posible herpes zóster)",
+     "Alteraciones de la visión, del habla, del equilibrio o debilidad en la cara",
+     "Heridas o úlceras en los pies que no nota, si tiene diabetes",
+     "Fiebre, pérdida de peso sin causa o antecedentes de cáncer"
+    ]
+   },
+   {
+    "h2": "¿Cómo se diagnostica? La anamnesis",
+    "paras": [
+     "El primer paso es reconocer que el dolor tiene características neuropáticas, y para ello la historia clínica es fundamental. El cuestionario **DN4** combina siete preguntas sobre cómo es el dolor (quemazón, sensación de frío doloroso, descargas, hormigueo, pinchazos, entumecimiento y picor) con tres signos de la exploración (Bouhassira et al., Pain, 2005). La versión española se validó en 164 pacientes y una puntuación de **4 o más** distingue bien el dolor neuropático del que no lo es (Pérez et al., Health and Quality of Life Outcomes, 2007).",
+     "La anamnesis recoge también la distribución del dolor, que debe corresponder al territorio de un nervio, una raíz o una vía nerviosa; cómo empezó y su relación con una lesión, una cirugía, un herpes o una enfermedad; las enfermedades previas, como la diabetes; los fármacos; y su repercusión en el sueño, el ánimo y la vida diaria."
+    ]
+   },
+   {
+    "h2": "¿Qué se explora? Exploración neurológica y palpación",
+    "paras": [
+     "La exploración neurológica valora la **sensibilidad** al tacto, al pinchazo, a la vibración y a la temperatura en el territorio afectado, la **fuerza** muscular y los **reflejos**. Las pruebas de tensión neural, que ponen el nervio en tensión de forma progresiva, ayudan a localizar el tramo irritado. Si los hallazgos lo aconsejan, el médico puede pedir una resonancia o un estudio neurofisiológico.",
+     "La palpación osteopática sigue el **recorrido del nervio**: la columna de donde nace, los pasos estrechos entre músculos y huesos, la fascia y las cicatrices cercanas. Con la escucha manual de Barral se buscan diferencias de tensión y de movilidad en los tejidos y se identifica qué estructura parece mantener la irritación. En las zonas con alodinia, la exploración es especialmente cuidadosa."
+    ]
+   },
+   {
+    "h2": "¿Cómo se trata?",
+    "paras": [
+     "El tratamiento combina tres objetivos: **tratar la causa** cuando es posible, **aliviar el dolor** y **recuperar la función**. Tratar la causa puede significar controlar la glucosa en la diabetes, aliviar la compresión de una raíz o de un nervio atrapado o corregir un déficit de vitamina B12. Para aliviar el dolor, el médico dispone de fármacos específicos para el dolor neuropático, distintos de los analgésicos habituales; en los casos difíciles, las unidades del dolor tienen técnicas intervencionistas.",
+     "Junto a ello, las medidas físicas tienen un papel importante. El ejercicio adaptado mejora la circulación de los nervios y reduce la sensibilización; la movilización neural ha mostrado beneficios en el dolor lumbar y cervicobraquial (Basson et al., 2017); y la educación sobre el dolor ayuda a perder el miedo al movimiento. El trabajo manual puede facilitar la movilidad de la columna y de los tejidos que rodean el nervio y modular el dolor, siempre con suavidad y respetando la sensibilidad de la zona.",
+     "La técnica concreta se decide después de la valoración, según el nervio afectado, la fase del dolor y la persona. En el dolor neuropático, la paciencia es parte del tratamiento: los nervios se recuperan despacio, a menudo a lo largo de meses."
+    ]
+   },
+   {
+    "h2": "¿Qué puedo hacer para prevenirlo? Ejercicio y hábitos",
+    "paras": [
+     "El ejercicio protege los nervios. En un estudio con personas con neuropatía diabética, un programa supervisado de 10 semanas de ejercicio aeróbico y de fuerza redujo el dolor y los síntomas neuropáticos y aumentó la ramificación de las fibras nerviosas de la piel (Kluding et al., Journal of Diabetes and its Complications, 2012). Fue un estudio piloto, sin grupo control, pero va en la misma dirección que el resto de la evidencia: el movimiento mejora el riego de los nervios, el control de la glucosa y la sensibilidad del sistema nervioso.",
+     "En el dolor de origen vertebral, mantener la columna móvil y la musculatura del tronco fuerte reduce la presión sobre las raíces, y en los atrapamientos, evitar posturas mantenidas que comprimen el nervio, como dormir con la muñeca flexionada o apoyar el codo mucho tiempo, previene recaídas."
+    ],
+    "list_title": "Hábitos que protegen los nervios:",
+    "list": [
+     "Caminar a diario y hacer ejercicio de fuerza dos o tres veces por semana",
+     "Mantener un buen control de la glucosa si tiene diabetes",
+     "No fumar y moderar el alcohol",
+     "Revisar con su médico la vitamina B12 si toma metformina o protectores gástricos durante años",
+     "Consultar con su médico sobre la vacunación frente al herpes zóster a partir de la edad recomendada",
+     "Evitar posturas mantenidas que compriman un nervio",
+     "Cuidar el sueño, que reduce la sensibilización"
+    ]
+   },
+   {
+    "h2": "¿Qué puedo hacer en el día a día?",
+    "paras": [],
+    "list": [
+     "Lleve un registro de cuándo y cómo aparece el dolor: ayuda al diagnóstico y a ajustar el tratamiento.",
+     "Si tiene neuropatía en los pies, revíselos cada día y use calzado cómodo y cerrado.",
+     "Compruebe la temperatura del agua con el codo o un termómetro si ha perdido sensibilidad.",
+     "Use ropa suave y holgada sobre las zonas con alodinia.",
+     "Cambie de postura con frecuencia y haga pausas activas cada 30–45 minutos.",
+     "Abrigue manos y pies en invierno.",
+     "Practique movimientos suaves de la columna y de las extremidades varias veces al día.",
+     "No abandone el tratamiento indicado por su médico sin consultarlo."
+    ]
+   }
+  ],
+  "evidence": {
+   "h2": "Qué dice la evidencia",
+   "items": [
+    [
+     "Definición (Pain)",
+     "El dolor neuropático es el causado por una lesión o enfermedad del sistema nervioso somatosensorial (Jensen et al., 2011)."
+    ],
+    [
+     "Prevalencia (Pain)",
+     "La mejor estimación de la prevalencia del dolor con características neuropáticas en la población general está entre el 6,9 % y el 10 % (van Hecke et al., 2014)."
+    ],
+    [
+     "Encuesta poblacional (Pain)",
+     "En 23.712 personas, el 6,9 % tenía dolor crónico con características neuropáticas, más intenso y duradero que el resto (Bouhassira et al., 2008)."
+    ],
+    [
+     "Diagnóstico (Health Qual Life Outcomes)",
+     "La versión española del cuestionario DN4, con un punto de corte de 4, distingue el dolor neuropático en 164 pacientes (Pérez et al., 2007)."
+    ],
+    [
+     "Sensibilización (Pain)",
+     "La sensibilización central amplifica las señales dentro del sistema nervioso y explica la alodinia y la hiperalgesia (Woolf, 2011)."
+    ],
+    [
+     "Movilización neural (JOSPT)",
+     "En 40 ensayos, la movilización neural mejoró el dolor y la discapacidad en la lumbalgia crónica y el dolor en el dolor cervicobraquial crónico (Basson et al., 2017)."
+    ],
+    [
+     "Sistema nervioso central (Ir J Med Sci)",
+     "En 25 personas con lumbalgia crónica, la manipulación redujo dolor y discapacidad y aumentó el N-acetil-aspartato en tálamo, ínsula y corteza prefrontal (Didehdar et al., 2020)."
+    ],
+    [
+     "Ejercicio (J Diabetes Complications)",
+     "Diez semanas de ejercicio aeróbico y de fuerza redujeron el dolor y los síntomas en personas con neuropatía diabética (Kluding et al., 2012)."
+    ],
+    [
+     "Tiempo y dolor (npj Digit Med)",
+     "En 2.658 personas con dolor crónico, la humedad, la presión y el viento se relacionaron de forma modesta con el dolor (Dixon et al., 2019)."
+    ]
+   ],
+   "refs": [
+    {
+     "t": "Jensen TS, Baron R, Haanpää M, Kalso E, Loeser JD, Rice ASC, Treede RD, 2011. «A new definition of neuropathic pain». Pain.",
+     "doi": "10.1016/j.pain.2011.06.017"
+    },
+    {
+     "t": "van Hecke O, Austin SK, Khan RA, Smith BH, Torrance N, 2014. «Neuropathic pain in the general population: a systematic review of epidemiological studies». Pain.",
+     "doi": "10.1016/j.pain.2013.11.013"
+    },
+    {
+     "t": "Bouhassira D, Lantéri-Minet M, Attal N, Laurent B, Touboul C, 2008. «Prevalence of chronic pain with neuropathic characteristics in the general population». Pain.",
+     "doi": "10.1016/j.pain.2007.08.013"
+    },
+    {
+     "t": "Toth C, Lander J, Wiebe S, 2009. «The prevalence and impact of chronic pain with neuropathic pain symptoms in the general population». Pain Medicine.",
+     "doi": "10.1111/j.1526-4637.2009.00655.x"
+    },
+    {
+     "t": "Woolf CJ, 2011. «Central sensitization: implications for the diagnosis and treatment of pain». Pain.",
+     "doi": "10.1016/j.pain.2010.09.030"
+    },
+    {
+     "t": "Yang D, Jacobson A, Meerschaert KA, et al., 2022. «Nociceptor neurons direct goblet cells via a CGRP-RAMP1 axis to drive mucus production and gut barrier protection». Cell.",
+     "doi": "10.1016/j.cell.2022.09.024"
+    },
+    {
+     "t": "Melzack R, Wall PD, 1965. «Pain mechanisms: a new theory». Science.",
+     "doi": "10.1126/science.150.3699.971"
+    },
+    {
+     "t": "Zhao X, Xu M, Jorgenson K, Kong J, 2017. «Neurochemical changes in patients with chronic low back pain detected by proton magnetic resonance spectroscopy: a systematic review». NeuroImage: Clinical.",
+     "doi": "10.1016/j.nicl.2016.11.006"
+    },
+    {
+     "t": "Bialosky JE, Bishop MD, Price DD, Robinson ME, George SZ, 2009. «The mechanisms of manual therapy in the treatment of musculoskeletal pain: a comprehensive model». Manual Therapy.",
+     "doi": "10.1016/j.math.2008.09.001"
+    },
+    {
+     "t": "Bialosky JE, Beneciuk JM, Bishop MD, et al., 2018. «Unraveling the mechanisms of manual therapy: modeling an approach». Journal of Orthopaedic & Sports Physical Therapy.",
+     "doi": "10.2519/jospt.2018.7476"
+    },
+    {
+     "t": "Didehdar D, Kamali F, Yoosefinejad AK, Lotfi M, 2020. «The effect of spinal manipulation on brain neurometabolites in chronic nonspecific low back pain patients: a randomized clinical trial». Irish Journal of Medical Science.",
+     "doi": "10.1007/s11845-019-02140-2"
+    },
+    {
+     "t": "Dixon WG, Beukenhorst AL, Yimer BB, et al., 2019. «How the weather affects the pain of citizen scientists using a smartphone app». npj Digital Medicine.",
+     "doi": "10.1038/s41746-019-0180-3"
+    },
+    {
+     "t": "Basson A, Olivier B, Ellis R, Coppieters M, Stewart A, Mudzi W, 2017. «The effectiveness of neural mobilization for neuromusculoskeletal conditions: a systematic review and meta-analysis». Journal of Orthopaedic & Sports Physical Therapy.",
+     "doi": "10.2519/jospt.2017.7117"
+    },
+    {
+     "t": "Bouhassira D, Attal N, Alchaar H, et al., 2005. «Comparison of pain syndromes associated with nervous or somatic lesions and development of a new neuropathic pain diagnostic questionnaire (DN4)». Pain.",
+     "doi": "10.1016/j.pain.2004.12.010"
+    },
+    {
+     "t": "Pérez C, Gálvez R, Huelbes S, et al., 2007. «Validity and reliability of the Spanish version of the DN4 (Douleur Neuropathique 4 questions) questionnaire for differential diagnosis of pain syndromes associated to a neuropathic or somatic component». Health and Quality of Life Outcomes.",
+     "doi": "10.1186/1477-7525-5-66"
+    },
+    {
+     "t": "Kluding PM, Pasnoor M, Singh R, et al., 2012. «The effect of exercise on neuropathic symptoms, nerve function, and cutaneous innervation in people with diabetic peripheral neuropathy». Journal of Diabetes and its Complications.",
+     "doi": "10.1016/j.jdiacomp.2012.05.007"
+    }
+   ]
+  },
+  "faq": [
+   [
+    "¿En qué se diferencia el dolor neuropático de otros dolores?",
+    "El dolor habitual avisa de una lesión en un tejido, como un músculo o una articulación. El neuropático nace de una lesión del propio nervio y se reconoce por cómo se siente: quemazón, descargas, pinchazos, hormigueo o dolor al roce, en el territorio de un nervio."
+   ],
+   [
+    "¿Por qué no me hacen efecto los analgésicos?",
+    "Los analgésicos y antiinflamatorios comunes actúan sobre el dolor de los tejidos, pero tienen poco efecto sobre la excitabilidad de un nervio lesionado. Para el dolor neuropático el médico dispone de fármacos específicos; consulte con él antes de cambiar cualquier medicación."
+   ],
+   [
+    "¿La ciática es un dolor neuropático?",
+    "Muchas veces es un dolor mixto: tiene un componente neuropático, por la irritación o compresión de la raíz nerviosa, y otro de los tejidos de la columna. Puede leer más en nuestra página de [ciática y hernia discal](ciatica)."
+   ],
+   [
+    "¿Se recupera un nervio dañado?",
+    "Los nervios periféricos tienen capacidad de regenerarse, aunque lo hacen despacio, a menudo durante meses. La recuperación depende de la causa, de la intensidad de la lesión y de que se eliminen los factores que lo mantienen irritado."
+   ],
+   [
+    "¿Es seguro el trabajo manual si tengo un nervio irritado?",
+    "Sí, si se adapta: se utilizan técnicas suaves, se respeta la sensibilidad de la zona y se progresa según la respuesta. Antes se descartan, con su médico, las situaciones que requieren otro tipo de atención, como una pérdida de fuerza progresiva."
+   ],
+   [
+    "¿El ejercicio puede empeorar el dolor neuropático?",
+    "Bien dosificado, al contrario: mejora el riego de los nervios y reduce la sensibilización. Al principio se eligen movimientos que no disparen el dolor y se aumenta poco a poco."
+   ],
+   [
+    "¿Por qué me duele más por la noche?",
+    "En reposo hay menos estímulos que distraigan al sistema nervioso y la compuerta del dolor queda más abierta; además, algunas posturas comprimen el nervio. Cuidar la postura al dormir y moverse durante el día suele ayudar."
+   ],
+   [
+    "¿Qué debo traer a la primera visita?",
+    "Los informes médicos, las pruebas de imagen o el electromiograma si los tiene, y la lista de fármacos que toma. Ayudan a conocer bien la causa y la evolución de su dolor."
+   ]
+  ],
+  "related": [
+   "ciatica",
+   "neuralgia-trigemino",
+   "tunel-carpiano",
+   "dolor-persistente-cronico"
+  ],
+  "cta_h2": "Pida su primera visita y valoremos el origen de su dolor",
+  "seo": {
+   "kw": "dolor neuropático Barcelona",
+   "kws": [
+    "ciática tratamiento Barcelona",
+    "neuralgia",
+    "dolor postherpético",
+    "neuropatía diabética dolor",
+    "dolor nervioso"
+   ],
+   "ca_kw": "dolor neuropàtic Barcelona",
+   "quick": "El dolor neuropático es el que se debe a una lesión o enfermedad del sistema nervioso, como la compresión de una raíz en la ciática, la neuropatía diabética, la neuralgia postherpética o la del trigémino. Se percibe como quemazón, descargas, pinchazos u hormigueo y afecta a entre el 7 % y el 10 % de la población. En Sarrià–Sant Gervasi (Barcelona) se valora con una anamnesis detallada y una exploración neurológica y palpatoria osteopática.",
+   "entity": [
+    "MedicalCondition",
+    "Dolor neuropático"
+   ]
+  },
+  "research": [
+   "Personas con ciática, neuralgias, hormigueos o neuropatía que quieren entender su dolor nervioso y buscan un abordaje global en Barcelona.",
+   [
+    "dolor neuropático tratamiento Barcelona",
+    "ciática tratamiento Barcelona",
+    "neuralgia postherpética",
+    "quemazón en los pies neuropatía",
+    "dolor nervioso síntomas"
+   ],
+   [
+    "dolor neuropàtic tractament Barcelona",
+    "ciàtica tractament Barcelona"
+   ],
+   "Unidades del dolor hospitalarias, neurología y clínicas de fisioterapia; pocas explican el origen del dolor nervioso de forma global."
+  ],
+  "ca": {}
+ },
+ {
+  "slug": "neuralgia-trigemino",
+  "ca_slug": "neuralgia-trigemin",
+  "nav": "Neuralgia del trigémino",
+  "card": "Crisis de dolor facial breves e intensas, como descargas eléctricas: qué es la neuralgia del trigémino, por qué aparece y cómo se trata.",
+  "title": "Neuralgia del trigémino en Barcelona | WA LAM",
+  "desc": "Qué es la neuralgia del trigémino, el nervio y sus ramas, tipos, desencadenantes, cómo afecta a la vida diaria, cómo se diagnostica y cómo se trata, en Sarrià–Sant Gervasi, Barcelona.",
+  "h1": "Neuralgia del trigémino en Barcelona",
+  "sub": "Dolor facial en crisis · Sarrià–Sant Gervasi",
+  "lead": "La neuralgia del trigémino produce crisis de dolor facial breves e intensísimas, como descargas eléctricas, casi siempre en un solo lado de la cara. Se desencadenan con gestos tan cotidianos como hablar, comer, lavarse la cara o notar el viento. Es poco frecuente, exige un diagnóstico neurológico y tiene tratamiento.",
+  "facts_title": "En WA LAM",
+  "facts": [
+   "Neuralgia del trigémino y dolor facial",
+   "Valoración del cuello, la mandíbula y la cara",
+   "Coordinación con su neurólogo",
+   "Primera visita: 60 min · 90 €"
+  ],
+  "wa": "Hola, me gustaría información sobre el abordaje de la neuralgia del trigémino.",
+  "mirror": {
+   "h2": "¿Se reconoce en estos síntomas?",
+   "qs": [
+    "¿Siente en un lado de la cara descargas eléctricas que duran segundos y le dejan sin aliento?",
+    "¿Se las provoca rozarse la cara, hablar, masticar, cepillarse los dientes o el aire frío?",
+    "¿Evita tocarse una zona de la mejilla, el labio o la nariz por miedo a que empiece el dolor?",
+    "¿Tiene temporadas de crisis frecuentes que luego desaparecen semanas o meses?"
+   ],
+   "close": "Cualquier dolor facial nuevo debe valorarlo un médico; lea las señales de alarma de más abajo."
+  },
+  "explain": {
+   "h2": "¿Qué es la neuralgia del trigémino?",
+   "paras": [
+    "La neuralgia del trigémino es un dolor facial que se presenta en forma de **crisis recurrentes, breves e intensas**, como descargas eléctricas o puñaladas, de inicio y final bruscos, que duran desde una fracción de segundo hasta dos minutos y se limitan al territorio de una o varias ramas del nervio trigémino, casi siempre en **un solo lado** de la cara. Su rasgo más característico es que las crisis se **desencadenan con estímulos inocuos**, como un roce, hablar o masticar (Comité de Clasificación de la International Headache Society, Cephalalgia, 2018).",
+    "**Anatomía.** El trigémino es el **quinto par craneal** y el gran nervio sensitivo de la cara. Nace en el tronco del encéfalo, a la altura de la protuberancia, recorre la base del cráneo hasta un ganglio situado en la cara interna del hueso temporal, el **ganglio de Gasser**, y desde allí se divide en tres ramas. La **oftálmica (V1)** recoge la sensibilidad de la frente, el párpado superior y el ojo; la **maxilar (V2)**, la de la mejilla, el labio superior, la nariz y los dientes superiores; y la **mandibular (V3)**, la del labio inferior, el mentón, los dientes inferiores y parte de la lengua, además de dar movimiento a los músculos de la masticación. La neuralgia afecta con más frecuencia a las ramas maxilar y mandibular.",
+    "**Tipos.** La clasificación actual distingue tres formas (Cruccu et al., Neurology, 2016). La **clásica** se debe a una compresión de la raíz del nervio por un vaso sanguíneo que produce cambios en su forma, visibles en la resonancia. La **secundaria** se debe a otra enfermedad neurológica, como la esclerosis múltiple o un tumor. La **idiopática** es aquella en la que no se encuentra la causa. Cada forma puede presentarse con crisis puramente paroxísticas o acompañarse de un **dolor continuo** de fondo, más sordo o quemante, entre las crisis."
+   ]
+  },
+  "sections": [
+   {
+    "h2": "¿Es frecuente la neuralgia del trigémino?",
+    "paras": [
+     "Es una afección **poco frecuente**. La revisión de van Hecke sobre el dolor neuropático en la población general recoge una incidencia de entre 12,6 y 28,9 nuevos casos por cada 100.000 personas y año (van Hecke et al., Pain, 2014). Es más común en **mujeres** y a partir de la mediana edad: en un estudio danés con 135 pacientes con neuralgia clásica, el 61 % eran mujeres y la edad media de inicio fue de 53 años (Maarbjerg et al., Brain, 2015).",
+     "Que sea poco frecuente tiene una consecuencia práctica: muchas personas pasan por varias consultas, a menudo del dentista, antes de recibir el diagnóstico correcto. En una serie británica de 225 pacientes, más del 80 % había acudido ya a otro centro especializado sin recibir el tratamiento adecuado (Zakrzewska et al., Pain, 2017)."
+    ]
+   },
+   {
+    "h2": "¿Por qué aparece?",
+    "paras": [
+     "El mecanismo principal es la **pérdida de la mielina**, la vaina que aísla las fibras nerviosas, en la zona donde la raíz del trigémino entra en el tronco del encéfalo. Sin ese aislamiento, las fibras generan impulsos anómalos y las señales pueden «saltar» de las fibras del tacto a las del dolor: por eso un simple roce desencadena una descarga dolorosa (Maarbjerg et al., Cephalalgia, 2017).",
+     "En muchos casos la desmielinización se debe a un **contacto neurovascular**: una arteria que, con los años, presiona y deforma la raíz del nervio. En el estudio danés, un contacto entre un vaso y el nervio era frecuente en ambos lados de la cara, pero el contacto **grave**, el que desplaza o atrofia el nervio, aparecía en el 53 % de los lados con dolor frente al 13 % de los lados sanos, y lo producía una arteria en el 98 % de los casos (Maarbjerg et al., Brain, 2015). Solo la mitad de los pacientes con neuralgia clásica tiene estos cambios, lo que indica que intervienen otros factores todavía desconocidos.",
+     "En la forma secundaria, la causa es otra enfermedad: la **esclerosis múltiple**, que también produce desmielinización, o lesiones que ocupan espacio en la base del cráneo. Por eso, aunque los síntomas sean típicos, siempre es necesaria una resonancia."
+    ]
+   },
+   {
+    "h2": "¿Quién tiene más riesgo?",
+    "paras": [
+     "La neuralgia del trigémino puede aparecer a cualquier edad, pero los factores siguientes la hacen más probable o aconsejan descartar una causa secundaria."
+    ],
+    "list_title": "Factores asociados:",
+    "list": [
+     "Ser mujer",
+     "Tener más de 50 años",
+     "Padecer esclerosis múltiple, sobre todo si el dolor aparece en personas jóvenes o en ambos lados",
+     "Presentar un contacto grave entre una arteria y la raíz del nervio",
+     "Antecedentes familiares, en casos poco frecuentes"
+    ]
+   },
+   {
+    "h2": "¿Cuáles son los síntomas?",
+    "paras": [
+     "El síntoma central es la **crisis de dolor**: una descarga eléctrica, punzante o lancinante, muy intensa, que dura segundos y puede repetirse muchas veces al día. Entre una crisis y otra suele haber un breve **periodo refractario** en el que el dolor no se puede volver a provocar. Muchas personas tienen **temporadas** de crisis frecuentes, que alternan con periodos de remisión de semanas, meses o incluso años.",
+     "Las crisis se desencadenan desde **zonas gatillo** de la piel o de la boca. En un estudio con 140 pacientes, 136 tenían crisis provocadas por algún estímulo; los más frecuentes fueron tocarse suavemente la cara (79 %) y hablar (54 %), y las zonas gatillo se situaban sobre todo alrededor de la boca y de la nariz (Di Stefano et al., Cephalalgia, 2018). Es característico que la persona proteja esa zona, deje de afeitarse o maquillarse en ese lado o mastique por el otro."
+    ],
+    "list_title": "Síntomas típicos:",
+    "list": [
+     "Descargas de dolor de segundos de duración en un lado de la cara",
+     "Crisis provocadas por el roce, hablar, comer, beber, lavarse la cara o los dientes",
+     "Zonas gatillo alrededor de la boca, la nariz o la mejilla",
+     "Periodos de remisión entre temporadas de crisis",
+     "En algunas personas, un dolor continuo de fondo entre las crisis",
+     "Miedo a comer o hablar, pérdida de peso y alteración del sueño"
+    ]
+   },
+   {
+    "h2": "¿Por qué el viento frío o un roce pueden provocar una crisis?",
+    "paras": [
+     "La piel de la cara es una de las zonas con más terminaciones nerviosas del cuerpo, y casi todas dependen del trigémino. En un nervio desmielinizado, un estímulo mínimo en una zona gatillo, como una corriente de aire, el agua fría al lavarse o el contacto de la almohada, basta para disparar una descarga que el sistema nervioso amplifica. Muchas personas cuentan que los días de **viento frío** o la salida de un local con aire acondicionado desencadenan sus crisis.",
+     "El cambio de tiempo influye en muchos dolores crónicos: en un estudio con 2.658 personas con dolor crónico, la humedad, la presión atmosférica y el viento se relacionaron con el dolor de forma modesta (Dixon et al., npj Digital Medicine, 2019). En la neuralgia del trigémino, el mecanismo más directo es el estímulo del aire sobre la piel. Protegerse la cara con una bufanda o un pañuelo en los días fríos y ventosos, usar agua templada y evitar las corrientes de aire son medidas sencillas que reducen las crisis."
+    ]
+   },
+   {
+    "h2": "¿En qué se diferencia de otros dolores de la cara?",
+    "paras": [
+     "No todo dolor facial es una neuralgia. El **dolor dental** suele ser continuo, empeora con el frío o el calor en un diente concreto y se localiza con la exploración del dentista. El **dolor de la articulación temporomandibular** y de los músculos de la masticación es sordo, aumenta al masticar o apretar los dientes y se acompaña de chasquidos o limitación al abrir la boca; puede leer más en [bruxismo y dolor mandibular](bruxismo-dolor-mandibular-atm).",
+     "La **cefalea en racimos** produce un dolor muy intenso alrededor del ojo, pero dura entre 15 minutos y 3 horas y se acompaña de lagrimeo y congestión nasal en el mismo lado. La **migraña** dura horas y se acompaña de náuseas y sensibilidad a la luz. La **neuralgia postherpética** aparece tras un herpes zóster en la cara y produce un dolor quemante continuo. Y el **dolor facial idiopático persistente** es un dolor sordo diario, mal localizado, sin crisis. Distinguirlos es tarea del médico, porque el tratamiento de cada uno es diferente."
+    ]
+   },
+   {
+    "h2": "¿Cómo afecta a la vida diaria?",
+    "paras": [
+     "Pocas experiencias dolorosas son tan intensas como una crisis de neuralgia del trigémino, y su carácter imprevisible condiciona toda la vida. En la serie británica de 225 pacientes, hasta el **45 %** había faltado a sus actividades habituales 15 días o más en los seis meses anteriores; el **35,7 %** presentaba síntomas de depresión y más de la mitad, de ansiedad; y el 78 % tenía pensamientos catastrofistas importantes sobre el dolor (Zakrzewska et al., Pain, 2017).",
+     "En una encuesta realizada en seis países europeos, la intensidad del dolor se asoció a una peor salud percibida y a más interferencia con las actividades diarias, a pesar de que el 94 % de los pacientes tomaba medicación (Tölle et al., Pain Practice, 2006). Comer, hablar por teléfono, besar, salir a la calle con viento o dormir sobre el lado afectado pueden convertirse en fuente de miedo. Reconocer este impacto emocional forma parte del tratamiento: la ansiedad y el mal sueño aumentan la sensibilidad del sistema nervioso."
+    ]
+   },
+   {
+    "h2": "¿Qué relación hay entre la cara, la mandíbula y el cuello?",
+    "paras": [
+     "El trigémino no trabaja aislado. Sus fibras del dolor terminan en un núcleo del tronco del encéfalo que desciende hasta los primeros segmentos de la médula cervical, donde **convergen con las fibras de los nervios del cuello**. Este **complejo trigémino-cervical** explica por qué un dolor del cuello puede notarse en la cabeza o en la cara, y viceversa. En un estudio en **ratas**, la estimulación de las fibras del trigémino de las meninges hizo que las neuronas de la médula cervical respondieran con más intensidad a los estímulos de los músculos y nervios del cuello (Bartsch y Goadsby, Brain, 2003).",
+     "La neuralgia del trigémino no se origina en el cuello ni en la mandíbula, pero la tensión mantenida en la musculatura cervical y masticatoria, el bruxismo, la postura de cabeza adelantada o el estrés pueden aumentar la excitabilidad de ese sistema y empeorar el dolor de fondo. Además, muchas personas, por miedo a provocar una crisis, mastican solo por un lado y mantienen la cara y el cuello en tensión, lo que añade un dolor muscular a la neuralgia."
+    ]
+   },
+   {
+    "h2": "¿Cómo se entiende desde la osteopatía?",
+    "paras": [
+     "El diagnóstico y el tratamiento de la neuralgia del trigémino corresponden al neurólogo y, cuando es necesario, al neurocirujano. La osteopatía no actúa sobre la compresión de la raíz del nervio y no existen ensayos que respalden la terapia manual como tratamiento de la neuralgia. Lo que sí puede hacer es atender el **cuerpo que convive con ella**: la tensión del cuello, de la mandíbula y de los hombros, la respiración contenida, el sueño y el estrés que mantienen el sistema nervioso en alerta.",
+     "Jean-Pierre Barral desarrolló, además de la manipulación visceral, un trabajo manual específico sobre los **nervios craneales** y las meninges, siempre con fuerzas muy suaves. En su modelo, la valoración busca las zonas del cuello, la base del cráneo y la cara que han perdido movilidad, y la técnica se elige según el tejido identificado, evitando forzarlo. En la neuralgia, el trabajo se realiza **lejos de las zonas gatillo**, con contactos lentos y previsibles, y se detiene ante cualquier señal de crisis.",
+     "Este acompañamiento tiene sentido dentro de un plan coordinado con el neurólogo, nunca como motivo para retrasar el diagnóstico o modificar la medicación."
+    ]
+   },
+   {
+    "h2": "¿Cuándo debo consultar con mi médico?",
+    "paras": [
+     "Todo dolor facial nuevo, o que cambia de características, debe valorarlo un médico. La guía europea recomienda una **resonancia magnética** en todas las personas con neuralgia del trigémino, porque ningún rasgo clínico permite descartar una causa secundaria (Bendtsen et al., European Journal of Neurology, 2019). Consulte sin demora si presenta:"
+    ],
+    "list": [
+     "Acorchamiento o pérdida de sensibilidad en la cara",
+     "Debilidad de los músculos de la cara o de la masticación",
+     "Visión doble, pérdida de audición, vértigo o alteraciones del equilibrio",
+     "Dolor en ambos lados de la cara",
+     "Inicio antes de los 40 años, o antecedentes de esclerosis múltiple o de cáncer",
+     "Fiebre, inflamación en la cara o en la boca",
+     "Dolor continuo e intenso que no responde al tratamiento"
+    ]
+   },
+   {
+    "h2": "¿Cómo se diagnostica? La anamnesis",
+    "paras": [
+     "El diagnóstico se basa en la **descripción del dolor**: crisis breves, eléctricas, en el territorio del trigémino, desencadenadas por estímulos inocuos. La clasificación de Cruccu gradúa la certeza: el diagnóstico es posible cuando hay crisis en el territorio del nervio, clínicamente establecido cuando además se desencadenan con estímulos, y definitivo cuando las pruebas identifican la causa (Cruccu et al., 2016).",
+     "La anamnesis recoge cuándo empezó, cuánto duran las crisis, qué las provoca, si hay dolor entre ellas, cómo responde a la medicación, si hubo tratamientos dentales previos y cómo afecta al sueño, la alimentación y el ánimo. En la valoración osteopática se pregunta también por el cuello, la mandíbula, el bruxismo, la postura y el estrés."
+    ]
+   },
+   {
+    "h2": "¿Qué se explora? Exploración neurológica y palpación",
+    "paras": [
+     "El médico explora la **sensibilidad** de la cara en el territorio de las tres ramas, el reflejo corneal y la fuerza de los músculos de la masticación. En la neuralgia clásica e idiopática la exploración suele ser normal; una pérdida de sensibilidad orienta hacia una causa secundaria. La resonancia, con secuencias específicas, completa el estudio.",
+     "La exploración manual osteopática se centra en el **cuello**, la base del cráneo, la articulación temporomandibular y los músculos de la masticación, el tórax y la respiración. Se pregunta siempre antes de tocar y se evitan las zonas gatillo. La escucha manual permite localizar tensiones a distancia sin estimular la cara."
+    ]
+   },
+   {
+    "h2": "¿Cómo se trata?",
+    "paras": [
+     "La guía de la Academia Europea de Neurología recomienda como **primera elección** dos fármacos de la familia de los bloqueadores de los canales de sodio, que reducen la excitabilidad del nervio; otros fármacos pueden utilizarse solos o asociados. Cuando el dolor no se controla bien o la medicación no se tolera, se recomienda ofrecer **cirugía**: la descompresión microvascular, que separa la arteria del nervio, es la primera opción en la neuralgia clásica, y existen técnicas percutáneas o de radiocirugía para otros casos (Bendtsen et al., 2019). Todas estas decisiones corresponden al neurólogo y al neurocirujano.",
+     "Junto al tratamiento médico, el plan cuida lo que aumenta la excitabilidad del sistema nervioso: el **sueño**, el **estrés**, la tensión del cuello y de la mandíbula, la alimentación cuando comer se ha vuelto difícil y el miedo al movimiento de la cara. Aprender a reconocer y evitar los desencadenantes reduce las crisis."
+    ]
+   },
+   {
+    "h2": "¿Qué puedo hacer para prevenir las crisis? Ejercicio y hábitos",
+    "paras": [
+     "El ejercicio físico regular, como caminar, nadar en agua templada o pedalear, mejora el sueño, reduce el estrés y activa los sistemas internos de control del dolor. En la neuralgia conviene elegir actividades que no expongan la cara al frío ni a golpes y protegerse del viento al hacerlas al aire libre.",
+     "Para el cuello y la mandíbula ayudan los movimientos suaves de rotación e inclinación de la cabeza, la retracción del mentón para corregir la cabeza adelantada y la relajación de la mandíbula, con los labios juntos y los dientes separados. La respiración lenta y diafragmática reduce la tensión de los músculos del cuello y de la cara."
+    ],
+    "list_title": "Hábitos que ayudan:",
+    "list": [
+     "Protegerse la cara del viento y del frío con una bufanda o un pañuelo",
+     "Lavarse la cara y los dientes con agua templada",
+     "Elegir alimentos blandos y templados en las temporadas de crisis",
+     "Beber con pajita si el contacto con los labios desencadena el dolor",
+     "Mantener la higiene dental con un cepillo suave y acudir al dentista con regularidad",
+     "Cuidar los horarios de sueño",
+     "Mantener una actividad física regular"
+    ]
+   },
+   {
+    "h2": "¿Qué puedo hacer en el día a día?",
+    "paras": [],
+    "list": [
+     "Anote sus crisis, su duración y sus desencadenantes: le ayudará a usted y a su neurólogo.",
+     "Tome la medicación tal como se la han pautado y no la suspenda bruscamente sin consultar.",
+     "Evite las corrientes de aire, el aire acondicionado dirigido a la cara y el agua fría.",
+     "Si dormir sobre el lado afectado le provoca dolor, cambie de lado o use una almohada blanda.",
+     "Relaje la mandíbula durante el día: labios juntos, dientes separados.",
+     "Cuide la postura frente a las pantallas para no adelantar la cabeza.",
+     "Hable de la neuralgia con su entorno: comprender que un gesto puede provocar una crisis reduce la tensión.",
+     "Si nota tristeza persistente o ansiedad, pida ayuda: forman parte del impacto de la enfermedad."
+    ]
+   }
+  ],
+  "evidence": {
+   "h2": "Qué dice la evidencia",
+   "items": [
+    [
+     "Incidencia (Pain)",
+     "La neuralgia del trigémino tiene una incidencia de 12,6 a 28,9 casos por 100.000 personas y año (van Hecke et al., 2014)."
+    ],
+    [
+     "Contacto neurovascular (Brain)",
+     "En 135 pacientes, el contacto grave entre arteria y nervio apareció en el 53 % de los lados con dolor frente al 13 % de los lados sanos (Maarbjerg et al., 2015)."
+    ],
+    [
+     "Desencadenantes (Cephalalgia)",
+     "136 de 140 pacientes tenían crisis provocadas; tocarse la cara (79 %) y hablar (54 %) fueron los desencadenantes más frecuentes (Di Stefano et al., 2018)."
+    ],
+    [
+     "Clasificación (Neurology)",
+     "La neuralgia se clasifica en clásica, secundaria e idiopática, con grados de certeza diagnóstica (Cruccu et al., 2016)."
+    ],
+    [
+     "Impacto (Pain)",
+     "En 225 pacientes, hasta el 45 % había faltado 15 días o más a sus actividades en seis meses y el 35,7 % tenía síntomas depresivos (Zakrzewska et al., 2017)."
+    ],
+    [
+     "Calidad de vida (Pain Pract)",
+     "En seis países europeos, la intensidad del dolor se asoció a peor salud percibida e interferencia diaria pese a la medicación (Tölle et al., 2006)."
+    ],
+    [
+     "Guía europea (Eur J Neurol)",
+     "Se recomienda resonancia en todos los pacientes, fármacos bloqueadores de canales de sodio como primera elección y cirugía si el dolor no se controla (Bendtsen et al., 2019)."
+    ],
+    [
+     "Complejo trigémino-cervical (Brain)",
+     "En ratas, la estimulación del trigémino aumentó la respuesta de las neuronas cervicales a los estímulos del cuello (Bartsch y Goadsby, 2003)."
+    ]
+   ],
+   "refs": [
+    {
+     "t": "Headache Classification Committee of the International Headache Society, 2018. «The International Classification of Headache Disorders, 3rd edition». Cephalalgia.",
+     "doi": "10.1177/0333102417738202"
+    },
+    {
+     "t": "Cruccu G, Finnerup NB, Jensen TS, et al., 2016. «Trigeminal neuralgia: new classification and diagnostic grading for practice and research». Neurology.",
+     "doi": "10.1212/WNL.0000000000002840"
+    },
+    {
+     "t": "van Hecke O, Austin SK, Khan RA, Smith BH, Torrance N, 2014. «Neuropathic pain in the general population: a systematic review of epidemiological studies». Pain.",
+     "doi": "10.1016/j.pain.2013.11.013"
+    },
+    {
+     "t": "Maarbjerg S, Wolfram F, Gozalov A, Olesen J, Bendtsen L, 2015. «Significance of neurovascular contact in classical trigeminal neuralgia». Brain.",
+     "doi": "10.1093/brain/awu349"
+    },
+    {
+     "t": "Maarbjerg S, Di Stefano G, Bendtsen L, Cruccu G, 2017. «Trigeminal neuralgia – diagnosis and treatment». Cephalalgia.",
+     "doi": "10.1177/0333102416687280"
+    },
+    {
+     "t": "Di Stefano G, Maarbjerg S, Nurmikko T, Truini A, Cruccu G, 2018. «Triggering trigeminal neuralgia». Cephalalgia.",
+     "doi": "10.1177/0333102417721677"
+    },
+    {
+     "t": "Zakrzewska JM, Wu J, Mon-Williams M, Phillips N, Pavitt SH, 2017. «Evaluating the impact of trigeminal neuralgia». Pain.",
+     "doi": "10.1097/j.pain.0000000000000853"
+    },
+    {
+     "t": "Tölle T, Dukes E, Sadosky A, 2006. «Patient burden of trigeminal neuralgia: results from a cross-sectional survey of health state impairment and treatment patterns in six European countries». Pain Practice.",
+     "doi": "10.1111/j.1533-2500.2006.00079.x"
+    },
+    {
+     "t": "Bartsch T, Goadsby PJ, 2003. «Increased responses in trigeminocervical nociceptive neurons to cervical input after stimulation of the dura mater». Brain.",
+     "doi": "10.1093/brain/awg190"
+    },
+    {
+     "t": "Dixon WG, Beukenhorst AL, Yimer BB, et al., 2019. «How the weather affects the pain of citizen scientists using a smartphone app». npj Digital Medicine.",
+     "doi": "10.1038/s41746-019-0180-3"
+    },
+    {
+     "t": "Bendtsen L, Zakrzewska JM, Abbott J, et al., 2019. «European Academy of Neurology guideline on trigeminal neuralgia». European Journal of Neurology.",
+     "doi": "10.1111/ene.13950"
+    }
+   ]
+  },
+  "faq": [
+   [
+    "¿La neuralgia del trigémino es un problema dental?",
+    "No, es un dolor del nervio, aunque a menudo se confunde con un dolor de muelas porque afecta a la mandíbula y a los dientes. Por eso muchas personas reciben tratamientos dentales antes del diagnóstico. Si el dentista no encuentra una causa, conviene consultar con el neurólogo."
+   ],
+   [
+    "¿Es grave?",
+    "En la mayoría de los casos no pone en riesgo la vida, pero el dolor es muy intenso y limita mucho. Siempre debe hacerse una resonancia para descartar una causa secundaria, como la esclerosis múltiple o una lesión en la base del cráneo."
+   ],
+   [
+    "¿Se cura?",
+    "Muchas personas controlan bien las crisis con la medicación y algunas tienen largos periodos sin dolor. Cuando la medicación no basta o no se tolera, la cirugía, especialmente la descompresión microvascular en la forma clásica, puede ofrecer un alivio duradero."
+   ],
+   [
+    "¿Puede ayudarme la osteopatía?",
+    "No trata la causa de la neuralgia ni existen ensayos que lo respalden. Puede ayudar a reducir la tensión del cuello, la mandíbula y los hombros que se acumula por el miedo a las crisis y por el estrés, siempre con técnicas suaves, lejos de las zonas gatillo y coordinado con su neurólogo."
+   ],
+   [
+    "¿Me tocarán la cara?",
+    "Solo si usted lo acepta y lejos de las zonas gatillo. El trabajo se centra habitualmente en el cuello, la base del cráneo, los hombros y la respiración, y se detiene ante cualquier señal de crisis."
+   ],
+   [
+    "¿El frío empeora la neuralgia?",
+    "En muchas personas, sí: el viento frío y el agua fría sobre la cara son desencadenantes frecuentes. Protegerse con una bufanda y usar agua templada reduce las crisis."
+   ],
+   [
+    "¿Puedo hacer ejercicio?",
+    "Sí, y es recomendable. Elija actividades que no expongan la cara al frío ni a golpes, como caminar abrigado, nadar en piscina climatizada o la bicicleta estática."
+   ],
+   [
+    "¿Qué debo traer a la primera visita?",
+    "Los informes del neurólogo, la resonancia y la lista de la medicación que toma. Si lleva un diario de crisis, tráigalo también."
+   ]
+  ],
+  "related": [
+   "dolor-neuropatico",
+   "bruxismo-dolor-mandibular-atm",
+   "cefaleas-migrana",
+   "cervicalgia-dolor-cuello"
+  ],
+  "cta_h2": "Pida su primera visita: un acompañamiento sereno para un dolor intenso",
+  "seo": {
+   "kw": "neuralgia del trigémino Barcelona",
+   "kws": [
+    "dolor facial Barcelona",
+    "tratamiento neuralgia del trigémino Barcelona",
+    "neuralgia del trigémino síntomas",
+    "osteopatía dolor facial",
+    "dolor facial eléctrico"
+   ],
+   "ca_kw": "neuràlgia del trigemin Barcelona",
+   "quick": "La neuralgia del trigémino es un dolor facial en crisis breves e intensas, como descargas eléctricas, en el territorio de una o varias ramas del quinto par craneal, que se desencadenan con estímulos inocuos como hablar, comer o el roce. Suele deberse a la compresión de la raíz del nervio por una arteria y su diagnóstico y tratamiento son neurológicos. En Sarrià–Sant Gervasi (Barcelona) se valoran además el cuello, la mandíbula, la tensión y el sueño que conviven con ella.",
+   "entity": [
+    "MedicalCondition",
+    "Neuralgia del trigémino"
+   ]
+  },
+  "research": [
+   "Personas con neuralgia del trigémino diagnosticada o con dolor facial en crisis que quieren entender qué les ocurre y aliviar la tensión del cuello y la mandíbula en Barcelona.",
+   [
+    "neuralgia del trigémino síntomas",
+    "neuralgia del trigémino causas",
+    "dolor facial eléctrico",
+    "osteopatía dolor facial Barcelona",
+    "neuralgia del trigémino frío"
+   ],
+   [
+    "neuràlgia del trigemin tractament",
+    "dolor facial Barcelona"
+   ],
+   "Páginas hospitalarias de neurología y neurocirugía y centros de osteopatía que tratan el dolor facial."
+  ],
+  "ca": {}
+ },
+ {
+  "slug": "dolor-postquirurgico",
+  "ca_slug": "dolor-postquirurgic",
+  "nav": "Dolor postquirúrgico",
+  "card": "Dolor que persiste meses después de una operación: por qué ocurre, quién tiene más riesgo, cómo se valora y cómo se trata.",
+  "title": "Dolor postquirúrgico en Barcelona | WA LAM",
+  "desc": "Dolor postquirúrgico persistente en Sarrià–Sant Gervasi, Barcelona: qué es, por qué se mantiene tras una operación (nervios, inflamación, cicatriz, sistema nervioso), quién tiene más riesgo y cómo se trata.",
+  "h1": "Dolor postquirúrgico en Barcelona",
+  "sub": "Cuando el dolor persiste tras la cirugía · Sarrià–Sant Gervasi",
+  "lead": "El dolor después de una operación suele disminuir a medida que los tejidos cicatrizan. En algunas personas, sin embargo, se mantiene durante meses y se convierte en un problema en sí mismo: es el dolor postquirúrgico persistente. Es más frecuente de lo que se cree, tiene explicación y reconocerlo pronto cambia su evolución.",
+  "facts_title": "En WA LAM",
+  "facts": [
+   "Cirugía traumatológica, de columna, abdominal o de mama",
+   "Dolor, cicatriz sensible, rigidez y compensaciones",
+   "Anamnesis completa y exploración palpatoria",
+   "Primera visita: 60 min · 90 €"
+  ],
+  "wa": "Hola, me han operado y me gustaría información sobre el dolor postquirúrgico.",
+  "mirror": {
+   "h2": "¿Se reconoce en estos síntomas?",
+   "qs": [
+    "¿Sigue con dolor más de tres meses después de la operación, aunque le digan que «todo está bien»?",
+    "¿Nota quemazón, hormigueo o una sensibilidad excesiva al roce cerca de la cicatriz?",
+    "¿Le cuesta recuperar el movimiento o ha cambiado su forma de caminar, sentarse o respirar?",
+    "¿El dolor le impide descansar o retomar su actividad habitual?"
+   ],
+   "close": "Si tiene fiebre, la herida está roja o supura, o el dolor aumenta de golpe, lea antes las señales de alarma."
+  },
+  "explain": {
+   "h2": "¿Qué es el dolor postquirúrgico persistente?",
+   "paras": [
+    "La clasificación del dolor crónico de la OMS (CIE-11) define el **dolor postquirúrgico crónico** como el dolor que aparece o aumenta de intensidad después de una intervención y **persiste más allá del proceso de curación**, es decir, al menos **tres meses** después de la cirugía, una vez descartadas otras causas como una infección o la progresión de una enfermedad (Schug et al., Pain, 2019). Su inclusión en la CIE-11 tiene un objetivo claro: que deje de ser un problema invisible e infratratado.",
+    "**Qué ocurre en los tejidos.** Toda cirugía es una lesión controlada: se cortan la piel, la grasa, la fascia, a veces los músculos, el hueso o los órganos, y con ellos pequeñas ramas nerviosas. El cuerpo responde con una **inflamación** que limpia la zona y pone en marcha la reparación, y después forma un tejido cicatricial que se remodela durante meses. En la mayoría de las personas, el dolor acompaña ese proceso y se apaga con él. Cuando no ocurre, intervienen la lesión de los nervios, una cicatrización con adherencias, la pérdida de movilidad y, sobre todo, cambios en el propio sistema nervioso.",
+    "**Tipos.** El dolor postquirúrgico puede ser **nociceptivo**, procedente de los tejidos (la articulación operada, la cicatriz, los músculos); **neuropático**, por la lesión de un nervio, con quemazón, descargas u hormigueo; **visceral**, relacionado con adherencias abdominales o pélvicas; o, con frecuencia, **mixto**. Reconocer qué componente predomina orienta el tratamiento."
+   ]
+  },
+  "sections": [
+   {
+    "h2": "¿Es frecuente el dolor después de una operación?",
+    "paras": [
+     "Mucho más de lo que se cree. Una revisión publicada en The Lancet estimó que, tras cirugías frecuentes como la de hernia inguinal, mama, tórax o bypass coronario, el dolor persistente aparece en **entre el 10 % y el 50 %** de las personas y es intenso en el **2–10 %**; la lesión nerviosa durante la intervención es su causa más importante (Kehlet et al., The Lancet, 2006).",
+     "Un estudio europeo reciente siguió a 2.494 pacientes de 18 hospitales durante seis meses: el **10,5 %** tenía dolor postquirúrgico crónico, con cifras del 6,9 % tras la esternotomía, el 7,4 % tras la cirugía de mama, el 12,9 % tras la prótesis de rodilla y el 16,2 % tras la cirugía de endometriosis. Entre un tercio y dos tercios de esos dolores tenían **características neuropáticas**, y el dolor intenso o neuropático empeoraba el bienestar psicológico, la función y la calidad de vida (Martinez et al., European Journal of Anaesthesiology, 2024).",
+     "En las prótesis articulares, una revisión de estudios prospectivos encontró un resultado doloroso desfavorable a largo plazo en el **9 % o más** de las personas tras la prótesis de cadera y en alrededor del **20 %** tras la de rodilla (Beswick et al., BMJ Open, 2012). Tras la cesárea, el dolor crónico en la herida afecta al 15,4 % de las mujeres entre los 3 y los 6 meses y al 11,2 % al cabo de un año o más (Weibel et al., European Journal of Anaesthesiology, 2016)."
+    ]
+   },
+   {
+    "h2": "¿Por qué el dolor no desaparece al cicatrizar?",
+    "paras": [
+     "La explicación principal está en los **nervios**. Durante una cirugía es imposible no seccionar pequeñas ramas nerviosas de la piel y de los tejidos profundos, y a veces se lesionan nervios mayores, como el intercostobraquial en la cirugía de mama o los nervios de la ingle en la de hernia. Un nervio lesionado puede generar descargas espontáneas y volverse muy sensible, y en la cicatriz pueden formarse pequeños **neuromas**, ovillos de fibras nerviosas en regeneración, que duelen al tocarlos o al estirar la zona.",
+     "La segunda pieza es la **sensibilización central**: cuando las señales de dolor se mantienen intensas durante días y semanas, las neuronas de la médula espinal y del cerebro se vuelven más excitables y amplifican la información. El dolor se extiende más allá de la cicatriz, aparece con estímulos que no deberían doler y se mantiene aunque el tejido ya esté curado (Woolf, Pain, 2011).",
+     "La tercera son los **cambios mecánicos**: adherencias entre los planos de la cicatriz, pérdida de movilidad de una articulación, debilidad muscular y compensaciones en otras partes del cuerpo, que generan nuevos focos de dolor. Y la cuarta, el **contexto**: la ansiedad, el miedo a moverse, el mal sueño y las expectativas influyen en cómo evoluciona el dolor."
+    ]
+   },
+   {
+    "h2": "¿Es mala la inflamación después de una cirugía?",
+    "paras": [
+     "Solemos pensar en la inflamación como un enemigo, pero tras una lesión o una operación es la **primera fase de la reparación**. Las células inmunitarias llegan a la zona, retiran los restos dañados y liberan las señales que ponen en marcha la formación de tejido nuevo.",
+     "Una investigación de la Universidad McGill, publicada en Science Translational Medicine, aportó datos interesantes sobre su papel en el dolor. En 98 personas con dolor lumbar agudo, las que se recuperaban presentaban al principio una respuesta inflamatoria intensa, impulsada por los **neutrófilos**, que después se resolvía; en las que el dolor se cronificaba, esa respuesta no aparecía. En ratones, bloquear la inflamación muy pronto con un corticoide o un antiinflamatorio alivió el dolor a corto plazo, pero lo prolongó después, y en los datos del UK Biobank el uso de antiinflamatorios se asoció a más riesgo de dolor persistente (Parisien et al., 2022).",
+     "Hay que interpretar estos datos con prudencia: proceden de dolor lumbar y de trastornos de la articulación temporomandibular, no de cirugía; los datos humanos muestran una **asociación**, no una causa, y los autores no hacen recomendaciones de tratamiento. Siga siempre la pauta analgésica de su cirujano o de su médico. El mensaje es otro: la inflamación aguda forma parte del proceso normal de recuperación, y el movimiento suave y progresivo, que estimula respuestas fisiológicas leves, acompaña esa resolución natural."
+    ]
+   },
+   {
+    "h2": "¿Para qué sirve el dolor tras una operación?",
+    "paras": [
+     "En los primeros días, el dolor tiene una **función protectora**: obliga a cuidar la herida, a no hacer esfuerzos y a dar tiempo a los tejidos. La investigación reciente recuerda que el sistema del dolor forma parte de las defensas del organismo; en un estudio en **ratones**, las neuronas del dolor del intestino estimulaban la producción del moco que protege su pared y, sin ellas, la barrera intestinal se debilitaba (Yang et al., Cell, 2022). Es un estudio en animales, pero ilustra que el dolor no es solo un enemigo.",
+     "El problema aparece cuando la alarma sigue sonando cuando ya no hay peligro. Entonces el dolor deja de proteger y empieza a limitar: hace que se mueva menos, que la articulación se ponga rígida, que el músculo se debilite y que el sistema nervioso se sensibilice más. Por eso, además del alivio que pauta el médico, conviene **buscar qué mantiene el dolor** y trabajar sobre ello."
+    ]
+   },
+   {
+    "h2": "¿Quién tiene más riesgo?",
+    "paras": [
+     "El riesgo depende del tipo de cirugía, pero también de la persona. En una revisión de 29 estudios, la **ansiedad** y el **catastrofismo** antes de la operación, es decir, la tendencia a pensar en el dolor de forma amenazante, se asociaron a un riesgo entre 1,5 y 2 veces mayor de dolor crónico postquirúrgico (Theunissen et al., Clinical Journal of Pain, 2012). En la cirugía de mama, un metaanálisis de 30 estudios con 19.813 pacientes encontró más riesgo en las mujeres más jóvenes, tras la radioterapia, tras el vaciamiento de los ganglios de la axila y cuando el dolor agudo postoperatorio había sido intenso (Wang et al., CMAJ, 2016)."
+    ],
+    "list_title": "Factores asociados a un mayor riesgo:",
+    "list": [
+     "Lesión de nervios durante la intervención",
+     "Dolor en la zona antes de la operación, o dolor crónico en otras partes del cuerpo",
+     "Dolor agudo postoperatorio intenso o mal controlado",
+     "Ansiedad, catastrofismo y miedo al movimiento",
+     "Reintervenciones en la misma zona",
+     "Radioterapia o quimioterapia asociadas",
+     "Edad más joven en algunas cirugías, como la de mama",
+     "Sueño alterado y falta de apoyo durante la recuperación"
+    ]
+   },
+   {
+    "h2": "¿Cuáles son los síntomas?",
+    "paras": [
+     "El síntoma principal es un dolor que se mantiene más de tres meses en la zona operada o en su entorno. Su carácter orienta sobre el mecanismo: un dolor sordo que empeora con el movimiento suele proceder de los tejidos; la quemazón, las descargas, el hormigueo o el dolor al roce sugieren una lesión nerviosa; y un dolor profundo, difuso, relacionado con la digestión o con el ciclo menstrual puede tener un origen visceral."
+    ],
+    "list_title": "Síntomas frecuentes:",
+    "list": [
+     "Dolor persistente en la cicatriz o alrededor de ella",
+     "Quemazón, descargas o hormigueo",
+     "Hipersensibilidad al roce de la ropa o zonas acorchadas",
+     "Cicatriz tirante, dura o adherida",
+     "Rigidez y pérdida de movilidad de la articulación o de la zona operada",
+     "Inflamación que reaparece con la actividad",
+     "Dolor en otras zonas por compensación: espalda, cadera, cuello",
+     "Alteración del sueño, cansancio y ánimo bajo"
+    ]
+   },
+   {
+    "h2": "¿Cambia el sistema nervioso cuando el dolor se mantiene?",
+    "paras": [
+     "Sí, y es una de las claves para entender el dolor postquirúrgico. Además de la sensibilización de la médula espinal, el dolor persistente se acompaña de cambios en el cerebro. Con la **espectroscopia por resonancia magnética**, que mide sustancias químicas cerebrales llamadas **neurometabolitos**, se ha observado que en el dolor lumbar crónico se reducen marcadores de salud neuronal, como el N-acetil-aspartato, en regiones de la llamada **«matriz del dolor»**: la corteza prefrontal, la ínsula, la corteza cingulada y las áreas sensitivas y motoras (Zhao et al., NeuroImage: Clinical, 2017). Esas regiones intervienen en la percepción del dolor, en las emociones que lo acompañan y en la capacidad de frenarlo.",
+     "Lo importante es que estos cambios **no son necesariamente permanentes** y que el tratamiento manual también actúa a ese nivel. El modelo de Bialosky describe cómo el estímulo mecánico de las manos desencadena respuestas en el tejido, en la médula espinal y en el cerebro, donde activa sistemas que inhiben el dolor (Bialosky et al., Manual Therapy, 2009), con efectos que dependen también del contexto y de la relación terapéutica (Bialosky et al., JOSPT, 2018). En un ensayo con 25 personas con lumbalgia crónica, la manipulación vertebral redujo el dolor y la discapacidad a las 5 semanas y aumentó el N-acetil-aspartato en el tálamo, la ínsula y la corteza prefrontal, algo que no ocurrió con la manipulación simulada (Didehdar et al., Irish Journal of Medical Science, 2020).",
+     "Son estudios en dolor de espalda y de tamaño reducido, pero la idea es aplicable al dolor tras una cirugía: cuando el dolor se ha cronificado, el tratamiento debe dirigirse también al **sistema nervioso central**, con estímulos manuales bien dosificados, movimiento progresivo y educación, y no solo a la cicatriz."
+    ]
+   },
+   {
+    "h2": "¿Qué papel tienen la cicatriz y las adherencias?",
+    "paras": [
+     "Después de una cirugía, los planos de tejido que antes se deslizaban entre sí, la piel sobre la grasa, la fascia sobre el músculo y los órganos entre ellos, pueden quedar **unidos por tejido cicatricial**. Estas adherencias son muy frecuentes tras la cirugía abdominal y pélvica y, aunque la mayoría no da síntomas, pueden limitar el movimiento, tirar de estructuras alejadas o mantener una zona sensible.",
+     "Jean-Pierre Barral, osteópata y fisioterapeuta francés, describió cómo un órgano que ha perdido su movilidad normal por adherencias, una infección o una cirugía crea un **eje de tensión anómalo** al que el resto del cuerpo tiene que adaptarse. Las tensiones del tejido conjuntivo de las vísceras pueden proceder de cicatrices quirúrgicas, adherencias, enfermedades, posturas o lesiones, y forman, a través de la red fascial, puntos fijos alrededor de los cuales el cuerpo debe moverse. Es su modelo clínico, con apoyo experimental todavía limitado. Lo explicamos en detalle en nuestra página de [cicatrices y adherencias](cicatrices-adherencias)."
+    ]
+   },
+   {
+    "h2": "¿Cómo se entiende el dolor postquirúrgico desde la osteopatía?",
+    "paras": [
+     "La osteopatía mira la operación como un acontecimiento en la **historia del cuerpo**. Barral y Croibier, en su obra sobre el traumatismo, insisten en que el lugar del dolor es solo un dato dentro de una historia más amplia, que une la biomecánica de la lesión, la anatomía y la exploración de la movilidad. Una cirugía de rodilla cambia la forma de caminar y carga la cadera y la zona lumbar; una cirugía abdominal modifica la respiración y la postura; una cirugía de mama o de tórax afecta al hombro, a las costillas y al cuello.",
+     "Por eso la valoración no se limita a la cicatriz: explora también las compensaciones y la capacidad del cuerpo para volver a moverse con libertad. Como resumía Barral, «el concepto de la osteopatía es la movilidad: devolver movilidad al cuerpo». Una revisión de revisiones sistemáticas sobre el tratamiento osteopático manipulativo encontró resultados favorables en el dolor crónico no oncológico, aunque con una calidad metodológica baja (Bagagiolo et al., BMJ Open, 2022)."
+    ]
+   },
+   {
+    "h2": "¿Cuándo debo consultar con mi médico o mi cirujano?",
+    "paras": [
+     "Antes de atribuir el dolor a un dolor postquirúrgico crónico, el equipo quirúrgico debe descartar complicaciones. Consulte de inmediato o acuda a urgencias si presenta:"
+    ],
+    "list": [
+     "Fiebre, enrojecimiento, calor intenso o supuración de la herida",
+     "Dolor que aumenta de forma brusca o muy intenso, que no cede con la medicación pautada",
+     "Hinchazón, calor y dolor en la pantorrilla, o falta de aire repentina",
+     "Un bulto en la cicatriz que aumenta al toser o hacer esfuerzos",
+     "Dolor abdominal intenso con vómitos, abdomen hinchado e imposibilidad de expulsar gases",
+     "Pérdida de fuerza o de sensibilidad que avanza",
+     "Inestabilidad, chasquidos o dolor nuevo en una prótesis"
+    ]
+   },
+   {
+    "h2": "¿Cómo se diagnostica? La anamnesis",
+    "paras": [
+     "El diagnóstico es clínico. La anamnesis recoge el tipo de cirugía, la fecha, cómo fue el postoperatorio inmediato, si hubo complicaciones o reintervenciones, cómo era el dolor antes de la operación y cómo es ahora: dónde se localiza, cómo se describe y qué lo empeora o alivia. Cuestionarios como el DN4 ayudan a identificar un componente neuropático.",
+     "También se pregunta por el sueño, el estado de ánimo, el miedo a moverse, la vuelta al trabajo y las actividades que ha dejado de hacer. Es útil traer el **informe quirúrgico**, que indica qué estructuras se intervinieron y qué nervios pueden haberse afectado."
+    ]
+   },
+   {
+    "h2": "¿Qué se explora? La palpación como herramienta diagnóstica",
+    "paras": [
+     "La exploración valora la **cicatriz**, su color, su relieve, su sensibilidad y su movilidad en todas las direcciones, la sensibilidad de la piel alrededor, el recorrido de los nervios que pasan por la zona, la movilidad de las articulaciones y la fuerza muscular. Se observan también la postura, la marcha y la respiración, para identificar compensaciones.",
+     "La palpación osteopática utiliza la **escucha manual** de Barral: una palpación lenta que busca diferencias de tensión, densidad y movilidad. La escucha general orienta hacia la región que más llama la atención en el conjunto del cuerpo, que a veces no es la cicatriz; la escucha local precisa la estructura implicada, ya sea un plano de la cicatriz, la fascia, un nervio, una articulación o una víscera. Las pruebas de imagen o los estudios neurofisiológicos se reservan para cuando hay sospecha de una complicación."
+    ]
+   },
+   {
+    "h2": "¿Cómo se trata?",
+    "paras": [
+     "El tratamiento del dolor postquirúrgico persistente es **multimodal** y se adapta al tipo de cirugía, a la fase de recuperación y al componente que predomina. El médico puede indicar fármacos específicos si hay dolor neuropático, y las unidades del dolor disponen de técnicas intervencionistas para los casos resistentes.",
+     "Las medidas físicas son el otro pilar. El **ejercicio** progresivo es la base de la recuperación funcional y, según una revisión de revisiones Cochrane sobre el dolor crónico, la actividad física y el ejercicio se asocian a mejoras en el dolor y la función, con escasos efectos adversos (Geneen et al., Cochrane, 2017). El **trabajo sobre la cicatriz**, cuando la herida está bien cerrada, mejora su flexibilidad y su sensibilidad; la desensibilización gradual con distintos tejidos y presiones ayuda cuando hay alodinia; y el trabajo manual sobre las articulaciones, la fascia y las compensaciones facilita volver a moverse. La **educación** sobre el dolor reduce el miedo y el catastrofismo.",
+     "La técnica concreta se elige después de la valoración y respetando siempre los plazos que indique el cirujano. El objetivo no es solo que duela menos, sino recuperar la función y la confianza en el propio cuerpo."
+    ]
+   },
+   {
+    "h2": "¿Qué puedo hacer para prevenirlo? Ejercicio y hábitos",
+    "paras": [
+     "La prevención empieza **antes de la operación**. Llegar a la cirugía con buena condición física, fuerza muscular y un sueño cuidado facilita la recuperación. Hablar con el equipo médico sobre el plan de control del dolor, resolver las dudas y reducir la ansiedad son medidas sencillas que se relacionan con mejores resultados, porque la ansiedad y el catastrofismo son factores de riesgo conocidos.",
+     "Después de la operación, el **movimiento temprano**, dentro de lo que permita el cirujano, es la mejor herramienta: evita la rigidez, mantiene la musculatura, favorece el deslizamiento de los tejidos y envía al sistema nervioso señales de seguridad. Un dolor agudo bien controlado en los primeros días también reduce el riesgo de cronificación."
+    ],
+    "list_title": "Hábitos que ayudan antes y después de la cirugía:",
+    "list": [
+     "Mantener o mejorar la condición física antes de la operación, si es posible",
+     "Dejar de fumar, que retrasa la cicatrización",
+     "Preguntar al equipo médico por el plan de control del dolor",
+     "Levantarse y caminar pronto, según las indicaciones del cirujano",
+     "Seguir la pauta analgésica prescrita en los primeros días",
+     "Respirar de forma lenta y profunda para movilizar el tórax y el abdomen",
+     "Retomar la actividad de forma gradual, aumentando un poco cada semana"
+    ]
+   },
+   {
+    "h2": "¿Qué puedo hacer en el día a día?",
+    "paras": [],
+    "list": [
+     "Siga las indicaciones de movilidad y los plazos que le haya dado su cirujano.",
+     "Mantenga una actividad suave y regular; el reposo prolongado favorece la rigidez y el dolor.",
+     "Cuando la herida esté cerrada, hidrate la cicatriz y masajéela con suavidad unos minutos al día.",
+     "Si la cicatriz es hipersensible, acostúmbrela poco a poco al roce con tejidos de distinta textura.",
+     "Eleve la zona intervenida si se inflama al final del día.",
+     "Anote cómo evoluciona su dolor y qué actividades lo modifican.",
+     "Cuide el sueño y reserve momentos de calma: el estrés aumenta la percepción del dolor.",
+     "Consulte si el dolor no mejora: tratarlo pronto evita que se cronifique."
+    ]
+   }
+  ],
+  "evidence": {
+   "h2": "Qué dice la evidencia",
+   "items": [
+    [
+     "Definición (Pain)",
+     "La CIE-11 define el dolor postquirúrgico crónico como el que persiste al menos tres meses después de la cirugía, más allá de la curación (Schug et al., 2019)."
+    ],
+    [
+     "Frecuencia (The Lancet)",
+     "El dolor persistente aparece en el 10–50 % de las personas tras cirugías frecuentes y es intenso en el 2–10 % (Kehlet et al., 2006)."
+    ],
+    [
+     "Estudio europeo (Eur J Anaesthesiol)",
+     "En 2.494 pacientes, el 10,5 % tenía dolor crónico a los seis meses, con componente neuropático frecuente (Martinez et al., 2024)."
+    ],
+    [
+     "Prótesis (BMJ Open)",
+     "Alrededor del 20 % de las personas tiene un resultado doloroso desfavorable tras la prótesis de rodilla y el 9 % o más tras la de cadera (Beswick et al., 2012)."
+    ],
+    [
+     "Cesárea (Eur J Anaesthesiol)",
+     "El dolor crónico en la herida afecta al 15,4 % de las mujeres a los 3–6 meses de la cesárea y al 11,2 % al cabo de un año (Weibel et al., 2016)."
+    ],
+    [
+     "Factores psicológicos (Clin J Pain)",
+     "La ansiedad y el catastrofismo previos a la cirugía se asociaron a un riesgo 1,5–2 veces mayor de dolor crónico (Theunissen et al., 2012)."
+    ],
+    [
+     "Cirugía de mama (CMAJ)",
+     "En 19.813 pacientes, el vaciamiento axilar, la radioterapia, la menor edad y el dolor agudo intenso se asociaron a más dolor persistente (Wang et al., 2016)."
+    ],
+    [
+     "Inflamación (Sci Transl Med)",
+     "En 98 personas con lumbalgia aguda, una respuesta inflamatoria inicial intensa que se resolvía se asoció a la recuperación (Parisien et al., 2022)."
+    ],
+    [
+     "Sistema nervioso central (Ir J Med Sci)",
+     "La manipulación redujo el dolor y la discapacidad y se acompañó de cambios en neurometabolitos cerebrales en 25 personas con lumbalgia crónica (Didehdar et al., 2020)."
+    ]
+   ],
+   "refs": [
+    {
+     "t": "Schug SA, Lavand'homme P, Barke A, Korwisi B, Rief W, Treede RD, 2019. «The IASP classification of chronic pain for ICD-11: chronic postsurgical or posttraumatic pain». Pain.",
+     "doi": "10.1097/j.pain.0000000000001413"
+    },
+    {
+     "t": "Kehlet H, Jensen TS, Woolf CJ, 2006. «Persistent postsurgical pain: risk factors and prevention». The Lancet.",
+     "doi": "10.1016/S0140-6736(06)68700-X"
+    },
+    {
+     "t": "Martinez V, Lehman T, Lavand'homme P, et al., 2024. «Chronic postsurgical pain: a European survey». European Journal of Anaesthesiology.",
+     "doi": "10.1097/EJA.0000000000001974"
+    },
+    {
+     "t": "Beswick AD, Wylde V, Gooberman-Hill R, Blom A, Dieppe P, 2012. «What proportion of patients report long-term pain after total hip or knee replacement for osteoarthritis? A systematic review of prospective studies in unselected patients». BMJ Open.",
+     "doi": "10.1136/bmjopen-2011-000435"
+    },
+    {
+     "t": "Weibel S, Neubert K, Jelting Y, et al., 2016. «Incidence and severity of chronic pain after caesarean section: a systematic review with meta-analysis». European Journal of Anaesthesiology.",
+     "doi": "10.1097/EJA.0000000000000535"
+    },
+    {
+     "t": "Theunissen M, Peters ML, Bruce J, Gramke HF, Marcus MA, 2012. «Preoperative anxiety and catastrophizing: a systematic review and meta-analysis of the association with chronic postsurgical pain». Clinical Journal of Pain.",
+     "doi": "10.1097/AJP.0b013e31824549d6"
+    },
+    {
+     "t": "Wang L, Guyatt GH, Kennedy SA, et al., 2016. «Predictors of persistent pain after breast cancer surgery: a systematic review and meta-analysis of observational studies». CMAJ.",
+     "doi": "10.1503/cmaj.151276"
+    },
+    {
+     "t": "Woolf CJ, 2011. «Central sensitization: implications for the diagnosis and treatment of pain». Pain.",
+     "doi": "10.1016/j.pain.2010.09.030"
+    },
+    {
+     "t": "Parisien M, Lima LV, Dagostino C, et al., 2022. «Acute inflammatory response via neutrophil activation protects against the development of chronic pain». Science Translational Medicine.",
+     "doi": "10.1126/scitranslmed.abj9954"
+    },
+    {
+     "t": "Yang D, Jacobson A, Meerschaert KA, et al., 2022. «Nociceptor neurons direct goblet cells via a CGRP-RAMP1 axis to drive mucus production and gut barrier protection». Cell.",
+     "doi": "10.1016/j.cell.2022.09.024"
+    },
+    {
+     "t": "Zhao X, Xu M, Jorgenson K, Kong J, 2017. «Neurochemical changes in patients with chronic low back pain detected by proton magnetic resonance spectroscopy: a systematic review». NeuroImage: Clinical.",
+     "doi": "10.1016/j.nicl.2016.11.006"
+    },
+    {
+     "t": "Bialosky JE, Bishop MD, Price DD, Robinson ME, George SZ, 2009. «The mechanisms of manual therapy in the treatment of musculoskeletal pain: a comprehensive model». Manual Therapy.",
+     "doi": "10.1016/j.math.2008.09.001"
+    },
+    {
+     "t": "Bialosky JE, Beneciuk JM, Bishop MD, et al., 2018. «Unraveling the mechanisms of manual therapy: modeling an approach». Journal of Orthopaedic & Sports Physical Therapy.",
+     "doi": "10.2519/jospt.2018.7476"
+    },
+    {
+     "t": "Didehdar D, Kamali F, Yoosefinejad AK, Lotfi M, 2020. «The effect of spinal manipulation on brain neurometabolites in chronic nonspecific low back pain patients: a randomized clinical trial». Irish Journal of Medical Science.",
+     "doi": "10.1007/s11845-019-02140-2"
+    },
+    {
+     "t": "Bagagiolo D, Rosa D, Borrelli F, 2022. «Efficacy and safety of osteopathic manipulative treatment: an overview of systematic reviews». BMJ Open.",
+     "doi": "10.1136/bmjopen-2021-053468"
+    },
+    {
+     "t": "Geneen LJ, Moore RA, Clarke C, Martin D, Colvin LA, Smith BH, 2017. «Physical activity and exercise for chronic pain in adults: an overview of Cochrane Reviews». Cochrane Database of Systematic Reviews.",
+     "doi": "10.1002/14651858.CD011279.pub3"
+    }
+   ]
+  },
+  "faq": [
+   [
+    "¿Es normal tener dolor meses después de una operación?",
+    "Es más frecuente de lo que se cree: entre el 10 % y el 50 % de las personas mantienen algún grado de dolor tras cirugías habituales. No es «normal» en el sentido de que haya que resignarse: conviene valorarlo pronto para evitar que se cronifique."
+   ],
+   [
+    "Me dicen que la operación ha ido bien, ¿por qué me sigue doliendo?",
+    "Una cirugía técnicamente perfecta puede dejar dolor por la lesión de pequeños nervios, por adherencias en la cicatriz, por la pérdida de movilidad o por la sensibilización del sistema nervioso. Que las pruebas sean normales no significa que el dolor no sea real."
+   ],
+   [
+    "¿Cuándo puedo empezar después de la operación?",
+    "Depende del tipo de intervención y de los plazos que le indique su cirujano. El trabajo directo sobre la cicatriz empieza cuando la herida está bien cerrada; antes se puede trabajar la respiración, la movilidad general y las zonas alejadas."
+   ],
+   [
+    "¿Por qué me molesta la cicatriz al roce?",
+    "Es frecuente cuando se han lesionado pequeños nervios de la piel. Esta hipersensibilidad, llamada alodinia, suele mejorar con una desensibilización progresiva y con el trabajo sobre la cicatriz y el sistema nervioso."
+   ],
+   [
+    "¿Debo dejar los antiinflamatorios?",
+    "No, si se los ha pautado su médico. Los estudios sobre la inflamación y el dolor crónico son preliminares y muestran asociaciones, no causas. Cualquier cambio en la medicación debe consultarlo con su médico."
+   ],
+   [
+    "¿Mi cicatriz puede causarme dolor de espalda?",
+    "Puede contribuir. Las tensiones de la cicatriz y de la fascia, y los cambios en la forma de moverse tras la cirugía, influyen en la postura y en otras zonas. Por eso la valoración incluye todo el cuerpo."
+   ],
+   [
+    "¿Atienden el dolor tras una cirugía oncológica?",
+    "Sí, siempre con la autorización firmada de su médico. Encontrará más información en [dolor oncológico](dolor-oncologico)."
+   ],
+   [
+    "¿Qué debo traer a la primera visita?",
+    "El informe quirúrgico y las pruebas o informes médicos recientes que tenga. Ayudan a conocer qué estructuras se intervinieron y cómo ha evolucionado la recuperación."
+   ]
+  ],
+  "related": [
+   "dolor-persistente-cronico",
+   "dolor-neuropatico",
+   "drenaje-linfatico-postoperatorio",
+   "dolor-oncologico"
+  ],
+  "cta_h2": "Pida su primera visita y retome su recuperación",
+  "seo": {
+   "kw": "dolor postquirúrgico Barcelona",
+   "kws": [
+    "recuperación tras cirugía Barcelona",
+    "dolor después de operación de rodilla",
+    "cicatriz dolorosa",
+    "dolor crónico postoperatorio",
+    "drenaje linfático postoperatorio"
+   ],
+   "ca_kw": "dolor postquirúrgic Barcelona",
+   "quick": "El dolor postquirúrgico persistente es el que aparece o aumenta tras una operación y continúa más de tres meses, cuando los tejidos ya han cicatrizado. Afecta al 10–50 % de las personas tras cirugías frecuentes y se debe sobre todo a la lesión de pequeños nervios y a la sensibilización del sistema nervioso. En Sarrià–Sant Gervasi (Barcelona) se valora con una anamnesis detallada y una exploración palpatoria de la cicatriz y del conjunto del cuerpo.",
+   "entity": [
+    "MedicalCondition",
+    "Dolor postquirúrgico persistente"
+   ]
+  },
+  "research": [
+   "Personas que siguen con dolor, rigidez o una cicatriz sensible meses después de una operación y buscan entender por qué y recuperarse en Barcelona.",
+   [
+    "dolor después de una operación",
+    "dolor postquirúrgico persistente",
+    "dolor tras prótesis de rodilla",
+    "cicatriz dolorosa tratamiento Barcelona",
+    "dolor crónico tras cirugía"
+   ],
+   [
+    "dolor després d'una operació",
+    "dolor postquirúrgic Barcelona"
+   ],
+   "Unidades del dolor hospitalarias, clínicas de fisioterapia postoperatoria y artículos divulgativos de anestesiología."
+  ],
+  "ca": {}
+ },
+ {
+  "slug": "cicatrices-adherencias",
+  "ca_slug": "cicatrius-adherencies",
+  "nav": "Cicatrices y adherencias",
+  "card": "Cicatrices tirantes o dolorosas tras una cesárea u otra cirugía, y adherencias que limitan el movimiento o dan dolor a distancia.",
+  "title": "Cicatrices y adherencias en Barcelona | WA LAM",
+  "desc": "Cicatrices y adherencias tras cesárea, laparoscopia o cirugía en Sarrià–Sant Gervasi, Barcelona: cómo se forman, por qué pueden doler lejos de donde están, la visión visceral de Barral y qué dice la evidencia.",
+  "h1": "Cicatrices y adherencias tras cirugía en Barcelona",
+  "sub": "Cesárea, cirugía abdominal, de mama y laparoscopia · Sarrià–Sant Gervasi",
+  "lead": "Después de una herida o una cirugía, la piel y los tejidos profundos cicatrizan formando un tejido nuevo. A veces la cicatriz queda tirante, sensible o adherida a los planos de debajo, y las adherencias internas pueden limitar el movimiento de los órganos y tirar de estructuras alejadas. Entender cómo se forman ayuda a comprender molestias que a menudo nadie relaciona con la operación.",
+  "facts_title": "En WA LAM",
+  "facts": [
+   "Cicatrices de cesárea, abdomen, mama y laparoscopia",
+   "Adherencias y movilidad visceral según Barral",
+   "Anamnesis completa y exploración palpatoria",
+   "Primera visita: 60 min · 90 €"
+  ],
+  "wa": "Hola, me gustaría información sobre el tratamiento de cicatrices y adherencias.",
+  "mirror": {
+   "h2": "¿Se reconoce en estos síntomas?",
+   "qs": [
+    "¿Nota la cicatriz tirante, dura o «pegada» al tocarla o al estirarse?",
+    "¿Siente molestias, hormigueo, acorchamiento o hipersensibilidad alrededor de la cicatriz?",
+    "¿Le cuesta estirarse, girar el tronco o respirar a fondo desde la operación?",
+    "¿Tiene dolor lumbar, pélvico o digestivo que empezó después de una cirugía o una cesárea?"
+   ],
+   "close": "Si la cicatriz está roja, caliente o supura, o tiene dolor abdominal intenso con vómitos, lea antes las señales de alarma."
+  },
+  "explain": {
+   "h2": "¿Qué son las cicatrices y las adherencias?",
+   "paras": [
+    "Una **cicatriz** es el tejido fibroso con el que el cuerpo repara la piel y los planos profundos después de una herida o de una incisión quirúrgica. La reparación sigue tres fases que se solapan: una fase **inflamatoria**, en la que se detiene la hemorragia y las células inmunitarias limpian la herida; una fase de **formación de tejido nuevo**, en la que los fibroblastos fabrican colágeno y se crean nuevos vasos; y una fase de **remodelación**, en la que el colágeno se reorganiza y la cicatriz gana resistencia, que puede prolongarse durante un año o más (Gurtner et al., Nature, 2008). Por eso una cicatriz sigue cambiando mucho tiempo después de que la herida se haya cerrado.",
+    "Las **adherencias** son bandas de tejido cicatricial que unen superficies que normalmente se deslizan entre sí. En el abdomen y la pelvis, los órganos están recubiertos por una membrana fina y lisa, el **peritoneo**, que les permite moverse unos sobre otros con cada respiración, cada paso y cada digestión. Cuando el peritoneo se lesiona durante una cirugía, una infección o una inflamación, puede cicatrizar uniendo dos superficies: un asa intestinal a la pared abdominal, el útero a la vejiga o el colon a otro órgano.",
+    "**Tipos.** Conviene distinguir varios niveles. Las **cicatrices cutáneas** pueden ser normotróficas, planas y flexibles; **hipertróficas**, gruesas y elevadas pero dentro de los bordes de la herida; **queloides**, que crecen más allá de esos bordes; o **retráctiles**, que tiran de la piel y limitan el movimiento. Por debajo, la cicatriz puede quedar adherida a la grasa, la **fascia** o el músculo. Y en el interior del abdomen o del tórax están las **adherencias viscerales**, que no se ven desde fuera y que la mayoría de las veces no dan síntomas."
+   ]
+  },
+  "sections": [
+   {
+    "h2": "¿Son frecuentes las adherencias?",
+    "paras": [
+     "Sí. Las adherencias se consideran una consecuencia casi inevitable de la cirugía abdominal y pélvica. Una revisión sistemática publicada en el BMJ, con 196 estudios, analizó sus complicaciones: tras una cirugía abdominal, la obstrucción intestinal por adherencias apareció en el **2 %** de los pacientes y, entre las obstrucciones intestinales de causa conocida, las adherencias fueron la causa más frecuente (**56 %**). En las personas con adherencias, una nueva operación se alargaba de media **15 minutos** por la necesidad de liberarlas (ten Broek et al., BMJ, 2013).",
+     "La cicatriz de la **cesárea** merece una mención propia, porque es una de las cirugías más frecuentes. Un metaanálisis encontró dolor crónico en la herida en el **15,4 %** de las mujeres entre los 3 y los 6 meses después de la cesárea y en el **11,2 %** al cabo de un año o más; en la mayoría el dolor era leve, pero a los seis meses era moderado o intenso en casi una de cada tres (Weibel et al., European Journal of Anaesthesiology, 2016)."
+    ]
+   },
+   {
+    "h2": "¿Por qué se forma una adherencia?",
+    "paras": [
+     "Cuando el peritoneo se lesiona, la zona se cubre de una red de fibrina, la misma proteína que forma los coágulos. Normalmente el organismo disuelve esa red en pocos días y el peritoneo se regenera liso. Si la disolución no es suficiente, por la falta de riego, la infección, la presencia de sangre o de cuerpos extraños o la extensión de la lesión, la fibrina se transforma en tejido fibroso y se forma una adherencia permanente.",
+     "Un grupo de investigación estadounidense planteó una hipótesis sugerente: que las adherencias se forman, en parte, porque en los días posteriores a la cirugía los órganos **se mueven poco**, inmovilizados por la propia operación, el dolor y los opiáceos. En un modelo **en ratas**, aplicar una terapia manual que mantenía el movimiento de los órganos en el postoperatorio inmediato redujo la frecuencia y el tamaño de las adherencias cohesivas, sin interferir en la cicatrización (Bove et al., PLoS One, 2017). Es un estudio en animales, que no puede trasladarse sin más a las personas, pero refuerza una idea sencilla: **el movimiento forma parte de una buena cicatrización**."
+    ]
+   },
+   {
+    "h2": "¿Quién tiene más riesgo?",
+    "paras": [
+     "Toda cirugía deja una cicatriz, pero su evolución varía mucho de una persona a otra. Influyen el tipo y la extensión de la intervención, la cicatrización de cada persona y el movimiento de la zona durante la recuperación."
+    ],
+    "list_title": "Factores asociados a cicatrices o adherencias problemáticas:",
+    "list": [
+     "Cirugías abdominales o pélvicas, incluidas la cesárea, la histerectomía, la apendicectomía y la laparoscopia",
+     "Varias intervenciones en la misma zona",
+     "Infección de la herida o retraso en la cicatrización",
+     "Inflamaciones o infecciones abdominales previas, como una apendicitis o la endometriosis",
+     "Cirugía de mama y radioterapia en la zona",
+     "Inmovilidad prolongada tras la operación",
+     "Tabaquismo, que dificulta la cicatrización",
+     "Tendencia personal o familiar a cicatrices hipertróficas o queloides"
+    ]
+   },
+   {
+    "h2": "¿Cuáles son los síntomas?",
+    "paras": [
+     "Muchas cicatrices y adherencias no dan ningún síntoma. Cuando lo hacen, los síntomas pueden ser **locales**, en la propia cicatriz, o **a distancia**, en zonas que a primera vista no tienen relación con ella. Esa segunda posibilidad es la que más desconcierta y la que más a menudo pasa desapercibida."
+    ],
+    "list_title": "Síntomas que pueden relacionarse con una cicatriz o con adherencias:",
+    "list": [
+     "Cicatriz tirante, dura, hundida o adherida a los planos profundos",
+     "Hipersensibilidad, hormigueo, picor o zonas acorchadas alrededor de la cicatriz",
+     "Sensación de tirón al estirarse, girar el tronco o respirar hondo",
+     "Dolor lumbar, sacro o pélvico que comenzó después de la cirugía",
+     "Molestias digestivas, hinchazón o estreñimiento de aparición posterior a la operación",
+     "Dolor con las relaciones sexuales o con la menstruación tras una cesárea o una cirugía ginecológica",
+     "Rigidez del hombro o del tórax tras una cirugía de mama o torácica",
+     "Molestias que aumentan con los cambios de tiempo"
+    ]
+   },
+   {
+    "h2": "¿Puede una cicatriz causar dolor lejos de donde está?",
+    "paras": [
+     "Puede contribuir, y hay dos explicaciones que se suman. La primera es **fisiológica** y está bien establecida: los órganos internos tienen pocos receptores sensitivos y sus fibras nerviosas llegan a la médula espinal por los mismos segmentos que las de la piel, los músculos y las articulaciones de la espalda. En la médula, unas y otras **convergen** en las mismas neuronas, y el cerebro no siempre distingue de dónde viene la señal. Por eso el dolor de una víscera es difuso y se siente **referido** en la pared del cuerpo (Gebhart y Bielefeldt, Comprehensive Physiology, 2016). El dolor visceral, además, puede acompañarse de hipersensibilidad central (Cerveró, Revista Dor, 2014).",
+     "La segunda es **mecánica**. Los tejidos del cuerpo están conectados por la fascia, una red continua de tejido conjuntivo, y sus capas necesitan deslizarse unas sobre otras. En un estudio con ecografía, la capacidad de deslizamiento de la fascia toracolumbar era un 20 % menor en las personas con dolor lumbar crónico que en las personas sin dolor (Langevin et al., BMC Musculoskeletal Disorders, 2011). Es una asociación, no prueba que la falta de deslizamiento cause el dolor, pero muestra que la movilidad entre los planos de tejido importa.",
+     "Jean-Pierre Barral, osteópata y fisioterapeuta francés, construyó su método sobre esta idea. En su modelo, las tensiones del tejido conjuntivo de las vísceras pueden proceder de **cicatrices quirúrgicas**, adherencias, enfermedades, posturas o lesiones, y se transmiten por la red fascial creando puntos fijos alrededor de los cuales el cuerpo tiene que moverse; esa irritación crónica acaba produciendo problemas funcionales a distancia. Sus colaboradores describen ejemplos concretos: la raíz del mesenterio del intestino delgado, que cruza la tercera y la cuarta vértebras lumbares; la relación del ciego y del colon sigmoide con las articulaciones sacroilíacas derecha e izquierda; o una antigua cicatriz de apendicectomía que, por estimulación del sistema nervioso autónomo, se relacionaría con restricciones de la primera vértebra lumbar. Son observaciones clínicas de su escuela, no hechos demostrados, pero ayudan a entender por qué una cicatriz se valora junto con la espalda y la pelvis."
+    ]
+   },
+   {
+    "h2": "¿Puede una cicatriz de cesárea dar dolor de espalda o pélvico?",
+    "paras": [
+     "La cesárea atraviesa la piel, la grasa, la fascia de los músculos abdominales, el peritoneo y el útero. Cada uno de esos planos cicatriza por separado y puede quedar unido al de al lado. Las adherencias entre el útero, la vejiga y la pared abdominal son frecuentes, y muchas mujeres describen una cicatriz «acartonada», una sensación de tirantez al estirarse o un abdomen que no recupera su tono.",
+     "Además del dolor en la propia herida, que se mantiene más de un año en alrededor de una de cada diez mujeres (Weibel et al., 2016), la tensión de la cicatriz y de la fascia abdominal puede influir en la postura, en la respiración y en la movilidad de la pelvis y de la zona lumbar. Por eso, ante un dolor lumbar o pélvico que empezó después de un parto por cesárea, conviene valorar también la cicatriz. Encontrará más información, con abordaje siempre externo, en nuestra página de [dolor pélvico](suelo-pelvico-dolor-pelvico)."
+    ]
+   },
+   {
+    "h2": "¿Por qué molesta más la cicatriz cuando cambia el tiempo?",
+    "paras": [
+     "«Me duele la cicatriz, va a llover». Muchas personas operadas lo dicen, y tiene una explicación plausible. Cuando baja la presión atmosférica, como ocurre antes de la lluvia, los tejidos del cuerpo soportan menos presión externa y pueden expandirse ligeramente. El tejido cicatricial es menos elástico que el tejido sano y contiene a menudo pequeñas fibras nerviosas en regeneración, muy sensibles; un cambio mínimo de volumen o de tensión puede bastar para que se note. El frío, además, reduce el riego de la piel, tensa la musculatura y hace que nos movamos menos, lo que aumenta la rigidez.",
+     "La ciencia muestra un efecto **real pero modesto**: en el estudio más amplio, 2.658 personas con dolor crónico registraron su dolor a diario durante 15 meses, y la humedad, la presión atmosférica y el viento se relacionaron con el dolor, aunque con diferencias entre personas (Dixon et al., npj Digital Medicine, 2019). En los días fríos y húmedos ayuda abrigar la zona, aplicar calor suave si la sensibilidad es normal y mantener la movilidad con estiramientos suaves y respiración amplia."
+    ]
+   },
+   {
+    "h2": "¿Es mala la inflamación de una herida?",
+    "paras": [
+     "La inflamación de los primeros días es la **primera fase de la cicatrización**: sin ella no se limpia la herida ni se ponen en marcha las células que fabrican el tejido nuevo. Una investigación publicada en Science Translational Medicine sugiere que una respuesta inflamatoria inicial intensa, que después se resuelve, se asocia a una mejor recuperación del dolor: en 98 personas con dolor lumbar agudo, las que se recuperaron tenían esa respuesta y las que cronificaron, no (Parisien et al., 2022). Son datos de asociación y no proceden de cicatrices quirúrgicas, y los autores no hacen recomendaciones sobre fármacos; siga siempre la pauta de su médico.",
+     "Lo que sí distingue una inflamación normal de una complicación es su evolución: la inflamación de la cicatrización disminuye progresivamente, mientras que el aumento del enrojecimiento, el calor, la hinchazón, la supuración o la fiebre son signos de infección que requieren valoración médica."
+    ]
+   },
+   {
+    "h2": "¿Por qué el tacto alivia una cicatriz sensible?",
+    "paras": [
+     "Cuando una cicatriz es hipersensible, la tendencia natural es protegerla y no tocarla. Sin embargo, el tacto adecuado es una de las formas de devolverle la normalidad. La **teoría de la compuerta**, propuesta por Melzack y Wall en 1965, explica que en la médula espinal las señales de tacto, presión y movimiento, que viajan por fibras gruesas, pueden frenar la transmisión de las señales de dolor, que viajan por fibras finas (Melzack y Wall, Science, 1965). Es la razón por la que frotarse un golpe alivia.",
+     "En una cicatriz hipersensible, el contacto se introduce de forma gradual: primero alrededor de la cicatriz, con presiones suaves y tejidos de textura agradable, y después sobre ella. Con la repetición, el sistema nervioso vuelve a interpretar ese tacto como seguro y la sensibilidad disminuye."
+    ]
+   },
+   {
+    "h2": "¿Cómo se entienden desde la osteopatía visceral?",
+    "paras": [
+     "Barral resume su visión en una frase: «La vida y el movimiento están entrelazados». Los órganos se mueven continuamente, con la respiración, con los latidos del corazón y con su propia actividad. En su modelo, cada órgano tiene una **movilidad**, la capacidad de desplazarse libremente en su entorno, y una **motilidad**, un movimiento propio del tejido. Cuando un órgano no puede moverse en armonía con sus vecinos por **adherencias**, un tono anómalo o un desplazamiento, trabaja en contra de los demás órganos y de las estructuras musculares, fasciales y óseas.",
+     "Barral pone un ejemplo: una adherencia alrededor del pulmón crearía un eje de movimiento modificado que obligaría a las estructuras cercanas a adaptarse; podría alterar el movimiento de las costillas y, con el tiempo, las fuerzas sobre la columna. Teniendo en cuenta que respiramos más de 20.000 veces al día, una pequeña restricción se repite miles de veces. Las cicatrices quirúrgicas, especialmente las abdominales y pélvicas, son uno de los orígenes de estas restricciones en su modelo.",
+     "La **manipulación visceral** de Barral utiliza fuerzas manuales suaves y precisas sobre los órganos y sus medios de sujeción, con el objetivo de favorecer su movilidad normal. En cuanto a la evidencia, los estudios experimentales en **ratas** han mostrado que la movilización visceral manual puede liberar adherencias ya formadas y prevenir su aparición (Bove y Chapelle, Journal of Bodywork and Movement Therapies, 2012) y que mantener el movimiento de los órganos en el postoperatorio inmediato reduce las adherencias cohesivas (Bove et al., 2017). En personas, los estudios son todavía escasos; la fisiología de la conexión fascial y del dolor referido en la que se apoya la exploración sí está bien establecida. Puede leer más en [osteopatía visceral](osteopatia-visceral-barcelona)."
+    ]
+   },
+   {
+    "h2": "¿Cuándo debo consultar con mi médico?",
+    "paras": [
+     "Algunas situaciones requieren valoración médica antes de cualquier tratamiento manual. Consulte sin demora, o acuda a urgencias en los casos graves, si presenta:"
+    ],
+    "list": [
+     "Cicatriz roja, caliente, hinchada o que supura, o fiebre",
+     "Una herida que se abre o no termina de cerrarse",
+     "Un bulto en la cicatriz que aumenta al toser o al hacer esfuerzos (posible hernia)",
+     "Dolor abdominal intenso y creciente con vómitos, abdomen hinchado e imposibilidad de expulsar gases o heces",
+     "Una cicatriz que crece por encima de sus bordes, pica mucho o duele de forma creciente",
+     "Cambios de color, úlceras o sangrado en una cicatriz antigua",
+     "Sangrado vaginal anómalo o dolor pélvico intenso tras una cirugía ginecológica"
+    ]
+   },
+   {
+    "h2": "¿Cómo se valora? La anamnesis",
+    "paras": [
+     "La valoración empieza por la historia de la cicatriz: qué cirugía fue, cuándo, si hubo complicaciones, infecciones o reintervenciones, cómo evolucionó la herida y qué síntomas aparecieron después. Se pregunta por la relación de las molestias con el movimiento, la respiración, la digestión, la postura, el ciclo menstrual o las relaciones sexuales, y por otras cirugías o inflamaciones abdominales previas, como una apendicitis, una peritonitis o la endometriosis.",
+     "También se recogen cicatrices que la persona a veces no menciona por considerarlas antiguas o pequeñas: la de una laparoscopia, una apendicectomía de la infancia, una episiotomía o un drenaje. En el modelo de Barral, cualquier cicatriz puede formar parte de la historia del cuerpo."
+    ]
+   },
+   {
+    "h2": "¿Qué se explora? La palpación como herramienta diagnóstica",
+    "paras": [
+     "Las adherencias internas no se ven en las pruebas de imagen habituales; la exploración manual es la herramienta principal. Se observa la cicatriz, su color, su grosor y su relieve, y se valora con la palpación su **movilidad en todas las direcciones**, en cada uno de los planos: la piel sobre la grasa, la grasa sobre la fascia y la fascia sobre el músculo. Se explora también la sensibilidad de la piel alrededor, en busca de zonas acorchadas o hipersensibles.",
+     "La **escucha manual** de Barral permite ir más allá de la cicatriz. Con la mano apoyada sin presión, el terapeuta percibe hacia dónde «tira» el tejido: una restricción atrae los tejidos que la rodean hacia ella, y con entrenamiento la mano puede notar la zona que genera mayor tensión mecánica en el cuerpo. La escucha general orienta hacia esa región; la escucha local precisa si se trata de un plano de la cicatriz, la fascia, una víscera o sus ligamentos. Barral añade la **evaluación térmica manual**, que busca diferencias de temperatura en la superficie del cuerpo."
+    ]
+   },
+   {
+    "h2": "¿Cómo se trata?",
+    "paras": [
+     "Lo primero es respetar el **tiempo de cicatrización**. El trabajo directo sobre la cicatriz comienza cuando la herida está bien cerrada y sin signos de infección, y cuando lo autoriza el cirujano, a menudo a partir de las 4–6 semanas. En las primeras fases, la respiración, el movimiento suave y el trabajo sobre las zonas alejadas ayudan a mantener la movilidad.",
+     "El **masaje** y la movilización de la cicatriz son las medidas más utilizadas. Una revisión de la literatura reunió 10 estudios con 144 pacientes: el 45,7 % mejoró en alguna medida de la cicatriz, como su aspecto, la movilidad, el picor o el dolor, y la mejora fue mayor en las **cicatrices quirúrgicas**, en las que 27 de 30 mejoraron su aspecto. Los autores advierten de que la evidencia es débil y los protocolos muy variados (Shin y Bordeaux, Dermatologic Surgery, 2012). La protección solar, la hidratación y, cuando el médico lo indica, los productos de silicona contribuyen a una cicatriz más plana y flexible.",
+     "Cuando la cicatriz se relaciona con molestias a distancia, el tratamiento valora también la fascia, la respiración, la columna, la pelvis y las vísceras. La técnica concreta se decide tras la exploración, según el tejido implicado, la antigüedad de la cicatriz y la sensibilidad de cada persona, y se acompaña de ejercicio progresivo para recuperar la función del tronco y la pelvis."
+    ]
+   },
+   {
+    "h2": "¿Qué puedo hacer para prevenirlo? Ejercicio y hábitos",
+    "paras": [
+     "El **movimiento** es el mejor aliado de una buena cicatrización. Levantarse y caminar pronto después de la cirugía, dentro de lo que indique el cirujano, favorece el riego, el movimiento de los órganos y el tránsito intestinal. La **respiración diafragmática**, lenta y amplia, moviliza el abdomen y la pelvis miles de veces al día y es uno de los ejercicios más sencillos y útiles tras una cirugía abdominal.",
+     "Después, cuando la herida está cerrada, se recupera de forma progresiva la movilidad del tronco con estiramientos suaves, rotaciones y ejercicios de la musculatura abdominal profunda, sin esfuerzos intensos hasta que lo autorice el médico. Una buena alimentación, con suficientes proteínas, y no fumar favorecen la reparación de los tejidos."
+    ],
+    "list_title": "Ejercicios y hábitos útiles:",
+    "list": [
+     "Respiración diafragmática lenta, notando cómo se expanden el abdomen y las costillas",
+     "Paseos diarios desde los primeros días, según las indicaciones del cirujano",
+     "Estiramientos suaves del tronco: extensión, inclinaciones y rotaciones",
+     "Activación progresiva de la musculatura abdominal profunda",
+     "Automasaje suave de la cicatriz cuando esté cerrada",
+     "No fumar y cuidar la alimentación durante la cicatrización",
+     "Proteger la cicatriz del sol durante el primer año"
+    ]
+   },
+   {
+    "h2": "¿Qué puedo hacer en el día a día?",
+    "paras": [],
+    "list": [
+     "Cuando la herida esté cerrada, masajee suavemente la cicatriz unos minutos al día con una crema hidratante, en círculos y en distintas direcciones.",
+     "Proteja la cicatriz del sol con ropa o protector solar alto durante el primer año.",
+     "Si la cicatriz es muy sensible, acostúmbrela poco a poco al roce con tejidos suaves.",
+     "Retome el movimiento y los paseos de forma gradual.",
+     "Practique cada día unos minutos de respiración abdominal lenta.",
+     "Evite los esfuerzos intensos con el abdomen hasta que se lo autoricen.",
+     "Use ropa que no roce ni comprima la cicatriz en las primeras semanas.",
+     "Comente en la consulta todas sus cicatrices, también las antiguas o pequeñas."
+    ]
+   }
+  ],
+  "evidence": {
+   "h2": "Qué dice la evidencia",
+   "items": [
+    [
+     "Cicatrización (Nature)",
+     "La reparación de una herida pasa por las fases de inflamación, formación de tejido nuevo y remodelación, que puede prolongarse un año o más (Gurtner et al., 2008)."
+    ],
+    [
+     "Adherencias (BMJ)",
+     "En 196 estudios, las adherencias fueron la causa del 56 % de las obstrucciones intestinales de causa conocida tras una cirugía abdominal (ten Broek et al., 2013)."
+    ],
+    [
+     "Cesárea (Eur J Anaesthesiol)",
+     "El dolor crónico en la herida afecta al 15,4 % de las mujeres a los 3–6 meses de la cesárea y al 11,2 % al cabo de un año (Weibel et al., 2016)."
+    ],
+    [
+     "Masaje de la cicatriz (Dermatol Surg)",
+     "En 10 estudios, 27 de 30 cicatrices quirúrgicas mejoraron su aspecto con el masaje, aunque la evidencia es débil (Shin y Bordeaux, 2012)."
+    ],
+    [
+     "Movilización visceral (J Bodyw Mov Ther)",
+     "En un modelo en ratas, la movilización visceral manual liberó adherencias peritoneales y previno su formación (Bove y Chapelle, 2012)."
+    ],
+    [
+     "Movimiento postoperatorio (PLoS One)",
+     "En ratas, mantener el movimiento de los órganos tras la cirugía redujo la frecuencia y el tamaño de las adherencias cohesivas (Bove et al., 2017)."
+    ],
+    [
+     "Fascia (BMC Musculoskelet Disord)",
+     "En 121 personas, el deslizamiento de la fascia toracolumbar era un 20 % menor en quienes tenían dolor lumbar crónico (Langevin et al., 2011)."
+    ],
+    [
+     "Dolor visceral (Compr Physiol)",
+     "La inervación visceral converge con la somática en la médula, por lo que el dolor de los órganos se refiere a la pared del cuerpo (Gebhart y Bielefeldt, 2016)."
+    ]
+   ],
+   "refs": [
+    {
+     "t": "Gurtner GC, Werner S, Barrandon Y, Longaker MT, 2008. «Wound repair and regeneration». Nature.",
+     "doi": "10.1038/nature07039"
+    },
+    {
+     "t": "ten Broek RPG, Issa Y, van Santbrink EJP, et al., 2013. «Burden of adhesions in abdominal and pelvic surgery: systematic review and met-analysis». BMJ.",
+     "doi": "10.1136/bmj.f5588"
+    },
+    {
+     "t": "Weibel S, Neubert K, Jelting Y, et al., 2016. «Incidence and severity of chronic pain after caesarean section: a systematic review with meta-analysis». European Journal of Anaesthesiology.",
+     "doi": "10.1097/EJA.0000000000000535"
+    },
+    {
+     "t": "Bove GM, Chapelle SL, Hanlon KE, Diamond MP, Mokler DJ, 2017. «Attenuation of postoperative adhesions using a modeled manual therapy». PLoS One.",
+     "doi": "10.1371/journal.pone.0178407"
+    },
+    {
+     "t": "Gebhart GF, Bielefeldt K, 2016. «Physiology of visceral pain». Comprehensive Physiology.",
+     "doi": "10.1002/cphy.c150049"
+    },
+    {
+     "t": "Cerveró F, 2014. «Pathophysiology of visceral pain». Revista Dor.",
+     "doi": "10.5935/1806-0013.20140032"
+    },
+    {
+     "t": "Langevin HM, Fox JR, Koptiuch C, et al., 2011. «Reduced thoracolumbar fascia shear strain in human chronic low back pain». BMC Musculoskeletal Disorders.",
+     "doi": "10.1186/1471-2474-12-203"
+    },
+    {
+     "t": "Dixon WG, Beukenhorst AL, Yimer BB, et al., 2019. «How the weather affects the pain of citizen scientists using a smartphone app». npj Digital Medicine.",
+     "doi": "10.1038/s41746-019-0180-3"
+    },
+    {
+     "t": "Parisien M, Lima LV, Dagostino C, et al., 2022. «Acute inflammatory response via neutrophil activation protects against the development of chronic pain». Science Translational Medicine.",
+     "doi": "10.1126/scitranslmed.abj9954"
+    },
+    {
+     "t": "Melzack R, Wall PD, 1965. «Pain mechanisms: a new theory». Science.",
+     "doi": "10.1126/science.150.3699.971"
+    },
+    {
+     "t": "Bove GM, Chapelle SL, 2012. «Visceral mobilization can lyse and prevent peritoneal adhesions in a rat model». Journal of Bodywork and Movement Therapies.",
+     "doi": "10.1016/j.jbmt.2011.02.004"
+    },
+    {
+     "t": "Shin TM, Bordeaux JS, 2012. «The role of massage in scar management: a literature review». Dermatologic Surgery.",
+     "doi": "10.1111/j.1524-4725.2011.02201.x"
+    }
+   ]
+  },
+  "faq": [
+   [
+    "¿Cuándo puedo empezar a tratar la cicatriz?",
+    "El trabajo directo comienza cuando la herida está bien cerrada, sin signos de infección y con la autorización del cirujano, a menudo a partir de las 4–6 semanas. Antes se pueden trabajar la respiración, la movilidad general y las zonas alejadas."
+   ],
+   [
+    "¿Se puede tratar una cicatriz antigua?",
+    "Sí. Aunque la cicatriz tenga años, el tejido conserva capacidad de adaptación, y la movilización puede mejorar su flexibilidad y las molestias asociadas."
+   ],
+   [
+    "¿Una cicatriz de cesárea puede causar dolor de espalda?",
+    "Puede contribuir. La tensión de la cicatriz y de la fascia abdominal influye en la postura, la respiración y la movilidad lumbar y pélvica. Por eso se valora la cicatriz junto con la espalda y la pelvis."
+   ],
+   [
+    "¿Las adherencias se ven en una ecografía o una resonancia?",
+    "Por lo general, no. Las pruebas de imagen habituales no muestran bien las adherencias; se sospechan por la historia clínica y la exploración, y solo se confirman con certeza durante una cirugía."
+   ],
+   [
+    "¿Por qué me molesta la cicatriz cuando va a llover?",
+    "El tejido cicatricial es menos elástico y contiene fibras nerviosas sensibles; los cambios de presión, el frío y la humedad pueden notarse en él. El efecto es real, aunque modesto y distinto en cada persona."
+   ],
+   [
+    "¿El tratamiento es doloroso?",
+    "Las técnicas son suaves y se adaptan a la sensibilidad de cada zona. Si nota una molestia, se ajusta la intensidad. En las cicatrices hipersensibles se empieza alrededor y se avanza poco a poco."
+   ],
+   [
+    "¿Hace falta tratar todas las cicatrices?",
+    "No. Muchas cicatrices no dan ningún problema. Se valoran cuando hay síntomas locales o a distancia que podrían relacionarse con ellas, o cuando limitan el movimiento."
+   ],
+   [
+    "¿Cuántas sesiones necesitaré?",
+    "Depende del tipo de cicatriz, de su antigüedad y de los síntomas. Tras la primera visita se propone un plan con pautas de automasaje y ejercicio para casa y revisiones periódicas."
+   ]
+  ],
+  "related": [
+   "osteopatia-visceral-barcelona",
+   "dolor-postquirurgico",
+   "osteopatia-fascia-barcelona",
+   "suelo-pelvico-dolor-pelvico"
+  ],
+  "cta_h2": "Pida su primera visita y recupere la movilidad tras su cirugía",
+  "seo": {
+   "kw": "cicatriz cesárea tratamiento Barcelona",
+   "kws": [
+    "adherencias abdominales Barcelona",
+    "masaje cicatriz cesárea",
+    "osteopatía cicatrices",
+    "adherencias tras laparoscopia",
+    "cicatriz tirante tras cirugía"
+   ],
+   "ca_kw": "cicatriu cesària Barcelona",
+   "quick": "Las cicatrices son el tejido fibroso con el que el cuerpo repara una herida o una incisión quirúrgica, y las adherencias, bandas de ese tejido que unen superficies que deberían deslizarse, como los órganos del abdomen y la pelvis tras una cesárea o una laparoscopia. Pueden dar tirantez, dolor local o molestias a distancia. En Sarrià–Sant Gervasi (Barcelona) se valoran con una anamnesis detallada y una exploración palpatoria según la escucha manual de Barral.",
+   "entity": [
+    "MedicalCondition",
+    "Cicatrices y adherencias postquirúrgicas"
+   ]
+  },
+  "research": [
+   "Personas, sobre todo mujeres tras una cesárea o una cirugía abdominal o de mama, con cicatrices tirantes, dolorosas o adheridas, o con molestias que empezaron tras una operación, que buscan tratamiento en Barcelona.",
+   [
+    "tratamiento cicatriz cesárea Barcelona",
+    "adherencias después de cirugía",
+    "masaje de cicatriz",
+    "cicatriz que duele cuando llueve",
+    "adherencias y dolor de espalda"
+   ],
+   [
+    "cicatriu cesària tractament",
+    "adherències després d'una cirurgia"
+   ],
+   "Clínicas de fisioterapia de suelo pélvico y osteopatía con páginas breves sobre la cicatriz de cesárea; pocas explican las adherencias viscerales."
+  ],
+  "ca": {}
+ },
+ {
+  "slug": "dolor-oncologico",
+  "ca_slug": "dolor-oncologic",
+  "nav": "Dolor oncológico",
+  "card": "Dolor durante y después del cáncer: qué es, qué sucede en el cuerpo, cómo afecta a la calidad de vida y qué dicen los estudios.",
+  "title": "Dolor oncológico en Barcelona | WA LAM",
+  "desc": "Qué es el dolor oncológico, por qué aparece (tumor, cirugía, quimioterapia, radioterapia, hormonoterapia), cómo afecta a la calidad de vida y qué dicen los estudios de referencia. Sarrià–Sant Gervasi, Barcelona.",
+  "h1": "Dolor oncológico en Barcelona",
+  "sub": "Durante y después del tratamiento del cáncer · Sarrià–Sant Gervasi",
+  "lead": "El dolor es uno de los síntomas más frecuentes y más temidos del cáncer. Puede deberse a la propia enfermedad, a los tratamientos o a sus secuelas, y a veces continúa cuando el tratamiento ya ha terminado. Entender qué es, por qué aparece y cómo influye en la vida diaria ayuda a hablar de él y a pedir que se trate.",
+  "facts_title": "En WA LAM",
+  "facts": [
+   "Atención con autorización médica firmada",
+   "Dolor durante y después del tratamiento",
+   "Escucha, valoración global y calidad de vida",
+   "Primera visita: 60 min · 90 €"
+  ],
+  "wa": "Hola, me gustaría información sobre el dolor oncológico.",
+  "mirror": {
+   "h2": "¿Se reconoce en estos síntomas?",
+   "qs": [
+    "¿Tiene hormigueo, quemazón o dolor en las manos o los pies desde la quimioterapia?",
+    "¿Le han quedado molestias, tirantez o rigidez tras una cirugía o la radioterapia?",
+    "¿Le duelen las articulaciones desde que toma hormonoterapia?",
+    "¿El cansancio, el mal descanso y la preocupación hacen que el dolor pese más cada día?"
+   ],
+   "close": "Ante un dolor nuevo, intenso o con pérdida de fuerza, avise a su equipo oncológico; vea las señales de alarma más abajo."
+  },
+  "explain": {
+   "h2": "¿Qué es el dolor oncológico?",
+   "paras": [
+    "El dolor oncológico es el dolor relacionado con el cáncer, ya sea por la **propia enfermedad**, por los **tratamientos** o por sus **secuelas**. No es un único tipo de dolor, sino un conjunto de dolores con mecanismos distintos que pueden coexistir en una misma persona: un dolor óseo por una metástasis, un dolor neuropático por la quimioterapia y un dolor en la cicatriz de una cirugía, por ejemplo.",
+    "**Tipos según su mecanismo.** El dolor **nociceptivo somático** procede de los huesos, los músculos o la piel; es localizado y suele describirse como sordo o punzante. El dolor **visceral** procede de los órganos internos; es difuso, profundo, a veces cólico, y puede notarse lejos del órgano, en la espalda o el hombro. El dolor **neuropático** se debe a la afectación de los nervios por el tumor o por los tratamientos, y se percibe como quemazón, descargas u hormigueo. Muchas personas presentan un dolor **mixto**.",
+    "**Tipos según su evolución.** Se distingue el **dolor basal**, presente de forma continua a lo largo del día, y el **dolor irruptivo**, una exacerbación transitoria e intensa que aparece sobre un dolor basal controlado, de forma espontánea o con un movimiento. También se diferencia el dolor de la **fase activa** de la enfermedad y el dolor de los **supervivientes**, que persiste tras finalizar los tratamientos.",
+    "En los años sesenta, la médica británica Cicely Saunders, fundadora de los cuidados paliativos modernos, propuso el concepto de **«dolor total»**: el dolor de una persona con cáncer no es solo físico, sino que incluye una dimensión emocional, social y espiritual, y solo se alivia de verdad si se atienden todas ellas (Clark, Social Science & Medicine, 1999). Esa idea sigue siendo la base de la atención al dolor oncológico."
+   ]
+  },
+  "sections": [
+   {
+    "h2": "¿Es frecuente el dolor en el cáncer?",
+    "paras": [
+     "Sí. La revisión sistemática de referencia, que reunió 117 estudios con más de 63.000 pacientes, encontró dolor en el **55 %** de las personas durante el tratamiento oncológico, en el **39,3 %** de quienes ya lo habían terminado y en el **66,4 %** de quienes tenían una enfermedad avanzada, metastásica o terminal. El **38 %** de todos los pacientes tenía un dolor moderado o intenso (van den Beuken-van Everdingen et al., Journal of Pain and Symptom Management, 2016).",
+     "La actualización de esa revisión, con 444 estudios publicados entre 2014 y 2021, situó la prevalencia global del dolor en el **44,5 %** y la del dolor moderado o intenso en el **30,6 %**, cifras algo más bajas que en el pasado, que los autores atribuyen a una mayor atención a la valoración y al tratamiento del dolor (Snijders et al., Cancers, 2023). En Europa, una encuesta a 5.084 personas con cáncer de varios países europeos y de Israel encontró que el **56 %** sufría un dolor moderado o intenso al menos una vez al mes (Breivik et al., Annals of Oncology, 2009)."
+    ]
+   },
+   {
+    "h2": "¿Qué sucede en el cuerpo? ¿Por qué duele?",
+    "paras": [
+     "El tumor puede producir dolor de varias formas. Puede **comprimir o infiltrar** estructuras sensibles, como los huesos, los nervios o la cápsula de un órgano; puede **distender** un órgano hueco u obstruirlo; y libera, junto con las células inmunitarias que lo rodean, **sustancias químicas** que activan y sensibilizan los nociceptores, las terminaciones nerviosas del dolor. El hueso es una de las localizaciones donde el dolor oncológico es más frecuente e intenso: las células tumorales alteran el equilibrio entre la formación y la destrucción del hueso y estimulan las fibras nerviosas que lo recorren (Mantyh, Nature Reviews Neuroscience, 2006).",
+     "Cuando las señales de dolor se mantienen, el sistema nervioso se adapta: las neuronas de la médula espinal y del cerebro se vuelven más excitables y amplifican la información. Este fenómeno, la **sensibilización central**, explica que el dolor se extienda, que aparezca con estímulos leves y que no siempre se corresponda con el tamaño de la lesión (Woolf, Pain, 2011).",
+     "Una parte importante del dolor oncológico es **neuropático**. Una revisión sistemática de 22 estudios con 13.683 pacientes estimó que entre el **19 %** y el **39 %** de las personas con dolor oncológico tienen un componente neuropático, y que este tipo de dolor se debe con más frecuencia que el resto a los tratamientos (Bennett et al., Pain, 2012). Reconocerlo es importante, porque requiere un tratamiento específico."
+    ]
+   },
+   {
+    "h2": "¿Qué dolores pueden dejar los tratamientos?",
+    "paras": [
+     "Los tratamientos del cáncer salvan vidas, pero pueden dejar secuelas dolorosas, algunas transitorias y otras duraderas. Conocerlas ayuda a reconocerlas y a comunicarlas al equipo médico.",
+     "La **cirugía** puede dejar dolor persistente en la zona intervenida, sobre todo cuando se lesionan nervios. Tras la cirugía del cáncer de mama, el dolor persistente puede afectar hasta al 60 % de las pacientes; un metaanálisis de 30 estudios con 19.813 mujeres encontró que el riesgo era mayor en las más jóvenes, tras el **vaciamiento de los ganglios de la axila**, tras la **radioterapia** y cuando el dolor agudo postoperatorio había sido intenso (Wang et al., CMAJ, 2016).",
+     "La **quimioterapia** con algunos fármacos produce una **neuropatía periférica**: hormigueo, adormecimiento, quemazón o dolor en las manos y los pies, a veces con torpeza para los movimientos finos o inestabilidad. Un metaanálisis de 31 estudios con 4.179 pacientes encontró que afecta al **68 %** de las personas durante el primer mes tras la quimioterapia, al **60 %** a los tres meses y al **30 %** a los seis meses o más (Seretny et al., Pain, 2014).",
+     "La **hormonoterapia** con inhibidores de la aromatasa, utilizada en el cáncer de mama, se asocia a dolor y rigidez en las articulaciones; un metaanálisis estimó que afecta a alrededor del **46 %** de las mujeres que la reciben (Beckwée et al., Supportive Care in Cancer, 2017). La **radioterapia** puede producir, con el tiempo, fibrosis y pérdida de elasticidad de los tejidos irradiados, con tirantez y rigidez, y la cirugía y la radioterapia de los ganglios pueden favorecer el **linfedema**, la hinchazón de un brazo o una pierna."
+    ]
+   },
+   {
+    "h2": "¿Qué es el dolor irruptivo?",
+    "paras": [
+     "El dolor irruptivo es una **exacerbación transitoria** del dolor, de aparición rápida e intensidad elevada, que surge sobre un dolor basal que estaba controlado. Puede desencadenarse con un movimiento, al toser o al levantarse, o aparecer sin causa aparente, y suele durar minutos.",
+     "Es muy frecuente: una revisión sistemática con análisis conjunto de 19 estudios encontró dolor irruptivo en el **59,2 %** de las personas con dolor oncológico, desde el 39,9 % en las consultas externas hasta el 80,5 % en los centros de cuidados paliativos (Deandrea et al., Journal of Pain and Symptom Management, 2014). Es importante describirlo al equipo médico por separado del dolor de fondo, porque su tratamiento es distinto."
+    ]
+   },
+   {
+    "h2": "¿Para qué sirve el dolor? ¿Por qué hay que escucharlo?",
+    "paras": [
+     "El dolor es una **señal de alarma**: avisa de que algo está ocurriendo en el cuerpo. Las investigaciones recientes recuerdan que el sistema del dolor forma parte de las defensas del organismo; en un estudio en **ratones**, las neuronas del dolor del intestino estimulaban la producción del moco que protege su pared, y sin ellas la barrera intestinal se debilitaba y la inflamación empeoraba (Yang et al., Cell, 2022). Es un estudio en animales, pero ilustra que el dolor no es un simple efecto secundario, sino un mensaje.",
+     "En la persona con cáncer, esa señal tiene un valor especial: **un dolor nuevo**, o un cambio en un dolor conocido, puede indicar una complicación o un cambio en la enfermedad y debe comunicarse siempre al equipo oncológico. Al mismo tiempo, cuando la causa ya se conoce, el dolor que persiste deja de proteger y solo resta calidad de vida. Por eso tiene que tratarse: aliviarlo es un objetivo del tratamiento, no un lujo."
+    ]
+   },
+   {
+    "h2": "¿Cómo afecta el dolor a la calidad de vida?",
+    "paras": [
+     "El dolor oncológico rara vez llega solo. Con frecuencia forma un **grupo de síntomas** con la **fatiga** y la **depresión**, que se refuerzan mutuamente. En un estudio con personas con cáncer avanzado, el número de pacientes que presentaba a la vez dolor, depresión y fatiga era de dos a cuatro veces mayor del que cabría esperar por azar, y la presencia de los tres se asoció a una peor capacidad física (Laird et al., Journal of Pain and Symptom Management, 2011). El dolor dificulta el **sueño**, la falta de sueño aumenta el cansancio y la sensibilidad al dolor, y el cansancio y el dolor reducen la actividad, lo que debilita la musculatura y empeora el ánimo.",
+     "El dolor afecta también a la **vida cotidiana**: a la capacidad de trabajar, de cuidar de la familia, de salir, de mantener las relaciones o la intimidad, y a la sensación de control sobre el propio cuerpo. Puede aumentar el miedo, porque muchas personas interpretan cada dolor como una señal de que la enfermedad avanza. Y tiene un impacto en el entorno, en las personas que acompañan y cuidan.",
+     "Por eso la valoración del dolor oncológico no se limita a preguntar «cuánto duele». Las guías recomiendan valorar también cómo interfiere en la actividad, el sueño y el estado de ánimo, y atender a la persona en su conjunto, tal como proponía Cicely Saunders con el concepto de dolor total."
+    ],
+    "list_title": "Ámbitos de la vida que el dolor puede afectar:",
+    "list": [
+     "El sueño y el descanso",
+     "La energía y la capacidad física",
+     "El estado de ánimo: tristeza, ansiedad, miedo",
+     "La concentración y la memoria",
+     "El trabajo y las tareas del hogar",
+     "Las relaciones familiares, sociales y de pareja",
+     "El apetito y la alimentación",
+     "La sensación de control y de autonomía"
+    ]
+   },
+   {
+    "h2": "¿Por qué a veces el dolor no se trata lo suficiente?",
+    "paras": [
+     "A pesar de los avances, una parte de las personas con cáncer sigue sin recibir un tratamiento del dolor proporcional a su intensidad. Una revisión sistemática que analizó 46 estudios publicados entre 1994 y 2013 encontró que la proporción de pacientes infratratados bajó del **43,4 %** al **31,8 %**: una mejora importante, pero que todavía deja a **alrededor de una de cada tres personas** sin la medicación adecuada para su dolor (Greco et al., Journal of Clinical Oncology, 2014).",
+     "Las razones son varias: el miedo de los pacientes a «molestar» o a parecer quejosos, la creencia de que el dolor es inevitable en el cáncer, el temor a los efectos de algunos fármacos, la dificultad para describir el dolor o la falta de tiempo en las consultas. Hablar del dolor con claridad, con datos concretos sobre su intensidad, su localización y cómo afecta a la vida diaria, es el primer paso para que se trate bien. **El alivio del dolor es un derecho**."
+    ]
+   },
+   {
+    "h2": "¿Qué ocurre cuando el tratamiento termina?",
+    "paras": [
+     "Terminar los tratamientos no siempre significa terminar con el dolor. Cerca de **cuatro de cada diez** personas mantienen dolor tras finalizar un tratamiento con intención curativa (van den Beuken-van Everdingen et al., 2016). Las secuelas más frecuentes son la neuropatía por quimioterapia, que persiste en el 30 % de las personas a los seis meses, el dolor persistente tras la cirugía, el dolor articular por hormonoterapia, la rigidez por fibrosis tras la radioterapia y el linfedema.",
+     "En los **supervivientes**, el dolor se comporta a menudo como un dolor crónico: puede depender más de la sensibilización del sistema nervioso, de la pérdida de condición física y de las compensaciones del cuerpo que de una lesión activa. Esta etapa, en la que la persona intenta recuperar su vida, merece la misma atención que la fase de tratamiento, y conviene que el dolor se valore de forma específica. Puede leer más en nuestras páginas de [dolor postquirúrgico](dolor-postquirurgico) y [dolor neuropático](dolor-neuropatico)."
+    ]
+   },
+   {
+    "h2": "¿Cómo se acompaña a la persona y no solo al dolor?",
+    "paras": [
+     "En el dolor oncológico, la primera condición es la **seguridad**: cualquier intervención física se plantea con la autorización firmada del médico responsable, que conoce la situación de la enfermedad, el estado de los huesos, la fase del tratamiento y los análisis. Con esa información, la valoración se adapta a cada momento.",
+     "La osteopatía entiende el cuerpo como un conjunto: la cicatriz de una cirugía, el brazo que se mueve menos, la respiración contenida, el cansancio y la preocupación forman parte de la misma historia. Jean-Pierre Barral insistía en que la emoción, cuando aparece, merece acogerse «con la misma sensibilidad y el mismo respeto» con que se trabajan los tejidos, y en que el papel del terapeuta es ayudar sin influir en la persona. En el cáncer, ese respeto se traduce en escuchar sin prisa, explicar lo que ocurre, adaptarse a cómo se encuentra cada día y coordinarse con el equipo médico."
+    ]
+   },
+   {
+    "h2": "¿Cuándo debo avisar a mi equipo médico de inmediato?",
+    "paras": [
+     "Algunas situaciones requieren contactar con el equipo oncológico o acudir a urgencias sin esperar a la siguiente cita:"
+    ],
+    "list": [
+     "Dolor de espalda nuevo o creciente, sobre todo si empeora al tumbarse o por la noche",
+     "Pérdida de fuerza o de sensibilidad en las piernas, inestabilidad al caminar",
+     "Dificultad para orinar, pérdida del control de la orina o de las heces",
+     "Fiebre durante la quimioterapia",
+     "Un dolor nuevo, muy intenso o que cambia de características",
+     "Dolor que no se controla con la medicación pautada",
+     "Dolor súbito en un hueso tras un golpe mínimo o un movimiento",
+     "Hinchazón brusca de un brazo o una pierna, con calor o enrojecimiento"
+    ]
+   },
+   {
+    "h2": "¿Cómo se valora el dolor oncológico?",
+    "paras": [
+     "Las guías de la Sociedad Europea de Oncología Médica (ESMO) recomiendan valorar el dolor de forma **sistemática y periódica** en todas las personas con cáncer (Fallon et al., Annals of Oncology, 2018). La valoración incluye la **intensidad**, en una escala de 0 a 10; la **localización** y la irradiación; las **características**, que orientan hacia un dolor somático, visceral o neuropático; el patrón temporal, con la presencia de dolor irruptivo; lo que lo empeora y lo alivia; y su **repercusión** en el sueño, la actividad y el ánimo.",
+     "El equipo oncológico solicita las pruebas de imagen o los análisis necesarios para conocer la causa del dolor y descartar una complicación. Llevar un **registro sencillo** del dolor, con su intensidad a lo largo del día, los episodios de dolor irruptivo y los efectos de la medicación, ayuda mucho en cada consulta."
+    ]
+   },
+   {
+    "h2": "¿Cómo se trata?",
+    "paras": [
+     "El tratamiento del dolor oncológico corresponde al equipo médico y se basa en tres principios recogidos en las guías ESMO: adaptar la analgesia a la **intensidad** del dolor y al tipo de dolor, tratar la **causa** cuando es posible y atender a la persona de forma **multidisciplinar** (Fallon et al., 2018). Los fármacos se eligen y se ajustan de forma escalonada, con medicación específica para el dolor neuropático y para el dolor irruptivo, y algunos tratamientos oncológicos, como la radioterapia sobre una metástasis ósea, alivian el dolor actuando sobre su origen.",
+     "La atención multidisciplinar incluye el apoyo psicológico, la atención a la fatiga y al sueño, la nutrición, la rehabilitación y los cuidados paliativos, que no se reservan para el final de la vida, sino que pueden acompañar desde el diagnóstico cuando los síntomas lo requieren. Cualquier intervención física fuera del hospital debe contar con la autorización del médico responsable."
+    ]
+   },
+   {
+    "h2": "¿Qué puedo hacer? Ejercicio y hábitos",
+    "paras": [
+     "La actividad física es una de las medidas mejor estudiadas en las personas con cáncer. La mesa redonda internacional del Colegio Americano de Medicina del Deporte concluyó que el ejercicio es **generalmente seguro** durante y después del tratamiento, que todas las personas supervivientes deberían **evitar la inactividad** y que dosis concretas de ejercicio aeróbico, de fuerza o combinado mejoran la **ansiedad**, los **síntomas depresivos**, la **fatiga**, la **función física** y la **calidad de vida**. Su efecto sobre la neuropatía periférica sigue siendo incierto (Campbell et al., Medicine & Science in Sports & Exercise, 2019).",
+     "La recomendación general es sumar unos 30 minutos de ejercicio aeróbico moderado tres veces por semana y ejercicios de fuerza dos veces por semana, adaptados a cada fase y siempre con el visto bueno del equipo médico. En los días de más cansancio, moverse un poco es mejor que no moverse: un paseo corto, unos estiramientos suaves o unos minutos de respiración lenta mantienen la movilidad y ayudan a descansar mejor."
+    ],
+    "list_title": "Hábitos que ayudan a convivir con el dolor:",
+    "list": [
+     "Moverse cada día dentro de lo que permita su estado",
+     "Hacer ejercicio de fuerza adaptado dos veces por semana, con autorización médica",
+     "Mantener horarios regulares de sueño",
+     "Cuidar la alimentación con ayuda de su equipo si ha perdido apetito o peso",
+     "Proteger manos y pies si tiene neuropatía",
+     "Mantener el contacto con las personas cercanas y pedir apoyo",
+     "Reservar momentos de calma y de actividades que le gusten"
+    ]
+   },
+   {
+    "h2": "¿Qué puedo hacer en el día a día?",
+    "paras": [],
+    "list": [
+     "Comunique a su equipo médico cualquier dolor nuevo o que cambie de características.",
+     "Lleve un registro sencillo de su dolor: intensidad, momento del día, episodios de dolor irruptivo y qué lo alivia.",
+     "Tome la medicación analgésica tal como se la han pautado, también la que es «a horas fijas».",
+     "Si tiene neuropatía, use calzado cómodo y cerrado y compruebe la temperatura del agua.",
+     "Si tiene linfedema o riesgo de tenerlo, siga las recomendaciones de cuidado del brazo o la pierna.",
+     "Cuide el sueño con horarios regulares y un entorno tranquilo.",
+     "Planifique las tareas para los momentos del día en que tiene más energía.",
+     "No dude en pedir ayuda psicológica: el dolor y el miedo se alivian mejor juntos."
+    ]
+   }
+  ],
+  "evidence": {
+   "h2": "Qué dice la evidencia",
+   "items": [
+    [
+     "Prevalencia (J Pain Symptom Manage)",
+     "En 117 estudios, el dolor afectó al 55 % de los pacientes durante el tratamiento, al 39,3 % tras finalizarlo y al 66,4 % en la enfermedad avanzada (van den Beuken-van Everdingen et al., 2016)."
+    ],
+    [
+     "Actualización (Cancers)",
+     "En 444 estudios publicados entre 2014 y 2021, la prevalencia del dolor fue del 44,5 % y la del dolor moderado o intenso del 30,6 % (Snijders et al., 2023)."
+    ],
+    [
+     "Encuesta europea (Ann Oncol)",
+     "De 5.084 personas con cáncer, el 56 % sufría un dolor moderado o intenso al menos una vez al mes (Breivik et al., 2009)."
+    ],
+    [
+     "Dolor neuropático (Pain)",
+     "Entre el 19 % y el 39 % de las personas con dolor oncológico tiene un componente neuropático (Bennett et al., 2012)."
+    ],
+    [
+     "Neuropatía por quimioterapia (Pain)",
+     "Afecta al 68 % de los pacientes el primer mes, al 60 % a los tres meses y al 30 % a los seis meses o más (Seretny et al., 2014)."
+    ],
+    [
+     "Hormonoterapia (Support Care Cancer)",
+     "Alrededor del 46 % de las mujeres tratadas con inhibidores de la aromatasa presenta dolor articular (Beckwée et al., 2017)."
+    ],
+    [
+     "Dolor irruptivo (J Pain Symptom Manage)",
+     "El 59,2 % de las personas con dolor oncológico presenta dolor irruptivo (Deandrea et al., 2014)."
+    ],
+    [
+     "Infratratamiento (J Clin Oncol)",
+     "La proporción de pacientes con un tratamiento del dolor insuficiente bajó del 43,4 % al 31,8 % (Greco et al., 2014)."
+    ],
+    [
+     "Ejercicio (Med Sci Sports Exerc)",
+     "El ejercicio es seguro y mejora la ansiedad, la depresión, la fatiga, la función física y la calidad de vida en supervivientes de cáncer (Campbell et al., 2019)."
+    ]
+   ],
+   "refs": [
+    {
+     "t": "Clark D, 1999. «'Total pain', disciplinary power and the body in the work of Cicely Saunders, 1958–1967». Social Science & Medicine.",
+     "doi": "10.1016/S0277-9536(99)00098-2"
+    },
+    {
+     "t": "van den Beuken-van Everdingen MHJ, Hochstenbach LMJ, Joosten EAJ, Tjan-Heijnen VCG, Janssen DJA, 2016. «Update on prevalence of pain in patients with cancer: systematic review and meta-analysis». Journal of Pain and Symptom Management.",
+     "doi": "10.1016/j.jpainsymman.2015.12.340"
+    },
+    {
+     "t": "Snijders RAH, Brom L, Theunissen M, van den Beuken-van Everdingen MHJ, 2023. «Update on prevalence of pain in patients with cancer 2022: a systematic literature review and meta-analysis». Cancers.",
+     "doi": "10.3390/cancers15030591"
+    },
+    {
+     "t": "Breivik H, Cherny N, Collett B, et al., 2009. «Cancer-related pain: a pan-European survey of prevalence, treatment, and patient attitudes». Annals of Oncology.",
+     "doi": "10.1093/annonc/mdp001"
+    },
+    {
+     "t": "Mantyh PW, 2006. «Cancer pain and its impact on diagnosis, survival and quality of life». Nature Reviews Neuroscience.",
+     "doi": "10.1038/nrn1914"
+    },
+    {
+     "t": "Woolf CJ, 2011. «Central sensitization: implications for the diagnosis and treatment of pain». Pain.",
+     "doi": "10.1016/j.pain.2010.09.030"
+    },
+    {
+     "t": "Bennett MI, Rayment C, Hjermstad M, Aass N, Caraceni A, Kaasa S, 2012. «Prevalence and aetiology of neuropathic pain in cancer patients: a systematic review». Pain.",
+     "doi": "10.1016/j.pain.2011.10.028"
+    },
+    {
+     "t": "Wang L, Guyatt GH, Kennedy SA, et al., 2016. «Predictors of persistent pain after breast cancer surgery: a systematic review and meta-analysis of observational studies». CMAJ.",
+     "doi": "10.1503/cmaj.151276"
+    },
+    {
+     "t": "Seretny M, Currie GL, Sena ES, et al., 2014. «Incidence, prevalence, and predictors of chemotherapy-induced peripheral neuropathy: a systematic review and meta-analysis». Pain.",
+     "doi": "10.1016/j.pain.2014.09.020"
+    },
+    {
+     "t": "Beckwée D, Leysen L, Meuwis K, Adriaenssens N, 2017. «Prevalence of aromatase inhibitor-induced arthralgia in breast cancer: a systematic review and meta-analysis». Supportive Care in Cancer.",
+     "doi": "10.1007/s00520-017-3613-z"
+    },
+    {
+     "t": "Deandrea S, Corli O, Consonni D, Villani W, Greco MT, Apolone G, 2014. «Prevalence of breakthrough cancer pain: a systematic review and a pooled analysis of published literature». Journal of Pain and Symptom Management.",
+     "doi": "10.1016/j.jpainsymman.2013.02.015"
+    },
+    {
+     "t": "Yang D, Jacobson A, Meerschaert KA, et al., 2022. «Nociceptor neurons direct goblet cells via a CGRP-RAMP1 axis to drive mucus production and gut barrier protection». Cell.",
+     "doi": "10.1016/j.cell.2022.09.024"
+    },
+    {
+     "t": "Laird BJA, Scott AC, Colvin LA, et al., 2011. «Pain, depression, and fatigue as a symptom cluster in advanced cancer». Journal of Pain and Symptom Management.",
+     "doi": "10.1016/j.jpainsymman.2010.10.261"
+    },
+    {
+     "t": "Greco MT, Roberto A, Corli O, et al., 2014. «Quality of cancer pain management: an update of a systematic review of undertreatment of patients with cancer». Journal of Clinical Oncology.",
+     "doi": "10.1200/JCO.2014.56.0383"
+    },
+    {
+     "t": "Fallon M, Giusti R, Aielli F, et al., 2018. «Management of cancer pain in adult patients: ESMO Clinical Practice Guidelines». Annals of Oncology.",
+     "doi": "10.1093/annonc/mdy152"
+    },
+    {
+     "t": "Campbell KL, Winters-Stone KM, Wiskemann J, et al., 2019. «Exercise guidelines for cancer survivors: consensus statement from international multidisciplinary roundtable». Medicine & Science in Sports & Exercise.",
+     "doi": "10.1249/MSS.0000000000002116"
+    }
+   ]
+  },
+  "faq": [
+   [
+    "¿Qué necesito para empezar?",
+    "Un documento firmado por su médico que autorice el tratamiento. Es un requisito para todas las personas con cáncer y permite cuidar su seguridad desde el primer día."
+   ],
+   [
+    "¿Es normal tener dolor con el cáncer?",
+    "Es frecuente, pero no hay que resignarse. Entre la mitad y dos tercios de las personas con cáncer tienen dolor en algún momento, y en la mayoría puede aliviarse de forma importante con un tratamiento adecuado."
+   ],
+   [
+    "¿Puedo venir durante la quimioterapia o la radioterapia?",
+    "Depende de su situación y de lo que indique su médico. La valoración se adapta a cada fase del tratamiento y a cómo se encuentre en cada momento."
+   ],
+   [
+    "¿Y si el tratamiento ya terminó pero el dolor continúa?",
+    "Es frecuente: cerca de cuatro de cada diez personas mantienen dolor tras finalizar el tratamiento. Esta etapa también merece atención, siempre con la autorización de su médico."
+   ],
+   [
+    "¿Qué es la neuropatía por quimioterapia?",
+    "Es la afectación de los nervios periféricos por algunos fármacos. Se manifiesta con hormigueo, adormecimiento, quemazón o dolor en manos y pies; en muchas personas mejora progresivamente tras el tratamiento, aunque en alrededor de un 30 % persiste a los seis meses."
+   ],
+   [
+    "¿Un dolor nuevo significa que el cáncer ha avanzado?",
+    "No necesariamente: muchos dolores se deben a los tratamientos, a la postura o a la falta de actividad. Pero cualquier dolor nuevo o diferente debe comunicarse al equipo oncológico, que es quien puede valorar su causa."
+   ],
+   [
+    "¿Puedo hacer ejercicio si tengo dolor?",
+    "En general, sí, y es recomendable: el ejercicio adaptado es seguro y mejora la fatiga, el ánimo y la calidad de vida. Consulte con su equipo médico qué tipo de ejercicio es adecuado en su caso, sobre todo si tiene metástasis óseas."
+   ],
+   [
+    "¿Atienden el linfedema tras una cirugía oncológica?",
+    "Sí, con autorización médica. Encontrará más información en [drenaje linfático en el linfedema](drenaje-linfatico-linfedema)."
+   ]
+  ],
+  "related": [
+   "dolor-postquirurgico",
+   "dolor-neuropatico",
+   "drenaje-linfatico-linfedema",
+   "sueno-insomnio"
+  ],
+  "cta_h2": "Pida información sobre su primera visita",
+  "seo": {
+   "kw": "dolor oncológico Barcelona",
+   "kws": [
+    "dolor tras tratamiento del cáncer",
+    "neuropatía por quimioterapia",
+    "dolor después del cáncer de mama",
+    "dolor y cáncer calidad de vida",
+    "dolor irruptivo"
+   ],
+   "ca_kw": "dolor oncològic Barcelona",
+   "quick": "El dolor oncológico es el dolor relacionado con el cáncer, debido al propio tumor, a los tratamientos (cirugía, quimioterapia, radioterapia u hormonoterapia) o a sus secuelas, y puede ser somático, visceral, neuropático o mixto. Lo presentan el 55 % de las personas durante el tratamiento, el 39 % tras finalizarlo y el 66 % en la enfermedad avanzada, y afecta al sueño, la energía y el ánimo. En Sarrià–Sant Gervasi (Barcelona) se atiende siempre con autorización médica firmada.",
+   "entity": [
+    "MedicalCondition",
+    "Dolor oncológico"
+   ]
+  },
+  "research": [
+   "Personas con cáncer o supervivientes con dolor, neuropatía o secuelas del tratamiento, y sus familias, que quieren entender el dolor oncológico y cómo afecta a la calidad de vida.",
+   [
+    "dolor oncológico qué es",
+    "neuropatía por quimioterapia",
+    "dolor tras cáncer de mama",
+    "dolor irruptivo cáncer",
+    "dolor y calidad de vida en el cáncer"
+   ],
+   [
+    "dolor oncològic Barcelona",
+    "neuropatia per quimioteràpia"
+   ],
+   "Unidades del dolor y de oncología hospitalarias (Clínic, Sant Pau, Vall d'Hebron) y asociaciones de pacientes."
+  ],
+  "ca": {}
+ }
+]

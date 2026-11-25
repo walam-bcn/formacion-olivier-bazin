@@ -360,3 +360,54 @@ FIGS = {
     "eje_intestino_disco": eje_intestino_disco,
     "nervio_ciatico": nervio_ciatico,
 }
+
+
+# ---------------------------------------------------------------- 8. escala de Bristol
+def escala_bristol(tr):
+    W, H = 860, 640
+    BR1, BR2 = "#B89A7A", "#8C6E52"
+    b = [f'<rect width="{W}" height="{H}" fill="#fff"/>',
+         _t(W / 2, 38, tr("Escala de Bristol"), 20, 400, PET, "middle"),
+         _t(W / 2, 60, tr("Una forma sencilla de describir la consistencia de las heces"), 13, 300, "#5d7778", "middle")]
+    rows = [
+        (tr("Tipo 1"), tr("Bolitas duras y separadas"), tr("Estreñimiento"), CORAL),
+        (tr("Tipo 2"), tr("Forma de salchicha, con bultos"), tr("Estreñimiento leve"), CORAL),
+        (tr("Tipo 3"), tr("Salchicha con grietas en la superficie"), tr("Normal"), "#0a9fa2"),
+        (tr("Tipo 4"), tr("Salchicha lisa y blanda"), tr("Normal"), "#0a9fa2"),
+        (tr("Tipo 5"), tr("Trozos blandos de bordes definidos"), tr("Tendencia a heces blandas"), "#B8A24E"),
+        (tr("Tipo 6"), tr("Trozos esponjosos de bordes irregulares"), tr("Diarrea leve"), CORAL),
+        (tr("Tipo 7"), tr("Acuosas, sin trozos sólidos"), tr("Diarrea"), CORAL),
+    ]
+    for i, (k, d, verdict, col) in enumerate(rows):
+        y = 100 + i * 76
+        if i in (2, 3):
+            b.append(f'<rect x="30" y="{y-30}" width="{W-60}" height="70" rx="8" fill="{TQ}" opacity=".07"/>')
+        b.append(_t(50, y + 6, k, 15, 500, PET))
+        cx, cy = 230, y
+        g = []
+        if i == 0:
+            for j, dx in enumerate((-48, -18, 12, 42)):
+                g.append(f'<circle cx="{cx+dx}" cy="{cy + (j % 2) * 6 - 3}" r="11" fill="{BR2}"/>')
+        elif i == 1:
+            g.append(f'<path d="M{cx-70} {cy} q10 -16 24 -10 q12 -12 26 -4 q14 -12 28 -2 q14 -10 26 2 q14 4 10 16 q-6 10 -22 8 q-14 10 -28 2 q-14 8 -28 0 q-14 8 -26 -2 q-12 -2 -10 -10z" fill="{BR2}"/>')
+        elif i == 2:
+            g.append(f'<rect x="{cx-72}" y="{cy-13}" width="144" height="26" rx="13" fill="{BR1}"/>')
+            for dx in (-40, -10, 22, 48):
+                g.append(f'<path d="M{cx+dx} {cy-12} l-5 8 M{cx+dx+6} {cy+12} l4 -7" stroke="#fff" stroke-width="1.6" stroke-linecap="round"/>')
+        elif i == 3:
+            g.append(f'<path d="M{cx-74} {cy+4} C{cx-70} {cy-16} {cx+40} {cy-20} {cx+70} {cy-6} C{cx+80} {cy+2} {cx+76} {cy+14} {cx+60} {cy+14} C{cx+20} {cy+14} {cx-60} {cy+20} {cx-74} {cy+4}Z" fill="{BR1}"/>')
+        elif i == 4:
+            for dx, rx in ((-52, 18), (-14, 16), (22, 17), (56, 14)):
+                g.append(f'<ellipse cx="{cx+dx}" cy="{cy}" rx="{rx}" ry="11" fill="{BR1}"/>')
+        elif i == 5:
+            g.append(f'<path d="M{cx-70} {cy} q8 -18 22 -8 q8 -14 20 -4 q12 -16 22 -2 q12 -12 22 0 q14 -8 20 6 q8 12 -6 16 q-10 8 -22 2 q-10 10 -22 2 q-12 8 -22 0 q-12 6 -20 -2 q-16 4 -14 -10z" fill="{BR1}" opacity=".85"/>')
+        else:
+            g.append(f'<path d="M{cx-78} {cy+4} C{cx-50} {cy-14} {cx-20} {cy+16} {cx+10} {cy} S{cx+60} {cy-12} {cx+80} {cy+6} C{cx+60} {cy+18} {cx-50} {cy+20} {cx-78} {cy+4}Z" fill="{BR1}" opacity=".55"/>')
+        b.extend(g)
+        b.append(_t(340, y - 2, d, 15, 300, PET))
+        b.append(_t(340, y + 18, verdict, 13, 400, col))
+    b.append(_t(W / 2, H - 14, tr("Los tipos 3 y 4 son los más habituales en un intestino que funciona bien"), 12, 300, "#5d7778", "middle"))
+    return _svg(W, H, "".join(b), tr("Escala de Bristol de las heces"))
+
+
+FIGS["escala_bristol"] = escala_bristol

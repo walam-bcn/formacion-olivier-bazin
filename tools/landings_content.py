@@ -2801,7 +2801,10 @@ FIG_PLACE = {
     "ciatica": [("nervio_ciatico", "¿Qué es", ""), ("disco_progresion", "ernia", ""), ("sintomas_compresion", "ernia", "")],
     "lumbalgia-dolor-lumbar": [("disco_progresion", "ernia", ""), ("sintomas_compresion", "ernia", ""), ("eje_intestino_disco", "icrobiota", "")],
     "hernia-disco-incipiente": [("disco_progresion", "¿Qué es", ""), ("sintomas_compresion", "fectos", ""), ("eje_intestino_disco", "icrobiota", "")],
-    "salud-digestiva-microbiota": [("eje_intestino_disco", "dolor de espalda", "")],
+    "salud-digestiva-microbiota": [("eje_intestino_disco", "dolor de espalda", ""), ("escala_bristol", "heces", "")],
+    "diarrea-cronica": [("escala_bristol", "¿Qué es", "")],
+    "estrenimiento": [("escala_bristol", "¿Qué es", "")],
+    "colon-irritable-sibo": [("escala_bristol", "¿Qué es", "")],
     "pni-pnie-barcelona": [("eje_intestino_disco", "dolor de espalda", "")],
 }
 
