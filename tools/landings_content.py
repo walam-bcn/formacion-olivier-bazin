@@ -2908,3 +2908,30 @@ _NAV_FIX = {"hernia-disco-incipiente": "Hernias de disco incipientes y protrusi�
 for _p in PAGES:
     if _p["slug"] in _NAV_FIX:
         _p["nav"] = _NAV_FIX[_p["slug"]]
+
+# ── Dolor crónico: orden pedido por Rosa (25 nov 2026) ──
+# síntomas → osteopatía → diagnóstico → exploración → entender → tratamiento → primera visita → fases → resto
+_DC_ORDER = ["¿Se reconoce en estos síntomas?", "¿Cuáles son los síntomas?",
+             "¿Cómo se entiende el dolor crónico desde la osteopatía?",
+             "¿Cómo se diagnostica?", "¿Cómo se explora?", "¿Por qué es importante entender el dolor?",
+             "¿Cómo se trata?", "__visit", "__phases", "¿Qué es el dolor crónico?"]
+for _p in PAGES:
+    if _p["slug"] != "dolor-persistente-cronico":
+        continue
+    _bl = _p["blocks"]
+    def _key(b):
+        if b.get("type") == "visit": return "__visit"
+        if b.get("type") == "phases": return "__phases"
+        h = b.get("h2", "")
+        return next((k for k in _DC_ORDER if k.startswith("¿") and h.startswith(k)), None)
+    _first = []
+    for _k in _DC_ORDER:
+        for _b in _bl:
+            if _key(_b) == _k and _b not in _first:
+                _first.append(_b)
+    _p["blocks"] = _first + [b for b in _bl if b not in _first]
+    for _b in _p["blocks"]:
+        if _b.get("h2", "").startswith("¿Cómo se entiende el dolor crónico desde la osteopatía?"):
+            _b["paras"] = [x.replace("Puede leer más en nuestra página de [osteopatía visceral](osteopatia-visceral-barcelona).",
+                "Puede leer más en nuestras páginas de [osteopatía](osteopatia-sarria-sant-gervasi), [osteopatía craneosacral](osteopatia-craneosacral-barcelona) y [osteopatía visceral](osteopatia-visceral-barcelona).")
+                for x in _b["paras"]]
