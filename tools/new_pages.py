@@ -28,9 +28,10 @@ def load():
 
 def _page(d):
     ev = d["evidence"]
+    # primero «¿Qué es…?», después los síntomas (petición de Rosa, 25 nov 2026)
     blocks = [
-        {"type": "mirror", "eyebrow": "", "h2": d["mirror"]["h2"], "qs": d["mirror"]["qs"], "close": d["mirror"].get("close", "")},
         {"type": "explain", "eyebrow": "Qué es", "h2": d["explain"]["h2"], "paras": d["explain"]["paras"]},
+        {"type": "mirror", "eyebrow": "", "h2": d["mirror"]["h2"], "qs": d["mirror"]["qs"], "close": d["mirror"].get("close", "")},
     ]
     if d.get("explain2"):
         blocks.append({"type": "explain", "eyebrow": "", "h2": d["explain2"]["h2"], "paras": d["explain2"]["paras"]})
@@ -39,8 +40,9 @@ def _page(d):
         if sec.get("list"):
             blk["list_title"] = sec.get("list_title", ""); blk["list"] = sec["list"]
         blocks.append(blk)
+    if d.get("cards"):
+        blocks.append({"type": "cards", "eyebrow": "Cómo lo abordamos", "h2": d["cards"]["h2"], "items": d["cards"]["items"]})
     blocks += [
-        {"type": "cards", "eyebrow": "Cómo lo abordamos", "h2": d["cards"]["h2"], "items": d["cards"]["items"]},
         {"type": "evidence", "h2": ev.get("h2", "Qué dice la evidencia"), "items": [tuple(x) for x in ev["items"]], "refs": ev.get("refs", [])},
     ]
     return {"slug": d["slug"], "group": d.get("group", "motivo"), "wave": 3, "nav": d["nav"], "card": d["card"], "title": d["title"], "desc": d["desc"],

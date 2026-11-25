@@ -1,0 +1,364 @@
+[
+ {
+  "slug": "cervicalgia-dolor-cuello",
+  "ca_slug": "cervicalgia-dolor-coll",
+  "nav": "Cervicalgia",
+  "card": "Dolor de cuello agudo o crónico: qué es, por qué aparece, cómo se valora y cómo se trata.",
+  "title": "Cervicalgia y dolor de cuello en Barcelona | WA LAM",
+  "desc": "Qué es la cervicalgia, por qué aparece y cómo se valora con anamnesis y palpación. Tratamiento conservador con osteopatía en Sarrià–Sant Gervasi, Barcelona.",
+  "h1": "Cervicalgia y dolor de cuello en Barcelona",
+  "sub": "Qué es, por qué aparece y cómo se valora · Sarrià–Sant Gervasi",
+  "lead": "La cervicalgia es el dolor en la región del cuello, entre la base del cráneo y el inicio de la espalda. Es uno de los motivos de consulta más frecuentes en osteopatía y fisioterapia y, en la mayoría de los casos, tiene un origen mecánico y buen pronóstico con un tratamiento conservador.",
+  "facts_title": "En WA LAM",
+  "facts": [
+   "Cervicalgia aguda, subaguda y crónica",
+   "Anamnesis y exploración palpatoria",
+   "Tratamiento conservador con osteopatía",
+   "Primera visita: 60 min · 90 €"
+  ],
+  "wa": "Hola, me gustaría información sobre el tratamiento del dolor de cuello.",
+  "mirror": {
+   "h2": "¿Se reconoce en estos síntomas?",
+   "qs": [
+    "¿Le cuesta girar o inclinar la cabeza, o se levanta con el cuello rígido?",
+    "¿El dolor se extiende hacia la nuca, los hombros o entre los omóplatos?",
+    "¿Aparece dolor de cabeza cuando el cuello está cargado?",
+    "¿Nota hormigueo, adormecimiento o dolor que baja por un brazo?"
+   ],
+   "close": "Si presenta alguna de las señales de alarma que explicamos más abajo, consulte primero con su médico o acuda a urgencias."
+  },
+  "explain": {
+   "h2": "¿Qué es la cervicalgia?",
+   "paras": [
+    "La cervicalgia es el dolor que se localiza en la región cervical posterior, desde la nuca hasta la primera vértebra dorsal, y que puede extenderse hacia la cabeza, los hombros o la zona entre los omóplatos. No es un diagnóstico en sí mismo, sino un síntoma: indica dónde duele. La valoración clínica sirve para entender por qué duele.",
+    "La columna cervical está formada por siete vértebras. Entre ellas se sitúan los discos intervertebrales y las pequeñas articulaciones posteriores (articulaciones facetarias), rodeadas de ligamentos, fascia y una musculatura profunda y superficial que sostiene una cabeza de unos 4 o 5 kilos. Por los agujeros de conjunción salen las raíces nerviosas que llegan al cuello, los hombros y los brazos. Cualquiera de estas estructuras puede generar dolor.",
+    "Según su duración se habla de cervicalgia **aguda** (menos de 6 semanas), **subaguda** (de 6 semanas a 3 meses) y **crónica** (más de 3 meses). La guía de práctica clínica de la Asociación Americana de Fisioterapia distingue además cuatro presentaciones: el dolor de cuello con pérdida de movilidad, el que se asocia a alteraciones del control del movimiento (como tras un latigazo cervical), el que se acompaña de dolor de cabeza (cefalea cervicogénica) y el que se irradia al brazo (radiculopatía cervical)."
+   ]
+  },
+  "sections": [
+   {
+    "h2": "¿Es frecuente?",
+    "paras": [
+     "El dolor de cuello es uno de los problemas musculoesqueléticos más comunes. Según el estudio Global Burden of Disease, en 2020 lo padecían unos 203 millones de personas en el mundo, con mayor frecuencia en mujeres, y se prevé que en 2050 la cifra alcance los 269 millones (Wu et al., Lancet Rheumatology, 2024).",
+     "Entre el 30 % y el 50 % de los adultos tiene dolor de cuello a lo largo de un año. Además, tiende a repetirse: entre el 50 % y el 85 % de las personas que lo sufren vuelven a presentarlo entre uno y cinco años después (Hogg-Johnson et al., Spine, 2008)."
+    ]
+   },
+   {
+    "h2": "¿Por qué aparece?",
+    "paras": [
+     "En la gran mayoría de los casos la cervicalgia es **mecánica o inespecífica**: el dolor procede de los músculos, las articulaciones facetarias, los ligamentos o el disco, sin una lesión grave que lo explique. Con menos frecuencia se debe a la compresión de una raíz nerviosa por una hernia discal o por artrosis (radiculopatía cervical), a un traumatismo como el latigazo cervical o, de forma excepcional, a enfermedades que requieren valoración médica.",
+     "Los cambios degenerativos que muestran las pruebas de imagen, como la artrosis o las protrusiones discales, son muy frecuentes y no siempre explican el dolor: en un estudio con resonancia magnética en 1.211 personas sin síntomas, el 87,6 % presentaba protrusiones discales (Nakashima et al., Spine, 2015)."
+    ],
+    "list_title": "Factores que se asocian a su aparición o a que se mantenga:",
+    "list": [
+     "Posturas mantenidas y muchas horas de trabajo con pantallas",
+     "Episodios previos de dolor de cuello o un traumatismo anterior",
+     "Estrés, ansiedad y sueño insuficiente",
+     "Poca actividad física y escasa resistencia de la musculatura del cuello y de los omóplatos",
+     "Bruxismo y alteraciones de la articulación temporomandibular",
+     "Tareas repetitivas con los brazos elevados"
+    ]
+   },
+   {
+    "h2": "El cuello no es una pieza aislada",
+    "paras": [
+     "Desde la osteopatía, el cuello se valora como parte de un conjunto. La columna cervical se relaciona con la mandíbula, la cintura escapular, la columna dorsal y las primeras costillas, y también con estructuras viscerales: la cúpula pleural, el vértice de la envoltura del pulmón, está suspendida de la columna cervical inferior por los ligamentos suspensorios de la pleura, y el nervio frénico, que nace de las raíces cervicales C3 a C5, inerva el diafragma.",
+     "Jean-Pierre Barral, osteópata y fisioterapeuta francés, desarrolló su método a partir de una observación de este tipo. Trabajando en un hospital de enfermedades pulmonares de Grenoble, observó en una disección cambios en la columna cervical del mismo lado de una retracción pulmonar. Por eso, en su modelo, un dolor de cuello que no evoluciona como se espera invita a explorar también los tejidos relacionados con él."
+    ]
+   },
+   {
+    "h2": "Señales de alarma: cuándo consultar con su médico",
+    "paras": [
+     "Son poco frecuentes, pero obligan a descartar otras causas antes de cualquier tratamiento manual:"
+    ],
+    "list": [
+     "Dolor tras un traumatismo importante, como un accidente o una caída",
+     "Pérdida de fuerza, hormigueo o adormecimiento progresivo en los brazos",
+     "Torpeza en las manos o alteraciones al caminar",
+     "Fiebre, pérdida de peso sin causa aparente o antecedentes de cáncer",
+     "Dolor nocturno intenso que no cede con el reposo",
+     "Mareo intenso, visión doble, dificultad para hablar o para tragar",
+     "Dolor de cabeza súbito y muy intenso"
+    ]
+   },
+   {
+    "h2": "¿Cómo se valora? La anamnesis",
+    "paras": [
+     "La valoración empieza siempre por una **anamnesis detallada**: cómo y cuándo empezó el dolor, si hubo un traumatismo, qué movimientos o posturas lo empeoran o lo alivian, cómo se comporta a lo largo del día y de la noche, si se irradia a la cabeza o a los brazos, y qué pruebas y tratamientos ha recibido.",
+     "También se recogen el trabajo, el descanso, el nivel de estrés, otras molestias del cuerpo y antecedentes como cirugías, cicatrices, traumatismos antiguos o problemas digestivos y respiratorios. La anamnesis permite reconocer las señales de alarma, orientar el tipo de cervicalgia y decidir qué estructuras conviene explorar."
+    ]
+   },
+   {
+    "h2": "La exploración: la palpación como herramienta diagnóstica",
+    "paras": [
+     "Tras observar la postura y la movilidad activa y pasiva del cuello, se realiza una exploración neurológica básica de los brazos (fuerza, sensibilidad y reflejos) y, cuando procede, pruebas específicas de irritación de las raíces nerviosas.",
+     "La **palpación** es el centro de la exploración osteopática. Barral la llama **escucha manual** (*listening*): una palpación que busca diferencias de tensión, densidad, movilidad y temperatura en los tejidos. Distingue una escucha general, que orienta hacia la región que más llama la atención en el conjunto del cuerpo, y una escucha local, que precisa la estructura implicada: la articulación, el músculo, la fascia, el nervio, la víscera o el vaso. En su modelo, identificar qué tejido se está percibiendo exige un conocimiento anatómico preciso, y la técnica dependerá de ese tejido.",
+     "Las pruebas de imagen, como la radiografía o la resonancia, no son necesarias en la mayoría de los casos. Se reservan para los traumatismos, los déficits neurológicos, las señales de alarma o una evolución desfavorable."
+    ]
+   },
+   {
+    "h2": "Tratamiento: primero, conservador",
+    "paras": [
+     "El tratamiento inicial de la cervicalgia es **conservador**. Las guías de práctica clínica recomiendan mantenerse activo, evitar el collarín salvo indicación médica, explicar el buen pronóstico de la mayoría de los casos y combinar terapia manual con ejercicio terapéutico de movilidad, control motor y fuerza para el cuello y la cintura escapular (Blanpied et al., JOSPT, 2017).",
+     "Las técnicas de terapia manual que se utilizan en osteopatía y en fisioterapia, como la movilización y la manipulación articular o las técnicas sobre partes blandas y fascia, han mostrado mejorar el dolor y la función en la cervicalgia crónica inespecífica (Coulter et al., Pain Physician, 2019; Franke et al., International Journal of Osteopathic Medicine, 2015).",
+     "La técnica no se decide de antemano: se elige en cada caso después de la anamnesis y la exploración, según el tejido implicado, la fase del dolor y la edad y el estado de cada persona. Las infiltraciones o la cirugía se reservan para casos seleccionados, por ejemplo, una radiculopatía con pérdida de fuerza progresiva que no responde al tratamiento conservador."
+    ]
+   },
+   {
+    "h2": "Recomendaciones para el día a día",
+    "paras": [],
+    "list": [
+     "Coloque la pantalla a la altura de los ojos y apoye bien la espalda al trabajar.",
+     "Haga pausas breves cada 30–45 minutos para mover el cuello y los hombros.",
+     "Evite sostener el móvil con la cabeza inclinada durante mucho tiempo.",
+     "Utilice una almohada que mantenga el cuello alineado con la columna.",
+     "Aplique calor local suave cuando note rigidez.",
+     "Mantenga su actividad habitual dentro de lo tolerable: el reposo prolongado no acelera la recuperación."
+    ]
+   }
+  ],
+  "evidence": {
+   "h2": "Qué dice la evidencia",
+   "items": [
+    [
+     "Carga global (Lancet Rheumatology)",
+     "En 2020, unos 203 millones de personas tenían dolor de cuello en el mundo; se prevén 269 millones en 2050 (Wu et al., 2024)."
+    ],
+    [
+     "Evolución (Spine)",
+     "Entre el 50 % y el 85 % de las personas con dolor de cuello vuelven a presentarlo entre uno y cinco años después (Hogg-Johnson et al., 2008)."
+    ],
+    [
+     "Imagen (Spine)",
+     "El 87,6 % de 1.211 personas sin síntomas presentaba protrusiones discales en la resonancia cervical (Nakashima et al., 2015)."
+    ],
+    [
+     "Guía clínica (JOSPT)",
+     "La guía de práctica clínica recomienda combinar terapia manual y ejercicio terapéutico, también tras un latigazo cervical (Blanpied et al., 2017)."
+    ],
+    [
+     "Terapia manual (Pain Physician)",
+     "En la cervicalgia crónica inespecífica, la movilización y la manipulación mejoran el dolor y la función (Coulter et al., 2019)."
+    ],
+    [
+     "Osteopatía (Int J Osteopath Med)",
+     "El tratamiento osteopático manipulativo redujo el dolor en la cervicalgia crónica inespecífica (Franke et al., 2015)."
+    ]
+   ],
+   "refs": [
+    {
+     "t": "Wu AM, Cross M, Elliott JM, et al., 2024. «Global, regional, and national burden of neck pain, 1990–2020, and projections to 2050: a systematic analysis of the Global Burden of Disease Study 2021». The Lancet Rheumatology.",
+     "doi": "10.1016/S2665-9913(23)00321-1"
+    },
+    {
+     "t": "Hogg-Johnson S, van der Velde G, Carroll LJ, et al., 2008. «The burden and determinants of neck pain in the general population: results of the Bone and Joint Decade 2000–2010 Task Force on Neck Pain and Its Associated Disorders». Spine.",
+     "doi": "10.1097/BRS.0b013e31816454c8"
+    },
+    {
+     "t": "Nakashima H, Yukawa Y, Suda K, et al., 2015. «Abnormal findings on magnetic resonance images of the cervical spines in 1211 asymptomatic subjects». Spine.",
+     "doi": "10.1097/BRS.0000000000000775"
+    },
+    {
+     "t": "Blanpied PR, Gross AR, Elliott JM, et al., 2017. «Neck Pain: Revision 2017. Clinical Practice Guidelines Linked to the International Classification of Functioning, Disability and Health From the Orthopaedic Section of the American Physical Therapy Association». Journal of Orthopaedic & Sports Physical Therapy.",
+     "doi": "10.2519/jospt.2017.0302"
+    },
+    {
+     "t": "Coulter ID, Crawford C, Vernon H, et al., 2019. «Manipulation and Mobilization for Treating Chronic Nonspecific Neck Pain: A Systematic Review and Meta-Analysis for an Appropriateness Panel». Pain Physician.",
+     "doi": "10.36076/ppj/2019.22.E55"
+    },
+    {
+     "t": "Franke H, Franke JD, Fryer G, 2015. «Osteopathic manipulative treatment for chronic nonspecific neck pain: a systematic review and meta-analysis». International Journal of Osteopathic Medicine.",
+     "doi": "10.1016/j.ijosm.2015.05.003"
+    }
+   ]
+  },
+  "faq": [
+   [
+    "¿Qué diferencia hay entre una cervicalgia y una hernia cervical?",
+    "La hernia discal cervical es una de las posibles causas de dolor de cuello, pero no la más frecuente. Cuando comprime una raíz nerviosa produce dolor que baja por el brazo, hormigueo o pérdida de fuerza (radiculopatía). Muchas hernias y protrusiones que aparecen en la resonancia no producen síntomas."
+   ],
+   [
+    "¿Qué puedo hacer si tengo una tortícolis?",
+    "Mantenga el cuello en movimiento suave dentro de lo tolerable y aplique calor local. Suele mejorar en pocos días; si no es así, una valoración ayuda a recuperar la movilidad. Puede consultar también nuestra página de [tortícolis](torticolis)."
+   ],
+   [
+    "¿Atienden el dolor de cuello tras un latigazo cervical?",
+    "Sí. Una vez descartadas lesiones mediante la valoración médica de urgencias, se valora el cuello y su entorno y se plantea un tratamiento conservador progresivo."
+   ],
+   [
+    "¿El dolor de cuello puede provocar dolor de cabeza?",
+    "Sí. Las estructuras de la parte alta del cuello pueden referir dolor a la nuca y la cabeza (cefalea cervicogénica). Si las cefaleas son frecuentes, consulte también nuestra página de [cefaleas y migraña](cefaleas-migrana)."
+   ],
+   [
+    "¿Necesito una radiografía o una resonancia?",
+    "En la mayoría de los casos no es necesaria. Se reserva para situaciones concretas, como un traumatismo, síntomas neurológicos o una evolución desfavorable. Si ya tiene pruebas, tráigalas a la primera visita."
+   ],
+   [
+    "¿Cuántas sesiones necesitaré?",
+    "Depende de cada caso. En la primera visita valoramos su situación y le proponemos un plan con objetivos claros y revisiones periódicas."
+   ]
+  ],
+  "related": [
+   "torticolis",
+   "dorsalgia-dolor-espalda-alta",
+   "cefaleas-migrana",
+   "bruxismo-dolor-mandibular-atm"
+  ],
+  "cta_h2": "Recupere la movilidad de su cuello",
+  "seo": {
+   "kw": "cervicalgia Barcelona",
+   "kws": [
+    "dolor de cuello Barcelona",
+    "qué es la cervicalgia",
+    "dolor cervical crónico",
+    "osteópata cervicales Barcelona",
+    "latigazo cervical Barcelona"
+   ],
+   "ca_kw": "cervicàlgia Barcelona",
+   "quick": "La cervicalgia es el dolor en la región del cuello, entre la base del cráneo y el inicio de la espalda. Suele tener un origen mecánico y su tratamiento inicial es conservador. En WA LAM, en Sarrià–Sant Gervasi (Barcelona), la valoramos con una anamnesis detallada y una exploración palpatoria osteopática.",
+   "entity": [
+    "MedicalCondition",
+    "Cervicalgia"
+   ]
+  },
+  "research": [
+   "Personas con dolor o rigidez de cuello que quieren entender qué les pasa y buscan un tratamiento conservador en Barcelona.",
+   [
+    "qué es la cervicalgia",
+    "cervicalgia tratamiento Barcelona",
+    "dolor cervical crónico qué hacer"
+   ],
+   [
+    "dolor de coll Barcelona",
+    "cervicàlgia tractament"
+   ],
+   "Hospitales con fichas médicas generales y clínicas de fisioterapia y osteopatía con páginas breves centradas en la técnica."
+  ],
+  "ca": {
+   "Cervicalgia": "Cervicàlgia",
+   "Dolor de cuello agudo o crónico: qué es, por qué aparece, cómo se valora y cómo se trata.": "Dolor de coll agut o crònic: què és, per què apareix, com es valora i com es tracta.",
+   "Cervicalgia y dolor de cuello en Barcelona | WA LAM": "Cervicàlgia i dolor de coll a Barcelona | WA LAM",
+   "Qué es la cervicalgia, por qué aparece y cómo se valora con anamnesis y palpación. Tratamiento conservador con osteopatía en Sarrià–Sant Gervasi, Barcelona.": "Què és la cervicàlgia, per què apareix i com es valora amb anamnesi i palpació. Tractament conservador amb osteopatia a Sarrià–Sant Gervasi, Barcelona.",
+   "Cervicalgia y dolor de cuello en Barcelona": "Cervicàlgia i dolor de coll a Barcelona",
+   "Qué es, por qué aparece y cómo se valora · Sarrià–Sant Gervasi": "Què és, per què apareix i com es valora · Sarrià–Sant Gervasi",
+   "La cervicalgia es el dolor en la región del cuello, entre la base del cráneo y el inicio de la espalda. Es uno de los motivos de consulta más frecuentes en osteopatía y fisioterapia y, en la mayoría de los casos, tiene un origen mecánico y buen pronóstico con un tratamiento conservador.": "La cervicàlgia és el dolor a la regió del coll, entre la base del crani i l'inici de l'esquena. És un dels motius de consulta més freqüents en osteopatia i fisioteràpia i, en la majoria dels casos, té un origen mecànic i bon pronòstic amb un tractament conservador.",
+   "En WA LAM": "A WA LAM",
+   "Cervicalgia aguda, subaguda y crónica": "Cervicàlgia aguda, subaguda i crònica",
+   "Anamnesis y exploración palpatoria": "Anamnesi i exploració palpatòria",
+   "Tratamiento conservador con osteopatía": "Tractament conservador amb osteopatia",
+   "Primera visita: 60 min · 90 €": "Primera visita: 60 min · 90 €",
+   "Hola, me gustaría información sobre el tratamiento del dolor de cuello.": "Hola, voldria informació sobre el tractament del dolor de coll.",
+   "¿Se reconoce en estos síntomas?": "Es reconeix en aquests símptomes?",
+   "¿Le cuesta girar o inclinar la cabeza, o se levanta con el cuello rígido?": "Li costa girar o inclinar el cap, o es lleva amb el coll rígid?",
+   "¿El dolor se extiende hacia la nuca, los hombros o entre los omóplatos?": "El dolor s'estén cap a la nuca, les espatlles o entre els omòplats?",
+   "¿Aparece dolor de cabeza cuando el cuello está cargado?": "Apareix mal de cap quan el coll està carregat?",
+   "¿Nota hormigueo, adormecimiento o dolor que baja por un brazo?": "Nota formigueig, adormiment o dolor que baixa per un braç?",
+   "Si presenta alguna de las señales de alarma que explicamos más abajo, consulte primero con su médico o acuda a urgencias.": "Si presenta algun dels senyals d'alarma que expliquem més avall, consulti primer amb el seu metge o acudeixi a urgències.",
+   "¿Qué es la cervicalgia?": "Què és la cervicàlgia?",
+   "La cervicalgia es el dolor que se localiza en la región cervical posterior, desde la nuca hasta la primera vértebra dorsal, y que puede extenderse hacia la cabeza, los hombros o la zona entre los omóplatos. No es un diagnóstico en sí mismo, sino un síntoma: indica dónde duele. La valoración clínica sirve para entender por qué duele.": "La cervicàlgia és el dolor que se situa a la regió cervical posterior, des de la nuca fins a la primera vèrtebra dorsal, i que pot estendre's cap al cap, les espatlles o la zona entre els omòplats. No és un diagnòstic en si mateix, sinó un símptoma: indica on fa mal. La valoració clínica serveix per entendre per què fa mal.",
+   "La columna cervical está formada por siete vértebras. Entre ellas se sitúan los discos intervertebrales y las pequeñas articulaciones posteriores (articulaciones facetarias), rodeadas de ligamentos, fascia y una musculatura profunda y superficial que sostiene una cabeza de unos 4 o 5 kilos. Por los agujeros de conjunción salen las raíces nerviosas que llegan al cuello, los hombros y los brazos. Cualquiera de estas estructuras puede generar dolor.": "La columna cervical està formada per set vèrtebres. Entre elles se situen els discos intervertebrals i les petites articulacions posteriors (articulacions facetàries), envoltades de lligaments, fàscia i una musculatura profunda i superficial que sosté un cap d'uns 4 o 5 quilos. Pels forats de conjunció surten les arrels nervioses que arriben al coll, les espatlles i els braços. Qualsevol d'aquestes estructures pot generar dolor.",
+   "Según su duración se habla de cervicalgia **aguda** (menos de 6 semanas), **subaguda** (de 6 semanas a 3 meses) y **crónica** (más de 3 meses). La guía de práctica clínica de la Asociación Americana de Fisioterapia distingue además cuatro presentaciones: el dolor de cuello con pérdida de movilidad, el que se asocia a alteraciones del control del movimiento (como tras un latigazo cervical), el que se acompaña de dolor de cabeza (cefalea cervicogénica) y el que se irradia al brazo (radiculopatía cervical).": "Segons la seva durada es parla de cervicàlgia **aguda** (menys de 6 setmanes), **subaguda** (de 6 setmanes a 3 mesos) i **crònica** (més de 3 mesos). La guia de pràctica clínica de l'Associació Americana de Fisioteràpia distingeix a més quatre presentacions: el dolor de coll amb pèrdua de mobilitat, el que s'associa a alteracions del control del moviment (com després d'una fuetada cervical), el que s'acompanya de mal de cap (cefalea cervicogènica) i el que s'irradia al braç (radiculopatia cervical).",
+   "¿Es frecuente?": "És freqüent?",
+   "El dolor de cuello es uno de los problemas musculoesqueléticos más comunes. Según el estudio Global Burden of Disease, en 2020 lo padecían unos 203 millones de personas en el mundo, con mayor frecuencia en mujeres, y se prevé que en 2050 la cifra alcance los 269 millones (Wu et al., Lancet Rheumatology, 2024).": "El dolor de coll és un dels problemes musculoesquelètics més comuns. Segons l'estudi Global Burden of Disease, el 2020 el patien uns 203 milions de persones al món, amb més freqüència en dones, i es preveu que el 2050 la xifra arribi als 269 milions (Wu et al., Lancet Rheumatology, 2024).",
+   "Entre el 30 % y el 50 % de los adultos tiene dolor de cuello a lo largo de un año. Además, tiende a repetirse: entre el 50 % y el 85 % de las personas que lo sufren vuelven a presentarlo entre uno y cinco años después (Hogg-Johnson et al., Spine, 2008).": "Entre el 30 % i el 50 % dels adults té dolor de coll al llarg d'un any. A més, tendeix a repetir-se: entre el 50 % i el 85 % de les persones que el pateixen tornen a presentar-lo entre un i cinc anys després (Hogg-Johnson et al., Spine, 2008).",
+   "¿Por qué aparece?": "Per què apareix?",
+   "En la gran mayoría de los casos la cervicalgia es **mecánica o inespecífica**: el dolor procede de los músculos, las articulaciones facetarias, los ligamentos o el disco, sin una lesión grave que lo explique. Con menos frecuencia se debe a la compresión de una raíz nerviosa por una hernia discal o por artrosis (radiculopatía cervical), a un traumatismo como el latigazo cervical o, de forma excepcional, a enfermedades que requieren valoración médica.": "En la gran majoria dels casos la cervicàlgia és **mecànica o inespecífica**: el dolor procedeix dels músculs, les articulacions facetàries, els lligaments o el disc, sense una lesió greu que l'expliqui. Amb menys freqüència es deu a la compressió d'una arrel nerviosa per una hèrnia discal o per artrosi (radiculopatia cervical), a un traumatisme com la fuetada cervical o, de manera excepcional, a malalties que requereixen valoració mèdica.",
+   "Los cambios degenerativos que muestran las pruebas de imagen, como la artrosis o las protrusiones discales, son muy frecuentes y no siempre explican el dolor: en un estudio con resonancia magnética en 1.211 personas sin síntomas, el 87,6 % presentaba protrusiones discales (Nakashima et al., Spine, 2015).": "Els canvis degeneratius que mostren les proves d'imatge, com l'artrosi o les protrusions discals, són molt freqüents i no sempre expliquen el dolor: en un estudi amb ressonància magnètica en 1.211 persones sense símptomes, el 87,6 % presentava protrusions discals (Nakashima et al., Spine, 2015).",
+   "Factores que se asocian a su aparición o a que se mantenga:": "Factors que s'associen a l'aparició del dolor o a que es mantingui:",
+   "Posturas mantenidas y muchas horas de trabajo con pantallas": "Postures mantingudes i moltes hores de treball amb pantalles",
+   "Episodios previos de dolor de cuello o un traumatismo anterior": "Episodis previs de dolor de coll o un traumatisme anterior",
+   "Estrés, ansiedad y sueño insuficiente": "Estrès, ansietat i son insuficient",
+   "Poca actividad física y escasa resistencia de la musculatura del cuello y de los omóplatos": "Poca activitat física i escassa resistència de la musculatura del coll i dels omòplats",
+   "Bruxismo y alteraciones de la articulación temporomandibular": "Bruxisme i alteracions de l'articulació temporomandibular",
+   "Tareas repetitivas con los brazos elevados": "Tasques repetitives amb els braços elevats",
+   "El cuello no es una pieza aislada": "El coll no és una peça aïllada",
+   "Desde la osteopatía, el cuello se valora como parte de un conjunto. La columna cervical se relaciona con la mandíbula, la cintura escapular, la columna dorsal y las primeras costillas, y también con estructuras viscerales: la cúpula pleural, el vértice de la envoltura del pulmón, está suspendida de la columna cervical inferior por los ligamentos suspensorios de la pleura, y el nervio frénico, que nace de las raíces cervicales C3 a C5, inerva el diafragma.": "Des de l'osteopatia, el coll es valora com a part d'un conjunt. La columna cervical es relaciona amb la mandíbula, la cintura escapular, la columna dorsal i les primeres costelles, i també amb estructures viscerals: la cúpula pleural, el vèrtex de l'embolcall del pulmó, està suspesa de la columna cervical inferior pels lligaments suspensoris de la pleura, i el nervi frènic, que neix de les arrels cervicals C3 a C5, innerva el diafragma.",
+   "Jean-Pierre Barral, osteópata y fisioterapeuta francés, desarrolló su método a partir de una observación de este tipo. Trabajando en un hospital de enfermedades pulmonares de Grenoble, observó en una disección cambios en la columna cervical del mismo lado de una retracción pulmonar. Por eso, en su modelo, un dolor de cuello que no evoluciona como se espera invita a explorar también los tejidos relacionados con él.": "Jean-Pierre Barral, osteòpata i fisioterapeuta francès, va desenvolupar el seu mètode a partir d'una observació d'aquest tipus. Treballant en un hospital de malalties pulmonars de Grenoble, va observar en una dissecció canvis a la columna cervical del mateix costat d'una retracció pulmonar. Per això, en el seu model, un dolor de coll que no evoluciona com s'espera convida a explorar també els teixits relacionats amb ell.",
+   "Señales de alarma: cuándo consultar con su médico": "Senyals d'alarma: quan consultar amb el seu metge",
+   "Son poco frecuentes, pero obligan a descartar otras causas antes de cualquier tratamiento manual:": "Són poc freqüents, però obliguen a descartar altres causes abans de qualsevol tractament manual:",
+   "Dolor tras un traumatismo importante, como un accidente o una caída": "Dolor després d'un traumatisme important, com un accident o una caiguda",
+   "Pérdida de fuerza, hormigueo o adormecimiento progresivo en los brazos": "Pèrdua de força, formigueig o adormiment progressius als braços",
+   "Torpeza en las manos o alteraciones al caminar": "Matusseria a les mans o alteracions en caminar",
+   "Fiebre, pérdida de peso sin causa aparente o antecedentes de cáncer": "Febre, pèrdua de pes sense causa aparent o antecedents de càncer",
+   "Dolor nocturno intenso que no cede con el reposo": "Dolor nocturn intens que no cedeix amb el repòs",
+   "Mareo intenso, visión doble, dificultad para hablar o para tragar": "Mareig intens, visió doble, dificultat per parlar o per empassar",
+   "Dolor de cabeza súbito y muy intenso": "Mal de cap sobtat i molt intens",
+   "¿Cómo se valora? La anamnesis": "Com es valora? L'anamnesi",
+   "La valoración empieza siempre por una **anamnesis detallada**: cómo y cuándo empezó el dolor, si hubo un traumatismo, qué movimientos o posturas lo empeoran o lo alivian, cómo se comporta a lo largo del día y de la noche, si se irradia a la cabeza o a los brazos, y qué pruebas y tratamientos ha recibido.": "La valoració comença sempre per una **anamnesi detallada**: com i quan va començar el dolor, si hi va haver un traumatisme, quins moviments o postures l'empitjoren o l'alleugereixen, com es comporta al llarg del dia i de la nit, si s'irradia al cap o als braços, i quines proves i tractaments ha rebut.",
+   "También se recogen el trabajo, el descanso, el nivel de estrés, otras molestias del cuerpo y antecedentes como cirugías, cicatrices, traumatismos antiguos o problemas digestivos y respiratorios. La anamnesis permite reconocer las señales de alarma, orientar el tipo de cervicalgia y decidir qué estructuras conviene explorar.": "També es recullen la feina, el descans, el nivell d'estrès, altres molèsties del cos i antecedents com cirurgies, cicatrius, traumatismes antics o problemes digestius i respiratoris. L'anamnesi permet reconèixer els senyals d'alarma, orientar el tipus de cervicàlgia i decidir quines estructures convé explorar.",
+   "La exploración: la palpación como herramienta diagnóstica": "L'exploració: la palpació com a eina diagnòstica",
+   "Tras observar la postura y la movilidad activa y pasiva del cuello, se realiza una exploración neurológica básica de los brazos (fuerza, sensibilidad y reflejos) y, cuando procede, pruebas específicas de irritación de las raíces nerviosas.": "Després d'observar la postura i la mobilitat activa i passiva del coll, es fa una exploració neurològica bàsica dels braços (força, sensibilitat i reflexos) i, quan escau, proves específiques d'irritació de les arrels nervoses.",
+   "La **palpación** es el centro de la exploración osteopática. Barral la llama **escucha manual** (*listening*): una palpación que busca diferencias de tensión, densidad, movilidad y temperatura en los tejidos. Distingue una escucha general, que orienta hacia la región que más llama la atención en el conjunto del cuerpo, y una escucha local, que precisa la estructura implicada: la articulación, el músculo, la fascia, el nervio, la víscera o el vaso. En su modelo, identificar qué tejido se está percibiendo exige un conocimiento anatómico preciso, y la técnica dependerá de ese tejido.": "La **palpació** és el centre de l'exploració osteopàtica. Barral l'anomena **escolta manual** (*listening*): una palpació que busca diferències de tensió, densitat, mobilitat i temperatura als teixits. Distingeix una escolta general, que orienta cap a la regió que més crida l'atenció en el conjunt del cos, i una escolta local, que precisa l'estructura implicada: l'articulació, el múscul, la fàscia, el nervi, la víscera o el vas. En el seu model, identificar quin teixit s'està percebent exigeix un coneixement anatòmic precís, i la tècnica dependrà d'aquest teixit.",
+   "Las pruebas de imagen, como la radiografía o la resonancia, no son necesarias en la mayoría de los casos. Se reservan para los traumatismos, los déficits neurológicos, las señales de alarma o una evolución desfavorable.": "Les proves d'imatge, com la radiografia o la ressonància, no són necessàries en la majoria dels casos. Es reserven per als traumatismes, els dèficits neurològics, els senyals d'alarma o una evolució desfavorable.",
+   "Tratamiento: primero, conservador": "Tractament: primer, conservador",
+   "El tratamiento inicial de la cervicalgia es **conservador**. Las guías de práctica clínica recomiendan mantenerse activo, evitar el collarín salvo indicación médica, explicar el buen pronóstico de la mayoría de los casos y combinar terapia manual con ejercicio terapéutico de movilidad, control motor y fuerza para el cuello y la cintura escapular (Blanpied et al., JOSPT, 2017).": "El tractament inicial de la cervicàlgia és **conservador**. Les guies de pràctica clínica recomanen mantenir-se actiu, evitar el collaret tret d'indicació mèdica, explicar el bon pronòstic de la majoria dels casos i combinar teràpia manual amb exercici terapèutic de mobilitat, control motor i força per al coll i la cintura escapular (Blanpied et al., JOSPT, 2017).",
+   "Las técnicas de terapia manual que se utilizan en osteopatía y en fisioterapia, como la movilización y la manipulación articular o las técnicas sobre partes blandas y fascia, han mostrado mejorar el dolor y la función en la cervicalgia crónica inespecífica (Coulter et al., Pain Physician, 2019; Franke et al., International Journal of Osteopathic Medicine, 2015).": "Les tècniques de teràpia manual que s'utilitzen en osteopatia i en fisioteràpia, com la mobilització i la manipulació articular o les tècniques sobre parts toves i fàscia, han mostrat millorar el dolor i la funció en la cervicàlgia crònica inespecífica (Coulter et al., Pain Physician, 2019; Franke et al., International Journal of Osteopathic Medicine, 2015).",
+   "La técnica no se decide de antemano: se elige en cada caso después de la anamnesis y la exploración, según el tejido implicado, la fase del dolor y la edad y el estado de cada persona. Las infiltraciones o la cirugía se reservan para casos seleccionados, por ejemplo, una radiculopatía con pérdida de fuerza progresiva que no responde al tratamiento conservador.": "La tècnica no es decideix per endavant: es tria en cada cas després de l'anamnesi i l'exploració, segons el teixit implicat, la fase del dolor i l'edat i l'estat de cada persona. Les infiltracions o la cirurgia es reserven per a casos seleccionats, per exemple, una radiculopatia amb pèrdua de força progressiva que no respon al tractament conservador.",
+   "Recomendaciones para el día a día": "Recomanacions per al dia a dia",
+   "Coloque la pantalla a la altura de los ojos y apoye bien la espalda al trabajar.": "Col·loqui la pantalla a l'alçada dels ulls i recolzi bé l'esquena en treballar.",
+   "Haga pausas breves cada 30–45 minutos para mover el cuello y los hombros.": "Faci pauses breus cada 30–45 minuts per moure el coll i les espatlles.",
+   "Evite sostener el móvil con la cabeza inclinada durante mucho tiempo.": "Eviti sostenir el mòbil amb el cap inclinat durant molt de temps.",
+   "Utilice una almohada que mantenga el cuello alineado con la columna.": "Utilitzi un coixí que mantingui el coll alineat amb la columna.",
+   "Aplique calor local suave cuando note rigidez.": "Apliqui calor local suau quan noti rigidesa.",
+   "Mantenga su actividad habitual dentro de lo tolerable: el reposo prolongado no acelera la recuperación.": "Mantingui la seva activitat habitual dins del tolerable: el repòs prolongat no accelera la recuperació.",
+   "Qué dice la evidencia": "Què diu l'evidència",
+   "Carga global (Lancet Rheumatology)": "Càrrega global (Lancet Rheumatology)",
+   "En 2020, unos 203 millones de personas tenían dolor de cuello en el mundo; se prevén 269 millones en 2050 (Wu et al., 2024).": "El 2020, uns 203 milions de persones tenien dolor de coll al món; es preveuen 269 milions el 2050 (Wu et al., 2024).",
+   "Evolución (Spine)": "Evolució (Spine)",
+   "Entre el 50 % y el 85 % de las personas con dolor de cuello vuelven a presentarlo entre uno y cinco años después (Hogg-Johnson et al., 2008).": "Entre el 50 % i el 85 % de les persones amb dolor de coll tornen a presentar-lo entre un i cinc anys després (Hogg-Johnson et al., 2008).",
+   "Imagen (Spine)": "Imatge (Spine)",
+   "El 87,6 % de 1.211 personas sin síntomas presentaba protrusiones discales en la resonancia cervical (Nakashima et al., 2015).": "El 87,6 % d'1.211 persones sense símptomes presentava protrusions discals a la ressonància cervical (Nakashima et al., 2015).",
+   "Guía clínica (JOSPT)": "Guia clínica (JOSPT)",
+   "La guía de práctica clínica recomienda combinar terapia manual y ejercicio terapéutico, también tras un latigazo cervical (Blanpied et al., 2017).": "La guia de pràctica clínica recomana combinar teràpia manual i exercici terapèutic, també després d'una fuetada cervical (Blanpied et al., 2017).",
+   "Terapia manual (Pain Physician)": "Teràpia manual (Pain Physician)",
+   "En la cervicalgia crónica inespecífica, la movilización y la manipulación mejoran el dolor y la función (Coulter et al., 2019).": "En la cervicàlgia crònica inespecífica, la mobilització i la manipulació milloren el dolor i la funció (Coulter et al., 2019).",
+   "Osteopatía (Int J Osteopath Med)": "Osteopatia (Int J Osteopath Med)",
+   "El tratamiento osteopático manipulativo redujo el dolor en la cervicalgia crónica inespecífica (Franke et al., 2015).": "El tractament osteopàtic manipulatiu va reduir el dolor en la cervicàlgia crònica inespecífica (Franke et al., 2015).",
+   "¿Qué diferencia hay entre una cervicalgia y una hernia cervical?": "Quina diferència hi ha entre una cervicàlgia i una hèrnia cervical?",
+   "La hernia discal cervical es una de las posibles causas de dolor de cuello, pero no la más frecuente. Cuando comprime una raíz nerviosa produce dolor que baja por el brazo, hormigueo o pérdida de fuerza (radiculopatía). Muchas hernias y protrusiones que aparecen en la resonancia no producen síntomas.": "L'hèrnia discal cervical és una de les possibles causes de dolor de coll, però no la més freqüent. Quan comprimeix una arrel nerviosa produeix dolor que baixa pel braç, formigueig o pèrdua de força (radiculopatia). Moltes hèrnies i protrusions que apareixen a la ressonància no produeixen símptomes.",
+   "¿Qué puedo hacer si tengo una tortícolis?": "Què puc fer si tinc un torticoli?",
+   "Mantenga el cuello en movimiento suave dentro de lo tolerable y aplique calor local. Suele mejorar en pocos días; si no es así, una valoración ayuda a recuperar la movilidad. Puede consultar también nuestra página de [tortícolis](torticolis).": "Mantingui el coll en moviment suau dins del tolerable i apliqui calor local. Sol millorar en pocs dies; si no és així, una valoració ajuda a recuperar la mobilitat. També pot consultar la nostra pàgina de [torticoli](torticolis).",
+   "¿Atienden el dolor de cuello tras un latigazo cervical?": "Atenen el dolor de coll després d'una fuetada cervical?",
+   "Sí. Una vez descartadas lesiones mediante la valoración médica de urgencias, se valora el cuello y su entorno y se plantea un tratamiento conservador progresivo.": "Sí. Un cop descartades lesions mitjançant la valoració mèdica d'urgències, es valora el coll i el seu entorn i es planteja un tractament conservador progressiu.",
+   "¿El dolor de cuello puede provocar dolor de cabeza?": "El dolor de coll pot provocar mal de cap?",
+   "Sí. Las estructuras de la parte alta del cuello pueden referir dolor a la nuca y la cabeza (cefalea cervicogénica). Si las cefaleas son frecuentes, consulte también nuestra página de [cefaleas y migraña](cefaleas-migrana).": "Sí. Les estructures de la part alta del coll poden referir dolor a la nuca i al cap (cefalea cervicogènica). Si els mals de cap són freqüents, consulti també la nostra pàgina de [cefalees i migranya](cefaleas-migrana).",
+   "¿Necesito una radiografía o una resonancia?": "Necessito una radiografia o una ressonància?",
+   "En la mayoría de los casos no es necesaria. Se reserva para situaciones concretas, como un traumatismo, síntomas neurológicos o una evolución desfavorable. Si ya tiene pruebas, tráigalas a la primera visita.": "En la majoria dels casos no és necessària. Es reserva per a situacions concretes, com un traumatisme, símptomes neurològics o una evolució desfavorable. Si ja té proves, porti-les a la primera visita.",
+   "¿Cuántas sesiones necesitaré?": "Quantes sessions necessitaré?",
+   "Depende de cada caso. En la primera visita valoramos su situación y le proponemos un plan con objetivos claros y revisiones periódicas.": "Depèn de cada cas. A la primera visita valorem la seva situació i li proposem un pla amb objectius clars i revisions periòdiques.",
+   "Recupere la movilidad de su cuello": "Recuperi la mobilitat del seu coll",
+   "La cervicalgia es el dolor en la región del cuello, entre la base del cráneo y el inicio de la espalda. Suele tener un origen mecánico y su tratamiento inicial es conservador. En WA LAM, en Sarrià–Sant Gervasi (Barcelona), la valoramos con una anamnesis detallada y una exploración palpatoria osteopática.": "La cervicàlgia és el dolor a la regió del coll, entre la base del crani i l'inici de l'esquena. Sol tenir un origen mecànic i el seu tractament inicial és conservador. A WA LAM, a Sarrià–Sant Gervasi (Barcelona), la valorem amb una anamnesi detallada i una exploració palpatòria osteopàtica.",
+   "Primera visita": "Primera visita",
+   "Cómo es la primera visita": "Com és la primera visita",
+   "Antes de tratar, hay que entender qué le pasa. La primera visita dura unos 60 minutos y, si procede, el tratamiento se inicia en esa misma sesión.": "Abans de tractar, cal entendre què li passa. La primera visita dura uns 60 minuts i, si escau, el tractament s'inicia en aquesta mateixa sessió.",
+   "Historia clínica": "Història clínica",
+   "Una anamnesis detallada: cómo empezó el dolor, cómo evoluciona, sus antecedentes y las pruebas e informes que aporte.": "Una anamnesi detallada: com va començar el dolor, com evoluciona, els seus antecedents i les proves i informes que aporti.",
+   "Observación postural": "Observació postural",
+   "Cómo se reparten las cargas en su cuerpo, en reposo y en movimiento.": "Com es reparteixen les càrregues al seu cos, en repòs i en moviment.",
+   "Exploración del movimiento": "Exploració del moviment",
+   "Movilidad activa y pasiva de la región dolorosa y de las zonas relacionadas con ella.": "Mobilitat activa i passiva de la regió dolorosa i de les zones relacionades amb ella.",
+   "Exploración neurológica y ortopédica": "Exploració neurològica i ortopèdica",
+   "Fuerza, sensibilidad, reflejos y pruebas específicas cuando están indicadas.": "Força, sensibilitat, reflexos i proves específiques quan estan indicades.",
+   "Palpación y escucha manual": "Palpació i escolta manual",
+   "Palpación de los tejidos para localizar las zonas de tensión, restricción y dolor, según el enfoque de Jean-Pierre Barral.": "Palpació dels teixits per localitzar les zones de tensió, restricció i dolor, segons l'enfocament de Jean-Pierre Barral.",
+   "Explicación y plan": "Explicació i pla",
+   "Le explicamos lo que hemos encontrado, el tratamiento que proponemos y lo que puede esperar.": "Li expliquem el que hem trobat, el tractament que proposem i el que pot esperar.",
+   "Si detectamos alguna señal que requiera valoración médica, se lo indicamos antes de iniciar el tratamiento.": "Si detectem algun senyal que requereixi valoració mèdica, l'hi indiquem abans d'iniciar el tractament.",
+   "Tratamiento": "Tractament",
+   "Las tres fases del tratamiento": "Les tres fases del tractament",
+   "El tratamiento es conservador y progresivo. La duración de cada fase depende del caso, del tiempo de evolución y de la respuesta de cada persona.": "El tractament és conservador i progressiu. La durada de cada fase depèn del cas, del temps d'evolució i de la resposta de cada persona.",
+   "Fase de alivio": "Fase d'alleujament",
+   "El objetivo es reducir el dolor y la sensibilidad de los tejidos y recuperar el movimiento perdido. En esta fase las sesiones suelen estar más próximas entre sí.": "L'objectiu és reduir el dolor i la sensibilitat dels teixits i recuperar el moviment perdut. En aquesta fase les sessions solen estar més properes entre si.",
+   "Se acompaña de pautas sencillas para el día a día: cómo moverse, qué posturas evitar y cuándo aplicar calor.": "S'acompanya de pautes senzilles per al dia a dia: com moure's, quines postures evitar i quan aplicar calor.",
+   "Fase de recuperación": "Fase de recuperació",
+   "Con el dolor más controlado, las sesiones se espacian. Se trabaja la movilidad de las zonas relacionadas y se incorpora ejercicio terapéutico progresivo de movilidad, control motor y fuerza.": "Amb el dolor més controlat, les sessions s'espaien. Es treballa la mobilitat de les zones relacionades i s'hi incorpora exercici terapèutic progressiu de mobilitat, control motor i força.",
+   "El objetivo es que la región recupere su función y que usted vuelva a sus actividades con confianza.": "L'objectiu és que la regió recuperi la seva funció i que vostè torni a les seves activitats amb confiança.",
+   "Fase de mantenimiento": "Fase de manteniment",
+   "Una vez resuelto el episodio, el objetivo es prevenir las recaídas. Recibe pautas de ejercicio y de hábitos para mantener lo conseguido.": "Un cop resolt l'episodi, l'objectiu és prevenir les recaigudes. Rep pautes d'exercici i d'hàbits per mantenir el que s'ha aconseguit.",
+   "Si lo necesita, se programan revisiones espaciadas.": "Si ho necessita, es programen revisions espaiades.",
+   "Mejora": "Millora",
+   "Tiempo": "Temps",
+   "Qué es": "Què és"
+  }
+ }
+]

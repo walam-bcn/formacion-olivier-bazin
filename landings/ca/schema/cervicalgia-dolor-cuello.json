@@ -227,7 +227,7 @@
       "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/cervicalgia-dolor-coll#webpage",
       "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/cervicalgia-dolor-coll",
       "name": "Cervicàlgia i dolor de coll a Barcelona | WA LAM",
-      "description": "Cervicàlgia i dolor de coll a Sarrià–Sant Gervasi, Barcelona. Valoració clínica i un pla per fases per alleujar el dolor i recuperar la mobilitat.",
+      "description": "Qué es la cervicalgia, por qué aparece y cómo se valora con anamnesis y palpación. Tratamiento conservador con osteopatía en Sarrià–Sant Gervasi, Barcelona.",
       "inLanguage": "ca-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -242,7 +242,7 @@
       },
       "lastReviewed": "2026-11-18",
       "dateModified": "2026-11-18",
-      "keywords": "cervicalgia Barcelona, dolor de cuello Barcelona, dolor cervical crónico, rigidez de cuello tratamiento, latigazo cervical Barcelona, cervicalgia Sarrià",
+      "keywords": "cervicalgia Barcelona, dolor de cuello Barcelona, qué es la cervicalgia, dolor cervical crónico, osteópata cervicales Barcelona, latigazo cervical Barcelona",
       "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/cervicalgia-dolor-cuello.png",
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -270,9 +270,21 @@
       "citation": [
         {
           "@type": "ScholarlyArticle",
-          "name": "Global, regional, and national burden of neck pain in the general population, 1990-2017: systematic analysis of the Global Burden of Disease Study 2017",
-          "url": "https://doi.org/10.1136/bmj.m791",
-          "sameAs": "https://doi.org/10.1136/bmj.m791"
+          "name": "Global, regional, and national burden of neck pain, 1990–2020, and projections to 2050: a systematic analysis of the Global Burden of Disease Study 2021",
+          "url": "https://doi.org/10.1016/S2665-9913(23)00321-1",
+          "sameAs": "https://doi.org/10.1016/S2665-9913(23)00321-1"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "The burden and determinants of neck pain in the general population: results of the Bone and Joint Decade 2000–2010 Task Force on Neck Pain and Its Associated Disorders",
+          "url": "https://doi.org/10.1097/BRS.0b013e31816454c8",
+          "sameAs": "https://doi.org/10.1097/BRS.0b013e31816454c8"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Abnormal findings on magnetic resonance images of the cervical spines in 1211 asymptomatic subjects",
+          "url": "https://doi.org/10.1097/BRS.0000000000000775",
+          "sameAs": "https://doi.org/10.1097/BRS.0000000000000775"
         },
         {
           "@type": "ScholarlyArticle",
@@ -282,9 +294,15 @@
         },
         {
           "@type": "ScholarlyArticle",
-          "name": "Acupuncture for Chronic Pain: Update of an Individual Patient Data Meta-Analysis",
-          "url": "https://doi.org/10.1016/j.jpain.2017.11.005",
-          "sameAs": "https://doi.org/10.1016/j.jpain.2017.11.005"
+          "name": "Manipulation and Mobilization for Treating Chronic Nonspecific Neck Pain: A Systematic Review and Meta-Analysis for an Appropriateness Panel",
+          "url": "https://doi.org/10.36076/ppj/2019.22.E55",
+          "sameAs": "https://doi.org/10.36076/ppj/2019.22.E55"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Osteopathic manipulative treatment for chronic nonspecific neck pain: a systematic review and meta-analysis",
+          "url": "https://doi.org/10.1016/j.ijosm.2015.05.003",
+          "sameAs": "https://doi.org/10.1016/j.ijosm.2015.05.003"
         }
       ]
     },
@@ -292,6 +310,14 @@
       "@type": "FAQPage",
       "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/cervicalgia-dolor-coll#faq",
       "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Qué diferencia hay entre una cervicalgia y una hernia cervical?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "La hernia discal cervical es una de las posibles causas de dolor de cuello, pero no la más frecuente. Cuando comprime una raíz nerviosa produce dolor que baja por el brazo, hormigueo o pérdida de fuerza (radiculopatía). Muchas hernias y protrusiones que aparecen en la resonancia no producen síntomas."
+          }
+        },
         {
           "@type": "Question",
           "name": "Què puc fer si tinc un torticoli?",
@@ -305,7 +331,7 @@
           "name": "Atenen el dolor de coll després d'un cop de fuet cervical?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí. Un cop descartades lesions mitjançant la valoració mèdica d'urgències, treballem amb mobilitat suau i exercici progressiu per recuperar el coll."
+            "text": "Sí. Una vez descartadas lesiones mediante la valoración médica de urgencias, se valora el cuello y su entorno y se plantea un tratamiento conservador progresivo."
           }
         },
         {
@@ -313,7 +339,7 @@
           "name": "El dolor de coll pot provocar mal de cap?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí. La tensió cervical es pot irradiar al clatell i al cap (cefalea cervicogènica). Si les cefalees són freqüents, consulti també la nostra pàgina de cefalees i migranya."
+            "text": "Sí. Las estructuras de la parte alta del cuello pueden referir dolor a la nuca y la cabeza (cefalea cervicogénica). Si las cefaleas son frecuentes, consulte también nuestra página de cefaleas y migraña."
           }
         },
         {
@@ -321,7 +347,7 @@
           "name": "Necessito una radiografia o una ressonància?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "En la majoria dels casos no és necessària. Es reserva per a situacions concretes, com un traumatisme o símptomes neurològics. Si ja té proves, porti-les a la primera visita."
+            "text": "En la mayoría de los casos no es necesaria. Se reserva para situaciones concretas, como un traumatismo, síntomas neurológicos o una evolución desfavorable. Si ya tiene pruebas, tráigalas a la primera visita."
           }
         },
         {

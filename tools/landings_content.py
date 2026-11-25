@@ -2666,3 +2666,127 @@ for _p in PAGES:
         _p["blocks"].insert(_i, {"type": "explain", "eyebrow": "", "h2": "El nervio vago y la teoría polivagal", "_id": "nervio-vago-estres",
             "paras": ["El nervio vago es la principal vía del sistema nervioso parasimpático, el que favorece la calma, la digestión y la recuperación. Cuando el estrés se mantiene en el tiempo, predomina la respuesta de alerta y el tono vagal tiende a disminuir, algo que puede reflejarse en la variabilidad de la frecuencia cardiaca.",
                       "La teoría polivagal, formulada por Stephen Porges, propone que el sistema nervioso evalúa de forma continua si el entorno es seguro y ajusta en consecuencia nuestras respuestas de calma, alerta o bloqueo. Lo explicamos con más detalle, junto con el abordaje osteopático, en [Osteopatía, nervio vago y teoría polivagal](nervio-vago)."]})
+
+# Dolor musculoesquelético (noviembre 2026): primera visita y tres fases del tratamiento, enfoque osteopático.
+# Sustituye «Mi forma de trabajar» (enfoque integrativo) y retira re:trace y acupuntura de «Cómo lo abordamos».
+MSK_SLUGS = {"lumbalgia-dolor-lumbar", "cervicalgia-dolor-cuello", "dorsalgia-dolor-espalda-alta", "ciatica", "hernia-disco-incipiente",
+             "artrosis", "hombro-doloroso", "dolor-rodilla-condromalacia", "torticolis", "tunel-carpiano", "fascitis-plantar",
+             "dolor-persistente-cronico", "dolor-musculoesqueletico", "dolor-articular-miofascial", "contracturas-desgarros-musculares",
+             "esguinces", "lesiones-deportivas", "fibromialgia", "cicatrices-adherencias", "dolor-postquirurgico",
+             "cefaleas-migrana", "bruxismo-dolor-mandibular-atm", "dolor-coxis-coccigodinia"}
+VISIT_MSK = {"type": "visit", "eyebrow": "Primera visita", "h2": "Cómo es la primera visita", "_id": "primera-visita",
+             "intro": "Antes de tratar, hay que entender qué le pasa. La primera visita dura unos 60 minutos y, si procede, el tratamiento se inicia en esa misma sesión.",
+             "items": [
+                 {"i": "historia", "h": "Historia clínica", "p": "Una anamnesis detallada: cómo empezó el dolor, cómo evoluciona, sus antecedentes y las pruebas e informes que aporte."},
+                 {"i": "postura", "h": "Observación postural", "p": "Cómo se reparten las cargas en su cuerpo, en reposo y en movimiento."},
+                 {"i": "movilidad", "h": "Exploración del movimiento", "p": "Movilidad activa y pasiva de la región dolorosa y de las zonas relacionadas con ella."},
+                 {"i": "neuro", "h": "Exploración neurológica y ortopédica", "p": "Fuerza, sensibilidad, reflejos y pruebas específicas cuando están indicadas."},
+                 {"i": "palpacion", "h": "Palpación y escucha manual", "p": "Palpación de los tejidos para localizar las zonas de tensión, restricción y dolor, según el enfoque de Jean-Pierre Barral."},
+                 {"i": "dialogo", "h": "Explicación y plan", "p": "Le explicamos lo que hemos encontrado, el tratamiento que proponemos y lo que puede esperar."}],
+             "note": "Si detectamos alguna señal que requiera valoración médica, se lo indicamos antes de iniciar el tratamiento."}
+PHASES_MSK = {"type": "phases", "eyebrow": "Tratamiento", "h2": "Las tres fases del tratamiento", "_id": "fases-del-tratamiento",
+              "intro": "El tratamiento es conservador y progresivo. La duración de cada fase depende del caso, del tiempo de evolución y de la respuesta de cada persona.",
+              "items": [
+                  {"h": "Fase de alivio", "paras": ["El objetivo es reducir el dolor y la sensibilidad de los tejidos y recuperar el movimiento perdido. En esta fase las sesiones suelen estar más próximas entre sí.",
+                                                   "Se acompaña de pautas sencillas para el día a día: cómo moverse, qué posturas evitar y cuándo aplicar calor."]},
+                  {"h": "Fase de recuperación", "paras": ["Con el dolor más controlado, las sesiones se espacian. Se trabaja la movilidad de las zonas relacionadas y se incorpora ejercicio terapéutico progresivo de movilidad, control motor y fuerza.",
+                                                         "El objetivo es que la región recupere su función y que usted vuelva a sus actividades con confianza."]},
+                  {"h": "Fase de mantenimiento", "paras": ["Una vez resuelto el episodio, el objetivo es prevenir las recaídas. Recibe pautas de ejercicio y de hábitos para mantener lo conseguido.",
+                                                          "Si lo necesita, se programan revisiones espaciadas."]}]}
+import re as _re  # noqa: E402
+_BAD = _re.compile(r"(?i)re:trace|acupunt|mindfulness|MBSR")
+for _p in PAGES:
+    if _p["slug"] not in MSK_SLUGS:
+        continue
+    _bl = _p["blocks"]
+    _k = next((k for k, b in enumerate(_bl) if b.get("h2") == "Mi forma de trabajar"), None)
+    if _k is not None:
+        _bl[_k:_k + 1] = [dict(VISIT_MSK), dict(PHASES_MSK)]
+    else:
+        _ev = next((k for k, b in enumerate(_bl) if b.get("type") == "evidence"), len(_bl))
+        _bl[_ev:_ev] = [dict(VISIT_MSK), dict(PHASES_MSK)]
+    for _b in _bl:
+        if _b.get("type") == "cards" and _b.get("items"):
+            _b["items"] = [it for it in _b["items"] if not _BAD.search(" ".join(str(it.get(x, "")) for x in ("k", "h", "p")))]
+    _bl[:] = [b for b in _bl if not (b.get("type") == "cards" and not b.get("items") and b.get("_id") != "datos-clave")]
+
+# Osteopatía (25 nov 2026): estructura de clínica (qué es, qué hace un osteópata, para quién, primera visita, fases, técnicas)
+OSTEO_BLOCKS = [
+    {"type": "explain", "eyebrow": "Qué es", "h2": "¿Qué es la osteopatía?", "_id": "que-es-la-osteopatia",
+     "quote": "«El concepto de la osteopatía es la movilidad: devolver movilidad al cuerpo». Jean-Pierre Barral",
+     "paras": [
+         "La osteopatía es una disciplina de terapia manual que valora y trata las alteraciones de la movilidad de los tejidos del cuerpo: articulaciones, músculos, fascias, vísceras, nervios y vasos. Parte de una idea sencilla: las estructuras del cuerpo están relacionadas entre sí, y cuando una pierde movilidad, las demás se adaptan y pueden aparecer dolor o alteraciones de la función.",
+         "Fue fundada en 1874 por el médico estadounidense Andrew Taylor Still, que en 1892 abrió en Kirksville (Misuri) la primera escuela de osteopatía. Con el tiempo se desarrollaron tres grandes enfoques: el estructural, centrado en el sistema musculoesquelético; el visceral, sistematizado por Jean-Pierre Barral; y el craneal, iniciado por William Garner Sutherland y desarrollado después por John Upledger.",
+         "La Organización Mundial de la Salud publicó en 2010 unas directrices sobre la formación y la seguridad en osteopatía, que la describen como un abordaje centrado en el contacto manual para el diagnóstico y el tratamiento."]},
+    {"type": "explain", "eyebrow": "", "h2": "¿Qué hace un osteópata?", "_id": "que-hace-un-osteopata",
+     "paras": [
+         "Antes de cualquier técnica, el osteópata necesita entender por qué aparece el dolor o la disfunción. Por eso la consulta empieza con una **anamnesis** detallada y una **exploración**: observación de la postura, pruebas de movilidad, pruebas neurológicas y ortopédicas cuando están indicadas y, sobre todo, la **palpación**.",
+         "Jean-Pierre Barral llama a esta palpación **escucha manual**: las manos buscan diferencias de tensión, densidad, movilidad y temperatura en los tejidos para localizar la zona que necesita ser tratada y precisar qué estructura está implicada. A menudo el lugar donde duele no es el origen del problema: un dolor de hombro puede relacionarse con la columna cervical, el diafragma o una cicatriz abdominal.",
+         "A partir de esa valoración, el osteópata elige las técnicas manuales adecuadas para cada tejido y cada persona, y las combina con pautas y ejercicios para que la mejoría se mantenga. Si detecta algo que requiere valoración médica, deriva al paciente a su médico."]},
+    {"type": "audience", "eyebrow": "Para quién", "h2": "¿Para quién es la osteopatía?", "_id": "para-quien",
+     "intro": "La osteopatía se adapta a cada edad y a cada etapa de la vida. Las técnicas, la intensidad y la duración de la sesión cambian según la persona.",
+     "items": [
+         {"h": "Bebés y niños", "paras": [
+             "En los bebés se utilizan técnicas muy suaves, adaptadas a sus tejidos. Las consultas más frecuentes son el **cólico del lactante**, los gases y la irritabilidad, las dificultades de succión o de lactancia, la **tortícolis congénita** y la **plagiocefalia postural** (el aplanamiento de una zona de la cabeza). Una revisión sistemática con metaanálisis observó que la terapia manual reducía el tiempo de llanto en los bebés con llanto excesivo (Carnes et al., BMJ Open, 2018).",
+             "En niños y adolescentes se consulta por dolor de espalda, alteraciones posturales, lesiones deportivas o dolores de cabeza. Siempre trabajamos en coordinación con el pediatra. Más información en [osteopatía en bebés y niños](osteopatia-bebes-ninos)."]},
+         {"h": "Embarazo y posparto", "paras": [
+             "Durante el embarazo cambian el centro de gravedad, la curvatura lumbar y la laxitud de los ligamentos, y es frecuente el dolor lumbar y de la cintura pélvica. Un metaanálisis encontró que el tratamiento osteopático reducía el dolor y mejoraba la función en las mujeres embarazadas con dolor lumbar (Franke et al., Journal of Bodywork and Movement Therapies, 2017).",
+             "En el posparto, la osteopatía acompaña la recuperación de la pelvis y del abdomen, la cicatriz de la cesárea y los dolores de espalda y de cuello asociados al cuidado del bebé. Más información en [osteopatía en el embarazo y el posparto](osteopatia-embarazo-posparto)."]},
+         {"h": "Adultos", "paras": [
+             "Es el grupo que más consulta, sobre todo por dolor de espalda y de cuello, ciática, dolores de cabeza, problemas de la mandíbula, molestias digestivas funcionales, cicatrices y adherencias, o tensión asociada al estrés."],
+          "list": ["[Lumbalgia](lumbalgia-dolor-lumbar) y [cervicalgia](cervicalgia-dolor-cuello)", "[Ciática](ciatica) y [hernia discal](hernia-disco-incipiente)",
+                   "[Cefaleas y migraña](cefaleas-migrana) y [bruxismo](bruxismo-dolor-mandibular-atm)", "[Osteopatía visceral](osteopatia-visceral-barcelona) para molestias digestivas funcionales",
+                   "[Cicatrices y adherencias](cicatrices-adherencias)"]},
+         {"h": "Deportistas", "paras": [
+             "En el deporte, la osteopatía ayuda a recuperar la movilidad después de un esguince, una contractura o una sobrecarga, a tratar las lesiones que se repiten y a revisar las cadenas de movimiento que las favorecen. Se combina con la readaptación y el ejercicio progresivo. Más información en [lesiones deportivas](lesiones-deportivas)."]},
+         {"h": "Personas mayores", "paras": [
+             "Con la edad aparecen la rigidez, la artrosis y la pérdida de movilidad. En las personas mayores se utilizan técnicas suaves, sin manipulaciones bruscas, adaptadas a la artrosis o a la osteoporosis, con el objetivo de aliviar el dolor y mantener la movilidad y la autonomía. Más información en [artrosis](artrosis)."]}]},
+    {"type": "visit", "eyebrow": "Primera visita", "h2": "Cómo es la primera visita", "_id": "primera-visita",
+     "intro": "La primera visita dura unos 60 minutos. Antes de tratar, hay que entender qué le pasa.",
+     "items": [
+         {"i": "historia", "h": "Historia clínica", "p": "Una anamnesis detallada: el motivo de consulta, cómo ha evolucionado, sus antecedentes y las pruebas e informes que aporte."},
+         {"i": "postura", "h": "Observación postural", "p": "Cómo se reparten las cargas en su cuerpo, en reposo y en movimiento."},
+         {"i": "movilidad", "h": "Exploración del movimiento", "p": "Movilidad activa y pasiva de la región que duele y de las zonas relacionadas."},
+         {"i": "neuro", "h": "Pruebas neurológicas y ortopédicas", "p": "Fuerza, sensibilidad, reflejos y pruebas específicas cuando están indicadas."},
+         {"i": "palpacion", "h": "Palpación y escucha manual", "p": "La palpación de los tejidos, según el enfoque de Jean-Pierre Barral, para localizar las zonas de restricción."},
+         {"i": "plan", "h": "Primer tratamiento y plan", "p": "Si procede, se realiza el primer tratamiento y le explicamos el plan y las pautas para casa."}],
+     "note": "Si detectamos alguna señal que requiera valoración médica, se lo indicamos antes de iniciar el tratamiento."},
+    {"type": "phases", "eyebrow": "Tratamiento", "h2": "Las tres fases del tratamiento", "_id": "fases-del-tratamiento",
+     "intro": "El número de sesiones y su frecuencia dependen del caso, del tiempo de evolución y de la respuesta de cada persona.",
+     "items": [
+         {"h": "Fase de alivio", "paras": ["El objetivo es reducir el dolor y recuperar el movimiento perdido. Las sesiones suelen estar más próximas entre sí, porque los tejidos todavía no mantienen los cambios.",
+                                          "Muchas personas notan una mejoría desde las primeras sesiones, aunque la recuperación completa requiere tiempo, según la gravedad y la duración del problema."]},
+         {"h": "Fase de recuperación", "paras": ["Las sesiones se espacian. Se trabaja la movilidad de las zonas relacionadas con el problema y se incorpora ejercicio progresivo para recuperar la función, la fuerza y la confianza en el movimiento."]},
+         {"h": "Fase de mantenimiento", "paras": ["Una vez resuelto el episodio, el objetivo es prevenir las recaídas. Recibe pautas de ejercicio y de hábitos y, si lo necesita, se programan revisiones espaciadas."]}]},
+    {"type": "techniques", "h2": "Técnicas osteopáticas", "_id": "tecnicas-osteopaticas",
+     "paras": ["La osteopatía dispone de técnicas muy diversas, desde movilizaciones articulares hasta técnicas muy suaves sobre las vísceras, las fascias o el cráneo. La técnica o técnicas se eligen en cada caso **después de la valoración**, según el tejido implicado, la edad y el estado de cada persona."],
+     "list_title": "Enfoques que utilizamos en WA LAM",
+     "items": ["**Osteopatía estructural**, la base de la osteopatía de Andrew Taylor Still: articulaciones, músculos y ligamentos.",
+               "**[Osteopatía visceral](osteopatia-visceral-barcelona)**, desarrollada por Jean-Pierre Barral: movilidad de las vísceras y de sus fascias.",
+               "**[Manipulaciones neuroviscerales](manipulaciones-neuroviscerales)** y manipulación neural, también de la línea de Barral.",
+               "**[Osteopatía craneosacral](osteopatia-craneosacral-barcelona)**, iniciada por William Garner Sutherland y desarrollada por John Upledger.",
+               "**[Osteopatía fascial y liberación miofascial](osteopatia-fascia-barcelona)**.",
+               "**Osteopatía urogenital con abordaje externo**, en la línea de Jean-Pierre Barral y Olivier Bazin, para el [dolor pélvico](dolor-pelvico-barcelona) en la mujer."]},
+]
+OSTEO_EVIDENCE = {"type": "evidence", "h2": "Qué dice la evidencia", "items": [
+    ("Metaanálisis (BMJ)", "En el dolor lumbar crónico, la terapia manipulativa vertebral obtuvo efectos similares a los de los tratamientos recomendados y mejoró la función a corto plazo (Rubinstein et al., 2019; 47 ensayos)."),
+    ("Metaanálisis (BMC Musculoskeletal Disorders)", "El tratamiento osteopático manipulativo redujo el dolor y mejoró la función en el dolor lumbar inespecífico (Franke et al., 2014)."),
+    ("Metaanálisis (Int J Osteopath Med)", "El tratamiento osteopático redujo el dolor en la cervicalgia crónica inespecífica (Franke et al., 2015)."),
+    ("Embarazo (J Bodyw Mov Ther)", "En el dolor lumbar del embarazo, el tratamiento osteopático redujo el dolor y mejoró la función (Franke et al., 2017)."),
+    ("Bebés (BMJ Open)", "La terapia manual redujo el tiempo de llanto en los bebés con llanto excesivo (Carnes et al., 2018).")],
+    "refs": [
+        {"t": "Rubinstein SM, de Zoete A, van Middelkoop M, et al., 2019. «Benefits and harms of spinal manipulative therapy for the treatment of chronic low back pain: systematic review and meta-analysis of randomised controlled trials». BMJ.", "doi": "10.1136/bmj.l689"},
+        {"t": "Franke H, Franke JD, Fryer G, 2014. «Osteopathic manipulative treatment for nonspecific low back pain: a systematic review and meta-analysis». BMC Musculoskeletal Disorders.", "doi": "10.1186/1471-2474-15-286"},
+        {"t": "Franke H, Franke JD, Fryer G, 2015. «Osteopathic manipulative treatment for chronic nonspecific neck pain: a systematic review and meta-analysis». International Journal of Osteopathic Medicine.", "doi": "10.1016/j.ijosm.2015.05.003"},
+        {"t": "Franke H, Franke JD, Belz S, Fryer G, 2017. «Osteopathic manipulative treatment for low back and pelvic girdle pain during and after pregnancy: a systematic review and meta-analysis». Journal of Bodywork and Movement Therapies.", "doi": "10.1016/j.jbmt.2017.05.014"},
+        {"t": "Carnes D, Plunkett A, Ellwood J, Miles C, 2018. «Manual therapy for unsettled, distressed and excessively crying infants: a systematic review and meta-analyses». BMJ Open.", "doi": "10.1136/bmjopen-2017-019040"}]}
+for _p in PAGES:
+    if _p["slug"] != "osteopatia-sarria-sant-gervasi":
+        continue
+    _old = _p["blocks"]
+    _mirror = next((b for b in _old if b.get("type") == "mirror"), None)
+    _keep = [b for b in _old if b.get("type") == "pro" or (b.get("type") == "explain" and "Olivier Bazin" in b.get("h2", ""))]
+    _nb = OSTEO_BLOCKS[:3] + ([_mirror] if _mirror else []) + OSTEO_BLOCKS[3:] + [b for b in _keep if b.get("type") == "pro"] + [OSTEO_EVIDENCE] + [b for b in _keep if b.get("type") != "pro"]
+    _p["blocks"] = _nb
+    _p["lead"] = "La osteopatía es una disciplina de terapia manual que valora y trata la movilidad de los tejidos del cuerpo: articulaciones, músculos, fascias, vísceras y sistema nervioso. Cada tratamiento parte de una anamnesis y una exploración palpatoria detalladas."
+    _p["sub"] = "Osteopatía estructural, visceral y craneosacral · Barcelona"

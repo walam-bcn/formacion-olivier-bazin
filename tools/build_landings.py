@@ -464,7 +464,7 @@ def head(p):
 <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{html.escape(title)}"><meta name="twitter:description" content="{html.escape(desc)}"><meta name="twitter:image" content="{og}">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&display=swap" rel="stylesheet">
-<style>{CSS}</style>
+<style>{CSS}{CLINIC_CSS}{AUD_CSS}</style>
 <script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>
 </head><body>"""
 
@@ -897,6 +897,111 @@ def lonband(p):
 </div></div></section>"""
 
 
+# ---- Componentes «clínica» (noviembre 2026): primera visita, fases del tratamiento, técnicas ----
+_IC = {
+    "historia": '<rect x="6" y="4" width="12" height="17" rx="2"/><path d="M9 4h6v3H9zM9 11h6M9 15h4"/>',
+    "postura": '<circle cx="12" cy="4.5" r="2"/><path d="M12 7v8M8 10h8M12 15l-3 6M12 15l3 6M12 7v0"/><path d="M5 12h1M18 12h1" />',
+    "movilidad": '<circle cx="12" cy="4.5" r="2"/><path d="M12 7l-1 6 3 3v5M11 13l-4 1M12 8l5 3M10 21l1-5"/>',
+    "neuro": '<path d="M14 4l6 6-3 3-6-6zM12 9l-8 8 3 3 8-8"/>',
+    "palpacion": '<path d="M7 12V6a1.5 1.5 0 013 0v5M10 11V4.5a1.5 1.5 0 013 0V11M13 11V5.5a1.5 1.5 0 013 0V12M16 12V8.5a1.5 1.5 0 013 0V14c0 4-3 7-7 7h-1c-3 0-5-2-6-4l-2-4a1.5 1.5 0 012.5-1.5L7 13"/>',
+    "plan": '<path d="M4 19h16M6 16l4-5 3 3 5-7"/><circle cx="18" cy="7" r="1"/>',
+    "dialogo": '<path d="M4 5h11v8H9l-3 3v-3H4zM15 9h5v8h-2v3l-3-3h-4v-2"/>',
+    "ejercicio": '<circle cx="15" cy="4.5" r="2"/><path d="M14 7l-4 4 3 3-2 6M10 11l-5 1M14 7l3 4h3"/>',
+    "pruebas": '<path d="M9 3h6M10 3v6l-5 9a2 2 0 002 3h10a2 2 0 002-3l-5-9V3"/><path d="M7 15h10"/>',
+}
+
+
+def _icon(k):
+    return (f'<span class="vic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" '
+            f'stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">{_IC.get(k, _IC["historia"])}</svg></span>')
+
+
+def visit(b):
+    its = "".join(f'<div class="vit">{_icon(it.get("i"))}<h3>{fmt(it["h"])}</h3><p>{fmt(it.get("p", ""))}</p></div>' for it in b["items"])
+    note = f'<p class="vnote">{fmt(b["note"])}</p>' if b.get("note") else ""
+    return f'<section class="visit"><div class="wrap">{sec_head(b.get("eyebrow", ""), b["h2"], b.get("intro"))}<div class="vgrid">{its}</div>{note}</div></section>'
+
+
+def phases(b):
+    labs = [plain(x["h"]) for x in b["items"]][:3]
+    while len(labs) < 3:
+        labs.append("")
+    ax_y, ax_x = tr("Mejora"), tr("Tiempo")
+    svg = (f'<svg class="phsvg" viewBox="0 0 640 300" role="img" aria-label="{html.escape(plain(b["h2"]))}">'
+           '<path d="M40 20V260H620" fill="none" stroke="#1D3F40" stroke-width="2"/>'
+           '<path d="M612 254l8 6-8 6M34 28l6-8 6 8" fill="none" stroke="#1D3F40" stroke-width="2"/>'
+           '<path d="M233 40V258M426 40V258" stroke="#1D3F40" stroke-opacity=".25" stroke-width="1"/>'
+           '<path d="M50 245C110 245 150 200 233 190" fill="none" stroke="#E08E6D" stroke-width="7" stroke-dasharray="14 10" stroke-linecap="round"/>'
+           '<path d="M233 190C300 185 330 120 380 125S410 150 426 140" fill="none" stroke="#C9B66B" stroke-width="7" stroke-dasharray="14 10" stroke-linecap="round"/>'
+           '<path d="M426 140C500 100 560 80 610 40" fill="none" stroke="#0CBFC2" stroke-width="7" stroke-dasharray="14 10" stroke-linecap="round"/>'
+           f'<text x="70" y="215" class="phl" transform="rotate(-18 70 215)">{html.escape(labs[0])}</text>'
+           f'<text x="255" y="160" class="phl" transform="rotate(-20 255 160)">{html.escape(labs[1])}</text>'
+           f'<text x="440" y="110" class="phl" transform="rotate(-25 440 110)">{html.escape(labs[2])}</text>'
+           f'<text x="330" y="290" class="pha" text-anchor="middle">{html.escape(ax_x.upper())}</text>'
+           f'<text x="18" y="140" class="pha" text-anchor="middle" transform="rotate(-90 18 140)">{html.escape(ax_y.upper())}</text></svg>')
+    cols = ["#E08E6D", "#B8A24E", "#0a9fa2"]
+    acc = "".join(f'<details class="phd"{" open" if i == 0 else ""}><summary style="color:{cols[i % 3]}">{fmt(it["h"])}</summary>'
+                  + "".join(f"<p>{fmt(x)}</p>" for x in it["paras"]) + "</details>" for i, it in enumerate(b["items"]))
+    return f'<section class="phases"><div class="wrap">{sec_head(b.get("eyebrow", ""), b["h2"], b.get("intro"))}<div class="phfig">{svg}</div><div class="phacc">{acc}</div></div></section>'
+
+
+def techniques(b):
+    lis = "".join(f"<li>{fmt(x)}</li>" for x in b["items"])
+    paras = "".join(f"<p>{fmt(x)}</p>" for x in b.get("paras", []))
+    return (f'<section class="techs"><div class="wrap"><div class="tpanel"><h2>{fmt(b["h2"])}</h2>{paras}'
+            f'<h3>{fmt(b.get("list_title", ""))}</h3><ul>{lis}</ul></div></div></section>')
+
+
+CLINIC_CSS = """
+.visit .vgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:34px 28px;margin-top:34px;text-align:center}
+.vit h3{font-size:1.02rem;margin:14px 0 6px;color:var(--pet)}.vit p{font-size:.93rem;line-height:1.55;margin:0;color:#3d5556}
+.vic{display:inline-flex;width:78px;height:78px;border-radius:50%;background:#7FA8A0;color:#fff;align-items:center;justify-content:center}
+.vic svg{width:38px;height:38px}
+.vnote{text-align:center;margin-top:30px;font-weight:600;color:var(--pet)}
+.phfig{max-width:760px;margin:26px auto 10px}.phsvg{width:100%;height:auto;display:block}
+.phl{font:600 17px/1 Montserrat,system-ui,sans-serif;fill:#1D3F40;letter-spacing:.04em}.pha{font:500 14px/1 Montserrat,system-ui,sans-serif;fill:#1D3F40;letter-spacing:.2em}
+.phacc{max-width:860px;margin:0 auto}
+.phd{background:#fff;border:1px solid #dfe6e5;border-radius:4px;margin:0 0 12px;padding:0 22px}
+.phd summary{cursor:pointer;list-style:none;font-size:1.25rem;font-weight:500;padding:16px 28px 16px 0;position:relative}
+.phd summary::-webkit-details-marker{display:none}
+.phd summary::after{content:"+";position:absolute;right:0;top:12px;color:#9fb3b1;font-size:1.4rem}
+.phd[open] summary::after{content:"–"}
+.phd p{margin:0 0 14px;line-height:1.65}
+.techs .tpanel{background:#7FA8A0;color:#fff;border-radius:4px;padding:34px 38px;max-width:900px;margin:0 auto}
+.techs h2{color:#fff;margin-top:0}.techs h3{color:#fff;font-size:1.15rem;margin:22px 0 8px}
+.techs p,.techs li{line-height:1.7}.techs ul{margin:0;padding-left:20px}.techs a.inl{color:#fff;text-decoration:underline}
+@media(max-width:760px){.visit .vgrid{grid-template-columns:1fr 1fr;gap:26px 16px}.techs .tpanel{padding:24px 20px}.phd summary{font-size:1.08rem}}
+"""
+
+
+def audience(b):
+    k = b.get("_id", "aud")
+    radios, tabs, panes = [], [], []
+    for i, it in enumerate(b["items"]):
+        rid = f"{k}-{i}"
+        radios.append(f'<input type="radio" name="{k}" id="{rid}"{" checked" if i == 0 else ""}>')
+        tabs.append(f'<label for="{rid}">{fmt(it["h"])}</label>')
+        paras = "".join(f"<p>{fmt(x)}</p>" for x in it["paras"])
+        lis = "".join(f"<li>{fmt(x)}</li>" for x in it.get("list", []))
+        lis = f"<ul>{lis}</ul>" if lis else ""
+        panes.append(f'<div class="apane"><h3>{fmt(it["h"])}</h3>{paras}{lis}</div>')
+    css = "".join(f"#{k}-{i}:checked~.atabs label[for={k}-{i}]{{background:var(--pet);color:#fff;border-color:var(--pet)}}"
+                  f"#{k}-{i}:checked~.apanes .apane:nth-child({i+1}){{display:block}}" for i in range(len(b["items"])))
+    return (f'<section class="aud"><div class="wrap">{sec_head(b.get("eyebrow", ""), b["h2"], b.get("intro"))}'
+            f'<style>{css}</style><div class="abox">{"".join(radios)}<div class="atabs">{"".join(tabs)}</div>'
+            f'<div class="apanes">{"".join(panes)}</div></div></div></section>')
+
+
+AUD_CSS = """
+.abox>input{position:absolute;opacity:0;pointer-events:none}
+.atabs{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin:26px 0 22px}
+.atabs label{cursor:pointer;border:1.5px solid var(--tq);color:#0a8f91;border-radius:999px;padding:9px 18px;font-weight:600;font-size:.95rem;background:#fff}
+.apane{display:none;background:#fff;border:1px solid #dfe6e5;border-radius:6px;padding:26px 30px;max-width:900px;margin:0 auto}
+.apane h3{margin-top:0;color:var(--pet)}.apane p{line-height:1.7}.apane ul{margin:0;padding-left:20px;line-height:1.7}
+@media(max-width:760px){.apane{padding:20px}}
+"""
+
+
 def page(p):
     parts = [head(p), nav(p), hero(p)]
     body, items = [], []
@@ -907,7 +1012,7 @@ def page(p):
                                            "items": [{"h": f, "p": ""} for f in fx]})
     for blk in blocks:
         t = blk["type"]
-        h = {"mirror": mirror, "explain": explain, "cards": cards, "steps": steps, "evidence": evidence, "hubcards": hubcards, "pack": pack, "linkgroups": linkgroups}.get(t)
+        h = {"mirror": mirror, "explain": explain, "cards": cards, "steps": steps, "evidence": evidence, "hubcards": hubcards, "pack": pack, "linkgroups": linkgroups, "visit": visit, "phases": phases, "techniques": techniques, "audience": audience}.get(t)
         if t == "pro":
             out = pro(blk, p); sid = "ficha"; label = tr("Ficha y reserva")
         else:

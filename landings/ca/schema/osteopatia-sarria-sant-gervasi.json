@@ -275,21 +275,27 @@
         },
         {
           "@type": "ScholarlyArticle",
-          "name": "Noninvasive Treatments for Acute, Subacute, and Chronic Low Back Pain: A Clinical Practice Guideline From the American College of Physicians",
-          "url": "https://doi.org/10.7326/M16-2367",
-          "sameAs": "https://doi.org/10.7326/M16-2367"
+          "name": "Osteopathic manipulative treatment for nonspecific low back pain: a systematic review and meta-analysis",
+          "url": "https://doi.org/10.1186/1471-2474-15-286",
+          "sameAs": "https://doi.org/10.1186/1471-2474-15-286"
         },
         {
           "@type": "ScholarlyArticle",
-          "name": "Reliability of diagnosis and clinical efficacy of visceral osteopathy: a systematic review",
-          "url": "https://doi.org/10.1186/s12906-018-2098-8",
-          "sameAs": "https://doi.org/10.1186/s12906-018-2098-8"
+          "name": "Osteopathic manipulative treatment for chronic nonspecific neck pain: a systematic review and meta-analysis",
+          "url": "https://doi.org/10.1016/j.ijosm.2015.05.003",
+          "sameAs": "https://doi.org/10.1016/j.ijosm.2015.05.003"
         },
         {
           "@type": "ScholarlyArticle",
-          "name": "Reliability of Diagnosis and Clinical Efficacy of Cranial Osteopathy: A Systematic Review",
-          "url": "https://doi.org/10.1371/journal.pone.0167823",
-          "sameAs": "https://doi.org/10.1371/journal.pone.0167823"
+          "name": "Osteopathic manipulative treatment for low back and pelvic girdle pain during and after pregnancy: a systematic review and meta-analysis",
+          "url": "https://doi.org/10.1016/j.jbmt.2017.05.014",
+          "sameAs": "https://doi.org/10.1016/j.jbmt.2017.05.014"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Manual therapy for unsettled, distressed and excessively crying infants: a systematic review and meta-analyses",
+          "url": "https://doi.org/10.1136/bmjopen-2017-019040",
+          "sameAs": "https://doi.org/10.1136/bmjopen-2017-019040"
         }
       ]
     },
