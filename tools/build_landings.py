@@ -62,6 +62,7 @@ BYSLUG = {p["slug"]: p for p in PAGES}
 # Ficha de Google (Wa Lam). Sustituir por el enlace «Compartir» de Google Maps cuando lo tengamos.
 MAPS_URL = "https://share.google/ND7AyHqhaIKZufsCF"
 NEWSLETTER_URL = "https://www.walambcn.com/newsletter"
+INSTAGRAM_URL = "https://www.instagram.com/walam_bcn/"
 DIR_URL = "https://www.google.com/maps/dir/?api=1&destination=Wa%20Lam%2C%20Carrer%20del%20Bisbe%20Sivilla%2044%2C%2008022%20Barcelona"
 
 
@@ -490,7 +491,7 @@ def schema(p):
            "areaServed": [{"@type": "Place", "name": f"{b}, Barcelona"} for b in BARRIOS] + [{"@type": "City", "name": "Barcelona"}],
            "medicalSpecialty": ["Physiotherapy", "Musculoskeletal"],
            "availableService": [{"@type": "MedicalTherapy", "name": plain(x["nav"]), "url": canon(x["slug"])} for x in PAGES if x["group"] == "servicio"],
-           "sameAs": SITE.get("same_as", []) + [MAPS_URL]}
+           "sameAs": SITE.get("same_as", []) + [MAPS_URL, INSTAGRAM_URL]}
     g = GROUPS.get(p["group"], {})
     crumbs = [{"@type": "ListItem", "position": 1, "name": "Inicio", "item": SITE["base"]}]
     if p["group"] != "home":
@@ -729,9 +730,9 @@ def contact(p):
 <p>{fmt(p.get("cta", {}).get("p") or tr("Cuéntanos brevemente qué te ocurre o qué te interesa y te diremos con sinceridad si podemos ayudarte y con qué profesional."))}</p>
 <div class="datos"><span>📍 {fmt(SITE['address_short'])}</span><span>📧 {SITE['email']}</span><span>🕘 {tr(SITE['hours'])}</span></div>
 <div class="btn-row cbtns"><a class="btn btn-tq" href="{wa(p['wa'])}" target="_blank" rel="noopener">{tr("Escríbenos por WhatsApp")}</a><a class="btn btn-map" href="{DIR_URL}" target="_blank" rel="noopener">📍 {tr("Cómo llegar")}</a></div>
-<p class="gmb"><a href="{MAPS_URL}" target="_blank" rel="noopener">{tr("Ver WA LAM en Google Maps y sus opiniones")} →</a></p>
+<p class="gmb"><a href="{MAPS_URL}" target="_blank" rel="noopener">{tr("Ver WA LAM en Google Maps y sus opiniones")} →</a> · <a href="{INSTAGRAM_URL}" target="_blank" rel="noopener">Instagram @walam_bcn</a></p>
 </div></section>
-<footer class="foot"><div class="wrap">WA LAM · {tr("Salud integrativa en Barcelona")} · Sarrià–Sant Gervasi · <a href="{url('')}">walambcn.com</a></div></footer>"""
+<footer class="foot"><div class="wrap">WA LAM · {tr("Salud integrativa en Barcelona")} · Sarrià–Sant Gervasi · <a href="{url('')}">walambcn.com</a> · <a href="{INSTAGRAM_URL}" target="_blank" rel="noopener">Instagram @walam_bcn</a></div></footer>"""
 
 
 NOTE_ES = ('La información de esta página es orientativa y no sustituye la valoración '
