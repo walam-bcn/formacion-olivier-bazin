@@ -297,6 +297,8 @@ ABORD_ROSA = {
         "La nutrición y la microbiota intestinal son dos pilares de la valoración desde la **[psiconeuroinmunoendocrinología (PNIE)](pni-pnie-barcelona)**. En el método **[re:trace](programas-re-trace)**, la historia clínica y los antecedentes familiares orientan qué pruebas pueden ayudar a precisar la valoración. Según su caso, podemos complementarla con análisis de marcadores inflamatorios o, cuando exista una indicación clínica, con estudios genéticos. Estos resultados, junto con la valoración inicial, guían el plan personalizado."]),
     3: ("Cómo lo abordamos", [
         "**[re:trace](programas-re-trace)** integra la valoración de su perfil cardiometabólico con la salud digestiva, la microbiota intestinal, la nutrición y el movimiento. A partir de esa valoración, definimos con usted qué hábitos priorizar y si el ayuno tiene cabida en su plan de prevención cardiovascular y longevidad."]),
+    6: ("Cómo lo abordamos", [
+        "**[re:trace](programas-re-trace)** integra todo lo que la ciencia ha demostrado eficaz para optimizar la salud y el rendimiento en un único método, perfeccionado a lo largo de casi dos décadas. A través de programas hiperpersonalizados, diagnósticos avanzados y un cuidado experto, logra una transformación medible y duradera en un tiempo récord."]),
 }
 
 
