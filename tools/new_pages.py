@@ -186,7 +186,12 @@ HOME_LIST = [
         ("Diarrea", "diarrea-cronica"), ("Estreñimiento", "estrenimiento"), ("Disbiosis intestinal", "salud-digestiva-microbiota"),
         ("Digestiones pesadas", "digestiones-pesadas-gastritis"), ("Enfermedad inflamatoria intestinal: Crohn, colitis ulcerosa", "enfermedad-inflamatoria-intestinal"),
         ("Gases, hinchazón y distensión abdominal", "gases-hinchazon-abdominal"), ("Colon irritable", "colon-irritable-sibo"),
-        ("Intolerancias alimentarias: gluten, lactosa, caseína y lácteos", "intolerancias-alimentarias"), ("SIBO y LIBO", "colon-irritable-sibo")]),
+        ("Intolerancias alimentarias: caseína y lácteos", "intolerancias-alimentarias"), ("SIBO y LIBO", "colon-irritable-sibo"),
+        # añadidos del material de la Dra. de la Puerta y Xevi Verdaguer (25 nov 2026)
+        ("Reflujo y acidez", "reflujo-acidez"), ("Permeabilidad intestinal", "salud-digestiva-microbiota"),
+        ("Cándida intestinal", "salud-digestiva-microbiota"), ("Sensibilidad al gluten", "intolerancia-gluten"),
+        ("Intolerancia a la lactosa", "intolerancia-lactosa"), ("Intolerancia a la fructosa", "intolerancia-fructosa"),
+        ("Intolerancia a la histamina y déficit de DAO", "intolerancia-histamina")]),
     ("Patologías metabólicas y cardiovasculares", [
         ("Adicción al chocolate o a los refrescos", None), ("Alcoholismo", None), ("Déficit de hierro, vitaminas, minerales y oligoelementos", None),
         ("Hígado graso", "salud-metabolica"), ("Hipertensión", "salud-metabolica"), ("Prevención cardiovascular", "salud-metabolica"),
