@@ -295,6 +295,8 @@ ABORD_ROSA = {
         "A partir de esta valoración, diseñamos un tratamiento personalizado. En algunos casos, una sola sesión puede ser suficiente. Si el dolor persiste, reaparece o sigue limitando su movilidad, le proponemos un plan de tratamiento que ajustamos según su evolución."]),
     1: ("Cómo lo abordamos", [
         "La nutrición y la microbiota intestinal son dos pilares de la valoración desde la **[psiconeuroinmunoendocrinología (PNIE)](pni-pnie-barcelona)**. En el método **[re:trace](programas-re-trace)**, la historia clínica y los antecedentes familiares orientan qué pruebas pueden ayudar a precisar la valoración. Según su caso, podemos complementarla con análisis de marcadores inflamatorios o, cuando exista una indicación clínica, con estudios genéticos. Estos resultados, junto con la valoración inicial, guían el plan personalizado."]),
+    3: ("Cómo lo abordamos", [
+        "**[re:trace](programas-re-trace)** integra la valoración de su perfil cardiometabólico con la salud digestiva, la microbiota intestinal, la nutrición y el movimiento. A partir de esa valoración, definimos con usted qué hábitos priorizar y si el ayuno tiene cabida en su plan de prevención cardiovascular y longevidad."]),
 }
 
 
