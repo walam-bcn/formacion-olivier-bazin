@@ -164,50 +164,41 @@ def integrate_areas(PAGES):
 
 # Lista completa de «Te puedo ayudar en las siguientes situaciones» (walambcn.com/sobre-mi), con enlace cuando hay página
 HOME_LIST = [
+    # Lista exacta de «Sobre mí» de walambcn.com (25 nov 2026): no añadir motivos que no estén en la web de Rosa
     ("Patologías musculoesqueléticas y osteoarticulares", [
         ("Artrosis", "artrosis"), ("Bursitis", "hombro-doloroso"), ("Capsulitis", "hombro-doloroso"), ("Cervicalgia", "cervicalgia-dolor-cuello"),
-        ("Ciática", "ciatica"), ("Condromalacia rotuliana", "dolor-rodilla-condromalacia"), ("Contracturas y desgarros musculares", "contracturas-desgarros-musculares"),
+        ("Condromalacia rotuliana", "dolor-rodilla-condromalacia"), ("Desgarros musculares", "contracturas-desgarros-musculares"),
         ("Dorsalgia", "dorsalgia-dolor-espalda-alta"), ("Esguinces", "esguinces"), ("Esguince cervical", "cervicalgia-dolor-cuello"),
         ("Fascitis plantar", "fascitis-plantar"), ("Fibromialgia", "fibromialgia"), ("Hernias de disco incipientes", "hernia-disco-incipiente"),
-        ("Lumbalgia", "lumbalgia-dolor-lumbar"), ("Neuralgia de Arnold", "cervicalgia-dolor-cuello"), ("Neuralgia del trigémino", "neuralgia-trigemino"),
-        ("Osteoporosis", "osteoporosis"), ("Problemas de la ATM y bruxismo", "bruxismo-dolor-mandibular-atm"), ("Sarcopenia", "osteoporosis"),
-        ("Síndrome del túnel carpiano", "tunel-carpiano"), ("Tendinitis", "hombro-doloroso"), ("Tortícolis", "torticolis"),
-        ("Dolor neuropático", "dolor-neuropatico"), ("Vértigo y mareo", "vertigo-mareo"), ("Acúfenos (tinnitus)", "acufenos"),
-        ("Cicatrices y adherencias", "cicatrices-adherencias"), ("Lesiones deportivas", "lesiones-deportivas"), ("Osteopatía en bebés y niños", "osteopatia-bebes-ninos"),
-        ("Fascia y liberación miofascial", "osteopatia-fascia-barcelona"), ("Trauma físico y emocional", "osteopatia-trauma")]),
+        ("Lumbalgia", "lumbalgia-dolor-lumbar"), ("Neuralgia de Arnold", "cervicalgia-dolor-cuello"), ("Osteoporosis", "osteoporosis"),
+        ("Problemas de la ATM", "bruxismo-dolor-mandibular-atm"), ("Sarcopenia", "osteoporosis"), ("Síndrome del túnel carpiano", "tunel-carpiano"),
+        ("Tendinitis", "hombro-doloroso"), ("Tortícolis", "torticolis")]),
     ("Patologías inflamatorias crónicas y autoinmunes", [
         ("Alergias", "alergias-asma-infecciones"), ("Artritis y artritis reumatoide", "inflamacion-cronica-autoinmunes"), ("Asma", "alergias-asma-infecciones"),
         ("Candidiasis", "candidiasis-vaginal-repeticion"), ("Colitis y gastritis", "digestiones-pesadas-gastritis"), ("Fibromialgia", "fibromialgia"),
-        ("Infecciones de repetición", "alergias-asma-infecciones"), ("Migrañas y cefaleas", "cefaleas-migrana"),
-        ("Problemas autoinmunes de la piel: eccemas, atopia", "inflamacion-cronica-autoinmunes"), ("Síndrome de dolor crónico", "dolor-persistente-cronico")]),
+        ("Infecciones de repetición", "alergias-asma-infecciones"), ("Migrañas", "cefaleas-migrana"),
+        ("Problemas autoinmunes de la piel: eccemas, atopia", "inflamacion-cronica-autoinmunes"), ("Síndrome del dolor crónico", "dolor-persistente-cronico")]),
     ("Patologías intestinales", [
-        ("Diarrea", "diarrea-cronica"), ("Estreñimiento", "estrenimiento"), ("Disbiosis intestinal y estudio de microbiota", "salud-digestiva-microbiota"),
-        ("Digestiones pesadas", "digestiones-pesadas-gastritis"), ("Reflujo y acidez", "reflujo-acidez"),
-        ("Enfermedad inflamatoria intestinal: Crohn, colitis ulcerosa", "enfermedad-inflamatoria-intestinal"), ("Gases", "gases-hinchazon-abdominal"),
-        ("Hinchazón y distensión abdominal", "gases-hinchazon-abdominal"), ("Colon irritable (SII)", "colon-irritable-sibo"), ("SIBO y LIBO", "colon-irritable-sibo"),
-        ("Intolerancias alimentarias", "intolerancias-alimentarias"), ("Sensibilidad al gluten", "intolerancia-gluten"), ("Intolerancia a la lactosa", "intolerancia-lactosa"),
-        ("Intolerancia a la fructosa", "intolerancia-fructosa"), ("Intolerancia a la histamina", "intolerancia-histamina")]),
+        ("Diarrea", "diarrea-cronica"), ("Estreñimiento", "estrenimiento"), ("Disbiosis intestinal", "salud-digestiva-microbiota"),
+        ("Digestiones pesadas", "digestiones-pesadas-gastritis"), ("Enfermedad inflamatoria intestinal: Crohn, colitis ulcerosa", "enfermedad-inflamatoria-intestinal"),
+        ("Gases, hinchazón y distensión abdominal", "gases-hinchazon-abdominal"), ("Colon irritable", "colon-irritable-sibo"),
+        ("Intolerancias alimentarias: gluten, lactosa, caseína y lácteos", "intolerancias-alimentarias"), ("SIBO y LIBO", "colon-irritable-sibo")]),
     ("Patologías metabólicas y cardiovasculares", [
-        ("Adicción al azúcar, chocolate o refrescos", None), ("Alcoholismo", None), ("Déficit de hierro, vitaminas y minerales", None),
+        ("Adicción al chocolate o a los refrescos", None), ("Alcoholismo", None), ("Déficit de hierro, vitaminas, minerales y oligoelementos", None),
         ("Hígado graso", "salud-metabolica"), ("Hipertensión", "salud-metabolica"), ("Prevención cardiovascular", "salud-metabolica"),
         ("Resistencia a la insulina", "salud-metabolica"), ("Síndrome metabólico", "salud-metabolica"), ("Sobrepeso y obesidad", "perdida-de-peso-sarria-sant-gervasi"),
         ("Tabaquismo", "dejar-de-fumar-acupuntura")]),
-    ("Agotamiento físico y emocional", [
-        ("Agotamiento físico y emocional", "agotamiento-fisico-emocional"), ("Estado de ánimo bajo", "agotamiento-fisico-emocional"),
-        ("Fatiga crónica", "fatiga-cronica-agotamiento"), ("Cansancio extremo", "fatiga-cronica-agotamiento"), ("Insomnio y trastornos del sueño", "sueno-insomnio"),
-        ("Shock emocional", "agotamiento-fisico-emocional"), ("Estrés y ansiedad", "estres-ansiedad"), ("Cortisol y estrés crónico", "cortisol-estres-cronico"),
-        ("Nervio vago", "nervio-vago")]),
-    ("Ginecología y salud pélvica", [
+    ("Agotamiento, estrés y sueño", [
+        ("Estrés", "estres-ansiedad"), ("Ansiedad", "estres-ansiedad"), ("Estrés crónico", "cortisol-estres-cronico"), ("Shock emocional", "agotamiento-fisico-emocional"),
+        ("Insomnio", "sueno-insomnio"), ("Trastornos del sueño", "sueno-insomnio"), ("Cansancio extremo", "fatiga-cronica-agotamiento"),
+        ("Fatiga crónica", "fatiga-cronica-agotamiento"), ("Estado de ánimo bajo", "agotamiento-fisico-emocional")]),
+    ("Ginecología", [
         ("Acné en mujeres", "sindrome-ovario-poliquistico"), ("Candidiasis vaginal recurrente", "candidiasis-vaginal-repeticion"),
         ("Cistitis recurrente", "cistitis-repeticion-vejiga-dolorosa"), ("Infertilidad y abortos recurrentes", "acompanamiento-fertilidad"),
-        ("Menopausia y sofocos", "salud-mujer-menopausia"), ("Ovarios poliquísticos (SOP)", "sindrome-ovario-poliquistico"),
-        ("Suelo pélvico", "suelo-pelvico-dolor-pelvico"), ("Dolor pélvico", "dolor-pelvico-barcelona"), ("Ejercicios de suelo pélvico", "ejercicios-suelo-pelvico"),
-        ("Dolor menstrual y endometriosis", "dolor-menstrual-endometriosis"), ("Neuralgia del pudendo", "neuralgia-pudendo"),
-        ("Dolor en las relaciones", "dispareunia-dolor-relaciones"), ("Incontinencia urinaria", "incontinencia-urinaria-esfuerzo"),
-        ("Prolapso", "prolapso-organos-pelvicos"), ("Embarazo y posparto", "osteopatia-embarazo-posparto"), ("Dolor de coxis", "dolor-coxis-coccigodinia")]),
+        ("Menopausia", "salud-mujer-menopausia"), ("Ovarios poliquísticos", "sindrome-ovario-poliquistico"), ("Sofocos", "salud-mujer-menopausia")]),
     ("Problemas endocrinos", [
-        ("Tiroiditis de Hashimoto temprana", "hipotiroidismo-hashimoto"), ("Hipotiroidismo leve", "hipotiroidismo-hashimoto"),
-        ("Hipertiroidismo", None), ("Trastornos de la prolactina", None)]),
+        ("Enfermedad de Hashimoto temprana", "hipotiroidismo-hashimoto"), ("Hipertiroidismo", None), ("Hipotiroidismo leve", "hipotiroidismo-hashimoto"),
+        ("Trastornos de la prolactina", None)]),
 ]
 
 
@@ -227,28 +218,29 @@ def integrate_home_list(PAGES):
 
 
 # Portada: «En qué te puedo ayudar» con indicaciones (lista de Sobre mí) y nuestro abordaje, por áreas
+RT = "Nuestro abordaje es el [método re:trace](programas-re-trace)"
 AREA_BLOCKS = [
-    ("01 · Aparato locomotor", "Sistema musculoesquelético y dolor", "Dolor articular, muscular y vertebral, agudo o persistente.",
-     "Combinamos osteopatía, acupuntura, ejercicio adaptado y educación en dolor, y trabajamos los factores que mantienen el dolor: sueño, estrés, sedentarismo e inflamación.",
-     ["[Osteopatía](osteopatia-sarria-sant-gervasi)", "[Acupuntura](acupuntura-medicina-tradicional-china)", "[Masaje terapéutico](masajes-sarria-sant-gervasi)"]),
-    ("02 · Inflamación e inmunidad", "Inflamación crónica, inmunidad y piel", "Procesos en los que la respuesta inflamatoria y la inmunidad desempeñan un papel central.",
-     "Trabajamos desde la PNIE: alimentación antiinflamatoria, salud intestinal y microbiota, regulación del estrés y del sueño.",
-     ["[PNIE](pni-pnie-barcelona)", "[Nutrición y salud intestinal](nutricion-salud-intestinal)"]),
-    ("03 · Aparato digestivo", "Aparato digestivo", "Los trastornos digestivos son uno de los motivos de consulta más frecuentes en WA LAM.",
-     "Analizamos el eje intestino-cerebro, la alimentación, los horarios, el estrés y la microbiota; solicitamos un estudio de microbiota cuando aporta información y diseñamos un plan nutricional, de PNIE y, si procede, de acupuntura y osteopatía visceral.",
-     ["[Nutrición y salud intestinal](nutricion-salud-intestinal)", "[PNIE](pni-pnie-barcelona)", "[Osteopatía visceral](osteopatia-visceral-barcelona)"]),
-    ("04 · Metabolismo", "Metabolismo y salud cardiovascular", "Factores de riesgo metabólico y cardiovascular que dependen en gran medida del estilo de vida.",
-     "Plan de alimentación individualizado, actividad física, acupuntura como apoyo y seguimiento de los parámetros analíticos.",
-     ["[Longevidad y prevención](prevencion-longevidad)", "[Nutrición y salud intestinal](nutricion-salud-intestinal)"]),
-    ("05 · Sistema nervioso", "Agotamiento, estrés y sueño", "Situaciones en las que el sistema nervioso, el sueño y la capacidad de adaptación están comprometidos.",
-     "Regulación del sistema nervioso con mindfulness, respiración, acupuntura, osteopatía craneal y hábitos de sueño, y revisión de los factores físicos que contribuyen a la fatiga.",
-     ["[Mindfulness](mindfulness-barcelona)", "[Neurolongevidad y salud cognitiva](neurolongevidad-salud-cognitiva)", "[Curso MBSR](curso-mindfulness-mbsr-barcelona)", "[Yoga terapéutico](yoga-particular-grupos-reducidos)", "[Qigong (chi kung)](qigong-barcelona)", "[Estiramientos](clases-estiramientos)"]),
-    ("06 · Salud de la mujer", "Ginecología y salud pélvica", "Etapas y procesos específicos de la salud femenina.",
-     "Nutrición, microbiota, regulación del estrés, acupuntura y osteopatía urogenital de abordaje externo.",
-     ["[Osteopatía urogenital](suelo-pelvico-dolor-pelvico)", "[Drenaje en el embarazo](drenaje-linfatico-embarazo)"]),
+    ("01 · Aparato locomotor", "Sistema musculoesquelético y dolor", "Dolor articular y vertebral, agudo o persistente.",
+     "%s, que integra la osteopatía, el ejercicio adaptado y la PNIE." % RT,
+     ["[Método re:trace](programas-re-trace)", "[Osteopatía](osteopatia-sarria-sant-gervasi)", "[PNIE](pni-pnie-barcelona)"]),
+    ("02 · Inflamación e inmunidad", "Inflamación crónica, inmunidad y piel", "Procesos en los que la inflamación y la inmunidad desempeñan un papel central.",
+     "%s, con la PNIE, la nutrición y la microbiota como pilares." % RT,
+     ["[Método re:trace](programas-re-trace)", "[PNIE](pni-pnie-barcelona)", "[Microbiota](salud-digestiva-microbiota)", "[Nutrición y salud intestinal](nutricion-salud-intestinal)"]),
+    ("03 · Aparato digestivo", "Aparato digestivo", "Uno de los motivos de consulta más frecuentes.",
+     "%s, con la PNIE, la microbiota, la nutrición y la osteopatía visceral." % RT,
+     ["[Método re:trace](programas-re-trace)", "[PNIE](pni-pnie-barcelona)", "[Microbiota](salud-digestiva-microbiota)", "[Nutrición y salud intestinal](nutricion-salud-intestinal)", "[Osteopatía visceral](osteopatia-visceral-barcelona)"]),
+    ("04 · Metabolismo", "Metabolismo y salud cardiovascular", "Factores de riesgo que dependen en gran medida del estilo de vida.",
+     "%s, con la nutrición, el ejercicio y la prevención." % RT,
+     ["[Método re:trace](programas-re-trace)", "[Nutrición y salud intestinal](nutricion-salud-intestinal)", "[Longevidad y prevención](prevencion-longevidad)"]),
+    ("05 · Sistema nervioso", "Agotamiento, estrés y sueño", "Cuando el sistema nervioso, el sueño y la capacidad de adaptación están comprometidos.",
+     "%s, con el mindfulness para la salud, la osteopatía y la PNIE." % RT,
+     ["[Método re:trace](programas-re-trace)", "[Mindfulness para la salud](mindfulness-barcelona)", "[Osteopatía](osteopatia-sarria-sant-gervasi)", "[PNIE](pni-pnie-barcelona)"]),
+    ("06 · Salud de la mujer", "Ginecología", "Etapas y procesos específicos de la salud femenina.",
+     "%s, con la PNIE, la nutrición y la osteopatía urogenital de abordaje externo." % RT,
+     ["[Método re:trace](programas-re-trace)", "[PNIE](pni-pnie-barcelona)", "[Osteopatía urogenital](suelo-pelvico-dolor-pelvico)"]),
     ("07 · Sistema endocrino", "Sistema endocrino", "Alteraciones hormonales en las que el estilo de vida tiene un papel importante.",
-     "Alimentación, salud intestinal, sueño y regulación del estrés.",
-     ["[PNIE](pni-pnie-barcelona)", "[Menopausia](salud-mujer-menopausia)"]),
+     "%s, con la PNIE y la nutrición." % RT,
+     ["[Método re:trace](programas-re-trace)", "[PNIE](pni-pnie-barcelona)", "[Nutrición y salud intestinal](nutricion-salud-intestinal)"]),
 ]
 
 WORK_STEPS = [
@@ -279,6 +271,6 @@ def integrate_home_areas(PAGES, primer_contacto=None):
         for (ey, h2, intro, ptxt, li), (_, items) in zip(AREA_BLOCKS, HOME_LIST):
             ind = [f"[{lab}]({s})" if s in known else lab for lab, s in items]
             new.append({"type": "cards", "eyebrow": ey, "h2": h2, "intro": intro,
-                        "items": [{"k": "Indicaciones", "h": "Motivos de consulta frecuentes", "li": ind},
-                                  {"k": "Nuestro abordaje", "h": "Cómo lo abordamos", "p": ptxt, "li": [x for x in li if x.split("](")[1][:-1] in known]}]})
+                        "items": [{"k": "Indicaciones", "h": "Motivos de consulta", "p": " · ".join(ind)},
+                                  {"k": "Nuestro abordaje", "h": "Método re:trace", "p": ptxt, "li": [x for x in li if x.split("](")[1][:-1] in known]}]})
         bl[i:i] = new
