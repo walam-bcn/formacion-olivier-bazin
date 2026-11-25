@@ -130,7 +130,7 @@ PAGES.append({
 
     ],
     "faq": [
-        ("¿Es lo mismo que la medicina alternativa?", "No. La medicina alternativa se plantea como sustituta de la medicina convencional. La medicina integrativa la complementa y solo utiliza las terapias que disponen de respaldo científico."),
+        ("¿Qué relación tiene con la medicina convencional?", "La medicina integrativa trabaja junto a la medicina convencional: incorpora las terapias que disponen de respaldo científico y pone a la persona, su historia y sus hábitos en el centro de la atención."),
         ("¿Cuánto dura y cuánto cuesta la primera visita?", "Dura sesenta minutos y cuesta 90 €."),
         ("¿Necesito un diagnóstico para venir?", "No. Puedes venir con un diagnóstico o simplemente porque notas que algo no va bien. En la primera visita revisamos tu historia y las pruebas que ya tengas y, si hace falta alguna más, te lo indicamos."),
     ],

@@ -254,10 +254,10 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "¿Es lo mismo que la medicina alternativa?",
+          "name": "¿Qué relación tiene con la medicina convencional?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. La medicina alternativa se plantea como sustituta de la medicina convencional. La medicina integrativa trabaja junto a ella y solo utiliza las terapias que disponen de respaldo científico."
+            "text": "La medicina integrativa trabaja junto a la medicina convencional: incorpora las terapias que disponen de respaldo científico y pone a la persona, su historia y sus hábitos en el centro de la atención."
           }
         },
         {
