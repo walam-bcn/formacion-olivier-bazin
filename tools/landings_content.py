@@ -2909,29 +2909,52 @@ for _p in PAGES:
     if _p["slug"] in _NAV_FIX:
         _p["nav"] = _NAV_FIX[_p["slug"]]
 
-# ── Dolor crónico: orden pedido por Rosa (25 nov 2026) ──
-# síntomas → osteopatía → diagnóstico → exploración → entender → tratamiento → primera visita → fases → resto
-_DC_ORDER = ["¿Se reconoce en estos síntomas?", "¿Cuáles son los síntomas?",
-             "¿Cómo se entiende el dolor crónico desde la osteopatía?",
-             "¿Cómo se diagnostica?", "¿Cómo se explora?", "¿Por qué es importante entender el dolor?",
-             "¿Cómo se trata?", "__visit", "__phases", "¿Qué es el dolor crónico?"]
+# ── Dolor crónico: enlaces a las tres osteopatías (Rosa, 25 nov 2026) ──
 for _p in PAGES:
     if _p["slug"] != "dolor-persistente-cronico":
         continue
-    _bl = _p["blocks"]
-    def _key(b):
-        if b.get("type") == "visit": return "__visit"
-        if b.get("type") == "phases": return "__phases"
-        h = b.get("h2", "")
-        return next((k for k in _DC_ORDER if k.startswith("¿") and h.startswith(k)), None)
-    _first = []
-    for _k in _DC_ORDER:
-        for _b in _bl:
-            if _key(_b) == _k and _b not in _first:
-                _first.append(_b)
-    _p["blocks"] = _first + [b for b in _bl if b not in _first]
     for _b in _p["blocks"]:
         if _b.get("h2", "").startswith("¿Cómo se entiende el dolor crónico desde la osteopatía?"):
             _b["paras"] = [x.replace("Puede leer más en nuestra página de [osteopatía visceral](osteopatia-visceral-barcelona).",
                 "Puede leer más en nuestras páginas de [osteopatía](osteopatia-sarria-sant-gervasi), [osteopatía craneosacral](osteopatia-craneosacral-barcelona) y [osteopatía visceral](osteopatia-visceral-barcelona).")
                 for x in _b["paras"]]
+
+# ── Orden lógico de las secciones en todas las landings (Rosa, 25 nov 2026) ──
+# Qué es → síntomas → visión osteopática → diagnóstico y exploración → tratamiento → primera visita → fases
+# → frecuencia, causas, riesgo, tipos y mecanismos (orden original) → cuándo consultar al médico → prevención → resto
+import unicodedata as _ud2
+def _norm(t):
+    return _ud2.normalize("NFD", t).encode("ascii", "ignore").decode().lower().strip()
+def _rank(b, first_explain):
+    t, h = b.get("type"), _norm(b.get("h2", ""))
+    S = lambda *k: h.startswith(k)
+    if b is first_explain: return 0
+    if t == "mirror" or S("se reconoce", "le suena", "cuales son los sintomas", "que sintomas"): return 1
+    if "para quien" in h or S("beneficios"): return 1.5
+    if "desde la osteopatia" in h or S("y si el dolor viene", "puede un dolor de", "puede el dolor venir de una viscera", "por que el osteopata"): return 2
+    if S("como se diagnostica", "como se valora", "como se explora", "que se explora", "que aporta la exploracion"): return 3
+    if S("por que es importante entender"): return 3.5
+    if S("como se trata", "como se trabaja", "como lo abordamos", "mi forma de trabajar", "como es una sesion") or t == "techniques": return 4
+    if t == "visit": return 5
+    if t == "phases": return 6
+    if S("cuando debo consultar"): return 8
+    if S("que puedo hacer", "se puede prevenir", "como se puede prevenir", "como prevenir"): return 9
+    if t in ("evidence", "pro", "pack") or S("formacion en osteopatia", "estudios de referencia", "precio", "modalidades", "precauciones"): return 10
+    if S("es frecuente", "son frecuentes"): return 7.0
+    if S("por que aparece", "por que duele", "por que se produce", "que lo causa", "cuales son las causas"): return 7.1
+    if S("quien tiene mas riesgo"): return 7.2
+    if S("puede complicarse"): return 7.3
+    return 7.5
+for _p in PAGES:
+    if _p.get("group") == "home" or not _p.get("blocks"):
+        continue
+    # cada figura viaja pegada al bloque que la precede
+    _units = []
+    for _b in _p["blocks"]:
+        if _b.get("type") == "figure" and _units:
+            _units[-1].append(_b)
+        else:
+            _units.append([_b])
+    _fe = next((u[0] for u in _units if u[0].get("type") == "explain"), None)
+    _units = sorted(enumerate(_units), key=lambda iu: (_rank(iu[1][0], _fe), iu[0]))
+    _p["blocks"] = [b for _, u in _units for b in u]
