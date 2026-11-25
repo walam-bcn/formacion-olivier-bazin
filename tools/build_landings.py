@@ -854,7 +854,7 @@ def fix_bonos(s):
 
 # Directorio «Más información» por áreas: botones discretos hacia cada landing
 DIR_AREAS = [
-    ("Espalda y articulaciones", ["lumbalgia-dolor-lumbar", "cervicalgia-dolor-cuello", "dorsalgia-dolor-espalda-alta", "ciatica", "hernia-disco-incipiente", "artrosis", "hombro-doloroso", "dolor-rodilla-condromalacia", "torticolis", "tunel-carpiano", "fascitis-plantar", "osteoporosis"]),
+    ("Espalda y articulaciones", ["lumbalgia-dolor-lumbar", "cervicalgia-dolor-cuello", "dorsalgia-dolor-espalda-alta", "ciatica", "hernia-disco-incipiente", "artrosis", "hombro-doloroso", "dolor-rodilla-condromalacia", "torticolis", "tunel-carpiano", "bursitis-capsulitis-tendinitis", "fascitis-plantar", "osteoporosis"]),
     ("Músculos, lesiones y dolor", ["dolor-persistente-cronico", "dolor-musculoesqueletico", "dolor-articular-miofascial", "contracturas-desgarros-musculares", "esguinces", "lesiones-deportivas", "fibromialgia", "cicatrices-adherencias", "dolor-postquirurgico", "dolor-oncologico"]),
     ("Cabeza y sistema nervioso", ["cefaleas-migrana", "neuralgia-trigemino", "dolor-neuropatico", "bruxismo-dolor-mandibular-atm", "vertigo-mareo", "acufenos"]),
     ("Aparato digestivo", ["salud-digestiva-microbiota", "colon-irritable-sibo", "reflujo-acidez", "digestiones-pesadas-gastritis", "gases-hinchazon-abdominal", "estrenimiento", "diarrea-cronica", "enfermedad-inflamatoria-intestinal", "intolerancias-alimentarias", "intolerancia-gluten", "intolerancia-lactosa", "intolerancia-fructosa", "intolerancia-histamina"]),

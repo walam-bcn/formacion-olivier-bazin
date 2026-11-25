@@ -2897,3 +2897,14 @@ for _p in PAGES:
         _bl.insert(_k, {"type": "chips", "eyebrow": "Más sobre osteopatía", "h2": "Osteopatía para cada necesidad", "_id": "mas-osteopatia",
                         "items": [("Osteopatía en bebés y niños", "osteopatia-bebes-ninos"), ("Fascia y liberación miofascial", "osteopatia-fascia-barcelona"),
                                   ("Trauma físico y emocional", "osteopatia-trauma")]})
+
+# Rosa (25 nov 2026): el nombre del botón (nav) igual que en la lista de medicina integrativa
+_NAV_FIX = {"hernia-disco-incipiente": "Hernias de disco incipientes y protrusión",
+            "dolor-rodilla-condromalacia": "Dolor de rodilla y condromalacia rotuliana",
+            "tunel-carpiano": "Síndrome del túnel carpiano",
+            "osteoporosis": "Osteoporosis y salud ósea",
+            "bruxismo-dolor-mandibular-atm": "Problemas de la ATM, bruxismo y dolor mandibular",
+            "contracturas-desgarros-musculares": "Contracturas y desgarros musculares"}
+for _p in PAGES:
+    if _p["slug"] in _NAV_FIX:
+        _p["nav"] = _NAV_FIX[_p["slug"]]
