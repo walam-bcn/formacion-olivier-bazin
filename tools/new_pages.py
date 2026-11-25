@@ -271,6 +271,6 @@ def integrate_home_areas(PAGES, primer_contacto=None):
         for (ey, h2, intro, ptxt, li), (_, items) in zip(AREA_BLOCKS, HOME_LIST):
             ind = [f"[{lab}]({s})" if s in known else lab for lab, s in items]
             new.append({"type": "cards", "eyebrow": ey, "h2": h2, "intro": intro,
-                        "items": [{"k": "Indicaciones", "h": "Motivos de consulta", "p": " · ".join(ind)},
-                                  {"k": "Nuestro abordaje", "h": "Método re:trace", "p": ptxt, "li": [x for x in li if x.split("](")[1][:-1] in known]}]})
+                        "items": [{"k": "Indicaciones", "h": "Motivos de consulta frecuentes", "li": ind},
+                                  {"k": "Nuestro abordaje", "h": "Cómo lo abordamos", "p": ptxt, "li": [x for x in li if x.split("](")[1][:-1] in known]}]})
         bl[i:i] = new
