@@ -176,12 +176,15 @@ HOME_LIST = [
         # añadidos por Rosa (25 nov 2026)
         ("Ciática", "ciatica"), ("Neuralgia del trigémino", "neuralgia-trigemino"),
         ("Dolor neuropático", "dolor-neuropatico"), ("Vértigo y mareo", "vertigo-mareo"), ("Acúfenos", "acufenos"),
-        ("Cicatrices y adherencias", "cicatrices-adherencias"), ("Lesiones deportivas", "lesiones-deportivas")]),
+        ("Cicatrices y adherencias", "cicatrices-adherencias"), ("Lesiones deportivas", "lesiones-deportivas"),
+        # Rosa (25 nov 2026): migrañas y dolor crónico van en musculoesquelético, no en inflamación
+        ("Migrañas", "cefaleas-migrana"), ("Migraña y dolor de cabeza", "cefaleas-migrana"),
+        ("Síndrome del dolor crónico", "dolor-persistente-cronico"), ("Dolor persistente y crónico", "dolor-persistente-cronico")]),
     ("Patologías inflamatorias crónicas y autoinmunes", [
         ("Alergias", "alergias-asma-infecciones"), ("Artritis y artritis reumatoide", "inflamacion-cronica-autoinmunes"), ("Asma", "alergias-asma-infecciones"),
-        ("Candidiasis", "candidiasis-vaginal-repeticion"), ("Colitis y gastritis", "digestiones-pesadas-gastritis"), ("Fibromialgia", "fibromialgia"),
-        ("Infecciones de repetición", "alergias-asma-infecciones"), ("Migrañas", "cefaleas-migrana"),
-        ("Problemas autoinmunes de la piel: eccemas, atopia", "inflamacion-cronica-autoinmunes"), ("Síndrome del dolor crónico", "dolor-persistente-cronico"),
+        ("Candidiasis", "candidiasis-vaginal-repeticion"), ("Colitis y gastritis", "digestiones-pesadas-gastritis"),
+        ("Infecciones de repetición", "alergias-asma-infecciones"),
+        ("Problemas autoinmunes de la piel: eccemas, atopia", "inflamacion-cronica-autoinmunes"),
         ("Inflamación crónica y enfermedades autoinmunes", "inflamacion-cronica-autoinmunes")]),
     ("Patologías intestinales", [
         ("Diarrea", "diarrea-cronica"), ("Estreñimiento", "estrenimiento"), ("Disbiosis intestinal", "salud-digestiva-microbiota"), ("Microbiota intestinal", "salud-digestiva-microbiota"),
