@@ -167,12 +167,16 @@ HOME_LIST = [
     # Lista exacta de «Sobre mí» de walambcn.com (25 nov 2026): no añadir motivos que no estén en la web de Rosa
     ("Patologías musculoesqueléticas y osteoarticulares", [
         ("Artrosis", "artrosis"), ("Bursitis", "hombro-doloroso"), ("Capsulitis", "hombro-doloroso"), ("Cervicalgia", "cervicalgia-dolor-cuello"),
-        ("Condromalacia rotuliana", "dolor-rodilla-condromalacia"), ("Desgarros musculares", "contracturas-desgarros-musculares"),
+        ("Condromalacia rotuliana", "dolor-rodilla-condromalacia"), ("Contracturas y desgarros musculares", "contracturas-desgarros-musculares"),
         ("Dorsalgia", "dorsalgia-dolor-espalda-alta"), ("Esguinces", "esguinces"), ("Esguince cervical", "cervicalgia-dolor-cuello"),
         ("Fascitis plantar", "fascitis-plantar"), ("Fibromialgia", "fibromialgia"), ("Hernias de disco incipientes", "hernia-disco-incipiente"),
         ("Lumbalgia", "lumbalgia-dolor-lumbar"), ("Neuralgia de Arnold", "cervicalgia-dolor-cuello"), ("Osteoporosis", "osteoporosis"),
         ("Problemas de la ATM", "bruxismo-dolor-mandibular-atm"), ("Sarcopenia", "osteoporosis"), ("Síndrome del túnel carpiano", "tunel-carpiano"),
-        ("Tendinitis", "hombro-doloroso"), ("Tortícolis", "torticolis")]),
+        ("Tendinitis", "hombro-doloroso"), ("Tortícolis", "torticolis"),
+        # añadidos por Rosa (25 nov 2026)
+        ("Ciática", "ciatica"), ("Bruxismo", "bruxismo-dolor-mandibular-atm"), ("Neuralgia del trigémino", "neuralgia-trigemino"),
+        ("Dolor neuropático", "dolor-neuropatico"), ("Vértigo y mareo", "vertigo-mareo"), ("Acúfenos", "acufenos"),
+        ("Cicatrices y adherencias", "cicatrices-adherencias"), ("Lesiones deportivas", "lesiones-deportivas")]),
     ("Patologías inflamatorias crónicas y autoinmunes", [
         ("Alergias", "alergias-asma-infecciones"), ("Artritis y artritis reumatoide", "inflamacion-cronica-autoinmunes"), ("Asma", "alergias-asma-infecciones"),
         ("Candidiasis", "candidiasis-vaginal-repeticion"), ("Colitis y gastritis", "digestiones-pesadas-gastritis"), ("Fibromialgia", "fibromialgia"),
