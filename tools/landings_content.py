@@ -2609,7 +2609,7 @@ OLIVIER_PAGES = ["suelo-pelvico-dolor-pelvico", "dolor-pelvico-barcelona", "ejer
                  "incontinencia-urinaria-esfuerzo", "prolapso-organos-pelvicos", "salud-mujer-menopausia", "sindrome-ovario-poliquistico",
                  "candidiasis-vaginal-repeticion", "acompanamiento-fertilidad", "manipulaciones-neuroviscerales", "osteopatia-visceral-barcelona",
                  "osteopatia-sarria-sant-gervasi", "osteopatia-craneosacral-barcelona", "nervio-vago",
-                 "osteopatia-fascia-barcelona", "osteopatia-trauma", "cicatrices-adherencias", "osteopatia-bebes-ninos"]
+                 "osteopatia-fascia-barcelona", "osteopatia-trauma", "cicatrices-adherencias", "osteopatia-bebes-ninos", "fisioterapia-sarria-sant-gervasi", "congestion-pelvica-sindrome-premenstrual", "trompas-salpingitis", "dolor-ovarico-quistes-ovario", "retroversion-utero", "vejiga-hiperactiva-urgencia", "cicatrices-episiotomia-cesarea", "sindrome-lacomme-dolor-pelvis-embarazo", "sindrome-ligamento-redondo", "posparto-recuperacion", "dolor-ingle-neuralgia-obturador", "lumbalgia-ciatica-origen-visceral"]
 for _p in PAGES:
     if _p["slug"] in OLIVIER_PAGES:
         _p["blocks"] = [b for b in _p["blocks"] if b.get("h2") != "Para profesionales" and b.get("eyebrow") != "Para profesionales"]
@@ -3041,3 +3041,19 @@ for _p in PAGES:
             _ev = _hub["evidence"]
             _k = next((k for k, b in enumerate(_p["blocks"]) if b.get("type") == "pro"), len(_p["blocks"]))
             _p["blocks"].insert(_k, {"type": "evidence", "h2": _ev.get("h2", "¿Qué dice la evidencia?"), "items": [tuple(x) for x in _ev["items"]], "refs": _ev.get("refs", [])})
+
+
+# Rosa (26 nov 2026): páginas ligeras de salud pélvica (libro de Olivier Bazin): abordaje con osteopatía y fisioterapia
+PELVIC_LIGHT = ['congestion-pelvica-sindrome-premenstrual', 'trompas-salpingitis', 'dolor-ovarico-quistes-ovario', 'retroversion-utero', 'vejiga-hiperactiva-urgencia', 'cicatrices-episiotomia-cesarea', 'sindrome-lacomme-dolor-pelvis-embarazo', 'sindrome-ligamento-redondo', 'posparto-recuperacion', 'dolor-ingle-neuralgia-obturador', 'lumbalgia-ciatica-origen-visceral']
+for _p in PAGES:
+    if _p["slug"] not in PELVIC_LIGHT:
+        continue
+    _bl = _p["blocks"]
+    _k = next((k for k, b in enumerate(_bl) if _norm(b.get("h2", "")).startswith("que se busca con el tratamiento")), None)
+    if _k is None:
+        _k = next((k for k, b in enumerate(_bl) if b.get("type") == "explain"), 0)
+    _bl.insert(_k + 1, {"type": "chips", "eyebrow": "Nuestro abordaje", "h2": "¿Cómo lo abordamos en WA LAM?",
+                        "intro": "En WA LAM, la salud pélvica se aborda con osteopatía y fisioterapia.",
+                        "items": [("Osteopatía", "osteopatia-sarria-sant-gervasi"), ("Osteopatía visceral", "osteopatia-visceral-barcelona"),
+                                  ("Osteopatía craneosacral", "osteopatia-craneosacral-barcelona"), ("Fisioterapia", "fisioterapia-sarria-sant-gervasi"),
+                                  ("Salud pélvica", "suelo-pelvico-dolor-pelvico")]})

@@ -1,0 +1,343 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": [
+        "MedicalClinic",
+        "MedicalBusiness"
+      ],
+      "@id": "https://www.walambcn.com/#clinica",
+      "name": "WA LAM",
+      "alternateName": "Wa Lam · Medicina integrativa",
+      "hasMap": "https://share.google/ND7AyHqhaIKZufsCF",
+      "url": "https://www.walambcn.com",
+      "telephone": "+34675716409",
+      "email": "contacto@walambcn.com",
+      "image": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/medicina-integrativa-barcelona.png",
+      "priceRange": "€€",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Carrer del Bisbe Sivilla, 44, local",
+        "postalCode": "08022",
+        "addressLocality": "Barcelona",
+        "addressRegion": "Cataluña",
+        "addressCountry": "ES"
+      },
+      "openingHours": [
+        "Mo-Fr 09:00-21:00"
+      ],
+      "founder": {
+        "@type": "Person",
+        "name": "Rosa María Rodríguez Valls",
+        "url": "https://www.walambcn.com/curriculum"
+      },
+      "foundingDate": "2004",
+      "areaServed": [
+        {
+          "@type": "Place",
+          "name": "Sarrià, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Sant Gervasi–Galvany, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Sant Gervasi–la Bonanova, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "les Tres Torres, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "el Putxet i el Farró, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Vallvidrera, el Tibidabo i les Planes, Barcelona"
+        },
+        {
+          "@type": "City",
+          "name": "Barcelona"
+        }
+      ],
+      "medicalSpecialty": [
+        "Physiotherapy",
+        "Musculoskeletal"
+      ],
+      "availableService": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Programes RE:TRACE",
+          "url": "https://www.walambcn.com/ca/programes-re-trace"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Osteopatia",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/osteopatia-sarria-sant-gervasi"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Osteopatia visceral",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/osteopatia-visceral-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Osteopatia craniosacral",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/osteopatia-craniosacral-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Manipulació neural i neurovisceral",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/manipulacions-neuroviscerals"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Pèrdua de pes",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/perdua-de-pes"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Deixar de fumar amb acupuntura",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/acupuntura-deixar-de-fumar"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Acupuntura i medicina tradicional xinesa",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/acupuntura-medicina-tradicional-xinesa"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "PNIE",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/pni-pnie-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Nutrició i salut intestinal",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/nutricio-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Drenatge limfàtic manual",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/drenatge-limfatic-manual"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Drenatge limfàtic en l'embaràs",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/drenatge-limfatic-embaras"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Drenatge limfàtic manual postoperatori",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/drenatge-limfatic-postoperatori"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Drenatge limfàtic per al limfedema",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/drenatge-limfatic-limfedema"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Massatge terapèutic",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/massatge-terapeutic"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Reflexologia podal",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/reflexologia-podal"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Ioga terapèutic",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/ioga-terapeutic"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Qigong (chi kung)",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/qigong-chikung"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Fàscia i alliberament miofascial",
+          "url": "https://www.walambcn.com/ca/osteopatia-fascia-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Osteopatia i trauma",
+          "url": "https://www.walambcn.com/ca/osteopatia-trauma"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Osteopatia en nadons i infants",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/osteopatia-nadons-infants"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Classes d'estiraments",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/classes-estiraments"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Reiki",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/reiki-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Nervi vague i teoria polivagal",
+          "url": "https://www.walambcn.com/ca/osteopatia-nervi-vague-teoria-polivagal"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Mindfulness",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/mindfulness-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Fisioteràpia",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/fisioterapia-sarria-sant-gervasi"
+        }
+      ],
+      "sameAs": [
+        "https://share.google/ND7AyHqhaIKZufsCF",
+        "https://www.instagram.com/walam_bcn/"
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/sindrome-lacomme-dolor-pelvis-embaras#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Inicio",
+          "item": "https://www.walambcn.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "En què puc ser-li útil?",
+          "item": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Síndrome de Lacomme",
+          "item": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/sindrome-lacomme-dolor-pelvis-embaras"
+        }
+      ]
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/sindrome-lacomme-dolor-pelvis-embaras#webpage",
+      "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/sindrome-lacomme-dolor-pelvis-embaras",
+      "name": "Síndrome de Lacomme (dolor de pubis a l'embaràs) a Barcelona | WA LAM",
+      "description": "Què és la síndrome de Lacomme, el dolor de pubis, sacroilíaques i pelvis de l'embaràs: símptomes, causes (relaxina, biomecànica, psoes), valoració manual suau i quan consultar. Sarrià–Sant Gervasi, Barcelona.",
+      "inLanguage": "ca-ES",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "WA LAM",
+        "url": "https://www.walambcn.com"
+      },
+      "breadcrumb": {
+        "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/sindrome-lacomme-dolor-pelvis-embaras#breadcrumb"
+      },
+      "publisher": {
+        "@id": "https://www.walambcn.com/#clinica"
+      },
+      "lastReviewed": "2026-11-18",
+      "dateModified": "2026-11-18",
+      "keywords": "síndrome de Lacomme, dolor de pubis embaràs, dolor sínfisis púbica embarazo, dolor de pelvis embarazo Barcelona, osteopatia embaràs Barcelona, dolor sacroilíaco embarazo",
+      "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/sindrome-lacomme-dolor-pelvis-embarazo.png",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".quick p",
+          "h1"
+        ]
+      },
+      "audience": {
+        "@type": "Patient"
+      },
+      "reviewedBy": {
+        "@type": "Person",
+        "name": "Rosa María Rodríguez Valls",
+        "jobTitle": "Osteópata D.O. y máster en medicina integrativa",
+        "worksFor": {
+          "@id": "https://www.walambcn.com/#clinica"
+        }
+      },
+      "about": {
+        "@type": "MedicalCondition",
+        "name": "Síndrome de Lacomme",
+        "possibleTreatment": []
+      },
+      "citation": [
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Vleeming A, Albert HB, Östgaard HC, Sturesson B, Stuge B. European guidelines for the diagnosis and treatment of pelvic girdle pain. Eur Spine J. 2008;17(6):794-819.",
+          "url": "https://doi.org/10.1007/s00586-008-0602-4",
+          "sameAs": "https://doi.org/10.1007/s00586-008-0602-4"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Wu WH, Meijer OG, Uegaki K, Mens JMA, van Dieën JH, Wuisman PIJM, Östgaard HC. Pregnancy-related pelvic girdle pain (PPP), I: Terminology, clinical presentation, and prevalence. Eur Spine J. 2004;13(7):575-589.",
+          "url": "https://doi.org/10.1007/s00586-003-0615-y",
+          "sameAs": "https://doi.org/10.1007/s00586-003-0615-y"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Franke H, Franke JD, Belz S, Fryer G. Osteopathic manipulative treatment for low back and pelvic girdle pain during and after pregnancy: a systematic review and meta-analysis. J Bodyw Mov Ther. 2017;21(4):752-762.",
+          "url": "https://doi.org/10.1016/j.jbmt.2017.05.014",
+          "sameAs": "https://doi.org/10.1016/j.jbmt.2017.05.014"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/sindrome-lacomme-dolor-pelvis-embaras#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "La síndrome de Lacomme és perillosa per al nadó?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. És un quadre benigne de la mare, relacionat amb l'adaptació de la pelvis a l'embaràs. Pot molestar molt, però no afecta el nadó."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Em passarà després del part?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "En la majoria dels casos, sí. Segons el llibre, en un 10 % de les dones pot persistir entre 12 i 18 mesos després del naixement; aleshores convé valorar-ho dins del postpart."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "És segur el tractament osteopàtic durant l'embaràs?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Els autors consideren que hi té plenament cabuda, sempre amb un tacte molt lleuger, sessions curtes, tècniques suaus i sense maniobres brusques, i descartant abans les contraindicacions que ha de valorar el seu ginecòleg."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "En quina setmana puc consultar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tan bon punt aparegui el dolor. Els autors proposen a més revisions en moments clau de l'embaràs, cap a les setmanes 12–14, 20, 28 i 32."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "És el mateix que el dolor del lligament rodó?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. El Lacomme fa mal al pubis, a les sacroilíaques i a la pelvis; la síndrome del lligament rodó dona punxades a l'engonal i a la fossa ilíaca en moure's, sobretot al segon trimestre."
+          }
+        }
+      ]
+    }
+  ]
+}

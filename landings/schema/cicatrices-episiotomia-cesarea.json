@@ -1,0 +1,343 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": [
+        "MedicalClinic",
+        "MedicalBusiness"
+      ],
+      "@id": "https://www.walambcn.com/#clinica",
+      "name": "WA LAM",
+      "alternateName": "Wa Lam · Medicina integrativa",
+      "hasMap": "https://share.google/ND7AyHqhaIKZufsCF",
+      "url": "https://www.walambcn.com",
+      "telephone": "+34675716409",
+      "email": "contacto@walambcn.com",
+      "image": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/medicina-integrativa-barcelona.png",
+      "priceRange": "€€",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Carrer del Bisbe Sivilla, 44, local",
+        "postalCode": "08022",
+        "addressLocality": "Barcelona",
+        "addressRegion": "Cataluña",
+        "addressCountry": "ES"
+      },
+      "openingHours": [
+        "Mo-Fr 09:00-21:00"
+      ],
+      "founder": {
+        "@type": "Person",
+        "name": "Rosa María Rodríguez Valls",
+        "url": "https://www.walambcn.com/curriculum"
+      },
+      "foundingDate": "2004",
+      "areaServed": [
+        {
+          "@type": "Place",
+          "name": "Sarrià, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Sant Gervasi–Galvany, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Sant Gervasi–la Bonanova, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "les Tres Torres, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "el Putxet i el Farró, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Vallvidrera, el Tibidabo i les Planes, Barcelona"
+        },
+        {
+          "@type": "City",
+          "name": "Barcelona"
+        }
+      ],
+      "medicalSpecialty": [
+        "Physiotherapy",
+        "Musculoskeletal"
+      ],
+      "availableService": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Programas RE:TRACE",
+          "url": "https://www.walambcn.com/metodo-integrativo-sarri%C3%A0-sant-gervasi-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Osteopatía",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/osteopatia-sarria-sant-gervasi"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Osteopatía visceral",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/osteopatia-visceral-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Osteopatía craneosacral",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/osteopatia-craneosacral-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Manipulación neural y neurovisceral",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/manipulaciones-neuroviscerales"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Pérdida de peso",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/perdida-de-peso"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Dejar de fumar con acupuntura",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/acupuntura-dejar-de-fumar"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Acupuntura y medicina tradicional china",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/acupuntura-medicina-tradicional-china"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "PNIE",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/pni-pnie-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Nutrición y salud intestinal",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/nutricion-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Drenaje linfático manual",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/drenaje-linfatico-manual"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Drenaje linfático en el embarazo",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/drenaje-linfatico-embarazo"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Drenaje linfático manual postoperatorio",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/drenaje-linfatico-postoperatorio"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Drenaje linfático para linfedema",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/drenaje-linfatico-linfedema"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Masaje terapéutico",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/masaje-terapeutico"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Reflexología podal",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/reflexologia-podal"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Yoga terapéutico",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/yoga-terapeutico"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Qigong (chi kung)",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/qigong-chi-kung"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Fascia y liberación miofascial",
+          "url": "https://www.walambcn.com/osteopatia-fascia-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Osteopatía y trauma",
+          "url": "https://www.walambcn.com/osteopatia-trauma"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Osteopatía en bebés y niños",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/osteopatia-bebes-ninos"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Clases de estiramientos",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/clases-de-estiramientos"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Reiki",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/reiki"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Nervio vago y teoría polivagal",
+          "url": "https://www.walambcn.com/osteopatia-nervio-vago-teoria-polivagal"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Mindfulness",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/mindfulness"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Fisioterapia",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/fisioterapia"
+        }
+      ],
+      "sameAs": [
+        "https://share.google/ND7AyHqhaIKZufsCF",
+        "https://www.instagram.com/walam_bcn/"
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/cicatrices-episiotomia-cesarea#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Inicio",
+          "item": "https://www.walambcn.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "¿En qué le puedo ayudar?",
+          "item": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Cicatrices de parto",
+          "item": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/cicatrices-episiotomia-cesarea"
+        }
+      ]
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/cicatrices-episiotomia-cesarea#webpage",
+      "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/cicatrices-episiotomia-cesarea",
+      "name": "Cicatrices de episiotomía y cesárea en Barcelona | WA LAM",
+      "description": "Qué ocurre en los tejidos tras una episiotomía, un desgarro perineal o una cesárea (fibrosis, adherencias, pérdida de elasticidad), su relación con el dolor en las relaciones y las pérdidas de orina, cuidados de la cicatriz y valoración con osteopatía externa en Sarrià–Sant Gervasi, Barcelona.",
+      "inLanguage": "es-ES",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "WA LAM",
+        "url": "https://www.walambcn.com"
+      },
+      "breadcrumb": {
+        "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/cicatrices-episiotomia-cesarea#breadcrumb"
+      },
+      "publisher": {
+        "@id": "https://www.walambcn.com/#clinica"
+      },
+      "lastReviewed": "2026-11-18",
+      "dateModified": "2026-11-18",
+      "keywords": "cicatriz episiotomía Barcelona, cicatriz de cesárea adherencias, dolor cicatriz episiotomía, dolor en las relaciones después del parto, desgarro perineal secuelas, masaje cicatriz cesárea",
+      "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/cicatrices-episiotomia-cesarea.png",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".quick p",
+          "h1"
+        ]
+      },
+      "audience": {
+        "@type": "Patient"
+      },
+      "reviewedBy": {
+        "@type": "Person",
+        "name": "Rosa María Rodríguez Valls",
+        "jobTitle": "Osteópata D.O. y máster en medicina integrativa",
+        "worksFor": {
+          "@id": "https://www.walambcn.com/#clinica"
+        }
+      },
+      "about": {
+        "@type": "MedicalCondition",
+        "name": "Cicatrices de episiotomía y cesárea",
+        "possibleTreatment": []
+      },
+      "citation": [
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Signorello LB, Harlow BL, Chekos AK, Repke JT. Postpartum sexual functioning and its relationship to perineal trauma: a retrospective cohort study of primiparous women. Am J Obstet Gynecol. 2001;184(5):881–888.",
+          "url": "https://doi.org/10.1067/mob.2001.113855",
+          "sameAs": "https://doi.org/10.1067/mob.2001.113855"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "McDonald EA, Gartland D, Small R, Brown SJ. Dyspareunia and childbirth: a prospective cohort study. BJOG. 2015;122(5):672–679.",
+          "url": "https://doi.org/10.1111/1471-0528.13263",
+          "sameAs": "https://doi.org/10.1111/1471-0528.13263"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Morales KJ, Gordon MC, Bates GW. Postcesarean delivery adhesions associated with delayed delivery of infant. Am J Obstet Gynecol. 2007;196(5):461.e1–461.e6.",
+          "url": "https://doi.org/10.1016/j.ajog.2006.12.017",
+          "sameAs": "https://doi.org/10.1016/j.ajog.2006.12.017"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/cicatrices-episiotomia-cesarea#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Cuándo puedo empezar a tratar mi cicatriz?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Según el libro, conviene esperar a que el útero recupere su tamaño (unas 6–8 semanas) o a la vuelta de la regla, salvo partos difíciles que justifiquen una consulta antes. La herida debe estar bien cerrada."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mi cicatriz es antigua, ¿todavía se puede trabajar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. La fibrosis y las adherencias pueden valorarse años después del parto; según los autores, las pérdidas de elasticidad responden mejor que las grandes roturas."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Por qué me duele en las relaciones si la cicatriz parece bien curada?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "La parte visible puede estar bien y quedar fibrosis o tensión en los planos profundos. Además, tras el parto y durante la lactancia bajan los estrógenos, lo que reduce la elasticidad de las mucosas."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿La cesárea deja adherencias?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Como toda cirugía abdominopélvica, puede dejarlas aunque esté muy bien hecha. Muchas no dan síntomas; cuando limitan la movilidad de los órganos, pueden relacionarse con dolor pélvico o lumbar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué cuidados de la piel necesita la cicatriz?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Masaje suave con crema hidratante cuando la herida esté cerrada y protección solar alta en las cicatrices expuestas durante el primer año."
+          }
+        }
+      ]
+    }
+  ]
+}
