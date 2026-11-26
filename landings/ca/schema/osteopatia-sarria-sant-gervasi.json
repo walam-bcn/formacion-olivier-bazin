@@ -443,6 +443,22 @@
             "@type": "Answer",
             "text": "No és necessària. Si durant la valoració detectem alguna cosa que requereix estudi mèdic, li ho direm."
           }
+        },
+        {
+          "@type": "Question",
+          "name": "S'utilitzen aparells a la sessió d'osteopatia?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. L'osteopatia és una teràpia exclusivament manual: les mans serveixen per valorar i per tractar, amb intensitats que van des de mobilitzacions articulars fins a contactes fascials molt suaus."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hi ha una edat mínima o màxima per rebre osteopatia?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Es pot aplicar des de les primeres setmanes de vida fins a edats avançades, adaptant sempre la intensitat i la durada de la sessió a cada persona."
+          }
         }
       ]
     }

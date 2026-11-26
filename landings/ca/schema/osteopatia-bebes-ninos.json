@@ -365,6 +365,22 @@
             "@type": "Answer",
             "text": "Els informes del pediatre i del part si en té, un bolquer de recanvi i el necessari per alimentar-lo. És preferible venir amb el nadó descansat i sense haver menjat just abans."
           }
+        },
+        {
+          "@type": "Question",
+          "name": "Cal que el nadó tingui símptomes per fer una revisió?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Moltes famílies consulten per fer una revisió preventiva després del naixement o en les fites del desenvolupament, sempre amb el seguiment del seu pediatre."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Pot ajudar en la bronquiolitis o l'asma?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pot acompanyar la mecànica respiratòria del tòrax i del diafragma, però el diagnòstic i el tractament d'aquests processos corresponen al seu pediatre. Davant de qualsevol dificultat per respirar, aneu sense demora al vostre pediatre o a urgències."
+          }
         }
       ]
     }

@@ -443,6 +443,14 @@
             "@type": "Answer",
             "text": "Depende del motivo de consulta, del tiempo de evolución y de su respuesta. Tras la primera visita le proponemos un plan con revisiones; a menudo las sesiones se espacian una o dos semanas para observar cómo responde el cuerpo."
           }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué se entiende por congestión en osteopatía visceral?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Es una sensación de pesadez, plenitud o presión en el abdomen o la pelvis que, en el modelo osteopático, se relaciona con una circulación y un drenaje más lentos alrededor de un órgano con poca movilidad. Si es intensa, reciente o se acompaña de fiebre o sangrado, consulte antes con su médico."
+          }
         }
       ]
     }

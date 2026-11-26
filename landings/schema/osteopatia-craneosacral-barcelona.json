@@ -341,6 +341,22 @@
             "@type": "Answer",
             "text": "Sí. Atendemos a niños, con el consentimiento y la presencia de su madre, padre o tutor, y a embarazadas, adaptando la técnica a cada etapa de la gestación."
           }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué se siente durante una sesión de terapia craneosacral?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Se recibe tumbado y vestido. El contacto es tan ligero que muchas personas apenas lo perciben como presión; lo habitual es una sensación de calma, de calor o de pesadez agradable, y a veces somnolencia."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Puede ayudar en el vértigo o en los acúfenos?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Se plantea cuando su médico ha descartado otras causas. El objetivo es reducir la tensión del cuello, la mandíbula y el cráneo que a menudo acompaña a estos síntomas; la respuesta varía de una persona a otra y no puede garantizarse."
+          }
         }
       ]
     }

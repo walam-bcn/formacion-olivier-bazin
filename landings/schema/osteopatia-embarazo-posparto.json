@@ -300,6 +300,14 @@
             "@type": "Answer",
             "text": "Sí, también en el posparto, cuando su matrona o ginecóloga lo considere adecuado."
           }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Puedo recibir osteopatía si estoy dando el pecho?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. La lactancia no impide la sesión; de hecho, el dolor de cuello y de espalda ligado a las tomas es uno de los motivos de consulta más frecuentes en el posparto."
+          }
         }
       ]
     }

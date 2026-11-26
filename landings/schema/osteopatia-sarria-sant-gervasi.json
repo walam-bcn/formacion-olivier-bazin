@@ -443,6 +443,22 @@
             "@type": "Answer",
             "text": "No es necesaria. Si durante la valoración detectamos algo que requiere estudio médico, se lo diremos."
           }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Se utilizan aparatos en la sesión de osteopatía?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. La osteopatía es una terapia exclusivamente manual: las manos sirven para valorar y para tratar, con intensidades que van desde movilizaciones articulares hasta contactos fasciales muy suaves."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Hay una edad mínima o máxima para recibir osteopatía?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Se puede aplicar desde las primeras semanas de vida hasta edades avanzadas, adaptando siempre la intensidad y la duración de la sesión a cada persona."
+          }
         }
       ]
     }

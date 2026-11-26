@@ -341,6 +341,22 @@
             "@type": "Answer",
             "text": "Sí. Atenem infants, amb el consentiment i la presència de la seva mare, pare o tutor, i embarassades, adaptant la tècnica a cada etapa de la gestació."
           }
+        },
+        {
+          "@type": "Question",
+          "name": "Què se sent durant una sessió de teràpia craniosacral?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Es rep estirat i vestit. El contacte és tan lleuger que moltes persones gairebé no el perceben com a pressió; el més habitual és una sensació de calma, d'escalfor o de pesantor agradable, i de vegades somnolència."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Pot ajudar en el vertigen o en els acúfens?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Es planteja quan el seu metge n'ha descartat altres causes. L'objectiu és reduir la tensió del coll, la mandíbula i el crani que sovint acompanya aquests símptomes; la resposta varia d'una persona a una altra i no es pot garantir."
+          }
         }
       ]
     }

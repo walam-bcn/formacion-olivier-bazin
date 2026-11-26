@@ -300,6 +300,14 @@
             "@type": "Answer",
             "text": "Sí, també en el postpart, quan la seva llevadora o ginecòloga ho consideri adequat."
           }
+        },
+        {
+          "@type": "Question",
+          "name": "Puc rebre osteopatia si dono el pit?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. La lactància no impedeix la sessió; de fet, el dolor de coll i d'esquena lligat a les preses és un dels motius de consulta més freqüents en el postpart."
+          }
         }
       ]
     }

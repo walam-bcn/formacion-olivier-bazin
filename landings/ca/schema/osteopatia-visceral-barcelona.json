@@ -443,6 +443,14 @@
             "@type": "Answer",
             "text": "Depende del motivo de consulta, del tiempo de evolución y de su respuesta. Tras la primera visita le proponemos un plan con revisiones; a menudo las sesiones se espacian una o dos semanas para observar cómo responde el cuerpo."
           }
+        },
+        {
+          "@type": "Question",
+          "name": "Què s'entén per congestió en osteopatia visceral?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "És una sensació de pesantor, plenitud o pressió a l'abdomen o a la pelvis que, en el model osteopàtic, es relaciona amb una circulació i un drenatge més lents al voltant d'un òrgan amb poca mobilitat. Si és intensa, recent o s'acompanya de febre o sagnat, consulteu abans amb el vostre metge."
+          }
         }
       ]
     }

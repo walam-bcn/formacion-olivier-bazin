@@ -365,6 +365,22 @@
             "@type": "Answer",
             "text": "Los informes del pediatra y del parto si los tiene, un pañal de recambio y lo necesario para alimentarlo. Es preferible venir con el bebé descansado y sin haber comido justo antes."
           }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Es necesario que el bebé tenga síntomas para hacer una revisión?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Muchas familias consultan para una revisión preventiva tras el nacimiento o en los hitos del desarrollo, siempre con el seguimiento de su pediatra."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Puede ayudar en la bronquiolitis o el asma?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Puede acompañar la mecánica respiratoria del tórax y del diafragma, pero el diagnóstico y el tratamiento de estos procesos corresponden a su pediatra. Ante cualquier dificultad para respirar, acuda sin demora a su pediatra o a urgencias."
+          }
         }
       ]
     }
