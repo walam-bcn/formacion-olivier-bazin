@@ -299,6 +299,8 @@ ABORD_ROSA = {
         "En **[RE:TRACE](programas-re-trace)**, el cuidado digestivo sigue un recorrido en tres etapas. Primero, **entender**: una historia clínica detallada y, si procede, pruebas como el estudio de la microbiota para identificar qué está alterado. Después, **restablecer**: un plan personalizado de alimentación y hábitos saludables para recuperarse. Por último, **consolidar**: pautas de mantenimiento para que la mejoría se sostenga en el tiempo."]),
     3: ("Cómo lo abordamos", [
         "**[re:trace](programas-re-trace)** integra la valoración de su perfil cardiometabólico con la salud digestiva, la microbiota intestinal, la nutrición y el movimiento. A partir de esa valoración, definimos con usted qué hábitos priorizar y si el ayuno tiene cabida en su plan de prevención cardiovascular y longevidad."]),
+    5: ("Cómo lo abordamos", [
+        "Muchas mujeres llegan después de años conviviendo con síntomas que se han normalizado: dolor menstrual, sofocos, cistitis de repetición o cansancio. En **[RE:TRACE](programas-re-trace)** empezamos por escuchar su historia completa, porque cada etapa de la vida deja huella. Una valoración global nos permite entender qué hay detrás y acompañarla con un plan que respeta su cuerpo y sus tiempos."]),
     6: ("Cómo lo abordamos", [
         "**[re:trace](programas-re-trace)** integra todo lo que la ciencia ha demostrado eficaz para optimizar la salud y el rendimiento en un único método, nacido de más de veinte años de experiencia clínica en WA LAM. A través de programas hiperpersonalizados, diagnósticos avanzados y un cuidado experto, logra una transformación medible y duradera en un tiempo récord."]),
 }
