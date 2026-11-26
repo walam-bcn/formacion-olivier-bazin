@@ -316,6 +316,14 @@
             "@type": "Answer",
             "text": "Porque la región del trígono depende de las hormonas y es más sensible alrededor de la ovulación y antes de la menstruación, cuando además la pelvis está más congestionada."
           }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Por qué tengo molestias de vejiga después de las relaciones o de hacer deporte?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cuando los análisis no muestran infección, puede tratarse de una cistalgia: una irritación mecánica de la base de la vejiga, el trígono, que se desencadena con más facilidad tras las relaciones sexuales o actividades que sacuden la pelvis, como correr, saltar o montar a caballo. Según Olivier Bazin, responde especialmente bien al tratamiento osteopático."
+          }
         }
       ]
     }

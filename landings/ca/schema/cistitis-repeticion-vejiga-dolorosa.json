@@ -316,6 +316,14 @@
             "@type": "Answer",
             "text": "Perquè la regió del trígon depèn de les hormones i és més sensible al voltant de l'ovulació i abans de la menstruació, quan a més la pelvis està més congestionada."
           }
+        },
+        {
+          "@type": "Question",
+          "name": "Per què tinc molèsties de bufeta després de les relacions o de fer esport?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Quan les anàlisis no mostren infecció, pot tractar-se d'una cistàlgia: una irritació mecànica de la base de la bufeta, el trígon, que es desencadena més fàcilment després de les relacions sexuals o d'activitats que sacsegen la pelvis, com córrer, saltar o muntar a cavall. Segons Olivier Bazin, respon especialment bé al tractament osteopàtic."
+          }
         }
       ]
     }
