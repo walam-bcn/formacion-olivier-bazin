@@ -1331,8 +1331,9 @@ R["dumoulin"] = _r("Dumoulin C, Cacciari LP, Hay-Smith EJC, 2018. «Pelvic floor
 
 OB_URL = "https://www.walambcn.com/formacion-avanzada-internacional-osteopatia-urogenital-salud-pelvica"
 def uro_pro():
-    return {"type": "explain", "eyebrow": "Para profesionales", "h2": "Formación en osteopatía urogenital con Olivier Bazin",
-            "paras": ["WA LAM organiza en Barcelona la formación internacional de Olivier Bazin, D.O., en manipulaciones urogenitales y trastornos pélvicos femeninos, con abordaje externo. Está dirigida a osteópatas, fisioterapeutas, médicos, matronas y especialistas en suelo pélvico. [Ver programa y fechas](" + OB_URL + ") · [Más información sobre la formación](https://walam-bcn.github.io/formacion-olivier-bazin/)."]}
+    return {"type": "explain", "eyebrow": "Para profesionales", "h2": '¿Busca una formación avanzada en manipulaciones urogenitales y salud pélvica?',
+            "paras": ['Formación especializada para **osteópatas, fisioterapeutas, médicos, enfermeras, ginecólogos, matronas y especialistas en suelo pélvico** que quieren ir más allá en el tratamiento de las disfunciones pélvicas femeninas. La imparte **Olivier Bazin, D.O., MRO(F)**, fisioterapeuta y osteópata, coautor de «Visceral Manipulation for Female Pelvic Disorders» (Elsevier) y docente internacional del método Barral. WA LAM la organiza en Barcelona, por primera vez en España.', '[Ver programa, fechas e inscripción](https://www.walambcn.com/formacion-avanzada-internacional-osteopatia-urogenital-salud-pelvica) · [Más información sobre la formación](https://walam-bcn.github.io/formacion-olivier-bazin/).'],
+            "list_title": 'La formación incluye:', "list": ['**Seminario 1 · UGM:** manipulación urogenital para los trastornos pélvicos, con abordaje externo', '**Seminario 2 · VMFPD:** manipulación visceral para los trastornos pélvicos femeninos', 'Dos módulos complementarios de una misma formación: 6 días intensivos presenciales en Barcelona', 'Traducción al castellano y certificado de asistencia', 'Próximas fechas: Urogenital I, 5–7 de mayo de 2028 · Urogenital II, 1–3 de septiembre de 2028']}
 UG_NOTE = "En WA LAM el abordaje es siempre externo y se dirige a mujeres."
 
 def uro_page(slug, nav, card, title, desc, about, h1, sub, lead, facts, wa, mirror_h2, qs, close, ex1_h2, ex1, ex2_h2, ex2, ev, refs, faq, related, cta_h2):
@@ -3035,7 +3036,7 @@ for _p in PAGES:
     if _hub and _p["slug"] == "suelo-pelvico-dolor-pelvico":
         for _k in ("h1", "nav", "sub", "title", "desc", "lead", "card"):
             _p[_k] = _hub[_k]
-        _p["blocks"] = [b for b in _p["blocks"] if b.get("_id") != "tambien-salud-pelvica" and b.get("h2") not in ("Para profesionales", "Formación en osteopatía urogenital con Olivier Bazin", "Mi forma de trabajar")]
+        _p["blocks"] = [b for b in _p["blocks"] if b.get("_id") != "tambien-salud-pelvica" and b.get("eyebrow") != "Para profesionales" and b.get("h2") not in ("Para profesionales", "Formación en osteopatía urogenital con Olivier Bazin", "Mi forma de trabajar")]
         if not any(b.get("type") == "evidence" for b in _p["blocks"]):
             _ev = _hub["evidence"]
             _k = next((k for k, b in enumerate(_p["blocks"]) if b.get("type") == "pro"), len(_p["blocks"]))
