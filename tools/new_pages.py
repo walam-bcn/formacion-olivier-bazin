@@ -299,6 +299,9 @@ ABORD_ROSA = {
         "En **[RE:TRACE](programas-re-trace)**, el cuidado digestivo sigue un recorrido en tres etapas. Primero, **entender**: una historia clínica detallada y, si procede, pruebas como el estudio de la microbiota para identificar qué está alterado. Después, **restablecer**: un plan personalizado de alimentación y hábitos saludables para recuperarse. Por último, **consolidar**: pautas de mantenimiento para que la mejoría se sostenga en el tiempo."]),
     3: ("Cómo lo abordamos", [
         "**[re:trace](programas-re-trace)** integra la valoración de su perfil cardiometabólico con la salud digestiva, la microbiota intestinal, la nutrición y el movimiento. A partir de esa valoración, definimos con usted qué hábitos priorizar y si el ayuno tiene cabida en su plan de prevención cardiovascular y longevidad."]),
+    4: ("Cómo lo abordamos", [
+        "El agotamiento no se resuelve solo descansando más. En **[RE:TRACE](programas-re-trace)** valoramos su estilo de vida y, a partir de ahí, trabajamos en tres tiempos. **Soltar** lo que le desgasta. **Recuperar** con alimentación, descanso y movimiento consciente, junto con terapias con respaldo científico que ayudan a regular el sistema nervioso. **Reconectar** con herramientas para gestionar el estrés en su día a día. Así recupera la energía, la claridad y el vigor, y aprende a mantenerlos."],
+        ["[Método re:trace](programas-re-trace)", "[Curso MBSR de 8 semanas, en directo por Zoom](curso-mindfulness-mbsr-barcelona)", "[Mindfulness: sesiones semanales en directo por Zoom](mindfulness-barcelona)"]),
     5: ("Cómo lo abordamos", [
         "Muchas mujeres llegan después de años conviviendo con síntomas que se han normalizado: dolor menstrual, sofocos, cistitis de repetición o cansancio. En **[RE:TRACE](programas-re-trace)** empezamos por escuchar su historia completa, porque cada etapa de la vida deja huella. Una valoración global nos permite entender qué hay detrás y acompañarla con un plan que respeta su cuerpo y sus tiempos."]),
     6: ("Cómo lo abordamos", [
@@ -330,7 +333,7 @@ def integrate_home_areas(PAGES, primer_contacto=None):
             ind = [f"[{lab}]({s})" if s in known else lab for lab, s in sorted(items + extra, key=_key)]
             abord = {"k": "Nuestro abordaje", "h": "Cómo lo abordamos", "p": ptxt, "li": [x for x in li if x.split("](")[1][:-1] in known]}
             if n in ABORD_ROSA:
-                abord = {"k": "Nuestro abordaje", "h": ABORD_ROSA[n][0], "paras": ABORD_ROSA[n][1], "li": ["[Método re:trace](programas-re-trace)"]}
+                abord = {"k": "Nuestro abordaje", "h": ABORD_ROSA[n][0], "paras": ABORD_ROSA[n][1], "li": (ABORD_ROSA[n][2] if len(ABORD_ROSA[n]) > 2 else ["[Método re:trace](programas-re-trace)"])}
             if n == 0:
                 half = (len(ind) + 1) // 2
                 its = [{"k": "Indicaciones", "h": "Motivos de consulta frecuentes", "li": ind[:half]},
