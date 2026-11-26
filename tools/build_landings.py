@@ -397,7 +397,7 @@ h1,h2,h3,h4,.btn,.btn-tq,.faq summary,b,strong,.explain .txt b,.card h3,.step h3
 .lg h3{font-size:18px!important;font-weight:700!important;color:var(--pet);padding-top:14px;border-top:2px solid var(--tq);margin-bottom:10px}
 .lg ul{list-style:none}.lg li{padding:4px 0}.lg a{color:var(--pet);text-decoration:none}.lg a:hover{color:#0a9a9c;text-decoration:underline}
 .lgall{margin-top:40px;text-align:center}
-.press{padding:44px 0!important;background:#f6f1ea}.prbox{max-width:860px;margin:0 auto;text-align:center;background:#fff;border:1px solid #e3d6c3;border-radius:14px;padding:30px 28px}.prk{display:block;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#0f8f8f;font-weight:600}.prm{display:block;font-family:Georgia,"Times New Roman",serif;font-size:34px;color:#1D3F40;margin:6px 0 10px}.prh{text-align:center!important;font-weight:600;font-size:19px!important;color:#1D3F40;margin:0 0 8px!important}.prp{text-align:center!important;max-width:680px;margin:0 auto 18px!important}.prd{display:block;margin-top:12px;font-size:13px;opacity:.7}.cont .gmb{margin:-8px auto 22px!important}.cont .gmb a{color:#fff;opacity:.85;text-decoration:underline}
+.press{padding:44px 0!important;background:#f6f1ea}.prbox{max-width:860px;margin:0 auto 22px;text-align:center;background:#fff;border:1px solid #e3d6c3;border-radius:14px;padding:30px 28px}.prk{display:block;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#0f8f8f;font-weight:600}.prm{display:block;font-family:Georgia,"Times New Roman",serif;font-size:34px;color:#1D3F40;margin:6px 0 10px}.prh{text-align:center!important;font-weight:600;font-size:19px!important;color:#1D3F40;margin:0 0 8px!important}.prp{text-align:center!important;max-width:680px;margin:0 auto 18px!important}.prd{display:block;margin-top:12px;font-size:13px;opacity:.7}.cont .gmb{margin:-8px auto 22px!important}.cont .gmb a{color:#fff;opacity:.85;text-decoration:underline}
 .card,.q,.step,.evi{border-top:2px solid var(--tq)!important}
 .card h3,.step h3{font-weight:400!important}
 .mclose{font-weight:400!important}
@@ -488,7 +488,7 @@ def schema(p):
            "image": SITE["og_base"] + "medicina-integrativa-barcelona.png", "priceRange": "€€",
            "address": {"@type": "PostalAddress", "streetAddress": "Carrer del Bisbe Sivilla, 44, local", "postalCode": SITE["postal"],
                        "addressLocality": "Barcelona", "addressRegion": "Cataluña", "addressCountry": "ES"},
-           "openingHours": SITE["opening"], "founder": {"@type": "Person", "name": SITE.get("owner", "Rosa"), "url": SITE["cv_url"], "subjectOf": [{"@type": "NewsArticle", "publisher": {"@type": "Organization", "name": x["medio"]}, "url": x["url"], "datePublished": "2026-10-04"} for x in PRESS]}, "foundingDate": "2004",
+           "openingHours": SITE["opening"], "founder": {"@type": "Person", "name": SITE.get("owner", "Rosa"), "url": SITE["cv_url"], "subjectOf": [{"@type": "NewsArticle", "publisher": {"@type": "Organization", "name": x["medio"]}, "url": x["url"], "datePublished": "2026-10-04"} for x in PRESS if not x.get("olivier")]}, "foundingDate": "2004",
            "areaServed": [{"@type": "Place", "name": f"{b}, Barcelona"} for b in BARRIOS] + [{"@type": "City", "name": "Barcelona"}],
            "medicalSpecialty": ["Physiotherapy", "Musculoskeletal"],
            "availableService": [{"@type": "MedicalTherapy", "name": plain(x["nav"]), "url": canon(x["slug"])} for x in PAGES if x["group"] == "servicio"],
@@ -752,12 +752,18 @@ def newsletter():
 
 PRESS = [{"medio": "La Vanguardia", "fecha": "4 de octubre de 2026", "url": "https://www.lavanguardia.com/empresas-de-vanguardia/historias-de-exito/20261004/11647353/salud-proceso-fijo-forma-conectar-sintomas-historia-clinica-estilo-vida.html",
           "h": "Rosa Rodríguez Valls, entrevistada en La Vanguardia",
-          "p": "El diario de referencia en toda España entrevista a la fundadora de WA LAM sobre su forma de entender la salud: conectar los síntomas con la historia clínica y el estilo de vida de cada persona."}]
+          "p": "El diario de referencia en toda España entrevista a la fundadora de WA LAM sobre su forma de entender la salud: conectar los síntomas con la historia clínica y el estilo de vida de cada persona."},
+         {"medio": "La Vanguardia", "fecha": "6 de septiembre de 2026", "url": "https://www.lavanguardia.com/empresas-de-vanguardia/historias-de-exito/20260906/11623679/olivier-bazin-movilidad-organos-influir-sintomas-aparentemente-alejados-zona-encuentra-alteracion.html", "olivier": True, "iso": "2026-09-06",
+          "h": "Olivier Bazin, entrevistado en La Vanguardia",
+          "p": "El diario de referencia en toda España entrevista a Olivier Bazin, D.O., sobre cómo la movilidad de los órganos puede influir en síntomas aparentemente alejados de la zona donde se encuentra la alteración."}]
 
 
-def press():
+def press(p=None):
+    oli = bool(p) and any(b.get("eyebrow") in ("Para profesionales", "Per a professionals") for b in p.get("blocks", []))
     out = []
     for x in PRESS:
+        if x.get("olivier") and not oli:
+            continue
         out.append(f'<div class="prbox"><span class="prk">{tr("En los medios")}</span><span class="prm">{x["medio"]}</span>'
                    f'<p class="prh">{tr(x["h"])}</p><p class="prp">{tr(x["p"])}</p>'
                    f'<a class="btn btn-tq" href="{x["url"]}" target="_blank" rel="noopener">{tr("Leer la entrevista")} →</a>'
@@ -766,7 +772,7 @@ def press():
 
 
 def contact(p):
-    return press() + newsletter() + f"""<section class="cont" id="contacto"><div class="wrap">
+    return press(p) + newsletter() + f"""<section class="cont" id="contacto"><div class="wrap">
 <h2>{fmt(p.get("cta", {}).get("h2") or tr("Estamos aquí para orientarte"))}</h2>
 <p>{fmt(p.get("cta", {}).get("p") or tr("Cuéntanos brevemente qué te ocurre o qué te interesa y te diremos con sinceridad si podemos ayudarte y con qué profesional."))}</p>
 <div class="datos"><span>📍 {fmt(SITE['address_short'])}</span><span>📧 {SITE['email']}</span><span>🕘 {tr(SITE['hours'])}</span></div>
