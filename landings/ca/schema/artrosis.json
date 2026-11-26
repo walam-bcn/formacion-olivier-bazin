@@ -438,6 +438,30 @@
             "@type": "Answer",
             "text": "Sí. Cada localización requiere un plan propio. Si el dolor es sobre todo lumbar o baja por la pierna, puede consultar también nuestras páginas de lumbalgia y ciática."
           }
+        },
+        {
+          "@type": "Question",
+          "name": "Quin exercici és millor si tinc artrosi de genoll?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "El millor és el que pot fer amb regularitat. Caminar, nedar o la bicicleta estàtica són activitats de baix impacte que se solen tolerar bé, i convé combinar-les amb exercicis de força per al quàdriceps i els glutis, adaptats al seu nivell."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Em fa mal l'engonal en seure en una butaca o en posar-me els mitjons, què pot ser?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "És un patró típic d'un problema del mateix maluc: en persones joves i actives, un pinçament femoroacetabular; en persones grans, sovint una artrosi de maluc. Convé valorar-ho; si el dolor persisteix, el seu metge decidirà si calen proves d'imatge."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "La ressonància diu que tinc una ruptura del làbrum, és greu?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No necessàriament. Moltes alteracions del làbrum són canvis naturals amb l'edat i apareixen en persones sense símptomes. L'important és si la troballa encaixa amb el que vostè nota i amb l'exploració."
+          }
         }
       ]
     }

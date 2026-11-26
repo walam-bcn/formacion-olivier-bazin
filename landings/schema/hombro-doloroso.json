@@ -432,6 +432,14 @@
             "@type": "Answer",
             "text": "Depende del tipo de problema, del tiempo de evolución y de cada persona. Tras la primera visita se propone un plan con objetivos claros, ejercicios para casa y revisiones que se van espaciando."
           }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Por qué no puedo levantar el brazo yo solo, pero sí si me lo levantan?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Es una pista típica de lesión de los tendones del manguito rotador: el músculo no consigue elevar el brazo por el dolor o la falta de fuerza, pero la articulación conserva su recorrido. En el hombro congelado, en cambio, el hombro tampoco se mueve cuando otra persona intenta levantarlo."
+          }
         }
       ]
     }

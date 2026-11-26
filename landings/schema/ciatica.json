@@ -351,6 +351,12 @@
           "name": "Low back pain and sciatica in over 16s: assessment and management",
           "url": "https://doi.org/",
           "sameAs": "https://doi.org/"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Fernández Hernando M, Cerezal L, Pérez-Carro L, Abascal F, Canga A. Deep gluteal syndrome: anatomy, imaging, and management of sciatic nerve entrapments in the subgluteal space. Skeletal Radiology. 2015;44(7):919-934.",
+          "url": "https://doi.org/10.1007/s00256-015-2124-6",
+          "sameAs": "https://doi.org/10.1007/s00256-015-2124-6"
         }
       ]
     },
@@ -420,6 +426,30 @@
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Sí. Traiga sus pruebas a la primera visita; se revisan junto con su historia clínica y la exploración."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Por qué me duele más la pierna cuando me siento en una silla dura?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Porque al sentarse el peso del cuerpo comprime la nalga, justo por donde pasa el nervio ciático entre los músculos de la cadera. Si el nervio está irritado o atrapado en esa zona, como ocurre en el síndrome del glúteo profundo, estar sentado, sobre todo en superficies duras o conduciendo, reproduce el dolor, y ponerse de pie lo alivia."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Me han dicho que mi columna está bien, ¿por qué me sigue doliendo la pierna?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Porque el nervio ciático puede irritarse fuera de la columna, a su paso por el glúteo. Las pruebas lumbares no muestran ese tramo, y por eso pueden ser normales aunque el dolor sea real. La historia y la exploración del glúteo y del recorrido del nervio ayudan a identificarlo."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Por qué me duele la nalga al correr al cabo de un rato y no al empezar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Porque, a medida que los músculos de la cadera trabajan, aumentan de volumen y, si están tensos o tienen cicatrices de lesiones antiguas, pueden comprimir más el nervio ciático a su paso por el glúteo. Recuperar su elasticidad y su fuerza de forma progresiva suele aliviarlo."
           }
         }
       ]

@@ -475,6 +475,14 @@
             "@type": "Answer",
             "text": "Depende del tipo de lesión, del tiempo de evolución y de sus objetivos deportivos. Tras la primera visita se propone un plan con objetivos claros, ejercicios para casa y revisiones que se van espaciando."
           }
+        },
+        {
+          "@type": "Question",
+          "name": "¿La pubalgia solo afecta a futbolistas jóvenes?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Es cada vez más frecuente en jóvenes en crecimiento con mucha carga deportiva, pero también aparece en deportistas veteranos que acumulan años de tensión en la misma zona, y en otros deportes con chuts, sprints y cambios de dirección. La clave es adaptar la carga a cada persona."
+          }
         }
       ]
     }

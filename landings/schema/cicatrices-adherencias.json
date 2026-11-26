@@ -418,6 +418,22 @@
             "@type": "Answer",
             "text": "Depende del tipo de cicatriz, de su antigüedad y de los síntomas. Tras la primera visita se propone un plan con pautas de automasaje y ejercicio para casa y revisiones periódicas."
           }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Es normal que la cicatriz se enrojezca después del masaje?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. La fricción produce un enrojecimiento ligero que desaparece en pocos minutos. Si la cicatriz se calienta, supura, se abre o duele cada vez más, interrumpa el masaje y consulte con su médico."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuánto tiempo hay que proteger una cicatriz del sol?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Aproximadamente un año, que es el tiempo durante el cual el tejido sigue remodelándose y es sensible a la luz. Lo más sencillo es cubrirla con ropa y evitar las horas de sol más intenso."
+          }
         }
       ]
     }

@@ -419,7 +419,7 @@
         },
         {
           "@type": "Question",
-          "name": "¿Puedo seguir haciendo deporte?",
+          "name": "Puc continuar fent esport?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "En general sí, adaptando la carga: reduciendo los gestos por encima de la cabeza o la intensidad mientras el tendón se calma y volviendo de forma progresiva, con ejercicios de fuerza y control del omóplato."
@@ -431,6 +431,14 @@
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Depende del tipo de problema, del tiempo de evolución y de cada persona. Tras la primera visita se propone un plan con objetivos claros, ejercicios para casa y revisiones que se van espaciando."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Per què no puc aixecar el braç tot sol, però sí si me l'aixequen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "És una pista típica de lesió dels tendons del manegot dels rotadors: el múscul no aconsegueix aixecar el braç pel dolor o la manca de força, però l'articulació conserva el seu recorregut. En l'espatlla congelada, en canvi, l'espatlla tampoc no es mou quan una altra persona intenta aixecar-la."
           }
         }
       ]

@@ -418,6 +418,22 @@
             "@type": "Answer",
             "text": "Depende del tipo de cicatriz, de su antigüedad y de los síntomas. Tras la primera visita se propone un plan con pautas de automasaje y ejercicio para casa y revisiones periódicas."
           }
+        },
+        {
+          "@type": "Question",
+          "name": "És normal que la cicatriu s'envermelleixi després del massatge?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. La fricció produeix un envermelliment lleuger que desapareix en pocs minuts. Si la cicatriu s'escalfa, supura, s'obre o fa cada vegada més mal, interrompi el massatge i consulti el seu metge."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quant de temps cal protegir una cicatriu del sol?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Aproximadament un any, que és el temps durant el qual el teixit continua remodelant-se i és sensible a la llum. El més senzill és cobrir-la amb roba i evitar les hores de sol més intens."
+          }
         }
       ]
     }

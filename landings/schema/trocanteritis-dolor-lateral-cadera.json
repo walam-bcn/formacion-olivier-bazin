@@ -1,0 +1,379 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": [
+        "MedicalClinic",
+        "MedicalBusiness"
+      ],
+      "@id": "https://www.walambcn.com/#clinica",
+      "name": "WA LAM",
+      "alternateName": "Wa Lam · Medicina integrativa",
+      "hasMap": "https://share.google/ND7AyHqhaIKZufsCF",
+      "url": "https://www.walambcn.com",
+      "telephone": "+34675716409",
+      "email": "contacto@walambcn.com",
+      "image": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/medicina-integrativa-barcelona.png",
+      "priceRange": "€€",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Carrer del Bisbe Sivilla, 44, local",
+        "postalCode": "08022",
+        "addressLocality": "Barcelona",
+        "addressRegion": "Cataluña",
+        "addressCountry": "ES"
+      },
+      "openingHours": [
+        "Mo-Fr 09:00-21:00"
+      ],
+      "founder": {
+        "@type": "Person",
+        "name": "Rosa María Rodríguez Valls",
+        "url": "https://www.walambcn.com/curriculum"
+      },
+      "foundingDate": "2004",
+      "areaServed": [
+        {
+          "@type": "Place",
+          "name": "Sarrià, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Sant Gervasi–Galvany, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Sant Gervasi–la Bonanova, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "les Tres Torres, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "el Putxet i el Farró, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Vallvidrera, el Tibidabo i les Planes, Barcelona"
+        },
+        {
+          "@type": "City",
+          "name": "Barcelona"
+        }
+      ],
+      "medicalSpecialty": [
+        "Physiotherapy",
+        "Musculoskeletal"
+      ],
+      "availableService": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Programas RE:TRACE",
+          "url": "https://www.walambcn.com/metodo-integrativo-sarri%C3%A0-sant-gervasi-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Osteopatía",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/osteopatia-sarria-sant-gervasi"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Osteopatía visceral",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/osteopatia-visceral-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Osteopatía craneosacral",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/osteopatia-craneosacral-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Manipulación neural y neurovisceral",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/manipulaciones-neuroviscerales"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Pérdida de peso",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/perdida-de-peso"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Dejar de fumar con acupuntura",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/acupuntura-dejar-de-fumar"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Acupuntura y medicina tradicional china",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/acupuntura-medicina-tradicional-china"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "PNIE",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/pni-pnie-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Nutrición y salud intestinal",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/nutricion-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Drenaje linfático manual",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/drenaje-linfatico-manual"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Drenaje linfático en el embarazo",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/drenaje-linfatico-embarazo"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Drenaje linfático manual postoperatorio",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/drenaje-linfatico-postoperatorio"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Drenaje linfático para linfedema",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/drenaje-linfatico-linfedema"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Masaje terapéutico",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/masaje-terapeutico"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Reflexología podal",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/reflexologia-podal"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Yoga terapéutico",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/yoga-terapeutico"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Qigong (chi kung)",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/qigong-chi-kung"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Fascia y liberación miofascial",
+          "url": "https://www.walambcn.com/osteopatia-fascia-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Osteopatía y trauma",
+          "url": "https://www.walambcn.com/osteopatia-trauma"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Osteopatía en bebés y niños",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/osteopatia-bebes-ninos"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Clases de estiramientos",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/clases-de-estiramientos"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Reiki",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/reiki"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Nervio vago y teoría polivagal",
+          "url": "https://www.walambcn.com/osteopatia-nervio-vago-teoria-polivagal"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Mindfulness",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/mindfulness"
+        }
+      ],
+      "sameAs": [
+        "https://share.google/ND7AyHqhaIKZufsCF",
+        "https://www.instagram.com/walam_bcn/"
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/trocanteritis-dolor-lateral-cadera#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Inicio",
+          "item": "https://www.walambcn.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "¿En qué le puedo ayudar?",
+          "item": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Trocanteritis",
+          "item": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/trocanteritis-dolor-lateral-cadera"
+        }
+      ]
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/trocanteritis-dolor-lateral-cadera#webpage",
+      "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/trocanteritis-dolor-lateral-cadera",
+      "name": "Trocanteritis y dolor lateral de cadera en Barcelona | WA LAM",
+      "description": "Qué es la trocanteritis o síndrome de dolor trocantérico, sus síntomas, por qué afecta más a las mujeres, su relación con la menopausia, el diagnóstico y el tratamiento conservador en Sarrià–Sant Gervasi, Barcelona.",
+      "inLanguage": "es-ES",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "WA LAM",
+        "url": "https://www.walambcn.com"
+      },
+      "breadcrumb": {
+        "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/trocanteritis-dolor-lateral-cadera#breadcrumb"
+      },
+      "publisher": {
+        "@id": "https://www.walambcn.com/#clinica"
+      },
+      "lastReviewed": "2026-11-18",
+      "dateModified": "2026-11-18",
+      "keywords": "trocanteritis Barcelona, dolor lateral de cadera, síndrome de dolor trocantérico, bursitis trocantérica, tendinopatía glútea, dolor de cadera al dormir de lado",
+      "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/trocanteritis-dolor-lateral-cadera.png",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".quick p",
+          "h1"
+        ]
+      },
+      "audience": {
+        "@type": "Patient"
+      },
+      "reviewedBy": {
+        "@type": "Person",
+        "name": "Rosa María Rodríguez Valls",
+        "jobTitle": "Osteópata D.O. y máster en medicina integrativa",
+        "worksFor": {
+          "@id": "https://www.walambcn.com/#clinica"
+        }
+      },
+      "about": {
+        "@type": "MedicalCondition",
+        "name": "Síndrome de dolor trocantérico",
+        "possibleTreatment": [
+          {
+            "@type": "MedicalTherapy",
+            "name": "Osteopatía"
+          }
+        ]
+      },
+      "citation": [
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Greater trochanteric pain syndrome: epidemiology and associated factors",
+          "url": "https://doi.org/10.1016/j.apmr.2007.04.014",
+          "sameAs": "https://doi.org/10.1016/j.apmr.2007.04.014"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Incidence and prevalence of lower extremity tendinopathy in a Dutch general practice population: a cross sectional study",
+          "url": "https://doi.org/10.1186/s12891-016-0885-2",
+          "sameAs": "https://doi.org/10.1186/s12891-016-0885-2"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Gluteal tendinopathy: a review of mechanisms, assessment and management",
+          "url": "https://doi.org/10.1007/s40279-015-0336-5",
+          "sameAs": "https://doi.org/10.1007/s40279-015-0336-5"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Correlation of MRI findings with clinical findings of trochanteric pain syndrome",
+          "url": "https://doi.org/10.1007/s00256-008-0514-8",
+          "sameAs": "https://doi.org/10.1007/s00256-008-0514-8"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Education plus exercise versus corticosteroid injection use versus a wait and see approach on global outcome and pain from gluteal tendinopathy: prospective, single blinded, randomised clinical trial",
+          "url": "https://doi.org/10.1136/bmj.k1662",
+          "sameAs": "https://doi.org/10.1136/bmj.k1662"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/trocanteritis-dolor-lateral-cadera#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Dónde duele exactamente la trocanteritis?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "En la cara lateral de la cadera, sobre la prominencia ósea del trocánter mayor. Suele señalarse con la palma de la mano y puede extenderse por la parte externa del muslo, a veces hasta la rodilla. Si el dolor está sobre todo en la ingle, hay que pensar en otro origen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Es lo mismo trocanteritis que bursitis de cadera?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No siempre. La bursitis trocantérica es una de las posibles causas dentro del síndrome de dolor trocantérico, pero con mayor frecuencia el origen está en los tendones de los glúteos medio y menor, y a veces también participa la banda iliotibial."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Por qué me duele más al dormir de lado?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Al apoyar el peso del cuerpo sobre el trocánter aumenta la presión directa sobre los tendones y la bursa. Dormir sobre el otro lado con la pierna de arriba caída hacia delante también los comprime; una almohada entre las rodillas suele aliviar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Necesito una ecografía o una resonancia?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No siempre. El diagnóstico es clínico y la imagen la valora su médico cuando el dolor no mejora, la exploración no es concluyente o hay que descartar otras causas. Además, los cambios en el tendón también aparecen en personas sin dolor."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Tiene relación con la menopausia?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Se observa una asociación: los casos se concentran en mujeres de alrededor de la edad de la menopausia, y los cambios hormonales y del tiroides se relacionan con más problemas de tendones. El mecanismo todavía no se conoce, y el ejercicio de fuerza sigue siendo eficaz en esta etapa."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Puedo seguir haciendo ejercicio?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí, y es recomendable. Conviene reducir temporalmente el impacto, las cuestas y las distancias largas y mantener o empezar un trabajo de fuerza de los glúteos, aumentando la carga de forma progresiva según la respuesta del dolor."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Es una artrosis de cadera?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. La trocanteritis afecta a los tejidos blandos que rodean el trocánter, mientras que la artrosis afecta al cartílago de la articulación y suele doler en la ingle. Pueden coexistir, por eso la exploración es importante."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuánto tarda en mejorar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Depende del tiempo de evolución y de cada persona. Con un buen control de la compresión y un ejercicio progresivo, muchas personas notan mejoría en unas semanas, aunque los tendones necesitan meses para recuperar del todo su capacidad de carga."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -475,6 +475,14 @@
             "@type": "Answer",
             "text": "Depende del tipo de lesión, del tiempo de evolución y de sus objetivos deportivos. Tras la primera visita se propone un plan con objetivos claros, ejercicios para casa y revisiones que se van espaciando."
           }
+        },
+        {
+          "@type": "Question",
+          "name": "La pubàlgia només afecta futbolistes joves?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. És cada vegada més freqüent en joves en creixement amb molta càrrega esportiva, però també apareix en esportistes veterans que acumulen anys de tensió a la mateixa zona, i en altres esports amb xuts, esprints i canvis de direcció. La clau és adaptar la càrrega a cada persona."
+          }
         }
       ]
     }

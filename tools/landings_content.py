@@ -2981,3 +2981,36 @@ for _p in (PAGES if isinstance(PAGES, list) else PAGES.values()):
             ("Curso MBSR de 8 semanas, en directo por Zoom", "curso-mindfulness-mbsr-barcelona"),
             ("Formación RE:TRACE de 9 meses", "formacion-re-trace"),
             ("Retiros de meditación y silencio", "retiros-mindfulness-meditacion-silencio")]})
+
+# Rosa (26 nov 2026): material del blog de traumatología (sin cirugía ni casos) → nuevas secciones en páginas existentes
+import json as _jx  # noqa: E402
+from pathlib import Path as _P  # noqa: E402
+_MX = _jx.loads((_P(__file__).with_name("new_pages") / "msk_extra_sections.json").read_text(encoding="utf-8"))
+_DROP = ("Abríguese bien las articulaciones que más le molestan: rodilleras", "Aplique calor local", "Postura del niño")
+_REPL = {"Cuando la herida esté cerrada, masajee suavemente la cicatriz": "Cuando ya no haya puntos ni costras, masajee la cicatriz en seco unos minutos al día, en zigzag, a lo largo y de forma transversal, insistiendo donde la piel no se desliza.",
+         "Proteja la cicatriz del sol con ropa o protector solar alto": "Proteja la cicatriz del sol cubriéndola con ropa durante el primer año."}
+for _p in PAGES:
+    for _b in _p["blocks"]:
+        if isinstance(_b.get("list"), list):
+            _b["list"] = [_REPL.get(next((k for k in _REPL if x.startswith(k)), None), x) for x in _b["list"]
+                          if not (isinstance(x, str) and x.startswith(_DROP))]
+    _x = _MX.get(_p["slug"])
+    if not _x:
+        continue
+    _new = []
+    for _s in _x.get("sections", []):
+        _bk = {"type": "explain", "eyebrow": "", "h2": _s["h2"], "paras": _s.get("paras", [])}
+        if _s.get("list"):
+            _bk["list_title"] = _s.get("list_title", ""); _bk["list"] = _s["list"]
+        _new.append(_bk)
+    _bl = _p["blocks"]
+    _k = next((k for k, b in enumerate(_bl) if _norm(b.get("h2", "")).startswith(("cuando debo consultar", "que puedo hacer", "se puede prevenir"))), None)
+    if _k is None:
+        _k = next((k for k, b in enumerate(_bl) if b.get("type") in ("evidence", "pro", "pack")), len(_bl))
+    _bl[_k:_k] = _new
+    if _x.get("faq"):
+        _p["faq"] = list(_p.get("faq", [])) + [tuple(q) for q in _x["faq"]]
+    _ev = next((b for b in _bl if b.get("type") == "evidence"), None)
+    if _ev is not None and _x.get("evidence_add"):
+        _ev["items"] = list(_ev["items"]) + [tuple(i) for i in _x["evidence_add"]]
+        _ev["refs"] = list(_ev.get("refs", [])) + _x.get("refs_add", [])

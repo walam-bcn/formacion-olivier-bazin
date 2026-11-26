@@ -1,0 +1,379 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": [
+        "MedicalClinic",
+        "MedicalBusiness"
+      ],
+      "@id": "https://www.walambcn.com/#clinica",
+      "name": "WA LAM",
+      "alternateName": "Wa Lam · Medicina integrativa",
+      "hasMap": "https://share.google/ND7AyHqhaIKZufsCF",
+      "url": "https://www.walambcn.com",
+      "telephone": "+34675716409",
+      "email": "contacto@walambcn.com",
+      "image": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/medicina-integrativa-barcelona.png",
+      "priceRange": "€€",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Carrer del Bisbe Sivilla, 44, local",
+        "postalCode": "08022",
+        "addressLocality": "Barcelona",
+        "addressRegion": "Cataluña",
+        "addressCountry": "ES"
+      },
+      "openingHours": [
+        "Mo-Fr 09:00-21:00"
+      ],
+      "founder": {
+        "@type": "Person",
+        "name": "Rosa María Rodríguez Valls",
+        "url": "https://www.walambcn.com/curriculum"
+      },
+      "foundingDate": "2004",
+      "areaServed": [
+        {
+          "@type": "Place",
+          "name": "Sarrià, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Sant Gervasi–Galvany, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Sant Gervasi–la Bonanova, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "les Tres Torres, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "el Putxet i el Farró, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Vallvidrera, el Tibidabo i les Planes, Barcelona"
+        },
+        {
+          "@type": "City",
+          "name": "Barcelona"
+        }
+      ],
+      "medicalSpecialty": [
+        "Physiotherapy",
+        "Musculoskeletal"
+      ],
+      "availableService": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Programes RE:TRACE",
+          "url": "https://www.walambcn.com/ca/programes-re-trace"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Osteopatia",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/osteopatia-sarria-sant-gervasi"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Osteopatia visceral",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/osteopatia-visceral-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Osteopatia craniosacral",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/osteopatia-craniosacral-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Manipulació neural i neurovisceral",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/manipulacions-neuroviscerals"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Pèrdua de pes",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/perdua-de-pes"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Deixar de fumar amb acupuntura",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/acupuntura-deixar-de-fumar"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Acupuntura i medicina tradicional xinesa",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/acupuntura-medicina-tradicional-xinesa"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "PNIE",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/pni-pnie-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Nutrició i salut intestinal",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/nutricio-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Drenatge limfàtic manual",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/drenatge-limfatic-manual"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Drenatge limfàtic en l'embaràs",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/drenatge-limfatic-embaras"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Drenatge limfàtic manual postoperatori",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/drenatge-limfatic-postoperatori"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Drenatge limfàtic per al limfedema",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/drenatge-limfatic-limfedema"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Massatge terapèutic",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/massatge-terapeutic"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Reflexologia podal",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/reflexologia-podal"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Ioga terapèutic",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/ioga-terapeutic"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Qigong (chi kung)",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/qigong-chikung"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Fàscia i alliberament miofascial",
+          "url": "https://www.walambcn.com/ca/osteopatia-fascia-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Osteopatia i trauma",
+          "url": "https://www.walambcn.com/ca/osteopatia-trauma"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Osteopatia en nadons i infants",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/osteopatia-nadons-infants"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Classes d'estiraments",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/classes-estiraments"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Reiki",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/reiki-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Nervi vague i teoria polivagal",
+          "url": "https://www.walambcn.com/ca/osteopatia-nervi-vague-teoria-polivagal"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Mindfulness",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/mindfulness-barcelona"
+        }
+      ],
+      "sameAs": [
+        "https://share.google/ND7AyHqhaIKZufsCF",
+        "https://www.instagram.com/walam_bcn/"
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/bursitis-subacromial-espatlla#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Inicio",
+          "item": "https://www.walambcn.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "En què puc ser-li útil?",
+          "item": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Bursitis subacromial",
+          "item": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/bursitis-subacromial-espatlla"
+        }
+      ]
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/bursitis-subacromial-espatlla#webpage",
+      "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/bursitis-subacromial-espatlla",
+      "name": "Bursitis subacromial d'espatlla a Barcelona | WA LAM",
+      "description": "Què és la bursitis subacromial, per què apareix, els seus símptomes (dolor en elevar el braç, en vestir-se o en dormir sobre l'espatlla), la relació amb el manegot dels rotadors i el tractament conservador a Sarrià–Sant Gervasi, Barcelona.",
+      "inLanguage": "ca-ES",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "WA LAM",
+        "url": "https://www.walambcn.com"
+      },
+      "breadcrumb": {
+        "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/bursitis-subacromial-espatlla#breadcrumb"
+      },
+      "publisher": {
+        "@id": "https://www.walambcn.com/#clinica"
+      },
+      "lastReviewed": "2026-11-18",
+      "dateModified": "2026-11-18",
+      "keywords": "bursitis subacromial Barcelona, bursitis de hombro tratamiento, bursitis subacromial síntomas, dolor de hombro al levantar el brazo, bursitis hombro dormir, manguito rotador dolor",
+      "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/bursitis-subacromial-hombro.png",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".quick p",
+          "h1"
+        ]
+      },
+      "audience": {
+        "@type": "Patient"
+      },
+      "reviewedBy": {
+        "@type": "Person",
+        "name": "Rosa María Rodríguez Valls",
+        "jobTitle": "Osteópata D.O. y máster en medicina integrativa",
+        "worksFor": {
+          "@id": "https://www.walambcn.com/#clinica"
+        }
+      },
+      "about": {
+        "@type": "MedicalCondition",
+        "name": "Bursitis subacromial",
+        "possibleTreatment": [
+          {
+            "@type": "MedicalTherapy",
+            "name": "Osteopatia"
+          }
+        ]
+      },
+      "citation": [
+        {
+          "@type": "ScholarlyArticle",
+          "name": "A systematic review of the global prevalence and incidence of shoulder pain",
+          "url": "https://doi.org/10.1186/s12891-022-05973-8",
+          "sameAs": "https://doi.org/10.1186/s12891-022-05973-8"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Effectiveness of conservative interventions including exercise, manual therapy and medical management in adults with shoulder impingement: a systematic review and meta-analysis of RCTs",
+          "url": "https://doi.org/10.1136/bjsports-2016-096515",
+          "sameAs": "https://doi.org/10.1136/bjsports-2016-096515"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "The effectiveness of physiotherapy exercises in subacromial impingement syndrome: a systematic review and meta-analysis",
+          "url": "https://doi.org/10.1016/j.semarthrit.2012.03.015",
+          "sameAs": "https://doi.org/10.1016/j.semarthrit.2012.03.015"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Exercise for rotator cuff tendinopathy: a systematic review",
+          "url": "https://doi.org/10.1016/j.physio.2011.08.002",
+          "sameAs": "https://doi.org/10.1016/j.physio.2011.08.002"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "The efficacy of manual therapy for rotator cuff tendinopathy: a systematic review and meta-analysis",
+          "url": "https://doi.org/10.2519/jospt.2015.5455",
+          "sameAs": "https://doi.org/10.2519/jospt.2015.5455"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/bursitis-subacromial-espatlla#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Quina diferència hi ha entre bursitis subacromial i tendinitis de l'espatlla?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "La bursitis afecta la bossa que protegeix els tendons; la tendinitis o tendinopatia afecta els mateixos tendons del manegot dels rotadors. Comparteixen espai i sovint s'irriten alhora, per la qual cosa els símptomes s'assemblen molt i l'exploració valora tots dos."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "He de deixar de moure l'espatlla?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Convé reduir durant un temps els gestos que fan més mal, sobretot per sobre del cap, però continuar movent l'espatlla dins del que tolera. Immobilitzar-la afavoreix la rigidesa i la pèrdua de força."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Per què em fa més mal a la nit?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "En estirar-se sobre aquest costat es comprimeix la bursa i, sense les distraccions del dia, el dolor es percep més. Dormir de panxa enlaire o sobre l'altre costat, amb un coixí que sostingui el braç, sol alleujar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Es cura la bursitis subacromial?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "En la gran majoria dels casos millora amb temps i un tractament conservador ben dirigit: ajustar l'activitat, recuperar la mobilitat i enfortir l'espatlla i l'omoplat. La constància amb els exercicis és clau per evitar recaigudes."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Necessito una ecografia o una ressonància?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No sempre. El diagnòstic es basa sobretot en l'anamnesi i l'exploració. El seu metge valorarà si una prova d'imatge pot aportar informació, per exemple si el dolor no evoluciona com s'espera o hi ha sospita d'una altra lesió."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Puc continuar fent esport?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "En general sí, adaptant la càrrega: reduint temporalment els gestos per sobre del cap o la intensitat, i tornant de manera progressiva a mesura que l'espatlla guanya força i deixa de fer mal."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "El dolor d'espatlla pot venir del coll?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. Les arrels nervioses cervicals donen sensibilitat a la zona de l'espatlla, i un problema cervical hi pot fer mal o alterar el moviment de l'omoplat. Per això s'exploren sempre el coll i l'esquena alta."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quant de temps triga a millorar la bursitis subacromial?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Depèn del temps d'evolució, de si hi ha tendons irritats i de la constància amb els exercicis. Les molèsties recents solen millorar en poques setmanes en ajustar la càrrega; els quadres de mesos necessiten més temps, perquè tendons i músculs s'adapten de manera lenta i progressiva."
+          }
+        }
+      ]
+    }
+  ]
+}

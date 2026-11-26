@@ -438,6 +438,30 @@
             "@type": "Answer",
             "text": "Sí. Cada localización requiere un plan propio. Si el dolor es sobre todo lumbar o baja por la pierna, puede consultar también nuestras páginas de lumbalgia y ciática."
           }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué ejercicio es mejor si tengo artrosis de rodilla?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "El mejor es el que puede hacer con regularidad. Caminar, nadar o la bicicleta estática son actividades de bajo impacto que suelen tolerarse bien, y conviene combinarlas con ejercicios de fuerza para el cuádriceps y los glúteos, adaptados a su nivel."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Me duele la ingle al sentarme en una butaca o al ponerme los calcetines, ¿qué puede ser?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Es un patrón típico de un problema de la propia cadera: en personas jóvenes y activas, un pinzamiento femoroacetabular; en personas mayores, con frecuencia una artrosis de cadera. Conviene valorarlo; si el dolor persiste, su médico decidirá si hacen falta pruebas de imagen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "La resonancia dice que tengo una rotura del labrum, ¿es grave?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No necesariamente. Muchas alteraciones del labrum son cambios naturales con la edad y aparecen en personas sin síntomas. Lo importante es si el hallazgo encaja con lo que usted nota y con la exploración."
+          }
         }
       ]
     }

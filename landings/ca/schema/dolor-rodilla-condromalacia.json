@@ -378,18 +378,34 @@
         },
         {
           "@type": "Question",
-          "name": "Són útils les genolleres o les plantilles?",
+          "name": "Quant de temps triga a millorar?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "En casos seleccionados pueden aliviar el dolor a corto plazo y facilitar el ejercicio, que sigue siendo la base del tratamiento. El consenso internacional considera las plantillas útiles en algunas personas con dolor patelofemoral."
+            "text": "Depende de la causa y de cada persona. Con un programa de ejercicio constante suele notarse una mejoría progresiva a lo largo de las primeras semanas. En la primera visita se fijan objetivos concretos."
           }
         },
         {
           "@type": "Question",
-          "name": "Quant triga a millorar?",
+          "name": "Quan és preocupant un dolor de genoll?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Depende de la causa y de cada persona. Con un programa de ejercicio constante suele notarse una mejoría progresiva a lo largo de las primeras semanas. En la primera visita se fijan objetivos concretos."
+            "text": "Convé consultar el seu metge si el dolor dura més d'uns dies fins i tot en repòs, si el genoll s'infla, falla, es bloqueja o no el pot doblegar o estirar del tot, si el dolor el desperta a la nit, si el genoll es veu deformat després d'una caiguda o un cop o si el dolor s'acompanya de febre."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quins exercicis puc fer a casa per enfortir el genoll?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Els més senzills són la contracció isomètrica del quàdriceps, l'elevació de la cama recta, l'esquat parcial sense passar de 45 graus, el pont de glutis i pujar un esglaó baix. Comenci amb poques repeticions, faci'ls de manera controlada i augmenti a poc a poc."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Una luxació de ròtula es cura sola si la ròtula torna al seu lloc?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Encara que la ròtula torni al seu lloc en estirar la cama, convé que la valori el seu metge, perquè hi pot haver dany al cartílag o als lligaments que la subjecten. Després, enfortir el quàdriceps i els glutis ajuda a evitar nous episodis."
           }
         }
       ]

@@ -378,18 +378,34 @@
         },
         {
           "@type": "Question",
-          "name": "¿Son útiles las rodilleras o las plantillas?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "En casos seleccionados pueden aliviar el dolor a corto plazo y facilitar el ejercicio, que sigue siendo la base del tratamiento. El consenso internacional considera las plantillas útiles en algunas personas con dolor patelofemoral."
-          }
-        },
-        {
-          "@type": "Question",
           "name": "¿Cuánto tarda en mejorar?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Depende de la causa y de cada persona. Con un programa de ejercicio constante suele notarse una mejoría progresiva a lo largo de las primeras semanas. En la primera visita se fijan objetivos concretos."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuándo es preocupante un dolor de rodilla?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Conviene consultar con su médico si el dolor dura más de unos días incluso en reposo, si la rodilla se hincha, falla, se bloquea o no puede doblarla o estirarla del todo, si el dolor le despierta por la noche, si la rodilla se ve deformada tras una caída o un golpe o si el dolor se acompaña de fiebre."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué ejercicios puedo hacer en casa para fortalecer la rodilla?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Los más sencillos son la contracción isométrica del cuádriceps, la elevación de la pierna recta, la sentadilla parcial sin pasar de 45 grados, el puente de glúteos y subir un escalón bajo. Empiece con pocas repeticiones, hágalos de forma controlada y aumente poco a poco."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Una luxación de rótula se cura sola si la rótula vuelve a su sitio?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Aunque la rótula vuelva a su sitio al estirar la pierna, conviene que la valore su médico, porque puede haber daño en el cartílago o en los ligamentos que la sujetan. Después, fortalecer el cuádriceps y los glúteos ayuda a evitar nuevos episodios."
           }
         }
       ]

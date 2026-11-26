@@ -420,7 +420,7 @@
         },
         {
           "@type": "Question",
-          "name": "¿Por qué me duele más por la noche?",
+          "name": "Per què em fa més mal a la nit?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "En reposo hay menos estímulos que distraigan al sistema nervioso y la compuerta del dolor queda más abierta; además, algunas posturas comprimen el nervio. Cuidar la postura al dormir y moverse durante el día suele ayudar."

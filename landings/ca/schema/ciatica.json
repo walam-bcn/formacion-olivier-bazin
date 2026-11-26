@@ -351,6 +351,12 @@
           "name": "Low back pain and sciatica in over 16s: assessment and management",
           "url": "https://doi.org/",
           "sameAs": "https://doi.org/"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Fernández Hernando M, Cerezal L, Pérez-Carro L, Abascal F, Canga A. Deep gluteal syndrome: anatomy, imaging, and management of sciatic nerve entrapments in the subgluteal space. Skeletal Radiology. 2015;44(7):919-934.",
+          "url": "https://doi.org/10.1007/s00256-015-2124-6",
+          "sameAs": "https://doi.org/10.1007/s00256-015-2124-6"
         }
       ]
     },
@@ -420,6 +426,30 @@
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Sí. Traiga sus pruebas a la primera visita; se revisan junto con su historia clínica y la exploración."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Per què em fa més mal la cama quan m'assec en una cadira dura?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Perquè en seure el pes del cos comprimeix la natja, just per on passa el nervi ciàtic entre els músculs del maluc. Si el nervi està irritat o atrapat en aquesta zona, com passa en la síndrome del gluti profund, estar assegut, sobretot en superfícies dures o conduint, reprodueix el dolor, i posar-se dret l'alleuja."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "M'han dit que la meva columna està bé, per què em continua fent mal la cama?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Perquè el nervi ciàtic es pot irritar fora de la columna, al seu pas pel gluti. Les proves lumbars no mostren aquest tram, i per això poden ser normals encara que el dolor sigui real. La història i l'exploració del gluti i del recorregut del nervi ajuden a identificar-lo."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Per què em fa mal la natja en córrer al cap d'una estona i no en començar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Perquè, a mesura que els músculs del maluc treballen, augmenten de volum i, si estan tensos o tenen cicatrius de lesions antigues, poden comprimir més el nervi ciàtic al seu pas pel gluti. Recuperar-ne l'elasticitat i la força de manera progressiva sol alleujar-ho."
           }
         }
       ]

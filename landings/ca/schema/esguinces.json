@@ -374,6 +374,12 @@
           "name": "The mechanisms of manual therapy in the treatment of musculoskeletal pain: a comprehensive model",
           "url": "https://doi.org/10.1016/j.math.2008.09.001",
           "sameAs": "https://doi.org/10.1016/j.math.2008.09.001"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Webster KE, Hewett TE. Meta-analysis of meta-analyses of anterior cruciate ligament injury reduction training programs. Journal of Orthopaedic Research. 2018;36(10):2696-2708.",
+          "url": "https://doi.org/10.1002/jor.24043",
+          "sameAs": "https://doi.org/10.1002/jor.24043"
         }
       ]
     },
@@ -443,6 +449,14 @@
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Depende del grado del esguince, del tiempo transcurrido y de los objetivos de cada persona. Tras la primera visita se propone un plan con objetivos claros, ejercicios para casa y revisiones que se van espaciando."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Vaig notar un espetec al genoll en girar, s'ha trencat el lligament?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No necessàriament, però un espetec seguit d'inflor ràpida i sensació que el genoll falla és típic d'una lesió del lligament encreuat anterior. Convé que el seu metge valori el genoll els primers dies per confirmar quina estructura està afectada."
           }
         }
       ]

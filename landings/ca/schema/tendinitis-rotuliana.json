@@ -1,0 +1,371 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": [
+        "MedicalClinic",
+        "MedicalBusiness"
+      ],
+      "@id": "https://www.walambcn.com/#clinica",
+      "name": "WA LAM",
+      "alternateName": "Wa Lam · Medicina integrativa",
+      "hasMap": "https://share.google/ND7AyHqhaIKZufsCF",
+      "url": "https://www.walambcn.com",
+      "telephone": "+34675716409",
+      "email": "contacto@walambcn.com",
+      "image": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/medicina-integrativa-barcelona.png",
+      "priceRange": "€€",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Carrer del Bisbe Sivilla, 44, local",
+        "postalCode": "08022",
+        "addressLocality": "Barcelona",
+        "addressRegion": "Cataluña",
+        "addressCountry": "ES"
+      },
+      "openingHours": [
+        "Mo-Fr 09:00-21:00"
+      ],
+      "founder": {
+        "@type": "Person",
+        "name": "Rosa María Rodríguez Valls",
+        "url": "https://www.walambcn.com/curriculum"
+      },
+      "foundingDate": "2004",
+      "areaServed": [
+        {
+          "@type": "Place",
+          "name": "Sarrià, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Sant Gervasi–Galvany, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Sant Gervasi–la Bonanova, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "les Tres Torres, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "el Putxet i el Farró, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Vallvidrera, el Tibidabo i les Planes, Barcelona"
+        },
+        {
+          "@type": "City",
+          "name": "Barcelona"
+        }
+      ],
+      "medicalSpecialty": [
+        "Physiotherapy",
+        "Musculoskeletal"
+      ],
+      "availableService": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Programes RE:TRACE",
+          "url": "https://www.walambcn.com/ca/programes-re-trace"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Osteopatia",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/osteopatia-sarria-sant-gervasi"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Osteopatia visceral",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/osteopatia-visceral-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Osteopatia craniosacral",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/osteopatia-craniosacral-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Manipulació neural i neurovisceral",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/manipulacions-neuroviscerals"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Pèrdua de pes",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/perdua-de-pes"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Deixar de fumar amb acupuntura",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/acupuntura-deixar-de-fumar"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Acupuntura i medicina tradicional xinesa",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/acupuntura-medicina-tradicional-xinesa"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "PNIE",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/pni-pnie-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Nutrició i salut intestinal",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/nutricio-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Drenatge limfàtic manual",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/drenatge-limfatic-manual"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Drenatge limfàtic en l'embaràs",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/drenatge-limfatic-embaras"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Drenatge limfàtic manual postoperatori",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/drenatge-limfatic-postoperatori"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Drenatge limfàtic per al limfedema",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/drenatge-limfatic-limfedema"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Massatge terapèutic",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/massatge-terapeutic"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Reflexologia podal",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/reflexologia-podal"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Ioga terapèutic",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/ioga-terapeutic"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Qigong (chi kung)",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/qigong-chikung"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Fàscia i alliberament miofascial",
+          "url": "https://www.walambcn.com/ca/osteopatia-fascia-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Osteopatia i trauma",
+          "url": "https://www.walambcn.com/ca/osteopatia-trauma"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Osteopatia en nadons i infants",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/osteopatia-nadons-infants"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Classes d'estiraments",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/classes-estiraments"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Reiki",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/reiki-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Nervi vague i teoria polivagal",
+          "url": "https://www.walambcn.com/ca/osteopatia-nervi-vague-teoria-polivagal"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Mindfulness",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/mindfulness-barcelona"
+        }
+      ],
+      "sameAs": [
+        "https://share.google/ND7AyHqhaIKZufsCF",
+        "https://www.instagram.com/walam_bcn/"
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/tendinitis-rotuliana#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Inicio",
+          "item": "https://www.walambcn.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "En què puc ser-li útil?",
+          "item": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Tendinitis rotuliana",
+          "item": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/tendinitis-rotuliana"
+        }
+      ]
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/tendinitis-rotuliana#webpage",
+      "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/tendinitis-rotuliana",
+      "name": "Tendinitis rotuliana (genoll del saltador) a Barcelona | WA LAM",
+      "description": "Què és la tendinitis rotuliana o genoll del saltador, per què apareix, els seus símptomes, els músculs que protegeixen el genoll, els exercicis de càrrega progressiva i de baix impacte i el tractament conservador a Sarrià–Sant Gervasi, Barcelona.",
+      "inLanguage": "ca-ES",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "WA LAM",
+        "url": "https://www.walambcn.com"
+      },
+      "breadcrumb": {
+        "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/tendinitis-rotuliana#breadcrumb"
+      },
+      "publisher": {
+        "@id": "https://www.walambcn.com/#clinica"
+      },
+      "lastReviewed": "2026-11-18",
+      "dateModified": "2026-11-18",
+      "keywords": "tendinitis rotuliana Barcelona, rodilla del saltador, tendinitis rotuliana tratamiento, dolor debajo de la rótula, tendinopatía rotuliana ejercicios, tendinitis rotuliana síntomas",
+      "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/tendinitis-rotuliana.png",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".quick p",
+          "h1"
+        ]
+      },
+      "audience": {
+        "@type": "Patient"
+      },
+      "reviewedBy": {
+        "@type": "Person",
+        "name": "Rosa María Rodríguez Valls",
+        "jobTitle": "Osteópata D.O. y máster en medicina integrativa",
+        "worksFor": {
+          "@id": "https://www.walambcn.com/#clinica"
+        }
+      },
+      "about": {
+        "@type": "MedicalCondition",
+        "name": "Tendinitis rotuliana",
+        "possibleTreatment": [
+          {
+            "@type": "MedicalTherapy",
+            "name": "Osteopatia"
+          }
+        ]
+      },
+      "citation": [
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Prevalence of jumper's knee among elite athletes from different sports: a cross-sectional study",
+          "url": "https://doi.org/10.1177/0363546504270454",
+          "sameAs": "https://doi.org/10.1177/0363546504270454"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Long-term prognosis for jumper's knee in male athletes: a prospective follow-up study",
+          "url": "https://doi.org/10.1177/03635465020300051001",
+          "sameAs": "https://doi.org/10.1177/03635465020300051001"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "The evolution of eccentric training as treatment for patellar tendinopathy (jumper's knee): a critical review of exercise programmes",
+          "url": "https://doi.org/10.1136/bjsm.2006.032417",
+          "sameAs": "https://doi.org/10.1136/bjsm.2006.032417"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Effectiveness of progressive tendon-loading exercise therapy in patients with patellar tendinopathy: a randomised clinical trial",
+          "url": "https://doi.org/10.1136/bjsports-2020-103403",
+          "sameAs": "https://doi.org/10.1136/bjsports-2020-103403"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Isometric exercise induces analgesia and reduces inhibition in patellar tendinopathy",
+          "url": "https://doi.org/10.1136/bjsports-2014-094386",
+          "sameAs": "https://doi.org/10.1136/bjsports-2014-094386"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/tendinitis-rotuliana#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "He de deixar de fer esport?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No necessàriament. Convé reduir els gestos que més carreguen el tendó, com els salts repetits, i mantenir l'activitat amb exercicis de força i de baix impacte. El repòs absolut afebleix el tendó i endarrereix la tornada."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Per què em fa menys mal quan escalfo?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "És típic dels tendons sobrecarregats: el dolor disminueix en escalfar i reapareix en refredar-se o l'endemà. Per això no convé guiar-se només per com es nota durant l'entrenament, sinó per com respon el genoll després."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quant de temps triga a curar-se una tendinitis rotuliana?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Els tendons s'adapten a poc a poc. Les molèsties recents poden millorar en poques setmanes ajustant la càrrega, mentre que els quadres de mesos solen necessitar un programa d'exercici progressiu de diversos mesos. La constància és determinant."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "És el mateix que la condromalàcia rotuliana?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. La tendinitis rotuliana afecta el tendó i fa mal just a sota de la ròtula; la condromalàcia i la síndrome patel·lofemoral afecten l'articulació entre la ròtula i el fèmur i solen fer mal darrere o al voltant de la ròtula. L'exploració ajuda a distingir-les."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Els estiraments són suficients?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ajuden a reduir la tensió sobre el tendó, però per si sols no n'hi ha prou. El tendó necessita recuperar la seva resistència amb exercicis de força i de càrrega progressiva, juntament amb una bona tècnica esportiva."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Pot tornar a aparèixer?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí, sobretot si es torna de cop a la càrrega anterior o s'abandonen els exercicis tan bon punt deixa de fer mal. Mantenir el treball de força i augmentar l'entrenament de manera gradual és la millor manera d'evitar recaigudes."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Per què es valora també el maluc i el peu?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Perquè el genoll depèn del que passa per sobre i per sota. Uns glutis febles, un maluc rígid o una petjada que enfonsa l'arc del peu poden augmentar la tensió sobre el tendó rotulià a cada suport. Pot llegir-ne més a lesions esportives."
+          }
+        }
+      ]
+    }
+  ]
+}
