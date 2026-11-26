@@ -2939,7 +2939,7 @@ def _rank(b, first_explain):
     if t == "phases": return 6
     if S("cuando debo consultar"): return 8
     if S("que puedo hacer", "se puede prevenir", "como se puede prevenir", "como prevenir"): return 9
-    if t in ("evidence", "pro", "pack") or S("formacion en osteopatia", "estudios de referencia", "precio", "modalidades", "precauciones"): return 10
+    if t in ("evidence", "pro", "pack") or S("formacion en osteopatia", "estudios de referencia", "precio", "modalidades", "precauciones", "que modalidades", "que precauciones"): return 10
     if S("es frecuente", "son frecuentes"): return 7.0
     if S("por que aparece", "por que duele", "por que se produce", "que lo causa", "cuales son las causas"): return 7.1
     if S("quien tiene mas riesgo"): return 7.2
@@ -2969,3 +2969,15 @@ for _p in (PAGES if isinstance(PAGES, list) else PAGES.values()):
         for _b in _p["blocks"]:
             if _b.get("type") == "pro" and _b.get("rows"):
                 _b["rows"] = [r for r in _b["rows"] if "Precio" not in str(r) and "Preu" not in str(r)]
+
+
+# Rosa (26 nov 2026): botones de mindfulness (curso MBSR, formación RE:TRACE de 9 meses, retiros) tras «¿Qué modalidades hay?»
+for _p in (PAGES if isinstance(PAGES, list) else PAGES.values()):
+    if _p.get("slug") != "mindfulness-barcelona":
+        continue
+    _i = next((k for k, b in enumerate(_p["blocks"]) if b.get("h2", "").startswith("¿Qué modalidades")), None)
+    if _i is not None:
+        _p["blocks"].insert(_i + 1, {"type": "chips", "eyebrow": "", "h2": "¿Por dónde quiere empezar?", "items": [
+            ("Curso MBSR de 8 semanas, en directo por Zoom", "curso-mindfulness-mbsr-barcelona"),
+            ("Formación RE:TRACE de 9 meses", "formacion-re-trace"),
+            ("Retiros de meditación y silencio", "retiros-mindfulness-meditacion-silencio")]})

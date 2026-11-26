@@ -174,11 +174,6 @@
         },
         {
           "@type": "MedicalTherapy",
-          "name": "Mindfulness",
-          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/mindfulness-barcelona"
-        },
-        {
-          "@type": "MedicalTherapy",
           "name": "Classes d'estiraments",
           "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/classes-estiraments"
         },
@@ -191,6 +186,11 @@
           "@type": "MedicalTherapy",
           "name": "Nervi vague i teoria polivagal",
           "url": "https://www.walambcn.com/ca/osteopatia-nervi-vague-teoria-polivagal"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Mindfulness",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/mindfulness-barcelona"
         }
       ],
       "sameAs": [

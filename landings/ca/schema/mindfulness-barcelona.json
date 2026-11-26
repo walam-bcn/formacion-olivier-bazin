@@ -174,11 +174,6 @@
         },
         {
           "@type": "MedicalTherapy",
-          "name": "Mindfulness",
-          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/mindfulness-barcelona"
-        },
-        {
-          "@type": "MedicalTherapy",
           "name": "Classes d'estiraments",
           "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/classes-estiraments"
         },
@@ -191,6 +186,11 @@
           "@type": "MedicalTherapy",
           "name": "Nervi vague i teoria polivagal",
           "url": "https://www.walambcn.com/ca/osteopatia-nervi-vague-teoria-polivagal"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Mindfulness",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/mindfulness-barcelona"
         }
       ],
       "sameAs": [
@@ -226,8 +226,8 @@
       "@type": "MedicalWebPage",
       "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/mindfulness-barcelona#webpage",
       "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/mindfulness-barcelona",
-      "name": "Mindfulness a Barcelona: sessions i classes | WA LAM",
-      "description": "Sessions de mindfulness a Sarrià–Sant Gervasi, Barcelona, individuals o en grup, presencials o en línia, per a l'estrès, l'ansietat i l'insomni.",
+      "name": "Mindfulness a Barcelona: sessions, curs MBSR i grup | WA LAM",
+      "description": "Mindfulness a Barcelona i en línia: sessions individuals, curs MBSR de 8 setmanes en directe per Zoom i pràctica setmanal en grup, per a l'estrès, l'ansietat, el son i el dolor.",
       "inLanguage": "ca-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -242,7 +242,7 @@
       },
       "lastReviewed": "2026-11-18",
       "dateModified": "2026-11-18",
-      "keywords": "mindfulness Barcelona, mindfulness Barcelona, meditación Barcelona, clases de mindfulness, mindfulness per a l'ansietat, mindfulness online, atención plena",
+      "keywords": "mindfulness Barcelona, mindfulness Barcelona, curso MBSR online, mindfulness online en directo, meditación Barcelona, mindfulness per a l'ansietat, atención plena",
       "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/mindfulness-barcelona.png",
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -284,13 +284,19 @@
           "name": "Mindfulness Meditation for Chronic Pain: Systematic Review and Meta-analysis",
           "url": "https://doi.org/10.1007/s12160-016-9844-2",
           "sameAs": "https://doi.org/10.1007/s12160-016-9844-2"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Meditation Programs for Psychological Stress and Well-being: A Systematic Review and Meta-analysis",
+          "url": "https://doi.org/10.1001/jamainternmed.2013.13018",
+          "sameAs": "https://doi.org/10.1001/jamainternmed.2013.13018"
         }
       ]
     },
     {
       "@type": "Service",
       "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/mindfulness-barcelona#servicio",
-      "name": "Mindfulness a Barcelona: sessions individuals i en grup",
+      "name": "Mindfulness a Barcelona: sessions, curs MBSR i pràctica en grup",
       "serviceType": "Mindfulness",
       "provider": {
         "@id": "https://www.walambcn.com/#clinica"
@@ -326,12 +332,28 @@
         }
       ],
       "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/mindfulness-barcelona",
-      "description": "Sessions de mindfulness a Sarrià–Sant Gervasi, Barcelona, individuals o en grup, presencials o en línia, per a l'estrès, l'ansietat i l'insomni."
+      "description": "Mindfulness a Barcelona i en línia: sessions individuals, curs MBSR de 8 setmanes en directe per Zoom i pràctica setmanal en grup, per a l'estrès, l'ansietat, el son i el dolor."
     },
     {
       "@type": "FAQPage",
       "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/mindfulness-barcelona#faq",
       "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "És una pràctica religiosa?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Tot i que alguns dels seus termes procedeixen de les tradicions orientals, el mindfulness que s'ensenya en el programa MBSR és una tècnica laica, sense cap referència religiosa, i el pot practicar qualsevol persona, siguin quines siguin les seves creences."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Què vol dir «en directe per Zoom»?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Que la classe és en línia però en temps real: la professora guia la pràctica en directe, el grup pot parlar, preguntar i compartir la seva experiència, igual que en una classe presencial, i vostè hi participa des de casa."
+          }
+        },
         {
           "@type": "Question",
           "name": "Cal tenir experiència prèvia en meditació?",
@@ -353,7 +375,7 @@
           "name": "Quant de temps he de practicar a casa?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Es recomana una pràctica breu i diària, de 10 a 20 minuts al principi, amb àudios guiats. La regularitat importa més que la durada: els canvis es consoliden amb diverses setmanes de pràctica."
+            "text": "Al principi, una pràctica breu i diària, de 10 a 20 minuts, amb àudios guiats. Els estudis mostren canvis significatius amb 20 a 30 minuts al dia durant 8-12 setmanes, i el programa MBSR proposa fins a 45-60 minuts, sis dies per setmana. La regularitat importa més que la durada."
           }
         },
         {
