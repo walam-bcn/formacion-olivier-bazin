@@ -127,7 +127,7 @@ def integrate_research(RESEARCH):
 
 # Áreas (mismo orden que «Te puedo ayudar en las siguientes situaciones» de walambcn.com/sobre-mi)
 AREAS = [
-    ("Dolor y aparato locomotor", "02", ["lumbalgia-dolor-lumbar", "cervicalgia-dolor-cuello", "dorsalgia-dolor-espalda-alta", "ciatica",
+    ("Dolor y aparato locomotor", "02", ["trocanteritis-dolor-lateral-cadera", "bursitis-subacromial-hombro", "tendinitis-rotuliana", "tenosinovitis-de-quervain", "lumbalgia-dolor-lumbar", "cervicalgia-dolor-cuello", "dorsalgia-dolor-espalda-alta", "ciatica",
                                          "artrosis", "hombro-doloroso", "dolor-rodilla-condromalacia", "contracturas-desgarros-musculares",
                                          "bruxismo-dolor-mandibular-atm", "osteopatia-fascia-barcelona", "lesiones-deportivas", "cicatrices-adherencias", "vertigo-mareo", "acufenos", "osteopatia-bebes-ninos", "neuralgia-trigemino", "hernia-disco-incipiente", "torticolis", "esguinces", "fascitis-plantar", "tunel-carpiano", "osteoporosis", "fibromialgia", "dolor-persistente-cronico", "dolor-neuropatico", "cefaleas-migrana"]),
     ("Inflamación e inmunidad", "03", ["inflamacion-cronica-autoinmunes", "alergias-asma-infecciones"]),
@@ -272,6 +272,7 @@ WORK_STEPS = [
 AREA_EXTRA = [
     ["lumbalgia-dolor-lumbar", "cervicalgia-dolor-cuello", "dorsalgia-dolor-espalda-alta", "ciatica", "hernia-disco-incipiente", "artrosis", "hombro-doloroso",
      "dolor-rodilla-condromalacia", "torticolis", "tunel-carpiano", "fascitis-plantar", "osteoporosis",
+     "trocanteritis-dolor-lateral-cadera", "bursitis-subacromial-hombro", "tendinitis-rotuliana", "tenosinovitis-de-quervain",
      "dolor-persistente-cronico", "dolor-musculoesqueletico", "dolor-articular-miofascial", "contracturas-desgarros-musculares", "esguinces",
      "lesiones-deportivas", "fibromialgia", "cicatrices-adherencias", "dolor-postquirurgico", "dolor-oncologico",
      "cefaleas-migrana", "neuralgia-trigemino", "dolor-neuropatico", "bruxismo-dolor-mandibular-atm", "vertigo-mareo", "acufenos"],

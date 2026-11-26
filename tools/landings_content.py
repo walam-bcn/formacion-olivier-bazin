@@ -2669,7 +2669,7 @@ for _p in PAGES:
 
 # Dolor musculoesquelético (noviembre 2026): primera visita y tres fases del tratamiento, enfoque osteopático.
 # Sustituye «Mi forma de trabajar» (enfoque integrativo) y retira re:trace y acupuntura de «Cómo lo abordamos».
-MSK_SLUGS = {"lumbalgia-dolor-lumbar", "cervicalgia-dolor-cuello", "dorsalgia-dolor-espalda-alta", "ciatica", "hernia-disco-incipiente",
+MSK_SLUGS = {"trocanteritis-dolor-lateral-cadera", "bursitis-subacromial-hombro", "tendinitis-rotuliana", "tenosinovitis-de-quervain", "lumbalgia-dolor-lumbar", "cervicalgia-dolor-cuello", "dorsalgia-dolor-espalda-alta", "ciatica", "hernia-disco-incipiente",
              "artrosis", "hombro-doloroso", "dolor-rodilla-condromalacia", "torticolis", "tunel-carpiano", "fascitis-plantar",
              "dolor-persistente-cronico", "dolor-musculoesqueletico", "dolor-articular-miofascial", "contracturas-desgarros-musculares",
              "esguinces", "lesiones-deportivas", "fibromialgia", "cicatrices-adherencias", "dolor-postquirurgico",
