@@ -191,6 +191,11 @@
           "@type": "MedicalTherapy",
           "name": "Mindfulness",
           "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/mindfulness-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Fisioteràpia",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/fisioterapia-sarria-sant-gervasi"
         }
       ],
       "sameAs": [

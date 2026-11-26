@@ -1,0 +1,419 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": [
+        "MedicalClinic",
+        "MedicalBusiness"
+      ],
+      "@id": "https://www.walambcn.com/#clinica",
+      "name": "WA LAM",
+      "alternateName": "Wa Lam · Medicina integrativa",
+      "hasMap": "https://share.google/ND7AyHqhaIKZufsCF",
+      "url": "https://www.walambcn.com",
+      "telephone": "+34675716409",
+      "email": "contacto@walambcn.com",
+      "image": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/medicina-integrativa-barcelona.png",
+      "priceRange": "€€",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Carrer del Bisbe Sivilla, 44, local",
+        "postalCode": "08022",
+        "addressLocality": "Barcelona",
+        "addressRegion": "Cataluña",
+        "addressCountry": "ES"
+      },
+      "openingHours": [
+        "Mo-Fr 09:00-21:00"
+      ],
+      "founder": {
+        "@type": "Person",
+        "name": "Rosa María Rodríguez Valls",
+        "url": "https://www.walambcn.com/curriculum"
+      },
+      "foundingDate": "2004",
+      "areaServed": [
+        {
+          "@type": "Place",
+          "name": "Sarrià, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Sant Gervasi–Galvany, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Sant Gervasi–la Bonanova, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "les Tres Torres, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "el Putxet i el Farró, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Vallvidrera, el Tibidabo i les Planes, Barcelona"
+        },
+        {
+          "@type": "City",
+          "name": "Barcelona"
+        }
+      ],
+      "medicalSpecialty": [
+        "Physiotherapy",
+        "Musculoskeletal"
+      ],
+      "availableService": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Programes RE:TRACE",
+          "url": "https://www.walambcn.com/ca/programes-re-trace"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Osteopatia",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/osteopatia-sarria-sant-gervasi"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Osteopatia visceral",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/osteopatia-visceral-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Osteopatia craniosacral",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/osteopatia-craniosacral-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Manipulació neural i neurovisceral",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/manipulacions-neuroviscerals"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Pèrdua de pes",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/perdua-de-pes"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Deixar de fumar amb acupuntura",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/acupuntura-deixar-de-fumar"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Acupuntura i medicina tradicional xinesa",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/acupuntura-medicina-tradicional-xinesa"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "PNIE",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/pni-pnie-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Nutrició i salut intestinal",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/nutricio-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Drenatge limfàtic manual",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/drenatge-limfatic-manual"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Drenatge limfàtic en l'embaràs",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/drenatge-limfatic-embaras"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Drenatge limfàtic manual postoperatori",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/drenatge-limfatic-postoperatori"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Drenatge limfàtic per al limfedema",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/drenatge-limfatic-limfedema"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Massatge terapèutic",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/massatge-terapeutic"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Reflexologia podal",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/reflexologia-podal"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Ioga terapèutic",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/ioga-terapeutic"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Qigong (chi kung)",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/qigong-chikung"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Fàscia i alliberament miofascial",
+          "url": "https://www.walambcn.com/ca/osteopatia-fascia-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Osteopatia i trauma",
+          "url": "https://www.walambcn.com/ca/osteopatia-trauma"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Osteopatia en nadons i infants",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/osteopatia-nadons-infants"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Classes d'estiraments",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/classes-estiraments"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Reiki",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/reiki-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Nervi vague i teoria polivagal",
+          "url": "https://www.walambcn.com/ca/osteopatia-nervi-vague-teoria-polivagal"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Mindfulness",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/mindfulness-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Fisioteràpia",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/fisioterapia-sarria-sant-gervasi"
+        }
+      ],
+      "sameAs": [
+        "https://share.google/ND7AyHqhaIKZufsCF",
+        "https://www.instagram.com/walam_bcn/"
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/fisioterapia-sarria-sant-gervasi#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Inicio",
+          "item": "https://www.walambcn.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Serveis i teràpies",
+          "item": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Fisioteràpia",
+          "item": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/fisioterapia-sarria-sant-gervasi"
+        }
+      ]
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/fisioterapia-sarria-sant-gervasi#webpage",
+      "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/fisioterapia-sarria-sant-gervasi",
+      "name": "Fisioteràpia a Sarrià–Sant Gervasi, Barcelona | WA LAM",
+      "description": "Què és la fisioteràpia i per a què serveix: teràpia manual, exercici terapèutic, fisioteràpia oncològica, recuperació després d'una cirurgia, embaràs i postpart i fisioteràpia infantil a Sarrià–Sant Gervasi, Barcelona.",
+      "inLanguage": "ca-ES",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "WA LAM",
+        "url": "https://www.walambcn.com"
+      },
+      "breadcrumb": {
+        "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/fisioterapia-sarria-sant-gervasi#breadcrumb"
+      },
+      "publisher": {
+        "@id": "https://www.walambcn.com/#clinica"
+      },
+      "lastReviewed": "2026-11-18",
+      "dateModified": "2026-11-18",
+      "keywords": "fisioterapia Sarrià-Sant Gervasi, fisioteràpia Barcelona, terapia manual Barcelona, fisioterapia embarazo y posparto Barcelona, fisioterapia oncológica Barcelona, fisioterapia después de una cirugía",
+      "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/fisioterapia-sarria-sant-gervasi.png",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".quick p",
+          "h1"
+        ]
+      },
+      "audience": {
+        "@type": "Patient"
+      },
+      "reviewedBy": {
+        "@type": "Person",
+        "name": "Rosa María Rodríguez Valls",
+        "jobTitle": "Osteópata D.O. y máster en medicina integrativa",
+        "worksFor": {
+          "@id": "https://www.walambcn.com/#clinica"
+        }
+      },
+      "about": {
+        "@type": "MedicalTherapy",
+        "name": "Fisioteràpia"
+      },
+      "citation": [
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Exercise therapy for chronic low back pain",
+          "url": "https://doi.org/10.1002/14651858.CD009790.pub2",
+          "sameAs": "https://doi.org/10.1002/14651858.CD009790.pub2"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Manual therapy and exercise for neck pain: a systematic review",
+          "url": "https://doi.org/10.1016/j.math.2010.02.007",
+          "sameAs": "https://doi.org/10.1016/j.math.2010.02.007"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Interventions for preventing and treating low-back and pelvic pain during pregnancy",
+          "url": "https://doi.org/10.1002/14651858.CD001139.pub4",
+          "sameAs": "https://doi.org/10.1002/14651858.CD001139.pub4"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Exercise guidelines for cancer survivors: consensus statement from international multidisciplinary roundtable",
+          "url": "https://doi.org/10.1249/MSS.0000000000002116",
+          "sameAs": "https://doi.org/10.1249/MSS.0000000000002116"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Physical therapy management of congenital muscular torticollis: a 2018 evidence-based clinical practice guideline from the APTA Academy of Pediatric Physical Therapy",
+          "url": "https://doi.org/10.1097/PEP.0000000000000544",
+          "sameAs": "https://doi.org/10.1097/PEP.0000000000000544"
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/fisioterapia-sarria-sant-gervasi#servicio",
+      "name": "Fisioteràpia a Barcelona: teràpia manual, exercici terapèutic i recuperació funcional",
+      "serviceType": "Fisioteràpia",
+      "provider": {
+        "@id": "https://www.walambcn.com/#clinica"
+      },
+      "areaServed": [
+        {
+          "@type": "Place",
+          "name": "Sarrià, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Sant Gervasi–Galvany, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Sant Gervasi–la Bonanova, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "les Tres Torres, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "el Putxet i el Farró, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Vallvidrera, el Tibidabo i les Planes, Barcelona"
+        },
+        {
+          "@type": "City",
+          "name": "Barcelona"
+        }
+      ],
+      "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/fisioterapia-sarria-sant-gervasi",
+      "description": "Què és la fisioteràpia i per a què serveix: teràpia manual, exercici terapèutic, fisioteràpia oncològica, recuperació després d'una cirurgia, embaràs i postpart i fisioteràpia infantil a Sarrià–Sant Gervasi, Barcelona."
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/fisioterapia-sarria-sant-gervasi#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Necessito una prescripció mèdica per anar al fisioterapeuta?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No és imprescindible per a una consulta privada. Tot i així, si teniu informes, proves d'imatge o indicacions del vostre metge, convé portar-los, i en alguns casos, com el tractament oncològic o el postoperatori immediat, és important que el vostre equip mèdic n'estigui assabentat."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quantes sessions necessitaré?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Depèn del problema, del temps que fa que el teniu i de com respongui el vostre cos. Després de la primera valoració se us explicarà un pla orientatiu, que es revisa segons l'evolució. La feina que feu a casa influeix molt en el resultat."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "La teràpia manual fa mal?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No hauria de ser una experiència desagradable. Podeu notar pressió o una certa molèstia en una zona sensible, però la intensitat s'adapta al que toleréu i podeu demanar que s'ajusti en qualsevol moment."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quina roba he de portar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Roba còmoda que permeti moure's i que deixi explorar la zona que us molesta. Si la sessió inclou exercici, millor roba esportiva."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quan puc començar la fisioteràpia després d'una cirurgia?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Depèn del tipus d'intervenció i del que indiqui el vostre cirurgià o el vostre metge. En alguns casos es pot començar molt aviat i en d'altres convé esperar que la ferida tanqui. L'important és no deixar passar massa temps, perquè la cicatriu i els teixits s'organitzen les primeres setmanes."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "És segur fer exercici durant el tractament del càncer?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "En general sí, sempre que estigui adaptat a la vostra situació i coordinat amb el vostre equip mèdic. El programa s'ajusta als símptomes, als valors de les anàlisis i a la fase del tractament, i es modifica els dies que us trobeu pitjor."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Es pot fer fisioteràpia durant tot l'embaràs?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "En general sí, adaptant les posicions i la intensitat a cada trimestre i amb un abordatge extern i suau. Si el vostre embaràs és de risc o el ginecòleg o la llevadora us han indicat alguna restricció, comenteu-ho abans de començar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "A partir de quina edat es pot portar un nadó al fisioterapeuta?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Des dels primers dies de vida. Com més aviat es detecta una asimetria del cap o una preferència marcada per girar cap a un costat, més fàcil sol ser corregir-la. La valoració es coordina sempre amb el seguiment del pediatre."
+          }
+        }
+      ]
+    }
+  ]
+}
