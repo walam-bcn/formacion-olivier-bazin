@@ -305,6 +305,22 @@
             "@type": "Answer",
             "text": "Sí. Atenem tant de manera individual com en parella."
           }
+        },
+        {
+          "@type": "Question",
+          "name": "Pot una apendicectomia antiga influir en la meva fertilitat?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Segons els autors, les adherències que deixa la cirurgia poden afectar l'ovari i la trompa drets, molt propers a l'apèndix. És un dels antecedents que es valoren, sempre sense prometre resultats."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "En quin moment del cicle és millor la sessió?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Els autors recomanen la setmana següent a la regla i tres sessions separades per un mes."
+          }
         }
       ]
     }

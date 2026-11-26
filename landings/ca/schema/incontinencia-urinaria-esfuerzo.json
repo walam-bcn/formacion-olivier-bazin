@@ -300,6 +300,30 @@
             "@type": "Answer",
             "text": "No. El nostre abordatge és sempre extern."
           }
+        },
+        {
+          "@type": "Question",
+          "name": "Per què tinc més pèrdues abans de la regla?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Perquè abans de la menstruació l'úter pesa més, canvia d'orientació i la uretra tanca pitjor; el trígon, la vagina i el sòl pelvià depenen de les hormones. Les pèrdues solen millorar després de la regla."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Vaig tenir pèrdues a l'embaràs que van desaparèixer, m'he de preocupar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No és motiu d'alarma, però sí de prevenció: segons les dades que recull el llibre, una incontinència durant l'embaràs duplica el risc de tenir-la quinze anys després. Cuidar el sòl pelvià després del part és una bona inversió."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Tinc un cistocele però no tinc pèrdues, és normal?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. Els autors recorden que hi ha dones perfectament continents amb un descens important de la bufeta: ptosi i incontinència no són sinònims."
+          }
         }
       ]
     }

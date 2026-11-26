@@ -300,6 +300,30 @@
             "@type": "Answer",
             "text": "No. Nuestro abordaje del dolor pélvico se dirige a mujeres."
           }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Por qué el dolor empeora al estar sentada?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Al sentarse, el peso recae sobre la zona del conducto pudendo, junto a la tuberosidad isquiática, y aumenta la presión sobre un nervio que ya está irritado. De pie o tumbada esa presión desaparece."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Puede aparecer después de un parto?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. El parto estira al máximo el nervio pudendo, y el libro recoge que en cerca del 42 % de los partos vaginales el nervio muestra signos de sufrimiento. Un parto largo, un bebé grande o una episiotomía aumentan el riesgo."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Por qué hacen falta más sesiones que en otros dolores?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Porque el nervio pudendo tiene muchas fibras sin mielina, responde más despacio y suele llevar tiempo irritado. Los autores recomiendan trabajar su entorno con suavidad y paciencia."
+          }
         }
       ]
     }

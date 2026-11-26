@@ -313,6 +313,30 @@
             "@type": "Answer",
             "text": "Sí. La lactancia no impide la sesión; de hecho, el dolor de cuello y de espalda ligado a las tomas es uno de los motivos de consulta más frecuentes en el posparto."
           }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Por qué me duele la ingle al girarme en la cama estando embarazada?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Suele deberse al síndrome del ligamento redondo, frecuente en el segundo trimestre: el ligamento se engrosa, se alarga y reacciona al estiramiento. Es benigno, aunque molesto."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Por qué el dolor lumbar del embarazo empeora tumbada boca arriba?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Porque en esa posición el útero puede comprimir la vena cava y los riñones. Según los autores, la lumbalgia del embarazo tiene a menudo un origen vascular; tumbarse de lado y la postura a cuatro patas suelen aliviar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿La episiotomía evita los desgarros?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hoy se admite de forma general que la episiotomía no previene los desgarros graves del periné. Su cicatriz, como la de un desgarro, puede valorarse en el posparto."
+          }
         }
       ]
     }

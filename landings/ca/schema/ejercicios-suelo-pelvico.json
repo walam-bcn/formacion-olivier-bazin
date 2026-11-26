@@ -328,6 +328,22 @@
             "@type": "Answer",
             "text": "Si no aconsegueix localitzar la musculatura, si les pèrdues o la sensació de pes no milloren després d'unes setmanes de pràctica, si nota dolor en fer els exercicis o en les relacions, o després d'un part. Pot ampliar informació a sòl pelvià."
           }
+        },
+        {
+          "@type": "Question",
+          "name": "Faig els exercicis i no noto millora, per què?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Segons els autors, algunes dones no milloren només amb la reeducació perquè persisteixen problemes mecànics, per exemple del còccix, el sacre o el pubis, que impedeixen que el múscul es contregui bé. Convé revisar els exercicis amb la fisioterapeuta o la llevadora i valorar la mobilitat de la pelvis."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Un sòl pelvià pot estar massa tens?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. Un sòl pelvià hipertònic pot causar dolor en les relacions i distendre's malament en el part. En aquest cas l'objectiu no és enfortir-lo més, sinó tornar-li la relaxació i l'elasticitat."
+          }
         }
       ]
     }

@@ -222,7 +222,7 @@
         {
           "@type": "ListItem",
           "position": 3,
-          "name": "Suelo pélvico",
+          "name": "Salud pélvica",
           "item": "https://www.walambcn.com/suelo-pelvico-barcelona"
         }
       ]
@@ -269,9 +269,41 @@
       },
       "about": {
         "@type": "MedicalCondition",
-        "name": "Dolor pélvico",
+        "name": "Salud pélvica femenina",
         "possibleTreatment": []
-      }
+      },
+      "citation": [
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Osteopathic manipulative treatment for low back and pelvic girdle pain during and after pregnancy: A systematic review and meta-analysis",
+          "url": "https://doi.org/10.1016/j.jbmt.2017.05.014",
+          "sameAs": "https://doi.org/10.1016/j.jbmt.2017.05.014"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Pelvic floor muscle training versus no treatment, or inactive control treatments, for urinary incontinence in women",
+          "url": "https://doi.org/10.1002/14651858.CD005654.pub4",
+          "sameAs": "https://doi.org/10.1002/14651858.CD005654.pub4"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Osteopathic manipulative treatment (OMT) for lower urinary tract symptoms (LUTS) in women",
+          "url": "https://doi.org/10.1016/j.jbmt.2012.05.001",
+          "sameAs": "https://doi.org/10.1016/j.jbmt.2012.05.001"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Osteopathy for Endometriosis and Chronic Pelvic Pain – a Pilot Study",
+          "url": "https://doi.org/10.1055/s-0042-111010",
+          "sameAs": "https://doi.org/10.1055/s-0042-111010"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Intérêt clinique du traitement ostéopathique chez les patientes ayant une endométriose colorectale : classification fondée sur les symptômes et la qualité de vie",
+          "url": "https://doi.org/10.1016/j.gofs.2017.07.006",
+          "sameAs": "https://doi.org/10.1016/j.gofs.2017.07.006"
+        }
+      ]
     },
     {
       "@type": "FAQPage",
@@ -279,10 +311,82 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "¿Hacéis tratamiento interno?",
+          "name": "¿El abordaje es interno?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. Nuestro abordaje es siempre externo. Si necesita un tratamiento intracavitario, le orientamos hacia una fisioterapeuta especializada en suelo pélvico."
+            "text": "No. En WA LAM el trabajo es siempre externo: se valora y se trata a través del abdomen, la pelvis, el sacro, el cóccix, la columna y las piernas."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Por qué me valoran la espalda, el hígado o los pies si el problema está en la pelvis?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Porque la pelvis forma parte de una cadena. El hígado y el riñón izquierdo influyen en su drenaje, la columna en su inervación y los pies y las piernas en el equilibrio de sus presiones. Como recuerdan los autores, es ilusorio tratar la pelvis solo en la pelvis."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿En qué momento del ciclo es mejor pedir cita?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Según los autores, la semana siguiente a la regla, cuando la pelvis está menos congestionada y los tejidos responden mejor. En la endometriosis prefieren la mitad del ciclo."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Duele?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No debería. Uno de los principios del libro es no provocar nunca dolor: el trabajo es suave y puede notarse alguna tirantez o molestia leve, que siempre puede comentar para adaptar la sesión."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuántas sesiones suelen hacer falta?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Depende del motivo. En los trastornos menstruales y en el acompañamiento de la fertilidad, los autores proponen dos o tres sesiones separadas por un ciclo. En la neuralgia del pudendo suelen ser necesarias más sesiones de lo habitual."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Puedo venir si estoy embarazada?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. El embarazo no es una contraindicación, pero exige un trabajo muy suave y sesiones cortas. Los autores proponen revisiones en momentos clave, hacia las semanas 12-14, 20, 28 y 32, y una sesión de preparación tres o cuatro semanas antes del parto."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuándo puedo venir después del parto?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Lo ideal es esperar a que el útero recupere su tamaño, unas 6 a 8 semanas, o a la vuelta de la regla. Un dolor intenso de cóccix o de pubis, una lumbalgia incapacitante o una ciática justifican una consulta antes."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Llevo un DIU, ¿es un problema?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Llevar un dispositivo intrauterino no impide la valoración ni el tratamiento osteopático externo."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Tengo que hacer ejercicios de suelo pélvico?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Según el autor, los ejercicios guiados por una fisioterapeuta o una matrona son muy recomendables, sobre todo después de un parto, y dan mejores resultados cuando la pelvis ha recuperado su movilidad."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Una cicatriz antigua puede influir en mis molestias pélvicas?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Puede. Según los autores, cualquier cirugía del abdomen o la pelvis, como una apendicectomía o una cesárea, y también infecciones antiguas sin cicatriz visible, pueden dejar adherencias que limitan la movilidad de los órganos."
           }
         },
         {
@@ -290,15 +394,7 @@
           "name": "¿Necesito un diagnóstico médico antes?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Es recomendable, sobre todo si el dolor es reciente, intenso o se acompaña de sangrado o fiebre."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "¿Atendéis a hombres?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "No atendemos el dolor pélvico masculino. Le orientaremos hacia un urólogo o una fisioterapeuta especializada."
+            "text": "Es recomendable, sobre todo si las molestias son recientes o intensas, o si hay fiebre, sangrado o sangre en la orina. La osteopatía se ocupa de los trastornos funcionales y trabaja en coordinación con su médico."
           }
         },
         {

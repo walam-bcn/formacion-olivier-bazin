@@ -300,6 +300,22 @@
             "@type": "Answer",
             "text": "No. Nuestro abordaje es siempre externo."
           }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Por qué me duelen las relaciones desde que doy el pecho?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Durante la lactancia los estrógenos se mantienen bajos, lo que puede reducir la elasticidad y la hidratación de las mucosas vulvares y vaginales. Suele mejorar al recuperarse el ciclo, pero conviene comentarlo con su matrona o ginecóloga."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Tener el útero en retroversión significa que tendré dolor?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No necesariamente. Según los autores, una retroversión con buena movilidad suele tolerarse bien; lo que causa problemas es que el útero esté fijado y no pueda moverse."
+          }
         }
       ]
     }

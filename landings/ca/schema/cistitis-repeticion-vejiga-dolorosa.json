@@ -300,6 +300,22 @@
             "@type": "Answer",
             "text": "No. El nostre abordatge de la salut pèlvica s'adreça a dones."
           }
+        },
+        {
+          "@type": "Question",
+          "name": "Els cultius surten negatius però continuo amb molèsties, què pot ser?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pot tractar-se d'una cistàlgia, un dolor de bufeta sense infecció. Els autors ho relacionen amb la sensibilitat de la regió del trígon i amb tensions mecàniques de l'entorn de la bufeta; el seu metge n'ha de descartar abans altres causes."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Per què empitjoren les meves molèsties abans de la regla?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Perquè la regió del trígon depèn de les hormones i és més sensible al voltant de l'ovulació i abans de la menstruació, quan a més la pelvis està més congestionada."
+          }
         }
       ]
     }

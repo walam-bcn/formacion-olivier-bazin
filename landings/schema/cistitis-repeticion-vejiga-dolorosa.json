@@ -300,6 +300,22 @@
             "@type": "Answer",
             "text": "No. Nuestro abordaje de la salud pélvica se dirige a mujeres."
           }
+        },
+        {
+          "@type": "Question",
+          "name": "Los cultivos salen negativos pero sigo con molestias, ¿qué puede ser?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Puede tratarse de una cistalgia, un dolor de vejiga sin infección. Los autores lo relacionan con la sensibilidad de la región del trígono y con tensiones mecánicas del entorno de la vejiga; su médico debe descartar antes otras causas."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Por qué empeoran mis molestias antes de la regla?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Porque la región del trígono depende de las hormonas y es más sensible alrededor de la ovulación y antes de la menstruación, cuando además la pelvis está más congestionada."
+          }
         }
       ]
     }

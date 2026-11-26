@@ -1332,7 +1332,7 @@ R["dumoulin"] = _r("Dumoulin C, Cacciari LP, Hay-Smith EJC, 2018. «Pelvic floor
 OB_URL = "https://www.walambcn.com/formacion-avanzada-internacional-osteopatia-urogenital-salud-pelvica"
 def uro_pro():
     return {"type": "explain", "eyebrow": "Para profesionales", "h2": "Formación en osteopatía urogenital con Olivier Bazin",
-            "paras": ["WA LAM organiza en Barcelona la formación internacional de Olivier Bazin, D.O., en manipulaciones urogenitales y trastornos pélvicos femeninos, con abordaje externo. Está dirigida a osteópatas, fisioterapeutas, médicos, matronas y especialistas en suelo pélvico. [Ver programa y fechas](" + OB_URL + ")."]}
+            "paras": ["WA LAM organiza en Barcelona la formación internacional de Olivier Bazin, D.O., en manipulaciones urogenitales y trastornos pélvicos femeninos, con abordaje externo. Está dirigida a osteópatas, fisioterapeutas, médicos, matronas y especialistas en suelo pélvico. [Ver programa y fechas](" + OB_URL + ") · [Más información sobre la formación](https://walam-bcn.github.io/formacion-olivier-bazin/)."]}
 UG_NOTE = "En WA LAM el abordaje es siempre externo y se dirige a mujeres."
 
 def uro_page(slug, nav, card, title, desc, about, h1, sub, lead, facts, wa, mirror_h2, qs, close, ex1_h2, ex1, ex2_h2, ex2, ev, refs, faq, related, cta_h2):
@@ -3026,3 +3026,17 @@ for _p in PAGES:
                         "intro": "En WA LAM, el dolor musculoesquelético se aborda con fisioterapia y osteopatía.",
                         "items": [("Fisioterapia", "fisioterapia-sarria-sant-gervasi"), ("Osteopatía", "osteopatia-sarria-sant-gervasi"),
                                   ("Osteopatía craneosacral", "osteopatia-craneosacral-barcelona"), ("Osteopatía visceral", "osteopatia-visceral-barcelona")]})
+
+
+# Rosa (26 nov 2026): la página de suelo pélvico pasa a ser la página general de salud pélvica (libro de Olivier Bazin)
+import json as _jz  # noqa: E402
+_hub = next((d for d in _jz.loads((_P(__file__).with_name("new_pages") / "batchZZ4.json").read_text(encoding="utf-8"))), None)
+for _p in PAGES:
+    if _hub and _p["slug"] == "suelo-pelvico-dolor-pelvico":
+        for _k in ("h1", "nav", "sub", "title", "desc", "lead", "card"):
+            _p[_k] = _hub[_k]
+        _p["blocks"] = [b for b in _p["blocks"] if b.get("_id") != "tambien-salud-pelvica" and b.get("h2") not in ("Para profesionales", "Formación en osteopatía urogenital con Olivier Bazin", "Mi forma de trabajar")]
+        if not any(b.get("type") == "evidence" for b in _p["blocks"]):
+            _ev = _hub["evidence"]
+            _k = next((k for k, b in enumerate(_p["blocks"]) if b.get("type") == "pro"), len(_p["blocks"]))
+            _p["blocks"].insert(_k, {"type": "evidence", "h2": _ev.get("h2", "¿Qué dice la evidencia?"), "items": [tuple(x) for x in _ev["items"]], "refs": _ev.get("refs", [])})

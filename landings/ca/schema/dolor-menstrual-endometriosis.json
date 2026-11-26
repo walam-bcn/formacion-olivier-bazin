@@ -306,6 +306,30 @@
             "@type": "Answer",
             "text": "Sí. La dismenorrea primària és molt freqüent i també es pot acompanyar."
           }
+        },
+        {
+          "@type": "Question",
+          "name": "Quan és millor fer les sessions si tinc regles doloroses?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Segons els autors, just després de la regla i abans del dia 14, en dues o tres sessions separades per un cicle. En l'endometriosi prefereixen la meitat del cicle."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Tinc una endometriosi lleu però molt de dolor, és possible?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. El llibre subratlla que no hi ha relació entre l'extensió de les lesions i la intensitat del dolor: una endometriosi mínima pot fer molt de mal i una d'extensa pot no donar símptomes."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Per què em fan mal les mames abans de la regla?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "És un dels símptomes més constants de la síndrome premenstrual, lligat a la congestió i a l'equilibri hormonal. Si nota un bony que no desapareix després de la regla, consulti el seu metge."
+          }
         }
       ]
     }

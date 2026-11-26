@@ -396,6 +396,22 @@
             "@type": "Answer",
             "text": "Depende del origen del dolor, del tiempo de evolución y de la respuesta de cada persona. Tras la primera visita se propone un plan con objetivos claros, ejercicios para casa y revisiones que se van espaciando."
           }
+        },
+        {
+          "@type": "Question",
+          "name": "Una caiguda sobre el còccix pot influir en la bufeta?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Segons els autors, sí: una fixació del còccix cap endavant i cap a un costat relaxa el sistema de subjecció posterior de la bufeta i l'úter, i pot alterar el sosteniment i el tancament de la bufeta."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Em fa mal el còccix però les radiografies són normals, què pot ser?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Els autors assenyalen que moltes coccigodínies sense una fixació real de l'os es deuen a una irritació del nervi pudend. Convé valorar-ho juntament amb la pelvis i el perineu."
+          }
         }
       ]
     }

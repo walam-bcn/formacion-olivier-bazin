@@ -313,6 +313,30 @@
             "@type": "Answer",
             "text": "Sí. La lactància no impedeix la sessió; de fet, el dolor de coll i d'esquena lligat a les preses és un dels motius de consulta més freqüents en el postpart."
           }
+        },
+        {
+          "@type": "Question",
+          "name": "Per què em fa mal l'engonal en girar-me al llit estant embarassada?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sol deure's a la síndrome del lligament rodó, freqüent en el segon trimestre: el lligament s'engreixa, s'allarga i reacciona a l'estirament. És benigna, tot i que molesta."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Per què el dolor lumbar de l'embaràs empitjora estirada de panxa enlaire?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Perquè en aquesta posició l'úter pot comprimir la vena cava i els ronyons. Segons els autors, la lumbàlgia de l'embaràs té sovint un origen vascular; estirar-se de costat i la postura de quatre grapes solen alleujar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "L'episiotomia evita els esquinçaments?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Avui s'admet de manera general que l'episiotomia no prevé els esquinçaments greus del perineu. La seva cicatriu, com la d'un esquinçament, es pot valorar en el postpart."
+          }
         }
       ]
     }

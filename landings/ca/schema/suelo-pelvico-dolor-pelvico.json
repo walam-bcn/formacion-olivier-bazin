@@ -222,7 +222,7 @@
         {
           "@type": "ListItem",
           "position": 3,
-          "name": "Sòl pelvià",
+          "name": "Salut pèlvica",
           "item": "https://www.walambcn.com/ca/sol-pelvia-barcelona"
         }
       ]
@@ -269,9 +269,41 @@
       },
       "about": {
         "@type": "MedicalCondition",
-        "name": "Dolor pelvià",
+        "name": "Salud pélvica femenina",
         "possibleTreatment": []
-      }
+      },
+      "citation": [
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Osteopathic manipulative treatment for low back and pelvic girdle pain during and after pregnancy: A systematic review and meta-analysis",
+          "url": "https://doi.org/10.1016/j.jbmt.2017.05.014",
+          "sameAs": "https://doi.org/10.1016/j.jbmt.2017.05.014"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Pelvic floor muscle training versus no treatment, or inactive control treatments, for urinary incontinence in women",
+          "url": "https://doi.org/10.1002/14651858.CD005654.pub4",
+          "sameAs": "https://doi.org/10.1002/14651858.CD005654.pub4"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Osteopathic manipulative treatment (OMT) for lower urinary tract symptoms (LUTS) in women",
+          "url": "https://doi.org/10.1016/j.jbmt.2012.05.001",
+          "sameAs": "https://doi.org/10.1016/j.jbmt.2012.05.001"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Osteopathy for Endometriosis and Chronic Pelvic Pain – a Pilot Study",
+          "url": "https://doi.org/10.1055/s-0042-111010",
+          "sameAs": "https://doi.org/10.1055/s-0042-111010"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Intérêt clinique du traitement ostéopathique chez les patientes ayant une endométriose colorectale : classification fondée sur les symptômes et la qualité de vie",
+          "url": "https://doi.org/10.1016/j.gofs.2017.07.006",
+          "sameAs": "https://doi.org/10.1016/j.gofs.2017.07.006"
+        }
+      ]
     },
     {
       "@type": "FAQPage",
@@ -279,10 +311,82 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Feu tractament intern?",
+          "name": "L'abordatge és intern?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. El nostre abordatge és sempre extern. Si necessita un tractament intracavitari, l'orientem cap a una fisioterapeuta especialitzada en sòl pelvià."
+            "text": "No. A WA LAM el treball és sempre extern: es valora i es tracta a través de l'abdomen, la pelvis, el sacre, el còccix, la columna i les cames."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Per què em valoren l'esquena, el fetge o els peus si el problema és a la pelvis?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Perquè la pelvis forma part d'una cadena. El fetge i el ronyó esquerre influeixen en el seu drenatge, la columna en la seva innervació i els peus i les cames en l'equilibri de les seves pressions. Com recorden els autors, és il·lusori tractar la pelvis només a la pelvis."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "En quin moment del cicle és millor demanar hora?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Segons els autors, la setmana següent a la regla, quan la pelvis està menys congestionada i els teixits responen millor. En l'endometriosi prefereixen la meitat del cicle."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Fa mal?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No hauria de fer-ne. Un dels principis del llibre és no provocar mai dolor: el treball és suau i es pot notar alguna estirada o molèstia lleu, que sempre pot comentar per adaptar la sessió."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quantes sessions solen caldre?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Depèn del motiu. En els trastorns menstruals i en l'acompanyament de la fertilitat, els autors proposen dues o tres sessions separades per un cicle. En la neuràlgia del pudend solen caldre més sessions de l'habitual."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Puc venir si estic embarassada?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. L'embaràs no és una contraindicació, però exigeix un treball molt suau i sessions curtes. Els autors proposen revisions en moments clau, cap a les setmanes 12-14, 20, 28 i 32, i una sessió de preparació tres o quatre setmanes abans del part."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quan puc venir després del part?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "L'ideal és esperar que l'úter recuperi la seva mida, unes 6 a 8 setmanes, o el retorn de la regla. Un dolor intens de còccix o de pubis, una lumbàlgia incapacitant o una ciàtica justifiquen una consulta abans."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Porto un DIU, és un problema?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Portar un dispositiu intrauterí no impedeix la valoració ni el tractament osteopàtic extern."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "He de fer exercicis de sòl pelvià?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Segons l'autor, els exercicis guiats per una fisioterapeuta o una llevadora són molt recomanables, sobretot després d'un part, i donen millors resultats quan la pelvis ha recuperat la seva mobilitat."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Una cicatriu antiga pot influir en les meves molèsties pèlviques?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pot fer-ho. Segons els autors, qualsevol cirurgia de l'abdomen o la pelvis, com una apendicectomia o una cesària, i també infeccions antigues sense cicatriu visible, poden deixar adherències que limiten la mobilitat dels òrgans."
           }
         },
         {
@@ -290,15 +394,7 @@
           "name": "Necessito un diagnòstic mèdic abans?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "És recomanable, sobretot si el dolor és recent, intens o va acompanyat de sagnat o febre."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Ateneu homes?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "No atenem el dolor pèlvic masculí. L'orientarem cap a un uròleg o una fisioterapeuta especialitzada."
+            "text": "És recomanable, sobretot si les molèsties són recents o intenses, o si hi ha febre, sagnat o sang a l'orina. L'osteopatia s'ocupa dels trastorns funcionals i treballa en coordinació amb el seu metge."
           }
         },
         {

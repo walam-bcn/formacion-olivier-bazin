@@ -328,6 +328,22 @@
             "@type": "Answer",
             "text": "Si no consigue localizar la musculatura, si las pérdidas o la sensación de peso no mejoran tras unas semanas de práctica, si nota dolor al hacer los ejercicios o en las relaciones, o tras un parto. Puede ampliar información en suelo pélvico."
           }
+        },
+        {
+          "@type": "Question",
+          "name": "Hago los ejercicios y no noto mejoría, ¿por qué?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Según los autores, algunas mujeres no mejoran solo con la reeducación porque persisten problemas mecánicos, por ejemplo del cóccix, el sacro o el pubis, que impiden que el músculo se contraiga bien. Conviene revisar los ejercicios con su fisioterapeuta o matrona y valorar la movilidad de la pelvis."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Un suelo pélvico puede estar demasiado tenso?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. Un suelo pélvico hipertónico puede causar dolor en las relaciones y distenderse mal en el parto. En ese caso el objetivo no es fortalecerlo más, sino devolverle la relajación y la elasticidad."
+          }
         }
       ]
     }

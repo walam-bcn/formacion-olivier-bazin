@@ -306,6 +306,22 @@
             "@type": "Answer",
             "text": "No. El nostre abordatge és sempre extern."
           }
+        },
+        {
+          "@type": "Question",
+          "name": "Per què noto més el pes uns dies del cicle que d'altres?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Perquè els lligaments i el sòl pelvià depenen de les hormones i la pelvis es congestiona abans de la regla. Per això els símptomes d'una ptosi solen variar segons la fase del cicle."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "El restrenyiment pot empitjorar un prolapse?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. El còlon carregat pesa sobre els òrgans pèlvics i els empeny cap avall, i els esforços per defecar augmenten la pressió sobre el sòl pelvià. Combatre'l és una de les primeres mesures."
+          }
         }
       ]
     }

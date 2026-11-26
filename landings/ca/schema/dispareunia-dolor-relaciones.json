@@ -300,6 +300,22 @@
             "@type": "Answer",
             "text": "No. El nostre abordatge és sempre extern."
           }
+        },
+        {
+          "@type": "Question",
+          "name": "Per què em fan mal les relacions des que dono el pit?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Durant la lactància els estrògens es mantenen baixos, cosa que pot reduir l'elasticitat i la hidratació de les mucoses vulvars i vaginals. Sol millorar quan es recupera el cicle, però convé comentar-ho amb la llevadora o la ginecòloga."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Tenir l'úter en retroversió vol dir que tindré dolor?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No necessàriament. Segons els autors, una retroversió amb bona mobilitat sol tolerar-se bé; el que causa problemes és que l'úter estigui fixat i no es pugui moure."
+          }
         }
       ]
     }

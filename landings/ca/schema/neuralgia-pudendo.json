@@ -300,6 +300,30 @@
             "@type": "Answer",
             "text": "No. El nostre abordatge del dolor pèlvic s'adreça a dones."
           }
+        },
+        {
+          "@type": "Question",
+          "name": "Per què el dolor empitjora en estar asseguda?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "En seure, el pes recau sobre la zona del conducte pudend, al costat de la tuberositat isquiàtica, i augmenta la pressió sobre un nervi que ja està irritat. Dreta o estirada aquesta pressió desapareix."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Pot aparèixer després d'un part?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. El part estira al màxim el nervi pudend, i el llibre recull que en prop del 42 % dels parts vaginals el nervi mostra signes de patiment. Un part llarg, un nadó gran o una episiotomia augmenten el risc."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Per què calen més sessions que en altres dolors?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Perquè el nervi pudend té moltes fibres sense mielina, respon més a poc a poc i sol portar temps irritat. Els autors recomanen treballar el seu entorn amb suavitat i paciència."
+          }
         }
       ]
     }

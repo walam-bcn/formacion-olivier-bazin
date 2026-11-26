@@ -306,6 +306,22 @@
             "@type": "Answer",
             "text": "No. Nuestro abordaje es siempre externo."
           }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Por qué noto más el peso en unos días del ciclo que en otros?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Porque los ligamentos y el suelo pélvico dependen de las hormonas y la pelvis se congestiona antes de la regla. Por eso los síntomas de una ptosis suelen variar según la fase del ciclo."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿El estreñimiento puede empeorar un prolapso?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. El colon cargado pesa sobre los órganos pélvicos y los empuja hacia abajo, y los esfuerzos para defecar aumentan la presión sobre el suelo pélvico. Combatirlo es una de las primeras medidas."
+          }
         }
       ]
     }

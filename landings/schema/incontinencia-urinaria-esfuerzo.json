@@ -300,6 +300,30 @@
             "@type": "Answer",
             "text": "No. Nuestro abordaje es siempre externo."
           }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Por qué tengo más pérdidas antes de la regla?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Porque antes de la menstruación el útero pesa más, cambia de orientación y la uretra cierra peor; el trígono, la vagina y el suelo pélvico dependen de las hormonas. Las pérdidas suelen mejorar después de la regla."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Tuve pérdidas en el embarazo que desaparecieron, ¿debo preocuparme?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No es motivo de alarma, pero sí de prevención: según los datos que recoge el libro, una incontinencia durante el embarazo duplica el riesgo de tenerla quince años después. Cuidar el suelo pélvico tras el parto es una buena inversión."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Tengo un cistocele pero no tengo pérdidas, ¿es normal?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. Los autores recuerdan que hay mujeres perfectamente continentes con un descenso importante de la vejiga: ptosis e incontinencia no son sinónimos."
+          }
         }
       ]
     }

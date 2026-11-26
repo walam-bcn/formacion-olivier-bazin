@@ -328,6 +328,22 @@
             "@type": "Answer",
             "text": "Depèn de cada cas i del temps d'evolució. A la primera visita valorem la seva situació i li proposem un pla amb objectius clars."
           }
+        },
+        {
+          "@type": "Question",
+          "name": "Per què em fa mal la zona lumbar abans de la regla?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Abans de la regla la pelvis es congestiona, els seus lligaments es tensen i l'úter estira els seus ancoratges al sacre i la zona lumbar. Els autors descriuen també lumbàlgies cícliques lligades a fixacions de les trompes i els ovaris."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Un dolor de genoll pot venir de la pelvis?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "En alguns casos sí. El nervi obturador recull la sensibilitat de la cara interna del genoll i passa al costat de l'ovari i la bufeta; els autors ho han observat sobretot en nenes al final de la maduració dels ovaris."
+          }
         }
       ]
     }
