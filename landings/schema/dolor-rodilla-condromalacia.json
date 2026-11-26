@@ -378,6 +378,14 @@
         },
         {
           "@type": "Question",
+          "name": "¿Son útiles las rodilleras o las plantillas?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "En casos seleccionados pueden aliviar el dolor a corto plazo y facilitar el ejercicio, que sigue siendo la base del tratamiento. El consenso internacional considera las plantillas útiles en algunas personas con dolor patelofemoral."
+          }
+        },
+        {
+          "@type": "Question",
           "name": "¿Cuánto tarda en mejorar?",
           "acceptedAnswer": {
             "@type": "Answer",

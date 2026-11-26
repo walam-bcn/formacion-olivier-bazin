@@ -2992,8 +2992,7 @@ _REPL = {"Cuando la herida esté cerrada, masajee suavemente la cicatriz": "Cuan
 for _p in PAGES:
     for _b in _p["blocks"]:
         if isinstance(_b.get("list"), list):
-            _b["list"] = [_REPL.get(next((k for k in _REPL if x.startswith(k)), None), x) for x in _b["list"]
-                          if not (isinstance(x, str) and x.startswith(_DROP))]
+            pass  # Rosa (26 nov): crema, protector solar, rodilleras, plantillas, frío/calor y postura del niño SÍ se ponen
     _x = _MX.get(_p["slug"])
     if not _x:
         continue
