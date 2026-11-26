@@ -3024,4 +3024,5 @@ for _p in PAGES:
         _k = next((k for k, b in enumerate(_bl) if b.get("type") in ("visit", "phases")), 0) - 1
     _bl.insert(_k + 1, {"type": "chips", "eyebrow": "Nuestro abordaje", "h2": "¿Cómo lo abordamos en WA LAM?",
                         "intro": "En WA LAM, el dolor musculoesquelético se aborda con fisioterapia y osteopatía.",
-                        "items": [("Fisioterapia", "fisioterapia-sarria-sant-gervasi"), ("Osteopatía", "osteopatia-sarria-sant-gervasi")]})
+                        "items": [("Fisioterapia", "fisioterapia-sarria-sant-gervasi"), ("Osteopatía", "osteopatia-sarria-sant-gervasi"),
+                                  ("Osteopatía craneosacral", "osteopatia-craneosacral-barcelona"), ("Osteopatía visceral", "osteopatia-visceral-barcelona")]})
