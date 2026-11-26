@@ -29,7 +29,18 @@
       "founder": {
         "@type": "Person",
         "name": "Rosa María Rodríguez Valls",
-        "url": "https://www.walambcn.com/curriculum"
+        "url": "https://www.walambcn.com/curriculum",
+        "subjectOf": [
+          {
+            "@type": "NewsArticle",
+            "publisher": {
+              "@type": "Organization",
+              "name": "La Vanguardia"
+            },
+            "url": "https://www.lavanguardia.com/empresas-de-vanguardia/historias-de-exito/20261004/11647353/salud-proceso-fijo-forma-conectar-sintomas-historia-clinica-estilo-vida.html",
+            "datePublished": "2026-10-04"
+          }
+        ]
       },
       "foundingDate": "2004",
       "areaServed": [
