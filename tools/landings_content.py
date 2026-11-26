@@ -3014,3 +3014,15 @@ for _p in PAGES:
     if _ev is not None and _x.get("evidence_add"):
         _ev["items"] = list(_ev["items"]) + [tuple(i) for i in _x["evidence_add"]]
         _ev["refs"] = list(_ev.get("refs", [])) + _x.get("refs_add", [])
+
+# Rosa (26 nov 2026): en musculoesquelético el abordaje de WA LAM es fisioterapia y osteopatía, con botones a esas páginas
+for _p in PAGES:
+    if _p["slug"] not in MSK_SLUGS:
+        continue
+    _bl = _p["blocks"]
+    _k = next((k for k, b in enumerate(_bl) if _norm(b.get("h2", "")).startswith(("como se trata", "como se trabaja"))), None)
+    if _k is None:
+        _k = next((k for k, b in enumerate(_bl) if b.get("type") in ("visit", "phases")), 0) - 1
+    _bl.insert(_k + 1, {"type": "chips", "eyebrow": "Nuestro abordaje", "h2": "¿Cómo lo abordamos en WA LAM?",
+                        "intro": "En WA LAM, el dolor musculoesquelético se aborda con fisioterapia y osteopatía.",
+                        "items": [("Fisioterapia", "fisioterapia-sarria-sant-gervasi"), ("Osteopatía", "osteopatia-sarria-sant-gervasi")]})
