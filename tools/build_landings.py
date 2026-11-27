@@ -1155,7 +1155,7 @@ def page(p):
     seq = [re.sub(r'<section ', _bg, x) for x in seq]
     if p["group"] != "home":
         seq = add_vago(p, seq)
-    _mine = "".join(_chips(sl, p["slug"]) for n, sl in DIR_AREAS if p["slug"] in sl) if p["slug"] != DIR_HUB else ""
+    _mine = "".join(_chips(sl, p["slug"]) for n, sl in DIR_AREAS if p["slug"] in sl) if p["slug"] not in (DIR_HUB, "suelo-pelvico-dolor-pelvico") else ""
     if _mine and seq:
         k = seq[-1].rfind("</div></section>")
         seq[-1] = seq[-1][:k] + f'<div class="relchips">{_mine}</div>' + seq[-1][k:]
@@ -1359,7 +1359,11 @@ def main():
         out = Path(sys.argv[sys.argv.index("--preview") + 1]) / ("ca" if LANG == "ca" else "")
     out.mkdir(parents=True, exist_ok=True)
     for p in PAGES:
-        (out / f"{p['slug']}.html").write_text(fix_bonos(page(p)), encoding="utf-8")
+        _h = fix_bonos(page(p))
+        import landings_content as _LC2
+        if p["slug"] in _LC2._NOPRICE:
+            _h = re.sub(r"\s*\((?:[^()<>]{0,40}?)\d+\s?€(?:[^()<>]{0,40}?)\)", "", _h)
+        (out / f"{p['slug']}.html").write_text(_h, encoding="utf-8")
     if LANG == "es":
         (out / "guia-seo.html").write_text(fix_bonos(guide()), encoding="utf-8")
         (out / "tabla-patologias.html").write_text(patho_table(), encoding="utf-8")

@@ -3216,3 +3216,32 @@ for _p in PAGES:
 for _p in PAGES:
     if _p["slug"] == "suelo-pelvico-dolor-pelvico":
         _p["blocks"] = [b for b in _p["blocks"] if b.get("type") != "pro"]
+
+# Rosa (27 nov 2026): sin precios en las páginas de salud pélvica y del curso de Olivier (solo «Reservar por WhatsApp»)
+_NOPRICE = set(PELVIC_OSTEO) | set(OLIVIER_PAGES)
+_PRX = _re.compile(r"\s*\((?:[^()]*?)\d+\s?€(?:[^()]*?)\)|,?\s*\d+\s?€|\s*·\s*\d+\s?€")
+def _strip_price(o):
+    if isinstance(o, str):
+        return _PRX.sub("", o) if "€" in o else o
+    if isinstance(o, list):
+        return [_strip_price(x) for x in o]
+    if isinstance(o, tuple):
+        return tuple(_strip_price(x) for x in o)
+    if isinstance(o, dict):
+        return {k: _strip_price(v) for k, v in o.items()}
+    return o
+for _p in PAGES:
+    if _p["slug"] not in _NOPRICE:
+        continue
+    for _b in _p["blocks"]:
+        if _b.get("type") == "pro":
+            _b["rows"] = [r for r in _b.get("rows", []) if "€" not in str(r) and _re.sub(r"\W", "", str(r[0])).lower() not in ("precio", "preu", "bono", "bo")]
+    _p["blocks"] = _strip_price(_p["blocks"])
+    _p["faq"] = _strip_price(_p.get("faq", []))
+    if _p.get("facts"):
+        _p["facts"] = [f for f in _p["facts"] if "€" not in f]
+
+# Rosa (27 nov 2026): en la página general de salud pélvica no se repite «También puede interesarte»
+for _p in PAGES:
+    if _p["slug"] == "suelo-pelvico-dolor-pelvico":
+        _p["related"] = []
