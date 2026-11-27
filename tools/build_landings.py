@@ -397,7 +397,7 @@ h1,h2,h3,h4,.btn,.btn-tq,.faq summary,b,strong,.explain .txt b,.card h3,.step h3
 .lg h3{font-size:18px!important;font-weight:700!important;color:var(--pet);padding-top:14px;border-top:2px solid var(--tq);margin-bottom:10px}
 .lg ul{list-style:none}.lg li{padding:4px 0}.lg a{color:var(--pet);text-decoration:none}.lg a:hover{color:#0a9a9c;text-decoration:underline}
 .lgall{margin-top:40px;text-align:center}
-.vgrid.v5{grid-template-columns:repeat(5,1fr)!important}.vgrid.v4{grid-template-columns:repeat(4,1fr)!important}.vgrid.v5 .vit p,.vgrid.v4 .vit p{text-align:center!important}@media(max-width:900px){.vgrid.v5,.vgrid.v4{grid-template-columns:1fr 1fr!important}}@media(max-width:520px){.vgrid.v5,.vgrid.v4{grid-template-columns:1fr!important}}.relchips{margin:34px 0 0}.relchips .chips{display:flex;flex-wrap:wrap;gap:10px;justify-content:center}.press{padding:44px 0!important;background:#f6f1ea}.prgrid{display:grid;grid-template-columns:1fr 1fr;gap:16px;max-width:980px;margin:0 auto}.prgrid.one{grid-template-columns:1fr;max-width:620px}.prbox{background:#fff;border:1px solid #e3d6c3;border-radius:12px;padding:18px 20px;text-align:left}.prm{display:block;font-family:Georgia,"Times New Roman",serif;font-size:22px;color:#1D3F40;margin:0 0 6px}.prh{font-weight:600;font-size:15px!important;color:#1D3F40;margin:0 0 6px!important;text-align:left!important}.prp{font-size:14px!important;line-height:1.5;margin:0 0 12px!important;text-align:left!important}.prbtn{display:inline-block;background:#2ec4c4;color:#fff!important;font-size:13px;font-weight:600;padding:7px 14px;border-radius:999px;text-decoration:none}.prbtn:hover{background:#0f8f8f}.prd{display:inline-block;margin-left:10px;font-size:12px;opacity:.7}@media(max-width:700px){.prgrid{grid-template-columns:1fr}}.cont .gmb{margin:-8px auto 22px!important}.cont .gmb a{color:#fff;opacity:.85;text-decoration:underline}
+.vgrid.v5{grid-template-columns:repeat(5,1fr)!important}.vgrid.v4{grid-template-columns:repeat(4,1fr)!important}.vgrid.v5 .vit p,.vgrid.v4 .vit p{text-align:center!important}@media(max-width:900px){.vgrid.v5,.vgrid.v4{grid-template-columns:1fr 1fr!important}}@media(max-width:520px){.vgrid.v5,.vgrid.v4{grid-template-columns:1fr!important}}.relchips{margin:34px 0 0}.relchips .chips{display:flex;flex-wrap:wrap;gap:10px;justify-content:center}.press{padding:44px 0!important;background:#f6f1ea}.prgrid{display:grid;grid-template-columns:1fr 1fr;gap:16px;max-width:980px;margin:0 auto}.prgrid.three{grid-template-columns:repeat(3,1fr);max-width:1180px}.prgrid.one{grid-template-columns:1fr;max-width:620px}.prbox{background:#fff;border:1px solid #e3d6c3;border-radius:12px;padding:18px 20px;text-align:left}.prm{display:block;font-family:Georgia,"Times New Roman",serif;font-size:22px;color:#1D3F40;margin:0 0 6px}.prh{font-weight:600;font-size:15px!important;color:#1D3F40;margin:0 0 6px!important;text-align:left!important}.prp{font-size:14px!important;line-height:1.5;margin:0 0 12px!important;text-align:left!important}.prbtn{display:inline-block;background:#2ec4c4;color:#fff!important;font-size:13px;font-weight:600;padding:7px 14px;border-radius:999px;text-decoration:none}.prbtn:hover{background:#0f8f8f}.prd{display:inline-block;margin-left:10px;font-size:12px;opacity:.7}@media(max-width:700px){.prgrid{grid-template-columns:1fr}}.cont .gmb{margin:-8px auto 22px!important}.cont .gmb a{color:#fff;opacity:.85;text-decoration:underline}
 .card,.q,.step,.evi{border-top:2px solid var(--tq)!important}
 .card h3,.step h3{font-weight:400!important}
 .mclose{font-weight:400!important}
@@ -755,7 +755,10 @@ PRESS = [{"medio": "La Vanguardia", "fecha": "4 de octubre de 2026", "url": "htt
           "p": "El diario de referencia en toda España entrevista a la fundadora de WA LAM sobre su forma de entender la salud: conectar los síntomas con la historia clínica y el estilo de vida de cada persona."},
          {"medio": "La Vanguardia", "fecha": "6 de septiembre de 2026", "url": "https://www.lavanguardia.com/empresas-de-vanguardia/historias-de-exito/20260906/11623679/olivier-bazin-movilidad-organos-influir-sintomas-aparentemente-alejados-zona-encuentra-alteracion.html", "olivier": True, "iso": "2026-09-06",
           "h": "Olivier Bazin, entrevistado en La Vanguardia",
-          "p": "El diario de referencia en toda España entrevista a Olivier Bazin, D.O., sobre cómo la movilidad de los órganos puede influir en síntomas aparentemente alejados de la zona donde se encuentra la alteración."}]
+          "p": "El diario de referencia en toda España entrevista a Olivier Bazin, D.O., sobre cómo la movilidad de los órganos puede influir en síntomas aparentemente alejados de la zona donde se encuentra la alteración."},
+         {"medio": "Catalunya Digital", "fecha": "2026", "url": "https://catalunyadigital.es/wa-lam/",
+          "h": "Rosa Rodríguez Valls, entrevistada en Catalunya Digital",
+          "p": "Una entrevista a la fundadora de WA LAM sobre el mindfulness y la meditación."}]
 
 
 def press(p=None):
@@ -768,8 +771,8 @@ def press(p=None):
                    f'<p class="prh">{tr(x["h"])}</p><p class="prp">{tr(x["p"])}</p>'
                    f'<a class="prbtn" href="{x["url"]}" target="_blank" rel="noopener">{tr("Leer la entrevista")} →</a>'
                    f'<span class="prd">{tr(x["fecha"])}</span></div>')
-    return ('<section class="press" id="en-los-medios"><div class="wrap">' + sec_head(tr("En los medios"), tr("Entrevistas en La Vanguardia"))
-            + f'<div class="prgrid{" one" if len(out) == 1 else ""}">' + "".join(out) + "</div></div></section>")
+    return ('<section class="press" id="en-los-medios"><div class="wrap">' + sec_head("", tr("Prensa"), tr("Las últimas entrevistas de 2026"))
+            + f'<div class="prgrid{" one" if len(out) == 1 else (" three" if len(out) == 3 else "")}">' + "".join(out) + "</div></div></section>")
 
 
 def contact(p):
