@@ -3185,3 +3185,30 @@ for _p in PAGES:
     for _i, _b in enumerate(_p["blocks"]):
         if _b.get("type") == "phases":
             _p["blocks"][_i] = dict(PHASES_OSTEO)
+
+# Rosa (27 nov 2026): la fase intensiva trabaja la dolencia de cada página y regula el sistema nervioso
+_DOL_OVR = {"Acompañamiento en fertilidad": "dificultades para concebir", "Osteopatía en el embarazo y el posparto": "molestias del embarazo y el posparto",
+            "Ejercicios de suelo pélvico": "debilidad o tensión del suelo pélvico", "Osteoporosis y salud ósea": "osteoporosis",
+            "Acompanyament en fertilitat": "dificultats per concebre", "Osteopatia a l'embaràs i el postpart": "molèsties de l'embaràs i el postpart",
+            "Exercicis de sòl pelvià": "debilitat o tensió del sòl pelvià", "Osteoporosi i salut òssia": "osteoporosi"}
+def _dolencia(nav):
+    if nav in _DOL_OVR:
+        return _DOL_OVR[nav]
+    n = _re.sub(r"\s*\(.*?\)", "", nav).strip()
+    return n if (len(n) > 1 and n[1].isupper()) else n[:1].lower() + n[1:]
+_FI1 = ("En esta **primera fase** se trabaja en dos niveles a la vez. Por un lado, directamente sobre **lo que le ha traído a la consulta** "
+        "(en esta página, {d}): la zona afectada y las estructuras relacionadas con ella. Por otro, sobre el **sistema nervioso**, que el dolor o la molestia "
+        "mantienen **alterado**: cuando un problema se prolonga, los tejidos se adaptan mal y el cuerpo entra en un estado de alerta que lo perpetúa. "
+        "El tratamiento manual actúa sobre los receptores de los tejidos y tiene un efecto **local** y **central** que ayuda a **regular el sistema nervioso**. "
+        "En esa regulación tiene un papel clave el [nervio vago](nervio-vago).")
+_FI2 = ("En esta fase las **sesiones son más frecuentes**, según el estado de cada persona. La mayoría de los pacientes ya nota una **mejora significativa**, "
+        "pero la recuperación completa requiere tiempo, según la gravedad y la duración del problema.")
+import copy as _cp
+for _p in PAGES:
+    if _p["slug"] not in _OSTEO_SET:
+        continue
+    for _i, _b in enumerate(_p["blocks"]):
+        if _b.get("type") == "phases" and _b.get("h2") == PHASES_OSTEO["h2"]:
+            _nb = _cp.deepcopy(_b)
+            _nb["items"][0]["paras"] = [_FI1.format(d=_dolencia(_p["nav"])), _FI2]
+            _p["blocks"][_i] = _nb
