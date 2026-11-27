@@ -513,3 +513,5 @@ for _a, _b in _json.loads((_Path(__file__).parent / "meno_fix.json").read_text()
         SEO["salud-mujer-menopausia"][_k] = SEO["salud-mujer-menopausia"][_k].replace(_a, _b)
 SEO["salud-mujer-menopausia"].update({"kw": "menopausia Barcelona", "title": "Menopausia en Barcelona: sofocos, sueño y fuerza | WA LAM"})
 SEO["salud-mujer-menopausia"]["kws"] = ["perimenopausia Barcelona", "sofocos tratamiento natural", "menopausia acupuntura", "menopausia ejercicio de fuerza", "menopausia tratamiento integrativo Barcelona"]
+
+SEO["suelo-pelvico-dolor-pelvico"].update({"quick": 'La **salud pélvica y urogenital** es el buen funcionamiento de los órganos de la pelvis de la mujer (vejiga, útero, trompas, ovarios y recto) y del **suelo pélvico** que los sostiene.', "q_title": "Salud pélvica y urogenital"})

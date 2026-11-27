@@ -817,6 +817,8 @@ def wabtn(p):
 
 
 def quick(p):
+    if p.get("no_quick"):
+        return ""
     q = seo(p).get("quick")
     if not q:
         return ""

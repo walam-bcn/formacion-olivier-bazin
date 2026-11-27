@@ -3250,3 +3250,17 @@ for _p in PAGES:
 for _p in PAGES:
     if _p["slug"] == "suelo-pelvico-dolor-pelvico":
         _p["h1"] = "Salud pélvica y urogenital en Barcelona"; _p["title"] = "Salud pélvica y urogenital en Barcelona | WA LAM"; _p["nav"] = "Salud pélvica"
+
+# Rosa (27 nov 2026): Salud pélvica: primero qué es, después los problemas; sin la valoración osteopática
+for _p in PAGES:
+    if _p["slug"] != "suelo-pelvico-dolor-pelvico":
+        continue
+    _bl = [b for b in _p["blocks"] if not str(b.get("h2", "")).startswith("¿Cómo se valora la salud pélvica")]
+    def _take(pref):
+        for _i, b in enumerate(_bl):
+            if str(b.get("h2", "")).startswith(pref):
+                return _bl.pop(_i)
+        return None
+    _first = [x for x in (_take("¿Qué es la salud pélvica"), _take("¿Qué problemas de vejiga"), _take("¿Qué dolores pélvicos"),
+                          _take("¿Qué se aborda en el embarazo"), _take("¿Se reconoce")) if x]
+    _p["blocks"] = _first + _bl
