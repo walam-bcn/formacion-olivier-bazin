@@ -932,16 +932,16 @@ def directory(p):
 
 LON_SLUG, NEU_SLUG = "prevencion-longevidad", "neurolongevidad-salud-cognitiva"
 LON_TXT = {
-    "all": "En WA LAM cuidamos su salud a largo plazo con la **[medicina de longevidad](prevencion-longevidad)**: prevención, metabolismo, sueño, movimiento y gestión del estrés. Y protegemos también el cerebro con la **[neurolongevidad](neurolongevidad-salud-cognitiva)**: memoria, atención y regulación del sistema nervioso.",
-    LON_SLUG: "La longevidad también se juega en el cerebro: descubra nuestro enfoque de **[neurolongevidad y salud cognitiva](neurolongevidad-salud-cognitiva)**.",
-    NEU_SLUG: "La salud del cerebro forma parte de un cuidado más amplio: conozca nuestro programa de **[longevidad y prevención](prevencion-longevidad)**.",
+    "all": "La longevidad no es solo una cuestión de años, sino de vitalidad: despertar con energía, moverse con libertad y mantener la mente lúcida. Pioneros en longevidad y bienestar desde 1992, en WA LAM le acompañamos a cuidar su salud antes de perderla, con nuestro programa de **[longevidad y prevención](prevencion-longevidad)** y con la **[neurolongevidad](neurolongevidad-salud-cognitiva)**, dedicada a la salud del cerebro.",
+    LON_SLUG: "La vitalidad también se juega en el cerebro: descubra nuestro enfoque de **[neurolongevidad y salud cognitiva](neurolongevidad-salud-cognitiva)** para mantener la mente lúcida con el paso de los años.",
+    NEU_SLUG: "Una mente lúcida forma parte de una vida plena: conozca también nuestro programa de **[longevidad y prevención](prevencion-longevidad)** para cuidar su salud antes de perderla.",
 }
 
 def lonband(p):
     """Bloque «Longevidad y neurolongevidad» con enlaces internos a las dos páginas pilar, en todas las landings."""
     txt = LON_TXT.get(p["slug"], LON_TXT["all"])
     return f"""<section class="lonb"><div class="wrap"><div class="lonbox">
-<span class="eyebrow">{tr("Longevidad")}</span><h2>{tr("Longevidad y neurolongevidad en WA LAM")}</h2>
+<span class="eyebrow">{tr("Longevidad")}</span><h2>{tr("Descubra los límites del potencial humano")}</h2>
 <p>{fmt(tr(txt))}</p><p class="slogan">{tr("Más años de vida, y más vida en cada año.")}</p>
 </div></div></section>"""
 
