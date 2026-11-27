@@ -503,7 +503,7 @@ REDIRECTS.append((f"/{H}/lumbalgia-cervicalgia-cronica", f"/{H}/lumbalgia-dolor-
 SEO["suelo-pelvico-dolor-pelvico"].update({"kw": "suelo pélvico Barcelona", "kws": ["osteopatía suelo pélvico Barcelona", "salud pélvica mujer Barcelona", "osteopatía urogenital", "suelo pélvico Sant Gervasi", "valoración suelo pélvico"],
     "ca": "sòl pelvià Barcelona", "title": "Suelo pélvico en Barcelona | WA LAM",
     "desc": "Suelo pélvico en Sarrià–Sant Gervasi, Barcelona: osteopatía urogenital de abordaje externo para la salud pélvica de la mujer. Primera valoración: 60 min.",
-    "quick": "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), trabajamos la salud pélvica de la mujer con osteopatía urogenital de abordaje externo: dolor pélvico y menstrual, molestias urinarias, prolapso, embarazo, posparto y menopausia. Valoramos la pelvis en conjunto con la columna, el abdomen, el diafragma y la respiración."})
+    "quick": "En WA LAM, en Sarrià–Sant Gervasi (Barcelona), trabajamos la salud pélvica de la mujer con **[osteopatía urogenital de abordaje externo](osteopatia-visceral-barcelona)**: **[dolor pélvico](dolor-pelvico-barcelona)** y **[menstrual](dolor-menstrual-endometriosis)**, **[molestias urinarias](cistitis-repeticion-vejiga-dolorosa)**, **[prolapso](prolapso-organos-pelvicos)**, **[embarazo](osteopatia-embarazo-posparto)**, **[posparto](posparto-recuperacion)** y **[menopausia](salud-mujer-menopausia)**. Valoramos la pelvis en conjunto con la columna, el abdomen, el diafragma y la respiración."})
 URLS["suelo-pelvico-dolor-pelvico"] = "suelo-pelvico-barcelona"
 CA_SLUG["suelo-pelvico-dolor-pelvico"] = "sol-pelvia-barcelona"
 import json as _json

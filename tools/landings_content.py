@@ -3212,3 +3212,7 @@ for _p in PAGES:
             _nb = _cp.deepcopy(_b)
             _nb["items"][0]["paras"] = [_FI1.format(d=_dolencia(_p["nav"])), _FI2]
             _p["blocks"][_i] = _nb
+
+for _p in PAGES:
+    if _p["slug"] == "suelo-pelvico-dolor-pelvico":
+        _p["blocks"] = [b for b in _p["blocks"] if b.get("type") != "pro"]
