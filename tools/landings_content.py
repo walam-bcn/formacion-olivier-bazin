@@ -3413,3 +3413,14 @@ for _p in PAGES:
         _k = next((i for i, b in enumerate(_p["blocks"]) if _PRO_LUMB in b.get("paras", [])), None)
         if _k is not None:
             _p["blocks"].insert(_k + 1, dict(_BOX_PRO))
+
+# Rosa (27 nov 2026): apartado del hombre en el hub, después de «¿Cómo cambia la pelvis…?»
+_HOMBRE_HUB = {"type": "explain", "eyebrow": "", "_id": "salud-pelvica-masculina", "h2": "¿Y la salud pélvica del hombre?",
+               "paras": ["El hombre también tiene **suelo pélvico** y una **esfera urogenital**: la vejiga, la uretra, la **próstata** y los testículos. De ella se habla poco, y muchos hombres conviven durante años con molestias que no consultan.",
+                         "El motivo de consulta más frecuente es la **prostatitis crónica**, que en la mayoría de los casos es un **síndrome de dolor pélvico crónico** sin infección: dolor en el periné, los testículos, encima del pubis o al eyacular, en el que el suelo pélvico está tenso y el sistema nervioso, sensibilizado. También son frecuentes las molestias urinarias del aumento de la próstata y las pérdidas de orina tras una operación de próstata.",
+                         "La próstata comparte inervación con la zona lumbar baja y el sacro, y por eso puede dar **dolor lumbar referido**: cuando el dolor de espalda se acompaña de molestias en el periné, al orinar o al eyacular, conviene mirar también la pelvis. El abordaje es el mismo que en la mujer: **manual, suave y siempre externo**, con osteopatía y fisioterapia.",
+                         "Lea más en **[Próstata y salud pélvica masculina](prostata-salud-pelvica-masculina)** y en **[dolor lumbar](lumbalgia-dolor-lumbar)**."]}
+for _p in PAGES:
+    if _p["slug"] == "suelo-pelvico-dolor-pelvico" and not any(b.get("_id") == "salud-pelvica-masculina" for b in _p["blocks"]):
+        _k = next(i for i, b in enumerate(_p["blocks"]) if b.get("h2") == "¿Cómo cambia la pelvis a lo largo de la vida genital de la mujer?")
+        _p["blocks"].insert(_k + 1, dict(_HOMBRE_HUB))
