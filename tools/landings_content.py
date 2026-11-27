@@ -3321,3 +3321,18 @@ for _p in PAGES:
         for k in sorted(_idx, reverse=True):
             del _bl[k]
         _bl.insert(_idx[0], _new)
+
+# Rosa (27 nov 2026): «¿Qué tiene de particular la región pélvica y urogenital?» y «¿Cómo funciona el suelo pélvico?» arriba, tras «qué es»
+for _p in PAGES:
+    if _p["slug"] != "suelo-pelvico-dolor-pelvico":
+        continue
+    _bl = _p["blocks"]
+    def _pop(pref):
+        for _i, b in enumerate(_bl):
+            if str(b.get("h2", "")).startswith(pref):
+                return _bl.pop(_i)
+    _part = _pop("¿Qué tiene de particular la región pélvica"); _func = _pop("¿Cómo funciona el suelo pélvico")
+    if _part is not None:
+        _part = dict(_part); _part["h2"] = "¿Qué tiene de particular la región pélvica y urogenital?"
+    _q = next((k for k, b in enumerate(_bl) if str(b.get("h2", "")).startswith("¿Qué es la salud pélvica")), -1)
+    _bl[_q + 1:_q + 1] = [x for x in (_part, _func) if x is not None]
