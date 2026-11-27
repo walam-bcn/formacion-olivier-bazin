@@ -970,7 +970,7 @@ def visit(b):
 
 
 def phases(b):
-    labs = [plain(x["h"]) for x in b["items"]][:3]
+    labs = [plain(x.get("lab") or x["h"]) for x in b["items"]][:3]
     while len(labs) < 3:
         labs.append("")
     ax_y, ax_x = tr("Mejora"), tr("Tiempo")

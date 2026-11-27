@@ -1332,7 +1332,7 @@ R["dumoulin"] = _r("Dumoulin C, Cacciari LP, Hay-Smith EJC, 2018. «Pelvic floor
 OB_URL = "https://www.walambcn.com/formacion-avanzada-internacional-osteopatia-urogenital-salud-pelvica"
 def uro_pro():
     return {"type": "explain", "eyebrow": "Para profesionales", "h2": '¿Busca una formación avanzada en salud pélvica y manipulaciones urogenitales?',
-            "paras": ['Formación especializada para **osteópatas, fisioterapeutas, médicos, enfermeras, ginecólogos, matronas y especialistas en suelo pélvico** que quieren ir más allá en el tratamiento de las disfunciones pélvicas femeninas. La imparte **Olivier Bazin, D.O., MRO(F)**, fisioterapeuta y osteópata, coautor de «Visceral Manipulation for Female Pelvic Disorders» (Elsevier) y docente internacional del método Barral. WA LAM la organiza en Barcelona, por primera vez en España.', '[Ver programa, fechas e inscripción](https://www.walambcn.com/formacion-avanzada-internacional-osteopatia-urogenital-salud-pelvica) · [Más información sobre la formación](https://walam-bcn.github.io/formacion-olivier-bazin/).'],
+            "paras": ['Formación especializada para **médicos y profesionales sanitarios** que quieren ir más allá en el tratamiento de las disfunciones pélvicas femeninas. La imparte **Olivier Bazin, D.O., MRO(F)**, fisioterapeuta y osteópata, **referente internacional** y coautor de «Visceral Manipulation for Female Pelvic Disorders» (Elsevier). WA LAM la organiza en Barcelona, por primera vez en España.', '[Ver programa, fechas e inscripción](https://www.walambcn.com/formacion-avanzada-internacional-osteopatia-urogenital-salud-pelvica) · [Más información sobre la formación](https://walam-bcn.github.io/formacion-olivier-bazin/).'],
             "list_title": 'La formación incluye:', "list": ['**Seminario 1 · UGM:** manipulación urogenital para los trastornos pélvicos, con abordaje externo', '**Seminario 2 · VMFPD:** manipulación visceral para los trastornos pélvicos femeninos', 'Dos módulos complementarios de una misma formación: 6 días intensivos presenciales en Barcelona', 'Traducción al castellano y certificado de asistencia', 'Próximas fechas: Urogenital I, 5–7 de mayo de 2028 · Urogenital II, 1–3 de septiembre de 2028']}
 UG_NOTE = "En WA LAM el abordaje es siempre externo y se dirige a mujeres."
 
@@ -3175,3 +3175,13 @@ for _p in PAGES:
             if b.get("type") == "visit" and b.get("_id") == "primera-visita":
                 b["intro"] = b.get("intro", "") + " " + _ABORD_TXT
                 break
+
+
+# Rosa (27 nov 2026): las tres fases, adaptadas a osteopatía a partir del material que pasó (sin añadidos)
+PHASES_OSTEO = {'type': 'phases', 'eyebrow': 'Tratamiento', 'h2': '¿Cuáles son las tres fases del tratamiento osteopático?', '_id': 'fases-del-tratamiento', 'items': [{'h': 'Fase intensiva', 'lab': 'Fase intensiva', 'paras': ['En esta **primera fase**, el paciente necesita **sesiones más frecuentes** (según el estado de cada persona), porque el **sistema nervioso** se encuentra **alterado** y los tejidos están mal adaptados.', 'La mayoría de los pacientes ya nota una **mejora significativa**; sin embargo, la recuperación completa requiere tiempo, según la gravedad y la duración del problema.']}, {'h': 'Fase correctiva o reconstructiva', 'lab': 'Fase correctiva', 'paras': ['En esta fase las **visitas se espacian**. Las restricciones de movilidad se han reducido y corregido, aunque pueden persistir algunas tensiones crónicas.', 'El paciente empieza a sentirse más **ligero, equilibrado, con más energía, descansa mejor y está más relajado**. Y un dato importante: empieza a **responsabilizarse de su salud**.']}, {'h': 'Fase de mantenimiento o bienestar', 'lab': 'Fase de bienestar', 'paras': ['La **tercera fase** es la del **bienestar**. Ahora los tratamientos se realizan **periódicamente**, ya que el cuerpo mantiene los resultados **durante más tiempo y con más facilidad**.', 'Los pacientes suelen experimentar una sensación de **buena salud, buena energía, menos estrés y más ganas de cuidarse**.']}]}
+for _p in PAGES:
+    if _p["slug"] not in _OSTEO_SET:
+        continue
+    for _i, _b in enumerate(_p["blocks"]):
+        if _b.get("type") == "phases":
+            _p["blocks"][_i] = dict(PHASES_OSTEO)
