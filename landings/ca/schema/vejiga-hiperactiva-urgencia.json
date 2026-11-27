@@ -315,7 +315,7 @@
           "name": "He de beure menys per anar menys al lavabo?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. Els autors aconsellen beure sovint i en petites quantitats, perquè molta aigua de cop augmenta la tensió de la paret de la bufeta."
+            "text": "No. És millor beure sovint i en petites quantitats, perquè molta aigua de cop augmenta la tensió de la paret de la bufeta."
           }
         },
         {
@@ -323,7 +323,7 @@
           "name": "Si les anàlisis estan bé, per què tinc símptomes de cistitis?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Olivier Bazin anomena cistàlgies les molèsties vesicals sense infecció. Solen ser degudes a una irritació mecànica de la base de la bufeta i, segons els autors, responen molt bé al treball manual."
+            "text": "S'anomenen cistàlgies les molèsties vesicals sense infecció. Solen ser degudes a una irritació mecànica de la base de la bufeta i, a la pràctica clínica, sovint responen bé al treball manual."
           }
         },
         {
@@ -331,7 +331,7 @@
           "name": "Quan és millor fer les sessions?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Segons l'experiència dels autors, la setmana següent a la regla, quan la base de la bufeta està menys sensible."
+            "text": "En general, la setmana següent a la regla, quan la base de la bufeta està menys sensible."
           }
         },
         {
@@ -339,7 +339,7 @@
           "name": "Té relació amb l'estrès?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí. Els autors destaquen la interdependència entre el que és local i el que és central en la bufeta hipersensible: les tensions emocionals hi influeixen."
+            "text": "Sí. En la bufeta hipersensible, allò local i allò central són interdependents: les tensions emocionals hi influeixen."
           }
         }
       ]

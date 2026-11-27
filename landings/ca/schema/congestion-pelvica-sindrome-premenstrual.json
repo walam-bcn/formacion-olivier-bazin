@@ -318,7 +318,7 @@
           "name": "La síndrome premenstrual és «normal»?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Les petites molèsties abans de la regla són molt freqüents: segons Pennington, citat per Olivier Bazin, el 95 % de les dones les té en algun moment de la vida. Quan es repeteixen cada cicle i alteren la vostra vida diària, val la pena valorar-les."
+            "text": "Les petites molèsties abans de la regla són molt freqüents: segons un estudi clàssic, el 95 % de les dones les té en algun moment de la vida. Quan es repeteixen cada cicle i alteren la seva vida diària, val la pena valorar-les."
           }
         },
         {
@@ -326,7 +326,7 @@
           "name": "Quan és millor demanar hora?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Segons l'experiència dels autors, just després de la regla i abans del dia 14, quan la pelvis està menys congestionada i els teixits responen millor."
+            "text": "Just després de la regla i abans del dia 14, quan la pelvis sol estar menys congestionada i els teixits responen millor."
           }
         },
         {
@@ -334,7 +334,7 @@
           "name": "Quantes sessions calen?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Olivier Bazin proposa dues o tres sessions, separades per la durada d'un cicle. No és un problema que es resolgui en una sola visita."
+            "text": "Se solen proposar dues o tres sessions, separades per la durada d'un cicle. No és un problema que es resolgui en una sola visita."
           }
         },
         {

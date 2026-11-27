@@ -321,7 +321,7 @@
           "name": "¿Se me pasará después del parto?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "En la mayoría de los casos, sí. Según Olivier Bazin, en un 10 % de las mujeres puede persistir entre 12 y 18 meses tras el nacimiento; entonces conviene valorarlo dentro del posparto."
+            "text": "En la mayoría de los casos, sí. En un 10 % de las mujeres puede persistir entre 12 y 18 meses tras el nacimiento; entonces conviene valorarlo dentro del posparto."
           }
         },
         {
@@ -329,7 +329,7 @@
           "name": "¿Es seguro el tratamiento osteopático durante el embarazo?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Los autores consideran que tiene plena cabida en este periodo, siempre con un tacto muy ligero, sesiones cortas, técnicas suaves y sin maniobras bruscas, y descartando antes las contraindicaciones que debe valorar su ginecólogo."
+            "text": "Tiene plena cabida en este periodo, siempre con un tacto muy ligero, sesiones cortas, técnicas suaves y sin maniobras bruscas, y descartando antes las contraindicaciones que debe valorar su ginecólogo."
           }
         },
         {
@@ -337,7 +337,7 @@
           "name": "¿En qué semana puedo consultar?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "En cuanto aparezca el dolor. Los autores proponen además revisiones en momentos clave del embarazo, hacia las semanas 12–14, 20, 28 y 32."
+            "text": "En cuanto aparezca el dolor. Además, se suelen proponer revisiones en momentos clave del embarazo, hacia las semanas 12–14, 20, 28 y 32."
           }
         },
         {

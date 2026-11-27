@@ -323,7 +323,7 @@
           "name": "¿Cuándo es mejor hacer las sesiones si tengo reglas dolorosas?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Según los autores, justo después de la regla y antes del día 14, en dos o tres sesiones separadas por un ciclo. En la endometriosis prefieren la mitad del ciclo."
+            "text": "Justo después de la regla y antes del día 14, en dos o tres sesiones separadas por un ciclo. En la endometriosis se prefiere la mitad del ciclo."
           }
         },
         {
@@ -331,7 +331,7 @@
           "name": "Tengo una endometriosis leve pero mucho dolor, ¿es posible?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí. Olivier Bazin subraya que no hay relación entre la extensión de las lesiones y la intensidad del dolor: una endometriosis mínima puede doler mucho y una extensa puede no dar síntomas."
+            "text": "Sí. No hay relación entre la extensión de las lesiones y la intensidad del dolor: una endometriosis mínima puede doler mucho y una extensa puede no dar síntomas."
           }
         },
         {

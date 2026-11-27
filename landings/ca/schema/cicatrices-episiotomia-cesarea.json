@@ -313,7 +313,7 @@
           "name": "Quan puc començar a tractar la meva cicatriu?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Segons Olivier Bazin, convé esperar que l'úter recuperi la seva mida (unes 6–8 setmanes) o el retorn de la regla, excepte en parts difícils que justifiquin una consulta abans. La ferida ha d'estar ben tancada."
+            "text": "Convé esperar que l'úter recuperi la seva mida (unes 6–8 setmanes) o el retorn de la regla, llevat de parts difícils que justifiquin una consulta abans. La ferida ha d'estar ben tancada."
           }
         },
         {
@@ -321,7 +321,7 @@
           "name": "La meva cicatriu és antiga, encara es pot treballar?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí. La fibrosi i les adherències es poden valorar anys després del part; segons els autors, les pèrdues d'elasticitat responen millor que els grans trencaments."
+            "text": "Sí. La fibrosi i les adherències es poden valorar anys després del part; les pèrdues d'elasticitat solen respondre millor que els grans esquinçaments."
           }
         },
         {

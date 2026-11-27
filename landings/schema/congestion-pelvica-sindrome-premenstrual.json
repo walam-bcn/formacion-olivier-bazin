@@ -318,7 +318,7 @@
           "name": "¿El síndrome premenstrual es «normal»?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Las pequeñas molestias antes de la regla son muy frecuentes: según Pennington, citado por Olivier Bazin, el 95 % de las mujeres las tiene en algún momento de su vida. Cuando se repiten cada ciclo y alteran su vida diaria, merece la pena valorarlas."
+            "text": "Las pequeñas molestias antes de la regla son muy frecuentes: según un estudio clásico, el 95 % de las mujeres las tiene en algún momento de su vida. Cuando se repiten cada ciclo y alteran su vida diaria, merece la pena valorarlas."
           }
         },
         {
@@ -326,7 +326,7 @@
           "name": "¿Cuándo es mejor pedir la cita?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Según la experiencia de los autores, justo después de la regla y antes del día 14, cuando la pelvis está menos congestionada y los tejidos responden mejor."
+            "text": "Justo después de la regla y antes del día 14, cuando la pelvis suele estar menos congestionada y los tejidos responden mejor."
           }
         },
         {
@@ -334,7 +334,7 @@
           "name": "¿Cuántas sesiones hacen falta?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Olivier Bazin propone dos o tres sesiones, separadas por la duración de un ciclo. No es un problema que se resuelva en una sola visita."
+            "text": "Se suelen proponer dos o tres sesiones, separadas por la duración de un ciclo. No es un problema que se resuelva en una sola visita."
           }
         },
         {

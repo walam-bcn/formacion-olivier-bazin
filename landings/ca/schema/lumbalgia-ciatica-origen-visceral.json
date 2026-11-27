@@ -323,7 +323,7 @@
           "name": "El mal d'esquena de l'embaràs és sempre de la columna?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. Segons els autors, la lumbàlgia de l'embarassada té més sovint un origen vascular (compressió de la vena cava i congestió venosa) que articular, a més de la compressió del ronyó per l'úter."
+            "text": "No. La lumbàlgia de l'embarassada té més sovint un origen vascular (compressió de la vena cava i congestió venosa) que articular, a més de la compressió del ronyó per l'úter."
           }
         },
         {
@@ -331,7 +331,7 @@
           "name": "S'ha de manipular la columna?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No necessàriament. Els autors aconsellen no tractar d'entrada la columna si no hi ha bloquejos clars: les restriccions solen ser adaptacions a la disfunció pelviana, i primer es treballen les vísceres."
+            "text": "No necessàriament. Si no hi ha bloquejos clars, és millor no tractar d'entrada la columna: les restriccions solen ser adaptacions a la disfunció pèlvica, i primer es treballen les vísceres."
           }
         },
         {
@@ -339,7 +339,7 @@
           "name": "Un ronyó pot donar mal d'esquena sense tenir càlculs?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Segons Olivier Bazin, sí: un ronyó fixat o descendit s'associa a dolor lumbar alt i pot alterar el drenatge venós de l'ovari esquerre. Els càlculs, en canvi, els ha de valorar el seu metge."
+            "text": "Sí: un ronyó fixat o descendit s'associa a dolor lumbar alt i pot alterar el drenatge venós de l'ovari esquerre. Els càlculs, en canvi, els ha de valorar el seu metge."
           }
         }
       ]

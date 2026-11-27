@@ -323,7 +323,7 @@
           "name": "¿El dolor de espalda del embarazo es siempre de la columna?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. Según los autores, la lumbalgia de la embarazada tiene más a menudo un origen vascular (compresión de la vena cava y congestión venosa) que articular, además de la compresión del riñón por el útero."
+            "text": "No. La lumbalgia de la embarazada tiene más a menudo un origen vascular (compresión de la vena cava y congestión venosa) que articular, además de la compresión del riñón por el útero."
           }
         },
         {
@@ -331,7 +331,7 @@
           "name": "¿Hay que manipular la columna?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No necesariamente. Los autores aconsejan no tratar de entrada la columna si no hay bloqueos claros: las restricciones suelen ser adaptaciones a la disfunción pélvica, y primero se trabajan las vísceras."
+            "text": "No necesariamente. Si no hay bloqueos claros, es mejor no tratar de entrada la columna: las restricciones suelen ser adaptaciones a la disfunción pélvica, y primero se trabajan las vísceras."
           }
         },
         {
@@ -339,7 +339,7 @@
           "name": "¿Un riñón puede dar dolor de espalda sin tener cálculos?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Según Olivier Bazin, sí: un riñón fijado o descendido se asocia a dolor lumbar alto y puede alterar el drenaje venoso del ovario izquierdo. Los cálculos, en cambio, deben ser valorados por su médico."
+            "text": "Sí: un riñón fijado o descendido se asocia a dolor lumbar alto y puede alterar el drenaje venoso del ovario izquierdo. Los cálculos, en cambio, deben ser valorados por su médico."
           }
         }
       ]

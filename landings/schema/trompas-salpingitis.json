@@ -307,7 +307,7 @@
           "name": "Si ya me trataron la salpingitis, ¿puede quedar alguna secuela?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Según Olivier Bazin, toda infección, incluso tratada a tiempo, deja microadherencias que pueden restar movilidad a la trompa. Son esas secuelas mecánicas las que se valoran en osteopatía."
+            "text": "Toda infección, incluso tratada a tiempo, puede dejar microadherencias que resten movilidad a la trompa. Son esas secuelas mecánicas las que se valoran en osteopatía."
           }
         },
         {
@@ -315,7 +315,7 @@
           "name": "¿La osteopatía puede desobstruir una trompa?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No se puede prometer. Los autores creen que liberar el peritoneo y relajar los espasmos favorece la función de la trompa, pero una obstrucción la debe valorar su ginecólogo o su clínica de fertilidad."
+            "text": "No se puede prometer. Liberar el peritoneo y relajar los espasmos puede favorecer la función de la trompa, pero una obstrucción la debe valorar su ginecólogo o su clínica de fertilidad."
           }
         },
         {
@@ -323,7 +323,7 @@
           "name": "¿Cuándo es mejor hacer las sesiones si busco un embarazo?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Los autores proponen la semana siguiente a la regla y tres sesiones separadas por un mes."
+            "text": "Se suele proponer la semana siguiente a la regla y tres sesiones separadas por un mes."
           }
         },
         {

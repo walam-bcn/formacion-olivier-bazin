@@ -313,7 +313,7 @@
           "name": "¿Cuándo puedo empezar a tratar mi cicatriz?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Según Olivier Bazin, conviene esperar a que el útero recupere su tamaño (unas 6–8 semanas) o a la vuelta de la regla, salvo partos difíciles que justifiquen una consulta antes. La herida debe estar bien cerrada."
+            "text": "Conviene esperar a que el útero recupere su tamaño (unas 6–8 semanas) o a la vuelta de la regla, salvo partos difíciles que justifiquen una consulta antes. La herida debe estar bien cerrada."
           }
         },
         {
@@ -321,7 +321,7 @@
           "name": "Mi cicatriz es antigua, ¿todavía se puede trabajar?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí. La fibrosis y las adherencias pueden valorarse años después del parto; según los autores, las pérdidas de elasticidad responden mejor que las grandes roturas."
+            "text": "Sí. La fibrosis y las adherencias pueden valorarse años después del parto; las pérdidas de elasticidad suelen responder mejor que las grandes roturas."
           }
         },
         {

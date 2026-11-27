@@ -325,7 +325,7 @@
           "name": "Vaig tenir pèrdues a l'embaràs que van desaparèixer, m'he de preocupar?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No és motiu d'alarma, però sí de prevenció: segons les dades que recull Olivier Bazin, una incontinència durant l'embaràs duplica el risc de tenir-la quinze anys després. Cuidar el sòl pelvià després del part és una bona inversió."
+            "text": "No és motiu d'alarma, però sí de prevenció: una incontinència durant l'embaràs duplica el risc de tenir-la quinze anys després. Tenir cura del sòl pelvià després del part és una bona inversió."
           }
         },
         {
@@ -333,7 +333,7 @@
           "name": "Tinc un cistocele però no tinc pèrdues, és normal?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí. Els autors recorden que hi ha dones perfectament continents amb un descens important de la bufeta: ptosi i incontinència no són sinònims."
+            "text": "Sí. Hi ha dones perfectament continents amb un descens important de la bufeta: ptosi i incontinència no són sinònims."
           }
         }
       ]

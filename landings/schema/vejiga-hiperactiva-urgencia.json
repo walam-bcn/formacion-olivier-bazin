@@ -315,7 +315,7 @@
           "name": "¿Debo beber menos para ir menos al baño?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. Los autores aconsejan beber a menudo y en pequeñas cantidades, porque mucha agua de golpe aumenta la tensión de la pared de la vejiga."
+            "text": "No. Es mejor beber a menudo y en pequeñas cantidades, porque mucha agua de golpe aumenta la tensión de la pared de la vejiga."
           }
         },
         {
@@ -323,7 +323,7 @@
           "name": "Si los análisis están bien, ¿por qué tengo síntomas de cistitis?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Olivier Bazin llama cistalgias a las molestias vesicales sin infección. Suelen deberse a una irritación mecánica de la base de la vejiga y, según los autores, responden muy bien al trabajo manual."
+            "text": "Se llaman cistalgias las molestias vesicales sin infección. Suelen deberse a una irritación mecánica de la base de la vejiga y, en la práctica clínica, a menudo responden bien al trabajo manual."
           }
         },
         {
@@ -331,7 +331,7 @@
           "name": "¿Cuándo es mejor hacer las sesiones?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Según la experiencia de los autores, la semana siguiente a la regla, cuando la base de la vejiga está menos sensible."
+            "text": "Por lo general, la semana siguiente a la regla, cuando la base de la vejiga está menos sensible."
           }
         },
         {
@@ -339,7 +339,7 @@
           "name": "¿Tiene relación con el estrés?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí. Los autores destacan la interdependencia entre lo local y lo central en la vejiga hipersensible: las tensiones emocionales influyen en ella."
+            "text": "Sí. En la vejiga hipersensible lo local y lo central son interdependientes: las tensiones emocionales influyen en ella."
           }
         }
       ]

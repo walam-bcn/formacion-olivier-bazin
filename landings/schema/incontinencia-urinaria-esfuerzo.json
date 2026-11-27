@@ -325,7 +325,7 @@
           "name": "Tuve pérdidas en el embarazo que desaparecieron, ¿debo preocuparme?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No es motivo de alarma, pero sí de prevención: según los datos que recoge Olivier Bazin, una incontinencia durante el embarazo duplica el riesgo de tenerla quince años después. Cuidar el suelo pélvico tras el parto es una buena inversión."
+            "text": "No es motivo de alarma, pero sí de prevención: una incontinencia durante el embarazo duplica el riesgo de tenerla quince años después. Cuidar el suelo pélvico tras el parto es una buena inversión."
           }
         },
         {
@@ -333,7 +333,7 @@
           "name": "Tengo un cistocele pero no tengo pérdidas, ¿es normal?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí. Los autores recuerdan que hay mujeres perfectamente continentes con un descenso importante de la vejiga: ptosis e incontinencia no son sinónimos."
+            "text": "Sí. Hay mujeres perfectamente continentes con un descenso importante de la vejiga: ptosis e incontinencia no son sinónimos."
           }
         }
       ]

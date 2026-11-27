@@ -307,7 +307,7 @@
           "name": "¿Tener el útero en retroversión es una enfermedad?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. Es una variante frecuente y la mayoría de las veces no da síntomas. Según los autores, solo causa problemas cuando el útero, además, ha perdido movilidad."
+            "text": "No. Es una variante frecuente y la mayoría de las veces no da síntomas. Suele causar problemas solo cuando el útero, además, ha perdido movilidad."
           }
         },
         {
@@ -315,7 +315,7 @@
           "name": "¿La osteopatía puede cambiar la posición del útero?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "El objetivo no es corregir la posición, sino devolver movilidad al útero y equilibrar sus ligamentos, que es lo que, según Olivier Bazin, alivia los síntomas."
+            "text": "El objetivo no es corregir la posición, sino devolver movilidad al útero y equilibrar sus ligamentos, que es lo que puede aliviar los síntomas."
           }
         },
         {
@@ -323,7 +323,7 @@
           "name": "¿La retroversión impide quedarse embarazada?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Por lo general, no. Olivier Bazin recoge que algunos autores la relacionan con infertilidad y abortos de repetición, pero en la mayoría de las mujeres es asintomática."
+            "text": "Por lo general, no. Se ha relacionado con infertilidad y abortos de repetición, pero en la mayoría de las mujeres es asintomática."
           }
         },
         {
