@@ -3345,3 +3345,27 @@ for _p in PAGES:
             if str(_b.get("h2", "")).startswith("¿Qué es la salud pélvica"):
                 _b["h2"] = "¿Qué es la salud pélvica y urogenital?"
                 _b["wa_btn"] = _p.get("wa", "Hola, me gustaría reservar una visita.")
+
+# Rosa (27 nov 2026): beneficios tras el tratamiento en las fases intensiva y correctiva (contenido del libro de Olivier)
+_FI3 = ("Desde las primeras sesiones, el objetivo es **aliviar**: devolver la **movilidad** a los tejidos y órganos afectados, liberar las **tensiones** "
+        "y reactivar la **circulación**. Al terminar esta fase, lo habitual es notar **menos dolor**, **más movilidad** y una sensación de **alivio** y de **comodidad** en el día a día.")
+_FC2 = ("Los tejidos recuperan su **elasticidad** y sus **planos de deslizamiento**, la circulación mejora y la **vitalidad** se refuerza. "
+        "El alivio ya no es solo físico: se nota también en la **vida relacional y emocional** y, en conjunto, en la **calidad de vida**.")
+for _p in PAGES:
+    for _b in _p["blocks"]:
+        if _b.get("type") == "phases" and _b.get("h2") == PHASES_OSTEO["h2"]:
+            _it = _b["items"]
+            if _FI3 not in _it[0]["paras"]:
+                _it[0]["paras"] = list(_it[0]["paras"]) + [_FI3]
+            if _FC2 not in _it[1]["paras"]:
+                _it[1]["paras"] = list(_it[1]["paras"][:1]) + [_FC2] + list(_it[1]["paras"][1:])
+
+# Rosa (27 nov 2026): «¿Cómo cambia la pelvis…?» justo debajo de «¿Cómo funciona el suelo pélvico?»
+for _p in PAGES:
+    if _p["slug"] == "suelo-pelvico-dolor-pelvico":
+        _bl = _p["blocks"]
+        _mv = [b for b in _bl if b.get("h2") == "¿Cómo cambia la pelvis a lo largo de la vida genital de la mujer?"]
+        if _mv:
+            _bl.remove(_mv[0])
+            _k = next(i for i, b in enumerate(_bl) if b.get("h2") == "¿Cómo funciona el suelo pélvico?")
+            _bl.insert(_k + 1, _mv[0])
