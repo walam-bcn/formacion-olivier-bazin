@@ -1282,7 +1282,7 @@ PAGES.append({
     "sub": "Osteopatía urogenital · Sarrià–Sant Gervasi",
     "lead": "El dolor pélvico, las molestias urinarias, el dolor menstrual o el dolor en las relaciones afectan mucho a la calidad de vida y a menudo tardan en consultarse. En WA LAM los acompañamos con osteopatía urogenital de abordaje externo, siguiendo la línea de trabajo de Jean-Pierre Barral y Olivier Bazin, como complemento del seguimiento ginecológico o urológico.",
     "facts": ["Atiende: Rosa María Rodríguez Valls, osteópata D.O.", "Osteopatía urogenital: abordaje externo", "Coordinación con ginecología y urología",
-              "Solo abordaje externo", "Para profesionales: [formación urogenital con Olivier Bazin](" + "https://www.walambcn.com/formacion-avanzada-internacional-osteopatia-urogenital-salud-pelvica" + ")"],
+              "Solo abordaje externo", "Para profesionales: [formación en salud pélvica y manipulaciones urogenitales con Olivier Bazin](" + "https://www.walambcn.com/formacion-avanzada-internacional-osteopatia-urogenital-salud-pelvica" + ")"],
     "wa": "Hola, me gustaría información sobre la osteopatía para el dolor pélvico y el suelo pélvico.",
     "blocks": [
         {"type": "mirror", "eyebrow": "¿Te reconoces?", "h2": "Cuando el dolor está en la pelvis",
@@ -1331,7 +1331,7 @@ R["dumoulin"] = _r("Dumoulin C, Cacciari LP, Hay-Smith EJC, 2018. «Pelvic floor
 
 OB_URL = "https://www.walambcn.com/formacion-avanzada-internacional-osteopatia-urogenital-salud-pelvica"
 def uro_pro():
-    return {"type": "explain", "eyebrow": "Para profesionales", "h2": '¿Busca una formación avanzada en manipulaciones urogenitales y salud pélvica?',
+    return {"type": "explain", "eyebrow": "Para profesionales", "h2": '¿Busca una formación avanzada en salud pélvica y manipulaciones urogenitales?',
             "paras": ['Formación especializada para **osteópatas, fisioterapeutas, médicos, enfermeras, ginecólogos, matronas y especialistas en suelo pélvico** que quieren ir más allá en el tratamiento de las disfunciones pélvicas femeninas. La imparte **Olivier Bazin, D.O., MRO(F)**, fisioterapeuta y osteópata, coautor de «Visceral Manipulation for Female Pelvic Disorders» (Elsevier) y docente internacional del método Barral. WA LAM la organiza en Barcelona, por primera vez en España.', '[Ver programa, fechas e inscripción](https://www.walambcn.com/formacion-avanzada-internacional-osteopatia-urogenital-salud-pelvica) · [Más información sobre la formación](https://walam-bcn.github.io/formacion-olivier-bazin/).'],
             "list_title": 'La formación incluye:', "list": ['**Seminario 1 · UGM:** manipulación urogenital para los trastornos pélvicos, con abordaje externo', '**Seminario 2 · VMFPD:** manipulación visceral para los trastornos pélvicos femeninos', 'Dos módulos complementarios de una misma formación: 6 días intensivos presenciales en Barcelona', 'Traducción al castellano y certificado de asistencia', 'Próximas fechas: Urogenital I, 5–7 de mayo de 2028 · Urogenital II, 1–3 de septiembre de 2028']}
 UG_NOTE = "En WA LAM el abordaje es siempre externo y se dirige a mujeres."
