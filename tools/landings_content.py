@@ -3288,9 +3288,9 @@ for _p in PAGES:
     if len(_idx) == 3:
         _a, _b2, _c = (_bl[k] for k in _idx)
         _pa = [x for x in _a["paras"] if not x.startswith("Pulse en cada uno")]
-        _new = dict(_a); _new["h2"] = "¿Qué problemas de salud pélvica se abordan?"; _new["_id"] = "problemas-salud-pelvica"
+        _new = dict(_a); _new["h2"] = "¿Cuáles son los principales motivos de consulta?"; _new["_id"] = "problemas-salud-pelvica"
         _new["paras"] = ["Pulse en cada uno para ver más información.", "### Problemas de vejiga y sostén:"] + _pa + \
-                        ["### Dolores pélvicos:"] + list(_b2["paras"]) + ["### Embarazo, posparto y etapas de la vida:"] + list(_c["paras"])
+                        ["### Dolores pélvicos:"] + list(_b2["paras"]) + ["### Las diferentes etapas de la vida de la mujer:"] + list(_c["paras"])
         for k in sorted(_idx, reverse=True):
             del _bl[k]
         _bl.insert(_idx[0], _new)
