@@ -3336,3 +3336,12 @@ for _p in PAGES:
         _part = dict(_part); _part["h2"] = "¿Qué tiene de particular la región pélvica y urogenital?"
     _q = next((k for k, b in enumerate(_bl) if str(b.get("h2", "")).startswith("¿Qué es la salud pélvica")), -1)
     _bl[_q + 1:_q + 1] = [x for x in (_part, _func) if x is not None]
+
+# Rosa (27 nov 2026): un solo apartado «¿Qué es la salud pélvica y urogenital?» con el botón Reservar; sin recuadro repetido arriba
+for _p in PAGES:
+    if _p["slug"] == "suelo-pelvico-dolor-pelvico":
+        _p["no_quick"] = True
+        for _b in _p["blocks"]:
+            if str(_b.get("h2", "")).startswith("¿Qué es la salud pélvica"):
+                _b["h2"] = "¿Qué es la salud pélvica y urogenital?"
+                _b["wa_btn"] = _p.get("wa", "Hola, me gustaría reservar una visita.")
