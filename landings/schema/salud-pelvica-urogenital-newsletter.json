@@ -1,0 +1,423 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": [
+        "MedicalClinic",
+        "MedicalBusiness"
+      ],
+      "@id": "https://www.walambcn.com/#clinica",
+      "name": "WA LAM",
+      "alternateName": "Wa Lam · Medicina integrativa",
+      "hasMap": "https://share.google/ND7AyHqhaIKZufsCF",
+      "url": "https://www.walambcn.com",
+      "telephone": "+34675716409",
+      "email": "contacto@walambcn.com",
+      "image": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/medicina-integrativa-barcelona.png",
+      "priceRange": "€€",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Carrer del Bisbe Sivilla, 44, local",
+        "postalCode": "08022",
+        "addressLocality": "Barcelona",
+        "addressRegion": "Cataluña",
+        "addressCountry": "ES"
+      },
+      "openingHours": [
+        "Mo-Fr 09:00-21:00"
+      ],
+      "founder": {
+        "@type": "Person",
+        "name": "Rosa María Rodríguez Valls",
+        "url": "https://www.walambcn.com/curriculum",
+        "subjectOf": [
+          {
+            "@type": "NewsArticle",
+            "publisher": {
+              "@type": "Organization",
+              "name": "La Vanguardia"
+            },
+            "url": "https://www.lavanguardia.com/empresas-de-vanguardia/historias-de-exito/20261004/11647353/salud-proceso-fijo-forma-conectar-sintomas-historia-clinica-estilo-vida.html",
+            "datePublished": "2026-10-04"
+          },
+          {
+            "@type": "NewsArticle",
+            "publisher": {
+              "@type": "Organization",
+              "name": "Catalunya Digital"
+            },
+            "url": "https://catalunyadigital.es/wa-lam/",
+            "datePublished": "2026-10-04"
+          }
+        ]
+      },
+      "foundingDate": "2004",
+      "areaServed": [
+        {
+          "@type": "Place",
+          "name": "Sarrià, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Sant Gervasi–Galvany, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Sant Gervasi–la Bonanova, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "les Tres Torres, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "el Putxet i el Farró, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Vallvidrera, el Tibidabo i les Planes, Barcelona"
+        },
+        {
+          "@type": "City",
+          "name": "Barcelona"
+        }
+      ],
+      "medicalSpecialty": [
+        "Physiotherapy",
+        "Musculoskeletal"
+      ],
+      "availableService": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Programas RE:TRACE",
+          "url": "https://www.walambcn.com/metodo-integrativo-sarri%C3%A0-sant-gervasi-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Osteopatía",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/osteopatia-sarria-sant-gervasi"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Osteopatía visceral",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/osteopatia-visceral-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Osteopatía craneosacral",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/osteopatia-craneosacral-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Manipulación neural y neurovisceral",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/manipulaciones-neuroviscerales"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Pérdida de peso",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/perdida-de-peso"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Dejar de fumar con acupuntura",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/acupuntura-dejar-de-fumar"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Acupuntura y medicina tradicional china",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/acupuntura-medicina-tradicional-china"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "PNIE",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/pni-pnie-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Nutrición y salud intestinal",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/nutricion-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Drenaje linfático manual",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/drenaje-linfatico-manual"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Drenaje linfático en el embarazo",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/drenaje-linfatico-embarazo"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Drenaje linfático manual postoperatorio",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/drenaje-linfatico-postoperatorio"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Drenaje linfático para linfedema",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/drenaje-linfatico-linfedema"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Masaje terapéutico",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/masaje-terapeutico"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Reflexología podal",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/reflexologia-podal"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Yoga terapéutico",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/yoga-terapeutico"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Qigong (chi kung)",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/qigong-chi-kung"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Fascia y liberación miofascial",
+          "url": "https://www.walambcn.com/osteopatia-fascia-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Osteopatía y trauma",
+          "url": "https://www.walambcn.com/osteopatia-trauma"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Osteopatía en bebés y niños",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/osteopatia-bebes-ninos"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Clases de estiramientos",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/clases-de-estiramientos"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Reiki",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/reiki"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Nervio vago y teoría polivagal",
+          "url": "https://www.walambcn.com/osteopatia-nervio-vago-teoria-polivagal"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Mindfulness",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/mindfulness"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Fisioterapia",
+          "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/fisioterapia"
+        }
+      ],
+      "sameAs": [
+        "https://share.google/ND7AyHqhaIKZufsCF",
+        "https://www.instagram.com/walam_bcn/"
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.walambcn.com/salud-pelvica-urogenital-newsletter#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Inicio",
+          "item": "https://www.walambcn.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "¿En qué le puedo ayudar?",
+          "item": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Salud pélvica y urogenital (newsletter)",
+          "item": "https://www.walambcn.com/salud-pelvica-urogenital-newsletter"
+        }
+      ]
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.walambcn.com/salud-pelvica-urogenital-newsletter#webpage",
+      "url": "https://www.walambcn.com/salud-pelvica-urogenital-newsletter",
+      "name": "Salud pélvica y urogenital | WA LAM",
+      "description": "Salud pélvica y urogenital: cómo funciona la pelvis, el suelo pélvico y los órganos urogenitales, y los temas que se tratan en el curso de salud pélvica y manipulaciones urogenitales.",
+      "inLanguage": "es-ES",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "WA LAM",
+        "url": "https://www.walambcn.com"
+      },
+      "breadcrumb": {
+        "@id": "https://www.walambcn.com/salud-pelvica-urogenital-newsletter#breadcrumb"
+      },
+      "publisher": {
+        "@id": "https://www.walambcn.com/#clinica"
+      },
+      "lastReviewed": "2026-11-18",
+      "dateModified": "2026-11-18",
+      "keywords": "salud pélvica Barcelona, suelo pélvico Barcelona, osteopatía suelo pélvico Barcelona, salud pélvica mujer Barcelona, osteopatía urogenital, suelo pélvico Sant Gervasi, valoración suelo pélvico",
+      "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/salud-pelvica-urogenital-newsletter.png",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".quick p",
+          "h1"
+        ]
+      },
+      "audience": {
+        "@type": "Patient"
+      },
+      "reviewedBy": {
+        "@type": "Person",
+        "name": "Rosa María Rodríguez Valls",
+        "jobTitle": "Osteópata D.O. y máster en medicina integrativa",
+        "worksFor": {
+          "@id": "https://www.walambcn.com/#clinica"
+        }
+      },
+      "about": {
+        "@type": "MedicalCondition",
+        "name": "Salud pélvica femenina",
+        "possibleTreatment": []
+      },
+      "citation": [
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Osteopathic manipulative treatment for low back and pelvic girdle pain during and after pregnancy: A systematic review and meta-analysis",
+          "url": "https://doi.org/10.1016/j.jbmt.2017.05.014",
+          "sameAs": "https://doi.org/10.1016/j.jbmt.2017.05.014"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Pelvic floor muscle training versus no treatment, or inactive control treatments, for urinary incontinence in women",
+          "url": "https://doi.org/10.1002/14651858.CD005654.pub4",
+          "sameAs": "https://doi.org/10.1002/14651858.CD005654.pub4"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Osteopathic manipulative treatment (OMT) for lower urinary tract symptoms (LUTS) in women",
+          "url": "https://doi.org/10.1016/j.jbmt.2012.05.001",
+          "sameAs": "https://doi.org/10.1016/j.jbmt.2012.05.001"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Osteopathy for Endometriosis and Chronic Pelvic Pain – a Pilot Study",
+          "url": "https://doi.org/10.1055/s-0042-111010",
+          "sameAs": "https://doi.org/10.1055/s-0042-111010"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Intérêt clinique du traitement ostéopathique chez les patientes ayant une endométriose colorectale : classification fondée sur les symptômes et la qualité de vie",
+          "url": "https://doi.org/10.1016/j.gofs.2017.07.006",
+          "sameAs": "https://doi.org/10.1016/j.gofs.2017.07.006"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.walambcn.com/salud-pelvica-urogenital-newsletter#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿El abordaje es interno?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. En WA LAM el trabajo es siempre externo: se valora y se trata a través del abdomen, la pelvis, el sacro, el cóccix, la columna y las piernas."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Por qué me valoran la espalda, el hígado o los pies si el problema está en la pelvis?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Porque la pelvis forma parte de una cadena. El hígado y el riñón izquierdo influyen en su drenaje, la columna en su inervación y los pies y las piernas en el equilibrio de sus presiones. Es ilusorio tratar la pelvis solo en la pelvis."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿En qué momento del ciclo es mejor pedir cita?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "La semana siguiente a la regla, cuando la pelvis está menos congestionada y los tejidos responden mejor. En la endometriosis se prefiere la mitad del ciclo."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Duele?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No debería. Uno de los principios es no provocar nunca dolor: el trabajo es suave y puede notarse alguna tirantez o molestia leve, que siempre puede comentar para adaptar la sesión."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuántas sesiones suelen hacer falta?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Depende del motivo. En los trastornos menstruales y en el acompañamiento de la fertilidad se suelen proponer dos o tres sesiones separadas por un ciclo. En la neuralgia del pudendo suelen ser necesarias más sesiones de lo habitual."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Puedo venir si estoy embarazada?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. El embarazo no es una contraindicación, pero exige un trabajo muy suave y sesiones cortas. Se suelen proponer revisiones en momentos clave, hacia las semanas 12-14, 20, 28 y 32, y una sesión de preparación tres o cuatro semanas antes del parto."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuándo puedo venir después del parto?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Lo ideal es esperar a que el útero recupere su tamaño, unas 6 a 8 semanas, o a la vuelta de la regla. Un dolor intenso de cóccix o de pubis, una lumbalgia incapacitante o una ciática justifican una consulta antes."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Llevo un DIU, ¿es un problema?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Llevar un dispositivo intrauterino no impide la valoración ni el tratamiento osteopático externo."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Tengo que hacer ejercicios de suelo pélvico?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí: los ejercicios guiados por una fisioterapeuta o una matrona son muy recomendables, sobre todo después de un parto, y dan mejores resultados cuando la pelvis ha recuperado su movilidad."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Una cicatriz antigua puede influir en mis molestias pélvicas?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Puede. Cualquier cirugía del abdomen o la pelvis, como una apendicectomía o una cesárea, y también infecciones antiguas sin cicatriz visible, pueden dejar adherencias que limitan la movilidad de los órganos."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Necesito un diagnóstico médico antes?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Es recomendable, sobre todo si las molestias son recientes o intensas, o si hay fiebre, sangrado o sangre en la orina. La osteopatía se ocupa de los trastornos funcionales y trabaja en coordinación con su médico."
+          }
+        }
+      ]
+    }
+  ]
+}

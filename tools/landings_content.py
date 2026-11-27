@@ -3424,3 +3424,21 @@ for _p in PAGES:
     if _p["slug"] == "suelo-pelvico-dolor-pelvico" and not any(b.get("_id") == "salud-pelvica-masculina" for b in _p["blocks"]):
         _k = next(i for i, b in enumerate(_p["blocks"]) if b.get("h2") == "¿Cómo cambia la pelvis a lo largo de la vida genital de la mujer?")
         _p["blocks"].insert(_k + 1, dict(_HOMBRE_HUB))
+
+# Rosa (27 nov 2026): duplicado del hub para la newsletter (sin visitas, fases, «¿Se reconoce…?», longevidad ni botones de reservar)
+_NL = _cp.deepcopy([x for x in PAGES if x["slug"] == "suelo-pelvico-dolor-pelvico"][0])
+_NL.update({"slug": "salud-pelvica-urogenital-newsletter", "newsletter": True, "no_quick": True, "related": [],
+            "nav": "Salud pélvica y urogenital (newsletter)", "h1": "Salud pélvica y urogenital", "sub": "",
+            "title": "Salud pélvica y urogenital | WA LAM",
+            "card": "Versión para la newsletter de la página de salud pélvica y urogenital, con los temas que se tratan en el curso. Sin visitas, fases ni botones de reservar."})
+_NL_OUT = ("¿Qué busca el tratamiento osteopático y cómo se organiza?", "Cómo es la primera visita", "La segunda visita",
+           "¿Cuáles son las tres fases del tratamiento osteopático?")
+_NL["blocks"] = [b for b in _NL["blocks"] if b.get("h2") not in _NL_OUT and b.get("type") not in ("mirror", "visit", "phases")]
+for _b in _NL["blocks"]:
+    _b.pop("wa_btn", None)
+    if _b.get("h2") == "¿Cuáles son los principales motivos de consulta?":
+        _b["h2"] = "¿Cuáles son los temas que se tratan en el curso?"
+        _b["_id"] = "temas-del-curso"
+PAGES.append(_NL)
+_NOPRICE.add(_NL["slug"])
+_NL["faq"] = [q for q in _NL.get("faq", []) if not q[0].startswith("¿Cómo pido cita")]

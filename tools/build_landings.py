@@ -448,7 +448,7 @@ def head(p):
     ld = schema(p)
     can = canon(p["slug"]) if p["slug"] != "index" else SITE["base"]
     og = SITE["og_base"] + p["slug"] + ".png"
-    robots = "noindex,nofollow" if p["slug"] in ("index", "guia-seo") else "index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+    robots = "noindex,nofollow" if p["slug"] in ("index", "guia-seo") else "noindex,follow" if p.get("newsletter") else "index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1"
     return f"""<!DOCTYPE html><html lang="{"ca-ES" if LANG == "ca" else "es-ES"}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{html.escape(title)}</title>
 <meta name="description" content="{html.escape(desc)}">
@@ -779,8 +779,8 @@ def press(p=None):
 
 def contact(p):
     return newsletter() + f"""<section class="cont" id="contacto"><div class="wrap">
-<h2>{fmt(p.get("cta", {}).get("h2") or tr("Estamos aquí para orientarte"))}</h2>
-<p>{fmt(p.get("cta", {}).get("p") or tr("Cuéntanos brevemente qué te ocurre o qué te interesa y te diremos con sinceridad si podemos ayudarte y con qué profesional."))}</p>
+{"" if p.get("newsletter") else f'<h2>{fmt(p.get("cta", {}).get("h2") or tr("Estamos aquí para orientarte"))}</h2>'}
+{"" if p.get("newsletter") else f'<p>{fmt(p.get("cta", {}).get("p") or tr("Cuéntanos brevemente qué te ocurre o qué te interesa y te diremos con sinceridad si podemos ayudarte y con qué profesional."))}</p>'}
 <div class="datos"><span>📍 {fmt(SITE['address_short'])}</span><span>📧 {SITE['email']}</span><span>🕘 {tr(SITE['hours'])}</span></div>
 <div class="btn-row cbtns"><a class="btn btn-tq" href="{wa(p['wa'])}" target="_blank" rel="noopener">{tr("Reservar")}</a><a class="btn btn-map" href="{DIR_URL}" target="_blank" rel="noopener">📍 {tr("Cómo llegar")}</a></div>
 <p class="gmb"><a href="{MAPS_URL}" target="_blank" rel="noopener">{tr("Ver WA LAM en Google Maps y sus opiniones")} →</a></p>
@@ -1172,7 +1172,8 @@ def page(p):
     parts += [quick(p)] + seq
     if p["slug"] == DIR_HUB or p["group"] == "home":
         parts.append(directory(p))
-    parts.append(lonband(p))
+    if not p.get("newsletter"):
+        parts.append(lonband(p))
     parts.append(contact(p))
     parts.append(JS + "</body></html>")
     return "\n".join(x for x in parts if x)
@@ -1367,7 +1368,7 @@ def main():
         _h = re.sub(r">\s*(?:Escr[íi]b[ae]nos|Escriviu-nos|Escriu-nos|Reservar) per? WhatsApp\s*<", ">" + ("Reservar" if True else "") + "<", _h)
         _h = re.sub(r">\s*Escr[íi]b[ae]nos por WhatsApp\s*<", ">Reservar<", _h)
         import landings_content as _LC2
-        if p["slug"] == "suelo-pelvico-dolor-pelvico":
+        if p["slug"] in ("suelo-pelvico-dolor-pelvico", "salud-pelvica-urogenital-newsletter"):
             _BOLDMAP = {"cistalgias": "cistitis-repeticion-vejiga-dolorosa", "cistalgia": "cistitis-repeticion-vejiga-dolorosa", "cistàlgies": "cistitis-repeticion-vejiga-dolorosa", "cistàlgia": "cistitis-repeticion-vejiga-dolorosa",
                         "cistitis": "cistitis-repeticion-vejiga-dolorosa", "endometriosis": "dolor-menstrual-endometriosis", "endometriosi": "dolor-menstrual-endometriosis",
                         "incontinencia": "incontinencia-urinaria-esfuerzo", "incontinència": "incontinencia-urinaria-esfuerzo", "prolapso": "prolapso-organos-pelvicos", "prolapse": "prolapso-organos-pelvicos", "ptosis": "prolapso-organos-pelvicos", "ptosi": "prolapso-organos-pelvicos",
@@ -1383,7 +1384,12 @@ def main():
                 tgt = _BOLDMAP.get(k)
                 return f'<b><a class="inl" href="{url(tgt)}">{t}</a></b>' if tgt and tgt != p["slug"] else m.group(0)
             _h = re.sub(r"<b>([^<>]{3,40})</b>", _bl, _h)
-        if p["slug"] in _LC2._NOPRICE:
+        if p.get("newsletter"):  # Rosa (27 nov 2026): versión para la newsletter, sin botones de reservar
+            _h = re.sub(r'<div class="btn-row">\s*<a class="btn btn-tq"[^>]*>\s*Reservar\s*</a>\s*</div>', "", _h)
+            _h = re.sub(r'<a class="btn btn-tq"[^>]*>\s*Reservar\s*</a>', "", _h)
+            _h = re.sub(r'<a [^>]*class="[^"]*\bbtn\b[^"]*"[^>]*href="https://wa\.me[^"]*"[^>]*>[^<]*</a>', "", _h)
+            _h = re.sub(r'<a [^>]*href="https://wa\.me[^"]*"[^>]*class="[^"]*\bbtn\b[^"]*"[^>]*>[^<]*</a>', "", _h)
+        if p["slug"] in _LC2._NOPRICE or p.get("newsletter"):
             _h = re.sub(r"\s*\((?:[^()<>]{0,40}?)\d+\s?€(?:[^()<>]{0,40}?)\)", "", _h)
         (out / f"{p['slug']}.html").write_text(_h, encoding="utf-8")
     if LANG == "es":
@@ -1400,7 +1406,7 @@ def main():
                 S = SEO[p["slug"]]; w.writerow(["/" + p["slug"], S["title"], fix_bonos(S["desc"]), plain(p["h1"]), S["kw"], "; ".join(S["kws"]), S["ca"]])
     rows = []
     import landings_content as _LC
-    _pri = ["suelo-pelvico-dolor-pelvico"] + [x for x in _LC.PELVIC_OSTEO if x != "suelo-pelvico-dolor-pelvico"] + \
+    _pri = ["salud-pelvica-urogenital-newsletter", "suelo-pelvico-dolor-pelvico"] + [x for x in _LC.PELVIC_OSTEO if x != "suelo-pelvico-dolor-pelvico"] + \
            [x for x in _LC.OLIVIER_PAGES if x not in _LC.PELVIC_OSTEO and x != "suelo-pelvico-dolor-pelvico"]
     _pri = [x for x in dict.fromkeys(_pri) if x in BYSLUG]
     _card = lambda x: (f'<a class="card" href="{x["slug"]}.html" target="_self"><span class="k">/{x["slug"]}</span><h3>{fmt(x["nav"])}</h3><p>{fmt(x["card"])}</p></a>')

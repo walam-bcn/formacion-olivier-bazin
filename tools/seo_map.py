@@ -515,3 +515,11 @@ SEO["salud-mujer-menopausia"].update({"kw": "menopausia Barcelona", "title": "Me
 SEO["salud-mujer-menopausia"]["kws"] = ["perimenopausia Barcelona", "sofocos tratamiento natural", "menopausia acupuntura", "menopausia ejercicio de fuerza", "menopausia tratamiento integrativo Barcelona"]
 
 SEO["suelo-pelvico-dolor-pelvico"].update({"quick": 'La **salud pélvica y urogenital** es el buen funcionamiento de los órganos de la pelvis de la mujer (vejiga, útero, trompas, ovarios y recto) y del **suelo pélvico** que los sostiene.', "q_title": "Salud pélvica y urogenital"})
+
+# Rosa (27 nov 2026): duplicado del hub de salud pélvica para la newsletter (noindex)
+import copy as _copy
+SEO["salud-pelvica-urogenital-newsletter"] = _copy.deepcopy(SEO["suelo-pelvico-dolor-pelvico"])
+SEO["salud-pelvica-urogenital-newsletter"].update({"title": "Salud pélvica y urogenital | WA LAM",
+    "desc": "Salud pélvica y urogenital: cómo funciona la pelvis, el suelo pélvico y los órganos urogenitales, y los temas que se tratan en el curso de salud pélvica y manipulaciones urogenitales."})
+URLS["salud-pelvica-urogenital-newsletter"] = "salud-pelvica-urogenital-newsletter"
+CA_SLUG["salud-pelvica-urogenital-newsletter"] = "salut-pelviana-urogenital-newsletter"
