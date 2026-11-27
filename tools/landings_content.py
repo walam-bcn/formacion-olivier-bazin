@@ -3065,3 +3065,31 @@ PELVIC_OSTEO = PELVIC_LIGHT + ["suelo-pelvico-dolor-pelvico", "neuralgia-pudendo
 for _p in PAGES:
     if _p["slug"] in PELVIC_OSTEO:
         _p["blocks"] = [b for b in _p["blocks"] if b.get("h2") != "Mi forma de trabajar"]
+
+VISIT_PEL = {"type": "visit", "eyebrow": "Primera visita", "h2": "Cómo es la primera visita", "_id": "primera-visita",
+             "intro": "Antes de tratar, hay que entender qué le pasa. La primera visita dura unos 60 minutos y, si procede, el tratamiento se inicia en esa misma sesión. El abordaje es siempre externo.",
+             "items": [
+                 {"i": "historia", "h": "Historia clínica", "p": "Una anamnesis detallada: cómo empezaron las molestias, su relación con el ciclo, los embarazos y partos, las cirugías e infecciones previas, y las pruebas e informes que aporte."},
+                 {"i": "postura", "h": "Observación postural", "p": "La postura de la pelvis, la columna y la respiración, en reposo y en movimiento."},
+                 {"i": "movilidad", "h": "Movilidad de la pelvis", "p": "Movilidad del sacro, el cóccix, las caderas, la zona lumbar y el abdomen."},
+                 {"i": "palpacion", "h": "Palpación y escucha manual", "p": "Palpación externa del abdomen y la pelvis para localizar las zonas de tensión y de restricción de movilidad de los órganos y sus ligamentos."},
+                 {"i": "dialogo", "h": "Explicación y plan", "p": "Le explicamos lo que hemos encontrado, el tratamiento que proponemos y lo que puede esperar."}],
+             "note": "Si detectamos alguna señal que requiera valoración médica o ginecológica, se lo indicamos antes de iniciar el tratamiento."}
+PHASES_PEL = {"type": "phases", "eyebrow": "Tratamiento", "h2": "Las tres fases del tratamiento", "_id": "fases-del-tratamiento",
+              "intro": "El tratamiento es suave y progresivo. La duración de cada fase depende del caso, del tiempo de evolución y de la respuesta de cada mujer.",
+              "items": [
+                  {"h": "Fase de alivio", "paras": ["El objetivo es reducir las molestias y devolver la movilidad a las zonas más restringidas. Las primeras sesiones suelen estar más próximas entre sí, idealmente la semana siguiente a la regla."]},
+                  {"h": "Fase de recuperación", "paras": ["Con las molestias más controladas, las sesiones se espacian. Se trabajan las relaciones de la pelvis con el abdomen, la columna y el resto del cuerpo, y se incorporan pautas de hábitos y de movimiento."]},
+                  {"h": "Fase de mantenimiento", "paras": ["El objetivo es mantener lo conseguido y prevenir recaídas, sobre todo en las etapas de cambio hormonal: embarazo, posparto y menopausia. Si lo necesita, se programan revisiones espaciadas."]}]}
+for _p in PAGES:
+    if _p["slug"] not in PELVIC_OSTEO or _p["slug"] == "suelo-pelvico-dolor-pelvico":
+        continue
+    _bl = _p["blocks"]
+    if any(b.get("type") in ("visit", "phases") for b in _bl):
+        continue
+    _k = next((k for k, b in enumerate(_bl) if b.get("type") == "chips"), None)
+    if _k is None:
+        _k = next((k for k, b in enumerate(_bl) if _norm(b.get("h2", "")).startswith(("que se busca", "como se trata", "como se trabaja", "que busca"))), None)
+    if _k is None:
+        _k = next((k for k, b in enumerate(_bl) if b.get("type") == "evidence"), len(_bl)) - 1
+    _bl[_k + 1:_k + 1] = [dict(VISIT_PEL), dict(PHASES_PEL)]
