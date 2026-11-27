@@ -860,7 +860,7 @@ PAGES.append({
               "Gestión del estrés durante el proceso", "Coordinación con tu ginecóloga o clínica"],
     "wa": "Hola, me gustaría información sobre el acompañamiento en fertilidad.",
     "blocks": [
-        {"type": "mirror", "eyebrow": "¿Te reconoces?", "h2": "Cuando el proceso pesa más de lo que esperabas",
+        {"type": "mirror", "eyebrow": "¿Te reconoces?", "h2": "Cuando el proceso pesa más de lo que esperaba",
          "qs": ["¿Llevas tiempo buscando un embarazo y sientes que todo gira en torno a ello?",
                 "¿Estás en un tratamiento de reproducción asistida y quieres cuidarte durante el proceso?",
                 "¿Te cuesta gestionar la espera, la incertidumbre y el desgaste emocional?",
@@ -3128,3 +3128,31 @@ for _p in PAGES:
     else:
         _bl[_k] = dict(VISIT_OSTEO)
     _bl.insert(_k + 1, dict(VISIT2_OSTEO))
+
+# Rosa (27 nov 2026): todas las páginas de salud pélvica del curso de Olivier, con el mismo abordaje y sin precios
+_CHIPS_PEL = {"type": "chips", "eyebrow": "Nuestro abordaje", "h2": "¿Cómo lo abordamos en WA LAM?",
+              "intro": "En WA LAM, la salud pélvica se aborda con osteopatía y fisioterapia.",
+              "items": [("Osteopatía", "osteopatia-sarria-sant-gervasi"), ("Osteopatía visceral", "osteopatia-visceral-barcelona"),
+                        ("Osteopatía craneosacral", "osteopatia-craneosacral-barcelona"), ("Fisioterapia", "fisioterapia-sarria-sant-gervasi")]}
+for _p in PAGES:
+    if _p["slug"] not in PELVIC_OSTEO or _p["slug"] == "suelo-pelvico-dolor-pelvico":
+        continue
+    _bl = _p["blocks"]
+    _bl[:] = [b for b in _bl if b.get("type") not in ("pro",)]
+    if not any(b.get("type") == "chips" and b.get("h2") == "¿Cómo lo abordamos en WA LAM?" for b in _bl):
+        _k = next((k for k, b in enumerate(_bl) if b.get("type") == "visit"), None)
+        if _k is None:
+            _k = next((k for k, b in enumerate(_bl) if b.get("type") == "evidence"), len(_bl))
+        _bl.insert(_k, dict(_CHIPS_PEL))
+
+# Rosa (27 nov 2026): en las páginas de salud pélvica, el bloque de la formación va al final, antes de la evidencia
+for _p in PAGES:
+    if _p["slug"] not in PELVIC_OSTEO:
+        continue
+    _bl = _p["blocks"]
+    _fb = [b for b in _bl if b.get("eyebrow") == "Para profesionales"]
+    if not _fb:
+        continue
+    _bl[:] = [b for b in _bl if b.get("eyebrow") != "Para profesionales"]
+    _k = next((k for k, b in enumerate(_bl) if b.get("type") == "evidence"), len(_bl))
+    _bl[_k:_k] = _fb
