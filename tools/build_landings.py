@@ -397,7 +397,7 @@ h1,h2,h3,h4,.btn,.btn-tq,.faq summary,b,strong,.explain .txt b,.card h3,.step h3
 .lg h3{font-size:18px!important;font-weight:700!important;color:var(--pet);padding-top:14px;border-top:2px solid var(--tq);margin-bottom:10px}
 .lg ul{list-style:none}.lg li{padding:4px 0}.lg a{color:var(--pet);text-decoration:none}.lg a:hover{color:#0a9a9c;text-decoration:underline}
 .lgall{margin-top:40px;text-align:center}
-.press{padding:44px 0!important;background:#f6f1ea}.prbox{max-width:860px;margin:0 auto 22px;text-align:center;background:#fff;border:1px solid #e3d6c3;border-radius:14px;padding:30px 28px}.prk{display:block;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#0f8f8f;font-weight:600}.prm{display:block;font-family:Georgia,"Times New Roman",serif;font-size:34px;color:#1D3F40;margin:6px 0 10px}.prh{text-align:center!important;font-weight:600;font-size:19px!important;color:#1D3F40;margin:0 0 8px!important}.prp{text-align:center!important;max-width:680px;margin:0 auto 18px!important}.prd{display:block;margin-top:12px;font-size:13px;opacity:.7}.cont .gmb{margin:-8px auto 22px!important}.cont .gmb a{color:#fff;opacity:.85;text-decoration:underline}
+.relchips{margin:34px 0 0}.relchips .chips{display:flex;flex-wrap:wrap;gap:10px;justify-content:center}.press{padding:44px 0!important;background:#f6f1ea}.prgrid{display:grid;grid-template-columns:1fr 1fr;gap:16px;max-width:980px;margin:0 auto}.prgrid.one{grid-template-columns:1fr;max-width:620px}.prbox{background:#fff;border:1px solid #e3d6c3;border-radius:12px;padding:18px 20px;text-align:left}.prm{display:block;font-family:Georgia,"Times New Roman",serif;font-size:22px;color:#1D3F40;margin:0 0 6px}.prh{font-weight:600;font-size:15px!important;color:#1D3F40;margin:0 0 6px!important;text-align:left!important}.prp{font-size:14px!important;line-height:1.5;margin:0 0 12px!important;text-align:left!important}.prbtn{display:inline-block;background:#2ec4c4;color:#fff!important;font-size:13px;font-weight:600;padding:7px 14px;border-radius:999px;text-decoration:none}.prbtn:hover{background:#0f8f8f}.prd{display:inline-block;margin-left:10px;font-size:12px;opacity:.7}@media(max-width:700px){.prgrid{grid-template-columns:1fr}}.cont .gmb{margin:-8px auto 22px!important}.cont .gmb a{color:#fff;opacity:.85;text-decoration:underline}
 .card,.q,.step,.evi{border-top:2px solid var(--tq)!important}
 .card h3,.step h3{font-weight:400!important}
 .mclose{font-weight:400!important}
@@ -764,15 +764,16 @@ def press(p=None):
     for x in PRESS:
         if x.get("olivier") and not oli:
             continue
-        out.append(f'<div class="prbox"><span class="prk">{tr("En los medios")}</span><span class="prm">{x["medio"]}</span>'
+        out.append(f'<div class="prbox"><span class="prm">{x["medio"]}</span>'
                    f'<p class="prh">{tr(x["h"])}</p><p class="prp">{tr(x["p"])}</p>'
-                   f'<a class="btn btn-tq" href="{x["url"]}" target="_blank" rel="noopener">{tr("Leer la entrevista")} →</a>'
+                   f'<a class="prbtn" href="{x["url"]}" target="_blank" rel="noopener">{tr("Leer la entrevista")} →</a>'
                    f'<span class="prd">{tr(x["fecha"])}</span></div>')
-    return '<section class="press"><div class="wrap">' + "".join(out) + "</div></section>"
+    return ('<section class="press" id="en-los-medios"><div class="wrap">' + sec_head(tr("En los medios"), tr("Entrevistas en La Vanguardia"))
+            + f'<div class="prgrid{" one" if len(out) == 1 else ""}">' + "".join(out) + "</div></div></section>")
 
 
 def contact(p):
-    return press(p) + newsletter() + f"""<section class="cont" id="contacto"><div class="wrap">
+    return newsletter() + f"""<section class="cont" id="contacto"><div class="wrap">
 <h2>{fmt(p.get("cta", {}).get("h2") or tr("Estamos aquí para orientarte"))}</h2>
 <p>{fmt(p.get("cta", {}).get("p") or tr("Cuéntanos brevemente qué te ocurre o qué te interesa y te diremos con sinceridad si podemos ayudarte y con qué profesional."))}</p>
 <div class="datos"><span>📍 {fmt(SITE['address_short'])}</span><span>📧 {SITE['email']}</span><span>🕘 {tr(SITE['hours'])}</span></div>
@@ -1135,6 +1136,9 @@ def page(p):
         body.append(out)
     if p["group"] in ("motivo", "servicio"):
         pass
+    if p["group"] != "home":
+        _ev = next((k for k, x in enumerate(body) if 'class="evid' in x[:400] or 'class="evidence' in x[:400]), len(body))
+        body.insert(_ev, press(p))
     if p.get("faq"):
         body.append(faq(p["faq"], p.get("faq_title"))); items.append(("preguntas-frecuentes", tr("Preguntas frecuentes")))
     seq = body + ([related(p["related"])] if p.get("related") else [])
@@ -1145,6 +1149,10 @@ def page(p):
     seq = [re.sub(r'<section ', _bg, x) for x in seq]
     if p["group"] != "home":
         seq = add_vago(p, seq)
+    _mine = "".join(_chips(sl, p["slug"]) for n, sl in DIR_AREAS if p["slug"] in sl) if p["slug"] != DIR_HUB else ""
+    if _mine and seq:
+        k = seq[-1].rfind("</div></section>")
+        seq[-1] = seq[-1][:k] + f'<div class="relchips">{_mine}</div>' + seq[-1][k:]
     if p["group"] in ("motivo", "servicio") and seq:
         k = seq[-1].rfind("</div></section>")
         seq[-1] = seq[-1][:k] + f'<div class="note"><p>{tr(NOTE_ES)}</p></div>' + seq[-1][k:]
@@ -1152,7 +1160,8 @@ def page(p):
         toc_items.append(("preguntas-frecuentes", tr("Preguntas frecuentes")))
     # sin tabla de contenido en las landings (petición de Rosa, 25 nov 2026)
     parts += [quick(p)] + seq
-    parts.append(directory(p))
+    if p["slug"] == DIR_HUB or p["group"] == "home":
+        parts.append(directory(p))
     parts.append(lonband(p))
     parts.append(contact(p))
     parts.append(JS + "</body></html>")

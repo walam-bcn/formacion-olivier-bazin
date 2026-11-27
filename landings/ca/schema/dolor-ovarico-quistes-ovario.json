@@ -233,7 +233,7 @@
         {
           "@type": "ListItem",
           "position": 3,
-          "name": "Dolor d'ovari",
+          "name": "Dolor d'ovaris",
           "item": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/dolor-ovari-quists-ovari"
         }
       ]
@@ -242,7 +242,7 @@
       "@type": "MedicalWebPage",
       "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/dolor-ovari-quists-ovari#webpage",
       "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/dolor-ovari-quists-ovari",
-      "name": "Dolor d'ovari i quists d'ovari a Barcelona | WA LAM",
+      "name": "Dolor d'ovaris i quists d'ovari a Barcelona | WA LAM",
       "description": "Per què fa mal l'ovari, com el seu dolor es refereix a l'engonal, la cuixa, la natja o la zona lumbar, la seva relació amb el nervi vague, el còlon i el ronyó esquerre, quan un quist requereix valoració mèdica i com es valora amb osteopatia externa a Sarrià–Sant Gervasi, Barcelona.",
       "inLanguage": "ca-ES",
       "isPartOf": {
@@ -258,7 +258,7 @@
       },
       "lastReviewed": "2026-11-18",
       "dateModified": "2026-11-18",
-      "keywords": "dolor de ovario Barcelona, dolor de ovario que se irradia a la pierna, dolor de ovario izquierdo, dolor de ovario e ingle, quiste de ovario dolor, dolor de ovario y náuseas",
+      "keywords": "dolor de ovarios Barcelona, dolor de ovarios que se irradia a la pierna, dolor de ovarios izquierdo, dolor de ovarios e ingle, quiste de ovario dolor, dolor de ovarios y náuseas",
       "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/dolor-ovarico-quistes-ovario.png",
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -280,7 +280,7 @@
       },
       "about": {
         "@type": "MedicalCondition",
-        "name": "Dolor ovárico",
+        "name": "Dolor d'ovaris",
         "possibleTreatment": []
       },
       "citation": [
@@ -312,10 +312,10 @@
         },
         {
           "@type": "Question",
-          "name": "Per què el dolor d'ovari em dona nàusees?",
+          "name": "Per què el dolor d'ovaris em dona nàusees?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Segons el llibre, l'ovari i la trompa reben fibres del nervi vague, que també regula la digestió."
+            "text": "Segons Olivier Bazin, l'ovari i la trompa reben fibres del nervi vague, que també regula la digestió."
           }
         },
         {

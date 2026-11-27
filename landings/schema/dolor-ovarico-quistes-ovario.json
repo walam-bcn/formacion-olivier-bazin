@@ -233,7 +233,7 @@
         {
           "@type": "ListItem",
           "position": 3,
-          "name": "Dolor de ovario",
+          "name": "Dolor de ovarios",
           "item": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/dolor-ovarico-quistes-ovario"
         }
       ]
@@ -242,7 +242,7 @@
       "@type": "MedicalWebPage",
       "@id": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/dolor-ovarico-quistes-ovario#webpage",
       "url": "https://www.walambcn.com/tratamientos-sarri%C3%A0-sant-gervasi-barcelona/dolor-ovarico-quistes-ovario",
-      "name": "Dolor de ovario y quistes de ovario en Barcelona | WA LAM",
+      "name": "Dolor de ovarios y quistes de ovario en Barcelona | WA LAM",
       "description": "Por qué duele el ovario, cómo su dolor se refiere a la ingle, el muslo, la nalga o la zona lumbar, su relación con el nervio vago, el colon y el riñón izquierdo, cuándo un quiste requiere valoración médica y cómo se valora con osteopatía externa en Sarrià–Sant Gervasi, Barcelona.",
       "inLanguage": "es-ES",
       "isPartOf": {
@@ -258,7 +258,7 @@
       },
       "lastReviewed": "2026-11-18",
       "dateModified": "2026-11-18",
-      "keywords": "dolor de ovario Barcelona, dolor de ovario que se irradia a la pierna, dolor de ovario izquierdo, dolor de ovario e ingle, quiste de ovario dolor, dolor de ovario y náuseas",
+      "keywords": "dolor de ovarios Barcelona, dolor de ovarios que se irradia a la pierna, dolor de ovarios izquierdo, dolor de ovarios e ingle, quiste de ovario dolor, dolor de ovarios y náuseas",
       "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/dolor-ovarico-quistes-ovario.png",
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -280,7 +280,7 @@
       },
       "about": {
         "@type": "MedicalCondition",
-        "name": "Dolor ovárico",
+        "name": "Dolor de ovarios",
         "possibleTreatment": []
       },
       "citation": [
@@ -312,10 +312,10 @@
         },
         {
           "@type": "Question",
-          "name": "¿Por qué el dolor de ovario me da náuseas?",
+          "name": "¿Por qué el dolor de ovarios me da náuseas?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Según el libro, el ovario y la trompa reciben fibras del nervio vago, que también regula la digestión."
+            "text": "Según Olivier Bazin, el ovario y la trompa reciben fibras del nervio vago, que también regula la digestión."
           }
         },
         {

@@ -318,7 +318,7 @@
           "name": "¿El síndrome premenstrual es «normal»?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Las pequeñas molestias antes de la regla son muy frecuentes: según Pennington, citado en el libro, el 95 % de las mujeres las tiene en algún momento de su vida. Cuando se repiten cada ciclo y alteran su vida diaria, merece la pena valorarlas."
+            "text": "Las pequeñas molestias antes de la regla son muy frecuentes: según Pennington, citado por Olivier Bazin, el 95 % de las mujeres las tiene en algún momento de su vida. Cuando se repiten cada ciclo y alteran su vida diaria, merece la pena valorarlas."
           }
         },
         {
@@ -334,7 +334,7 @@
           "name": "¿Cuántas sesiones hacen falta?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "El libro propone dos o tres sesiones, separadas por la duración de un ciclo. No es un problema que se resuelva en una sola visita."
+            "text": "Olivier Bazin propone dos o tres sesiones, separadas por la duración de un ciclo. No es un problema que se resuelva en una sola visita."
           }
         },
         {
