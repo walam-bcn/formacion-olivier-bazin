@@ -1363,6 +1363,22 @@ def main():
         _h = re.sub(r">\s*(?:Escr[íi]b[ae]nos|Escriviu-nos|Escriu-nos|Reservar) per? WhatsApp\s*<", ">" + ("Reservar" if True else "") + "<", _h)
         _h = re.sub(r">\s*Escr[íi]b[ae]nos por WhatsApp\s*<", ">Reservar<", _h)
         import landings_content as _LC2
+        if p["slug"] == "suelo-pelvico-dolor-pelvico":
+            _BOLDMAP = {"cistalgias": "cistitis-repeticion-vejiga-dolorosa", "cistalgia": "cistitis-repeticion-vejiga-dolorosa", "cistàlgies": "cistitis-repeticion-vejiga-dolorosa", "cistàlgia": "cistitis-repeticion-vejiga-dolorosa",
+                        "cistitis": "cistitis-repeticion-vejiga-dolorosa", "endometriosis": "dolor-menstrual-endometriosis", "endometriosi": "dolor-menstrual-endometriosis",
+                        "incontinencia": "incontinencia-urinaria-esfuerzo", "incontinència": "incontinencia-urinaria-esfuerzo", "prolapso": "prolapso-organos-pelvicos", "prolapse": "prolapso-organos-pelvicos", "ptosis": "prolapso-organos-pelvicos", "ptosi": "prolapso-organos-pelvicos",
+                        "dispareunia": "dispareunia-dolor-relaciones", "dispareúnia": "dispareunia-dolor-relaciones", "nervio pudendo": "neuralgia-pudendo", "nervi pudend": "neuralgia-pudendo",
+                        "coccigodinia": "dolor-coxis-coccigodinia", "coccigodínia": "dolor-coxis-coccigodinia", "vejiga hiperactiva": "vejiga-hiperactiva-urgencia", "bufeta hiperactiva": "vejiga-hiperactiva-urgencia",
+                        "congestión pélvica": "congestion-pelvica-sindrome-premenstrual", "congestió pelviana": "congestion-pelvica-sindrome-premenstrual", "síndrome premenstrual": "congestion-pelvica-sindrome-premenstrual",
+                        "salpingitis": "trompas-salpingitis", "retroversión": "retroversion-utero", "retroversió": "retroversion-utero", "síndrome de lacomme": "sindrome-lacomme-dolor-pelvis-embarazo",
+                        "ligamento redondo": "sindrome-ligamento-redondo", "lligament rodó": "sindrome-ligamento-redondo", "menopausia": "salud-mujer-menopausia", "menopausa": "salud-mujer-menopausia",
+                        "dolor menstrual": "dolor-menstrual-endometriosis", "dolor pélvico": "dolor-pelvico-barcelona", "dolor pelvià": "dolor-pelvico-barcelona", "fertilidad": "acompanamiento-fertilidad", "fertilitat": "acompanamiento-fertilidad",
+                        "posparto": "posparto-recuperacion", "postpart": "posparto-recuperacion", "ovario poliquístico": "sindrome-ovario-poliquistico", "ovari poliquístic": "sindrome-ovario-poliquistico"}
+            def _bl(m):
+                t = m.group(1); k = re.sub(r"\s+", " ", t).strip().lower()
+                tgt = _BOLDMAP.get(k)
+                return f'<b><a class="inl" href="{url(tgt)}">{t}</a></b>' if tgt and tgt != p["slug"] else m.group(0)
+            _h = re.sub(r"<b>([^<>]{3,40})</b>", _bl, _h)
         if p["slug"] in _LC2._NOPRICE:
             _h = re.sub(r"\s*\((?:[^()<>]{0,40}?)\d+\s?€(?:[^()<>]{0,40}?)\)", "", _h)
         (out / f"{p['slug']}.html").write_text(_h, encoding="utf-8")
