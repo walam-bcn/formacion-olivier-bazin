@@ -2686,7 +2686,7 @@ VISIT_MSK = {"type": "visit", "eyebrow": "Primera visita", "h2": "Cómo es la pr
                  {"i": "dialogo", "h": "Explicación y plan", "p": "Le explicamos lo que hemos encontrado, el tratamiento que proponemos y lo que puede esperar."}],
              "note": "Si detectamos alguna señal que requiera valoración médica, se lo indicamos antes de iniciar el tratamiento."}
 PHASES_MSK = {"type": "phases", "eyebrow": "Tratamiento", "h2": "Las tres fases del tratamiento", "_id": "fases-del-tratamiento",
-              "intro": "El tratamiento es conservador y progresivo. La duración de cada fase depende del caso, del tiempo de evolución y de la respuesta de cada persona.",
+              "intro": "El tratamiento es conservador y progresivo. La duración de cada fase depende del caso, del tiempo de evolución y de la respuesta de cada paciente.",
               "items": [
                   {"h": "Fase de alivio", "paras": ["El objetivo es reducir el dolor y la sensibilidad de los tejidos y recuperar el movimiento perdido. En esta fase las sesiones suelen estar más próximas entre sí.",
                                                    "Se acompaña de pautas sencillas para el día a día: cómo moverse, qué posturas evitar y cuándo aplicar calor."]},
@@ -2753,7 +2753,7 @@ OSTEO_BLOCKS = [
          {"i": "plan", "h": "Primer tratamiento y plan", "p": "Si procede, se realiza el primer tratamiento y le explicamos el plan y las pautas para casa."}],
      "note": "Si detectamos alguna señal que requiera valoración médica, se lo indicamos antes de iniciar el tratamiento."},
     {"type": "phases", "eyebrow": "Tratamiento", "h2": "Las tres fases del tratamiento", "_id": "fases-del-tratamiento",
-     "intro": "El número de sesiones y su frecuencia dependen del caso, del tiempo de evolución y de la respuesta de cada persona.",
+     "intro": "El número de sesiones y su frecuencia dependen del caso, del tiempo de evolución y de la respuesta de cada paciente.",
      "items": [
          {"h": "Fase de alivio", "paras": ["El objetivo es reducir el dolor y recuperar el movimiento perdido. Las sesiones suelen estar más próximas entre sí, porque los tejidos todavía no mantienen los cambios.",
                                           "Muchas personas notan una mejoría desde las primeras sesiones, aunque la recuperación completa requiere tiempo, según la gravedad y la duración del problema."]},
@@ -3076,7 +3076,7 @@ VISIT_PEL = {"type": "visit", "eyebrow": "Primera visita", "h2": "Cómo es la pr
                  {"i": "dialogo", "h": "Explicación y plan", "p": "Le explicamos lo que hemos encontrado, el tratamiento que proponemos y lo que puede esperar."}],
              "note": "Si detectamos alguna señal que requiera valoración médica o ginecológica, se lo indicamos antes de iniciar el tratamiento."}
 PHASES_PEL = {"type": "phases", "eyebrow": "Tratamiento", "h2": "Las tres fases del tratamiento", "_id": "fases-del-tratamiento",
-              "intro": "El tratamiento es suave y progresivo. La duración de cada fase depende del caso, del tiempo de evolución y de la respuesta de cada mujer.",
+              "intro": "El tratamiento es suave y progresivo. La duración de cada fase depende del caso, del tiempo de evolución y de la respuesta de cada paciente.",
               "items": [
                   {"h": "Fase de alivio", "paras": ["El objetivo es reducir las molestias y devolver la movilidad a las zonas más restringidas. Las primeras sesiones suelen estar más próximas entre sí, idealmente la semana siguiente a la regla."]},
                   {"h": "Fase de recuperación", "paras": ["Con las molestias más controladas, las sesiones se espacian. Se trabajan las relaciones de la pelvis con el abdomen, la columna y el resto del cuerpo, y se incorporan pautas de hábitos y de movimiento."]},
@@ -3102,7 +3102,7 @@ VISIT_OSTEO = {"type": "visit", "eyebrow": "Primera visita", "h2": "Cómo es la 
                    {"i": "postura", "h": "Análisis postural", "p": "Cómo se reparten las cargas en su cuerpo, en reposo y en movimiento."},
                    {"i": "movilidad", "h": "Examen osteopático", "p": "Valoración de la movilidad de las articulaciones, los músculos, las fascias y las vísceras relacionadas con sus molestias."},
                    {"i": "palpacion", "h": "Palpación", "p": "Palpación y escucha manual de los tejidos para localizar las zonas de tensión y de restricción."},
-                   {"i": "tratamiento", "h": "Primer tratamiento osteopático", "p": "Si procede, el tratamiento se inicia en esa misma sesión."}],
+                   {"i": "tratamiento", "h": "Primer tratamiento osteopático", "p": "El primer tratamiento osteopático se inicia en la misma sesión."}],
                "note": "Si detectamos alguna señal que requiera valoración médica, se lo indicamos antes de iniciar el tratamiento."}
 VISIT2_OSTEO = {"type": "visit", "eyebrow": "Seguimiento", "h2": "La segunda visita", "_id": "segunda-visita",
                 "items": [
@@ -3156,3 +3156,22 @@ for _p in PAGES:
     _bl[:] = [b for b in _bl if b.get("eyebrow") != "Para profesionales"]
     _k = next((k for k, b in enumerate(_bl) if b.get("type") == "evidence"), len(_bl))
     _bl[_k:_k] = _fb
+
+
+# Rosa (27 nov 2026): «¿Cómo lo abordamos?» va dentro de «¿Cómo se valora?»; sin bloque de botones aparte (musculoesquelético y salud pélvica)
+_ABORD_TXT = "En WA LAM lo abordamos con [osteopatía](osteopatia-sarria-sant-gervasi), [osteopatía visceral](osteopatia-visceral-barcelona), [osteopatía craneosacral](osteopatia-craneosacral-barcelona) y [fisioterapia](fisioterapia-sarria-sant-gervasi)."
+for _p in PAGES:
+    if _p["slug"] not in _OSTEO_SET or _p["slug"] == "suelo-pelvico-dolor-pelvico":
+        continue
+    _bl = _p["blocks"]
+    _bl[:] = [b for b in _bl if not (b.get("type") == "chips" and b.get("h2") == "¿Cómo lo abordamos en WA LAM?")]
+    _v = next((b for b in _bl if _norm(b.get("h2", "")).startswith("como se valora")), None)
+    if _v is not None:
+        _v["h2"] = "¿Cómo se valora y cómo lo abordamos?"
+        if _ABORD_TXT not in _v.get("paras", []):
+            _v.setdefault("paras", []).append(_ABORD_TXT)
+    else:
+        for b in _bl:
+            if b.get("type") == "visit" and b.get("_id") == "primera-visita":
+                b["intro"] = b.get("intro", "") + " " + _ABORD_TXT
+                break

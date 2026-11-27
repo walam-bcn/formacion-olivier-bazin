@@ -5,7 +5,7 @@ Uso:  python3 tools/build_landings.py
 Los textos están en tools/landings_content.py. Lo que va entre [[ ]] es un dato
 pendiente de completar por WA LAM y se muestra resaltado en la página.
 """
-import html, json, re, sys
+import html, json, re, sys, unicodedata
 from pathlib import Path
 from urllib.parse import quote
 
@@ -700,7 +700,7 @@ def evidence(e):
         return ""
     refs = e.get("refs") or []
     rl = ""
-    if refs:
+    if refs and not any(u for _, _, u in ev_items(e)):
         lis = []
         for r in refs:
             t = r.get("t", "") if isinstance(r, dict) else str(r)
@@ -744,7 +744,7 @@ def socials():
 
 def newsletter():
     return f"""<section class="nl" id="newsletter"><div class="wrap"><div class="nlbox">
-<div class="nltx"><h2>{tr("Newsletter de WA LAM")}</h2>
+<div class="nltx"><h2>{tr("Newsletter")}</h2>
 <p>{tr("Suscríbase a la newsletter para estar al día de las últimas novedades en medicina integrativa y longevidad. Puede darse de baja cuando quiera.")}</p></div>
 <a class="btn btn-tq" href="{NEWSLETTER_URL}" target="_blank" rel="noopener">✉ {tr("Suscribirme a la newsletter")}</a>
 </div></div></section>"""
@@ -896,10 +896,12 @@ DIR_HUB = "medicina-integrativa-barcelona"
 
 def _chips(slugs, cur):
     out = []
+    _k = lambda x: unicodedata.normalize("NFD", plain(tr(BYSLUG[x]["nav"])).lower()).encode("ascii", "ignore")
+    slugs = sorted([x for x in dict.fromkeys(slugs) if x in BYSLUG], key=_k)
     for s in slugs:
         if s not in BYSLUG:
             continue
-        lab = html.escape(plain(BYSLUG[s]["nav"]))
+        lab = html.escape(plain(tr(BYSLUG[s]["nav"])))
         out.append(f'<span class="chip cur" aria-current="page">{lab}</span>' if s == cur else f'<a class="chip" href="{url(s)}">{lab}</a>')
     return '<div class="chips">' + "".join(out) + "</div>"
 
