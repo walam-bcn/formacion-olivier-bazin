@@ -3264,3 +3264,17 @@ for _p in PAGES:
     _first = [x for x in (_take("¿Qué es la salud pélvica"), _take("¿Qué problemas de vejiga"), _take("¿Qué dolores pélvicos"),
                           _take("¿Qué se aborda en el embarazo"), _take("¿Se reconoce")) if x]
     _p["blocks"] = _first + _bl
+
+# Rosa (27 nov 2026): la página general de salud pélvica también lleva primera y segunda visita y las tres fases
+for _p in PAGES:
+    if _p["slug"] != "suelo-pelvico-dolor-pelvico":
+        continue
+    _bl = _p["blocks"]
+    if any(b.get("type") in ("visit", "phases") for b in _bl):
+        continue
+    _k = next((k for k, b in enumerate(_bl) if str(b.get("h2", "")).startswith("¿Qué busca el tratamiento")), None)
+    _k = (_k + 1) if _k is not None else len(_bl)
+    _ph = _cp.deepcopy(PHASES_OSTEO)
+    _ph["items"][0]["paras"] = [_FI1.format(d="salud pélvica"), _FI2]
+    _v = dict(VISIT_OSTEO); _v["intro"] = VISIT_OSTEO["intro"] + " " + _ABORD_TXT
+    _bl[_k:_k] = [_v, dict(VISIT2_OSTEO), _ph]
