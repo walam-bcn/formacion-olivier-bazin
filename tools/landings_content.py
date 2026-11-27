@@ -3305,3 +3305,19 @@ for _p in PAGES:
         _mb = _bl.pop(_m)
         _f = next((k for k, b in enumerate(_bl) if str(b.get("h2", "")).startswith("¿Qué funciones cumple")), len(_bl))
         _bl.insert(_f, _mb)
+
+# Rosa (27 nov 2026): hormonas, embarazo, parto y posparto, y menopausia en un solo apartado (sin quitar texto)
+for _p in PAGES:
+    if _p["slug"] != "suelo-pelvico-dolor-pelvico":
+        continue
+    _bl = _p["blocks"]
+    _pref = ("¿Cómo influyen las hormonas", "¿Qué ocurre en la pelvis durante el embarazo", "¿Qué necesita el cuerpo para el parto", "¿Qué cambia en la perimenopausia")
+    _idx = [k for k, b in enumerate(_bl) if str(b.get("h2", "")).startswith(_pref)]
+    if len(_idx) == 4:
+        _paras = []
+        for k in _idx:
+            _paras += ["### " + _bl[k]["h2"]] + list(_bl[k].get("paras", []))
+        _new = dict(_bl[_idx[0]]); _new["h2"] = "¿Cómo cambia la pelvis a lo largo de la vida genital de la mujer?"; _new["paras"] = _paras
+        for k in sorted(_idx, reverse=True):
+            del _bl[k]
+        _bl.insert(_idx[0], _new)
