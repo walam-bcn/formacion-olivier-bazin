@@ -397,7 +397,7 @@ h1,h2,h3,h4,.btn,.btn-tq,.faq summary,b,strong,.explain .txt b,.card h3,.step h3
 .lg h3{font-size:18px!important;font-weight:700!important;color:var(--pet);padding-top:14px;border-top:2px solid var(--tq);margin-bottom:10px}
 .lg ul{list-style:none}.lg li{padding:4px 0}.lg a{color:var(--pet);text-decoration:none}.lg a:hover{color:#0a9a9c;text-decoration:underline}
 .lgall{margin-top:40px;text-align:center}
-.relchips{margin:34px 0 0}.relchips .chips{display:flex;flex-wrap:wrap;gap:10px;justify-content:center}.press{padding:44px 0!important;background:#f6f1ea}.prgrid{display:grid;grid-template-columns:1fr 1fr;gap:16px;max-width:980px;margin:0 auto}.prgrid.one{grid-template-columns:1fr;max-width:620px}.prbox{background:#fff;border:1px solid #e3d6c3;border-radius:12px;padding:18px 20px;text-align:left}.prm{display:block;font-family:Georgia,"Times New Roman",serif;font-size:22px;color:#1D3F40;margin:0 0 6px}.prh{font-weight:600;font-size:15px!important;color:#1D3F40;margin:0 0 6px!important;text-align:left!important}.prp{font-size:14px!important;line-height:1.5;margin:0 0 12px!important;text-align:left!important}.prbtn{display:inline-block;background:#2ec4c4;color:#fff!important;font-size:13px;font-weight:600;padding:7px 14px;border-radius:999px;text-decoration:none}.prbtn:hover{background:#0f8f8f}.prd{display:inline-block;margin-left:10px;font-size:12px;opacity:.7}@media(max-width:700px){.prgrid{grid-template-columns:1fr}}.cont .gmb{margin:-8px auto 22px!important}.cont .gmb a{color:#fff;opacity:.85;text-decoration:underline}
+.vgrid.v5{grid-template-columns:repeat(5,1fr)!important}.vgrid.v4{grid-template-columns:repeat(4,1fr)!important}.vgrid.v5 .vit p,.vgrid.v4 .vit p{text-align:center!important}@media(max-width:900px){.vgrid.v5,.vgrid.v4{grid-template-columns:1fr 1fr!important}}@media(max-width:520px){.vgrid.v5,.vgrid.v4{grid-template-columns:1fr!important}}.relchips{margin:34px 0 0}.relchips .chips{display:flex;flex-wrap:wrap;gap:10px;justify-content:center}.press{padding:44px 0!important;background:#f6f1ea}.prgrid{display:grid;grid-template-columns:1fr 1fr;gap:16px;max-width:980px;margin:0 auto}.prgrid.one{grid-template-columns:1fr;max-width:620px}.prbox{background:#fff;border:1px solid #e3d6c3;border-radius:12px;padding:18px 20px;text-align:left}.prm{display:block;font-family:Georgia,"Times New Roman",serif;font-size:22px;color:#1D3F40;margin:0 0 6px}.prh{font-weight:600;font-size:15px!important;color:#1D3F40;margin:0 0 6px!important;text-align:left!important}.prp{font-size:14px!important;line-height:1.5;margin:0 0 12px!important;text-align:left!important}.prbtn{display:inline-block;background:#2ec4c4;color:#fff!important;font-size:13px;font-weight:600;padding:7px 14px;border-radius:999px;text-decoration:none}.prbtn:hover{background:#0f8f8f}.prd{display:inline-block;margin-left:10px;font-size:12px;opacity:.7}@media(max-width:700px){.prgrid{grid-template-columns:1fr}}.cont .gmb{margin:-8px auto 22px!important}.cont .gmb a{color:#fff;opacity:.85;text-decoration:underline}
 .card,.q,.step,.evi{border-top:2px solid var(--tq)!important}
 .card h3,.step h3{font-weight:400!important}
 .mclose{font-weight:400!important}
@@ -951,7 +951,7 @@ _IC = {
     "plan": '<path d="M4 19h16M6 16l4-5 3 3 5-7"/><circle cx="18" cy="7" r="1"/>',
     "dialogo": '<path d="M4 5h11v8H9l-3 3v-3H4zM15 9h5v8h-2v3l-3-3h-4v-2"/>',
     "ejercicio": '<circle cx="15" cy="4.5" r="2"/><path d="M14 7l-4 4 3 3-2 6M10 11l-5 1M14 7l3 4h3"/>',
-    "pruebas": '<path d="M9 3h6M10 3v6l-5 9a2 2 0 002 3h10a2 2 0 002-3l-5-9V3"/><path d="M7 15h10"/>',
+    "tratamiento": '<path d="M3 16h18M5 16v3M19 16v3"/><circle cx="7" cy="12.5" r="1.8"/><path d="M10 13.5h9"/><path d="M11 9.5c1-2 2.5-3 4-3s3 1 4 3"/>', "pruebas": '<path d="M9 3h6M10 3v6l-5 9a2 2 0 002 3h10a2 2 0 002-3l-5-9V3"/><path d="M7 15h10"/>',
 }
 
 
@@ -963,7 +963,8 @@ def _icon(k):
 def visit(b):
     its = "".join(f'<div class="vit">{_icon(it.get("i"))}<h3>{fmt(it["h"])}</h3><p>{fmt(it.get("p", ""))}</p></div>' for it in b["items"])
     note = f'<p class="vnote">{fmt(b["note"])}</p>' if b.get("note") else ""
-    return f'<section class="visit"><div class="wrap">{sec_head(b.get("eyebrow", ""), b["h2"], b.get("intro"))}<div class="vgrid">{its}</div>{note}</div></section>'
+    n = len(b["items"]); cl = " v5" if n == 5 else (" v4" if n == 4 else "")
+    return f'<section class="visit"><div class="wrap">{sec_head(b.get("eyebrow", ""), b["h2"], b.get("intro"))}<div class="vgrid{cl}">{its}</div>{note}</div></section>'
 
 
 def phases(b):

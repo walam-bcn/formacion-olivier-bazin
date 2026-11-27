@@ -3093,3 +3093,38 @@ for _p in PAGES:
     if _k is None:
         _k = next((k for k, b in enumerate(_bl) if b.get("type") == "evidence"), len(_bl)) - 1
     _bl[_k + 1:_k + 1] = [dict(VISIT_PEL), dict(PHASES_PEL)]
+
+# Rosa (27 nov 2026): musculoesquelético y salud pélvica se trabajan con osteopatía: primera y segunda visita + tres fases
+VISIT_OSTEO = {"type": "visit", "eyebrow": "Primera visita", "h2": "Cómo es la primera visita", "_id": "primera-visita",
+               "intro": "Antes de tratar, hay que entender qué le pasa. La primera visita dura unos 60 minutos.",
+               "items": [
+                   {"i": "historia", "h": "Anamnesis", "p": "Su historia de salud: cómo empezaron las molestias, cómo evolucionan, sus antecedentes y las pruebas e informes que aporte."},
+                   {"i": "postura", "h": "Análisis postural", "p": "Cómo se reparten las cargas en su cuerpo, en reposo y en movimiento."},
+                   {"i": "movilidad", "h": "Examen osteopático", "p": "Valoración de la movilidad de las articulaciones, los músculos, las fascias y las vísceras relacionadas con sus molestias."},
+                   {"i": "palpacion", "h": "Palpación", "p": "Palpación y escucha manual de los tejidos para localizar las zonas de tensión y de restricción."},
+                   {"i": "tratamiento", "h": "Primer tratamiento osteopático", "p": "Si procede, el tratamiento se inicia en esa misma sesión."}],
+               "note": "Si detectamos alguna señal que requiera valoración médica, se lo indicamos antes de iniciar el tratamiento."}
+VISIT2_OSTEO = {"type": "visit", "eyebrow": "Seguimiento", "h2": "La segunda visita", "_id": "segunda-visita",
+                "items": [
+                    {"i": "historia", "h": "Informe y recomendaciones", "p": "Le entregamos un informe con consejos de higiene postural, hábitos y recomendaciones específicas."},
+                    {"i": "plan", "h": "Plan de visitas", "p": "Su plan de visitas, dividido en tres fases."},
+                    {"i": "tratamiento", "h": "Segundo tratamiento osteopático", "p": "Continuamos el tratamiento según lo valorado en la primera visita."},
+                    {"i": "ejercicio", "h": "Ejercicios y consejos", "p": "A lo largo del tratamiento le proponemos ejercicios personalizados y consejos de alimentación, dentro de un enfoque global de su salud."}]}
+from new_pages import AREA_EXTRA as _AE
+_OSTEO_SET = set(MSK_SLUGS) | set(PELVIC_OSTEO) | set(_AE[0])
+for _p in PAGES:
+    if _p["slug"] not in _OSTEO_SET or _p["slug"] == "suelo-pelvico-dolor-pelvico":
+        continue
+    _bl = _p["blocks"]
+    _mf = next((k for k, b in enumerate(_bl) if b.get("h2") == "Mi forma de trabajar"), None)
+    _bl[:] = [b for b in _bl if b.get("h2") != "Mi forma de trabajar" and b.get("_id") != "segunda-visita"]
+    _k = next((k for k, b in enumerate(_bl) if b.get("type") == "visit"), None)
+    if _k is None:
+        _k = next((k for k, b in enumerate(_bl) if b.get("type") == "phases"), None)
+        if _k is None:
+            _k = _mf if _mf is not None else next((k for k, b in enumerate(_bl) if b.get("type") == "evidence"), len(_bl))
+            _bl.insert(_k, dict(PHASES_MSK))
+        _bl.insert(_k, dict(VISIT_OSTEO))
+    else:
+        _bl[_k] = dict(VISIT_OSTEO)
+    _bl.insert(_k + 1, dict(VISIT2_OSTEO))
