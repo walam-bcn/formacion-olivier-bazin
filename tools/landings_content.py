@@ -3245,3 +3245,8 @@ for _p in PAGES:
 for _p in PAGES:
     if _p["slug"] == "suelo-pelvico-dolor-pelvico":
         _p["related"] = []
+
+# Rosa (27 nov 2026): título «Salud pélvica y urogenital»; palabra clave «salud pélvica»
+for _p in PAGES:
+    if _p["slug"] == "suelo-pelvico-dolor-pelvico":
+        _p["h1"] = "Salud pélvica y urogenital en Barcelona"; _p["title"] = "Salud pélvica y urogenital en Barcelona | WA LAM"; _p["nav"] = "Salud pélvica"

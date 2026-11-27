@@ -567,7 +567,7 @@ def hero(p):
     crumbs = ""
     if g and p["group"] != "home":
         crumbs = f'<div class="crumbs"><a href="{url("")}">{tr("Inicio")}</a> › <a href="{url(g["hub"])}">{g["nav"]}</a> › {html.escape(plain(p["nav"]))}</div>'
-    b1 = p.get("cta1", (tr("Escríbenos por WhatsApp"), wa(p["wa"])))
+    b1 = p.get("cta1", (tr("Reservar"), wa(p["wa"])))
     b2 = p.get("cta2", (tr("Reservar primera visita"), wa(tr("Hola, me gustaría reservar una primera visita."))))
     if not b2[1].startswith(("http", "#", "[[")):
         b2 = (b2[0], url(b2[1]))
@@ -597,7 +597,7 @@ def explain(e):
     ps = "".join(f"<p>{fmt(x)}</p>" for x in e["paras"])
     q = f'<div class="quote">{fmt(e["quote"])}</div>' if e.get("quote") else ""
     li = (f'<p class="k" style="text-align:center;margin-top:22px">{fmt(e["list_title"])}</p><ul class="ilist">' + "".join(f"<li>{fmt(x)}</li>" for x in e["list"]) + "</ul>") if e.get("list") else ""
-    btn = f'<div class="btn-row"><a class="btn btn-tq" href="{wa(e["wa_btn"])}" target="_blank" rel="noopener">{tr("Escríbenos por WhatsApp")}</a></div>' if e.get("wa_btn") else ""
+    btn = f'<div class="btn-row"><a class="btn btn-tq" href="{wa(e["wa_btn"])}" target="_blank" rel="noopener">{tr("Reservar")}</a></div>' if e.get("wa_btn") else ""
     if e.get("link_btn"):
         btn += f'<div class="btn-row"><a class="btn btn-gh" href="{e["link_btn"][1]}" target="_blank" rel="noopener">{tr(e["link_btn"][0])}</a></div>'
     return f'<section class="explain"><div class="wrap">{sec_head(e["eyebrow"], e["h2"], e.get("intro"))}<div class="txt">{ps}</div>{li}{q}{btn}</div></section>'
@@ -643,7 +643,7 @@ def steps(s):
 
 def pro(f, p):
     rows = "".join(f"<li><span>{fmt(a)}</span><b>{fmt(b)}</b></li>" for a, b in f["rows"] if plain(a) not in ("Profesional", "Profesionales", "Quién atiende"))
-    btn = f.get("btn", (tr("Reservar por WhatsApp"), wa(p["wa"])))
+    btn = f.get("btn", (tr("Reservar"), wa(p["wa"])))
     who = p.get("pro_who", "")
     cv = ""
     return f"""<section class="pro" id="ficha"><div class="wrap"><div class="pcard">
@@ -732,7 +732,7 @@ def ctaband(p):
     b2 = c.get("b2")
     b2h = f'<a class="btn btn-gh" href="{b2[1]}">{b2[0]}</a>' if b2 and not b2[1].startswith("tel:") else ""
     return f"""<section class="ctaband"><div class="wrap"><h2>{fmt(c['h2'])}</h2><p>{fmt(c['p'])}</p>
-<div class="btn-row"><a class="btn btn-dk" href="{wa(p['wa'])}" target="_blank" rel="noopener">{tr("Escríbenos por WhatsApp")}</a>{b2h}</div></div></section>"""
+<div class="btn-row"><a class="btn btn-dk" href="{wa(p['wa'])}" target="_blank" rel="noopener">{tr("Reservar")}</a>{b2h}</div></div></section>"""
 
 
 IG_SVG = '<svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="2.5" width="19" height="19" rx="5.5"/><circle cx="12" cy="12" r="4.3"/><circle cx="17.6" cy="6.4" r="1.1" fill="currentColor" stroke="none"/></svg>'
@@ -780,7 +780,7 @@ def contact(p):
 <h2>{fmt(p.get("cta", {}).get("h2") or tr("Estamos aquí para orientarte"))}</h2>
 <p>{fmt(p.get("cta", {}).get("p") or tr("Cuéntanos brevemente qué te ocurre o qué te interesa y te diremos con sinceridad si podemos ayudarte y con qué profesional."))}</p>
 <div class="datos"><span>📍 {fmt(SITE['address_short'])}</span><span>📧 {SITE['email']}</span><span>🕘 {tr(SITE['hours'])}</span></div>
-<div class="btn-row cbtns"><a class="btn btn-tq" href="{wa(p['wa'])}" target="_blank" rel="noopener">{tr("Escríbenos por WhatsApp")}</a><a class="btn btn-map" href="{DIR_URL}" target="_blank" rel="noopener">📍 {tr("Cómo llegar")}</a></div>
+<div class="btn-row cbtns"><a class="btn btn-tq" href="{wa(p['wa'])}" target="_blank" rel="noopener">{tr("Reservar")}</a><a class="btn btn-map" href="{DIR_URL}" target="_blank" rel="noopener">📍 {tr("Cómo llegar")}</a></div>
 <p class="gmb"><a href="{MAPS_URL}" target="_blank" rel="noopener">{tr("Ver WA LAM en Google Maps y sus opiniones")} →</a></p>
 <div class="soc">{socials()}</div>
 </div></section>
@@ -813,7 +813,7 @@ def evid_title(p):
 
 
 def wabtn(p):
-    return f'<div class="btn-row"><a class="btn btn-tq" href="{wa(p["wa"])}" target="_blank" rel="noopener">{tr("Escríbenos por WhatsApp")}</a></div>'
+    return f'<div class="btn-row"><a class="btn btn-tq" href="{wa(p["wa"])}" target="_blank" rel="noopener">{tr("Reservar")}</a></div>'
 
 
 def quick(p):
@@ -932,9 +932,9 @@ def directory(p):
 
 LON_SLUG, NEU_SLUG = "prevencion-longevidad", "neurolongevidad-salud-cognitiva"
 LON_TXT = {
-    "all": "La longevidad no es solo una cuestión de años, sino de vitalidad: despertar con energía, moverse con libertad y mantener la mente lúcida. Pioneros en longevidad y bienestar desde 1992, en WA LAM le acompañamos a cuidar su salud antes de perderla, con nuestro programa de **[longevidad y prevención](prevencion-longevidad)** y con la **[neurolongevidad](neurolongevidad-salud-cognitiva)**, dedicada a la salud del cerebro.",
-    LON_SLUG: "La vitalidad también se juega en el cerebro: descubra nuestro enfoque de **[neurolongevidad y salud cognitiva](neurolongevidad-salud-cognitiva)** para mantener la mente lúcida con el paso de los años.",
-    NEU_SLUG: "Una mente lúcida forma parte de una vida plena: conozca también nuestro programa de **[longevidad y prevención](prevencion-longevidad)** para cuidar su salud antes de perderla.",
+    "all": "La longevidad no es solo una cuestión de años, sino de vitalidad: despertar con energía, moverse con libertad y mantener la mente lúcida. Pioneros en longevidad y bienestar desde 1992, en WA LAM le acompañamos con nuestro programa de **[longevidad](prevencion-longevidad)** y **[neurolongevidad](neurolongevidad-salud-cognitiva)**, basado en la prevención: cuidar su salud antes de perderla.",
+    LON_SLUG: "La vitalidad también se juega en el cerebro: descubra nuestro programa de **[neurolongevidad](neurolongevidad-salud-cognitiva)**, basado en la prevención, para mantener la mente lúcida con el paso de los años.",
+    NEU_SLUG: "Una mente lúcida forma parte de una vida plena: conozca también nuestro programa de **[longevidad](prevencion-longevidad)**, basado en la prevención, para cuidar su salud antes de perderla.",
 }
 
 def lonband(p):
@@ -1252,7 +1252,7 @@ def guide():
                  "motivo": "MedicalWebPage (con about: MedicalCondition), BreadcrumbList, FAQPage",
                  "servicio": "MedicalWebPage, Service, BreadcrumbList, FAQPage",
                  "academia": "Course, BreadcrumbList, FAQPage; Event en cada edición (ya lo genera Wix Eventos)"}[x["group"]]
-        btn = plain(x.get("cta1", (tr("Escríbenos por WhatsApp"), ""))[0])
+        btn = plain(x.get("cta1", (tr("Reservar"), ""))[0])
         cards.append(f"""<details class="wix"><summary><b>{lab(sl)}</b> <code>{html.escape(unquote(_wixurl(sl)))}</code></summary>
 <table class="kv"><tr><th>URL (ES)</th><td><code>{html.escape(unquote(_wixurl(sl)))}</code> {'(ya existe)' if sl in EXISTING else '(crear)'}</td></tr>
 <tr><th>URL (CA)</th><td><code>{html.escape(unquote(_wixurl(sl, 'ca')))}</code> (Wix Multilingual)</td></tr>
@@ -1360,6 +1360,8 @@ def main():
     out.mkdir(parents=True, exist_ok=True)
     for p in PAGES:
         _h = fix_bonos(page(p))
+        _h = re.sub(r">\s*(?:Escr[íi]b[ae]nos|Escriviu-nos|Escriu-nos|Reservar) per? WhatsApp\s*<", ">" + ("Reservar" if True else "") + "<", _h)
+        _h = re.sub(r">\s*Escr[íi]b[ae]nos por WhatsApp\s*<", ">Reservar<", _h)
         import landings_content as _LC2
         if p["slug"] in _LC2._NOPRICE:
             _h = re.sub(r"\s*\((?:[^()<>]{0,40}?)\d+\s?€(?:[^()<>]{0,40}?)\)", "", _h)

@@ -251,8 +251,8 @@
       "@type": "MedicalWebPage",
       "@id": "https://www.walambcn.com/suelo-pelvico-barcelona#webpage",
       "url": "https://www.walambcn.com/suelo-pelvico-barcelona",
-      "name": "Suelo pélvico en Barcelona | WA LAM",
-      "description": "Suelo pélvico en Sarrià–Sant Gervasi, Barcelona: osteopatía urogenital de abordaje externo para la salud pélvica de la mujer. Primera valoración: 60 min.",
+      "name": "Salud pélvica y urogenital en Barcelona | WA LAM",
+      "description": "Salud pélvica y urogenital en Sarrià–Sant Gervasi, Barcelona: suelo pélvico y osteopatía urogenital de abordaje externo para la mujer.",
       "inLanguage": "es-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -267,7 +267,7 @@
       },
       "lastReviewed": "2026-11-18",
       "dateModified": "2026-11-18",
-      "keywords": "suelo pélvico Barcelona, osteopatía suelo pélvico Barcelona, salud pélvica mujer Barcelona, osteopatía urogenital, suelo pélvico Sant Gervasi, valoración suelo pélvico",
+      "keywords": "salud pélvica Barcelona, suelo pélvico Barcelona, osteopatía suelo pélvico Barcelona, salud pélvica mujer Barcelona, osteopatía urogenital, suelo pélvico Sant Gervasi, valoración suelo pélvico",
       "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/suelo-pelvico-dolor-pelvico.png",
       "speakable": {
         "@type": "SpeakableSpecification",
