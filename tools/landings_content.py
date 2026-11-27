@@ -3055,5 +3055,13 @@ for _p in PAGES:
     _bl.insert(_k + 1, {"type": "chips", "eyebrow": "Nuestro abordaje", "h2": "¿Cómo lo abordamos en WA LAM?",
                         "intro": "En WA LAM, la salud pélvica se aborda con osteopatía y fisioterapia.",
                         "items": [("Osteopatía", "osteopatia-sarria-sant-gervasi"), ("Osteopatía visceral", "osteopatia-visceral-barcelona"),
-                                  ("Osteopatía craneosacral", "osteopatia-craneosacral-barcelona"), ("Fisioterapia", "fisioterapia-sarria-sant-gervasi"),
-                                  ("Salud pélvica", "suelo-pelvico-dolor-pelvico")]})
+                                  ("Osteopatía craneosacral", "osteopatia-craneosacral-barcelona"), ("Fisioterapia", "fisioterapia-sarria-sant-gervasi")]})
+
+
+# Rosa (27 nov 2026): en las páginas de salud pélvica (abordaje con osteopatía y fisioterapia) no va «Mi forma de trabajar»
+PELVIC_OSTEO = PELVIC_LIGHT + ["suelo-pelvico-dolor-pelvico", "neuralgia-pudendo", "incontinencia-urinaria-esfuerzo", "cistitis-repeticion-vejiga-dolorosa",
+                               "prolapso-organos-pelvicos", "dispareunia-dolor-relaciones", "dolor-menstrual-endometriosis", "dolor-coxis-coccigodinia",
+                               "dolor-pelvico-barcelona", "osteopatia-embarazo-posparto", "acompanamiento-fertilidad", "ejercicios-suelo-pelvico"]
+for _p in PAGES:
+    if _p["slug"] in PELVIC_OSTEO:
+        _p["blocks"] = [b for b in _p["blocks"] if b.get("h2") != "Mi forma de trabajar"]
