@@ -756,9 +756,9 @@ PRESS = [{"medio": "La Vanguardia", "fecha": "4 de octubre de 2026", "url": "htt
          {"medio": "La Vanguardia", "fecha": "6 de septiembre de 2026", "url": "https://www.lavanguardia.com/empresas-de-vanguardia/historias-de-exito/20260906/11623679/olivier-bazin-movilidad-organos-influir-sintomas-aparentemente-alejados-zona-encuentra-alteracion.html", "olivier": True, "iso": "2026-09-06",
           "h": "Olivier Bazin, entrevistado en La Vanguardia",
           "p": "El diario de referencia en toda España entrevista a Olivier Bazin, D.O., sobre cómo la movilidad de los órganos puede influir en síntomas aparentemente alejados de la zona donde se encuentra la alteración."},
-         {"medio": "Catalunya Digital", "fecha": "2026", "url": "https://catalunyadigital.es/wa-lam/",
-          "h": "Rosa Rodríguez Valls, entrevistada en Catalunya Digital",
-          "p": "Una entrevista a la fundadora de WA LAM sobre el mindfulness y la meditación."}]
+         {"medio": "Catalunya Digital", "fecha": "22 de octubre de 2026", "url": "https://catalunyadigital.es/wa-lam/", "btn": "Leer el artículo",
+          "h": "WA LAM: meditación y salud cerebral para una longevidad consciente en Barcelona",
+          "p": "Rosa María Rodríguez, fundadora de WA LAM, escribe sobre meditación, salud cerebral y cómo vivir los años con claridad mental y autonomía."}]
 
 
 def press(p=None):
@@ -769,9 +769,9 @@ def press(p=None):
             continue
         out.append(f'<div class="prbox"><span class="prm">{x["medio"]}</span>'
                    f'<p class="prh">{tr(x["h"])}</p><p class="prp">{tr(x["p"])}</p>'
-                   f'<a class="prbtn" href="{x["url"]}" target="_blank" rel="noopener">{tr("Leer la entrevista")} →</a>'
+                   f'<a class="prbtn" href="{x["url"]}" target="_blank" rel="noopener">{tr(x.get("btn", "Leer la entrevista"))} →</a>'
                    f'<span class="prd">{tr(x["fecha"])}</span></div>')
-    return ('<section class="press" id="en-los-medios"><div class="wrap">' + sec_head("", tr("Prensa"), tr("Las últimas entrevistas de 2026"))
+    return ('<section class="press" id="en-los-medios"><div class="wrap">' + sec_head("", tr("Prensa"), tr("Las últimas apariciones en prensa de 2026"))
             + f'<div class="prgrid{" one" if len(out) == 1 else (" three" if len(out) == 3 else "")}">' + "".join(out) + "</div></div></section>")
 
 
