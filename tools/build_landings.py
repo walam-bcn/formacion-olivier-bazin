@@ -644,11 +644,13 @@ def steps(s):
 def pro(f, p):
     rows = "".join(f"<li><span>{fmt(a)}</span><b>{fmt(b)}</b></li>" for a, b in f["rows"] if plain(a) not in ("Profesional", "Profesionales", "Quién atiende"))
     btn = f.get("btn", (tr("Reservar"), wa(p["wa"])))
+    if not str(btn[1]).startswith(("http", "/", "#")):
+        btn = (tr(btn[0]), url(btn[1]))
     who = p.get("pro_who", "")
     cv = ""
-    return f"""<section class="pro" id="ficha"><div class="wrap"><div class="pcard">
+    return f"""<section class="pro" id="{f.get('_id', 'ficha')}"><div class="wrap"><div class="pcard">
 <div class="l"><span class="k">{fmt(f['k'])}</span><h3>{fmt(f['h'])}</h3><p>{fmt(f['p'])}</p>{cv}</div>
-<div class="r"><ul class="rows">{rows}</ul><a class="btn btn-tq" href="{btn[1]}" target="_blank" rel="noopener">{btn[0]}</a></div>
+<div class="r"><ul class="rows">{rows}</ul><a class="btn btn-tq" href="{btn[1]}"{'' if f.get('_id') else ' target="_blank" rel="noopener"'}>{btn[0]}</a></div>
 </div></div></section>"""
 
 
@@ -750,19 +752,19 @@ def newsletter():
 </div></div></section>"""
 
 
-PRESS = [{"medio": "La Vanguardia", "fecha": "4 de octubre de 2026", "url": "https://www.lavanguardia.com/empresas-de-vanguardia/historias-de-exito/20261004/11647353/salud-proceso-fijo-forma-conectar-sintomas-historia-clinica-estilo-vida.html",
-          "h": "Rosa Rodríguez Valls, entrevistada en La Vanguardia",
-          "p": "El diario de referencia en toda España entrevista a la fundadora de WA LAM sobre su forma de entender la salud: conectar los síntomas con la historia clínica y el estilo de vida de cada persona."},
-         {"medio": "La Vanguardia", "fecha": "6 de septiembre de 2026", "url": "https://www.lavanguardia.com/empresas-de-vanguardia/historias-de-exito/20260906/11623679/olivier-bazin-movilidad-organos-influir-sintomas-aparentemente-alejados-zona-encuentra-alteracion.html", "olivier": True, "iso": "2026-09-06",
+PRESS = [{"medio": "La Vanguardia", "fecha": "6 de septiembre de 2026", "url": "https://www.lavanguardia.com/empresas-de-vanguardia/historias-de-exito/20260906/11623679/olivier-bazin-movilidad-organos-influir-sintomas-aparentemente-alejados-zona-encuentra-alteracion.html", "olivier": True, "iso": "2026-09-06",
           "h": "Olivier Bazin, entrevistado en La Vanguardia",
           "p": "El diario de referencia en toda España entrevista a Olivier Bazin, D.O., sobre cómo la movilidad de los órganos puede influir en síntomas aparentemente alejados de la zona donde se encuentra la alteración."},
+         {"medio": "La Vanguardia", "fecha": "4 de octubre de 2026", "url": "https://www.lavanguardia.com/empresas-de-vanguardia/historias-de-exito/20261004/11647353/salud-proceso-fijo-forma-conectar-sintomas-historia-clinica-estilo-vida.html",
+          "h": "Rosa Rodríguez Valls, entrevistada en La Vanguardia",
+          "p": "El diario de referencia en toda España entrevista a la fundadora de WA LAM sobre su forma de entender la salud: conectar los síntomas con la historia clínica y el estilo de vida de cada persona."},
          {"medio": "Catalunya Digital", "fecha": "22 de octubre de 2026", "url": "https://catalunyadigital.es/wa-lam/", "btn": "Leer el artículo",
           "h": "WA LAM: meditación y salud cerebral para una longevidad consciente en Barcelona",
           "p": "Rosa María Rodríguez, fundadora de WA LAM, escribe sobre meditación, salud cerebral y cómo vivir los años con claridad mental y autonomía."}]
 
 
 def press(p=None):
-    oli = bool(p) and any(b.get("eyebrow") in ("Para profesionales", "Per a professionals") for b in p.get("blocks", []))
+    oli = True  # Rosa (27 nov 2026): las 3 entrevistas en todas las páginas
     out = []
     for x in PRESS:
         if x.get("olivier") and not oli:

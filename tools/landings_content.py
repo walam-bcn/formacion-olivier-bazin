@@ -3402,3 +3402,14 @@ for _p in PAGES:
                 _b["paras"] = _b["paras"][:_k + 1] + [_PRO_LUMB] + _b["paras"][_k + 1:]
         if _p["slug"] == "lumbalgia-ciatica-origen-visceral" and _b.get("h2") == "¿Qué órganos pueden dar dolor lumbar o ciático?" and _PRO_VISC not in _b.get("list", []):
             _b["list"] = list(_b["list"]) + [_PRO_VISC]
+
+# Rosa (27 nov 2026): recuadro en dolor lumbar que anuncia la salud pélvica masculina y lleva a su página
+_BOX_PRO = {"type": "pro", "_id": "salud-pelvica-masculina", "k": "Salud pélvica masculina", "h": "¿Y si su dolor lumbar viene de la próstata?",
+            "p": "Cuando el dolor en la zona lumbar baja o en el sacro se acompaña de molestias en el periné, al orinar o al eyacular, el origen puede estar en la **próstata** o en el **suelo pélvico**. Le explicamos cómo se valora y cómo lo abordamos, siempre de forma manual y externa.",
+            "rows": [["Prostatitis crónica", "Dolor pélvico sin infección"], ["Dolor lumbar referido", "Sacro, periné e ingle"], ["Suelo pélvico masculino", "Tensión o debilidad"], ["Abordaje", "Manual y externo"]],
+            "btn": ["Ver salud pélvica masculina", "prostata-salud-pelvica-masculina"]}
+for _p in PAGES:
+    if _p["slug"] == "lumbalgia-dolor-lumbar" and not any(b.get("_id") == "salud-pelvica-masculina" for b in _p["blocks"]):
+        _k = next((i for i, b in enumerate(_p["blocks"]) if _PRO_LUMB in b.get("paras", [])), None)
+        if _k is not None:
+            _p["blocks"].insert(_k + 1, dict(_BOX_PRO))
