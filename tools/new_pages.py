@@ -135,7 +135,7 @@ AREAS = [
     ("Metabolismo", "04", ["salud-metabolica", "perdida-de-peso-sarria-sant-gervasi", "dejar-de-fumar-acupuntura"]),
     ("Energía, estrés y sueño", "05", ["nervio-vago", "osteopatia-trauma", "agotamiento-fisico-emocional", "cortisol-estres-cronico", "fatiga-cronica-agotamiento", "estres-ansiedad", "sueno-insomnio"]),
     ("Salud de la mujer", "06", ["salud-mujer-menopausia", "sindrome-ovario-poliquistico", "candidiasis-vaginal-repeticion",
-                                 "suelo-pelvico-dolor-pelvico", "dolor-pelvico-barcelona", "ejercicios-suelo-pelvico", "cistitis-repeticion-vejiga-dolorosa", "acompanamiento-fertilidad", "congestion-pelvica-sindrome-premenstrual", "trompas-salpingitis", "dolor-ovarico-quistes-ovario", "retroversion-utero", "vejiga-hiperactiva-urgencia", "cicatrices-episiotomia-cesarea", "sindrome-lacomme-dolor-pelvis-embarazo", "sindrome-ligamento-redondo", "posparto-recuperacion", "dolor-ingle-neuralgia-obturador", "lumbalgia-ciatica-origen-visceral"]),
+                                 "suelo-pelvico-dolor-pelvico", "dolor-pelvico-barcelona", "ejercicios-suelo-pelvico", "cistitis-repeticion-vejiga-dolorosa", "acompanamiento-fertilidad", "congestion-pelvica-sindrome-premenstrual", "trompas-salpingitis", "dolor-ovarico-quistes-ovario", "retroversion-utero", "vejiga-hiperactiva-urgencia", "cicatrices-episiotomia-cesarea", "sindrome-lacomme-dolor-pelvis-embarazo", "sindrome-ligamento-redondo", "posparto-recuperacion", "dolor-ingle-neuralgia-obturador", "lumbalgia-ciatica-origen-visceral", "prostata-salud-pelvica-masculina"]),
     ("Sistema endocrino", "07", ["hipotiroidismo-hashimoto"]),
 ]
 
@@ -284,7 +284,7 @@ AREA_EXTRA = [
     ["estres-ansiedad", "cortisol-estres-cronico", "sueno-insomnio", "fatiga-cronica-agotamiento", "agotamiento-fisico-emocional"],
     ["salud-mujer-menopausia", "sindrome-ovario-poliquistico", "acompanamiento-fertilidad", "dolor-menstrual-endometriosis", "candidiasis-vaginal-repeticion",
      "osteopatia-embarazo-posparto", "suelo-pelvico-dolor-pelvico", "dolor-pelvico-barcelona", "ejercicios-suelo-pelvico", "incontinencia-urinaria-esfuerzo",
-     "prolapso-organos-pelvicos", "cistitis-repeticion-vejiga-dolorosa", "dispareunia-dolor-relaciones", "neuralgia-pudendo", "dolor-coxis-coccigodinia", "congestion-pelvica-sindrome-premenstrual", "trompas-salpingitis", "dolor-ovarico-quistes-ovario", "retroversion-utero", "vejiga-hiperactiva-urgencia", "cicatrices-episiotomia-cesarea", "sindrome-lacomme-dolor-pelvis-embarazo", "sindrome-ligamento-redondo", "posparto-recuperacion", "dolor-ingle-neuralgia-obturador", "lumbalgia-ciatica-origen-visceral"],
+     "prolapso-organos-pelvicos", "cistitis-repeticion-vejiga-dolorosa", "dispareunia-dolor-relaciones", "neuralgia-pudendo", "dolor-coxis-coccigodinia", "congestion-pelvica-sindrome-premenstrual", "trompas-salpingitis", "dolor-ovarico-quistes-ovario", "retroversion-utero", "vejiga-hiperactiva-urgencia", "cicatrices-episiotomia-cesarea", "sindrome-lacomme-dolor-pelvis-embarazo", "sindrome-ligamento-redondo", "posparto-recuperacion", "dolor-ingle-neuralgia-obturador", "lumbalgia-ciatica-origen-visceral", "prostata-salud-pelvica-masculina"],
     ["hipotiroidismo-hashimoto"],
 ]
 

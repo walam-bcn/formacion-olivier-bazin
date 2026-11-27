@@ -1,0 +1,369 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": [
+        "MedicalClinic",
+        "MedicalBusiness"
+      ],
+      "@id": "https://www.walambcn.com/#clinica",
+      "name": "WA LAM",
+      "alternateName": "Wa Lam · Medicina integrativa",
+      "hasMap": "https://share.google/ND7AyHqhaIKZufsCF",
+      "url": "https://www.walambcn.com",
+      "telephone": "+34675716409",
+      "email": "contacto@walambcn.com",
+      "image": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/medicina-integrativa-barcelona.png",
+      "priceRange": "€€",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Carrer del Bisbe Sivilla, 44, local",
+        "postalCode": "08022",
+        "addressLocality": "Barcelona",
+        "addressRegion": "Cataluña",
+        "addressCountry": "ES"
+      },
+      "openingHours": [
+        "Mo-Fr 09:00-21:00"
+      ],
+      "founder": {
+        "@type": "Person",
+        "name": "Rosa María Rodríguez Valls",
+        "url": "https://www.walambcn.com/curriculum",
+        "subjectOf": [
+          {
+            "@type": "NewsArticle",
+            "publisher": {
+              "@type": "Organization",
+              "name": "La Vanguardia"
+            },
+            "url": "https://www.lavanguardia.com/empresas-de-vanguardia/historias-de-exito/20261004/11647353/salud-proceso-fijo-forma-conectar-sintomas-historia-clinica-estilo-vida.html",
+            "datePublished": "2026-10-04"
+          },
+          {
+            "@type": "NewsArticle",
+            "publisher": {
+              "@type": "Organization",
+              "name": "Catalunya Digital"
+            },
+            "url": "https://catalunyadigital.es/wa-lam/",
+            "datePublished": "2026-10-04"
+          }
+        ]
+      },
+      "foundingDate": "2004",
+      "areaServed": [
+        {
+          "@type": "Place",
+          "name": "Sarrià, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Sant Gervasi–Galvany, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Sant Gervasi–la Bonanova, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "les Tres Torres, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "el Putxet i el Farró, Barcelona"
+        },
+        {
+          "@type": "Place",
+          "name": "Vallvidrera, el Tibidabo i les Planes, Barcelona"
+        },
+        {
+          "@type": "City",
+          "name": "Barcelona"
+        }
+      ],
+      "medicalSpecialty": [
+        "Physiotherapy",
+        "Musculoskeletal"
+      ],
+      "availableService": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Programes RE:TRACE",
+          "url": "https://www.walambcn.com/ca/programes-re-trace"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Osteopatia",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/osteopatia-sarria-sant-gervasi"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Osteopatia visceral",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/osteopatia-visceral-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Osteopatia craniosacral",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/osteopatia-craniosacral-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Manipulació neural i neurovisceral",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/manipulacions-neuroviscerals"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Pèrdua de pes",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/perdua-de-pes"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Deixar de fumar amb acupuntura",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/acupuntura-deixar-de-fumar"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Acupuntura i medicina tradicional xinesa",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/acupuntura-medicina-tradicional-xinesa"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "PNIE",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/pni-pnie-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Nutrició i salut intestinal",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/nutricio-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Drenatge limfàtic manual",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/drenatge-limfatic-manual"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Drenatge limfàtic en l'embaràs",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/drenatge-limfatic-embaras"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Drenatge limfàtic manual postoperatori",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/drenatge-limfatic-postoperatori"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Drenatge limfàtic per al limfedema",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/drenatge-limfatic-limfedema"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Massatge terapèutic",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/massatge-terapeutic"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Reflexologia podal",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/reflexologia-podal"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Ioga terapèutic",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/ioga-terapeutic"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Qigong (chi kung)",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/qigong-chikung"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Fàscia i alliberament miofascial",
+          "url": "https://www.walambcn.com/ca/osteopatia-fascia-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Osteopatia i trauma",
+          "url": "https://www.walambcn.com/ca/osteopatia-trauma"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Osteopatia en nadons i infants",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/osteopatia-nadons-infants"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Classes d'estiraments",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/classes-estiraments"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Reiki",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/reiki-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Nervi vague i teoria polivagal",
+          "url": "https://www.walambcn.com/ca/osteopatia-nervi-vague-teoria-polivagal"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Mindfulness",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/mindfulness-barcelona"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Fisioteràpia",
+          "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/fisioterapia-sarria-sant-gervasi"
+        }
+      ],
+      "sameAs": [
+        "https://share.google/ND7AyHqhaIKZufsCF",
+        "https://www.instagram.com/walam_bcn/"
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/prostata-salut-pelviana-masculina#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Inicio",
+          "item": "https://www.walambcn.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "En què puc ser-li útil?",
+          "item": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Pròstata i salut pelviana masculina",
+          "item": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/prostata-salut-pelviana-masculina"
+        }
+      ]
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/prostata-salut-pelviana-masculina#webpage",
+      "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/prostata-salut-pelviana-masculina",
+      "name": "Pròstata i salut pelviana masculina a Barcelona | WA LAM",
+      "description": "Prostatitis crònica i dolor pelvià en l'home, molèsties urinàries, pèrdues després de la prostatectomia i dolor lumbar referit: valoració manual i abordatge extern amb osteopatia i fisioteràpia a Sarrià–Sant Gervasi, Barcelona.",
+      "inLanguage": "ca-ES",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "WA LAM",
+        "url": "https://www.walambcn.com"
+      },
+      "breadcrumb": {
+        "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/prostata-salut-pelviana-masculina#breadcrumb"
+      },
+      "publisher": {
+        "@id": "https://www.walambcn.com/#clinica"
+      },
+      "lastReviewed": "2026-11-18",
+      "dateModified": "2026-11-18",
+      "keywords": "prostatitis crónica Barcelona, dolor pélvico crónico hombre, suelo pélvico masculino Barcelona, dolor perineal hombre, incontinencia tras prostatectomía, próstata dolor lumbar",
+      "primaryImageOfPage": "https://walam-bcn.github.io/formacion-olivier-bazin/landings/og/prostata-salud-pelvica-masculina.png",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".quick p",
+          "h1"
+        ]
+      },
+      "audience": {
+        "@type": "Patient"
+      },
+      "reviewedBy": {
+        "@type": "Person",
+        "name": "Rosa María Rodríguez Valls",
+        "jobTitle": "Osteópata D.O. y máster en medicina integrativa",
+        "worksFor": {
+          "@id": "https://www.walambcn.com/#clinica"
+        }
+      },
+      "about": {
+        "@type": "MedicalCondition",
+        "name": "Prostatitis crònica",
+        "possibleTreatment": []
+      },
+      "citation": [
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Krieger JN, Nyberg L Jr, Nickel JC. NIH consensus definition and classification of prostatitis. JAMA. 1999;282(3):236–237.",
+          "url": "https://doi.org/10.1001/jama.282.3.236",
+          "sameAs": "https://doi.org/10.1001/jama.282.3.236"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "FitzGerald MP, Anderson RU, Potts J, et al. Randomized multicenter feasibility trial of myofascial physical therapy for the treatment of urological chronic pelvic pain syndromes. J Urol. 2009;182(2):570–580.",
+          "url": "https://doi.org/10.1016/j.juro.2009.04.022",
+          "sameAs": "https://doi.org/10.1016/j.juro.2009.04.022"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Anderson RU, Wise D, Sawyer T, Chan C. Integration of myofascial trigger point release and paradoxical relaxation training treatment of chronic pelvic pain in men. J Urol. 2005;174(1):155–160.",
+          "url": "https://doi.org/10.1097/01.ju.0000161609.31185.d5",
+          "sameAs": "https://doi.org/10.1097/01.ju.0000161609.31185.d5"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Rees J, Abrahams M, Doble A, Cooper A; Prostatitis Expert Reference Group. Diagnosis and treatment of chronic bacterial prostatitis and chronic prostatitis/chronic pelvic pain syndrome: a consensus guideline. BJU Int. 2015;116(4):509–525.",
+          "url": "https://doi.org/10.1111/bju.13101",
+          "sameAs": "https://doi.org/10.1111/bju.13101"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/prostata-salut-pelviana-masculina#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "La prostatitis és sempre una infecció?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. La forma més freqüent és la síndrome de dolor pelvià crònic, en què no es troba cap bacteri i el sòl pelvià i el sistema nerviós hi tenen un paper important."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "L'home també té sòl pelvià?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. Sosté la bufeta i el recte, ajuda a controlar l'orina i participa en l'erecció i l'ejaculació."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "La pròstata pot donar dolor d'esquena?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. Comparteix innervació amb la zona lumbar baixa i el sacre, i la seva irritació es pot sentir com a dolor lumbar referit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "El tractament és intern?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. A WA LAM l'abordatge és sempre manual i extern."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Puc venir després d'una operació de pròstata?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí, quan el seu uròleg ho autoritzi. El treball del sòl pelvià i de les cicatrius ajuda a recuperar el control de l'orina."
+          }
+        }
+      ]
+    }
+  ]
+}

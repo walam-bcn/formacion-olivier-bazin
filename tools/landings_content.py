@@ -2609,7 +2609,7 @@ OLIVIER_PAGES = ["suelo-pelvico-dolor-pelvico", "dolor-pelvico-barcelona", "ejer
                  "incontinencia-urinaria-esfuerzo", "prolapso-organos-pelvicos", "salud-mujer-menopausia", "sindrome-ovario-poliquistico",
                  "candidiasis-vaginal-repeticion", "acompanamiento-fertilidad", "manipulaciones-neuroviscerales", "osteopatia-visceral-barcelona",
                  "osteopatia-sarria-sant-gervasi", "osteopatia-craneosacral-barcelona", "nervio-vago",
-                 "osteopatia-fascia-barcelona", "osteopatia-trauma", "cicatrices-adherencias", "osteopatia-bebes-ninos", "fisioterapia-sarria-sant-gervasi", "congestion-pelvica-sindrome-premenstrual", "trompas-salpingitis", "dolor-ovarico-quistes-ovario", "retroversion-utero", "vejiga-hiperactiva-urgencia", "cicatrices-episiotomia-cesarea", "sindrome-lacomme-dolor-pelvis-embarazo", "sindrome-ligamento-redondo", "posparto-recuperacion", "dolor-ingle-neuralgia-obturador", "lumbalgia-ciatica-origen-visceral"]
+                 "osteopatia-fascia-barcelona", "osteopatia-trauma", "cicatrices-adherencias", "osteopatia-bebes-ninos", "fisioterapia-sarria-sant-gervasi", "congestion-pelvica-sindrome-premenstrual", "trompas-salpingitis", "dolor-ovarico-quistes-ovario", "retroversion-utero", "vejiga-hiperactiva-urgencia", "cicatrices-episiotomia-cesarea", "sindrome-lacomme-dolor-pelvis-embarazo", "sindrome-ligamento-redondo", "posparto-recuperacion", "dolor-ingle-neuralgia-obturador", "lumbalgia-ciatica-origen-visceral", "prostata-salud-pelvica-masculina"]
 for _p in PAGES:
     if _p["slug"] in OLIVIER_PAGES:
         _p["blocks"] = [b for b in _p["blocks"] if b.get("h2") != "Para profesionales" and b.get("eyebrow") != "Para profesionales"]
@@ -3044,7 +3044,7 @@ for _p in PAGES:
 
 
 # Rosa (26 nov 2026): páginas ligeras de salud pélvica (libro de Olivier Bazin): abordaje con osteopatía y fisioterapia
-PELVIC_LIGHT = ['congestion-pelvica-sindrome-premenstrual', 'trompas-salpingitis', 'dolor-ovarico-quistes-ovario', 'retroversion-utero', 'vejiga-hiperactiva-urgencia', 'cicatrices-episiotomia-cesarea', 'sindrome-lacomme-dolor-pelvis-embarazo', 'sindrome-ligamento-redondo', 'posparto-recuperacion', 'dolor-ingle-neuralgia-obturador', 'lumbalgia-ciatica-origen-visceral']
+PELVIC_LIGHT = ['congestion-pelvica-sindrome-premenstrual', 'trompas-salpingitis', 'dolor-ovarico-quistes-ovario', 'retroversion-utero', 'vejiga-hiperactiva-urgencia', 'cicatrices-episiotomia-cesarea', 'sindrome-lacomme-dolor-pelvis-embarazo', 'sindrome-ligamento-redondo', 'posparto-recuperacion', 'dolor-ingle-neuralgia-obturador', 'lumbalgia-ciatica-origen-visceral', 'prostata-salud-pelvica-masculina']
 for _p in PAGES:
     if _p["slug"] not in PELVIC_LIGHT:
         continue
@@ -3188,7 +3188,7 @@ for _p in PAGES:
 
 # Rosa (27 nov 2026): la fase intensiva trabaja la dolencia de cada página y regula el sistema nervioso
 _DOL_OVR = {"Acompañamiento en fertilidad": "dificultades para concebir", "Osteopatía en el embarazo y el posparto": "molestias del embarazo y el posparto",
-            "Ejercicios de suelo pélvico": "debilidad o tensión del suelo pélvico", "Osteoporosis y salud ósea": "osteoporosis",
+            "Ejercicios de suelo pélvico": "debilidad o tensión del suelo pélvico", "Osteoporosis y salud ósea": "osteoporosis", "Próstata y salud pélvica masculina": "molestias de la próstata y del suelo pélvico masculino", "Pròstata i salut pelviana masculina": "molèsties de la pròstata i del sòl pelvià masculí",
             "Acompanyament en fertilitat": "dificultats per concebre", "Osteopatia a l'embaràs i el postpart": "molèsties de l'embaràs i el postpart",
             "Exercicis de sòl pelvià": "debilitat o tensió del sòl pelvià", "Osteoporosi i salut òssia": "osteoporosi"}
 def _dolencia(nav):
@@ -3381,3 +3381,24 @@ for _p in PAGES:
         _bl = _p["blocks"]
         _first = [next(b for b in _bl if b.get("h2") == h) for h in _HUB_ORDER]
         _p["blocks"] = _first + [b for b in _bl if not any(b is f for f in _first)]
+
+# Rosa (27 nov 2026): salud del hombre — próstata en el hub, en el dolor lumbar referido y en la lumbalgia de origen visceral
+_PRO_HUB = ["### Salud pélvica masculina:",
+            "**[Próstata y salud pélvica masculina](prostata-salud-pelvica-masculina)**: la prostatitis crónica, que en la mayoría de los hombres es un **síndrome de dolor pélvico crónico** sin infección, con dolor en el periné, los testículos, el pubis o la zona lumbar baja; las molestias urinarias del aumento de la próstata; y las pérdidas de orina tras una operación de próstata. El hombre también tiene suelo pélvico."]
+_PRO_LUMB = ("En el hombre, la **[próstata](prostata-salud-pelvica-masculina)** es un origen frecuente de **dolor lumbar bajo y sacro referido**, sobre todo en la prostatitis crónica: "
+             "se sospecha cuando el dolor de espalda se acompaña de molestias en el periné, al orinar o al eyacular. En estos casos el abordaje no se limita a la columna: "
+             "se valoran y se tratan de forma manual y externa la pelvis, la vejiga, el suelo pélvico y el sacro, junto con la regulación del sistema nervioso.")
+_PRO_VISC = ("**Próstata**: en el hombre, la irritación de la próstata o la tensión del suelo pélvico que la rodea refiere dolor a la zona lumbar baja, el sacro y el periné, "
+             "a menudo con molestias al orinar. Ver [próstata y salud pélvica masculina](prostata-salud-pelvica-masculina).")
+for _p in PAGES:
+    for _b in _p["blocks"]:
+        if _p["slug"] == "suelo-pelvico-dolor-pelvico" and _b.get("h2") == "¿Cuáles son los principales motivos de consulta?" and _PRO_HUB[0] not in _b["paras"]:
+            _ps = _b["paras"]
+            _k = next((i for i, x in enumerate(_ps) if x.startswith("### Las diferentes etapas")), len(_ps))
+            _b["paras"] = _ps[:_k] + _PRO_HUB + _ps[_k:]
+        if _p["slug"] == "lumbalgia-dolor-lumbar" and _b.get("h2") in ("Cuando el dolor de espalda viene de una víscera", "¿Puede un dolor de espalda venir de una víscera?") and _PRO_LUMB not in _b["paras"]:
+            _k = next((i for i, x in enumerate(_b["paras"]) if "próstata" in x), None)
+            if _k is not None:
+                _b["paras"] = _b["paras"][:_k + 1] + [_PRO_LUMB] + _b["paras"][_k + 1:]
+        if _p["slug"] == "lumbalgia-ciatica-origen-visceral" and _b.get("h2") == "¿Qué órganos pueden dar dolor lumbar o ciático?" and _PRO_VISC not in _b.get("list", []):
+            _b["list"] = list(_b["list"]) + [_PRO_VISC]
