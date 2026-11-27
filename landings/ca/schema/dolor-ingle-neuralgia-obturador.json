@@ -280,7 +280,7 @@
       },
       "about": {
         "@type": "MedicalCondition",
-        "name": "Neuralgia del obturador",
+        "name": "Neuràlgia de l'obturador",
         "possibleTreatment": []
       },
       "citation": [

@@ -437,7 +437,7 @@
         },
         {
           "@type": "Question",
-          "name": "¿Necesito una radiografía?",
+          "name": "Necessito una radiografia?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Solo si se cumplen las reglas de Ottawa: no poder dar cuatro pasos o dolor al presionar puntos concretos de los huesos del tobillo y del pie. En los demás casos no suele hacer falta."

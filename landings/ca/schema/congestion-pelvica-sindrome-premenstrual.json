@@ -280,7 +280,7 @@
       },
       "about": {
         "@type": "MedicalCondition",
-        "name": "Congestión pélvica y síndrome premenstrual",
+        "name": "Congestió pelviana i síndrome premenstrual",
         "possibleTreatment": [
           {
             "@type": "MedicalTherapy",

@@ -243,7 +243,7 @@
       "@id": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/dolor-coccix-coccigodinia#webpage",
       "url": "https://www.walambcn.com/ca/tractaments-sarria-sant-gervasi-barcelona/dolor-coccix-coccigodinia",
       "name": "Dolor de còccix (coccigodínia) a Barcelona | WA LAM",
-      "description": "Qué es la coccigodinia o dolor de coxis, su anatomía, sus causas (caídas, parto, postura sentada), su relación con la pelvis y el suelo pélvico, las señales de alarma y su tratamiento conservador con abordaje externo en Sarrià–Sant Gervasi, Barcelona.",
+      "description": "Què és la coccigodínia o dolor de còccix, la seva anatomia, les seves causes (caigudes, part, postura asseguda), la seva relació amb la pelvis i el sòl pelvià, els senyals d'alarma i el seu tractament conservador amb abordatge extern a Sarrià–Sant Gervasi, Barcelona.",
       "inLanguage": "ca-ES",
       "isPartOf": {
         "@type": "WebSite",
@@ -346,10 +346,10 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "¿Puede aparecer el dolor de coxis después del parto?",
+          "name": "Pot aparèixer el dolor de còccix després del part?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí. El parto vaginal es una de las causas más características, sobre todo si fue difícil o con fórceps. Si el dolor dura más allá de las primeras semanas, conviene valorarlo."
+            "text": "Sí. El part vaginal és una de les causes més característiques, sobretot si va ser difícil o amb fòrceps. Si el dolor dura més enllà de les primeres setmanes, convé valorar-lo."
           }
         },
         {
@@ -357,47 +357,47 @@
           "name": "El tractament és intern?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. El abordaje es siempre externo: se trabaja a través de la pelvis, el sacro, los glúteos, los ligamentos, el abdomen y la respiración."
+            "text": "No. L'abordatge és sempre extern: es treballa a través de la pelvis, el sacre, els glutis, els lligaments, l'abdomen i la respiració."
           }
         },
         {
           "@type": "Question",
-          "name": "¿Qué cojín es mejor para el dolor de coxis?",
+          "name": "Quin coixí és millor per al dolor de còccix?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Un cojín en cuña con un hueco en la parte posterior, que deja el coxis sin apoyo y reparte el peso sobre los isquiones. Los cojines en forma de rosco suelen descargar menos el coxis."
+            "text": "Un coixí en falca amb un buit a la part posterior, que deixa el còccix sense suport i reparteix el pes sobre els isquis. Els coixins en forma de rosca solen descarregar menys el còccix."
           }
         },
         {
           "@type": "Question",
-          "name": "¿Por qué me duele más al levantarme de la silla?",
+          "name": "Per què em fa més mal en aixecar-me de la cadira?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Al levantarse, el coxis deja de recibir carga y los músculos y ligamentos que se insertan en él, incluido el suelo pélvico, tiran de él de golpe. Inclinarse hacia delante y apoyarse en los muslos al levantarse lo suaviza."
+            "text": "En aixecar-se, el còccix deixa de rebre càrrega i els músculs i lligaments que s'hi insereixen, inclòs el sòl pelvià, l'estiren de cop. Inclinar-se cap endavant i recolzar-se a les cuixes en aixecar-se ho suavitza."
           }
         },
         {
           "@type": "Question",
-          "name": "¿Qué relación tiene con el suelo pélvico?",
+          "name": "Quina relació té amb el sòl pelvià?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Parte de la musculatura del suelo pélvico se inserta en el coxis. Ante el dolor, tiende a contraerse de forma protectora, y esa tensión mantenida puede perpetuar el dolor y producir molestias al defecar o en las relaciones. Por eso se valora siempre en conjunto."
+            "text": "Part de la musculatura del sòl pelvià s'insereix al còccix. Davant del dolor, tendeix a contraure's de manera protectora, i aquesta tensió mantinguda pot perpetuar el dolor i produir molèsties en defecar o en les relacions. Per això es valora sempre en conjunt."
           }
         },
         {
           "@type": "Question",
-          "name": "¿Necesito una radiografía?",
+          "name": "Necessito una radiografia?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No siempre. La decide el médico, sobre todo para descartar una fractura o una enfermedad grave. Si el dolor persiste, las radiografías dinámicas, sentada y de pie, pueden mostrar si el coxis está luxado o es hipermóvil."
+            "text": "No sempre. La decideix el metge, sobretot per descartar una fractura o una malaltia greu. Si el dolor persisteix, les radiografies dinàmiques, asseguda i dreta, poden mostrar si el còccix està luxat o és hipermòbil."
           }
         },
         {
           "@type": "Question",
-          "name": "¿Se cura el dolor de coxis?",
+          "name": "Es cura el dolor de còccix?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "La mayoría de los casos mejora con tratamiento conservador. Cuando se hace persistente, el plan combina medidas posturales, ejercicio, tratamiento manual externo y, si hace falta, opciones médicas escalonadas que decide el especialista."
+            "text": "La majoria dels casos millora amb tractament conservador. Quan es fa persistent, el pla combina mesures posturals, exercici, tractament manual extern i, si cal, opcions mèdiques esglaonades que decideix l'especialista."
           }
         },
         {
@@ -405,7 +405,7 @@
           "name": "Quantes sessions necessitaré?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Depende del origen del dolor, del tiempo de evolución y de la respuesta de cada persona. Tras la primera visita se propone un plan con objetivos claros, ejercicios para casa y revisiones que se van espaciando."
+            "text": "Depèn de l'origen del dolor, del temps d'evolució i de la resposta de cada persona. Després de la primera visita es proposa un pla amb objectius clars, exercicis per a casa i revisions que es van espaiant."
           }
         },
         {

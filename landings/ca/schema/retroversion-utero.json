@@ -280,7 +280,7 @@
       },
       "about": {
         "@type": "MedicalCondition",
-        "name": "Retroversión uterina",
+        "name": "Retroversió uterina",
         "possibleTreatment": []
       },
       "citation": [

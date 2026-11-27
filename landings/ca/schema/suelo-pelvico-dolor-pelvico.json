@@ -280,7 +280,7 @@
       },
       "about": {
         "@type": "MedicalCondition",
-        "name": "Salud pélvica femenina",
+        "name": "Salut pelviana femenina",
         "possibleTreatment": []
       },
       "citation": [

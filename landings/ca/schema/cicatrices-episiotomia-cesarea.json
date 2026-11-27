@@ -280,7 +280,7 @@
       },
       "about": {
         "@type": "MedicalCondition",
-        "name": "Cicatrices de episiotomía y cesárea",
+        "name": "Cicatrius d'episiotomia i cesària",
         "possibleTreatment": []
       },
       "citation": [
