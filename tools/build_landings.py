@@ -1192,7 +1192,7 @@ def hubcards(b):
         G = GROUPS[g]
         cs = "".join(
             f'<a class="card" href="{url(x["slug"])}"><span class="k">{G["label"]}</span><h3>{fmt(x["nav"])}</h3><p>{fmt(x["card"])}</p><span class="go">{tr("Ver página →")}</span></a>'
-            for x in PAGES if x["group"] == g and x["slug"] not in ("programas-re-trace", "formacion-re-trace"))
+            for x in PAGES if x["group"] == g and x["slug"] not in ("programas-re-trace", "formacion-re-trace") and x["slug"] not in _pri)
         out.append(f'<section class="rel" id="{ {"motivo": "motivos", "servicio": "servicios", "academia": "academia"}[g]}"><div class="wrap">{sec_head(G["eyebrow"], G["title"], G["intro"])}<div class="grid">{cs}</div></div></section>')
     return "\n".join(out)
 
@@ -1373,6 +1373,13 @@ def main():
             for p in PAGES:
                 S = SEO[p["slug"]]; w.writerow(["/" + p["slug"], S["title"], fix_bonos(S["desc"]), plain(p["h1"]), S["kw"], "; ".join(S["kws"]), S["ca"]])
     rows = []
+    import landings_content as _LC
+    _pri = ["suelo-pelvico-dolor-pelvico"] + [x for x in _LC.PELVIC_OSTEO if x != "suelo-pelvico-dolor-pelvico"] + \
+           [x for x in _LC.OLIVIER_PAGES if x not in _LC.PELVIC_OSTEO and x != "suelo-pelvico-dolor-pelvico"]
+    _pri = [x for x in dict.fromkeys(_pri) if x in BYSLUG]
+    _card = lambda x: (f'<a class="card" href="{x["slug"]}.html" target="_self"><span class="k">/{x["slug"]}</span><h3>{fmt(x["nav"])}</h3><p>{fmt(x["card"])}</p></a>')
+    rows.append('<div class="hubgrp" id="prioridad"><span class="k">Prioridad</span><h2>Salud pélvica y páginas del curso de Olivier Bazin</h2><div class="grid">'
+                + "".join(_card(BYSLUG[x]) for x in _pri) + "</div></div>")
     for g in ("home", "motivo", "servicio", "academia"):
         G = GROUPS[g]
         cs = "".join(
