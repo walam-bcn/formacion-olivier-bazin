@@ -3369,3 +3369,15 @@ for _p in PAGES:
             _bl.remove(_mv[0])
             _k = next(i for i, b in enumerate(_bl) if b.get("h2") == "¿Cómo funciona el suelo pélvico?")
             _bl.insert(_k + 1, _mv[0])
+
+# Rosa (27 nov 2026): orden del hub — primero entender la pelvis, luego motivos y etapas de la vida
+_HUB_ORDER = ["¿Qué es la salud pélvica y urogenital?", "¿Qué tiene de particular la región pélvica y urogenital?",
+              "¿Cómo funciona el suelo pélvico?", "¿Con qué otras partes del cuerpo se relaciona la pelvis?",
+              "¿Cómo se mueven los órganos de la pelvis?", "¿Qué ocurre cuando un órgano pierde movilidad?",
+              "¿Por qué hay que mirar la pelvis en su conjunto?", "¿Cuáles son los principales motivos de consulta?",
+              "¿Cómo cambia la pelvis a lo largo de la vida genital de la mujer?"]
+for _p in PAGES:
+    if _p["slug"] == "suelo-pelvico-dolor-pelvico":
+        _bl = _p["blocks"]
+        _first = [next(b for b in _bl if b.get("h2") == h) for h in _HUB_ORDER]
+        _p["blocks"] = _first + [b for b in _bl if not any(b is f for f in _first)]
